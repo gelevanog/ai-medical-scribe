@@ -486,7 +486,20 @@
       "score": 1.0
      }
     ],
-    "flags": []
+    "flags": [
+     {
+      "kind": "dose_mismatch",
+      "severity": "warning",
+      "message": "The lamotrigine dose was corrected in the conversation (150); confirm the final dose.",
+      "acknowledged": false,
+      "detail": {
+       "doses": [
+        "150"
+       ],
+       "turn": 12
+      }
+     }
+    ]
    },
    {
     "name": "multivitamin",
@@ -591,16 +604,16 @@
    "plan": "draft"
   },
   "model": "openrouter/nvidia/nemotron-3-super-120b-a12b:free",
-  "created_at": "2026-10-13T05:33:00.044800Z",
+  "created_at": "2026-10-13T05:38:12.016391Z",
   "signed_by": null,
   "signed_at": null,
   "timings": {
-   "phi_masking": 0.026,
-   "llm_note": 18.683,
-   "guards_note": 0.164,
-   "llm_codes": 3.992,
-   "guards_codes": 0.089,
-   "total": 22.954
+   "phi_masking": 0.083,
+   "llm_note": 0.014,
+   "guards_note": 0.058,
+   "llm_codes": 0.031,
+   "guards_codes": 0.033,
+   "total": 0.219
   },
   "usage": {
    "input_tokens": 4988,
@@ -674,18 +687,23 @@
   "case": "mh-04",
   "specialty": "mental_health",
   "facts": 24,
-  "found": 23,
-  "found_in_section": 22,
-  "negation_errors": [],
+  "found": 22,
+  "found_in_section": 21,
+  "negation_errors": [
+   "f14: Mental status - bright and relaxed, euthymic mood, normal non-pressured speech, organized thoughts (present)"
+  ],
   "trap_errors": [],
   "missed": [
-   "f3 [subjective] Last hypomanic episode 2 years ago"
+   "f3 [subjective] Last hypomanic episode 2 years ago",
+   "f14 [objective] Mental status - bright and relaxed, euthymic mood, normal non-pressured speech, organized thoughts"
   ],
   "statements": 24,
   "statements_matching_gold": 21,
   "unsupported": 0,
   "partial": 0,
-  "flags": {},
+  "flags": {
+   "dose_mismatch": 1
+  },
   "meds": 3,
   "meds_found": 2,
   "meds_dose_correct": 1,

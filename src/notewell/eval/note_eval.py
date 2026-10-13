@@ -164,9 +164,9 @@ def score_note(case: Case, note: Note) -> CaseScore:
         gold_drug = normalize_drug(gm.name)
         for med in note.medications:
             drug = normalize_drug(med.name)
-            same = (
-                drug is not None and gold_drug is not None and drug.name == gold_drug.name
-            ) or med.name.lower() == gm.name.lower()
+            same = (drug is not None and gold_drug is not None and drug.name == gold_drug.name) or _same_name(
+                med.name, gm.name
+            )
             if same:
                 score.meds_found += 1
                 if not gm.dose or (numbers(gm.dose) & numbers(f"{med.dose}")):
@@ -201,6 +201,17 @@ def score_note(case: Case, note: Note) -> CaseScore:
     score.procedures_gold = len(gold_proc)
     score.procedures_found = len(gold_proc & {p.code for p in note.procedures})
     return score
+
+
+def _same_name(a: str, b: str) -> bool:
+    """ "metoprolol" ~ "metoprolol tartrate", "biotin (gummy)" ~ "biotin", "norgestimate" ~ "norgestimate-ethinyl ...":
+    the first significant word of either name appears in the other."""
+
+    def words(x: str) -> list[str]:
+        return [w for w in re.findall(r"[a-z0-9]+", re.sub(r"\(.*?\)", " ", x.lower())) if len(w) >= 4]
+
+    wa, wb = words(a), words(b)
+    return bool(wa and wb) and (wa[0] in wb or wb[0] in wa)
 
 
 def _score_fact(fact: GoldFact, lines: list[tuple[str, str]], score: CaseScore, matched: set[int]) -> None:

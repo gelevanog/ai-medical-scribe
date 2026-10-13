@@ -21,7 +21,7 @@ const browser = await puppeteer.launch({
   args: ["--no-sandbox", "--font-render-hinting=none"],
 });
 
-async function open(path, { width = 1280, height = 800, scale = 1.25 } = {}) {
+async function open(path, { width = 1600, height = 1000, scale = 1 } = {}) {
   const page = await browser.newPage();
   await page.setViewport({ width, height, deviceScaleFactor: scale });
   await page.emulateMediaFeatures([{ name: "prefers-color-scheme", value: "light" }]);
@@ -74,7 +74,7 @@ async function signAndExport(id) {
 for (const shot of shots) {
   if (shot === "hero") {
     const page = await open(`/visits/${HERO_VISIT}`);
-    await hoverStatement(page, process.env.HERO_STATEMENT || "denies waking up");
+    await hoverStatement(page, process.env.HERO_STATEMENT || "denies chest pain");
     await page.screenshot({ path: `${out}/hero.png` });
     await page.close();
   } else if (shot === "masked") {

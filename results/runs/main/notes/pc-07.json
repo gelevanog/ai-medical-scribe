@@ -227,7 +227,7 @@
    {
     "id": "s13",
     "section": "subjective",
-    "text": "Taking hair, skin and nails gummy with biotin",
+    "text": "Taking hair, skin and nails gummy containing biotin",
     "evidence": [
      {
       "turn": 21,
@@ -244,7 +244,7 @@
    {
     "id": "s14",
     "section": "subjective",
-    "text": "Denies tobacco use",
+    "text": "Never smoked",
     "evidence": [
      {
       "turn": 22,
@@ -259,16 +259,8 @@
       "score": 1.0
      }
     ],
-    "support": "partial",
-    "flags": [
-     {
-      "kind": "partial_support",
-      "severity": "warning",
-      "message": "Quoted turn does not contain most of its terms; check against the transcript.",
-      "acknowledged": false,
-      "detail": {}
-     }
-    ],
+    "support": "supported",
+    "flags": [],
     "origin": "model",
     "edited": false
    },
@@ -286,23 +278,6 @@
      {
       "turn": 25,
       "quote": "Codeine makes me throw up, really badly.",
-      "verified": true,
-      "score": 1.0
-     }
-    ],
-    "support": "supported",
-    "flags": [],
-    "origin": "model",
-    "edited": false
-   },
-   {
-    "id": "s16",
-    "section": "subjective",
-    "text": "Moved from Pittsburgh to 4417 Juniper Ridge Drive in August",
-    "evidence": [
-     {
-      "turn": 3,
-      "quote": "4417 Juniper Ridge Drive. We moved here from Pittsburgh in August.",
       "verified": true,
       "score": 1.0
      }
@@ -451,7 +426,7 @@
    {
     "id": "o9",
     "section": "objective",
-    "text": "Prior TSH 5.8 on May",
+    "text": "Prior TSH 5.8 (from May)",
     "evidence": [
      {
       "turn": 16,
@@ -468,58 +443,7 @@
    {
     "id": "o10",
     "section": "objective",
-    "text": "Prior total cholesterol 248 on May",
-    "evidence": [
-     {
-      "turn": 16,
-      "quote": "And your cholesterol panel from May shows total cholesterol 248, LDL 164, HDL 52, and triglycerides 160.",
-      "verified": true,
-      "score": 1.0
-     }
-    ],
-    "support": "supported",
-    "flags": [],
-    "origin": "model",
-    "edited": false
-   },
-   {
-    "id": "o11",
-    "section": "objective",
-    "text": "Prior LDL 164 on May",
-    "evidence": [
-     {
-      "turn": 16,
-      "quote": "And your cholesterol panel from May shows total cholesterol 248, LDL 164, HDL 52, and triglycerides 160.",
-      "verified": true,
-      "score": 1.0
-     }
-    ],
-    "support": "supported",
-    "flags": [],
-    "origin": "model",
-    "edited": false
-   },
-   {
-    "id": "o12",
-    "section": "objective",
-    "text": "Prior HDL 52 on May",
-    "evidence": [
-     {
-      "turn": 16,
-      "quote": "And your cholesterol panel from May shows total cholesterol 248, LDL 164, HDL 52, and triglycerides 160.",
-      "verified": true,
-      "score": 1.0
-     }
-    ],
-    "support": "supported",
-    "flags": [],
-    "origin": "model",
-    "edited": false
-   },
-   {
-    "id": "o13",
-    "section": "objective",
-    "text": "Prior triglycerides 160 on May",
+    "text": "Prior total cholesterol 248, LDL 164, HDL 52, triglycerides 160 (from May)",
     "evidence": [
      {
       "turn": 16,
@@ -655,7 +579,7 @@
    {
     "id": "p5",
     "section": "plan",
-    "text": "Stop biotin gummy 3 days before blood draw",
+    "text": "Stop biotin-containing gummy 3 days before blood draw",
     "evidence": [
      {
       "turn": 30,
@@ -752,7 +676,7 @@
    {
     "id": "p10",
     "section": "plan",
-    "text": "Patient to provide email for portal: s s petrova 79 at example dot com",
+    "text": "Patient to provide email for portal access",
     "evidence": [
      {
       "turn": 36,
@@ -771,7 +695,7 @@
    {
     "name": "levothyroxine",
     "dose": "88 micrograms",
-    "frequency": "once daily",
+    "frequency": "daily",
     "route": "oral",
     "status": "active",
     "evidence": [
@@ -811,7 +735,7 @@
    {
     "name": "vitamin D",
     "dose": "2000 units",
-    "frequency": "once daily",
+    "frequency": "daily",
     "route": "oral",
     "status": "active",
     "evidence": [
@@ -833,9 +757,9 @@
     ]
    },
    {
-    "name": "biotin (in hair, skin and nails gummy)",
+    "name": "biotin (in hair, skin, nails gummy)",
     "dose": "unspecified",
-    "frequency": "unspecified",
+    "frequency": "daily",
     "route": "oral",
     "status": "active",
     "evidence": [
@@ -850,7 +774,7 @@
      {
       "kind": "unknown_drug",
       "severity": "warning",
-      "message": "'biotin (in hair, skin and nails gummy)' is not in the drug list: check the spelling and the dose yourself.",
+      "message": "'biotin (in hair, skin, nails gummy)' is not in the drug list: check the spelling and the dose yourself.",
       "acknowledged": false,
       "detail": {}
      }
@@ -877,7 +801,7 @@
     ]
    }
   ],
-  "after_visit_summary": "You have Hashimoto's thyroiditis, which causes an underactive thyroid. Your thyroid hormone level (TSH) is a bit high, likely because coffee and calcium can block absorption of your medicine. We will adjust how you take your levothyroxine: take it alone with water first thing in the morning, wait 30-60 minutes before coffee or breakfast, and take your calcium at least 4 hours later, preferably with dinner. Keep taking levothyroxine 88 micrograms daily. Stop the biotin gummy 3 days before your next blood test. Your cholesterol is high, which can be related to your thyroid. We will check a fasting lipid panel and repeat thyroid tests in 6 weeks. If your TSH remains above 4.5, we may increase your levothyroxine to 100 micrograms. Eat more fiber, less saturated fat, and exercise regularly. Follow-up in 6-8 weeks after your labs. Your portal email is s s petrova 79 at example dot com.",
+  "after_visit_summary": "You have Hashimoto's thyroiditis, which causes an underactive thyroid. Your thyroid hormone level (TSH) is a bit high, likely because coffee and calcium can block the absorption of your levothyroxine medicine. For now, continue taking levothyroxine 88 micrograms each day, but take it alone with water first thing in the morning, waiting 30 to 60 minutes before coffee or breakfast. Take your calcium at least 4 hours later, such as with dinner. Stop taking the biotin gummy for 3 days before your next blood test. We will recheck your thyroid levels and check a fasting cholesterol panel in 6 weeks. If your TSH remains above 4.5, we may increase your levothyroxine to 100 micrograms. Your cholesterol is high (total 248, LDL 164), which can be related to your thyroid. Improve your diet by eating more fiber and less saturated fat, and get regular exercise. Follow up in 6 to 8 weeks after your labs. If you have worsening fatigue, weight gain, or other concerns, contact the clinic sooner. Welcome to the practice.",
   "avs_flags": [],
   "icd10": [
    {
@@ -885,8 +809,20 @@
     "code": "E03.9",
     "description": "Hypothyroidism, unspecified",
     "rank": 1,
-    "rationale": "Hypothyroidism, unspecified is the most specific billable code supported by the assessment of hypothyroidism due to Hashimoto's thyroiditis, as the candidate list lacks E06.3 (Autoimmune thyroiditis) and E03.9 is appropriate for documented hypothyroidism.",
+    "rationale": "Hypothyroidism, unspecified is the most specific billable code supported by the assessment of hypothyroidism due to Hashimoto's thyroiditis, as the candidate list does not include E06.3 (Autoimmune thyroiditis) which would be more specific for Hashimoto's.",
     "evidence": [
+     {
+      "turn": 7,
+      "quote": "I was diagnosed with Hashimoto's in 2015. I take levothyroxine, 88 micrograms every morning.",
+      "verified": true,
+      "score": 1.0
+     },
+     {
+      "turn": 16,
+      "quote": "Your last TSH in the records, from May, was 5.8, which is a bit high.",
+      "verified": true,
+      "score": 1.0
+     },
      {
       "turn": 28,
       "quote": "So, two things. First, your hypothyroidism from Hashimoto's.",
@@ -901,10 +837,10 @@
    },
    {
     "system": "ICD-10-CM",
-    "code": "E78.5",
-    "description": "Hyperlipidemia, unspecified",
+    "code": "E78.2",
+    "description": "Mixed hyperlipidemia",
     "rank": 2,
-    "rationale": "Hyperlipidemia, unspecified is the most specific billable code supported by the assessment of elevated cholesterol and the plan to order a lipid panel, as the candidate list lacks E78.0 (Pure hypercholesterolemia) and E78.5 is appropriate for documented hyperlipidemia.",
+    "rationale": "Mixed hyperlipidemia is the most specific billable code supported by the assessment of elevated total cholesterol, LDL, and triglycerides with low HDL, consistent with the lipid panel results provided.",
     "evidence": [
      {
       "turn": 16,
@@ -930,7 +866,7 @@
    "code": "99203",
    "description": "New patient office visit, low-complexity decision making",
    "rank": 1,
-   "rationale": "Moderate medical decision making: two chronic conditions (hypothyroidism, hyperlipidemia) managed with prescription drug adjustments and lab ordering, moderate risk, new patient visit.",
+   "rationale": "For a new patient visit, the medical decision making involves two stable chronic conditions (hypothyroidism and hyperlipidemia) with low risk (prescription drug management for levothyroxine and lifestyle advice), which corresponds to moderate complexity and supports level 99203 under the 2021 AMA office visit guidelines.",
    "evidence": [],
    "valid": true,
    "billable": true,
@@ -967,20 +903,20 @@
    "plan": "draft"
   },
   "model": "openrouter/nvidia/nemotron-3-super-120b-a12b:free",
-  "created_at": "2026-10-13T05:23:43.078692Z",
+  "created_at": "2026-10-13T05:37:07.481666Z",
   "signed_by": null,
   "signed_at": null,
   "timings": {
-   "phi_masking": 0.03,
-   "llm_note": 34.475,
-   "guards_note": 0.039,
-   "llm_codes": 4.844,
-   "guards_codes": 0.019,
-   "total": 39.407
+   "phi_masking": 0.081,
+   "llm_note": 19.131,
+   "guards_note": 0.138,
+   "llm_codes": 4.393,
+   "guards_codes": 0.131,
+   "total": 23.874
   },
   "usage": {
-   "input_tokens": 4790,
-   "output_tokens": 3323,
+   "input_tokens": 4738,
+   "output_tokens": 3192,
    "calls": 2
   },
   "phi": {
@@ -1001,7 +937,7 @@
    "[DATE_1]": "August",
    "[NAME_2]": "Ostrowski",
    "[DATE_2]": "May",
-   "[EMAIL_1]": "s s petrova 79 at example dot com"
+   "[EMAIL_1]": "s petrova 79 at example dot com"
   },
   "surfaces": {
    "[NAME_1]": [
@@ -1030,7 +966,7 @@
     "May"
    ],
    "[EMAIL_1]": [
-    "s s petrova 79 at example dot com"
+    "s petrova 79 at example dot com"
    ]
   },
   "types": {
@@ -1055,19 +991,20 @@
   "case": "pc-07",
   "specialty": "primary_care",
   "facts": 28,
-  "found": 27,
-  "found_in_section": 27,
+  "found": 26,
+  "found_in_section": 25,
   "negation_errors": [],
   "trap_errors": [],
   "missed": [
+   "f1 [subjective] New patient, moved from Pittsburgh in August; records from prior physician reviewed",
    "f13 [subjective] Not on any cholesterol medication, previously advised diet"
   ],
-  "statements": 42,
-  "statements_matching_gold": 36,
+  "statements": 38,
+  "statements_matching_gold": 34,
   "unsupported": 0,
-  "partial": 2,
+  "partial": 1,
   "flags": {
-   "partial_support": 2,
+   "partial_support": 1,
    "unknown_drug": 3
   },
   "meds": 4,
@@ -1076,7 +1013,7 @@
   "icd_primary": "E06.3",
   "icd_suggested": [
    "E03.9",
-   "E78.5"
+   "E78.2"
   ],
   "icd_top1": false,
   "icd_top3": false,

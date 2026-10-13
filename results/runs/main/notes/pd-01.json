@@ -656,16 +656,16 @@
    "plan": "draft"
   },
   "model": "openrouter/nvidia/nemotron-3-super-120b-a12b:free",
-  "created_at": "2026-10-13T05:29:27.405607Z",
+  "created_at": "2026-10-13T05:37:47.744005Z",
   "signed_by": null,
   "signed_at": null,
   "timings": {
-   "phi_masking": 0.037,
-   "llm_note": 0.01,
-   "guards_note": 0.068,
-   "llm_codes": 0.067,
-   "guards_codes": 0.042,
-   "total": 0.224
+   "phi_masking": 0.082,
+   "llm_note": 0.008,
+   "guards_note": 0.079,
+   "llm_codes": 0.069,
+   "guards_codes": 0.046,
+   "total": 0.284
   },
   "usage": {
    "input_tokens": 5738,
@@ -734,11 +734,14 @@
   "case": "pd-01",
   "specialty": "pediatrics",
   "facts": 31,
-  "found": 29,
-  "found_in_section": 28,
-  "negation_errors": [],
+  "found": 28,
+  "found_in_section": 27,
+  "negation_errors": [
+   "f8: Decreased appetite, drinking fluids okay (present)"
+  ],
   "trap_errors": [],
   "missed": [
+   "f8 [subjective] Decreased appetite, drinking fluids okay",
    "f23 [assessment] Concurrent viral upper respiratory infection",
    "f30 [plan] Return immediately for swelling or redness behind the ear or lethargy"
   ],

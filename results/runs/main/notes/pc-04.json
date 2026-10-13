@@ -670,16 +670,16 @@
    "plan": "draft"
   },
   "model": "openrouter/nvidia/nemotron-3-super-120b-a12b:free",
-  "created_at": "2026-10-13T05:22:10.631832Z",
+  "created_at": "2026-10-13T05:36:43.090773Z",
   "signed_by": null,
   "signed_at": null,
   "timings": {
-   "phi_masking": 0.022,
-   "llm_note": 20.736,
-   "guards_note": 0.038,
-   "llm_codes": 2.247,
-   "guards_codes": 0.031,
-   "total": 23.074
+   "phi_masking": 0.04,
+   "llm_note": 0.009,
+   "guards_note": 0.058,
+   "llm_codes": 0.02,
+   "guards_codes": 0.032,
+   "total": 0.159
   },
   "usage": {
    "input_tokens": 5057,
@@ -741,12 +741,17 @@
   "case": "pc-04",
   "specialty": "primary_care",
   "facts": 28,
-  "found": 26,
-  "found_in_section": 26,
-  "negation_errors": [],
+  "found": 24,
+  "found_in_section": 24,
+  "negation_errors": [
+   "f3: Pain radiates into the right buttock, not down the leg (present)",
+   "f16: Straight leg raise negative bilaterally (present)"
+  ],
   "trap_errors": [],
   "missed": [
+   "f3 [subjective] Pain radiates into the right buttock, not down the leg",
    "f11 [subjective] Works as a warehouse shift lead",
+   "f16 [objective] Straight leg raise negative bilaterally",
    "f20 [plan] No imaging indicated"
   ],
   "statements": 31,

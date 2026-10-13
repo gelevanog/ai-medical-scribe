@@ -5,7 +5,7 @@
    {
     "id": "s1",
     "section": "subjective",
-    "text": "Patient reports feeling halfway better since starting escitalopram, not lying awake every night but worrying still present most days.",
+    "text": "Anxiety symptoms improved but still present, not lying awake every night anymore, worrying still there most days",
     "evidence": [
      {
       "turn": 3,
@@ -22,7 +22,7 @@
    {
     "id": "s2",
     "section": "subjective",
-    "text": "Worrying primarily about work reorganization and upcoming baby due November.",
+    "text": "Worrying mostly about work reorganization and upcoming baby due date",
     "evidence": [
      {
       "turn": 5,
@@ -39,7 +39,7 @@
    {
     "id": "s3",
     "section": "subjective",
-    "text": "Patient reports shoulders tight all the time and snapping at people more than desired.",
+    "text": "Shoulders tight all the time",
     "evidence": [
      {
       "turn": 5,
@@ -56,7 +56,24 @@
    {
     "id": "s4",
     "section": "subjective",
-    "text": "Sleep onset takes about 45 minutes most nights due to brain not shutting off.",
+    "text": "Snapping at people more than desired",
+    "evidence": [
+     {
+      "turn": 5,
+      "quote": "My shoulders are tight all the time and I snap at people more than I want to.",
+      "verified": true,
+      "score": 1.0
+     }
+    ],
+    "support": "supported",
+    "flags": [],
+    "origin": "model",
+    "edited": false
+   },
+   {
+    "id": "s5",
+    "section": "subjective",
+    "text": "Sleep onset latency about 45 minutes most nights",
     "evidence": [
      {
       "turn": 7,
@@ -71,9 +88,9 @@
     "edited": false
    },
    {
-    "id": "s5",
+    "id": "s6",
     "section": "subjective",
-    "text": "No panic attacks since April.",
+    "text": "No panic attacks since April",
     "evidence": [
      {
       "turn": 8,
@@ -94,32 +111,9 @@
     "edited": false
    },
    {
-    "id": "s6",
-    "section": "subjective",
-    "text": "Patient takes escitalopram 10 milligrams every morning.",
-    "evidence": [
-     {
-      "turn": 10,
-      "quote": "Remind me what dose of escitalopram you're on.",
-      "verified": true,
-      "score": 1.0
-     },
-     {
-      "turn": 11,
-      "quote": "The 5 milligrams. Oh, no, wait, sorry. I went up to 10 after the first two weeks, like you said. So 10 every morning.",
-      "verified": true,
-      "score": 1.0
-     }
-    ],
-    "support": "supported",
-    "flags": [],
-    "origin": "model",
-    "edited": false
-   },
-   {
     "id": "s7",
     "section": "subjective",
-    "text": "Patient denies nausea, sexual side effects, or other side effects from escitalopram.",
+    "text": "Denies nausea or sexual side effects from escitalopram",
     "evidence": [
      {
       "turn": 12,
@@ -142,7 +136,7 @@
    {
     "id": "s8",
     "section": "subjective",
-    "text": "Patient uses hydroxyzine 25 milligrams about twice in the last month for bad moments.",
+    "text": "Hydroxyzine 25 mg used about twice in last month for bad moments",
     "evidence": [
      {
       "turn": 14,
@@ -165,7 +159,7 @@
    {
     "id": "s9",
     "section": "subjective",
-    "text": "Patient takes magnesium glycinate 200 milligrams at night.",
+    "text": "Taking magnesium glycinate 200 mg at night",
     "evidence": [
      {
       "turn": 16,
@@ -188,7 +182,7 @@
    {
     "id": "s10",
     "section": "subjective",
-    "text": "Patient drinks about four cups of coffee daily, up to five on bad days.",
+    "text": "Drinking about four cups of coffee daily, up to five on bad days",
     "evidence": [
      {
       "turn": 18,
@@ -211,7 +205,7 @@
    {
     "id": "s11",
     "section": "subjective",
-    "text": "Patient consumes alcohol: a beer on the weekend, that's it.",
+    "text": "Alcohol use: one beer on weekends",
     "evidence": [
      {
       "turn": 20,
@@ -234,7 +228,7 @@
    {
     "id": "s12",
     "section": "subjective",
-    "text": "Patient denies thoughts of suicide or self-harm.",
+    "text": "Denies suicidal or self-harm thoughts",
     "evidence": [
      {
       "turn": 22,
@@ -255,9 +249,32 @@
     "edited": false
    },
    {
+    "id": "s13",
+    "section": "subjective",
+    "text": "Still seeing therapist for CBT every other week",
+    "evidence": [
+     {
+      "turn": 30,
+      "quote": "Are you still seeing the therapist for CBT?",
+      "verified": true,
+      "score": 1.0
+     },
+     {
+      "turn": 31,
+      "quote": "Every other week, yeah.",
+      "verified": true,
+      "score": 1.0
+     }
+    ],
+    "support": "supported",
+    "flags": [],
+    "origin": "model",
+    "edited": false
+   },
+   {
     "id": "o1",
     "section": "objective",
-    "text": "GAD-7 score is 12 (was 16 at start), in moderate range.",
+    "text": "GAD-7 score 12 today (was 16 at start)",
     "evidence": [
      {
       "turn": 24,
@@ -274,7 +291,7 @@
    {
     "id": "o2",
     "section": "objective",
-    "text": "Blood pressure is 128 over 82.",
+    "text": "Blood pressure 128/82",
     "evidence": [
      {
       "turn": 24,
@@ -291,7 +308,7 @@
    {
     "id": "o3",
     "section": "objective",
-    "text": "Pulse is 84.",
+    "text": "Pulse 84",
     "evidence": [
      {
       "turn": 24,
@@ -308,7 +325,7 @@
    {
     "id": "o4",
     "section": "objective",
-    "text": "Patient appears tense but talkative, mood anxious, thinking clear.",
+    "text": "Patient appears tense but talkative, mood anxious, thinking clear",
     "evidence": [
      {
       "turn": 24,
@@ -325,7 +342,7 @@
    {
     "id": "a1",
     "section": "assessment",
-    "text": "Generalized anxiety disorder, partly responding to treatment.",
+    "text": "Generalized anxiety disorder, partially responsive to treatment",
     "evidence": [
      {
       "turn": 26,
@@ -342,7 +359,7 @@
    {
     "id": "p1",
     "section": "plan",
-    "text": "Increase escitalopram to 20 milligrams once daily; take two 10 mg tablets until new prescription filled.",
+    "text": "Increase escitalopram to 20 mg once daily; take two 10 mg tablets until new prescription filled",
     "evidence": [
      {
       "turn": 26,
@@ -359,7 +376,7 @@
    {
     "id": "p2",
     "section": "plan",
-    "text": "Continue hydroxyzine 25 milligrams for rough moments, up to once daily; avoid driving after taking it.",
+    "text": "Continue hydroxyzine 25 mg for rough moments, up to once daily; avoid driving after taking",
     "evidence": [
      {
       "turn": 28,
@@ -376,7 +393,7 @@
    {
     "id": "p3",
     "section": "plan",
-    "text": "Continue magnesium glycinate 200 milligrams at night.",
+    "text": "Continue magnesium glycinate 200 mg at night",
     "evidence": [
      {
       "turn": 28,
@@ -393,7 +410,7 @@
    {
     "id": "p4",
     "section": "plan",
-    "text": "Reduce coffee intake to 2 cups daily, none after noon.",
+    "text": "Reduce coffee intake to 2 cups daily, none after noon",
     "evidence": [
      {
       "turn": 28,
@@ -410,20 +427,8 @@
    {
     "id": "p5",
     "section": "plan",
-    "text": "Continue cognitive behavioral therapy every other week.",
+    "text": "Continue CBT every other week",
     "evidence": [
-     {
-      "turn": 30,
-      "quote": "Are you still seeing the therapist for CBT?",
-      "verified": true,
-      "score": 1.0
-     },
-     {
-      "turn": 31,
-      "quote": "Every other week, yeah.",
-      "verified": true,
-      "score": 1.0
-     },
      {
       "turn": 32,
       "quote": "Good, keep that going.",
@@ -439,7 +444,7 @@
    {
     "id": "p6",
     "section": "plan",
-    "text": "Provide suicide precaution: call or text 988 if thoughts of self-harm occur.",
+    "text": "Review 988 for suicidal thoughts",
     "evidence": [
      {
       "turn": 32,
@@ -456,7 +461,7 @@
    {
     "id": "p7",
     "section": "plan",
-    "text": "Follow-up in 6 weeks, around November 4th.",
+    "text": "Follow-up in 6 weeks around November 4th",
     "evidence": [
      {
       "turn": 32,
@@ -486,15 +491,34 @@
       "score": 1.0
      }
     ],
-    "flags": []
+    "flags": [
+     {
+      "kind": "dose_mismatch",
+      "severity": "warning",
+      "message": "The escitalopram dose was corrected in the conversation (5); confirm the final dose.",
+      "acknowledged": false,
+      "detail": {
+       "doses": [
+        "5"
+       ],
+       "turn": 10
+      }
+     }
+    ]
    },
    {
     "name": "hydroxyzine",
     "dose": "25 mg",
-    "frequency": "as needed for bad moments, up to twice last month",
+    "frequency": "as needed for bad moments, up to once daily",
     "route": "oral",
     "status": "active",
     "evidence": [
+     {
+      "turn": 14,
+      "quote": "And the hydroxyzine, the 25 milligrams for bad moments, how often are you using it?",
+      "verified": true,
+      "score": 1.0
+     },
      {
       "turn": 15,
       "quote": "Maybe twice in the last month. It works but it knocks me out.",
@@ -512,6 +536,12 @@
     "status": "active",
     "evidence": [
      {
+      "turn": 16,
+      "quote": "Anything else you're taking, over the counter or supplements?",
+      "verified": true,
+      "score": 1.0
+     },
+     {
       "turn": 17,
       "quote": "Magnesium glycinate, 200 milligrams at night. A friend recommended it.",
       "verified": true,
@@ -524,8 +554,14 @@
   "allergies": [
    {
     "substance": "none reported",
-    "reaction": "none",
+    "reaction": "none reported",
     "evidence": [
+     {
+      "turn": 12,
+      "quote": "Any side effects, nausea, sexual side effects, anything like that?",
+      "verified": true,
+      "score": 1.0
+     },
      {
       "turn": 13,
       "quote": "No, nothing really. Stomach was a bit off the first week, then fine.",
@@ -535,7 +571,7 @@
     ]
    }
   ],
-  "after_visit_summary": "You're doing better with your anxiety, but worrying and tension are still present. We're increasing your escitalopram from 10 mg to 20 mg daily to help further. Take two of your 10 mg pills each morning until your new prescription arrives. Keep using hydroxyzine 25 mg only when needed for tough moments, but don't drive after taking it. Continue magnesium glycinate 200 mg at night. Cut coffee to 2 cups per day, none after noon, as it may worsen anxiety. Keep attending therapy every other week. If you ever have thoughts of harming yourself, call or text 988 right away. Return in about 6 weeks, around November 4th, before the baby arrives. We'll update your portal with your new email s tomasz dot nowak at fastmail dot com.",
+  "after_visit_summary": "You have generalized anxiety disorder that is improving with treatment. Your worrying and tension are better but still present. We are increasing your escitalopram from 10 mg to 20 mg once daily; take two 10 mg pills each morning until your new prescription arrives. Continue taking hydroxyzine 25 mg as needed for rough moments, but no more than once a day and do not drive after taking it. Keep taking magnesium glycinate 200 mg at night. Cut your coffee to no more than 2 cups per day, and avoid coffee after noon. Continue your CBT therapy every other week. If you ever have thoughts of harming yourself, call or text 988 right away. Return for follow-up in about 6 weeks, around November 4th, before the baby arrives. We will update your portal email to tomasz dot nowak at fastmail dot com.",
   "avs_flags": [],
   "icd10": [
    {
@@ -543,7 +579,7 @@
     "code": "F41.1",
     "description": "Generalized anxiety disorder",
     "rank": 1,
-    "rationale": "Generalized anxiety disorder, partly responding to treatment, is the primary condition assessed and managed in this visit.",
+    "rationale": "Generalized anxiety disorder, partially responsive to treatment, is the primary condition assessed and managed in this visit.",
     "evidence": [
      {
       "turn": 26,
@@ -563,7 +599,7 @@
    "code": "99213",
    "description": "Established patient office visit, low-complexity decision making",
    "rank": 1,
-   "rationale": "Established patient with one stable chronic illness (generalized anxiety disorder), low complexity decision making (medication adjustment, counseling), and minimal data reviewed (GAD-7, vitals).",
+   "rationale": "Established patient with one stable chronic illness (generalized anxiety disorder), low complexity medical decision making (medication adjustment, review of GAD-7, vital signs), and minimal data reviewed (no tests ordered or independent historian).",
    "evidence": [],
    "valid": true,
    "billable": true,
@@ -610,20 +646,20 @@
    "plan": "draft"
   },
   "model": "openrouter/nvidia/nemotron-3-super-120b-a12b:free",
-  "created_at": "2026-10-13T05:31:56.467373Z",
+  "created_at": "2026-10-13T05:38:11.442394Z",
   "signed_by": null,
   "signed_at": null,
   "timings": {
-   "phi_masking": 0.057,
-   "llm_note": 0.017,
-   "guards_note": 0.096,
-   "llm_codes": 0.033,
-   "guards_codes": 0.044,
-   "total": 0.248
+   "phi_masking": 0.04,
+   "llm_note": 18.647,
+   "guards_note": 0.091,
+   "llm_codes": 3.336,
+   "guards_codes": 0.046,
+   "total": 22.159
   },
   "usage": {
-   "input_tokens": 4743,
-   "output_tokens": 2492,
+   "input_tokens": 4680,
+   "output_tokens": 2495,
    "calls": 2
   },
   "phi": {
@@ -643,7 +679,7 @@
    "[DATE_1]": "November",
    "[DATE_2]": "April",
    "[DATE_3]": "November 4th",
-   "[EMAIL_1]": "s tomasz dot nowak at fastmail dot com"
+   "[EMAIL_1]": "tomasz dot nowak at fastmail dot com"
   },
   "surfaces": {
    "[PATIENT]": [
@@ -669,7 +705,7 @@
     "November 4th"
    ],
    "[EMAIL_1]": [
-    "s tomasz dot nowak at fastmail dot com"
+    "tomasz dot nowak at fastmail dot com"
    ]
   },
   "types": {
@@ -700,11 +736,13 @@
   "missed": [
    "f17 [assessment] Tolerating escitalopram well"
   ],
-  "statements": 24,
-  "statements_matching_gold": 23,
+  "statements": 25,
+  "statements_matching_gold": 24,
   "unsupported": 0,
   "partial": 0,
-  "flags": {},
+  "flags": {
+   "dose_mismatch": 1
+  },
   "meds": 3,
   "meds_found": 3,
   "meds_dose_correct": 2,

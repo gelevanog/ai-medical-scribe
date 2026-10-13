@@ -478,16 +478,16 @@
    "plan": "draft"
   },
   "model": "openrouter/nvidia/nemotron-3-super-120b-a12b:free",
-  "created_at": "2026-10-13T05:20:35.252680Z",
+  "created_at": "2026-10-13T05:36:42.672767Z",
   "signed_by": null,
   "signed_at": null,
   "timings": {
-   "phi_masking": 0.107,
-   "llm_note": 10.625,
+   "phi_masking": 0.083,
+   "llm_note": 0.008,
    "guards_note": 0.063,
-   "llm_codes": 3.605,
-   "guards_codes": 0.071,
-   "total": 14.472
+   "llm_codes": 0.029,
+   "guards_codes": 0.063,
+   "total": 0.245
   },
   "usage": {
    "input_tokens": 4893,
@@ -546,9 +546,7 @@
   "facts": 27,
   "found": 21,
   "found_in_section": 19,
-  "negation_errors": [
-   "f16: Foot exam normal, no sores or calluses, pedal pulses strong, monofilament sensation intact (present)"
-  ],
+  "negation_errors": [],
   "trap_errors": [],
   "missed": [
    "f9 [subjective] Denies blurry vision",

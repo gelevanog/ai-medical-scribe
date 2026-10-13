@@ -572,16 +572,16 @@
    "plan": "draft"
   },
   "model": "openrouter/nvidia/nemotron-3-super-120b-a12b:free",
-  "created_at": "2026-10-13T05:25:26.561359Z",
+  "created_at": "2026-10-13T05:37:33.464890Z",
   "signed_by": null,
   "signed_at": null,
   "timings": {
-   "phi_masking": 0.042,
-   "llm_note": 14.814,
-   "guards_note": 0.072,
-   "llm_codes": 3.605,
-   "guards_codes": 0.078,
-   "total": 18.611
+   "phi_masking": 0.034,
+   "llm_note": 0.006,
+   "guards_note": 0.049,
+   "llm_codes": 0.017,
+   "guards_codes": 0.034,
+   "total": 0.14
   },
   "usage": {
    "input_tokens": 4719,
@@ -645,17 +645,13 @@
   "case": "cd-04",
   "specialty": "cardiology",
   "facts": 25,
-  "found": 21,
-  "found_in_section": 21,
-  "negation_errors": [
-   "f3: No sustained racing heartbeat with abrupt onset and offset (absent)",
-   "f16: Thyroid not enlarged, no tremor (absent)"
-  ],
+  "found": 22,
+  "found_in_section": 22,
+  "negation_errors": [],
   "trap_errors": [],
   "missed": [
    "f3 [subjective] No sustained racing heartbeat with abrupt onset and offset",
    "f7 [subjective] Episodes cause anxiety",
-   "f16 [objective] Thyroid not enlarged, no tremor",
    "f20 [assessment] Palpitations, likely benign premature beats triggered by caffeine excess and sleep deprivation"
   ],
   "statements": 23,

@@ -807,16 +807,16 @@
    "plan": "draft"
   },
   "model": "openrouter/nvidia/nemotron-3-super-120b-a12b:free",
-  "created_at": "2026-10-13T05:33:49.604139Z",
+  "created_at": "2026-10-13T05:38:12.653742Z",
   "signed_by": null,
   "signed_at": null,
   "timings": {
-   "phi_masking": 0.053,
-   "llm_note": 17.469,
-   "guards_note": 0.119,
-   "llm_codes": 5.662,
-   "guards_codes": 0.109,
-   "total": 23.413
+   "phi_masking": 0.039,
+   "llm_note": 0.009,
+   "guards_note": 0.241,
+   "llm_codes": 0.019,
+   "guards_codes": 0.037,
+   "total": 0.345
   },
   "usage": {
    "input_tokens": 4890,
@@ -828,8 +828,7 @@
    "DOB": 1,
    "DATE": 2,
    "PHONE": 1,
-   "ORG": 1,
-   "egress_residue_DATE": 2
+   "ORG": 1
   }
  },
  "vault": {
@@ -893,9 +892,7 @@
   "facts": 28,
   "found": 25,
   "found_in_section": 24,
-  "negation_errors": [
-   "f24: Drinking goal no more than 1 drink per day and at least 3 alcohol-free days per week (present)"
-  ],
+  "negation_errors": [],
   "trap_errors": [],
   "missed": [
    "f2 [subjective] Husband concerned about her drinking",
@@ -929,7 +926,5 @@
   "procedures_gold": 1,
   "procedures_found": 1
  },
- "egress_residue": {
-  "DATE": 2
- }
+ "egress_residue": {}
 }

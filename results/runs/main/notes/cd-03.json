@@ -22,24 +22,7 @@
    {
     "id": "s2",
     "section": "subjective",
-    "text": "Weight increased 7 pounds from usual.",
-    "evidence": [
-     {
-      "turn": 3,
-      "quote": "And the scale says I'm up 7 pounds.",
-      "verified": true,
-      "score": 1.0
-     }
-    ],
-    "support": "supported",
-    "flags": [],
-    "origin": "model",
-    "edited": false
-   },
-   {
-    "id": "s3",
-    "section": "subjective",
-    "text": "Usual weight around 182 pounds, current weight 189 pounds.",
+    "text": "Weight gain of 7 pounds; usual weight 182 lbs, current weight 189 lbs.",
     "evidence": [
      {
       "turn": 5,
@@ -54,9 +37,9 @@
     "edited": false
    },
    {
-    "id": "s4",
+    "id": "s3",
     "section": "subjective",
-    "text": "Shortness of breath worse than usual, winded after 1 block vs usual 3 blocks.",
+    "text": "Increased dyspnea on exertion; normally walks 3 blocks, now winded after 1 block.",
     "evidence": [
      {
       "turn": 7,
@@ -71,7 +54,7 @@
     "edited": false
    },
    {
-    "id": "s5",
+    "id": "s4",
     "section": "subjective",
     "text": "Increased pillow use from 1 to 2 for breathing comfort.",
     "evidence": [
@@ -88,9 +71,9 @@
     "edited": false
    },
    {
-    "id": "s6",
+    "id": "s5",
     "section": "subjective",
-    "text": "Denies waking up at night gasping for air.",
+    "text": "Denies paroxysmal nocturnal dyspnea.",
     "evidence": [
      {
       "turn": 10,
@@ -105,13 +88,21 @@
       "score": 1.0
      }
     ],
-    "support": "supported",
-    "flags": [],
+    "support": "partial",
+    "flags": [
+     {
+      "kind": "partial_support",
+      "severity": "warning",
+      "message": "Quoted turn does not contain most of its terms; check against the transcript.",
+      "acknowledged": false,
+      "detail": {}
+     }
+    ],
     "origin": "model",
     "edited": false
    },
    {
-    "id": "s7",
+    "id": "s6",
     "section": "subjective",
     "text": "Denies chest pain.",
     "evidence": [
@@ -134,9 +125,9 @@
     "edited": false
    },
    {
-    "id": "s8",
+    "id": "s7",
     "section": "subjective",
-    "text": "Denies feeling like might pass out.",
+    "text": "Denies syncope or near-syncope.",
     "evidence": [
      {
       "turn": 12,
@@ -151,15 +142,23 @@
       "score": 1.0
      }
     ],
-    "support": "supported",
-    "flags": [],
+    "support": "partial",
+    "flags": [
+     {
+      "kind": "partial_support",
+      "severity": "warning",
+      "message": "Quoted turn does not contain most of its terms; check against the transcript.",
+      "acknowledged": false,
+      "detail": {}
+     }
+    ],
     "origin": "model",
     "edited": false
    },
    {
-    "id": "s9",
+    "id": "s8",
     "section": "subjective",
-    "text": "Increased salt intake due to wedding two weekends ago, ate ham and salty food.",
+    "text": "Increased dietary salt intake due to wedding two weekends ago with salty foods (ham, etc.).",
     "evidence": [
      {
       "turn": 15,
@@ -174,7 +173,7 @@
     "edited": false
    },
    {
-    "id": "s10",
+    "id": "s9",
     "section": "subjective",
     "text": "Taking naproxen for knee arthritis: two 220 mg pills twice daily for about two weeks.",
     "evidence": [
@@ -210,11 +209,11 @@
    {
     "id": "o2",
     "section": "objective",
-    "text": "Blood pressure 112 over 70.",
+    "text": "Blood pressure 112/70 mmHg.",
     "evidence": [
      {
       "turn": 22,
-      "quote": "Blood pressure is 112 over 70, pulse 78, and oxygen is 95 percent on room air.",
+      "quote": "Blood pressure is 112 over 70",
       "verified": true,
       "score": 1.0
      }
@@ -227,11 +226,11 @@
    {
     "id": "o3",
     "section": "objective",
-    "text": "Pulse 78.",
+    "text": "Pulse 78 beats per minute.",
     "evidence": [
      {
       "turn": 22,
-      "quote": "Blood pressure is 112 over 70, pulse 78, and oxygen is 95 percent on room air.",
+      "quote": "pulse 78",
       "verified": true,
       "score": 1.0
      }
@@ -248,7 +247,7 @@
     "evidence": [
      {
       "turn": 22,
-      "quote": "Blood pressure is 112 over 70, pulse 78, and oxygen is 95 percent on room air.",
+      "quote": "oxygen is 95 percent on room air",
       "verified": true,
       "score": 1.0
      }
@@ -261,7 +260,7 @@
    {
     "id": "o5",
     "section": "objective",
-    "text": "Neck veins elevated to 10 centimeters.",
+    "text": "Jugular venous distension up to 10 cm.",
     "evidence": [
      {
       "turn": 22,
@@ -270,15 +269,23 @@
       "score": 1.0
      }
     ],
-    "support": "supported",
-    "flags": [],
+    "support": "partial",
+    "flags": [
+     {
+      "kind": "partial_support",
+      "severity": "warning",
+      "message": "Quoted turn does not contain most of its terms; check against the transcript.",
+      "acknowledged": false,
+      "detail": {}
+     }
+    ],
     "origin": "model",
     "edited": false
    },
    {
     "id": "o6",
     "section": "objective",
-    "text": "Crackles at lung bases bilaterally.",
+    "text": "Bilateral lung crackles at bases.",
     "evidence": [
      {
       "turn": 22,
@@ -363,7 +370,7 @@
    {
     "id": "p2",
     "section": "plan",
-    "text": "Start acetaminophen 650 mg up to 3 times daily for knee pain.",
+    "text": "Start acetaminophen 650 mg up to 3 times daily as needed for knee pain.",
     "evidence": [
      {
       "turn": 28,
@@ -380,7 +387,7 @@
    {
     "id": "p3",
     "section": "plan",
-    "text": "Increase furosemide to 40 mg twice daily for 5 days, then resume 40 mg daily when weight near 183 lbs.",
+    "text": "Increase furosemide to 40 mg twice daily for 5 days, then resume 40 mg daily once weight near 183 lbs.",
     "evidence": [
      {
       "turn": 28,
@@ -397,7 +404,7 @@
    {
     "id": "p4",
     "section": "plan",
-    "text": "Continue sacubitril valsartan 49/51 mg twice daily, carvedilol 12.5 mg twice daily, spironolactone 25 mg daily, dapagliflozin 10 mg daily unchanged.",
+    "text": "Continue sacubitril/valsartan 49/51 mg twice daily, carvedilol 12.5 mg twice daily, spironolactone 25 mg daily, dapagliflozin 10 mg daily.",
     "evidence": [
      {
       "turn": 30,
@@ -414,7 +421,7 @@
    {
     "id": "p5",
     "section": "plan",
-    "text": "Daily morning weight after bathroom, record log.",
+    "text": "Daily morning weight after bathroom use; record and monitor for trends.",
     "evidence": [
      {
       "turn": 30,
@@ -431,11 +438,11 @@
    {
     "id": "p6",
     "section": "plan",
-    "text": "Limit sodium intake to under 2000 mg daily.",
+    "text": "Limit sodium intake to <2000 mg/day.",
     "evidence": [
      {
       "turn": 30,
-      "quote": "Keep salt under 2000 milligrams a day and fluids to about 2 liters.",
+      "quote": "Keep salt under 2000 milligrams a day",
       "verified": true,
       "score": 1.0
      }
@@ -448,11 +455,11 @@
    {
     "id": "p7",
     "section": "plan",
-    "text": "Limit fluid intake to about 2 liters daily.",
+    "text": "Limit fluid intake to ~2 liters/day.",
     "evidence": [
      {
       "turn": 30,
-      "quote": "Keep salt under 2000 milligrams a day and fluids to about 2 liters.",
+      "quote": "and fluids to about 2 liters.",
       "verified": true,
       "score": 1.0
      }
@@ -465,7 +472,7 @@
    {
     "id": "p8",
     "section": "plan",
-    "text": "Basic metabolic panel on the 21st of October.",
+    "text": "Obtain basic metabolic panel on the 21st of October.",
     "evidence": [
      {
       "turn": 32,
@@ -482,7 +489,7 @@
    {
     "id": "p9",
     "section": "plan",
-    "text": "Call if weight increases 3 lbs in one day or 5 lbs in one week.",
+    "text": "Call if weight increases ≥3 lbs in one day or ≥5 lbs in one week.",
     "evidence": [
      {
       "turn": 32,
@@ -516,7 +523,7 @@
    {
     "id": "p11",
     "section": "plan",
-    "text": "Follow-up in 1 week to check weight and swelling.",
+    "text": "Follow-up in 1 week to reassess weight and swelling.",
     "evidence": [
      {
       "turn": 36,
@@ -533,7 +540,7 @@
   ],
   "medications": [
    {
-    "name": "sacubitril valsartan",
+    "name": "sacubitril/valsartan",
     "dose": "49/51 mg",
     "frequency": "twice daily",
     "route": "oral",
@@ -604,46 +611,32 @@
     "status": "changed",
     "evidence": [
      {
-      "turn": 19,
-      "quote": "The water pill is 20 milligrams in the morning. Wait, no, it's the 40. They changed it in the summer, it's 40.",
-      "verified": true,
-      "score": 1.0
-     },
-     {
       "turn": 28,
-      "quote": "For the fluid, I'm increasing the furosemide to 40 milligrams twice a day for the next 5 days.",
+      "quote": "I'm increasing the furosemide to 40 milligrams twice a day for the next 5 days.",
       "verified": true,
       "score": 1.0
      }
     ],
-    "flags": []
-   },
-   {
-    "name": "naproxen",
-    "dose": "220 mg",
-    "frequency": "twice daily",
-    "route": "oral",
-    "status": "stopped",
-    "evidence": [
+    "flags": [
      {
-      "turn": 21,
-      "quote": "Two of the 220 milligram pills, twice a day, for about two weeks.",
-      "verified": true,
-      "score": 1.0
-     },
-     {
-      "turn": 26,
-      "quote": "I want you to stop it completely.",
-      "verified": true,
-      "score": 1.0
+      "kind": "dose_mismatch",
+      "severity": "warning",
+      "message": "The furosemide dose was corrected in the conversation (20, 4); confirm the final dose.",
+      "acknowledged": false,
+      "detail": {
+       "doses": [
+        "20",
+        "4"
+       ],
+       "turn": 18
+      }
      }
-    ],
-    "flags": []
+    ]
    },
    {
     "name": "acetaminophen",
     "dose": "650 mg",
-    "frequency": "up to 3 times daily",
+    "frequency": "up to three times daily",
     "route": "oral",
     "status": "new",
     "evidence": [
@@ -655,23 +648,42 @@
      }
     ],
     "flags": []
-   }
-  ],
-  "allergies": [
+   },
    {
-    "substance": "none reported",
-    "reaction": "none",
+    "name": "naproxen",
+    "dose": "440 mg",
+    "frequency": "twice daily",
+    "route": "oral",
+    "status": "stopped",
     "evidence": [
      {
-      "turn": 20,
-      "quote": "Anything over the counter?",
+      "turn": 21,
+      "quote": "Two of the 220 milligram pills, twice a day",
       "verified": true,
       "score": 1.0
+     },
+     {
+      "turn": 26,
+      "quote": "I want you to stop it completely.",
+      "verified": true,
+      "score": 1.0
+     }
+    ],
+    "flags": [
+     {
+      "kind": "dose_mismatch",
+      "severity": "error",
+      "message": "The dose 440 for naproxen was not said near the drug's name in the transcript.",
+      "acknowledged": false,
+      "detail": {
+       "dose": "440"
+      }
      }
     ]
    }
   ],
-  "after_visit_summary": "You have a mild worsening of your heart failure, likely due to eating salty food and taking naproxen for your knees. We found swelling in your legs, weight gain, and increased shortness of breath. To help, stop naproxen completely and use acetaminophen (650 mg up to 3 times daily) for knee pain instead. Increase your water pill (furosemide) to 40 mg twice daily for 5 days, then go back to 40 mg daily once your weight is near 183 lbs. Keep taking your other heart medicines as before. Weigh yourself each morning after using the bathroom and write it down. Limit salt to under 2000 mg per day and fluids to about 2 liters daily. We will check a blood test on the 21st of October to monitor your kidneys and potassium. Call us if your weight goes up 3 lbs in one day or 5 lbs in one week. Go to the emergency room if you have shortness of breath at rest or chest pain. Follow up in 1 week to check your weight and swelling.",
+  "allergies": [],
+  "after_visit_summary": "You came in today with worsening ankle swelling, weight gain, and shortness of breath due to a heart failure flare. This was likely caused by eating salty food at a recent wedding and taking naproxen for your knees, which makes your body retain fluid. We found you have gained 7 pounds, need more pillows to sleep, and get short of breath sooner when walking. Your exam showed fluid in your lungs and legs. To help, stop naproxen completely and use acetaminophen (650 mg up to three times a day) for knee pain instead. Increase your water pill (furosemide) to 40 mg twice a day for 5 days, then go back to once a day when your weight is near 183 pounds. Keep taking all your other heart medicines exactly as before. Weigh yourself every morning after using the bathroom and write it down. Eat less than 2000 mg of salt per day and limit fluids to about 2 liters per day. We will check a blood test on the 21st of October to make sure your kidneys and potassium are okay. Call us if your weight goes up 3 pounds in one day or 5 pounds in one week. Go to the emergency room if you feel short of breath at rest or have chest pain. We will see you back in 1 week to check your weight and swelling.",
   "avs_flags": [],
   "icd10": [
    {
@@ -679,7 +691,7 @@
     "code": "I50.22",
     "description": "Chronic systolic (congestive) heart failure",
     "rank": 1,
-    "rationale": "Chronic systolic (congestive) heart failure, as the patient has known heart failure with reduced ejection fraction (EF 30%) and presents with a mild flare due to dietary salt and NSAID use.",
+    "rationale": "Chronic systolic (congestive) heart failure, as the patient has known heart failure with reduced ejection fraction (EF 30%) and presents with an acute exacerbation (mild flare) due to dietary salt and NSAID use.",
     "evidence": [
      {
       "turn": 26,
@@ -705,7 +717,7 @@
    "code": "99214",
    "description": "Established patient office visit, moderate-complexity decision making",
    "rank": 1,
-   "rationale": "Established patient with one chronic illness (heart failure) with mild exacerbation requiring medication adjustment, monitoring, and patient education; moderate medical decision making based on prescription drug management (moderate risk) and review of symptoms, vitals, and plan.",
+   "rationale": "Established patient with one chronic illness (heart failure) with exacerbation requiring prescription drug management (moderate risk), review of systems, and moderate data (review of prior echo and labs), meeting criteria for 99214 under 2021 MDM guidelines.",
    "evidence": [],
    "valid": true,
    "billable": true,
@@ -715,13 +727,13 @@
   "procedures": [],
   "mdm": {
    "problems": "moderate",
-   "data": "low",
+   "data": "moderate",
    "risk": "moderate",
    "level": "moderate",
    "code": "99214",
    "reasons": [
     "problems: chronic illness not at goal",
-    "data: limited (tests or an independent historian)",
+    "data: 3 tests or sources",
     "risk: prescription drug management"
    ]
   },
@@ -732,20 +744,20 @@
    "plan": "draft"
   },
   "model": "openrouter/nvidia/nemotron-3-super-120b-a12b:free",
-  "created_at": "2026-10-13T05:25:07.900479Z",
+  "created_at": "2026-10-13T05:37:33.287873Z",
   "signed_by": null,
   "signed_at": null,
   "timings": {
-   "phi_masking": 0.054,
-   "llm_note": 0.011,
-   "guards_note": 0.072,
-   "llm_codes": 0.092,
-   "guards_codes": 0.052,
-   "total": 0.282
+   "phi_masking": 0.048,
+   "llm_note": 21.438,
+   "guards_note": 0.06,
+   "llm_codes": 3.283,
+   "guards_codes": 0.044,
+   "total": 24.872
   },
   "usage": {
-   "input_tokens": 5335,
-   "output_tokens": 3011,
+   "input_tokens": 5344,
+   "output_tokens": 2879,
    "calls": 2
   },
   "phi": {
@@ -763,7 +775,7 @@
    "[NAME_2]": "Lorraine",
    "[DATE_1]": "March",
    "[DATE_2]": "the 21st of October",
-   "[EMAIL_1]": "s darnell dot whitaker at examplemail dot com"
+   "[EMAIL_1]": "darnell dot whitaker at examplemail dot com"
   },
   "surfaces": {
    "[PATIENT]": [
@@ -787,7 +799,7 @@
     "the 21st of October"
    ],
    "[EMAIL_1]": [
-    "s darnell dot whitaker at examplemail dot com"
+    "darnell dot whitaker at examplemail dot com"
    ]
   },
   "types": {
@@ -818,14 +830,17 @@
    "f17 [objective] Echo in March with LVEF 30%",
    "f18 [objective] Labs 3 weeks ago potassium 4.6, creatinine 1.2"
   ],
-  "statements": 30,
-  "statements_matching_gold": 27,
+  "statements": 29,
+  "statements_matching_gold": 26,
   "unsupported": 0,
-  "partial": 0,
-  "flags": {},
+  "partial": 3,
+  "flags": {
+   "partial_support": 3,
+   "dose_mismatch": 2
+  },
   "meds": 7,
   "meds_found": 6,
-  "meds_dose_correct": 5,
+  "meds_dose_correct": 6,
   "icd_primary": "I50.23",
   "icd_suggested": [
    "I50.22"

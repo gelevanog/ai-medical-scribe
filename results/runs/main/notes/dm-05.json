@@ -372,7 +372,7 @@
    {
     "id": "p2",
     "section": "plan",
-    "text": "Order TB blood test, hepatitis B and C tests, complete blood count, and metabolic panel before starting risankizumab.",
+    "text": "Order TB blood test, hepatitis B and C tests, complete blood count, and metabolic panel prior to starting risankizumab.",
     "evidence": [
      {
       "turn": 22,
@@ -389,7 +389,7 @@
    {
     "id": "p3",
     "section": "plan",
-    "text": "Advise patient to avoid live vaccines while on risankizumab; recommend seasonal flu shot.",
+    "text": "Advise avoidance of live vaccines while on risankizumab; recommend seasonal flu shot.",
     "evidence": [
      {
       "turn": 22,
@@ -440,11 +440,17 @@
    {
     "id": "p6",
     "section": "plan",
-    "text": "Instruct patient to report joint pain, swelling, or morning stiffness promptly due to risk of psoriatic arthritis.",
+    "text": "Send prior authorization request to insurance; patient provided member ID K as in kilo 7 0 3 9 2 1 5.",
     "evidence": [
      {
-      "turn": 28,
-      "quote": "And if you ever do get joint pain, swelling, or morning stiffness, tell me right away, because psoriasis can affect the joints and that changes treatment.",
+      "turn": 24,
+      "quote": "We'll also need a prior authorization from your insurance. Do you have your card?",
+      "verified": true,
+      "score": 1.0
+     },
+     {
+      "turn": 25,
+      "quote": "Yeah, member ID is K as in kilo 7 0 3 9 2 1 5.",
       "verified": true,
       "score": 1.0
      }
@@ -457,11 +463,28 @@
    {
     "id": "p7",
     "section": "plan",
-    "text": "Schedule follow-up in 6 weeks or sooner if labs and insurance approval are complete for first injection and training.",
+    "text": "Schedule follow-up in 6 weeks after labs and insurance approval for first injection and training.",
     "evidence": [
      {
       "turn": 30,
       "quote": "Once the labs and insurance approval come back, we'll have you in for the first injection and teach you how to do it. Otherwise follow-up in 6 weeks.",
+      "verified": true,
+      "score": 1.0
+     }
+    ],
+    "support": "supported",
+    "flags": [],
+    "origin": "model",
+    "edited": false
+   },
+   {
+    "id": "p8",
+    "section": "plan",
+    "text": "Instruct patient to report joint pain, swelling, or morning stiffness promptly due to risk of psoriatic arthritis.",
+    "evidence": [
+     {
+      "turn": 28,
+      "quote": "And if you ever do get joint pain, swelling, or morning stiffness, tell me right away, because psoriasis can affect the joints and that changes treatment.",
       "verified": true,
       "score": 1.0
      }
@@ -482,13 +505,13 @@
     "evidence": [
      {
       "turn": 5,
-      "quote": "Yes, twice a day on the worst spots. It helps for a few days and then it all comes back.",
+      "quote": "Yes, twice a day on the worst spots.",
       "verified": true,
       "score": 1.0
      },
      {
       "turn": 26,
-      "quote": "In the meantime, keep the clobetasol ointment twice a day on the body plaques, but only 2 weeks at a time, then a week off, so the skin doesn't thin.",
+      "quote": "keep the clobetasol ointment twice a day on the body plaques",
       "verified": true,
       "score": 1.0
      }
@@ -512,31 +535,15 @@
     "flags": []
    },
    {
-    "name": "risankizumab",
-    "dose": "150 mg",
-    "frequency": "every 12 weeks after loading doses",
-    "route": "subcutaneous",
-    "status": "new",
-    "evidence": [
-     {
-      "turn": 20,
-      "quote": "The one I'd recommend is risankizumab. It's an injection under the skin, 150 milligrams, given at week 0, week 4, and then just every 12 weeks.",
-      "verified": true,
-      "score": 1.0
-     }
-    ],
-    "flags": []
-   },
-   {
     "name": "amlodipine",
-    "dose": "5 mg",
+    "dose": "5 milligrams",
     "frequency": "every morning",
     "route": "oral",
     "status": "active",
     "evidence": [
      {
       "turn": 13,
-      "quote": "Amlodipine, 5 milligrams every morning for blood pressure. That's it.",
+      "quote": "Amlodipine, 5 milligrams every morning for blood pressure.",
       "verified": true,
       "score": 1.0
      }
@@ -564,7 +571,7 @@
     ]
    }
   ],
-  "after_visit_summary": "Your psoriasis has worsened and now covers about 12% of your skin, including elbows, knees, lower back, and scalp. Creams and methotrexate haven’t controlled it well. We’re starting a new medication called risankizumab, which is an injection given every 12 weeks after two starter doses. Before starting, you need blood tests for TB, hepatitis, blood count, and liver/kidney function. Please get these done at the lab at 2250 Riverside Drive using your member ID K as in kilo 7 0 3 9 2 1 5. Continue using clobetasol ointment on thick patches twice daily, but only for 2 weeks at a time followed by 1 week off to protect your skin. For your scalp, use clobetasol 0.05% solution once daily at night. Avoid live vaccines while on risankizumab, but get your yearly flu shot. Call us at 555-0134 if you develop joint pain, swelling, or stiffness. Follow up in 6 weeks or sooner once labs and insurance approval are complete for your first injection.",
+  "after_visit_summary": "You have moderate to severe psoriasis that has worsened over the past few months, affecting your elbows, knees, lower back, and scalp. Creams and methotrexate have not controlled it well. We are starting a new medication called risankizumab, which is an injection given every 12 weeks after two starter doses. Before starting, you need blood tests for TB, hepatitis, blood count, and metabolic panel. Please get these done at the lab at 2250 Riverside Drive. We will send the orders and work with your insurance (member ID K as in kilo 7 0 3 9 2 1 5) for approval. In the meantime, continue using clobetasol ointment on your body plaques twice daily, but use it for only 2 weeks at a time followed by 1 week off to prevent skin thinning. For your scalp, use clobetasol 0.05% solution once daily at night. Avoid live vaccines while on risankizumab, but get your flu shot this fall. Watch for joint pain, swelling, or stiffness and call us right away if these occur. Follow up in 6 weeks for the first injection and training, once labs and insurance are approved. Keep using your current blood pressure medication, amlodipine 5 mg daily. Call us at 555-0134 with any questions.",
   "avs_flags": [],
   "icd10": [
    {
@@ -618,25 +625,6 @@
     "billable": true,
     "flags": [],
     "accepted": null
-   },
-   {
-    "system": "CPT",
-    "code": "36415",
-    "description": "Collection of venous blood by venipuncture",
-    "rank": 2,
-    "rationale": "Venipuncture was performed to collect blood for TB test, hepatitis B and C, CBC, and metabolic panel as ordered prior to starting risankizumab.",
-    "evidence": [
-     {
-      "turn": 22,
-      "quote": "Before we start, I need a TB blood test, hepatitis B and C tests, a blood count and a metabolic panel.",
-      "verified": true,
-      "score": 1.0
-     }
-    ],
-    "valid": true,
-    "billable": true,
-    "flags": [],
-    "accepted": null
    }
   ],
   "mdm": {
@@ -658,21 +646,21 @@
    "plan": "draft"
   },
   "model": "openrouter/nvidia/nemotron-3-super-120b-a12b:free",
-  "created_at": "2026-10-13T05:28:59.372611Z",
+  "created_at": "2026-10-13T05:37:47.077631Z",
   "signed_by": null,
   "signed_at": null,
   "timings": {
-   "phi_masking": 0.026,
-   "llm_note": 37.52,
-   "guards_note": 0.074,
-   "llm_codes": 6.953,
-   "guards_codes": 0.053,
-   "total": 44.626
+   "phi_masking": 0.057,
+   "llm_note": 0.013,
+   "guards_note": 0.061,
+   "llm_codes": 4.018,
+   "guards_codes": 0.052,
+   "total": 4.201
   },
   "usage": {
-   "input_tokens": 8010,
-   "output_tokens": 5318,
-   "calls": 3
+   "input_tokens": 4922,
+   "output_tokens": 2783,
+   "calls": 2
   },
   "phi": {
    "NAME": 3,
@@ -743,23 +731,24 @@
   "case": "dm-05",
   "specialty": "dermatology",
   "facts": 29,
-  "found": 28,
-  "found_in_section": 27,
+  "found": 27,
+  "found_in_section": 26,
   "negation_errors": [],
   "trap_errors": [],
   "missed": [
-   "f17 [objective] Pitting of 3 fingernails"
+   "f17 [objective] Pitting of 3 fingernails",
+   "f20 [assessment] Moderate to severe plaque psoriasis, not controlled with topicals, failed methotrexate due to side effects"
   ],
-  "statements": 24,
-  "statements_matching_gold": 22,
+  "statements": 25,
+  "statements_matching_gold": 23,
   "unsupported": 0,
   "partial": 0,
   "flags": {
    "negation": 4
   },
   "meds": 5,
-  "meds_found": 4,
-  "meds_dose_correct": 2,
+  "meds_found": 3,
+  "meds_dose_correct": 1,
   "icd_primary": "L40.0",
   "icd_suggested": [
    "L40.0"

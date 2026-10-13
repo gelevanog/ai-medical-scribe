@@ -2,10 +2,10 @@
 # key: [surface forms, lowercase]. Matching is on word boundaries; a trailing * matches any word ending.
 chest_pain: [chest pain, chest pressure, chest tightness, chest discomfort, angina, pain in my chest, pressure in my chest, tightness in my chest]
 dyspnea: [shortness of breath, short of breath, dyspnea, trouble breathing, difficulty breathing, breathless*, winded, can't catch my breath, sob]
-orthopnea: [orthopnea, sleep propped up, pillows to breathe]
-pnd: [paroxysmal nocturnal dyspnea, wake up gasping, waking up short of breath]
+orthopnea: [orthopnea, sleep propped up, pillows to breathe, extra pillow, two pillows, 2 pillows, pillow use, pillows]
+pnd: [paroxysmal nocturnal dyspnea, pnd, wake up gasping, waking up gasping, waking up at night gasping, gasping for air, waking up short of breath, wake up short of breath]
 palpitations: [palpitation*, heart racing, racing heart, heart pounding, fluttering, skipped beat*, irregular heartbeat]
-syncope: [syncope, faint*, passed out, pass out, blacked out, black out, lost consciousness, loss of consciousness]
+syncope: [syncope, near-syncope, faint*, passed out, pass out, blacked out, black out, lost consciousness, loss of consciousness]
 presyncope: [lightheaded*, light-headed*, dizzy, dizziness, presyncope, woozy]
 edema: [edema, swelling, swollen, puffy ankles, ankle swelling, leg swelling]
 fever: [fever*, febrile, temperature of 10*, chills, feverish]

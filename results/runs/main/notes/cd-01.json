@@ -869,16 +869,16 @@
    "plan": "draft"
   },
   "model": "openrouter/nvidia/nemotron-3-super-120b-a12b:free",
-  "created_at": "2026-10-13T05:24:37.894530Z",
+  "created_at": "2026-10-13T05:37:08.144837Z",
   "signed_by": null,
   "signed_at": null,
   "timings": {
-   "phi_masking": 0.022,
-   "llm_note": 23.648,
-   "guards_note": 0.136,
-   "llm_codes": 3.676,
-   "guards_codes": 0.038,
-   "total": 27.519
+   "phi_masking": 0.063,
+   "llm_note": 0.019,
+   "guards_note": 0.106,
+   "llm_codes": 0.029,
+   "guards_codes": 0.064,
+   "total": 0.281
   },
   "usage": {
    "input_tokens": 5687,
@@ -940,11 +940,15 @@
   "case": "cd-01",
   "specialty": "cardiology",
   "facts": 30,
-  "found": 30,
-  "found_in_section": 30,
-  "negation_errors": [],
+  "found": 29,
+  "found_in_section": 29,
+  "negation_errors": [
+   "f5: Occasional radiation to the left arm (present)"
+  ],
   "trap_errors": [],
-  "missed": [],
+  "missed": [
+   "f5 [subjective] Occasional radiation to the left arm"
+  ],
   "statements": 35,
   "statements_matching_gold": 32,
   "unsupported": 0,

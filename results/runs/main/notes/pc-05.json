@@ -882,16 +882,16 @@
    "plan": "draft"
   },
   "model": "openrouter/nvidia/nemotron-3-super-120b-a12b:free",
-  "created_at": "2026-10-13T05:22:38.984910Z",
+  "created_at": "2026-10-13T05:36:43.289499Z",
   "signed_by": null,
   "signed_at": null,
   "timings": {
-   "phi_masking": 0.025,
-   "llm_note": 20.83,
-   "guards_note": 0.037,
-   "llm_codes": 7.374,
-   "guards_codes": 0.063,
-   "total": 28.33
+   "phi_masking": 0.036,
+   "llm_note": 0.01,
+   "guards_note": 0.058,
+   "llm_codes": 0.027,
+   "guards_codes": 0.034,
+   "total": 0.165
   },
   "usage": {
    "input_tokens": 4856,
@@ -953,14 +953,11 @@
   "case": "pc-05",
   "specialty": "primary_care",
   "facts": 27,
-  "found": 25,
+  "found": 26,
   "found_in_section": 23,
-  "negation_errors": [
-   "f13: Never had a colonoscopy (absent)"
-  ],
+  "negation_errors": [],
   "trap_errors": [],
   "missed": [
-   "f13 [subjective] Never had a colonoscopy",
    "f14 [subjective] Tetanus vaccine in 2020, up to date"
   ],
   "statements": 31,

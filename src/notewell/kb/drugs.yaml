@@ -17,7 +17,7 @@
 - {name: enalapril, brands: [vasotec], classes: [ace_inhibitor], units: [mg], routes: [oral], dose: [2.5, 20], max_daily: 40}
 - {name: losartan, brands: [cozaar], classes: [arb], units: [mg], routes: [oral], dose: [25, 100], max_daily: 100}
 - {name: valsartan, brands: [diovan], classes: [arb], units: [mg], routes: [oral], dose: [40, 320], max_daily: 320}
-- {name: sacubitril-valsartan, brands: [entresto], classes: [arni], units: [mg], routes: [oral], dose: [24, 103], max_daily: 206}
+- {name: sacubitril-valsartan, brands: [entresto, sacubitril valsartan, sacubitril/valsartan], classes: [arni], units: [mg], routes: [oral], dose: [24, 103], max_daily: 206}
 - {name: amlodipine, brands: [norvasc], classes: [calcium_channel_blocker], units: [mg], routes: [oral], dose: [2.5, 10], max_daily: 10}
 - {name: diltiazem, brands: [cardizem], classes: [calcium_channel_blocker], units: [mg], routes: [oral], dose: [30, 360], max_daily: 480}
 - {name: hydrochlorothiazide, brands: [microzide], classes: [thiazide], units: [mg], routes: [oral], dose: [12.5, 50], max_daily: 50}
@@ -149,12 +149,12 @@
 - {name: salicylic acid, brands: [compound w, duofilm], classes: [keratolytic], units: ["%"], routes: [topical], dose: [2, 40], max_daily: 40}
 - {name: fluorouracil, brands: [efudex, carac], classes: [antineoplastic_topical], units: ["%"], routes: [topical], dose: [0.5, 5], max_daily: 5}
 - {name: imiquimod, brands: [aldara, zyclara], classes: [immune_modifier], units: ["%"], routes: [topical], dose: [2.5, 5], max_daily: 5}
-- {name: vitamin d3, brands: [cholecalciferol], classes: [supplement], units: [units, iu, mcg], routes: [oral], dose: [400, 50000], max_daily: 50000}
+- {name: vitamin d3, brands: [cholecalciferol, vitamin d, vitamin d 3], classes: [supplement], units: [units, iu, mcg], routes: [oral], dose: [400, 50000], max_daily: 50000}
 - {name: vitamin b12, brands: [cyanocobalamin], classes: [supplement], units: [mcg], routes: [oral, injection], dose: [100, 2000], max_daily: 2000}
 - {name: ferrous sulfate, brands: [feosol], classes: [supplement], units: [mg], routes: [oral], dose: [65, 325], max_daily: 975}
 - {name: fish oil, brands: [omega-3, lovaza], classes: [supplement], units: [mg, g], routes: [oral], dose: [500, 4000], max_daily: 4000}
 - {name: magnesium, brands: [], classes: [supplement], units: [mg], routes: [oral], dose: [100, 500], max_daily: 1000}
-- {name: calcium carbonate, brands: [tums, os-cal], classes: [supplement], units: [mg], routes: [oral], dose: [500, 1500], max_daily: 3000}
+- {name: calcium carbonate, brands: [tums, os-cal, calcium], classes: [supplement], units: [mg], routes: [oral], dose: [500, 1500], max_daily: 3000}
 - {name: multivitamin, brands: [], classes: [supplement], units: [tablet], routes: [oral], dose: [1, 1], max_daily: 2}
 - {name: tamsulosin, brands: [flomax], classes: [alpha_blocker], units: [mg], routes: [oral], dose: [0.4, 0.8], max_daily: 0.8}
 - {name: finasteride, brands: [proscar, propecia], classes: [5ari], units: [mg], routes: [oral], dose: [1, 5], max_daily: 5}

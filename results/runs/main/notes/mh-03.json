@@ -697,16 +697,16 @@
    "plan": "draft"
   },
   "model": "openrouter/nvidia/nemotron-3-super-120b-a12b:free",
-  "created_at": "2026-10-13T05:32:37.047646Z",
+  "created_at": "2026-10-13T05:38:11.754547Z",
   "signed_by": null,
   "signed_at": null,
   "timings": {
-   "phi_masking": 0.031,
-   "llm_note": 37.035,
-   "guards_note": 0.08,
-   "llm_codes": 3.357,
-   "guards_codes": 0.052,
-   "total": 40.554
+   "phi_masking": 0.048,
+   "llm_note": 0.008,
+   "guards_note": 0.068,
+   "llm_codes": 0.112,
+   "guards_codes": 0.046,
+   "total": 0.282
   },
   "usage": {
    "input_tokens": 4980,
@@ -784,8 +784,7 @@
   "found": 22,
   "found_in_section": 22,
   "negation_errors": [
-   "f8: No prior psychiatric history or mental health treatment (absent)",
-   "f12: Denies suicidal ideation or thoughts of self-harm (absent)"
+   "f8: No prior psychiatric history or mental health treatment (absent)"
   ],
   "trap_errors": [],
   "missed": [

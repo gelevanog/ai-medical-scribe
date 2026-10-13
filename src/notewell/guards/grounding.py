@@ -19,7 +19,7 @@ from collections.abc import Sequence
 from dataclasses import dataclass
 
 from notewell.guards.text import content_terms, numbers, tokens
-from notewell.kb import drug_aliases, drug_pattern
+from notewell.kb import drug_aliases, drug_pattern, find_concepts
 from notewell.models import Evidence, Flag, Statement, Turn
 
 QUOTE_MIN_RATIO = 0.8
@@ -39,6 +39,7 @@ class TurnText:
     terms: set[str]
     numbers: set[str]
     drugs: set[str]
+    concepts: set[str]
 
 
 def drugs_in(text: str) -> set[str]:
@@ -63,7 +64,16 @@ def _fuzzy_contains(quote: tuple[str, ...], turn: tuple[str, ...]) -> float:
 class Grounder:
     def __init__(self, turns: Sequence[Turn]) -> None:
         self.turns = [
-            TurnText(t.idx, t.speaker, t.text, tokens(t.text), content_terms(t.text), numbers(t.text), drugs_in(t.text))
+            TurnText(
+                t.idx,
+                t.speaker,
+                t.text,
+                tokens(t.text),
+                content_terms(t.text),
+                numbers(t.text),
+                drugs_in(t.text),
+                {c for c, _, _ in find_concepts(t.text)},
+            )
             for t in turns
         ]
         self.by_idx = {t.idx: t for t in self.turns}
@@ -102,6 +112,7 @@ class Grounder:
         stmt_numbers = numbers(text, words=False)
         stmt_drugs = drugs_in(text)
         stmt_terms = content_terms(text) - stmt_numbers
+        stmt_concepts = {c for c, _, _ in find_concepts(text)}
         flags: list[Flag] = []
 
         def coverage(turn_ids: set[int]) -> tuple[set[str], set[str], float]:
@@ -112,9 +123,12 @@ class Grounder:
             nums = set().union(*(t.numbers for t in pool)) if pool else set()
             drugs = set().union(*(t.drugs for t in pool)) if pool else set()
             terms = set().union(*(t.terms for t in pool)) if pool else set()
+            concepts = set().union(*(t.concepts for t in pool)) if pool else set()
             missing_nums = stmt_numbers - nums
             missing_drugs = stmt_drugs - drugs
             overlap = len(stmt_terms & terms) / len(stmt_terms) if stmt_terms else 1.0
+            if stmt_concepts and stmt_concepts <= concepts:
+                overlap = 1.0  # "paroxysmal nocturnal dyspnea" is what "waking up at night gasping" means
             return missing_nums, missing_drugs, overlap
 
         support = "unsupported"

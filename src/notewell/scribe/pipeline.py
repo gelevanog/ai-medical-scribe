@@ -126,7 +126,12 @@ class Scribe:
         residue: dict[str, int],
         usage: dict[str, int],
     ) -> dict[str, Any]:
+        started = time.perf_counter()
         completion, sent = self._call(messages, guard, vault, tag, residue)
+        # The model's own time: measured now, or as recorded when a cached answer was first fetched.
+        usage["model_ms"] = usage.get("model_ms", 0) + int(
+            1000 * (completion.latency_s or (time.perf_counter() - started))
+        )
         usage["input_tokens"] = usage.get("input_tokens", 0) + completion.input_tokens
         usage["output_tokens"] = usage.get("output_tokens", 0) + completion.output_tokens
         usage["calls"] = usage.get("calls", 0) + 1
@@ -135,7 +140,9 @@ class Scribe:
         except ParseError as exc:
             answer: Message = {"role": "assistant", "content": completion.text[:4000]}
             retry: list[Message] = [*sent, answer, repair_message(str(exc))]
+            started = time.perf_counter()
             completion, _ = self._call(retry, guard, vault, f"{tag}:repair", residue)
+            usage["model_ms"] += int(1000 * (completion.latency_s or (time.perf_counter() - started)))
             usage["input_tokens"] += completion.input_tokens
             usage["output_tokens"] += completion.output_tokens
             usage["calls"] += 1
@@ -157,7 +164,6 @@ class Scribe:
         guard = EgressGuard(registered, masked.vault)
         timings["phi_masking"] = round(time.perf_counter() - t0, 3)
 
-        t1 = time.perf_counter()
         note_data = self._json_call(
             note_messages(transcript=masked.text(), specialty=visit.specialty, visit_type=visit.visit_type),
             guard,
@@ -166,7 +172,7 @@ class Scribe:
             residue,
             usage,
         )
-        timings["llm_note"] = round(time.perf_counter() - t1, 3)
+        timings["llm_note"] = round(usage.get("model_ms", 0) / 1000, 3)
 
         t2 = time.perf_counter()
         statements, meds, allergies, avs = parse_note(note_data)
@@ -177,7 +183,6 @@ class Scribe:
         statements, meds, allergies = self._verify(statements, meds, allergies, original_turns, visit)
         timings["guards_note"] = round(time.perf_counter() - t2, 3)
 
-        t3 = time.perf_counter()
         note_text_masked = "\n".join(
             f"{s.section[0].upper()}: {self.masker.mask_text(s.text, registered, vault)}" for s in statements
         )
@@ -197,7 +202,7 @@ class Scribe:
             residue,
             usage,
         )
-        timings["llm_codes"] = round(time.perf_counter() - t3, 3)
+        timings["llm_codes"] = round(usage.get("model_ms", 0) / 1000 - timings["llm_note"], 3)
 
         t4 = time.perf_counter()
         note = self._assemble_codes(visit, statements, meds, allergies, avs_restored, codes_data, vault, original_turns)
@@ -210,7 +215,9 @@ class Scribe:
                 )
             )
         timings["guards_codes"] = round(time.perf_counter() - t4, 3)
-        timings["total"] = round(time.perf_counter() - t0, 3)
+        local = sum(timings[k] for k in ("phi_masking", "guards_note", "guards_codes"))
+        timings["total"] = round(local + timings["llm_note"] + timings["llm_codes"], 3)
+        timings["wall"] = round(time.perf_counter() - t0, 3)
         note.timings = timings
         note.usage = usage
         note.phi = {**vault.counts(), **{f"egress_residue_{k}": v for k, v in residue.items()}}

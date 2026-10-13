@@ -1,0 +1,334 @@
+{
+ "turns": [
+  {
+   "idx": 0,
+   "speaker": "patient",
+   "text": "Hi, Neha, come on in.",
+   "start": 0.11,
+   "end": 1.59
+  },
+  {
+   "idx": 1,
+   "speaker": "clinician",
+   "text": "Can I have your full name and date of birth, please?",
+   "start": 1.97,
+   "end": 4.21
+  },
+  {
+   "idx": 2,
+   "speaker": "patient",
+   "text": "Neha kolkarni, January 25th, 1987.",
+   "start": 5.07,
+   "end": 8.49
+  },
+  {
+   "idx": 3,
+   "speaker": "clinician",
+   "text": "Thanks, how did your daughter's soccer tournament go?",
+   "start": 9.68,
+   "end": 12.12
+  },
+  {
+   "idx": 4,
+   "speaker": "patient",
+   "text": "They lost in the semi -final, but Annea scored, so she was over the moon.",
+   "start": 13.0,
+   "end": 16.78
+  },
+  {
+   "idx": 5,
+   "speaker": "clinician",
+   "text": "That's great, so how's the mood been?",
+   "start": 17.42,
+   "end": 19.5
+  },
+  {
+   "idx": 6,
+   "speaker": "patient",
+   "text": "Good, actually. The bupropion is still working. But, um, there's something I wanted to bring up. My husband, Vikram, thinks I should talk to you about my drinking.",
+   "start": 20.24,
+   "end": 28.82
+  },
+  {
+   "idx": 7,
+   "speaker": "clinician",
+   "text": "I'm glad you You did. Tell me what it looks like.",
+   "start": 29.34,
+   "end": 31.9
+  },
+  {
+   "idx": 8,
+   "speaker": "patient",
+   "text": "Since I started working from home last year, a glass of wine at six turned into three, sometimes four most nights. Saturdays it can be five or six.",
+   "start": 32.8,
+   "end": 41.28
+  },
+  {
+   "idx": 9,
+   "speaker": "clinician",
+   "text": "Do you often end up drinking more than you planned? Pretty much always.",
+   "start": 41.9,
+   "end": 45.84
+  },
+  {
+   "idx": 10,
+   "speaker": "patient",
+   "text": "I tell myself one glass.",
+   "start": 46.38,
+   "end": 47.6
+  },
+  {
+   "idx": 11,
+   "speaker": "clinician",
+   "text": "Have you tried to cut back?",
+   "start": 48.42,
+   "end": 50.0
+  },
+  {
+   "idx": 12,
+   "speaker": "patient",
+   "text": "In August I tried to start for a month. I made it four days.",
+   "start": 50.83,
+   "end": 54.19
+  },
+  {
+   "idx": 13,
+   "speaker": "clinician",
+   "text": "Do you ever drink in the morning, or get shaky or sweaty when you go without? out.",
+   "start": 54.81,
+   "end": 59.01
+  },
+  {
+   "idx": 14,
+   "speaker": "patient",
+   "text": "No, never in the morning and no shakes.",
+   "start": 59.8,
+   "end": 61.76
+  },
+  {
+   "idx": 15,
+   "speaker": "clinician",
+   "text": "Any blackouts where you can't remember part of the night.",
+   "start": 63.06,
+   "end": 65.84
+  },
+  {
+   "idx": 16,
+   "speaker": "patient",
+   "text": "Once at a wedding in August I don't remember the end of the night. That kind of scared me.",
+   "start": 66.6,
+   "end": 71.08
+  },
+  {
+   "idx": 17,
+   "speaker": "clinician",
+   "text": "Any driving after drinking? No, never.",
+   "start": 71.76,
+   "end": 75.0
+  },
+  {
+   "idx": 18,
+   "speaker": "patient",
+   "text": "I'm really careful about that.",
+   "start": 75.36,
+   "end": 76.52
+  },
+  {
+   "idx": 19,
+   "speaker": "clinician",
+   "text": "Any smoking,",
+   "start": 77.3,
+   "end": 77.98
+  },
+  {
+   "idx": 20,
+   "speaker": "patient",
+   "text": "cannabis,",
+   "start": 78.44,
+   "end": 78.64
+  },
+  {
+   "idx": 21,
+   "speaker": "clinician",
+   "text": "other drugs?",
+   "start": 79.26,
+   "end": 79.66
+  },
+  {
+   "idx": 22,
+   "speaker": "patient",
+   "text": "No, none of that.",
+   "start": 80.82,
+   "end": 81.9
+  },
+  {
+   "idx": 23,
+   "speaker": "clinician",
+   "text": "Anyone in your family with alcohol alcohol problems.",
+   "start": 82.6,
+   "end": 85.76
+  },
+  {
+   "idx": 24,
+   "speaker": "patient",
+   "text": "My dad was a heavy drinker. He died of cirrhosis when I was in college.",
+   "start": 86.61,
+   "end": 90.39
+  },
+  {
+   "idx": 25,
+   "speaker": "clinician",
+   "text": "I'm sorry, that's a lot to carry, and you're still on Bopropian XL, 150 milligrams every morning.",
+   "start": 91.49,
+   "end": 97.63
+  },
+  {
+   "idx": 26,
+   "speaker": "patient",
+   "text": "Yes, every morning.",
+   "start": 98.33,
+   "end": 99.39
+  },
+  {
+   "idx": 27,
+   "speaker": "clinician",
+   "text": "I have to ask any thoughts of suicide or of hurting yourself.",
+   "start": 100.25,
+   "end": 103.77
+  },
+  {
+   "idx": 28,
+   "speaker": "patient",
+   "text": "No, not at all.",
+   "start": 105.07,
+   "end": 106.05
+  },
+  {
+   "idx": 29,
+   "speaker": "clinician",
+   "text": "Good so your audit C score today is 8 out of 12. For women, 3 or more is a positive screen, so this is clearly in the risky range. Your pH Q9 is 4, so your depression is still in remission. Your blood pressure is a bit high today at 138 over 88 pulse 90. I don't see any tremor in your hands. You seem calm and open, your mood is good, and your thinking is clear.",
+   "start": 106.53,
+   "end": 126.17
+  },
+  {
+   "idx": 30,
+   "speaker": "patient",
+   "text": "Okay, honestly, I figured it would be high.",
+   "start": 126.59,
+   "end": 128.75
+  },
+  {
+   "idx": 31,
+   "speaker": "clinician",
+   "text": "So here's where I land. I think this is a mild alcohol use disorder. Your recurrent major depression is in full remission on the bupropion, and I want to keep it that way because alcohol can bring depression back. There's one more important thing, but propion lowers the seizure threshold,",
+   "start": 129.67,
+   "end": 144.39
+  },
+  {
+   "idx": 32,
+   "speaker": "patient",
+   "text": "and heavy drinking,",
+   "start": 144.81,
+   "end": 145.35
+  },
+  {
+   "idx": 33,
+   "speaker": "clinician",
+   "text": "or stopping suddenly after heavy drinking, raises that risk.",
+   "start": 145.71,
+   "end": 148.97
+  },
+  {
+   "idx": 34,
+   "speaker": "patient",
+   "text": "Wow, I didn't know that.",
+   "start": 149.71,
+   "end": 151.03
+  },
+  {
+   "idx": 35,
+   "speaker": "clinician",
+   "text": "So what I'd like to do is this. First, a liver panel and a GGT at the lab on your way out. If those are okay, I'll start an outrix zone, 50mg once a day. It cuts cravings and makes drinking less rewarding. I'll call you with the results before you start it. Okay.",
+   "start": 151.87,
+   "end": 167.21
+  },
+  {
+   "idx": 36,
+   "speaker": "patient",
+   "text": "Is it the same number on file? 919 -555 -0117. That's what I have.",
+   "start": 167.53,
+   "end": 174.17
+  },
+  {
+   "idx": 37,
+   "speaker": "clinician",
+   "text": "Second, a goal for now. No more than one drink a day and at least three alcohol -free days a week.",
+   "start": 174.73,
+   "end": 179.21
+  },
+  {
+   "idx": 38,
+   "speaker": "patient",
+   "text": "Third,",
+   "start": 179.81,
+   "end": 179.87
+  },
+  {
+   "idx": 39,
+   "speaker": "clinician",
+   "text": "I'm referring you to the Riverbend Recovery Center outpatient program. They have evening groups twice a week.",
+   "start": 180.31,
+   "end": 185.49
+  },
+  {
+   "idx": 40,
+   "speaker": "patient",
+   "text": "Evening's work. Vikram can handle the kids.",
+   "start": 186.29,
+   "end": 188.49
+  },
+  {
+   "idx": 41,
+   "speaker": "clinician",
+   "text": "Keep the bupropion at 150.",
+   "start": 189.36,
+   "end": 190.8
+  },
+  {
+   "idx": 42,
+   "speaker": "patient",
+   "text": "If you get shaky,",
+   "start": 191.7,
+   "end": 192.32
+  },
+  {
+   "idx": 43,
+   "speaker": "clinician",
+   "text": "sweaty or anxious when you cut down, call us right away. And if your mood drops or you have any thoughts of hurting yourself, call or text 988. We'll recheck your blood pressure next time. Let's meet again in four weeks on October 30th. Thank you.",
+   "start": 192.74,
+   "end": 206.9
+  },
+  {
+   "idx": 44,
+   "speaker": "patient",
+   "text": "This is easier to say out loud than I thought.",
+   "start": 207.14,
+   "end": 209.26
+  }
+ ],
+ "source": "asr",
+ "asr_model": "faster-whisper base.en int8 + medical prompt",
+ "duration_s": 210.15,
+ "timings": {
+  "asr": 22.54,
+  "diarization": 0.69
+ },
+ "diarization": {
+  "method": "log-mel + pitch signatures, k-means (k=2), lexical role inference",
+  "chunks": 83,
+  "role_scores": {
+   "clinician": 30.0,
+   "patient": -3.5
+  }
+ }
+}

@@ -1,0 +1,355 @@
+{
+ "turns": [
+  {
+   "idx": 0,
+   "speaker": "clinician",
+   "text": "Hi, come on in. Have a seat anywhere. I'm Priya Natarajan, one of the psychiatric nurse practitioners here. Can you tell me your full name and date of birth?",
+   "start": 0.11,
+   "end": 14.58
+  },
+  {
+   "idx": 1,
+   "speaker": "patient",
+   "text": "Daniella Restripo, May 8th, 1992.",
+   "start": 15.37,
+   "end": 18.39
+  },
+  {
+   "idx": 2,
+   "speaker": "clinician",
+   "text": "Thank you, Daniella. Did you find parking okay? That garage is a bit of a maze.",
+   "start": 19.55,
+   "end": 26.34
+  },
+  {
+   "idx": 3,
+   "speaker": "patient",
+   "text": "Yes, I ended up all the way on the roof, but it's fine. That happens to everyone.",
+   "start": 27.32,
+   "end": 32.18
+  },
+  {
+   "idx": 4,
+   "speaker": "clinician",
+   "text": "So your primary care doctor sent you over. Tell me in your own",
+   "start": 33.61,
+   "end": 38.38
+  },
+  {
+   "idx": 5,
+   "speaker": "patient",
+   "text": "- Um, I've just been really down. For about three months now, I don't enjoy anything anymore. I used to paint on the weekends and I haven't touched it since June.",
+   "start": 41.61,
+   "end": 50.27
+  },
+  {
+   "idx": 6,
+   "speaker": "clinician",
+   "text": "I'm sorry. That sounds really hard. How's your sleep been?",
+   "start": 51.28,
+   "end": 56.13
+  },
+  {
+   "idx": 7,
+   "speaker": "patient",
+   "text": "Bad, I fall asleep okay. But I wake up around four in the morning and I can't get back to sleep.",
+   "start": 57.07,
+   "end": 62.23
+  },
+  {
+   "idx": 8,
+   "speaker": "clinician",
+   "text": "And you're appetite?",
+   "start": 62.89,
+   "end": 63.67
+  },
+  {
+   "idx": 9,
+   "speaker": "patient",
+   "text": "I'm just not hungry. I think I've lost maybe eight pounds without trying.",
+   "start": 64.6,
+   "end": 69.44
+  },
+  {
+   "idx": 10,
+   "speaker": "clinician",
+   "text": "About energy and concentration.",
+   "start": 70.16,
+   "end": 72.22
+  },
+  {
+   "idx": 11,
+   "speaker": "patient",
+   "text": "Low energy all the time. At work I read the same email like three times. I'm a project coordinator at Havers & Engineering, and I'm, you know, kind of barely keeping up.",
+   "start": 73.3,
+   "end": 83.48
+  },
+  {
+   "idx": 12,
+   "speaker": "clinician",
+   "text": "Did anything happen that set this off?",
+   "start": 83.94,
+   "end": 86.05
+  },
+  {
+   "idx": 13,
+   "speaker": "patient",
+   "text": "My relationship ended in the spring. Five years. But honestly, it feels bigger than that now. No, that makes sense.",
+   "start": 86.67,
+   "end": 93.65
+  },
+  {
+   "idx": 14,
+   "speaker": "clinician",
+   "text": "Have you ever had a stretch like this before been treated for depression or anxiety?",
+   "start": 95.07,
+   "end": 101.57
+  },
+  {
+   "idx": 15,
+   "speaker": "patient",
+   "text": "No this is the first time. I've never been on anything for it.",
+   "start": 102.54,
+   "end": 106.04
+  },
+  {
+   "idx": 16,
+   "speaker": "clinician",
+   "text": "Have you ever had time where you felt the opposite, like really high energy and sleep for day racing thought?",
+   "start": 106.61,
+   "end": 117.5
+  },
+  {
+   "idx": 17,
+   "speaker": "patient",
+   "text": "No never.",
+   "start": 118.62,
+   "end": 119.26
+  },
+  {
+   "idx": 18,
+   "speaker": "clinician",
+   "text": "Anyone in your family,",
+   "start": 120.09,
+   "end": 121.45
+  },
+  {
+   "idx": 19,
+   "speaker": "patient",
+   "text": "depression,",
+   "start": 122.69,
+   "end": 123.07
+  },
+  {
+   "idx": 20,
+   "speaker": "clinician",
+   "text": "bipolar disorder.",
+   "start": 124.15,
+   "end": 125.25
+  },
+  {
+   "idx": 21,
+   "speaker": "patient",
+   "text": "My aunt on my dad's side has bipolar, I think. And my sister Paola takes something for anxiety. I don't know what.",
+   "start": 125.81,
+   "end": 132.39
+  },
+  {
+   "idx": 22,
+   "speaker": "clinician",
+   "text": "Okay,",
+   "start": 133.34,
+   "end": 133.34
+  },
+  {
+   "idx": 23,
+   "speaker": "patient",
+   "text": "ask",
+   "start": 133.68,
+   "end": 133.94
+  },
+  {
+   "idx": 24,
+   "speaker": "clinician",
+   "text": "everyone. Have you had any thoughts that you'd be better off dead? It's of hurting yourself.",
+   "start": 139.66,
+   "end": 147.29
+  },
+  {
+   "idx": 25,
+   "speaker": "patient",
+   "text": "No, I feel awful, but no, nothing like that.",
+   "start": 148.17,
+   "end": 150.25
+  },
+  {
+   "idx": 26,
+   "speaker": "clinician",
+   "text": "Any thoughts of hurting anyone else?",
+   "start": 151.03,
+   "end": 153.17
+  },
+  {
+   "idx": 27,
+   "speaker": "patient",
+   "text": "No!",
+   "start": 154.21,
+   "end": 154.47
+  },
+  {
+   "idx": 28,
+   "speaker": "clinician",
+   "text": "Thank you for answering that.",
+   "start": 155.24,
+   "end": 156.9
+  },
+  {
+   "idx": 29,
+   "speaker": "patient",
+   "text": "Maybe a glass of wine once a week. No drugs. Any medical problems?",
+   "start": 160.9,
+   "end": 164.94
+  },
+  {
+   "idx": 30,
+   "speaker": "clinician",
+   "text": "And are you allergic to any medications? I'm healthy otherwise.",
+   "start": 166.52,
+   "end": 170.62
+  },
+  {
+   "idx": 31,
+   "speaker": "patient",
+   "text": "I'm allergic to penicillin. I break out in hives.",
+   "start": 171.36,
+   "end": 173.84
+  },
+  {
+   "idx": 32,
+   "speaker": "clinician",
+   "text": "Got it. So the questionnaire you filled out in the waiting... Your score is 15, which is in the moderate range.",
+   "start": 174.48,
+   "end": 185.95
+  },
+  {
+   "idx": 33,
+   "speaker": "patient",
+   "text": "Your G,",
+   "start": 187.64,
+   "end": 188.02
+  },
+  {
+   "idx": 34,
+   "speaker": "clinician",
+   "text": "a D7 anxiety score, is 6. Blood pressure today is 116 over 74, pulse 72. And so you know what I... Your speech is normal.",
+   "start": 188.36,
+   "end": 210.84
+  },
+  {
+   "idx": 35,
+   "speaker": "patient",
+   "text": "Yeah, that sounds about right. So here's what I think.",
+   "start": 220.92,
+   "end": 224.46
+  },
+  {
+   "idx": 36,
+   "speaker": "clinician",
+   "text": "This looks like major depression. A single episode like to do is start sertraline. 25 milligrams once a day for one week, up to 50 milligrams once a day. It can take four to six weeks to really feel the difference.",
+   "start": 225.9,
+   "end": 251.79
+  },
+  {
+   "idx": 37,
+   "speaker": "patient",
+   "text": "Are there side effects?",
+   "start": 252.84,
+   "end": 253.64
+  },
+  {
+   "idx": 38,
+   "speaker": "clinician",
+   "text": "Some people get an uproar or a headache the first week or two, usually fade. Take it when because of your If you ever notice you're suddenly wired, not sleeping,",
+   "start": 254.61,
+   "end": 272.82
+  },
+  {
+   "idx": 39,
+   "speaker": "patient",
+   "text": "okay,",
+   "start": 277.54,
+   "end": 277.54
+  },
+  {
+   "idx": 40,
+   "speaker": "clinician",
+   "text": "I'd also like you to sign putting in a referral to our therapy TV sessions and I'm giving you this safety plan card. If you ever do have thoughts of hurting yourself, you can call.",
+   "start": 278.24,
+   "end": 295.11
+  },
+  {
+   "idx": 41,
+   "speaker": "patient",
+   "text": "Okay, thank you.",
+   "start": 306.64,
+   "end": 307.34
+  },
+  {
+   "idx": 42,
+   "speaker": "clinician",
+   "text": "Which pharmacy do you use?",
+   "start": 308.18,
+   "end": 309.94
+  },
+  {
+   "idx": 43,
+   "speaker": "patient",
+   "text": "Lakeview Pharmacy on 4120 Belmont Avenue.",
+   "start": 310.57,
+   "end": 314.21
+  },
+  {
+   "idx": 44,
+   "speaker": "clinician",
+   "text": "I'll send it there.",
+   "start": 314.71,
+   "end": 315.75
+  },
+  {
+   "idx": 45,
+   "speaker": "patient",
+   "text": "773 -555 -0164.",
+   "start": 319.62,
+   "end": 323.14
+  },
+  {
+   "idx": 46,
+   "speaker": "clinician",
+   "text": "Great. Let's see you back in four weeks to check how you're doing on the medicine.",
+   "start": 324.1,
+   "end": 332.34
+  },
+  {
+   "idx": 47,
+   "speaker": "patient",
+   "text": "Sounds good. Thanks, really.",
+   "start": 333.06,
+   "end": 334.44
+  }
+ ],
+ "source": "asr",
+ "asr_model": "faster-whisper small.en int8 + medical prompt",
+ "duration_s": 335.21,
+ "timings": {
+  "asr": 23.5,
+  "diarization": 0.49
+ },
+ "diarization": {
+  "method": "log-mel + pitch signatures, k-means (k=2), lexical role inference",
+  "chunks": 108,
+  "role_scores": {
+   "clinician": 32.5,
+   "patient": 3.0
+  }
+ }
+}

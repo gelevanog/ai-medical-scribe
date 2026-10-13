@@ -1,0 +1,271 @@
+{
+ "turns": [
+  {
+   "idx": 0,
+   "speaker": "patient",
+   "text": "Hi there, I'm Dr.",
+   "start": 0.08,
+   "end": 1.56
+  },
+  {
+   "idx": 1,
+   "speaker": "clinician",
+   "text": "Quamer Sant, one of the dermatologists here. Did you find parking okay? That garage is a maze.",
+   "start": 1.84,
+   "end": 7.96
+  },
+  {
+   "idx": 2,
+   "speaker": "patient",
+   "text": "Ah, it really is. I went around twice before I found a spot on level 3.",
+   "start": 8.96,
+   "end": 13.0
+  },
+  {
+   "idx": 3,
+   "speaker": "clinician",
+   "text": "Everybody does.",
+   "start": 13.46,
+   "end": 14.44
+  },
+  {
+   "idx": 4,
+   "speaker": "patient",
+   "text": "So before we start,",
+   "start": 15.0,
+   "end": 15.94
+  },
+  {
+   "idx": 5,
+   "speaker": "clinician",
+   "text": "can you tell me your full name and date of birth?",
+   "start": 16.3,
+   "end": 18.56
+  },
+  {
+   "idx": 6,
+   "speaker": "patient",
+   "text": "Ashling Brennan, and my birthday is June 9th, 1988. Thank you, Ashling.",
+   "start": 19.26,
+   "end": 24.8
+  },
+  {
+   "idx": 7,
+   "speaker": "clinician",
+   "text": "Your referral mentions a mole on your back.",
+   "start": 25.28,
+   "end": 27.4
+  },
+  {
+   "idx": 8,
+   "speaker": "patient",
+   "text": "Tell me what's going on with it. So it's on my left upper back, kind of by my shoulder blade. My husband Declan noticed it looked different back in um,",
+   "start": 27.82,
+   "end": 36.28
+  },
+  {
+   "idx": 9,
+   "speaker": "clinician",
+   "text": "July.",
+   "start": 36.64,
+   "end": 36.64
+  },
+  {
+   "idx": 10,
+   "speaker": "patient",
+   "text": "He says it's gotten bigger and darker since spring. Okay, has it bled at all, or crusted over? No, no bleeding.",
+   "start": 37.24,
+   "end": 44.64
+  },
+  {
+   "idx": 11,
+   "speaker": "clinician",
+   "text": "Does it itch or hurt?",
+   "start": 45.24,
+   "end": 47.06
+  },
+  {
+   "idx": 12,
+   "speaker": "patient",
+   "text": "It itches a little now and then, it doesn't hurt.",
+   "start": 47.62,
+   "end": 50.22
+  },
+  {
+   "idx": 13,
+   "speaker": "clinician",
+   "text": "Have you ever had a skin cancer yourself, or any moles removed?",
+   "start": 50.78,
+   "end": 54.56
+  },
+  {
+   "idx": 14,
+   "speaker": "patient",
+   "text": "No, I've never had skin cancer, and nothing's ever been removed.",
+   "start": 55.08,
+   "end": 58.92
+  },
+  {
+   "idx": 15,
+   "speaker": "clinician",
+   "text": "Anyone in the family with skin cancer?",
+   "start": 59.46,
+   "end": 61.84
+  },
+  {
+   "idx": 16,
+   "speaker": "patient",
+   "text": "My dad had a basal cell on his nose a few years ago. They scraped it off and he's been fine.",
+   "start": 62.7,
+   "end": 67.42
+  },
+  {
+   "idx": 17,
+   "speaker": "clinician",
+   "text": "Good to know. How about sun exposure? Sun burns growing up, tanning beds.",
+   "start": 68.16,
+   "end": 72.64
+  },
+  {
+   "idx": 18,
+   "speaker": "patient",
+   "text": "Oh, lots of sun. I was a lifeguard every summer through college at Crestview Aquatics. I got burned pretty badly a few times, like blistering. Never did tanning beds, though. Got it.",
+   "start": 73.32,
+   "end": 84.3
+  },
+  {
+   "idx": 19,
+   "speaker": "clinician",
+   "text": "Any medicines you take regularly?",
+   "start": 84.48,
+   "end": 86.2
+  },
+  {
+   "idx": 20,
+   "speaker": "patient",
+   "text": "Just Levothyroxine. 75 micrograms every morning for my thyroid.",
+   "start": 86.88,
+   "end": 91.16
+  },
+  {
+   "idx": 21,
+   "speaker": "clinician",
+   "text": "And any allergies to medications? Or to lidocaine or latex?",
+   "start": 91.78,
+   "end": 95.64
+  },
+  {
+   "idx": 22,
+   "speaker": "patient",
+   "text": "No allergies that I know of.",
+   "start": 96.24,
+   "end": 97.96
+  },
+  {
+   "idx": 23,
+   "speaker": "clinician",
+   "text": "Alright, let me take a look. Can you slip your left arm out of the gown?",
+   "start": 98.81,
+   "end": 102.13
+  },
+  {
+   "idx": 24,
+   "speaker": "patient",
+   "text": "Okay.",
+   "start": 102.95,
+   "end": 102.95
+  },
+  {
+   "idx": 25,
+   "speaker": "clinician",
+   "text": "So on your left upper back, just over the shoulder blade, there's a 7mm dark brown mold. It's asymmetric, the border is irregular and kind of gnarched at the bottom, and there's a black area on one side. Under the dermatasco, I see an irregular network, and a few darts at the edge. That one stands out from your other moles.",
+   "start": 103.59,
+   "end": 122.69
+  },
+  {
+   "idx": 26,
+   "speaker": "patient",
+   "text": "Is that bad?",
+   "start": 123.23,
+   "end": 123.97
+  },
+  {
+   "idx": 27,
+   "speaker": "clinician",
+   "text": "It's what we call an ugly duckling. It doesn't look like its neighbors. Let me check the rest of you first. Your back, chest and arms have scattered two to three millimeter round moles, evenly brown. Those all look like normal benign moles. scalp face and legs look fine I don't feel any swollen lymph nodes in your left armpit or your neck any lumps you've noticed in your armpit no nothing like that okay so here's what I think this mole on your back has several changing features most of these turn out to be an atypical mole but I can't rule out an early melanoma just by looking so I'd like to do a biopsy today today okay what does that involve it's a shave biopsy I numbed the area with a little lidocaine with epinephrine then I take off the whole mole with a thin blade fairly deep and send it to the lab no stitches you'll have a shallow wound kind of like a scrape that's fine let's do it great a little pinch and a burn now okay and that's done it went well I've sent it to pathology for care keep the bandage on for 24 hours, then wash it gently once a day, put on plain petroleum jelly and a fresh bandage every day until it heals. That's usually one to two weeks.",
+   "start": 124.59,
+   "end": 203.87
+  },
+  {
+   "idx": 28,
+   "speaker": "patient",
+   "text": "Okay, when will I know?",
+   "start": 204.43,
+   "end": 205.67
+  },
+  {
+   "idx": 29,
+   "speaker": "clinician",
+   "text": "Results take about seven to ten days. They'll post to the portal and someone will call you either way. What's the best number for you? My cell 555 -0163 and my portal email is Aisling Dart Brennan 88 at fastmail .com Got it. If it does come back as a melanoma, we talk about a wider excision to get clear margins, but let's not get ahead of ourselves. If the sight gets red, hard, swollen or drains pus, call us.",
+   "start": 206.55,
+   "end": 235.47
+  },
+  {
+   "idx": 30,
+   "speaker": "patient",
+   "text": "Okay, should I be doing anything about the sun? Yes,",
+   "start": 236.01,
+   "end": 239.37
+  },
+  {
+   "idx": 31,
+   "speaker": "clinician",
+   "text": "broad spectrum sunscreen, SPF 30 or higher, every day on exposed skin, reapply every two hours when you're outside and a wide brimmed hat. Check your own moles once a month and since you've had blistering sunburns and quite a few moles I'd like to see you for a full skin check every year.",
+   "start": 239.91,
+   "end": 258.29
+  },
+  {
+   "idx": 32,
+   "speaker": "patient",
+   "text": "Sounds good.",
+   "start": 259.07,
+   "end": 259.67
+  },
+  {
+   "idx": 33,
+   "speaker": "clinician",
+   "text": "Let's book a follow -up for the biopsy site and results on Tuesday October 27th. Any other questions?",
+   "start": 260.21,
+   "end": 267.49
+  },
+  {
+   "idx": 34,
+   "speaker": "patient",
+   "text": "No I think that's it. Thank you. You're welcome Ashley.",
+   "start": 268.41,
+   "end": 272.07
+  },
+  {
+   "idx": 35,
+   "speaker": "clinician",
+   "text": "Take care and good luck getting out of that garage.",
+   "start": 272.63,
+   "end": 275.11
+  }
+ ],
+ "source": "asr",
+ "asr_model": "faster-whisper small.en int8 + medical prompt",
+ "duration_s": 275.93,
+ "timings": {
+  "asr": 45.6,
+  "diarization": 0.57
+ },
+ "diarization": {
+  "method": "log-mel + pitch signatures, k-means (k=2), lexical role inference",
+  "chunks": 85,
+  "role_scores": {
+   "clinician": 35.0,
+   "patient": 2.0
+  }
+ }
+}

@@ -1,0 +1,714 @@
+{
+ "note": {
+  "visit_id": "mh-03",
+  "statements": [
+   {
+    "id": "s1",
+    "section": "subjective",
+    "text": "New mental health patient; presenting after job loss, wife encouraged attendance.",
+    "evidence": [
+     {
+      "turn": 5,
+      "quote": "Honestly, my wife Samira pushed me. I got laid off six weeks ago.",
+      "verified": true,
+      "score": 1.0
+     }
+    ],
+    "support": "supported",
+    "flags": [],
+    "origin": "model",
+    "edited": false
+   },
+   {
+    "id": "s2",
+    "section": "subjective",
+    "text": "Lost job 6 weeks ago after 19 years in warehouse operations.",
+    "evidence": [
+     {
+      "turn": 5,
+      "quote": "I got laid off six weeks ago. Nineteen years at Tri-County Logistics, I ran warehouse operations",
+      "verified": true,
+      "score": 1.0
+     }
+    ],
+    "support": "supported",
+    "flags": [],
+    "origin": "model",
+    "edited": false
+   },
+   {
+    "id": "s3",
+    "section": "subjective",
+    "text": "Feels down, useless, short-tempered with children, anxious about finances.",
+    "evidence": [
+     {
+      "turn": 7,
+      "quote": "Down, mostly. Kind of useless. And I'm short with the kids",
+      "verified": true,
+      "score": 1.0
+     }
+    ],
+    "support": "supported",
+    "flags": [],
+    "origin": "model",
+    "edited": false
+   },
+   {
+    "id": "s4",
+    "section": "subjective",
+    "text": "Sleeps until 10 a.m., reduced activity, stopped Saturday basketball with friends.",
+    "evidence": [
+     {
+      "turn": 9,
+      "quote": "I sleep until 10, which I never did. I stopped going to my Saturday basketball with the guys.",
+      "verified": true,
+      "score": 1.0
+     }
+    ],
+    "support": "supported",
+    "flags": [],
+    "origin": "model",
+    "edited": false
+   },
+   {
+    "id": "s5",
+    "section": "subjective",
+    "text": "Increased appetite, mostly junk food.",
+    "evidence": [
+     {
+      "turn": 11,
+      "quote": "I'm eating more, honestly. Junk, mostly.",
+      "verified": true,
+      "score": 1.0
+     }
+    ],
+    "support": "supported",
+    "flags": [],
+    "origin": "model",
+    "edited": false
+   },
+   {
+    "id": "s6",
+    "section": "subjective",
+    "text": "No prior depressive episode or counseling ever before.",
+    "evidence": [
+     {
+      "turn": 13,
+      "quote": "No. I was fine. I've never seen a counselor or anything before this.",
+      "verified": true,
+      "score": 1.0
+     }
+    ],
+    "support": "supported",
+    "flags": [
+     {
+      "kind": "negation",
+      "severity": "error",
+      "message": "The transcript says the opposite: 'depressive' (turns 22, 26).",
+      "acknowledged": false,
+      "detail": {
+       "concept": "depressed_mood",
+       "turns": [
+        22,
+        26
+       ]
+      }
+     }
+    ],
+    "origin": "model",
+    "edited": false
+   },
+   {
+    "id": "s7",
+    "section": "subjective",
+    "text": "Denies panic attacks or racing heart with shortness of breath; reports a knot in the stomach.",
+    "evidence": [
+     {
+      "turn": 14,
+      "quote": "Any panic attacks, or feeling like your heart is racing and you can't breathe?",
+      "verified": true,
+      "score": 1.0
+     },
+     {
+      "turn": 15,
+      "quote": "No, not that. More like a knot in my stomach.",
+      "verified": true,
+      "score": 1.0
+     }
+    ],
+    "support": "supported",
+    "flags": [],
+    "origin": "model",
+    "edited": false
+   },
+   {
+    "id": "s8",
+    "section": "subjective",
+    "text": "Denies alcohol use; quit smoking 10 years ago; no other substances.",
+    "evidence": [
+     {
+      "turn": 16,
+      "quote": "What about alcohol, smoking, any other substances?",
+      "verified": true,
+      "score": 1.0
+     },
+     {
+      "turn": 17,
+      "quote": "I don't drink. I smoked for years but I quit ten years ago, when my daughter was born. Nothing else.",
+      "verified": true,
+      "score": 1.0
+     }
+    ],
+    "support": "supported",
+    "flags": [],
+    "origin": "model",
+    "edited": false
+   },
+   {
+    "id": "s9",
+    "section": "subjective",
+    "text": "Denies suicidal ideation.",
+    "evidence": [
+     {
+      "turn": 18,
+      "quote": "Have you had any thoughts of ending your life, or of hurting yourself?",
+      "verified": true,
+      "score": 1.0
+     },
+     {
+      "turn": 19,
+      "quote": "No. No, I'd never do that to my family.",
+      "verified": true,
+      "score": 1.0
+     }
+    ],
+    "support": "supported",
+    "flags": [],
+    "origin": "model",
+    "edited": false
+   },
+   {
+    "id": "s10",
+    "section": "subjective",
+    "text": "Denies homicidal ideation despite feeling angry.",
+    "evidence": [
+     {
+      "turn": 20,
+      "quote": "Any thoughts of hurting anyone else, maybe your old employer?",
+      "verified": true,
+      "score": 1.0
+     },
+     {
+      "turn": 21,
+      "quote": "Ha, no. I'm angry, but no.",
+      "verified": true,
+      "score": 1.0
+     }
+    ],
+    "support": "supported",
+    "flags": [],
+    "origin": "model",
+    "edited": false
+   },
+   {
+    "id": "s11",
+    "section": "subjective",
+    "text": "Activities that help: walking the dog; wife supportive.",
+    "evidence": [
+     {
+      "turn": 24,
+      "quote": "What's been helping, even a little?",
+      "verified": true,
+      "score": 1.0
+     },
+     {
+      "turn": 25,
+      "quote": "Walking the dog. And Samira, she's been great.",
+      "verified": true,
+      "score": 1.0
+     }
+    ],
+    "support": "supported",
+    "flags": [],
+    "origin": "model",
+    "edited": false
+   },
+   {
+    "id": "s12",
+    "section": "subjective",
+    "text": "Feels guilty that wife is picking up extra shifts.",
+    "evidence": [
+     {
+      "turn": 25,
+      "quote": "She's picking up extra shifts at the hospital, though, so I feel guilty about that too.",
+      "verified": true,
+      "score": 1.0
+     }
+    ],
+    "support": "supported",
+    "flags": [],
+    "origin": "model",
+    "edited": false
+   },
+   {
+    "id": "s13",
+    "section": "subjective",
+    "text": "Previous phone number confirmed still in use.",
+    "evidence": [
+     {
+      "turn": 2,
+      "quote": "And is 216-555-0139 still a good number for you?",
+      "verified": true,
+      "score": 1.0
+     },
+     {
+      "turn": 3,
+      "quote": "Yes, that's my cell.",
+      "verified": true,
+      "score": 1.0
+     }
+    ],
+    "support": "supported",
+    "flags": [],
+    "origin": "model",
+    "edited": false
+   },
+   {
+    "id": "o1",
+    "section": "objective",
+    "text": "PHQ-9 score 11, moderate depression.",
+    "evidence": [
+     {
+      "turn": 22,
+      "quote": "your PHQ-9 for depression is 11 and your GAD-7 for anxiety is 10",
+      "verified": true,
+      "score": 1.0
+     }
+    ],
+    "support": "supported",
+    "flags": [],
+    "origin": "model",
+    "edited": false
+   },
+   {
+    "id": "o2",
+    "section": "objective",
+    "text": "GAD-7 score 10, moderate anxiety.",
+    "evidence": [
+     {
+      "turn": 22,
+      "quote": "your PHQ-9 for depression is 11 and your GAD-7 for anxiety is 10, so both in the moderate range.",
+      "verified": true,
+      "score": 1.0
+     }
+    ],
+    "support": "supported",
+    "flags": [],
+    "origin": "model",
+    "edited": false
+   },
+   {
+    "id": "o3",
+    "section": "objective",
+    "text": "Appears casually dressed with good eye contact.",
+    "evidence": [
+     {
+      "turn": 22,
+      "quote": "you're casually dressed, good eye contact",
+      "verified": true,
+      "score": 1.0
+     }
+    ],
+    "support": "supported",
+    "flags": [],
+    "origin": "model",
+    "edited": false
+   },
+   {
+    "id": "o4",
+    "section": "objective",
+    "text": "Speech normal; mood sounds down and a bit anxious; thinking clear and logical.",
+    "evidence": [
+     {
+      "turn": 22,
+      "quote": "your speech is normal, your mood sounds down and a bit anxious, and your thinking is clear and logical.",
+      "verified": true,
+      "score": 1.0
+     }
+    ],
+    "support": "supported",
+    "flags": [],
+    "origin": "model",
+    "edited": false
+   },
+   {
+    "id": "a1",
+    "section": "assessment",
+    "text": "Adjustment disorder with mixed anxiety and depressed mood secondary to job loss.",
+    "evidence": [
+     {
+      "turn": 26,
+      "quote": "What you're going through sounds like an adjustment disorder with mixed anxiety and depressed mood.",
+      "verified": true,
+      "score": 1.0
+     }
+    ],
+    "support": "supported",
+    "flags": [],
+    "origin": "model",
+    "edited": false
+   },
+   {
+    "id": "p1",
+    "section": "plan",
+    "text": "Weekly therapy sessions of about one hour using a CBT approach.",
+    "evidence": [
+     {
+      "turn": 28,
+      "quote": "I'd like to meet weekly, about an hour each time. We'll use a CBT approach",
+      "verified": true,
+      "score": 1.0
+     }
+    ],
+    "support": "supported",
+    "flags": [],
+    "origin": "model",
+    "edited": false
+   },
+   {
+    "id": "p2",
+    "section": "plan",
+    "text": "Behavioral activation with goal of rising by 7:30 a.m. on weekdays.",
+    "evidence": [
+     {
+      "turn": 28,
+      "quote": "To start, I want you up by 7:30 on weekdays",
+      "verified": true,
+      "score": 1.0
+     }
+    ],
+    "support": "supported",
+    "flags": [],
+    "origin": "model",
+    "edited": false
+   },
+   {
+    "id": "p3",
+    "section": "plan",
+    "text": "One set two-hour job-search block each morning.",
+    "evidence": [
+     {
+      "turn": 28,
+      "quote": "a set two-hour block for job searching each morning",
+      "verified": true,
+      "score": 1.0
+     }
+    ],
+    "support": "supported",
+    "flags": [],
+    "origin": "model",
+    "edited": false
+   },
+   {
+    "id": "p4",
+    "section": "plan",
+    "text": "Make one phone call to a basketball friend this week.",
+    "evidence": [
+     {
+      "turn": 28,
+      "quote": "and one call to a basketball friend this week.",
+      "verified": true,
+      "score": 1.0
+     }
+    ],
+    "support": "supported",
+    "flags": [],
+    "origin": "model",
+    "edited": false
+   },
+   {
+    "id": "p5",
+    "section": "plan",
+    "text": "Contact HR to use outplacement services offered with severance.",
+    "evidence": [
+     {
+      "turn": 30,
+      "quote": "Tri-County should have offered outplacement services with your severance. It's worth calling HR to use those.",
+      "verified": true,
+      "score": 1.0
+     }
+    ],
+    "support": "supported",
+    "flags": [],
+    "origin": "model",
+    "edited": false
+   },
+   {
+    "id": "p6",
+    "section": "plan",
+    "text": "Spouse may join a session later if she wishes.",
+    "evidence": [
+     {
+      "turn": 30,
+      "quote": "if Samira wants to join a session later on, that's welcome.",
+      "verified": true,
+      "score": 1.0
+     }
+    ],
+    "support": "supported",
+    "flags": [],
+    "origin": "model",
+    "edited": false
+   },
+   {
+    "id": "p7",
+    "section": "plan",
+    "text": "Short safety plan to be completed; patient instructed to call or text 988 for any suicidal thoughts, any time.",
+    "evidence": [
+     {
+      "turn": 32,
+      "quote": "Before you leave, we'll fill out a short safety plan together. If you ever start having thoughts of hurting yourself, you can call or text 988, any time, day or night.",
+      "verified": true,
+      "score": 1.0
+     }
+    ],
+    "support": "supported",
+    "flags": [],
+    "origin": "model",
+    "edited": false
+   },
+   {
+    "id": "p8",
+    "section": "plan",
+    "text": "If mood worsens despite therapy, referral to a psychiatrist to be discussed.",
+    "evidence": [
+     {
+      "turn": 32,
+      "quote": "if the mood gets worse despite therapy, we can talk about seeing one of our psychiatrists, but I don't think we're there.",
+      "verified": true,
+      "score": 1.0
+     }
+    ],
+    "support": "supported",
+    "flags": [],
+    "origin": "model",
+    "edited": false
+   },
+   {
+    "id": "p9",
+    "section": "plan",
+    "text": "Next session scheduled for next Thursday, October 1st at 4 o'clock.",
+    "evidence": [
+     {
+      "turn": 34,
+      "quote": "Our next session is next Thursday, October 1st, at 4 o'clock.",
+      "verified": true,
+      "score": 1.0
+     }
+    ],
+    "support": "supported",
+    "flags": [],
+    "origin": "model",
+    "edited": false
+   }
+  ],
+  "medications": [],
+  "allergies": [],
+  "after_visit_summary": "We met today and you shared what has been going on. You lost your job six weeks ago after 19 years, and since then you have felt down, worried about money, sleeping later than usual, and not doing the things you used to. Your wife encouraged you to come. We gave you two short questionnaires. Your answers showed moderate depression and moderate anxiety. Your appearance, speech, and thinking all looked fine today. We think this is an adjustment disorder, which is a strong reaction to a big life change like losing a job. It usually gets better with therapy. We will meet once a week for about an hour and use a therapy style called CBT. To start, try to get up by 7:30 on school days, spend two hours each morning looking for work, and call one basketball friend this week. Please call your employer's human resources to ask about outplacement help. Your wife can join a session later if she wants. Before you left, we started a safety plan. If you ever start thinking about hurting yourself, call or text 988 any time. If your mood gets worse even with therapy, we may talk about seeing a psychiatrist. Our next visit is next Thursday, October 1st at 4 o'clock.",
+  "avs_flags": [],
+  "icd10": [
+   {
+    "system": "ICD-10-CM",
+    "code": "F43.23",
+    "description": "Adjustment disorder with mixed anxiety and depressed mood",
+    "rank": 1,
+    "rationale": "Primary diagnosis of adjustment disorder with mixed anxiety and depressed mood, the clinician's stated assessment driven by job loss.",
+    "evidence": [
+     {
+      "turn": 26,
+      "quote": "What you're going through sounds like an adjustment disorder with mixed anxiety and depressed mood.",
+      "verified": true,
+      "score": 1.0
+     }
+    ],
+    "valid": true,
+    "billable": true,
+    "flags": [],
+    "accepted": null
+   }
+  ],
+  "em": {
+   "system": "CPT",
+   "code": "90791",
+   "description": "Psychiatric diagnostic evaluation (intake), no medical services",
+   "rank": 1,
+   "rationale": "New patient psychiatric diagnostic evaluation (intake) performed by a licensed clinical social worker with no medical services rendered today.",
+   "evidence": [],
+   "valid": true,
+   "billable": true,
+   "flags": [],
+   "accepted": null
+  },
+  "procedures": [
+   {
+    "system": "CPT",
+    "code": "96127",
+    "description": "Brief emotional or behavioral assessment with a standardized instrument (e.g. PHQ-9, GAD-7)",
+    "rank": 1,
+    "rationale": "Brief emotional or behavioral assessment with standardized instruments PHQ-9 and GAD-7 administered during the visit.",
+    "evidence": [
+     {
+      "turn": 22,
+      "quote": "The two questionnaires you filled out, your PHQ-9 for depression is 11 and your GAD-7 for anxiety is 10.",
+      "verified": true,
+      "score": 1.0
+     }
+    ],
+    "valid": true,
+    "billable": true,
+    "flags": [],
+    "accepted": null
+   }
+  ],
+  "mdm": {
+   "problems": "low",
+   "data": "straightforward",
+   "risk": "low",
+   "level": "low",
+   "code": "99203",
+   "reasons": [
+    "problems: one stable chronic illness or two self-limited problems",
+    "risk: over-the-counter drugs, minor procedure or counseling"
+   ]
+  },
+  "section_status": {
+   "subjective": "draft",
+   "objective": "draft",
+   "assessment": "draft",
+   "plan": "draft"
+  },
+  "model": "openrouter/apodex/apodex-1.1-mini:free",
+  "created_at": "2026-10-13T05:57:09.767772Z",
+  "signed_by": null,
+  "signed_at": null,
+  "timings": {
+   "phi_masking": 0.028,
+   "llm_note": 12.38,
+   "guards_note": 0.05,
+   "llm_codes": 2.23,
+   "guards_codes": 0.037,
+   "total": 14.725,
+   "wall": 14.801
+  },
+  "usage": {
+   "model_ms": 14610,
+   "input_tokens": 5020,
+   "output_tokens": 2176,
+   "calls": 2
+  },
+  "phi": {
+   "NAME": 4,
+   "DOB": 1,
+   "PHONE": 1,
+   "ORG": 1,
+   "DATE": 1
+  }
+ },
+ "vault": {
+  "originals": {
+   "[NAME_1]": "Maeve Gallagher",
+   "[PATIENT]": "Rashid Al-Amin",
+   "[DOB]": "February 17th, 1974",
+   "[PHONE_1]": "216-555-0139",
+   "[NAME_2]": "Samira",
+   "[ORG_1]": "Tri-County Logistics",
+   "[NAME_3]": "Tri-County",
+   "[DATE_1]": "Thursday, October 1st"
+  },
+  "surfaces": {
+   "[NAME_1]": [
+    "Maeve",
+    "Maeve Gallagher"
+   ],
+   "[PATIENT]": [
+    "Rashid",
+    "Rashid Al-Amin"
+   ],
+   "[DOB]": [
+    "February 17th, 1974"
+   ],
+   "[PHONE_1]": [
+    "216-555-0139"
+   ],
+   "[NAME_2]": [
+    "Samira"
+   ],
+   "[ORG_1]": [
+    "Tri-County Logistics"
+   ],
+   "[NAME_3]": [
+    "Tri-County"
+   ],
+   "[DATE_1]": [
+    "Thursday, October 1st"
+   ]
+  },
+  "types": {
+   "[NAME_1]": "NAME",
+   "[PATIENT]": "NAME",
+   "[DOB]": "DOB",
+   "[PHONE_1]": "PHONE",
+   "[NAME_2]": "NAME",
+   "[ORG_1]": "ORG",
+   "[NAME_3]": "NAME",
+   "[DATE_1]": "DATE"
+  },
+  "counters": {
+   "NAME": 3,
+   "PHONE": 1,
+   "ORG": 1,
+   "DATE": 1
+  }
+ },
+ "score": {
+  "case": "mh-03",
+  "specialty": "mental_health",
+  "facts": 24,
+  "found": 22,
+  "found_in_section": 22,
+  "negation_errors": [],
+  "trap_errors": [],
+  "missed": [
+   "f1 [subjective] Laid off 6 weeks ago after 19 years as warehouse operations manager",
+   "f3 [subjective] Irritability with his children"
+  ],
+  "statements": 27,
+  "statements_matching_gold": 24,
+  "unsupported": 0,
+  "partial": 0,
+  "flags": {
+   "negation": 1
+  },
+  "meds": 0,
+  "meds_found": 0,
+  "meds_dose_correct": 0,
+  "icd_primary": "F43.23",
+  "icd_suggested": [
+   "F43.23"
+  ],
+  "icd_top1": true,
+  "icd_top3": true,
+  "icd_top3_lenient": true,
+  "icd_top3_category": true,
+  "icd_gold_recall": 0.5,
+  "icd_invalid": 0,
+  "em_gold": "90791",
+  "em_suggested": "90791",
+  "em_exact": true,
+  "em_within_one": true,
+  "em_rule_estimate": "99203",
+  "procedures_gold": 1,
+  "procedures_found": 1
+ },
+ "egress_residue": {}
+}

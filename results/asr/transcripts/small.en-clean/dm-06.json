@@ -1,0 +1,271 @@
+{
+ "turns": [
+  {
+   "idx": 0,
+   "speaker": "clinician",
+   "text": "Morning, Mr. Petrescu. How's the harvest going?",
+   "start": 0.27,
+   "end": 4.8
+  },
+  {
+   "idx": 1,
+   "speaker": "patient",
+   "text": "Slow soybeans are in, corn still standing. Too wet last week.",
+   "start": 5.94,
+   "end": 9.54
+  },
+  {
+   "idx": 2,
+   "speaker": "clinician",
+   "text": "Well, I hope it dries out for you. Can you tell me your full name and date of birth? Just to confirm. Bogdan Petrescu,",
+   "start": 10.46,
+   "end": 20.14
+  },
+  {
+   "idx": 3,
+   "speaker": "patient",
+   "text": "March 11th, 1952.",
+   "start": 20.52,
+   "end": 22.32
+  },
+  {
+   "idx": 4,
+   "speaker": "clinician",
+   "text": "Thank you.",
+   "start": 23.46,
+   "end": 23.98
+  },
+  {
+   "idx": 5,
+   "speaker": "patient",
+   "text": "And the front desk said you moved. Yep, we sold the old place. New address is 8817 County Road 12, Seward, Nebraska.",
+   "start": 24.87,
+   "end": 33.45
+  },
+  {
+   "idx": 6,
+   "speaker": "clinician",
+   "text": "Phone's the same,",
+   "start": 34.09,
+   "end": 34.75
+  },
+  {
+   "idx": 7,
+   "speaker": "patient",
+   "text": "555 -0156.",
+   "start": 35.07,
+   "end": 36.33
+  },
+  {
+   "idx": 8,
+   "speaker": "clinician",
+   "text": "Got it. I'll make sure that's updated. So what's bothering you today?",
+   "start": 38.52,
+   "end": 43.37
+  },
+  {
+   "idx": 9,
+   "speaker": "patient",
+   "text": "These rough spots on top of my head. My wife Alina says they look like sandpaper. They catch on the comb and bleed a little when I scratch them. Been a few months.",
+   "start": 44.07,
+   "end": 52.21
+  },
+  {
+   "idx": 10,
+   "speaker": "clinician",
+   "text": "Do any of them hurt?",
+   "start": 53.18,
+   "end": 54.36
+  },
+  {
+   "idx": 11,
+   "speaker": "patient",
+   "text": "No, they don't hurt. Any spot that's growing fast or bleeding on its own. No, nothing like that.",
+   "start": 55.16,
+   "end": 63.75
+  },
+  {
+   "idx": 12,
+   "speaker": "clinician",
+   "text": "Do you wear a hat out in the field?",
+   "start": 64.76,
+   "end": 66.7
+  },
+  {
+   "idx": 13,
+   "speaker": "patient",
+   "text": "A seed cap, the kind with the mesh in the back. Sunscreen, no, I never bother with it.",
+   "start": 67.48,
+   "end": 72.24
+  },
+  {
+   "idx": 14,
+   "speaker": "clinician",
+   "text": "Okay, any changes in your medicines?",
+   "start": 72.88,
+   "end": 75.48
+  },
+  {
+   "idx": 15,
+   "speaker": "patient",
+   "text": "Same as always. Adorvastatin 20 milligrams at night and a baby aspirin, the 81 every morning. No allergies.",
+   "start": 76.62,
+   "end": 83.26
+  },
+  {
+   "idx": 16,
+   "speaker": "clinician",
+   "text": "Good. Oh. And how's the spot on your left cheek, where we took off the basal cell back, in 2021?",
+   "start": 84.16,
+   "end": 93.3
+  },
+  {
+   "idx": 17,
+   "speaker": "patient",
+   "text": "Fine, I don't even think about it. My neighbor Roy just had a melanoma taken off his ear though,",
+   "start": 94.74,
+   "end": 99.5
+  },
+  {
+   "idx": 18,
+   "speaker": "clinician",
+   "text": "scared him half to death. I bet. Let's have a look. Your scalp has a lot of background sun damage. I count six rough, gritty, pink scaly spots. three to eight millimeters on the top and front of the scalp. None of them are thick, tender, or growing like a bump, so nothing that worries me for a skin cancer today. The scar on your left cheek is well -heeled, and I don't see anything coming back there.",
+   "start": 99.84,
+   "end": 135.51
+  },
+  {
+   "idx": 19,
+   "speaker": "patient",
+   "text": "That's good.",
+   "start": 136.24,
+   "end": 137.06
+  },
+  {
+   "idx": 20,
+   "speaker": "clinician",
+   "text": "Can you lift your shirt so I can check your back? Okay, you have several brown, waxy, stuck -on spots on your back, about one centimeter each. Those are seborrheic keratosis. They're harmless, no treatment needed.",
+   "start": 137.86,
+   "end": 157.86
+  },
+  {
+   "idx": 21,
+   "speaker": "patient",
+   "text": "My barnacles, Elina calls them.",
+   "start": 158.66,
+   "end": 160.66
+  },
+  {
+   "idx": 22,
+   "speaker": "clinician",
+   "text": "That's exactly what they look like. So the spots on your scalp are actinic keratosis. They're precancers from years of sun. Most never turn into cancer, but But some can become a squamous cell skin cancer, so I'd like to freeze all six today with liquid nitrogen. Okay.",
+   "start": 161.38,
+   "end": 186.8
+  },
+  {
+   "idx": 23,
+   "speaker": "patient",
+   "text": "Go ahead.",
+   "start": 187.84,
+   "end": 188.52
+  },
+  {
+   "idx": 24,
+   "speaker": "clinician",
+   "text": "All right, it'll sting for a bit. First one. Second. Third.",
+   "start": 189.16,
+   "end": 195.44
+  },
+  {
+   "idx": 25,
+   "speaker": "patient",
+   "text": "Fourth.",
+   "start": 196.02,
+   "end": 196.2
+  },
+  {
+   "idx": 26,
+   "speaker": "clinician",
+   "text": "Fifth. And sixth. That's all six done.",
+   "start": 196.66,
+   "end": 200.03
+  },
+  {
+   "idx": 27,
+   "speaker": "patient",
+   "text": "Oh, that wasn't bad.",
+   "start": 200.97,
+   "end": 202.13
+  },
+  {
+   "idx": 28,
+   "speaker": "clinician",
+   "text": "Over the next few days, they'll get red. Maybe blister, then crust, and peel off in one to three weeks. You can put a little petroleum jelly on them. If any spot hasn't healed in six weeks or starts growing, come back and we'll biopsy it.",
+   "start": 202.91,
+   "end": 224.42
+  },
+  {
+   "idx": 29,
+   "speaker": "patient",
+   "text": "Okay.",
+   "start": 224.68,
+   "end": 225.26
+  },
+  {
+   "idx": 30,
+   "speaker": "clinician",
+   "text": "Now the big one, the sun.",
+   "start": 225.88,
+   "end": 227.4
+  },
+  {
+   "idx": 31,
+   "speaker": "patient",
+   "text": "Every morning,",
+   "start": 227.92,
+   "end": 229.46
+  },
+  {
+   "idx": 32,
+   "speaker": "clinician",
+   "text": "a broad -spectrum sunscreen, SPF 30 or higher, on your scalp, face, ears, and the backs of your hands, reapply every two hours when you're out in the field and trade the seed cap for a wide -brimmed hat that covers your ears and neck. Long sleeves help too.",
+   "start": 230.14,
+   "end": 254.92
+  },
+  {
+   "idx": 33,
+   "speaker": "patient",
+   "text": "Alina's going to love that. She's been on me about a hat for years.",
+   "start": 255.52,
+   "end": 259.14
+  },
+  {
+   "idx": 34,
+   "speaker": "clinician",
+   "text": "She's right. If a lot more of these come back, there's a cream called flurrorassel we can use to treat the whole scalp at once. But let's see how you do. I'd like to see you in six months for a full skin check, since you've had a skin cancer before.",
+   "start": 259.94,
+   "end": 282.04
+  },
+  {
+   "idx": 35,
+   "speaker": "patient",
+   "text": "Six months, I'll put it on the calendar after harvest.",
+   "start": 282.7,
+   "end": 285.64
+  }
+ ],
+ "source": "asr",
+ "asr_model": "faster-whisper small.en int8 + medical prompt",
+ "duration_s": 292.22,
+ "timings": {
+  "asr": 33.15,
+  "diarization": 0.49
+ },
+ "diarization": {
+  "method": "log-mel + pitch signatures, k-means (k=2), lexical role inference",
+  "chunks": 107,
+  "role_scores": {
+   "clinician": 24.0,
+   "patient": 0.0
+  }
+ }
+}

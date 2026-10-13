@@ -1,0 +1,348 @@
+{
+ "turns": [
+  {
+   "idx": 0,
+   "speaker": "caregiver",
+   "text": "Hi, welcome back. Wow, someone got tall. Can you confirm her full name and date of birth for me,",
+   "start": 0.08,
+   "end": 5.56
+  },
+  {
+   "idx": 1,
+   "speaker": "clinician",
+   "text": "mom?",
+   "start": 5.86,
+   "end": 5.86
+  },
+  {
+   "idx": 2,
+   "speaker": "caregiver",
+   "text": "Ananya Iyer,",
+   "start": 6.48,
+   "end": 7.14
+  },
+  {
+   "idx": 3,
+   "speaker": "clinician",
+   "text": "September 28th, 2022. She just turned four, so she's very proud.",
+   "start": 7.44,
+   "end": 12.36
+  },
+  {
+   "idx": 4,
+   "speaker": "caregiver",
+   "text": "Happy birthday, Ananya.",
+   "start": 13.14,
+   "end": 14.04
+  },
+  {
+   "idx": 5,
+   "speaker": "clinician",
+   "text": "So this is her four -year checkup. Laxmi, any concerns before we get into the usual stuff? Just one really, her poop. She's been going only every three or four days for maybe two months, and it's hard, and she cries when she goes. sometimes she hides behind the couch and holds it that's really common at this age any blood in the stool or on the toilet paper no I haven't seen any any accidents during the day or belly pain between poops no accidents she'll say her tummy hurts right before she goes but otherwise she's fine how much milk is she drinking oh a lot probably three or four cups a day she's a picky eater so milk and crackers and pasta, honestly.",
+   "start": 14.48,
+   "end": 55.18
+  },
+  {
+   "idx": 6,
+   "speaker": "caregiver",
+   "text": "Fruit sometimes.",
+   "start": 55.88,
+   "end": 56.6
+  },
+  {
+   "idx": 7,
+   "speaker": "clinician",
+   "text": "Okay, that's a big part of the picture.",
+   "start": 57.78,
+   "end": 59.3
+  },
+  {
+   "idx": 8,
+   "speaker": "caregiver",
+   "text": "Is she taking any medicines or vitamins?",
+   "start": 59.88,
+   "end": 61.74
+  },
+  {
+   "idx": 9,
+   "speaker": "clinician",
+   "text": "Just a kid's multivitamin gummy, one a day. No medicines and no allergies.",
+   "start": 62.58,
+   "end": 67.08
+  },
+  {
+   "idx": 10,
+   "speaker": "caregiver",
+   "text": "Great, how's preschool going?",
+   "start": 67.96,
+   "end": 69.28
+  },
+  {
+   "idx": 11,
+   "speaker": "clinician",
+   "text": "She loves it. She's at Sunflower Montessori, four mornings a week. The teachers say she plays well with the other kids.",
+   "start": 70.18,
+   "end": 76.7
+  },
+  {
+   "idx": 12,
+   "speaker": "caregiver",
+   "text": "Love that.",
+   "start": 77.6,
+   "end": 78.0
+  },
+  {
+   "idx": 13,
+   "speaker": "clinician",
+   "text": "Is she talking in full sentences? Can strangers understand her? Oh yes, she never stops talking.",
+   "start": 78.26,
+   "end": 83.78
+  },
+  {
+   "idx": 14,
+   "speaker": "caregiver",
+   "text": "She can hop on one foot.",
+   "start": 84.5,
+   "end": 85.46
+  },
+  {
+   "idx": 15,
+   "speaker": "clinician",
+   "text": "She draws people with arms and legs. She dresses herself mostly. Daytime potty train since three.",
+   "start": 85.78,
+   "end": 91.58
+  },
+  {
+   "idx": 16,
+   "speaker": "caregiver",
+   "text": "Those are all right on track.",
+   "start": 92.58,
+   "end": 93.58
+  },
+  {
+   "idx": 17,
+   "speaker": "clinician",
+   "text": "How sleep does she snore?",
+   "start": 93.96,
+   "end": 95.06
+  },
+  {
+   "idx": 18,
+   "speaker": "caregiver",
+   "text": "No snoring. She sleeps about 10 or 11 hours. And she's seeing a dentist. Yes last month no cavities. We brush twice a day. Perfect, still in a car seat with a harness.",
+   "start": 95.64,
+   "end": 107.2
+  },
+  {
+   "idx": 19,
+   "speaker": "clinician",
+   "text": "Yes forward facing, five point harness. Good.",
+   "start": 108.16,
+   "end": 111.3
+  },
+  {
+   "idx": 20,
+   "speaker": "caregiver",
+   "text": "Okay. Her numbers. Weight is 17 kilograms, about 37 and a half pounds.",
+   "start": 111.46,
+   "end": 115.82
+  },
+  {
+   "idx": 21,
+   "speaker": "clinician",
+   "text": "Height is 103 centimeters, and her BMI is around the 65th percentile, so she's growing nicely. Blood pressure is 94 over 56. On the vision screen, she read the 20 over 30 line with each eye, which is a pass for four. And she passed the hearing screen in both ears.",
+   "start": 116.38,
+   "end": 132.34
+  },
+  {
+   "idx": 22,
+   "speaker": "caregiver",
+   "text": "Oh, good.",
+   "start": 133.16,
+   "end": 133.68
+  },
+  {
+   "idx": 23,
+   "speaker": "clinician",
+   "text": "I was a little worried about her eyes, because my husband had a lazy eye as a kid, and had to wear a patch. That's good to know and that's exactly why we screen.",
+   "start": 134.18,
+   "end": 142.82
+  },
+  {
+   "idx": 24,
+   "speaker": "caregiver",
+   "text": "Her eyes line up well and the screen is normal, let me examine her. Heart sounds normal, no murmur, lungs are clear. Her belly is soft and not tender but I can feel some stool on the lower left side.",
+   "start": 143.44,
+   "end": 153.68
+  },
+  {
+   "idx": 25,
+   "speaker": "clinician",
+   "text": "Her bottom looks normal no tears or fissures. Teeth look great.",
+   "start": 154.22,
+   "end": 157.82
+  },
+  {
+   "idx": 26,
+   "speaker": "caregiver",
+   "text": "Okay. So overall, a healthy four year old, growing and developing normally.",
+   "start": 158.32,
+   "end": 162.84
+  },
+  {
+   "idx": 27,
+   "speaker": "clinician",
+   "text": "The one issue is constipation.",
+   "start": 163.56,
+   "end": 164.96
+  },
+  {
+   "idx": 28,
+   "speaker": "caregiver",
+   "text": "With the hard stools and the holding, I'd like to start Mira LAX. The usual dose is about half a gram per kilogram,",
+   "start": 165.62,
+   "end": 171.74
+  },
+  {
+   "idx": 29,
+   "speaker": "clinician",
+   "text": "so at 17 kilograms, that's about eight and a half grams, which is half a capful, mixed in four ounces of water or juice once a day. Half a capful once a day?",
+   "start": 172.1,
+   "end": 180.9
+  },
+  {
+   "idx": 30,
+   "speaker": "caregiver",
+   "text": "Okay.",
+   "start": 181.26,
+   "end": 181.64
+  },
+  {
+   "idx": 31,
+   "speaker": "clinician",
+   "text": "You can adjust it.",
+   "start": 182.26,
+   "end": 183.12
+  },
+  {
+   "idx": 32,
+   "speaker": "caregiver",
+   "text": "The goal is a soft poop every day or every other day. Also, cut the milk down to two cups a day,",
+   "start": 183.64,
+   "end": 188.88
+  },
+  {
+   "idx": 33,
+   "speaker": "clinician",
+   "text": "16 ounces, add fruit and water,",
+   "start": 189.2,
+   "end": 190.94
+  },
+  {
+   "idx": 34,
+   "speaker": "caregiver",
+   "text": "and have her sit on the party for five minutes after meals. If it isn't better in a month or you see blood, send me a message and we'll go from there.",
+   "start": 191.34,
+   "end": 198.64
+  },
+  {
+   "idx": 35,
+   "speaker": "clinician",
+   "text": "That makes sense, and sharts today. Yes, two sharts.",
+   "start": 199.16,
+   "end": 202.46
+  },
+  {
+   "idx": 36,
+   "speaker": "caregiver",
+   "text": "One is D .T .R .P. and polio combined, the other is M .M .R. and chicken pucks combined. She might get a sore leg or a low fever,",
+   "start": 203.0,
+   "end": 209.6
+  },
+  {
+   "idx": 37,
+   "speaker": "clinician",
+   "text": "and with the M .M .R. part a rash or fever one to two weeks later is passable. If she's uncomfortable,",
+   "start": 209.96,
+   "end": 215.32
+  },
+  {
+   "idx": 38,
+   "speaker": "caregiver",
+   "text": "children's Tylenol about 8 milliliters for her weight.",
+   "start": 215.82,
+   "end": 218.44
+  },
+  {
+   "idx": 39,
+   "speaker": "clinician",
+   "text": "Has she had her flu shot this year?",
+   "start": 219.12,
+   "end": 220.68
+  },
+  {
+   "idx": 40,
+   "speaker": "caregiver",
+   "text": "Yes,",
+   "start": 221.54,
+   "end": 221.54
+  },
+  {
+   "idx": 41,
+   "speaker": "clinician",
+   "text": "we got it at the pharmacy on October 2nd, when I got mine.",
+   "start": 221.86,
+   "end": 225.04
+  },
+  {
+   "idx": 42,
+   "speaker": "caregiver",
+   "text": "Perfect, I'll record that.",
+   "start": 225.8,
+   "end": 227.0
+  },
+  {
+   "idx": 43,
+   "speaker": "clinician",
+   "text": "Any questions about the shots? No, we're good. She had a cough back in September, but that's totally gone, so she's okay to get them right.",
+   "start": 227.42,
+   "end": 235.4
+  },
+  {
+   "idx": 44,
+   "speaker": "caregiver",
+   "text": "Yes, totally fine. So, shots with the nurse the Mira LAX and I'll see her at 5 for her next checkup. What's she going to be for Halloween?",
+   "start": 236.26,
+   "end": 244.08
+  },
+  {
+   "idx": 45,
+   "speaker": "clinician",
+   "text": "A purple dinosaur, she's insisting.",
+   "start": 244.8,
+   "end": 246.74
+  },
+  {
+   "idx": 46,
+   "speaker": "caregiver",
+   "text": "Of course she is, by Ananya.",
+   "start": 247.72,
+   "end": 249.16
+  }
+ ],
+ "source": "asr",
+ "asr_model": "faster-whisper small.en int8 + medical prompt",
+ "duration_s": 249.89,
+ "timings": {
+  "asr": 143.88,
+  "diarization": 0.8
+ },
+ "diarization": {
+  "method": "log-mel + pitch signatures, k-means (k=2), lexical role inference",
+  "chunks": 98,
+  "role_scores": {
+   "clinician": 16.0,
+   "caregiver": 10.5
+  }
+ }
+}

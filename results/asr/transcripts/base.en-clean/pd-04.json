@@ -1,0 +1,278 @@
+{
+ "turns": [
+  {
+   "idx": 0,
+   "speaker": "caregiver",
+   "text": "Hi, come on in, have a seat right there.",
+   "start": 0.11,
+   "end": 2.37
+  },
+  {
+   "idx": 1,
+   "speaker": "clinician",
+   "text": "I can hear him from here, buddy. Can I get his full name and date of birth?",
+   "start": 2.83,
+   "end": 6.41
+  },
+  {
+   "idx": 2,
+   "speaker": "caregiver",
+   "text": "Jalen Brooks, May 21,",
+   "start": 7.8,
+   "end": 9.08
+  },
+  {
+   "idx": 3,
+   "speaker": "clinician",
+   "text": "2016.",
+   "start": 9.6,
+   "end": 10.36
+  },
+  {
+   "idx": 4,
+   "speaker": "caregiver",
+   "text": "I'm his grandmother, Loretta. I have guardianship. Thanks, Loretta.",
+   "start": 11.26,
+   "end": 14.86
+  },
+  {
+   "idx": 5,
+   "speaker": "clinician",
+   "text": "What's been going on?",
+   "start": 15.06,
+   "end": 15.78
+  },
+  {
+   "idx": 6,
+   "speaker": "caregiver",
+   "text": "He caught a cold about three days ago, runny nose, and then yesterday the wheezing started and the cough got real bad. He woke up twice last night coughing.",
+   "start": 16.36,
+   "end": 24.74
+  },
+  {
+   "idx": 7,
+   "speaker": "clinician",
+   "text": "How often has he needed his albuterol?",
+   "start": 25.5,
+   "end": 27.66
+  },
+  {
+   "idx": 8,
+   "speaker": "caregiver",
+   "text": "Every four hours since last night, two puffs each time. Well, no, he's been doing four puffs. The school nurse told him four. Last time was around seven this morning. And does it help? For an hour or two, then he's back to wheezing.",
+   "start": 28.33,
+   "end": 41.44
+  },
+  {
+   "idx": 9,
+   "speaker": "clinician",
+   "text": "Okay, and the daily inhaler, the fluted cassone, is he still taking that?",
+   "start": 42.23,
+   "end": 46.11
+  },
+  {
+   "idx": 10,
+   "speaker": "caregiver",
+   "text": "Um, honestly, no. He was doing so good over the summer that we kind of stopped it.",
+   "start": 46.87,
+   "end": 51.13
+  },
+  {
+   "idx": 11,
+   "speaker": "clinician",
+   "text": "Maybe since June.",
+   "start": 51.65,
+   "end": 52.39
+  },
+  {
+   "idx": 12,
+   "speaker": "caregiver",
+   "text": "That happens a lot, no judgment, any fever. No, I've been checking, no fever. Jalen, does your chest hurt? He's shaking his head, he says it just feels tight. And he vomiting after coughing fits.",
+   "start": 53.35,
+   "end": 65.07
+  },
+  {
+   "idx": 13,
+   "speaker": "clinician",
+   "text": "No. Anybody smoke around him, at home or in the car?",
+   "start": 65.77,
+   "end": 69.82
+  },
+  {
+   "idx": 14,
+   "speaker": "caregiver",
+   "text": "No, nobody smokes. I've got cupped myself, I'm on oxygen at night, so believe me, there's no smoking in my house.",
+   "start": 70.46,
+   "end": 76.94
+  },
+  {
+   "idx": 15,
+   "speaker": "clinician",
+   "text": "Good, has he needed steroids or been in the hospital for his asthma this year? Not this year.",
+   "start": 77.72,
+   "end": 83.14
+  },
+  {
+   "idx": 16,
+   "speaker": "caregiver",
+   "text": "He had pneumonia two winters ago, but that cleared up, and he's never been admitted for asthma. Any allergies to medicines?",
+   "start": 83.74,
+   "end": 89.66
+  },
+  {
+   "idx": 17,
+   "speaker": "clinician",
+   "text": "None. Okay, so his weight today is 30 kilograms. Temperature 99 .1, heart rate 118, he's breathing 28 times a minute, and his oxygen level is 93 % on room air. Let me listen. I hear wheezing all over both lungs when he breathes out, and there's a little pulling in under his ribs. He's still talking in full sentences, which is reassuring. Ears and throat look okay. Okay.",
+   "start": 90.48,
+   "end": 110.3
+  },
+  {
+   "idx": 18,
+   "speaker": "caregiver",
+   "text": "Is that bad, the 93?",
+   "start": 110.91,
+   "end": 112.29
+  },
+  {
+   "idx": 19,
+   "speaker": "clinician",
+   "text": "It's a bit low, so I want to give him a breathing treatment right now, albuterol with iprotropium in the nebulizer, and we'll rate check in about 20 minutes.",
+   "start": 113.21,
+   "end": 121.69
+  },
+  {
+   "idx": 20,
+   "speaker": "caregiver",
+   "text": "Okay, go on baby, hold the mask. Alright, it's been about 20 minutes.",
+   "start": 123.35,
+   "end": 127.59
+  },
+  {
+   "idx": 21,
+   "speaker": "clinician",
+   "text": "Oxygen is up to 97%, breathing rate 22,",
+   "start": 128.31,
+   "end": 131.35
+  },
+  {
+   "idx": 22,
+   "speaker": "caregiver",
+   "text": "heart rate 130,",
+   "start": 131.83,
+   "end": 132.53
+  },
+  {
+   "idx": 23,
+   "speaker": "clinician",
+   "text": "which is from the albuterol that's expected. Just a few scattered wheezes now and no more pulling under the ribs. That's a nice response.",
+   "start": 133.27,
+   "end": 140.03
+  },
+  {
+   "idx": 24,
+   "speaker": "caregiver",
+   "text": "He looks better. His color is better.",
+   "start": 141.38,
+   "end": 143.18
+  },
+  {
+   "idx": 25,
+   "speaker": "clinician",
+   "text": "Greed, so this is an asthma flare, triggered by the cold and made worse because he's been off his controller.",
+   "start": 144.11,
+   "end": 148.45
+  },
+  {
+   "idx": 26,
+   "speaker": "caregiver",
+   "text": "First, a steroid by mouth.",
+   "start": 149.09,
+   "end": 150.09
+  },
+  {
+   "idx": 27,
+   "speaker": "clinician",
+   "text": "The dose is one milligram per kilogram. He's 30 kilograms, so produce alone 30 milligrams once a day for five days. The liquid is 50 milligrams per five milliliters, so that's 10 milliliters each morning. I'll give the first dose here.",
+   "start": 150.63,
+   "end": 161.89
+  },
+  {
+   "idx": 28,
+   "speaker": "caregiver",
+   "text": "10 milliliters, five days.",
+   "start": 162.73,
+   "end": 164.13
+  },
+  {
+   "idx": 29,
+   "speaker": "clinician",
+   "text": "Right, second albuterol, four puffs with the spacer every four hours while he's awake for the next two days, then just as needed.",
+   "start": 165.17,
+   "end": 171.59
+  },
+  {
+   "idx": 30,
+   "speaker": "caregiver",
+   "text": "Third,",
+   "start": 172.27,
+   "end": 172.41
+  },
+  {
+   "idx": 31,
+   "speaker": "clinician",
+   "text": "restart the fluted cassone, the 44 micrograms, two puffs twice a day, and have him rinse his mouth after. That one he needs every day, even when he feels fine.",
+   "start": 172.85,
+   "end": 181.01
+  },
+  {
+   "idx": 32,
+   "speaker": "caregiver",
+   "text": "Okay, I'll put it next to his toothbrush. Great idea!",
+   "start": 182.4,
+   "end": 185.58
+  },
+  {
+   "idx": 33,
+   "speaker": "clinician",
+   "text": "I'm updating his asthma action plan, and I'll print one for the nurse at Garfield Elementary. He can go back to school when he's not needing albuterol more than every four hours.",
+   "start": 186.16,
+   "end": 195.52
+  },
+  {
+   "idx": 34,
+   "speaker": "caregiver",
+   "text": "Okay, can you check his insurance is still the same. The member ID is M as in Mary 6620418. Got it, that matches.",
+   "start": 196.77,
+   "end": 205.01
+  },
+  {
+   "idx": 35,
+   "speaker": "clinician",
+   "text": "If he needs albuter all more often than every four hours, can't speak in full sentences, his ribs are pulling in or his lips look blue, go to the emergency room. I want to see him back on Friday to recheck and we'll do his flu shot then.",
+   "start": 205.65,
+   "end": 218.69
+  },
+  {
+   "idx": 36,
+   "speaker": "caregiver",
+   "text": "Friday and the number is still 555 -0129. Perfect hang in there Jalen",
+   "start": 219.82,
+   "end": 225.5
+  }
+ ],
+ "source": "asr",
+ "asr_model": "faster-whisper base.en int8 + medical prompt",
+ "duration_s": 226.47,
+ "timings": {
+  "asr": 20.31,
+  "diarization": 0.86
+ },
+ "diarization": {
+  "method": "log-mel + pitch signatures, k-means (k=2), lexical role inference",
+  "chunks": 83,
+  "role_scores": {
+   "clinician": 16.0,
+   "caregiver": 4.0
+  }
+ }
+}

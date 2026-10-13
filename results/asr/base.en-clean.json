@@ -1,0 +1,264 @@
+{
+ "name": "base.en-clean",
+ "model": "faster-whisper base.en int8 (CPU, 8 threads)",
+ "condition": "clean",
+ "medical_prompt": true,
+ "visits": 12,
+ "ref_words": 8169,
+ "wer": 0.0476,
+ "key_terms": 532,
+ "key_term_recall": 0.8083,
+ "role_accuracy": 0.8657,
+ "audio_minutes": 53.0,
+ "real_time_factor_p50": 0.107,
+ "asr_seconds_per_visit_p50": 32.8,
+ "diarization_seconds_per_visit_p50": 0.97,
+ "misrecognized_drug_terms": {
+  "lisinopril": 6,
+  "atorvastatin": 6,
+  "lamotrigine": 6,
+  "metoprolol": 4,
+  "amlodipine": 3,
+  "clobetasol": 3,
+  "furosemide": 2,
+  "methotrexate": 2,
+  "amoxicillin": 2,
+  "fluticasone": 2,
+  "bupropion": 2,
+  "ibuprofen": 1,
+  "diphenhydramine": 1,
+  "succinate": 1,
+  "sacubitril": 1,
+  "valsartan": 1,
+  "carvedilol": 1,
+  "spironolactone": 1,
+  "dapagliflozin": 1,
+  "levothyroxine": 1,
+  "risankizumab": 1,
+  "prednisolone": 1,
+  "albuterol": 1,
+  "naltrexone": 1
+ },
+ "cases": [
+  {
+   "case": "pc-01",
+   "specialty": "primary_care",
+   "ref_words": 665,
+   "wer": 0.0466,
+   "key_terms": 47,
+   "key_term_recall": 0.8085,
+   "role_accuracy": 0.9579,
+   "audio_s": 242.43,
+   "asr_s": 22.1,
+   "diarization_s": 0.91,
+   "turns_gold": 44,
+   "turns_asr": 45,
+   "misrecognized_terms": {
+    "lisinopril": 4,
+    "atorvastatin": 2
+   }
+  },
+  {
+   "case": "pc-04",
+   "specialty": "primary_care",
+   "ref_words": 620,
+   "wer": 0.0516,
+   "key_terms": 24,
+   "key_term_recall": 0.7917,
+   "role_accuracy": 0.9012,
+   "audio_s": 227.55,
+   "asr_s": 19.83,
+   "diarization_s": 1.07,
+   "turns_gold": 37,
+   "turns_asr": 40,
+   "misrecognized_terms": {
+    "ibuprofen": 1
+   }
+  },
+  {
+   "case": "pc-08",
+   "specialty": "primary_care",
+   "ref_words": 619,
+   "wer": 0.0582,
+   "key_terms": 45,
+   "key_term_recall": 0.7333,
+   "role_accuracy": 0.9008,
+   "audio_s": 216.89,
+   "asr_s": 18.16,
+   "diarization_s": 0.79,
+   "turns_gold": 37,
+   "turns_asr": 48,
+   "misrecognized_terms": {
+    "amlodipine": 2,
+    "metoprolol": 3,
+    "atorvastatin": 2,
+    "diphenhydramine": 1
+   }
+  },
+  {
+   "case": "cd-01",
+   "specialty": "cardiology",
+   "ref_words": 771,
+   "wer": 0.0402,
+   "key_terms": 45,
+   "key_term_recall": 0.8222,
+   "role_accuracy": 0.9727,
+   "audio_s": 293.76,
+   "asr_s": 35.16,
+   "diarization_s": 1.21,
+   "turns_gold": 46,
+   "turns_asr": 52,
+   "misrecognized_terms": {
+    "lisinopril": 2,
+    "atorvastatin": 2,
+    "metoprolol": 1,
+    "succinate": 1
+   }
+  },
+  {
+   "case": "cd-03",
+   "specialty": "cardiology",
+   "ref_words": 730,
+   "wer": 0.0438,
+   "key_terms": 69,
+   "key_term_recall": 0.8406,
+   "role_accuracy": 0.9258,
+   "audio_s": 353.19,
+   "asr_s": 32.34,
+   "diarization_s": 1.32,
+   "turns_gold": 38,
+   "turns_asr": 44,
+   "misrecognized_terms": {
+    "sacubitril": 1,
+    "valsartan": 1,
+    "carvedilol": 1,
+    "spironolactone": 1,
+    "dapagliflozin": 1,
+    "furosemide": 2
+   }
+  },
+  {
+   "case": "dm-01",
+   "specialty": "dermatology",
+   "ref_words": 767,
+   "wer": 0.0469,
+   "key_terms": 26,
+   "key_term_recall": 0.8846,
+   "role_accuracy": 0.75,
+   "audio_s": 275.93,
+   "asr_s": 39.45,
+   "diarization_s": 1.03,
+   "turns_gold": 39,
+   "turns_asr": 67,
+   "misrecognized_terms": {
+    "levothyroxine": 1
+   }
+  },
+  {
+   "case": "dm-05",
+   "specialty": "dermatology",
+   "ref_words": 641,
+   "wer": 0.0733,
+   "key_terms": 49,
+   "key_term_recall": 0.6531,
+   "role_accuracy": 0.9732,
+   "audio_s": 312.21,
+   "asr_s": 33.3,
+   "diarization_s": 1.27,
+   "turns_gold": 32,
+   "turns_asr": 40,
+   "misrecognized_terms": {
+    "clobetasol": 3,
+    "methotrexate": 2,
+    "amlodipine": 1,
+    "risankizumab": 1
+   }
+  },
+  {
+   "case": "pd-01",
+   "specialty": "pediatrics",
+   "ref_words": 778,
+   "wer": 0.0617,
+   "key_terms": 55,
+   "key_term_recall": 0.8,
+   "role_accuracy": 0.357,
+   "audio_s": 272.11,
+   "asr_s": 62.01,
+   "diarization_s": 1.09,
+   "turns_gold": 45,
+   "turns_asr": 41,
+   "misrecognized_terms": {
+    "amoxicillin": 2
+   }
+  },
+  {
+   "case": "pd-04",
+   "specialty": "pediatrics",
+   "ref_words": 668,
+   "wer": 0.0464,
+   "key_terms": 60,
+   "key_term_recall": 0.7833,
+   "role_accuracy": 0.8912,
+   "audio_s": 226.47,
+   "asr_s": 20.31,
+   "diarization_s": 0.86,
+   "turns_gold": 37,
+   "turns_asr": 37,
+   "misrecognized_terms": {
+    "fluticasone": 2,
+    "prednisolone": 1,
+    "albuterol": 1
+   }
+  },
+  {
+   "case": "mh-01",
+   "specialty": "mental_health",
+   "ref_words": 696,
+   "wer": 0.0244,
+   "key_terms": 34,
+   "key_term_recall": 0.9706,
+   "role_accuracy": 0.9741,
+   "audio_s": 335.21,
+   "asr_s": 39.76,
+   "diarization_s": 0.8,
+   "turns_gold": 42,
+   "turns_asr": 52,
+   "misrecognized_terms": {}
+  },
+  {
+   "case": "mh-04",
+   "specialty": "mental_health",
+   "ref_words": 601,
+   "wer": 0.0499,
+   "key_terms": 40,
+   "key_term_recall": 0.825,
+   "role_accuracy": 0.9269,
+   "audio_s": 214.78,
+   "asr_s": 33.76,
+   "diarization_s": 0.83,
+   "turns_gold": 34,
+   "turns_asr": 37,
+   "misrecognized_terms": {
+    "lamotrigine": 6
+   }
+  },
+  {
+   "case": "mh-06",
+   "specialty": "mental_health",
+   "ref_words": 613,
+   "wer": 0.0294,
+   "key_terms": 38,
+   "key_term_recall": 0.8684,
+   "role_accuracy": 0.9576,
+   "audio_s": 210.15,
+   "asr_s": 22.54,
+   "diarization_s": 0.69,
+   "turns_gold": 36,
+   "turns_asr": 45,
+   "misrecognized_terms": {
+    "bupropion": 2,
+    "naltrexone": 1
+   }
+  }
+ ]
+}

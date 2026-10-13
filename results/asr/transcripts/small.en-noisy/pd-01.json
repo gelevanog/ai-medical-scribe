@@ -1,0 +1,215 @@
+{
+ "turns": [
+  {
+   "idx": 0,
+   "speaker": "caregiver",
+   "text": "Hi there, come on in. Oh, I love those purple boots.",
+   "start": 0.08,
+   "end": 3.5
+  },
+  {
+   "idx": 1,
+   "speaker": "clinician",
+   "text": "Okay, before we get going, can you confirm her full name and date of birth for me? Yeah, it's Amara Akafar, July 18th, 2023. Perfect, and your mom? I am, I'm Chayamaka. Sorry, I look like a mess, it's been a long night. No apology needed. Tell me what's going on with Amara. So she started with a fever yesterday afternoon, and she's been pulling at her left ear, like, non -stop. stop. Last night it went up to one hundred two. Eight, and she was up crying most of the night.",
+   "start": 4.04,
+   "end": 35.04
+  },
+  {
+   "idx": 2,
+   "speaker": "caregiver",
+   "text": "Oh, poor thing.",
+   "start": 35.54,
+   "end": 36.18
+  },
+  {
+   "idx": 3,
+   "speaker": "clinician",
+   "text": "Did you give her anything for it?",
+   "start": 36.36,
+   "end": 37.8
+  },
+  {
+   "idx": 4,
+   "speaker": "caregiver",
+   "text": "I gave her the children's Tylenol around two in the morning,",
+   "start": 38.46,
+   "end": 41.1
+  },
+  {
+   "idx": 5,
+   "speaker": "clinician",
+   "text": "five milliliters,",
+   "start": 41.6,
+   "end": 42.36
+  },
+  {
+   "idx": 6,
+   "speaker": "caregiver",
+   "text": "and that helped a little. Nothing since then.",
+   "start": 42.7,
+   "end": 45.28
+  },
+  {
+   "idx": 7,
+   "speaker": "clinician",
+   "text": "Okay, has she had a cold leading up to this?",
+   "start": 45.98,
+   "end": 48.32
+  },
+  {
+   "idx": 8,
+   "speaker": "caregiver",
+   "text": "Yeah, runny nose and a little cough for maybe four or five days. At her daycare, little acorns, half the room has been sick.",
+   "start": 49.14,
+   "end": 56.18
+  },
+  {
+   "idx": 9,
+   "speaker": "clinician",
+   "text": "And her cousin just had hand, foot, and mouth, so I was kind of worried about that too. Any sores in her mouth, or a rash on her hands or feet? No, I looked nothing. Good, how's she eating and drinking? Eating, not much. But she's drinking okay, juice and water mostly. And is she peeing normally? Yeah, she's mostly potty -trained, just a pull -up at night. She peed this morning, a normal amount any vomiting or diarrhea nope any drainage coming out of the ear knows nothing like that has she had ear infections before just one when she was about one it cleared up with the pink medicine and she's been fine since and she's not allergic to any medicines no allergies that we know of great so her weight today is 16 kilograms that's about 35 pounds temperature here is 100 1 .6 heart rate 128 and her oxygen is 99%. Amara, can I peek in your ears with my little flashlight?",
+   "start": 56.84,
+   "end": 118.2
+  },
+  {
+   "idx": 10,
+   "speaker": "caregiver",
+   "text": "Good job, sweetie.",
+   "start": 118.88,
+   "end": 119.86
+  },
+  {
+   "idx": 11,
+   "speaker": "clinician",
+   "text": "She hates this part.",
+   "start": 120.6,
+   "end": 121.52
+  },
+  {
+   "idx": 12,
+   "speaker": "caregiver",
+   "text": "She's doing great. Okay, her right eardrum looks normal. The left one is red and bulging and I can see pus behind it. Her throat is a little red but no sores or blisters. Lungs sound clear, no wheezing and her neck is nice and soft.",
+   "start": 122.38,
+   "end": 135.48
+  },
+  {
+   "idx": 13,
+   "speaker": "clinician",
+   "text": "So it's an ear infection.",
+   "start": 136.04,
+   "end": 137.08
+  },
+  {
+   "idx": 14,
+   "speaker": "caregiver",
+   "text": "Yes, this is an acute ear infection in her left ear on top of a With a fever as high as 102 .8, and that bulging eardrum, I do recommend an antibiotic. We'll use amexicillin at the higher dose, 90 milligrams per kilogram per day. She's 16 kilograms, so that's 1 ,440 milligrams a day, split into two doses, so 720 milligrams twice a day.",
+   "start": 137.7,
+   "end": 160.84
+  },
+  {
+   "idx": 15,
+   "speaker": "clinician",
+   "text": "Okay, and how much is that in the liquid?",
+   "start": 161.38,
+   "end": 163.46
+  },
+  {
+   "idx": 16,
+   "speaker": "caregiver",
+   "text": "The pharmacy will give you the 400 milligrams per 5 milliliters strength, so it's 9 milliliters twice a day. For 10 full days, even if she seems better after a couple of days. Got it.",
+   "start": 164.26,
+   "end": 175.66
+  },
+  {
+   "idx": 17,
+   "speaker": "clinician",
+   "text": "9 milliliters twice a day for 10 days.",
+   "start": 175.96,
+   "end": 177.92
+  },
+  {
+   "idx": 18,
+   "speaker": "caregiver",
+   "text": "Exactly. For pain and fever you can use ibuprofen. Her dose is 160 milligrams, which with the children's liquid is 8 milliliters, every six to eight hours as needed.",
+   "start": 179.06,
+   "end": 188.92
+  },
+  {
+   "idx": 19,
+   "speaker": "clinician",
+   "text": "The Tylenol is fine too, every four to six hours,",
+   "start": 189.44,
+   "end": 192.22
+  },
+  {
+   "idx": 20,
+   "speaker": "caregiver",
+   "text": "but for her weight it's seven and a half milliliters, not five. So the five you gave was a little low.",
+   "start": 192.6,
+   "end": 197.74
+  },
+  {
+   "idx": 21,
+   "speaker": "clinician",
+   "text": "Oh, I didn't know that. Okay, seven and a half. Which pharmacy do you want the Amexicillin sent to? The one on Euclid Avenue, by the library. Four thousand four hundred ten Euclid. Got it, and is five five five zero one six three still the best number for you? Yes that's my cell. Um, should I worry about her baby brother? He's got the runny nose now too.",
+   "start": 198.52,
+   "end": 220.76
+  },
+  {
+   "idx": 22,
+   "speaker": "caregiver",
+   "text": "The ear infection itself isn't contagious, it's the cold that spreads. Just watch him, and if he gets a fever or starts pulling at his ears, bring him in.",
+   "start": 221.54,
+   "end": 230.24
+  },
+  {
+   "idx": 23,
+   "speaker": "clinician",
+   "text": "Okay, good.",
+   "start": 230.58,
+   "end": 231.24
+  },
+  {
+   "idx": 24,
+   "speaker": "caregiver",
+   "text": "As for Amara, she can go back to daycare once she's been fever -free for 24 hours without medicine. If she's still running fevers or in a lot of pain after 48 to 72 hours on the amexicillin, call us, because we may need to switch antibiotics. And if you see swelling or redness behind the ear, or she's really hard to wake up, bring her in right away. Okay,",
+   "start": 232.16,
+   "end": 253.1
+  },
+  {
+   "idx": 25,
+   "speaker": "clinician",
+   "text": "does she need to come back to get the ear checked? If she's back to herself in a few days,",
+   "start": 253.6,
+   "end": 257.86
+  },
+  {
+   "idx": 26,
+   "speaker": "caregiver",
+   "text": "no routine recheck. If she gets another ear infection in the next couple of months, we'll want to see her.",
+   "start": 258.18,
+   "end": 263.66
+  },
+  {
+   "idx": 27,
+   "speaker": "clinician",
+   "text": "Sounds good. I just hope my parking meter hasn't run out. Ah, they're strict out there, so go go. Feel better, Amara.",
+   "start": 264.2,
+   "end": 271.24
+  }
+ ],
+ "source": "asr",
+ "asr_model": "faster-whisper small.en int8 + medical prompt",
+ "duration_s": 272.11,
+ "timings": {
+  "asr": 32.08,
+  "diarization": 0.67
+ },
+ "diarization": {
+  "method": "log-mel + pitch signatures, k-means (k=2), lexical role inference",
+  "chunks": 89,
+  "role_scores": {
+   "clinician": 21.5,
+   "caregiver": 6.0
+  }
+ }
+}

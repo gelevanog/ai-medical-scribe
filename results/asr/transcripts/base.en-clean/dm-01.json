@@ -1,0 +1,488 @@
+{
+ "turns": [
+  {
+   "idx": 0,
+   "speaker": "patient",
+   "text": "Hi there, I'm Dr.",
+   "start": 0.08,
+   "end": 1.3
+  },
+  {
+   "idx": 1,
+   "speaker": "clinician",
+   "text": "Cuema Sant, one of the dermatologists here. Did you find parking okay?",
+   "start": 1.74,
+   "end": 6.02
+  },
+  {
+   "idx": 2,
+   "speaker": "patient",
+   "text": "That garage is a maze. Ha, it really is. I went around twice before I found a spot on level three. Everybody does.",
+   "start": 6.56,
+   "end": 14.38
+  },
+  {
+   "idx": 3,
+   "speaker": "clinician",
+   "text": "So before we start, can you tell me your full name and date of birth?",
+   "start": 15.04,
+   "end": 18.42
+  },
+  {
+   "idx": 4,
+   "speaker": "patient",
+   "text": "Ashling Brennan, and my birthday is June 9th, 1988.",
+   "start": 19.18,
+   "end": 22.66
+  },
+  {
+   "idx": 5,
+   "speaker": "clinician",
+   "text": "Thank you, Ashling. Your referral mentions a mole on your back. Tell me what's going on with it. So it's on my left upper back,",
+   "start": 23.5,
+   "end": 31.2
+  },
+  {
+   "idx": 6,
+   "speaker": "patient",
+   "text": "kind of by my shoulder blade. My husband Declan noticed it looked different back in arm July. He says it's gotten bigger and darker since spring.",
+   "start": 31.6,
+   "end": 39.38
+  },
+  {
+   "idx": 7,
+   "speaker": "clinician",
+   "text": "Okay,",
+   "start": 40.22,
+   "end": 40.7
+  },
+  {
+   "idx": 8,
+   "speaker": "patient",
+   "text": "has it bled at all,",
+   "start": 41.02,
+   "end": 41.92
+  },
+  {
+   "idx": 9,
+   "speaker": "clinician",
+   "text": "or crusted over?",
+   "start": 42.32,
+   "end": 43.1
+  },
+  {
+   "idx": 10,
+   "speaker": "patient",
+   "text": "No, no bleeding.",
+   "start": 43.66,
+   "end": 44.52
+  },
+  {
+   "idx": 11,
+   "speaker": "clinician",
+   "text": "Does it itch or hurt?",
+   "start": 45.26,
+   "end": 46.9
+  },
+  {
+   "idx": 12,
+   "speaker": "patient",
+   "text": "It itches a little now and then, it doesn't hurt.",
+   "start": 47.68,
+   "end": 50.14
+  },
+  {
+   "idx": 13,
+   "speaker": "clinician",
+   "text": "Have you ever had a skin cancer yourself, or any moles removed?",
+   "start": 50.8,
+   "end": 54.32
+  },
+  {
+   "idx": 14,
+   "speaker": "patient",
+   "text": "No, I've never had skin cancer, and and nothing's ever been removed.",
+   "start": 55.32,
+   "end": 58.7
+  },
+  {
+   "idx": 15,
+   "speaker": "clinician",
+   "text": "Anyone in the family with skin cancer.",
+   "start": 59.32,
+   "end": 61.76
+  },
+  {
+   "idx": 16,
+   "speaker": "patient",
+   "text": "My dad had a basal cell on his nose a few years ago. They scraped it off and he's been fine. Good to know.",
+   "start": 62.55,
+   "end": 68.63
+  },
+  {
+   "idx": 17,
+   "speaker": "clinician",
+   "text": "How about sun exposure?",
+   "start": 69.19,
+   "end": 69.95
+  },
+  {
+   "idx": 18,
+   "speaker": "patient",
+   "text": "Some burns growing up, tanning beds.",
+   "start": 70.75,
+   "end": 72.51
+  },
+  {
+   "idx": 19,
+   "speaker": "clinician",
+   "text": "Oh, lots of sun.",
+   "start": 73.33,
+   "end": 74.35
+  },
+  {
+   "idx": 20,
+   "speaker": "patient",
+   "text": "I was a lifeguard every summer through college at Crestview Aquatics. I got burned pretty badly a few times like blistering. Never did tanning beds though.",
+   "start": 74.97,
+   "end": 83.17
+  },
+  {
+   "idx": 21,
+   "speaker": "clinician",
+   "text": "Garded any medicines you take regularly.",
+   "start": 83.75,
+   "end": 86.05
+  },
+  {
+   "idx": 22,
+   "speaker": "patient",
+   "text": "Just levothiric sign,",
+   "start": 86.69,
+   "end": 87.85
+  },
+  {
+   "idx": 23,
+   "speaker": "clinician",
+   "text": "75 micrograms every morning for my thyroid. And any allergies to medications,",
+   "start": 88.19,
+   "end": 93.27
+  },
+  {
+   "idx": 24,
+   "speaker": "patient",
+   "text": "or to lidocaine, or latex?",
+   "start": 93.95,
+   "end": 95.43
+  },
+  {
+   "idx": 25,
+   "speaker": "clinician",
+   "text": "No allergies that I know of. Alright, let me take a look.",
+   "start": 96.17,
+   "end": 99.9
+  },
+  {
+   "idx": 26,
+   "speaker": "patient",
+   "text": "Can you slip your left arm out of the gown?",
+   "start": 100.48,
+   "end": 102.04
+  },
+  {
+   "idx": 27,
+   "speaker": "clinician",
+   "text": "Okay.",
+   "start": 102.6,
+   "end": 102.9
+  },
+  {
+   "idx": 28,
+   "speaker": "patient",
+   "text": "So on your left upper back, just over the shoulder blade,",
+   "start": 103.54,
+   "end": 105.9
+  },
+  {
+   "idx": 29,
+   "speaker": "clinician",
+   "text": "there's a 7mm dark brown mole.",
+   "start": 106.44,
+   "end": 108.52
+  },
+  {
+   "idx": 30,
+   "speaker": "patient",
+   "text": "It's asymmetric,",
+   "start": 109.18,
+   "end": 109.92
+  },
+  {
+   "idx": 31,
+   "speaker": "clinician",
+   "text": "the border is irregular and kind of nudged at the bottom, and there's a black area on one side. under the dermatoscope I see an irregular network and a few darts at the edge. That one stands out from your other moles.",
+   "start": 110.3,
+   "end": 122.56
+  },
+  {
+   "idx": 32,
+   "speaker": "patient",
+   "text": "Is that bad?",
+   "start": 123.12,
+   "end": 123.88
+  },
+  {
+   "idx": 33,
+   "speaker": "clinician",
+   "text": "It's what we call an ugly duckling. It doesn't look like its neighbours. Let me check the rest of you first. Your back, chest and arms have scattered two to three millimetre round moles evenly brown.",
+   "start": 124.6,
+   "end": 135.14
+  },
+  {
+   "idx": 34,
+   "speaker": "patient",
+   "text": "Those all look like normal benign moles. Scalp,",
+   "start": 135.84,
+   "end": 139.02
+  },
+  {
+   "idx": 35,
+   "speaker": "clinician",
+   "text": "face and legs look fine. I don't feel any swollen lymph nodes in your left armpit or your neck, and he lumps you've noticed in your armpit.",
+   "start": 139.46,
+   "end": 147.12
+  },
+  {
+   "idx": 36,
+   "speaker": "patient",
+   "text": "No, nothing like that.",
+   "start": 147.48,
+   "end": 148.92
+  },
+  {
+   "idx": 37,
+   "speaker": "clinician",
+   "text": "Okay, so here's what I think. This mole on your back has several changing features. Most of these turn out to be in a typical mole,",
+   "start": 150.01,
+   "end": 158.03
+  },
+  {
+   "idx": 38,
+   "speaker": "patient",
+   "text": "but I can't rule out an early melanoma just by looking, so I'd like to do a biopsy today. Today, okay,",
+   "start": 158.57,
+   "end": 165.59
+  },
+  {
+   "idx": 39,
+   "speaker": "clinician",
+   "text": "what does that involve? It's a shave biopsy.",
+   "start": 165.93,
+   "end": 169.05
+  },
+  {
+   "idx": 40,
+   "speaker": "patient",
+   "text": "I numb the area with a little lidocaine with epinephrine, then Then I take off the whole mole with a thin blade,",
+   "start": 169.73,
+   "end": 175.19
+  },
+  {
+   "idx": 41,
+   "speaker": "clinician",
+   "text": "fairly deep,",
+   "start": 175.57,
+   "end": 176.21
+  },
+  {
+   "idx": 42,
+   "speaker": "patient",
+   "text": "and send it to the lab.",
+   "start": 176.67,
+   "end": 177.65
+  },
+  {
+   "idx": 43,
+   "speaker": "clinician",
+   "text": "No stitches.",
+   "start": 178.33,
+   "end": 178.83
+  },
+  {
+   "idx": 44,
+   "speaker": "patient",
+   "text": "You'll have a shallow wound,",
+   "start": 179.65,
+   "end": 180.73
+  },
+  {
+   "idx": 45,
+   "speaker": "clinician",
+   "text": "kind of like a scrape.",
+   "start": 181.15,
+   "end": 182.05
+  },
+  {
+   "idx": 46,
+   "speaker": "patient",
+   "text": "That's fine, let's do it.",
+   "start": 182.63,
+   "end": 183.97
+  },
+  {
+   "idx": 47,
+   "speaker": "clinician",
+   "text": "Great, a little pinch and a burn now.",
+   "start": 184.63,
+   "end": 186.83
+  },
+  {
+   "idx": 48,
+   "speaker": "patient",
+   "text": "Okay,",
+   "start": 187.37,
+   "end": 187.75
+  },
+  {
+   "idx": 49,
+   "speaker": "clinician",
+   "text": "and that's done, it went well. I've sent it to pathology. For care, keep the bandage on for 24 hours,",
+   "start": 188.05,
+   "end": 194.55
+  },
+  {
+   "idx": 50,
+   "speaker": "patient",
+   "text": "then wash it gently once a day,",
+   "start": 195.11,
+   "end": 196.73
+  },
+  {
+   "idx": 51,
+   "speaker": "clinician",
+   "text": "put on plain petroleum jelly and a fresh bandage every day until it heals. That's usually one to two weeks.",
+   "start": 197.19,
+   "end": 203.69
+  },
+  {
+   "idx": 52,
+   "speaker": "patient",
+   "text": "Okay, when will I know?",
+   "start": 204.25,
+   "end": 205.59
+  },
+  {
+   "idx": 53,
+   "speaker": "clinician",
+   "text": "Results take about seven to ten days. They'll post to the portal and someone will call you either way. What's the best number for you?",
+   "start": 206.11,
+   "end": 214.15
+  },
+  {
+   "idx": 54,
+   "speaker": "patient",
+   "text": "My cell,",
+   "start": 214.61,
+   "end": 214.99
+  },
+  {
+   "idx": 55,
+   "speaker": "clinician",
+   "text": "555 -0163. And my portal email is AshlingDartBrenon88 at fastmail .com.",
+   "start": 215.45,
+   "end": 222.09
+  },
+  {
+   "idx": 56,
+   "speaker": "patient",
+   "text": "Gartid, if it does come back as a melanoma,",
+   "start": 222.65,
+   "end": 225.07
+  },
+  {
+   "idx": 57,
+   "speaker": "clinician",
+   "text": "we talk about a wider excision to get clear margins, but let's not get ahead of ourselves. ourselves. If the site gets red,",
+   "start": 225.55,
+   "end": 232.01
+  },
+  {
+   "idx": 58,
+   "speaker": "patient",
+   "text": "hard,",
+   "start": 232.39,
+   "end": 232.67
+  },
+  {
+   "idx": 59,
+   "speaker": "clinician",
+   "text": "swollen, or drains pass, call us.",
+   "start": 233.17,
+   "end": 235.29
+  },
+  {
+   "idx": 60,
+   "speaker": "patient",
+   "text": "Okay, should I be doing anything about the sun?",
+   "start": 235.75,
+   "end": 238.05
+  },
+  {
+   "idx": 61,
+   "speaker": "clinician",
+   "text": "Yes, broad spectrum sunscreen, SPF 30 or higher, every day on exposed skin, reapply every two hours when you're outside, and a wide -brimmed hat. Check your own moles once a month, and since you've had blistering sunburns and quite a few moles, I'd like to see you for a full skin check every year. Sounds good. Let's book a follow -up for the biopsy site and results on Tuesday October 27th.",
+   "start": 238.83,
+   "end": 266.15
+  },
+  {
+   "idx": 62,
+   "speaker": "patient",
+   "text": "Any other questions?",
+   "start": 266.73,
+   "end": 267.41
+  },
+  {
+   "idx": 63,
+   "speaker": "clinician",
+   "text": "No, I think that's it.",
+   "start": 268.03,
+   "end": 269.51
+  },
+  {
+   "idx": 64,
+   "speaker": "patient",
+   "text": "Thank you. You're welcome,",
+   "start": 269.81,
+   "end": 271.37
+  },
+  {
+   "idx": 65,
+   "speaker": "clinician",
+   "text": "Ashling.",
+   "start": 271.77,
+   "end": 272.05
+  },
+  {
+   "idx": 66,
+   "speaker": "patient",
+   "text": "Take care and good luck getting out of that garage.",
+   "start": 272.63,
+   "end": 274.95
+  }
+ ],
+ "source": "asr",
+ "asr_model": "faster-whisper base.en int8 + medical prompt",
+ "duration_s": 275.93,
+ "timings": {
+  "asr": 39.45,
+  "diarization": 1.03
+ },
+ "diarization": {
+  "method": "log-mel + pitch signatures, k-means (k=2), lexical role inference",
+  "chunks": 119,
+  "role_scores": {
+   "clinician": 26.0,
+   "patient": 8.0
+  }
+ }
+}

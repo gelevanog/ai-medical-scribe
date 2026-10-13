@@ -1,0 +1,243 @@
+{
+ "turns": [
+  {
+   "idx": 0,
+   "speaker": "clinician",
+   "text": "Hey, good to see you again, just to confirm full name and date of birth.",
+   "start": 0.08,
+   "end": 4.66
+  },
+  {
+   "idx": 1,
+   "speaker": "patient",
+   "text": "Haeunwoo Park, November 3rd, 1996.",
+   "start": 5.66,
+   "end": 9.1
+  },
+  {
+   "idx": 2,
+   "speaker": "clinician",
+   "text": "Thanks, Haeunwoo, it's been what a year and a half, what's going on?",
+   "start": 10.08,
+   "end": 13.4
+  },
+  {
+   "idx": 3,
+   "speaker": "patient",
+   "text": "My eczema's back, bad. It started flaring about three weeks ago, right after I started a new job at Brightline Logistics. The warehouse is freezing and super dry. Where is it this time? Inside, both elbows, behind my knees, my neck, and the backs of my hands are cracking.",
+   "start": 14.15,
+   "end": 33.31
+  },
+  {
+   "idx": 4,
+   "speaker": "clinician",
+   "text": "On a scale of zero to ten, how bad is the itch?",
+   "start": 33.99,
+   "end": 36.97
+  },
+  {
+   "idx": 5,
+   "speaker": "patient",
+   "text": "Like an eight, it wakes me up at night. My girlfriend Jisoo says I'm scratching in my sleep.",
+   "start": 37.95,
+   "end": 43.23
+  },
+  {
+   "idx": 6,
+   "speaker": "clinician",
+   "text": "That's rough, any oozing or yellow crusting.",
+   "start": 43.83,
+   "end": 46.43
+  },
+  {
+   "idx": 7,
+   "speaker": "patient",
+   "text": "No, nothing like that.",
+   "start": 47.11,
+   "end": 48.59
+  },
+  {
+   "idx": 8,
+   "speaker": "clinician",
+   "text": "Favors?",
+   "start": 49.21,
+   "end": 49.53
+  },
+  {
+   "idx": 9,
+   "speaker": "patient",
+   "text": "Nope.",
+   "start": 50.35,
+   "end": 50.51
+  },
+  {
+   "idx": 10,
+   "speaker": "clinician",
+   "text": "Any new soaps, detergents, or lotions? No, same stuff, as always.",
+   "start": 51.43,
+   "end": 56.61
+  },
+  {
+   "idx": 11,
+   "speaker": "patient",
+   "text": "What have you been putting on it? I ran out of the triumphs in a loan you gave me last time, so I've been using the drugstore hydrocortisone, the 2 .5 percent. Wait, no, it's the 1 percent. The 2 .5 needs a prescription right.",
+   "start": 57.25,
+   "end": 72.71
+  },
+  {
+   "idx": 12,
+   "speaker": "clinician",
+   "text": "Right, the 1 percent is the over -the -counter one, and it's just not strong enough for this. Anything else you take.",
+   "start": 73.57,
+   "end": 79.33
+  },
+  {
+   "idx": 13,
+   "speaker": "patient",
+   "text": "Cederazine. Ten milligrams every day for my seasonal allergies. Okay,",
+   "start": 80.41,
+   "end": 85.25
+  },
+  {
+   "idx": 14,
+   "speaker": "clinician",
+   "text": "and you had asthma as a kid, right? Any breathing trouble now?",
+   "start": 85.69,
+   "end": 88.75
+  },
+  {
+   "idx": 15,
+   "speaker": "patient",
+   "text": "No, I outgrew that. I haven't used an inhaler since I was like twelve. Good, still no drug allergies. None.",
+   "start": 89.47,
+   "end": 97.95
+  },
+  {
+   "idx": 16,
+   "speaker": "clinician",
+   "text": "Alright, let's look. In both elbow creases, there are red, scaly, thickened plaques about six by four centimeters each with scratch marks. Same thing behind both knees, a bit smaller. There's patch of dry, red skin on the back of your neck. The backs of both hands are dry with a few small cracks over the knuckles. No weeping and no honey -colored crusting so I don't see signs of infection. Your face and eyelids are clear. I'd estimate about 10 % of your body surface.",
+   "start": 99.22,
+   "end": 122.18
+  },
+  {
+   "idx": 17,
+   "speaker": "patient",
+   "text": "Yeah, that sounds about right.",
+   "start": 123.02,
+   "end": 124.76
+  },
+  {
+   "idx": 18,
+   "speaker": "clinician",
+   "text": "So this is a flare of your atopic dermatitis, probably set off by the cold, dry air at work.",
+   "start": 125.52,
+   "end": 130.32
+  },
+  {
+   "idx": 19,
+   "speaker": "patient",
+   "text": "Here's the plan.",
+   "start": 130.72,
+   "end": 131.34
+  },
+  {
+   "idx": 20,
+   "speaker": "clinician",
+   "text": "I'm restarting Triumcin alone 0 .1 % ointment, twice a day to the patches on your body and hands for two weeks. Then cut back to just weekends, Saturday and Sunday, on the spots that like to come back. Don't use it on your face or groin.",
+   "start": 131.72,
+   "end": 144.12
+  },
+  {
+   "idx": 21,
+   "speaker": "patient",
+   "text": "Ointment, not the cream.",
+   "start": 145.09,
+   "end": 146.33
+  },
+  {
+   "idx": 22,
+   "speaker": "clinician",
+   "text": "Ointment, it's greasier but it works better on dry, cracked skin and it stings less. You can stop the hydrocortisone. For the itch at night, let's add hydroxazine 25 milligrams at bedtime as needed. It'll make you drowsy, so don't drive after taking it. Keep the Cetirizine in the morning.",
+   "start": 147.11,
+   "end": 162.05
+  },
+  {
+   "idx": 23,
+   "speaker": "patient",
+   "text": "Okay. Moisturizing is half the battle.",
+   "start": 163.0,
+   "end": 165.94
+  },
+  {
+   "idx": 24,
+   "speaker": "clinician",
+   "text": "A thick fragrance -free cream or plain petroleum jelly at least twice a day and right after a short lukewarm shower. At work, wear cotton -lined gloves when you can.",
+   "start": 166.22,
+   "end": 174.98
+  },
+  {
+   "idx": 25,
+   "speaker": "patient",
+   "text": "I can write a note for that. That would help, yes.",
+   "start": 175.32,
+   "end": 178.12
+  },
+  {
+   "idx": 26,
+   "speaker": "clinician",
+   "text": "If it keeps flaring even with all this, there are newer options like dupalumab and injection and we can talk about it then. And if you see oozing, yellow crusts, or you get a fever, call us right away. that could be an infection.",
+   "start": 178.78,
+   "end": 190.2
+  },
+  {
+   "idx": 27,
+   "speaker": "patient",
+   "text": "Got it. Should I call the same number?",
+   "start": 191.31,
+   "end": 193.25
+  },
+  {
+   "idx": 28,
+   "speaker": "clinician",
+   "text": "Yes, and we have 555 -0177 for you. Is that still right?",
+   "start": 194.16,
+   "end": 198.9
+  },
+  {
+   "idx": 29,
+   "speaker": "patient",
+   "text": "That's still me. Great.",
+   "start": 200.03,
+   "end": 201.85
+  },
+  {
+   "idx": 30,
+   "speaker": "clinician",
+   "text": "Let's see you back in four weeks on Monday, November 2nd, and see how the skin's doing.",
+   "start": 202.05,
+   "end": 206.55
+  },
+  {
+   "idx": 31,
+   "speaker": "patient",
+   "text": "Sounds good. Thanks, Dr. Haddad.",
+   "start": 207.84,
+   "end": 209.98
+  }
+ ],
+ "source": "asr",
+ "asr_model": "faster-whisper small.en int8 + medical prompt",
+ "duration_s": 210.75,
+ "timings": {
+  "asr": 61.03,
+  "diarization": 0.46
+ },
+ "diarization": {
+  "method": "log-mel + pitch signatures, k-means (k=2), lexical role inference",
+  "chunks": 76,
+  "role_scores": {
+   "clinician": 18.5,
+   "patient": 5.5
+  }
+ }
+}

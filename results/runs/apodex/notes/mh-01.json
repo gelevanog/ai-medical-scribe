@@ -1,0 +1,893 @@
+{
+ "note": {
+  "visit_id": "mh-01",
+  "statements": [
+   {
+    "id": "s1",
+    "section": "subjective",
+    "text": "New patient presenting for mental health care.",
+    "evidence": [
+     {
+      "turn": 4,
+      "quote": "So your primary care doctor sent you over.",
+      "verified": true,
+      "score": 1.0
+     }
+    ],
+    "support": "supported",
+    "flags": [],
+    "origin": "model",
+    "edited": false
+   },
+   {
+    "id": "s2",
+    "section": "subjective",
+    "text": "Depressed mood for about three months.",
+    "evidence": [
+     {
+      "turn": 5,
+      "quote": "Um, I've just been really down. For about three months now.",
+      "verified": true,
+      "score": 1.0
+     }
+    ],
+    "support": "supported",
+    "flags": [],
+    "origin": "model",
+    "edited": false
+   },
+   {
+    "id": "s3",
+    "section": "subjective",
+    "text": "Anhedonia: no longer enjoys hobbies, quit painting since June.",
+    "evidence": [
+     {
+      "turn": 5,
+      "quote": "I don't enjoy anything anymore. I used to paint on the weekends and I haven't touched it since June.",
+      "verified": true,
+      "score": 1.0
+     }
+    ],
+    "support": "supported",
+    "flags": [],
+    "origin": "model",
+    "edited": false
+   },
+   {
+    "id": "s4",
+    "section": "subjective",
+    "text": "Early morning awakening around 4 a.m. and inability to return to sleep.",
+    "evidence": [
+     {
+      "turn": 7,
+      "quote": "I fall asleep okay, but I wake up around 4 in the morning and I can't get back to sleep.",
+      "verified": true,
+      "score": 1.0
+     }
+    ],
+    "support": "supported",
+    "flags": [],
+    "origin": "model",
+    "edited": false
+   },
+   {
+    "id": "s5",
+    "section": "subjective",
+    "text": "Decreased appetite and unintentional weight loss of approximately 8 pounds.",
+    "evidence": [
+     {
+      "turn": 9,
+      "quote": "I'm just not hungry. I think I've lost maybe 8 pounds without trying.",
+      "verified": true,
+      "score": 1.0
+     }
+    ],
+    "support": "supported",
+    "flags": [],
+    "origin": "model",
+    "edited": false
+   },
+   {
+    "id": "s6",
+    "section": "subjective",
+    "text": "Low energy all the time and difficulty concentrating, reading the same email multiple times.",
+    "evidence": [
+     {
+      "turn": 11,
+      "quote": "Low energy, all the time. At work I read the same email like three times.",
+      "verified": true,
+      "score": 1.0
+     }
+    ],
+    "support": "supported",
+    "flags": [],
+    "origin": "model",
+    "edited": false
+   },
+   {
+    "id": "s7",
+    "section": "subjective",
+    "text": "Patient works as a project coordinator at Halvorsen Engineering.",
+    "evidence": [
+     {
+      "turn": 11,
+      "quote": "I'm a project coordinator at Halvorsen Engineering and I'm, you know, kind of barely keeping up.",
+      "verified": true,
+      "score": 1.0
+     }
+    ],
+    "support": "supported",
+    "flags": [],
+    "origin": "model",
+    "edited": false
+   },
+   {
+    "id": "s8",
+    "section": "subjective",
+    "text": "Relationship ended in the spring after five years, though symptoms feel disproportionate now.",
+    "evidence": [
+     {
+      "turn": 13,
+      "quote": "My relationship ended in the spring. Five years. But honestly, it feels bigger than that now.",
+      "verified": true,
+      "score": 1.0
+     }
+    ],
+    "support": "supported",
+    "flags": [],
+    "origin": "model",
+    "edited": false
+   },
+   {
+    "id": "s9",
+    "section": "subjective",
+    "text": "First lifetime episode; never previously treated for depression or anxiety.",
+    "evidence": [
+     {
+      "turn": 15,
+      "quote": "No, this is the first time. I've never been on anything for it.",
+      "verified": true,
+      "score": 1.0
+     }
+    ],
+    "support": "supported",
+    "flags": [],
+    "origin": "model",
+    "edited": false
+   },
+   {
+    "id": "s10",
+    "section": "subjective",
+    "text": "No history of hypomanic or manic episodes (no periods of high energy, decreased need for sleep, or racing thoughts).",
+    "evidence": [
+     {
+      "turn": 17,
+      "quote": "No, never.",
+      "verified": true,
+      "score": 1.0
+     }
+    ],
+    "support": "supported",
+    "flags": [],
+    "origin": "model",
+    "edited": false
+   },
+   {
+    "id": "s11",
+    "section": "subjective",
+    "text": "Family history: paternal aunt has bipolar disorder; sister takes an unspecified medication for anxiety.",
+    "evidence": [
+     {
+      "turn": 19,
+      "quote": "My aunt on my dad's side has bipolar, I think. And my sister Paola takes something for anxiety, I don't know what.",
+      "verified": true,
+      "score": 1.0
+     }
+    ],
+    "support": "supported",
+    "flags": [],
+    "origin": "model",
+    "edited": false
+   },
+   {
+    "id": "s12",
+    "section": "subjective",
+    "text": "Denies passive or active suicidal ideation.",
+    "evidence": [
+     {
+      "turn": 21,
+      "quote": "No. I feel awful, but no, nothing like that.",
+      "verified": true,
+      "score": 1.0
+     }
+    ],
+    "support": "supported",
+    "flags": [],
+    "origin": "model",
+    "edited": false
+   },
+   {
+    "id": "s13",
+    "section": "subjective",
+    "text": "Denies homicidal ideation.",
+    "evidence": [
+     {
+      "turn": 23,
+      "quote": "No.",
+      "verified": true,
+      "score": 1.0
+     }
+    ],
+    "support": "supported",
+    "flags": [],
+    "origin": "model",
+    "edited": false
+   },
+   {
+    "id": "s14",
+    "section": "subjective",
+    "text": "Alcohol use: one glass of wine per week; denies illicit drug use.",
+    "evidence": [
+     {
+      "turn": 25,
+      "quote": "Maybe a glass of wine once a week. No drugs.",
+      "verified": true,
+      "score": 1.0
+     }
+    ],
+    "support": "supported",
+    "flags": [],
+    "origin": "model",
+    "edited": false
+   },
+   {
+    "id": "s15",
+    "section": "subjective",
+    "text": "No other medical problems.",
+    "evidence": [
+     {
+      "turn": 27,
+      "quote": "I'm healthy otherwise.",
+      "verified": true,
+      "score": 1.0
+     }
+    ],
+    "support": "supported",
+    "flags": [],
+    "origin": "model",
+    "edited": false
+   },
+   {
+    "id": "s16",
+    "section": "subjective",
+    "text": "Social history: found parking on the garage roof; primary care referral.",
+    "evidence": [
+     {
+      "turn": 3,
+      "quote": "Yeah, I ended up all the way on the roof, but it's fine.",
+      "verified": true,
+      "score": 1.0
+     }
+    ],
+    "support": "supported",
+    "flags": [],
+    "origin": "model",
+    "edited": false
+   },
+   {
+    "id": "o1",
+    "section": "objective",
+    "text": "PHQ-9 score 15 (moderate range).",
+    "evidence": [
+     {
+      "turn": 28,
+      "quote": "the PHQ-9, your score is 15, which is in the moderate range.",
+      "verified": true,
+      "score": 1.0
+     }
+    ],
+    "support": "supported",
+    "flags": [],
+    "origin": "model",
+    "edited": false
+   },
+   {
+    "id": "o2",
+    "section": "objective",
+    "text": "GAD-7 score 6 (mild).",
+    "evidence": [
+     {
+      "turn": 28,
+      "quote": "Your GAD-7 anxiety score is 6, so mild.",
+      "verified": true,
+      "score": 1.0
+     }
+    ],
+    "support": "supported",
+    "flags": [],
+    "origin": "model",
+    "edited": false
+   },
+   {
+    "id": "o3",
+    "section": "objective",
+    "text": "Blood pressure 116/74 mmHg.",
+    "evidence": [
+     {
+      "turn": 28,
+      "quote": "your blood pressure today is 116 over 74",
+      "verified": true,
+      "score": 1.0
+     }
+    ],
+    "support": "supported",
+    "flags": [],
+    "origin": "model",
+    "edited": false
+   },
+   {
+    "id": "o4",
+    "section": "objective",
+    "text": "Pulse 72 beats per minute.",
+    "evidence": [
+     {
+      "turn": 28,
+      "quote": "pulse 72",
+      "verified": true,
+      "score": 1.0
+     }
+    ],
+    "support": "supported",
+    "flags": [],
+    "origin": "model",
+    "edited": false
+   },
+   {
+    "id": "o5",
+    "section": "objective",
+    "text": "Weight 138 pounds.",
+    "evidence": [
+     {
+      "turn": 28,
+      "quote": "and your weight is 138 pounds",
+      "verified": true,
+      "score": 1.0
+     }
+    ],
+    "support": "supported",
+    "flags": [],
+    "origin": "model",
+    "edited": false
+   },
+   {
+    "id": "o6",
+    "section": "objective",
+    "text": "Well groomed; speech normal; mood sad; affect a bit flat; thinking clear and organized.",
+    "evidence": [
+     {
+      "turn": 28,
+      "quote": "you're well groomed, your speech is normal, your mood is sad and your affect is a bit flat, and your thinking is clear and organized.",
+      "verified": true,
+      "score": 1.0
+     }
+    ],
+    "support": "supported",
+    "flags": [],
+    "origin": "model",
+    "edited": false
+   },
+   {
+    "id": "a1",
+    "section": "assessment",
+    "text": "Major depressive disorder, single episode, moderate.",
+    "evidence": [
+     {
+      "turn": 30,
+      "quote": "This looks like major depression, a single episode, moderate.",
+      "verified": true,
+      "score": 1.0
+     }
+    ],
+    "support": "supported",
+    "flags": [],
+    "origin": "model",
+    "edited": false
+   },
+   {
+    "id": "a2",
+    "section": "assessment",
+    "text": "Generalized anxiety, mild.",
+    "evidence": [
+     {
+      "turn": 28,
+      "quote": "Your GAD-7 anxiety score is 6, so mild.",
+      "verified": true,
+      "score": 1.0
+     }
+    ],
+    "support": "supported",
+    "flags": [],
+    "origin": "model",
+    "edited": false
+   },
+   {
+    "id": "p1",
+    "section": "plan",
+    "text": "Start sertraline 25 mg orally once daily for one week, then increase to 50 mg orally once daily.",
+    "evidence": [
+     {
+      "turn": 30,
+      "quote": "start sertraline, 25 milligrams once a day for one week, then go up to 50 milligrams once a day.",
+      "verified": true,
+      "score": 1.0
+     }
+    ],
+    "support": "supported",
+    "flags": [],
+    "origin": "model",
+    "edited": false
+   },
+   {
+    "id": "p2",
+    "section": "plan",
+    "text": "Counseling: take sertraline with breakfast.",
+    "evidence": [
+     {
+      "turn": 32,
+      "quote": "Take it with breakfast.",
+      "verified": true,
+      "score": 1.0
+     }
+    ],
+    "support": "supported",
+    "flags": [],
+    "origin": "model",
+    "edited": false
+   },
+   {
+    "id": "p3",
+    "section": "plan",
+    "text": "Counseling: possible early side effects include upset stomach or headache, usually fading within one to two weeks.",
+    "evidence": [
+     {
+      "turn": 32,
+      "quote": "Some people get an upset stomach or a headache the first week or two, and that usually fades.",
+      "verified": true,
+      "score": 1.0
+     }
+    ],
+    "support": "supported",
+    "flags": [],
+    "origin": "model",
+    "edited": false
+   },
+   {
+    "id": "p4",
+    "section": "plan",
+    "text": "Counseling: sertraline may take 4 to 6 weeks to produce noticeable improvement.",
+    "evidence": [
+     {
+      "turn": 30,
+      "quote": "It can take 4 to 6 weeks to really feel the difference.",
+      "verified": true,
+      "score": 1.0
+     }
+    ],
+    "support": "supported",
+    "flags": [],
+    "origin": "model",
+    "edited": false
+   },
+   {
+    "id": "p5",
+    "section": "plan",
+    "text": "Precaution: if suddenly feeling wired, not sleeping but not tired, contact the clinic right away.",
+    "evidence": [
+     {
+      "turn": 32,
+      "quote": "if you ever notice you're suddenly wired, not sleeping but not tired, call us right away.",
+      "verified": true,
+      "score": 1.0
+     }
+    ],
+    "support": "supported",
+    "flags": [],
+    "origin": "model",
+    "edited": false
+   },
+   {
+    "id": "p6",
+    "section": "plan",
+    "text": "Referral to in-house therapy team for weekly sessions.",
+    "evidence": [
+     {
+      "turn": 34,
+      "quote": "I'm putting in a referral to our therapy team for weekly sessions.",
+      "verified": true,
+      "score": 1.0
+     }
+    ],
+    "support": "supported",
+    "flags": [],
+    "origin": "model",
+    "edited": false
+   },
+   {
+    "id": "p7",
+    "section": "plan",
+    "text": "Provided safety plan card; instructed to call or text 988 at any time, or go to the nearest emergency room, if thoughts of self-harm occur.",
+    "evidence": [
+     {
+      "turn": 34,
+      "quote": "If you ever do have thoughts of hurting yourself, you can call or text 988, the crisis line, any time, or go to the nearest emergency room.",
+      "verified": true,
+      "score": 1.0
+     }
+    ],
+    "support": "supported",
+    "flags": [],
+    "origin": "model",
+    "edited": false
+   },
+   {
+    "id": "p8",
+    "section": "plan",
+    "text": "Prescription to be sent to Lakeview Pharmacy on 4120 Belmont Avenue.",
+    "evidence": [
+     {
+      "turn": 37,
+      "quote": "Lakeview Pharmacy, on 4120 Belmont Avenue.",
+      "verified": true,
+      "score": 1.0
+     },
+     {
+      "turn": 38,
+      "quote": "I'll send it there.",
+      "verified": true,
+      "score": 1.0
+     }
+    ],
+    "support": "supported",
+    "flags": [],
+    "origin": "model",
+    "edited": false
+   },
+   {
+    "id": "p9",
+    "section": "plan",
+    "text": "Follow-up in 4 weeks, on October 19th, to monitor response to medication.",
+    "evidence": [
+     {
+      "turn": 40,
+      "quote": "Let's see you back in 4 weeks, on October 19th, to check how you're doing on the medicine.",
+      "verified": true,
+      "score": 1.0
+     }
+    ],
+    "support": "supported",
+    "flags": [],
+    "origin": "model",
+    "edited": false
+   }
+  ],
+  "medications": [
+   {
+    "name": "sertraline",
+    "dose": "25 mg",
+    "frequency": "once daily",
+    "route": "oral",
+    "status": "new",
+    "evidence": [
+     {
+      "turn": 30,
+      "quote": "start sertraline, 25 milligrams once a day for one week, then go up to 50 milligrams once a day.",
+      "verified": true,
+      "score": 1.0
+     }
+    ],
+    "flags": []
+   }
+  ],
+  "allergies": [
+   {
+    "substance": "penicillin",
+    "reaction": "hives",
+    "evidence": [
+     {
+      "turn": 27,
+      "quote": "I'm allergic to penicillin, I break out in hives.",
+      "verified": true,
+      "score": 1.0
+     }
+    ]
+   }
+  ],
+  "after_visit_summary": "You saw a psychiatric nurse practitioner about feeling down for three months. You have lost interest in things you used to enjoy, trouble sleeping, low appetite with weight loss, low energy, and trouble focusing. You also had some mild anxiety. There are no vital signs that are a cause for concern today. We think you have moderate depression, which is very treatable. Your PHQ-9 score was 15 (moderate), and your GAD-7 score was 6 (mild). We are starting sertraline 25 mg once a day for one week, then increasing it to 50 mg once a day. Take it with breakfast. It may take 4 to 6 weeks to feel the full benefit. Some people get an upset stomach or headache at first, and that usually goes away. Because your aunt has bipolar disorder, call us right away if you suddenly feel wired, cannot sleep, but do not feel tired. We are setting up weekly therapy with our therapy team. You received a safety plan card. If you ever feel like hurting yourself, call or text 988 any time, or go to the nearest emergency room. Follow up with us in 4 weeks on October 19th to check how the medicine is working. If you have any questions before then, call the clinic.",
+  "avs_flags": [],
+  "icd10": [
+   {
+    "system": "ICD-10-CM",
+    "code": "F32.1",
+    "description": "Major depressive disorder, single episode, moderate",
+    "rank": 1,
+    "rationale": "Major depressive disorder, single episode, moderate is the confirmed primary diagnosis assessed by the clinician with corresponding PHQ-9 score of 15, and it is the most specific billable code from the candidate list.",
+    "evidence": [
+     {
+      "turn": 28,
+      "quote": "the PHQ-9, your score is 15, which is in the moderate range",
+      "verified": true,
+      "score": 1.0
+     },
+     {
+      "turn": 30,
+      "quote": "This looks like major depression, a single episode, moderate",
+      "verified": true,
+      "score": 1.0
+     }
+    ],
+    "valid": true,
+    "billable": true,
+    "flags": [],
+    "accepted": null
+   },
+   {
+    "system": "ICD-10-CM",
+    "code": "F41.1",
+    "description": "Generalized anxiety disorder",
+    "rank": 2,
+    "rationale": "Generalized anxiety disorder, mild is an assessed condition supported by GAD-7 score of 6 (mild), with no evidence of other specific anxiety diagnoses.",
+    "evidence": [
+     {
+      "turn": 28,
+      "quote": "Your GAD-7 anxiety score is 6, so mild",
+      "verified": true,
+      "score": 1.0
+     }
+    ],
+    "valid": true,
+    "billable": true,
+    "flags": [],
+    "accepted": null
+   },
+   {
+    "system": "ICD-10-CM",
+    "code": "Z80.4",
+    "description": "Family history of malignant neoplasm of genital organs",
+    "rank": 3,
+    "rationale": "Family history of mental and behavioral disorders due to paternal aunt's bipolar disorder was discussed and relevant to medication precautions; it is a Z code for family history rather than coding the aunt's condition.",
+    "evidence": [
+     {
+      "turn": 19,
+      "quote": "My aunt on my dad's side has bipolar, I think",
+      "verified": true,
+      "score": 1.0
+     },
+     {
+      "turn": 32,
+      "quote": "because of your aunt's history, if you ever notice you're suddenly wired, not sleeping but not tired, call us right away",
+      "verified": true,
+      "score": 1.0
+     }
+    ],
+    "valid": false,
+    "billable": false,
+    "flags": [
+     {
+      "kind": "code_not_billable",
+      "severity": "error",
+      "message": "Z80.4 is a category header, not billable; choose a more specific code",
+      "acknowledged": false,
+      "detail": {
+       "children": [
+        "Z80.41",
+        "Z80.42",
+        "Z80.43",
+        "Z80.44",
+        "Z80.49"
+       ]
+      }
+     },
+     {
+      "kind": "code_unsupported",
+      "severity": "warning",
+      "message": "The code's title shares no terms with the assessment; check it matches a diagnosis.",
+      "acknowledged": false,
+      "detail": {}
+     }
+    ],
+    "accepted": null
+   }
+  ],
+  "em": {
+   "system": "CPT",
+   "code": "99203",
+   "description": "New patient office visit, low-complexity decision making",
+   "rank": 1,
+   "rationale": "New patient psychiatric visit with moderate medical decision making based on two established problems (moderate MDD and mild GAD), administration/interpretation of standardized assessments, and moderate risk from initiating a new prescription drug (sertraline).",
+   "evidence": [],
+   "valid": true,
+   "billable": true,
+   "flags": [
+    {
+     "kind": "em_mismatch",
+     "severity": "warning",
+     "message": "The rule-based MDM estimate is moderate (99204): problems: two or more chronic illnesses; risk: prescription drug management",
+     "acknowledged": false,
+     "detail": {
+      "estimate": "99204"
+     }
+    }
+   ],
+   "accepted": null
+  },
+  "procedures": [
+   {
+    "system": "CPT",
+    "code": "96127",
+    "description": "Brief emotional or behavioral assessment with a standardized instrument (e.g. PHQ-9, GAD-7)",
+    "rank": 1,
+    "rationale": "Standardized behavioral health assessment instruments (PHQ-9 and GAD-7) were administered and scored during this visit.",
+    "evidence": [
+     {
+      "turn": 28,
+      "quote": "the questionnaire you filled out in the waiting room, the PHQ-9, your score is 15",
+      "verified": true,
+      "score": 1.0
+     }
+    ],
+    "valid": true,
+    "billable": true,
+    "flags": [],
+    "accepted": null
+   }
+  ],
+  "mdm": {
+   "problems": "moderate",
+   "data": "straightforward",
+   "risk": "moderate",
+   "level": "moderate",
+   "code": "99204",
+   "reasons": [
+    "problems: two or more chronic illnesses",
+    "risk: prescription drug management"
+   ]
+  },
+  "section_status": {
+   "subjective": "draft",
+   "objective": "draft",
+   "assessment": "draft",
+   "plan": "draft"
+  },
+  "model": "openrouter/apodex/apodex-1.1-mini:free",
+  "created_at": "2026-10-13T05:56:43.223144Z",
+  "signed_by": null,
+  "signed_at": null,
+  "timings": {
+   "phi_masking": 0.032,
+   "llm_note": 19.1,
+   "guards_note": 0.068,
+   "llm_codes": 2.83,
+   "guards_codes": 0.051,
+   "total": 22.081,
+   "wall": 22.752
+  },
+  "usage": {
+   "model_ms": 21930,
+   "input_tokens": 5344,
+   "output_tokens": 2754,
+   "calls": 2
+  },
+  "phi": {
+   "NAME": 3,
+   "DOB": 1,
+   "DATE": 2,
+   "ORG": 2,
+   "ADDRESS": 1,
+   "PHONE": 1
+  }
+ },
+ "vault": {
+  "originals": {
+   "[NAME_1]": "Priya Natarajan",
+   "[PATIENT]": "Daniela Restrepo",
+   "[DOB]": "May 8th, 1992",
+   "[DATE_1]": "June",
+   "[ORG_1]": "Halvorsen Engineering",
+   "[NAME_2]": "Paola",
+   "[ORG_2]": "Lakeview Pharmacy",
+   "[ADDRESS_1]": "4120 Belmont Avenue",
+   "[PHONE_1]": "773-555-0164",
+   "[DATE_2]": "October 19th"
+  },
+  "surfaces": {
+   "[NAME_1]": [
+    "Priya Natarajan"
+   ],
+   "[PATIENT]": [
+    "Daniela",
+    "Daniela Restrepo"
+   ],
+   "[DOB]": [
+    "May 8th, 1992"
+   ],
+   "[DATE_1]": [
+    "June"
+   ],
+   "[ORG_1]": [
+    "Halvorsen Engineering"
+   ],
+   "[NAME_2]": [
+    "Paola"
+   ],
+   "[ORG_2]": [
+    "Lakeview Pharmacy"
+   ],
+   "[ADDRESS_1]": [
+    "4120 Belmont Avenue"
+   ],
+   "[PHONE_1]": [
+    "773-555-0164"
+   ],
+   "[DATE_2]": [
+    "October 19th"
+   ]
+  },
+  "types": {
+   "[NAME_1]": "NAME",
+   "[PATIENT]": "NAME",
+   "[DOB]": "DOB",
+   "[DATE_1]": "DATE",
+   "[ORG_1]": "ORG",
+   "[NAME_2]": "NAME",
+   "[ORG_2]": "ORG",
+   "[ADDRESS_1]": "ADDRESS",
+   "[PHONE_1]": "PHONE",
+   "[DATE_2]": "DATE"
+  },
+  "counters": {
+   "NAME": 2,
+   "DATE": 2,
+   "ORG": 2,
+   "ADDRESS": 1,
+   "PHONE": 1
+  }
+ },
+ "score": {
+  "case": "mh-01",
+  "specialty": "mental_health",
+  "facts": 27,
+  "found": 27,
+  "found_in_section": 27,
+  "negation_errors": [],
+  "trap_errors": [],
+  "missed": [],
+  "statements": 33,
+  "statements_matching_gold": 27,
+  "unsupported": 0,
+  "partial": 0,
+  "flags": {},
+  "meds": 1,
+  "meds_found": 1,
+  "meds_dose_correct": 1,
+  "icd_primary": "F32.1",
+  "icd_suggested": [
+   "F32.1",
+   "F41.1",
+   "Z80.4"
+  ],
+  "icd_top1": true,
+  "icd_top3": true,
+  "icd_top3_lenient": true,
+  "icd_top3_category": true,
+  "icd_gold_recall": 1.0,
+  "icd_invalid": 1,
+  "em_gold": "99204",
+  "em_suggested": "99203",
+  "em_exact": false,
+  "em_within_one": true,
+  "em_rule_estimate": "99204",
+  "procedures_gold": 1,
+  "procedures_found": 1
+ },
+ "egress_residue": {}
+}

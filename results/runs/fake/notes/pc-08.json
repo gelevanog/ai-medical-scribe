@@ -1,0 +1,926 @@
+{
+ "note": {
+  "visit_id": "pc-08",
+  "statements": [
+   {
+    "id": "s1",
+    "section": "subjective",
+    "text": "Is 91 years old, and they still remember it, so don't you worry",
+    "evidence": [
+     {
+      "turn": 1,
+      "quote": "I'm 91 years old, and I still remember it, so don't you worry.",
+      "verified": true,
+      "score": 1.0
+     }
+    ],
+    "support": "supported",
+    "flags": [],
+    "origin": "model",
+    "edited": false
+   },
+   {
+    "id": "s2",
+    "section": "subjective",
+    "text": "Is just worn out, doctor",
+    "evidence": [
+     {
+      "turn": 5,
+      "quote": "I'm just worn out, doctor.",
+      "verified": true,
+      "score": 1.0
+     }
+    ],
+    "support": "supported",
+    "flags": [],
+    "origin": "model",
+    "edited": false
+   },
+   {
+    "id": "s3",
+    "section": "subjective",
+    "text": "When they first get up out of bed in the morning, the room kind of swims for a second",
+    "evidence": [
+     {
+      "turn": 7,
+      "quote": "When I first get up out of bed in the morning, the room kind of swims for a",
+      "verified": true,
+      "score": 1.0
+     }
+    ],
+    "support": "supported",
+    "flags": [],
+    "origin": "model",
+    "edited": false
+   },
+   {
+    "id": "s4",
+    "section": "subjective",
+    "text": "Denies chest pain",
+    "evidence": [
+     {
+      "turn": 10,
+      "quote": "Any chest pain or shortness of breath?",
+      "verified": true,
+      "score": 1.0
+     },
+     {
+      "turn": 11,
+      "quote": "No chest pain.",
+      "verified": true,
+      "score": 1.0
+     }
+    ],
+    "support": "supported",
+    "flags": [],
+    "origin": "model",
+    "edited": false
+   },
+   {
+    "id": "s5",
+    "section": "subjective",
+    "text": "Denies shortness of breath",
+    "evidence": [
+     {
+      "turn": 10,
+      "quote": "Any chest pain or shortness of breath?",
+      "verified": true,
+      "score": 1.0
+     },
+     {
+      "turn": 11,
+      "quote": "No chest pain.",
+      "verified": true,
+      "score": 1.0
+     }
+    ],
+    "support": "supported",
+    "flags": [],
+    "origin": "model",
+    "edited": false
+   },
+   {
+    "id": "s6",
+    "section": "subjective",
+    "text": "Denies fever",
+    "evidence": [
+     {
+      "turn": 12,
+      "quote": "Fever, black stools, or losing weight without trying?",
+      "verified": true,
+      "score": 1.0
+     },
+     {
+      "turn": 13,
+      "quote": "No, none of that.",
+      "verified": true,
+      "score": 1.0
+     }
+    ],
+    "support": "supported",
+    "flags": [],
+    "origin": "model",
+    "edited": false
+   },
+   {
+    "id": "s7",
+    "section": "subjective",
+    "text": "Denies black stools",
+    "evidence": [
+     {
+      "turn": 12,
+      "quote": "Fever, black stools, or losing weight without trying?",
+      "verified": true,
+      "score": 1.0
+     },
+     {
+      "turn": 13,
+      "quote": "No, none of that.",
+      "verified": true,
+      "score": 1.0
+     }
+    ],
+    "support": "supported",
+    "flags": [],
+    "origin": "model",
+    "edited": false
+   },
+   {
+    "id": "s8",
+    "section": "subjective",
+    "text": "Denies losing weight",
+    "evidence": [
+     {
+      "turn": 12,
+      "quote": "Fever, black stools, or losing weight without trying?",
+      "verified": true,
+      "score": 1.0
+     },
+     {
+      "turn": 13,
+      "quote": "No, none of that.",
+      "verified": true,
+      "score": 1.0
+     }
+    ],
+    "support": "supported",
+    "flags": [],
+    "origin": "model",
+    "edited": false
+   },
+   {
+    "id": "s9",
+    "section": "subjective",
+    "text": "Denies feeling down",
+    "evidence": [
+     {
+      "turn": 14,
+      "quote": "Have you been feeling down or sad?",
+      "verified": true,
+      "score": 1.0
+     },
+     {
+      "turn": 15,
+      "quote": "No, I'm not sad.",
+      "verified": true,
+      "score": 1.0
+     }
+    ],
+    "support": "supported",
+    "flags": [],
+    "origin": "model",
+    "edited": false
+   },
+   {
+    "id": "s10",
+    "section": "subjective",
+    "text": "Denies sad",
+    "evidence": [
+     {
+      "turn": 14,
+      "quote": "Have you been feeling down or sad?",
+      "verified": true,
+      "score": 1.0
+     },
+     {
+      "turn": 15,
+      "quote": "No, I'm not sad.",
+      "verified": true,
+      "score": 1.0
+     }
+    ],
+    "support": "supported",
+    "flags": [],
+    "origin": "model",
+    "edited": false
+   },
+   {
+    "id": "s11",
+    "section": "subjective",
+    "text": "Just tired",
+    "evidence": [
+     {
+      "turn": 15,
+      "quote": "Just tired.",
+      "verified": true,
+      "score": 1.0
+     }
+    ],
+    "support": "supported",
+    "flags": [],
+    "origin": "model",
+    "edited": false
+   },
+   {
+    "id": "s12",
+    "section": "subjective",
+    "text": "Lungs have been fine since",
+    "evidence": [
+     {
+      "turn": 21,
+      "quote": "Lungs have been fine since.",
+      "verified": true,
+      "score": 1.0
+     }
+    ],
+    "support": "supported",
+    "flags": [],
+    "origin": "model",
+    "edited": false
+   },
+   {
+    "id": "s13",
+    "section": "subjective",
+    "text": "What's making them so tired?",
+    "evidence": [
+     {
+      "turn": 25,
+      "quote": "So what's making me so tired?",
+      "verified": true,
+      "score": 1.0
+     }
+    ],
+    "support": "supported",
+    "flags": [],
+    "origin": "model",
+    "edited": false
+   },
+   {
+    "id": "s14",
+    "section": "subjective",
+    "text": "That's her number",
+    "evidence": [
+     {
+      "turn": 35,
+      "quote": "That's her number.",
+      "verified": true,
+      "score": 1.0
+     }
+    ],
+    "support": "supported",
+    "flags": [],
+    "origin": "model",
+    "edited": false
+   },
+   {
+    "id": "o1",
+    "section": "objective",
+    "text": "I have amlodipine 5 milligrams once a day for your blood pressure, metoprolol 50 milligrams twice a day, atorvastatin 10 at night, and a baby aspirin, 81 milligrams",
+    "evidence": [
+     {
+      "turn": 16,
+      "quote": "I have amlodipine 5 milligrams once a day for your blood pressure, metoprolol 50 milligrams twice a day,",
+      "verified": true,
+      "score": 1.0
+     }
+    ],
+    "support": "supported",
+    "flags": [],
+    "origin": "model",
+    "edited": false
+   },
+   {
+    "id": "o2",
+    "section": "objective",
+    "text": "Sitting, your blood pressure is 118 over 64, and your pulse is 52, which is on the slow side",
+    "evidence": [
+     {
+      "turn": 22,
+      "quote": "Sitting, your blood pressure is 118 over 64, and your pulse is 52, which is on the slow",
+      "verified": true,
+      "score": 1.0
+     }
+    ],
+    "support": "supported",
+    "flags": [],
+    "origin": "model",
+    "edited": false
+   },
+   {
+    "id": "o3",
+    "section": "objective",
+    "text": "Your heart is slow but regular, no murmur",
+    "evidence": [
+     {
+      "turn": 23,
+      "quote": "Your heart is slow but regular, no murmur.",
+      "verified": true,
+      "score": 1.0
+     }
+    ],
+    "support": "supported",
+    "flags": [],
+    "origin": "model",
+    "edited": false
+   },
+   {
+    "id": "o4",
+    "section": "objective",
+    "text": "Lungs are clear",
+    "evidence": [
+     {
+      "turn": 23,
+      "quote": "Lungs are clear.",
+      "verified": true,
+      "score": 1.0
+     }
+    ],
+    "support": "supported",
+    "flags": [],
+    "origin": "model",
+    "edited": false
+   },
+   {
+    "id": "o5",
+    "section": "objective",
+    "text": "No swelling in your ankles",
+    "evidence": [
+     {
+      "turn": 23,
+      "quote": "No swelling in your ankles.",
+      "verified": true,
+      "score": 1.0
+     }
+    ],
+    "support": "supported",
+    "flags": [],
+    "origin": "model",
+    "edited": false
+   },
+   {
+    "id": "o6",
+    "section": "objective",
+    "text": "Your color looks good, no paleness inside the eyelids",
+    "evidence": [
+     {
+      "turn": 23,
+      "quote": "Your color looks good, no paleness inside the eyelids.",
+      "verified": true,
+      "score": 1.0
+     }
+    ],
+    "support": "supported",
+    "flags": [],
+    "origin": "model",
+    "edited": false
+   },
+   {
+    "id": "o7",
+    "section": "objective",
+    "text": "We also did an ECG while you were waiting",
+    "evidence": [
+     {
+      "turn": 24,
+      "quote": "We also did an ECG while you were waiting.",
+      "verified": true,
+      "score": 1.0
+     }
+    ],
+    "support": "supported",
+    "flags": [],
+    "origin": "model",
+    "edited": false
+   },
+   {
+    "id": "o8",
+    "section": "objective",
+    "text": "It shows a slow, regular rhythm, a rate of 52, and no heart block",
+    "evidence": [
+     {
+      "turn": 24,
+      "quote": "It shows a slow, regular rhythm, a rate of 52, and no heart block.",
+      "verified": true,
+      "score": 1.0
+     }
+    ],
+    "support": "supported",
+    "flags": [],
+    "origin": "model",
+    "edited": false
+   },
+   {
+    "id": "o9",
+    "section": "objective",
+    "text": "Your pulse is slow, and the metoprolol may be slowing it too much",
+    "evidence": [
+     {
+      "turn": 26,
+      "quote": "Your pulse is slow, and the metoprolol may be slowing it too much.",
+      "verified": true,
+      "score": 1.0
+     }
+    ],
+    "support": "supported",
+    "flags": [],
+    "origin": "model",
+    "edited": false
+   },
+   {
+    "id": "o10",
+    "section": "objective",
+    "text": "If you faint, have chest pain, or your pulse gets slower, call us or go to the emergency room",
+    "evidence": [
+     {
+      "turn": 34,
+      "quote": "If you faint, have chest pain, or your pulse gets slower, call us or go to the emergency",
+      "verified": true,
+      "score": 1.0
+     }
+    ],
+    "support": "supported",
+    "flags": [],
+    "origin": "model",
+    "edited": false
+   },
+   {
+    "id": "o11",
+    "section": "objective",
+    "text": "I'll see you in 2 weeks, and we'll call Gloria at 555-0177 with the results",
+    "evidence": [
+     {
+      "turn": 34,
+      "quote": "I'll see you in 2 weeks, and we'll call Gloria at 555-0177 with the results.",
+      "verified": true,
+      "score": 1.0
+     }
+    ],
+    "support": "supported",
+    "flags": [],
+    "origin": "model",
+    "edited": false
+   },
+   {
+    "id": "a1",
+    "section": "assessment",
+    "text": "I think a big part is your medicines",
+    "evidence": [
+     {
+      "turn": 26,
+      "quote": "I think a big part is your medicines.",
+      "verified": true,
+      "score": 1.0
+     }
+    ],
+    "support": "supported",
+    "flags": [],
+    "origin": "model",
+    "edited": false
+   },
+   {
+    "id": "a2",
+    "section": "assessment",
+    "text": "If you have aches at night, plain Tylenol, that's acetaminophen, 500 milligrams is fine",
+    "evidence": [
+     {
+      "turn": 28,
+      "quote": "If you have aches at night, plain Tylenol, that's acetaminophen, 500 milligrams is fine.",
+      "verified": true,
+      "score": 1.0
+     }
+    ],
+    "support": "supported",
+    "flags": [],
+    "origin": "model",
+    "edited": false
+   },
+   {
+    "id": "p1",
+    "section": "plan",
+    "text": "Let's go through your pills",
+    "evidence": [
+     {
+      "turn": 16,
+      "quote": "Let's go through your pills.",
+      "verified": true,
+      "score": 1.0
+     }
+    ],
+    "support": "supported",
+    "flags": [],
+    "origin": "model",
+    "edited": false
+   },
+   {
+    "id": "p2",
+    "section": "plan",
+    "text": "Let me check you",
+    "evidence": [
+     {
+      "turn": 22,
+      "quote": "Let me check you.",
+      "verified": true,
+      "score": 1.0
+     }
+    ],
+    "support": "supported",
+    "flags": [],
+    "origin": "model",
+    "edited": false
+   },
+   {
+    "id": "p3",
+    "section": "plan",
+    "text": "So, here's the plan",
+    "evidence": [
+     {
+      "turn": 28,
+      "quote": "So, here's the plan.",
+      "verified": true,
+      "score": 1.0
+     }
+    ],
+    "support": "supported",
+    "flags": [],
+    "origin": "model",
+    "edited": false
+   },
+   {
+    "id": "p4",
+    "section": "plan",
+    "text": "Stop the Tylenol PM",
+    "evidence": [
+     {
+      "turn": 28,
+      "quote": "Stop the Tylenol PM.",
+      "verified": true,
+      "score": 1.0
+     }
+    ],
+    "support": "supported",
+    "flags": [],
+    "origin": "model",
+    "edited": false
+   }
+  ],
+  "medications": [
+   {
+    "name": "amlodipine",
+    "dose": "5 milligrams",
+    "frequency": "once a day",
+    "route": "",
+    "status": "active",
+    "evidence": [
+     {
+      "turn": 16,
+      "quote": "I have amlodipine 5 milligrams once a day for your blood pressure, metoprolol 50 milligrams twice a day,",
+      "verified": true,
+      "score": 1.0
+     }
+    ],
+    "flags": []
+   },
+   {
+    "name": "metoprolol",
+    "dose": "25 milligrams",
+    "frequency": "twice a day",
+    "route": "",
+    "status": "active",
+    "evidence": [
+     {
+      "turn": 28,
+      "quote": "Cut the metoprolol down to 25 milligrams twice a day, that's half a tablet.",
+      "verified": true,
+      "score": 1.0
+     }
+    ],
+    "flags": []
+   },
+   {
+    "name": "atorvastatin",
+    "dose": "81 milligrams",
+    "frequency": "once a day",
+    "route": "",
+    "status": "active",
+    "evidence": [
+     {
+      "turn": 16,
+      "quote": "I have amlodipine 5 milligrams once a day for your blood pressure, metoprolol 50 milligrams twice a day,",
+      "verified": true,
+      "score": 1.0
+     }
+    ],
+    "flags": []
+   },
+   {
+    "name": "aspirin",
+    "dose": "81 milligrams",
+    "frequency": "once a day",
+    "route": "",
+    "status": "active",
+    "evidence": [
+     {
+      "turn": 16,
+      "quote": "I have amlodipine 5 milligrams once a day for your blood pressure, metoprolol 50 milligrams twice a day,",
+      "verified": true,
+      "score": 1.0
+     }
+    ],
+    "flags": []
+   },
+   {
+    "name": "acetaminophen",
+    "dose": "500 milligrams",
+    "frequency": "",
+    "route": "",
+    "status": "active",
+    "evidence": [
+     {
+      "turn": 28,
+      "quote": "If you have aches at night, plain Tylenol, that's acetaminophen, 500 milligrams is fine.",
+      "verified": true,
+      "score": 1.0
+     }
+    ],
+    "flags": []
+   },
+   {
+    "name": "vitamin d3",
+    "dose": "1000 units",
+    "frequency": "a day",
+    "route": "",
+    "status": "active",
+    "evidence": [
+     {
+      "turn": 30,
+      "quote": "For the vitamin D, I'll switch you to a chewable, 1000 units a day.",
+      "verified": true,
+      "score": 1.0
+     }
+    ],
+    "flags": []
+   },
+   {
+    "name": "diphenhydramine",
+    "dose": "",
+    "frequency": "",
+    "route": "",
+    "status": "active",
+    "evidence": [
+     {
+      "turn": 26,
+      "quote": "And the Tylenol PM has diphenhydramine in it, which is a sleepy antihistamine.",
+      "verified": true,
+      "score": 1.0
+     }
+    ],
+    "flags": []
+   }
+  ],
+  "allergies": [],
+  "after_visit_summary": "Thank you for coming in today. Here is what we talked about. Let's go through your pills. Let me check you. So, here's the plan. Stop the Tylenol PM.",
+  "avs_flags": [],
+  "icd10": [
+   {
+    "system": "ICD-10-CM",
+    "code": "S72.001B",
+    "description": "Fracture of unspecified part of neck of right femur, initial encounter for open fracture type I or II",
+    "rank": 1,
+    "rationale": "Matches the assessment: Fracture of unspecified part of neck of right femur, initial encounter for open fracture type I or II",
+    "evidence": [],
+    "valid": true,
+    "billable": true,
+    "flags": [
+     {
+      "kind": "code_unsupported",
+      "severity": "warning",
+      "message": "No verified quote supports this code.",
+      "acknowledged": false,
+      "detail": {}
+     }
+    ],
+    "accepted": null
+   },
+   {
+    "system": "ICD-10-CM",
+    "code": "S72.002B",
+    "description": "Fracture of unspecified part of neck of left femur, initial encounter for open fracture type I or II",
+    "rank": 2,
+    "rationale": "Matches the assessment: Fracture of unspecified part of neck of left femur, initial encounter for open fracture type I or II",
+    "evidence": [],
+    "valid": true,
+    "billable": true,
+    "flags": [
+     {
+      "kind": "code_unsupported",
+      "severity": "warning",
+      "message": "No verified quote supports this code.",
+      "acknowledged": false,
+      "detail": {}
+     }
+    ],
+    "accepted": null
+   },
+   {
+    "system": "ICD-10-CM",
+    "code": "S72.009B",
+    "description": "Fracture of unspecified part of neck of unspecified femur, initial encounter for open fracture type I or II",
+    "rank": 3,
+    "rationale": "Matches the assessment: Fracture of unspecified part of neck of unspecified femur, initial encounter for open fracture type I or II",
+    "evidence": [],
+    "valid": true,
+    "billable": true,
+    "flags": [
+     {
+      "kind": "code_unsupported",
+      "severity": "warning",
+      "message": "No verified quote supports this code.",
+      "acknowledged": false,
+      "detail": {}
+     }
+    ],
+    "accepted": null
+   }
+  ],
+  "em": {
+   "system": "CPT",
+   "code": "99214",
+   "description": "Established patient office visit, moderate-complexity decision making",
+   "rank": 1,
+   "rationale": "Rule-based: prescription drug management",
+   "evidence": [],
+   "valid": true,
+   "billable": true,
+   "flags": [
+    {
+     "kind": "em_mismatch",
+     "severity": "warning",
+     "message": "The rule-based MDM estimate is straightforward (99212): problems: one minor problem; risk: over-the-counter drugs, minor procedure or counseling",
+     "acknowledged": false,
+     "detail": {
+      "estimate": "99212"
+     }
+    }
+   ],
+   "accepted": null
+  },
+  "procedures": [
+   {
+    "system": "CPT",
+    "code": "93000",
+    "description": "Electrocardiogram with interpretation and report",
+    "rank": 1,
+    "rationale": "Performed today",
+    "evidence": [
+     {
+      "turn": 24,
+      "quote": "We also did an ECG while you were waiting. It shows a slow, regular rhythm, a rate of",
+      "verified": true,
+      "score": 1.0
+     }
+    ],
+    "valid": true,
+    "billable": true,
+    "flags": [],
+    "accepted": null
+   }
+  ],
+  "mdm": {
+   "problems": "straightforward",
+   "data": "straightforward",
+   "risk": "low",
+   "level": "straightforward",
+   "code": "99212",
+   "reasons": [
+    "problems: one minor problem",
+    "risk: over-the-counter drugs, minor procedure or counseling"
+   ]
+  },
+  "section_status": {
+   "subjective": "draft",
+   "objective": "draft",
+   "assessment": "draft",
+   "plan": "draft"
+  },
+  "model": "fake/fake-scribe",
+  "created_at": "2026-10-13T05:44:44.259808Z",
+  "signed_by": null,
+  "signed_at": null,
+  "timings": {
+   "phi_masking": 0.025,
+   "llm_note": 0.013,
+   "guards_note": 0.059,
+   "llm_codes": 0.004,
+   "guards_codes": 0.037,
+   "total": 0.138,
+   "wall": 0.162
+  },
+  "usage": {
+   "model_ms": 17,
+   "input_tokens": 3368,
+   "output_tokens": 1870,
+   "calls": 2
+  },
+  "phi": {
+   "NAME": 2,
+   "DOB": 1,
+   "AGE": 1,
+   "PHONE": 1
+  }
+ },
+ "vault": {
+  "originals": {
+   "[PATIENT]": "Odessa Turner",
+   "[DOB]": "April 19th, 1935",
+   "[AGE_90_PLUS]": "91 years old",
+   "[NAME_1]": "Gloria",
+   "[PHONE_1]": "555-0177"
+  },
+  "surfaces": {
+   "[PATIENT]": [
+    "Odessa Turner",
+    "Turner"
+   ],
+   "[DOB]": [
+    "April 19th, 1935"
+   ],
+   "[AGE_90_PLUS]": [
+    "91",
+    "91 years old"
+   ],
+   "[NAME_1]": [
+    "Gloria"
+   ],
+   "[PHONE_1]": [
+    "555-0177"
+   ]
+  },
+  "types": {
+   "[PATIENT]": "NAME",
+   "[DOB]": "DOB",
+   "[AGE_90_PLUS]": "AGE",
+   "[NAME_1]": "NAME",
+   "[PHONE_1]": "PHONE"
+  },
+  "counters": {
+   "NAME": 1,
+   "PHONE": 1
+  }
+ },
+ "score": {
+  "case": "pc-08",
+  "specialty": "primary_care",
+  "facts": 30,
+  "found": 22,
+  "found_in_section": 15,
+  "negation_errors": [],
+  "trap_errors": [],
+  "missed": [
+   "f1 [subjective] Fatigue for about 6 weeks with new daytime napping twice a day",
+   "f3 [subjective] Denies falls",
+   "f11 [subjective] Pneumonia last winter, resolved",
+   "f19 [assessment] Fatigue likely multifactorial from medications, bradycardia on metoprolol and sedation from diphenhydramine",
+   "f20 [assessment] Bradycardia, likely related to metoprolol",
+   "f25 [plan] Sleep hygiene, consistent bedtime, limit afternoon naps, morning light",
+   "f27 [plan] Labs today, CBC, chemistry panel, TSH, B12",
+   "f28 [plan] Rise slowly, sit at edge of bed first (orthostatic precautions)"
+  ],
+  "statements": 31,
+  "statements_matching_gold": 18,
+  "unsupported": 0,
+  "partial": 0,
+  "flags": {},
+  "meds": 7,
+  "meds_found": 7,
+  "meds_dose_correct": 5,
+  "icd_primary": "R53.83",
+  "icd_suggested": [
+   "S72.001B",
+   "S72.002B",
+   "S72.009B"
+  ],
+  "icd_top1": false,
+  "icd_top3": false,
+  "icd_top3_lenient": false,
+  "icd_top3_category": false,
+  "icd_gold_recall": 0.0,
+  "icd_invalid": 0,
+  "em_gold": "99214",
+  "em_suggested": "99214",
+  "em_exact": true,
+  "em_within_one": true,
+  "em_rule_estimate": "99212",
+  "procedures_gold": 2,
+  "procedures_found": 1
+ },
+ "egress_residue": {}
+}

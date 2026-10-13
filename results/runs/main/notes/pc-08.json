@@ -38,7 +38,21 @@
      }
     ],
     "support": "supported",
-    "flags": [],
+    "flags": [
+     {
+      "kind": "negation",
+      "severity": "error",
+      "message": "The transcript says the opposite: 'dizziness' (turns 6, 7).",
+      "acknowledged": false,
+      "detail": {
+       "concept": "presyncope",
+       "turns": [
+        6,
+        7
+       ]
+      }
+     }
+    ],
     "origin": "model",
     "edited": false
    },
@@ -936,17 +950,17 @@
    "plan": "draft"
   },
   "model": "openrouter/nvidia/nemotron-3-super-120b-a12b:free",
-  "created_at": "2026-10-13T05:44:10.622820Z",
+  "created_at": "2026-10-13T05:47:02.972996Z",
   "signed_by": null,
   "signed_at": null,
   "timings": {
-   "phi_masking": 0.033,
+   "phi_masking": 0.039,
    "llm_note": 21.83,
-   "guards_note": 0.071,
+   "guards_note": 0.076,
    "llm_codes": 5.25,
-   "guards_codes": 0.043,
-   "total": 27.227,
-   "wall": 0.166
+   "guards_codes": 0.048,
+   "total": 27.243,
+   "wall": 0.182
   },
   "usage": {
    "model_ms": 27080,
@@ -1018,6 +1032,7 @@
   "unsupported": 0,
   "partial": 2,
   "flags": {
+   "negation": 1,
    "partial_support": 2
   },
   "meds": 7,

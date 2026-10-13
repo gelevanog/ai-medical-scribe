@@ -1,0 +1,600 @@
+{
+ "note": {
+  "visit_id": "mh-04",
+  "statements": [
+   {
+    "id": "s1",
+    "section": "subjective",
+    "text": "No, not since last winter, and that was mild",
+    "evidence": [
+     {
+      "turn": 9,
+      "quote": "No, not since last winter, and that was mild.",
+      "verified": true,
+      "score": 1.0
+     }
+    ],
+    "support": "supported",
+    "flags": [],
+    "origin": "model",
+    "edited": false
+   },
+   {
+    "id": "s2",
+    "section": "subjective",
+    "text": "Denies rash",
+    "evidence": [
+     {
+      "turn": 16,
+      "quote": "That's fine. Any rash, mouth sores, or blisters anywhere?",
+      "verified": true,
+      "score": 1.0
+     },
+     {
+      "turn": 17,
+      "quote": "No, nothing like that.",
+      "verified": true,
+      "score": 1.0
+     }
+    ],
+    "support": "supported",
+    "flags": [],
+    "origin": "model",
+    "edited": false
+   },
+   {
+    "id": "s3",
+    "section": "subjective",
+    "text": "Denies suicide",
+    "evidence": [
+     {
+      "turn": 22,
+      "quote": "Most people don't. Before we talk plans, any thoughts of suicide or of hurting yourself?",
+      "verified": true,
+      "score": 1.0
+     },
+     {
+      "turn": 23,
+      "quote": "No, none.",
+      "verified": true,
+      "score": 1.0
+     }
+    ],
+    "support": "supported",
+    "flags": [],
+    "origin": "model",
+    "edited": false
+   },
+   {
+    "id": "s4",
+    "section": "subjective",
+    "text": "Denies hurting yourself",
+    "evidence": [
+     {
+      "turn": 22,
+      "quote": "Most people don't. Before we talk plans, any thoughts of suicide or of hurting yourself?",
+      "verified": true,
+      "score": 1.0
+     },
+     {
+      "turn": 23,
+      "quote": "No, none.",
+      "verified": true,
+      "score": 1.0
+     }
+    ],
+    "support": "supported",
+    "flags": [],
+    "origin": "model",
+    "edited": false
+   },
+   {
+    "id": "s5",
+    "section": "subjective",
+    "text": "Reports number",
+    "evidence": [
+     {
+      "turn": 32,
+      "quote": "Keep the multivitamin. I'll see you in 3 months, unless the level or the pill changes things sooner.",
+      "verified": true,
+      "score": 1.0
+     },
+     {
+      "turn": 33,
+      "quote": "Yep, same number.",
+      "verified": true,
+      "score": 1.0
+     }
+    ],
+    "support": "supported",
+    "flags": [],
+    "origin": "model",
+    "edited": false
+   },
+   {
+    "id": "o1",
+    "section": "objective",
+    "text": "Your liver and kidney tests were all normal",
+    "evidence": [
+     {
+      "turn": 24,
+      "quote": "Your liver and kidney tests were all normal.",
+      "verified": true,
+      "score": 1.0
+     }
+    ],
+    "support": "supported",
+    "flags": [],
+    "origin": "model",
+    "edited": false
+   },
+   {
+    "id": "o2",
+    "section": "objective",
+    "text": "Your blood pressure today is 112 over 70, and your weight is 131, same as last time",
+    "evidence": [
+     {
+      "turn": 24,
+      "quote": "Your blood pressure today is 112 over 70, and your weight is 131, same as last time.",
+      "verified": true,
+      "score": 1.0
+     }
+    ],
+    "support": "supported",
+    "flags": [],
+    "origin": "model",
+    "edited": false
+   },
+   {
+    "id": "o3",
+    "section": "objective",
+    "text": "You're bright and relaxed today, mood euthymic, speech is normal, not pressured, and your thoughts are organized",
+    "evidence": [
+     {
+      "turn": 24,
+      "quote": "You're bright and relaxed today, mood euthymic, speech is normal, not pressured, and your thoughts are organized.",
+      "verified": true,
+      "score": 1.0
+     }
+    ],
+    "support": "supported",
+    "flags": [],
+    "origin": "model",
+    "edited": false
+   },
+   {
+    "id": "o4",
+    "section": "objective",
+    "text": "I'd like a baseline lamotrigine level this week, drawn in the morning before your dose, at our lab at 2200 Kessler Boulevard",
+    "evidence": [
+     {
+      "turn": 26,
+      "quote": "I'd like a baseline lamotrigine level this week, drawn in the morning before your dose, at our lab",
+      "verified": true,
+      "score": 1.0
+     }
+    ],
+    "support": "supported",
+    "flags": [],
+    "origin": "model",
+    "edited": false
+   },
+   {
+    "id": "o5",
+    "section": "objective",
+    "text": "Then once you start the pill, we'll recheck the level 2 to 3 weeks later, and I'll probably need to increase your dose",
+    "evidence": [
+     {
+      "turn": 26,
+      "quote": "Then once you start the pill, we'll recheck the level 2 to 3 weeks later, and I'll probably",
+      "verified": true,
+      "score": 1.0
+     }
+    ],
+    "support": "supported",
+    "flags": [],
+    "origin": "model",
+    "edited": false
+   },
+   {
+    "id": "o6",
+    "section": "objective",
+    "text": "I'll see you in 3 months, unless the level or the pill changes things sooner",
+    "evidence": [
+     {
+      "turn": 32,
+      "quote": "I'll see you in 3 months, unless the level or the pill changes things sooner.",
+      "verified": true,
+      "score": 1.0
+     }
+    ],
+    "support": "supported",
+    "flags": [],
+    "origin": "model",
+    "edited": false
+   },
+   {
+    "id": "p1",
+    "section": "plan",
+    "text": "Hello, Hana Kobayashi, good to see you",
+    "evidence": [
+     {
+      "turn": 0,
+      "quote": "Hello, Hana Kobayashi, good to see you.",
+      "verified": true,
+      "score": 0.86
+     }
+    ],
+    "support": "supported",
+    "flags": [],
+    "origin": "model",
+    "edited": false
+   },
+   {
+    "id": "p2",
+    "section": "plan",
+    "text": "So the dose that works now could stop being enough",
+    "evidence": [
+     {
+      "turn": 20,
+      "quote": "So the dose that works now could stop being enough.",
+      "verified": true,
+      "score": 1.0
+     }
+    ],
+    "support": "supported",
+    "flags": [],
+    "origin": "model",
+    "edited": false
+   },
+   {
+    "id": "p3",
+    "section": "plan",
+    "text": "So, to sum up, your bipolar II disorder is stable on lamotrigine 200 milligrams a day, and we'll keep that dose for now",
+    "evidence": [
+     {
+      "turn": 26,
+      "quote": "So, to sum up, your bipolar II disorder is stable on lamotrigine 200 milligrams a day, and we'll",
+      "verified": true,
+      "score": 1.0
+     }
+    ],
+    "support": "supported",
+    "flags": [],
+    "origin": "model",
+    "edited": false
+   },
+   {
+    "id": "p4",
+    "section": "plan",
+    "text": "Here's the plan for the pill",
+    "evidence": [
+     {
+      "turn": 26,
+      "quote": "Here's the plan for the pill.",
+      "verified": true,
+      "score": 1.0
+     }
+    ],
+    "support": "supported",
+    "flags": [],
+    "origin": "model",
+    "edited": false
+   },
+   {
+    "id": "p5",
+    "section": "plan",
+    "text": "If you ever get a rash, especially with fever or mouth sores, stop the lamotrigine and call us or go to the emergency room",
+    "evidence": [
+     {
+      "turn": 30,
+      "quote": "If you ever get a rash, especially with fever or mouth sores, stop the lamotrigine and call us",
+      "verified": true,
+      "score": 1.0
+     }
+    ],
+    "support": "supported",
+    "flags": [],
+    "origin": "model",
+    "edited": false
+   },
+   {
+    "id": "p6",
+    "section": "plan",
+    "text": "And if you miss 5 days or more in a row, don't restart at 200, call us, because we'd need to build back up slowly",
+    "evidence": [
+     {
+      "turn": 30,
+      "quote": "And if you miss 5 days or more in a row, don't restart at 200, call us, because",
+      "verified": true,
+      "score": 1.0
+     }
+    ],
+    "support": "supported",
+    "flags": [],
+    "origin": "model",
+    "edited": false
+   }
+  ],
+  "medications": [
+   {
+    "name": "multivitamin",
+    "dose": "",
+    "frequency": "every morning",
+    "route": "",
+    "status": "active",
+    "evidence": [
+     {
+      "turn": 19,
+      "quote": "Just a multivitamin every morning.",
+      "verified": true,
+      "score": 1.0
+     }
+    ],
+    "flags": []
+   },
+   {
+    "name": "lamotrigine",
+    "dose": "200 milligrams",
+    "frequency": "a day",
+    "route": "",
+    "status": "active",
+    "evidence": [
+     {
+      "turn": 26,
+      "quote": "So, to sum up, your bipolar II disorder is stable on lamotrigine 200 milligrams a day, and we'll",
+      "verified": true,
+      "score": 1.0
+     }
+    ],
+    "flags": [
+     {
+      "kind": "dose_mismatch",
+      "severity": "warning",
+      "message": "The lamotrigine dose was corrected in the conversation (150); confirm the final dose.",
+      "acknowledged": false,
+      "detail": {
+       "doses": [
+        "150"
+       ],
+       "turn": 12
+      }
+     }
+    ]
+   }
+  ],
+  "allergies": [],
+  "after_visit_summary": "Thank you for coming in today. Here is what we talked about. Hello, Hana Kobayashi, good to see you. So the dose that works now could stop being enough. So, to sum up, your bipolar II disorder is stable on lamotrigine 200 milligrams a day, and we will keep that dose for now. Here's the plan for the pill. If you ever get a rash, especially with fever or mouth sores, stop the lamotrigine and call us or go to the emergency room. And if you miss 5 days or more in a row, don't restart at 200, call us, because we'd need to build back up slowly.",
+  "avs_flags": [],
+  "icd10": [
+   {
+    "system": "ICD-10-CM",
+    "code": "D72.12",
+    "description": "Drug rash with eosinophilia and systemic symptoms syndrome",
+    "rank": 1,
+    "rationale": "Matches the assessment: Drug rash with eosinophilia and systemic symptoms syndrome",
+    "evidence": [],
+    "valid": true,
+    "billable": true,
+    "flags": [
+     {
+      "kind": "code_unsupported",
+      "severity": "warning",
+      "message": "No verified quote supports this code.",
+      "acknowledged": false,
+      "detail": {}
+     },
+     {
+      "kind": "code_negated",
+      "severity": "error",
+      "message": "The code describes rash, which the patient denied.",
+      "acknowledged": false,
+      "detail": {}
+     }
+    ],
+    "accepted": null
+   },
+   {
+    "system": "ICD-10-CM",
+    "code": "Z74.2",
+    "description": "Need for assistance at home and no other household member able to render care",
+    "rank": 2,
+    "rationale": "Matches the assessment: Need for assistance at home and no other household member able to render care",
+    "evidence": [],
+    "valid": true,
+    "billable": true,
+    "flags": [
+     {
+      "kind": "code_unsupported",
+      "severity": "warning",
+      "message": "No verified quote supports this code.",
+      "acknowledged": false,
+      "detail": {}
+     }
+    ],
+    "accepted": null
+   },
+   {
+    "system": "ICD-10-CM",
+    "code": "Z71.1",
+    "description": "Person with feared health complaint in whom no diagnosis is made",
+    "rank": 3,
+    "rationale": "Matches the assessment: Person with feared health complaint in whom no diagnosis is made",
+    "evidence": [],
+    "valid": true,
+    "billable": true,
+    "flags": [
+     {
+      "kind": "code_unsupported",
+      "severity": "warning",
+      "message": "No verified quote supports this code.",
+      "acknowledged": false,
+      "detail": {}
+     }
+    ],
+    "accepted": null
+   }
+  ],
+  "em": {
+   "system": "CPT",
+   "code": "99214",
+   "description": "Established patient office visit, moderate-complexity decision making",
+   "rank": 1,
+   "rationale": "Rule-based: prescription drug management",
+   "evidence": [],
+   "valid": true,
+   "billable": true,
+   "flags": [],
+   "accepted": null
+  },
+  "procedures": [],
+  "mdm": {
+   "problems": "straightforward",
+   "data": "moderate",
+   "risk": "moderate",
+   "level": "moderate",
+   "code": "99214",
+   "reasons": [
+    "data: 3 tests or sources",
+    "risk: prescription drug management"
+   ]
+  },
+  "section_status": {
+   "subjective": "draft",
+   "objective": "draft",
+   "assessment": "draft",
+   "plan": "draft"
+  },
+  "model": "fake/fake-scribe",
+  "created_at": "2026-10-13T05:44:48.782553Z",
+  "signed_by": null,
+  "signed_at": null,
+  "timings": {
+   "phi_masking": 0.028,
+   "llm_note": 0.019,
+   "guards_note": 0.058,
+   "llm_codes": 0.008,
+   "guards_codes": 0.041,
+   "total": 0.154,
+   "wall": 0.162
+  },
+  "usage": {
+   "model_ms": 27,
+   "input_tokens": 3083,
+   "output_tokens": 1274,
+   "calls": 2
+  },
+  "phi": {
+   "NAME": 3,
+   "DOB": 1,
+   "DATE": 2,
+   "ADDRESS": 1,
+   "PHONE": 1
+  }
+ },
+ "vault": {
+  "originals": {
+   "[PATIENT]": "Hana Kobayashi",
+   "[DOB]": "July 3rd, 1997",
+   "[DATE_1]": "July",
+   "[NAME_1]": "Alvarez",
+   "[DATE_2]": "August",
+   "[ADDRESS_1]": "2200 Kessler Boulevard",
+   "[PHONE_1]": "317-555-0172",
+   "[NAME_2]": "Petrenko"
+  },
+  "surfaces": {
+   "[PATIENT]": [
+    "Hana",
+    "Hana Kobayashi"
+   ],
+   "[DOB]": [
+    "July 3rd, 1997"
+   ],
+   "[DATE_1]": [
+    "July"
+   ],
+   "[NAME_1]": [
+    "Alvarez"
+   ],
+   "[DATE_2]": [
+    "August"
+   ],
+   "[ADDRESS_1]": [
+    "2200 Kessler Boulevard"
+   ],
+   "[PHONE_1]": [
+    "317-555-0172"
+   ],
+   "[NAME_2]": [
+    "Petrenko"
+   ]
+  },
+  "types": {
+   "[PATIENT]": "NAME",
+   "[DOB]": "DOB",
+   "[DATE_1]": "DATE",
+   "[NAME_1]": "NAME",
+   "[DATE_2]": "DATE",
+   "[ADDRESS_1]": "ADDRESS",
+   "[PHONE_1]": "PHONE",
+   "[NAME_2]": "NAME"
+  },
+  "counters": {
+   "DATE": 2,
+   "NAME": 2,
+   "ADDRESS": 1,
+   "PHONE": 1
+  }
+ },
+ "score": {
+  "case": "mh-04",
+  "specialty": "mental_health",
+  "facts": 24,
+  "found": 17,
+  "found_in_section": 10,
+  "negation_errors": [
+   "f14: Mental status - bright and relaxed, euthymic mood, normal non-pressured speech, organized thoughts (present)"
+  ],
+  "trap_errors": [],
+  "missed": [
+   "f2 [subjective] Denies hypomanic symptoms (decreased need for sleep, increased energy, overspending)",
+   "f3 [subjective] Last hypomanic episode 2 years ago",
+   "f4 [subjective] Denies depressive symptoms; last mild depressive period last winter",
+   "f5 [subjective] Sleeping about 7 hours with regular schedule",
+   "f9 [subjective] Gynecologist plans to start combined oral contraceptive (norgestimate and ethinyl estradiol) next month",
+   "f14 [objective] Mental status - bright and relaxed, euthymic mood, normal non-pressured speech, organized thoughts",
+   "f20 [plan] Discuss progestin-only or IUD contraception with gynecologist as alternatives that do not affect lamotrigine"
+  ],
+  "statements": 17,
+  "statements_matching_gold": 11,
+  "unsupported": 0,
+  "partial": 0,
+  "flags": {
+   "dose_mismatch": 1
+  },
+  "meds": 3,
+  "meds_found": 2,
+  "meds_dose_correct": 1,
+  "icd_primary": "F31.81",
+  "icd_suggested": [
+   "D72.12",
+   "Z74.2",
+   "Z71.1"
+  ],
+  "icd_top1": false,
+  "icd_top3": false,
+  "icd_top3_lenient": false,
+  "icd_top3_category": false,
+  "icd_gold_recall": 0.0,
+  "icd_invalid": 0,
+  "em_gold": "99213",
+  "em_suggested": "99214",
+  "em_exact": false,
+  "em_within_one": true,
+  "em_rule_estimate": "99214",
+  "procedures_gold": 0,
+  "procedures_found": 0
+ },
+ "egress_residue": {}
+}

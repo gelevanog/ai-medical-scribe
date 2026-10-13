@@ -1,0 +1,1387 @@
+[
+ {
+  "visit": "pc-02",
+  "id": "s1",
+  "label": "supported"
+ },
+ {
+  "visit": "pc-02",
+  "id": "s2",
+  "label": "supported"
+ },
+ {
+  "visit": "pc-02",
+  "id": "s3",
+  "label": "supported"
+ },
+ {
+  "visit": "pc-02",
+  "id": "s4",
+  "label": "supported"
+ },
+ {
+  "visit": "pc-02",
+  "id": "s5",
+  "label": "supported"
+ },
+ {
+  "visit": "pc-02",
+  "id": "s6",
+  "label": "supported"
+ },
+ {
+  "visit": "pc-02",
+  "id": "s7",
+  "label": "supported"
+ },
+ {
+  "visit": "pc-02",
+  "id": "s8",
+  "label": "supported"
+ },
+ {
+  "visit": "pc-02",
+  "id": "s9",
+  "label": "supported"
+ },
+ {
+  "visit": "pc-02",
+  "id": "o1",
+  "label": "supported"
+ },
+ {
+  "visit": "pc-02",
+  "id": "a1",
+  "label": "supported"
+ },
+ {
+  "visit": "pc-02",
+  "id": "p1",
+  "label": "supported"
+ },
+ {
+  "visit": "pc-02",
+  "id": "p2",
+  "label": "supported"
+ },
+ {
+  "visit": "pc-02",
+  "id": "p3",
+  "label": "supported"
+ },
+ {
+  "visit": "pc-02",
+  "id": "p4",
+  "label": "supported"
+ },
+ {
+  "visit": "pc-02",
+  "id": "p5",
+  "label": "supported"
+ },
+ {
+  "visit": "pc-02",
+  "id": "p6",
+  "label": "supported"
+ },
+ {
+  "visit": "pc-02",
+  "id": "p7",
+  "label": "supported"
+ },
+ {
+  "visit": "pc-02",
+  "id": "p8",
+  "label": "supported"
+ },
+ {
+  "visit": "pc-02",
+  "id": "med0",
+  "label": "supported"
+ },
+ {
+  "visit": "pc-02",
+  "id": "med1",
+  "label": "supported"
+ },
+ {
+  "visit": "pc-08",
+  "id": "s1",
+  "label": "minor",
+  "reason": "Naps in morning and after lunch were stated; 'worse in morning and after lunch' is an added inference"
+ },
+ {
+  "visit": "pc-08",
+  "id": "s2",
+  "label": "contradicted",
+  "reason": "Patient reported the room swims briefly when she first gets up from bed (orthostatic dizziness)"
+ },
+ {
+  "visit": "pc-08",
+  "id": "s3",
+  "label": "supported"
+ },
+ {
+  "visit": "pc-08",
+  "id": "s4",
+  "label": "supported"
+ },
+ {
+  "visit": "pc-08",
+  "id": "s5",
+  "label": "supported"
+ },
+ {
+  "visit": "pc-08",
+  "id": "s6",
+  "label": "supported"
+ },
+ {
+  "visit": "pc-08",
+  "id": "s7",
+  "label": "supported"
+ },
+ {
+  "visit": "pc-08",
+  "id": "s8",
+  "label": "supported"
+ },
+ {
+  "visit": "pc-08",
+  "id": "s9",
+  "label": "supported"
+ },
+ {
+  "visit": "pc-08",
+  "id": "s10",
+  "label": "supported"
+ },
+ {
+  "visit": "pc-08",
+  "id": "s11",
+  "label": "supported"
+ },
+ {
+  "visit": "pc-08",
+  "id": "s12",
+  "label": "supported"
+ },
+ {
+  "visit": "pc-08",
+  "id": "o1",
+  "label": "supported"
+ },
+ {
+  "visit": "pc-08",
+  "id": "o2",
+  "label": "supported"
+ },
+ {
+  "visit": "pc-08",
+  "id": "o3",
+  "label": "supported"
+ },
+ {
+  "visit": "pc-08",
+  "id": "o4",
+  "label": "supported"
+ },
+ {
+  "visit": "pc-08",
+  "id": "o5",
+  "label": "supported"
+ },
+ {
+  "visit": "pc-08",
+  "id": "o6",
+  "label": "supported"
+ },
+ {
+  "visit": "pc-08",
+  "id": "o7",
+  "label": "supported"
+ },
+ {
+  "visit": "pc-08",
+  "id": "o8",
+  "label": "minor",
+  "reason": "ECG described as slow regular rhythm, rate 52, no heart block; 'sinus' not stated"
+ },
+ {
+  "visit": "pc-08",
+  "id": "a1",
+  "label": "supported"
+ },
+ {
+  "visit": "pc-08",
+  "id": "p1",
+  "label": "supported"
+ },
+ {
+  "visit": "pc-08",
+  "id": "p2",
+  "label": "supported"
+ },
+ {
+  "visit": "pc-08",
+  "id": "p3",
+  "label": "supported"
+ },
+ {
+  "visit": "pc-08",
+  "id": "p4",
+  "label": "supported"
+ },
+ {
+  "visit": "pc-08",
+  "id": "p5",
+  "label": "supported"
+ },
+ {
+  "visit": "pc-08",
+  "id": "p6",
+  "label": "supported"
+ },
+ {
+  "visit": "pc-08",
+  "id": "p7",
+  "label": "minor",
+  "reason": "Clinician said chewable vitamin D 1000 units; 'D3' not stated"
+ },
+ {
+  "visit": "pc-08",
+  "id": "p8",
+  "label": "supported"
+ },
+ {
+  "visit": "pc-08",
+  "id": "p9",
+  "label": "supported"
+ },
+ {
+  "visit": "pc-08",
+  "id": "p10",
+  "label": "supported"
+ },
+ {
+  "visit": "pc-08",
+  "id": "p11",
+  "label": "supported"
+ },
+ {
+  "visit": "pc-08",
+  "id": "med0",
+  "label": "supported"
+ },
+ {
+  "visit": "pc-08",
+  "id": "med1",
+  "label": "supported"
+ },
+ {
+  "visit": "pc-08",
+  "id": "med2",
+  "label": "supported"
+ },
+ {
+  "visit": "pc-08",
+  "id": "med3",
+  "label": "supported"
+ },
+ {
+  "visit": "pc-08",
+  "id": "med4",
+  "label": "supported"
+ },
+ {
+  "visit": "pc-08",
+  "id": "med5",
+  "label": "supported"
+ },
+ {
+  "visit": "pc-08",
+  "id": "med6",
+  "label": "minor",
+  "reason": "Vitamin D formulation 'D3' not stated (chewable vitamin D 1000 units)"
+ },
+ {
+  "visit": "pc-08",
+  "id": "med7",
+  "label": "supported"
+ },
+ {
+  "visit": "cd-01",
+  "id": "s1",
+  "label": "supported"
+ },
+ {
+  "visit": "cd-01",
+  "id": "s2",
+  "label": "supported"
+ },
+ {
+  "visit": "cd-01",
+  "id": "s3",
+  "label": "supported"
+ },
+ {
+  "visit": "cd-01",
+  "id": "s4",
+  "label": "supported"
+ },
+ {
+  "visit": "cd-01",
+  "id": "s5",
+  "label": "supported"
+ },
+ {
+  "visit": "cd-01",
+  "id": "s6",
+  "label": "minor",
+  "reason": "Patient denied sweating, nausea, syncope; lightheadedness was asked but not explicitly denied"
+ },
+ {
+  "visit": "cd-01",
+  "id": "s7",
+  "label": "supported"
+ },
+ {
+  "visit": "cd-01",
+  "id": "s8",
+  "label": "supported"
+ },
+ {
+  "visit": "cd-01",
+  "id": "s9",
+  "label": "supported"
+ },
+ {
+  "visit": "cd-01",
+  "id": "s10",
+  "label": "supported"
+ },
+ {
+  "visit": "cd-01",
+  "id": "s11",
+  "label": "supported"
+ },
+ {
+  "visit": "cd-01",
+  "id": "s12",
+  "label": "supported"
+ },
+ {
+  "visit": "cd-01",
+  "id": "s13",
+  "label": "supported"
+ },
+ {
+  "visit": "cd-01",
+  "id": "o1",
+  "label": "supported"
+ },
+ {
+  "visit": "cd-01",
+  "id": "o2",
+  "label": "supported"
+ },
+ {
+  "visit": "cd-01",
+  "id": "o3",
+  "label": "supported"
+ },
+ {
+  "visit": "cd-01",
+  "id": "o4",
+  "label": "supported"
+ },
+ {
+  "visit": "cd-01",
+  "id": "o5",
+  "label": "supported"
+ },
+ {
+  "visit": "cd-01",
+  "id": "o6",
+  "label": "supported"
+ },
+ {
+  "visit": "cd-01",
+  "id": "o7",
+  "label": "supported"
+ },
+ {
+  "visit": "cd-01",
+  "id": "o8",
+  "label": "supported"
+ },
+ {
+  "visit": "cd-01",
+  "id": "o9",
+  "label": "supported"
+ },
+ {
+  "visit": "cd-01",
+  "id": "a1",
+  "label": "supported"
+ },
+ {
+  "visit": "cd-01",
+  "id": "p1",
+  "label": "supported"
+ },
+ {
+  "visit": "cd-01",
+  "id": "p2",
+  "label": "supported"
+ },
+ {
+  "visit": "cd-01",
+  "id": "p3",
+  "label": "supported"
+ },
+ {
+  "visit": "cd-01",
+  "id": "p4",
+  "label": "supported"
+ },
+ {
+  "visit": "cd-01",
+  "id": "p5",
+  "label": "supported"
+ },
+ {
+  "visit": "cd-01",
+  "id": "p6",
+  "label": "supported"
+ },
+ {
+  "visit": "cd-01",
+  "id": "p7",
+  "label": "supported"
+ },
+ {
+  "visit": "cd-01",
+  "id": "p8",
+  "label": "supported"
+ },
+ {
+  "visit": "cd-01",
+  "id": "p9",
+  "label": "supported"
+ },
+ {
+  "visit": "cd-01",
+  "id": "p10",
+  "label": "supported"
+ },
+ {
+  "visit": "cd-01",
+  "id": "p11",
+  "label": "supported"
+ },
+ {
+  "visit": "cd-01",
+  "id": "p12",
+  "label": "supported"
+ },
+ {
+  "visit": "cd-01",
+  "id": "med0",
+  "label": "supported"
+ },
+ {
+  "visit": "cd-01",
+  "id": "med1",
+  "label": "minor",
+  "reason": "Atorvastatin 40 mg listed as active although it was increased to 80 mg this visit"
+ },
+ {
+  "visit": "cd-01",
+  "id": "med2",
+  "label": "supported"
+ },
+ {
+  "visit": "cd-01",
+  "id": "med3",
+  "label": "supported"
+ },
+ {
+  "visit": "cd-01",
+  "id": "med4",
+  "label": "supported"
+ },
+ {
+  "visit": "cd-01",
+  "id": "med5",
+  "label": "supported"
+ },
+ {
+  "visit": "cd-05",
+  "id": "s1",
+  "label": "supported"
+ },
+ {
+  "visit": "cd-05",
+  "id": "s2",
+  "label": "supported"
+ },
+ {
+  "visit": "cd-05",
+  "id": "s3",
+  "label": "supported"
+ },
+ {
+  "visit": "cd-05",
+  "id": "s4",
+  "label": "supported"
+ },
+ {
+  "visit": "cd-05",
+  "id": "s5",
+  "label": "supported"
+ },
+ {
+  "visit": "cd-05",
+  "id": "s6",
+  "label": "supported"
+ },
+ {
+  "visit": "cd-05",
+  "id": "s7",
+  "label": "supported"
+ },
+ {
+  "visit": "cd-05",
+  "id": "s8",
+  "label": "supported"
+ },
+ {
+  "visit": "cd-05",
+  "id": "s9",
+  "label": "supported"
+ },
+ {
+  "visit": "cd-05",
+  "id": "s10",
+  "label": "supported"
+ },
+ {
+  "visit": "cd-05",
+  "id": "s11",
+  "label": "supported"
+ },
+ {
+  "visit": "cd-05",
+  "id": "s12",
+  "label": "supported"
+ },
+ {
+  "visit": "cd-05",
+  "id": "s13",
+  "label": "supported"
+ },
+ {
+  "visit": "cd-05",
+  "id": "s14",
+  "label": "supported"
+ },
+ {
+  "visit": "cd-05",
+  "id": "s15",
+  "label": "supported"
+ },
+ {
+  "visit": "cd-05",
+  "id": "s16",
+  "label": "supported"
+ },
+ {
+  "visit": "cd-05",
+  "id": "o1",
+  "label": "supported"
+ },
+ {
+  "visit": "cd-05",
+  "id": "o2",
+  "label": "supported"
+ },
+ {
+  "visit": "cd-05",
+  "id": "o3",
+  "label": "supported"
+ },
+ {
+  "visit": "cd-05",
+  "id": "o4",
+  "label": "supported"
+ },
+ {
+  "visit": "cd-05",
+  "id": "o5",
+  "label": "supported"
+ },
+ {
+  "visit": "cd-05",
+  "id": "o6",
+  "label": "supported"
+ },
+ {
+  "visit": "cd-05",
+  "id": "o7",
+  "label": "supported"
+ },
+ {
+  "visit": "cd-05",
+  "id": "o8",
+  "label": "supported"
+ },
+ {
+  "visit": "cd-05",
+  "id": "o9",
+  "label": "supported"
+ },
+ {
+  "visit": "cd-05",
+  "id": "o10",
+  "label": "supported"
+ },
+ {
+  "visit": "cd-05",
+  "id": "a1",
+  "label": "supported"
+ },
+ {
+  "visit": "cd-05",
+  "id": "a2",
+  "label": "supported"
+ },
+ {
+  "visit": "cd-05",
+  "id": "p1",
+  "label": "supported"
+ },
+ {
+  "visit": "cd-05",
+  "id": "p2",
+  "label": "supported"
+ },
+ {
+  "visit": "cd-05",
+  "id": "p3",
+  "label": "supported"
+ },
+ {
+  "visit": "cd-05",
+  "id": "p4",
+  "label": "supported"
+ },
+ {
+  "visit": "cd-05",
+  "id": "p5",
+  "label": "supported"
+ },
+ {
+  "visit": "cd-05",
+  "id": "p6",
+  "label": "supported"
+ },
+ {
+  "visit": "cd-05",
+  "id": "p7",
+  "label": "supported"
+ },
+ {
+  "visit": "cd-05",
+  "id": "p8",
+  "label": "supported"
+ },
+ {
+  "visit": "cd-05",
+  "id": "p9",
+  "label": "supported"
+ },
+ {
+  "visit": "cd-05",
+  "id": "p10",
+  "label": "supported"
+ },
+ {
+  "visit": "cd-05",
+  "id": "med0",
+  "label": "supported"
+ },
+ {
+  "visit": "cd-05",
+  "id": "med1",
+  "label": "supported"
+ },
+ {
+  "visit": "cd-05",
+  "id": "med2",
+  "label": "supported"
+ },
+ {
+  "visit": "cd-05",
+  "id": "med3",
+  "label": "supported"
+ },
+ {
+  "visit": "cd-05",
+  "id": "med4",
+  "label": "supported"
+ },
+ {
+  "visit": "dm-01",
+  "id": "s1",
+  "label": "supported"
+ },
+ {
+  "visit": "dm-01",
+  "id": "s2",
+  "label": "supported"
+ },
+ {
+  "visit": "dm-01",
+  "id": "s3",
+  "label": "supported"
+ },
+ {
+  "visit": "dm-01",
+  "id": "s4",
+  "label": "supported"
+ },
+ {
+  "visit": "dm-01",
+  "id": "s5",
+  "label": "supported"
+ },
+ {
+  "visit": "dm-01",
+  "id": "s6",
+  "label": "supported"
+ },
+ {
+  "visit": "dm-01",
+  "id": "s7",
+  "label": "supported"
+ },
+ {
+  "visit": "dm-01",
+  "id": "s8",
+  "label": "supported"
+ },
+ {
+  "visit": "dm-01",
+  "id": "s9",
+  "label": "supported"
+ },
+ {
+  "visit": "dm-01",
+  "id": "s10",
+  "label": "supported"
+ },
+ {
+  "visit": "dm-01",
+  "id": "o1",
+  "label": "supported"
+ },
+ {
+  "visit": "dm-01",
+  "id": "o2",
+  "label": "supported"
+ },
+ {
+  "visit": "dm-01",
+  "id": "o3",
+  "label": "supported"
+ },
+ {
+  "visit": "dm-01",
+  "id": "o4",
+  "label": "supported"
+ },
+ {
+  "visit": "dm-01",
+  "id": "o5",
+  "label": "supported"
+ },
+ {
+  "visit": "dm-01",
+  "id": "o6",
+  "label": "supported"
+ },
+ {
+  "visit": "dm-01",
+  "id": "o7",
+  "label": "supported"
+ },
+ {
+  "visit": "dm-01",
+  "id": "o8",
+  "label": "supported"
+ },
+ {
+  "visit": "dm-01",
+  "id": "o9",
+  "label": "supported"
+ },
+ {
+  "visit": "dm-01",
+  "id": "a1",
+  "label": "supported"
+ },
+ {
+  "visit": "dm-01",
+  "id": "p1",
+  "label": "supported"
+ },
+ {
+  "visit": "dm-01",
+  "id": "p2",
+  "label": "supported"
+ },
+ {
+  "visit": "dm-01",
+  "id": "p3",
+  "label": "supported"
+ },
+ {
+  "visit": "dm-01",
+  "id": "p4",
+  "label": "supported"
+ },
+ {
+  "visit": "dm-01",
+  "id": "p5",
+  "label": "supported"
+ },
+ {
+  "visit": "dm-01",
+  "id": "p6",
+  "label": "supported"
+ },
+ {
+  "visit": "dm-01",
+  "id": "p7",
+  "label": "supported"
+ },
+ {
+  "visit": "dm-01",
+  "id": "p8",
+  "label": "supported"
+ },
+ {
+  "visit": "dm-01",
+  "id": "p9",
+  "label": "supported"
+ },
+ {
+  "visit": "dm-01",
+  "id": "p10",
+  "label": "supported"
+ },
+ {
+  "visit": "dm-01",
+  "id": "p11",
+  "label": "supported"
+ },
+ {
+  "visit": "dm-01",
+  "id": "p12",
+  "label": "supported"
+ },
+ {
+  "visit": "dm-01",
+  "id": "p13",
+  "label": "supported"
+ },
+ {
+  "visit": "dm-01",
+  "id": "p14",
+  "label": "supported"
+ },
+ {
+  "visit": "dm-01",
+  "id": "p15",
+  "label": "supported"
+ },
+ {
+  "visit": "dm-01",
+  "id": "p16",
+  "label": "supported"
+ },
+ {
+  "visit": "dm-01",
+  "id": "med0",
+  "label": "supported"
+ },
+ {
+  "visit": "dm-05",
+  "id": "s1",
+  "label": "supported"
+ },
+ {
+  "visit": "dm-05",
+  "id": "s2",
+  "label": "supported"
+ },
+ {
+  "visit": "dm-05",
+  "id": "s3",
+  "label": "supported"
+ },
+ {
+  "visit": "dm-05",
+  "id": "s4",
+  "label": "supported"
+ },
+ {
+  "visit": "dm-05",
+  "id": "s5",
+  "label": "supported"
+ },
+ {
+  "visit": "dm-05",
+  "id": "s6",
+  "label": "supported"
+ },
+ {
+  "visit": "dm-05",
+  "id": "s7",
+  "label": "supported"
+ },
+ {
+  "visit": "dm-05",
+  "id": "s8",
+  "label": "supported"
+ },
+ {
+  "visit": "dm-05",
+  "id": "s9",
+  "label": "supported"
+ },
+ {
+  "visit": "dm-05",
+  "id": "s10",
+  "label": "supported"
+ },
+ {
+  "visit": "dm-05",
+  "id": "o1",
+  "label": "supported"
+ },
+ {
+  "visit": "dm-05",
+  "id": "o2",
+  "label": "supported"
+ },
+ {
+  "visit": "dm-05",
+  "id": "o3",
+  "label": "supported"
+ },
+ {
+  "visit": "dm-05",
+  "id": "o4",
+  "label": "supported"
+ },
+ {
+  "visit": "dm-05",
+  "id": "o5",
+  "label": "supported"
+ },
+ {
+  "visit": "dm-05",
+  "id": "o6",
+  "label": "supported"
+ },
+ {
+  "visit": "dm-05",
+  "id": "a1",
+  "label": "supported"
+ },
+ {
+  "visit": "dm-05",
+  "id": "p1",
+  "label": "supported"
+ },
+ {
+  "visit": "dm-05",
+  "id": "p2",
+  "label": "supported"
+ },
+ {
+  "visit": "dm-05",
+  "id": "p3",
+  "label": "supported"
+ },
+ {
+  "visit": "dm-05",
+  "id": "p4",
+  "label": "supported"
+ },
+ {
+  "visit": "dm-05",
+  "id": "p5",
+  "label": "supported"
+ },
+ {
+  "visit": "dm-05",
+  "id": "p6",
+  "label": "supported"
+ },
+ {
+  "visit": "dm-05",
+  "id": "p7",
+  "label": "minor",
+  "reason": "Conflates two items: first-injection/teaching visit after labs and approval, otherwise follow-up in 6 weeks"
+ },
+ {
+  "visit": "dm-05",
+  "id": "p8",
+  "label": "supported"
+ },
+ {
+  "visit": "dm-05",
+  "id": "med0",
+  "label": "supported"
+ },
+ {
+  "visit": "dm-05",
+  "id": "med1",
+  "label": "supported"
+ },
+ {
+  "visit": "dm-05",
+  "id": "med2",
+  "label": "supported"
+ },
+ {
+  "visit": "pd-04",
+  "id": "s1",
+  "label": "supported"
+ },
+ {
+  "visit": "pd-04",
+  "id": "s2",
+  "label": "supported"
+ },
+ {
+  "visit": "pd-04",
+  "id": "s3",
+  "label": "supported"
+ },
+ {
+  "visit": "pd-04",
+  "id": "s4",
+  "label": "supported"
+ },
+ {
+  "visit": "pd-04",
+  "id": "s5",
+  "label": "supported"
+ },
+ {
+  "visit": "pd-04",
+  "id": "s6",
+  "label": "supported"
+ },
+ {
+  "visit": "pd-04",
+  "id": "s7",
+  "label": "supported"
+ },
+ {
+  "visit": "pd-04",
+  "id": "s8",
+  "label": "supported"
+ },
+ {
+  "visit": "pd-04",
+  "id": "s9",
+  "label": "supported"
+ },
+ {
+  "visit": "pd-04",
+  "id": "s10",
+  "label": "supported"
+ },
+ {
+  "visit": "pd-04",
+  "id": "s11",
+  "label": "supported"
+ },
+ {
+  "visit": "pd-04",
+  "id": "s12",
+  "label": "supported"
+ },
+ {
+  "visit": "pd-04",
+  "id": "o1",
+  "label": "supported"
+ },
+ {
+  "visit": "pd-04",
+  "id": "o2",
+  "label": "supported"
+ },
+ {
+  "visit": "pd-04",
+  "id": "o3",
+  "label": "supported"
+ },
+ {
+  "visit": "pd-04",
+  "id": "o4",
+  "label": "supported"
+ },
+ {
+  "visit": "pd-04",
+  "id": "o5",
+  "label": "supported"
+ },
+ {
+  "visit": "pd-04",
+  "id": "o6",
+  "label": "supported"
+ },
+ {
+  "visit": "pd-04",
+  "id": "o7",
+  "label": "supported"
+ },
+ {
+  "visit": "pd-04",
+  "id": "o8",
+  "label": "supported"
+ },
+ {
+  "visit": "pd-04",
+  "id": "o9",
+  "label": "supported"
+ },
+ {
+  "visit": "pd-04",
+  "id": "o10",
+  "label": "supported"
+ },
+ {
+  "visit": "pd-04",
+  "id": "o11",
+  "label": "supported"
+ },
+ {
+  "visit": "pd-04",
+  "id": "o12",
+  "label": "supported"
+ },
+ {
+  "visit": "pd-04",
+  "id": "a1",
+  "label": "supported"
+ },
+ {
+  "visit": "pd-04",
+  "id": "p1",
+  "label": "supported"
+ },
+ {
+  "visit": "pd-04",
+  "id": "p2",
+  "label": "supported"
+ },
+ {
+  "visit": "pd-04",
+  "id": "p3",
+  "label": "supported"
+ },
+ {
+  "visit": "pd-04",
+  "id": "p4",
+  "label": "supported"
+ },
+ {
+  "visit": "pd-04",
+  "id": "p5",
+  "label": "supported"
+ },
+ {
+  "visit": "pd-04",
+  "id": "p6",
+  "label": "supported"
+ },
+ {
+  "visit": "pd-04",
+  "id": "p7",
+  "label": "minor",
+  "reason": "Follow-up is Friday; 'in 2 days' is not stated in the visit"
+ },
+ {
+  "visit": "pd-04",
+  "id": "p8",
+  "label": "supported"
+ },
+ {
+  "visit": "pd-04",
+  "id": "med0",
+  "label": "minor",
+  "reason": "Prednisolone newly prescribed today (5-day burst) but status listed as active rather than new"
+ },
+ {
+  "visit": "pd-04",
+  "id": "med1",
+  "label": "supported"
+ },
+ {
+  "visit": "pd-04",
+  "id": "med2",
+  "label": "supported"
+ },
+ {
+  "visit": "mh-01",
+  "id": "s1",
+  "label": "supported"
+ },
+ {
+  "visit": "mh-01",
+  "id": "s2",
+  "label": "supported"
+ },
+ {
+  "visit": "mh-01",
+  "id": "s3",
+  "label": "supported"
+ },
+ {
+  "visit": "mh-01",
+  "id": "s4",
+  "label": "supported"
+ },
+ {
+  "visit": "mh-01",
+  "id": "s5",
+  "label": "supported"
+ },
+ {
+  "visit": "mh-01",
+  "id": "s6",
+  "label": "supported"
+ },
+ {
+  "visit": "mh-01",
+  "id": "s7",
+  "label": "supported"
+ },
+ {
+  "visit": "mh-01",
+  "id": "s8",
+  "label": "supported"
+ },
+ {
+  "visit": "mh-01",
+  "id": "s9",
+  "label": "supported"
+ },
+ {
+  "visit": "mh-01",
+  "id": "s10",
+  "label": "supported"
+ },
+ {
+  "visit": "mh-01",
+  "id": "s11",
+  "label": "supported"
+ },
+ {
+  "visit": "mh-01",
+  "id": "s12",
+  "label": "supported"
+ },
+ {
+  "visit": "mh-01",
+  "id": "s13",
+  "label": "supported"
+ },
+ {
+  "visit": "mh-01",
+  "id": "o1",
+  "label": "supported"
+ },
+ {
+  "visit": "mh-01",
+  "id": "o2",
+  "label": "supported"
+ },
+ {
+  "visit": "mh-01",
+  "id": "o3",
+  "label": "supported"
+ },
+ {
+  "visit": "mh-01",
+  "id": "o4",
+  "label": "supported"
+ },
+ {
+  "visit": "mh-01",
+  "id": "o5",
+  "label": "supported"
+ },
+ {
+  "visit": "mh-01",
+  "id": "o6",
+  "label": "supported"
+ },
+ {
+  "visit": "mh-01",
+  "id": "o7",
+  "label": "supported"
+ },
+ {
+  "visit": "mh-01",
+  "id": "o8",
+  "label": "supported"
+ },
+ {
+  "visit": "mh-01",
+  "id": "o9",
+  "label": "supported"
+ },
+ {
+  "visit": "mh-01",
+  "id": "o10",
+  "label": "supported"
+ },
+ {
+  "visit": "mh-01",
+  "id": "a1",
+  "label": "supported"
+ },
+ {
+  "visit": "mh-01",
+  "id": "p1",
+  "label": "supported"
+ },
+ {
+  "visit": "mh-01",
+  "id": "p2",
+  "label": "supported"
+ },
+ {
+  "visit": "mh-01",
+  "id": "p3",
+  "label": "supported"
+ },
+ {
+  "visit": "mh-01",
+  "id": "p4",
+  "label": "supported"
+ },
+ {
+  "visit": "mh-01",
+  "id": "med0",
+  "label": "supported"
+ }
+]

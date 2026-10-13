@@ -1,0 +1,669 @@
+{
+ "note": {
+  "visit_id": "pd-04",
+  "statements": [
+   {
+    "id": "s1",
+    "section": "subjective",
+    "text": "He caught a cold about 3 days ago, runny nose, and then yesterday the wheezing started and the cough got real bad",
+    "evidence": [
+     {
+      "turn": 3,
+      "quote": "He caught a cold about 3 days ago, runny nose, and then yesterday the wheezing started and the",
+      "verified": true,
+      "score": 1.0
+     }
+    ],
+    "support": "supported",
+    "flags": [],
+    "origin": "model",
+    "edited": false
+   },
+   {
+    "id": "s2",
+    "section": "subjective",
+    "text": "He woke up twice last night coughing",
+    "evidence": [
+     {
+      "turn": 3,
+      "quote": "He woke up twice last night coughing.",
+      "verified": true,
+      "score": 1.0
+     }
+    ],
+    "support": "supported",
+    "flags": [],
+    "origin": "model",
+    "edited": false
+   },
+   {
+    "id": "s3",
+    "section": "subjective",
+    "text": "Every 4 hours since last night",
+    "evidence": [
+     {
+      "turn": 5,
+      "quote": "Every 4 hours since last night.",
+      "verified": true,
+      "score": 1.0
+     }
+    ],
+    "support": "supported",
+    "flags": [],
+    "origin": "model",
+    "edited": false
+   },
+   {
+    "id": "s4",
+    "section": "subjective",
+    "text": "For an hour or two, then he's back to wheezing",
+    "evidence": [
+     {
+      "turn": 7,
+      "quote": "For an hour or two, then he's back to wheezing.",
+      "verified": true,
+      "score": 1.0
+     }
+    ],
+    "support": "supported",
+    "flags": [],
+    "origin": "model",
+    "edited": false
+   },
+   {
+    "id": "s5",
+    "section": "subjective",
+    "text": "Maybe since June",
+    "evidence": [
+     {
+      "turn": 9,
+      "quote": "Maybe since June.",
+      "verified": true,
+      "score": 1.0
+     }
+    ],
+    "support": "supported",
+    "flags": [],
+    "origin": "model",
+    "edited": false
+   },
+   {
+    "id": "s6",
+    "section": "subjective",
+    "text": "Denies fever",
+    "evidence": [
+     {
+      "turn": 10,
+      "quote": "That happens a lot, no judgment. Any fever?",
+      "verified": true,
+      "score": 1.0
+     },
+     {
+      "turn": 11,
+      "quote": "No, I've been checking, no fever.",
+      "verified": true,
+      "score": 1.0
+     }
+    ],
+    "support": "supported",
+    "flags": [],
+    "origin": "model",
+    "edited": false
+   },
+   {
+    "id": "s7",
+    "section": "subjective",
+    "text": "Denies vomiting",
+    "evidence": [
+     {
+      "turn": 14,
+      "quote": "Any vomiting after coughing fits?",
+      "verified": true,
+      "score": 1.0
+     },
+     {
+      "turn": 15,
+      "quote": "No.",
+      "verified": true,
+      "score": 1.0
+     }
+    ],
+    "support": "supported",
+    "flags": [],
+    "origin": "model",
+    "edited": false
+   },
+   {
+    "id": "s8",
+    "section": "subjective",
+    "text": "Denies coughing",
+    "evidence": [
+     {
+      "turn": 14,
+      "quote": "Any vomiting after coughing fits?",
+      "verified": true,
+      "score": 1.0
+     },
+     {
+      "turn": 15,
+      "quote": "No.",
+      "verified": true,
+      "score": 1.0
+     }
+    ],
+    "support": "supported",
+    "flags": [],
+    "origin": "model",
+    "edited": false
+   },
+   {
+    "id": "s9",
+    "section": "subjective",
+    "text": "Denies smoke",
+    "evidence": [
+     {
+      "turn": 16,
+      "quote": "Anybody smoke around him, at home or in the car?",
+      "verified": true,
+      "score": 1.0
+     },
+     {
+      "turn": 17,
+      "quote": "No, nobody smokes.",
+      "verified": true,
+      "score": 1.0
+     }
+    ],
+    "support": "supported",
+    "flags": [],
+    "origin": "model",
+    "edited": false
+   },
+   {
+    "id": "s10",
+    "section": "subjective",
+    "text": "Has got COPD myself, is on oxygen at night, so believe them, there's no smoking in their house",
+    "evidence": [
+     {
+      "turn": 17,
+      "quote": "I've got COPD myself, I'm on oxygen at night, so believe me, there's no smoking in my house.",
+      "verified": true,
+      "score": 1.0
+     }
+    ],
+    "support": "supported",
+    "flags": [],
+    "origin": "model",
+    "edited": false
+   },
+   {
+    "id": "s11",
+    "section": "subjective",
+    "text": "10 milliliters, 5 days",
+    "evidence": [
+     {
+      "turn": 29,
+      "quote": "10 milliliters, 5 days.",
+      "verified": true,
+      "score": 1.0
+     }
+    ],
+    "support": "supported",
+    "flags": [],
+    "origin": "model",
+    "edited": false
+   },
+   {
+    "id": "s12",
+    "section": "subjective",
+    "text": "The number is still 555-0129",
+    "evidence": [
+     {
+      "turn": 35,
+      "quote": "And the number is still 555-0129.",
+      "verified": true,
+      "score": 1.0
+     }
+    ],
+    "support": "supported",
+    "flags": [],
+    "origin": "model",
+    "edited": false
+   },
+   {
+    "id": "o1",
+    "section": "objective",
+    "text": "So his weight today is 30 kilograms",
+    "evidence": [
+     {
+      "turn": 22,
+      "quote": "So his weight today is 30 kilograms.",
+      "verified": true,
+      "score": 1.0
+     }
+    ],
+    "support": "supported",
+    "flags": [],
+    "origin": "model",
+    "edited": false
+   },
+   {
+    "id": "o2",
+    "section": "objective",
+    "text": "Temperature 99.1, heart rate 118, he's breathing 28 times a minute, and his oxygen level is 93 percent on room air",
+    "evidence": [
+     {
+      "turn": 22,
+      "quote": "Temperature 99.1, heart rate 118, he's breathing 28 times a minute, and his oxygen level is 93 percent",
+      "verified": true,
+      "score": 1.0
+     }
+    ],
+    "support": "supported",
+    "flags": [],
+    "origin": "model",
+    "edited": false
+   },
+   {
+    "id": "o3",
+    "section": "objective",
+    "text": "Oxygen is up to 97 percent, breathing rate 22, heart rate 130, which is from the albuterol, that's expected",
+    "evidence": [
+     {
+      "turn": 26,
+      "quote": "Oxygen is up to 97 percent, breathing rate 22, heart rate 130, which is from the albuterol, that's",
+      "verified": true,
+      "score": 1.0
+     }
+    ],
+    "support": "supported",
+    "flags": [],
+    "origin": "model",
+    "edited": false
+   },
+   {
+    "id": "o4",
+    "section": "objective",
+    "text": "If he needs albuterol more often than every 4 hours, can't speak in full sentences, his ribs are pulling in, or his lips look blue, go to the emergency room",
+    "evidence": [
+     {
+      "turn": 34,
+      "quote": "If he needs albuterol more often than every 4 hours, can't speak in full sentences, his ribs are",
+      "verified": true,
+      "score": 1.0
+     }
+    ],
+    "support": "supported",
+    "flags": [],
+    "origin": "model",
+    "edited": false
+   },
+   {
+    "id": "a1",
+    "section": "assessment",
+    "text": "It's a bit low, so I want to give him a breathing treatment right now, albuterol with ipratropium in the nebulizer, and we'll recheck in about 20 minutes",
+    "evidence": [
+     {
+      "turn": 24,
+      "quote": "It's a bit low, so I want to give him a breathing treatment right now, albuterol with ipratropium",
+      "verified": true,
+      "score": 1.0
+     }
+    ],
+    "support": "supported",
+    "flags": [],
+    "origin": "model",
+    "edited": false
+   },
+   {
+    "id": "a2",
+    "section": "assessment",
+    "text": "So this is an asthma flare, triggered by the cold, and made worse because he's been off his controller",
+    "evidence": [
+     {
+      "turn": 28,
+      "quote": "So this is an asthma flare, triggered by the cold, and made worse because he's been off his",
+      "verified": true,
+      "score": 1.0
+     }
+    ],
+    "support": "supported",
+    "flags": [],
+    "origin": "model",
+    "edited": false
+   },
+   {
+    "id": "p1",
+    "section": "plan",
+    "text": "I'm updating his asthma action plan, and I'll print one for the nurse at Garfield Elementary",
+    "evidence": [
+     {
+      "turn": 32,
+      "quote": "I'm updating his asthma action plan, and I'll print one for the nurse at Garfield Elementary.",
+      "verified": true,
+      "score": 1.0
+     }
+    ],
+    "support": "supported",
+    "flags": [],
+    "origin": "model",
+    "edited": false
+   },
+   {
+    "id": "p2",
+    "section": "plan",
+    "text": "I want to see him back on Friday to recheck, and we'll do his flu shot then",
+    "evidence": [
+     {
+      "turn": 34,
+      "quote": "I want to see him back on Friday to recheck, and we'll do his flu shot then.",
+      "verified": true,
+      "score": 1.0
+     }
+    ],
+    "support": "supported",
+    "flags": [],
+    "origin": "model",
+    "edited": false
+   }
+  ],
+  "medications": [
+   {
+    "name": "albuterol",
+    "dose": "4 puffs",
+    "frequency": "every 4 hours",
+    "route": "",
+    "status": "active",
+    "evidence": [
+     {
+      "turn": 30,
+      "quote": "Second, albuterol, 4 puffs with the spacer every 4 hours while he's awake for the next 2 days,",
+      "verified": true,
+      "score": 1.0
+     }
+    ],
+    "flags": []
+   },
+   {
+    "name": "prednisolone",
+    "dose": "30 milligrams",
+    "frequency": "once a day",
+    "route": "",
+    "status": "active",
+    "evidence": [
+     {
+      "turn": 28,
+      "quote": "The dose is 1 milligram per kilogram, he's 30 kilograms, so prednisolone 30 milligrams once a day for",
+      "verified": true,
+      "score": 1.0
+     }
+    ],
+    "flags": []
+   },
+   {
+    "name": "fluticasone",
+    "dose": "44 micrograms",
+    "frequency": "twice a day",
+    "route": "",
+    "status": "active",
+    "evidence": [
+     {
+      "turn": 30,
+      "quote": "Third, restart the fluticasone, the 44 micrograms, 2 puffs twice a day, and have him rinse his mouth",
+      "verified": true,
+      "score": 1.0
+     }
+    ],
+    "flags": []
+   },
+   {
+    "name": "influenza vaccine",
+    "dose": "",
+    "frequency": "",
+    "route": "",
+    "status": "active",
+    "evidence": [
+     {
+      "turn": 34,
+      "quote": "I want to see him back on Friday to recheck, and we'll do his flu shot then.",
+      "verified": true,
+      "score": 1.0
+     }
+    ],
+    "flags": []
+   }
+  ],
+  "allergies": [],
+  "after_visit_summary": "Thank you for coming in today. Here is what we talked about. I'm updating his asthma action plan, and I'll print one for the nurse at Garfield Elementary. I want to see him back on Friday to recheck, and we will do his flu shot then.",
+  "avs_flags": [],
+  "icd10": [
+   {
+    "system": "ICD-10-CM",
+    "code": "Z71.1",
+    "description": "Person with feared health complaint in whom no diagnosis is made",
+    "rank": 1,
+    "rationale": "Matches the assessment: Person with feared health complaint in whom no diagnosis is made",
+    "evidence": [],
+    "valid": true,
+    "billable": true,
+    "flags": [
+     {
+      "kind": "code_unsupported",
+      "severity": "warning",
+      "message": "No verified quote supports this code.",
+      "acknowledged": false,
+      "detail": {}
+     }
+    ],
+    "accepted": null
+   },
+   {
+    "system": "ICD-10-CM",
+    "code": "W93.8XXS",
+    "description": "Exposure to other excessive cold of man-made origin, sequela",
+    "rank": 2,
+    "rationale": "Matches the assessment: Exposure to other excessive cold of man-made origin, sequela",
+    "evidence": [],
+    "valid": true,
+    "billable": true,
+    "flags": [
+     {
+      "kind": "code_unsupported",
+      "severity": "warning",
+      "message": "No verified quote supports this code.",
+      "acknowledged": false,
+      "detail": {}
+     }
+    ],
+    "accepted": null
+   },
+   {
+    "system": "ICD-10-CM",
+    "code": "W93.8XXA",
+    "description": "Exposure to other excessive cold of man-made origin, initial encounter",
+    "rank": 3,
+    "rationale": "Matches the assessment: Exposure to other excessive cold of man-made origin, initial encounter",
+    "evidence": [],
+    "valid": true,
+    "billable": true,
+    "flags": [
+     {
+      "kind": "code_unsupported",
+      "severity": "warning",
+      "message": "No verified quote supports this code.",
+      "acknowledged": false,
+      "detail": {}
+     }
+    ],
+    "accepted": null
+   }
+  ],
+  "em": {
+   "system": "CPT",
+   "code": "99214",
+   "description": "Established patient office visit, moderate-complexity decision making",
+   "rank": 1,
+   "rationale": "Rule-based: prescription drug management",
+   "evidence": [],
+   "valid": true,
+   "billable": true,
+   "flags": [
+    {
+     "kind": "em_mismatch",
+     "severity": "warning",
+     "message": "The rule-based MDM estimate is low (99213): problems: chronic illness not at goal; data: limited (tests or an independent historian); risk: over-the-counter drugs, minor procedure or counseling",
+     "acknowledged": false,
+     "detail": {
+      "estimate": "99213"
+     }
+    }
+   ],
+   "accepted": null
+  },
+  "procedures": [],
+  "mdm": {
+   "problems": "moderate",
+   "data": "low",
+   "risk": "low",
+   "level": "low",
+   "code": "99213",
+   "reasons": [
+    "problems: chronic illness not at goal",
+    "data: limited (tests or an independent historian)",
+    "risk: over-the-counter drugs, minor procedure or counseling"
+   ]
+  },
+  "section_status": {
+   "subjective": "draft",
+   "objective": "draft",
+   "assessment": "draft",
+   "plan": "draft"
+  },
+  "model": "fake/fake-scribe",
+  "created_at": "2026-10-13T05:44:47.467155Z",
+  "signed_by": null,
+  "signed_at": null,
+  "timings": {
+   "phi_masking": 0.03,
+   "llm_note": 0.016,
+   "guards_note": 0.06,
+   "llm_codes": 0.007,
+   "guards_codes": 0.042,
+   "total": 0.155,
+   "wall": 0.262
+  },
+  "usage": {
+   "model_ms": 23,
+   "input_tokens": 3299,
+   "output_tokens": 1392,
+   "calls": 2
+  },
+  "phi": {
+   "NAME": 2,
+   "DOB": 1,
+   "DATE": 1,
+   "ORG": 1,
+   "ID": 1,
+   "PHONE": 1
+  }
+ },
+ "vault": {
+  "originals": {
+   "[PATIENT]": "Jaylen Brooks",
+   "[DOB]": "May 21st, 2016",
+   "[NAME_1]": "Loretta",
+   "[DATE_1]": "June",
+   "[ORG_1]": "Garfield Elementary",
+   "[ID_1]": "M as in Mary 6 6 2 0 4 1 8",
+   "[PHONE_1]": "555-0129"
+  },
+  "surfaces": {
+   "[PATIENT]": [
+    "Jaylen",
+    "Jaylen Brooks"
+   ],
+   "[DOB]": [
+    "May 21st, 2016"
+   ],
+   "[NAME_1]": [
+    "Loretta"
+   ],
+   "[DATE_1]": [
+    "June"
+   ],
+   "[ORG_1]": [
+    "Garfield Elementary"
+   ],
+   "[ID_1]": [
+    "M as in Mary 6 6 2 0 4 1 8"
+   ],
+   "[PHONE_1]": [
+    "555-0129"
+   ]
+  },
+  "types": {
+   "[PATIENT]": "NAME",
+   "[DOB]": "DOB",
+   "[NAME_1]": "NAME",
+   "[DATE_1]": "DATE",
+   "[ORG_1]": "ORG",
+   "[ID_1]": "ID",
+   "[PHONE_1]": "PHONE"
+  },
+  "counters": {
+   "NAME": 1,
+   "DATE": 1,
+   "ORG": 1,
+   "ID": 1,
+   "PHONE": 1
+  }
+ },
+ "score": {
+  "case": "pd-04",
+  "specialty": "pediatrics",
+  "facts": 29,
+  "found": 20,
+  "found_in_section": 15,
+  "negation_errors": [],
+  "trap_errors": [],
+  "missed": [
+   "f7 [subjective] No chest pain",
+   "f8 [subjective] Chest tightness",
+   "f11 [subjective] No oral steroids or asthma admissions this year, never hospitalized for asthma",
+   "f12 [subjective] No known drug allergies",
+   "f16 [objective] Diffuse expiratory wheezing bilaterally",
+   "f17 [objective] Mild subcostal retractions, speaking in full sentences",
+   "f18 [objective] Ears and throat unremarkable",
+   "f21 [assessment] Good response to nebulizer treatment",
+   "f27 [plan] ER if albuterol needed more than every 4 hours, unable to speak in full sentences, retractions, or cyanosis"
+  ],
+  "statements": 20,
+  "statements_matching_gold": 17,
+  "unsupported": 0,
+  "partial": 0,
+  "flags": {},
+  "meds": 4,
+  "meds_found": 4,
+  "meds_dose_correct": 3,
+  "icd_primary": "J45.31",
+  "icd_suggested": [
+   "Z71.1",
+   "W93.8XXS",
+   "W93.8XXA"
+  ],
+  "icd_top1": false,
+  "icd_top3": false,
+  "icd_top3_lenient": false,
+  "icd_top3_category": false,
+  "icd_gold_recall": 0.0,
+  "icd_invalid": 0,
+  "em_gold": "99214",
+  "em_suggested": "99214",
+  "em_exact": true,
+  "em_within_one": true,
+  "em_rule_estimate": "99213",
+  "procedures_gold": 1,
+  "procedures_found": 0
+ },
+ "egress_residue": {}
+}

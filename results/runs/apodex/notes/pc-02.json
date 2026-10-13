@@ -1,0 +1,781 @@
+{
+ "note": {
+  "visit_id": "pc-02",
+  "statements": [
+   {
+    "id": "s1",
+    "section": "subjective",
+    "text": "Established patient here for diabetes follow-up; A1c rose from 7.6% in April to 8.4% last week.",
+    "evidence": [
+     {
+      "turn": 4,
+      "quote": "Your A1c from last week came back at 8.4 percent. In April it was 7.6.",
+      "verified": true,
+      "score": 1.0
+     },
+     {
+      "turn": 5,
+      "quote": "I stopped the glipizide.",
+      "verified": true,
+      "score": 1.0
+     }
+    ],
+    "support": "supported",
+    "flags": [],
+    "origin": "model",
+    "edited": false
+   },
+   {
+    "id": "s2",
+    "section": "subjective",
+    "text": "Stopped glipizide about two months ago due to afternoon shakiness and sweating; one home glucose of 62 required pulling over.",
+    "evidence": [
+     {
+      "turn": 7,
+      "quote": "About two months ago. I was getting shaky and sweaty in the afternoons. One time my sugar was 62",
+      "verified": true,
+      "score": 1.0
+     },
+     {
+      "turn": 9,
+      "quote": "Since I stopped it, no more lows.",
+      "verified": true,
+      "score": 1.0
+     }
+    ],
+    "support": "supported",
+    "flags": [],
+    "origin": "model",
+    "edited": false
+   },
+   {
+    "id": "s3",
+    "section": "subjective",
+    "text": "Metformin 1000 mg twice daily with breakfast and dinner; tolerating well.",
+    "evidence": [
+     {
+      "turn": 11,
+      "quote": "Yes, 1000 milligrams twice a day, with breakfast and dinner. My stomach is fine with it now.",
+      "verified": true,
+      "score": 1.0
+     }
+    ],
+    "support": "supported",
+    "flags": [],
+    "origin": "model",
+    "edited": false
+   },
+   {
+    "id": "s4",
+    "section": "subjective",
+    "text": "Home fasting blood sugars mostly 150 to 180 in the morning.",
+    "evidence": [
+     {
+      "turn": 13,
+      "quote": "Mostly 150 to 180 in the morning.",
+      "verified": true,
+      "score": 1.0
+     }
+    ],
+    "support": "supported",
+    "flags": [],
+    "origin": "model",
+    "edited": false
+   },
+   {
+    "id": "s5",
+    "section": "subjective",
+    "text": "A little more thirsty than usual. Denies nocturia, foot numbness/tingling, and blurry vision.",
+    "evidence": [
+     {
+      "turn": 15,
+      "quote": "Maybe a little more thirsty. Not up at night, no.",
+      "verified": true,
+      "score": 1.0
+     },
+     {
+      "turn": 17,
+      "quote": "No.",
+      "verified": true,
+      "score": 1.0
+     },
+     {
+      "turn": 19,
+      "quote": "My eyes are fine.",
+      "verified": true,
+      "score": 1.0
+     }
+    ],
+    "support": "supported",
+    "flags": [],
+    "origin": "model",
+    "edited": false
+   },
+   {
+    "id": "s6",
+    "section": "subjective",
+    "text": "Last eye exam was before COVID, several years ago.",
+    "evidence": [
+     {
+      "turn": 19,
+      "quote": "The eye exam, um, I think it was before COVID. I know, it's been a while.",
+      "verified": true,
+      "score": 1.0
+     }
+    ],
+    "support": "supported",
+    "flags": [],
+    "origin": "model",
+    "edited": false
+   },
+   {
+    "id": "s7",
+    "section": "subjective",
+    "text": "Sulfa allergy: rash all over the body with Bactrim.",
+    "evidence": [
+     {
+      "turn": 21,
+      "quote": "Yes, the Bactrim. I broke out in a rash all over my body.",
+      "verified": true,
+      "score": 1.0
+     }
+    ],
+    "support": "supported",
+    "flags": [],
+    "origin": "model",
+    "edited": false
+   },
+   {
+    "id": "s8",
+    "section": "subjective",
+    "text": "Husband's diabetes worse than patient's; started on insulin last month.",
+    "evidence": [
+     {
+      "turn": 23,
+      "quote": "My husband's sugar is worse than mine, they put him on insulin last month.",
+      "verified": true,
+      "score": 1.0
+     }
+    ],
+    "support": "supported",
+    "flags": [],
+    "origin": "model",
+    "edited": false
+   },
+   {
+    "id": "o1",
+    "section": "objective",
+    "text": "Blood pressure 128 over 76.",
+    "evidence": [
+     {
+      "turn": 24,
+      "quote": "Blood pressure is 128 over 76",
+      "verified": true,
+      "score": 1.0
+     }
+    ],
+    "support": "supported",
+    "flags": [],
+    "origin": "model",
+    "edited": false
+   },
+   {
+    "id": "o2",
+    "section": "objective",
+    "text": "Pulse 80, weight 186 pounds, unchanged from April.",
+    "evidence": [
+     {
+      "turn": 24,
+      "quote": "pulse 80, weight 186 pounds, about the same as April.",
+      "verified": true,
+      "score": 1.0
+     }
+    ],
+    "support": "supported",
+    "flags": [],
+    "origin": "model",
+    "edited": false
+   },
+   {
+    "id": "o3",
+    "section": "objective",
+    "text": "Foot exam: skin intact with no sores or calluses; strong pedal pulses; 10-g monofilament sensation intact.",
+    "evidence": [
+     {
+      "turn": 25,
+      "quote": "Skin looks good, no sores or calluses. Pulses are strong in both feet, and you can feel the monofilament everywhere I touched.",
+      "verified": true,
+      "score": 1.0
+     }
+    ],
+    "support": "partial",
+    "flags": [
+     {
+      "kind": "partial_support",
+      "severity": "error",
+      "message": "Quoted turn does not contain 10; check against the transcript.",
+      "acknowledged": false,
+      "detail": {
+       "numbers_not_in_evidence": [
+        "10"
+       ]
+      }
+     }
+    ],
+    "origin": "model",
+    "edited": false
+   },
+   {
+    "id": "o4",
+    "section": "objective",
+    "text": "Heart and lungs normal.",
+    "evidence": [
+     {
+      "turn": 25,
+      "quote": "Heart and lungs sound normal.",
+      "verified": true,
+      "score": 1.0
+     }
+    ],
+    "support": "supported",
+    "flags": [],
+    "origin": "model",
+    "edited": false
+   },
+   {
+    "id": "o5",
+    "section": "objective",
+    "text": "eGFR 78; no proteinuria.",
+    "evidence": [
+     {
+      "turn": 26,
+      "quote": "Kidney function is normal, the filtration rate is 78, and there's no protein in your urine.",
+      "verified": true,
+      "score": 1.0
+     }
+    ],
+    "support": "partial",
+    "flags": [
+     {
+      "kind": "partial_support",
+      "severity": "warning",
+      "message": "Quoted turn does not contain most of its terms; check against the transcript.",
+      "acknowledged": false,
+      "detail": {}
+     }
+    ],
+    "origin": "model",
+    "edited": false
+   },
+   {
+    "id": "o6",
+    "section": "objective",
+    "text": "A1c 8.4% (last week) up from 7.6% in April.",
+    "evidence": [
+     {
+      "turn": 4,
+      "quote": "Your A1c from last week came back at 8.4 percent. In April it was 7.6.",
+      "verified": true,
+      "score": 1.0
+     }
+    ],
+    "support": "supported",
+    "flags": [],
+    "origin": "model",
+    "edited": false
+   },
+   {
+    "id": "a1",
+    "section": "assessment",
+    "text": "Type 2 diabetes above goal (A1c 8.4%); hyperglycemia likely from stopping glipizide, which was causing hypoglycemia.",
+    "evidence": [
+     {
+      "turn": 28,
+      "quote": "your type 2 diabetes is above our goal, and the glipizide was causing low sugars, so we'll leave that off for good.",
+      "verified": true,
+      "score": 1.0
+     },
+     {
+      "turn": 4,
+      "quote": "That's good to hear, actually, because we're here to talk about your diabetes. Your ...",
+      "verified": true,
+      "score": 0.0
+     }
+    ],
+    "support": "supported",
+    "flags": [],
+    "origin": "model",
+    "edited": false
+   },
+   {
+    "id": "a2",
+    "section": "assessment",
+    "text": "Type 2 diabetes requiring medication adjustment to add empagliflozin.",
+    "evidence": [
+     {
+      "turn": 28,
+      "quote": "Keep the metformin, 1000 milligrams twice a day. I'd like to add a new medicine called empagliflozin, 10 milligrams once a day in the morning.",
+      "verified": true,
+      "score": 1.0
+     }
+    ],
+    "support": "supported",
+    "flags": [],
+    "origin": "model",
+    "edited": false
+   },
+   {
+    "id": "p1",
+    "section": "plan",
+    "text": "Discontinue glipizide permanently due to hypoglycemia.",
+    "evidence": [
+     {
+      "turn": 28,
+      "quote": "we'll leave that off for good.",
+      "verified": true,
+      "score": 1.0
+     }
+    ],
+    "support": "supported",
+    "flags": [],
+    "origin": "model",
+    "edited": false
+   },
+   {
+    "id": "p2",
+    "section": "plan",
+    "text": "Continue metformin 1000 mg orally twice daily with breakfast and dinner.",
+    "evidence": [
+     {
+      "turn": 28,
+      "quote": "Keep the metformin, 1000 milligrams twice a day.",
+      "verified": true,
+      "score": 1.0
+     }
+    ],
+    "support": "supported",
+    "flags": [],
+    "origin": "model",
+    "edited": false
+   },
+   {
+    "id": "p3",
+    "section": "plan",
+    "text": "Start empagliflozin 10 mg orally once daily in the morning; not usually associated with lows.",
+    "evidence": [
+     {
+      "turn": 28,
+      "quote": "add a new medicine called empagliflozin, 10 milligrams once a day in the morning. It doesn't usually cause lows,",
+      "verified": true,
+      "score": 1.0
+     }
+    ],
+    "support": "supported",
+    "flags": [],
+    "origin": "model",
+    "edited": false
+   },
+   {
+    "id": "p4",
+    "section": "plan",
+    "text": "Counseling: take with water, keep genital area clean, avoid during NPO/illness; call for itching or yeast infection.",
+    "evidence": [
+     {
+      "turn": 30,
+      "quote": "It works by letting you pass extra sugar in the urine, so drink plenty of water and keep that area clean. If you get any itching or a yeast infection, call us",
+      "verified": true,
+      "score": 1.0
+     },
+     {
+      "turn": 30,
+      "quote": "If you can't eat or drink because you're sick, skip it that day.",
+      "verified": true,
+      "score": 1.0
+     }
+    ],
+    "support": "supported",
+    "flags": [],
+    "origin": "model",
+    "edited": false
+   },
+   {
+    "id": "p5",
+    "section": "plan",
+    "text": "Referral placed for diabetic eye exam; instructions to be sent to portal email lupe rios 65 at example dot com.",
+    "evidence": [
+     {
+      "turn": 32,
+      "quote": "I'm also putting in a referral for a diabetic eye exam.",
+      "verified": true,
+      "score": 1.0
+     },
+     {
+      "turn": 34,
+      "quote": "Is the portal email still lupe rios 65 at example dot com?",
+      "verified": true,
+      "score": 1.0
+     }
+    ],
+    "support": "supported",
+    "flags": [],
+    "origin": "model",
+    "edited": false
+   },
+   {
+    "id": "p6",
+    "section": "plan",
+    "text": "Encourage continued evening walks.",
+    "evidence": [
+     {
+      "turn": 32,
+      "quote": "And keep up the evening walks, they really do help.",
+      "verified": true,
+      "score": 1.0
+     }
+    ],
+    "support": "supported",
+    "flags": [],
+    "origin": "model",
+    "edited": false
+   },
+   {
+    "id": "p7",
+    "section": "plan",
+    "text": "Repeat A1c in 3 months.",
+    "evidence": [
+     {
+      "turn": 32,
+      "quote": "We'll repeat the A1c in 3 months and see you then.",
+      "verified": true,
+      "score": 1.0
+     }
+    ],
+    "support": "supported",
+    "flags": [],
+    "origin": "model",
+    "edited": false
+   },
+   {
+    "id": "p8",
+    "section": "plan",
+    "text": "New prescription sent to usual pharmacy.",
+    "evidence": [
+     {
+      "turn": 36,
+      "quote": "And the empagliflozin goes to your usual pharmacy.",
+      "verified": true,
+      "score": 1.0
+     }
+    ],
+    "support": "supported",
+    "flags": [],
+    "origin": "model",
+    "edited": false
+   }
+  ],
+  "medications": [
+   {
+    "name": "glipizide",
+    "dose": "5 mg",
+    "frequency": "once daily in the morning",
+    "route": "oral",
+    "status": "stopped",
+    "evidence": [
+     {
+      "turn": 8,
+      "quote": "That was the 5 milligrams once a day?",
+      "verified": true,
+      "score": 1.0
+     },
+     {
+      "turn": 28,
+      "quote": "we'll leave that off for good.",
+      "verified": true,
+      "score": 1.0
+     }
+    ],
+    "flags": [
+     {
+      "kind": "dose_mismatch",
+      "severity": "error",
+      "message": "The dose 5 for glipizide was not said near the drug's name in the transcript.",
+      "acknowledged": false,
+      "detail": {
+       "dose": "5"
+      }
+     }
+    ]
+   },
+   {
+    "name": "metformin",
+    "dose": "1000 mg",
+    "frequency": "twice daily",
+    "route": "oral",
+    "status": "active",
+    "evidence": [
+     {
+      "turn": 11,
+      "quote": "Yes, 1000 milligrams twice a day, with breakfast and dinner.",
+      "verified": true,
+      "score": 1.0
+     },
+     {
+      "turn": 28,
+      "quote": "Keep the metformin, 1000 milligrams twice a day.",
+      "verified": true,
+      "score": 1.0
+     }
+    ],
+    "flags": []
+   },
+   {
+    "name": "empagliflozin",
+    "dose": "10 mg",
+    "frequency": "once daily in the morning",
+    "route": "oral",
+    "status": "new",
+    "evidence": [
+     {
+      "turn": 28,
+      "quote": "add a new medicine called empagliflozin, 10 milligrams once a day in the morning.",
+      "verified": true,
+      "score": 1.0
+     }
+    ],
+    "flags": []
+   }
+  ],
+  "allergies": [
+   {
+    "substance": "sulfa (Bactrim)",
+    "reaction": "rash all over the body",
+    "evidence": [
+     {
+      "turn": 21,
+      "quote": "Yes, the Bactrim. I broke out in a rash all over my body.",
+      "verified": true,
+      "score": 1.0
+     }
+    ]
+   }
+  ],
+  "after_visit_summary": "Your diabetes is not at goal right now, with an A1c of 8.4%. This is likely because you stopped glipizide two months ago after having low blood sugar (your sugar went down to 62). We will stop glipizide so you do not have more low sugars. You will keep taking metformin 1000 mg twice a day with breakfast and dinner. You will start a new pill called empagliflozin 10 mg once daily in the morning. It is a pill, not a shot. Drink plenty of water and keep the genital area clean. If you get itching or a yeast infection, call us. If you are sick and cannot eat or drink, skip the pill that day. You are allergic to sulfa (Bactrim), which caused a whole-body rash. We sent a referral for a diabetes eye exam; our office will email the details to lupe rios 65 at example dot com. Keep walking in the evenings. Please check your blood sugar at home and bring the results. Repeat your A1c in 3 months. Return if you feel very low, cannot eat or drink, or have a yeast infection that does not get better.",
+  "avs_flags": [],
+  "icd10": [
+   {
+    "system": "ICD-10-CM",
+    "code": "E11.65",
+    "description": "Type 2 diabetes mellitus with hyperglycemia",
+    "rank": 1,
+    "rationale": "Primary reason for visit: type 2 diabetes with hyperglycemia, supported by A1c 8.4% above goal and fasting glucose 150-180.",
+    "evidence": [
+     {
+      "turn": 4,
+      "quote": "Your A1c from last week came back at 8.4 percent. In April it was 7.6.",
+      "verified": true,
+      "score": 1.0
+     },
+     {
+      "turn": 13,
+      "quote": "Mostly 150 to 180 in the morning.",
+      "verified": true,
+      "score": 1.0
+     }
+    ],
+    "valid": true,
+    "billable": true,
+    "flags": [],
+    "accepted": null
+   },
+   {
+    "system": "ICD-10-CM",
+    "code": "E11.649",
+    "description": "Type 2 diabetes mellitus with hypoglycemia without coma",
+    "rank": 2,
+    "rationale": "Type 2 diabetes with hypoglycemia without coma, documented after stopping glipizide due to afternoon shakiness/sweating and home glucose of 62; assessed as a reason for medication adjustment.",
+    "evidence": [
+     {
+      "turn": 7,
+      "quote": "About two months ago. I was getting shaky and sweaty in the afternoons. One time my sugar was 62 and I almost had to pull the car over.",
+      "verified": true,
+      "score": 1.0
+     },
+     {
+      "turn": 28,
+      "quote": "your type 2 diabetes is above our goal, and the glipizide was causing low sugars, so we'll leave that off for good.",
+      "verified": true,
+      "score": 1.0
+     }
+    ],
+    "valid": true,
+    "billable": true,
+    "flags": [],
+    "accepted": null
+   },
+   {
+    "system": "ICD-10-CM",
+    "code": "Z87.16",
+    "description": "",
+    "rank": 3,
+    "rationale": "Family history of diabetes mellitus, relevant as patient monitors husband's worsening diabetes and insulin use.",
+    "evidence": [
+     {
+      "turn": 23,
+      "quote": "My husband's sugar is worse than mine, they put him on insulin last month.",
+      "verified": true,
+      "score": 1.0
+     }
+    ],
+    "valid": false,
+    "billable": false,
+    "flags": [
+     {
+      "kind": "code_invalid",
+      "severity": "error",
+      "message": "Z87.16 is not in the ICD-10-CM FY2027 (October 1, 2026 - September 30, 2027)",
+      "acknowledged": false,
+      "detail": {}
+     }
+    ],
+    "accepted": null
+   }
+  ],
+  "em": {
+   "system": "CPT",
+   "code": "99214",
+   "description": "Established patient office visit, moderate-complexity decision making",
+   "rank": 1,
+   "rationale": "Established patient E/M with moderate medical decision making (chronic condition with acute exacerbation requiring new medication initiation) plus moderate risk via prescription drug management.",
+   "evidence": [],
+   "valid": true,
+   "billable": true,
+   "flags": [],
+   "accepted": null
+  },
+  "procedures": [],
+  "mdm": {
+   "problems": "moderate",
+   "data": "straightforward",
+   "risk": "moderate",
+   "level": "moderate",
+   "code": "99214",
+   "reasons": [
+    "problems: chronic illness not at goal",
+    "risk: prescription drug management"
+   ]
+  },
+  "section_status": {
+   "subjective": "draft",
+   "objective": "draft",
+   "assessment": "draft",
+   "plan": "draft"
+  },
+  "model": "openrouter/apodex/apodex-1.1-mini:free",
+  "created_at": "2026-10-13T05:45:31.310490Z",
+  "signed_by": null,
+  "signed_at": null,
+  "timings": {
+   "phi_masking": 0.029,
+   "llm_note": 26.18,
+   "guards_note": 0.06,
+   "llm_codes": 2.96,
+   "guards_codes": 0.041,
+   "total": 29.27,
+   "wall": 29.29
+  },
+  "usage": {
+   "model_ms": 29140,
+   "input_tokens": 5205,
+   "output_tokens": 3089,
+   "calls": 2
+  },
+  "phi": {
+   "NAME": 2,
+   "DOB": 1,
+   "DATE": 1,
+   "EMAIL": 1
+  }
+ },
+ "vault": {
+  "originals": {
+   "[PATIENT]": "Guadalupe Rios",
+   "[DOB]": "June 17th, 1965",
+   "[DATE_1]": "April",
+   "[NAME_1]": "Marisela",
+   "[EMAIL_1]": "lupe rios 65 at example dot com"
+  },
+  "surfaces": {
+   "[PATIENT]": [
+    "Guadalupe Rios",
+    "Rios"
+   ],
+   "[DOB]": [
+    "June 17th, 1965"
+   ],
+   "[DATE_1]": [
+    "April"
+   ],
+   "[NAME_1]": [
+    "Marisela"
+   ],
+   "[EMAIL_1]": [
+    "lupe rios 65 at example dot com"
+   ]
+  },
+  "types": {
+   "[PATIENT]": "NAME",
+   "[DOB]": "DOB",
+   "[DATE_1]": "DATE",
+   "[NAME_1]": "NAME",
+   "[EMAIL_1]": "EMAIL"
+  },
+  "counters": {
+   "DATE": 1,
+   "NAME": 1,
+   "EMAIL": 1
+  }
+ },
+ "score": {
+  "case": "pc-02",
+  "specialty": "primary_care",
+  "facts": 27,
+  "found": 26,
+  "found_in_section": 25,
+  "negation_errors": [],
+  "trap_errors": [],
+  "missed": [
+   "f3 [subjective] No further lows since stopping glipizide"
+  ],
+  "statements": 24,
+  "statements_matching_gold": 22,
+  "unsupported": 0,
+  "partial": 2,
+  "flags": {
+   "partial_support": 2,
+   "dose_mismatch": 1
+  },
+  "meds": 3,
+  "meds_found": 3,
+  "meds_dose_correct": 3,
+  "icd_primary": "E11.65",
+  "icd_suggested": [
+   "E11.65",
+   "E11.649",
+   "Z87.16"
+  ],
+  "icd_top1": true,
+  "icd_top3": true,
+  "icd_top3_lenient": true,
+  "icd_top3_category": true,
+  "icd_gold_recall": 0.5,
+  "icd_invalid": 1,
+  "em_gold": "99214",
+  "em_suggested": "99214",
+  "em_exact": true,
+  "em_within_one": true,
+  "em_rule_estimate": "99214",
+  "procedures_gold": 0,
+  "procedures_found": 0
+ },
+ "egress_residue": {}
+}

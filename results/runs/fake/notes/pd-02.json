@@ -1,0 +1,629 @@
+{
+ "note": {
+  "visit_id": "pd-02",
+  "statements": [
+   {
+    "id": "s1",
+    "section": "subjective",
+    "text": "He's been complaining since Saturday",
+    "evidence": [
+     {
+      "turn": 3,
+      "quote": "Yeah, he's been complaining since Saturday.",
+      "verified": true,
+      "score": 1.0
+     }
+    ],
+    "support": "supported",
+    "flags": [],
+    "origin": "model",
+    "edited": false
+   },
+   {
+    "id": "s2",
+    "section": "subjective",
+    "text": "He said it hurt to swallow, and then Sunday he got a fever",
+    "evidence": [
+     {
+      "turn": 3,
+      "quote": "He said it hurt to swallow, and then Sunday he got a fever.",
+      "verified": true,
+      "score": 1.0
+     }
+    ],
+    "support": "supported",
+    "flags": [],
+    "origin": "model",
+    "edited": false
+   },
+   {
+    "id": "s3",
+    "section": "subjective",
+    "text": "Denies cough",
+    "evidence": [
+     {
+      "turn": 8,
+      "quote": "Okay. Any cough?",
+      "verified": true,
+      "score": 1.0
+     },
+     {
+      "turn": 9,
+      "quote": "No, not really.",
+      "verified": true,
+      "score": 1.0
+     }
+    ],
+    "support": "supported",
+    "flags": [],
+    "origin": "model",
+    "edited": false
+   },
+   {
+    "id": "s4",
+    "section": "subjective",
+    "text": "Denies runny nose",
+    "evidence": [
+     {
+      "turn": 10,
+      "quote": "Runny nose or stuffy nose?",
+      "verified": true,
+      "score": 1.0
+     },
+     {
+      "turn": 11,
+      "quote": "No. That's kind of why I thought, this isn't just a cold.",
+      "verified": true,
+      "score": 1.0
+     }
+    ],
+    "support": "supported",
+    "flags": [],
+    "origin": "model",
+    "edited": false
+   },
+   {
+    "id": "s5",
+    "section": "subjective",
+    "text": "Denies stuffy nose",
+    "evidence": [
+     {
+      "turn": 10,
+      "quote": "Runny nose or stuffy nose?",
+      "verified": true,
+      "score": 1.0
+     },
+     {
+      "turn": 11,
+      "quote": "No. That's kind of why I thought, this isn't just a cold.",
+      "verified": true,
+      "score": 1.0
+     }
+    ],
+    "support": "supported",
+    "flags": [],
+    "origin": "model",
+    "edited": false
+   },
+   {
+    "id": "s6",
+    "section": "subjective",
+    "text": "When he was 3 he got hives all over, like big red welts, from the pink amoxicillin",
+    "evidence": [
+     {
+      "turn": 17,
+      "quote": "Yeah, when he was 3 he got hives all over, like big red welts, from the pink amoxicillin.",
+      "verified": true,
+      "score": 1.0
+     }
+    ],
+    "support": "supported",
+    "flags": [],
+    "origin": "model",
+    "edited": false
+   },
+   {
+    "id": "s7",
+    "section": "subjective",
+    "text": "No trouble breathing or anything, just the hives",
+    "evidence": [
+     {
+      "turn": 17,
+      "quote": "No trouble breathing or anything, just the hives.",
+      "verified": true,
+      "score": 1.0
+     }
+    ],
+    "support": "supported",
+    "flags": [],
+    "origin": "model",
+    "edited": false
+   },
+   {
+    "id": "s8",
+    "section": "subjective",
+    "text": "What can he take, since he can't have amoxicillin?",
+    "evidence": [
+     {
+      "turn": 26,
+      "quote": "So what can he take, since he can't have amoxicillin?",
+      "verified": true,
+      "score": 1.0
+     }
+    ],
+    "support": "supported",
+    "flags": [],
+    "origin": "model",
+    "edited": false
+   },
+   {
+    "id": "s9",
+    "section": "subjective",
+    "text": "8 milliliters, twice a day, 10 days",
+    "evidence": [
+     {
+      "turn": 28,
+      "quote": "8 milliliters, twice a day, 10 days.",
+      "verified": true,
+      "score": 1.0
+     }
+    ],
+    "support": "supported",
+    "flags": [],
+    "origin": "model",
+    "edited": false
+   },
+   {
+    "id": "s10",
+    "section": "subjective",
+    "text": "Um, their wife woke up with a scratchy throat today",
+    "evidence": [
+     {
+      "turn": 32,
+      "quote": "And, um, my wife woke up with a scratchy throat today.",
+      "verified": true,
+      "score": 1.0
+     }
+    ],
+    "support": "supported",
+    "flags": [],
+    "origin": "model",
+    "edited": false
+   },
+   {
+    "id": "s11",
+    "section": "subjective",
+    "text": "The number you have on file, 555-0118, that's their cell, so call that one",
+    "evidence": [
+     {
+      "turn": 36,
+      "quote": "And the number you have on file, 555-0118, that's my cell, so call that one.",
+      "verified": true,
+      "score": 1.0
+     }
+    ],
+    "support": "supported",
+    "flags": [],
+    "origin": "model",
+    "edited": false
+   },
+   {
+    "id": "o1",
+    "section": "objective",
+    "text": "Ears look normal, lungs are clear, and I don't see any rash",
+    "evidence": [
+     {
+      "turn": 21,
+      "quote": "Ears look normal, lungs are clear, and I don't see any rash.",
+      "verified": true,
+      "score": 1.0
+     }
+    ],
+    "support": "supported",
+    "flags": [],
+    "origin": "model",
+    "edited": false
+   },
+   {
+    "id": "o2",
+    "section": "objective",
+    "text": "Alright, the rapid strep came back positive",
+    "evidence": [
+     {
+      "turn": 25,
+      "quote": "Alright, the rapid strep came back positive.",
+      "verified": true,
+      "score": 1.0
+     }
+    ],
+    "support": "supported",
+    "flags": [],
+    "origin": "model",
+    "edited": false
+   },
+   {
+    "id": "a1",
+    "section": "assessment",
+    "text": "So this is strep throat",
+    "evidence": [
+     {
+      "turn": 25,
+      "quote": "So this is strep throat.",
+      "verified": true,
+      "score": 1.0
+     }
+    ],
+    "support": "supported",
+    "flags": [],
+    "origin": "model",
+    "edited": false
+   },
+   {
+    "id": "p1",
+    "section": "plan",
+    "text": "I'm going to do a quick strep swab, it takes about 10 minutes",
+    "evidence": [
+     {
+      "turn": 21,
+      "quote": "I'm going to do a quick strep swab, it takes about 10 minutes.",
+      "verified": true,
+      "score": 1.0
+     }
+    ],
+    "support": "supported",
+    "flags": [],
+    "origin": "model",
+    "edited": false
+   },
+   {
+    "id": "p2",
+    "section": "plan",
+    "text": "If he's not better in 2 or 3 days, call us",
+    "evidence": [
+     {
+      "turn": 35,
+      "quote": "If he's not better in 2 or 3 days, call us.",
+      "verified": true,
+      "score": 1.0
+     }
+    ],
+    "support": "supported",
+    "flags": [],
+    "origin": "model",
+    "edited": false
+   }
+  ],
+  "medications": [
+   {
+    "name": "ibuprofen",
+    "dose": "",
+    "frequency": "",
+    "route": "",
+    "status": "active",
+    "evidence": [
+     {
+      "turn": 5,
+      "quote": "I gave him ibuprofen this morning at like 7, so that might be bringing it down.",
+      "verified": true,
+      "score": 1.0
+     }
+    ],
+    "flags": []
+   },
+   {
+    "name": "amoxicillin",
+    "dose": "",
+    "frequency": "",
+    "route": "",
+    "status": "active",
+    "evidence": [
+     {
+      "turn": 16,
+      "quote": "Now, I see in the chart he's allergic to amoxicillin.",
+      "verified": true,
+      "score": 1.0
+     }
+    ],
+    "flags": [
+     {
+      "kind": "allergy_conflict",
+      "severity": "error",
+      "message": "amoxicillin conflicts with the documented amoxicillin allergy.",
+      "acknowledged": false,
+      "detail": {}
+     }
+    ]
+   },
+   {
+    "name": "cephalexin",
+    "dose": "",
+    "frequency": "",
+    "route": "",
+    "status": "active",
+    "evidence": [
+     {
+      "turn": 27,
+      "quote": "Since his reaction was hives and not anything severe like swelling or trouble breathing, cephalexin is a safe",
+      "verified": true,
+      "score": 1.0
+     }
+    ],
+    "flags": [
+     {
+      "kind": "allergy_conflict",
+      "severity": "warning",
+      "message": "cephalexin is a cephalosporin and the patient reports a penicillin allergy: low cross-reactivity, confirm it was considered.",
+      "acknowledged": false,
+      "detail": {}
+     }
+    ]
+   }
+  ],
+  "allergies": [
+   {
+    "substance": "amoxicillin",
+    "reaction": "",
+    "evidence": [
+     {
+      "turn": 16,
+      "quote": "Now, I see in the chart he's allergic to amoxicillin.",
+      "verified": true,
+      "score": 1.0
+     }
+    ]
+   }
+  ],
+  "after_visit_summary": "Thank you for coming in today. Here is what we talked about. I'm going to do a quick strep swab, it takes about 10 minutes. If he's not better in 2 or 3 days, call us.",
+  "avs_flags": [],
+  "icd10": [
+   {
+    "system": "ICD-10-CM",
+    "code": "R07.0",
+    "description": "Pain in throat",
+    "rank": 1,
+    "rationale": "Matches the assessment: Pain in throat",
+    "evidence": [],
+    "valid": true,
+    "billable": true,
+    "flags": [
+     {
+      "kind": "code_unsupported",
+      "severity": "warning",
+      "message": "No verified quote supports this code.",
+      "acknowledged": false,
+      "detail": {}
+     }
+    ],
+    "accepted": null
+   },
+   {
+    "system": "ICD-10-CM",
+    "code": "R04.1",
+    "description": "Hemorrhage from throat",
+    "rank": 2,
+    "rationale": "Matches the assessment: Hemorrhage from throat",
+    "evidence": [],
+    "valid": true,
+    "billable": true,
+    "flags": [
+     {
+      "kind": "code_unsupported",
+      "severity": "warning",
+      "message": "No verified quote supports this code.",
+      "acknowledged": false,
+      "detail": {}
+     }
+    ],
+    "accepted": null
+   },
+   {
+    "system": "ICD-10-CM",
+    "code": "S10.0XXS",
+    "description": "Contusion of throat, sequela",
+    "rank": 3,
+    "rationale": "Matches the assessment: Contusion of throat, sequela",
+    "evidence": [],
+    "valid": true,
+    "billable": true,
+    "flags": [
+     {
+      "kind": "code_unsupported",
+      "severity": "warning",
+      "message": "No verified quote supports this code.",
+      "acknowledged": false,
+      "detail": {}
+     }
+    ],
+    "accepted": null
+   }
+  ],
+  "em": {
+   "system": "CPT",
+   "code": "99213",
+   "description": "Established patient office visit, low-complexity decision making",
+   "rank": 1,
+   "rationale": "Rule-based: low complexity",
+   "evidence": [],
+   "valid": true,
+   "billable": true,
+   "flags": [],
+   "accepted": null
+  },
+  "procedures": [
+   {
+    "system": "CPT",
+    "code": "87880",
+    "description": "Rapid streptococcus group A antigen test",
+    "rank": 1,
+    "rationale": "Performed today",
+    "evidence": [
+     {
+      "turn": 25,
+      "quote": "Alright, the rapid strep came back positive. So this is strep throat.",
+      "verified": true,
+      "score": 1.0
+     }
+    ],
+    "valid": true,
+    "billable": true,
+    "flags": [],
+    "accepted": null
+   }
+  ],
+  "mdm": {
+   "problems": "low",
+   "data": "low",
+   "risk": "low",
+   "level": "low",
+   "code": "99213",
+   "reasons": [
+    "problems: one acute uncomplicated problem",
+    "data: limited (tests or an independent historian)",
+    "risk: over-the-counter drugs, minor procedure or counseling"
+   ]
+  },
+  "section_status": {
+   "subjective": "draft",
+   "objective": "draft",
+   "assessment": "draft",
+   "plan": "draft"
+  },
+  "model": "fake/fake-scribe",
+  "created_at": "2026-10-13T05:44:46.952018Z",
+  "signed_by": null,
+  "signed_at": null,
+  "timings": {
+   "phi_masking": 0.031,
+   "llm_note": 0.016,
+   "guards_note": 0.062,
+   "llm_codes": 0.008,
+   "guards_codes": 0.047,
+   "total": 0.164,
+   "wall": 0.168
+  },
+  "usage": {
+   "model_ms": 24,
+   "input_tokens": 3170,
+   "output_tokens": 1037,
+   "calls": 2
+  },
+  "phi": {
+   "NAME": 3,
+   "DOB": 1,
+   "ORG": 1,
+   "EMAIL": 1,
+   "PHONE": 1
+  }
+ },
+ "vault": {
+  "originals": {
+   "[NAME_1]": "Asante",
+   "[PATIENT]": "Mateo Villanueva",
+   "[DOB]": "April 2nd, 2019",
+   "[NAME_2]": "Andrés",
+   "[ORG_1]": "Brookside Elementary",
+   "[EMAIL_1]": "andres dot villanueva at example dot com",
+   "[PHONE_1]": "555-0118"
+  },
+  "surfaces": {
+   "[NAME_1]": [
+    "Asante"
+   ],
+   "[PATIENT]": [
+    "Mateo",
+    "Mateo Villanueva"
+   ],
+   "[DOB]": [
+    "April 2nd, 2019"
+   ],
+   "[NAME_2]": [
+    "Andrés"
+   ],
+   "[ORG_1]": [
+    "Brookside Elementary"
+   ],
+   "[EMAIL_1]": [
+    "andres dot villanueva at example dot com"
+   ],
+   "[PHONE_1]": [
+    "555-0118"
+   ]
+  },
+  "types": {
+   "[NAME_1]": "NAME",
+   "[PATIENT]": "NAME",
+   "[DOB]": "DOB",
+   "[NAME_2]": "NAME",
+   "[ORG_1]": "ORG",
+   "[EMAIL_1]": "EMAIL",
+   "[PHONE_1]": "PHONE"
+  },
+  "counters": {
+   "NAME": 2,
+   "ORG": 1,
+   "EMAIL": 1,
+   "PHONE": 1
+  }
+ },
+ "score": {
+  "case": "pd-02",
+  "specialty": "pediatrics",
+  "facts": 29,
+  "found": 11,
+  "found_in_section": 10,
+  "negation_errors": [],
+  "trap_errors": [
+   "correction: Onset first said as Saturday, corrected to Friday night"
+  ],
+  "missed": [
+   "f2 [subjective] Fever since Sunday, maximum 102.4",
+   "f4 [subjective] Abdominal pain yesterday",
+   "f5 [subjective] No vomiting",
+   "f8 [subjective] Strep exposure, cases going around his school class",
+   "f9 [subjective] Drinking well, decreased appetite",
+   "f11 [subjective] No daily medications besides ibuprofen as needed",
+   "f12 [objective] Weight 20 kg (44 lb)",
+   "f13 [objective] Temperature 101.9",
+   "f14 [objective] Heart rate 112",
+   "f15 [objective] Tonsils enlarged and erythematous with exudate",
+   "f16 [objective] Palatal petechiae",
+   "f17 [objective] Tender anterior cervical lymphadenopathy",
+   "f23 [plan] Cephalexin 20 mg/kg/dose, 400 mg (8 mL of 250 mg/5 mL) twice daily",
+   "f24 [plan] Cephalexin for 10 days",
+   "f25 [plan] Ibuprofen 200 mg (10 mL) every 6 to 8 hours as needed with food",
+   "f26 [plan] Return to school after at least 12 hours of antibiotic and fever-free; school note via portal",
+   "f27 [plan] Replace toothbrush after 1 to 2 days of antibiotics",
+   "f28 [plan] ER for drooling, inability to swallow saliva, trismus or breathing difficulty"
+  ],
+  "statements": 16,
+  "statements_matching_gold": 10,
+  "unsupported": 0,
+  "partial": 0,
+  "flags": {
+   "allergy_conflict": 2
+  },
+  "meds": 2,
+  "meds_found": 2,
+  "meds_dose_correct": 0,
+  "icd_primary": "J02.0",
+  "icd_suggested": [
+   "R07.0",
+   "R04.1",
+   "S10.0XXS"
+  ],
+  "icd_top1": false,
+  "icd_top3": false,
+  "icd_top3_lenient": false,
+  "icd_top3_category": false,
+  "icd_gold_recall": 0.0,
+  "icd_invalid": 0,
+  "em_gold": "99213",
+  "em_suggested": "99213",
+  "em_exact": true,
+  "em_within_one": true,
+  "em_rule_estimate": "99213",
+  "procedures_gold": 1,
+  "procedures_found": 1
+ },
+ "egress_residue": {}
+}

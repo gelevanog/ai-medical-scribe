@@ -270,14 +270,14 @@
   "meds_dose_correct": 3,
   "icd_primary": "E06.3",
   "icd_suggested": [
-   "E03.9",
+   "E03.3",
    "E78.2"
   ],
   "icd_top1": false,
   "icd_top3": false,
-  "icd_top3_lenient": true,
+  "icd_top3_lenient": false,
   "icd_top3_category": false,
-  "icd_gold_recall": 0.6666666666666666,
+  "icd_gold_recall": 0.3333333333333333,
   "icd_invalid": 0,
   "em_gold": "99204",
   "em_suggested": "99203",
@@ -305,6 +305,7 @@
   "unsupported": 0,
   "partial": 2,
   "flags": {
+   "negation": 1,
    "partial_support": 2
   },
   "meds": 7,

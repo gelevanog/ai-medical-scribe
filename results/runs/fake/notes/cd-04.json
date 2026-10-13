@@ -1,0 +1,679 @@
+{
+ "note": {
+  "visit_id": "cd-04",
+  "statements": [
+   {
+    "id": "s1",
+    "section": "subjective",
+    "text": "Reports palpitations",
+    "evidence": [
+     {
+      "turn": 4,
+      "quote": "Oh no. Well, let's dry you off with some good news, hopefully. Your student health clinic sent you",
+      "verified": true,
+      "score": 1.0
+     },
+     {
+      "turn": 5,
+      "quote": "Yeah.",
+      "verified": true,
+      "score": 1.0
+     }
+    ],
+    "support": "supported",
+    "flags": [],
+    "origin": "model",
+    "edited": false
+   },
+   {
+    "id": "s2",
+    "section": "subjective",
+    "text": "For about 3 weeks has been feeling this, like, fluttering in their chest",
+    "evidence": [
+     {
+      "turn": 5,
+      "quote": "For about 3 weeks I've been feeling this, like, fluttering in my chest.",
+      "verified": true,
+      "score": 1.0
+     }
+    ],
+    "support": "supported",
+    "flags": [],
+    "origin": "model",
+    "edited": false
+   },
+   {
+    "id": "s3",
+    "section": "subjective",
+    "text": "Denies fainted",
+    "evidence": [
+     {
+      "turn": 10,
+      "quote": "Have you fainted or felt like you were going to faint?",
+      "verified": true,
+      "score": 1.0
+     },
+     {
+      "turn": 11,
+      "quote": "No, never.",
+      "verified": true,
+      "score": 1.0
+     }
+    ],
+    "support": "supported",
+    "flags": [],
+    "origin": "model",
+    "edited": false
+   },
+   {
+    "id": "s4",
+    "section": "subjective",
+    "text": "Denies faint",
+    "evidence": [
+     {
+      "turn": 10,
+      "quote": "Have you fainted or felt like you were going to faint?",
+      "verified": true,
+      "score": 1.0
+     },
+     {
+      "turn": 11,
+      "quote": "No, never.",
+      "verified": true,
+      "score": 1.0
+     }
+    ],
+    "support": "supported",
+    "flags": [],
+    "origin": "model",
+    "edited": false
+   },
+   {
+    "id": "s5",
+    "section": "subjective",
+    "text": "Denies chest pain",
+    "evidence": [
+     {
+      "turn": 12,
+      "quote": "Any chest pain or shortness of breath when it happens?",
+      "verified": true,
+      "score": 1.0
+     },
+     {
+      "turn": 13,
+      "quote": "Nope.",
+      "verified": true,
+      "score": 1.0
+     }
+    ],
+    "support": "supported",
+    "flags": [],
+    "origin": "model",
+    "edited": false
+   },
+   {
+    "id": "s6",
+    "section": "subjective",
+    "text": "Denies shortness of breath",
+    "evidence": [
+     {
+      "turn": 12,
+      "quote": "Any chest pain or shortness of breath when it happens?",
+      "verified": true,
+      "score": 1.0
+     },
+     {
+      "turn": 13,
+      "quote": "Nope.",
+      "verified": true,
+      "score": 1.0
+     }
+    ],
+    "support": "supported",
+    "flags": [],
+    "origin": "model",
+    "edited": false
+   },
+   {
+    "id": "s7",
+    "section": "subjective",
+    "text": "It's just weird and it makes them anxious",
+    "evidence": [
+     {
+      "turn": 13,
+      "quote": "It's just weird and it makes me anxious.",
+      "verified": true,
+      "score": 1.0
+     }
+    ],
+    "support": "supported",
+    "flags": [],
+    "origin": "model",
+    "edited": false
+   },
+   {
+    "id": "s8",
+    "section": "subjective",
+    "text": "A glass of wine on weekends sometimes",
+    "evidence": [
+     {
+      "turn": 19,
+      "quote": "A glass of wine on weekends sometimes.",
+      "verified": true,
+      "score": 1.0
+     }
+    ],
+    "support": "supported",
+    "flags": [],
+    "origin": "model",
+    "edited": false
+   },
+   {
+    "id": "s9",
+    "section": "subjective",
+    "text": "Does not smoke or vape",
+    "evidence": [
+     {
+      "turn": 19,
+      "quote": "I don't smoke or vape.",
+      "verified": true,
+      "score": 1.0
+     }
+    ],
+    "support": "supported",
+    "flags": [],
+    "origin": "model",
+    "edited": false
+   },
+   {
+    "id": "s10",
+    "section": "subjective",
+    "text": "What number do you have for them?",
+    "evidence": [
+     {
+      "turn": 33,
+      "quote": "What number do you have for me?",
+      "verified": true,
+      "score": 1.0
+     }
+    ],
+    "support": "supported",
+    "flags": [],
+    "origin": "model",
+    "edited": false
+   },
+   {
+    "id": "o1",
+    "section": "objective",
+    "text": "Blood pressure is 118 over 74, pulse 88, oxygen 99 percent",
+    "evidence": [
+     {
+      "turn": 24,
+      "quote": "Blood pressure is 118 over 74, pulse 88, oxygen 99 percent.",
+      "verified": true,
+      "score": 1.0
+     }
+    ],
+    "support": "supported",
+    "flags": [],
+    "origin": "model",
+    "edited": false
+   },
+   {
+    "id": "o2",
+    "section": "objective",
+    "text": "Heart has a regular rhythm, no murmurs or clicks",
+    "evidence": [
+     {
+      "turn": 24,
+      "quote": "Heart has a regular rhythm, no murmurs or clicks.",
+      "verified": true,
+      "score": 1.0
+     }
+    ],
+    "support": "supported",
+    "flags": [],
+    "origin": "model",
+    "edited": false
+   },
+   {
+    "id": "o3",
+    "section": "objective",
+    "text": "Lungs are clear",
+    "evidence": [
+     {
+      "turn": 24,
+      "quote": "Lungs are clear.",
+      "verified": true,
+      "score": 1.0
+     }
+    ],
+    "support": "supported",
+    "flags": [],
+    "origin": "model",
+    "edited": false
+   },
+   {
+    "id": "o4",
+    "section": "objective",
+    "text": "We also did an ECG at check-in",
+    "evidence": [
+     {
+      "turn": 26,
+      "quote": "We also did an ECG at check-in.",
+      "verified": true,
+      "score": 1.0
+     }
+    ],
+    "support": "supported",
+    "flags": [],
+    "origin": "model",
+    "edited": false
+   },
+   {
+    "id": "o5",
+    "section": "objective",
+    "text": "It's a normal ECG, sinus rhythm at 84, with normal intervals and no signs of an extra electrical pathway",
+    "evidence": [
+     {
+      "turn": 26,
+      "quote": "It's a normal ECG, sinus rhythm at 84, with normal intervals and no signs of an extra electrical",
+      "verified": true,
+      "score": 1.0
+     }
+    ],
+    "support": "supported",
+    "flags": [],
+    "origin": "model",
+    "edited": false
+   },
+   {
+    "id": "o6",
+    "section": "objective",
+    "text": "Aim for no more than 1 regular coffee a day, and no energy drinks at all",
+    "evidence": [
+     {
+      "turn": 30,
+      "quote": "Aim for no more than 1 regular coffee a day, and no energy drinks at all.",
+      "verified": true,
+      "score": 1.0
+     }
+    ],
+    "support": "supported",
+    "flags": [],
+    "origin": "model",
+    "edited": false
+   },
+   {
+    "id": "o7",
+    "section": "objective",
+    "text": "I'm also ordering a thyroid test, a TSH, plus a blood count and electrolytes, just to rule out anything simple",
+    "evidence": [
+     {
+      "turn": 32,
+      "quote": "I'm also ordering a thyroid test, a TSH, plus a blood count and electrolytes, just to rule out",
+      "verified": true,
+      "score": 1.0
+     }
+    ],
+    "support": "supported",
+    "flags": [],
+    "origin": "model",
+    "edited": false
+   },
+   {
+    "id": "p1",
+    "section": "plan",
+    "text": "Well, let's dry you off with some good news, hopefully",
+    "evidence": [
+     {
+      "turn": 4,
+      "quote": "Well, let's dry you off with some good news, hopefully.",
+      "verified": true,
+      "score": 1.0
+     }
+    ],
+    "support": "supported",
+    "flags": [],
+    "origin": "model",
+    "edited": false
+   },
+   {
+    "id": "p2",
+    "section": "plan",
+    "text": "So here's the plan",
+    "evidence": [
+     {
+      "turn": 30,
+      "quote": "So here's the plan.",
+      "verified": true,
+      "score": 1.0
+     }
+    ],
+    "support": "supported",
+    "flags": [],
+    "origin": "model",
+    "edited": false
+   },
+   {
+    "id": "p3",
+    "section": "plan",
+    "text": "I'd like you to cut back the caffeine gradually over the next 2 weeks, so you don't get withdrawal headaches",
+    "evidence": [
+     {
+      "turn": 30,
+      "quote": "I'd like you to cut back the caffeine gradually over the next 2 weeks, so you don't get",
+      "verified": true,
+      "score": 1.0
+     }
+    ],
+    "support": "supported",
+    "flags": [],
+    "origin": "model",
+    "edited": false
+   },
+   {
+    "id": "p4",
+    "section": "plan",
+    "text": "If the palpitations are still happening in 6 weeks after you've cut back, we'll put a 2 week patch monitor on you to record your rhythm",
+    "evidence": [
+     {
+      "turn": 32,
+      "quote": "If the palpitations are still happening in 6 weeks after you've cut back, we'll put a 2 week",
+      "verified": true,
+      "score": 1.0
+     }
+    ],
+    "support": "supported",
+    "flags": [],
+    "origin": "model",
+    "edited": false
+   },
+   {
+    "id": "p5",
+    "section": "plan",
+    "text": "If you ever faint, or have chest pain with the fluttering, or a racing heartbeat that won't stop, go to the emergency room",
+    "evidence": [
+     {
+      "turn": 36,
+      "quote": "If you ever faint, or have chest pain with the fluttering, or a racing heartbeat that won't stop,",
+      "verified": true,
+      "score": 1.0
+     }
+    ],
+    "support": "supported",
+    "flags": [],
+    "origin": "model",
+    "edited": false
+   },
+   {
+    "id": "p6",
+    "section": "plan",
+    "text": "Otherwise I'll see you back in 6 weeks",
+    "evidence": [
+     {
+      "turn": 36,
+      "quote": "Otherwise I'll see you back in 6 weeks.",
+      "verified": true,
+      "score": 1.0
+     }
+    ],
+    "support": "supported",
+    "flags": [],
+    "origin": "model",
+    "edited": false
+   }
+  ],
+  "medications": [
+   {
+    "name": "melatonin",
+    "dose": "3 milligrams",
+    "frequency": "once a day",
+    "route": "",
+    "status": "active",
+    "evidence": [
+     {
+      "turn": 21,
+      "quote": "Just my birth control pill once a day, and I take melatonin, 3 milligrams, on nights I can't",
+      "verified": true,
+      "score": 1.0
+     }
+    ],
+    "flags": []
+   }
+  ],
+  "allergies": [],
+  "after_visit_summary": "Thank you for coming in today. Here is what we talked about. Well, let's dry you off with some good news, hopefully. So here's the plan. I'd like you to cut back the caffeine gradually over the next 2 weeks, so you don't get withdrawal headaches. If the palpitations are still happening in 6 weeks after you've cut back, we will put a 2 week patch monitor on you to record your rhythm. If you ever faint, or have chest pain with the fluttering, or a racing heartbeat that won't stop, go to the emergency room. Otherwise I'll see you back in 6 weeks.",
+  "avs_flags": [],
+  "icd10": [
+   {
+    "system": "ICD-10-CM",
+    "code": "M96.A4",
+    "description": "Flail chest associated with chest compression and cardiopulmonary resuscitation",
+    "rank": 1,
+    "rationale": "Matches the assessment: Flail chest associated with chest compression and cardiopulmonary resuscitation",
+    "evidence": [],
+    "valid": true,
+    "billable": true,
+    "flags": [
+     {
+      "kind": "code_unsupported",
+      "severity": "warning",
+      "message": "No verified quote supports this code.",
+      "acknowledged": false,
+      "detail": {}
+     }
+    ],
+    "accepted": null
+   },
+   {
+    "system": "ICD-10-CM",
+    "code": "R07.89",
+    "description": "Other chest pain",
+    "rank": 2,
+    "rationale": "Matches the assessment: Other chest pain",
+    "evidence": [],
+    "valid": true,
+    "billable": true,
+    "flags": [
+     {
+      "kind": "code_unsupported",
+      "severity": "warning",
+      "message": "No verified quote supports this code.",
+      "acknowledged": false,
+      "detail": {}
+     },
+     {
+      "kind": "code_negated",
+      "severity": "error",
+      "message": "The code describes chest pain, which the patient denied.",
+      "acknowledged": false,
+      "detail": {}
+     }
+    ],
+    "accepted": null
+   },
+   {
+    "system": "ICD-10-CM",
+    "code": "R00.2",
+    "description": "Palpitations",
+    "rank": 3,
+    "rationale": "Matches the assessment: Palpitations",
+    "evidence": [],
+    "valid": true,
+    "billable": true,
+    "flags": [
+     {
+      "kind": "code_unsupported",
+      "severity": "warning",
+      "message": "No verified quote supports this code.",
+      "acknowledged": false,
+      "detail": {}
+     }
+    ],
+    "accepted": null
+   }
+  ],
+  "em": {
+   "system": "CPT",
+   "code": "99204",
+   "description": "New patient office visit, moderate-complexity decision making",
+   "rank": 1,
+   "rationale": "Rule-based: prescription drug management",
+   "evidence": [],
+   "valid": true,
+   "billable": true,
+   "flags": [
+    {
+     "kind": "em_mismatch",
+     "severity": "warning",
+     "message": "The rule-based MDM estimate is low (99203): data: tests ordered or reviewed plus an independent interpretation; risk: over-the-counter drugs, minor procedure or counseling",
+     "acknowledged": false,
+     "detail": {
+      "estimate": "99203"
+     }
+    }
+   ],
+   "accepted": null
+  },
+  "procedures": [],
+  "mdm": {
+   "problems": "straightforward",
+   "data": "moderate",
+   "risk": "low",
+   "level": "low",
+   "code": "99203",
+   "reasons": [
+    "data: tests ordered or reviewed plus an independent interpretation",
+    "risk: over-the-counter drugs, minor procedure or counseling"
+   ]
+  },
+  "section_status": {
+   "subjective": "draft",
+   "objective": "draft",
+   "assessment": "draft",
+   "plan": "draft"
+  },
+  "model": "fake/fake-scribe",
+  "created_at": "2026-10-13T05:44:44.999448Z",
+  "signed_by": null,
+  "signed_at": null,
+  "timings": {
+   "phi_masking": 0.024,
+   "llm_note": 0.011,
+   "guards_note": 0.033,
+   "llm_codes": 0.004,
+   "guards_codes": 0.026,
+   "total": 0.098,
+   "wall": 0.103
+  },
+  "usage": {
+   "model_ms": 15,
+   "input_tokens": 3002,
+   "output_tokens": 1329,
+   "calls": 2
+  },
+  "phi": {
+   "NAME": 2,
+   "DOB": 1,
+   "ORG": 1,
+   "DATE": 1,
+   "PHONE": 1
+  }
+ },
+ "vault": {
+  "originals": {
+   "[NAME_1]": "Kenji Watanabe",
+   "[PATIENT]": "Priya Raghunathan",
+   "[DOB]": "May 14th, 2002",
+   "[ORG_1]": "Lakeshore University",
+   "[DATE_1]": "the 12th of December",
+   "[PHONE_1]": "555-0117"
+  },
+  "surfaces": {
+   "[NAME_1]": [
+    "Kenji Watanabe"
+   ],
+   "[PATIENT]": [
+    "Priya",
+    "Priya Raghunathan"
+   ],
+   "[DOB]": [
+    "May 14th, 2002"
+   ],
+   "[ORG_1]": [
+    "Lakeshore University"
+   ],
+   "[DATE_1]": [
+    "the 12th of December"
+   ],
+   "[PHONE_1]": [
+    "555-0117"
+   ]
+  },
+  "types": {
+   "[NAME_1]": "NAME",
+   "[PATIENT]": "NAME",
+   "[DOB]": "DOB",
+   "[ORG_1]": "ORG",
+   "[DATE_1]": "DATE",
+   "[PHONE_1]": "PHONE"
+  },
+  "counters": {
+   "NAME": 1,
+   "ORG": 1,
+   "DATE": 1,
+   "PHONE": 1
+  }
+ },
+ "score": {
+  "case": "cd-04",
+  "specialty": "cardiology",
+  "facts": 25,
+  "found": 16,
+  "found_in_section": 14,
+  "negation_errors": [
+   "f16: Thyroid not enlarged, no tremor (absent)"
+  ],
+  "trap_errors": [],
+  "missed": [
+   "f2 [subjective] Episodes last seconds, many times a day, mostly at night lying in bed",
+   "f3 [subjective] No sustained racing heartbeat with abrupt onset and offset",
+   "f9 [subjective] Sleeping about 5 hours a night",
+   "f12 [subjective] No known drug allergies",
+   "f13 [subjective] No family history of heart disease or sudden death",
+   "f14 [subjective] Mother has Hashimoto thyroiditis",
+   "f16 [objective] Thyroid not enlarged, no tremor",
+   "f20 [assessment] Palpitations, likely benign premature beats triggered by caffeine excess and sleep deprivation",
+   "f22 [plan] Sleep at least 7 hours nightly"
+  ],
+  "statements": 23,
+  "statements_matching_gold": 18,
+  "unsupported": 0,
+  "partial": 0,
+  "flags": {},
+  "meds": 2,
+  "meds_found": 1,
+  "meds_dose_correct": 1,
+  "icd_primary": "R00.2",
+  "icd_suggested": [
+   "M96.A4",
+   "R07.89",
+   "R00.2"
+  ],
+  "icd_top1": false,
+  "icd_top3": true,
+  "icd_top3_lenient": true,
+  "icd_top3_category": true,
+  "icd_gold_recall": 1.0,
+  "icd_invalid": 0,
+  "em_gold": "99203",
+  "em_suggested": "99204",
+  "em_exact": false,
+  "em_within_one": true,
+  "em_rule_estimate": "99203",
+  "procedures_gold": 1,
+  "procedures_found": 0
+ },
+ "egress_residue": {}
+}

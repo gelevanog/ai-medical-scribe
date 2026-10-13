@@ -1,0 +1,776 @@
+{
+ "note": {
+  "visit_id": "pc-01",
+  "statements": [
+   {
+    "id": "s1",
+    "section": "subjective",
+    "text": "Established patient returning for blood pressure follow-up.",
+    "evidence": [
+     {
+      "turn": 4,
+      "quote": "So this is your blood pressure follow-up.",
+      "verified": true,
+      "score": 1.0
+     }
+    ],
+    "support": "supported",
+    "flags": [],
+    "origin": "model",
+    "edited": false
+   },
+   {
+    "id": "s2",
+    "section": "subjective",
+    "text": "Home blood pressure readings still high, usually 145-150 systolic, since July.",
+    "evidence": [
+     {
+      "turn": 5,
+      "quote": "Usually like 145, 150 on the top number.",
+      "verified": true,
+      "score": 1.0
+     }
+    ],
+    "support": "supported",
+    "flags": [],
+    "origin": "model",
+    "edited": false
+   },
+   {
+    "id": "s3",
+    "section": "subjective",
+    "text": "Denies headache, chest pain, or shortness of breath.",
+    "evidence": [
+     {
+      "turn": 13,
+      "quote": "No, none of that.",
+      "verified": true,
+      "score": 1.0
+     }
+    ],
+    "support": "supported",
+    "flags": [],
+    "origin": "model",
+    "edited": false
+   },
+   {
+    "id": "s4",
+    "section": "subjective",
+    "text": "Denies dizziness on standing or ankle swelling.",
+    "evidence": [
+     {
+      "turn": 15,
+      "quote": "Nope.",
+      "verified": true,
+      "score": 1.0
+     }
+    ],
+    "support": "supported",
+    "flags": [],
+    "origin": "model",
+    "edited": false
+   },
+   {
+    "id": "s5",
+    "section": "subjective",
+    "text": "Denies cough since starting lisinopril.",
+    "evidence": [
+     {
+      "turn": 17,
+      "quote": "Nah, no cough.",
+      "verified": true,
+      "score": 1.0
+     }
+    ],
+    "support": "supported",
+    "flags": [],
+    "origin": "model",
+    "edited": false
+   },
+   {
+    "id": "s6",
+    "section": "subjective",
+    "text": "Eats out a lot for lunch, lots of deli sandwiches and chips.",
+    "evidence": [
+     {
+      "turn": 19,
+      "quote": "Still work lunches. Lots of deli sandwiches and chips.",
+      "verified": true,
+      "score": 1.0
+     }
+    ],
+    "support": "supported",
+    "flags": [],
+    "origin": "model",
+    "edited": false
+   },
+   {
+    "id": "s7",
+    "section": "subjective",
+    "text": "Drinks a couple of beers on the weekend.",
+    "evidence": [
+     {
+      "turn": 21,
+      "quote": "A couple beers on the weekend, that's about it.",
+      "verified": true,
+      "score": 1.0
+     }
+    ],
+    "support": "supported",
+    "flags": [],
+    "origin": "model",
+    "edited": false
+   },
+   {
+    "id": "s8",
+    "section": "subjective",
+    "text": "Family history: father had a stroke at age 62.",
+    "evidence": [
+     {
+      "turn": 23,
+      "quote": "my father had a stroke at 62.",
+      "verified": true,
+      "score": 1.0
+     }
+    ],
+    "support": "supported",
+    "flags": [],
+    "origin": "model",
+    "edited": false
+   },
+   {
+    "id": "o1",
+    "section": "objective",
+    "text": "Blood pressure 152 over 94.",
+    "evidence": [
+     {
+      "turn": 24,
+      "quote": "your blood pressure today is 152 over 94",
+      "verified": true,
+      "score": 1.0
+     }
+    ],
+    "support": "supported",
+    "flags": [],
+    "origin": "model",
+    "edited": false
+   },
+   {
+    "id": "o2",
+    "section": "objective",
+    "text": "Recheck blood pressure after 5 minutes rest: 148 over 92.",
+    "evidence": [
+     {
+      "turn": 24,
+      "quote": "it was 148 over 92",
+      "verified": true,
+      "score": 1.0
+     }
+    ],
+    "support": "supported",
+    "flags": [],
+    "origin": "model",
+    "edited": false
+   },
+   {
+    "id": "o3",
+    "section": "objective",
+    "text": "Pulse 72.",
+    "evidence": [
+     {
+      "turn": 24,
+      "quote": "Pulse is 72.",
+      "verified": true,
+      "score": 1.0
+     }
+    ],
+    "support": "supported",
+    "flags": [],
+    "origin": "model",
+    "edited": false
+   },
+   {
+    "id": "o4",
+    "section": "objective",
+    "text": "Weight 214 pounds, up 3 pounds from July.",
+    "evidence": [
+     {
+      "turn": 24,
+      "quote": "Weight is 214 pounds, that's up 3 pounds from July",
+      "verified": true,
+      "score": 1.0
+     }
+    ],
+    "support": "supported",
+    "flags": [],
+    "origin": "model",
+    "edited": false
+   },
+   {
+    "id": "o5",
+    "section": "objective",
+    "text": "Heart sounds regular, no murmurs.",
+    "evidence": [
+     {
+      "turn": 26,
+      "quote": "Heart sounds regular, no murmurs.",
+      "verified": true,
+      "score": 1.0
+     }
+    ],
+    "support": "supported",
+    "flags": [],
+    "origin": "model",
+    "edited": false
+   },
+   {
+    "id": "o6",
+    "section": "objective",
+    "text": "Lungs clear.",
+    "evidence": [
+     {
+      "turn": 26,
+      "quote": "Lungs are clear.",
+      "verified": true,
+      "score": 1.0
+     }
+    ],
+    "support": "supported",
+    "flags": [],
+    "origin": "model",
+    "edited": false
+   },
+   {
+    "id": "o7",
+    "section": "objective",
+    "text": "No leg swelling.",
+    "evidence": [
+     {
+      "turn": 26,
+      "quote": "And no swelling in your legs.",
+      "verified": true,
+      "score": 1.0
+     }
+    ],
+    "support": "supported",
+    "flags": [],
+    "origin": "model",
+    "edited": false
+   },
+   {
+    "id": "o8",
+    "section": "objective",
+    "text": "Potassium 4.4; creatinine 0.9.",
+    "evidence": [
+     {
+      "turn": 27,
+      "quote": "Your potassium was 4.4 and your kidney function was normal, creatinine 0.9",
+      "verified": true,
+      "score": 1.0
+     }
+    ],
+    "support": "supported",
+    "flags": [],
+    "origin": "model",
+    "edited": false
+   },
+   {
+    "id": "o9",
+    "section": "objective",
+    "text": "LDL cholesterol 88.",
+    "evidence": [
+     {
+      "turn": 27,
+      "quote": "And your LDL cholesterol was 88.",
+      "verified": true,
+      "score": 1.0
+     }
+    ],
+    "support": "supported",
+    "flags": [],
+    "origin": "model",
+    "edited": false
+   },
+   {
+    "id": "a1",
+    "section": "assessment",
+    "text": "Hypertension, elevated despite lisinopril 20 mg once daily; goal under 130 over 80.",
+    "evidence": [
+     {
+      "turn": 31,
+      "quote": "Your blood pressure is still above our goal of under 130 over 80, even on the 20 milligrams",
+      "verified": true,
+      "score": 1.0
+     }
+    ],
+    "support": "supported",
+    "flags": [],
+    "origin": "model",
+    "edited": false
+   },
+   {
+    "id": "p1",
+    "section": "plan",
+    "text": "Increase lisinopril to 40 mg once daily; take two 20 mg tablets together in the morning until the bottle runs out.",
+    "evidence": [
+     {
+      "turn": 31,
+      "quote": "I'd like to increase the lisinopril to 40 milligrams once a day. Until you run out, you can take two of your 20s together in the morning",
+      "verified": true,
+      "score": 1.0
+     }
+    ],
+    "support": "supported",
+    "flags": [],
+    "origin": "model",
+    "edited": false
+   },
+   {
+    "id": "p2",
+    "section": "plan",
+    "text": "Continue atorvastatin 40 mg at night.",
+    "evidence": [
+     {
+      "turn": 33,
+      "quote": "Keep the atorvastatin the same, 40 milligrams at night",
+      "verified": true,
+      "score": 1.0
+     }
+    ],
+    "support": "supported",
+    "flags": [],
+    "origin": "model",
+    "edited": false
+   },
+   {
+    "id": "p3",
+    "section": "plan",
+    "text": "Dietary counseling: limit sodium to less than 2000 mg per day; reduce deli meat and chips.",
+    "evidence": [
+     {
+      "turn": 33,
+      "quote": "aim for less than 2000 milligrams a day. The deli meat and chips are big ones",
+      "verified": true,
+      "score": 1.0
+     }
+    ],
+    "support": "supported",
+    "flags": [],
+    "origin": "model",
+    "edited": false
+   },
+   {
+    "id": "p4",
+    "section": "plan",
+    "text": "Repeat potassium and kidney function testing in about 2 weeks at lab on Brookfield Avenue, no appointment needed.",
+    "evidence": [
+     {
+      "turn": 35,
+      "quote": "I want a repeat potassium and kidney check in about 2 weeks",
+      "verified": true,
+      "score": 1.0
+     }
+    ],
+    "support": "supported",
+    "flags": [],
+    "origin": "model",
+    "edited": false
+   },
+   {
+    "id": "p5",
+    "section": "plan",
+    "text": "Patient advised to call or go to emergency room for systolic readings over 180, severe headache, chest pain, or one-sided weakness.",
+    "evidence": [
+     {
+      "turn": 37,
+      "quote": "If you get readings over 180 on the top, or a severe headache, chest pain, or weakness on one side, call us or go to the emergency room",
+      "verified": true,
+      "score": 1.0
+     }
+    ],
+    "support": "supported",
+    "flags": [],
+    "origin": "model",
+    "edited": false
+   },
+   {
+    "id": "p6",
+    "section": "plan",
+    "text": "Continue home blood pressure monitoring and bring log to next visit.",
+    "evidence": [
+     {
+      "turn": 37,
+      "quote": "Keep checking at home and bring your log next time",
+      "verified": true,
+      "score": 1.0
+     }
+    ],
+    "support": "supported",
+    "flags": [],
+    "origin": "model",
+    "edited": false
+   },
+   {
+    "id": "p7",
+    "section": "plan",
+    "text": "Follow-up in 6 weeks; cell phone number 555-0163 confirmed.",
+    "evidence": [
+     {
+      "turn": 39,
+      "quote": "And I'll see you back in 6 weeks",
+      "verified": true,
+      "score": 1.0
+     }
+    ],
+    "support": "supported",
+    "flags": [],
+    "origin": "model",
+    "edited": false
+   }
+  ],
+  "medications": [
+   {
+    "name": "lisinopril",
+    "dose": "20 mg",
+    "frequency": "once daily",
+    "route": "oral",
+    "status": "active",
+    "evidence": [
+     {
+      "turn": 7,
+      "quote": "It's 20. You bumped it up last time, remember?",
+      "verified": true,
+      "score": 1.0
+     }
+    ],
+    "flags": [
+     {
+      "kind": "dose_mismatch",
+      "severity": "warning",
+      "message": "The lisinopril dose was corrected in the conversation (10, 20); confirm the final dose.",
+      "acknowledged": false,
+      "detail": {
+       "doses": [
+        "10",
+        "20"
+       ],
+       "turn": 7
+      }
+     }
+    ]
+   },
+   {
+    "name": "lisinopril",
+    "dose": "40 mg",
+    "frequency": "once daily",
+    "route": "oral",
+    "status": "changed",
+    "evidence": [
+     {
+      "turn": 31,
+      "quote": "I'd like to increase the lisinopril to 40 milligrams once a day",
+      "verified": true,
+      "score": 1.0
+     }
+    ],
+    "flags": [
+     {
+      "kind": "dose_mismatch",
+      "severity": "warning",
+      "message": "The lisinopril dose was corrected in the conversation (10, 20); confirm the final dose.",
+      "acknowledged": false,
+      "detail": {
+       "doses": [
+        "10",
+        "20"
+       ],
+       "turn": 7
+      }
+     }
+    ]
+   },
+   {
+    "name": "atorvastatin",
+    "dose": "40 mg",
+    "frequency": "at night",
+    "route": "oral",
+    "status": "active",
+    "evidence": [
+     {
+      "turn": 33,
+      "quote": "Keep the atorvastatin the same, 40 milligrams at night",
+      "verified": true,
+      "score": 1.0
+     }
+    ],
+    "flags": []
+   }
+  ],
+  "allergies": [],
+  "after_visit_summary": "Your blood pressure is still higher than our goal of under 130 over 80, even though you have been taking lisinopril. Your heart, lungs, and blood tests for potassium and kidney function all look fine. Your cholesterol level is right where we want it.\n\nWe will increase your lisinopril to a stronger dose. Until your new bottle arrives, take two of your 20 mg tablets together each morning. Keep taking your cholesterol medicine, atorvastatin 40 mg, at night.\n\nPlease try to cut back on salt and aim for less than 2000 mg a day. Deli meat and chips are high in salt, so packing your lunch may help.\n\nCome back for blood work in about 2 weeks, and again in 6 weeks. Check your blood pressure at home and bring your log to your visits.\n\nCall us or go to the emergency room right away if your top number goes over 180, or if you get a severe headache, chest pain, or weakness on one side.",
+  "avs_flags": [],
+  "icd10": [
+   {
+    "system": "ICD-10-CM",
+    "code": "I10",
+    "description": "Essential (primary) hypertension",
+    "rank": 1,
+    "rationale": "Essential (primary) hypertension, established diagnosis, elevated despite lisinopril 20 mg",
+    "evidence": [
+     {
+      "turn": 4,
+      "quote": "So this is your blood pressure follow-up.",
+      "verified": true,
+      "score": 1.0
+     },
+     {
+      "turn": 24,
+      "quote": "your blood pressure today is 152 over 94, and when I rechecked it after you sat quietly for five minutes, it was 148 over 92.",
+      "verified": true,
+      "score": 1.0
+     },
+     {
+      "turn": 31,
+      "quote": "Your blood pressure is still above our goal of under 130 over 80, even on the 20 milligrams.",
+      "verified": true,
+      "score": 1.0
+     }
+    ],
+    "valid": true,
+    "billable": true,
+    "flags": [],
+    "accepted": null
+   },
+   {
+    "system": "ICD-10-CM",
+    "code": "Z79.82",
+    "description": "Long term (current) use of aspirin",
+    "rank": 2,
+    "rationale": "Long-term (current) use of antihypertensive agents (lisinopril)",
+    "evidence": [
+     {
+      "turn": 7,
+      "quote": "The lisinopril, 10 milligrams in the morning. Wait, no. It's 20.",
+      "verified": true,
+      "score": 1.0
+     },
+     {
+      "turn": 8,
+      "quote": "Right, 20 milligrams once a day. Are you taking it every day?",
+      "verified": true,
+      "score": 1.0
+     }
+    ],
+    "valid": true,
+    "billable": true,
+    "flags": [
+     {
+      "kind": "code_unsupported",
+      "severity": "warning",
+      "message": "The code's title shares no terms with the assessment; check it matches a diagnosis.",
+      "acknowledged": false,
+      "detail": {}
+     }
+    ],
+    "accepted": null
+   },
+   {
+    "system": "ICD-10-CM",
+    "code": "Z83.448",
+    "description": "",
+    "rank": 3,
+    "rationale": "Family history of other disorders of circulatory system (father had a stroke)",
+    "evidence": [
+     {
+      "turn": 22,
+      "quote": "And you mentioned your dad before, right?",
+      "verified": true,
+      "score": 1.0
+     },
+     {
+      "turn": 23,
+      "quote": "Yeah, my father had a stroke at 62.",
+      "verified": true,
+      "score": 1.0
+     }
+    ],
+    "valid": false,
+    "billable": false,
+    "flags": [
+     {
+      "kind": "code_invalid",
+      "severity": "error",
+      "message": "Z83.448 is not in the ICD-10-CM FY2027 (October 1, 2026 - September 30, 2027)",
+      "acknowledged": false,
+      "detail": {}
+     }
+    ],
+    "accepted": null
+   }
+  ],
+  "em": {
+   "system": "CPT",
+   "code": "99213",
+   "description": "Established patient office visit, low-complexity decision making",
+   "rank": 1,
+   "rationale": "Established patient visit for uncomplicated hypertension with 1-2 low-to-moderate complexity problems (HTN, hyperlipidemia), moderate risk via prescription drug management (increasing lisinopril; labs ordered and reviewed), supporting 99213.",
+   "evidence": [],
+   "valid": true,
+   "billable": true,
+   "flags": [
+    {
+     "kind": "em_mismatch",
+     "severity": "warning",
+     "message": "The rule-based MDM estimate is moderate (99214): problems: chronic illness not at goal; data: limited (tests or an independent historian); risk: prescription drug management",
+     "acknowledged": false,
+     "detail": {
+      "estimate": "99214"
+     }
+    }
+   ],
+   "accepted": null
+  },
+  "procedures": [],
+  "mdm": {
+   "problems": "moderate",
+   "data": "low",
+   "risk": "moderate",
+   "level": "moderate",
+   "code": "99214",
+   "reasons": [
+    "problems: chronic illness not at goal",
+    "data: limited (tests or an independent historian)",
+    "risk: prescription drug management"
+   ]
+  },
+  "section_status": {
+   "subjective": "draft",
+   "objective": "draft",
+   "assessment": "draft",
+   "plan": "draft"
+  },
+  "model": "openrouter/apodex/apodex-1.1-mini:free",
+  "created_at": "2026-10-13T05:45:01.999325Z",
+  "signed_by": null,
+  "signed_at": null,
+  "timings": {
+   "phi_masking": 0.048,
+   "llm_note": 19.27,
+   "guards_note": 0.071,
+   "llm_codes": 3.19,
+   "guards_codes": 0.035,
+   "total": 22.614,
+   "wall": 23.49
+  },
+  "usage": {
+   "model_ms": 22460,
+   "input_tokens": 5502,
+   "output_tokens": 2610,
+   "calls": 2
+  },
+  "phi": {
+   "NAME": 2,
+   "DOB": 1,
+   "DATE": 3,
+   "ADDRESS": 1,
+   "PHONE": 1
+  }
+ },
+ "vault": {
+  "originals": {
+   "[PATIENT]": "Darnell Washington",
+   "[DOB]": "February 9th, 1968",
+   "[DATE_1]": "July",
+   "[NAME_1]": "Lorraine",
+   "[DATE_2]": "Halloween",
+   "[ADDRESS_1]": "Brookfield Avenue",
+   "[DATE_3]": "the 19th",
+   "[PHONE_1]": "555-0163"
+  },
+  "surfaces": {
+   "[PATIENT]": [
+    "Darnell",
+    "Darnell Washington",
+    "Washington"
+   ],
+   "[DOB]": [
+    "February 9th, 1968"
+   ],
+   "[DATE_1]": [
+    "July"
+   ],
+   "[NAME_1]": [
+    "Lorraine"
+   ],
+   "[DATE_2]": [
+    "Halloween"
+   ],
+   "[ADDRESS_1]": [
+    "Brookfield Avenue"
+   ],
+   "[DATE_3]": [
+    "The 19th",
+    "the 19th"
+   ],
+   "[PHONE_1]": [
+    "555-0163"
+   ]
+  },
+  "types": {
+   "[PATIENT]": "NAME",
+   "[DOB]": "DOB",
+   "[DATE_1]": "DATE",
+   "[NAME_1]": "NAME",
+   "[DATE_2]": "DATE",
+   "[ADDRESS_1]": "ADDRESS",
+   "[DATE_3]": "DATE",
+   "[PHONE_1]": "PHONE"
+  },
+  "counters": {
+   "DATE": 3,
+   "NAME": 1,
+   "ADDRESS": 1,
+   "PHONE": 1
+  }
+ },
+ "score": {
+  "case": "pc-01",
+  "specialty": "primary_care",
+  "facts": 30,
+  "found": 30,
+  "found_in_section": 29,
+  "negation_errors": [],
+  "trap_errors": [],
+  "missed": [],
+  "statements": 25,
+  "statements_matching_gold": 25,
+  "unsupported": 0,
+  "partial": 0,
+  "flags": {
+   "dose_mismatch": 2
+  },
+  "meds": 2,
+  "meds_found": 2,
+  "meds_dose_correct": 1,
+  "icd_primary": "I10",
+  "icd_suggested": [
+   "I10",
+   "Z79.82",
+   "Z83.448"
+  ],
+  "icd_top1": true,
+  "icd_top3": true,
+  "icd_top3_lenient": true,
+  "icd_top3_category": true,
+  "icd_gold_recall": 0.5,
+  "icd_invalid": 1,
+  "em_gold": "99214",
+  "em_suggested": "99213",
+  "em_exact": false,
+  "em_within_one": true,
+  "em_rule_estimate": "99214",
+  "procedures_gold": 0,
+  "procedures_found": 0
+ },
+ "egress_residue": {}
+}

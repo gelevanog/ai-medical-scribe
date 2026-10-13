@@ -1,0 +1,798 @@
+{
+ "note": {
+  "visit_id": "mh-01",
+  "statements": [
+   {
+    "id": "s1",
+    "section": "subjective",
+    "text": "Does not enjoy anything anymore",
+    "evidence": [
+     {
+      "turn": 5,
+      "quote": "I don't enjoy anything anymore.",
+      "verified": true,
+      "score": 1.0
+     }
+    ],
+    "support": "supported",
+    "flags": [],
+    "origin": "model",
+    "edited": false
+   },
+   {
+    "id": "s2",
+    "section": "subjective",
+    "text": "They used to paint on the weekends and they haven't touched it since June",
+    "evidence": [
+     {
+      "turn": 5,
+      "quote": "I used to paint on the weekends and I haven't touched it since June.",
+      "verified": true,
+      "score": 1.0
+     }
+    ],
+    "support": "supported",
+    "flags": [],
+    "origin": "model",
+    "edited": false
+   },
+   {
+    "id": "s3",
+    "section": "subjective",
+    "text": "Low energy, all the time",
+    "evidence": [
+     {
+      "turn": 11,
+      "quote": "Low energy, all the time.",
+      "verified": true,
+      "score": 1.0
+     }
+    ],
+    "support": "supported",
+    "flags": [],
+    "origin": "model",
+    "edited": false
+   },
+   {
+    "id": "s4",
+    "section": "subjective",
+    "text": "Denies depression",
+    "evidence": [
+     {
+      "turn": 14,
+      "quote": "That makes sense. Have you ever had a stretch like this before, or been treated for depression or",
+      "verified": true,
+      "score": 1.0
+     },
+     {
+      "turn": 15,
+      "quote": "No, this is the first time.",
+      "verified": true,
+      "score": 1.0
+     }
+    ],
+    "support": "supported",
+    "flags": [],
+    "origin": "model",
+    "edited": false
+   },
+   {
+    "id": "s5",
+    "section": "subjective",
+    "text": "Denies anxiety",
+    "evidence": [
+     {
+      "turn": 14,
+      "quote": "That makes sense. Have you ever had a stretch like this before, or been treated for depression or",
+      "verified": true,
+      "score": 1.0
+     },
+     {
+      "turn": 15,
+      "quote": "No, this is the first time.",
+      "verified": true,
+      "score": 1.0
+     }
+    ],
+    "support": "supported",
+    "flags": [],
+    "origin": "model",
+    "edited": false
+   },
+   {
+    "id": "s6",
+    "section": "subjective",
+    "text": "Denies racing thoughts",
+    "evidence": [
+     {
+      "turn": 16,
+      "quote": "Have you ever had times where you felt the opposite, like really high energy, barely needing sleep for",
+      "verified": true,
+      "score": 1.0
+     },
+     {
+      "turn": 17,
+      "quote": "No, never.",
+      "verified": true,
+      "score": 1.0
+     }
+    ],
+    "support": "supported",
+    "flags": [],
+    "origin": "model",
+    "edited": false
+   },
+   {
+    "id": "s7",
+    "section": "subjective",
+    "text": "Their sister Paola takes something for anxiety, does not know what",
+    "evidence": [
+     {
+      "turn": 19,
+      "quote": "And my sister Paola takes something for anxiety, I don't know what.",
+      "verified": true,
+      "score": 1.0
+     }
+    ],
+    "support": "supported",
+    "flags": [],
+    "origin": "model",
+    "edited": false
+   },
+   {
+    "id": "s8",
+    "section": "subjective",
+    "text": "Denies better off dead",
+    "evidence": [
+     {
+      "turn": 20,
+      "quote": "Okay, that's helpful. Now I'm going to ask a couple of questions I ask everyone. Have you had",
+      "verified": true,
+      "score": 1.0
+     },
+     {
+      "turn": 21,
+      "quote": "No. I feel awful, but no, nothing like that.",
+      "verified": true,
+      "score": 1.0
+     }
+    ],
+    "support": "supported",
+    "flags": [],
+    "origin": "model",
+    "edited": false
+   },
+   {
+    "id": "s9",
+    "section": "subjective",
+    "text": "Denies hurting yourself",
+    "evidence": [
+     {
+      "turn": 20,
+      "quote": "Okay, that's helpful. Now I'm going to ask a couple of questions I ask everyone. Have you had",
+      "verified": true,
+      "score": 1.0
+     },
+     {
+      "turn": 21,
+      "quote": "No. I feel awful, but no, nothing like that.",
+      "verified": true,
+      "score": 1.0
+     }
+    ],
+    "support": "supported",
+    "flags": [],
+    "origin": "model",
+    "edited": false
+   },
+   {
+    "id": "s10",
+    "section": "subjective",
+    "text": "Denies hurting anyone else",
+    "evidence": [
+     {
+      "turn": 22,
+      "quote": "Any thoughts of hurting anyone else?",
+      "verified": true,
+      "score": 1.0
+     },
+     {
+      "turn": 23,
+      "quote": "No.",
+      "verified": true,
+      "score": 1.0
+     }
+    ],
+    "support": "supported",
+    "flags": [],
+    "origin": "model",
+    "edited": false
+   },
+   {
+    "id": "s11",
+    "section": "subjective",
+    "text": "Maybe a glass of wine once a week",
+    "evidence": [
+     {
+      "turn": 25,
+      "quote": "Maybe a glass of wine once a week.",
+      "verified": true,
+      "score": 1.0
+     }
+    ],
+    "support": "supported",
+    "flags": [],
+    "origin": "model",
+    "edited": false
+   },
+   {
+    "id": "s12",
+    "section": "subjective",
+    "text": "Is allergic to penicillin, they break out in hives",
+    "evidence": [
+     {
+      "turn": 27,
+      "quote": "I'm allergic to penicillin, I break out in hives.",
+      "verified": true,
+      "score": 1.0
+     }
+    ],
+    "support": "supported",
+    "flags": [],
+    "origin": "model",
+    "edited": false
+   },
+   {
+    "id": "o1",
+    "section": "objective",
+    "text": "So the questionnaire you filled out in the waiting room, the PHQ-9, your score is 15, which is in the moderate range",
+    "evidence": [
+     {
+      "turn": 28,
+      "quote": "So the questionnaire you filled out in the waiting room, the PHQ-9, your score is 15, which is",
+      "verified": true,
+      "score": 1.0
+     }
+    ],
+    "support": "supported",
+    "flags": [],
+    "origin": "model",
+    "edited": false
+   },
+   {
+    "id": "o2",
+    "section": "objective",
+    "text": "Your GAD-7 anxiety score is 6, so mild",
+    "evidence": [
+     {
+      "turn": 28,
+      "quote": "Your GAD-7 anxiety score is 6, so mild.",
+      "verified": true,
+      "score": 1.0
+     }
+    ],
+    "support": "supported",
+    "flags": [],
+    "origin": "model",
+    "edited": false
+   },
+   {
+    "id": "o3",
+    "section": "objective",
+    "text": "Your blood pressure today is 116 over 74, pulse 72, and your weight is 138 pounds",
+    "evidence": [
+     {
+      "turn": 28,
+      "quote": "Your blood pressure today is 116 over 74, pulse 72, and your weight is 138 pounds.",
+      "verified": true,
+      "score": 1.0
+     }
+    ],
+    "support": "supported",
+    "flags": [],
+    "origin": "model",
+    "edited": false
+   },
+   {
+    "id": "o4",
+    "section": "objective",
+    "text": "And so you know what I'm noting, you're well groomed, your speech is normal, your mood is sad and your affect is a bit flat, and your thinking is clear and organized",
+    "evidence": [
+     {
+      "turn": 28,
+      "quote": "And so you know what I'm noting, you're well groomed, your speech is normal, your mood is sad",
+      "verified": true,
+      "score": 1.0
+     }
+    ],
+    "support": "supported",
+    "flags": [],
+    "origin": "model",
+    "edited": false
+   },
+   {
+    "id": "a1",
+    "section": "assessment",
+    "text": "So here's what I think",
+    "evidence": [
+     {
+      "turn": 30,
+      "quote": "So here's what I think.",
+      "verified": true,
+      "score": 1.0
+     }
+    ],
+    "support": "supported",
+    "flags": [],
+    "origin": "model",
+    "edited": false
+   },
+   {
+    "id": "a2",
+    "section": "assessment",
+    "text": "This looks like major depression, a single episode, moderate",
+    "evidence": [
+     {
+      "turn": 30,
+      "quote": "This looks like major depression, a single episode, moderate.",
+      "verified": true,
+      "score": 1.0
+     }
+    ],
+    "support": "supported",
+    "flags": [],
+    "origin": "model",
+    "edited": false
+   },
+   {
+    "id": "p1",
+    "section": "plan",
+    "text": "Now I'm going to ask a couple of questions I ask everyone",
+    "evidence": [
+     {
+      "turn": 20,
+      "quote": "Now I'm going to ask a couple of questions I ask everyone.",
+      "verified": true,
+      "score": 1.0
+     }
+    ],
+    "support": "supported",
+    "flags": [],
+    "origin": "model",
+    "edited": false
+   },
+   {
+    "id": "p2",
+    "section": "plan",
+    "text": "What I'd like to do is start sertraline, 25 milligrams once a day for one week, then go up to 50 milligrams once a day",
+    "evidence": [
+     {
+      "turn": 30,
+      "quote": "What I'd like to do is start sertraline, 25 milligrams once a day for one week, then go",
+      "verified": true,
+      "score": 1.0
+     }
+    ],
+    "support": "supported",
+    "flags": [],
+    "origin": "model",
+    "edited": false
+   },
+   {
+    "id": "p3",
+    "section": "plan",
+    "text": "It can take 4 to 6 weeks to really feel the difference",
+    "evidence": [
+     {
+      "turn": 30,
+      "quote": "It can take 4 to 6 weeks to really feel the difference.",
+      "verified": true,
+      "score": 1.0
+     }
+    ],
+    "support": "supported",
+    "flags": [],
+    "origin": "model",
+    "edited": false
+   },
+   {
+    "id": "p4",
+    "section": "plan",
+    "text": "Take it with breakfast",
+    "evidence": [
+     {
+      "turn": 32,
+      "quote": "Take it with breakfast.",
+      "verified": true,
+      "score": 1.0
+     }
+    ],
+    "support": "supported",
+    "flags": [],
+    "origin": "model",
+    "edited": false
+   },
+   {
+    "id": "p5",
+    "section": "plan",
+    "text": "And because of your aunt's history, if you ever notice you're suddenly wired, not sleeping but not tired, call us right away",
+    "evidence": [
+     {
+      "turn": 32,
+      "quote": "And because of your aunt's history, if you ever notice you're suddenly wired, not sleeping but not tired,",
+      "verified": true,
+      "score": 1.0
+     }
+    ],
+    "support": "supported",
+    "flags": [],
+    "origin": "model",
+    "edited": false
+   },
+   {
+    "id": "p6",
+    "section": "plan",
+    "text": "I'd also like you to start therapy, so I'm putting in a referral to our therapy team for weekly sessions",
+    "evidence": [
+     {
+      "turn": 34,
+      "quote": "I'd also like you to start therapy, so I'm putting in a referral to our therapy team for",
+      "verified": true,
+      "score": 1.0
+     }
+    ],
+    "support": "supported",
+    "flags": [],
+    "origin": "model",
+    "edited": false
+   },
+   {
+    "id": "p7",
+    "section": "plan",
+    "text": "And I'm giving you this safety plan card",
+    "evidence": [
+     {
+      "turn": 34,
+      "quote": "And I'm giving you this safety plan card.",
+      "verified": true,
+      "score": 1.0
+     }
+    ],
+    "support": "supported",
+    "flags": [],
+    "origin": "model",
+    "edited": false
+   },
+   {
+    "id": "p8",
+    "section": "plan",
+    "text": "If you ever do have thoughts of hurting yourself, you can call or text 988, the crisis line, any time, or go to the nearest emergency room",
+    "evidence": [
+     {
+      "turn": 34,
+      "quote": "If you ever do have thoughts of hurting yourself, you can call or text 988, the crisis line,",
+      "verified": true,
+      "score": 1.0
+     }
+    ],
+    "support": "supported",
+    "flags": [],
+    "origin": "model",
+    "edited": false
+   },
+   {
+    "id": "p9",
+    "section": "plan",
+    "text": "Let's see you back in 4 weeks, on October 19th, to check how you're doing on the medicine",
+    "evidence": [
+     {
+      "turn": 40,
+      "quote": "Let's see you back in 4 weeks, on October 19th, to check how you're doing on the medicine.",
+      "verified": true,
+      "score": 1.0
+     }
+    ],
+    "support": "supported",
+    "flags": [],
+    "origin": "model",
+    "edited": false
+   }
+  ],
+  "medications": [
+   {
+    "name": "sertraline",
+    "dose": "25 milligrams",
+    "frequency": "once a day",
+    "route": "",
+    "status": "new",
+    "evidence": [
+     {
+      "turn": 30,
+      "quote": "What I'd like to do is start sertraline, 25 milligrams once a day for one week, then go",
+      "verified": true,
+      "score": 1.0
+     }
+    ],
+    "flags": []
+   }
+  ],
+  "allergies": [
+   {
+    "substance": "penicillin",
+    "reaction": "hives",
+    "evidence": [
+     {
+      "turn": 27,
+      "quote": "I'm allergic to penicillin, I break out in hives.",
+      "verified": true,
+      "score": 1.0
+     }
+    ]
+   }
+  ],
+  "after_visit_summary": "Thank you for coming in today. Here is what we talked about. Now I'm going to ask a couple of questions I ask everyone. What I'd like to do is start sertraline, 25 milligrams once a day for one week, then go up to 50 milligrams once a day. It can take 4 to 6 weeks to really feel the difference. Take it with breakfast. And because of your aunt's history, if you ever notice you're suddenly wired, not sleeping but not tired, call us right away. I'd also like you to start therapy, so I'm putting in a referral to our therapy team for weekly sessions.",
+  "avs_flags": [],
+  "icd10": [
+   {
+    "system": "ICD-10-CM",
+    "code": "F32.1",
+    "description": "Major depressive disorder, single episode, moderate",
+    "rank": 1,
+    "rationale": "Matches the assessment: Major depressive disorder, single episode, moderate",
+    "evidence": [],
+    "valid": true,
+    "billable": true,
+    "flags": [
+     {
+      "kind": "code_unsupported",
+      "severity": "warning",
+      "message": "No verified quote supports this code.",
+      "acknowledged": false,
+      "detail": {}
+     }
+    ],
+    "accepted": null
+   },
+   {
+    "system": "ICD-10-CM",
+    "code": "F32.0",
+    "description": "Major depressive disorder, single episode, mild",
+    "rank": 2,
+    "rationale": "Matches the assessment: Major depressive disorder, single episode, mild",
+    "evidence": [],
+    "valid": true,
+    "billable": true,
+    "flags": [
+     {
+      "kind": "code_unsupported",
+      "severity": "warning",
+      "message": "No verified quote supports this code.",
+      "acknowledged": false,
+      "detail": {}
+     }
+    ],
+    "accepted": null
+   },
+   {
+    "system": "ICD-10-CM",
+    "code": "F32.9",
+    "description": "Major depressive disorder, single episode, unspecified",
+    "rank": 3,
+    "rationale": "Matches the assessment: Major depressive disorder, single episode, unspecified",
+    "evidence": [],
+    "valid": true,
+    "billable": true,
+    "flags": [
+     {
+      "kind": "code_unsupported",
+      "severity": "warning",
+      "message": "No verified quote supports this code.",
+      "acknowledged": false,
+      "detail": {}
+     }
+    ],
+    "accepted": null
+   }
+  ],
+  "em": {
+   "system": "CPT",
+   "code": "99204",
+   "description": "New patient office visit, moderate-complexity decision making",
+   "rank": 1,
+   "rationale": "Rule-based: prescription drug management",
+   "evidence": [],
+   "valid": true,
+   "billable": true,
+   "flags": [
+    {
+     "kind": "em_mismatch",
+     "severity": "warning",
+     "message": "The rule-based MDM estimate is low (99203): problems: one stable chronic illness or two self-limited problems; risk: prescription drug management",
+     "acknowledged": false,
+     "detail": {
+      "estimate": "99203"
+     }
+    }
+   ],
+   "accepted": null
+  },
+  "procedures": [
+   {
+    "system": "CPT",
+    "code": "96127",
+    "description": "Brief emotional or behavioral assessment with a standardized instrument (e.g. PHQ-9, GAD-7)",
+    "rank": 1,
+    "rationale": "Performed today",
+    "evidence": [
+     {
+      "turn": 28,
+      "quote": "Got it. So the questionnaire you filled out in the waiting room, the PHQ-9, your score is 15,",
+      "verified": true,
+      "score": 1.0
+     }
+    ],
+    "valid": true,
+    "billable": true,
+    "flags": [],
+    "accepted": null
+   }
+  ],
+  "mdm": {
+   "problems": "low",
+   "data": "straightforward",
+   "risk": "moderate",
+   "level": "low",
+   "code": "99203",
+   "reasons": [
+    "problems: one stable chronic illness or two self-limited problems",
+    "risk: prescription drug management"
+   ]
+  },
+  "section_status": {
+   "subjective": "draft",
+   "objective": "draft",
+   "assessment": "draft",
+   "plan": "draft"
+  },
+  "model": "fake/fake-scribe",
+  "created_at": "2026-10-13T05:44:48.205310Z",
+  "signed_by": null,
+  "signed_at": null,
+  "timings": {
+   "phi_masking": 0.03,
+   "llm_note": 0.019,
+   "guards_note": 0.075,
+   "llm_codes": 0.008,
+   "guards_codes": 0.048,
+   "total": 0.18,
+   "wall": 0.203
+  },
+  "usage": {
+   "model_ms": 27,
+   "input_tokens": 3677,
+   "output_tokens": 1742,
+   "calls": 2
+  },
+  "phi": {
+   "NAME": 3,
+   "DOB": 1,
+   "DATE": 2,
+   "ORG": 2,
+   "ADDRESS": 1,
+   "PHONE": 1
+  }
+ },
+ "vault": {
+  "originals": {
+   "[NAME_1]": "Priya Natarajan",
+   "[PATIENT]": "Daniela Restrepo",
+   "[DOB]": "May 8th, 1992",
+   "[DATE_1]": "June",
+   "[ORG_1]": "Halvorsen Engineering",
+   "[NAME_2]": "Paola",
+   "[ORG_2]": "Lakeview Pharmacy",
+   "[ADDRESS_1]": "4120 Belmont Avenue",
+   "[PHONE_1]": "773-555-0164",
+   "[DATE_2]": "October 19th"
+  },
+  "surfaces": {
+   "[NAME_1]": [
+    "Priya Natarajan"
+   ],
+   "[PATIENT]": [
+    "Daniela",
+    "Daniela Restrepo"
+   ],
+   "[DOB]": [
+    "May 8th, 1992"
+   ],
+   "[DATE_1]": [
+    "June"
+   ],
+   "[ORG_1]": [
+    "Halvorsen Engineering"
+   ],
+   "[NAME_2]": [
+    "Paola"
+   ],
+   "[ORG_2]": [
+    "Lakeview Pharmacy"
+   ],
+   "[ADDRESS_1]": [
+    "4120 Belmont Avenue"
+   ],
+   "[PHONE_1]": [
+    "773-555-0164"
+   ],
+   "[DATE_2]": [
+    "October 19th"
+   ]
+  },
+  "types": {
+   "[NAME_1]": "NAME",
+   "[PATIENT]": "NAME",
+   "[DOB]": "DOB",
+   "[DATE_1]": "DATE",
+   "[ORG_1]": "ORG",
+   "[NAME_2]": "NAME",
+   "[ORG_2]": "ORG",
+   "[ADDRESS_1]": "ADDRESS",
+   "[PHONE_1]": "PHONE",
+   "[DATE_2]": "DATE"
+  },
+  "counters": {
+   "NAME": 2,
+   "DATE": 2,
+   "ORG": 2,
+   "ADDRESS": 1,
+   "PHONE": 1
+  }
+ },
+ "score": {
+  "case": "mh-01",
+  "specialty": "mental_health",
+  "facts": 27,
+  "found": 19,
+  "found_in_section": 19,
+  "negation_errors": [],
+  "trap_errors": [],
+  "missed": [
+   "f1 [subjective] Depressed mood for about 3 months",
+   "f3 [subjective] Early morning awakening around 4 am, unable to return to sleep",
+   "f4 [subjective] Decreased appetite with about 8 lb unintentional weight loss",
+   "f6 [subjective] Onset after end of a 5-year relationship in the spring",
+   "f7 [subjective] No prior depressive episodes or psychiatric treatment",
+   "f9 [subjective] Family history of bipolar disorder in paternal aunt",
+   "f13 [subjective] Denies drug use",
+   "f15 [subjective] No other medical problems"
+  ],
+  "statements": 27,
+  "statements_matching_gold": 20,
+  "unsupported": 0,
+  "partial": 0,
+  "flags": {},
+  "meds": 1,
+  "meds_found": 1,
+  "meds_dose_correct": 1,
+  "icd_primary": "F32.1",
+  "icd_suggested": [
+   "F32.1",
+   "F32.0",
+   "F32.9"
+  ],
+  "icd_top1": true,
+  "icd_top3": true,
+  "icd_top3_lenient": true,
+  "icd_top3_category": true,
+  "icd_gold_recall": 1.0,
+  "icd_invalid": 0,
+  "em_gold": "99204",
+  "em_suggested": "99204",
+  "em_exact": true,
+  "em_within_one": true,
+  "em_rule_estimate": "99203",
+  "procedures_gold": 1,
+  "procedures_found": 1
+ },
+ "egress_residue": {}
+}

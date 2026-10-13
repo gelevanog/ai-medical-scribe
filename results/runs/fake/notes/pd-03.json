@@ -1,0 +1,629 @@
+{
+ "note": {
+  "visit_id": "pd-03",
+  "statements": [
+   {
+    "id": "s1",
+    "section": "subjective",
+    "text": "She's been going only every 3 or 4 days for maybe 2 months, and it's hard, and she cries when she goes",
+    "evidence": [
+     {
+      "turn": 3,
+      "quote": "She's been going only every 3 or 4 days for maybe 2 months, and it's hard, and she",
+      "verified": true,
+      "score": 1.0
+     }
+    ],
+    "support": "supported",
+    "flags": [],
+    "origin": "model",
+    "edited": false
+   },
+   {
+    "id": "s2",
+    "section": "subjective",
+    "text": "Denies blood in the stool",
+    "evidence": [
+     {
+      "turn": 4,
+      "quote": "That's really common at this age. Any blood in the stool or on the toilet paper?",
+      "verified": true,
+      "score": 1.0
+     },
+     {
+      "turn": 5,
+      "quote": "No, I haven't seen any.",
+      "verified": true,
+      "score": 1.0
+     }
+    ],
+    "support": "supported",
+    "flags": [],
+    "origin": "model",
+    "edited": false
+   },
+   {
+    "id": "s3",
+    "section": "subjective",
+    "text": "Denies belly pain",
+    "evidence": [
+     {
+      "turn": 6,
+      "quote": "Any accidents during the day, or belly pain between poops?",
+      "verified": true,
+      "score": 1.0
+     },
+     {
+      "turn": 7,
+      "quote": "No accidents.",
+      "verified": true,
+      "score": 1.0
+     }
+    ],
+    "support": "supported",
+    "flags": [],
+    "origin": "model",
+    "edited": false
+   },
+   {
+    "id": "s4",
+    "section": "subjective",
+    "text": "Daytime potty trained since 3",
+    "evidence": [
+     {
+      "turn": 15,
+      "quote": "Daytime potty trained since 3.",
+      "verified": true,
+      "score": 1.0
+     }
+    ],
+    "support": "supported",
+    "flags": [],
+    "origin": "model",
+    "edited": false
+   },
+   {
+    "id": "s5",
+    "section": "subjective",
+    "text": "Denies snore",
+    "evidence": [
+     {
+      "turn": 16,
+      "quote": "Those are all right on track. How's sleep, does she snore?",
+      "verified": true,
+      "score": 1.0
+     },
+     {
+      "turn": 17,
+      "quote": "No snoring.",
+      "verified": true,
+      "score": 1.0
+     }
+    ],
+    "support": "supported",
+    "flags": [],
+    "origin": "model",
+    "edited": false
+   },
+   {
+    "id": "s6",
+    "section": "subjective",
+    "text": "Was a little worried about her eyes, because their husband had a lazy eye as a kid and had to wear a patch",
+    "evidence": [
+     {
+      "turn": 23,
+      "quote": "I was a little worried about her eyes, because my husband had a lazy eye as a kid",
+      "verified": true,
+      "score": 1.0
+     }
+    ],
+    "support": "supported",
+    "flags": [],
+    "origin": "model",
+    "edited": false
+   },
+   {
+    "id": "s7",
+    "section": "subjective",
+    "text": "She had a cough back in September, but that's totally gone, so she's okay to get them, right?",
+    "evidence": [
+     {
+      "turn": 33,
+      "quote": "She had a cough back in September, but that's totally gone, so she's okay to get them, right?",
+      "verified": true,
+      "score": 1.0
+     }
+    ],
+    "support": "supported",
+    "flags": [],
+    "origin": "model",
+    "edited": false
+   },
+   {
+    "id": "o1",
+    "section": "objective",
+    "text": "Weight is 17 kilograms, about 37 and a half pounds, height is 103 centimeters, and her BMI is around the 65th percentile, so she's growing nicely",
+    "evidence": [
+     {
+      "turn": 22,
+      "quote": "Weight is 17 kilograms, about 37 and a half pounds, height is 103 centimeters, and her BMI is",
+      "verified": true,
+      "score": 1.0
+     }
+    ],
+    "support": "partial",
+    "flags": [
+     {
+      "kind": "partial_support",
+      "severity": "error",
+      "message": "Quoted turn does not contain 37; check against the transcript.",
+      "acknowledged": false,
+      "detail": {
+       "numbers_not_in_evidence": [
+        "37"
+       ]
+      }
+     }
+    ],
+    "origin": "model",
+    "edited": false
+   },
+   {
+    "id": "o2",
+    "section": "objective",
+    "text": "Blood pressure is 94 over 56",
+    "evidence": [
+     {
+      "turn": 22,
+      "quote": "Blood pressure is 94 over 56.",
+      "verified": true,
+      "score": 1.0
+     }
+    ],
+    "support": "supported",
+    "flags": [],
+    "origin": "model",
+    "edited": false
+   },
+   {
+    "id": "o3",
+    "section": "objective",
+    "text": "Her eyes line up well and the screen is normal",
+    "evidence": [
+     {
+      "turn": 24,
+      "quote": "Her eyes line up well and the screen is normal.",
+      "verified": true,
+      "score": 1.0
+     }
+    ],
+    "support": "supported",
+    "flags": [],
+    "origin": "model",
+    "edited": false
+   },
+   {
+    "id": "o4",
+    "section": "objective",
+    "text": "Heart sounds normal, no murmur",
+    "evidence": [
+     {
+      "turn": 24,
+      "quote": "Heart sounds normal, no murmur.",
+      "verified": true,
+      "score": 1.0
+     }
+    ],
+    "support": "supported",
+    "flags": [],
+    "origin": "model",
+    "edited": false
+   },
+   {
+    "id": "o5",
+    "section": "objective",
+    "text": "Lungs are clear",
+    "evidence": [
+     {
+      "turn": 24,
+      "quote": "Lungs are clear.",
+      "verified": true,
+      "score": 1.0
+     }
+    ],
+    "support": "supported",
+    "flags": [],
+    "origin": "model",
+    "edited": false
+   },
+   {
+    "id": "o6",
+    "section": "objective",
+    "text": "Her bottom looks normal, no tears or fissures",
+    "evidence": [
+     {
+      "turn": 24,
+      "quote": "Her bottom looks normal, no tears or fissures.",
+      "verified": true,
+      "score": 1.0
+     }
+    ],
+    "support": "supported",
+    "flags": [],
+    "origin": "model",
+    "edited": false
+   },
+   {
+    "id": "o7",
+    "section": "objective",
+    "text": "She might get a sore leg or a low fever, and with the MMR part, a rash or fever 1 to 2 weeks later is possible",
+    "evidence": [
+     {
+      "turn": 30,
+      "quote": "She might get a sore leg or a low fever, and with the MMR part, a rash or",
+      "verified": true,
+      "score": 1.0
+     }
+    ],
+    "support": "supported",
+    "flags": [],
+    "origin": "model",
+    "edited": false
+   },
+   {
+    "id": "o8",
+    "section": "objective",
+    "text": "If she's uncomfortable, children's Tylenol, about 8 milliliters for her weight",
+    "evidence": [
+     {
+      "turn": 30,
+      "quote": "If she's uncomfortable, children's Tylenol, about 8 milliliters for her weight.",
+      "verified": true,
+      "score": 1.0
+     }
+    ],
+    "support": "supported",
+    "flags": [],
+    "origin": "model",
+    "edited": false
+   },
+   {
+    "id": "p1",
+    "section": "plan",
+    "text": "With the hard stools and the holding, I'd like to start MiraLAX",
+    "evidence": [
+     {
+      "turn": 26,
+      "quote": "With the hard stools and the holding, I'd like to start MiraLAX.",
+      "verified": true,
+      "score": 1.0
+     }
+    ],
+    "support": "supported",
+    "flags": [],
+    "origin": "model",
+    "edited": false
+   },
+   {
+    "id": "p2",
+    "section": "plan",
+    "text": "If it isn't better in a month, or you see blood, send me a message and we'll go from there",
+    "evidence": [
+     {
+      "turn": 28,
+      "quote": "If it isn't better in a month, or you see blood, send me a message and we'll go",
+      "verified": true,
+      "score": 1.0
+     }
+    ],
+    "support": "supported",
+    "flags": [],
+    "origin": "model",
+    "edited": false
+   }
+  ],
+  "medications": [
+   {
+    "name": "multivitamin",
+    "dose": "",
+    "frequency": "a day",
+    "route": "",
+    "status": "active",
+    "evidence": [
+     {
+      "turn": 11,
+      "quote": "Just a kids' multivitamin gummy, 1 a day.",
+      "verified": true,
+      "score": 1.0
+     }
+    ],
+    "flags": []
+   },
+   {
+    "name": "polyethylene glycol",
+    "dose": "",
+    "frequency": "",
+    "route": "",
+    "status": "new",
+    "evidence": [
+     {
+      "turn": 26,
+      "quote": "With the hard stools and the holding, I'd like to start MiraLAX.",
+      "verified": true,
+      "score": 1.0
+     }
+    ],
+    "flags": []
+   },
+   {
+    "name": "mmrv vaccine",
+    "dose": "",
+    "frequency": "",
+    "route": "",
+    "status": "active",
+    "evidence": [
+     {
+      "turn": 30,
+      "quote": "One is DTaP and polio combined, the other is MMR and chickenpox combined.",
+      "verified": true,
+      "score": 1.0
+     }
+    ],
+    "flags": []
+   },
+   {
+    "name": "acetaminophen",
+    "dose": "8 milliliters",
+    "frequency": "",
+    "route": "",
+    "status": "active",
+    "evidence": [
+     {
+      "turn": 30,
+      "quote": "If she's uncomfortable, children's Tylenol, about 8 milliliters for her weight.",
+      "verified": true,
+      "score": 1.0
+     }
+    ],
+    "flags": []
+   }
+  ],
+  "allergies": [],
+  "after_visit_summary": "Thank you for coming in today. Here is what we talked about. With the hard stools and the holding, I'd like to start MiraLAX. If it isn't better in a month, or you see blood, send me a message and we will go from there.",
+  "avs_flags": [],
+  "icd10": [
+   {
+    "system": "ICD-10-CM",
+    "code": "Z59.812",
+    "description": "Housing instability, housed, homelessness in past 12 months",
+    "rank": 1,
+    "rationale": "Matches the assessment: Housing instability, housed, homelessness in past 12 months",
+    "evidence": [],
+    "valid": true,
+    "billable": true,
+    "flags": [
+     {
+      "kind": "code_unsupported",
+      "severity": "warning",
+      "message": "No verified quote supports this code.",
+      "acknowledged": false,
+      "detail": {}
+     }
+    ],
+    "accepted": null
+   },
+   {
+    "system": "ICD-10-CM",
+    "code": "Z00.110",
+    "description": "Health examination for newborn under 8 days old",
+    "rank": 2,
+    "rationale": "Matches the assessment: Health examination for newborn under 8 days old",
+    "evidence": [],
+    "valid": true,
+    "billable": true,
+    "flags": [
+     {
+      "kind": "code_unsupported",
+      "severity": "warning",
+      "message": "No verified quote supports this code.",
+      "acknowledged": false,
+      "detail": {}
+     }
+    ],
+    "accepted": null
+   },
+   {
+    "system": "ICD-10-CM",
+    "code": "Z00.111",
+    "description": "Health examination for newborn 8 to 28 days old",
+    "rank": 3,
+    "rationale": "Matches the assessment: Health examination for newborn 8 to 28 days old",
+    "evidence": [],
+    "valid": true,
+    "billable": true,
+    "flags": [
+     {
+      "kind": "code_unsupported",
+      "severity": "warning",
+      "message": "No verified quote supports this code.",
+      "acknowledged": false,
+      "detail": {}
+     }
+    ],
+    "accepted": null
+   }
+  ],
+  "em": {
+   "system": "CPT",
+   "code": "99214",
+   "description": "Established patient office visit, moderate-complexity decision making",
+   "rank": 1,
+   "rationale": "Rule-based: prescription drug management",
+   "evidence": [],
+   "valid": true,
+   "billable": true,
+   "flags": [
+    {
+     "kind": "em_mismatch",
+     "severity": "warning",
+     "message": "The rule-based MDM estimate is low (99213): data: limited (tests or an independent historian); risk: over-the-counter drugs, minor procedure or counseling",
+     "acknowledged": false,
+     "detail": {
+      "estimate": "99213"
+     }
+    }
+   ],
+   "accepted": null
+  },
+  "procedures": [],
+  "mdm": {
+   "problems": "straightforward",
+   "data": "low",
+   "risk": "low",
+   "level": "low",
+   "code": "99213",
+   "reasons": [
+    "data: limited (tests or an independent historian)",
+    "risk: over-the-counter drugs, minor procedure or counseling"
+   ]
+  },
+  "section_status": {
+   "subjective": "draft",
+   "objective": "draft",
+   "assessment": "draft",
+   "plan": "draft"
+  },
+  "model": "fake/fake-scribe",
+  "created_at": "2026-10-13T05:44:47.178350Z",
+  "signed_by": null,
+  "signed_at": null,
+  "timings": {
+   "phi_masking": 0.039,
+   "llm_note": 0.023,
+   "guards_note": 0.069,
+   "llm_codes": 0.007,
+   "guards_codes": 0.049,
+   "total": 0.187,
+   "wall": 0.202
+  },
+  "usage": {
+   "model_ms": 30,
+   "input_tokens": 3405,
+   "output_tokens": 1190,
+   "calls": 2
+  },
+  "phi": {
+   "NAME": 2,
+   "DOB": 1,
+   "ORG": 1,
+   "DATE": 3
+  }
+ },
+ "vault": {
+  "originals": {
+   "[PATIENT]": "Ananya Iyer",
+   "[DOB]": "September 28th, 2022",
+   "[NAME_1]": "Lakshmi",
+   "[ORG_1]": "Sunflower Montessori",
+   "[DATE_1]": "October 2nd",
+   "[DATE_2]": "September",
+   "[DATE_3]": "Halloween"
+  },
+  "surfaces": {
+   "[PATIENT]": [
+    "Ananya",
+    "Ananya Iyer"
+   ],
+   "[DOB]": [
+    "September 28th, 2022"
+   ],
+   "[NAME_1]": [
+    "Lakshmi"
+   ],
+   "[ORG_1]": [
+    "Sunflower Montessori"
+   ],
+   "[DATE_1]": [
+    "October 2nd"
+   ],
+   "[DATE_2]": [
+    "September"
+   ],
+   "[DATE_3]": [
+    "Halloween"
+   ]
+  },
+  "types": {
+   "[PATIENT]": "NAME",
+   "[DOB]": "DOB",
+   "[NAME_1]": "NAME",
+   "[ORG_1]": "ORG",
+   "[DATE_1]": "DATE",
+   "[DATE_2]": "DATE",
+   "[DATE_3]": "DATE"
+  },
+  "counters": {
+   "NAME": 1,
+   "ORG": 1,
+   "DATE": 3
+  }
+ },
+ "score": {
+  "case": "pd-03",
+  "specialty": "pediatrics",
+  "facts": 30,
+  "found": 15,
+  "found_in_section": 10,
+  "negation_errors": [
+   "f5: Abdominal pain only right before stooling (present)"
+  ],
+  "trap_errors": [],
+  "missed": [
+   "f4 [subjective] No daytime accidents (encopresis)",
+   "f5 [subjective] Abdominal pain only right before stooling",
+   "f6 [subjective] High milk intake 3 to 4 cups a day, picky eater with low fruit and fiber",
+   "f8 [subjective] No known allergies",
+   "f9 [subjective] Developmental milestones on track (full sentences, hops on one foot, draws person, dresses self, daytime toilet trained)",
+   "f10 [subjective] Attends preschool, doing well socially",
+   "f12 [subjective] Dental visit last month, no cavities, brushes twice daily",
+   "f13 [subjective] Forward-facing car seat with 5-point harness",
+   "f18 [objective] Hearing screen passed both ears",
+   "f20 [objective] Abdomen soft and nontender with palpable stool in left lower quadrant",
+   "f23 [assessment] Functional constipation with stool withholding",
+   "f24 [plan] Start polyethylene glycol 3350 about 0.5 g/kg (8.5 g, half capful) in 4 oz liquid once daily, titrate to soft daily stool",
+   "f25 [plan] Limit milk to 16 oz (2 cups) daily, add fruit and water, toilet sitting 5 minutes after meals",
+   "f29 [plan] Influenza vaccine already given at pharmacy on October 2nd, recorded",
+   "f30 [plan] Next well-child check at age 5"
+  ],
+  "statements": 17,
+  "statements_matching_gold": 14,
+  "unsupported": 0,
+  "partial": 1,
+  "flags": {
+   "partial_support": 1
+  },
+  "meds": 3,
+  "meds_found": 3,
+  "meds_dose_correct": 1,
+  "icd_primary": "Z00.121",
+  "icd_suggested": [
+   "Z59.812",
+   "Z00.110",
+   "Z00.111"
+  ],
+  "icd_top1": false,
+  "icd_top3": false,
+  "icd_top3_lenient": false,
+  "icd_top3_category": true,
+  "icd_gold_recall": 0.0,
+  "icd_invalid": 0,
+  "em_gold": "99213",
+  "em_suggested": "99214",
+  "em_exact": false,
+  "em_within_one": true,
+  "em_rule_estimate": "99213",
+  "procedures_gold": 3,
+  "procedures_found": 0
+ },
+ "egress_residue": {}
+}

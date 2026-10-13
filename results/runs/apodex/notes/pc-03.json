@@ -1,0 +1,754 @@
+{
+ "note": {
+  "visit_id": "pc-03",
+  "statements": [
+   {
+    "id": "s1",
+    "section": "subjective",
+    "text": "Established patient, Kenji Nakamura, presents with a cold that has persisted about 10 days and worsened over the past 3 days.",
+    "evidence": [
+     {
+      "turn": 3,
+      "quote": "It started about 10 days ago... then like three days ago it got way worse.",
+      "verified": true,
+      "score": 1.0
+     }
+    ],
+    "support": "supported",
+    "flags": [],
+    "origin": "model",
+    "edited": false
+   },
+   {
+    "id": "s2",
+    "section": "subjective",
+    "text": "Initial symptoms were runny nose and sore throat.",
+    "evidence": [
+     {
+      "turn": 3,
+      "quote": "runny nose, sore throat, the usual.",
+      "verified": true,
+      "score": 1.0
+     }
+    ],
+    "support": "supported",
+    "flags": [],
+    "origin": "model",
+    "edited": false
+   },
+   {
+    "id": "s3",
+    "section": "subjective",
+    "text": "Facial pain under both eyes, described as pressure, worse when bending over; upper teeth ache.",
+    "evidence": [
+     {
+      "turn": 5,
+      "quote": "My face hurts. Right here, under my eyes, both sides. And it's like a pressure when I bend over. My upper teeth even ache.",
+      "verified": true,
+      "score": 1.0
+     }
+    ],
+    "support": "supported",
+    "flags": [],
+    "origin": "model",
+    "edited": false
+   },
+   {
+    "id": "s4",
+    "section": "subjective",
+    "text": "Nasal discharge is thick and green.",
+    "evidence": [
+     {
+      "turn": 5,
+      "quote": "And the stuff coming out of my nose is thick and kind of green.",
+      "verified": true,
+      "score": 1.0
+     }
+    ],
+    "support": "supported",
+    "flags": [],
+    "origin": "model",
+    "edited": false
+   },
+   {
+    "id": "s5",
+    "section": "subjective",
+    "text": "Home temperature last night was 100.4 F.",
+    "evidence": [
+     {
+      "turn": 7,
+      "quote": "I took it last night and it was 100.4.",
+      "verified": true,
+      "score": 1.0
+     }
+    ],
+    "support": "supported",
+    "flags": [],
+    "origin": "model",
+    "edited": false
+   },
+   {
+    "id": "s6",
+    "section": "subjective",
+    "text": "Denies eye swelling, redness, or vision changes.",
+    "evidence": [
+     {
+      "turn": 9,
+      "quote": "No, nothing like that.",
+      "verified": true,
+      "score": 1.0
+     }
+    ],
+    "support": "supported",
+    "flags": [],
+    "origin": "model",
+    "edited": false
+   },
+   {
+    "id": "s7",
+    "section": "subjective",
+    "text": "Denies bad headache and stiff neck.",
+    "evidence": [
+     {
+      "turn": 11,
+      "quote": "Headache, just the pressure kind. My neck's fine.",
+      "verified": true,
+      "score": 1.0
+     }
+    ],
+    "support": "supported",
+    "flags": [
+     {
+      "kind": "negation",
+      "severity": "error",
+      "message": "The transcript says the opposite: 'headache' (turns 10, 11, 31).",
+      "acknowledged": false,
+      "detail": {
+       "concept": "headache",
+       "turns": [
+        10,
+        11,
+        31
+       ]
+      }
+     }
+    ],
+    "origin": "model",
+    "edited": false
+   },
+   {
+    "id": "s8",
+    "section": "subjective",
+    "text": "Mild cough from postnasal drip at night; denies shortness of breath.",
+    "evidence": [
+     {
+      "turn": 13,
+      "quote": "A little cough from the drip at night. Breathing's fine.",
+      "verified": true,
+      "score": 1.0
+     }
+    ],
+    "support": "supported",
+    "flags": [],
+    "origin": "model",
+    "edited": false
+   },
+   {
+    "id": "s9",
+    "section": "subjective",
+    "text": "Taking ibuprofen 400 mg a couple times a day and Afrin nasal spray for six days.",
+    "evidence": [
+     {
+      "turn": 15,
+      "quote": "Ibuprofen, like 400 milligrams a couple times a day. And the Afrin spray. Um, I've kind of been using that for six days now.",
+      "verified": true,
+      "score": 1.0
+     }
+    ],
+    "support": "supported",
+    "flags": [],
+    "origin": "model",
+    "edited": false
+   },
+   {
+    "id": "s10",
+    "section": "subjective",
+    "text": "Allergic to penicillin; reaction was hives in childhood.",
+    "evidence": [
+     {
+      "turn": 17,
+      "quote": "Penicillin. I got hives as a kid, my mom says I was covered.",
+      "verified": true,
+      "score": 1.0
+     }
+    ],
+    "support": "supported",
+    "flags": [],
+    "origin": "model",
+    "edited": false
+   },
+   {
+    "id": "s11",
+    "section": "subjective",
+    "text": "Girlfriend had the same cold first but has recovered; no one else currently sick.",
+    "evidence": [
+     {
+      "turn": 19,
+      "quote": "My girlfriend Hana had the same cold first, but she's totally fine now.",
+      "verified": true,
+      "score": 1.0
+     }
+    ],
+    "support": "supported",
+    "flags": [],
+    "origin": "model",
+    "edited": false
+   },
+   {
+    "id": "o1",
+    "section": "objective",
+    "text": "Temperature 99.8 F, blood pressure 122/78 mmHg, pulse 84/min, oxygen saturation 98%.",
+    "evidence": [
+     {
+      "turn": 20,
+      "quote": "Temperature here is 99.8, blood pressure 122 over 78, pulse 84, and oxygen is 98 percent.",
+      "verified": true,
+      "score": 1.0
+     }
+    ],
+    "support": "supported",
+    "flags": [],
+    "origin": "model",
+    "edited": false
+   },
+   {
+    "id": "o2",
+    "section": "objective",
+    "text": "Ear drums normal.",
+    "evidence": [
+     {
+      "turn": 21,
+      "quote": "Your ear drums look normal.",
+      "verified": true,
+      "score": 1.0
+     }
+    ],
+    "support": "supported",
+    "flags": [],
+    "origin": "model",
+    "edited": false
+   },
+   {
+    "id": "o3",
+    "section": "objective",
+    "text": "Nasal mucosa swollen and red with thick yellow-green drainage.",
+    "evidence": [
+     {
+      "turn": 21,
+      "quote": "The inside of your nose is swollen and red, and there's thick yellow-green drainage.",
+      "verified": true,
+      "score": 1.0
+     }
+    ],
+    "support": "supported",
+    "flags": [],
+    "origin": "model",
+    "edited": false
+   },
+   {
+    "id": "o4",
+    "section": "objective",
+    "text": "Tenderness on palpation over both cheek sinuses.",
+    "evidence": [
+     {
+      "turn": 22,
+      "quote": "Ow. Yes, both sides.",
+      "verified": true,
+      "score": 1.0
+     }
+    ],
+    "support": "supported",
+    "flags": [],
+    "origin": "model",
+    "edited": false
+   },
+   {
+    "id": "o5",
+    "section": "objective",
+    "text": "No tenderness over forehead sinuses; throat mildly erythematous without tonsillar exudates; a couple of small tender cervical lymph nodes; lungs clear.",
+    "evidence": [
+     {
+      "turn": 23,
+      "quote": "Tender over both cheek sinuses, not over the forehead. Throat is a little red, no pus on the tonsils. A couple of small tender lymph nodes in your neck. Lungs are clear.",
+      "verified": true,
+      "score": 1.0
+     }
+    ],
+    "support": "supported",
+    "flags": [],
+    "origin": "model",
+    "edited": false
+   },
+   {
+    "id": "a1",
+    "section": "assessment",
+    "text": "Acute bacterial sinusitis of the cheek sinuses, suspected as a complication of a viral upper respiratory infection (symptoms worsened after initial improvement with fever and thick purulent discharge).",
+    "evidence": [
+     {
+      "turn": 25,
+      "quote": "because you got better and then worse again after a week, with fever and thick drainage, this looks like a bacterial sinus infection in your cheek sinuses.",
+      "verified": true,
+      "score": 1.0
+     }
+    ],
+    "support": "supported",
+    "flags": [],
+    "origin": "model",
+    "edited": false
+   },
+   {
+    "id": "p1",
+    "section": "plan",
+    "text": "Start doxycycline 100 mg orally twice daily for 7 days.",
+    "evidence": [
+     {
+      "turn": 25,
+      "quote": "I'm going to give you doxycycline, 100 milligrams twice a day for 7 days.",
+      "verified": true,
+      "score": 1.0
+     }
+    ],
+    "support": "supported",
+    "flags": [],
+    "origin": "model",
+    "edited": false
+   },
+   {
+    "id": "p2",
+    "section": "plan",
+    "text": "Take doxycycline with a full glass of water and remain upright for 30 minutes afterward; use sunscreen due to photosensitivity.",
+    "evidence": [
+     {
+      "turn": 27,
+      "quote": "Take it with a full glass of water and stay upright for a half hour after, and use sunscreen, it makes you sunburn easily.",
+      "verified": true,
+      "score": 1.0
+     }
+    ],
+    "support": "partial",
+    "flags": [
+     {
+      "kind": "partial_support",
+      "severity": "error",
+      "message": "Quoted turn does not contain 30; check against the transcript.",
+      "acknowledged": false,
+      "detail": {
+       "numbers_not_in_evidence": [
+        "30"
+       ]
+      }
+     }
+    ],
+    "origin": "model",
+    "edited": false
+   },
+   {
+    "id": "p3",
+    "section": "plan",
+    "text": "Discontinue Afrin (oxymetazoline) nasal spray due to risk of rebound congestion.",
+    "evidence": [
+     {
+      "turn": 27,
+      "quote": "Please stop it. After three days it causes rebound congestion and can actually make the stuffiness worse.",
+      "verified": true,
+      "score": 1.0
+     }
+    ],
+    "support": "supported",
+    "flags": [],
+    "origin": "model",
+    "edited": false
+   },
+   {
+    "id": "p4",
+    "section": "plan",
+    "text": "Use saline nasal rinse twice daily and start fluticasone nasal spray 2 sprays in each nostril once daily.",
+    "evidence": [
+     {
+      "turn": 29,
+      "quote": "Instead, use a saline rinse twice a day, and start fluticasone nasal spray, 2 sprays in each nostril once a day.",
+      "verified": true,
+      "score": 1.0
+     }
+    ],
+    "support": "supported",
+    "flags": [],
+    "origin": "model",
+    "edited": false
+   },
+   {
+    "id": "p5",
+    "section": "plan",
+    "text": "Continue ibuprofen 400 mg up to three times daily with food.",
+    "evidence": [
+     {
+      "turn": 29,
+      "quote": "You can keep the ibuprofen, 400 milligrams up to three times a day with food.",
+      "verified": true,
+      "score": 1.0
+     }
+    ],
+    "support": "supported",
+    "flags": [],
+    "origin": "model",
+    "edited": false
+   },
+   {
+    "id": "p6",
+    "section": "plan",
+    "text": "Work excusal note to be printed for Monday through today.",
+    "evidence": [
+     {
+      "turn": 31,
+      "quote": "Sure, I'll print one for Monday through today.",
+      "verified": true,
+      "score": 1.0
+     }
+    ],
+    "support": "supported",
+    "flags": [],
+    "origin": "model",
+    "edited": false
+   },
+   {
+    "id": "p7",
+    "section": "plan",
+    "text": "Return precautions: call or go to the emergency room if not improving in 3 days, or if swelling around the eye, trouble seeing, stiff neck, or a really bad headache develops.",
+    "evidence": [
+     {
+      "turn": 31,
+      "quote": "If you're not starting to feel better in 3 days, or if you get swelling around your eye, trouble seeing, a stiff neck, or a really bad headache, call us right away or go to the emergency room.",
+      "verified": true,
+      "score": 1.0
+     }
+    ],
+    "support": "supported",
+    "flags": [],
+    "origin": "model",
+    "edited": false
+   },
+   {
+    "id": "p8",
+    "section": "plan",
+    "text": "Follow-up only if condition is not clearing up; provider will call 555-0129 regarding any changes with the prescription.",
+    "evidence": [
+     {
+      "turn": 33,
+      "quote": "Only if it isn't clearing up. We'll call 555-0129 if anything changes with the prescription, is that still right?",
+      "verified": true,
+      "score": 1.0
+     }
+    ],
+    "support": "supported",
+    "flags": [],
+    "origin": "model",
+    "edited": false
+   }
+  ],
+  "medications": [
+   {
+    "name": "doxycycline",
+    "dose": "100 mg",
+    "frequency": "twice daily",
+    "route": "oral",
+    "status": "new",
+    "evidence": [
+     {
+      "turn": 25,
+      "quote": "I'm going to give you doxycycline, 100 milligrams twice a day for 7 days.",
+      "verified": true,
+      "score": 1.0
+     }
+    ],
+    "flags": []
+   },
+   {
+    "name": "fluticasone nasal spray",
+    "dose": "2 sprays in each nostril",
+    "frequency": "once daily",
+    "route": "intranasal",
+    "status": "new",
+    "evidence": [
+     {
+      "turn": 29,
+      "quote": "start fluticasone nasal spray, 2 sprays in each nostril once a day.",
+      "verified": true,
+      "score": 1.0
+     }
+    ],
+    "flags": []
+   },
+   {
+    "name": "ibuprofen",
+    "dose": "400 mg",
+    "frequency": "up to three times daily",
+    "route": "oral",
+    "status": "active",
+    "evidence": [
+     {
+      "turn": 29,
+      "quote": "You can keep the ibuprofen, 400 milligrams up to three times a day with food.",
+      "verified": true,
+      "score": 1.0
+     }
+    ],
+    "flags": []
+   },
+   {
+    "name": "Afrin (oxymetazoline) nasal spray",
+    "dose": "not specified",
+    "frequency": "previously used twice daily for six days",
+    "route": "intranasal",
+    "status": "stopped",
+    "evidence": [
+     {
+      "turn": 27,
+      "quote": "Please stop it. After three days it causes rebound congestion.",
+      "verified": true,
+      "score": 1.0
+     }
+    ],
+    "flags": []
+   }
+  ],
+  "allergies": [
+   {
+    "substance": "penicillin",
+    "reaction": "hives",
+    "evidence": [
+     {
+      "turn": 17,
+      "quote": "Penicillin. I got hives as a kid, my mom says I was covered.",
+      "verified": true,
+      "score": 1.0
+     }
+    ]
+   }
+  ],
+  "after_visit_summary": "We think you have a sinus infection. Your cold started about 10 days ago, you started to feel better, and then three days ago it got worse with pressure under your eyes, tooth ache, and thick green mucus. You had a fever at home, and your exam shows swollen, red nose lining, thick yellow-green drainage, and tenderness over your cheek sinuses. Your ears, lungs, and vision are fine.\n\nNew medicine: doxycycline 100 mg by mouth twice a day for 7 days. Take it with a full glass of water and stay upright for 30 minutes after. Use sunscreen because it can make you sunburn easily. Start fluticasone nasal spray: 2 sprays in each nostril once a day. Use a saline rinse twice a day. You may keep ibuprofen 400 mg up to 3 times a day with food. Stop using Afrin nasal spray, because using it for more than a few days makes congestion worse.\n\nCall us right away or go to the emergency room if you do not start to feel better in 3 days, or if you get swelling around your eye, trouble seeing, a stiff neck, or a very bad headache. Only come back if you are not clearing up. We may call 555-0129 about your medicines. A note for work covering Monday through today will be provided.",
+  "avs_flags": [],
+  "icd10": [
+   {
+    "system": "ICD-10-CM",
+    "code": "J01.00",
+    "description": "Acute maxillary sinusitis, unspecified",
+    "rank": 1,
+    "rationale": "Acute maxillary sinusitis (bilateral cheek sinuses) is the primary assessed diagnosis, most specific code supported for acute bacterial sinusitis of the cheek sinuses.",
+    "evidence": [
+     {
+      "turn": 25,
+      "quote": "this looks like a bacterial sinus infection in your cheek sinuses",
+      "verified": true,
+      "score": 1.0
+     },
+     {
+      "turn": 23,
+      "quote": "Tender over both cheek sinuses",
+      "verified": true,
+      "score": 1.0
+     }
+    ],
+    "valid": true,
+    "billable": true,
+    "flags": [],
+    "accepted": null
+   },
+   {
+    "system": "ICD-10-CM",
+    "code": "Z87.891",
+    "description": "Personal history of nicotine dependence",
+    "rank": 2,
+    "rationale": "Personal history of penicillin allergy (hives reaction) documented and relevant to antibiotic selection (doxycycline).",
+    "evidence": [
+     {
+      "turn": 17,
+      "quote": "Penicillin. I got hives as a kid",
+      "verified": true,
+      "score": 1.0
+     }
+    ],
+    "valid": true,
+    "billable": true,
+    "flags": [
+     {
+      "kind": "code_unsupported",
+      "severity": "warning",
+      "message": "The code's title shares no terms with the assessment; check it matches a diagnosis.",
+      "acknowledged": false,
+      "detail": {}
+     }
+    ],
+    "accepted": null
+   },
+   {
+    "system": "ICD-10-CM",
+    "code": "J06.9",
+    "description": "Acute upper respiratory infection, unspecified",
+    "rank": 3,
+    "rationale": "Acute upper respiratory infection (viral URI with runny nose, sore throat) assessed as the underlying cause/precursor condition.",
+    "evidence": [
+     {
+      "turn": 3,
+      "quote": "It started about 10 days ago, runny nose, sore throat, the usual",
+      "verified": true,
+      "score": 1.0
+     }
+    ],
+    "valid": true,
+    "billable": true,
+    "flags": [],
+    "accepted": null
+   }
+  ],
+  "em": {
+   "system": "CPT",
+   "code": "99214",
+   "description": "Established patient office visit, moderate-complexity decision making",
+   "rank": 1,
+   "rationale": "Established patient visit with moderate MDM: one acute illness with moderate severity (acute bacterial sinusitis requiring antibiotic prescription), ordered/treated today, data reviewed (vitals, exam findings), moderate risk due to prescription drug management.",
+   "evidence": [],
+   "valid": true,
+   "billable": true,
+   "flags": [],
+   "accepted": null
+  },
+  "procedures": [],
+  "mdm": {
+   "problems": "moderate",
+   "data": "straightforward",
+   "risk": "moderate",
+   "level": "moderate",
+   "code": "99214",
+   "reasons": [
+    "problems: acute illness with systemic symptoms",
+    "risk: prescription drug management"
+   ]
+  },
+  "section_status": {
+   "subjective": "draft",
+   "objective": "draft",
+   "assessment": "draft",
+   "plan": "draft"
+  },
+  "model": "openrouter/apodex/apodex-1.1-mini:free",
+  "created_at": "2026-10-13T05:46:03.962899Z",
+  "signed_by": null,
+  "signed_at": null,
+  "timings": {
+   "phi_masking": 0.026,
+   "llm_note": 29.97,
+   "guards_note": 0.076,
+   "llm_codes": 2.41,
+   "guards_codes": 0.042,
+   "total": 32.524,
+   "wall": 32.627
+  },
+  "usage": {
+   "model_ms": 32380,
+   "input_tokens": 4982,
+   "output_tokens": 2587,
+   "calls": 2
+  },
+  "phi": {
+   "NAME": 2,
+   "DOB": 1,
+   "ORG": 1,
+   "PHONE": 1
+  }
+ },
+ "vault": {
+  "originals": {
+   "[PATIENT]": "Kenji Nakamura",
+   "[DOB]": "January 28th, 1992",
+   "[NAME_1]": "Hana",
+   "[ORG_1]": "Westbrook Middle School",
+   "[PHONE_1]": "555-0129"
+  },
+  "surfaces": {
+   "[PATIENT]": [
+    "Kenji",
+    "Kenji Nakamura"
+   ],
+   "[DOB]": [
+    "January 28th, 1992"
+   ],
+   "[NAME_1]": [
+    "Hana"
+   ],
+   "[ORG_1]": [
+    "Westbrook Middle School"
+   ],
+   "[PHONE_1]": [
+    "555-0129"
+   ]
+  },
+  "types": {
+   "[PATIENT]": "NAME",
+   "[DOB]": "DOB",
+   "[NAME_1]": "NAME",
+   "[ORG_1]": "ORG",
+   "[PHONE_1]": "PHONE"
+  },
+  "counters": {
+   "NAME": 1,
+   "ORG": 1,
+   "PHONE": 1
+  }
+ },
+ "score": {
+  "case": "pc-03",
+  "specialty": "primary_care",
+  "facts": 30,
+  "found": 28,
+  "found_in_section": 27,
+  "negation_errors": [
+   "f8b: Pressure-type headache, not severe (present)"
+  ],
+  "trap_errors": [],
+  "missed": [
+   "f8b [subjective] Pressure-type headache, not severe",
+   "f28 [plan] Work note provided"
+  ],
+  "statements": 25,
+  "statements_matching_gold": 21,
+  "unsupported": 0,
+  "partial": 1,
+  "flags": {
+   "negation": 1,
+   "partial_support": 1
+  },
+  "meds": 5,
+  "meds_found": 4,
+  "meds_dose_correct": 3,
+  "icd_primary": "J01.00",
+  "icd_suggested": [
+   "J01.00",
+   "Z87.891",
+   "J06.9"
+  ],
+  "icd_top1": true,
+  "icd_top3": true,
+  "icd_top3_lenient": true,
+  "icd_top3_category": true,
+  "icd_gold_recall": 0.5,
+  "icd_invalid": 0,
+  "em_gold": "99213",
+  "em_suggested": "99214",
+  "em_exact": false,
+  "em_within_one": true,
+  "em_rule_estimate": "99214",
+  "procedures_gold": 0,
+  "procedures_found": 0
+ },
+ "egress_residue": {}
+}

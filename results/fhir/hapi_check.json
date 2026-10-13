@@ -1,0 +1,70 @@
+{
+ "server": "http://127.0.0.1:8090/fhir",
+ "visits": {
+  "pd-01": {
+   "resources": [
+    "Patient/1011/_history/1",
+    "Organization/1000/_history/1",
+    "Practitioner/1001/_history/1",
+    "Encounter/1002/_history/1",
+    "Condition/1003/_history/1",
+    "MedicationStatement/1004/_history/1",
+    "MedicationStatement/1005/_history/1",
+    "MedicationStatement/1006/_history/1",
+    "AllergyIntolerance/1007/_history/1",
+    "Composition/1008/_history/1",
+    "DocumentReference/1009/_history/1",
+    "Provenance/1010/_history/1"
+   ],
+   "local_validation_errors": [],
+   "hapi_validate_errors": {},
+   "resources_without_errors": 12
+  },
+  "cd-03": {
+   "resources": [
+    "Patient/1026/_history/1",
+    "Organization/1012/_history/1",
+    "Practitioner/1013/_history/1",
+    "Encounter/1014/_history/1",
+    "Condition/1015/_history/1",
+    "MedicationStatement/1016/_history/1",
+    "MedicationStatement/1017/_history/1",
+    "MedicationStatement/1018/_history/1",
+    "MedicationStatement/1019/_history/1",
+    "MedicationStatement/1020/_history/1",
+    "MedicationStatement/1021/_history/1",
+    "MedicationStatement/1022/_history/1",
+    "Composition/1023/_history/1",
+    "DocumentReference/1024/_history/1",
+    "Provenance/1025/_history/1"
+   ],
+   "local_validation_errors": [],
+   "hapi_validate_errors": {},
+   "resources_without_errors": 15
+  },
+  "mh-02": {
+   "resources": [
+    "Patient/1038/_history/1",
+    "Organization/1027/_history/1",
+    "Practitioner/1028/_history/1",
+    "Encounter/1029/_history/1",
+    "Condition/1030/_history/1",
+    "MedicationStatement/1031/_history/1",
+    "MedicationStatement/1032/_history/1",
+    "MedicationStatement/1033/_history/1",
+    "AllergyIntolerance/1034/_history/1",
+    "Composition/1035/_history/1",
+    "DocumentReference/1036/_history/1",
+    "Provenance/1037/_history/1"
+   ],
+   "local_validation_errors": [],
+   "hapi_validate_errors": {},
+   "resources_without_errors": 12
+  }
+ },
+ "software": {
+  "name": "HAPI FHIR Server",
+  "version": "8.12.0"
+ },
+ "fhirVersion": "4.0.1"
+}

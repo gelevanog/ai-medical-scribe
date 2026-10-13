@@ -1,0 +1,677 @@
+{
+ "note": {
+  "visit_id": "pc-02",
+  "statements": [
+   {
+    "id": "s1",
+    "section": "subjective",
+    "text": "Was getting shaky and sweaty in the afternoons",
+    "evidence": [
+     {
+      "turn": 7,
+      "quote": "I was getting shaky and sweaty in the afternoons.",
+      "verified": true,
+      "score": 1.0
+     }
+    ],
+    "support": "supported",
+    "flags": [],
+    "origin": "model",
+    "edited": false
+   },
+   {
+    "id": "s2",
+    "section": "subjective",
+    "text": "Maybe a little more thirsty",
+    "evidence": [
+     {
+      "turn": 15,
+      "quote": "Maybe a little more thirsty.",
+      "verified": true,
+      "score": 1.0
+     }
+    ],
+    "support": "supported",
+    "flags": [],
+    "origin": "model",
+    "edited": false
+   },
+   {
+    "id": "s3",
+    "section": "subjective",
+    "text": "Not up at night, no",
+    "evidence": [
+     {
+      "turn": 15,
+      "quote": "Not up at night, no.",
+      "verified": true,
+      "score": 1.0
+     }
+    ],
+    "support": "supported",
+    "flags": [],
+    "origin": "model",
+    "edited": false
+   },
+   {
+    "id": "s4",
+    "section": "subjective",
+    "text": "Denies numbness",
+    "evidence": [
+     {
+      "turn": 16,
+      "quote": "Any numbness or tingling in your feet?",
+      "verified": true,
+      "score": 1.0
+     },
+     {
+      "turn": 17,
+      "quote": "No.",
+      "verified": true,
+      "score": 1.0
+     }
+    ],
+    "support": "supported",
+    "flags": [],
+    "origin": "model",
+    "edited": false
+   },
+   {
+    "id": "s5",
+    "section": "subjective",
+    "text": "Denies tingling",
+    "evidence": [
+     {
+      "turn": 16,
+      "quote": "Any numbness or tingling in your feet?",
+      "verified": true,
+      "score": 1.0
+     },
+     {
+      "turn": 17,
+      "quote": "No.",
+      "verified": true,
+      "score": 1.0
+     }
+    ],
+    "support": "supported",
+    "flags": [],
+    "origin": "model",
+    "edited": false
+   },
+   {
+    "id": "s6",
+    "section": "subjective",
+    "text": "They broke out in a rash all over their body",
+    "evidence": [
+     {
+      "turn": 21,
+      "quote": "I broke out in a rash all over my body.",
+      "verified": true,
+      "score": 1.0
+     }
+    ],
+    "support": "supported",
+    "flags": [],
+    "origin": "model",
+    "edited": false
+   },
+   {
+    "id": "o1",
+    "section": "objective",
+    "text": "Your A1c from last week came back at 8.4 percent",
+    "evidence": [
+     {
+      "turn": 4,
+      "quote": "Your A1c from last week came back at 8.4 percent.",
+      "verified": true,
+      "score": 1.0
+     }
+    ],
+    "support": "supported",
+    "flags": [],
+    "origin": "model",
+    "edited": false
+   },
+   {
+    "id": "o2",
+    "section": "objective",
+    "text": "Blood pressure is 128 over 76, pulse 80, weight 186 pounds, about the same as April",
+    "evidence": [
+     {
+      "turn": 24,
+      "quote": "Blood pressure is 128 over 76, pulse 80, weight 186 pounds, about the same as April.",
+      "verified": true,
+      "score": 1.0
+     }
+    ],
+    "support": "supported",
+    "flags": [],
+    "origin": "model",
+    "edited": false
+   },
+   {
+    "id": "o3",
+    "section": "objective",
+    "text": "Skin looks good, no sores or calluses",
+    "evidence": [
+     {
+      "turn": 25,
+      "quote": "Skin looks good, no sores or calluses.",
+      "verified": true,
+      "score": 1.0
+     }
+    ],
+    "support": "supported",
+    "flags": [],
+    "origin": "model",
+    "edited": false
+   },
+   {
+    "id": "o4",
+    "section": "objective",
+    "text": "Heart and lungs sound normal",
+    "evidence": [
+     {
+      "turn": 25,
+      "quote": "Heart and lungs sound normal.",
+      "verified": true,
+      "score": 1.0
+     }
+    ],
+    "support": "supported",
+    "flags": [],
+    "origin": "model",
+    "edited": false
+   },
+   {
+    "id": "o5",
+    "section": "objective",
+    "text": "Kidney function is normal, the filtration rate is 78, and there's no protein in your urine",
+    "evidence": [
+     {
+      "turn": 26,
+      "quote": "Kidney function is normal, the filtration rate is 78, and there's no protein in your urine.",
+      "verified": true,
+      "score": 1.0
+     }
+    ],
+    "support": "supported",
+    "flags": [],
+    "origin": "model",
+    "edited": false
+   },
+   {
+    "id": "o6",
+    "section": "objective",
+    "text": "It works by letting you pass extra sugar in the urine, so drink plenty of water and keep that area clean",
+    "evidence": [
+     {
+      "turn": 30,
+      "quote": "It works by letting you pass extra sugar in the urine, so drink plenty of water and keep",
+      "verified": true,
+      "score": 1.0
+     }
+    ],
+    "support": "supported",
+    "flags": [],
+    "origin": "model",
+    "edited": false
+   },
+   {
+    "id": "o7",
+    "section": "objective",
+    "text": "We'll repeat the A1c in 3 months and see you then",
+    "evidence": [
+     {
+      "turn": 32,
+      "quote": "We'll repeat the A1c in 3 months and see you then.",
+      "verified": true,
+      "score": 1.0
+     }
+    ],
+    "support": "supported",
+    "flags": [],
+    "origin": "model",
+    "edited": false
+   },
+   {
+    "id": "a1",
+    "section": "assessment",
+    "text": "It is",
+    "evidence": [
+     {
+      "turn": 28,
+      "quote": "It is.",
+      "verified": true,
+      "score": 1.0
+     }
+    ],
+    "support": "supported",
+    "flags": [],
+    "origin": "model",
+    "edited": false
+   },
+   {
+    "id": "a2",
+    "section": "assessment",
+    "text": "No, it's a pill",
+    "evidence": [
+     {
+      "turn": 30,
+      "quote": "No, it's a pill.",
+      "verified": true,
+      "score": 1.0
+     }
+    ],
+    "support": "supported",
+    "flags": [],
+    "origin": "model",
+    "edited": false
+   },
+   {
+    "id": "p1",
+    "section": "plan",
+    "text": "We'll take care of that today",
+    "evidence": [
+     {
+      "turn": 20,
+      "quote": "We'll take care of that today.",
+      "verified": true,
+      "score": 1.0
+     }
+    ],
+    "support": "supported",
+    "flags": [],
+    "origin": "model",
+    "edited": false
+   },
+   {
+    "id": "p2",
+    "section": "plan",
+    "text": "Let me check your feet",
+    "evidence": [
+     {
+      "turn": 25,
+      "quote": "Let me check your feet.",
+      "verified": true,
+      "score": 1.0
+     }
+    ],
+    "support": "supported",
+    "flags": [],
+    "origin": "model",
+    "edited": false
+   },
+   {
+    "id": "p3",
+    "section": "plan",
+    "text": "So, to put it together, your type 2 diabetes is above our goal, and the glipizide was causing low sugars, so we'll leave that off for good",
+    "evidence": [
+     {
+      "turn": 28,
+      "quote": "So, to put it together, your type 2 diabetes is above our goal, and the glipizide was causing",
+      "verified": true,
+      "score": 1.0
+     }
+    ],
+    "support": "supported",
+    "flags": [],
+    "origin": "model",
+    "edited": false
+   },
+   {
+    "id": "p4",
+    "section": "plan",
+    "text": "I'd like to add a new medicine called empagliflozin, 10 milligrams once a day in the morning",
+    "evidence": [
+     {
+      "turn": 28,
+      "quote": "I'd like to add a new medicine called empagliflozin, 10 milligrams once a day in the morning.",
+      "verified": true,
+      "score": 1.0
+     }
+    ],
+    "support": "supported",
+    "flags": [],
+    "origin": "model",
+    "edited": false
+   },
+   {
+    "id": "p5",
+    "section": "plan",
+    "text": "If you get any itching or a yeast infection, call us, it's treatable",
+    "evidence": [
+     {
+      "turn": 30,
+      "quote": "If you get any itching or a yeast infection, call us, it's treatable.",
+      "verified": true,
+      "score": 1.0
+     }
+    ],
+    "support": "supported",
+    "flags": [],
+    "origin": "model",
+    "edited": false
+   },
+   {
+    "id": "p6",
+    "section": "plan",
+    "text": "I'm also putting in a referral for a diabetic eye exam",
+    "evidence": [
+     {
+      "turn": 32,
+      "quote": "I'm also putting in a referral for a diabetic eye exam.",
+      "verified": true,
+      "score": 1.0
+     }
+    ],
+    "support": "supported",
+    "flags": [],
+    "origin": "model",
+    "edited": false
+   }
+  ],
+  "medications": [
+   {
+    "name": "glipizide",
+    "dose": "",
+    "frequency": "",
+    "route": "",
+    "status": "stopped",
+    "evidence": [
+     {
+      "turn": 5,
+      "quote": "I stopped the glipizide.",
+      "verified": true,
+      "score": 1.0
+     }
+    ],
+    "flags": []
+   },
+   {
+    "name": "sulfamethoxazole-trimethoprim",
+    "dose": "",
+    "frequency": "",
+    "route": "",
+    "status": "active",
+    "evidence": [
+     {
+      "turn": 21,
+      "quote": "Yes, the Bactrim.",
+      "verified": true,
+      "score": 1.0
+     }
+    ],
+    "flags": []
+   },
+   {
+    "name": "metformin",
+    "dose": "1000 milligrams",
+    "frequency": "twice a day",
+    "route": "",
+    "status": "active",
+    "evidence": [
+     {
+      "turn": 28,
+      "quote": "Keep the metformin, 1000 milligrams twice a day.",
+      "verified": true,
+      "score": 1.0
+     }
+    ],
+    "flags": []
+   },
+   {
+    "name": "empagliflozin",
+    "dose": "10 milligrams",
+    "frequency": "once a day",
+    "route": "",
+    "status": "active",
+    "evidence": [
+     {
+      "turn": 28,
+      "quote": "I'd like to add a new medicine called empagliflozin, 10 milligrams once a day in the morning.",
+      "verified": true,
+      "score": 1.0
+     }
+    ],
+    "flags": []
+   }
+  ],
+  "allergies": [],
+  "after_visit_summary": "Thank you for coming in today. Here is what we talked about. we will take care of that today. Let me check your feet. So, to put it together, your type 2 diabetes is above our goal, and the glipizide was causing low sugars, so we will leave that off for good. I'd like to add a new medicine called empagliflozin, 10 milligrams once a day in the morning. If you get any itching or a yeast infection, call us, it's treatable. I'm also putting in a referral for a diabetic eye exam.",
+  "avs_flags": [],
+  "icd10": [
+   {
+    "system": "ICD-10-CM",
+    "code": "Z71.1",
+    "description": "Person with feared health complaint in whom no diagnosis is made",
+    "rank": 1,
+    "rationale": "Matches the assessment: Person with feared health complaint in whom no diagnosis is made",
+    "evidence": [],
+    "valid": true,
+    "billable": true,
+    "flags": [
+     {
+      "kind": "code_unsupported",
+      "severity": "warning",
+      "message": "No verified quote supports this code.",
+      "acknowledged": false,
+      "detail": {}
+     },
+     {
+      "kind": "code_unsupported",
+      "severity": "warning",
+      "message": "The code's title shares no terms with the assessment; check it matches a diagnosis.",
+      "acknowledged": false,
+      "detail": {}
+     }
+    ],
+    "accepted": null
+   },
+   {
+    "system": "ICD-10-CM",
+    "code": "Z74.2",
+    "description": "Need for assistance at home and no other household member able to render care",
+    "rank": 2,
+    "rationale": "Matches the assessment: Need for assistance at home and no other household member able to render care",
+    "evidence": [],
+    "valid": true,
+    "billable": true,
+    "flags": [
+     {
+      "kind": "code_unsupported",
+      "severity": "warning",
+      "message": "No verified quote supports this code.",
+      "acknowledged": false,
+      "detail": {}
+     },
+     {
+      "kind": "code_unsupported",
+      "severity": "warning",
+      "message": "The code's title shares no terms with the assessment; check it matches a diagnosis.",
+      "acknowledged": false,
+      "detail": {}
+     }
+    ],
+    "accepted": null
+   },
+   {
+    "system": "ICD-10-CM",
+    "code": "M20.099",
+    "description": "Other deformity of finger(s), unspecified finger(s)",
+    "rank": 3,
+    "rationale": "Matches the assessment: Other deformity of finger(s), unspecified finger(s)",
+    "evidence": [],
+    "valid": true,
+    "billable": true,
+    "flags": [
+     {
+      "kind": "code_unsupported",
+      "severity": "warning",
+      "message": "No verified quote supports this code.",
+      "acknowledged": false,
+      "detail": {}
+     },
+     {
+      "kind": "code_unsupported",
+      "severity": "warning",
+      "message": "The code's title shares no terms with the assessment; check it matches a diagnosis.",
+      "acknowledged": false,
+      "detail": {}
+     }
+    ],
+    "accepted": null
+   }
+  ],
+  "em": {
+   "system": "CPT",
+   "code": "99213",
+   "description": "Established patient office visit, low-complexity decision making",
+   "rank": 1,
+   "rationale": "Rule-based: low complexity",
+   "evidence": [],
+   "valid": true,
+   "billable": true,
+   "flags": [
+    {
+     "kind": "em_mismatch",
+     "severity": "warning",
+     "message": "The rule-based MDM estimate is moderate (99214): problems: one minor problem; data: 3 tests or sources; risk: prescription drug management",
+     "acknowledged": false,
+     "detail": {
+      "estimate": "99214"
+     }
+    }
+   ],
+   "accepted": null
+  },
+  "procedures": [],
+  "mdm": {
+   "problems": "straightforward",
+   "data": "moderate",
+   "risk": "moderate",
+   "level": "moderate",
+   "code": "99214",
+   "reasons": [
+    "problems: one minor problem",
+    "data: 3 tests or sources",
+    "risk: prescription drug management"
+   ]
+  },
+  "section_status": {
+   "subjective": "draft",
+   "objective": "draft",
+   "assessment": "draft",
+   "plan": "draft"
+  },
+  "model": "fake/fake-scribe",
+  "created_at": "2026-10-13T05:44:43.176112Z",
+  "signed_by": null,
+  "signed_at": null,
+  "timings": {
+   "phi_masking": 0.024,
+   "llm_note": 0.012,
+   "guards_note": 0.05,
+   "llm_codes": 0.004,
+   "guards_codes": 0.036,
+   "total": 0.126,
+   "wall": 0.135
+  },
+  "usage": {
+   "model_ms": 16,
+   "input_tokens": 2928,
+   "output_tokens": 1286,
+   "calls": 2
+  },
+  "phi": {
+   "NAME": 2,
+   "DOB": 1,
+   "DATE": 1,
+   "EMAIL": 1
+  }
+ },
+ "vault": {
+  "originals": {
+   "[PATIENT]": "Guadalupe Rios",
+   "[DOB]": "June 17th, 1965",
+   "[DATE_1]": "April",
+   "[NAME_1]": "Marisela",
+   "[EMAIL_1]": "lupe rios 65 at example dot com"
+  },
+  "surfaces": {
+   "[PATIENT]": [
+    "Guadalupe Rios",
+    "Rios"
+   ],
+   "[DOB]": [
+    "June 17th, 1965"
+   ],
+   "[DATE_1]": [
+    "April"
+   ],
+   "[NAME_1]": [
+    "Marisela"
+   ],
+   "[EMAIL_1]": [
+    "lupe rios 65 at example dot com"
+   ]
+  },
+  "types": {
+   "[PATIENT]": "NAME",
+   "[DOB]": "DOB",
+   "[DATE_1]": "DATE",
+   "[NAME_1]": "NAME",
+   "[EMAIL_1]": "EMAIL"
+  },
+  "counters": {
+   "DATE": 1,
+   "NAME": 1,
+   "EMAIL": 1
+  }
+ },
+ "score": {
+  "case": "pc-02",
+  "specialty": "primary_care",
+  "facts": 27,
+  "found": 22,
+  "found_in_section": 15,
+  "negation_errors": [],
+  "trap_errors": [],
+  "missed": [
+   "f3 [subjective] No further lows since stopping glipizide",
+   "f5 [subjective] Home fasting glucose 150 to 180",
+   "f9 [subjective] Denies blurry vision",
+   "f11 [subjective] Walking in the evenings for exercise",
+   "f27 [plan] Continue evening walks"
+  ],
+  "statements": 21,
+  "statements_matching_gold": 15,
+  "unsupported": 0,
+  "partial": 0,
+  "flags": {},
+  "meds": 3,
+  "meds_found": 3,
+  "meds_dose_correct": 2,
+  "icd_primary": "E11.65",
+  "icd_suggested": [
+   "Z71.1",
+   "Z74.2",
+   "M20.099"
+  ],
+  "icd_top1": false,
+  "icd_top3": false,
+  "icd_top3_lenient": false,
+  "icd_top3_category": false,
+  "icd_gold_recall": 0.0,
+  "icd_invalid": 0,
+  "em_gold": "99214",
+  "em_suggested": "99213",
+  "em_exact": false,
+  "em_within_one": true,
+  "em_rule_estimate": "99214",
+  "procedures_gold": 0,
+  "procedures_found": 0
+ },
+ "egress_residue": {}
+}

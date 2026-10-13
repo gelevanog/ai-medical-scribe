@@ -1,0 +1,652 @@
+{
+ "note": {
+  "visit_id": "pc-05",
+  "statements": [
+   {
+    "id": "s1",
+    "section": "subjective",
+    "text": "They want to talk about the smoking",
+    "evidence": [
+     {
+      "turn": 5,
+      "quote": "Well, I want to talk about the smoking.",
+      "verified": true,
+      "score": 1.0
+     }
+    ],
+    "support": "supported",
+    "flags": [],
+    "origin": "model",
+    "edited": false
+   },
+   {
+    "id": "s2",
+    "section": "subjective",
+    "text": "They started when was 22, so about 30 years",
+    "evidence": [
+     {
+      "turn": 7,
+      "quote": "I started when I was 22, so about 30 years.",
+      "verified": true,
+      "score": 1.0
+     }
+    ],
+    "support": "supported",
+    "flags": [],
+    "origin": "model",
+    "edited": false
+   },
+   {
+    "id": "s3",
+    "section": "subjective",
+    "text": "Denies cough",
+    "evidence": [
+     {
+      "turn": 10,
+      "quote": "Six months is a real accomplishment, it means you can do it. Any cough, chest pain, or shortness",
+      "verified": true,
+      "score": 1.0
+     },
+     {
+      "turn": 11,
+      "quote": "Nope, none of those.",
+      "verified": true,
+      "score": 1.0
+     }
+    ],
+    "support": "supported",
+    "flags": [],
+    "origin": "model",
+    "edited": false
+   },
+   {
+    "id": "s4",
+    "section": "subjective",
+    "text": "Denies chest pain",
+    "evidence": [
+     {
+      "turn": 10,
+      "quote": "Six months is a real accomplishment, it means you can do it. Any cough, chest pain, or shortness",
+      "verified": true,
+      "score": 1.0
+     },
+     {
+      "turn": 11,
+      "quote": "Nope, none of those.",
+      "verified": true,
+      "score": 1.0
+     }
+    ],
+    "support": "supported",
+    "flags": [],
+    "origin": "model",
+    "edited": false
+   },
+   {
+    "id": "s5",
+    "section": "subjective",
+    "text": "Denies shortness of breath",
+    "evidence": [
+     {
+      "turn": 10,
+      "quote": "Six months is a real accomplishment, it means you can do it. Any cough, chest pain, or shortness",
+      "verified": true,
+      "score": 1.0
+     },
+     {
+      "turn": 11,
+      "quote": "Nope, none of those.",
+      "verified": true,
+      "score": 1.0
+     }
+    ],
+    "support": "supported",
+    "flags": [],
+    "origin": "model",
+    "edited": false
+   },
+   {
+    "id": "s6",
+    "section": "subjective",
+    "text": "Denies weight loss",
+    "evidence": [
+     {
+      "turn": 12,
+      "quote": "Any blood in your stool, or weight loss you can't explain?",
+      "verified": true,
+      "score": 1.0
+     },
+     {
+      "turn": 13,
+      "quote": "No.",
+      "verified": true,
+      "score": 1.0
+     }
+    ],
+    "support": "supported",
+    "flags": [],
+    "origin": "model",
+    "edited": false
+   },
+   {
+    "id": "s7",
+    "section": "subjective",
+    "text": "Two or three beers a week, maybe",
+    "evidence": [
+     {
+      "turn": 15,
+      "quote": "Two or three beers a week, maybe.",
+      "verified": true,
+      "score": 1.0
+     }
+    ],
+    "support": "supported",
+    "flags": [],
+    "origin": "model",
+    "edited": false
+   },
+   {
+    "id": "o1",
+    "section": "objective",
+    "text": "Your blood pressure is 132 over 82, pulse 78, and weight is 205 pounds",
+    "evidence": [
+     {
+      "turn": 22,
+      "quote": "Your blood pressure is 132 over 82, pulse 78, and weight is 205 pounds.",
+      "verified": true,
+      "score": 1.0
+     }
+    ],
+    "support": "supported",
+    "flags": [],
+    "origin": "model",
+    "edited": false
+   },
+   {
+    "id": "o2",
+    "section": "objective",
+    "text": "Heart is regular, no murmurs",
+    "evidence": [
+     {
+      "turn": 22,
+      "quote": "Heart is regular, no murmurs.",
+      "verified": true,
+      "score": 1.0
+     }
+    ],
+    "support": "supported",
+    "flags": [],
+    "origin": "model",
+    "edited": false
+   },
+   {
+    "id": "o3",
+    "section": "objective",
+    "text": "Lungs are clear, no wheezing",
+    "evidence": [
+     {
+      "turn": 22,
+      "quote": "Lungs are clear, no wheezing.",
+      "verified": true,
+      "score": 1.0
+     }
+    ],
+    "support": "supported",
+    "flags": [],
+    "origin": "model",
+    "edited": false
+   },
+   {
+    "id": "o4",
+    "section": "objective",
+    "text": "No swelling in your legs",
+    "evidence": [
+     {
+      "turn": 22,
+      "quote": "No swelling in your legs.",
+      "verified": true,
+      "score": 1.0
+     }
+    ],
+    "support": "supported",
+    "flags": [],
+    "origin": "model",
+    "edited": false
+   },
+   {
+    "id": "o5",
+    "section": "objective",
+    "text": "And I'd like fasting labs, a cholesterol panel and an A1c to check for diabetes",
+    "evidence": [
+     {
+      "turn": 28,
+      "quote": "And I'd like fasting labs, a cholesterol panel and an A1c to check for diabetes.",
+      "verified": true,
+      "score": 1.0
+     }
+    ],
+    "support": "supported",
+    "flags": [],
+    "origin": "model",
+    "edited": false
+   },
+   {
+    "id": "a1",
+    "section": "assessment",
+    "text": "So this is your yearly physical",
+    "evidence": [
+     {
+      "turn": 4,
+      "quote": "So this is your yearly physical.",
+      "verified": true,
+      "score": 1.0
+     }
+    ],
+    "support": "supported",
+    "flags": [],
+    "origin": "model",
+    "edited": false
+   },
+   {
+    "id": "p1",
+    "section": "plan",
+    "text": "Let's start with your full name and date of birth",
+    "evidence": [
+     {
+      "turn": 0,
+      "quote": "Let's start with your full name and date of birth.",
+      "verified": true,
+      "score": 1.0
+     }
+    ],
+    "support": "supported",
+    "flags": [],
+    "origin": "model",
+    "edited": false
+   },
+   {
+    "id": "p2",
+    "section": "plan",
+    "text": "We'll spend some time on it",
+    "evidence": [
+     {
+      "turn": 6,
+      "quote": "We'll spend some time on it.",
+      "verified": true,
+      "score": 1.0
+     }
+    ],
+    "support": "supported",
+    "flags": [],
+    "origin": "model",
+    "edited": false
+   },
+   {
+    "id": "p3",
+    "section": "plan",
+    "text": "I'll put in a referral to gastroenterology for a screening colonoscopy",
+    "evidence": [
+     {
+      "turn": 26,
+      "quote": "I'll put in a referral to gastroenterology for a screening colonoscopy.",
+      "verified": true,
+      "score": 1.0
+     }
+    ],
+    "support": "supported",
+    "flags": [],
+    "origin": "model",
+    "edited": false
+   },
+   {
+    "id": "p4",
+    "section": "plan",
+    "text": "I'll order that too",
+    "evidence": [
+     {
+      "turn": 26,
+      "quote": "I'll order that too.",
+      "verified": true,
+      "score": 1.0
+     }
+    ],
+    "support": "supported",
+    "flags": [],
+    "origin": "model",
+    "edited": false
+   },
+   {
+    "id": "p5",
+    "section": "plan",
+    "text": "Let's pick a quit date",
+    "evidence": [
+     {
+      "turn": 30,
+      "quote": "Let's pick a quit date.",
+      "verified": true,
+      "score": 1.0
+     }
+    ],
+    "support": "supported",
+    "flags": [],
+    "origin": "model",
+    "edited": false
+   },
+   {
+    "id": "p6",
+    "section": "plan",
+    "text": "Since a pack a day is heavy, start the 21 milligram nicotine patch that morning, one patch a day, and use nicotine gum, 2 milligrams, when you get a craving",
+    "evidence": [
+     {
+      "turn": 32,
+      "quote": "Since a pack a day is heavy, start the 21 milligram nicotine patch that morning, one patch a",
+      "verified": true,
+      "score": 1.0
+     }
+    ],
+    "support": "supported",
+    "flags": [],
+    "origin": "model",
+    "edited": false
+   },
+   {
+    "id": "p7",
+    "section": "plan",
+    "text": "I'll see you in 1 month to check how the quit is going, and we'll go over the labs then",
+    "evidence": [
+     {
+      "turn": 34,
+      "quote": "I'll see you in 1 month to check how the quit is going, and we'll go over the",
+      "verified": true,
+      "score": 1.0
+     }
+    ],
+    "support": "supported",
+    "flags": [],
+    "origin": "model",
+    "edited": false
+   }
+  ],
+  "medications": [
+   {
+    "name": "multivitamin",
+    "dose": "",
+    "frequency": "",
+    "route": "",
+    "status": "active",
+    "evidence": [
+     {
+      "turn": 19,
+      "quote": "Just a multivitamin most days.",
+      "verified": true,
+      "score": 1.0
+     }
+    ],
+    "flags": []
+   },
+   {
+    "name": "influenza vaccine",
+    "dose": "",
+    "frequency": "",
+    "route": "",
+    "status": "active",
+    "evidence": [
+     {
+      "turn": 30,
+      "quote": "Great, the nurse will give you the flu shot in your left arm before you leave.",
+      "verified": true,
+      "score": 1.0
+     }
+    ],
+    "flags": []
+   },
+   {
+    "name": "nicotine",
+    "dose": "2 milligrams",
+    "frequency": "a day",
+    "route": "",
+    "status": "new",
+    "evidence": [
+     {
+      "turn": 32,
+      "quote": "Since a pack a day is heavy, start the 21 milligram nicotine patch that morning, one patch a",
+      "verified": true,
+      "score": 1.0
+     }
+    ],
+    "flags": []
+   }
+  ],
+  "allergies": [],
+  "after_visit_summary": "Thank you for coming in today. Here is what we talked about. Let's start with your full name and date of birth. we will spend some time on it. I'll put in a referral to gastroenterology for a screening colonoscopy. I'll order that too. Let's pick a quit date. Since a pack a day is heavy, start the 21 milligram nicotine patch that morning, one patch a day, and use nicotine gum, 2 milligrams, when you get a craving.",
+  "avs_flags": [],
+  "icd10": [
+   {
+    "system": "ICD-10-CM",
+    "code": "Z04.71",
+    "description": "Encounter for examination and observation following alleged adult physical abuse",
+    "rank": 1,
+    "rationale": "Matches the assessment: Encounter for examination and observation following alleged adult physical abuse",
+    "evidence": [],
+    "valid": true,
+    "billable": true,
+    "flags": [
+     {
+      "kind": "code_unsupported",
+      "severity": "warning",
+      "message": "No verified quote supports this code.",
+      "acknowledged": false,
+      "detail": {}
+     }
+    ],
+    "accepted": null
+   },
+   {
+    "system": "ICD-10-CM",
+    "code": "Z04.72",
+    "description": "Encounter for examination and observation following alleged child physical abuse",
+    "rank": 2,
+    "rationale": "Matches the assessment: Encounter for examination and observation following alleged child physical abuse",
+    "evidence": [],
+    "valid": true,
+    "billable": true,
+    "flags": [
+     {
+      "kind": "code_unsupported",
+      "severity": "warning",
+      "message": "No verified quote supports this code.",
+      "acknowledged": false,
+      "detail": {}
+     }
+    ],
+    "accepted": null
+   },
+   {
+    "system": "ICD-10-CM",
+    "code": "Z72.3",
+    "description": "Lack of physical exercise",
+    "rank": 3,
+    "rationale": "Matches the assessment: Lack of physical exercise",
+    "evidence": [],
+    "valid": true,
+    "billable": true,
+    "flags": [
+     {
+      "kind": "code_unsupported",
+      "severity": "warning",
+      "message": "No verified quote supports this code.",
+      "acknowledged": false,
+      "detail": {}
+     }
+    ],
+    "accepted": null
+   }
+  ],
+  "em": {
+   "system": "CPT",
+   "code": "99214",
+   "description": "Established patient office visit, moderate-complexity decision making",
+   "rank": 1,
+   "rationale": "Rule-based: prescription drug management",
+   "evidence": [],
+   "valid": true,
+   "billable": true,
+   "flags": [],
+   "accepted": null
+  },
+  "procedures": [
+   {
+    "system": "CPT",
+    "code": "90686",
+    "description": "Influenza vaccine, quadrivalent, preservative free, intramuscular",
+    "rank": 1,
+    "rationale": "Performed today",
+    "evidence": [
+     {
+      "turn": 28,
+      "quote": "And I'd like fasting labs, a cholesterol panel and an A1c to check for diabetes. Your tetanus shot",
+      "verified": true,
+      "score": 1.0
+     }
+    ],
+    "valid": true,
+    "billable": true,
+    "flags": [],
+    "accepted": null
+   }
+  ],
+  "mdm": {
+   "problems": "straightforward",
+   "data": "moderate",
+   "risk": "moderate",
+   "level": "moderate",
+   "code": "99214",
+   "reasons": [
+    "problems: one minor problem",
+    "data: 3 tests or sources",
+    "risk: prescription drug management"
+   ]
+  },
+  "section_status": {
+   "subjective": "draft",
+   "objective": "draft",
+   "assessment": "draft",
+   "plan": "draft"
+  },
+  "model": "fake/fake-scribe",
+  "created_at": "2026-10-13T05:44:43.735761Z",
+  "signed_by": null,
+  "signed_at": null,
+  "timings": {
+   "phi_masking": 0.026,
+   "llm_note": 0.011,
+   "guards_note": 0.049,
+   "llm_codes": 0.005,
+   "guards_codes": 0.034,
+   "total": 0.125,
+   "wall": 0.131
+  },
+  "usage": {
+   "model_ms": 16,
+   "input_tokens": 2989,
+   "output_tokens": 1269,
+   "calls": 2
+  },
+  "phi": {
+   "NAME": 3,
+   "DOB": 1,
+   "ADDRESS": 1,
+   "DATE": 1
+  }
+ },
+ "vault": {
+  "originals": {
+   "[PATIENT]": "Brendan Gallagher",
+   "[DOB]": "August 30th, 1974",
+   "[NAME_1]": "Siobhan",
+   "[ADDRESS_1]": "Canton",
+   "[DATE_1]": "November 1st",
+   "[NAME_2]": "Zhou"
+  },
+  "surfaces": {
+   "[PATIENT]": [
+    "Brendan",
+    "Brendan Gallagher"
+   ],
+   "[DOB]": [
+    "August 30th, 1974"
+   ],
+   "[NAME_1]": [
+    "Siobhan"
+   ],
+   "[ADDRESS_1]": [
+    "Canton"
+   ],
+   "[DATE_1]": [
+    "November 1st"
+   ],
+   "[NAME_2]": [
+    "Zhou"
+   ]
+  },
+  "types": {
+   "[PATIENT]": "NAME",
+   "[DOB]": "DOB",
+   "[NAME_1]": "NAME",
+   "[ADDRESS_1]": "ADDRESS",
+   "[DATE_1]": "DATE",
+   "[NAME_2]": "NAME"
+  },
+  "counters": {
+   "NAME": 2,
+   "ADDRESS": 1,
+   "DATE": 1
+  }
+ },
+ "score": {
+  "case": "pc-05",
+  "specialty": "primary_care",
+  "facts": 27,
+  "found": 20,
+  "found_in_section": 14,
+  "negation_errors": [],
+  "trap_errors": [],
+  "missed": [
+   "f4 [subjective] Prior quit attempt in 2019 with nicotine patch, abstinent 6 months, relapsed with work stress",
+   "f10 [subjective] Family history of breast cancer in mother (2021)",
+   "f12 [subjective] No known drug allergies",
+   "f13 [subjective] Never had a colonoscopy",
+   "f14 [subjective] Tetanus vaccine in 2020, up to date",
+   "f20 [plan] Low-dose CT chest for lung cancer screening",
+   "f26 [plan] Behavioral counseling on triggers (after meals, in the car) and quit line referral; about 8 minutes of cessation counseling"
+  ],
+  "statements": 20,
+  "statements_matching_gold": 15,
+  "unsupported": 0,
+  "partial": 0,
+  "flags": {},
+  "meds": 4,
+  "meds_found": 4,
+  "meds_dose_correct": 1,
+  "icd_primary": "Z00.00",
+  "icd_suggested": [
+   "Z04.71",
+   "Z04.72",
+   "Z72.3"
+  ],
+  "icd_top1": false,
+  "icd_top3": false,
+  "icd_top3_lenient": false,
+  "icd_top3_category": false,
+  "icd_gold_recall": 0.0,
+  "icd_invalid": 0,
+  "em_gold": "99213",
+  "em_suggested": "99214",
+  "em_exact": false,
+  "em_within_one": true,
+  "em_rule_estimate": "99214",
+  "procedures_gold": 3,
+  "procedures_found": 1
+ },
+ "egress_residue": {}
+}

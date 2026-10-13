@@ -1,0 +1,767 @@
+{
+ "note": {
+  "visit_id": "pd-01",
+  "statements": [
+   {
+    "id": "s1",
+    "section": "subjective",
+    "text": "She started with a fever yesterday afternoon, and she's been pulling at her left ear, like, nonstop",
+    "evidence": [
+     {
+      "turn": 5,
+      "quote": "So she started with a fever yesterday afternoon, and she's been pulling at her left ear, like, nonstop.",
+      "verified": true,
+      "score": 1.0
+     }
+    ],
+    "support": "supported",
+    "flags": [],
+    "origin": "model",
+    "edited": false
+   },
+   {
+    "id": "s2",
+    "section": "subjective",
+    "text": "Nothing since then",
+    "evidence": [
+     {
+      "turn": 7,
+      "quote": "Nothing since then.",
+      "verified": true,
+      "score": 1.0
+     }
+    ],
+    "support": "supported",
+    "flags": [],
+    "origin": "model",
+    "edited": false
+   },
+   {
+    "id": "s3",
+    "section": "subjective",
+    "text": "Runny nose and a little cough for maybe 4 or 5 days",
+    "evidence": [
+     {
+      "turn": 9,
+      "quote": "Yeah, runny nose and a little cough for maybe 4 or 5 days.",
+      "verified": true,
+      "score": 1.0
+     }
+    ],
+    "support": "supported",
+    "flags": [],
+    "origin": "model",
+    "edited": false
+   },
+   {
+    "id": "s4",
+    "section": "subjective",
+    "text": "Her cousin just had hand, foot and mouth, so was kind of worried about that too",
+    "evidence": [
+     {
+      "turn": 9,
+      "quote": "And her cousin just had hand, foot and mouth, so I was kind of worried about that too.",
+      "verified": true,
+      "score": 1.0
+     }
+    ],
+    "support": "supported",
+    "flags": [],
+    "origin": "model",
+    "edited": false
+   },
+   {
+    "id": "s5",
+    "section": "subjective",
+    "text": "Denies rash",
+    "evidence": [
+     {
+      "turn": 10,
+      "quote": "Any sores in her mouth, or a rash on her hands or feet?",
+      "verified": true,
+      "score": 1.0
+     },
+     {
+      "turn": 11,
+      "quote": "No, I looked.",
+      "verified": true,
+      "score": 1.0
+     }
+    ],
+    "support": "supported",
+    "flags": [],
+    "origin": "model",
+    "edited": false
+   },
+   {
+    "id": "s6",
+    "section": "subjective",
+    "text": "She's mostly potty trained, just a pull-up at night",
+    "evidence": [
+     {
+      "turn": 15,
+      "quote": "Yeah, she's mostly potty trained, just a pull-up at night.",
+      "verified": true,
+      "score": 1.0
+     }
+    ],
+    "support": "supported",
+    "flags": [],
+    "origin": "model",
+    "edited": false
+   },
+   {
+    "id": "s7",
+    "section": "subjective",
+    "text": "Denies vomiting",
+    "evidence": [
+     {
+      "turn": 16,
+      "quote": "Any vomiting or diarrhea?",
+      "verified": true,
+      "score": 1.0
+     },
+     {
+      "turn": 17,
+      "quote": "Nope.",
+      "verified": true,
+      "score": 1.0
+     }
+    ],
+    "support": "supported",
+    "flags": [],
+    "origin": "model",
+    "edited": false
+   },
+   {
+    "id": "s8",
+    "section": "subjective",
+    "text": "Denies diarrhea",
+    "evidence": [
+     {
+      "turn": 16,
+      "quote": "Any vomiting or diarrhea?",
+      "verified": true,
+      "score": 1.0
+     },
+     {
+      "turn": 17,
+      "quote": "Nope.",
+      "verified": true,
+      "score": 1.0
+     }
+    ],
+    "support": "supported",
+    "flags": [],
+    "origin": "model",
+    "edited": false
+   },
+   {
+    "id": "s9",
+    "section": "subjective",
+    "text": "It cleared up with the pink medicine and she's been fine since",
+    "evidence": [
+     {
+      "turn": 21,
+      "quote": "It cleared up with the pink medicine and she's been fine since.",
+      "verified": true,
+      "score": 1.0
+     }
+    ],
+    "support": "supported",
+    "flags": [],
+    "origin": "model",
+    "edited": false
+   },
+   {
+    "id": "s10",
+    "section": "subjective",
+    "text": "9 milliliters twice a day for 10 days",
+    "evidence": [
+     {
+      "turn": 31,
+      "quote": "9 milliliters twice a day for 10 days.",
+      "verified": true,
+      "score": 1.0
+     }
+    ],
+    "support": "supported",
+    "flags": [],
+    "origin": "model",
+    "edited": false
+   },
+   {
+    "id": "s11",
+    "section": "subjective",
+    "text": "Should they worry about her baby brother?",
+    "evidence": [
+     {
+      "turn": 37,
+      "quote": "Um, should I worry about her baby brother?",
+      "verified": true,
+      "score": 1.0
+     }
+    ],
+    "support": "supported",
+    "flags": [],
+    "origin": "model",
+    "edited": false
+   },
+   {
+    "id": "s12",
+    "section": "subjective",
+    "text": "He's got the runny nose now too",
+    "evidence": [
+     {
+      "turn": 37,
+      "quote": "He's got the runny nose now too.",
+      "verified": true,
+      "score": 1.0
+     }
+    ],
+    "support": "supported",
+    "flags": [],
+    "origin": "model",
+    "edited": false
+   },
+   {
+    "id": "o1",
+    "section": "objective",
+    "text": "So her weight today is 16 kilograms, that's about 35 pounds",
+    "evidence": [
+     {
+      "turn": 24,
+      "quote": "So her weight today is 16 kilograms, that's about 35 pounds.",
+      "verified": true,
+      "score": 1.0
+     }
+    ],
+    "support": "supported",
+    "flags": [],
+    "origin": "model",
+    "edited": false
+   },
+   {
+    "id": "o2",
+    "section": "objective",
+    "text": "Okay, her right eardrum looks normal",
+    "evidence": [
+     {
+      "turn": 26,
+      "quote": "Okay, her right eardrum looks normal.",
+      "verified": true,
+      "score": 1.0
+     }
+    ],
+    "support": "supported",
+    "flags": [],
+    "origin": "model",
+    "edited": false
+   },
+   {
+    "id": "o3",
+    "section": "objective",
+    "text": "Her throat is a little red, but no sores or blisters",
+    "evidence": [
+     {
+      "turn": 26,
+      "quote": "Her throat is a little red, but no sores or blisters.",
+      "verified": true,
+      "score": 1.0
+     }
+    ],
+    "support": "supported",
+    "flags": [],
+    "origin": "model",
+    "edited": false
+   },
+   {
+    "id": "o4",
+    "section": "objective",
+    "text": "Lungs sound clear, no wheezing, and her neck is nice and soft",
+    "evidence": [
+     {
+      "turn": 26,
+      "quote": "Lungs sound clear, no wheezing, and her neck is nice and soft.",
+      "verified": true,
+      "score": 1.0
+     }
+    ],
+    "support": "supported",
+    "flags": [],
+    "origin": "model",
+    "edited": false
+   },
+   {
+    "id": "o5",
+    "section": "objective",
+    "text": "With a fever as high as 102.8 and that bulging eardrum, I do recommend an antibiotic",
+    "evidence": [
+     {
+      "turn": 28,
+      "quote": "With a fever as high as 102.8 and that bulging eardrum, I do recommend an antibiotic.",
+      "verified": true,
+      "score": 1.0
+     }
+    ],
+    "support": "supported",
+    "flags": [],
+    "origin": "model",
+    "edited": false
+   },
+   {
+    "id": "o6",
+    "section": "objective",
+    "text": "The pharmacy will give you the 400 milligrams per 5 milliliters strength, so it's 9 milliliters twice a day, for 10 full days, even if she seems better after a couple of days",
+    "evidence": [
+     {
+      "turn": 30,
+      "quote": "The pharmacy will give you the 400 milligrams per 5 milliliters strength, so it's 9 milliliters twice a",
+      "verified": true,
+      "score": 1.0
+     }
+    ],
+    "support": "supported",
+    "flags": [],
+    "origin": "model",
+    "edited": false
+   },
+   {
+    "id": "o7",
+    "section": "objective",
+    "text": "The Tylenol is fine too, every 4 to 6 hours, but for her weight it's 7 and a half milliliters, not 5",
+    "evidence": [
+     {
+      "turn": 32,
+      "quote": "The Tylenol is fine too, every 4 to 6 hours, but for her weight it's 7 and a",
+      "verified": true,
+      "score": 0.89
+     }
+    ],
+    "support": "partial",
+    "flags": [
+     {
+      "kind": "partial_support",
+      "severity": "error",
+      "message": "Quoted turn does not contain 7; check against the transcript.",
+      "acknowledged": false,
+      "detail": {
+       "numbers_not_in_evidence": [
+        "7"
+       ]
+      }
+     }
+    ],
+    "origin": "model",
+    "edited": false
+   },
+   {
+    "id": "a1",
+    "section": "assessment",
+    "text": "Yes, this is an acute ear infection in her left ear, on top of a cold",
+    "evidence": [
+     {
+      "turn": 28,
+      "quote": "Yes, this is an acute ear infection in her left ear, on top of a cold.",
+      "verified": true,
+      "score": 1.0
+     }
+    ],
+    "support": "supported",
+    "flags": [],
+    "origin": "model",
+    "edited": false
+   },
+   {
+    "id": "p1",
+    "section": "plan",
+    "text": "We'll use amoxicillin at the higher dose, 90 milligrams per kilogram per day",
+    "evidence": [
+     {
+      "turn": 28,
+      "quote": "We'll use amoxicillin at the higher dose, 90 milligrams per kilogram per day.",
+      "verified": true,
+      "score": 1.0
+     }
+    ],
+    "support": "supported",
+    "flags": [],
+    "origin": "model",
+    "edited": false
+   },
+   {
+    "id": "p2",
+    "section": "plan",
+    "text": "For pain and fever you can use ibuprofen",
+    "evidence": [
+     {
+      "turn": 32,
+      "quote": "For pain and fever you can use ibuprofen.",
+      "verified": true,
+      "score": 1.0
+     }
+    ],
+    "support": "supported",
+    "flags": [],
+    "origin": "model",
+    "edited": false
+   },
+   {
+    "id": "p3",
+    "section": "plan",
+    "text": "If she's still running fevers or in a lot of pain after 48 to 72 hours on the amoxicillin, call us, because we may need to switch antibiotics",
+    "evidence": [
+     {
+      "turn": 40,
+      "quote": "If she's still running fevers or in a lot of pain after 48 to 72 hours on the",
+      "verified": true,
+      "score": 1.0
+     }
+    ],
+    "support": "supported",
+    "flags": [],
+    "origin": "model",
+    "edited": false
+   },
+   {
+    "id": "p4",
+    "section": "plan",
+    "text": "If she's back to herself in a few days, no routine recheck",
+    "evidence": [
+     {
+      "turn": 42,
+      "quote": "If she's back to herself in a few days, no routine recheck.",
+      "verified": true,
+      "score": 1.0
+     }
+    ],
+    "support": "supported",
+    "flags": [],
+    "origin": "model",
+    "edited": false
+   },
+   {
+    "id": "p5",
+    "section": "plan",
+    "text": "If she gets another ear infection in the next couple of months, we'll want to see her",
+    "evidence": [
+     {
+      "turn": 42,
+      "quote": "If she gets another ear infection in the next couple of months, we'll want to see her.",
+      "verified": true,
+      "score": 1.0
+     }
+    ],
+    "support": "supported",
+    "flags": [],
+    "origin": "model",
+    "edited": false
+   }
+  ],
+  "medications": [
+   {
+    "name": "acetaminophen",
+    "dose": "5 milliliters",
+    "frequency": "",
+    "route": "",
+    "status": "active",
+    "evidence": [
+     {
+      "turn": 7,
+      "quote": "I gave her the children's Tylenol around 2 in the morning, 5 milliliters, and that helped a little.",
+      "verified": true,
+      "score": 1.0
+     }
+    ],
+    "flags": [
+     {
+      "kind": "dose_mismatch",
+      "severity": "warning",
+      "message": "The acetaminophen dose was corrected in the conversation (4, 5, 6, 7.5); confirm the final dose.",
+      "acknowledged": false,
+      "detail": {
+       "doses": [
+        "4",
+        "5",
+        "6",
+        "7.5"
+       ],
+       "turn": 32
+      }
+     }
+    ]
+   },
+   {
+    "name": "amoxicillin",
+    "dose": "90 milligrams",
+    "frequency": "",
+    "route": "",
+    "status": "active",
+    "evidence": [
+     {
+      "turn": 28,
+      "quote": "We'll use amoxicillin at the higher dose, 90 milligrams per kilogram per day.",
+      "verified": true,
+      "score": 1.0
+     }
+    ],
+    "flags": [
+     {
+      "kind": "dose_range",
+      "severity": "error",
+      "message": "amoxicillin: 6 mg/kg/day at 16 kg is outside the usual pediatric 20-100 mg/kg/day.",
+      "acknowledged": false,
+      "detail": {
+       "mg_kg_day": 5.6,
+       "weight_kg": 16.0
+      }
+     }
+    ]
+   },
+   {
+    "name": "ibuprofen",
+    "dose": "",
+    "frequency": "",
+    "route": "",
+    "status": "active",
+    "evidence": [
+     {
+      "turn": 32,
+      "quote": "For pain and fever you can use ibuprofen.",
+      "verified": true,
+      "score": 1.0
+     }
+    ],
+    "flags": []
+   }
+  ],
+  "allergies": [],
+  "after_visit_summary": "Thank you for coming in today. Here is what we talked about. we will use amoxicillin at the higher dose, 90 milligrams per kilogram per day. For pain and fever you can use ibuprofen. If she's still running fevers or in a lot of pain after 48 to 72 hours on the amoxicillin, call us, because we may need to switch antibiotics. If she's back to herself in a few days, no routine recheck. If she gets another ear infection in the next couple of months, we will want to see her.",
+  "avs_flags": [],
+  "icd10": [
+   {
+    "system": "ICD-10-CM",
+    "code": "H65.02",
+    "description": "Acute serous otitis media, left ear",
+    "rank": 1,
+    "rationale": "Matches the assessment: Acute serous otitis media, left ear",
+    "evidence": [],
+    "valid": true,
+    "billable": true,
+    "flags": [
+     {
+      "kind": "code_unsupported",
+      "severity": "warning",
+      "message": "No verified quote supports this code.",
+      "acknowledged": false,
+      "detail": {}
+     }
+    ],
+    "accepted": null
+   },
+   {
+    "system": "ICD-10-CM",
+    "code": "H65.192",
+    "description": "Other acute nonsuppurative otitis media, left ear",
+    "rank": 2,
+    "rationale": "Matches the assessment: Other acute nonsuppurative otitis media, left ear",
+    "evidence": [],
+    "valid": true,
+    "billable": true,
+    "flags": [
+     {
+      "kind": "code_unsupported",
+      "severity": "warning",
+      "message": "No verified quote supports this code.",
+      "acknowledged": false,
+      "detail": {}
+     }
+    ],
+    "accepted": null
+   },
+   {
+    "system": "ICD-10-CM",
+    "code": "H65.05",
+    "description": "Acute serous otitis media, recurrent, left ear",
+    "rank": 3,
+    "rationale": "Matches the assessment: Acute serous otitis media, recurrent, left ear",
+    "evidence": [],
+    "valid": true,
+    "billable": true,
+    "flags": [
+     {
+      "kind": "code_unsupported",
+      "severity": "warning",
+      "message": "No verified quote supports this code.",
+      "acknowledged": false,
+      "detail": {}
+     }
+    ],
+    "accepted": null
+   }
+  ],
+  "em": {
+   "system": "CPT",
+   "code": "99214",
+   "description": "Established patient office visit, moderate-complexity decision making",
+   "rank": 1,
+   "rationale": "Rule-based: prescription drug management",
+   "evidence": [],
+   "valid": true,
+   "billable": true,
+   "flags": [],
+   "accepted": null
+  },
+  "procedures": [],
+  "mdm": {
+   "problems": "moderate",
+   "data": "low",
+   "risk": "moderate",
+   "level": "moderate",
+   "code": "99214",
+   "reasons": [
+    "problems: acute illness with systemic symptoms",
+    "data: limited (tests or an independent historian)",
+    "risk: prescription drug management"
+   ]
+  },
+  "section_status": {
+   "subjective": "draft",
+   "objective": "draft",
+   "assessment": "draft",
+   "plan": "draft"
+  },
+  "model": "fake/fake-scribe",
+  "created_at": "2026-10-13T05:44:46.750069Z",
+  "signed_by": null,
+  "signed_at": null,
+  "timings": {
+   "phi_masking": 0.031,
+   "llm_note": 0.018,
+   "guards_note": 0.076,
+   "llm_codes": 0.008,
+   "guards_codes": 0.051,
+   "total": 0.184,
+   "wall": 0.243
+  },
+  "usage": {
+   "model_ms": 26,
+   "input_tokens": 3888,
+   "output_tokens": 1550,
+   "calls": 2
+  },
+  "phi": {
+   "NAME": 2,
+   "DOB": 1,
+   "ORG": 1,
+   "ADDRESS": 2,
+   "PHONE": 1
+  }
+ },
+ "vault": {
+  "originals": {
+   "[PATIENT]": "Amara Okafor",
+   "[DOB]": "July 18th, 2023",
+   "[NAME_1]": "Chiamaka",
+   "[ORG_1]": "Little Acorns",
+   "[ADDRESS_1]": "Euclid Avenue",
+   "[ADDRESS_2]": "4410 Euclid",
+   "[PHONE_1]": "555-0163"
+  },
+  "surfaces": {
+   "[PATIENT]": [
+    "Amara",
+    "Amara Okafor"
+   ],
+   "[DOB]": [
+    "July 18th, 2023"
+   ],
+   "[NAME_1]": [
+    "Chiamaka"
+   ],
+   "[ORG_1]": [
+    "Little Acorns"
+   ],
+   "[ADDRESS_1]": [
+    "Euclid Avenue"
+   ],
+   "[ADDRESS_2]": [
+    "4410 Euclid"
+   ],
+   "[PHONE_1]": [
+    "555-0163"
+   ]
+  },
+  "types": {
+   "[PATIENT]": "NAME",
+   "[DOB]": "DOB",
+   "[NAME_1]": "NAME",
+   "[ORG_1]": "ORG",
+   "[ADDRESS_1]": "ADDRESS",
+   "[ADDRESS_2]": "ADDRESS",
+   "[PHONE_1]": "PHONE"
+  },
+  "counters": {
+   "NAME": 1,
+   "ORG": 1,
+   "ADDRESS": 2,
+   "PHONE": 1
+  }
+ },
+ "score": {
+  "case": "pd-01",
+  "specialty": "pediatrics",
+  "facts": 31,
+  "found": 18,
+  "found_in_section": 16,
+  "negation_errors": [],
+  "trap_errors": [],
+  "missed": [
+   "f6 [subjective] Sick contacts at daycare; cousin recently had hand, foot and mouth disease",
+   "f8 [subjective] Decreased appetite, drinking fluids okay",
+   "f9 [subjective] Normal urine output",
+   "f12 [subjective] No ear drainage",
+   "f13 [subjective] No known drug allergies",
+   "f15 [objective] Temperature 101.6 in clinic",
+   "f16 [objective] Heart rate 128",
+   "f17 [objective] Oxygen saturation 99 percent",
+   "f19 [objective] Left tympanic membrane erythematous and bulging with purulent effusion",
+   "f25 [plan] Amoxicillin course for 10 days",
+   "f26 [plan] Ibuprofen 160 mg (8 mL) every 6 to 8 hours as needed for pain or fever",
+   "f28 [plan] May return to daycare after fever-free 24 hours without antipyretics",
+   "f30 [plan] Return immediately for swelling or redness behind the ear or lethargy"
+  ],
+  "statements": 25,
+  "statements_matching_gold": 16,
+  "unsupported": 0,
+  "partial": 1,
+  "flags": {
+   "partial_support": 1,
+   "dose_mismatch": 1,
+   "dose_range": 1
+  },
+  "meds": 3,
+  "meds_found": 3,
+  "meds_dose_correct": 0,
+  "icd_primary": "H66.002",
+  "icd_suggested": [
+   "H65.02",
+   "H65.192",
+   "H65.05"
+  ],
+  "icd_top1": false,
+  "icd_top3": false,
+  "icd_top3_lenient": false,
+  "icd_top3_category": false,
+  "icd_gold_recall": 0.0,
+  "icd_invalid": 0,
+  "em_gold": "99214",
+  "em_suggested": "99214",
+  "em_exact": true,
+  "em_within_one": true,
+  "em_rule_estimate": "99214",
+  "procedures_gold": 0,
+  "procedures_found": 0
+ },
+ "egress_residue": {}
+}

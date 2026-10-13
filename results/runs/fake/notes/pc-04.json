@@ -1,0 +1,651 @@
+{
+ "note": {
+  "visit_id": "pc-04",
+  "statements": [
+   {
+    "id": "s1",
+    "section": "subjective",
+    "text": "Denies numbness",
+    "evidence": [
+     {
+      "turn": 10,
+      "quote": "Any numbness or tingling in your legs or feet? Any weakness, like your foot dragging?",
+      "verified": true,
+      "score": 1.0
+     },
+     {
+      "turn": 11,
+      "quote": "No, no numbness.",
+      "verified": true,
+      "score": 1.0
+     }
+    ],
+    "support": "supported",
+    "flags": [],
+    "origin": "model",
+    "edited": false
+   },
+   {
+    "id": "s2",
+    "section": "subjective",
+    "text": "Denies tingling",
+    "evidence": [
+     {
+      "turn": 10,
+      "quote": "Any numbness or tingling in your legs or feet? Any weakness, like your foot dragging?",
+      "verified": true,
+      "score": 1.0
+     },
+     {
+      "turn": 11,
+      "quote": "No, no numbness.",
+      "verified": true,
+      "score": 1.0
+     }
+    ],
+    "support": "supported",
+    "flags": [],
+    "origin": "model",
+    "edited": false
+   },
+   {
+    "id": "s3",
+    "section": "subjective",
+    "text": "Denies weakness",
+    "evidence": [
+     {
+      "turn": 10,
+      "quote": "Any numbness or tingling in your legs or feet? Any weakness, like your foot dragging?",
+      "verified": true,
+      "score": 1.0
+     },
+     {
+      "turn": 11,
+      "quote": "No, no numbness.",
+      "verified": true,
+      "score": 1.0
+     }
+    ],
+    "support": "supported",
+    "flags": [],
+    "origin": "model",
+    "edited": false
+   },
+   {
+    "id": "s4",
+    "section": "subjective",
+    "text": "Denies fevers",
+    "evidence": [
+     {
+      "turn": 16,
+      "quote": "Any fevers, unexplained weight loss, or any history of cancer?",
+      "verified": true,
+      "score": 1.0
+     },
+     {
+      "turn": 17,
+      "quote": "None of that.",
+      "verified": true,
+      "score": 1.0
+     }
+    ],
+    "support": "supported",
+    "flags": [],
+    "origin": "model",
+    "edited": false
+   },
+   {
+    "id": "s5",
+    "section": "subjective",
+    "text": "Denies weight loss",
+    "evidence": [
+     {
+      "turn": 16,
+      "quote": "Any fevers, unexplained weight loss, or any history of cancer?",
+      "verified": true,
+      "score": 1.0
+     },
+     {
+      "turn": 17,
+      "quote": "None of that.",
+      "verified": true,
+      "score": 1.0
+     }
+    ],
+    "support": "supported",
+    "flags": [],
+    "origin": "model",
+    "edited": false
+   },
+   {
+    "id": "s6",
+    "section": "subjective",
+    "text": "They had sciatica on the left side maybe six years ago",
+    "evidence": [
+     {
+      "turn": 19,
+      "quote": "I had sciatica on the left side maybe six years ago.",
+      "verified": true,
+      "score": 1.0
+     }
+    ],
+    "support": "supported",
+    "flags": [],
+    "origin": "model",
+    "edited": false
+   },
+   {
+    "id": "s7",
+    "section": "subjective",
+    "text": "Did physical therapy and it went away completely, haven't had it since",
+    "evidence": [
+     {
+      "turn": 19,
+      "quote": "Did physical therapy and it went away completely, haven't had it since.",
+      "verified": true,
+      "score": 1.0
+     }
+    ],
+    "support": "supported",
+    "flags": [],
+    "origin": "model",
+    "edited": false
+   },
+   {
+    "id": "s8",
+    "section": "subjective",
+    "text": "Is kind of worried, though",
+    "evidence": [
+     {
+      "turn": 21,
+      "quote": "I'm kind of worried, though.",
+      "verified": true,
+      "score": 1.0
+     }
+    ],
+    "support": "supported",
+    "flags": [],
+    "origin": "model",
+    "edited": false
+   },
+   {
+    "id": "o1",
+    "section": "objective",
+    "text": "Blood pressure is 134 over 84, pulse 76, temperature 98.4",
+    "evidence": [
+     {
+      "turn": 22,
+      "quote": "Blood pressure is 134 over 84, pulse 76, temperature 98.4.",
+      "verified": true,
+      "score": 1.0
+     }
+    ],
+    "support": "supported",
+    "flags": [],
+    "origin": "model",
+    "edited": false
+   },
+   {
+    "id": "o2",
+    "section": "objective",
+    "text": "No tenderness when I press right on the spine itself",
+    "evidence": [
+     {
+      "turn": 24,
+      "quote": "No tenderness when I press right on the spine itself.",
+      "verified": true,
+      "score": 1.0
+     }
+    ],
+    "support": "supported",
+    "flags": [],
+    "origin": "model",
+    "edited": false
+   },
+   {
+    "id": "o3",
+    "section": "objective",
+    "text": "Strength is normal in both legs, reflexes are equal at the knees and ankles, and you can feel my touch the same on both sides",
+    "evidence": [
+     {
+      "turn": 26,
+      "quote": "Strength is normal in both legs, reflexes are equal at the knees and ankles, and you can feel",
+      "verified": true,
+      "score": 1.0
+     }
+    ],
+    "support": "supported",
+    "flags": [],
+    "origin": "model",
+    "edited": false
+   },
+   {
+    "id": "a1",
+    "section": "assessment",
+    "text": "This looks like a strain of the muscles in your lower back",
+    "evidence": [
+     {
+      "turn": 28,
+      "quote": "This looks like a strain of the muscles in your lower back.",
+      "verified": true,
+      "score": 1.0
+     }
+    ],
+    "support": "supported",
+    "flags": [],
+    "origin": "model",
+    "edited": false
+   },
+   {
+    "id": "p1",
+    "section": "plan",
+    "text": "Let's take a look",
+    "evidence": [
+     {
+      "turn": 22,
+      "quote": "Let's take a look.",
+      "verified": true,
+      "score": 1.0
+     }
+    ],
+    "support": "supported",
+    "flags": [],
+    "origin": "model",
+    "edited": false
+   },
+   {
+    "id": "p2",
+    "section": "plan",
+    "text": "I'm going to raise each leg straight",
+    "evidence": [
+     {
+      "turn": 24,
+      "quote": "I'm going to raise each leg straight.",
+      "verified": true,
+      "score": 1.0
+     }
+    ],
+    "support": "supported",
+    "flags": [],
+    "origin": "model",
+    "edited": false
+   },
+   {
+    "id": "p3",
+    "section": "plan",
+    "text": "For pain, take ibuprofen 600 milligrams three times a day with food for the next week or so",
+    "evidence": [
+     {
+      "turn": 30,
+      "quote": "For pain, take ibuprofen 600 milligrams three times a day with food for the next week or so.",
+      "verified": true,
+      "score": 1.0
+     }
+    ],
+    "support": "supported",
+    "flags": [],
+    "origin": "model",
+    "edited": false
+   },
+   {
+    "id": "p4",
+    "section": "plan",
+    "text": "I'm also prescribing cyclobenzaprine, a muscle relaxer, 5 milligrams at bedtime as needed for spasm",
+    "evidence": [
+     {
+      "turn": 30,
+      "quote": "I'm also prescribing cyclobenzaprine, a muscle relaxer, 5 milligrams at bedtime as needed for spasm.",
+      "verified": true,
+      "score": 1.0
+     }
+    ],
+    "support": "supported",
+    "flags": [],
+    "origin": "model",
+    "edited": false
+   },
+   {
+    "id": "p5",
+    "section": "plan",
+    "text": "It can make you drowsy, so no driving or running the forklift after you take it",
+    "evidence": [
+     {
+      "turn": 30,
+      "quote": "It can make you drowsy, so no driving or running the forklift after you take it.",
+      "verified": true,
+      "score": 1.0
+     }
+    ],
+    "support": "supported",
+    "flags": [],
+    "origin": "model",
+    "edited": false
+   },
+   {
+    "id": "p6",
+    "section": "plan",
+    "text": "If you're not better in 2 weeks, come back and we'll start physical therapy",
+    "evidence": [
+     {
+      "turn": 34,
+      "quote": "If you're not better in 2 weeks, come back and we'll start physical therapy.",
+      "verified": true,
+      "score": 1.0
+     }
+    ],
+    "support": "supported",
+    "flags": [],
+    "origin": "model",
+    "edited": false
+   },
+   {
+    "id": "p7",
+    "section": "plan",
+    "text": "And if you ever lose control of your bladder or bowels, get numb between your legs, or a leg gets weak, go to the emergency room right away",
+    "evidence": [
+     {
+      "turn": 34,
+      "quote": "And if you ever lose control of your bladder or bowels, get numb between your legs, or a",
+      "verified": true,
+      "score": 1.0
+     }
+    ],
+    "support": "supported",
+    "flags": [],
+    "origin": "model",
+    "edited": false
+   },
+   {
+    "id": "p8",
+    "section": "plan",
+    "text": "Let's plan a follow-up in 2 weeks",
+    "evidence": [
+     {
+      "turn": 36,
+      "quote": "Let's plan a follow-up in 2 weeks.",
+      "verified": true,
+      "score": 1.0
+     }
+    ],
+    "support": "supported",
+    "flags": [],
+    "origin": "model",
+    "edited": false
+   },
+   {
+    "id": "p9",
+    "section": "plan",
+    "text": "Take care of that back, Tomasz Kowalczyk",
+    "evidence": [
+     {
+      "turn": 36,
+      "quote": "Take care of that back, Tomasz Kowalczyk.",
+      "verified": true,
+      "score": 0.86
+     }
+    ],
+    "support": "supported",
+    "flags": [],
+    "origin": "model",
+    "edited": false
+   }
+  ],
+  "medications": [
+   {
+    "name": "ibuprofen",
+    "dose": "600 milligrams",
+    "frequency": "three times a day",
+    "route": "",
+    "status": "active",
+    "evidence": [
+     {
+      "turn": 30,
+      "quote": "For pain, take ibuprofen 600 milligrams three times a day with food for the next week or so.",
+      "verified": true,
+      "score": 1.0
+     }
+    ],
+    "flags": []
+   },
+   {
+    "name": "cyclobenzaprine",
+    "dose": "5 milligrams",
+    "frequency": "at bedtime",
+    "route": "",
+    "status": "new",
+    "evidence": [
+     {
+      "turn": 30,
+      "quote": "I'm also prescribing cyclobenzaprine, a muscle relaxer, 5 milligrams at bedtime as needed for spasm.",
+      "verified": true,
+      "score": 1.0
+     }
+    ],
+    "flags": []
+   }
+  ],
+  "allergies": [],
+  "after_visit_summary": "Thank you for coming in today. Here is what we talked about. Let's take a look. I'm going to raise each leg straight. For pain, take ibuprofen 600 milligrams three times a day with food for the next week or so. I'm also prescribing cyclobenzaprine, a muscle relaxer, 5 milligrams at bedtime as needed for spasm. It can make you drowsy, so no driving or running the forklift after you take it. If you're not better in 2 weeks, come back and we will start physical therapy.",
+  "avs_flags": [],
+  "icd10": [
+   {
+    "system": "ICD-10-CM",
+    "code": "S39.012S",
+    "description": "Strain of muscle, fascia and tendon of lower back, sequela",
+    "rank": 1,
+    "rationale": "Matches the assessment: Strain of muscle, fascia and tendon of lower back, sequela",
+    "evidence": [],
+    "valid": true,
+    "billable": true,
+    "flags": [
+     {
+      "kind": "code_unsupported",
+      "severity": "warning",
+      "message": "No verified quote supports this code.",
+      "acknowledged": false,
+      "detail": {}
+     }
+    ],
+    "accepted": null
+   },
+   {
+    "system": "ICD-10-CM",
+    "code": "S39.012A",
+    "description": "Strain of muscle, fascia and tendon of lower back, initial encounter",
+    "rank": 2,
+    "rationale": "Matches the assessment: Strain of muscle, fascia and tendon of lower back, initial encounter",
+    "evidence": [],
+    "valid": true,
+    "billable": true,
+    "flags": [
+     {
+      "kind": "code_unsupported",
+      "severity": "warning",
+      "message": "No verified quote supports this code.",
+      "acknowledged": false,
+      "detail": {}
+     }
+    ],
+    "accepted": null
+   },
+   {
+    "system": "ICD-10-CM",
+    "code": "S39.012D",
+    "description": "Strain of muscle, fascia and tendon of lower back, subsequent encounter",
+    "rank": 3,
+    "rationale": "Matches the assessment: Strain of muscle, fascia and tendon of lower back, subsequent encounter",
+    "evidence": [],
+    "valid": true,
+    "billable": true,
+    "flags": [
+     {
+      "kind": "code_unsupported",
+      "severity": "warning",
+      "message": "No verified quote supports this code.",
+      "acknowledged": false,
+      "detail": {}
+     }
+    ],
+    "accepted": null
+   }
+  ],
+  "em": {
+   "system": "CPT",
+   "code": "99214",
+   "description": "Established patient office visit, moderate-complexity decision making",
+   "rank": 1,
+   "rationale": "Rule-based: prescription drug management",
+   "evidence": [],
+   "valid": true,
+   "billable": true,
+   "flags": [
+    {
+     "kind": "em_mismatch",
+     "severity": "warning",
+     "message": "The rule-based MDM estimate is low (99213): problems: one acute uncomplicated problem; risk: prescription drug management",
+     "acknowledged": false,
+     "detail": {
+      "estimate": "99213"
+     }
+    }
+   ],
+   "accepted": null
+  },
+  "procedures": [],
+  "mdm": {
+   "problems": "low",
+   "data": "straightforward",
+   "risk": "moderate",
+   "level": "low",
+   "code": "99213",
+   "reasons": [
+    "problems: one acute uncomplicated problem",
+    "risk: prescription drug management"
+   ]
+  },
+  "section_status": {
+   "subjective": "draft",
+   "objective": "draft",
+   "assessment": "draft",
+   "plan": "draft"
+  },
+  "model": "fake/fake-scribe",
+  "created_at": "2026-10-13T05:44:43.580396Z",
+  "signed_by": null,
+  "signed_at": null,
+  "timings": {
+   "phi_masking": 0.033,
+   "llm_note": 0.017,
+   "guards_note": 0.05,
+   "llm_codes": 0.007,
+   "guards_codes": 0.04,
+   "total": 0.147,
+   "wall": 0.17
+  },
+  "usage": {
+   "model_ms": 24,
+   "input_tokens": 3347,
+   "output_tokens": 1367,
+   "calls": 2
+  },
+  "phi": {
+   "NAME": 3,
+   "DOB": 1,
+   "ORG": 1,
+   "DATE": 1
+  }
+ },
+ "vault": {
+  "originals": {
+   "[NAME_1]": "Haddad",
+   "[PATIENT]": "Tomasz Kowalczyk",
+   "[DOB]": "May 3rd, 1981",
+   "[ORG_1]": "Harbor Point Distribution",
+   "[NAME_2]": "Agnieszka",
+   "[DATE_1]": "October 15th"
+  },
+  "surfaces": {
+   "[NAME_1]": [
+    "Haddad"
+   ],
+   "[PATIENT]": [
+    "Tomasz",
+    "Tomasz Kowalczyk"
+   ],
+   "[DOB]": [
+    "May 3rd, 1981"
+   ],
+   "[ORG_1]": [
+    "Harbor Point Distribution"
+   ],
+   "[NAME_2]": [
+    "Agnieszka"
+   ],
+   "[DATE_1]": [
+    "October 15th"
+   ]
+  },
+  "types": {
+   "[NAME_1]": "NAME",
+   "[PATIENT]": "NAME",
+   "[DOB]": "DOB",
+   "[ORG_1]": "ORG",
+   "[NAME_2]": "NAME",
+   "[DATE_1]": "DATE"
+  },
+  "counters": {
+   "NAME": 2,
+   "ORG": 1,
+   "DATE": 1
+  }
+ },
+ "score": {
+  "case": "pc-04",
+  "specialty": "primary_care",
+  "facts": 28,
+  "found": 18,
+  "found_in_section": 16,
+  "negation_errors": [],
+  "trap_errors": [],
+  "missed": [
+   "f1 [subjective] Right low back pain since lifting and twisting with a box of tile at work on Saturday",
+   "f3 [subjective] Pain radiates into the right buttock, not down the leg",
+   "f6 [subjective] Denies saddle anesthesia",
+   "f7 [subjective] Denies bladder or bowel dysfunction or urinary retention",
+   "f11 [subjective] Works as a warehouse shift lead",
+   "f13 [objective] Lumbar forward flexion limited by pain, about halfway",
+   "f16 [objective] Straight leg raise negative bilaterally",
+   "f18 [objective] Normal gait, able to heel and toe walk",
+   "f20 [plan] No imaging indicated",
+   "f25 [plan] Light duty work note, no lifting over 20 lb through October 15"
+  ],
+  "statements": 21,
+  "statements_matching_gold": 17,
+  "unsupported": 0,
+  "partial": 0,
+  "flags": {},
+  "meds": 2,
+  "meds_found": 2,
+  "meds_dose_correct": 2,
+  "icd_primary": "S39.012A",
+  "icd_suggested": [
+   "S39.012S",
+   "S39.012A",
+   "S39.012D"
+  ],
+  "icd_top1": false,
+  "icd_top3": true,
+  "icd_top3_lenient": true,
+  "icd_top3_category": true,
+  "icd_gold_recall": 1.0,
+  "icd_invalid": 0,
+  "em_gold": "99213",
+  "em_suggested": "99214",
+  "em_exact": false,
+  "em_within_one": true,
+  "em_rule_estimate": "99213",
+  "procedures_gold": 0,
+  "procedures_found": 0
+ },
+ "egress_residue": {}
+}

@@ -1,0 +1,659 @@
+{
+ "note": {
+  "visit_id": "pc-06",
+  "statements": [
+   {
+    "id": "s1",
+    "section": "subjective",
+    "text": "It burns when they pee, and feels like has to go every 20 minutes, even when nothing much comes out",
+    "evidence": [
+     {
+      "turn": 3,
+      "quote": "It burns when I pee, and I feel like I have to go every 20 minutes, even when",
+      "verified": true,
+      "score": 1.0
+     }
+    ],
+    "support": "supported",
+    "flags": [],
+    "origin": "model",
+    "edited": false
+   },
+   {
+    "id": "s2",
+    "section": "subjective",
+    "text": "It's been orange since yesterday, but that's the AZO they took",
+    "evidence": [
+     {
+      "turn": 7,
+      "quote": "It's been orange since yesterday, but that's the AZO I took.",
+      "verified": true,
+      "score": 1.0
+     }
+    ],
+    "support": "supported",
+    "flags": [],
+    "origin": "model",
+    "edited": false
+   },
+   {
+    "id": "s3",
+    "section": "subjective",
+    "text": "Denies fever",
+    "evidence": [
+     {
+      "turn": 10,
+      "quote": "Okay. Any fever or chills?",
+      "verified": true,
+      "score": 1.0
+     },
+     {
+      "turn": 11,
+      "quote": "No fever.",
+      "verified": true,
+      "score": 1.0
+     }
+    ],
+    "support": "supported",
+    "flags": [],
+    "origin": "model",
+    "edited": false
+   },
+   {
+    "id": "s4",
+    "section": "subjective",
+    "text": "Denies chills",
+    "evidence": [
+     {
+      "turn": 10,
+      "quote": "Okay. Any fever or chills?",
+      "verified": true,
+      "score": 1.0
+     },
+     {
+      "turn": 11,
+      "quote": "No fever.",
+      "verified": true,
+      "score": 1.0
+     }
+    ],
+    "support": "supported",
+    "flags": [],
+    "origin": "model",
+    "edited": false
+   },
+   {
+    "id": "s5",
+    "section": "subjective",
+    "text": "Denies nausea",
+    "evidence": [
+     {
+      "turn": 14,
+      "quote": "Nausea or vomiting?",
+      "verified": true,
+      "score": 1.0
+     },
+     {
+      "turn": 15,
+      "quote": "No.",
+      "verified": true,
+      "score": 1.0
+     }
+    ],
+    "support": "supported",
+    "flags": [],
+    "origin": "model",
+    "edited": false
+   },
+   {
+    "id": "s6",
+    "section": "subjective",
+    "text": "Denies vomiting",
+    "evidence": [
+     {
+      "turn": 14,
+      "quote": "Nausea or vomiting?",
+      "verified": true,
+      "score": 1.0
+     },
+     {
+      "turn": 15,
+      "quote": "No.",
+      "verified": true,
+      "score": 1.0
+     }
+    ],
+    "support": "supported",
+    "flags": [],
+    "origin": "model",
+    "edited": false
+   },
+   {
+    "id": "s7",
+    "section": "subjective",
+    "text": "Denies vaginal discharge",
+    "evidence": [
+     {
+      "turn": 16,
+      "quote": "Any vaginal discharge, itching, or odor?",
+      "verified": true,
+      "score": 1.0
+     },
+     {
+      "turn": 17,
+      "quote": "No, nothing like that.",
+      "verified": true,
+      "score": 1.0
+     }
+    ],
+    "support": "supported",
+    "flags": [],
+    "origin": "model",
+    "edited": false
+   },
+   {
+    "id": "s8",
+    "section": "subjective",
+    "text": "Denies itching",
+    "evidence": [
+     {
+      "turn": 16,
+      "quote": "Any vaginal discharge, itching, or odor?",
+      "verified": true,
+      "score": 1.0
+     },
+     {
+      "turn": 17,
+      "quote": "No, nothing like that.",
+      "verified": true,
+      "score": 1.0
+     }
+    ],
+    "support": "supported",
+    "flags": [],
+    "origin": "model",
+    "edited": false
+   },
+   {
+    "id": "s9",
+    "section": "subjective",
+    "text": "Denies pregnancy",
+    "evidence": [
+     {
+      "turn": 20,
+      "quote": "Any chance of pregnancy otherwise?",
+      "verified": true,
+      "score": 1.0
+     },
+     {
+      "turn": 21,
+      "quote": "No, I don't think so.",
+      "verified": true,
+      "score": 1.0
+     }
+    ],
+    "support": "supported",
+    "flags": [],
+    "origin": "model",
+    "edited": false
+   },
+   {
+    "id": "s10",
+    "section": "subjective",
+    "text": "It cleared up with antibiotics and has been fine since",
+    "evidence": [
+     {
+      "turn": 23,
+      "quote": "It cleared up with antibiotics and I've been fine since.",
+      "verified": true,
+      "score": 1.0
+     }
+    ],
+    "support": "supported",
+    "flags": [],
+    "origin": "model",
+    "edited": false
+   },
+   {
+    "id": "o1",
+    "section": "objective",
+    "text": "Your temperature is 98.2, blood pressure 118 over 72, pulse 80",
+    "evidence": [
+     {
+      "turn": 26,
+      "quote": "Your temperature is 98.2, blood pressure 118 over 72, pulse 80.",
+      "verified": true,
+      "score": 1.0
+     }
+    ],
+    "support": "supported",
+    "flags": [],
+    "origin": "model",
+    "edited": false
+   },
+   {
+    "id": "o2",
+    "section": "objective",
+    "text": "No tenderness over the kidneys",
+    "evidence": [
+     {
+      "turn": 28,
+      "quote": "No tenderness over the kidneys.",
+      "verified": true,
+      "score": 1.0
+     }
+    ],
+    "support": "supported",
+    "flags": [],
+    "origin": "model",
+    "edited": false
+   },
+   {
+    "id": "o3",
+    "section": "objective",
+    "text": "We did a urine dip here in the office",
+    "evidence": [
+     {
+      "turn": 28,
+      "quote": "We did a urine dip here in the office.",
+      "verified": true,
+      "score": 1.0
+     }
+    ],
+    "support": "supported",
+    "flags": [],
+    "origin": "model",
+    "edited": false
+   },
+   {
+    "id": "o4",
+    "section": "objective",
+    "text": "The AZO can tint the dip and throw off the colors, so I'm also sending your urine for a culture to be sure",
+    "evidence": [
+     {
+      "turn": 28,
+      "quote": "The AZO can tint the dip and throw off the colors, so I'm also sending your urine for",
+      "verified": true,
+      "score": 1.0
+     }
+    ],
+    "support": "supported",
+    "flags": [],
+    "origin": "model",
+    "edited": false
+   },
+   {
+    "id": "a1",
+    "section": "assessment",
+    "text": "So this looks like a simple bladder infection, what we call acute cystitis",
+    "evidence": [
+     {
+      "turn": 30,
+      "quote": "So this looks like a simple bladder infection, what we call acute cystitis.",
+      "verified": true,
+      "score": 1.0
+     }
+    ],
+    "support": "supported",
+    "flags": [],
+    "origin": "model",
+    "edited": false
+   },
+   {
+    "id": "p1",
+    "section": "plan",
+    "text": "I'm going to start you on nitrofurantoin, 100 milligrams twice a day for 5 days",
+    "evidence": [
+     {
+      "turn": 30,
+      "quote": "I'm going to start you on nitrofurantoin, 100 milligrams twice a day for 5 days.",
+      "verified": true,
+      "score": 1.0
+     }
+    ],
+    "support": "supported",
+    "flags": [],
+    "origin": "model",
+    "edited": false
+   },
+   {
+    "id": "p2",
+    "section": "plan",
+    "text": "Take it with food, it's easier on the stomach",
+    "evidence": [
+     {
+      "turn": 30,
+      "quote": "Take it with food, it's easier on the stomach.",
+      "verified": true,
+      "score": 1.0
+     }
+    ],
+    "support": "supported",
+    "flags": [],
+    "origin": "model",
+    "edited": false
+   },
+   {
+    "id": "p3",
+    "section": "plan",
+    "text": "If it shows something the nitrofurantoin doesn't cover, we'll call you and switch",
+    "evidence": [
+     {
+      "turn": 32,
+      "quote": "If it shows something the nitrofurantoin doesn't cover, we'll call you and switch.",
+      "verified": true,
+      "score": 1.0
+     }
+    ],
+    "support": "supported",
+    "flags": [],
+    "origin": "model",
+    "edited": false
+   },
+   {
+    "id": "p4",
+    "section": "plan",
+    "text": "And if you develop fever, back or side pain, or vomiting, that could mean the infection is moving up to the kidneys, so call us the same day",
+    "evidence": [
+     {
+      "turn": 34,
+      "quote": "And if you develop fever, back or side pain, or vomiting, that could mean the infection is moving",
+      "verified": true,
+      "score": 1.0
+     }
+    ],
+    "support": "supported",
+    "flags": [],
+    "origin": "model",
+    "edited": false
+   },
+   {
+    "id": "p5",
+    "section": "plan",
+    "text": "Otherwise, no follow-up needed",
+    "evidence": [
+     {
+      "turn": 34,
+      "quote": "Otherwise, no follow-up needed.",
+      "verified": true,
+      "score": 1.0
+     }
+    ],
+    "support": "supported",
+    "flags": [],
+    "origin": "model",
+    "edited": false
+   }
+  ],
+  "medications": [
+   {
+    "name": "phenazopyridine",
+    "dose": "",
+    "frequency": "",
+    "route": "",
+    "status": "active",
+    "evidence": [
+     {
+      "turn": 7,
+      "quote": "It's been orange since yesterday, but that's the AZO I took.",
+      "verified": true,
+      "score": 1.0
+     }
+    ],
+    "flags": []
+   },
+   {
+    "name": "nitrofurantoin",
+    "dose": "100 milligrams",
+    "frequency": "twice a day",
+    "route": "",
+    "status": "new",
+    "evidence": [
+     {
+      "turn": 30,
+      "quote": "I'm going to start you on nitrofurantoin, 100 milligrams twice a day for 5 days.",
+      "verified": true,
+      "score": 1.0
+     }
+    ],
+    "flags": []
+   }
+  ],
+  "allergies": [],
+  "after_visit_summary": "Thank you for coming in today. Here is what we talked about. I'm going to start you on nitrofurantoin, 100 milligrams twice a day for 5 days. Take it with food, it's easier on the stomach. If it shows something the nitrofurantoin doesn't cover, we will call you and switch. And if you develop fever, back or side pain, or vomiting, that could mean the infection is moving up to the kidneys, so call us the same day. Otherwise, no follow-up needed.",
+  "avs_flags": [],
+  "icd10": [
+   {
+    "system": "ICD-10-CM",
+    "code": "N30.00",
+    "description": "Acute cystitis without hematuria",
+    "rank": 1,
+    "rationale": "Matches the assessment: Acute cystitis without hematuria",
+    "evidence": [],
+    "valid": true,
+    "billable": true,
+    "flags": [
+     {
+      "kind": "code_unsupported",
+      "severity": "warning",
+      "message": "No verified quote supports this code.",
+      "acknowledged": false,
+      "detail": {}
+     }
+    ],
+    "accepted": null
+   },
+   {
+    "system": "ICD-10-CM",
+    "code": "N30.01",
+    "description": "Acute cystitis with hematuria",
+    "rank": 2,
+    "rationale": "Matches the assessment: Acute cystitis with hematuria",
+    "evidence": [],
+    "valid": true,
+    "billable": true,
+    "flags": [
+     {
+      "kind": "code_unsupported",
+      "severity": "warning",
+      "message": "No verified quote supports this code.",
+      "acknowledged": false,
+      "detail": {}
+     }
+    ],
+    "accepted": null
+   },
+   {
+    "system": "ICD-10-CM",
+    "code": "O86.22",
+    "description": "Infection of bladder following delivery",
+    "rank": 3,
+    "rationale": "Matches the assessment: Infection of bladder following delivery",
+    "evidence": [],
+    "valid": true,
+    "billable": true,
+    "flags": [
+     {
+      "kind": "code_unsupported",
+      "severity": "warning",
+      "message": "No verified quote supports this code.",
+      "acknowledged": false,
+      "detail": {}
+     }
+    ],
+    "accepted": null
+   }
+  ],
+  "em": {
+   "system": "CPT",
+   "code": "99214",
+   "description": "Established patient office visit, moderate-complexity decision making",
+   "rank": 1,
+   "rationale": "Rule-based: prescription drug management",
+   "evidence": [],
+   "valid": true,
+   "billable": true,
+   "flags": [
+    {
+     "kind": "em_mismatch",
+     "severity": "warning",
+     "message": "The rule-based MDM estimate is low (99213): problems: one acute uncomplicated problem; data: limited (tests or an independent historian); risk: prescription drug management",
+     "acknowledged": false,
+     "detail": {
+      "estimate": "99213"
+     }
+    }
+   ],
+   "accepted": null
+  },
+  "procedures": [
+   {
+    "system": "CPT",
+    "code": "81002",
+    "description": "Urinalysis by dipstick, non-automated, without microscopy",
+    "rank": 1,
+    "rationale": "Performed today",
+    "evidence": [
+     {
+      "turn": 28,
+      "quote": "No tenderness over the kidneys. We did a urine dip here in the office. It's positive for white",
+      "verified": true,
+      "score": 1.0
+     }
+    ],
+    "valid": true,
+    "billable": true,
+    "flags": [],
+    "accepted": null
+   }
+  ],
+  "mdm": {
+   "problems": "low",
+   "data": "low",
+   "risk": "moderate",
+   "level": "low",
+   "code": "99213",
+   "reasons": [
+    "problems: one acute uncomplicated problem",
+    "data: limited (tests or an independent historian)",
+    "risk: prescription drug management"
+   ]
+  },
+  "section_status": {
+   "subjective": "draft",
+   "objective": "draft",
+   "assessment": "draft",
+   "plan": "draft"
+  },
+  "model": "fake/fake-scribe",
+  "created_at": "2026-10-13T05:44:43.889339Z",
+  "signed_by": null,
+  "signed_at": null,
+  "timings": {
+   "phi_masking": 0.027,
+   "llm_note": 0.013,
+   "guards_note": 0.05,
+   "llm_codes": 0.004,
+   "guards_codes": 0.032,
+   "total": 0.126,
+   "wall": 0.134
+  },
+  "usage": {
+   "model_ms": 17,
+   "input_tokens": 2830,
+   "output_tokens": 1255,
+   "calls": 2
+  },
+  "phi": {
+   "NAME": 1,
+   "DOB": 1,
+   "ADDRESS": 1,
+   "PHONE": 1
+  }
+ },
+ "vault": {
+  "originals": {
+   "[PATIENT]": "Aisha Bello",
+   "[DOB]": "March 11th, 1997",
+   "[ADDRESS_1]": "Kessler Road",
+   "[PHONE_1]": "555-0118"
+  },
+  "surfaces": {
+   "[PATIENT]": [
+    "Aisha",
+    "Aisha Bello"
+   ],
+   "[DOB]": [
+    "March 11th, 1997"
+   ],
+   "[ADDRESS_1]": [
+    "Kessler Road"
+   ],
+   "[PHONE_1]": [
+    "555-0118"
+   ]
+  },
+  "types": {
+   "[PATIENT]": "NAME",
+   "[DOB]": "DOB",
+   "[ADDRESS_1]": "ADDRESS",
+   "[PHONE_1]": "PHONE"
+  },
+  "counters": {
+   "ADDRESS": 1,
+   "PHONE": 1
+  }
+ },
+ "score": {
+  "case": "pc-06",
+  "specialty": "primary_care",
+  "facts": 25,
+  "found": 14,
+  "found_in_section": 11,
+  "negation_errors": [
+   "f10: Last menstrual period about 2 weeks ago, normal; copper IUD for contraception; pregnancy unlikely (present)"
+  ],
+  "trap_errors": [],
+  "missed": [
+   "f2 [subjective] Urinary frequency and urgency, small voids",
+   "f4 [subjective] Denies gross hematuria; orange urine attributed to phenazopyridine",
+   "f7 [subjective] Denies flank or back pain",
+   "f10 [subjective] Last menstrual period about 2 weeks ago, normal; copper IUD for contraception; pregnancy unlikely",
+   "f11 [subjective] One prior UTI about 3 years ago, resolved",
+   "f12 [subjective] Drinking cranberry juice",
+   "f13 [subjective] No known drug allergies",
+   "f15 [objective] Mild suprapubic tenderness",
+   "f18 [objective] Urine dip negative for blood",
+   "f23 [plan] Increase fluids",
+   "f24 [plan] Will call with culture results and switch antibiotic if resistant"
+  ],
+  "statements": 20,
+  "statements_matching_gold": 16,
+  "unsupported": 0,
+  "partial": 0,
+  "flags": {},
+  "meds": 4,
+  "meds_found": 2,
+  "meds_dose_correct": 1,
+  "icd_primary": "N30.00",
+  "icd_suggested": [
+   "N30.00",
+   "N30.01",
+   "O86.22"
+  ],
+  "icd_top1": true,
+  "icd_top3": true,
+  "icd_top3_lenient": true,
+  "icd_top3_category": true,
+  "icd_gold_recall": 1.0,
+  "icd_invalid": 0,
+  "em_gold": "99213",
+  "em_suggested": "99214",
+  "em_exact": false,
+  "em_within_one": true,
+  "em_rule_estimate": "99213",
+  "procedures_gold": 1,
+  "procedures_found": 1
+ },
+ "egress_residue": {}
+}

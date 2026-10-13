@@ -1,0 +1,879 @@
+{
+ "note": {
+  "visit_id": "cd-02",
+  "statements": [
+   {
+    "id": "s1",
+    "section": "subjective",
+    "text": "You can call her if you need anything, her number is 555-0148",
+    "evidence": [
+     {
+      "turn": 3,
+      "quote": "You can call her if you need anything, her number is 555-0148.",
+      "verified": true,
+      "score": 1.0
+     }
+    ],
+    "support": "supported",
+    "flags": [],
+    "origin": "model",
+    "edited": false
+   },
+   {
+    "id": "s2",
+    "section": "subjective",
+    "text": "Does not feel the heart racing like before",
+    "evidence": [
+     {
+      "turn": 5,
+      "quote": "I don't feel the heart racing like before.",
+      "verified": true,
+      "score": 1.0
+     }
+    ],
+    "support": "supported",
+    "flags": [],
+    "origin": "model",
+    "edited": false
+   },
+   {
+    "id": "s3",
+    "section": "subjective",
+    "text": "Sometimes is a little tired in the afternoon, but is 74, you know",
+    "evidence": [
+     {
+      "turn": 5,
+      "quote": "Sometimes I'm a little tired in the afternoon, but I'm 74, you know.",
+      "verified": true,
+      "score": 1.0
+     }
+    ],
+    "support": "supported",
+    "flags": [],
+    "origin": "model",
+    "edited": false
+   },
+   {
+    "id": "s4",
+    "section": "subjective",
+    "text": "Denies shortness of breath",
+    "evidence": [
+     {
+      "turn": 6,
+      "quote": "Fair enough. Any shortness of breath, dizziness, or chest pain?",
+      "verified": true,
+      "score": 1.0
+     },
+     {
+      "turn": 7,
+      "quote": "No, none of that.",
+      "verified": true,
+      "score": 1.0
+     }
+    ],
+    "support": "supported",
+    "flags": [],
+    "origin": "model",
+    "edited": false
+   },
+   {
+    "id": "s5",
+    "section": "subjective",
+    "text": "Denies dizziness",
+    "evidence": [
+     {
+      "turn": 6,
+      "quote": "Fair enough. Any shortness of breath, dizziness, or chest pain?",
+      "verified": true,
+      "score": 1.0
+     },
+     {
+      "turn": 7,
+      "quote": "No, none of that.",
+      "verified": true,
+      "score": 1.0
+     }
+    ],
+    "support": "supported",
+    "flags": [],
+    "origin": "model",
+    "edited": false
+   },
+   {
+    "id": "s6",
+    "section": "subjective",
+    "text": "Denies chest pain",
+    "evidence": [
+     {
+      "turn": 6,
+      "quote": "Fair enough. Any shortness of breath, dizziness, or chest pain?",
+      "verified": true,
+      "score": 1.0
+     },
+     {
+      "turn": 7,
+      "quote": "No, none of that.",
+      "verified": true,
+      "score": 1.0
+     }
+    ],
+    "support": "supported",
+    "flags": [],
+    "origin": "model",
+    "edited": false
+   },
+   {
+    "id": "s7",
+    "section": "subjective",
+    "text": "Their gums bleed a little when they brush",
+    "evidence": [
+     {
+      "turn": 13,
+      "quote": "My gums bleed a little when I brush.",
+      "verified": true,
+      "score": 1.0
+     }
+    ],
+    "support": "supported",
+    "flags": [],
+    "origin": "model",
+    "edited": false
+   },
+   {
+    "id": "s8",
+    "section": "subjective",
+    "text": "They had one nosebleed in August, but it stopped on its own after about 10 minutes and it hasn't happened again",
+    "evidence": [
+     {
+      "turn": 13,
+      "quote": "And I had one nosebleed in August, but it stopped on its own after about 10 minutes and",
+      "verified": true,
+      "score": 1.0
+     }
+    ],
+    "support": "supported",
+    "flags": [],
+    "origin": "model",
+    "edited": false
+   },
+   {
+    "id": "s9",
+    "section": "subjective",
+    "text": "Denies falls",
+    "evidence": [
+     {
+      "turn": 16,
+      "quote": "Any falls since I last saw you?",
+      "verified": true,
+      "score": 1.0
+     },
+     {
+      "turn": 17,
+      "quote": "No falls, thank God.",
+      "verified": true,
+      "score": 1.0
+     }
+    ],
+    "support": "supported",
+    "flags": [],
+    "origin": "model",
+    "edited": false
+   },
+   {
+    "id": "o1",
+    "section": "objective",
+    "text": "You're right, I see it here, 50 milligrams once a day",
+    "evidence": [
+     {
+      "turn": 10,
+      "quote": "You're right, I see it here, 50 milligrams once a day.",
+      "verified": true,
+      "score": 1.0
+     }
+    ],
+    "support": "supported",
+    "flags": [],
+    "origin": "model",
+    "edited": false
+   },
+   {
+    "id": "o2",
+    "section": "objective",
+    "text": "Okay, your blood pressure is 132 over 78, and your pulse is 72 and irregular, which is expected with the atrial fibrillation",
+    "evidence": [
+     {
+      "turn": 18,
+      "quote": "Okay, your blood pressure is 132 over 78, and your pulse is 72 and irregular, which is expected",
+      "verified": true,
+      "score": 1.0
+     }
+    ],
+    "support": "supported",
+    "flags": [],
+    "origin": "model",
+    "edited": false
+   },
+   {
+    "id": "o3",
+    "section": "objective",
+    "text": "Weight is 148 pounds, same as last time",
+    "evidence": [
+     {
+      "turn": 18,
+      "quote": "Weight is 148 pounds, same as last time.",
+      "verified": true,
+      "score": 1.0
+     }
+    ],
+    "support": "supported",
+    "flags": [],
+    "origin": "model",
+    "edited": false
+   },
+   {
+    "id": "o4",
+    "section": "objective",
+    "text": "Heart is irregularly irregular, no murmur",
+    "evidence": [
+     {
+      "turn": 18,
+      "quote": "Heart is irregularly irregular, no murmur.",
+      "verified": true,
+      "score": 1.0
+     }
+    ],
+    "support": "supported",
+    "flags": [],
+    "origin": "model",
+    "edited": false
+   },
+   {
+    "id": "o5",
+    "section": "objective",
+    "text": "Lungs are clear, and no swelling in your ankles",
+    "evidence": [
+     {
+      "turn": 18,
+      "quote": "Lungs are clear, and no swelling in your ankles.",
+      "verified": true,
+      "score": 1.0
+     }
+    ],
+    "support": "supported",
+    "flags": [],
+    "origin": "model",
+    "edited": false
+   },
+   {
+    "id": "o6",
+    "section": "objective",
+    "text": "We did an ECG today",
+    "evidence": [
+     {
+      "turn": 20,
+      "quote": "We did an ECG today.",
+      "verified": true,
+      "score": 1.0
+     }
+    ],
+    "support": "supported",
+    "flags": [],
+    "origin": "model",
+    "edited": false
+   },
+   {
+    "id": "o7",
+    "section": "objective",
+    "text": "Hemoglobin was 12.9, and kidney function was normal, creatinine 0.9",
+    "evidence": [
+     {
+      "turn": 20,
+      "quote": "Hemoglobin was 12.9, and kidney function was normal, creatinine 0.9.",
+      "verified": true,
+      "score": 1.0
+     }
+    ],
+    "support": "supported",
+    "flags": [],
+    "origin": "model",
+    "edited": false
+   },
+   {
+    "id": "o8",
+    "section": "objective",
+    "text": "Your stroke risk score is 3, because of your age, being a woman, and the high blood pressure",
+    "evidence": [
+     {
+      "turn": 22,
+      "quote": "Your stroke risk score is 3, because of your age, being a woman, and the high blood pressure.",
+      "verified": true,
+      "score": 1.0
+     }
+    ],
+    "support": "supported",
+    "flags": [],
+    "origin": "model",
+    "edited": false
+   },
+   {
+    "id": "o9",
+    "section": "objective",
+    "text": "And your dose of 5 milligrams twice a day is the right one for your age, weight and kidneys",
+    "evidence": [
+     {
+      "turn": 22,
+      "quote": "And your dose of 5 milligrams twice a day is the right one for your age, weight and",
+      "verified": true,
+      "score": 1.0
+     }
+    ],
+    "support": "supported",
+    "flags": [],
+    "origin": "model",
+    "edited": false
+   },
+   {
+    "id": "o10",
+    "section": "objective",
+    "text": "Your bleeding risk score is 2 right now, and one of those points is the aspirin",
+    "evidence": [
+     {
+      "turn": 24,
+      "quote": "Your bleeding risk score is 2 right now, and one of those points is the aspirin.",
+      "verified": true,
+      "score": 1.0
+     }
+    ],
+    "support": "supported",
+    "flags": [],
+    "origin": "model",
+    "edited": false
+   },
+   {
+    "id": "o11",
+    "section": "objective",
+    "text": "This is permanent atrial fibrillation, rate controlled, on long term anticoagulation, and your blood pressure is at goal",
+    "evidence": [
+     {
+      "turn": 28,
+      "quote": "This is permanent atrial fibrillation, rate controlled, on long term anticoagulation, and your blood pressure is at goal.",
+      "verified": true,
+      "score": 1.0
+     }
+    ],
+    "support": "supported",
+    "flags": [],
+    "origin": "model",
+    "edited": false
+   },
+   {
+    "id": "o12",
+    "section": "objective",
+    "text": "Call us if you see black stools, blood in the urine, or a nosebleed that won't stop after 20 minutes",
+    "evidence": [
+     {
+      "turn": 30,
+      "quote": "Call us if you see black stools, blood in the urine, or a nosebleed that won't stop after",
+      "verified": true,
+      "score": 1.0
+     }
+    ],
+    "support": "supported",
+    "flags": [],
+    "origin": "model",
+    "edited": false
+   },
+   {
+    "id": "a1",
+    "section": "assessment",
+    "text": "So this is your 6 month check on the atrial fibrillation",
+    "evidence": [
+     {
+      "turn": 4,
+      "quote": "So this is your 6 month check on the atrial fibrillation.",
+      "verified": true,
+      "score": 1.0
+     }
+    ],
+    "support": "supported",
+    "flags": [],
+    "origin": "model",
+    "edited": false
+   },
+   {
+    "id": "p1",
+    "section": "plan",
+    "text": "Nice to see you again",
+    "evidence": [
+     {
+      "turn": 0,
+      "quote": "Nice to see you again.",
+      "verified": true,
+      "score": 1.0
+     }
+    ],
+    "support": "supported",
+    "flags": [],
+    "origin": "model",
+    "edited": false
+   },
+   {
+    "id": "p2",
+    "section": "plan",
+    "text": "Let's go over your medicines",
+    "evidence": [
+     {
+      "turn": 8,
+      "quote": "Let's go over your medicines.",
+      "verified": true,
+      "score": 1.0
+     }
+    ],
+    "support": "supported",
+    "flags": [],
+    "origin": "model",
+    "edited": false
+   },
+   {
+    "id": "p3",
+    "section": "plan",
+    "text": "So I'd like you to stop the aspirin",
+    "evidence": [
+     {
+      "turn": 24,
+      "quote": "So I'd like you to stop the aspirin.",
+      "verified": true,
+      "score": 1.0
+     }
+    ],
+    "support": "supported",
+    "flags": [],
+    "origin": "model",
+    "edited": false
+   },
+   {
+    "id": "p4",
+    "section": "plan",
+    "text": "Use a soft toothbrush, and mention the gums to your dentist at your next cleaning",
+    "evidence": [
+     {
+      "turn": 26,
+      "quote": "Use a soft toothbrush, and mention the gums to your dentist at your next cleaning.",
+      "verified": true,
+      "score": 1.0
+     }
+    ],
+    "support": "supported",
+    "flags": [],
+    "origin": "model",
+    "edited": false
+   },
+   {
+    "id": "p5",
+    "section": "plan",
+    "text": "Stop the aspirin",
+    "evidence": [
+     {
+      "turn": 28,
+      "quote": "Stop the aspirin.",
+      "verified": true,
+      "score": 1.0
+     }
+    ],
+    "support": "supported",
+    "flags": [],
+    "origin": "model",
+    "edited": false
+   },
+   {
+    "id": "p6",
+    "section": "plan",
+    "text": "We'll check a blood count again in 3 months, you can do that at the lab on 2210 Wexford Avenue",
+    "evidence": [
+     {
+      "turn": 28,
+      "quote": "We'll check a blood count again in 3 months, you can do that at the lab on 2210 Wexford Avenue.",
+      "verified": true,
+      "score": 1.0
+     }
+    ],
+    "support": "supported",
+    "flags": [],
+    "origin": "model",
+    "edited": false
+   },
+   {
+    "id": "p7",
+    "section": "plan",
+    "text": "And if you ever fall and hit your head, go to the emergency room, even if you feel fine, because of the blood thinner",
+    "evidence": [
+     {
+      "turn": 30,
+      "quote": "And if you ever fall and hit your head, go to the emergency room, even if you feel",
+      "verified": true,
+      "score": 1.0
+     }
+    ],
+    "support": "supported",
+    "flags": [],
+    "origin": "model",
+    "edited": false
+   },
+   {
+    "id": "p8",
+    "section": "plan",
+    "text": "I'll see you back in 6 months",
+    "evidence": [
+     {
+      "turn": 32,
+      "quote": "I'll see you back in 6 months.",
+      "verified": true,
+      "score": 1.0
+     }
+    ],
+    "support": "supported",
+    "flags": [],
+    "origin": "model",
+    "edited": false
+   }
+  ],
+  "medications": [
+   {
+    "name": "apixaban",
+    "dose": "5 milligrams",
+    "frequency": "twice a day",
+    "route": "",
+    "status": "active",
+    "evidence": [
+     {
+      "turn": 28,
+      "quote": "Keep the apixaban 5 milligrams twice a day, metoprolol succinate 50 milligrams once a day, and lisinopril 10",
+      "verified": true,
+      "score": 1.0
+     }
+    ],
+    "flags": []
+   },
+   {
+    "name": "metoprolol",
+    "dose": "",
+    "frequency": "",
+    "route": "",
+    "status": "active",
+    "evidence": [
+     {
+      "turn": 9,
+      "quote": "But the metoprolol is 50 now.",
+      "verified": true,
+      "score": 1.0
+     }
+    ],
+    "flags": []
+   },
+   {
+    "name": "aspirin",
+    "dose": "",
+    "frequency": "",
+    "route": "",
+    "status": "active",
+    "evidence": [
+     {
+      "turn": 11,
+      "quote": "And I also take a baby aspirin every day now.",
+      "verified": true,
+      "score": 1.0
+     }
+    ],
+    "flags": []
+   },
+   {
+    "name": "fish oil",
+    "dose": "1000 milligrams",
+    "frequency": "",
+    "route": "",
+    "status": "active",
+    "evidence": [
+     {
+      "turn": 11,
+      "quote": "And my fish oil, 1000 milligrams.",
+      "verified": true,
+      "score": 1.0
+     }
+    ],
+    "flags": []
+   },
+   {
+    "name": "metoprolol succinate",
+    "dose": "50 milligrams",
+    "frequency": "twice a day",
+    "route": "",
+    "status": "active",
+    "evidence": [
+     {
+      "turn": 28,
+      "quote": "Keep the apixaban 5 milligrams twice a day, metoprolol succinate 50 milligrams once a day, and lisinopril 10",
+      "verified": true,
+      "score": 1.0
+     }
+    ],
+    "flags": []
+   },
+   {
+    "name": "lisinopril",
+    "dose": "10 milligrams",
+    "frequency": "twice a day",
+    "route": "",
+    "status": "active",
+    "evidence": [
+     {
+      "turn": 28,
+      "quote": "Keep the apixaban 5 milligrams twice a day, metoprolol succinate 50 milligrams once a day, and lisinopril 10",
+      "verified": true,
+      "score": 1.0
+     }
+    ],
+    "flags": []
+   }
+  ],
+  "allergies": [],
+  "after_visit_summary": "Thank you for coming in today. Here is what we talked about. Nice to see you again. Let's go over your medicines. So I'd like you to stop the aspirin. Use a soft toothbrush, and mention the gums to your dentist at your next cleaning. Stop the aspirin. we will check a blood count again in 3 months, you can do that at the lab on 2210 Wexford Avenue.",
+  "avs_flags": [],
+  "icd10": [
+   {
+    "system": "ICD-10-CM",
+    "code": "I48.0",
+    "description": "Paroxysmal atrial fibrillation",
+    "rank": 1,
+    "rationale": "Matches the assessment: Paroxysmal atrial fibrillation",
+    "evidence": [],
+    "valid": true,
+    "billable": true,
+    "flags": [
+     {
+      "kind": "code_unsupported",
+      "severity": "warning",
+      "message": "No verified quote supports this code.",
+      "acknowledged": false,
+      "detail": {}
+     }
+    ],
+    "accepted": null
+   },
+   {
+    "system": "ICD-10-CM",
+    "code": "I48.19",
+    "description": "Other persistent atrial fibrillation",
+    "rank": 2,
+    "rationale": "Matches the assessment: Other persistent atrial fibrillation",
+    "evidence": [],
+    "valid": true,
+    "billable": true,
+    "flags": [
+     {
+      "kind": "code_unsupported",
+      "severity": "warning",
+      "message": "No verified quote supports this code.",
+      "acknowledged": false,
+      "detail": {}
+     }
+    ],
+    "accepted": null
+   },
+   {
+    "system": "ICD-10-CM",
+    "code": "I48.21",
+    "description": "Permanent atrial fibrillation",
+    "rank": 3,
+    "rationale": "Matches the assessment: Permanent atrial fibrillation",
+    "evidence": [],
+    "valid": true,
+    "billable": true,
+    "flags": [
+     {
+      "kind": "code_unsupported",
+      "severity": "warning",
+      "message": "No verified quote supports this code.",
+      "acknowledged": false,
+      "detail": {}
+     }
+    ],
+    "accepted": null
+   }
+  ],
+  "em": {
+   "system": "CPT",
+   "code": "99214",
+   "description": "Established patient office visit, moderate-complexity decision making",
+   "rank": 1,
+   "rationale": "Rule-based: prescription drug management",
+   "evidence": [],
+   "valid": true,
+   "billable": true,
+   "flags": [],
+   "accepted": null
+  },
+  "procedures": [
+   {
+    "system": "CPT",
+    "code": "93000",
+    "description": "Electrocardiogram with interpretation and report",
+    "rank": 1,
+    "rationale": "Performed today",
+    "evidence": [
+     {
+      "turn": 20,
+      "quote": "We did an ECG today. It shows atrial fibrillation with a rate of 74, so your rate is",
+      "verified": true,
+      "score": 1.0
+     }
+    ],
+    "valid": true,
+    "billable": true,
+    "flags": [],
+    "accepted": null
+   }
+  ],
+  "mdm": {
+   "problems": "low",
+   "data": "moderate",
+   "risk": "moderate",
+   "level": "moderate",
+   "code": "99214",
+   "reasons": [
+    "problems: one stable chronic illness or two self-limited problems",
+    "data: 4 tests or sources",
+    "risk: prescription drug management"
+   ]
+  },
+  "section_status": {
+   "subjective": "draft",
+   "objective": "draft",
+   "assessment": "draft",
+   "plan": "draft"
+  },
+  "model": "fake/fake-scribe",
+  "created_at": "2026-10-13T05:44:44.676836Z",
+  "signed_by": null,
+  "signed_at": null,
+  "timings": {
+   "phi_masking": 0.032,
+   "llm_note": 0.016,
+   "guards_note": 0.064,
+   "llm_codes": 0.007,
+   "guards_codes": 0.042,
+   "total": 0.161,
+   "wall": 0.171
+  },
+  "usage": {
+   "model_ms": 23,
+   "input_tokens": 3469,
+   "output_tokens": 1923,
+   "calls": 2
+  },
+  "phi": {
+   "NAME": 3,
+   "DOB": 1,
+   "PHONE": 1,
+   "DATE": 2,
+   "ADDRESS": 1
+  }
+ },
+ "vault": {
+  "originals": {
+   "[PATIENT]": "Abena Owusu",
+   "[DOB]": "November 19th, 1951",
+   "[NAME_1]": "Efua",
+   "[PHONE_1]": "555-0148",
+   "[DATE_1]": "April",
+   "[NAME_2]": "Ruth",
+   "[DATE_2]": "August",
+   "[ADDRESS_1]": "2210 Wexford Avenue"
+  },
+  "surfaces": {
+   "[PATIENT]": [
+    "Abena Owusu",
+    "Owusu"
+   ],
+   "[DOB]": [
+    "November 19th, 1951"
+   ],
+   "[NAME_1]": [
+    "Efua"
+   ],
+   "[PHONE_1]": [
+    "555-0148"
+   ],
+   "[DATE_1]": [
+    "April"
+   ],
+   "[NAME_2]": [
+    "Ruth"
+   ],
+   "[DATE_2]": [
+    "August"
+   ],
+   "[ADDRESS_1]": [
+    "2210 Wexford Avenue"
+   ]
+  },
+  "types": {
+   "[PATIENT]": "NAME",
+   "[DOB]": "DOB",
+   "[NAME_1]": "NAME",
+   "[PHONE_1]": "PHONE",
+   "[DATE_1]": "DATE",
+   "[NAME_2]": "NAME",
+   "[DATE_2]": "DATE",
+   "[ADDRESS_1]": "ADDRESS"
+  },
+  "counters": {
+   "NAME": 2,
+   "PHONE": 1,
+   "DATE": 2,
+   "ADDRESS": 1
+  }
+ },
+ "score": {
+  "case": "cd-02",
+  "specialty": "cardiology",
+  "facts": 28,
+  "found": 24,
+  "found_in_section": 20,
+  "negation_errors": [],
+  "trap_errors": [],
+  "missed": [
+   "f10 [subjective] No black or tarry stools or blood in urine",
+   "f12 [subjective] Walks twice weekly with church group",
+   "f17 [objective] ECG shows atrial fibrillation with ventricular rate 74",
+   "f24 [plan] Continue apixaban 5 mg twice daily, metoprolol succinate 50 mg daily, lisinopril 10 mg daily; fish oil may continue"
+  ],
+  "statements": 30,
+  "statements_matching_gold": 23,
+  "unsupported": 0,
+  "partial": 0,
+  "flags": {},
+  "meds": 5,
+  "meds_found": 5,
+  "meds_dose_correct": 3,
+  "icd_primary": "I48.21",
+  "icd_suggested": [
+   "I48.0",
+   "I48.19",
+   "I48.21"
+  ],
+  "icd_top1": false,
+  "icd_top3": true,
+  "icd_top3_lenient": true,
+  "icd_top3_category": true,
+  "icd_gold_recall": 0.3333333333333333,
+  "icd_invalid": 0,
+  "em_gold": "99214",
+  "em_suggested": "99214",
+  "em_exact": true,
+  "em_within_one": true,
+  "em_rule_estimate": "99214",
+  "procedures_gold": 1,
+  "procedures_found": 1
+ },
+ "egress_residue": {}
+}

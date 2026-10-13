@@ -1,0 +1,2222 @@
+[
+ {
+  "visit": "pc-02",
+  "id": "s1",
+  "label": "supported",
+  "text": "Patient reports stopping glipizide about two months ago due to hypoglycemic episodes.",
+  "guard_flags": [],
+  "support": "supported"
+ },
+ {
+  "visit": "pc-02",
+  "id": "s2",
+  "label": "supported",
+  "text": "Patient reports no hypoglycemic episodes since stopping glipizide.",
+  "guard_flags": [],
+  "support": "supported"
+ },
+ {
+  "visit": "pc-02",
+  "id": "s3",
+  "label": "supported",
+  "text": "Patient takes metformin 1000 milligrams twice daily with breakfast and dinner, reports stomach is fine.",
+  "guard_flags": [],
+  "support": "supported"
+ },
+ {
+  "visit": "pc-02",
+  "id": "s4",
+  "label": "supported",
+  "text": "Patient reports fasting sugars at home mostly 150 to 180 in the morning.",
+  "guard_flags": [],
+  "support": "supported"
+ },
+ {
+  "visit": "pc-02",
+  "id": "s5",
+  "label": "supported",
+  "text": "Patient reports maybe a little more thirsty than usual, denies nocturnal polyuria.",
+  "guard_flags": [],
+  "support": "supported"
+ },
+ {
+  "visit": "pc-02",
+  "id": "s6",
+  "label": "supported",
+  "text": "Patient denies numbness or tingling in feet.",
+  "guard_flags": [],
+  "support": "supported"
+ },
+ {
+  "visit": "pc-02",
+  "id": "s7",
+  "label": "supported",
+  "text": "Patient reports eyes are fine, last eye exam before COVID.",
+  "guard_flags": [],
+  "support": "supported"
+ },
+ {
+  "visit": "pc-02",
+  "id": "s8",
+  "label": "supported",
+  "text": "Patient confirms allergy to sulfa (Bactrim) with rash all over body.",
+  "guard_flags": [],
+  "support": "supported"
+ },
+ {
+  "visit": "pc-02",
+  "id": "s9",
+  "label": "supported",
+  "text": "Patient reports husband's diabetes worsened, he was put on insulin last month.",
+  "guard_flags": [],
+  "support": "supported"
+ },
+ {
+  "visit": "pc-02",
+  "id": "o1",
+  "label": "supported",
+  "text": "Blood pressure 128 over 76, pulse 80, weight 186 pounds.",
+  "guard_flags": [],
+  "support": "supported"
+ },
+ {
+  "visit": "pc-02",
+  "id": "a1",
+  "label": "supported",
+  "text": "Type 2 diabetes above goal (A1c 8.4%).",
+  "guard_flags": [],
+  "support": "supported"
+ },
+ {
+  "visit": "pc-02",
+  "id": "p1",
+  "label": "supported",
+  "text": "Discontinue glipizide permanently.",
+  "guard_flags": [],
+  "support": "supported"
+ },
+ {
+  "visit": "pc-02",
+  "id": "p2",
+  "label": "supported",
+  "text": "Continue metformin 1000 milligrams twice daily.",
+  "guard_flags": [],
+  "support": "supported"
+ },
+ {
+  "visit": "pc-02",
+  "id": "p3",
+  "label": "supported",
+  "text": "Start empagliflozin 10 milligrams once daily in the morning.",
+  "guard_flags": [],
+  "support": "supported"
+ },
+ {
+  "visit": "pc-02",
+  "id": "p4",
+  "label": "supported",
+  "text": "Refer for diabetic eye exam.",
+  "guard_flags": [],
+  "support": "supported"
+ },
+ {
+  "visit": "pc-02",
+  "id": "p5",
+  "label": "supported",
+  "text": "Repeat A1c in 3 months.",
+  "guard_flags": [],
+  "support": "supported"
+ },
+ {
+  "visit": "pc-02",
+  "id": "p6",
+  "label": "supported",
+  "text": "Advise to drink plenty of water and keep genital area clean while on empagliflozin.",
+  "guard_flags": [],
+  "support": "supported"
+ },
+ {
+  "visit": "pc-02",
+  "id": "p7",
+  "label": "supported",
+  "text": "Instruct to hold empagliflozin if unable to eat or drink due to illness.",
+  "guard_flags": [],
+  "support": "supported"
+ },
+ {
+  "visit": "pc-02",
+  "id": "p8",
+  "label": "supported",
+  "text": "Advise to call if itching or yeast infection develops on empagliflozin.",
+  "guard_flags": [],
+  "support": "supported"
+ },
+ {
+  "visit": "pc-02",
+  "id": "med0",
+  "label": "supported",
+  "text": "metformin 1000 milligrams",
+  "guard_flags": [],
+  "support": null
+ },
+ {
+  "visit": "pc-02",
+  "id": "med1",
+  "label": "supported",
+  "text": "empagliflozin 10 milligrams",
+  "guard_flags": [],
+  "support": null
+ },
+ {
+  "visit": "pc-08",
+  "id": "s1",
+  "label": "minor",
+  "reason": "Naps in morning and after lunch were stated; 'worse in morning and after lunch' is an added inference",
+  "text": "Fatigue for six weeks, worse in morning and after lunch, requiring naps.",
+  "guard_flags": [],
+  "support": "supported"
+ },
+ {
+  "visit": "pc-08",
+  "id": "s2",
+  "label": "contradicted",
+  "reason": "Patient reported the room swims briefly when she first gets up from bed (orthostatic dizziness)",
+  "text": "Denies dizziness upon standing.",
+  "guard_flags": [
+   "negation"
+  ],
+  "support": "supported"
+ },
+ {
+  "visit": "pc-08",
+  "id": "s3",
+  "label": "supported",
+  "text": "Denies falls.",
+  "guard_flags": [
+   "partial_support"
+  ],
+  "support": "partial"
+ },
+ {
+  "visit": "pc-08",
+  "id": "s4",
+  "label": "supported",
+  "text": "Denies chest pain.",
+  "guard_flags": [],
+  "support": "supported"
+ },
+ {
+  "visit": "pc-08",
+  "id": "s5",
+  "label": "supported",
+  "text": "Denies shortness of breath.",
+  "guard_flags": [],
+  "support": "supported"
+ },
+ {
+  "visit": "pc-08",
+  "id": "s6",
+  "label": "supported",
+  "text": "Denies fever.",
+  "guard_flags": [],
+  "support": "supported"
+ },
+ {
+  "visit": "pc-08",
+  "id": "s7",
+  "label": "supported",
+  "text": "Denies black stools.",
+  "guard_flags": [],
+  "support": "supported"
+ },
+ {
+  "visit": "pc-08",
+  "id": "s8",
+  "label": "supported",
+  "text": "Denies unintentional weight loss.",
+  "guard_flags": [],
+  "support": "supported"
+ },
+ {
+  "visit": "pc-08",
+  "id": "s9",
+  "label": "supported",
+  "text": "Denies feeling down or sad.",
+  "guard_flags": [],
+  "support": "supported"
+ },
+ {
+  "visit": "pc-08",
+  "id": "s10",
+  "label": "supported",
+  "text": "Takes Tylenol PM every night for sleep.",
+  "guard_flags": [],
+  "support": "supported"
+ },
+ {
+  "visit": "pc-08",
+  "id": "s11",
+  "label": "supported",
+  "text": "Stopped vitamin D due to pill size.",
+  "guard_flags": [],
+  "support": "supported"
+ },
+ {
+  "visit": "pc-08",
+  "id": "s12",
+  "label": "supported",
+  "text": "History of pneumonia last winter, now resolved.",
+  "guard_flags": [],
+  "support": "supported"
+ },
+ {
+  "visit": "pc-08",
+  "id": "o1",
+  "label": "supported",
+  "text": "Sitting blood pressure 118/64 mmHg.",
+  "guard_flags": [],
+  "support": "supported"
+ },
+ {
+  "visit": "pc-08",
+  "id": "o2",
+  "label": "supported",
+  "text": "Sitting pulse 52 bpm.",
+  "guard_flags": [],
+  "support": "supported"
+ },
+ {
+  "visit": "pc-08",
+  "id": "o3",
+  "label": "supported",
+  "text": "Standing blood pressure 104/60 mmHg.",
+  "guard_flags": [],
+  "support": "supported"
+ },
+ {
+  "visit": "pc-08",
+  "id": "o4",
+  "label": "supported",
+  "text": "Heart rate slow and regular, no murmur.",
+  "guard_flags": [],
+  "support": "supported"
+ },
+ {
+  "visit": "pc-08",
+  "id": "o5",
+  "label": "supported",
+  "text": "Lungs clear.",
+  "guard_flags": [],
+  "support": "supported"
+ },
+ {
+  "visit": "pc-08",
+  "id": "o6",
+  "label": "supported",
+  "text": "No ankle edema.",
+  "guard_flags": [],
+  "support": "supported"
+ },
+ {
+  "visit": "pc-08",
+  "id": "o7",
+  "label": "supported",
+  "text": "Normal skin color, no paleness.",
+  "guard_flags": [],
+  "support": "supported"
+ },
+ {
+  "visit": "pc-08",
+  "id": "o8",
+  "label": "minor",
+  "reason": "ECG described as slow regular rhythm, rate 52, no heart block; 'sinus' not stated",
+  "text": "ECG shows sinus bradycardia at 52 bpm, no heart block.",
+  "guard_flags": [],
+  "support": "supported"
+ },
+ {
+  "visit": "pc-08",
+  "id": "a1",
+  "label": "supported",
+  "text": "Fatigue, likely medication-related due to metoprolol and diphenhydramine.",
+  "guard_flags": [],
+  "support": "supported"
+ },
+ {
+  "visit": "pc-08",
+  "id": "p1",
+  "label": "supported",
+  "text": "Discontinue Tylenol PM.",
+  "guard_flags": [],
+  "support": "supported"
+ },
+ {
+  "visit": "pc-08",
+  "id": "p2",
+  "label": "supported",
+  "text": "If nighttime aches, use acetaminophen 500 mg as needed.",
+  "guard_flags": [],
+  "support": "supported"
+ },
+ {
+  "visit": "pc-08",
+  "id": "p3",
+  "label": "supported",
+  "text": "Reduce metoprolol to 25 mg twice daily.",
+  "guard_flags": [],
+  "support": "supported"
+ },
+ {
+  "visit": "pc-08",
+  "id": "p4",
+  "label": "supported",
+  "text": "Continue amlodipine 5 mg daily.",
+  "guard_flags": [],
+  "support": "supported"
+ },
+ {
+  "visit": "pc-08",
+  "id": "p5",
+  "label": "supported",
+  "text": "Continue atorvastatin 10 mg nightly.",
+  "guard_flags": [],
+  "support": "supported"
+ },
+ {
+  "visit": "pc-08",
+  "id": "p6",
+  "label": "supported",
+  "text": "Continue aspirin 81 mg daily.",
+  "guard_flags": [],
+  "support": "supported"
+ },
+ {
+  "visit": "pc-08",
+  "id": "p7",
+  "label": "minor",
+  "reason": "Clinician said chewable vitamin D 1000 units; 'D3' not stated",
+  "text": "Start vitamin D3 chewable 1000 units daily.",
+  "guard_flags": [],
+  "support": "supported"
+ },
+ {
+  "visit": "pc-08",
+  "id": "p8",
+  "label": "supported",
+  "text": "Order CBC, CMP, TSH, and B12 levels.",
+  "guard_flags": [],
+  "support": "supported"
+ },
+ {
+  "visit": "pc-08",
+  "id": "p9",
+  "label": "supported",
+  "text": "Advise to rise slowly from bed, sit on edge for a minute first.",
+  "guard_flags": [],
+  "support": "supported"
+ },
+ {
+  "visit": "pc-08",
+  "id": "p10",
+  "label": "supported",
+  "text": "Precaution: If faint, chest pain, or pulse slows further, call or go to ER.",
+  "guard_flags": [],
+  "support": "supported"
+ },
+ {
+  "visit": "pc-08",
+  "id": "p11",
+  "label": "supported",
+  "text": "Follow-up in 2 weeks.",
+  "guard_flags": [
+   "partial_support"
+  ],
+  "support": "partial"
+ },
+ {
+  "visit": "pc-08",
+  "id": "med0",
+  "label": "supported",
+  "text": "amlodipine 5 mg",
+  "guard_flags": [],
+  "support": null
+ },
+ {
+  "visit": "pc-08",
+  "id": "med1",
+  "label": "supported",
+  "text": "metoprolol 50 mg",
+  "guard_flags": [],
+  "support": null
+ },
+ {
+  "visit": "pc-08",
+  "id": "med2",
+  "label": "supported",
+  "text": "metoprolol 25 mg",
+  "guard_flags": [],
+  "support": null
+ },
+ {
+  "visit": "pc-08",
+  "id": "med3",
+  "label": "supported",
+  "text": "atorvastatin 10 mg",
+  "guard_flags": [],
+  "support": null
+ },
+ {
+  "visit": "pc-08",
+  "id": "med4",
+  "label": "supported",
+  "text": "aspirin 81 mg",
+  "guard_flags": [],
+  "support": null
+ },
+ {
+  "visit": "pc-08",
+  "id": "med5",
+  "label": "supported",
+  "text": "acetaminophen 500 mg",
+  "guard_flags": [],
+  "support": null
+ },
+ {
+  "visit": "pc-08",
+  "id": "med6",
+  "label": "minor",
+  "reason": "Vitamin D formulation 'D3' not stated (chewable vitamin D 1000 units)",
+  "text": "vitamin D3 1000 units",
+  "guard_flags": [],
+  "support": null
+ },
+ {
+  "visit": "pc-08",
+  "id": "med7",
+  "label": "supported",
+  "text": "Tylenol PM unspecified",
+  "guard_flags": [],
+  "support": null
+ },
+ {
+  "visit": "cd-01",
+  "id": "s1",
+  "label": "supported",
+  "text": "Chest pressure for 6 weeks, described as pressure in middle of chest like somebody sitting on me, occurs with exertion such as walking up hill or carrying groceries up stairs",
+  "guard_flags": [],
+  "support": "supported"
+ },
+ {
+  "visit": "cd-01",
+  "id": "s2",
+  "label": "supported",
+  "text": "Chest pressure lasts a few minutes, resolves in 3-4 minutes with rest",
+  "guard_flags": [],
+  "support": "supported"
+ },
+ {
+  "visit": "cd-01",
+  "id": "s3",
+  "label": "supported",
+  "text": "Chest pressure does not occur at rest or wake patient at night",
+  "guard_flags": [],
+  "support": "supported"
+ },
+ {
+  "visit": "cd-01",
+  "id": "s4",
+  "label": "supported",
+  "text": "Chest pressure sometimes radiates to left arm, not to jaw",
+  "guard_flags": [],
+  "support": "supported"
+ },
+ {
+  "visit": "cd-01",
+  "id": "s5",
+  "label": "supported",
+  "text": "Mild shortness of breath with exertion",
+  "guard_flags": [],
+  "support": "supported"
+ },
+ {
+  "visit": "cd-01",
+  "id": "s6",
+  "label": "minor",
+  "reason": "Patient denied sweating, nausea, syncope; lightheadedness was asked but not explicitly denied",
+  "text": "Denies sweating, nausea, lightheadedness, or syncope with episodes",
+  "guard_flags": [],
+  "support": "supported"
+ },
+ {
+  "visit": "cd-01",
+  "id": "s7",
+  "label": "supported",
+  "text": "Chest pressure frequency about 2-3 times per week, unchanged",
+  "guard_flags": [],
+  "support": "supported"
+ },
+ {
+  "visit": "cd-01",
+  "id": "s8",
+  "label": "supported",
+  "text": "History of high blood pressure and high cholesterol",
+  "guard_flags": [],
+  "support": "supported"
+ },
+ {
+  "visit": "cd-01",
+  "id": "s9",
+  "label": "supported",
+  "text": "Current medications: lisinopril 20 mg in morning, atorvastatin 40 mg at night",
+  "guard_flags": [],
+  "support": "supported"
+ },
+ {
+  "visit": "cd-01",
+  "id": "s10",
+  "label": "supported",
+  "text": "Allergy to penicillin causing hives",
+  "guard_flags": [],
+  "support": "supported"
+ },
+ {
+  "visit": "cd-01",
+  "id": "s11",
+  "label": "supported",
+  "text": "Past smoking: 1 pack per day for 25 years, quit 10 years ago",
+  "guard_flags": [],
+  "support": "supported"
+ },
+ {
+  "visit": "cd-01",
+  "id": "s12",
+  "label": "supported",
+  "text": "Denies diabetes",
+  "guard_flags": [],
+  "support": "supported"
+ },
+ {
+  "visit": "cd-01",
+  "id": "s13",
+  "label": "supported",
+  "text": "Occupation: dispatcher at Hollister Freight, mostly sitting",
+  "guard_flags": [],
+  "support": "supported"
+ },
+ {
+  "visit": "cd-01",
+  "id": "o1",
+  "label": "supported",
+  "text": "Blood pressure 142/86 mmHg",
+  "guard_flags": [],
+  "support": "supported"
+ },
+ {
+  "visit": "cd-01",
+  "id": "o2",
+  "label": "supported",
+  "text": "Pulse 74 bpm",
+  "guard_flags": [],
+  "support": "supported"
+ },
+ {
+  "visit": "cd-01",
+  "id": "o3",
+  "label": "supported",
+  "text": "Oxygen saturation 98%",
+  "guard_flags": [],
+  "support": "supported"
+ },
+ {
+  "visit": "cd-01",
+  "id": "o4",
+  "label": "supported",
+  "text": "Weight 214 pounds",
+  "guard_flags": [],
+  "support": "supported"
+ },
+ {
+  "visit": "cd-01",
+  "id": "o5",
+  "label": "supported",
+  "text": "Heart: regular rhythm, no murmurs",
+  "guard_flags": [],
+  "support": "supported"
+ },
+ {
+  "visit": "cd-01",
+  "id": "o6",
+  "label": "supported",
+  "text": "Lungs: clear",
+  "guard_flags": [],
+  "support": "supported"
+ },
+ {
+  "visit": "cd-01",
+  "id": "o7",
+  "label": "supported",
+  "text": "No leg edema",
+  "guard_flags": [],
+  "support": "supported"
+ },
+ {
+  "visit": "cd-01",
+  "id": "o8",
+  "label": "supported",
+  "text": "Pedal pulses: good",
+  "guard_flags": [],
+  "support": "supported"
+ },
+ {
+  "visit": "cd-01",
+  "id": "o9",
+  "label": "supported",
+  "text": "ECG: normal sinus rhythm at 72 bpm, no signs of old or acute MI",
+  "guard_flags": [],
+  "support": "supported"
+ },
+ {
+  "visit": "cd-01",
+  "id": "a1",
+  "label": "supported",
+  "text": "Stable angina",
+  "guard_flags": [],
+  "support": "supported"
+ },
+ {
+  "visit": "cd-01",
+  "id": "p1",
+  "label": "supported",
+  "text": "Order nuclear stress test",
+  "guard_flags": [],
+  "support": "supported"
+ },
+ {
+  "visit": "cd-01",
+  "id": "p2",
+  "label": "supported",
+  "text": "Order fasting lipid panel",
+  "guard_flags": [],
+  "support": "supported"
+ },
+ {
+  "visit": "cd-01",
+  "id": "p3",
+  "label": "supported",
+  "text": "Order basic metabolic panel",
+  "guard_flags": [],
+  "support": "supported"
+ },
+ {
+  "visit": "cd-01",
+  "id": "p4",
+  "label": "supported",
+  "text": "Start aspirin 81 mg once daily",
+  "guard_flags": [],
+  "support": "supported"
+ },
+ {
+  "visit": "cd-01",
+  "id": "p5",
+  "label": "supported",
+  "text": "Start metoprolol succinate 25 mg once daily",
+  "guard_flags": [],
+  "support": "supported"
+ },
+ {
+  "visit": "cd-01",
+  "id": "p6",
+  "label": "supported",
+  "text": "Prescribe nitroglycerin 0.4 mg sublingual PRN for chest pain, repeat every 5 minutes up to 3 tablets",
+  "guard_flags": [],
+  "support": "supported"
+ },
+ {
+  "visit": "cd-01",
+  "id": "p7",
+  "label": "supported",
+  "text": "Increase atorvastatin from 40 mg to 80 mg at night",
+  "guard_flags": [],
+  "support": "supported"
+ },
+ {
+  "visit": "cd-01",
+  "id": "p8",
+  "label": "supported",
+  "text": "Continue lisinopril 20 mg once daily unchanged",
+  "guard_flags": [],
+  "support": "supported"
+ },
+ {
+  "visit": "cd-01",
+  "id": "p9",
+  "label": "supported",
+  "text": "Counsel to call 911 for chest pain at rest, pain >15 minutes, or not relieved by one nitroglycerin",
+  "guard_flags": [],
+  "support": "supported"
+ },
+ {
+  "visit": "cd-01",
+  "id": "p10",
+  "label": "supported",
+  "text": "Advise to avoid heavy lifting and hill climbing until stress test results",
+  "guard_flags": [],
+  "support": "supported"
+ },
+ {
+  "visit": "cd-01",
+  "id": "p11",
+  "label": "supported",
+  "text": "Schedule stress test within 2 weeks",
+  "guard_flags": [],
+  "support": "supported"
+ },
+ {
+  "visit": "cd-01",
+  "id": "p12",
+  "label": "supported",
+  "text": "Follow-up after stress test to review results",
+  "guard_flags": [],
+  "support": "supported"
+ },
+ {
+  "visit": "cd-01",
+  "id": "med0",
+  "label": "supported",
+  "text": "lisinopril 20 mg",
+  "guard_flags": [],
+  "support": null
+ },
+ {
+  "visit": "cd-01",
+  "id": "med1",
+  "label": "minor",
+  "reason": "Atorvastatin 40 mg listed as active although it was increased to 80 mg this visit",
+  "text": "atorvastatin 40 mg",
+  "guard_flags": [],
+  "support": null
+ },
+ {
+  "visit": "cd-01",
+  "id": "med2",
+  "label": "supported",
+  "text": "aspirin 81 mg",
+  "guard_flags": [],
+  "support": null
+ },
+ {
+  "visit": "cd-01",
+  "id": "med3",
+  "label": "supported",
+  "text": "metoprolol succinate 25 mg",
+  "guard_flags": [],
+  "support": null
+ },
+ {
+  "visit": "cd-01",
+  "id": "med4",
+  "label": "supported",
+  "text": "nitroglycerin 0.4 mg",
+  "guard_flags": [],
+  "support": null
+ },
+ {
+  "visit": "cd-01",
+  "id": "med5",
+  "label": "supported",
+  "text": "atorvastatin 80 mg",
+  "guard_flags": [],
+  "support": null
+ },
+ {
+  "visit": "cd-05",
+  "id": "s1",
+  "label": "supported",
+  "text": "Heart-wise, good. No chest pain at all since the stent.",
+  "guard_flags": [],
+  "support": "supported"
+ },
+ {
+  "visit": "cd-05",
+  "id": "s2",
+  "label": "supported",
+  "text": "Finished cardiac rehab in June.",
+  "guard_flags": [],
+  "support": "supported"
+ },
+ {
+  "visit": "cd-05",
+  "id": "s3",
+  "label": "supported",
+  "text": "Walking 30 minutes most days.",
+  "guard_flags": [],
+  "support": "supported"
+ },
+ {
+  "visit": "cd-05",
+  "id": "s4",
+  "label": "supported",
+  "text": "No shortness of breath with walking.",
+  "guard_flags": [],
+  "support": "supported"
+ },
+ {
+  "visit": "cd-05",
+  "id": "s5",
+  "label": "supported",
+  "text": "Thighs and calves were aching, both legs, like I'd run a marathon.",
+  "guard_flags": [],
+  "support": "supported"
+ },
+ {
+  "visit": "cd-05",
+  "id": "s6",
+  "label": "supported",
+  "text": "Muscle aches started maybe 2 months after the hospital.",
+  "guard_flags": [],
+  "support": "supported"
+ },
+ {
+  "visit": "cd-05",
+  "id": "s7",
+  "label": "supported",
+  "text": "Stopped taking atorvastatin about 3 weeks ago.",
+  "guard_flags": [],
+  "support": "supported"
+ },
+ {
+  "visit": "cd-05",
+  "id": "s8",
+  "label": "supported",
+  "text": "Much better leg aches, maybe 90 percent gone after stopping atorvastatin.",
+  "guard_flags": [],
+  "support": "supported"
+ },
+ {
+  "visit": "cd-05",
+  "id": "s9",
+  "label": "supported",
+  "text": "Denies muscle weakness, trouble getting up from a chair, or dark, cola colored urine.",
+  "guard_flags": [],
+  "support": "supported"
+ },
+ {
+  "visit": "cd-05",
+  "id": "s10",
+  "label": "supported",
+  "text": "Taking aspirin 81 mg once a day.",
+  "guard_flags": [],
+  "support": "supported"
+ },
+ {
+  "visit": "cd-05",
+  "id": "s11",
+  "label": "supported",
+  "text": "Taking clopidogrel 75 mg once a day.",
+  "guard_flags": [],
+  "support": "supported"
+ },
+ {
+  "visit": "cd-05",
+  "id": "s12",
+  "label": "supported",
+  "text": "Taking metoprolol 25 mg once a day.",
+  "guard_flags": [],
+  "support": "supported"
+ },
+ {
+  "visit": "cd-05",
+  "id": "s13",
+  "label": "supported",
+  "text": "Has not missed aspirin, clopidogrel, or metoprolol doses.",
+  "guard_flags": [],
+  "support": "supported"
+ },
+ {
+  "visit": "cd-05",
+  "id": "s14",
+  "label": "supported",
+  "text": "Some small bruises on arms from aspirin and clopidogrel.",
+  "guard_flags": [],
+  "support": "supported"
+ },
+ {
+  "visit": "cd-05",
+  "id": "s15",
+  "label": "supported",
+  "text": "Allergic to sulfa drugs, gets a rash all over.",
+  "guard_flags": [],
+  "support": "supported"
+ },
+ {
+  "visit": "cd-05",
+  "id": "s16",
+  "label": "supported",
+  "text": "Does not want muscle aches to return.",
+  "guard_flags": [],
+  "support": "supported"
+ },
+ {
+  "visit": "cd-05",
+  "id": "o1",
+  "label": "supported",
+  "text": "Blood pressure 124 over 76.",
+  "guard_flags": [],
+  "support": "supported"
+ },
+ {
+  "visit": "cd-05",
+  "id": "o2",
+  "label": "supported",
+  "text": "Pulse 62.",
+  "guard_flags": [],
+  "support": "supported"
+ },
+ {
+  "visit": "cd-05",
+  "id": "o3",
+  "label": "supported",
+  "text": "Heart has a regular rhythm, no murmur.",
+  "guard_flags": [],
+  "support": "supported"
+ },
+ {
+  "visit": "cd-05",
+  "id": "o4",
+  "label": "supported",
+  "text": "Lungs are clear.",
+  "guard_flags": [],
+  "support": "supported"
+ },
+ {
+  "visit": "cd-05",
+  "id": "o5",
+  "label": "supported",
+  "text": "Spot on right wrist where catheter was placed is well healed.",
+  "guard_flags": [],
+  "support": "supported"
+ },
+ {
+  "visit": "cd-05",
+  "id": "o6",
+  "label": "supported",
+  "text": "No tenderness in thigh or calf muscles.",
+  "guard_flags": [],
+  "support": "supported"
+ },
+ {
+  "visit": "cd-05",
+  "id": "o7",
+  "label": "supported",
+  "text": "Leg strength is normal.",
+  "guard_flags": [],
+  "support": "supported"
+ },
+ {
+  "visit": "cd-05",
+  "id": "o8",
+  "label": "supported",
+  "text": "LDL cholesterol 118 after about 2 weeks off statin.",
+  "guard_flags": [],
+  "support": "supported"
+ },
+ {
+  "visit": "cd-05",
+  "id": "o9",
+  "label": "supported",
+  "text": "CK (muscle enzyme) normal at 145.",
+  "guard_flags": [],
+  "support": "supported"
+ },
+ {
+  "visit": "cd-05",
+  "id": "o10",
+  "label": "supported",
+  "text": "Liver tests normal.",
+  "guard_flags": [],
+  "support": "supported"
+ },
+ {
+  "visit": "cd-05",
+  "id": "a1",
+  "label": "supported",
+  "text": "Coronary artery disease with stent, stable.",
+  "guard_flags": [],
+  "support": "supported"
+ },
+ {
+  "visit": "cd-05",
+  "id": "a2",
+  "label": "supported",
+  "text": "High LDL cholesterol not at goal due to atorvastatin intolerance.",
+  "guard_flags": [],
+  "support": "supported"
+ },
+ {
+  "visit": "cd-05",
+  "id": "p1",
+  "label": "supported",
+  "text": "Start rosuvastatin 5 mg once daily.",
+  "guard_flags": [],
+  "support": "supported"
+ },
+ {
+  "visit": "cd-05",
+  "id": "p2",
+  "label": "supported",
+  "text": "Start ezetimibe 10 mg once daily.",
+  "guard_flags": [],
+  "support": "supported"
+ },
+ {
+  "visit": "cd-05",
+  "id": "p3",
+  "label": "supported",
+  "text": "If muscle aches return, stop rosuvastatin and message clinician, but continue ezetimibe.",
+  "guard_flags": [],
+  "support": "supported"
+ },
+ {
+  "visit": "cd-05",
+  "id": "p4",
+  "label": "supported",
+  "text": "Recheck lipid panel and liver tests in 8 weeks.",
+  "guard_flags": [],
+  "support": "supported"
+ },
+ {
+  "visit": "cd-05",
+  "id": "p5",
+  "label": "supported",
+  "text": "If LDL still above 55 after 8 weeks, discuss injectable cholesterol medicines.",
+  "guard_flags": [],
+  "support": "supported"
+ },
+ {
+  "visit": "cd-05",
+  "id": "p6",
+  "label": "supported",
+  "text": "Continue aspirin and clopidogrel through February (12 months post-stent).",
+  "guard_flags": [],
+  "support": "supported"
+ },
+ {
+  "visit": "cd-05",
+  "id": "p7",
+  "label": "supported",
+  "text": "Do not stop clopidogrel without talking to clinician first.",
+  "guard_flags": [],
+  "support": "supported"
+ },
+ {
+  "visit": "cd-05",
+  "id": "p8",
+  "label": "supported",
+  "text": "Continue metoprolol at current dose.",
+  "guard_flags": [],
+  "support": "supported"
+ },
+ {
+  "visit": "cd-05",
+  "id": "p9",
+  "label": "supported",
+  "text": "Continue walking regularly.",
+  "guard_flags": [],
+  "support": "supported"
+ },
+ {
+  "visit": "cd-05",
+  "id": "p10",
+  "label": "supported",
+  "text": "Follow-up in 3 months.",
+  "guard_flags": [
+   "partial_support"
+  ],
+  "support": "partial"
+ },
+ {
+  "visit": "cd-05",
+  "id": "med0",
+  "label": "supported",
+  "text": "rosuvastatin 5 mg",
+  "guard_flags": [],
+  "support": null
+ },
+ {
+  "visit": "cd-05",
+  "id": "med1",
+  "label": "supported",
+  "text": "ezetimibe 10 mg",
+  "guard_flags": [],
+  "support": null
+ },
+ {
+  "visit": "cd-05",
+  "id": "med2",
+  "label": "supported",
+  "text": "aspirin 81 mg",
+  "guard_flags": [],
+  "support": null
+ },
+ {
+  "visit": "cd-05",
+  "id": "med3",
+  "label": "supported",
+  "text": "clopidogrel 75 mg",
+  "guard_flags": [],
+  "support": null
+ },
+ {
+  "visit": "cd-05",
+  "id": "med4",
+  "label": "supported",
+  "text": "metoprolol 25 mg",
+  "guard_flags": [],
+  "support": null
+ },
+ {
+  "visit": "dm-01",
+  "id": "s1",
+  "label": "supported",
+  "text": "Mole on left upper back noticed by husband to be getting bigger and darker since spring",
+  "guard_flags": [],
+  "support": "supported"
+ },
+ {
+  "visit": "dm-01",
+  "id": "s2",
+  "label": "supported",
+  "text": "Mole itches a little now and then",
+  "guard_flags": [],
+  "support": "supported"
+ },
+ {
+  "visit": "dm-01",
+  "id": "s3",
+  "label": "supported",
+  "text": "No bleeding from mole",
+  "guard_flags": [],
+  "support": "supported"
+ },
+ {
+  "visit": "dm-01",
+  "id": "s4",
+  "label": "supported",
+  "text": "No pain from mole",
+  "guard_flags": [],
+  "support": "supported"
+ },
+ {
+  "visit": "dm-01",
+  "id": "s5",
+  "label": "supported",
+  "text": "No personal history of skin cancer or mole removal",
+  "guard_flags": [],
+  "support": "supported"
+ },
+ {
+  "visit": "dm-01",
+  "id": "s6",
+  "label": "supported",
+  "text": "Family history: father had basal cell carcinoma on nose",
+  "guard_flags": [],
+  "support": "supported"
+ },
+ {
+  "visit": "dm-01",
+  "id": "s7",
+  "label": "supported",
+  "text": "History of blistering sunburns from lifeguarding",
+  "guard_flags": [],
+  "support": "supported"
+ },
+ {
+  "visit": "dm-01",
+  "id": "s8",
+  "label": "supported",
+  "text": "No use of tanning beds",
+  "guard_flags": [],
+  "support": "supported"
+ },
+ {
+  "visit": "dm-01",
+  "id": "s9",
+  "label": "supported",
+  "text": "Taking levothyroxine 75 micrograms every morning for thyroid",
+  "guard_flags": [],
+  "support": "supported"
+ },
+ {
+  "visit": "dm-01",
+  "id": "s10",
+  "label": "supported",
+  "text": "No known medication allergies",
+  "guard_flags": [],
+  "support": "supported"
+ },
+ {
+  "visit": "dm-01",
+  "id": "o1",
+  "label": "supported",
+  "text": "7 millimeter dark brown mole on left upper back over shoulder blade",
+  "guard_flags": [],
+  "support": "supported"
+ },
+ {
+  "visit": "dm-01",
+  "id": "o2",
+  "label": "supported",
+  "text": "Mole is asymmetric",
+  "guard_flags": [],
+  "support": "supported"
+ },
+ {
+  "visit": "dm-01",
+  "id": "o3",
+  "label": "supported",
+  "text": "Mole has irregular border",
+  "guard_flags": [],
+  "support": "supported"
+ },
+ {
+  "visit": "dm-01",
+  "id": "o4",
+  "label": "supported",
+  "text": "Mole has notched border at bottom",
+  "guard_flags": [],
+  "support": "supported"
+ },
+ {
+  "visit": "dm-01",
+  "id": "o5",
+  "label": "supported",
+  "text": "Mole has black area on one side",
+  "guard_flags": [],
+  "support": "supported"
+ },
+ {
+  "visit": "dm-01",
+  "id": "o6",
+  "label": "supported",
+  "text": "Dermatoscopy shows irregular network and a few dots at edge",
+  "guard_flags": [],
+  "support": "supported"
+ },
+ {
+  "visit": "dm-01",
+  "id": "o7",
+  "label": "supported",
+  "text": "Scattered 2-3 mm round, evenly brown moles on back, chest, arms",
+  "guard_flags": [],
+  "support": "supported"
+ },
+ {
+  "visit": "dm-01",
+  "id": "o8",
+  "label": "supported",
+  "text": "No swollen lymph nodes in left armpit or neck",
+  "guard_flags": [],
+  "support": "supported"
+ },
+ {
+  "visit": "dm-01",
+  "id": "o9",
+  "label": "supported",
+  "text": "No lumps felt in armpit",
+  "guard_flags": [],
+  "support": "supported"
+ },
+ {
+  "visit": "dm-01",
+  "id": "a1",
+  "label": "supported",
+  "text": "Atypical mole vs early melanoma, left upper back",
+  "guard_flags": [],
+  "support": "supported"
+ },
+ {
+  "visit": "dm-01",
+  "id": "p1",
+  "label": "supported",
+  "text": "Shave biopsy of left upper back mole performed today",
+  "guard_flags": [],
+  "support": "supported"
+ },
+ {
+  "visit": "dm-01",
+  "id": "p2",
+  "label": "supported",
+  "text": "Keep bandage on for 24 hours",
+  "guard_flags": [],
+  "support": "supported"
+ },
+ {
+  "visit": "dm-01",
+  "id": "p3",
+  "label": "supported",
+  "text": "Wash biopsy site gently once daily after 24 hours",
+  "guard_flags": [],
+  "support": "supported"
+ },
+ {
+  "visit": "dm-01",
+  "id": "p4",
+  "label": "supported",
+  "text": "Apply plain petroleum jelly to biopsy site daily",
+  "guard_flags": [],
+  "support": "supported"
+ },
+ {
+  "visit": "dm-01",
+  "id": "p5",
+  "label": "supported",
+  "text": "Apply fresh bandage daily until healed",
+  "guard_flags": [],
+  "support": "supported"
+ },
+ {
+  "visit": "dm-01",
+  "id": "p6",
+  "label": "supported",
+  "text": "Expected healing time 1 to 2 weeks",
+  "guard_flags": [],
+  "support": "supported"
+ },
+ {
+  "visit": "dm-01",
+  "id": "p7",
+  "label": "supported",
+  "text": "Pathology results expected in 7 to 10 days",
+  "guard_flags": [],
+  "support": "supported"
+ },
+ {
+  "visit": "dm-01",
+  "id": "p8",
+  "label": "supported",
+  "text": "Results to be posted to patient portal",
+  "guard_flags": [],
+  "support": "supported"
+ },
+ {
+  "visit": "dm-01",
+  "id": "p9",
+  "label": "supported",
+  "text": "Clinic to call patient with results via cell phone 555-0163",
+  "guard_flags": [],
+  "support": "supported"
+ },
+ {
+  "visit": "dm-01",
+  "id": "p10",
+  "label": "supported",
+  "text": "If biopsy site becomes red, hot, swollen, or drains pus, call clinic",
+  "guard_flags": [],
+  "support": "supported"
+ },
+ {
+  "visit": "dm-01",
+  "id": "p11",
+  "label": "supported",
+  "text": "Use broad-spectrum sunscreen SPF 30 or higher daily on exposed skin",
+  "guard_flags": [],
+  "support": "supported"
+ },
+ {
+  "visit": "dm-01",
+  "id": "p12",
+  "label": "supported",
+  "text": "Reapply sunscreen every 2 hours when outside",
+  "guard_flags": [],
+  "support": "supported"
+ },
+ {
+  "visit": "dm-01",
+  "id": "p13",
+  "label": "supported",
+  "text": "Wear wide-brimmed hat for sun protection",
+  "guard_flags": [],
+  "support": "supported"
+ },
+ {
+  "visit": "dm-01",
+  "id": "p14",
+  "label": "supported",
+  "text": "Perform monthly self-skin checks",
+  "guard_flags": [],
+  "support": "supported"
+ },
+ {
+  "visit": "dm-01",
+  "id": "p15",
+  "label": "supported",
+  "text": "Schedule annual full skin check",
+  "guard_flags": [],
+  "support": "supported"
+ },
+ {
+  "visit": "dm-01",
+  "id": "p16",
+  "label": "supported",
+  "text": "Follow-up for biopsy site and results scheduled for Tuesday, October 27th",
+  "guard_flags": [],
+  "support": "supported"
+ },
+ {
+  "visit": "dm-01",
+  "id": "med0",
+  "label": "supported",
+  "text": "levothyroxine 75 micrograms",
+  "guard_flags": [],
+  "support": null
+ },
+ {
+  "visit": "dm-05",
+  "id": "s1",
+  "label": "supported",
+  "text": "Psoriasis worsened over last 4 months, spread to elbows, knees, lower back, and scalp with itching.",
+  "guard_flags": [],
+  "support": "supported"
+ },
+ {
+  "visit": "dm-05",
+  "id": "s2",
+  "label": "supported",
+  "text": "Psoriasis history of 8 years, currently worst it has been.",
+  "guard_flags": [],
+  "support": "supported"
+ },
+ {
+  "visit": "dm-05",
+  "id": "s3",
+  "label": "supported",
+  "text": "Using clobetasol ointment twice daily on worst spots with temporary relief.",
+  "guard_flags": [],
+  "support": "supported"
+ },
+ {
+  "visit": "dm-05",
+  "id": "s4",
+  "label": "supported",
+  "text": "Stopped methotrexate on own in June; was taking 15 milligrams weekly (six 2.5 mg pills).",
+  "guard_flags": [],
+  "support": "supported"
+ },
+ {
+  "visit": "dm-05",
+  "id": "s5",
+  "label": "supported",
+  "text": "Methotrexate caused nausea and hair thinning.",
+  "guard_flags": [],
+  "support": "supported"
+ },
+ {
+  "visit": "dm-05",
+  "id": "s6",
+  "label": "supported",
+  "text": "No joint pain, swelling, stiffness, sausage-like swelling, or heel pain.",
+  "guard_flags": [],
+  "support": "supported"
+ },
+ {
+  "visit": "dm-05",
+  "id": "s7",
+  "label": "supported",
+  "text": "Mother has rheumatoid arthritis in hands.",
+  "guard_flags": [],
+  "support": "supported"
+ },
+ {
+  "visit": "dm-05",
+  "id": "s8",
+  "label": "supported",
+  "text": "Taking amlodipine 5 milligrams every morning for blood pressure.",
+  "guard_flags": [],
+  "support": "supported"
+ },
+ {
+  "visit": "dm-05",
+  "id": "s9",
+  "label": "supported",
+  "text": "Allergic to sulfa; causes rash all over.",
+  "guard_flags": [],
+  "support": "supported"
+ },
+ {
+  "visit": "dm-05",
+  "id": "s10",
+  "label": "supported",
+  "text": "Quit smoking 3 years ago.",
+  "guard_flags": [],
+  "support": "supported"
+ },
+ {
+  "visit": "dm-05",
+  "id": "o1",
+  "label": "supported",
+  "text": "Well-defined red plaques with thick silvery scale on both elbows, right 8 by 6 cm; similar plaques on both knees.",
+  "guard_flags": [],
+  "support": "supported"
+ },
+ {
+  "visit": "dm-05",
+  "id": "o2",
+  "label": "supported",
+  "text": "10 by 7 cm plaque on lower back.",
+  "guard_flags": [],
+  "support": "supported"
+ },
+ {
+  "visit": "dm-05",
+  "id": "o3",
+  "label": "supported",
+  "text": "Red scaly plaques on scalp behind both ears and along hairline.",
+  "guard_flags": [],
+  "support": "supported"
+ },
+ {
+  "visit": "dm-05",
+  "id": "o4",
+  "label": "supported",
+  "text": "Pitting on 3 fingernails.",
+  "guard_flags": [],
+  "support": "supported"
+ },
+ {
+  "visit": "dm-05",
+  "id": "o5",
+  "label": "supported",
+  "text": "No swollen or tender finger joints; no swollen fingers or toes.",
+  "guard_flags": [],
+  "support": "supported"
+ },
+ {
+  "visit": "dm-05",
+  "id": "o6",
+  "label": "supported",
+  "text": "Estimated body surface area involvement: 12 percent.",
+  "guard_flags": [],
+  "support": "supported"
+ },
+ {
+  "visit": "dm-05",
+  "id": "a1",
+  "label": "supported",
+  "text": "Moderate to severe plaque psoriasis not controlled with topical steroids; methotrexate not tolerated.",
+  "guard_flags": [],
+  "support": "supported"
+ },
+ {
+  "visit": "dm-05",
+  "id": "p1",
+  "label": "supported",
+  "text": "Initiate risankizumab 150 mg subcutaneous injection at week 0, week 4, then every 12 weeks.",
+  "guard_flags": [],
+  "support": "supported"
+ },
+ {
+  "visit": "dm-05",
+  "id": "p2",
+  "label": "supported",
+  "text": "Order TB blood test, hepatitis B and C tests, complete blood count, and metabolic panel prior to starting risankizumab.",
+  "guard_flags": [],
+  "support": "supported"
+ },
+ {
+  "visit": "dm-05",
+  "id": "p3",
+  "label": "supported",
+  "text": "Advise avoidance of live vaccines while on risankizumab; recommend seasonal flu shot.",
+  "guard_flags": [],
+  "support": "supported"
+ },
+ {
+  "visit": "dm-05",
+  "id": "p4",
+  "label": "supported",
+  "text": "Continue clobetasol ointment twice daily on body plaques for 2 weeks on, 1 week off to prevent skin thinning.",
+  "guard_flags": [],
+  "support": "supported"
+ },
+ {
+  "visit": "dm-05",
+  "id": "p5",
+  "label": "supported",
+  "text": "Add clobetasol 0.05% solution for scalp, once daily at night.",
+  "guard_flags": [],
+  "support": "supported"
+ },
+ {
+  "visit": "dm-05",
+  "id": "p6",
+  "label": "supported",
+  "text": "Send prior authorization request to insurance; patient provided member ID K as in kilo 7 0 3 9 2 1 5.",
+  "guard_flags": [],
+  "support": "supported"
+ },
+ {
+  "visit": "dm-05",
+  "id": "p7",
+  "label": "minor",
+  "reason": "Conflates two items: first-injection/teaching visit after labs and approval, otherwise follow-up in 6 weeks",
+  "text": "Schedule follow-up in 6 weeks after labs and insurance approval for first injection and training.",
+  "guard_flags": [],
+  "support": "supported"
+ },
+ {
+  "visit": "dm-05",
+  "id": "p8",
+  "label": "supported",
+  "text": "Instruct patient to report joint pain, swelling, or morning stiffness promptly due to risk of psoriatic arthritis.",
+  "guard_flags": [],
+  "support": "supported"
+ },
+ {
+  "visit": "dm-05",
+  "id": "med0",
+  "label": "supported",
+  "text": "clobetasol ointment apply twice daily",
+  "guard_flags": [],
+  "support": null
+ },
+ {
+  "visit": "dm-05",
+  "id": "med1",
+  "label": "supported",
+  "text": "clobetasol 0.05 percent solution apply once daily",
+  "guard_flags": [],
+  "support": null
+ },
+ {
+  "visit": "dm-05",
+  "id": "med2",
+  "label": "supported",
+  "text": "amlodipine 5 milligrams",
+  "guard_flags": [],
+  "support": null
+ },
+ {
+  "visit": "pd-04",
+  "id": "s1",
+  "label": "supported",
+  "text": "Cough and wheezing started yesterday after a cold 3 days ago.",
+  "guard_flags": [],
+  "support": "supported"
+ },
+ {
+  "visit": "pd-04",
+  "id": "s2",
+  "label": "supported",
+  "text": "Woke up twice last night coughing.",
+  "guard_flags": [],
+  "support": "supported"
+ },
+ {
+  "visit": "pd-04",
+  "id": "s3",
+  "label": "supported",
+  "text": "Using albuterol every 4 hours since last night, 4 puffs each time.",
+  "guard_flags": [],
+  "support": "supported"
+ },
+ {
+  "visit": "pd-04",
+  "id": "s4",
+  "label": "supported",
+  "text": "Last albuterol dose was around 7 this morning.",
+  "guard_flags": [],
+  "support": "supported"
+ },
+ {
+  "visit": "pd-04",
+  "id": "s5",
+  "label": "supported",
+  "text": "Albuterol helps for an hour or two, then wheezing returns.",
+  "guard_flags": [],
+  "support": "supported"
+ },
+ {
+  "visit": "pd-04",
+  "id": "s6",
+  "label": "supported",
+  "text": "Stopped daily fluticasone inhaler since June.",
+  "guard_flags": [],
+  "support": "supported"
+ },
+ {
+  "visit": "pd-04",
+  "id": "s7",
+  "label": "supported",
+  "text": "Denies fever.",
+  "guard_flags": [],
+  "support": "supported"
+ },
+ {
+  "visit": "pd-04",
+  "id": "s8",
+  "label": "supported",
+  "text": "Chest does not hurt, but feels tight.",
+  "guard_flags": [],
+  "support": "supported"
+ },
+ {
+  "visit": "pd-04",
+  "id": "s9",
+  "label": "supported",
+  "text": "Denies vomiting after coughing fits.",
+  "guard_flags": [],
+  "support": "supported"
+ },
+ {
+  "visit": "pd-04",
+  "id": "s10",
+  "label": "supported",
+  "text": "No smoke exposure at home or in car.",
+  "guard_flags": [],
+  "support": "supported"
+ },
+ {
+  "visit": "pd-04",
+  "id": "s11",
+  "label": "supported",
+  "text": "No asthma-related hospitalizations or steroid use this year.",
+  "guard_flags": [],
+  "support": "supported"
+ },
+ {
+  "visit": "pd-04",
+  "id": "s12",
+  "label": "supported",
+  "text": "No known medication allergies.",
+  "guard_flags": [],
+  "support": "supported"
+ },
+ {
+  "visit": "pd-04",
+  "id": "o1",
+  "label": "supported",
+  "text": "Weight 30 kilograms.",
+  "guard_flags": [],
+  "support": "supported"
+ },
+ {
+  "visit": "pd-04",
+  "id": "o2",
+  "label": "supported",
+  "text": "Temperature 99.1\u00b0F.",
+  "guard_flags": [],
+  "support": "supported"
+ },
+ {
+  "visit": "pd-04",
+  "id": "o3",
+  "label": "supported",
+  "text": "Heart rate 118 beats per minute.",
+  "guard_flags": [],
+  "support": "supported"
+ },
+ {
+  "visit": "pd-04",
+  "id": "o4",
+  "label": "supported",
+  "text": "Respiratory rate 28 breaths per minute.",
+  "guard_flags": [],
+  "support": "supported"
+ },
+ {
+  "visit": "pd-04",
+  "id": "o5",
+  "label": "supported",
+  "text": "Oxygen saturation 93% on room air.",
+  "guard_flags": [],
+  "support": "supported"
+ },
+ {
+  "visit": "pd-04",
+  "id": "o6",
+  "label": "supported",
+  "text": "Wheezing bilaterally on exhalation.",
+  "guard_flags": [],
+  "support": "supported"
+ },
+ {
+  "visit": "pd-04",
+  "id": "o7",
+  "label": "supported",
+  "text": "Mild subcostal retractions.",
+  "guard_flags": [
+   "partial_support"
+  ],
+  "support": "partial"
+ },
+ {
+  "visit": "pd-04",
+  "id": "o8",
+  "label": "supported",
+  "text": "Speaking in full sentences.",
+  "guard_flags": [],
+  "support": "supported"
+ },
+ {
+  "visit": "pd-04",
+  "id": "o9",
+  "label": "supported",
+  "text": "After nebulizer treatment: oxygen saturation 97%.",
+  "guard_flags": [],
+  "support": "supported"
+ },
+ {
+  "visit": "pd-04",
+  "id": "o10",
+  "label": "supported",
+  "text": "After nebulizer treatment: respiratory rate 22 breaths per minute.",
+  "guard_flags": [],
+  "support": "supported"
+ },
+ {
+  "visit": "pd-04",
+  "id": "o11",
+  "label": "supported",
+  "text": "After nebulizer treatment: heart rate 130 beats per minute (expected from albuterol).",
+  "guard_flags": [],
+  "support": "supported"
+ },
+ {
+  "visit": "pd-04",
+  "id": "o12",
+  "label": "supported",
+  "text": "After nebulizer treatment: scattered wheezes, no retractions.",
+  "guard_flags": [],
+  "support": "supported"
+ },
+ {
+  "visit": "pd-04",
+  "id": "a1",
+  "label": "supported",
+  "text": "Asthma exacerbation triggered by viral upper respiratory infection, worsened by discontinuation of controller medication.",
+  "guard_flags": [],
+  "support": "supported"
+ },
+ {
+  "visit": "pd-04",
+  "id": "p1",
+  "label": "supported",
+  "text": "Administered first dose of prednisolone 30 mg orally in clinic.",
+  "guard_flags": [],
+  "support": "supported"
+ },
+ {
+  "visit": "pd-04",
+  "id": "p2",
+  "label": "supported",
+  "text": "Prescribe prednisolone 30 mg oral once daily for 5 days.",
+  "guard_flags": [],
+  "support": "supported"
+ },
+ {
+  "visit": "pd-04",
+  "id": "p3",
+  "label": "supported",
+  "text": "Prescribe albuterol 4 puffs with spacer every 4 hours while awake for next 2 days, then as needed.",
+  "guard_flags": [],
+  "support": "supported"
+ },
+ {
+  "visit": "pd-04",
+  "id": "p4",
+  "label": "supported",
+  "text": "Restart fluticasone 44 mcg, 2 puffs twice daily, rinse mouth after use.",
+  "guard_flags": [],
+  "support": "supported"
+ },
+ {
+  "visit": "pd-04",
+  "id": "p5",
+  "label": "supported",
+  "text": "Provide updated asthma action plan and send copy to school nurse at Garfield Elementary.",
+  "guard_flags": [],
+  "support": "supported"
+ },
+ {
+  "visit": "pd-04",
+  "id": "p6",
+  "label": "supported",
+  "text": "Return to school when not needing albuterol more than every 4 hours.",
+  "guard_flags": [],
+  "support": "supported"
+ },
+ {
+  "visit": "pd-04",
+  "id": "p7",
+  "label": "minor",
+  "reason": "Follow-up is Friday; 'in 2 days' is not stated in the visit",
+  "text": "Return for follow-up in 2 days (Friday) to recheck and administer flu shot.",
+  "guard_flags": [],
+  "support": "supported"
+ },
+ {
+  "visit": "pd-04",
+  "id": "p8",
+  "label": "supported",
+  "text": "Precaution: Go to ER if needing albuterol more than every 4 hours, unable to speak in full sentences, rib retractions, or cyanosis.",
+  "guard_flags": [],
+  "support": "supported"
+ },
+ {
+  "visit": "pd-04",
+  "id": "med0",
+  "label": "minor",
+  "reason": "Prednisolone newly prescribed today (5-day burst) but status listed as active rather than new",
+  "text": "prednisolone 30 mg",
+  "guard_flags": [],
+  "support": null
+ },
+ {
+  "visit": "pd-04",
+  "id": "med1",
+  "label": "supported",
+  "text": "albuterol 4 puffs",
+  "guard_flags": [],
+  "support": null
+ },
+ {
+  "visit": "pd-04",
+  "id": "med2",
+  "label": "supported",
+  "text": "fluticasone 44 mcg",
+  "guard_flags": [],
+  "support": null
+ },
+ {
+  "visit": "mh-01",
+  "id": "s1",
+  "label": "supported",
+  "text": "Patient reports feeling really down for about three months.",
+  "guard_flags": [],
+  "support": "supported"
+ },
+ {
+  "visit": "mh-01",
+  "id": "s2",
+  "label": "supported",
+  "text": "Patient reports loss of interest in activities, no longer painting on weekends since June.",
+  "guard_flags": [],
+  "support": "supported"
+ },
+ {
+  "visit": "mh-01",
+  "id": "s3",
+  "label": "supported",
+  "text": "Patient reports difficulty sleeping, falling asleep okay but waking around 4 a.m. and unable to return to sleep.",
+  "guard_flags": [],
+  "support": "supported"
+ },
+ {
+  "visit": "mh-01",
+  "id": "s4",
+  "label": "supported",
+  "text": "Patient reports decreased appetite and unintentional weight loss of about 8 pounds.",
+  "guard_flags": [],
+  "support": "supported"
+ },
+ {
+  "visit": "mh-01",
+  "id": "s5",
+  "label": "supported",
+  "text": "Patient reports low energy all the time and difficulty concentrating at work.",
+  "guard_flags": [],
+  "support": "supported"
+ },
+ {
+  "visit": "mh-01",
+  "id": "s6",
+  "label": "supported",
+  "text": "Patient identifies relationship ending in spring after five years as a possible stressor.",
+  "guard_flags": [],
+  "support": "supported"
+ },
+ {
+  "visit": "mh-01",
+  "id": "s7",
+  "label": "supported",
+  "text": "Patient denies history of prior depression or anxiety treatment.",
+  "guard_flags": [],
+  "support": "supported"
+ },
+ {
+  "visit": "mh-01",
+  "id": "s8",
+  "label": "supported",
+  "text": "Patient denies manic or hypomanic episodes.",
+  "guard_flags": [],
+  "support": "supported"
+ },
+ {
+  "visit": "mh-01",
+  "id": "s9",
+  "label": "supported",
+  "text": "Patient reports family history: aunt on father's side has bipolar disorder; sister Paola takes medication for anxiety.",
+  "guard_flags": [],
+  "support": "supported"
+ },
+ {
+  "visit": "mh-01",
+  "id": "s10",
+  "label": "supported",
+  "text": "Patient denies suicidal thoughts or thoughts of self-harm.",
+  "guard_flags": [],
+  "support": "supported"
+ },
+ {
+  "visit": "mh-01",
+  "id": "s11",
+  "label": "supported",
+  "text": "Patient denies thoughts of harming others.",
+  "guard_flags": [],
+  "support": "supported"
+ },
+ {
+  "visit": "mh-01",
+  "id": "s12",
+  "label": "supported",
+  "text": "Patient reports alcohol use: about one glass of wine per week, no drug use.",
+  "guard_flags": [],
+  "support": "supported"
+ },
+ {
+  "visit": "mh-01",
+  "id": "s13",
+  "label": "supported",
+  "text": "Patient reports penicillin allergy with hives as reaction.",
+  "guard_flags": [],
+  "support": "supported"
+ },
+ {
+  "visit": "mh-01",
+  "id": "o1",
+  "label": "supported",
+  "text": "PHQ-9 score is 15, in the moderate range.",
+  "guard_flags": [],
+  "support": "supported"
+ },
+ {
+  "visit": "mh-01",
+  "id": "o2",
+  "label": "supported",
+  "text": "GAD-7 anxiety score is 6, in the mild range.",
+  "guard_flags": [],
+  "support": "supported"
+ },
+ {
+  "visit": "mh-01",
+  "id": "o3",
+  "label": "supported",
+  "text": "Blood pressure is 116/74 mmHg.",
+  "guard_flags": [],
+  "support": "supported"
+ },
+ {
+  "visit": "mh-01",
+  "id": "o4",
+  "label": "supported",
+  "text": "Pulse is 72 beats per minute.",
+  "guard_flags": [],
+  "support": "supported"
+ },
+ {
+  "visit": "mh-01",
+  "id": "o5",
+  "label": "supported",
+  "text": "Weight is 138 pounds.",
+  "guard_flags": [],
+  "support": "supported"
+ },
+ {
+  "visit": "mh-01",
+  "id": "o6",
+  "label": "supported",
+  "text": "Patient is well groomed.",
+  "guard_flags": [],
+  "support": "supported"
+ },
+ {
+  "visit": "mh-01",
+  "id": "o7",
+  "label": "supported",
+  "text": "Speech is normal.",
+  "guard_flags": [],
+  "support": "supported"
+ },
+ {
+  "visit": "mh-01",
+  "id": "o8",
+  "label": "supported",
+  "text": "Mood is sad.",
+  "guard_flags": [],
+  "support": "supported"
+ },
+ {
+  "visit": "mh-01",
+  "id": "o9",
+  "label": "supported",
+  "text": "Affect is a bit flat.",
+  "guard_flags": [],
+  "support": "supported"
+ },
+ {
+  "visit": "mh-01",
+  "id": "o10",
+  "label": "supported",
+  "text": "Thinking is clear and organized.",
+  "guard_flags": [],
+  "support": "supported"
+ },
+ {
+  "visit": "mh-01",
+  "id": "a1",
+  "label": "supported",
+  "text": "Major depressive disorder, single episode, moderate.",
+  "guard_flags": [],
+  "support": "supported"
+ },
+ {
+  "visit": "mh-01",
+  "id": "p1",
+  "label": "supported",
+  "text": "Start sertraline 25 mg orally once daily for one week, then increase to 50 mg orally once daily.",
+  "guard_flags": [],
+  "support": "supported"
+ },
+ {
+  "visit": "mh-01",
+  "id": "p2",
+  "label": "supported",
+  "text": "Referral to therapy team for weekly sessions.",
+  "guard_flags": [],
+  "support": "supported"
+ },
+ {
+  "visit": "mh-01",
+  "id": "p3",
+  "label": "supported",
+  "text": "Provide safety plan card with crisis resources including 988 and emergency room guidance.",
+  "guard_flags": [],
+  "support": "supported"
+ },
+ {
+  "visit": "mh-01",
+  "id": "p4",
+  "label": "supported",
+  "text": "Follow-up in 4 weeks on October 19th to assess medication response.",
+  "guard_flags": [],
+  "support": "supported"
+ },
+ {
+  "visit": "mh-01",
+  "id": "med0",
+  "label": "supported",
+  "text": "sertraline 25 mg",
+  "guard_flags": [],
+  "support": null
+ }
+]

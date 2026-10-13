@@ -1,0 +1,72 @@
+{
+ "run": "main",
+ "notes": 32,
+ "catch_rate": {
+  "dose_x10": {
+   "trials": 30,
+   "caught": 29,
+   "rate": 0.967
+  },
+  "icd_denied": {
+   "trials": 23,
+   "caught": 23,
+   "rate": 1.0
+  },
+  "icd_fake": {
+   "trials": 32,
+   "caught": 32,
+   "rate": 1.0
+  },
+  "icd_header": {
+   "trials": 32,
+   "caught": 32,
+   "rate": 1.0
+  },
+  "invented": {
+   "trials": 32,
+   "caught": 29,
+   "rate": 0.906
+  },
+  "negation_flip": {
+   "trials": 32,
+   "caught": 15,
+   "rate": 0.469
+  },
+  "number_change": {
+   "trials": 29,
+   "caught": 28,
+   "rate": 0.966
+  },
+  "unit_swap": {
+   "trials": 26,
+   "caught": 26,
+   "rate": 1.0
+  }
+ },
+ "overall": {
+  "trials": 236,
+  "caught": 214
+ },
+ "baseline_polarity_error_flags_per_statement": 0.0011,
+ "missed_examples": {
+  "negation_flip": [
+   "cd-01: Reports chest pressure does occur at rest or wake patient at night",
+   "dm-02: Reports extra hair growth on chin or chest.",
+   "dm-03: Reports oozing or yellow crusting.",
+   "dm-04: Reports warts do hurt.",
+   "dm-06: Reports pain in the scalp spots.",
+   "mh-01: Reports patient history of prior depression or anxiety treatment."
+  ],
+  "dose_x10": [
+   "cd-03: sacubitril/valsartan 40 9"
+  ],
+  "invented": [
+   "cd-05: Lungs clear",
+   "cd-06: No leg swelling.",
+   "pc-03: Lungs: clear."
+  ],
+  "number_change": [
+   "pd-05: Vital signs: blood pressure 134/66, heart rate 94."
+  ]
+ }
+}

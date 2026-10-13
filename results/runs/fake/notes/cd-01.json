@@ -1,0 +1,832 @@
+{
+ "note": {
+  "visit_id": "cd-01",
+  "statements": [
+   {
+    "id": "s1",
+    "section": "subjective",
+    "text": "About 6 weeks ago they started getting this pressure in the middle of their chest",
+    "evidence": [
+     {
+      "turn": 5,
+      "quote": "So, about 6 weeks ago I started getting this pressure in the middle of my chest.",
+      "verified": true,
+      "score": 1.0
+     }
+    ],
+    "support": "supported",
+    "flags": [],
+    "origin": "model",
+    "edited": false
+   },
+   {
+    "id": "s2",
+    "section": "subjective",
+    "text": "Denies up at night",
+    "evidence": [
+     {
+      "turn": 8,
+      "quote": "Does it ever happen when you're resting, or wake you up at night?",
+      "verified": true,
+      "score": 1.0
+     },
+     {
+      "turn": 9,
+      "quote": "No, never at rest.",
+      "verified": true,
+      "score": 1.0
+     }
+    ],
+    "support": "supported",
+    "flags": [],
+    "origin": "model",
+    "edited": false
+   },
+   {
+    "id": "s3",
+    "section": "subjective",
+    "text": "A little winded, yeah",
+    "evidence": [
+     {
+      "turn": 13,
+      "quote": "A little winded, yeah.",
+      "verified": true,
+      "score": 1.0
+     }
+    ],
+    "support": "supported",
+    "flags": [],
+    "origin": "model",
+    "edited": false
+   },
+   {
+    "id": "s4",
+    "section": "subjective",
+    "text": "Denies nausea",
+    "evidence": [
+     {
+      "turn": 14,
+      "quote": "Any sweating, nausea, or lightheadedness with the episodes?",
+      "verified": true,
+      "score": 1.0
+     },
+     {
+      "turn": 15,
+      "quote": "No sweating.",
+      "verified": true,
+      "score": 1.0
+     }
+    ],
+    "support": "supported",
+    "flags": [],
+    "origin": "model",
+    "edited": false
+   },
+   {
+    "id": "s5",
+    "section": "subjective",
+    "text": "Denies lightheadedness",
+    "evidence": [
+     {
+      "turn": 14,
+      "quote": "Any sweating, nausea, or lightheadedness with the episodes?",
+      "verified": true,
+      "score": 1.0
+     },
+     {
+      "turn": 15,
+      "quote": "No sweating.",
+      "verified": true,
+      "score": 1.0
+     }
+    ],
+    "support": "supported",
+    "flags": [],
+    "origin": "model",
+    "edited": false
+   },
+   {
+    "id": "s6",
+    "section": "subjective",
+    "text": "No nausea",
+    "evidence": [
+     {
+      "turn": 15,
+      "quote": "No nausea.",
+      "verified": true,
+      "score": 1.0
+     }
+    ],
+    "support": "supported",
+    "flags": [],
+    "origin": "model",
+    "edited": false
+   },
+   {
+    "id": "s7",
+    "section": "subjective",
+    "text": "Has never passed out or anything like that",
+    "evidence": [
+     {
+      "turn": 15,
+      "quote": "I've never passed out or anything like that.",
+      "verified": true,
+      "score": 1.0
+     }
+    ],
+    "support": "supported",
+    "flags": [],
+    "origin": "model",
+    "edited": false
+   },
+   {
+    "id": "s8",
+    "section": "subjective",
+    "text": "They got hives from it as a kid",
+    "evidence": [
+     {
+      "turn": 21,
+      "quote": "I got hives from it as a kid.",
+      "verified": true,
+      "score": 1.0
+     }
+    ],
+    "support": "supported",
+    "flags": [],
+    "origin": "model",
+    "edited": false
+   },
+   {
+    "id": "s9",
+    "section": "subjective",
+    "text": "They quit 10 years ago",
+    "evidence": [
+     {
+      "turn": 23,
+      "quote": "I quit 10 years ago.",
+      "verified": true,
+      "score": 1.0
+     }
+    ],
+    "support": "supported",
+    "flags": [],
+    "origin": "model",
+    "edited": false
+   },
+   {
+    "id": "s10",
+    "section": "subjective",
+    "text": "Before that they smoked about a pack a day for 25 years",
+    "evidence": [
+     {
+      "turn": 23,
+      "quote": "Before that I smoked about a pack a day for 25 years.",
+      "verified": true,
+      "score": 1.0
+     }
+    ],
+    "support": "supported",
+    "flags": [],
+    "origin": "model",
+    "edited": false
+   },
+   {
+    "id": "o1",
+    "section": "objective",
+    "text": "Dr. Patel's note says you have high blood pressure and high cholesterol",
+    "evidence": [
+     {
+      "turn": 18,
+      "quote": "Dr. Patel's note says you have high blood pressure and high cholesterol.",
+      "verified": true,
+      "score": 1.0
+     }
+    ],
+    "support": "supported",
+    "flags": [],
+    "origin": "model",
+    "edited": false
+   },
+   {
+    "id": "o2",
+    "section": "objective",
+    "text": "Your blood pressure today is 142 over 86, pulse 74, and your oxygen is 98 percent",
+    "evidence": [
+     {
+      "turn": 28,
+      "quote": "Your blood pressure today is 142 over 86, pulse 74, and your oxygen is 98 percent.",
+      "verified": true,
+      "score": 1.0
+     }
+    ],
+    "support": "supported",
+    "flags": [],
+    "origin": "model",
+    "edited": false
+   },
+   {
+    "id": "o3",
+    "section": "objective",
+    "text": "Weight is 214 pounds",
+    "evidence": [
+     {
+      "turn": 28,
+      "quote": "Weight is 214 pounds.",
+      "verified": true,
+      "score": 1.0
+     }
+    ],
+    "support": "supported",
+    "flags": [],
+    "origin": "model",
+    "edited": false
+   },
+   {
+    "id": "o4",
+    "section": "objective",
+    "text": "Heart has a regular rhythm, no murmurs",
+    "evidence": [
+     {
+      "turn": 28,
+      "quote": "Heart has a regular rhythm, no murmurs.",
+      "verified": true,
+      "score": 1.0
+     }
+    ],
+    "support": "supported",
+    "flags": [],
+    "origin": "model",
+    "edited": false
+   },
+   {
+    "id": "o5",
+    "section": "objective",
+    "text": "Lungs are clear",
+    "evidence": [
+     {
+      "turn": 28,
+      "quote": "Lungs are clear.",
+      "verified": true,
+      "score": 1.0
+     }
+    ],
+    "support": "supported",
+    "flags": [],
+    "origin": "model",
+    "edited": false
+   },
+   {
+    "id": "o6",
+    "section": "objective",
+    "text": "No swelling in your legs, and the pulses in your feet are good",
+    "evidence": [
+     {
+      "turn": 28,
+      "quote": "No swelling in your legs, and the pulses in your feet are good.",
+      "verified": true,
+      "score": 1.0
+     }
+    ],
+    "support": "supported",
+    "flags": [],
+    "origin": "model",
+    "edited": false
+   },
+   {
+    "id": "o7",
+    "section": "objective",
+    "text": "We did an ECG when you came in",
+    "evidence": [
+     {
+      "turn": 30,
+      "quote": "We did an ECG when you came in.",
+      "verified": true,
+      "score": 1.0
+     }
+    ],
+    "support": "supported",
+    "flags": [],
+    "origin": "model",
+    "edited": false
+   },
+   {
+    "id": "o8",
+    "section": "objective",
+    "text": "It shows normal sinus rhythm at 72, and I don't see any signs of an old heart attack or any acute changes",
+    "evidence": [
+     {
+      "turn": 30,
+      "quote": "It shows normal sinus rhythm at 72, and I don't see any signs of an old heart attack",
+      "verified": true,
+      "score": 1.0
+     }
+    ],
+    "support": "supported",
+    "flags": [],
+    "origin": "model",
+    "edited": false
+   },
+   {
+    "id": "o9",
+    "section": "objective",
+    "text": "That's reassuring, but a resting ECG is often normal even when there's a blockage, because the problem only shows up when the heart is working hard",
+    "evidence": [
+     {
+      "turn": 30,
+      "quote": "That's reassuring, but a resting ECG is often normal even when there's a blockage, because the problem only",
+      "verified": true,
+      "score": 1.0
+     }
+    ],
+    "support": "supported",
+    "flags": [],
+    "origin": "model",
+    "edited": false
+   },
+   {
+    "id": "o10",
+    "section": "objective",
+    "text": "With your smoking history, blood pressure and cholesterol, that's my main concern",
+    "evidence": [
+     {
+      "turn": 32,
+      "quote": "With your smoking history, blood pressure and cholesterol, that's my main concern.",
+      "verified": true,
+      "score": 1.0
+     }
+    ],
+    "support": "supported",
+    "flags": [],
+    "origin": "model",
+    "edited": false
+   },
+   {
+    "id": "o11",
+    "section": "objective",
+    "text": "The good news is it's stable, and we have a clear plan",
+    "evidence": [
+     {
+      "turn": 34,
+      "quote": "The good news is it's stable, and we have a clear plan.",
+      "verified": true,
+      "score": 1.0
+     }
+    ],
+    "support": "supported",
+    "flags": [],
+    "origin": "model",
+    "edited": false
+   },
+   {
+    "id": "o12",
+    "section": "objective",
+    "text": "First, I'd like you to have a nuclear stress test, where you walk on a treadmill while we take pictures of the blood flow to your heart",
+    "evidence": [
+     {
+      "turn": 34,
+      "quote": "First, I'd like you to have a nuclear stress test, where you walk on a treadmill while we",
+      "verified": true,
+      "score": 1.0
+     }
+    ],
+    "support": "supported",
+    "flags": [],
+    "origin": "model",
+    "edited": false
+   },
+   {
+    "id": "o13",
+    "section": "objective",
+    "text": "I'm also starting metoprolol succinate, 25 milligrams once a day, which slows the heart down so it doesn't work as hard",
+    "evidence": [
+     {
+      "turn": 36,
+      "quote": "I'm also starting metoprolol succinate, 25 milligrams once a day, which slows the heart down so it doesn't",
+      "verified": true,
+      "score": 1.0
+     }
+    ],
+    "support": "supported",
+    "flags": [],
+    "origin": "model",
+    "edited": false
+   },
+   {
+    "id": "o14",
+    "section": "objective",
+    "text": "And hold off on heavy lifting and that hill until we have the stress test results",
+    "evidence": [
+     {
+      "turn": 42,
+      "quote": "And hold off on heavy lifting and that hill until we have the stress test results.",
+      "verified": true,
+      "score": 1.0
+     }
+    ],
+    "support": "supported",
+    "flags": [],
+    "origin": "model",
+    "edited": false
+   },
+   {
+    "id": "o15",
+    "section": "objective",
+    "text": "We'll get the stress test done within the next 2 weeks, and I'll see you back right after to go over the results",
+    "evidence": [
+     {
+      "turn": 44,
+      "quote": "We'll get the stress test done within the next 2 weeks, and I'll see you back right after",
+      "verified": true,
+      "score": 1.0
+     }
+    ],
+    "support": "supported",
+    "flags": [],
+    "origin": "model",
+    "edited": false
+   },
+   {
+    "id": "p1",
+    "section": "plan",
+    "text": "Let me take a listen",
+    "evidence": [
+     {
+      "turn": 28,
+      "quote": "Let me take a listen.",
+      "verified": true,
+      "score": 1.0
+     }
+    ],
+    "support": "supported",
+    "flags": [],
+    "origin": "model",
+    "edited": false
+   },
+   {
+    "id": "p2",
+    "section": "plan",
+    "text": "We'll also check a fasting lipid panel and a basic metabolic panel",
+    "evidence": [
+     {
+      "turn": 34,
+      "quote": "We'll also check a fasting lipid panel and a basic metabolic panel.",
+      "verified": true,
+      "score": 1.0
+     }
+    ],
+    "support": "supported",
+    "flags": [],
+    "origin": "model",
+    "edited": false
+   },
+   {
+    "id": "p3",
+    "section": "plan",
+    "text": "In the meantime, I want you to start aspirin, 81 milligrams once a day",
+    "evidence": [
+     {
+      "turn": 36,
+      "quote": "In the meantime, I want you to start aspirin, 81 milligrams once a day.",
+      "verified": true,
+      "score": 1.0
+     }
+    ],
+    "support": "supported",
+    "flags": [],
+    "origin": "model",
+    "edited": false
+   },
+   {
+    "id": "p4",
+    "section": "plan",
+    "text": "I'm also going to increase your atorvastatin from 40 to 80 milligrams at night",
+    "evidence": [
+     {
+      "turn": 38,
+      "quote": "I'm also going to increase your atorvastatin from 40 to 80 milligrams at night.",
+      "verified": true,
+      "score": 1.0
+     }
+    ],
+    "support": "supported",
+    "flags": [],
+    "origin": "model",
+    "edited": false
+   }
+  ],
+  "medications": [
+   {
+    "name": "lisinopril",
+    "dose": "20 milligrams",
+    "frequency": "",
+    "route": "",
+    "status": "active",
+    "evidence": [
+     {
+      "turn": 19,
+      "quote": "Lisinopril, 20 milligrams in the morning.",
+      "verified": true,
+      "score": 1.0
+     }
+    ],
+    "flags": []
+   },
+   {
+    "name": "atorvastatin",
+    "dose": "80 milligrams",
+    "frequency": "",
+    "route": "",
+    "status": "changed",
+    "evidence": [
+     {
+      "turn": 38,
+      "quote": "I'm also going to increase your atorvastatin from 40 to 80 milligrams at night.",
+      "verified": true,
+      "score": 1.0
+     }
+    ],
+    "flags": []
+   },
+   {
+    "name": "aspirin",
+    "dose": "81 milligrams",
+    "frequency": "once a day",
+    "route": "",
+    "status": "new",
+    "evidence": [
+     {
+      "turn": 36,
+      "quote": "In the meantime, I want you to start aspirin, 81 milligrams once a day.",
+      "verified": true,
+      "score": 1.0
+     }
+    ],
+    "flags": []
+   },
+   {
+    "name": "metoprolol succinate",
+    "dose": "25 milligrams",
+    "frequency": "once a day",
+    "route": "",
+    "status": "new",
+    "evidence": [
+     {
+      "turn": 36,
+      "quote": "I'm also starting metoprolol succinate, 25 milligrams once a day, which slows the heart down so it doesn't",
+      "verified": true,
+      "score": 1.0
+     }
+    ],
+    "flags": []
+   },
+   {
+    "name": "nitroglycerin",
+    "dose": "0.4 milligrams",
+    "frequency": "",
+    "route": "",
+    "status": "active",
+    "evidence": [
+     {
+      "turn": 36,
+      "quote": "And I'm giving you nitroglycerin, 0.4 milligrams, one tablet under the tongue if the pressure comes on and",
+      "verified": true,
+      "score": 1.0
+     }
+    ],
+    "flags": []
+   }
+  ],
+  "allergies": [],
+  "after_visit_summary": "Thank you for coming in today. Here is what we talked about. Let me take a listen. we will also check a fasting lipid panel and a basic metabolic panel. In the meantime, I want you to start aspirin, 81 milligrams once a day. I'm also going to increase your atorvastatin from 40 to 80 milligrams at night.",
+  "avs_flags": [],
+  "icd10": [
+   {
+    "system": "ICD-10-CM",
+    "code": "L98.448",
+    "description": "Non-pressure chronic ulcer of chest with other specified severity",
+    "rank": 1,
+    "rationale": "Matches the assessment: Non-pressure chronic ulcer of chest with other specified severity",
+    "evidence": [],
+    "valid": true,
+    "billable": true,
+    "flags": [
+     {
+      "kind": "code_unsupported",
+      "severity": "warning",
+      "message": "No verified quote supports this code.",
+      "acknowledged": false,
+      "detail": {}
+     }
+    ],
+    "accepted": null
+   },
+   {
+    "system": "ICD-10-CM",
+    "code": "L98.443",
+    "description": "Non-pressure chronic ulcer of chest with necrosis of muscle",
+    "rank": 2,
+    "rationale": "Matches the assessment: Non-pressure chronic ulcer of chest with necrosis of muscle",
+    "evidence": [],
+    "valid": true,
+    "billable": true,
+    "flags": [
+     {
+      "kind": "code_unsupported",
+      "severity": "warning",
+      "message": "No verified quote supports this code.",
+      "acknowledged": false,
+      "detail": {}
+     }
+    ],
+    "accepted": null
+   },
+   {
+    "system": "ICD-10-CM",
+    "code": "L98.444",
+    "description": "Non-pressure chronic ulcer of chest with necrosis of bone",
+    "rank": 3,
+    "rationale": "Matches the assessment: Non-pressure chronic ulcer of chest with necrosis of bone",
+    "evidence": [],
+    "valid": true,
+    "billable": true,
+    "flags": [
+     {
+      "kind": "code_unsupported",
+      "severity": "warning",
+      "message": "No verified quote supports this code.",
+      "acknowledged": false,
+      "detail": {}
+     }
+    ],
+    "accepted": null
+   }
+  ],
+  "em": {
+   "system": "CPT",
+   "code": "99204",
+   "description": "New patient office visit, moderate-complexity decision making",
+   "rank": 1,
+   "rationale": "Rule-based: prescription drug management",
+   "evidence": [],
+   "valid": true,
+   "billable": true,
+   "flags": [],
+   "accepted": null
+  },
+  "procedures": [
+   {
+    "system": "CPT",
+    "code": "93000",
+    "description": "Electrocardiogram with interpretation and report",
+    "rank": 1,
+    "rationale": "Performed today",
+    "evidence": [
+     {
+      "turn": 30,
+      "quote": "We did an ECG when you came in. It shows normal sinus rhythm at 72, and I don't",
+      "verified": true,
+      "score": 1.0
+     }
+    ],
+    "valid": true,
+    "billable": true,
+    "flags": [],
+    "accepted": null
+   }
+  ],
+  "mdm": {
+   "problems": "straightforward",
+   "data": "moderate",
+   "risk": "moderate",
+   "level": "moderate",
+   "code": "99204",
+   "reasons": [
+    "data: tests ordered or reviewed plus an independent interpretation",
+    "risk: prescription drug management"
+   ]
+  },
+  "section_status": {
+   "subjective": "draft",
+   "objective": "draft",
+   "assessment": "draft",
+   "plan": "draft"
+  },
+  "model": "fake/fake-scribe",
+  "created_at": "2026-10-13T05:44:44.477529Z",
+  "signed_by": null,
+  "signed_at": null,
+  "timings": {
+   "phi_masking": 0.032,
+   "llm_note": 0.021,
+   "guards_note": 0.071,
+   "llm_codes": 0.008,
+   "guards_codes": 0.048,
+   "total": 0.18,
+   "wall": 0.192
+  },
+  "usage": {
+   "model_ms": 29,
+   "input_tokens": 3856,
+   "output_tokens": 1841,
+   "calls": 2
+  },
+  "phi": {
+   "NAME": 3,
+   "DOB": 1,
+   "ORG": 1,
+   "PHONE": 1
+  }
+ },
+ "vault": {
+  "originals": {
+   "[NAME_1]": "Adaeze Okonkwo",
+   "[PATIENT]": "Tomasz Wieczorek",
+   "[DOB]": "August 3rd, 1964",
+   "[NAME_2]": "Patel",
+   "[ORG_1]": "Hollister Freight",
+   "[PHONE_1]": "555-0163"
+  },
+  "surfaces": {
+   "[NAME_1]": [
+    "Adaeze Okonkwo"
+   ],
+   "[PATIENT]": [
+    "Tomasz Wieczorek",
+    "Wieczorek"
+   ],
+   "[DOB]": [
+    "August 3rd, 1964"
+   ],
+   "[NAME_2]": [
+    "Patel"
+   ],
+   "[ORG_1]": [
+    "Hollister Freight"
+   ],
+   "[PHONE_1]": [
+    "555-0163"
+   ]
+  },
+  "types": {
+   "[NAME_1]": "NAME",
+   "[PATIENT]": "NAME",
+   "[DOB]": "DOB",
+   "[NAME_2]": "NAME",
+   "[ORG_1]": "ORG",
+   "[PHONE_1]": "PHONE"
+  },
+  "counters": {
+   "NAME": 2,
+   "ORG": 1,
+   "PHONE": 1
+  }
+ },
+ "score": {
+  "case": "cd-01",
+  "specialty": "cardiology",
+  "facts": 30,
+  "found": 21,
+  "found_in_section": 15,
+  "negation_errors": [],
+  "trap_errors": [],
+  "missed": [
+   "f3 [subjective] Episodes last a few minutes and resolve with rest in 3 to 4 minutes",
+   "f5 [subjective] Occasional radiation to the left arm",
+   "f6 [subjective] No radiation to the jaw",
+   "f10 [subjective] Stable frequency, 2 to 3 episodes per week, not worsening",
+   "f14 [subjective] No diabetes",
+   "f15 [subjective] Penicillin allergy (hives)",
+   "f22 [assessment] Exertional chest pressure consistent with stable angina, suspected coronary artery disease",
+   "f29 [plan] Call 911 for rest pain, pain over 15 minutes, or pain not relieved by nitroglycerin; avoid heavy exertion until testing",
+   "f30 [plan] Follow-up after stress test to review results"
+  ],
+  "statements": 29,
+  "statements_matching_gold": 24,
+  "unsupported": 0,
+  "partial": 0,
+  "flags": {},
+  "meds": 5,
+  "meds_found": 5,
+  "meds_dose_correct": 5,
+  "icd_primary": "I20.9",
+  "icd_suggested": [
+   "L98.448",
+   "L98.443",
+   "L98.444"
+  ],
+  "icd_top1": false,
+  "icd_top3": false,
+  "icd_top3_lenient": false,
+  "icd_top3_category": false,
+  "icd_gold_recall": 0.0,
+  "icd_invalid": 0,
+  "em_gold": "99204",
+  "em_suggested": "99204",
+  "em_exact": true,
+  "em_within_one": true,
+  "em_rule_estimate": "99204",
+  "procedures_gold": 1,
+  "procedures_found": 1
+ },
+ "egress_residue": {}
+}

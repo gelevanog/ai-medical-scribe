@@ -1,0 +1,607 @@
+{
+ "note": {
+  "visit_id": "mh-05",
+  "statements": [
+   {
+    "id": "s1",
+    "section": "subjective",
+    "text": "One night they got up to use the bathroom and got real dizzy, had to grab the dresser",
+    "evidence": [
+     {
+      "turn": 7,
+      "quote": "And one night I got up to use the bathroom and got real dizzy, had to grab the",
+      "verified": true,
+      "score": 1.0
+     }
+    ],
+    "support": "supported",
+    "flags": [],
+    "origin": "model",
+    "edited": false
+   },
+   {
+    "id": "s2",
+    "section": "subjective",
+    "text": "Denies snore",
+    "evidence": [
+     {
+      "turn": 20,
+      "quote": "Does Bernadette ever say you snore loud or stop breathing at night?",
+      "verified": true,
+      "score": 1.0
+     },
+     {
+      "turn": 21,
+      "quote": "No, she says I sleep quiet.",
+      "verified": true,
+      "score": 1.0
+     }
+    ],
+    "support": "supported",
+    "flags": [],
+    "origin": "model",
+    "edited": false
+   },
+   {
+    "id": "s3",
+    "section": "subjective",
+    "text": "She's the one who can't sleep, she takes Ambien and swears by it",
+    "evidence": [
+     {
+      "turn": 21,
+      "quote": "She's the one who can't sleep, she takes Ambien and swears by it.",
+      "verified": true,
+      "score": 1.0
+     }
+    ],
+    "support": "supported",
+    "flags": [],
+    "origin": "model",
+    "edited": false
+   },
+   {
+    "id": "s4",
+    "section": "subjective",
+    "text": "Denies feeling down",
+    "evidence": [
+     {
+      "turn": 24,
+      "quote": "And how's your mood, are you feeling down or worried a lot?",
+      "verified": true,
+      "score": 1.0
+     },
+     {
+      "turn": 25,
+      "quote": "No, mood's fine.",
+      "verified": true,
+      "score": 1.0
+     }
+    ],
+    "support": "supported",
+    "flags": [],
+    "origin": "model",
+    "edited": false
+   },
+   {
+    "id": "s5",
+    "section": "subjective",
+    "text": "Denies worried",
+    "evidence": [
+     {
+      "turn": 24,
+      "quote": "And how's your mood, are you feeling down or worried a lot?",
+      "verified": true,
+      "score": 1.0
+     },
+     {
+      "turn": 25,
+      "quote": "No, mood's fine.",
+      "verified": true,
+      "score": 1.0
+     }
+    ],
+    "support": "supported",
+    "flags": [],
+    "origin": "model",
+    "edited": false
+   },
+   {
+    "id": "s6",
+    "section": "subjective",
+    "text": "Is just tired",
+    "evidence": [
+     {
+      "turn": 25,
+      "quote": "I'm just tired.",
+      "verified": true,
+      "score": 1.0
+     }
+    ],
+    "support": "supported",
+    "flags": [],
+    "origin": "model",
+    "edited": false
+   },
+   {
+    "id": "s7",
+    "section": "subjective",
+    "text": "They thought it was harmless since it's over the counter",
+    "evidence": [
+     {
+      "turn": 29,
+      "quote": "I thought it was harmless since it's over the counter.",
+      "verified": true,
+      "score": 1.0
+     }
+    ],
+    "support": "supported",
+    "flags": [],
+    "origin": "model",
+    "edited": false
+   },
+   {
+    "id": "o1",
+    "section": "objective",
+    "text": "Your blood pressure sitting is 134 over 80, and standing it's 130 over 78, so no real drop",
+    "evidence": [
+     {
+      "turn": 26,
+      "quote": "Your blood pressure sitting is 134 over 80, and standing it's 130 over 78, so no real drop.",
+      "verified": true,
+      "score": 1.0
+     }
+    ],
+    "support": "supported",
+    "flags": [],
+    "origin": "model",
+    "edited": false
+   },
+   {
+    "id": "o2",
+    "section": "objective",
+    "text": "Pulse is 68",
+    "evidence": [
+     {
+      "turn": 26,
+      "quote": "Pulse is 68.",
+      "verified": true,
+      "score": 1.0
+     }
+    ],
+    "support": "supported",
+    "flags": [],
+    "origin": "model",
+    "edited": false
+   },
+   {
+    "id": "o3",
+    "section": "objective",
+    "text": "Your sleep questionnaire score is 18, which is moderate insomnia",
+    "evidence": [
+     {
+      "turn": 26,
+      "quote": "Your sleep questionnaire score is 18, which is moderate insomnia.",
+      "verified": true,
+      "score": 1.0
+     }
+    ],
+    "support": "supported",
+    "flags": [],
+    "origin": "model",
+    "edited": false
+   },
+   {
+    "id": "a1",
+    "section": "assessment",
+    "text": "So here's what I think",
+    "evidence": [
+     {
+      "turn": 28,
+      "quote": "So here's what I think.",
+      "verified": true,
+      "score": 1.0
+     }
+    ],
+    "support": "supported",
+    "flags": [],
+    "origin": "model",
+    "edited": false
+   },
+   {
+    "id": "a2",
+    "section": "assessment",
+    "text": "This is chronic insomnia, and a lot of it comes down to sleep habits that keep it going, the nap, the late coffee, the TV in bed",
+    "evidence": [
+     {
+      "turn": 28,
+      "quote": "This is chronic insomnia, and a lot of it comes down to sleep habits that keep it going,",
+      "verified": true,
+      "score": 1.0
+     }
+    ],
+    "support": "supported",
+    "flags": [],
+    "origin": "model",
+    "edited": false
+   },
+   {
+    "id": "a3",
+    "section": "assessment",
+    "text": "I'm also referring you to our CBT for insomnia program, it's a 6-session class and it works better than pills long term",
+    "evidence": [
+     {
+      "turn": 34,
+      "quote": "I'm also referring you to our CBT for insomnia program, it's a 6-session class and it works better",
+      "verified": true,
+      "score": 1.0
+     }
+    ],
+    "support": "supported",
+    "flags": [],
+    "origin": "model",
+    "edited": false
+   },
+   {
+    "id": "p1",
+    "section": "plan",
+    "text": "I also want you to stop the Benadryl",
+    "evidence": [
+     {
+      "turn": 28,
+      "quote": "I also want you to stop the Benadryl.",
+      "verified": true,
+      "score": 1.0
+     }
+    ],
+    "support": "supported",
+    "flags": [],
+    "origin": "model",
+    "edited": false
+   },
+   {
+    "id": "p2",
+    "section": "plan",
+    "text": "Now the main plan",
+    "evidence": [
+     {
+      "turn": 30,
+      "quote": "Now the main plan.",
+      "verified": true,
+      "score": 1.0
+     }
+    ],
+    "support": "supported",
+    "flags": [],
+    "origin": "model",
+    "edited": false
+   },
+   {
+    "id": "p3",
+    "section": "plan",
+    "text": "And take a morning walk outside for the daylight",
+    "evidence": [
+     {
+      "turn": 32,
+      "quote": "And take a morning walk outside for the daylight.",
+      "verified": true,
+      "score": 1.0
+     }
+    ],
+    "support": "supported",
+    "flags": [],
+    "origin": "model",
+    "edited": false
+   },
+   {
+    "id": "p4",
+    "section": "plan",
+    "text": "Let's follow up in 6 weeks",
+    "evidence": [
+     {
+      "turn": 36,
+      "quote": "Let's follow up in 6 weeks.",
+      "verified": true,
+      "score": 1.0
+     }
+    ],
+    "support": "supported",
+    "flags": [],
+    "origin": "model",
+    "edited": false
+   },
+   {
+    "id": "p5",
+    "section": "plan",
+    "text": "If you get confused or have a fall, call us sooner",
+    "evidence": [
+     {
+      "turn": 36,
+      "quote": "If you get confused or have a fall, call us sooner.",
+      "verified": true,
+      "score": 1.0
+     }
+    ],
+    "support": "supported",
+    "flags": [],
+    "origin": "model",
+    "edited": false
+   }
+  ],
+  "medications": [
+   {
+    "name": "trazodone",
+    "dose": "50 milligrams",
+    "frequency": "at bedtime",
+    "route": "",
+    "status": "new",
+    "evidence": [
+     {
+      "turn": 4,
+      "quote": "So, last time we started trazodone, 50 milligrams at bedtime, for sleep.",
+      "verified": true,
+      "score": 1.0
+     }
+    ],
+    "flags": []
+   },
+   {
+    "name": "diphenhydramine",
+    "dose": "25 milligrams",
+    "frequency": "",
+    "route": "",
+    "status": "active",
+    "evidence": [
+     {
+      "turn": 13,
+      "quote": "The Benadryl, the 25 milligrams, most nights.",
+      "verified": true,
+      "score": 1.0
+     }
+    ],
+    "flags": []
+   },
+   {
+    "name": "melatonin",
+    "dose": "3 milligrams",
+    "frequency": "",
+    "route": "",
+    "status": "active",
+    "evidence": [
+     {
+      "turn": 30,
+      "quote": "You can keep melatonin, but drop it to 3 milligrams, an hour before bed.",
+      "verified": true,
+      "score": 1.0
+     }
+    ],
+    "flags": []
+   },
+   {
+    "name": "zolpidem",
+    "dose": "",
+    "frequency": "",
+    "route": "",
+    "status": "active",
+    "evidence": [
+     {
+      "turn": 21,
+      "quote": "She's the one who can't sleep, she takes Ambien and swears by it.",
+      "verified": true,
+      "score": 1.0
+     }
+    ],
+    "flags": []
+   }
+  ],
+  "allergies": [],
+  "after_visit_summary": "Thank you for coming in today. Here is what we talked about. I also want you to stop the Benadryl. Now the main plan. And take a morning walk outside for the daylight. Let's follow up in 6 weeks. If you get confused or have a fall, call us sooner.",
+  "avs_flags": [],
+  "icd10": [
+   {
+    "system": "ICD-10-CM",
+    "code": "Z73.810",
+    "description": "Behavioral insomnia of childhood, sleep-onset association type",
+    "rank": 1,
+    "rationale": "Matches the assessment: Behavioral insomnia of childhood, sleep-onset association type",
+    "evidence": [],
+    "valid": true,
+    "billable": true,
+    "flags": [
+     {
+      "kind": "code_unsupported",
+      "severity": "warning",
+      "message": "No verified quote supports this code.",
+      "acknowledged": false,
+      "detail": {}
+     }
+    ],
+    "accepted": null
+   },
+   {
+    "system": "ICD-10-CM",
+    "code": "Z79.01",
+    "description": "Long term (current) use of anticoagulants",
+    "rank": 2,
+    "rationale": "Matches the assessment: Long term (current) use of anticoagulants",
+    "evidence": [],
+    "valid": true,
+    "billable": true,
+    "flags": [
+     {
+      "kind": "code_unsupported",
+      "severity": "warning",
+      "message": "No verified quote supports this code.",
+      "acknowledged": false,
+      "detail": {}
+     }
+    ],
+    "accepted": null
+   },
+   {
+    "system": "ICD-10-CM",
+    "code": "Z79.2",
+    "description": "Long term (current) use of antibiotics",
+    "rank": 3,
+    "rationale": "Matches the assessment: Long term (current) use of antibiotics",
+    "evidence": [],
+    "valid": true,
+    "billable": true,
+    "flags": [
+     {
+      "kind": "code_unsupported",
+      "severity": "warning",
+      "message": "No verified quote supports this code.",
+      "acknowledged": false,
+      "detail": {}
+     }
+    ],
+    "accepted": null
+   }
+  ],
+  "em": {
+   "system": "CPT",
+   "code": "99214",
+   "description": "Established patient office visit, moderate-complexity decision making",
+   "rank": 1,
+   "rationale": "Rule-based: prescription drug management",
+   "evidence": [],
+   "valid": true,
+   "billable": true,
+   "flags": [],
+   "accepted": null
+  },
+  "procedures": [],
+  "mdm": {
+   "problems": "moderate",
+   "data": "straightforward",
+   "risk": "moderate",
+   "level": "moderate",
+   "code": "99214",
+   "reasons": [
+    "problems: two or more chronic illnesses",
+    "risk: prescription drug management"
+   ]
+  },
+  "section_status": {
+   "subjective": "draft",
+   "objective": "draft",
+   "assessment": "draft",
+   "plan": "draft"
+  },
+  "model": "fake/fake-scribe",
+  "created_at": "2026-10-13T05:44:48.988461Z",
+  "signed_by": null,
+  "signed_at": null,
+  "timings": {
+   "phi_masking": 0.03,
+   "llm_note": 0.016,
+   "guards_note": 0.053,
+   "llm_codes": 0.007,
+   "guards_codes": 0.041,
+   "total": 0.147,
+   "wall": 0.183
+  },
+  "usage": {
+   "model_ms": 23,
+   "input_tokens": 3037,
+   "output_tokens": 1152,
+   "calls": 2
+  },
+  "phi": {
+   "NAME": 2,
+   "DOB": 1,
+   "ORG": 1,
+   "EMAIL": 1
+  }
+ },
+ "vault": {
+  "originals": {
+   "[PATIENT]": "Raymond Delacroix",
+   "[DOB]": "April 12th, 1958",
+   "[ORG_1]": "Crescent City Transit",
+   "[NAME_1]": "Bernadette",
+   "[EMAIL_1]": "ray dot delacroix at bayoumail dot com"
+  },
+  "surfaces": {
+   "[PATIENT]": [
+    "Delacroix",
+    "Raymond Delacroix"
+   ],
+   "[DOB]": [
+    "April 12th, 1958"
+   ],
+   "[ORG_1]": [
+    "Crescent City Transit"
+   ],
+   "[NAME_1]": [
+    "Bernadette"
+   ],
+   "[EMAIL_1]": [
+    "ray dot delacroix at bayoumail dot com"
+   ]
+  },
+  "types": {
+   "[PATIENT]": "NAME",
+   "[DOB]": "DOB",
+   "[ORG_1]": "ORG",
+   "[NAME_1]": "NAME",
+   "[EMAIL_1]": "EMAIL"
+  },
+  "counters": {
+   "ORG": 1,
+   "NAME": 1,
+   "EMAIL": 1
+  }
+ },
+ "score": {
+  "case": "mh-05",
+  "specialty": "mental_health",
+  "facts": 26,
+  "found": 16,
+  "found_in_section": 10,
+  "negation_errors": [],
+  "trap_errors": [
+   "other_person: Wife takes Ambien; zolpidem is not the patient's medication"
+  ],
+  "missed": [
+   "f1 [subjective] Stopped trazodone on his own after about 10 days",
+   "f3 [subjective] No fall with the dizzy episode",
+   "f4 [subjective] Sleep-onset insomnia, lies awake 1 to 2 hours after 9:30 pm bedtime",
+   "f5 [subjective] Early awakening around 3 am, unable to return to sleep most nights",
+   "f7 [subjective] Taking melatonin 5 mg at night",
+   "f9 [subjective] Two cups of coffee daily, last one around 3 pm",
+   "f12 [subjective] Denies restless legs symptoms",
+   "f19 [plan] Do not restart trazodone",
+   "f22 [plan] Sleep hygiene and stimulus control - fixed wake time 6:30 daily, bed only when sleepy, no TV in bed, get up if awake more than 20 minutes",
+   "f25 [plan] Keep sleep diary for 2 weeks via portal"
+  ],
+  "statements": 18,
+  "statements_matching_gold": 12,
+  "unsupported": 0,
+  "partial": 0,
+  "flags": {},
+  "meds": 3,
+  "meds_found": 3,
+  "meds_dose_correct": 3,
+  "icd_primary": "F51.01",
+  "icd_suggested": [
+   "Z73.810",
+   "Z79.01",
+   "Z79.2"
+  ],
+  "icd_top1": false,
+  "icd_top3": false,
+  "icd_top3_lenient": false,
+  "icd_top3_category": false,
+  "icd_gold_recall": 0.0,
+  "icd_invalid": 0,
+  "em_gold": "99214",
+  "em_suggested": "99214",
+  "em_exact": true,
+  "em_within_one": true,
+  "em_rule_estimate": "99214",
+  "procedures_gold": 0,
+  "procedures_found": 0
+ },
+ "egress_residue": {}
+}

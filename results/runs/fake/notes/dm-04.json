@@ -1,0 +1,486 @@
+{
+ "note": {
+  "visit_id": "dm-04",
+  "statements": [
+   {
+    "id": "s1",
+    "section": "subjective",
+    "text": "The finger ones started maybe 5 months ago and they keep multiplying",
+    "evidence": [
+     {
+      "turn": 5,
+      "quote": "The finger ones started maybe 5 months ago and they keep multiplying.",
+      "verified": true,
+      "score": 1.0
+     }
+    ],
+    "support": "supported",
+    "flags": [],
+    "origin": "model",
+    "edited": false
+   },
+   {
+    "id": "s2",
+    "section": "subjective",
+    "text": "The drugstore salicylic acid, the 17 percent liquid, every night for about 6 weeks",
+    "evidence": [
+     {
+      "turn": 7,
+      "quote": "The drugstore salicylic acid, the 17 percent liquid, every night for about 6 weeks.",
+      "verified": true,
+      "score": 1.0
+     }
+    ],
+    "support": "supported",
+    "flags": [],
+    "origin": "model",
+    "edited": false
+   },
+   {
+    "id": "s3",
+    "section": "subjective",
+    "text": "Denies bled",
+    "evidence": [
+     {
+      "turn": 10,
+      "quote": "Have they bled or gotten infected?",
+      "verified": true,
+      "score": 1.0
+     },
+     {
+      "turn": 11,
+      "quote": "No.",
+      "verified": true,
+      "score": 1.0
+     }
+    ],
+    "support": "supported",
+    "flags": [],
+    "origin": "model",
+    "edited": false
+   },
+   {
+    "id": "o1",
+    "section": "objective",
+    "text": "On the right index finger there are two rough, skin-colored bumps, 5 millimeters and 3 millimeters, with tiny black dots in them",
+    "evidence": [
+     {
+      "turn": 14,
+      "quote": "On the right index finger there are two rough, skin-colored bumps, 5 millimeters and 3 millimeters, with tiny",
+      "verified": true,
+      "score": 1.0
+     }
+    ],
+    "support": "supported",
+    "flags": [],
+    "origin": "model",
+    "edited": false
+   },
+   {
+    "id": "o2",
+    "section": "objective",
+    "text": "On the left thumb there's a 6 millimeter one right next to the nail fold",
+    "evidence": [
+     {
+      "turn": 14,
+      "quote": "On the left thumb there's a 6 millimeter one right next to the nail fold.",
+      "verified": true,
+      "score": 1.0
+     }
+    ],
+    "support": "supported",
+    "flags": [],
+    "origin": "model",
+    "edited": false
+   },
+   {
+    "id": "o3",
+    "section": "objective",
+    "text": "And on the right knee, a 4 millimeter one",
+    "evidence": [
+     {
+      "turn": 14,
+      "quote": "And on the right knee, a 4 millimeter one.",
+      "verified": true,
+      "score": 1.0
+     }
+    ],
+    "support": "supported",
+    "flags": [],
+    "origin": "model",
+    "edited": false
+   },
+   {
+    "id": "o4",
+    "section": "objective",
+    "text": "They may get red, form a blister, or turn dark over the next few days, that's normal",
+    "evidence": [
+     {
+      "turn": 22,
+      "quote": "They may get red, form a blister, or turn dark over the next few days, that's normal.",
+      "verified": true,
+      "score": 1.0
+     }
+    ],
+    "support": "supported",
+    "flags": [],
+    "origin": "model",
+    "edited": false
+   },
+   {
+    "id": "p1",
+    "section": "plan",
+    "text": "That's pretty common, it can take months",
+    "evidence": [
+     {
+      "turn": 8,
+      "quote": "That's pretty common, it can take months.",
+      "verified": true,
+      "score": 1.0
+     }
+    ],
+    "support": "supported",
+    "flags": [],
+    "origin": "model",
+    "edited": false
+   },
+   {
+    "id": "p2",
+    "section": "plan",
+    "text": "Use a gentle soap and don't scrub hard",
+    "evidence": [
+     {
+      "turn": 18,
+      "quote": "Use a gentle soap and don't scrub hard.",
+      "verified": true,
+      "score": 1.0
+     }
+    ],
+    "support": "supported",
+    "flags": [],
+    "origin": "model",
+    "edited": false
+   },
+   {
+    "id": "p3",
+    "section": "plan",
+    "text": "Now for the warts, I'd like to freeze them today with liquid nitrogen",
+    "evidence": [
+     {
+      "turn": 18,
+      "quote": "Now for the warts, I'd like to freeze them today with liquid nitrogen.",
+      "verified": true,
+      "score": 1.0
+     }
+    ],
+    "support": "supported",
+    "flags": [],
+    "origin": "model",
+    "edited": false
+   },
+   {
+    "id": "p4",
+    "section": "plan",
+    "text": "Warts usually take 2 to 4 freezing sessions, so let's bring him back in 3 to 4 weeks for another round",
+    "evidence": [
+     {
+      "turn": 28,
+      "quote": "Warts usually take 2 to 4 freezing sessions, so let's bring him back in 3 to 4 weeks",
+      "verified": true,
+      "score": 1.0
+     }
+    ],
+    "support": "supported",
+    "flags": [],
+    "origin": "model",
+    "edited": false
+   }
+  ],
+  "medications": [
+   {
+    "name": "salicylic acid",
+    "dose": "17 percent",
+    "frequency": "every night",
+    "route": "",
+    "status": "active",
+    "evidence": [
+     {
+      "turn": 7,
+      "quote": "The drugstore salicylic acid, the 17 percent liquid, every night for about 6 weeks.",
+      "verified": true,
+      "score": 1.0
+     }
+    ],
+    "flags": []
+   },
+   {
+    "name": "acetaminophen",
+    "dose": "",
+    "frequency": "",
+    "route": "",
+    "status": "active",
+    "evidence": [
+     {
+      "turn": 22,
+      "quote": "Children's acetaminophen per the package directions if they're sore.",
+      "verified": true,
+      "score": 1.0
+     }
+    ],
+    "flags": []
+   }
+  ],
+  "allergies": [],
+  "after_visit_summary": "Thank you for coming in today. Here is what we talked about. That's pretty common, it can take months. Use a gentle soap and don't scrub hard. Now for the warts, I'd like to freeze them today with liquid nitrogen. Warts usually take 2 to 4 freezing sessions, so let's bring him back in 3 to 4 weeks for another round.",
+  "avs_flags": [],
+  "icd10": [
+   {
+    "system": "ICD-10-CM",
+    "code": "H54.0X55",
+    "description": "Blindness right eye category 5, blindness left eye category 5",
+    "rank": 1,
+    "rationale": "Matches the assessment: Blindness right eye category 5, blindness left eye category 5",
+    "evidence": [],
+    "valid": true,
+    "billable": true,
+    "flags": [
+     {
+      "kind": "code_unsupported",
+      "severity": "warning",
+      "message": "No verified quote supports this code.",
+      "acknowledged": false,
+      "detail": {}
+     }
+    ],
+    "accepted": null
+   },
+   {
+    "system": "ICD-10-CM",
+    "code": "Z59.812",
+    "description": "Housing instability, housed, homelessness in past 12 months",
+    "rank": 2,
+    "rationale": "Matches the assessment: Housing instability, housed, homelessness in past 12 months",
+    "evidence": [],
+    "valid": true,
+    "billable": true,
+    "flags": [
+     {
+      "kind": "code_unsupported",
+      "severity": "warning",
+      "message": "No verified quote supports this code.",
+      "acknowledged": false,
+      "detail": {}
+     }
+    ],
+    "accepted": null
+   },
+   {
+    "system": "ICD-10-CM",
+    "code": "Z3A.17",
+    "description": "17 weeks gestation of pregnancy",
+    "rank": 3,
+    "rationale": "Matches the assessment: 17 weeks gestation of pregnancy",
+    "evidence": [],
+    "valid": true,
+    "billable": true,
+    "flags": [
+     {
+      "kind": "code_unsupported",
+      "severity": "warning",
+      "message": "No verified quote supports this code.",
+      "acknowledged": false,
+      "detail": {}
+     }
+    ],
+    "accepted": null
+   }
+  ],
+  "em": {
+   "system": "CPT",
+   "code": "99204",
+   "description": "New patient office visit, moderate-complexity decision making",
+   "rank": 1,
+   "rationale": "Rule-based: prescription drug management",
+   "evidence": [],
+   "valid": true,
+   "billable": true,
+   "flags": [
+    {
+     "kind": "em_mismatch",
+     "severity": "warning",
+     "message": "The rule-based MDM estimate is low (99203): data: limited (tests or an independent historian); risk: over-the-counter drugs, minor procedure or counseling",
+     "acknowledged": false,
+     "detail": {
+      "estimate": "99203"
+     }
+    }
+   ],
+   "accepted": null
+  },
+  "procedures": [
+   {
+    "system": "CPT",
+    "code": "17110",
+    "description": "Destruction of benign lesions such as warts, up to 14",
+    "rank": 1,
+    "rationale": "Performed today",
+    "evidence": [
+     {
+      "turn": 18,
+      "quote": "A urea 10 percent cream once a day after the bath helps smooth it out, it's over the",
+      "verified": true,
+      "score": 1.0
+     }
+    ],
+    "valid": true,
+    "billable": true,
+    "flags": [],
+    "accepted": null
+   }
+  ],
+  "mdm": {
+   "problems": "straightforward",
+   "data": "low",
+   "risk": "low",
+   "level": "low",
+   "code": "99203",
+   "reasons": [
+    "data: limited (tests or an independent historian)",
+    "risk: over-the-counter drugs, minor procedure or counseling"
+   ]
+  },
+  "section_status": {
+   "subjective": "draft",
+   "objective": "draft",
+   "assessment": "draft",
+   "plan": "draft"
+  },
+  "model": "fake/fake-scribe",
+  "created_at": "2026-10-13T05:44:46.053086Z",
+  "signed_by": null,
+  "signed_at": null,
+  "timings": {
+   "phi_masking": 0.03,
+   "llm_note": 0.024,
+   "guards_note": 0.041,
+   "llm_codes": 0.006,
+   "guards_codes": 0.038,
+   "total": 0.139,
+   "wall": 0.163
+  },
+  "usage": {
+   "model_ms": 30,
+   "input_tokens": 2806,
+   "output_tokens": 908,
+   "calls": 2
+  },
+  "phi": {
+   "NAME": 4,
+   "DOB": 1,
+   "ORG": 1,
+   "PHONE": 1
+  }
+ },
+ "vault": {
+  "originals": {
+   "[NAME_1]": "Grace Oyelaran",
+   "[NAME_2]": "Javier",
+   "[PATIENT]": "Mateo Herrera",
+   "[DOB]": "April 21st, 2017",
+   "[NAME_3]": "Lucia",
+   "[ORG_1]": "Maple Grove Elementary",
+   "[PHONE_1]": "555-0191"
+  },
+  "surfaces": {
+   "[NAME_1]": [
+    "Grace Oyelaran",
+    "Oyelaran"
+   ],
+   "[NAME_2]": [
+    "Javier"
+   ],
+   "[PATIENT]": [
+    "Mateo",
+    "Mateo Herrera"
+   ],
+   "[DOB]": [
+    "April 21st, 2017"
+   ],
+   "[NAME_3]": [
+    "Lucia"
+   ],
+   "[ORG_1]": [
+    "Maple Grove Elementary"
+   ],
+   "[PHONE_1]": [
+    "555-0191"
+   ]
+  },
+  "types": {
+   "[NAME_1]": "NAME",
+   "[NAME_2]": "NAME",
+   "[PATIENT]": "NAME",
+   "[DOB]": "DOB",
+   "[NAME_3]": "NAME",
+   "[ORG_1]": "ORG",
+   "[PHONE_1]": "PHONE"
+  },
+  "counters": {
+   "NAME": 3,
+   "ORG": 1,
+   "PHONE": 1
+  }
+ },
+ "score": {
+  "case": "dm-04",
+  "specialty": "dermatology",
+  "facts": 25,
+  "found": 12,
+  "found_in_section": 7,
+  "negation_errors": [],
+  "trap_errors": [],
+  "missed": [
+   "f1 [subjective] Warts on right index finger, left thumb and right knee; finger lesions for about 5 months and increasing in number",
+   "f3 [subjective] Warts not painful",
+   "f6 [subjective] Otherwise healthy, no immune problems or frequent infections",
+   "f7 [subjective] No medications",
+   "f8 [subjective] No known allergies",
+   "f9 [subjective] Rough sandpaper-like bumps on the backs of the upper arms",
+   "f10 [subjective] History given by father",
+   "f14 [objective] No surrounding redness or signs of infection",
+   "f15 [objective] Tiny rough follicular skin-colored to pink papules on the backs of both upper arms",
+   "f17 [assessment] Keratosis pilaris, benign",
+   "f21 [plan] Avoid picking and nail biting to prevent spread",
+   "f23 [plan] Urea 10% cream once daily after bathing and gentle soap for keratosis pilaris",
+   "f24 [plan] May attend school and sports"
+  ],
+  "statements": 11,
+  "statements_matching_gold": 8,
+  "unsupported": 0,
+  "partial": 0,
+  "flags": {},
+  "meds": 3,
+  "meds_found": 2,
+  "meds_dose_correct": 1,
+  "icd_primary": "B07.8",
+  "icd_suggested": [
+   "H54.0X55",
+   "Z59.812",
+   "Z3A.17"
+  ],
+  "icd_top1": false,
+  "icd_top3": false,
+  "icd_top3_lenient": false,
+  "icd_top3_category": false,
+  "icd_gold_recall": 0.0,
+  "icd_invalid": 0,
+  "em_gold": "99203",
+  "em_suggested": "99204",
+  "em_exact": false,
+  "em_within_one": true,
+  "em_rule_estimate": "99203",
+  "procedures_gold": 1,
+  "procedures_found": 1
+ },
+ "egress_residue": {}
+}

@@ -1,0 +1,709 @@
+{
+ "note": {
+  "visit_id": "dm-01",
+  "statements": [
+   {
+    "id": "s1",
+    "section": "subjective",
+    "text": "He says it's gotten bigger and darker since spring",
+    "evidence": [
+     {
+      "turn": 5,
+      "quote": "He says it's gotten bigger and darker since spring.",
+      "verified": true,
+      "score": 1.0
+     }
+    ],
+    "support": "supported",
+    "flags": [],
+    "origin": "model",
+    "edited": false
+   },
+   {
+    "id": "s2",
+    "section": "subjective",
+    "text": "Denies bled",
+    "evidence": [
+     {
+      "turn": 6,
+      "quote": "Okay. Has it bled at all, or crusted over?",
+      "verified": true,
+      "score": 1.0
+     },
+     {
+      "turn": 7,
+      "quote": "No. No bleeding.",
+      "verified": true,
+      "score": 1.0
+     }
+    ],
+    "support": "supported",
+    "flags": [],
+    "origin": "model",
+    "edited": false
+   },
+   {
+    "id": "s3",
+    "section": "subjective",
+    "text": "It itches a little now and then",
+    "evidence": [
+     {
+      "turn": 9,
+      "quote": "It itches a little now and then.",
+      "verified": true,
+      "score": 1.0
+     }
+    ],
+    "support": "supported",
+    "flags": [],
+    "origin": "model",
+    "edited": false
+   },
+   {
+    "id": "s4",
+    "section": "subjective",
+    "text": "Denies moles",
+    "evidence": [
+     {
+      "turn": 10,
+      "quote": "Have you ever had a skin cancer yourself, or any moles removed?",
+      "verified": true,
+      "score": 1.0
+     },
+     {
+      "turn": 11,
+      "quote": "No, I've never had skin cancer, and nothing's ever been removed.",
+      "verified": true,
+      "score": 1.0
+     }
+    ],
+    "support": "supported",
+    "flags": [],
+    "origin": "model",
+    "edited": false
+   },
+   {
+    "id": "o1",
+    "section": "objective",
+    "text": "So on your left upper back, just over the shoulder blade, there's a 7 millimeter dark brown mole",
+    "evidence": [
+     {
+      "turn": 20,
+      "quote": "So on your left upper back, just over the shoulder blade, there's a 7 millimeter dark brown mole.",
+      "verified": true,
+      "score": 1.0
+     }
+    ],
+    "support": "supported",
+    "flags": [],
+    "origin": "model",
+    "edited": false
+   },
+   {
+    "id": "o2",
+    "section": "objective",
+    "text": "Your back, chest and arms have scattered 2 to 3 millimeter round moles, evenly brown",
+    "evidence": [
+     {
+      "turn": 22,
+      "quote": "Your back, chest and arms have scattered 2 to 3 millimeter round moles, evenly brown.",
+      "verified": true,
+      "score": 1.0
+     }
+    ],
+    "support": "supported",
+    "flags": [],
+    "origin": "model",
+    "edited": false
+   },
+   {
+    "id": "o3",
+    "section": "objective",
+    "text": "Those all look like normal benign moles",
+    "evidence": [
+     {
+      "turn": 22,
+      "quote": "Those all look like normal benign moles.",
+      "verified": true,
+      "score": 1.0
+     }
+    ],
+    "support": "supported",
+    "flags": [],
+    "origin": "model",
+    "edited": false
+   },
+   {
+    "id": "o4",
+    "section": "objective",
+    "text": "Results take about 7 to 10 days",
+    "evidence": [
+     {
+      "turn": 30,
+      "quote": "Results take about 7 to 10 days.",
+      "verified": true,
+      "score": 1.0
+     }
+    ],
+    "support": "supported",
+    "flags": [],
+    "origin": "model",
+    "edited": false
+   },
+   {
+    "id": "o5",
+    "section": "objective",
+    "text": "If it does come back as a melanoma, we'd talk about a wider excision to get clear margins, but let's not get ahead of ourselves",
+    "evidence": [
+     {
+      "turn": 32,
+      "quote": "If it does come back as a melanoma, we'd talk about a wider excision to get clear margins,",
+      "verified": true,
+      "score": 1.0
+     }
+    ],
+    "support": "supported",
+    "flags": [],
+    "origin": "model",
+    "edited": false
+   },
+   {
+    "id": "o6",
+    "section": "objective",
+    "text": "Broad-spectrum sunscreen, SPF 30 or higher, every day on exposed skin, reapply every 2 hours when you're outside, and a wide-brimmed hat",
+    "evidence": [
+     {
+      "turn": 34,
+      "quote": "Broad-spectrum sunscreen, SPF 30 or higher, every day on exposed skin, reapply every 2 hours when you're outside,",
+      "verified": true,
+      "score": 1.0
+     }
+    ],
+    "support": "supported",
+    "flags": [],
+    "origin": "model",
+    "edited": false
+   },
+   {
+    "id": "o7",
+    "section": "objective",
+    "text": "Let's book a follow-up for the biopsy site and results on Tuesday, October 27th",
+    "evidence": [
+     {
+      "turn": 36,
+      "quote": "Let's book a follow-up for the biopsy site and results on Tuesday, October 27th.",
+      "verified": true,
+      "score": 1.0
+     }
+    ],
+    "support": "supported",
+    "flags": [],
+    "origin": "model",
+    "edited": false
+   },
+   {
+    "id": "a1",
+    "section": "assessment",
+    "text": "So here's what I think",
+    "evidence": [
+     {
+      "turn": 24,
+      "quote": "So here's what I think.",
+      "verified": true,
+      "score": 1.0
+     }
+    ],
+    "support": "supported",
+    "flags": [],
+    "origin": "model",
+    "edited": false
+   },
+   {
+    "id": "a2",
+    "section": "assessment",
+    "text": "It's a shave biopsy",
+    "evidence": [
+     {
+      "turn": 26,
+      "quote": "It's a shave biopsy.",
+      "verified": true,
+      "score": 1.0
+     }
+    ],
+    "support": "supported",
+    "flags": [],
+    "origin": "model",
+    "edited": false
+   },
+   {
+    "id": "p1",
+    "section": "plan",
+    "text": "Your referral mentions a mole on your back",
+    "evidence": [
+     {
+      "turn": 4,
+      "quote": "Your referral mentions a mole on your back.",
+      "verified": true,
+      "score": 1.0
+     }
+    ],
+    "support": "supported",
+    "flags": [],
+    "origin": "model",
+    "edited": false
+   },
+   {
+    "id": "p2",
+    "section": "plan",
+    "text": "Alright, let me take a look",
+    "evidence": [
+     {
+      "turn": 20,
+      "quote": "Alright, let me take a look.",
+      "verified": true,
+      "score": 1.0
+     }
+    ],
+    "support": "supported",
+    "flags": [],
+    "origin": "model",
+    "edited": false
+   },
+   {
+    "id": "p3",
+    "section": "plan",
+    "text": "Let me check the rest of you first",
+    "evidence": [
+     {
+      "turn": 22,
+      "quote": "Let me check the rest of you first.",
+      "verified": true,
+      "score": 1.0
+     }
+    ],
+    "support": "supported",
+    "flags": [],
+    "origin": "model",
+    "edited": false
+   },
+   {
+    "id": "p4",
+    "section": "plan",
+    "text": "So I'd like to do a biopsy today",
+    "evidence": [
+     {
+      "turn": 24,
+      "quote": "So I'd like to do a biopsy today.",
+      "verified": true,
+      "score": 1.0
+     }
+    ],
+    "support": "supported",
+    "flags": [],
+    "origin": "model",
+    "edited": false
+   },
+   {
+    "id": "p5",
+    "section": "plan",
+    "text": "I numb the area with a little lidocaine with epinephrine, then I take off the whole mole with a thin blade, fairly deep, and send it to the lab",
+    "evidence": [
+     {
+      "turn": 26,
+      "quote": "I numb the area with a little lidocaine with epinephrine, then I take off the whole mole with",
+      "verified": true,
+      "score": 1.0
+     }
+    ],
+    "support": "supported",
+    "flags": [],
+    "origin": "model",
+    "edited": false
+   },
+   {
+    "id": "p6",
+    "section": "plan",
+    "text": "If the site gets red, hot, swollen or drains pus, call us",
+    "evidence": [
+     {
+      "turn": 32,
+      "quote": "If the site gets red, hot, swollen or drains pus, call us.",
+      "verified": true,
+      "score": 1.0
+     }
+    ],
+    "support": "supported",
+    "flags": [],
+    "origin": "model",
+    "edited": false
+   },
+   {
+    "id": "p7",
+    "section": "plan",
+    "text": "Check your own moles once a month",
+    "evidence": [
+     {
+      "turn": 34,
+      "quote": "Check your own moles once a month.",
+      "verified": true,
+      "score": 1.0
+     }
+    ],
+    "support": "supported",
+    "flags": [],
+    "origin": "model",
+    "edited": false
+   },
+   {
+    "id": "p8",
+    "section": "plan",
+    "text": "And since you've had blistering sunburns and quite a few moles, I'd like to see you for a full skin check every year",
+    "evidence": [
+     {
+      "turn": 34,
+      "quote": "And since you've had blistering sunburns and quite a few moles, I'd like to see you for a",
+      "verified": true,
+      "score": 1.0
+     }
+    ],
+    "support": "supported",
+    "flags": [],
+    "origin": "model",
+    "edited": false
+   },
+   {
+    "id": "p9",
+    "section": "plan",
+    "text": "Take care, and good luck getting out of that garage",
+    "evidence": [
+     {
+      "turn": 38,
+      "quote": "Take care, and good luck getting out of that garage.",
+      "verified": true,
+      "score": 1.0
+     }
+    ],
+    "support": "supported",
+    "flags": [],
+    "origin": "model",
+    "edited": false
+   }
+  ],
+  "medications": [
+   {
+    "name": "levothyroxine",
+    "dose": "75 micrograms",
+    "frequency": "every morning",
+    "route": "",
+    "status": "active",
+    "evidence": [
+     {
+      "turn": 17,
+      "quote": "Just levothyroxine, 75 micrograms every morning, for my thyroid.",
+      "verified": true,
+      "score": 1.0
+     }
+    ],
+    "flags": []
+   },
+   {
+    "name": "epinephrine",
+    "dose": "",
+    "frequency": "",
+    "route": "",
+    "status": "active",
+    "evidence": [
+     {
+      "turn": 26,
+      "quote": "I numb the area with a little lidocaine with epinephrine, then I take off the whole mole with",
+      "verified": true,
+      "score": 1.0
+     }
+    ],
+    "flags": []
+   }
+  ],
+  "allergies": [],
+  "after_visit_summary": "Thank you for coming in today. Here is what we talked about. Your referral mentions a mole on your back. Alright, let me take a look. Let me check the rest of you first. So I'd like to do a biopsy today. I numb the area with a little lidocaine with epinephrine, then I take off the whole mole with a thin blade, fairly deep, and send it to the lab. If the site gets red, hot, swollen or drains pus, call us.",
+  "avs_flags": [],
+  "icd10": [
+   {
+    "system": "ICD-10-CM",
+    "code": "I47.11",
+    "description": "Inappropriate sinus tachycardia, so stated",
+    "rank": 1,
+    "rationale": "Matches the assessment: Inappropriate sinus tachycardia, so stated",
+    "evidence": [],
+    "valid": true,
+    "billable": true,
+    "flags": [
+     {
+      "kind": "code_unsupported",
+      "severity": "warning",
+      "message": "No verified quote supports this code.",
+      "acknowledged": false,
+      "detail": {}
+     },
+     {
+      "kind": "code_unsupported",
+      "severity": "warning",
+      "message": "The code's title shares no terms with the assessment; check it matches a diagnosis.",
+      "acknowledged": false,
+      "detail": {}
+     }
+    ],
+    "accepted": null
+   },
+   {
+    "system": "ICD-10-CM",
+    "code": "D46.0",
+    "description": "Refractory anemia without ring sideroblasts, so stated",
+    "rank": 2,
+    "rationale": "Matches the assessment: Refractory anemia without ring sideroblasts, so stated",
+    "evidence": [],
+    "valid": true,
+    "billable": true,
+    "flags": [
+     {
+      "kind": "code_unsupported",
+      "severity": "warning",
+      "message": "No verified quote supports this code.",
+      "acknowledged": false,
+      "detail": {}
+     },
+     {
+      "kind": "code_unsupported",
+      "severity": "warning",
+      "message": "The code's title shares no terms with the assessment; check it matches a diagnosis.",
+      "acknowledged": false,
+      "detail": {}
+     }
+    ],
+    "accepted": null
+   },
+   {
+    "system": "ICD-10-CM",
+    "code": "M26.211",
+    "description": "Malocclusion, Angle's class I",
+    "rank": 3,
+    "rationale": "Matches the assessment: Malocclusion, Angle's class I",
+    "evidence": [],
+    "valid": true,
+    "billable": true,
+    "flags": [
+     {
+      "kind": "code_unsupported",
+      "severity": "warning",
+      "message": "No verified quote supports this code.",
+      "acknowledged": false,
+      "detail": {}
+     },
+     {
+      "kind": "code_unsupported",
+      "severity": "warning",
+      "message": "The code's title shares no terms with the assessment; check it matches a diagnosis.",
+      "acknowledged": false,
+      "detail": {}
+     }
+    ],
+    "accepted": null
+   }
+  ],
+  "em": {
+   "system": "CPT",
+   "code": "99203",
+   "description": "New patient office visit, low-complexity decision making",
+   "rank": 1,
+   "rationale": "Rule-based: low complexity",
+   "evidence": [],
+   "valid": true,
+   "billable": true,
+   "flags": [],
+   "accepted": null
+  },
+  "procedures": [
+   {
+    "system": "CPT",
+    "code": "11102",
+    "description": "Tangential (shave) biopsy of skin, single lesion",
+    "rank": 1,
+    "rationale": "Performed today",
+    "evidence": [
+     {
+      "turn": 26,
+      "quote": "It's a shave biopsy. I numb the area with a little lidocaine with epinephrine, then I take off",
+      "verified": true,
+      "score": 1.0
+     }
+    ],
+    "valid": true,
+    "billable": true,
+    "flags": [],
+    "accepted": null
+   }
+  ],
+  "mdm": {
+   "problems": "moderate",
+   "data": "low",
+   "risk": "low",
+   "level": "low",
+   "code": "99203",
+   "reasons": [
+    "problems: undiagnosed new problem with uncertain prognosis",
+    "data: limited (tests or an independent historian)",
+    "risk: over-the-counter drugs, minor procedure or counseling"
+   ]
+  },
+  "section_status": {
+   "subjective": "draft",
+   "objective": "draft",
+   "assessment": "draft",
+   "plan": "draft"
+  },
+  "model": "fake/fake-scribe",
+  "created_at": "2026-10-13T05:44:45.446300Z",
+  "signed_by": null,
+  "signed_at": null,
+  "timings": {
+   "phi_masking": 0.025,
+   "llm_note": 0.012,
+   "guards_note": 0.05,
+   "llm_codes": 0.008,
+   "guards_codes": 0.046,
+   "total": 0.141,
+   "wall": 0.158
+  },
+  "usage": {
+   "model_ms": 20,
+   "input_tokens": 3591,
+   "output_tokens": 1355,
+   "calls": 2
+  },
+  "phi": {
+   "NAME": 3,
+   "DOB": 1,
+   "DATE": 2,
+   "ORG": 1,
+   "PHONE": 1,
+   "EMAIL": 1
+  }
+ },
+ "vault": {
+  "originals": {
+   "[NAME_1]": "Kwame Asante",
+   "[PATIENT]": "Aisling Brennan",
+   "[DOB]": "June 9th, 1988",
+   "[NAME_2]": "Declan",
+   "[DATE_1]": "July",
+   "[ORG_1]": "Crestview Aquatics",
+   "[PHONE_1]": "555-0163",
+   "[EMAIL_1]": "aisling dot brennan 88 at fastmail dot com",
+   "[DATE_2]": "Tuesday, October 27th"
+  },
+  "surfaces": {
+   "[NAME_1]": [
+    "Kwame Asante"
+   ],
+   "[PATIENT]": [
+    "Aisling",
+    "Aisling Brennan"
+   ],
+   "[DOB]": [
+    "June 9th, 1988"
+   ],
+   "[NAME_2]": [
+    "Declan"
+   ],
+   "[DATE_1]": [
+    "July"
+   ],
+   "[ORG_1]": [
+    "Crestview Aquatics"
+   ],
+   "[PHONE_1]": [
+    "555-0163"
+   ],
+   "[EMAIL_1]": [
+    "aisling dot brennan 88 at fastmail dot com"
+   ],
+   "[DATE_2]": [
+    "Tuesday, October 27th"
+   ]
+  },
+  "types": {
+   "[NAME_1]": "NAME",
+   "[PATIENT]": "NAME",
+   "[DOB]": "DOB",
+   "[NAME_2]": "NAME",
+   "[DATE_1]": "DATE",
+   "[ORG_1]": "ORG",
+   "[PHONE_1]": "PHONE",
+   "[EMAIL_1]": "EMAIL",
+   "[DATE_2]": "DATE"
+  },
+  "counters": {
+   "NAME": 2,
+   "DATE": 2,
+   "ORG": 1,
+   "PHONE": 1,
+   "EMAIL": 1
+  }
+ },
+ "score": {
+  "case": "dm-01",
+  "specialty": "dermatology",
+  "facts": 30,
+  "found": 14,
+  "found_in_section": 8,
+  "negation_errors": [],
+  "trap_errors": [
+   "small_talk: Small talk about the parking garage"
+  ],
+  "missed": [
+   "f1 [subjective] Mole on left upper back near shoulder blade getting bigger and darker since spring",
+   "f2 [subjective] Change first noticed by husband in July",
+   "f5 [subjective] Lesion is not painful",
+   "f6 [subjective] No personal history of skin cancer or prior mole removal",
+   "f7 [subjective] Father had basal cell carcinoma of the nose",
+   "f8 [subjective] Significant sun exposure as a lifeguard through college",
+   "f10 [subjective] No tanning bed use",
+   "f12 [subjective] No known drug allergies",
+   "f13 [subjective] Denies axillary lumps",
+   "f15 [objective] Lesion asymmetric with irregular notched border",
+   "f16 [objective] Black area on one side of the lesion",
+   "f17 [objective] Dermoscopy shows irregular network and peripheral dots",
+   "f19 [objective] No palpable left axillary or cervical lymphadenopathy",
+   "f20 [assessment] Changing atypical pigmented lesion of left upper back, melanoma not excluded",
+   "f24 [plan] Specimen sent to pathology",
+   "f25 [plan] Wound care with daily gentle washing, petroleum jelly and a fresh bandage"
+  ],
+  "statements": 22,
+  "statements_matching_gold": 13,
+  "unsupported": 0,
+  "partial": 0,
+  "flags": {},
+  "meds": 3,
+  "meds_found": 2,
+  "meds_dose_correct": 1,
+  "icd_primary": "D49.2",
+  "icd_suggested": [
+   "I47.11",
+   "D46.0",
+   "M26.211"
+  ],
+  "icd_top1": false,
+  "icd_top3": false,
+  "icd_top3_lenient": false,
+  "icd_top3_category": false,
+  "icd_gold_recall": 0.0,
+  "icd_invalid": 0,
+  "em_gold": "99203",
+  "em_suggested": "99203",
+  "em_exact": true,
+  "em_within_one": true,
+  "em_rule_estimate": "99203",
+  "procedures_gold": 1,
+  "procedures_found": 1
+ },
+ "egress_residue": {}
+}

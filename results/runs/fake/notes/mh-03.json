@@ -1,0 +1,579 @@
+{
+ "note": {
+  "visit_id": "mh-03",
+  "statements": [
+   {
+    "id": "s1",
+    "section": "subjective",
+    "text": "They worry about money all the time, the mortgage, their son starting college next year",
+    "evidence": [
+     {
+      "turn": 7,
+      "quote": "I worry about money all the time, the mortgage, my son starting college next year.",
+      "verified": true,
+      "score": 1.0
+     }
+    ],
+    "support": "supported",
+    "flags": [],
+    "origin": "model",
+    "edited": false
+   },
+   {
+    "id": "s2",
+    "section": "subjective",
+    "text": "Denies panic attacks",
+    "evidence": [
+     {
+      "turn": 14,
+      "quote": "Any panic attacks, or feeling like your heart is racing and you can't breathe?",
+      "verified": true,
+      "score": 1.0
+     },
+     {
+      "turn": 15,
+      "quote": "No, not that.",
+      "verified": true,
+      "score": 1.0
+     }
+    ],
+    "support": "supported",
+    "flags": [],
+    "origin": "model",
+    "edited": false
+   },
+   {
+    "id": "s3",
+    "section": "subjective",
+    "text": "Denies alcohol",
+    "evidence": [
+     {
+      "turn": 16,
+      "quote": "What about alcohol, smoking, any other substances?",
+      "verified": true,
+      "score": 1.0
+     },
+     {
+      "turn": 17,
+      "quote": "I don't drink.",
+      "verified": true,
+      "score": 1.0
+     }
+    ],
+    "support": "supported",
+    "flags": [],
+    "origin": "model",
+    "edited": false
+   },
+   {
+    "id": "s4",
+    "section": "subjective",
+    "text": "Denies smoking",
+    "evidence": [
+     {
+      "turn": 16,
+      "quote": "What about alcohol, smoking, any other substances?",
+      "verified": true,
+      "score": 1.0
+     },
+     {
+      "turn": 17,
+      "quote": "I don't drink.",
+      "verified": true,
+      "score": 1.0
+     }
+    ],
+    "support": "supported",
+    "flags": [
+     {
+      "kind": "negation",
+      "severity": "error",
+      "message": "The transcript says the opposite: 'smoking' (turns 16, 17).",
+      "acknowledged": false,
+      "detail": {
+       "concept": "tobacco_use",
+       "turns": [
+        16,
+        17
+       ]
+      }
+     }
+    ],
+    "origin": "model",
+    "edited": false
+   },
+   {
+    "id": "s5",
+    "section": "subjective",
+    "text": "They smoked for years but they quit ten years ago, when their daughter was born",
+    "evidence": [
+     {
+      "turn": 17,
+      "quote": "I smoked for years but I quit ten years ago, when my daughter was born.",
+      "verified": true,
+      "score": 1.0
+     }
+    ],
+    "support": "supported",
+    "flags": [],
+    "origin": "model",
+    "edited": false
+   },
+   {
+    "id": "s6",
+    "section": "subjective",
+    "text": "Denies hurting yourself",
+    "evidence": [
+     {
+      "turn": 18,
+      "quote": "Good for you on the quitting. I'm going to ask you something I ask everyone. Have you had",
+      "verified": true,
+      "score": 1.0
+     },
+     {
+      "turn": 19,
+      "quote": "No. No, I'd never do that to my family.",
+      "verified": true,
+      "score": 1.0
+     }
+    ],
+    "support": "supported",
+    "flags": [],
+    "origin": "model",
+    "edited": false
+   },
+   {
+    "id": "o1",
+    "section": "objective",
+    "text": "The two questionnaires you filled out, your PHQ-9 for depression is 11 and your GAD-7 for anxiety is 10, so both in the moderate range",
+    "evidence": [
+     {
+      "turn": 22,
+      "quote": "The two questionnaires you filled out, your PHQ-9 for depression is 11 and your GAD-7 for anxiety is",
+      "verified": true,
+      "score": 1.0
+     }
+    ],
+    "support": "supported",
+    "flags": [],
+    "origin": "model",
+    "edited": false
+   },
+   {
+    "id": "o2",
+    "section": "objective",
+    "text": "And what I'm seeing today, you're casually dressed, good eye contact, your speech is normal, your mood sounds down and a bit anxious, and your thinking is clear and logical",
+    "evidence": [
+     {
+      "turn": 22,
+      "quote": "And what I'm seeing today, you're casually dressed, good eye contact, your speech is normal, your mood sounds",
+      "verified": true,
+      "score": 1.0
+     }
+    ],
+    "support": "supported",
+    "flags": [],
+    "origin": "model",
+    "edited": false
+   },
+   {
+    "id": "a1",
+    "section": "assessment",
+    "text": "So here's my impression",
+    "evidence": [
+     {
+      "turn": 26,
+      "quote": "So here's my impression.",
+      "verified": true,
+      "score": 1.0
+     }
+    ],
+    "support": "supported",
+    "flags": [],
+    "origin": "model",
+    "edited": false
+   },
+   {
+    "id": "p1",
+    "section": "plan",
+    "text": "I'm going to ask you something I ask everyone",
+    "evidence": [
+     {
+      "turn": 18,
+      "quote": "I'm going to ask you something I ask everyone.",
+      "verified": true,
+      "score": 1.0
+     }
+    ],
+    "support": "supported",
+    "flags": [],
+    "origin": "model",
+    "edited": false
+   },
+   {
+    "id": "p2",
+    "section": "plan",
+    "text": "I'd like to meet weekly, about an hour each time",
+    "evidence": [
+     {
+      "turn": 28,
+      "quote": "I'd like to meet weekly, about an hour each time.",
+      "verified": true,
+      "score": 1.0
+     }
+    ],
+    "support": "supported",
+    "flags": [],
+    "origin": "model",
+    "edited": false
+   },
+   {
+    "id": "p3",
+    "section": "plan",
+    "text": "We'll use a CBT approach, and work on behavioral activation, which means rebuilding some structure",
+    "evidence": [
+     {
+      "turn": 28,
+      "quote": "We'll use a CBT approach, and work on behavioral activation, which means rebuilding some structure.",
+      "verified": true,
+      "score": 1.0
+     }
+    ],
+    "support": "supported",
+    "flags": [],
+    "origin": "model",
+    "edited": false
+   },
+   {
+    "id": "p4",
+    "section": "plan",
+    "text": "To start, I want you up by 7:30 on weekdays, a set two-hour block for job searching each morning, and one call to a basketball friend this week",
+    "evidence": [
+     {
+      "turn": 28,
+      "quote": "To start, I want you up by 7:30 on weekdays, a set two-hour block for job searching each",
+      "verified": true,
+      "score": 1.0
+     }
+    ],
+    "support": "supported",
+    "flags": [],
+    "origin": "model",
+    "edited": false
+   },
+   {
+    "id": "p5",
+    "section": "plan",
+    "text": "It's worth calling HR to use those",
+    "evidence": [
+     {
+      "turn": 30,
+      "quote": "It's worth calling HR to use those.",
+      "verified": true,
+      "score": 1.0
+     }
+    ],
+    "support": "supported",
+    "flags": [],
+    "origin": "model",
+    "edited": false
+   },
+   {
+    "id": "p6",
+    "section": "plan",
+    "text": "Before you leave, we'll fill out a short safety plan together",
+    "evidence": [
+     {
+      "turn": 32,
+      "quote": "Before you leave, we'll fill out a short safety plan together.",
+      "verified": true,
+      "score": 1.0
+     }
+    ],
+    "support": "supported",
+    "flags": [],
+    "origin": "model",
+    "edited": false
+   },
+   {
+    "id": "p7",
+    "section": "plan",
+    "text": "If you ever start having thoughts of hurting yourself, you can call or text 988, any time, day or night",
+    "evidence": [
+     {
+      "turn": 32,
+      "quote": "If you ever start having thoughts of hurting yourself, you can call or text 988, any time, day",
+      "verified": true,
+      "score": 1.0
+     }
+    ],
+    "support": "supported",
+    "flags": [],
+    "origin": "model",
+    "edited": false
+   }
+  ],
+  "medications": [],
+  "allergies": [],
+  "after_visit_summary": "Thank you for coming in today. Here is what we talked about. I'm going to ask you something I ask everyone. I'd like to meet weekly, about an hour each time. we will use a CBT approach, and work on behavioral activation, which means rebuilding some structure. To start, I want you up by 7:30 on weekdays, a set two-hour block for job searching each morning, and one call to a basketball friend this week. It's worth calling HR to use those. Before you leave, we will fill out a short safety plan together.",
+  "avs_flags": [],
+  "icd10": [
+   {
+    "system": "ICD-10-CM",
+    "code": "I47.11",
+    "description": "Inappropriate sinus tachycardia, so stated",
+    "rank": 1,
+    "rationale": "Matches the assessment: Inappropriate sinus tachycardia, so stated",
+    "evidence": [],
+    "valid": true,
+    "billable": true,
+    "flags": [
+     {
+      "kind": "code_unsupported",
+      "severity": "warning",
+      "message": "No verified quote supports this code.",
+      "acknowledged": false,
+      "detail": {}
+     },
+     {
+      "kind": "code_unsupported",
+      "severity": "warning",
+      "message": "The code's title shares no terms with the assessment; check it matches a diagnosis.",
+      "acknowledged": false,
+      "detail": {}
+     }
+    ],
+    "accepted": null
+   },
+   {
+    "system": "ICD-10-CM",
+    "code": "D46.0",
+    "description": "Refractory anemia without ring sideroblasts, so stated",
+    "rank": 2,
+    "rationale": "Matches the assessment: Refractory anemia without ring sideroblasts, so stated",
+    "evidence": [],
+    "valid": true,
+    "billable": true,
+    "flags": [
+     {
+      "kind": "code_unsupported",
+      "severity": "warning",
+      "message": "No verified quote supports this code.",
+      "acknowledged": false,
+      "detail": {}
+     },
+     {
+      "kind": "code_unsupported",
+      "severity": "warning",
+      "message": "The code's title shares no terms with the assessment; check it matches a diagnosis.",
+      "acknowledged": false,
+      "detail": {}
+     }
+    ],
+    "accepted": null
+   },
+   {
+    "system": "ICD-10-CM",
+    "code": "M20.099",
+    "description": "Other deformity of finger(s), unspecified finger(s)",
+    "rank": 3,
+    "rationale": "Matches the assessment: Other deformity of finger(s), unspecified finger(s)",
+    "evidence": [],
+    "valid": true,
+    "billable": true,
+    "flags": [
+     {
+      "kind": "code_unsupported",
+      "severity": "warning",
+      "message": "No verified quote supports this code.",
+      "acknowledged": false,
+      "detail": {}
+     },
+     {
+      "kind": "code_unsupported",
+      "severity": "warning",
+      "message": "The code's title shares no terms with the assessment; check it matches a diagnosis.",
+      "acknowledged": false,
+      "detail": {}
+     }
+    ],
+    "accepted": null
+   }
+  ],
+  "em": {
+   "system": "CPT",
+   "code": "99204",
+   "description": "New patient office visit, moderate-complexity decision making",
+   "rank": 1,
+   "rationale": "Rule-based: prescription drug management",
+   "evidence": [],
+   "valid": true,
+   "billable": true,
+   "flags": [
+    {
+     "kind": "em_mismatch",
+     "severity": "warning",
+     "message": "The rule-based MDM estimate is straightforward (99202): problems: one minor problem; risk: over-the-counter drugs, minor procedure or counseling",
+     "acknowledged": false,
+     "detail": {
+      "estimate": "99202"
+     }
+    }
+   ],
+   "accepted": null
+  },
+  "procedures": [],
+  "mdm": {
+   "problems": "straightforward",
+   "data": "straightforward",
+   "risk": "low",
+   "level": "straightforward",
+   "code": "99202",
+   "reasons": [
+    "problems: one minor problem",
+    "risk: over-the-counter drugs, minor procedure or counseling"
+   ]
+  },
+  "section_status": {
+   "subjective": "draft",
+   "objective": "draft",
+   "assessment": "draft",
+   "plan": "draft"
+  },
+  "model": "fake/fake-scribe",
+  "created_at": "2026-10-13T05:44:48.598853Z",
+  "signed_by": null,
+  "signed_at": null,
+  "timings": {
+   "phi_masking": 0.027,
+   "llm_note": 0.018,
+   "guards_note": 0.062,
+   "llm_codes": 0.007,
+   "guards_codes": 0.042,
+   "total": 0.156,
+   "wall": 0.173
+  },
+  "usage": {
+   "model_ms": 25,
+   "input_tokens": 3139,
+   "output_tokens": 1101,
+   "calls": 2
+  },
+  "phi": {
+   "NAME": 4,
+   "DOB": 1,
+   "PHONE": 1,
+   "ORG": 1,
+   "DATE": 1
+  }
+ },
+ "vault": {
+  "originals": {
+   "[NAME_1]": "Maeve Gallagher",
+   "[PATIENT]": "Rashid Al-Amin",
+   "[DOB]": "February 17th, 1974",
+   "[PHONE_1]": "216-555-0139",
+   "[NAME_2]": "Samira",
+   "[ORG_1]": "Tri-County Logistics",
+   "[NAME_3]": "Tri-County",
+   "[DATE_1]": "Thursday, October 1st"
+  },
+  "surfaces": {
+   "[NAME_1]": [
+    "Maeve",
+    "Maeve Gallagher"
+   ],
+   "[PATIENT]": [
+    "Rashid",
+    "Rashid Al-Amin"
+   ],
+   "[DOB]": [
+    "February 17th, 1974"
+   ],
+   "[PHONE_1]": [
+    "216-555-0139"
+   ],
+   "[NAME_2]": [
+    "Samira"
+   ],
+   "[ORG_1]": [
+    "Tri-County Logistics"
+   ],
+   "[NAME_3]": [
+    "Tri-County"
+   ],
+   "[DATE_1]": [
+    "Thursday, October 1st"
+   ]
+  },
+  "types": {
+   "[NAME_1]": "NAME",
+   "[PATIENT]": "NAME",
+   "[DOB]": "DOB",
+   "[PHONE_1]": "PHONE",
+   "[NAME_2]": "NAME",
+   "[ORG_1]": "ORG",
+   "[NAME_3]": "NAME",
+   "[DATE_1]": "DATE"
+  },
+  "counters": {
+   "NAME": 3,
+   "PHONE": 1,
+   "ORG": 1,
+   "DATE": 1
+  }
+ },
+ "score": {
+  "case": "mh-03",
+  "specialty": "mental_health",
+  "facts": 24,
+  "found": 12,
+  "found_in_section": 10,
+  "negation_errors": [],
+  "trap_errors": [],
+  "missed": [
+   "f1 [subjective] Laid off 6 weeks ago after 19 years as warehouse operations manager",
+   "f3 [subjective] Irritability with his children",
+   "f5 [subjective] Oversleeping until 10 am and reduced daily activity",
+   "f7 [subjective] Increased appetite, eating more junk food",
+   "f8 [subjective] No prior psychiatric history or mental health treatment",
+   "f12 [subjective] Denies suicidal ideation or thoughts of self-harm",
+   "f13 [subjective] Denies homicidal ideation; angry but no thoughts of harming others",
+   "f14 [subjective] Coping supports - walking the dog, supportive wife",
+   "f18 [assessment] Adjustment disorder with mixed anxiety and depressed mood, related to job loss",
+   "f19 [plan] Weekly individual psychotherapy, about 1 hour, CBT approach",
+   "f22 [plan] Wife welcome to join a future session",
+   "f24 [plan] Next session Thursday, October 1st at 4 pm"
+  ],
+  "statements": 16,
+  "statements_matching_gold": 11,
+  "unsupported": 0,
+  "partial": 0,
+  "flags": {
+   "negation": 1
+  },
+  "meds": 0,
+  "meds_found": 0,
+  "meds_dose_correct": 0,
+  "icd_primary": "F43.23",
+  "icd_suggested": [
+   "I47.11",
+   "D46.0",
+   "M20.099"
+  ],
+  "icd_top1": false,
+  "icd_top3": false,
+  "icd_top3_lenient": false,
+  "icd_top3_category": false,
+  "icd_gold_recall": 0.0,
+  "icd_invalid": 0,
+  "em_gold": "90791",
+  "em_suggested": "99204",
+  "em_exact": false,
+  "em_within_one": false,
+  "em_rule_estimate": "99202",
+  "procedures_gold": 1,
+  "procedures_found": 0
+ },
+ "egress_residue": {}
+}

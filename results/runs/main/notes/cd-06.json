@@ -813,17 +813,17 @@
    "plan": "draft"
   },
   "model": "openrouter/nvidia/nemotron-3-super-120b-a12b:free",
-  "created_at": "2026-10-13T05:44:12.166856Z",
+  "created_at": "2026-10-13T05:47:04.321259Z",
   "signed_by": null,
   "signed_at": null,
   "timings": {
-   "phi_masking": 0.04,
+   "phi_masking": 0.034,
    "llm_note": 17.4,
-   "guards_note": 0.091,
+   "guards_note": 0.08,
    "llm_codes": 7.95,
-   "guards_codes": 0.06,
-   "total": 25.541,
-   "wall": 0.235
+   "guards_codes": 0.052,
+   "total": 25.516,
+   "wall": 0.205
   },
   "usage": {
    "model_ms": 25350,

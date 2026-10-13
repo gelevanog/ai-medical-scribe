@@ -1,0 +1,104 @@
+{
+ "visits": 32,
+ "gold_facts": 878,
+ "fact_recall": 0.639,
+ "fact_recall_section_correct": 0.4784,
+ "statements": 669,
+ "gold_matched_precision": 0.7294,
+ "unsupported_rate": 0.0,
+ "partial_rate": 0.003,
+ "negation_errors": 6,
+ "negatives_in_gold": 173,
+ "trap_errors": 6,
+ "medication_recall": 0.9009,
+ "medication_dose_correct": 0.5766,
+ "icd_top1": 0.0938,
+ "icd_top3": 0.2188,
+ "icd_top3_lenient": 0.2188,
+ "icd_top3_category": 0.2812,
+ "icd_all_gold_recall": 0.2135,
+ "icd_invalid_suggestions": 0,
+ "em_exact": 0.5938,
+ "em_within_one": 0.9688,
+ "em_rule_estimate_exact": 0.5312,
+ "procedure_recall": 0.4783,
+ "flags": {
+  "dose_mismatch": 7,
+  "dose_range": 5,
+  "partial_support": 2,
+  "allergy_conflict": 3,
+  "negation": 1
+ },
+ "by_specialty": {
+  "cardiology": {
+   "visits": 6,
+   "fact_recall": 0.7381,
+   "icd_top3": 0.3333,
+   "unsupported_rate": 0.0
+  },
+  "dermatology": {
+   "visits": 6,
+   "fact_recall": 0.5185,
+   "icd_top3": 0.1667,
+   "unsupported_rate": 0.0
+  },
+  "mental_health": {
+   "visits": 6,
+   "fact_recall": 0.6144,
+   "icd_top3": 0.3333,
+   "unsupported_rate": 0.0
+  },
+  "pediatrics": {
+   "visits": 6,
+   "fact_recall": 0.5765,
+   "icd_top3": 0.0,
+   "unsupported_rate": 0.0
+  },
+  "primary_care": {
+   "visits": 8,
+   "fact_recall": 0.7156,
+   "icd_top3": 0.25,
+   "unsupported_rate": 0.0
+  }
+ },
+ "name": "fake",
+ "model": "fake/fake-scribe",
+ "requested_model": "fake/fake-scribe",
+ "transcripts": "gold",
+ "failures": [],
+ "payloads_checked": 64,
+ "phi_leaks": 0,
+ "phi_leak_details": [],
+ "latency_s": {
+  "phi_masking": {
+   "p50": 0.03,
+   "p95": 0.04
+  },
+  "llm_note": {
+   "p50": 0.02,
+   "p95": 0.02
+  },
+  "llm_codes": {
+   "p50": 0.01,
+   "p95": 0.01
+  },
+  "guards_note": {
+   "p50": 0.06,
+   "p95": 0.08
+  },
+  "guards_codes": {
+   "p50": 0.04,
+   "p95": 0.05
+  },
+  "total": {
+   "p50": 0.15,
+   "p95": 0.19
+  }
+ },
+ "tokens_per_visit": {
+  "input_mean": 3257,
+  "output_mean": 1386,
+  "calls_total": 64
+ },
+ "wall_minutes": 0.1
+}

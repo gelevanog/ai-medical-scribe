@@ -1,0 +1,582 @@
+{
+ "note": {
+  "visit_id": "pc-03",
+  "statements": [
+   {
+    "id": "s1",
+    "section": "subjective",
+    "text": "It started about 10 days ago, runny nose, sore throat, the usual",
+    "evidence": [
+     {
+      "turn": 3,
+      "quote": "It started about 10 days ago, runny nose, sore throat, the usual.",
+      "verified": true,
+      "score": 1.0
+     }
+    ],
+    "support": "supported",
+    "flags": [],
+    "origin": "model",
+    "edited": false
+   },
+   {
+    "id": "s2",
+    "section": "subjective",
+    "text": "Headache, just the pressure kind",
+    "evidence": [
+     {
+      "turn": 11,
+      "quote": "Headache, just the pressure kind.",
+      "verified": true,
+      "score": 1.0
+     }
+    ],
+    "support": "supported",
+    "flags": [],
+    "origin": "model",
+    "edited": false
+   },
+   {
+    "id": "s3",
+    "section": "subjective",
+    "text": "A little cough from the drip at night",
+    "evidence": [
+     {
+      "turn": 13,
+      "quote": "A little cough from the drip at night.",
+      "verified": true,
+      "score": 1.0
+     }
+    ],
+    "support": "supported",
+    "flags": [],
+    "origin": "model",
+    "edited": false
+   },
+   {
+    "id": "s4",
+    "section": "subjective",
+    "text": "They got hives as a kid, their mom says was covered",
+    "evidence": [
+     {
+      "turn": 17,
+      "quote": "I got hives as a kid, my mom says I was covered.",
+      "verified": true,
+      "score": 1.0
+     }
+    ],
+    "support": "supported",
+    "flags": [],
+    "origin": "model",
+    "edited": false
+   },
+   {
+    "id": "o1",
+    "section": "objective",
+    "text": "Temperature here is 99.8, blood pressure 122 over 78, pulse 84, and oxygen is 98 percent",
+    "evidence": [
+     {
+      "turn": 20,
+      "quote": "Temperature here is 99.8, blood pressure 122 over 78, pulse 84, and oxygen is 98 percent.",
+      "verified": true,
+      "score": 1.0
+     }
+    ],
+    "support": "supported",
+    "flags": [],
+    "origin": "model",
+    "edited": false
+   },
+   {
+    "id": "o2",
+    "section": "objective",
+    "text": "Your ear drums look normal",
+    "evidence": [
+     {
+      "turn": 21,
+      "quote": "Your ear drums look normal.",
+      "verified": true,
+      "score": 1.0
+     }
+    ],
+    "support": "supported",
+    "flags": [],
+    "origin": "model",
+    "edited": false
+   },
+   {
+    "id": "o3",
+    "section": "objective",
+    "text": "Throat is a little red, no pus on the tonsils",
+    "evidence": [
+     {
+      "turn": 23,
+      "quote": "Throat is a little red, no pus on the tonsils.",
+      "verified": true,
+      "score": 1.0
+     }
+    ],
+    "support": "supported",
+    "flags": [],
+    "origin": "model",
+    "edited": false
+   },
+   {
+    "id": "o4",
+    "section": "objective",
+    "text": "Lungs are clear",
+    "evidence": [
+     {
+      "turn": 23,
+      "quote": "Lungs are clear.",
+      "verified": true,
+      "score": 1.0
+     }
+    ],
+    "support": "supported",
+    "flags": [],
+    "origin": "model",
+    "edited": false
+   },
+   {
+    "id": "o5",
+    "section": "objective",
+    "text": "If you're not starting to feel better in 3 days, or if you get swelling around your eye, trouble seeing, a stiff neck, or a really bad headache, call us right away or go to the emergency room",
+    "evidence": [
+     {
+      "turn": 31,
+      "quote": "If you're not starting to feel better in 3 days, or if you get swelling around your eye,",
+      "verified": true,
+      "score": 1.0
+     }
+    ],
+    "support": "supported",
+    "flags": [],
+    "origin": "model",
+    "edited": false
+   },
+   {
+    "id": "a1",
+    "section": "assessment",
+    "text": "I think so",
+    "evidence": [
+     {
+      "turn": 25,
+      "quote": "I think so.",
+      "verified": true,
+      "score": 1.0
+     }
+    ],
+    "support": "supported",
+    "flags": [],
+    "origin": "model",
+    "edited": false
+   },
+   {
+    "id": "a2",
+    "section": "assessment",
+    "text": "Most of these are viral, but because you got better and then worse again after a week, with fever and thick drainage, this looks like a bacterial sinus infection in your cheek sinuses",
+    "evidence": [
+     {
+      "turn": 25,
+      "quote": "Most of these are viral, but because you got better and then worse again after a week, with",
+      "verified": true,
+      "score": 1.0
+     }
+    ],
+    "support": "supported",
+    "flags": [],
+    "origin": "model",
+    "edited": false
+   },
+   {
+    "id": "p1",
+    "section": "plan",
+    "text": "Okay, we'll talk about the Afrin",
+    "evidence": [
+     {
+      "turn": 16,
+      "quote": "Okay, we'll talk about the Afrin.",
+      "verified": true,
+      "score": 1.0
+     }
+    ],
+    "support": "supported",
+    "flags": [],
+    "origin": "model",
+    "edited": false
+   },
+   {
+    "id": "p2",
+    "section": "plan",
+    "text": "Okay, let me take a look",
+    "evidence": [
+     {
+      "turn": 20,
+      "quote": "Okay, let me take a look.",
+      "verified": true,
+      "score": 1.0
+     }
+    ],
+    "support": "supported",
+    "flags": [],
+    "origin": "model",
+    "edited": false
+   },
+   {
+    "id": "p3",
+    "section": "plan",
+    "text": "Since you're allergic to penicillin, I'm going to give you doxycycline, 100 milligrams twice a day for 7 days",
+    "evidence": [
+     {
+      "turn": 25,
+      "quote": "Since you're allergic to penicillin, I'm going to give you doxycycline, 100 milligrams twice a day for 7",
+      "verified": true,
+      "score": 1.0
+     }
+    ],
+    "support": "supported",
+    "flags": [],
+    "origin": "model",
+    "edited": false
+   },
+   {
+    "id": "p4",
+    "section": "plan",
+    "text": "Take it with a full glass of water and stay upright for a half hour after, and use sunscreen, it makes you sunburn easily",
+    "evidence": [
+     {
+      "turn": 27,
+      "quote": "Take it with a full glass of water and stay upright for a half hour after, and use",
+      "verified": true,
+      "score": 1.0
+     }
+    ],
+    "support": "supported",
+    "flags": [],
+    "origin": "model",
+    "edited": false
+   },
+   {
+    "id": "p5",
+    "section": "plan",
+    "text": "Please stop it",
+    "evidence": [
+     {
+      "turn": 27,
+      "quote": "Please stop it.",
+      "verified": true,
+      "score": 1.0
+     }
+    ],
+    "support": "supported",
+    "flags": [],
+    "origin": "model",
+    "edited": false
+   },
+   {
+    "id": "p6",
+    "section": "plan",
+    "text": "Instead, use a saline rinse twice a day, and start fluticasone nasal spray, 2 sprays in each nostril once a day",
+    "evidence": [
+     {
+      "turn": 29,
+      "quote": "Instead, use a saline rinse twice a day, and start fluticasone nasal spray, 2 sprays in each nostril",
+      "verified": true,
+      "score": 1.0
+     }
+    ],
+    "support": "supported",
+    "flags": [],
+    "origin": "model",
+    "edited": false
+   }
+  ],
+  "medications": [
+   {
+    "name": "ibuprofen",
+    "dose": "400 milligrams",
+    "frequency": "three times a day",
+    "route": "",
+    "status": "active",
+    "evidence": [
+     {
+      "turn": 29,
+      "quote": "You can keep the ibuprofen, 400 milligrams up to three times a day with food.",
+      "verified": true,
+      "score": 1.0
+     }
+    ],
+    "flags": []
+   },
+   {
+    "name": "oxymetazoline",
+    "dose": "",
+    "frequency": "",
+    "route": "",
+    "status": "active",
+    "evidence": [
+     {
+      "turn": 15,
+      "quote": "And the Afrin spray.",
+      "verified": true,
+      "score": 1.0
+     }
+    ],
+    "flags": []
+   },
+   {
+    "name": "doxycycline",
+    "dose": "100 milligrams",
+    "frequency": "twice a day",
+    "route": "",
+    "status": "active",
+    "evidence": [
+     {
+      "turn": 25,
+      "quote": "Since you're allergic to penicillin, I'm going to give you doxycycline, 100 milligrams twice a day for 7",
+      "verified": true,
+      "score": 1.0
+     }
+    ],
+    "flags": []
+   },
+   {
+    "name": "fluticasone",
+    "dose": "",
+    "frequency": "twice a day",
+    "route": "",
+    "status": "new",
+    "evidence": [
+     {
+      "turn": 29,
+      "quote": "Instead, use a saline rinse twice a day, and start fluticasone nasal spray, 2 sprays in each nostril",
+      "verified": true,
+      "score": 1.0
+     }
+    ],
+    "flags": []
+   }
+  ],
+  "allergies": [
+   {
+    "substance": "penicillin",
+    "reaction": "",
+    "evidence": [
+     {
+      "turn": 25,
+      "quote": "Since you're allergic to penicillin, I'm going to give you doxycycline, 100 milligrams twice a day for 7",
+      "verified": true,
+      "score": 1.0
+     }
+    ]
+   }
+  ],
+  "after_visit_summary": "Thank you for coming in today. Here is what we talked about. Okay, we will talk about the Afrin. Okay, let me take a look. Since you're allergic to penicillin, I'm going to give you doxycycline, 100 milligrams twice a day for 7 days. Take it with a full glass of water and stay upright for a half hour after, and use sunscreen, it makes you sunburn easily. Please stop it. Instead, use a saline rinse twice a day, and start fluticasone nasal spray, 2 sprays in each nostril once a day.",
+  "avs_flags": [],
+  "icd10": [
+   {
+    "system": "ICD-10-CM",
+    "code": "A99",
+    "description": "Unspecified viral hemorrhagic fever",
+    "rank": 1,
+    "rationale": "Matches the assessment: Unspecified viral hemorrhagic fever",
+    "evidence": [],
+    "valid": true,
+    "billable": true,
+    "flags": [
+     {
+      "kind": "code_unsupported",
+      "severity": "warning",
+      "message": "No verified quote supports this code.",
+      "acknowledged": false,
+      "detail": {}
+     }
+    ],
+    "accepted": null
+   },
+   {
+    "system": "ICD-10-CM",
+    "code": "A92.9",
+    "description": "Mosquito-borne viral fever, unspecified",
+    "rank": 2,
+    "rationale": "Matches the assessment: Mosquito-borne viral fever, unspecified",
+    "evidence": [],
+    "valid": true,
+    "billable": true,
+    "flags": [
+     {
+      "kind": "code_unsupported",
+      "severity": "warning",
+      "message": "No verified quote supports this code.",
+      "acknowledged": false,
+      "detail": {}
+     }
+    ],
+    "accepted": null
+   },
+   {
+    "system": "ICD-10-CM",
+    "code": "A94",
+    "description": "Unspecified arthropod-borne viral fever",
+    "rank": 3,
+    "rationale": "Matches the assessment: Unspecified arthropod-borne viral fever",
+    "evidence": [],
+    "valid": true,
+    "billable": true,
+    "flags": [
+     {
+      "kind": "code_unsupported",
+      "severity": "warning",
+      "message": "No verified quote supports this code.",
+      "acknowledged": false,
+      "detail": {}
+     }
+    ],
+    "accepted": null
+   }
+  ],
+  "em": {
+   "system": "CPT",
+   "code": "99214",
+   "description": "Established patient office visit, moderate-complexity decision making",
+   "rank": 1,
+   "rationale": "Rule-based: prescription drug management",
+   "evidence": [],
+   "valid": true,
+   "billable": true,
+   "flags": [],
+   "accepted": null
+  },
+  "procedures": [],
+  "mdm": {
+   "problems": "moderate",
+   "data": "straightforward",
+   "risk": "moderate",
+   "level": "moderate",
+   "code": "99214",
+   "reasons": [
+    "problems: acute illness with systemic symptoms",
+    "risk: prescription drug management"
+   ]
+  },
+  "section_status": {
+   "subjective": "draft",
+   "objective": "draft",
+   "assessment": "draft",
+   "plan": "draft"
+  },
+  "model": "fake/fake-scribe",
+  "created_at": "2026-10-13T05:44:43.384840Z",
+  "signed_by": null,
+  "signed_at": null,
+  "timings": {
+   "phi_masking": 0.024,
+   "llm_note": 0.014,
+   "guards_note": 0.057,
+   "llm_codes": 0.006,
+   "guards_codes": 0.039,
+   "total": 0.14,
+   "wall": 0.187
+  },
+  "usage": {
+   "model_ms": 20,
+   "input_tokens": 3127,
+   "output_tokens": 1278,
+   "calls": 2
+  },
+  "phi": {
+   "NAME": 2,
+   "DOB": 1,
+   "ORG": 1,
+   "PHONE": 1
+  }
+ },
+ "vault": {
+  "originals": {
+   "[PATIENT]": "Kenji Nakamura",
+   "[DOB]": "January 28th, 1992",
+   "[NAME_1]": "Hana",
+   "[ORG_1]": "Westbrook Middle School",
+   "[PHONE_1]": "555-0129"
+  },
+  "surfaces": {
+   "[PATIENT]": [
+    "Kenji",
+    "Kenji Nakamura"
+   ],
+   "[DOB]": [
+    "January 28th, 1992"
+   ],
+   "[NAME_1]": [
+    "Hana"
+   ],
+   "[ORG_1]": [
+    "Westbrook Middle School"
+   ],
+   "[PHONE_1]": [
+    "555-0129"
+   ]
+  },
+  "types": {
+   "[PATIENT]": "NAME",
+   "[DOB]": "DOB",
+   "[NAME_1]": "NAME",
+   "[ORG_1]": "ORG",
+   "[PHONE_1]": "PHONE"
+  },
+  "counters": {
+   "NAME": 1,
+   "ORG": 1,
+   "PHONE": 1
+  }
+ },
+ "score": {
+  "case": "pc-03",
+  "specialty": "primary_care",
+  "facts": 30,
+  "found": 21,
+  "found_in_section": 15,
+  "negation_errors": [],
+  "trap_errors": [],
+  "missed": [
+   "f3 [subjective] Upper tooth pain",
+   "f6 [subjective] Denies periorbital swelling or redness",
+   "f7 [subjective] Denies vision changes",
+   "f8 [subjective] Denies stiff neck",
+   "f10 [subjective] Denies shortness of breath",
+   "f15 [objective] Nasal mucosa swollen and erythematous with thick yellow-green drainage",
+   "f18 [objective] Small tender cervical lymph nodes",
+   "f21 [assessment] Rebound congestion risk from prolonged oxymetazoline use",
+   "f28 [plan] Work note provided"
+  ],
+  "statements": 17,
+  "statements_matching_gold": 13,
+  "unsupported": 0,
+  "partial": 0,
+  "flags": {},
+  "meds": 5,
+  "meds_found": 4,
+  "meds_dose_correct": 2,
+  "icd_primary": "J01.00",
+  "icd_suggested": [
+   "A99",
+   "A92.9",
+   "A94"
+  ],
+  "icd_top1": false,
+  "icd_top3": false,
+  "icd_top3_lenient": false,
+  "icd_top3_category": false,
+  "icd_gold_recall": 0.0,
+  "icd_invalid": 0,
+  "em_gold": "99213",
+  "em_suggested": "99214",
+  "em_exact": false,
+  "em_within_one": true,
+  "em_rule_estimate": "99214",
+  "procedures_gold": 0,
+  "procedures_found": 0
+ },
+ "egress_residue": {}
+}

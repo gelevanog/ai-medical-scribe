@@ -1,0 +1,658 @@
+{
+ "note": {
+  "visit_id": "dm-05",
+  "statements": [
+   {
+    "id": "s1",
+    "section": "subjective",
+    "text": "Their elbows and knees are bad again, there's a big patch on their lower back, and their scalp itches like crazy",
+    "evidence": [
+     {
+      "turn": 3,
+      "quote": "My elbows and knees are bad again, there's a big patch on my lower back, and my scalp",
+      "verified": true,
+      "score": 1.0
+     }
+    ],
+    "support": "supported",
+    "flags": [],
+    "origin": "model",
+    "edited": false
+   },
+   {
+    "id": "s2",
+    "section": "subjective",
+    "text": "It made them so nauseous and their hair got thin",
+    "evidence": [
+     {
+      "turn": 7,
+      "quote": "It made me so nauseous and my hair got thin.",
+      "verified": true,
+      "score": 1.0
+     }
+    ],
+    "support": "supported",
+    "flags": [],
+    "origin": "model",
+    "edited": false
+   },
+   {
+    "id": "s3",
+    "section": "subjective",
+    "text": "Denies joint pain",
+    "evidence": [
+     {
+      "turn": 8,
+      "quote": "Okay, that's helpful. Thank you for telling me. Let me ask about your joints. Any joint pain or",
+      "verified": true,
+      "score": 1.0
+     },
+     {
+      "turn": 9,
+      "quote": "No.",
+      "verified": true,
+      "score": 1.0
+     }
+    ],
+    "support": "supported",
+    "flags": [],
+    "origin": "model",
+    "edited": false
+   },
+   {
+    "id": "s4",
+    "section": "subjective",
+    "text": "Gets a rash all over",
+    "evidence": [
+     {
+      "turn": 15,
+      "quote": "Yes, I get a rash all over.",
+      "verified": true,
+      "score": 1.0
+     }
+    ],
+    "support": "supported",
+    "flags": [],
+    "origin": "model",
+    "edited": false
+   },
+   {
+    "id": "s5",
+    "section": "subjective",
+    "text": "Every 12 weeks?",
+    "evidence": [
+     {
+      "turn": 21,
+      "quote": "Every 12 weeks?",
+      "verified": true,
+      "score": 1.0
+     }
+    ],
+    "support": "supported",
+    "flags": [],
+    "origin": "model",
+    "edited": false
+   },
+   {
+    "id": "s6",
+    "section": "subjective",
+    "text": "He's tired of the flakes on the couch",
+    "evidence": [
+     {
+      "turn": 27,
+      "quote": "He's tired of the flakes on the couch.",
+      "verified": true,
+      "score": 1.0
+     }
+    ],
+    "support": "supported",
+    "flags": [],
+    "origin": "model",
+    "edited": false
+   },
+   {
+    "id": "o1",
+    "section": "objective",
+    "text": "On the lower back, there's a 10 x 7 cm plaque. on the scalp",
+    "evidence": [
+     {
+      "turn": 18,
+      "quote": "On the lower back, there's a 10 x 7 cm plaque. on the scalp.",
+      "verified": true,
+      "score": 1.0
+     }
+    ],
+    "support": "supported",
+    "flags": [],
+    "origin": "model",
+    "edited": false
+   },
+   {
+    "id": "o2",
+    "section": "objective",
+    "text": "Your finger joints aren't swollen or tender and no swollen fingers or toes",
+    "evidence": [
+     {
+      "turn": 18,
+      "quote": "Your finger joints aren't swollen or tender and no swollen fingers or toes.",
+      "verified": true,
+      "score": 1.0
+     }
+    ],
+    "support": "supported",
+    "flags": [],
+    "origin": "model",
+    "edited": false
+   },
+   {
+    "id": "o3",
+    "section": "objective",
+    "text": "Best number to reach you with lab results",
+    "evidence": [
+     {
+      "turn": 28,
+      "quote": "Best number to reach you with lab results.",
+      "verified": true,
+      "score": 1.0
+     }
+    ],
+    "support": "supported",
+    "flags": [],
+    "origin": "model",
+    "edited": false
+   },
+   {
+    "id": "a1",
+    "section": "assessment",
+    "text": "It is",
+    "evidence": [
+     {
+      "turn": 20,
+      "quote": "It is.",
+      "verified": true,
+      "score": 1.0
+     }
+    ],
+    "support": "supported",
+    "flags": [],
+    "origin": "model",
+    "edited": false
+   },
+   {
+    "id": "a2",
+    "section": "assessment",
+    "text": "So this is moderate to severe plaque psoriasis that isn't controlled with creams, and methotrexate didn't work out for you",
+    "evidence": [
+     {
+      "turn": 20,
+      "quote": "So this is moderate to severe plaque psoriasis that isn't controlled with creams, and methotrexate didn't work out",
+      "verified": true,
+      "score": 1.0
+     }
+    ],
+    "support": "supported",
+    "flags": [],
+    "origin": "model",
+    "edited": false
+   },
+   {
+    "id": "a3",
+    "section": "assessment",
+    "text": "I think you're a really good candidate for a biologic",
+    "evidence": [
+     {
+      "turn": 20,
+      "quote": "I think you're a really good candidate for a biologic.",
+      "verified": true,
+      "score": 1.0
+     }
+    ],
+    "support": "supported",
+    "flags": [],
+    "origin": "model",
+    "edited": false
+   },
+   {
+    "id": "a4",
+    "section": "assessment",
+    "text": "It's an injection under the skin, 150 milligrams, given at week zero, week four, just every 12 weeks",
+    "evidence": [
+     {
+      "turn": 20,
+      "quote": "It's an injection under the skin, 150 milligrams, given at week zero, week four, just every 12 weeks.",
+      "verified": true,
+      "score": 1.0
+     }
+    ],
+    "support": "supported",
+    "flags": [],
+    "origin": "model",
+    "edited": false
+   },
+   {
+    "id": "p1",
+    "section": "plan",
+    "text": "Before we start, I need a TB blood test, hepatitis B and C tests, a blood count, and a metabolic panel",
+    "evidence": [
+     {
+      "turn": 22,
+      "quote": "Before we start, I need a TB blood test, hepatitis B and C tests, a blood count, and",
+      "verified": true,
+      "score": 1.0
+     }
+    ],
+    "support": "supported",
+    "flags": [],
+    "origin": "model",
+    "edited": false
+   },
+   {
+    "id": "p2",
+    "section": "plan",
+    "text": "You should also avoid live vaccines once you're on it, so getting your flu shot this fall is a good idea",
+    "evidence": [
+     {
+      "turn": 22,
+      "quote": "You should also avoid live vaccines once you're on it, so getting your flu shot this fall is",
+      "verified": true,
+      "score": 1.0
+     }
+    ],
+    "support": "supported",
+    "flags": [],
+    "origin": "model",
+    "edited": false
+   },
+   {
+    "id": "p3",
+    "section": "plan",
+    "text": "We'll also need a prior authorization from your insurance",
+    "evidence": [
+     {
+      "turn": 24,
+      "quote": "We'll also need a prior authorization from your insurance.",
+      "verified": true,
+      "score": 1.0
+     }
+    ],
+    "support": "supported",
+    "flags": [],
+    "origin": "model",
+    "edited": false
+   },
+   {
+    "id": "p4",
+    "section": "plan",
+    "text": "Once the labs and insurance approval come back, we'll have you in for the first injection and teach you how to do it",
+    "evidence": [
+     {
+      "turn": 30,
+      "quote": "Once the labs and insurance approval come back, we'll have you in for the first injection and teach",
+      "verified": true,
+      "score": 1.0
+     }
+    ],
+    "support": "supported",
+    "flags": [],
+    "origin": "model",
+    "edited": false
+   },
+   {
+    "id": "p5",
+    "section": "plan",
+    "text": "Otherwise, follow up in six weeks",
+    "evidence": [
+     {
+      "turn": 30,
+      "quote": "Otherwise, follow up in six weeks.",
+      "verified": true,
+      "score": 1.0
+     }
+    ],
+    "support": "supported",
+    "flags": [],
+    "origin": "model",
+    "edited": false
+   }
+  ],
+  "medications": [
+   {
+    "name": "amlodipine",
+    "dose": "",
+    "frequency": "every morning",
+    "route": "",
+    "status": "active",
+    "evidence": [
+     {
+      "turn": 13,
+      "quote": "Amlodipine, five milligrams every morning for blood pressure.",
+      "verified": true,
+      "score": 1.0
+     }
+    ],
+    "flags": []
+   },
+   {
+    "name": "methotrexate",
+    "dose": "",
+    "frequency": "",
+    "route": "",
+    "status": "active",
+    "evidence": [
+     {
+      "turn": 20,
+      "quote": "So this is moderate to severe plaque psoriasis that isn't controlled with creams, and methotrexate didn't work out",
+      "verified": true,
+      "score": 1.0
+     }
+    ],
+    "flags": []
+   },
+   {
+    "name": "risankizumab",
+    "dose": "",
+    "frequency": "",
+    "route": "",
+    "status": "active",
+    "evidence": [
+     {
+      "turn": 20,
+      "quote": "The one I'd recommend is Risankizumab.",
+      "verified": true,
+      "score": 1.0
+     }
+    ],
+    "flags": []
+   },
+   {
+    "name": "influenza vaccine",
+    "dose": "",
+    "frequency": "",
+    "route": "",
+    "status": "active",
+    "evidence": [
+     {
+      "turn": 22,
+      "quote": "You should also avoid live vaccines once you're on it, so getting your flu shot this fall is",
+      "verified": true,
+      "score": 1.0
+     }
+    ],
+    "flags": []
+   },
+   {
+    "name": "clobetasol",
+    "dose": "",
+    "frequency": "twice a day",
+    "route": "",
+    "status": "active",
+    "evidence": [
+     {
+      "turn": 26,
+      "quote": "In the meantime, keep the Clobetasol ointment twice a day on the body plaques, but only two weeks",
+      "verified": true,
+      "score": 1.0
+     }
+    ],
+    "flags": []
+   }
+  ],
+  "allergies": [],
+  "after_visit_summary": "Thank you for coming in today. Here is what we talked about. Before we start, I need a TB blood test, hepatitis B and C tests, a blood count, and a metabolic panel. You should also avoid live vaccines once you're on it, so getting your flu shot this fall is a good idea. we will also need a prior authorization from your insurance. Once the labs and insurance approval come back, we will have you in for the first injection and teach you how to do it. Otherwise, follow up in six weeks.",
+  "avs_flags": [],
+  "icd10": [
+   {
+    "system": "ICD-10-CM",
+    "code": "D81.1",
+    "description": "Severe combined immunodeficiency [SCID] with low T- and B-cell numbers",
+    "rank": 1,
+    "rationale": "Matches the assessment: Severe combined immunodeficiency [SCID] with low T- and B-cell numbers",
+    "evidence": [],
+    "valid": true,
+    "billable": true,
+    "flags": [
+     {
+      "kind": "code_unsupported",
+      "severity": "warning",
+      "message": "No verified quote supports this code.",
+      "acknowledged": false,
+      "detail": {}
+     },
+     {
+      "kind": "code_unsupported",
+      "severity": "warning",
+      "message": "The code's title shares no terms with the assessment; check it matches a diagnosis.",
+      "acknowledged": false,
+      "detail": {}
+     }
+    ],
+    "accepted": null
+   },
+   {
+    "system": "ICD-10-CM",
+    "code": "J92.0",
+    "description": "Pleural plaque with presence of asbestos",
+    "rank": 2,
+    "rationale": "Matches the assessment: Pleural plaque with presence of asbestos",
+    "evidence": [],
+    "valid": true,
+    "billable": true,
+    "flags": [
+     {
+      "kind": "code_unsupported",
+      "severity": "warning",
+      "message": "No verified quote supports this code.",
+      "acknowledged": false,
+      "detail": {}
+     }
+    ],
+    "accepted": null
+   },
+   {
+    "system": "ICD-10-CM",
+    "code": "Z71.1",
+    "description": "Person with feared health complaint in whom no diagnosis is made",
+    "rank": 3,
+    "rationale": "Matches the assessment: Person with feared health complaint in whom no diagnosis is made",
+    "evidence": [],
+    "valid": true,
+    "billable": true,
+    "flags": [
+     {
+      "kind": "code_unsupported",
+      "severity": "warning",
+      "message": "No verified quote supports this code.",
+      "acknowledged": false,
+      "detail": {}
+     },
+     {
+      "kind": "code_unsupported",
+      "severity": "warning",
+      "message": "The code's title shares no terms with the assessment; check it matches a diagnosis.",
+      "acknowledged": false,
+      "detail": {}
+     }
+    ],
+    "accepted": null
+   }
+  ],
+  "em": {
+   "system": "CPT",
+   "code": "99214",
+   "description": "Established patient office visit, moderate-complexity decision making",
+   "rank": 1,
+   "rationale": "Rule-based: prescription drug management",
+   "evidence": [],
+   "valid": true,
+   "billable": true,
+   "flags": [],
+   "accepted": null
+  },
+  "procedures": [],
+  "mdm": {
+   "problems": "low",
+   "data": "moderate",
+   "risk": "moderate",
+   "level": "moderate",
+   "code": "99214",
+   "reasons": [
+    "problems: one stable chronic illness or two self-limited problems",
+    "data: 4 tests or sources",
+    "risk: prescription drug management"
+   ]
+  },
+  "section_status": {
+   "subjective": "draft",
+   "objective": "draft",
+   "assessment": "draft",
+   "plan": "draft"
+  },
+  "model": "fake/fake-scribe",
+  "created_at": "2026-10-13T07:54:38.461948Z",
+  "signed_by": null,
+  "signed_at": null,
+  "timings": {
+   "phi_masking": 0.019,
+   "llm_note": 0.01,
+   "guards_note": 0.032,
+   "llm_codes": 0.004,
+   "guards_codes": 0.025,
+   "total": 0.09,
+   "wall": 0.112
+  },
+  "usage": {
+   "model_ms": 14,
+   "input_tokens": 3126,
+   "output_tokens": 1360,
+   "calls": 2
+  },
+  "phi": {
+   "NAME": 5,
+   "DOB": 1,
+   "DATE": 1,
+   "ADDRESS": 1,
+   "ID": 1,
+   "PHONE": 1
+  }
+ },
+ "vault": {
+  "originals": {
+   "[PATIENT]": "Oksana Kovalenko",
+   "[DOB]": "August 30th, 1979",
+   "[NAME_1]": "Soryasi",
+   "[DATE_1]": "June",
+   "[NAME_2]": "Sulfa",
+   "[ADDRESS_1]": "2250 Riverside Drive",
+   "[ID_1]": "K as in kilo 7 0 3 9 2 1 5",
+   "[NAME_3]": "Taras",
+   "[PHONE_1]": "555 -0134",
+   "[NAME_4]": "Nair"
+  },
+  "surfaces": {
+   "[PATIENT]": [
+    "Oksana",
+    "Oksana Kovalenko"
+   ],
+   "[DOB]": [
+    "August 30th, 1979"
+   ],
+   "[NAME_1]": [
+    "Soryasi"
+   ],
+   "[DATE_1]": [
+    "June"
+   ],
+   "[NAME_2]": [
+    "Sulfa"
+   ],
+   "[ADDRESS_1]": [
+    "2250 Riverside Drive"
+   ],
+   "[ID_1]": [
+    "K as in kilo 7 0 3 9 2 1 5"
+   ],
+   "[NAME_3]": [
+    "Taras"
+   ],
+   "[PHONE_1]": [
+    "555 -0134"
+   ],
+   "[NAME_4]": [
+    "Nair"
+   ]
+  },
+  "types": {
+   "[PATIENT]": "NAME",
+   "[DOB]": "DOB",
+   "[NAME_1]": "NAME",
+   "[DATE_1]": "DATE",
+   "[NAME_2]": "NAME",
+   "[ADDRESS_1]": "ADDRESS",
+   "[ID_1]": "ID",
+   "[NAME_3]": "NAME",
+   "[PHONE_1]": "PHONE",
+   "[NAME_4]": "NAME"
+  },
+  "counters": {
+   "NAME": 4,
+   "DATE": 1,
+   "ADDRESS": 1,
+   "ID": 1,
+   "PHONE": 1
+  }
+ },
+ "score": {
+  "case": "dm-05",
+  "specialty": "dermatology",
+  "facts": 29,
+  "found": 14,
+  "found_in_section": 11,
+  "negation_errors": [],
+  "trap_errors": [],
+  "missed": [
+   "f1 [subjective] Psoriasis for 8 years, spreading and worsening over the last 4 months",
+   "f4 [subjective] Stopped methotrexate 15 mg weekly on her own in June due to nausea and hair thinning",
+   "f5 [subjective] Methotrexate dose was 15 mg weekly (6 tablets of 2.5 mg)",
+   "f7 [subjective] Denies morning stiffness",
+   "f8 [subjective] Denies dactylitis",
+   "f9 [subjective] Denies heel pain",
+   "f10 [subjective] Mother had rheumatoid arthritis",
+   "f11 [subjective] Takes amlodipine 5 mg every morning for hypertension",
+   "f12 [subjective] Sulfa allergy with generalized rash",
+   "f13 [subjective] Former smoker, quit 3 years ago",
+   "f14 [objective] Well-defined red plaques with thick silvery scale on both elbows, right about 8 by 6 cm, and both knees",
+   "f17 [objective] Pitting of 3 fingernails",
+   "f19 [objective] About 12% body surface area involved",
+   "f22 [plan] Plan to start risankizumab 150 mg subcutaneously at week 0, week 4, then every 12 weeks",
+   "f27 [plan] Start clobetasol 0.05% solution to scalp once nightly"
+  ],
+  "statements": 18,
+  "statements_matching_gold": 11,
+  "unsupported": 0,
+  "partial": 0,
+  "flags": {},
+  "meds": 5,
+  "meds_found": 5,
+  "meds_dose_correct": 0,
+  "icd_primary": "L40.0",
+  "icd_suggested": [
+   "D81.1",
+   "J92.0",
+   "Z71.1"
+  ],
+  "icd_top1": false,
+  "icd_top3": false,
+  "icd_top3_lenient": false,
+  "icd_top3_category": false,
+  "icd_gold_recall": 0.0,
+  "icd_invalid": 0,
+  "em_gold": "99214",
+  "em_suggested": "99214",
+  "em_exact": true,
+  "em_within_one": true,
+  "em_rule_estimate": "99214",
+  "procedures_gold": 0,
+  "procedures_found": 0
+ },
+ "egress_residue": {}
+}

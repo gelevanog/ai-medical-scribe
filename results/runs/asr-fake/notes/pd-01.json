@@ -1,0 +1,513 @@
+{
+ "note": {
+  "visit_id": "pd-01",
+  "statements": [
+   {
+    "id": "s1",
+    "section": "subjective",
+    "text": "She started with a fever yesterday afternoon, and she's been pulling at her left ear like non -stop",
+    "evidence": [
+     {
+      "turn": 3,
+      "quote": "So she started with a fever yesterday afternoon, and she's been pulling at her left ear like non",
+      "verified": true,
+      "score": 1.0
+     }
+    ],
+    "support": "supported",
+    "flags": [],
+    "origin": "model",
+    "edited": false
+   },
+   {
+    "id": "s2",
+    "section": "subjective",
+    "text": "Nothing since then",
+    "evidence": [
+     {
+      "turn": 5,
+      "quote": "Nothing since then.",
+      "verified": true,
+      "score": 1.0
+     }
+    ],
+    "support": "supported",
+    "flags": [],
+    "origin": "model",
+    "edited": false
+   },
+   {
+    "id": "s3",
+    "section": "subjective",
+    "text": "Runny nose and a little cough for maybe four or five days",
+    "evidence": [
+     {
+      "turn": 7,
+      "quote": "Yeah, runny nose and a little cough for maybe four or five days.",
+      "verified": true,
+      "score": 1.0
+     }
+    ],
+    "support": "supported",
+    "flags": [],
+    "origin": "model",
+    "edited": false
+   },
+   {
+    "id": "s4",
+    "section": "subjective",
+    "text": "The left one is red and bulging, and they can see pus behind it",
+    "evidence": [
+     {
+      "turn": 13,
+      "quote": "The left one is red and bulging, and I can see pus behind it.",
+      "verified": true,
+      "score": 1.0
+     }
+    ],
+    "support": "supported",
+    "flags": [],
+    "origin": "model",
+    "edited": false
+   },
+   {
+    "id": "s5",
+    "section": "subjective",
+    "text": "Lungs sound clear, no wheezing, and her neck is nice and soft",
+    "evidence": [
+     {
+      "turn": 13,
+      "quote": "Lungs sound clear, no wheezing, and her neck is nice and soft.",
+      "verified": true,
+      "score": 1.0
+     }
+    ],
+    "support": "supported",
+    "flags": [],
+    "origin": "model",
+    "edited": false
+   },
+   {
+    "id": "s6",
+    "section": "subjective",
+    "text": "This is an acute ear infection in her left ear on top of a cold, with a fever as high as 102 .8 and that bulging eardrum does recommend an antibiotic",
+    "evidence": [
+     {
+      "turn": 15,
+      "quote": "Yes, this is an acute ear infection in her left ear on top of a cold, with a",
+      "verified": true,
+      "score": 1.0
+     }
+    ],
+    "support": "supported",
+    "flags": [],
+    "origin": "model",
+    "edited": false
+   },
+   {
+    "id": "s7",
+    "section": "subjective",
+    "text": "For pain and fever you can use ibuprofen",
+    "evidence": [
+     {
+      "turn": 19,
+      "quote": "For pain and fever you can use ibuprofen.",
+      "verified": true,
+      "score": 1.0
+     }
+    ],
+    "support": "supported",
+    "flags": [],
+    "origin": "model",
+    "edited": false
+   },
+   {
+    "id": "s8",
+    "section": "subjective",
+    "text": "Just watch him, him, and if he gets a fever or starts pulling at his ears, bring him in",
+    "evidence": [
+     {
+      "turn": 21,
+      "quote": "Just watch him, him, and if he gets a fever or starts pulling at his ears, bring him",
+      "verified": true,
+      "score": 1.0
+     }
+    ],
+    "support": "supported",
+    "flags": [],
+    "origin": "model",
+    "edited": false
+   },
+   {
+    "id": "s9",
+    "section": "subjective",
+    "text": "As for Amara Akafur, she can go back to daycare once she's been fever -free for twenty -four hours without medicine",
+    "evidence": [
+     {
+      "turn": 23,
+      "quote": "As for Amara Akafur, she can go back to daycare once she's been fever -free for twenty -four hours",
+      "verified": true,
+      "score": 0.95
+     }
+    ],
+    "support": "supported",
+    "flags": [],
+    "origin": "model",
+    "edited": false
+   },
+   {
+    "id": "s10",
+    "section": "subjective",
+    "text": "If she's still running fevers, or in a lot of pain after forty -eight to seventy -two hours on the amoxicillin, call us, because we may need to switch antibiotics",
+    "evidence": [
+     {
+      "turn": 23,
+      "quote": "If she's still running fevers, or in a lot of pain after forty -eight to seventy -two hours",
+      "verified": true,
+      "score": 1.0
+     }
+    ],
+    "support": "supported",
+    "flags": [],
+    "origin": "model",
+    "edited": false
+   },
+   {
+    "id": "s11",
+    "section": "subjective",
+    "text": "If you see swelling or redness behind the ear, or she's really hard to wake up, bring her in right away",
+    "evidence": [
+     {
+      "turn": 23,
+      "quote": "And if you see swelling or redness behind the ear, or she's really hard to wake up, bring",
+      "verified": true,
+      "score": 1.0
+     }
+    ],
+    "support": "supported",
+    "flags": [],
+    "origin": "model",
+    "edited": false
+   },
+   {
+    "id": "o1",
+    "section": "objective",
+    "text": "She peed this morning, a normal amount",
+    "evidence": [
+     {
+      "turn": 10,
+      "quote": "She peed this morning, a normal amount.",
+      "verified": true,
+      "score": 1.0
+     }
+    ],
+    "support": "supported",
+    "flags": [],
+    "origin": "model",
+    "edited": false
+   }
+  ],
+  "medications": [
+   {
+    "name": "acetaminophen",
+    "dose": "",
+    "frequency": "",
+    "route": "",
+    "status": "active",
+    "evidence": [
+     {
+      "turn": 5,
+      "quote": "I gave her the children's Tylenol around two in the morning, five milliliters, and that helped a little.",
+      "verified": true,
+      "score": 1.0
+     }
+    ],
+    "flags": []
+   },
+   {
+    "name": "amoxicillin",
+    "dose": "90 milligrams",
+    "frequency": "",
+    "route": "",
+    "status": "active",
+    "evidence": [
+     {
+      "turn": 15,
+      "quote": "We'll use amoxicillin at the higher dose, 90 milligrams per kilogram per day.",
+      "verified": true,
+      "score": 1.0
+     }
+    ],
+    "flags": [
+     {
+      "kind": "dose_range",
+      "severity": "error",
+      "message": "amoxicillin: 6 mg/kg/day at 16 kg is outside the usual pediatric 20-100 mg/kg/day.",
+      "acknowledged": false,
+      "detail": {
+       "mg_kg_day": 5.6,
+       "weight_kg": 16.0
+      }
+     }
+    ]
+   },
+   {
+    "name": "ibuprofen",
+    "dose": "",
+    "frequency": "",
+    "route": "",
+    "status": "active",
+    "evidence": [
+     {
+      "turn": 19,
+      "quote": "For pain and fever you can use ibuprofen.",
+      "verified": true,
+      "score": 1.0
+     }
+    ],
+    "flags": []
+   }
+  ],
+  "allergies": [],
+  "after_visit_summary": "Thank you for coming in today. Here is what we talked about. Please follow the plan we discussed and call the clinic with any questions.",
+  "avs_flags": [],
+  "icd10": [
+   {
+    "system": "ICD-10-CM",
+    "code": "A01.09",
+    "description": "Typhoid fever with other complications",
+    "rank": 1,
+    "rationale": "Matches the assessment: Typhoid fever with other complications",
+    "evidence": [],
+    "valid": true,
+    "billable": true,
+    "flags": [
+     {
+      "kind": "code_unsupported",
+      "severity": "warning",
+      "message": "No verified quote supports this code.",
+      "acknowledged": false,
+      "detail": {}
+     }
+    ],
+    "accepted": null
+   },
+   {
+    "system": "ICD-10-CM",
+    "code": "A38.1",
+    "description": "Scarlet fever with myocarditis",
+    "rank": 2,
+    "rationale": "Matches the assessment: Scarlet fever with myocarditis",
+    "evidence": [],
+    "valid": true,
+    "billable": true,
+    "flags": [
+     {
+      "kind": "code_unsupported",
+      "severity": "warning",
+      "message": "No verified quote supports this code.",
+      "acknowledged": false,
+      "detail": {}
+     }
+    ],
+    "accepted": null
+   },
+   {
+    "system": "ICD-10-CM",
+    "code": "A38.8",
+    "description": "Scarlet fever with other complications",
+    "rank": 3,
+    "rationale": "Matches the assessment: Scarlet fever with other complications",
+    "evidence": [],
+    "valid": true,
+    "billable": true,
+    "flags": [
+     {
+      "kind": "code_unsupported",
+      "severity": "warning",
+      "message": "No verified quote supports this code.",
+      "acknowledged": false,
+      "detail": {}
+     }
+    ],
+    "accepted": null
+   }
+  ],
+  "em": {
+   "system": "CPT",
+   "code": "99214",
+   "description": "Established patient office visit, moderate-complexity decision making",
+   "rank": 1,
+   "rationale": "Rule-based: prescription drug management",
+   "evidence": [],
+   "valid": true,
+   "billable": true,
+   "flags": [
+    {
+     "kind": "em_mismatch",
+     "severity": "warning",
+     "message": "The rule-based MDM estimate is straightforward (99212): data: limited (tests or an independent historian)",
+     "acknowledged": false,
+     "detail": {
+      "estimate": "99212"
+     }
+    }
+   ],
+   "accepted": null
+  },
+  "procedures": [],
+  "mdm": {
+   "problems": "straightforward",
+   "data": "low",
+   "risk": "straightforward",
+   "level": "straightforward",
+   "code": "99212",
+   "reasons": [
+    "data: limited (tests or an independent historian)"
+   ]
+  },
+  "section_status": {
+   "subjective": "draft",
+   "objective": "draft",
+   "assessment": "draft",
+   "plan": "draft"
+  },
+  "model": "fake/fake-scribe",
+  "created_at": "2026-10-13T07:54:38.730242Z",
+  "signed_by": null,
+  "signed_at": null,
+  "timings": {
+   "phi_masking": 0.023,
+   "llm_note": 0.016,
+   "guards_note": 0.039,
+   "llm_codes": 0.004,
+   "guards_codes": 0.039,
+   "total": 0.121,
+   "wall": 0.159
+  },
+  "usage": {
+   "model_ms": 20,
+   "input_tokens": 3375,
+   "output_tokens": 945,
+   "calls": 2
+  },
+  "phi": {
+   "NAME": 3,
+   "DOB": 1,
+   "ORG": 1,
+   "AGE": 1,
+   "ADDRESS": 1
+  }
+ },
+ "vault": {
+  "originals": {
+   "[PATIENT]": "Amara Akafur",
+   "[DOB]": "July 18th, 2023",
+   "[NAME_1]": "Chaimaka",
+   "[ORG_1]": "little acorns",
+   "[AGE_90_PLUS]": "one hundred",
+   "[ADDRESS_1]": "Euclid Avenue",
+   "[NAME_2]": "Euclid"
+  },
+  "surfaces": {
+   "[PATIENT]": [
+    "Amara",
+    "Amara Akafur"
+   ],
+   "[DOB]": [
+    "July 18th, 2023"
+   ],
+   "[NAME_1]": [
+    "Chaimaka"
+   ],
+   "[ORG_1]": [
+    "little acorns"
+   ],
+   "[AGE_90_PLUS]": [
+    "one hundred"
+   ],
+   "[ADDRESS_1]": [
+    "Euclid Avenue"
+   ],
+   "[NAME_2]": [
+    "Euclid"
+   ]
+  },
+  "types": {
+   "[PATIENT]": "NAME",
+   "[DOB]": "DOB",
+   "[NAME_1]": "NAME",
+   "[ORG_1]": "ORG",
+   "[AGE_90_PLUS]": "AGE",
+   "[ADDRESS_1]": "ADDRESS",
+   "[NAME_2]": "NAME"
+  },
+  "counters": {
+   "NAME": 2,
+   "ORG": 1,
+   "ADDRESS": 1
+  }
+ },
+ "score": {
+  "case": "pd-01",
+  "specialty": "pediatrics",
+  "facts": 31,
+  "found": 10,
+  "found_in_section": 4,
+  "negation_errors": [],
+  "trap_errors": [],
+  "missed": [
+   "f1 [subjective] Fever since yesterday afternoon, up to 102.8 at home overnight",
+   "f3 [subjective] Up crying most of the night",
+   "f7 [subjective] No oral sores or rash on hands or feet",
+   "f8 [subjective] Decreased appetite, drinking fluids okay",
+   "f10 [subjective] No vomiting",
+   "f11 [subjective] No diarrhea",
+   "f12 [subjective] No ear drainage",
+   "f13 [subjective] No known drug allergies",
+   "f14 [objective] Weight 16 kg (about 35 lb)",
+   "f15 [objective] Temperature 101.6 in clinic",
+   "f16 [objective] Heart rate 128",
+   "f17 [objective] Oxygen saturation 99 percent",
+   "f18 [objective] Right tympanic membrane normal",
+   "f20 [objective] Pharynx mildly erythematous without sores or vesicles",
+   "f24 [plan] Amoxicillin 90 mg/kg/day, 720 mg (9 mL of 400 mg/5 mL) twice daily",
+   "f25 [plan] Amoxicillin course for 10 days",
+   "f26 [plan] Ibuprofen 160 mg (8 mL) every 6 to 8 hours as needed for pain or fever",
+   "f27 [plan] Acetaminophen weight-based dose corrected to 7.5 mL (240 mg) every 4 to 6 hours",
+   "f28 [plan] May return to daycare after fever-free 24 hours without antipyretics",
+   "f29 [plan] Call if fever or pain persists after 48 to 72 hours on amoxicillin (may switch antibiotics)",
+   "f31 [plan] No routine ear recheck if improved; return if recurrent infection"
+  ],
+  "statements": 12,
+  "statements_matching_gold": 9,
+  "unsupported": 0,
+  "partial": 0,
+  "flags": {
+   "dose_range": 1
+  },
+  "meds": 3,
+  "meds_found": 3,
+  "meds_dose_correct": 0,
+  "icd_primary": "H66.002",
+  "icd_suggested": [
+   "A01.09",
+   "A38.1",
+   "A38.8"
+  ],
+  "icd_top1": false,
+  "icd_top3": false,
+  "icd_top3_lenient": false,
+  "icd_top3_category": false,
+  "icd_gold_recall": 0.0,
+  "icd_invalid": 0,
+  "em_gold": "99214",
+  "em_suggested": "99214",
+  "em_exact": true,
+  "em_within_one": true,
+  "em_rule_estimate": "99212",
+  "procedures_gold": 0,
+  "procedures_found": 0
+ },
+ "egress_residue": {}
+}

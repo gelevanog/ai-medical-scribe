@@ -1,0 +1,579 @@
+{
+ "note": {
+  "visit_id": "pd-05",
+  "statements": [
+   {
+    "id": "s1",
+    "section": "subjective",
+    "text": "Denies headaches",
+    "evidence": [
+     {
+      "turn": 16,
+      "quote": "That's fair. Any headaches or stomach aches?",
+      "verified": true,
+      "score": 1.0
+     },
+     {
+      "turn": 17,
+      "quote": "No, not really.",
+      "verified": true,
+      "score": 1.0
+     }
+    ],
+    "support": "supported",
+    "flags": [],
+    "origin": "model",
+    "edited": false
+   },
+   {
+    "id": "s2",
+    "section": "subjective",
+    "text": "Little grumpy right after school but she's herself not sad",
+    "evidence": [
+     {
+      "turn": 19,
+      "quote": "little grumpy right after school but she's herself not sad",
+      "verified": true,
+      "score": 1.0
+     }
+    ],
+    "support": "supported",
+    "flags": [],
+    "origin": "model",
+    "edited": false
+   },
+   {
+    "id": "s3",
+    "section": "subjective",
+    "text": "Like that her brother Omar has ADHD too he takes guan fa seen and he had the same thing with appetite on a stimulant, so they kind of expected it",
+    "evidence": [
+     {
+      "turn": 21,
+      "quote": "like that her brother Omar has ADHD too he takes guan fa seen and he had the same",
+      "verified": true,
+      "score": 1.0
+     }
+    ],
+    "support": "supported",
+    "flags": [],
+    "origin": "model",
+    "edited": false
+   },
+   {
+    "id": "o1",
+    "section": "objective",
+    "text": "On the teacher form, she has three out of nine attention symptoms now, down from seven in the spring, and the hyperactivity score is down too",
+    "evidence": [
+     {
+      "turn": 8,
+      "quote": "On the teacher form, she has three out of nine attention symptoms now, down from seven in the",
+      "verified": true,
+      "score": 1.0
+     }
+    ],
+    "support": "supported",
+    "flags": [],
+    "origin": "model",
+    "edited": false
+   },
+   {
+    "id": "o2",
+    "section": "objective",
+    "text": "any ticks like eye blinking or throat clearing now does she seem sad or really irritable when it wears off in the evening a",
+    "evidence": [
+     {
+      "turn": 18,
+      "quote": "any ticks like eye blinking or throat clearing now does she seem sad or really irritable when it",
+      "verified": true,
+      "score": 1.0
+     }
+    ],
+    "support": "supported",
+    "flags": [],
+    "origin": "model",
+    "edited": false
+   },
+   {
+    "id": "o3",
+    "section": "objective",
+    "text": "any fainting chest pain or racing heart especially with running around no nothing",
+    "evidence": [
+     {
+      "turn": 20,
+      "quote": "any fainting chest pain or racing heart especially with running around no nothing",
+      "verified": true,
+      "score": 1.0
+     }
+    ],
+    "support": "supported",
+    "flags": [],
+    "origin": "model",
+    "edited": false
+   },
+   {
+    "id": "o4",
+    "section": "objective",
+    "text": "Blood pressure is 104 over 66, heart rate 94",
+    "evidence": [
+     {
+      "turn": 22,
+      "quote": "Blood pressure is 104 over 66, heart rate 94.",
+      "verified": true,
+      "score": 1.0
+     }
+    ],
+    "support": "supported",
+    "flags": [],
+    "origin": "model",
+    "edited": false
+   },
+   {
+    "id": "o5",
+    "section": "objective",
+    "text": "Her weight is 28 .2 kilograms, and in August it was 29 .0, so she's lost about 0 .8 kilograms, almost 2 pounds",
+    "evidence": [
+     {
+      "turn": 22,
+      "quote": "Her weight is 28 .2 kilograms, and in August it was 29 .0, so she's lost about 0",
+      "verified": true,
+      "score": 1.0
+     }
+    ],
+    "support": "supported",
+    "flags": [],
+    "origin": "model",
+    "edited": false
+   },
+   {
+    "id": "o6",
+    "section": "objective",
+    "text": "Height is 134 centimeters, so she's still growing taller",
+    "evidence": [
+     {
+      "turn": 22,
+      "quote": "Height is 134 centimeters, so she's still growing taller.",
+      "verified": true,
+      "score": 1.0
+     }
+    ],
+    "support": "supported",
+    "flags": [],
+    "origin": "model",
+    "edited": false
+   },
+   {
+    "id": "o7",
+    "section": "objective",
+    "text": "Her heart sounds regular, no murmur, and lungs are clear",
+    "evidence": [
+     {
+      "turn": 22,
+      "quote": "Her heart sounds regular, no murmur, and lungs are clear.",
+      "verified": true,
+      "score": 1.0
+     }
+    ],
+    "support": "supported",
+    "flags": [],
+    "origin": "model",
+    "edited": false
+   },
+   {
+    "id": "o8",
+    "section": "objective",
+    "text": "But the medicine is suppressing her appetite and she's lost some weight",
+    "evidence": [
+     {
+      "turn": 24,
+      "quote": "But the medicine is suppressing her appetite and she's lost some weight.",
+      "verified": true,
+      "score": 1.0
+     }
+    ],
+    "support": "supported",
+    "flags": [],
+    "origin": "model",
+    "edited": false
+   },
+   {
+    "id": "o9",
+    "section": "objective",
+    "text": "Let's have her come in for a nurse weight check on Tuesday, November 24th, and I'll see her in three months",
+    "evidence": [
+     {
+      "turn": 30,
+      "quote": "Let's have her come in for a nurse weight check on Tuesday, November 24th, and I'll see her in three",
+      "verified": true,
+      "score": 1.0
+     }
+    ],
+    "support": "supported",
+    "flags": [],
+    "origin": "model",
+    "edited": false
+   },
+   {
+    "id": "o10",
+    "section": "objective",
+    "text": "If her weight keeps dropping, we could think about a different medicine, but let's not jump ahead",
+    "evidence": [
+     {
+      "turn": 30,
+      "quote": "If her weight keeps dropping, we could think about a different medicine, but let's not jump ahead.",
+      "verified": true,
+      "score": 1.0
+     }
+    ],
+    "support": "supported",
+    "flags": [],
+    "origin": "model",
+    "edited": false
+   },
+   {
+    "id": "a1",
+    "section": "assessment",
+    "text": "So this is her ADHD follow -up",
+    "evidence": [
+     {
+      "turn": 2,
+      "quote": "So this is her ADHD follow -up.",
+      "verified": true,
+      "score": 1.0
+     }
+    ],
+    "support": "supported",
+    "flags": [],
+    "origin": "model",
+    "edited": false
+   },
+   {
+    "id": "p1",
+    "section": "plan",
+    "text": "Hi, good to see you both. Zainab, that's a beautiful drawing",
+    "evidence": [
+     {
+      "turn": 0,
+      "quote": "Hi, good to see you both. Zainab, that's a beautiful drawing.",
+      "verified": true,
+      "score": 1.0
+     }
+    ],
+    "support": "supported",
+    "flags": [],
+    "origin": "model",
+    "edited": false
+   },
+   {
+    "id": "p2",
+    "section": "plan",
+    "text": "So here's the plan",
+    "evidence": [
+     {
+      "turn": 24,
+      "quote": "So here's the plan.",
+      "verified": true,
+      "score": 1.0
+     }
+    ],
+    "support": "supported",
+    "flags": [],
+    "origin": "model",
+    "edited": false
+   }
+  ],
+  "medications": [
+   {
+    "name": "methylphenidate",
+    "dose": "27 milligrams",
+    "frequency": "every morning",
+    "route": "",
+    "status": "active",
+    "evidence": [
+     {
+      "turn": 24,
+      "quote": "Keep the methylphenidate at 27 milligrams every morning.",
+      "verified": true,
+      "score": 1.0
+     }
+    ],
+    "flags": []
+   },
+   {
+    "name": "melatonin",
+    "dose": "",
+    "frequency": "",
+    "route": "",
+    "status": "active",
+    "evidence": [
+     {
+      "turn": 15,
+      "quote": "I bought melatonin at the store, three milligrams, and gave it for about a week.",
+      "verified": true,
+      "score": 1.0
+     }
+    ],
+    "flags": []
+   }
+  ],
+  "allergies": [],
+  "after_visit_summary": "Thank you for coming in today. Here is what we talked about. Hi, good to see you both. Zainab, that's a beautiful drawing. So here's the plan.",
+  "avs_flags": [],
+  "icd10": [
+   {
+    "system": "ICD-10-CM",
+    "code": "Z36.2",
+    "description": "Encounter for other antenatal screening follow-up",
+    "rank": 1,
+    "rationale": "Matches the assessment: Encounter for other antenatal screening follow-up",
+    "evidence": [],
+    "valid": true,
+    "billable": true,
+    "flags": [
+     {
+      "kind": "code_unsupported",
+      "severity": "warning",
+      "message": "No verified quote supports this code.",
+      "acknowledged": false,
+      "detail": {}
+     }
+    ],
+    "accepted": null
+   },
+   {
+    "system": "ICD-10-CM",
+    "code": "Z39.2",
+    "description": "Encounter for routine postpartum follow-up",
+    "rank": 2,
+    "rationale": "Matches the assessment: Encounter for routine postpartum follow-up",
+    "evidence": [],
+    "valid": true,
+    "billable": true,
+    "flags": [
+     {
+      "kind": "code_unsupported",
+      "severity": "warning",
+      "message": "No verified quote supports this code.",
+      "acknowledged": false,
+      "detail": {}
+     }
+    ],
+    "accepted": null
+   },
+   {
+    "system": "ICD-10-CM",
+    "code": "Z08",
+    "description": "Encounter for follow-up examination after completed treatment for malignant neoplasm",
+    "rank": 3,
+    "rationale": "Matches the assessment: Encounter for follow-up examination after completed treatment for malignant neoplasm",
+    "evidence": [],
+    "valid": true,
+    "billable": true,
+    "flags": [
+     {
+      "kind": "code_unsupported",
+      "severity": "warning",
+      "message": "No verified quote supports this code.",
+      "acknowledged": false,
+      "detail": {}
+     }
+    ],
+    "accepted": null
+   }
+  ],
+  "em": {
+   "system": "CPT",
+   "code": "99213",
+   "description": "Established patient office visit, low-complexity decision making",
+   "rank": 1,
+   "rationale": "Rule-based: low complexity",
+   "evidence": [],
+   "valid": true,
+   "billable": true,
+   "flags": [],
+   "accepted": null
+  },
+  "procedures": [
+   {
+    "system": "CPT",
+    "code": "96127",
+    "description": "Brief emotional or behavioral assessment with a standardized instrument (e.g. PHQ-9, GAD-7)",
+    "rank": 1,
+    "rationale": "Performed today",
+    "evidence": [
+     {
+      "turn": 8,
+      "quote": "That's great to hear. I got the Vanderbilt forms back from both of you. On the teacher form,",
+      "verified": true,
+      "score": 1.0
+     }
+    ],
+    "valid": true,
+    "billable": true,
+    "flags": [],
+    "accepted": null
+   }
+  ],
+  "mdm": {
+   "problems": "low",
+   "data": "low",
+   "risk": "low",
+   "level": "low",
+   "code": "99213",
+   "reasons": [
+    "problems: one stable chronic illness or two self-limited problems",
+    "data: limited (tests or an independent historian)",
+    "risk: over-the-counter drugs, minor procedure or counseling"
+   ]
+  },
+  "section_status": {
+   "subjective": "draft",
+   "objective": "draft",
+   "assessment": "draft",
+   "plan": "draft"
+  },
+  "model": "fake/fake-scribe",
+  "created_at": "2026-10-13T07:54:40.025717Z",
+  "signed_by": null,
+  "signed_at": null,
+  "timings": {
+   "phi_masking": 0.019,
+   "llm_note": 0.011,
+   "guards_note": 0.034,
+   "llm_codes": 0.005,
+   "guards_codes": 0.025,
+   "total": 0.094,
+   "wall": 0.098
+  },
+  "usage": {
+   "model_ms": 16,
+   "input_tokens": 3436,
+   "output_tokens": 1138,
+   "calls": 2
+  },
+  "phi": {
+   "NAME": 4,
+   "DOB": 1,
+   "DATE": 3,
+   "ORG": 1,
+   "ADDRESS": 1,
+   "PHONE": 1
+  }
+ },
+ "vault": {
+  "originals": {
+   "[PATIENT]": "Zainab",
+   "[DOB]": "February 14th, 2017",
+   "[NAME_1]": "Karim",
+   "[DATE_1]": "August",
+   "[ORG_1]": "Riverside Elementary",
+   "[NAME_2]": "Kowalski",
+   "[NAME_3]": "Omar",
+   "[ADDRESS_1]": "210 Kenwood Avenue",
+   "[DATE_2]": "Tuesday, November 24th",
+   "[DATE_3]": "November 24th",
+   "[PHONE_1]": "555 -0147"
+  },
+  "surfaces": {
+   "[PATIENT]": [
+    "Zainab"
+   ],
+   "[DOB]": [
+    "February 14th, 2017"
+   ],
+   "[NAME_1]": [
+    "Karim"
+   ],
+   "[DATE_1]": [
+    "August"
+   ],
+   "[ORG_1]": [
+    "Riverside Elementary"
+   ],
+   "[NAME_2]": [
+    "Kowalski"
+   ],
+   "[NAME_3]": [
+    "Omar"
+   ],
+   "[ADDRESS_1]": [
+    "210 Kenwood Avenue"
+   ],
+   "[DATE_2]": [
+    "Tuesday, November 24th"
+   ],
+   "[DATE_3]": [
+    "November 24th"
+   ],
+   "[PHONE_1]": [
+    "555 -0147"
+   ]
+  },
+  "types": {
+   "[PATIENT]": "NAME",
+   "[DOB]": "DOB",
+   "[NAME_1]": "NAME",
+   "[DATE_1]": "DATE",
+   "[ORG_1]": "ORG",
+   "[NAME_2]": "NAME",
+   "[NAME_3]": "NAME",
+   "[ADDRESS_1]": "ADDRESS",
+   "[DATE_2]": "DATE",
+   "[DATE_3]": "DATE",
+   "[PHONE_1]": "PHONE"
+  },
+  "counters": {
+   "NAME": 3,
+   "DATE": 3,
+   "ORG": 1,
+   "ADDRESS": 1,
+   "PHONE": 1
+  }
+ },
+ "score": {
+  "case": "pd-05",
+  "specialty": "pediatrics",
+  "facts": 25,
+  "found": 17,
+  "found_in_section": 12,
+  "negation_errors": [],
+  "trap_errors": [],
+  "missed": [
+   "f3 [subjective] School performance improved per teacher; reading grade C to B",
+   "f5 [subjective] Small breakfast",
+   "f6 [subjective] Sleep onset delay of about 45 minutes",
+   "f9 [subjective] No stomachaches",
+   "f10 [subjective] No tics",
+   "f12 [subjective] No syncope, chest pain or palpitations with exertion",
+   "f21 [plan] Give dose with a larger, higher-calorie breakfast; snacks at lunch, after school and bedtime",
+   "f22 [plan] May skip dose on weekends if behavior allows, to improve intake"
+  ],
+  "statements": 16,
+  "statements_matching_gold": 13,
+  "unsupported": 0,
+  "partial": 0,
+  "flags": {},
+  "meds": 2,
+  "meds_found": 2,
+  "meds_dose_correct": 1,
+  "icd_primary": "F90.2",
+  "icd_suggested": [
+   "Z36.2",
+   "Z39.2",
+   "Z08"
+  ],
+  "icd_top1": false,
+  "icd_top3": false,
+  "icd_top3_lenient": false,
+  "icd_top3_category": false,
+  "icd_gold_recall": 0.0,
+  "icd_invalid": 0,
+  "em_gold": "99214",
+  "em_suggested": "99213",
+  "em_exact": false,
+  "em_within_one": true,
+  "em_rule_estimate": "99213",
+  "procedures_gold": 1,
+  "procedures_found": 1
+ },
+ "egress_residue": {}
+}

@@ -186,3 +186,15 @@ def test_masked_text_keeps_titles_and_clinical_content() -> None:
 def test_turn_model_roundtrip() -> None:
     t = Turn(idx=0, speaker="patient", text="hello")
     assert Turn.model_validate(t.model_dump()) == t
+
+
+def test_lowercase_organizations_from_speech_recognition() -> None:
+    # Found by the ASR-transcript run: Whisper lowercases names it does not know.
+    assert ("ORG", "little acorns") in [
+        (s.type, s.text) for s in DET.detect("At her daycare, little acorns, half the room is sick.")
+    ]
+    assert ("ORG", "Harbor point distribution") in [
+        (s.type, s.text) for s in DET.detect("Harbor point distribution, I'm a shift lead.")
+    ]
+    assert DET.detect("I take the bus to work, then home.") == []
+    assert DET.detect("She goes to the local daycare twice a week.") == []

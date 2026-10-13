@@ -1,0 +1,827 @@
+{
+ "note": {
+  "visit_id": "cd-06",
+  "statements": [
+   {
+    "id": "s1",
+    "section": "subjective",
+    "text": "About 6 weeks ago",
+    "evidence": [
+     {
+      "turn": 10,
+      "quote": "About 6 weeks ago.",
+      "verified": true,
+      "score": 1.0
+     }
+    ],
+    "support": "supported",
+    "flags": [],
+    "origin": "model",
+    "edited": false
+   },
+   {
+    "id": "s2",
+    "section": "subjective",
+    "text": "Any headaches,",
+    "evidence": [
+     {
+      "turn": 12,
+      "quote": "Any headaches,",
+      "verified": true,
+      "score": 1.0
+     }
+    ],
+    "support": "supported",
+    "flags": [],
+    "origin": "model",
+    "edited": false
+   },
+   {
+    "id": "s3",
+    "section": "subjective",
+    "text": "No headaches, visions fine, no chest pain",
+    "evidence": [
+     {
+      "turn": 14,
+      "quote": "No headaches, visions fine, no chest pain.",
+      "verified": true,
+      "score": 1.0
+     }
+    ],
+    "support": "supported",
+    "flags": [],
+    "origin": "model",
+    "edited": false
+   },
+   {
+    "id": "s4",
+    "section": "subjective",
+    "text": "Denies chest pain",
+    "evidence": [
+     {
+      "turn": 19,
+      "quote": "I'm sorry about your dad. That's a real reason to take this seriously and we will. Have you",
+      "verified": true,
+      "score": 1.0
+     },
+     {
+      "turn": 20,
+      "quote": "No nothing, never had any heart issue, just the blood pressure.",
+      "verified": true,
+      "score": 1.0
+     }
+    ],
+    "support": "supported",
+    "flags": [],
+    "origin": "model",
+    "edited": false
+   },
+   {
+    "id": "s5",
+    "section": "subjective",
+    "text": "Their wife Danny Ellis says they snore like a chainsaw",
+    "evidence": [
+     {
+      "turn": 22,
+      "quote": "My wife Danny Ellis says I snore like a chainsaw.",
+      "verified": true,
+      "score": 1.0
+     }
+    ],
+    "support": "supported",
+    "flags": [],
+    "origin": "model",
+    "edited": false
+   },
+   {
+    "id": "s6",
+    "section": "subjective",
+    "text": "Three or four beers on the weekend, has never smoked",
+    "evidence": [
+     {
+      "turn": 26,
+      "quote": "Three or four beers on the weekend, I've never smoked.",
+      "verified": true,
+      "score": 1.0
+     }
+    ],
+    "support": "supported",
+    "flags": [],
+    "origin": "model",
+    "edited": false
+   },
+   {
+    "id": "s7",
+    "section": "subjective",
+    "text": "We'll do, should they worry about chest pain like their dad?",
+    "evidence": [
+     {
+      "turn": 40,
+      "quote": "We'll do, should I worry about chest pain like my dad?",
+      "verified": true,
+      "score": 1.0
+     }
+    ],
+    "support": "supported",
+    "flags": [],
+    "origin": "model",
+    "edited": false
+   },
+   {
+    "id": "o1",
+    "section": "objective",
+    "text": "So, Dr. Lindqvist sent you to us about your blood pressure",
+    "evidence": [
+     {
+      "turn": 5,
+      "quote": "So, Dr. Lindqvist sent you to us about your blood pressure.",
+      "verified": true,
+      "score": 1.0
+     }
+    ],
+    "support": "supported",
+    "flags": [],
+    "origin": "model",
+    "edited": false
+   },
+   {
+    "id": "o2",
+    "section": "objective",
+    "text": "Your blood pressure is 148 over 94 in the right arm, 144 over 90 in the left",
+    "evidence": [
+     {
+      "turn": 27,
+      "quote": "Your blood pressure is 148 over 94 in the right arm, 144 over 90 in the left.",
+      "verified": true,
+      "score": 1.0
+     }
+    ],
+    "support": "supported",
+    "flags": [],
+    "origin": "model",
+    "edited": false
+   },
+   {
+    "id": "o3",
+    "section": "objective",
+    "text": "Pulse 80",
+    "evidence": [
+     {
+      "turn": 27,
+      "quote": "Pulse 80.",
+      "verified": true,
+      "score": 1.0
+     }
+    ],
+    "support": "supported",
+    "flags": [],
+    "origin": "model",
+    "edited": false
+   },
+   {
+    "id": "o4",
+    "section": "objective",
+    "text": "Weight is 228 pounds, which puts your BMI at 31 .4",
+    "evidence": [
+     {
+      "turn": 27,
+      "quote": "Weight is 228 pounds, which puts your BMI at 31 .4.",
+      "verified": true,
+      "score": 1.0
+     }
+    ],
+    "support": "supported",
+    "flags": [],
+    "origin": "model",
+    "edited": false
+   },
+   {
+    "id": "o5",
+    "section": "objective",
+    "text": "Heart is regular, no murmurs",
+    "evidence": [
+     {
+      "turn": 27,
+      "quote": "Heart is regular, no murmurs.",
+      "verified": true,
+      "score": 1.0
+     }
+    ],
+    "support": "supported",
+    "flags": [],
+    "origin": "model",
+    "edited": false
+   },
+   {
+    "id": "o6",
+    "section": "objective",
+    "text": "Lungs are clear, no legs swelling, and the pulses in your groin and feet are normal",
+    "evidence": [
+     {
+      "turn": 27,
+      "quote": "Lungs are clear, no legs swelling, and the pulses in your groin and feet are normal.",
+      "verified": true,
+      "score": 1.0
+     }
+    ],
+    "support": "supported",
+    "flags": [],
+    "origin": "model",
+    "edited": false
+   },
+   {
+    "id": "o7",
+    "section": "objective",
+    "text": "I also looked at the labs and ECG doctor",
+    "evidence": [
+     {
+      "turn": 29,
+      "quote": "I also looked at the labs and ECG doctor.",
+      "verified": true,
+      "score": 1.0
+     }
+    ],
+    "support": "supported",
+    "flags": [],
+    "origin": "model",
+    "edited": false
+   },
+   {
+    "id": "o8",
+    "section": "objective",
+    "text": "Kidney function is normal",
+    "evidence": [
+     {
+      "turn": 29,
+      "quote": "Kidney function is normal.",
+      "verified": true,
+      "score": 1.0
+     }
+    ],
+    "support": "supported",
+    "flags": [],
+    "origin": "model",
+    "edited": false
+   },
+   {
+    "id": "o9",
+    "section": "objective",
+    "text": "The ECG from August shows sinus rhythm with some voltage that suggests the heart muscle may be a little thick from the pressure",
+    "evidence": [
+     {
+      "turn": 29,
+      "quote": "The ECG from August shows sinus rhythm with some voltage that suggests the heart muscle may be a",
+      "verified": true,
+      "score": 1.0
+     }
+    ],
+    "support": "supported",
+    "flags": [],
+    "origin": "model",
+    "edited": false
+   },
+   {
+    "id": "o10",
+    "section": "objective",
+    "text": "It's a sign the blood pressure has been working the heart harder and it's very treatable",
+    "evidence": [
+     {
+      "turn": 31,
+      "quote": "It's a sign the blood pressure has been working the heart harder and it's very treatable.",
+      "verified": true,
+      "score": 1.0
+     }
+    ],
+    "support": "supported",
+    "flags": [],
+    "origin": "model",
+    "edited": false
+   },
+   {
+    "id": "o11",
+    "section": "objective",
+    "text": "You have high blood pressure that isn't controlled yet",
+    "evidence": [
+     {
+      "turn": 31,
+      "quote": "You have high blood pressure that isn't controlled yet.",
+      "verified": true,
+      "score": 1.0
+     }
+    ],
+    "support": "supported",
+    "flags": [],
+    "origin": "model",
+    "edited": false
+   },
+   {
+    "id": "o12",
+    "section": "objective",
+    "text": "To be clear,",
+    "evidence": [
+     {
+      "turn": 31,
+      "quote": "To be clear,",
+      "verified": true,
+      "score": 1.0
+     }
+    ],
+    "support": "supported",
+    "flags": [],
+    "origin": "model",
+    "edited": false
+   },
+   {
+    "id": "o13",
+    "section": "objective",
+    "text": "Second, please stop the pseudoephedrine, it pushes the blood pressure up",
+    "evidence": [
+     {
+      "turn": 35,
+      "quote": "Second, please stop the pseudoephedrine, it pushes the blood pressure up.",
+      "verified": true,
+      "score": 1.0
+     }
+    ],
+    "support": "supported",
+    "flags": [],
+    "origin": "model",
+    "edited": false
+   },
+   {
+    "id": "o14",
+    "section": "objective",
+    "text": "Third, the snoring and stopping breathing sound like sleep apnea, which is a common cause of hard to control blood pressure",
+    "evidence": [
+     {
+      "turn": 37,
+      "quote": "Third, the snoring and stopping breathing sound like sleep apnea, which is a common cause of hard to",
+      "verified": true,
+      "score": 1.0
+     }
+    ],
+    "support": "supported",
+    "flags": [],
+    "origin": "model",
+    "edited": false
+   },
+   {
+    "id": "o15",
+    "section": "objective",
+    "text": "I also want an echocardiogram to look at the heart muscle and a fasting lipid panel and a urine test for protein",
+    "evidence": [
+     {
+      "turn": 37,
+      "quote": "I also want an echocardiogram to look at the heart muscle and a fasting lipid panel and a",
+      "verified": true,
+      "score": 1.0
+     }
+    ],
+    "support": "supported",
+    "flags": [],
+    "origin": "model",
+    "edited": false
+   },
+   {
+    "id": "o16",
+    "section": "objective",
+    "text": "Keep checking your blood pressure at home twice a day and bring the log in your cuff next time",
+    "evidence": [
+     {
+      "turn": 39,
+      "quote": "Keep checking your blood pressure at home twice a day and bring the log in your cuff next",
+      "verified": true,
+      "score": 1.0
+     }
+    ],
+    "support": "supported",
+    "flags": [],
+    "origin": "model",
+    "edited": false
+   },
+   {
+    "id": "p1",
+    "section": "plan",
+    "text": "That's a real reason to take this seriously and we will",
+    "evidence": [
+     {
+      "turn": 19,
+      "quote": "That's a real reason to take this seriously and we will.",
+      "verified": true,
+      "score": 1.0
+     }
+    ],
+    "support": "supported",
+    "flags": [],
+    "origin": "model",
+    "edited": false
+   },
+   {
+    "id": "p2",
+    "section": "plan",
+    "text": "That's important, I'll come back to it",
+    "evidence": [
+     {
+      "turn": 23,
+      "quote": "That's important, I'll come back to it.",
+      "verified": true,
+      "score": 1.0
+     }
+    ],
+    "support": "supported",
+    "flags": [],
+    "origin": "model",
+    "edited": false
+   },
+   {
+    "id": "p3",
+    "section": "plan",
+    "text": "Let me check you",
+    "evidence": [
+     {
+      "turn": 27,
+      "quote": "Let me check you.",
+      "verified": true,
+      "score": 1.0
+     }
+    ],
+    "support": "supported",
+    "flags": [],
+    "origin": "model",
+    "edited": false
+   },
+   {
+    "id": "p4",
+    "section": "plan",
+    "text": "Use a fluticasone nasal spray instead, two sprays in each nostril once a day",
+    "evidence": [
+     {
+      "turn": 35,
+      "quote": "Use a fluticasone nasal spray instead, two sprays in each nostril once a day.",
+      "verified": true,
+      "score": 1.0
+     }
+    ],
+    "support": "supported",
+    "flags": [],
+    "origin": "model",
+    "edited": false
+   },
+   {
+    "id": "p5",
+    "section": "plan",
+    "text": "Otherwise I'll see you back in four weeks to go over the tests and your home numbers",
+    "evidence": [
+     {
+      "turn": 41,
+      "quote": "Otherwise I'll see you back in four weeks to go over the tests and your home numbers.",
+      "verified": true,
+      "score": 1.0
+     }
+    ],
+    "support": "supported",
+    "flags": [],
+    "origin": "model",
+    "edited": false
+   }
+  ],
+  "medications": [
+   {
+    "name": "amlodipine",
+    "dose": "10 mg",
+    "frequency": "once a day",
+    "route": "",
+    "status": "active",
+    "evidence": [
+     {
+      "turn": 35,
+      "quote": "First, I'm increasing the amlodipine to 10 mg once a day.",
+      "verified": true,
+      "score": 1.0
+     }
+    ],
+    "flags": []
+   },
+   {
+    "name": "pseudoephedrine",
+    "dose": "30 milligrams",
+    "frequency": "",
+    "route": "",
+    "status": "active",
+    "evidence": [
+     {
+      "turn": 24,
+      "quote": "I take pseudoephedrine most mornings for my sinuses, 30 milligrams, maybe two tablets.",
+      "verified": true,
+      "score": 1.0
+     }
+    ],
+    "flags": []
+   },
+   {
+    "name": "fluticasone",
+    "dose": "",
+    "frequency": "once a day",
+    "route": "",
+    "status": "active",
+    "evidence": [
+     {
+      "turn": 35,
+      "quote": "Use a fluticasone nasal spray instead, two sprays in each nostril once a day.",
+      "verified": true,
+      "score": 1.0
+     }
+    ],
+    "flags": []
+   }
+  ],
+  "allergies": [],
+  "after_visit_summary": "Thank you for coming in today. Here is what we talked about. That's a real reason to take this seriously and we will. That's important, I'll come back to it. Let me check you. Use a fluticasone nasal spray instead, two sprays in each nostril once a day. Otherwise I'll see you back in four weeks to go over the tests and your home numbers.",
+  "avs_flags": [],
+  "icd10": [
+   {
+    "system": "ICD-10-CM",
+    "code": "R07.1",
+    "description": "Chest pain on breathing",
+    "rank": 1,
+    "rationale": "Matches the assessment: Chest pain on breathing",
+    "evidence": [],
+    "valid": true,
+    "billable": true,
+    "flags": [
+     {
+      "kind": "code_unsupported",
+      "severity": "warning",
+      "message": "No verified quote supports this code.",
+      "acknowledged": false,
+      "detail": {}
+     }
+    ],
+    "accepted": null
+   },
+   {
+    "system": "ICD-10-CM",
+    "code": "R07.89",
+    "description": "Other chest pain",
+    "rank": 2,
+    "rationale": "Matches the assessment: Other chest pain",
+    "evidence": [],
+    "valid": true,
+    "billable": true,
+    "flags": [
+     {
+      "kind": "code_unsupported",
+      "severity": "warning",
+      "message": "No verified quote supports this code.",
+      "acknowledged": false,
+      "detail": {}
+     }
+    ],
+    "accepted": null
+   },
+   {
+    "system": "ICD-10-CM",
+    "code": "R07.9",
+    "description": "Chest pain, unspecified",
+    "rank": 3,
+    "rationale": "Matches the assessment: Chest pain, unspecified",
+    "evidence": [],
+    "valid": true,
+    "billable": true,
+    "flags": [
+     {
+      "kind": "code_unsupported",
+      "severity": "warning",
+      "message": "No verified quote supports this code.",
+      "acknowledged": false,
+      "detail": {}
+     }
+    ],
+    "accepted": null
+   }
+  ],
+  "em": {
+   "system": "CPT",
+   "code": "99204",
+   "description": "New patient office visit, moderate-complexity decision making",
+   "rank": 1,
+   "rationale": "Rule-based: prescription drug management",
+   "evidence": [],
+   "valid": true,
+   "billable": true,
+   "flags": [
+    {
+     "kind": "em_mismatch",
+     "severity": "warning",
+     "message": "The rule-based MDM estimate is low (99203): data: tests ordered or reviewed plus an independent interpretation; risk: over-the-counter drugs, minor procedure or counseling",
+     "acknowledged": false,
+     "detail": {
+      "estimate": "99203"
+     }
+    }
+   ],
+   "accepted": null
+  },
+  "procedures": [
+   {
+    "system": "CPT",
+    "code": "93000",
+    "description": "Electrocardiogram with interpretation and report",
+    "rank": 1,
+    "rationale": "Performed today",
+    "evidence": [
+     {
+      "turn": 29,
+      "quote": "I also looked at the labs and ECG doctor. Linkvist sent. Kidney function is normal. Create 9 1",
+      "verified": true,
+      "score": 1.0
+     }
+    ],
+    "valid": true,
+    "billable": true,
+    "flags": [],
+    "accepted": null
+   },
+   {
+    "system": "CPT",
+    "code": "81002",
+    "description": "Urinalysis by dipstick, non-automated, without microscopy",
+    "rank": 2,
+    "rationale": "Performed today",
+    "evidence": [
+     {
+      "turn": 37,
+      "quote": "Most people don't. Third, the snoring and stopping breathing sound like sleep apnea, which is a common cause",
+      "verified": true,
+      "score": 1.0
+     }
+    ],
+    "valid": true,
+    "billable": true,
+    "flags": [],
+    "accepted": null
+   }
+  ],
+  "mdm": {
+   "problems": "straightforward",
+   "data": "moderate",
+   "risk": "low",
+   "level": "low",
+   "code": "99203",
+   "reasons": [
+    "data: tests ordered or reviewed plus an independent interpretation",
+    "risk: over-the-counter drugs, minor procedure or counseling"
+   ]
+  },
+  "section_status": {
+   "subjective": "draft",
+   "objective": "draft",
+   "assessment": "draft",
+   "plan": "draft"
+  },
+  "model": "fake/fake-scribe",
+  "created_at": "2026-10-13T07:54:37.928573Z",
+  "signed_by": null,
+  "signed_at": null,
+  "timings": {
+   "phi_masking": 0.02,
+   "llm_note": 0.011,
+   "guards_note": 0.04,
+   "llm_codes": 0.006,
+   "guards_codes": 0.028,
+   "total": 0.105,
+   "wall": 0.11
+  },
+  "usage": {
+   "model_ms": 17,
+   "input_tokens": 3600,
+   "output_tokens": 1665,
+   "calls": 2
+  },
+  "phi": {
+   "NAME": 5,
+   "DOB": 1,
+   "ADDRESS": 2,
+   "DATE": 2,
+   "ORG": 1
+  }
+ },
+ "vault": {
+  "originals": {
+   "[NAME_1]": "Victor Petrov",
+   "[PATIENT]": "Rodrigo Esquivel",
+   "[DOB]": "January 30, 1982",
+   "[ADDRESS_1]": "Kellogg Avenue",
+   "[DATE_1]": "July",
+   "[ADDRESS_2]": "905 Magnolia Terrace",
+   "[NAME_2]": "Lindqvist",
+   "[NAME_3]": "Lindfist",
+   "[NAME_4]": "Danny Ellis",
+   "[ORG_1]": "Brightwater Construction",
+   "[DATE_2]": "August"
+  },
+  "surfaces": {
+   "[NAME_1]": [
+    "Victor Petrov"
+   ],
+   "[PATIENT]": [
+    "Rodrigo",
+    "Rodrigo Esquivel"
+   ],
+   "[DOB]": [
+    "January 30, 1982"
+   ],
+   "[ADDRESS_1]": [
+    "Kellogg Avenue"
+   ],
+   "[DATE_1]": [
+    "July"
+   ],
+   "[ADDRESS_2]": [
+    "905 Magnolia Terrace"
+   ],
+   "[NAME_2]": [
+    "Lindqvist"
+   ],
+   "[NAME_3]": [
+    "Lindfist"
+   ],
+   "[NAME_4]": [
+    "Danny Ellis"
+   ],
+   "[ORG_1]": [
+    "Brightwater Construction"
+   ],
+   "[DATE_2]": [
+    "August"
+   ]
+  },
+  "types": {
+   "[NAME_1]": "NAME",
+   "[PATIENT]": "NAME",
+   "[DOB]": "DOB",
+   "[ADDRESS_1]": "ADDRESS",
+   "[DATE_1]": "DATE",
+   "[ADDRESS_2]": "ADDRESS",
+   "[NAME_2]": "NAME",
+   "[NAME_3]": "NAME",
+   "[NAME_4]": "NAME",
+   "[ORG_1]": "ORG",
+   "[DATE_2]": "DATE"
+  },
+  "counters": {
+   "NAME": 4,
+   "ADDRESS": 2,
+   "DATE": 2,
+   "ORG": 1
+  }
+ },
+ "score": {
+  "case": "cd-06",
+  "specialty": "cardiology",
+  "facts": 30,
+  "found": 21,
+  "found_in_section": 14,
+  "negation_errors": [],
+  "trap_errors": [],
+  "missed": [
+   "f1 [subjective] Elevated blood pressure at July physical, 156/98; home readings 150s/90s for 2 months",
+   "f2 [subjective] Started amlodipine 5 mg daily 6 weeks ago; home readings still about 145/92",
+   "f6 [subjective] Family history of father with MI at 51 and fatal MI at 58; mother with stroke at 70",
+   "f7 [subjective] No personal history of heart disease",
+   "f9 [subjective] Daytime fatigue",
+   "f12 [subjective] Frequent fast food while traveling for work",
+   "f16 [objective] No carotid or abdominal bruits",
+   "f22 [assessment] Family history of premature coronary disease increases cardiovascular risk",
+   "f27 [plan] Home sleep apnea study"
+  ],
+  "statements": 28,
+  "statements_matching_gold": 19,
+  "unsupported": 0,
+  "partial": 0,
+  "flags": {},
+  "meds": 3,
+  "meds_found": 3,
+  "meds_dose_correct": 1,
+  "icd_primary": "I10",
+  "icd_suggested": [
+   "R07.1",
+   "R07.89",
+   "R07.9"
+  ],
+  "icd_top1": false,
+  "icd_top3": false,
+  "icd_top3_lenient": false,
+  "icd_top3_category": false,
+  "icd_gold_recall": 0.0,
+  "icd_invalid": 0,
+  "em_gold": "99204",
+  "em_suggested": "99204",
+  "em_exact": true,
+  "em_within_one": true,
+  "em_rule_estimate": "99203",
+  "procedures_gold": 0,
+  "procedures_found": 0
+ },
+ "egress_residue": {}
+}

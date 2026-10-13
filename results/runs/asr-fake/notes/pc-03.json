@@ -1,0 +1,587 @@
+{
+ "note": {
+  "visit_id": "pc-03",
+  "statements": [
+   {
+    "id": "s1",
+    "section": "subjective",
+    "text": "It started about ten days ago, runny nose, sore throat, the usual",
+    "evidence": [
+     {
+      "turn": 3,
+      "quote": "It started about ten days ago, runny nose, sore throat, the usual.",
+      "verified": true,
+      "score": 1.0
+     }
+    ],
+    "support": "supported",
+    "flags": [],
+    "origin": "model",
+    "edited": false
+   },
+   {
+    "id": "s2",
+    "section": "subjective",
+    "text": "Headache just the pressure kind, their neck's fine",
+    "evidence": [
+     {
+      "turn": 11,
+      "quote": "Headache just the pressure kind, my neck's fine.",
+      "verified": true,
+      "score": 1.0
+     }
+    ],
+    "support": "supported",
+    "flags": [],
+    "origin": "model",
+    "edited": false
+   },
+   {
+    "id": "s3",
+    "section": "subjective",
+    "text": "A little cough from the drip at night, breathing's fine",
+    "evidence": [
+     {
+      "turn": 13,
+      "quote": "A little cough from the drip at night, breathing's fine.",
+      "verified": true,
+      "score": 1.0
+     }
+    ],
+    "support": "supported",
+    "flags": [],
+    "origin": "model",
+    "edited": false
+   },
+   {
+    "id": "s4",
+    "section": "subjective",
+    "text": "Penicillin they got hives as a kid their mom says was covered good",
+    "evidence": [
+     {
+      "turn": 17,
+      "quote": "penicillin I got hives as a kid my mom says I was covered good",
+      "verified": true,
+      "score": 1.0
+     }
+    ],
+    "support": "supported",
+    "flags": [],
+    "origin": "model",
+    "edited": false
+   },
+   {
+    "id": "o1",
+    "section": "objective",
+    "text": "Temperature here is 99 .8, blood pressure 122 over 78, pulse 84 and oxygen is 98%",
+    "evidence": [
+     {
+      "turn": 20,
+      "quote": "Temperature here is 99 .8, blood pressure 122 over 78, pulse 84 and oxygen is 98%.",
+      "verified": true,
+      "score": 1.0
+     }
+    ],
+    "support": "supported",
+    "flags": [],
+    "origin": "model",
+    "edited": false
+   },
+   {
+    "id": "o2",
+    "section": "objective",
+    "text": "Your eardrums look normal, the inside of your nose is swollen and red and there's thick yellow green drainage",
+    "evidence": [
+     {
+      "turn": 20,
+      "quote": "Your eardrums look normal, the inside of your nose is swollen and red and there's thick yellow green",
+      "verified": true,
+      "score": 1.0
+     }
+    ],
+    "support": "supported",
+    "flags": [],
+    "origin": "model",
+    "edited": false
+   },
+   {
+    "id": "o3",
+    "section": "objective",
+    "text": "Throat is a little red, no pus on the tonsils",
+    "evidence": [
+     {
+      "turn": 22,
+      "quote": "Throat is a little red, no pus on the tonsils.",
+      "verified": true,
+      "score": 1.0
+     }
+    ],
+    "support": "supported",
+    "flags": [],
+    "origin": "model",
+    "edited": false
+   },
+   {
+    "id": "o4",
+    "section": "objective",
+    "text": "Lungs are clear",
+    "evidence": [
+     {
+      "turn": 22,
+      "quote": "Lungs are clear.",
+      "verified": true,
+      "score": 1.0
+     }
+    ],
+    "support": "supported",
+    "flags": [],
+    "origin": "model",
+    "edited": false
+   },
+   {
+    "id": "a1",
+    "section": "assessment",
+    "text": "I think so",
+    "evidence": [
+     {
+      "turn": 24,
+      "quote": "I think so.",
+      "verified": true,
+      "score": 1.0
+     }
+    ],
+    "support": "supported",
+    "flags": [],
+    "origin": "model",
+    "edited": false
+   },
+   {
+    "id": "a2",
+    "section": "assessment",
+    "text": "Most of these are viral, but because you got better and then worse again after a week, with fever and thick drainage, this looks like a bacterial sinus infection in your cheek sinuses",
+    "evidence": [
+     {
+      "turn": 24,
+      "quote": "Most of these are viral, but because you got better and then worse again after a week, with",
+      "verified": true,
+      "score": 1.0
+     }
+    ],
+    "support": "supported",
+    "flags": [],
+    "origin": "model",
+    "edited": false
+   },
+   {
+    "id": "p1",
+    "section": "plan",
+    "text": "okay we'll talk about the afrin any allergies to medicines",
+    "evidence": [
+     {
+      "turn": 16,
+      "quote": "okay we'll talk about the afrin any allergies to medicines",
+      "verified": true,
+      "score": 1.0
+     }
+    ],
+    "support": "supported",
+    "flags": [],
+    "origin": "model",
+    "edited": false
+   },
+   {
+    "id": "p2",
+    "section": "plan",
+    "text": "Lucky dog, okay let me take a look",
+    "evidence": [
+     {
+      "turn": 20,
+      "quote": "Lucky dog, okay let me take a look.",
+      "verified": true,
+      "score": 1.0
+     }
+    ],
+    "support": "supported",
+    "flags": [],
+    "origin": "model",
+    "edited": false
+   },
+   {
+    "id": "p3",
+    "section": "plan",
+    "text": "Since you're allergic to penicillin, I'm going to give you Darcocycline, 100 milligrams twice a day for seven days",
+    "evidence": [
+     {
+      "turn": 24,
+      "quote": "Since you're allergic to penicillin, I'm going to give you Darcocycline, 100 milligrams twice a day for seven",
+      "verified": true,
+      "score": 1.0
+     }
+    ],
+    "support": "supported",
+    "flags": [],
+    "origin": "model",
+    "edited": false
+   },
+   {
+    "id": "p4",
+    "section": "plan",
+    "text": "Take it with a full glass of water and stay upright for a half hour after, and use sunscreen, it makes you sunburn easily",
+    "evidence": [
+     {
+      "turn": 24,
+      "quote": "Take it with a full glass of water and stay upright for a half hour after, and use",
+      "verified": true,
+      "score": 1.0
+     }
+    ],
+    "support": "supported",
+    "flags": [],
+    "origin": "model",
+    "edited": false
+   },
+   {
+    "id": "p5",
+    "section": "plan",
+    "text": "Now, the afrin, please stop it",
+    "evidence": [
+     {
+      "turn": 24,
+      "quote": "Now, the afrin, please stop it.",
+      "verified": true,
+      "score": 1.0
+     }
+    ],
+    "support": "supported",
+    "flags": [],
+    "origin": "model",
+    "edited": false
+   },
+   {
+    "id": "p6",
+    "section": "plan",
+    "text": "Instead, use a saline rinse twice a day, and start Fludacassone nasal spray, two sprays in each nostril once a day",
+    "evidence": [
+     {
+      "turn": 26,
+      "quote": "Instead, use a saline rinse twice a day, and start Fludacassone nasal spray, two sprays in each nostril",
+      "verified": true,
+      "score": 1.0
+     }
+    ],
+    "support": "supported",
+    "flags": [],
+    "origin": "model",
+    "edited": false
+   },
+   {
+    "id": "p7",
+    "section": "plan",
+    "text": "If you're not starting to feel better in three days, or if you get swelling around your eye, trouble seeing, a stiff neck, or a really bad headache, call us right away or go to the emergency room",
+    "evidence": [
+     {
+      "turn": 28,
+      "quote": "If you're not starting to feel better in three days, or if you get swelling around your eye,",
+      "verified": true,
+      "score": 1.0
+     }
+    ],
+    "support": "supported",
+    "flags": [],
+    "origin": "model",
+    "edited": false
+   }
+  ],
+  "medications": [
+   {
+    "name": "ibuprofen",
+    "dose": "400 milligrams",
+    "frequency": "three times a day",
+    "route": "",
+    "status": "active",
+    "evidence": [
+     {
+      "turn": 26,
+      "quote": "You can keep the ibuprofen 400 milligrams up to three times a day with food.",
+      "verified": true,
+      "score": 1.0
+     }
+    ],
+    "flags": []
+   },
+   {
+    "name": "oxymetazoline",
+    "dose": "400 milligrams",
+    "frequency": "a day",
+    "route": "",
+    "status": "active",
+    "evidence": [
+     {
+      "turn": 15,
+      "quote": "ibuprofen like 400 milligrams a couple times a day and the afrin spray um I've kind of been",
+      "verified": true,
+      "score": 1.0
+     }
+    ],
+    "flags": [
+     {
+      "kind": "dose_unit",
+      "severity": "error",
+      "message": "oxymetazoline is dosed in sprays, not mg.",
+      "acknowledged": false,
+      "detail": {
+       "unit": "mg",
+       "expected": [
+        "sprays"
+       ]
+      }
+     }
+    ]
+   }
+  ],
+  "allergies": [
+   {
+    "substance": "penicillin",
+    "reaction": "",
+    "evidence": [
+     {
+      "turn": 24,
+      "quote": "Since you're allergic to penicillin, I'm going to give you Darcocycline, 100 milligrams twice a day for seven",
+      "verified": true,
+      "score": 1.0
+     }
+    ]
+   }
+  ],
+  "after_visit_summary": "Thank you for coming in today. Here is what we talked about. okay we will talk about the afrin any allergies to medicines. Lucky dog, okay let me take a look. Since you're allergic to penicillin, I'm going to give you Darcocycline, 100 milligrams twice a day for seven days. Take it with a full glass of water and stay upright for a half hour after, and use sunscreen, it makes you sunburn easily. Now, the afrin, please stop it. Instead, use a saline rinse twice a day, and start Fludacassone nasal spray, two sprays in each nostril once a day.",
+  "avs_flags": [],
+  "icd10": [
+   {
+    "system": "ICD-10-CM",
+    "code": "A99",
+    "description": "Unspecified viral hemorrhagic fever",
+    "rank": 1,
+    "rationale": "Matches the assessment: Unspecified viral hemorrhagic fever",
+    "evidence": [],
+    "valid": true,
+    "billable": true,
+    "flags": [
+     {
+      "kind": "code_unsupported",
+      "severity": "warning",
+      "message": "No verified quote supports this code.",
+      "acknowledged": false,
+      "detail": {}
+     }
+    ],
+    "accepted": null
+   },
+   {
+    "system": "ICD-10-CM",
+    "code": "A92.9",
+    "description": "Mosquito-borne viral fever, unspecified",
+    "rank": 2,
+    "rationale": "Matches the assessment: Mosquito-borne viral fever, unspecified",
+    "evidence": [],
+    "valid": true,
+    "billable": true,
+    "flags": [
+     {
+      "kind": "code_unsupported",
+      "severity": "warning",
+      "message": "No verified quote supports this code.",
+      "acknowledged": false,
+      "detail": {}
+     }
+    ],
+    "accepted": null
+   },
+   {
+    "system": "ICD-10-CM",
+    "code": "A94",
+    "description": "Unspecified arthropod-borne viral fever",
+    "rank": 3,
+    "rationale": "Matches the assessment: Unspecified arthropod-borne viral fever",
+    "evidence": [],
+    "valid": true,
+    "billable": true,
+    "flags": [
+     {
+      "kind": "code_unsupported",
+      "severity": "warning",
+      "message": "No verified quote supports this code.",
+      "acknowledged": false,
+      "detail": {}
+     }
+    ],
+    "accepted": null
+   }
+  ],
+  "em": {
+   "system": "CPT",
+   "code": "99214",
+   "description": "Established patient office visit, moderate-complexity decision making",
+   "rank": 1,
+   "rationale": "Rule-based: prescription drug management",
+   "evidence": [],
+   "valid": true,
+   "billable": true,
+   "flags": [],
+   "accepted": null
+  },
+  "procedures": [],
+  "mdm": {
+   "problems": "moderate",
+   "data": "straightforward",
+   "risk": "moderate",
+   "level": "moderate",
+   "code": "99214",
+   "reasons": [
+    "problems: acute illness with systemic symptoms",
+    "risk: prescription drug management"
+   ]
+  },
+  "section_status": {
+   "subjective": "draft",
+   "objective": "draft",
+   "assessment": "draft",
+   "plan": "draft"
+  },
+  "model": "fake/fake-scribe",
+  "created_at": "2026-10-13T07:54:36.752704Z",
+  "signed_by": null,
+  "signed_at": null,
+  "timings": {
+   "phi_masking": 0.016,
+   "llm_note": 0.008,
+   "guards_note": 0.03,
+   "llm_codes": 0.003,
+   "guards_codes": 0.022,
+   "total": 0.079,
+   "wall": 0.1
+  },
+  "usage": {
+   "model_ms": 11,
+   "input_tokens": 3141,
+   "output_tokens": 1279,
+   "calls": 2
+  },
+  "phi": {
+   "NAME": 4,
+   "DOB": 1,
+   "AGE": 1,
+   "ORG": 1,
+   "PHONE": 1
+  }
+ },
+ "vault": {
+  "originals": {
+   "[PATIENT]": "Kenji Nakamura",
+   "[DOB]": "January 28th, 1992",
+   "[AGE_90_PLUS]": "one hundred",
+   "[NAME_1]": "Hana",
+   "[NAME_2]": "Darcocycline",
+   "[NAME_3]": "Fludacassone",
+   "[ORG_1]": "Westbrook Middle School",
+   "[PHONE_1]": "555 -0129"
+  },
+  "surfaces": {
+   "[PATIENT]": [
+    "Kenji",
+    "Kenji Nakamura"
+   ],
+   "[DOB]": [
+    "January 28th, 1992"
+   ],
+   "[AGE_90_PLUS]": [
+    "one hundred"
+   ],
+   "[NAME_1]": [
+    "Hana"
+   ],
+   "[NAME_2]": [
+    "Darcocycline"
+   ],
+   "[NAME_3]": [
+    "Fludacassone"
+   ],
+   "[ORG_1]": [
+    "Westbrook Middle School"
+   ],
+   "[PHONE_1]": [
+    "555 -0129"
+   ]
+  },
+  "types": {
+   "[PATIENT]": "NAME",
+   "[DOB]": "DOB",
+   "[AGE_90_PLUS]": "AGE",
+   "[NAME_1]": "NAME",
+   "[NAME_2]": "NAME",
+   "[NAME_3]": "NAME",
+   "[ORG_1]": "ORG",
+   "[PHONE_1]": "PHONE"
+  },
+  "counters": {
+   "NAME": 3,
+   "ORG": 1,
+   "PHONE": 1
+  }
+ },
+ "score": {
+  "case": "pc-03",
+  "specialty": "primary_care",
+  "facts": 30,
+  "found": 19,
+  "found_in_section": 14,
+  "negation_errors": [
+   "f10: Denies shortness of breath (absent)"
+  ],
+  "trap_errors": [
+   "other_person: Girlfriend had the same cold first and has recovered; the dog is fine"
+  ],
+  "missed": [
+   "f3 [subjective] Upper tooth pain",
+   "f6 [subjective] Denies periorbital swelling or redness",
+   "f7 [subjective] Denies vision changes",
+   "f8 [subjective] Denies stiff neck",
+   "f10 [subjective] Denies shortness of breath",
+   "f12 [objective] Temperature 99.8",
+   "f18 [objective] Small tender cervical lymph nodes",
+   "f21 [assessment] Rebound congestion risk from prolonged oxymetazoline use",
+   "f22 [plan] Doxycycline 100 mg twice daily for 7 days (penicillin allergy)",
+   "f26 [plan] Start fluticasone nasal spray 2 sprays each nostril daily",
+   "f28 [plan] Work note provided"
+  ],
+  "statements": 17,
+  "statements_matching_gold": 13,
+  "unsupported": 0,
+  "partial": 0,
+  "flags": {
+   "dose_unit": 1
+  },
+  "meds": 5,
+  "meds_found": 2,
+  "meds_dose_correct": 1,
+  "icd_primary": "J01.00",
+  "icd_suggested": [
+   "A99",
+   "A92.9",
+   "A94"
+  ],
+  "icd_top1": false,
+  "icd_top3": false,
+  "icd_top3_lenient": false,
+  "icd_top3_category": false,
+  "icd_gold_recall": 0.0,
+  "icd_invalid": 0,
+  "em_gold": "99213",
+  "em_suggested": "99214",
+  "em_exact": false,
+  "em_within_one": true,
+  "em_rule_estimate": "99214",
+  "procedures_gold": 0,
+  "procedures_found": 0
+ },
+ "egress_residue": {}
+}

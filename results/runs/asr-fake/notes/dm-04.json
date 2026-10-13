@@ -1,0 +1,365 @@
+{
+ "note": {
+  "visit_id": "dm-04",
+  "statements": [
+   {
+    "id": "s1",
+    "section": "subjective",
+    "text": "Denies bled",
+    "evidence": [
+     {
+      "turn": 10,
+      "quote": "Have they bled or gotten infected?",
+      "verified": true,
+      "score": 1.0
+     },
+     {
+      "turn": 11,
+      "quote": "No.",
+      "verified": true,
+      "score": 1.0
+     }
+    ],
+    "support": "supported",
+    "flags": [],
+    "origin": "model",
+    "edited": false
+   },
+   {
+    "id": "o1",
+    "section": "objective",
+    "text": "On the right index finger, there are two rough, skin -colored bumps, 5mm and 3mm, with tiny black dots in them",
+    "evidence": [
+     {
+      "turn": 14,
+      "quote": "On the right index finger, there are two rough, skin -colored bumps, 5mm and 3mm, with tiny black",
+      "verified": true,
+      "score": 1.0
+     },
+     {
+      "turn": 26,
+      "quote": "Nice. Warts usually take two to four freezing sessions, so let's bring him back ...",
+      "verified": true,
+      "score": 0.0
+     },
+     {
+      "turn": 5,
+      "quote": "Warts, he's got a couple on his right pointer finger, one on his left ...",
+      "verified": true,
+      "score": 0.0
+     }
+    ],
+    "support": "supported",
+    "flags": [],
+    "origin": "model",
+    "edited": false
+   },
+   {
+    "id": "o2",
+    "section": "objective",
+    "text": "That's normal",
+    "evidence": [
+     {
+      "turn": 22,
+      "quote": "That's normal.",
+      "verified": true,
+      "score": 1.0
+     }
+    ],
+    "support": "supported",
+    "flags": [],
+    "origin": "model",
+    "edited": false
+   },
+   {
+    "id": "p1",
+    "section": "plan",
+    "text": "It can take months",
+    "evidence": [
+     {
+      "turn": 8,
+      "quote": "It can take months.",
+      "verified": true,
+      "score": 1.0
+     }
+    ],
+    "support": "supported",
+    "flags": [],
+    "origin": "model",
+    "edited": false
+   },
+   {
+    "id": "p2",
+    "section": "plan",
+    "text": "Use a gentle soap, and don't scrub hard",
+    "evidence": [
+     {
+      "turn": 18,
+      "quote": "Use a gentle soap, and don't scrub hard.",
+      "verified": true,
+      "score": 1.0
+     }
+    ],
+    "support": "supported",
+    "flags": [],
+    "origin": "model",
+    "edited": false
+   },
+   {
+    "id": "p3",
+    "section": "plan",
+    "text": "I'd like to freeze them today with liquid nitrogen",
+    "evidence": [
+     {
+      "turn": 18,
+      "quote": "I'd like to freeze them today with liquid nitrogen.",
+      "verified": true,
+      "score": 1.0
+     }
+    ],
+    "support": "supported",
+    "flags": [],
+    "origin": "model",
+    "edited": false
+   },
+   {
+    "id": "p4",
+    "section": "plan",
+    "text": "Warts usually take two to four freezing sessions, so let's bring him back in three to four weeks for another round",
+    "evidence": [
+     {
+      "turn": 26,
+      "quote": "Warts usually take two to four freezing sessions, so let's bring him back in three to four weeks",
+      "verified": true,
+      "score": 1.0
+     }
+    ],
+    "support": "supported",
+    "flags": [],
+    "origin": "model",
+    "edited": false
+   }
+  ],
+  "medications": [
+   {
+    "name": "salicylic acid",
+    "dose": "",
+    "frequency": "every night",
+    "route": "",
+    "status": "active",
+    "evidence": [
+     {
+      "turn": 7,
+      "quote": "The drugstore salicylic acid, the 17 % liquid, every night for about six weeks, didn't really do much.",
+      "verified": true,
+      "score": 1.0
+     }
+    ],
+    "flags": []
+   },
+   {
+    "name": "acetaminophen",
+    "dose": "",
+    "frequency": "",
+    "route": "",
+    "status": "active",
+    "evidence": [
+     {
+      "turn": 22,
+      "quote": "Children's acetaminophen per the package directions, if they are sore.",
+      "verified": true,
+      "score": 1.0
+     }
+    ],
+    "flags": []
+   }
+  ],
+  "allergies": [],
+  "after_visit_summary": "Thank you for coming in today. Here is what we talked about. It can take months. Use a gentle soap, and don't scrub hard. I'd like to freeze them today with liquid nitrogen. Warts usually take two to four freezing sessions, so let's bring him back in three to four weeks for another round.",
+  "avs_flags": [],
+  "icd10": [],
+  "em": {
+   "system": "CPT",
+   "code": "99203",
+   "description": "New patient office visit, low-complexity decision making",
+   "rank": 1,
+   "rationale": "Rule-based: low complexity",
+   "evidence": [],
+   "valid": true,
+   "billable": true,
+   "flags": [],
+   "accepted": null
+  },
+  "procedures": [
+   {
+    "system": "CPT",
+    "code": "17110",
+    "description": "Destruction of benign lesions such as warts, up to 14",
+    "rank": 1,
+    "rationale": "Performed today",
+    "evidence": [
+     {
+      "turn": 18,
+      "quote": "A urea 10 % cream once a day after the bath helps smooth it out. It's over the",
+      "verified": true,
+      "score": 1.0
+     }
+    ],
+    "valid": true,
+    "billable": true,
+    "flags": [],
+    "accepted": null
+   }
+  ],
+  "mdm": {
+   "problems": "straightforward",
+   "data": "low",
+   "risk": "low",
+   "level": "low",
+   "code": "99203",
+   "reasons": [
+    "data: limited (tests or an independent historian)",
+    "risk: over-the-counter drugs, minor procedure or counseling"
+   ]
+  },
+  "section_status": {
+   "subjective": "draft",
+   "objective": "draft",
+   "assessment": "draft",
+   "plan": "draft"
+  },
+  "model": "fake/fake-scribe",
+  "created_at": "2026-10-13T07:54:38.342094Z",
+  "signed_by": null,
+  "signed_at": null,
+  "timings": {
+   "phi_masking": 0.018,
+   "llm_note": 0.01,
+   "guards_note": 0.02,
+   "llm_codes": 0.003,
+   "guards_codes": 0.02,
+   "total": 0.071,
+   "wall": 0.073
+  },
+  "usage": {
+   "model_ms": 13,
+   "input_tokens": 2510,
+   "output_tokens": 559,
+   "calls": 2
+  },
+  "phi": {
+   "NAME": 5,
+   "DOB": 1,
+   "ORG": 1,
+   "PHONE": 1
+  }
+ },
+ "vault": {
+  "originals": {
+   "[NAME_1]": "Grace Oileron",
+   "[NAME_2]": "Javier",
+   "[PATIENT]": "Mateo Herrera",
+   "[DOB]": "April 21st, 2017",
+   "[NAME_3]": "Lucia",
+   "[ORG_1]": "Maple Grove Elementary",
+   "[PHONE_1]": "555 -0191",
+   "[NAME_4]": "Oyelaren"
+  },
+  "surfaces": {
+   "[NAME_1]": [
+    "Grace Oileron"
+   ],
+   "[NAME_2]": [
+    "Javier"
+   ],
+   "[PATIENT]": [
+    "Mateo",
+    "Mateo Herrera"
+   ],
+   "[DOB]": [
+    "April 21st, 2017"
+   ],
+   "[NAME_3]": [
+    "Lucia"
+   ],
+   "[ORG_1]": [
+    "Maple Grove Elementary"
+   ],
+   "[PHONE_1]": [
+    "555 -0191"
+   ],
+   "[NAME_4]": [
+    "Oyelaren"
+   ]
+  },
+  "types": {
+   "[NAME_1]": "NAME",
+   "[NAME_2]": "NAME",
+   "[PATIENT]": "NAME",
+   "[DOB]": "DOB",
+   "[NAME_3]": "NAME",
+   "[ORG_1]": "ORG",
+   "[PHONE_1]": "PHONE",
+   "[NAME_4]": "NAME"
+  },
+  "counters": {
+   "NAME": 4,
+   "ORG": 1,
+   "PHONE": 1
+  }
+ },
+ "score": {
+  "case": "dm-04",
+  "specialty": "dermatology",
+  "facts": 25,
+  "found": 6,
+  "found_in_section": 3,
+  "negation_errors": [],
+  "trap_errors": [],
+  "missed": [
+   "f1 [subjective] Warts on right index finger, left thumb and right knee; finger lesions for about 5 months and increasing in number",
+   "f2 [subjective] Tried OTC salicylic acid 17% liquid nightly for 6 weeks without much benefit",
+   "f3 [subjective] Warts not painful",
+   "f4 [subjective] Picks at the warts and bites his nails",
+   "f6 [subjective] Otherwise healthy, no immune problems or frequent infections",
+   "f7 [subjective] No medications",
+   "f8 [subjective] No known allergies",
+   "f9 [subjective] Rough sandpaper-like bumps on the backs of the upper arms",
+   "f10 [subjective] History given by father",
+   "f12 [objective] 6 mm wart on left thumb next to the nail fold",
+   "f13 [objective] 4 mm wart on right knee",
+   "f14 [objective] No surrounding redness or signs of infection",
+   "f15 [objective] Tiny rough follicular skin-colored to pink papules on the backs of both upper arms",
+   "f17 [assessment] Keratosis pilaris, benign",
+   "f21 [plan] Avoid picking and nail biting to prevent spread",
+   "f22 [plan] Call for marked redness, swelling or pus",
+   "f23 [plan] Urea 10% cream once daily after bathing and gentle soap for keratosis pilaris",
+   "f24 [plan] May attend school and sports",
+   "f25 [plan] Return in 3 to 4 weeks for repeat cryotherapy; usually needs 2 to 4 sessions"
+  ],
+  "statements": 7,
+  "statements_matching_gold": 4,
+  "unsupported": 0,
+  "partial": 0,
+  "flags": {},
+  "meds": 3,
+  "meds_found": 2,
+  "meds_dose_correct": 0,
+  "icd_primary": "B07.8",
+  "icd_suggested": [],
+  "icd_top1": false,
+  "icd_top3": false,
+  "icd_top3_lenient": false,
+  "icd_top3_category": false,
+  "icd_gold_recall": 0.0,
+  "icd_invalid": 0,
+  "em_gold": "99203",
+  "em_suggested": "99203",
+  "em_exact": true,
+  "em_within_one": true,
+  "em_rule_estimate": "99203",
+  "procedures_gold": 1,
+  "procedures_found": 1
+ },
+ "egress_residue": {}
+}

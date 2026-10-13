@@ -1,0 +1,434 @@
+{
+ "note": {
+  "visit_id": "dm-06",
+  "statements": [
+   {
+    "id": "s1",
+    "section": "subjective",
+    "text": "They catch on the comb and bleed a little when they scratch them",
+    "evidence": [
+     {
+      "turn": 7,
+      "quote": "They catch on the comb and bleed a little when I scratch them.",
+      "verified": true,
+      "score": 1.0
+     }
+    ],
+    "support": "supported",
+    "flags": [],
+    "origin": "model",
+    "edited": false
+   },
+   {
+    "id": "a1",
+    "section": "assessment",
+    "text": "Okay, you have several brown, waxy, stuck -on spots on your back, about one centimeter each",
+    "evidence": [
+     {
+      "turn": 20,
+      "quote": "Okay, you have several brown, waxy, stuck -on spots on your back, about one centimeter each.",
+      "verified": true,
+      "score": 1.0
+     }
+    ],
+    "support": "supported",
+    "flags": [],
+    "origin": "model",
+    "edited": false
+   },
+   {
+    "id": "p1",
+    "section": "plan",
+    "text": "Let's have a look",
+    "evidence": [
+     {
+      "turn": 18,
+      "quote": "Let's have a look.",
+      "verified": true,
+      "score": 1.0
+     }
+    ],
+    "support": "supported",
+    "flags": [],
+    "origin": "model",
+    "edited": false
+   },
+   {
+    "id": "p2",
+    "section": "plan",
+    "text": "Most never turn into cancer, but But some can become a squamous cell skin cancer, so I'd like to freeze all six today with liquid nitrogen",
+    "evidence": [
+     {
+      "turn": 22,
+      "quote": "Most never turn into cancer, but But some can become a squamous cell skin cancer, so I'd like",
+      "verified": true,
+      "score": 1.0
+     }
+    ],
+    "support": "supported",
+    "flags": [],
+    "origin": "model",
+    "edited": false
+   },
+   {
+    "id": "p3",
+    "section": "plan",
+    "text": "If any spot hasn't healed in six weeks or starts growing, come back and we'll biopsy it",
+    "evidence": [
+     {
+      "turn": 28,
+      "quote": "If any spot hasn't healed in six weeks or starts growing, come back and we'll biopsy it.",
+      "verified": true,
+      "score": 1.0
+     }
+    ],
+    "support": "supported",
+    "flags": [],
+    "origin": "model",
+    "edited": false
+   },
+   {
+    "id": "p4",
+    "section": "plan",
+    "text": "If a lot more of these come back, there's a cream called flurrorassel we can use to treat the whole scalp at once",
+    "evidence": [
+     {
+      "turn": 32,
+      "quote": "If a lot more of these come back, there's a cream called flurrorassel we can use to treat",
+      "verified": true,
+      "score": 1.0
+     }
+    ],
+    "support": "supported",
+    "flags": [],
+    "origin": "model",
+    "edited": false
+   },
+   {
+    "id": "p5",
+    "section": "plan",
+    "text": "But let's see how you do",
+    "evidence": [
+     {
+      "turn": 32,
+      "quote": "But let's see how you do.",
+      "verified": true,
+      "score": 1.0
+     }
+    ],
+    "support": "supported",
+    "flags": [],
+    "origin": "model",
+    "edited": false
+   },
+   {
+    "id": "p6",
+    "section": "plan",
+    "text": "I'd like to see you in six months for a full skin check, since you've had a skin cancer before",
+    "evidence": [
+     {
+      "turn": 32,
+      "quote": "I'd like to see you in six months for a full skin check, since you've had a skin",
+      "verified": true,
+      "score": 1.0
+     }
+    ],
+    "support": "supported",
+    "flags": [],
+    "origin": "model",
+    "edited": false
+   }
+  ],
+  "medications": [
+   {
+    "name": "atorvastatin",
+    "dose": "20 milligrams",
+    "frequency": "every morning",
+    "route": "",
+    "status": "active",
+    "evidence": [
+     {
+      "turn": 15,
+      "quote": "Atorvastatin 20 milligrams at night and a baby aspirin, the 81 every morning.",
+      "verified": true,
+      "score": 1.0
+     }
+    ],
+    "flags": []
+   },
+   {
+    "name": "aspirin",
+    "dose": "20 milligrams",
+    "frequency": "every morning",
+    "route": "",
+    "status": "active",
+    "evidence": [
+     {
+      "turn": 15,
+      "quote": "Atorvastatin 20 milligrams at night and a baby aspirin, the 81 every morning.",
+      "verified": true,
+      "score": 1.0
+     }
+    ],
+    "flags": [
+     {
+      "kind": "dose_range",
+      "severity": "error",
+      "message": "20 mg is outside the usual 81-1000 mg per dose for aspirin.",
+      "acknowledged": false,
+      "detail": {
+       "amount": 20.0,
+       "range": [
+        81.0,
+        1000.0
+       ]
+      }
+     }
+    ]
+   }
+  ],
+  "allergies": [],
+  "after_visit_summary": "Thank you for coming in today. Here is what we talked about. Let's have a look. Most never turn into cancer, but But some can become a squamous cell skin cancer, so I'd like to freeze all six today with liquid nitrogen. If any spot hasn't healed in six weeks or starts growing, come back and we will biopsy it. If a lot more of these come back, there's a cream called flurrorassel we can use to treat the whole scalp at once. But let's see how you do. I'd like to see you in six months for a full skin check, since you've had a skin cancer before.",
+  "avs_flags": [],
+  "icd10": [
+   {
+    "system": "ICD-10-CM",
+    "code": "L81.3",
+    "description": "Cafe au lait spots",
+    "rank": 1,
+    "rationale": "Matches the assessment: Cafe au lait spots",
+    "evidence": [],
+    "valid": true,
+    "billable": true,
+    "flags": [
+     {
+      "kind": "code_unsupported",
+      "severity": "warning",
+      "message": "No verified quote supports this code.",
+      "acknowledged": false,
+      "detail": {}
+     }
+    ],
+    "accepted": null
+   },
+   {
+    "system": "ICD-10-CM",
+    "code": "G83.81",
+    "description": "Brown-Sequard syndrome",
+    "rank": 2,
+    "rationale": "Matches the assessment: Brown-Sequard syndrome",
+    "evidence": [],
+    "valid": true,
+    "billable": true,
+    "flags": [
+     {
+      "kind": "code_unsupported",
+      "severity": "warning",
+      "message": "No verified quote supports this code.",
+      "acknowledged": false,
+      "detail": {}
+     }
+    ],
+    "accepted": null
+   },
+   {
+    "system": "ICD-10-CM",
+    "code": "H50.611",
+    "description": "Brown's sheath syndrome, right eye",
+    "rank": 3,
+    "rationale": "Matches the assessment: Brown's sheath syndrome, right eye",
+    "evidence": [],
+    "valid": true,
+    "billable": true,
+    "flags": [
+     {
+      "kind": "code_unsupported",
+      "severity": "warning",
+      "message": "No verified quote supports this code.",
+      "acknowledged": false,
+      "detail": {}
+     }
+    ],
+    "accepted": null
+   }
+  ],
+  "em": {
+   "system": "CPT",
+   "code": "99214",
+   "description": "Established patient office visit, moderate-complexity decision making",
+   "rank": 1,
+   "rationale": "Rule-based: prescription drug management",
+   "evidence": [],
+   "valid": true,
+   "billable": true,
+   "flags": [
+    {
+     "kind": "em_mismatch",
+     "severity": "warning",
+     "message": "The rule-based MDM estimate is straightforward (99212): problems: one minor problem; risk: prescription drug management",
+     "acknowledged": false,
+     "detail": {
+      "estimate": "99212"
+     }
+    }
+   ],
+   "accepted": null
+  },
+  "procedures": [],
+  "mdm": {
+   "problems": "straightforward",
+   "data": "straightforward",
+   "risk": "moderate",
+   "level": "straightforward",
+   "code": "99212",
+   "reasons": [
+    "problems: one minor problem",
+    "risk: prescription drug management"
+   ]
+  },
+  "section_status": {
+   "subjective": "draft",
+   "objective": "draft",
+   "assessment": "draft",
+   "plan": "draft"
+  },
+  "model": "fake/fake-scribe",
+  "created_at": "2026-10-13T07:54:38.561570Z",
+  "signed_by": null,
+  "signed_at": null,
+  "timings": {
+   "phi_masking": 0.019,
+   "llm_note": 0.008,
+   "guards_note": 0.026,
+   "llm_codes": 0.004,
+   "guards_codes": 0.026,
+   "total": 0.083,
+   "wall": 0.088
+  },
+  "usage": {
+   "model_ms": 12,
+   "input_tokens": 3105,
+   "output_tokens": 789,
+   "calls": 2
+  },
+  "phi": {
+   "NAME": 5,
+   "DOB": 1,
+   "ADDRESS": 1,
+   "PHONE": 1
+  }
+ },
+ "vault": {
+  "originals": {
+   "[PATIENT]": "Bogdan Petrescu",
+   "[DOB]": "March 11th, 1952",
+   "[ADDRESS_1]": "8817 County Road 12",
+   "[NAME_1]": "Seward",
+   "[PHONE_1]": "555 -0156",
+   "[NAME_2]": "Alina",
+   "[NAME_3]": "Roy",
+   "[NAME_4]": "Elina"
+  },
+  "surfaces": {
+   "[PATIENT]": [
+    "Bogdan Petrescu",
+    "Petrescu"
+   ],
+   "[DOB]": [
+    "March 11th, 1952"
+   ],
+   "[ADDRESS_1]": [
+    "8817 County Road 12"
+   ],
+   "[NAME_1]": [
+    "Seward"
+   ],
+   "[PHONE_1]": [
+    "555 -0156"
+   ],
+   "[NAME_2]": [
+    "Alina"
+   ],
+   "[NAME_3]": [
+    "Roy"
+   ],
+   "[NAME_4]": [
+    "Elina"
+   ]
+  },
+  "types": {
+   "[PATIENT]": "NAME",
+   "[DOB]": "DOB",
+   "[ADDRESS_1]": "ADDRESS",
+   "[NAME_1]": "NAME",
+   "[PHONE_1]": "PHONE",
+   "[NAME_2]": "NAME",
+   "[NAME_3]": "NAME",
+   "[NAME_4]": "NAME"
+  },
+  "counters": {
+   "ADDRESS": 1,
+   "NAME": 4,
+   "PHONE": 1
+  }
+ },
+ "score": {
+  "case": "dm-06",
+  "specialty": "dermatology",
+  "facts": 24,
+  "found": 6,
+  "found_in_section": 5,
+  "negation_errors": [],
+  "trap_errors": [],
+  "missed": [
+   "f1 [subjective] Rough sandpaper-like spots on top of the scalp for a few months",
+   "f3 [subjective] Lesions not painful",
+   "f4 [subjective] Denies rapidly growing or spontaneously bleeding lesion",
+   "f5 [subjective] Farmer with long-term sun exposure, wears mesh-back seed cap, no sunscreen use",
+   "f7 [subjective] Takes aspirin 81 mg every morning",
+   "f8 [subjective] No known drug allergies",
+   "f9 [subjective] History of basal cell carcinoma of the left cheek removed in 2021",
+   "f10 [objective] Background chronic sun damage of the scalp",
+   "f11 [objective] Six rough gritty pink scaly papules, 3 to 8 mm, on vertex and frontal scalp",
+   "f12 [objective] No thick, tender or nodular lesion concerning for skin cancer",
+   "f13 [objective] Left cheek scar well healed without recurrence",
+   "f15 [assessment] Actinic keratoses of the scalp, 6 lesions",
+   "f16 [assessment] Seborrheic keratoses on the back, benign, no treatment needed",
+   "f17 [assessment] Personal history of basal cell carcinoma, no recurrence",
+   "f19 [plan] Expect redness, blistering and crusting, healing in 1 to 3 weeks; petroleum jelly to treated spots",
+   "f21 [plan] Daily broad-spectrum sunscreen SPF 30 or higher to scalp, face, ears, backs of hands; reapply every 2 hours outdoors",
+   "f22 [plan] Wide-brimmed hat instead of seed cap, long sleeves",
+   "f24 [plan] Address updated to 8817 County Road 12, Seward, Nebraska"
+  ],
+  "statements": 8,
+  "statements_matching_gold": 5,
+  "unsupported": 0,
+  "partial": 0,
+  "flags": {
+   "dose_range": 1
+  },
+  "meds": 3,
+  "meds_found": 2,
+  "meds_dose_correct": 1,
+  "icd_primary": "L57.0",
+  "icd_suggested": [
+   "L81.3",
+   "G83.81",
+   "H50.611"
+  ],
+  "icd_top1": false,
+  "icd_top3": false,
+  "icd_top3_lenient": false,
+  "icd_top3_category": false,
+  "icd_gold_recall": 0.0,
+  "icd_invalid": 0,
+  "em_gold": "99213",
+  "em_suggested": "99214",
+  "em_exact": false,
+  "em_within_one": true,
+  "em_rule_estimate": "99212",
+  "procedures_gold": 2,
+  "procedures_found": 0
+ },
+ "egress_residue": {}
+}

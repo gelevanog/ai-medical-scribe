@@ -1,0 +1,505 @@
+{
+ "note": {
+  "visit_id": "pd-03",
+  "statements": [
+   {
+    "id": "s1",
+    "section": "subjective",
+    "text": "She's been going only every three or four days for maybe two months, and it's hard, and she cries when she goes. sometimes she hides behind the couch and holds it that's really common at this age any blood in the stool or on the toilet paper no they haven't seen any any accidents during the day or belly pain between poops no accidents she'll say her tummy hurts right before she goes but otherwise she's fine how much milk is she drinking oh a lot probably three or four cups a day she's a picky eater so milk and crackers and pasta, honestly",
+    "evidence": [
+     {
+      "turn": 3,
+      "quote": "She's been going only every three or four days for maybe two months, and it's hard, and she",
+      "verified": true,
+      "score": 1.0
+     }
+    ],
+    "support": "supported",
+    "flags": [],
+    "origin": "model",
+    "edited": false
+   },
+   {
+    "id": "s2",
+    "section": "subjective",
+    "text": "Daytime potty train since three",
+    "evidence": [
+     {
+      "turn": 11,
+      "quote": "Daytime potty train since three.",
+      "verified": true,
+      "score": 1.0
+     }
+    ],
+    "support": "supported",
+    "flags": [],
+    "origin": "model",
+    "edited": false
+   },
+   {
+    "id": "s3",
+    "section": "subjective",
+    "text": "How sleep does she snore?",
+    "evidence": [
+     {
+      "turn": 13,
+      "quote": "How sleep does she snore?",
+      "verified": true,
+      "score": 1.0
+     }
+    ],
+    "support": "supported",
+    "flags": [],
+    "origin": "model",
+    "edited": false
+   },
+   {
+    "id": "s4",
+    "section": "subjective",
+    "text": "No snoring",
+    "evidence": [
+     {
+      "turn": 13,
+      "quote": "No snoring.",
+      "verified": true,
+      "score": 1.0
+     }
+    ],
+    "support": "supported",
+    "flags": [],
+    "origin": "model",
+    "edited": false
+   },
+   {
+    "id": "s5",
+    "section": "subjective",
+    "text": "Was a little worried about her eyes, because their husband had a lazy eye as a kid, and had to wear a patch",
+    "evidence": [
+     {
+      "turn": 21,
+      "quote": "I was a little worried about her eyes, because my husband had a lazy eye as a kid,",
+      "verified": true,
+      "score": 1.0
+     }
+    ],
+    "support": "supported",
+    "flags": [],
+    "origin": "model",
+    "edited": false
+   },
+   {
+    "id": "s6",
+    "section": "subjective",
+    "text": "The one issue is constipation",
+    "evidence": [
+     {
+      "turn": 25,
+      "quote": "The one issue is constipation.",
+      "verified": true,
+      "score": 1.0
+     }
+    ],
+    "support": "supported",
+    "flags": [],
+    "origin": "model",
+    "edited": false
+   },
+   {
+    "id": "s7",
+    "section": "subjective",
+    "text": "With the hard stools and the holding, they'd like to start Mira LAX",
+    "evidence": [
+     {
+      "turn": 25,
+      "quote": "With the hard stools and the holding, I'd like to start Mira LAX.",
+      "verified": true,
+      "score": 1.0
+     }
+    ],
+    "support": "supported",
+    "flags": [],
+    "origin": "model",
+    "edited": false
+   },
+   {
+    "id": "s8",
+    "section": "subjective",
+    "text": "Part a rash or fever one to two weeks later is passable",
+    "evidence": [
+     {
+      "turn": 37,
+      "quote": "part a rash or fever one to two weeks later is passable.",
+      "verified": true,
+      "score": 1.0
+     }
+    ],
+    "support": "supported",
+    "flags": [],
+    "origin": "model",
+    "edited": false
+   },
+   {
+    "id": "s9",
+    "section": "subjective",
+    "text": "She had a cough back in September, but that's totally gone, so she's okay to get them right",
+    "evidence": [
+     {
+      "turn": 39,
+      "quote": "She had a cough back in September, but that's totally gone, so she's okay to get them right.",
+      "verified": true,
+      "score": 1.0
+     }
+    ],
+    "support": "supported",
+    "flags": [],
+    "origin": "model",
+    "edited": false
+   },
+   {
+    "id": "o1",
+    "section": "objective",
+    "text": "Her eyes line up well and the screen is normal, let me examine her",
+    "evidence": [
+     {
+      "turn": 22,
+      "quote": "Her eyes line up well and the screen is normal, let me examine her.",
+      "verified": true,
+      "score": 1.0
+     }
+    ],
+    "support": "supported",
+    "flags": [],
+    "origin": "model",
+    "edited": false
+   },
+   {
+    "id": "o2",
+    "section": "objective",
+    "text": "Heart sounds normal, no murmur,",
+    "evidence": [
+     {
+      "turn": 22,
+      "quote": "Heart sounds normal, no murmur,",
+      "verified": true,
+      "score": 1.0
+     }
+    ],
+    "support": "supported",
+    "flags": [],
+    "origin": "model",
+    "edited": false
+   },
+   {
+    "id": "p1",
+    "section": "plan",
+    "text": "If it isn't better in a month or you see blood, send me a message and we'll go from there",
+    "evidence": [
+     {
+      "turn": 32,
+      "quote": "If it isn't better in a month or you see blood, send me a message and we'll go",
+      "verified": true,
+      "score": 1.0
+     }
+    ],
+    "support": "supported",
+    "flags": [],
+    "origin": "model",
+    "edited": false
+   }
+  ],
+  "medications": [
+   {
+    "name": "multivitamin",
+    "dose": "",
+    "frequency": "a day",
+    "route": "",
+    "status": "active",
+    "evidence": [
+     {
+      "turn": 5,
+      "quote": "Just a kid's multivitamin gummy, one a day.",
+      "verified": true,
+      "score": 1.0
+     }
+    ],
+    "flags": []
+   },
+   {
+    "name": "acetaminophen",
+    "dose": "8 milliliters",
+    "frequency": "",
+    "route": "",
+    "status": "active",
+    "evidence": [
+     {
+      "turn": 37,
+      "quote": "If she's uncomfortable, children's Tylenol about 8 milliliters for her weight.",
+      "verified": true,
+      "score": 1.0
+     }
+    ],
+    "flags": []
+   },
+   {
+    "name": "influenza vaccine",
+    "dose": "",
+    "frequency": "",
+    "route": "",
+    "status": "active",
+    "evidence": [
+     {
+      "turn": 37,
+      "quote": "Has she had her flu shot this year?",
+      "verified": true,
+      "score": 1.0
+     }
+    ],
+    "flags": []
+   }
+  ],
+  "allergies": [],
+  "after_visit_summary": "Thank you for coming in today. Here is what we talked about. If it isn't better in a month or you see blood, send me a message and we will go from there.",
+  "avs_flags": [],
+  "icd10": [
+   {
+    "system": "ICD-10-CM",
+    "code": "M51.360",
+    "description": "Other intervertebral disc degeneration, lumbar region with discogenic back pain only",
+    "rank": 1,
+    "rationale": "Matches the assessment: Other intervertebral disc degeneration, lumbar region with discogenic back pain only",
+    "evidence": [],
+    "valid": true,
+    "billable": true,
+    "flags": [
+     {
+      "kind": "code_unsupported",
+      "severity": "warning",
+      "message": "No verified quote supports this code.",
+      "acknowledged": false,
+      "detail": {}
+     }
+    ],
+    "accepted": null
+   },
+   {
+    "system": "ICD-10-CM",
+    "code": "M51.370",
+    "description": "Other intervertebral disc degeneration, lumbosacral region with discogenic back pain only",
+    "rank": 2,
+    "rationale": "Matches the assessment: Other intervertebral disc degeneration, lumbosacral region with discogenic back pain only",
+    "evidence": [],
+    "valid": true,
+    "billable": true,
+    "flags": [
+     {
+      "kind": "code_unsupported",
+      "severity": "warning",
+      "message": "No verified quote supports this code.",
+      "acknowledged": false,
+      "detail": {}
+     }
+    ],
+    "accepted": null
+   },
+   {
+    "system": "ICD-10-CM",
+    "code": "M51.361",
+    "description": "Other intervertebral disc degeneration, lumbar region with lower extremity pain only",
+    "rank": 3,
+    "rationale": "Matches the assessment: Other intervertebral disc degeneration, lumbar region with lower extremity pain only",
+    "evidence": [],
+    "valid": true,
+    "billable": true,
+    "flags": [
+     {
+      "kind": "code_unsupported",
+      "severity": "warning",
+      "message": "No verified quote supports this code.",
+      "acknowledged": false,
+      "detail": {}
+     }
+    ],
+    "accepted": null
+   }
+  ],
+  "em": {
+   "system": "CPT",
+   "code": "99214",
+   "description": "Established patient office visit, moderate-complexity decision making",
+   "rank": 1,
+   "rationale": "Rule-based: prescription drug management",
+   "evidence": [],
+   "valid": true,
+   "billable": true,
+   "flags": [
+    {
+     "kind": "em_mismatch",
+     "severity": "warning",
+     "message": "The rule-based MDM estimate is low (99213): data: limited (tests or an independent historian); risk: over-the-counter drugs, minor procedure or counseling",
+     "acknowledged": false,
+     "detail": {
+      "estimate": "99213"
+     }
+    }
+   ],
+   "accepted": null
+  },
+  "procedures": [],
+  "mdm": {
+   "problems": "straightforward",
+   "data": "low",
+   "risk": "low",
+   "level": "low",
+   "code": "99213",
+   "reasons": [
+    "data: limited (tests or an independent historian)",
+    "risk: over-the-counter drugs, minor procedure or counseling"
+   ]
+  },
+  "section_status": {
+   "subjective": "draft",
+   "objective": "draft",
+   "assessment": "draft",
+   "plan": "draft"
+  },
+  "model": "fake/fake-scribe",
+  "created_at": "2026-10-13T07:54:39.797697Z",
+  "signed_by": null,
+  "signed_at": null,
+  "timings": {
+   "phi_masking": 0.021,
+   "llm_note": 0.012,
+   "guards_note": 0.033,
+   "llm_codes": 0.005,
+   "guards_codes": 0.029,
+   "total": 0.1,
+   "wall": 0.121
+  },
+  "usage": {
+   "model_ms": 17,
+   "input_tokens": 3725,
+   "output_tokens": 975,
+   "calls": 2
+  },
+  "phi": {
+   "NAME": 2,
+   "DOB": 1,
+   "ORG": 2,
+   "DATE": 3
+  }
+ },
+ "vault": {
+  "originals": {
+   "[PATIENT]": "Ananya Iyer",
+   "[DOB]": "September 28th, 2022",
+   "[ORG_1]": "how's preschool",
+   "[ORG_2]": "Sunflower Montessori",
+   "[NAME_1]": "Mira LAX",
+   "[DATE_1]": "October 2nd",
+   "[DATE_2]": "September",
+   "[DATE_3]": "Halloween"
+  },
+  "surfaces": {
+   "[PATIENT]": [
+    "Ananya",
+    "Ananya Iyer"
+   ],
+   "[DOB]": [
+    "September 28th, 2022"
+   ],
+   "[ORG_1]": [
+    "how's preschool"
+   ],
+   "[ORG_2]": [
+    "Sunflower Montessori"
+   ],
+   "[NAME_1]": [
+    "Mira LAX"
+   ],
+   "[DATE_1]": [
+    "October 2nd"
+   ],
+   "[DATE_2]": [
+    "September"
+   ],
+   "[DATE_3]": [
+    "Halloween"
+   ]
+  },
+  "types": {
+   "[PATIENT]": "NAME",
+   "[DOB]": "DOB",
+   "[ORG_1]": "ORG",
+   "[ORG_2]": "ORG",
+   "[NAME_1]": "NAME",
+   "[DATE_1]": "DATE",
+   "[DATE_2]": "DATE",
+   "[DATE_3]": "DATE"
+  },
+  "counters": {
+   "ORG": 2,
+   "NAME": 1,
+   "DATE": 3
+  }
+ },
+ "score": {
+  "case": "pd-03",
+  "specialty": "pediatrics",
+  "facts": 30,
+  "found": 12,
+  "found_in_section": 8,
+  "negation_errors": [
+   "f3: No blood in stool (absent)",
+   "f5: Abdominal pain only right before stooling (present)"
+  ],
+  "trap_errors": [],
+  "missed": [
+   "f3 [subjective] No blood in stool",
+   "f5 [subjective] Abdominal pain only right before stooling",
+   "f6 [subjective] High milk intake 3 to 4 cups a day, picky eater with low fruit and fiber",
+   "f8 [subjective] No known allergies",
+   "f9 [subjective] Developmental milestones on track (full sentences, hops on one foot, draws person, dresses self, daytime toilet trained)",
+   "f10 [subjective] Attends preschool, doing well socially",
+   "f12 [subjective] Dental visit last month, no cavities, brushes twice daily",
+   "f13 [subjective] Forward-facing car seat with 5-point harness",
+   "f14 [objective] Weight 17 kg (about 37.5 lb)",
+   "f15 [objective] Height 103 cm, BMI about 65th percentile",
+   "f16 [objective] Blood pressure 94/56",
+   "f18 [objective] Hearing screen passed both ears",
+   "f20 [objective] Abdomen soft and nontender with palpable stool in left lower quadrant",
+   "f21 [objective] Perianal exam normal, no fissure",
+   "f22 [assessment] Healthy 4-year-old with normal growth and development",
+   "f24 [plan] Start polyethylene glycol 3350 about 0.5 g/kg (8.5 g, half capful) in 4 oz liquid once daily, titrate to soft daily stool",
+   "f25 [plan] Limit milk to 16 oz (2 cups) daily, add fruit and water, toilet sitting 5 minutes after meals",
+   "f30 [plan] Next well-child check at age 5"
+  ],
+  "statements": 12,
+  "statements_matching_gold": 8,
+  "unsupported": 0,
+  "partial": 0,
+  "flags": {},
+  "meds": 3,
+  "meds_found": 2,
+  "meds_dose_correct": 1,
+  "icd_primary": "Z00.121",
+  "icd_suggested": [
+   "M51.360",
+   "M51.370",
+   "M51.361"
+  ],
+  "icd_top1": false,
+  "icd_top3": false,
+  "icd_top3_lenient": false,
+  "icd_top3_category": false,
+  "icd_gold_recall": 0.0,
+  "icd_invalid": 0,
+  "em_gold": "99213",
+  "em_suggested": "99214",
+  "em_exact": false,
+  "em_within_one": true,
+  "em_rule_estimate": "99213",
+  "procedures_gold": 3,
+  "procedures_found": 0
+ },
+ "egress_residue": {}
+}

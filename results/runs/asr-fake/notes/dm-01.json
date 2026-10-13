@@ -1,0 +1,570 @@
+{
+ "note": {
+  "visit_id": "dm-01",
+  "statements": [
+   {
+    "id": "s1",
+    "section": "subjective",
+    "text": "He says it's gotten bigger and darker since spring. \"'Okay",
+    "evidence": [
+     {
+      "turn": 5,
+      "quote": "He says it's gotten bigger and darker since spring. \"'Okay.",
+      "verified": true,
+      "score": 1.0
+     }
+    ],
+    "support": "supported",
+    "flags": [],
+    "origin": "model",
+    "edited": false
+   },
+   {
+    "id": "s2",
+    "section": "subjective",
+    "text": "No bleeding.'\" \"'Does it itch or hurt?'\" \"'It itches a little now and then",
+    "evidence": [
+     {
+      "turn": 7,
+      "quote": "No bleeding.'\" \"'Does it itch or hurt?'\" \"'It itches a little now and then.",
+      "verified": true,
+      "score": 1.0
+     }
+    ],
+    "support": "supported",
+    "flags": [],
+    "origin": "model",
+    "edited": false
+   },
+   {
+    "id": "o1",
+    "section": "objective",
+    "text": "Those all look like normal benign moles",
+    "evidence": [
+     {
+      "turn": 20,
+      "quote": "Those all look like normal benign moles.",
+      "verified": true,
+      "score": 1.0
+     }
+    ],
+    "support": "supported",
+    "flags": [],
+    "origin": "model",
+    "edited": false
+   },
+   {
+    "id": "o2",
+    "section": "objective",
+    "text": "Results take about seven to ten days",
+    "evidence": [
+     {
+      "turn": 28,
+      "quote": "Results take about seven to ten days.",
+      "verified": true,
+      "score": 1.0
+     }
+    ],
+    "support": "supported",
+    "flags": [],
+    "origin": "model",
+    "edited": false
+   },
+   {
+    "id": "o3",
+    "section": "objective",
+    "text": "If it does come back as a melanoma, we'd talk about a wider excision to get clear margins, but let's not get ahead of ourselves",
+    "evidence": [
+     {
+      "turn": 30,
+      "quote": "If it does come back as a melanoma, we'd talk about a wider excision to get clear margins,",
+      "verified": true,
+      "score": 1.0
+     }
+    ],
+    "support": "supported",
+    "flags": [],
+    "origin": "model",
+    "edited": false
+   },
+   {
+    "id": "o4",
+    "section": "objective",
+    "text": "Yes, broad -spectrum sunscreen, SPF 30 or higher, every day on exposed skin, reapply every two hours when you're outside, and a wide -brimmed hat",
+    "evidence": [
+     {
+      "turn": 32,
+      "quote": "Yes, broad -spectrum sunscreen, SPF 30 or higher, every day on exposed skin, reapply every two hours when",
+      "verified": true,
+      "score": 1.0
+     }
+    ],
+    "support": "supported",
+    "flags": [],
+    "origin": "model",
+    "edited": false
+   },
+   {
+    "id": "o5",
+    "section": "objective",
+    "text": "Let's book a follow -up for the biopsy site and results on Tuesday, October 27th",
+    "evidence": [
+     {
+      "turn": 34,
+      "quote": "Let's book a follow -up for the biopsy site and results on Tuesday, October 27th.",
+      "verified": true,
+      "score": 1.0
+     }
+    ],
+    "support": "supported",
+    "flags": [],
+    "origin": "model",
+    "edited": false
+   },
+   {
+    "id": "a1",
+    "section": "assessment",
+    "text": "Okay, so here's what I think",
+    "evidence": [
+     {
+      "turn": 22,
+      "quote": "Okay, so here's what I think.",
+      "verified": true,
+      "score": 1.0
+     }
+    ],
+    "support": "supported",
+    "flags": [],
+    "origin": "model",
+    "edited": false
+   },
+   {
+    "id": "p1",
+    "section": "plan",
+    "text": "Your referral mentions a mole on your back",
+    "evidence": [
+     {
+      "turn": 4,
+      "quote": "Your referral mentions a mole on your back.",
+      "verified": true,
+      "score": 1.0
+     }
+    ],
+    "support": "supported",
+    "flags": [],
+    "origin": "model",
+    "edited": false
+   },
+   {
+    "id": "p2",
+    "section": "plan",
+    "text": "All right, let me take a look",
+    "evidence": [
+     {
+      "turn": 18,
+      "quote": "All right, let me take a look.",
+      "verified": true,
+      "score": 1.0
+     }
+    ],
+    "support": "supported",
+    "flags": [],
+    "origin": "model",
+    "edited": false
+   },
+   {
+    "id": "p3",
+    "section": "plan",
+    "text": "Let me check the rest of you first",
+    "evidence": [
+     {
+      "turn": 20,
+      "quote": "Let me check the rest of you first.",
+      "verified": true,
+      "score": 1.0
+     }
+    ],
+    "support": "supported",
+    "flags": [],
+    "origin": "model",
+    "edited": false
+   },
+   {
+    "id": "p4",
+    "section": "plan",
+    "text": "I numbed the area with a little lidocaine with epinephrine, then I take off the whole mole with a thin blade, fairly deep, and send it to the lab",
+    "evidence": [
+     {
+      "turn": 24,
+      "quote": "I numbed the area with a little lidocaine with epinephrine, then I take off the whole mole with",
+      "verified": true,
+      "score": 1.0
+     }
+    ],
+    "support": "supported",
+    "flags": [],
+    "origin": "model",
+    "edited": false
+   },
+   {
+    "id": "p5",
+    "section": "plan",
+    "text": "If the sight gets red, heart, swollen or drains pus, call us",
+    "evidence": [
+     {
+      "turn": 30,
+      "quote": "If the sight gets red, heart, swollen or drains pus, call us.",
+      "verified": true,
+      "score": 1.0
+     }
+    ],
+    "support": "supported",
+    "flags": [],
+    "origin": "model",
+    "edited": false
+   },
+   {
+    "id": "p6",
+    "section": "plan",
+    "text": "Check your own moles once a month",
+    "evidence": [
+     {
+      "turn": 32,
+      "quote": "Check your own moles once a month.",
+      "verified": true,
+      "score": 1.0
+     }
+    ],
+    "support": "supported",
+    "flags": [],
+    "origin": "model",
+    "edited": false
+   },
+   {
+    "id": "p7",
+    "section": "plan",
+    "text": "And since you've had blistering sunburns and quite a few moles, I'd like to see you for a full skin check every year",
+    "evidence": [
+     {
+      "turn": 32,
+      "quote": "And since you've had blistering sunburns and quite a few moles, I'd like to see you for a",
+      "verified": true,
+      "score": 1.0
+     }
+    ],
+    "support": "supported",
+    "flags": [],
+    "origin": "model",
+    "edited": false
+   },
+   {
+    "id": "p8",
+    "section": "plan",
+    "text": "Take care and good luck getting out of that garage",
+    "evidence": [
+     {
+      "turn": 36,
+      "quote": "Take care and good luck getting out of that garage.",
+      "verified": true,
+      "score": 1.0
+     }
+    ],
+    "support": "supported",
+    "flags": [],
+    "origin": "model",
+    "edited": false
+   }
+  ],
+  "medications": [
+   {
+    "name": "epinephrine",
+    "dose": "",
+    "frequency": "",
+    "route": "",
+    "status": "active",
+    "evidence": [
+     {
+      "turn": 24,
+      "quote": "I numbed the area with a little lidocaine with epinephrine, then I take off the whole mole with",
+      "verified": true,
+      "score": 1.0
+     }
+    ],
+    "flags": []
+   }
+  ],
+  "allergies": [],
+  "after_visit_summary": "Thank you for coming in today. Here is what we talked about. Your referral mentions a mole on your back. All right, let me take a look. Let me check the rest of you first. I numbed the area with a little lidocaine with epinephrine, then I take off the whole mole with a thin blade, fairly deep, and send it to the lab. If the sight gets red, heart, swollen or drains pus, call us. Check your own moles once a month.",
+  "avs_flags": [],
+  "icd10": [
+   {
+    "system": "ICD-10-CM",
+    "code": "I47.11",
+    "description": "Inappropriate sinus tachycardia, so stated",
+    "rank": 1,
+    "rationale": "Matches the assessment: Inappropriate sinus tachycardia, so stated",
+    "evidence": [],
+    "valid": true,
+    "billable": true,
+    "flags": [
+     {
+      "kind": "code_unsupported",
+      "severity": "warning",
+      "message": "No verified quote supports this code.",
+      "acknowledged": false,
+      "detail": {}
+     },
+     {
+      "kind": "code_unsupported",
+      "severity": "warning",
+      "message": "The code's title shares no terms with the assessment; check it matches a diagnosis.",
+      "acknowledged": false,
+      "detail": {}
+     }
+    ],
+    "accepted": null
+   },
+   {
+    "system": "ICD-10-CM",
+    "code": "D46.0",
+    "description": "Refractory anemia without ring sideroblasts, so stated",
+    "rank": 2,
+    "rationale": "Matches the assessment: Refractory anemia without ring sideroblasts, so stated",
+    "evidence": [],
+    "valid": true,
+    "billable": true,
+    "flags": [
+     {
+      "kind": "code_unsupported",
+      "severity": "warning",
+      "message": "No verified quote supports this code.",
+      "acknowledged": false,
+      "detail": {}
+     },
+     {
+      "kind": "code_unsupported",
+      "severity": "warning",
+      "message": "The code's title shares no terms with the assessment; check it matches a diagnosis.",
+      "acknowledged": false,
+      "detail": {}
+     }
+    ],
+    "accepted": null
+   },
+   {
+    "system": "ICD-10-CM",
+    "code": "M26.211",
+    "description": "Malocclusion, Angle's class I",
+    "rank": 3,
+    "rationale": "Matches the assessment: Malocclusion, Angle's class I",
+    "evidence": [],
+    "valid": true,
+    "billable": true,
+    "flags": [
+     {
+      "kind": "code_unsupported",
+      "severity": "warning",
+      "message": "No verified quote supports this code.",
+      "acknowledged": false,
+      "detail": {}
+     },
+     {
+      "kind": "code_unsupported",
+      "severity": "warning",
+      "message": "The code's title shares no terms with the assessment; check it matches a diagnosis.",
+      "acknowledged": false,
+      "detail": {}
+     }
+    ],
+    "accepted": null
+   }
+  ],
+  "em": {
+   "system": "CPT",
+   "code": "99203",
+   "description": "New patient office visit, low-complexity decision making",
+   "rank": 1,
+   "rationale": "Rule-based: low complexity",
+   "evidence": [],
+   "valid": true,
+   "billable": true,
+   "flags": [],
+   "accepted": null
+  },
+  "procedures": [],
+  "mdm": {
+   "problems": "straightforward",
+   "data": "low",
+   "risk": "low",
+   "level": "low",
+   "code": "99203",
+   "reasons": [
+    "problems: one minor problem",
+    "data: limited (tests or an independent historian)",
+    "risk: over-the-counter drugs, minor procedure or counseling"
+   ]
+  },
+  "section_status": {
+   "subjective": "draft",
+   "objective": "draft",
+   "assessment": "draft",
+   "plan": "draft"
+  },
+  "model": "fake/fake-scribe",
+  "created_at": "2026-10-13T07:54:38.059517Z",
+  "signed_by": null,
+  "signed_at": null,
+  "timings": {
+   "phi_masking": 0.022,
+   "llm_note": 0.01,
+   "guards_note": 0.036,
+   "llm_codes": 0.005,
+   "guards_codes": 0.03,
+   "total": 0.103,
+   "wall": 0.113
+  },
+  "usage": {
+   "model_ms": 15,
+   "input_tokens": 3820,
+   "output_tokens": 1029,
+   "calls": 2
+  },
+  "phi": {
+   "NAME": 4,
+   "DOB": 1,
+   "DATE": 2,
+   "ORG": 1,
+   "PHONE": 1,
+   "EMAIL": 1
+  }
+ },
+ "vault": {
+  "originals": {
+   "[NAME_1]": "Quamer Sant",
+   "[PATIENT]": "Aisling Brennan",
+   "[DOB]": "June 9th, 1988",
+   "[NAME_2]": "Declan",
+   "[DATE_1]": "July",
+   "[ORG_1]": "Crestview Aquatics",
+   "[NAME_3]": "Levotheric",
+   "[PHONE_1]": "555 -0163",
+   "[EMAIL_1]": "ashlingdartbrennan88 at fastmail .com",
+   "[DATE_2]": "Tuesday, October 27th"
+  },
+  "surfaces": {
+   "[NAME_1]": [
+    "Quamer Sant"
+   ],
+   "[PATIENT]": [
+    "Aisling",
+    "Aisling Brennan"
+   ],
+   "[DOB]": [
+    "June 9th, 1988"
+   ],
+   "[NAME_2]": [
+    "Declan"
+   ],
+   "[DATE_1]": [
+    "July"
+   ],
+   "[ORG_1]": [
+    "Crestview Aquatics"
+   ],
+   "[NAME_3]": [
+    "Levotheric"
+   ],
+   "[PHONE_1]": [
+    "555 -0163"
+   ],
+   "[EMAIL_1]": [
+    "ashlingdartbrennan88 at fastmail .com"
+   ],
+   "[DATE_2]": [
+    "Tuesday, October 27th"
+   ]
+  },
+  "types": {
+   "[NAME_1]": "NAME",
+   "[PATIENT]": "NAME",
+   "[DOB]": "DOB",
+   "[NAME_2]": "NAME",
+   "[DATE_1]": "DATE",
+   "[ORG_1]": "ORG",
+   "[NAME_3]": "NAME",
+   "[PHONE_1]": "PHONE",
+   "[EMAIL_1]": "EMAIL",
+   "[DATE_2]": "DATE"
+  },
+  "counters": {
+   "NAME": 3,
+   "DATE": 2,
+   "ORG": 1,
+   "PHONE": 1,
+   "EMAIL": 1
+  }
+ },
+ "score": {
+  "case": "dm-01",
+  "specialty": "dermatology",
+  "facts": 30,
+  "found": 10,
+  "found_in_section": 6,
+  "negation_errors": [
+   "f5: Lesion is not painful (absent)"
+  ],
+  "trap_errors": [
+   "small_talk: Small talk about the parking garage"
+  ],
+  "missed": [
+   "f1 [subjective] Mole on left upper back near shoulder blade getting bigger and darker since spring",
+   "f2 [subjective] Change first noticed by husband in July",
+   "f5 [subjective] Lesion is not painful",
+   "f6 [subjective] No personal history of skin cancer or prior mole removal",
+   "f7 [subjective] Father had basal cell carcinoma of the nose",
+   "f8 [subjective] Significant sun exposure as a lifeguard through college",
+   "f10 [subjective] No tanning bed use",
+   "f11 [subjective] Takes levothyroxine 75 mcg every morning for thyroid",
+   "f12 [subjective] No known drug allergies",
+   "f13 [subjective] Denies axillary lumps",
+   "f14 [objective] 7 mm dark brown mole on left upper back over the scapula",
+   "f15 [objective] Lesion asymmetric with irregular notched border",
+   "f16 [objective] Black area on one side of the lesion",
+   "f17 [objective] Dermoscopy shows irregular network and peripheral dots",
+   "f19 [objective] No palpable left axillary or cervical lymphadenopathy",
+   "f20 [assessment] Changing atypical pigmented lesion of left upper back, melanoma not excluded",
+   "f22 [plan] Deep shave biopsy of the lesion performed today",
+   "f24 [plan] Specimen sent to pathology",
+   "f25 [plan] Wound care with daily gentle washing, petroleum jelly and a fresh bandage",
+   "f26 [plan] Results in 7 to 10 days via portal and phone call"
+  ],
+  "statements": 16,
+  "statements_matching_gold": 8,
+  "unsupported": 0,
+  "partial": 0,
+  "flags": {},
+  "meds": 3,
+  "meds_found": 1,
+  "meds_dose_correct": 0,
+  "icd_primary": "D49.2",
+  "icd_suggested": [
+   "I47.11",
+   "D46.0",
+   "M26.211"
+  ],
+  "icd_top1": false,
+  "icd_top3": false,
+  "icd_top3_lenient": false,
+  "icd_top3_category": false,
+  "icd_gold_recall": 0.0,
+  "icd_invalid": 0,
+  "em_gold": "99203",
+  "em_suggested": "99203",
+  "em_exact": true,
+  "em_within_one": true,
+  "em_rule_estimate": "99203",
+  "procedures_gold": 1,
+  "procedures_found": 0
+ },
+ "egress_residue": {}
+}

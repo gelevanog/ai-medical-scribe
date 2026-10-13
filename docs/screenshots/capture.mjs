@@ -100,8 +100,8 @@ for (const shot of shots) {
     await page.screenshot({ path: `${out}/signed-export.png` });
     await page.close();
   } else if (shot === "evaluation") {
-    const page = await open("/evaluation", { height: 1000 });
-    await page.screenshot({ path: `${out}/evaluation.png`, fullPage: true });
+    const page = await open("/evaluation", { height: 1270 });
+    await page.screenshot({ path: `${out}/evaluation.png` });
     await page.close();
   } else if (shot === "audit") {
     const page = await open("/audit", { height: 800 });

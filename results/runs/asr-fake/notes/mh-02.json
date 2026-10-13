@@ -1,0 +1,529 @@
+{
+ "note": {
+  "visit_id": "mh-02",
+  "statements": [
+   {
+    "id": "s1",
+    "section": "subjective",
+    "text": "Is not lying awake every night anymore, but the worrying is still there most days",
+    "evidence": [
+     {
+      "turn": 3,
+      "quote": "I'm not lying awake every night anymore, but the worrying is still there most days.",
+      "verified": true,
+      "score": 1.0
+     }
+    ],
+    "support": "supported",
+    "flags": [],
+    "origin": "model",
+    "edited": false
+   },
+   {
+    "id": "s2",
+    "section": "subjective",
+    "text": "Denies panic attacks",
+    "evidence": [
+     {
+      "turn": 8,
+      "quote": "You were having panic attacks back in the spring, any since we last met?",
+      "verified": true,
+      "score": 1.0
+     },
+     {
+      "turn": 9,
+      "quote": "No, none since April.",
+      "verified": true,
+      "score": 1.0
+     }
+    ],
+    "support": "supported",
+    "flags": [],
+    "origin": "model",
+    "edited": false
+   },
+   {
+    "id": "s3",
+    "section": "subjective",
+    "text": "Denies nausea",
+    "evidence": [
+     {
+      "turn": 12,
+      "quote": "OK, ten milligrams. Any side effects, nausea, sexual side effects, anything like that?",
+      "verified": true,
+      "score": 1.0
+     },
+     {
+      "turn": 13,
+      "quote": "No, nothing really.",
+      "verified": true,
+      "score": 1.0
+     }
+    ],
+    "support": "supported",
+    "flags": [],
+    "origin": "model",
+    "edited": false
+   },
+   {
+    "id": "s4",
+    "section": "subjective",
+    "text": "Denies sexual side effects",
+    "evidence": [
+     {
+      "turn": 12,
+      "quote": "OK, ten milligrams. Any side effects, nausea, sexual side effects, anything like that?",
+      "verified": true,
+      "score": 1.0
+     },
+     {
+      "turn": 13,
+      "quote": "No, nothing really.",
+      "verified": true,
+      "score": 1.0
+     }
+    ],
+    "support": "supported",
+    "flags": [],
+    "origin": "model",
+    "edited": false
+   },
+   {
+    "id": "s5",
+    "section": "subjective",
+    "text": "A beer on the weekend, that's it",
+    "evidence": [
+     {
+      "turn": 21,
+      "quote": "A beer on the weekend, that's it.",
+      "verified": true,
+      "score": 1.0
+     }
+    ],
+    "support": "supported",
+    "flags": [],
+    "origin": "model",
+    "edited": false
+   },
+   {
+    "id": "o1",
+    "section": "objective",
+    "text": "Your blood pressure is 128 over 82 and your pulse is 84",
+    "evidence": [
+     {
+      "turn": 22,
+      "quote": "Your blood pressure is 128 over 82 and your pulse is 84.",
+      "verified": true,
+      "score": 1.0
+     }
+    ],
+    "support": "supported",
+    "flags": [],
+    "origin": "model",
+    "edited": false
+   },
+   {
+    "id": "a1",
+    "section": "assessment",
+    "text": "So I think this is generalised anxiety disorder that's partly responding",
+    "evidence": [
+     {
+      "turn": 24,
+      "quote": "So I think this is generalised anxiety disorder that's partly responding.",
+      "verified": true,
+      "score": 1.0
+     }
+    ],
+    "support": "supported",
+    "flags": [],
+    "origin": "model",
+    "edited": false
+   },
+   {
+    "id": "p1",
+    "section": "plan",
+    "text": "You're tolerating the acetalopram well, so I'd like to increase it to 20mg once a day",
+    "evidence": [
+     {
+      "turn": 24,
+      "quote": "You're tolerating the acetalopram well, so I'd like to increase it to 20mg once a day.",
+      "verified": true,
+      "score": 1.0
+     }
+    ],
+    "support": "partial",
+    "flags": [
+     {
+      "kind": "partial_support",
+      "severity": "error",
+      "message": "Quoted turn does not contain 20; check against the transcript.",
+      "acknowledged": false,
+      "detail": {
+       "numbers_not_in_evidence": [
+        "20"
+       ]
+      }
+     }
+    ],
+    "origin": "model",
+    "edited": false
+   },
+   {
+    "id": "p2",
+    "section": "plan",
+    "text": "Take two of your tense until the new prescription is filled",
+    "evidence": [
+     {
+      "turn": 24,
+      "quote": "Take two of your tense until the new prescription is filled.",
+      "verified": true,
+      "score": 1.0
+     }
+    ],
+    "support": "supported",
+    "flags": [],
+    "origin": "model",
+    "edited": false
+   },
+   {
+    "id": "p3",
+    "section": "plan",
+    "text": "Keep the hydroxyzine for the rough moments up to once a day and don't drive after you take it",
+    "evidence": [
+     {
+      "turn": 26,
+      "quote": "Keep the hydroxyzine for the rough moments up to once a day and don't drive after you take",
+      "verified": true,
+      "score": 1.0
+     }
+    ],
+    "support": "supported",
+    "flags": [],
+    "origin": "model",
+    "edited": false
+   },
+   {
+    "id": "p4",
+    "section": "plan",
+    "text": "And I'd like you to cut the coffee to two cups a day, nothing afternoon",
+    "evidence": [
+     {
+      "turn": 26,
+      "quote": "And I'd like you to cut the coffee to two cups a day, nothing afternoon.",
+      "verified": true,
+      "score": 1.0
+     }
+    ],
+    "support": "supported",
+    "flags": [],
+    "origin": "model",
+    "edited": false
+   },
+   {
+    "id": "p5",
+    "section": "plan",
+    "text": "I'd like to see you back in six weeks, so that's around November 4th before the baby comes",
+    "evidence": [
+     {
+      "turn": 30,
+      "quote": "I'd like to see you back in six weeks, so that's around November 4th before the baby comes.",
+      "verified": true,
+      "score": 1.0
+     }
+    ],
+    "support": "supported",
+    "flags": [],
+    "origin": "model",
+    "edited": false
+   },
+   {
+    "id": "p6",
+    "section": "plan",
+    "text": "I'll update it, take care, and good luck with the reorganisation",
+    "evidence": [
+     {
+      "turn": 32,
+      "quote": "I'll update it, take care, and good luck with the reorganisation.",
+      "verified": true,
+      "score": 1.0
+     }
+    ],
+    "support": "supported",
+    "flags": [],
+    "origin": "model",
+    "edited": false
+   }
+  ],
+  "medications": [
+   {
+    "name": "hydroxyzine",
+    "dose": "",
+    "frequency": "",
+    "route": "",
+    "status": "active",
+    "evidence": [
+     {
+      "turn": 14,
+      "quote": "And the hydroxyzine.",
+      "verified": true,
+      "score": 1.0
+     }
+    ],
+    "flags": []
+   },
+   {
+    "name": "magnesium",
+    "dose": "",
+    "frequency": "",
+    "route": "",
+    "status": "active",
+    "evidence": [
+     {
+      "turn": 17,
+      "quote": "Magnesium glycinate.",
+      "verified": true,
+      "score": 1.0
+     }
+    ],
+    "flags": []
+   }
+  ],
+  "allergies": [],
+  "after_visit_summary": "Thank you for coming in today. Here is what we talked about. You're tolerating the acetalopram well, so I'd like to increase it to 20mg once a day. Take two of your tense until the new prescription is filled. Keep the hydroxyzine for the rough moments up to once a day and don't drive after you take it. And I'd like you to cut the coffee to two cups a day, nothing afternoon. I'd like to see you back in six weeks, so that's around November 4th before the baby comes. I'll update it, take care, and good luck with the reorganisation.",
+  "avs_flags": [],
+  "icd10": [
+   {
+    "system": "ICD-10-CM",
+    "code": "F41.1",
+    "description": "Generalized anxiety disorder",
+    "rank": 1,
+    "rationale": "Matches the assessment: Generalized anxiety disorder",
+    "evidence": [],
+    "valid": true,
+    "billable": true,
+    "flags": [
+     {
+      "kind": "code_unsupported",
+      "severity": "warning",
+      "message": "No verified quote supports this code.",
+      "acknowledged": false,
+      "detail": {}
+     }
+    ],
+    "accepted": null
+   },
+   {
+    "system": "ICD-10-CM",
+    "code": "F41.9",
+    "description": "Anxiety disorder, unspecified",
+    "rank": 2,
+    "rationale": "Matches the assessment: Anxiety disorder, unspecified",
+    "evidence": [],
+    "valid": true,
+    "billable": true,
+    "flags": [
+     {
+      "kind": "code_unsupported",
+      "severity": "warning",
+      "message": "No verified quote supports this code.",
+      "acknowledged": false,
+      "detail": {}
+     }
+    ],
+    "accepted": null
+   },
+   {
+    "system": "ICD-10-CM",
+    "code": "F40.9",
+    "description": "Phobic anxiety disorder, unspecified",
+    "rank": 3,
+    "rationale": "Matches the assessment: Phobic anxiety disorder, unspecified",
+    "evidence": [],
+    "valid": true,
+    "billable": true,
+    "flags": [
+     {
+      "kind": "code_unsupported",
+      "severity": "warning",
+      "message": "No verified quote supports this code.",
+      "acknowledged": false,
+      "detail": {}
+     }
+    ],
+    "accepted": null
+   }
+  ],
+  "em": {
+   "system": "CPT",
+   "code": "99214",
+   "description": "Established patient office visit, moderate-complexity decision making",
+   "rank": 1,
+   "rationale": "Rule-based: prescription drug management",
+   "evidence": [],
+   "valid": true,
+   "billable": true,
+   "flags": [
+    {
+     "kind": "em_mismatch",
+     "severity": "warning",
+     "message": "The rule-based MDM estimate is low (99213): problems: one stable chronic illness or two self-limited problems; risk: prescription drug management",
+     "acknowledged": false,
+     "detail": {
+      "estimate": "99213"
+     }
+    }
+   ],
+   "accepted": null
+  },
+  "procedures": [],
+  "mdm": {
+   "problems": "low",
+   "data": "straightforward",
+   "risk": "moderate",
+   "level": "low",
+   "code": "99213",
+   "reasons": [
+    "problems: one stable chronic illness or two self-limited problems",
+    "risk: prescription drug management"
+   ]
+  },
+  "section_status": {
+   "subjective": "draft",
+   "objective": "draft",
+   "assessment": "draft",
+   "plan": "draft"
+  },
+  "model": "fake/fake-scribe",
+  "created_at": "2026-10-13T07:54:40.470533Z",
+  "signed_by": null,
+  "signed_at": null,
+  "timings": {
+   "phi_masking": 0.015,
+   "llm_note": 0.009,
+   "guards_note": 0.025,
+   "llm_codes": 0.003,
+   "guards_codes": 0.022,
+   "total": 0.074,
+   "wall": 0.084
+  },
+  "usage": {
+   "model_ms": 12,
+   "input_tokens": 2941,
+   "output_tokens": 983,
+   "calls": 2
+  },
+  "phi": {
+   "NAME": 3,
+   "DOB": 1,
+   "ORG": 1,
+   "DATE": 3
+  }
+ },
+ "vault": {
+  "originals": {
+   "[NAME_1]": "Thomas",
+   "[PATIENT]": "Thomas Nowak",
+   "[DOB]": "November 30th, 1985",
+   "[ORG_1]": "Lakeshore Credit Union",
+   "[NAME_2]": "Kaja",
+   "[DATE_1]": "November",
+   "[DATE_2]": "April",
+   "[DATE_3]": "November 4th"
+  },
+  "surfaces": {
+   "[NAME_1]": [
+    "Thomas"
+   ],
+   "[PATIENT]": [
+    "Thomas Nowak"
+   ],
+   "[DOB]": [
+    "November 30th, 1985"
+   ],
+   "[ORG_1]": [
+    "Lakeshore Credit Union"
+   ],
+   "[NAME_2]": [
+    "Kaja"
+   ],
+   "[DATE_1]": [
+    "November"
+   ],
+   "[DATE_2]": [
+    "April"
+   ],
+   "[DATE_3]": [
+    "November 4th"
+   ]
+  },
+  "types": {
+   "[NAME_1]": "NAME",
+   "[PATIENT]": "NAME",
+   "[DOB]": "DOB",
+   "[ORG_1]": "ORG",
+   "[NAME_2]": "NAME",
+   "[DATE_1]": "DATE",
+   "[DATE_2]": "DATE",
+   "[DATE_3]": "DATE"
+  },
+  "counters": {
+   "NAME": 2,
+   "ORG": 1,
+   "DATE": 3
+  }
+ },
+ "score": {
+  "case": "mh-02",
+  "specialty": "mental_health",
+  "facts": 24,
+  "found": 11,
+  "found_in_section": 8,
+  "negation_errors": [],
+  "trap_errors": [],
+  "missed": [
+   "f1 [subjective] Anxiety partially improved, about halfway better, on escitalopram for 3 months",
+   "f3 [subjective] Muscle tension in shoulders and irritability",
+   "f4 [subjective] Sleep-onset difficulty, about 45 minutes to fall asleep",
+   "f6 [subjective] Taking escitalopram 10 mg every morning",
+   "f8 [subjective] Hydroxyzine 25 mg as needed used about twice in the past month, sedating",
+   "f9 [subjective] Takes magnesium glycinate 200 mg at night",
+   "f10 [subjective] Caffeine 4 to 5 cups of coffee daily",
+   "f12 [subjective] Denies suicidal ideation or self-harm thoughts",
+   "f13 [objective] GAD-7 score 12 today (moderate), down from 16 at start",
+   "f16 [assessment] Generalized anxiety disorder, partially responding to treatment",
+   "f18 [plan] Increase escitalopram from 10 mg to 20 mg once daily; take two 10 mg tablets until new prescription filled",
+   "f22 [plan] Continue CBT with therapist every other week",
+   "f23 [plan] Call or text 988 if thoughts of self-harm"
+  ],
+  "statements": 13,
+  "statements_matching_gold": 11,
+  "unsupported": 0,
+  "partial": 1,
+  "flags": {
+   "partial_support": 1
+  },
+  "meds": 3,
+  "meds_found": 2,
+  "meds_dose_correct": 0,
+  "icd_primary": "F41.1",
+  "icd_suggested": [
+   "F41.1",
+   "F41.9",
+   "F40.9"
+  ],
+  "icd_top1": true,
+  "icd_top3": true,
+  "icd_top3_lenient": true,
+  "icd_top3_category": true,
+  "icd_gold_recall": 1.0,
+  "icd_invalid": 0,
+  "em_gold": "99214",
+  "em_suggested": "99214",
+  "em_exact": true,
+  "em_within_one": true,
+  "em_rule_estimate": "99213",
+  "procedures_gold": 1,
+  "procedures_found": 0
+ },
+ "egress_residue": {}
+}

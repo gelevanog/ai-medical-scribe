@@ -1,0 +1,631 @@
+{
+ "note": {
+  "visit_id": "pd-06",
+  "statements": [
+   {
+    "id": "s1",
+    "section": "subjective",
+    "text": "Like a six when they walk on it, maybe a two when is just sitting",
+    "evidence": [
+     {
+      "turn": 11,
+      "quote": "Like a six when I walk on it, maybe a two when I'm just sitting.",
+      "verified": true,
+      "score": 1.0
+     }
+    ],
+    "support": "supported",
+    "flags": [],
+    "origin": "model",
+    "edited": false
+   },
+   {
+    "id": "s2",
+    "section": "subjective",
+    "text": "Denies numbness",
+    "evidence": [
+     {
+      "turn": 12,
+      "quote": "Any numbness or tingling in your foot?",
+      "verified": true,
+      "score": 1.0
+     },
+     {
+      "turn": 13,
+      "quote": "Nope.",
+      "verified": true,
+      "score": 1.0
+     }
+    ],
+    "support": "supported",
+    "flags": [],
+    "origin": "model",
+    "edited": false
+   },
+   {
+    "id": "s3",
+    "section": "subjective",
+    "text": "Denies tingling",
+    "evidence": [
+     {
+      "turn": 12,
+      "quote": "Any numbness or tingling in your foot?",
+      "verified": true,
+      "score": 1.0
+     },
+     {
+      "turn": 13,
+      "quote": "Nope.",
+      "verified": true,
+      "score": 1.0
+     }
+    ],
+    "support": "supported",
+    "flags": [],
+    "origin": "model",
+    "edited": false
+   },
+   {
+    "id": "s4",
+    "section": "subjective",
+    "text": "Not this one they sprained their left one in eighth grade but it healed fine no problem since any",
+    "evidence": [
+     {
+      "turn": 17,
+      "quote": "not this one I sprained my left one in eighth grade but it healed fine no problem since",
+      "verified": true,
+      "score": 1.0
+     }
+    ],
+    "support": "supported",
+    "flags": [],
+    "origin": "model",
+    "edited": false
+   },
+   {
+    "id": "s5",
+    "section": "subjective",
+    "text": "They got a rash all over from it",
+    "evidence": [
+     {
+      "turn": 19,
+      "quote": "I got a rash all over from it.",
+      "verified": true,
+      "score": 1.0
+     }
+    ],
+    "support": "supported",
+    "flags": [],
+    "origin": "model",
+    "edited": false
+   },
+   {
+    "id": "o1",
+    "section": "objective",
+    "text": "Your blood pressure is 118 over 72, pulse 70",
+    "evidence": [
+     {
+      "turn": 20,
+      "quote": "Your blood pressure is 118 over 72, pulse 70.",
+      "verified": true,
+      "score": 1.0
+     }
+    ],
+    "support": "supported",
+    "flags": [],
+    "origin": "model",
+    "edited": false
+   },
+   {
+    "id": "o2",
+    "section": "objective",
+    "text": "No tenderness on the back edge or tip of either ankle bone, and none at the base of your fifth toe bone or on top of the midfoot",
+    "evidence": [
+     {
+      "turn": 22,
+      "quote": "No tenderness on the back edge or tip of either ankle bone, and none at the base of",
+      "verified": true,
+      "score": 1.0
+     }
+    ],
+    "support": "supported",
+    "flags": [],
+    "origin": "model",
+    "edited": false
+   },
+   {
+    "id": "o3",
+    "section": "objective",
+    "text": "Pulses and feeling in your foot are normal",
+    "evidence": [
+     {
+      "turn": 22,
+      "quote": "Pulses and feeling in your foot are normal.",
+      "verified": true,
+      "score": 1.0
+     }
+    ],
+    "support": "supported",
+    "flags": [],
+    "origin": "model",
+    "edited": false
+   },
+   {
+    "id": "o4",
+    "section": "objective",
+    "text": "You can use crutches for two or three days if walking hurts, but put weight on it as much as you can",
+    "evidence": [
+     {
+      "turn": 26,
+      "quote": "You can use crutches for two or three days if walking hurts, but put weight on it as",
+      "verified": true,
+      "score": 1.0
+     }
+    ],
+    "support": "supported",
+    "flags": [],
+    "origin": "model",
+    "edited": false
+   },
+   {
+    "id": "o5",
+    "section": "objective",
+    "text": "If you can't put weight on it, or the pain moves onto the bone, call us and we'll get an x -ray",
+    "evidence": [
+     {
+      "turn": 28,
+      "quote": "If you can't put weight on it, or the pain moves onto the bone, call us and we'll",
+      "verified": true,
+      "score": 1.0
+     }
+    ],
+    "support": "supported",
+    "flags": [],
+    "origin": "model",
+    "edited": false
+   },
+   {
+    "id": "a1",
+    "section": "assessment",
+    "text": "When I pull your foot forward, it's a little loose compared to the left, but there's a firm end point",
+    "evidence": [
+     {
+      "turn": 22,
+      "quote": "When I pull your foot forward, it's a little loose compared to the left, but there's a firm",
+      "verified": true,
+      "score": 1.0
+     }
+    ],
+    "support": "supported",
+    "flags": [],
+    "origin": "model",
+    "edited": false
+   },
+   {
+    "id": "a2",
+    "section": "assessment",
+    "text": "So this is a sprain of the ligaments on the outside of your right ankle, probably grade 1 to 2",
+    "evidence": [
+     {
+      "turn": 24,
+      "quote": "So this is a sprain of the ligaments on the outside of your right ankle, probably grade 1",
+      "verified": true,
+      "score": 1.0
+     }
+    ],
+    "support": "supported",
+    "flags": [],
+    "origin": "model",
+    "edited": false
+   },
+   {
+    "id": "p1",
+    "section": "plan",
+    "text": "medicines you take every day or any allergies",
+    "evidence": [
+     {
+      "turn": 18,
+      "quote": "medicines you take every day or any allergies.",
+      "verified": true,
+      "score": 1.0
+     }
+    ],
+    "support": "supported",
+    "flags": [],
+    "origin": "model",
+    "edited": false
+   },
+   {
+    "id": "p2",
+    "section": "plan",
+    "text": "Okay, let's take a look",
+    "evidence": [
+     {
+      "turn": 20,
+      "quote": "Okay, let's take a look.",
+      "verified": true,
+      "score": 1.0
+     }
+    ],
+    "support": "supported",
+    "flags": [],
+    "origin": "model",
+    "edited": false
+   },
+   {
+    "id": "p3",
+    "section": "plan",
+    "text": "Here's the plan",
+    "evidence": [
+     {
+      "turn": 26,
+      "quote": "Here's the plan.",
+      "verified": true,
+      "score": 1.0
+     }
+    ],
+    "support": "supported",
+    "flags": [],
+    "origin": "model",
+    "edited": false
+   },
+   {
+    "id": "p4",
+    "section": "plan",
+    "text": "We'll fit you with a lace -up ankle brace and wear it for practice for the next couple of months",
+    "evidence": [
+     {
+      "turn": 26,
+      "quote": "We'll fit you with a lace -up ankle brace and wear it for practice for the next couple",
+      "verified": true,
+      "score": 1.0
+     }
+    ],
+    "support": "supported",
+    "flags": [],
+    "origin": "model",
+    "edited": false
+   },
+   {
+    "id": "p5",
+    "section": "plan",
+    "text": "And start ankle alphabets, tracing the letters with your toes, a few times a day",
+    "evidence": [
+     {
+      "turn": 26,
+      "quote": "And start ankle alphabets, tracing the letters with your toes, a few times a day.",
+      "verified": true,
+      "score": 1.0
+     }
+    ],
+    "support": "supported",
+    "flags": [],
+    "origin": "model",
+    "edited": false
+   },
+   {
+    "id": "p6",
+    "section": "plan",
+    "text": "If it's not much better in two weeks, come back and we'll set up physical therapy",
+    "evidence": [
+     {
+      "turn": 28,
+      "quote": "If it's not much better in two weeks, come back and we'll set up physical therapy.",
+      "verified": true,
+      "score": 1.0
+     }
+    ],
+    "support": "supported",
+    "flags": [],
+    "origin": "model",
+    "edited": false
+   }
+  ],
+  "medications": [
+   {
+    "name": "ibuprofen",
+    "dose": "400 milligrams",
+    "frequency": "as needed",
+    "route": "",
+    "status": "active",
+    "evidence": [
+     {
+      "turn": 26,
+      "quote": "Keep the ibuprofen at 400 milligrams, but every eight hours with food, for five to seven days, then",
+      "verified": true,
+      "score": 1.0
+     }
+    ],
+    "flags": []
+   },
+   {
+    "name": "sulfamethoxazole-trimethoprim",
+    "dose": "",
+    "frequency": "",
+    "route": "",
+    "status": "active",
+    "evidence": [
+     {
+      "turn": 19,
+      "quote": "And I'm allergic to bactrim.",
+      "verified": true,
+      "score": 1.0
+     }
+    ],
+    "flags": [
+     {
+      "kind": "allergy_conflict",
+      "severity": "error",
+      "message": "sulfamethoxazole-trimethoprim conflicts with the documented bactrim allergy (rash).",
+      "acknowledged": false,
+      "detail": {}
+     }
+    ]
+   }
+  ],
+  "allergies": [
+   {
+    "substance": "bactrim",
+    "reaction": "rash",
+    "evidence": [
+     {
+      "turn": 19,
+      "quote": "And I'm allergic to bactrim.",
+      "verified": true,
+      "score": 1.0
+     }
+    ]
+   }
+  ],
+  "after_visit_summary": "Thank you for coming in today. Here is what we talked about. medicines you take every day or any allergies. Okay, let's take a look. Here's the plan. we will fit you with a lace -up ankle brace and wear it for practice for the next couple of months. And start ankle alphabets, tracing the letters with your toes, a few times a day. If it's not much better in two weeks, come back and we will set up physical therapy.",
+  "avs_flags": [],
+  "icd10": [
+   {
+    "system": "ICD-10-CM",
+    "code": "M24.072",
+    "description": "Loose body in left ankle",
+    "rank": 1,
+    "rationale": "Matches the assessment: Loose body in left ankle",
+    "evidence": [],
+    "valid": true,
+    "billable": true,
+    "flags": [
+     {
+      "kind": "code_unsupported",
+      "severity": "warning",
+      "message": "No verified quote supports this code.",
+      "acknowledged": false,
+      "detail": {}
+     }
+    ],
+    "accepted": null
+   },
+   {
+    "system": "ICD-10-CM",
+    "code": "M24.042",
+    "description": "Loose body in left finger joint(s)",
+    "rank": 2,
+    "rationale": "Matches the assessment: Loose body in left finger joint(s)",
+    "evidence": [],
+    "valid": true,
+    "billable": true,
+    "flags": [
+     {
+      "kind": "code_unsupported",
+      "severity": "warning",
+      "message": "No verified quote supports this code.",
+      "acknowledged": false,
+      "detail": {}
+     }
+    ],
+    "accepted": null
+   },
+   {
+    "system": "ICD-10-CM",
+    "code": "M24.075",
+    "description": "Loose body in left toe joint(s)",
+    "rank": 3,
+    "rationale": "Matches the assessment: Loose body in left toe joint(s)",
+    "evidence": [],
+    "valid": true,
+    "billable": true,
+    "flags": [
+     {
+      "kind": "code_unsupported",
+      "severity": "warning",
+      "message": "No verified quote supports this code.",
+      "acknowledged": false,
+      "detail": {}
+     }
+    ],
+    "accepted": null
+   }
+  ],
+  "em": {
+   "system": "CPT",
+   "code": "99204",
+   "description": "New patient office visit, moderate-complexity decision making",
+   "rank": 1,
+   "rationale": "Rule-based: prescription drug management",
+   "evidence": [],
+   "valid": true,
+   "billable": true,
+   "flags": [
+    {
+     "kind": "em_mismatch",
+     "severity": "warning",
+     "message": "The rule-based MDM estimate is low (99203): problems: one stable chronic illness or two self-limited problems; risk: prescription drug management",
+     "acknowledged": false,
+     "detail": {
+      "estimate": "99203"
+     }
+    }
+   ],
+   "accepted": null
+  },
+  "procedures": [],
+  "mdm": {
+   "problems": "low",
+   "data": "straightforward",
+   "risk": "moderate",
+   "level": "low",
+   "code": "99203",
+   "reasons": [
+    "problems: one stable chronic illness or two self-limited problems",
+    "risk: prescription drug management"
+   ]
+  },
+  "section_status": {
+   "subjective": "draft",
+   "objective": "draft",
+   "assessment": "draft",
+   "plan": "draft"
+  },
+  "model": "fake/fake-scribe",
+  "created_at": "2026-10-13T07:54:40.244790Z",
+  "signed_by": null,
+  "signed_at": null,
+  "timings": {
+   "phi_masking": 0.021,
+   "llm_note": 0.011,
+   "guards_note": 0.037,
+   "llm_codes": 0.004,
+   "guards_codes": 0.025,
+   "total": 0.098,
+   "wall": 0.205
+  },
+  "usage": {
+   "model_ms": 15,
+   "input_tokens": 3215,
+   "output_tokens": 1207,
+   "calls": 2
+  },
+  "phi": {
+   "NAME": 4,
+   "DOB": 1,
+   "DATE": 1,
+   "ORG": 2,
+   "EMAIL": 1,
+   "PHONE": 1
+  }
+ },
+ "vault": {
+  "originals": {
+   "[NAME_1]": "Al Sade",
+   "[PATIENT]": "Kenji Watanabe",
+   "[DOB]": "March 9th, 2011",
+   "[NAME_2]": "Yumi",
+   "[NAME_3]": "Diego",
+   "[DATE_1]": "November",
+   "[ORG_1]": "Coach Brennan",
+   "[ORG_2]": "Westfield High School",
+   "[EMAIL_1]": "watneb11 at example .com",
+   "[PHONE_1]": "555 -0192"
+  },
+  "surfaces": {
+   "[NAME_1]": [
+    "Al Sade"
+   ],
+   "[PATIENT]": [
+    "Kenji",
+    "Kenji Watanabe",
+    "kenji"
+   ],
+   "[DOB]": [
+    "March 9th, 2011"
+   ],
+   "[NAME_2]": [
+    "Yumi"
+   ],
+   "[NAME_3]": [
+    "Diego"
+   ],
+   "[DATE_1]": [
+    "November"
+   ],
+   "[ORG_1]": [
+    "Coach Brennan"
+   ],
+   "[ORG_2]": [
+    "Westfield High School"
+   ],
+   "[EMAIL_1]": [
+    "watneb11 at example .com"
+   ],
+   "[PHONE_1]": [
+    "555 -0192"
+   ]
+  },
+  "types": {
+   "[NAME_1]": "NAME",
+   "[PATIENT]": "NAME",
+   "[DOB]": "DOB",
+   "[NAME_2]": "NAME",
+   "[NAME_3]": "NAME",
+   "[DATE_1]": "DATE",
+   "[ORG_1]": "ORG",
+   "[ORG_2]": "ORG",
+   "[EMAIL_1]": "EMAIL",
+   "[PHONE_1]": "PHONE"
+  },
+  "counters": {
+   "NAME": 3,
+   "DATE": 1,
+   "ORG": 2,
+   "EMAIL": 1,
+   "PHONE": 1
+  }
+ },
+ "score": {
+  "case": "pd-06",
+  "specialty": "pediatrics",
+  "facts": 26,
+  "found": 15,
+  "found_in_section": 11,
+  "negation_errors": [],
+  "trap_errors": [],
+  "missed": [
+   "f1 [subjective] Inversion injury of right ankle Saturday at basketball practice, landed on another player's foot",
+   "f3 [subjective] No pop heard at time of injury",
+   "f4 [subjective] Pain 6 out of 10 with walking, 2 out of 10 at rest",
+   "f6 [subjective] No knee or proximal leg pain",
+   "f8 [subjective] Takes cetirizine 10 mg seasonally in spring, not currently taking",
+   "f11 [objective] Right lateral ankle swelling and ecchymosis",
+   "f12 [objective] Tenderness over anterior talofibular ligament area, anterior to lateral malleolus",
+   "f18 [assessment] Ottawa ankle rules negative, no X-ray indicated",
+   "f19 [plan] Ice 15 to 20 minutes every 2 to 3 hours for 2 days, elevation, compression wrap",
+   "f24 [plan] No basketball for about 2 weeks; return when able to hop and run without pain; note for coach and gym class",
+   "f25 [plan] Call for X-ray if unable to bear weight or bony pain develops"
+  ],
+  "statements": 18,
+  "statements_matching_gold": 13,
+  "unsupported": 0,
+  "partial": 0,
+  "flags": {
+   "allergy_conflict": 1
+  },
+  "meds": 2,
+  "meds_found": 1,
+  "meds_dose_correct": 1,
+  "icd_primary": "S93.401A",
+  "icd_suggested": [
+   "M24.072",
+   "M24.042",
+   "M24.075"
+  ],
+  "icd_top1": false,
+  "icd_top3": false,
+  "icd_top3_lenient": false,
+  "icd_top3_category": false,
+  "icd_gold_recall": 0.0,
+  "icd_invalid": 0,
+  "em_gold": "99203",
+  "em_suggested": "99204",
+  "em_exact": false,
+  "em_within_one": true,
+  "em_rule_estimate": "99203",
+  "procedures_gold": 0,
+  "procedures_found": 0
+ },
+ "egress_residue": {}
+}

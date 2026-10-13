@@ -1,0 +1,630 @@
+{
+ "note": {
+  "visit_id": "dm-02",
+  "statements": [
+   {
+    "id": "s1",
+    "section": "subjective",
+    "text": "Has had it since, like, 18, but the last",
+    "evidence": [
+     {
+      "turn": 6,
+      "quote": "I've had it since, like, 18, but the last",
+      "verified": true,
+      "score": 1.0
+     }
+    ],
+    "support": "supported",
+    "flags": [],
+    "origin": "model",
+    "edited": false
+   },
+   {
+    "id": "s2",
+    "section": "subjective",
+    "text": "Denies extra hair growth",
+    "evidence": [
+     {
+      "turn": 15,
+      "quote": "are your periods regular? Yes, pretty regular, on the pill anyway. Any extra hair growth on your chin",
+      "verified": true,
+      "score": 1.0
+     },
+     {
+      "turn": 16,
+      "quote": "No.",
+      "verified": true,
+      "score": 1.0
+     }
+    ],
+    "support": "supported",
+    "flags": [],
+    "origin": "model",
+    "edited": false
+   },
+   {
+    "id": "s3",
+    "section": "subjective",
+    "text": "Is there any chance you could be pregnant right now?",
+    "evidence": [
+     {
+      "turn": 26,
+      "quote": "Is there any chance you could be pregnant right now?",
+      "verified": true,
+      "score": 1.0
+     }
+    ],
+    "support": "supported",
+    "flags": [],
+    "origin": "model",
+    "edited": false
+   },
+   {
+    "id": "s4",
+    "section": "subjective",
+    "text": "Um, if they did get pregnant, could they keep taking these?",
+    "evidence": [
+     {
+      "turn": 26,
+      "quote": "But, um, if I did get pregnant, could I keep taking these?",
+      "verified": true,
+      "score": 1.0
+     }
+    ],
+    "support": "supported",
+    "flags": [],
+    "origin": "model",
+    "edited": false
+   },
+   {
+    "id": "s5",
+    "section": "subjective",
+    "text": "They'll send both there, and a call back number. 555 -0118",
+    "evidence": [
+     {
+      "turn": 34,
+      "quote": "Okay, I'll send both there, and a call back number. 555 -0118.",
+      "verified": true,
+      "score": 1.0
+     }
+    ],
+    "support": "supported",
+    "flags": [],
+    "origin": "model",
+    "edited": false
+   },
+   {
+    "id": "o1",
+    "section": "objective",
+    "text": "of open and closed cometones. so blackheads and whiteheads, about 15 red -inflamed bumps, and maybe 6 pustules",
+    "evidence": [
+     {
+      "turn": 19,
+      "quote": "of open and closed cometones. so blackheads and whiteheads, about 15 red -inflamed bumps, and maybe 6 pustules.",
+      "verified": true,
+      "score": 1.0
+     }
+    ],
+    "support": "supported",
+    "flags": [],
+    "origin": "model",
+    "edited": false
+   },
+   {
+    "id": "o2",
+    "section": "objective",
+    "text": "There are a few tender 4mm nodules along the jawline, no large cysts",
+    "evidence": [
+     {
+      "turn": 19,
+      "quote": "There are a few tender 4mm nodules along the jawline, no large cysts.",
+      "verified": true,
+      "score": 1.0
+     }
+    ],
+    "support": "partial",
+    "flags": [
+     {
+      "kind": "partial_support",
+      "severity": "error",
+      "message": "Quoted turn does not contain 4; check against the transcript.",
+      "acknowledged": false,
+      "detail": {
+       "numbers_not_in_evidence": [
+        "4"
+       ]
+      }
+     }
+    ],
+    "origin": "model",
+    "edited": false
+   },
+   {
+    "id": "a1",
+    "section": "assessment",
+    "text": "You have some flat dark brown spots on both cheeks, that's post -inflammatory hyperpigmentation",
+    "evidence": [
+     {
+      "turn": 19,
+      "quote": "You have some flat dark brown spots on both cheeks, that's post -inflammatory hyperpigmentation.",
+      "verified": true,
+      "score": 1.0
+     }
+    ],
+    "support": "supported",
+    "flags": [],
+    "origin": "model",
+    "edited": false
+   },
+   {
+    "id": "p1",
+    "section": "plan",
+    "text": "I'd like to start two things",
+    "evidence": [
+     {
+      "turn": 21,
+      "quote": "I'd like to start two things.",
+      "verified": true,
+      "score": 1.0
+     }
+    ],
+    "support": "supported",
+    "flags": [],
+    "origin": "model",
+    "edited": false
+   },
+   {
+    "id": "p2",
+    "section": "plan",
+    "text": "Start every other night for the first two weeks, because it can make your skin dry and a little peely",
+    "evidence": [
+     {
+      "turn": 21,
+      "quote": "Start every other night for the first two weeks, because it can make your skin dry and a",
+      "verified": true,
+      "score": 1.0
+     }
+    ],
+    "support": "supported",
+    "flags": [],
+    "origin": "model",
+    "edited": false
+   },
+   {
+    "id": "p3",
+    "section": "plan",
+    "text": "Take it with food and a full glass of water, and stay upright for 30 minutes after, so it doesn't irritate your esophagus",
+    "evidence": [
+     {
+      "turn": 23,
+      "quote": "Take it with food and a full glass of water, and stay upright for 30 minutes after, so",
+      "verified": true,
+      "score": 1.0
+     }
+    ],
+    "support": "supported",
+    "flags": [],
+    "origin": "model",
+    "edited": false
+   },
+   {
+    "id": "p4",
+    "section": "plan",
+    "text": "Doxycycline can affect a baby's teeth and bones, and we don't use adaptiline in pregnancy either",
+    "evidence": [
+     {
+      "turn": 27,
+      "quote": "Doxycycline can affect a baby's teeth and bones, and we don't use adaptiline in pregnancy either.",
+      "verified": true,
+      "score": 1.0
+     }
+    ],
+    "support": "supported",
+    "flags": [],
+    "origin": "model",
+    "edited": false
+   },
+   {
+    "id": "p5",
+    "section": "plan",
+    "text": "So if you ever think you might be pregnant, stop both and call us",
+    "evidence": [
+     {
+      "turn": 27,
+      "quote": "So if you ever think you might be pregnant, stop both and call us.",
+      "verified": true,
+      "score": 1.0
+     }
+    ],
+    "support": "supported",
+    "flags": [],
+    "origin": "model",
+    "edited": false
+   },
+   {
+    "id": "p6",
+    "section": "plan",
+    "text": "Yours isn't there, so let's see how this does first",
+    "evidence": [
+     {
+      "turn": 33,
+      "quote": "Yours isn't there, so let's see how this does first.",
+      "verified": true,
+      "score": 1.0
+     }
+    ],
+    "support": "supported",
+    "flags": [],
+    "origin": "model",
+    "edited": false
+   },
+   {
+    "id": "p7",
+    "section": "plan",
+    "text": "Let's see you back in 3 months",
+    "evidence": [
+     {
+      "turn": 35,
+      "quote": "Let's see you back in 3 months.",
+      "verified": true,
+      "score": 1.0
+     }
+    ],
+    "support": "supported",
+    "flags": [],
+    "origin": "model",
+    "edited": false
+   },
+   {
+    "id": "p8",
+    "section": "plan",
+    "text": "bad stomach upset, or headaches with vision changes on the doxycycline, stop it and call us",
+    "evidence": [
+     {
+      "turn": 37,
+      "quote": "bad stomach upset, or headaches with vision changes on the doxycycline, stop it and call us.",
+      "verified": true,
+      "score": 1.0
+     }
+    ],
+    "support": "supported",
+    "flags": [],
+    "origin": "model",
+    "edited": false
+   },
+   {
+    "id": "p9",
+    "section": "plan",
+    "text": "We'll do, thank you so much",
+    "evidence": [
+     {
+      "turn": 37,
+      "quote": "We'll do, thank you so much.",
+      "verified": true,
+      "score": 1.0
+     }
+    ],
+    "support": "supported",
+    "flags": [],
+    "origin": "model",
+    "edited": false
+   }
+  ],
+  "medications": [
+   {
+    "name": "benzoyl peroxide",
+    "dose": "",
+    "frequency": "",
+    "route": "",
+    "status": "stopped",
+    "evidence": [
+     {
+      "turn": 8,
+      "quote": "I used a benzoyl peroxide wash, the ten percent one, for about a month, but I stopped it",
+      "verified": true,
+      "score": 1.0
+     }
+    ],
+    "flags": []
+   },
+   {
+    "name": "vitamin d3",
+    "dose": "",
+    "frequency": "a day",
+    "route": "",
+    "status": "active",
+    "evidence": [
+     {
+      "turn": 12,
+      "quote": "and vitamin D3, two thousand units a day.",
+      "verified": true,
+      "score": 1.0
+     }
+    ],
+    "flags": []
+   },
+   {
+    "name": "amoxicillin",
+    "dose": "",
+    "frequency": "",
+    "route": "",
+    "status": "active",
+    "evidence": [
+     {
+      "turn": 13,
+      "quote": "Amoxicillin, I got hives all over when I was a kid.",
+      "verified": true,
+      "score": 1.0
+     }
+    ],
+    "flags": []
+   },
+   {
+    "name": "doxycycline",
+    "dose": "100 milligrams",
+    "frequency": "",
+    "route": "",
+    "status": "active",
+    "evidence": [
+     {
+      "turn": 22,
+      "quote": "Second, doxycycline 100 milligrams twice a",
+      "verified": true,
+      "score": 1.0
+     }
+    ],
+    "flags": []
+   },
+   {
+    "name": "calcium carbonate",
+    "dose": "",
+    "frequency": "",
+    "route": "",
+    "status": "active",
+    "evidence": [
+     {
+      "turn": 23,
+      "quote": "Keep it two hours away from dairy, calcium, or iron.",
+      "verified": true,
+      "score": 1.0
+     }
+    ],
+    "flags": []
+   }
+  ],
+  "allergies": [],
+  "after_visit_summary": "Thank you for coming in today. Here is what we talked about. I'd like to start two things. Start every other night for the first two weeks, because it can make your skin dry and a little peely. Take it with food and a full glass of water, and stay upright for 30 minutes after, so it doesn't irritate your esophagus. Doxycycline can affect a baby's teeth and bones, and we don't use adaptiline in pregnancy either. So if you ever think you might be pregnant, stop both and call us. Yours isn't there, so let's see how this does first.",
+  "avs_flags": [],
+  "icd10": [
+   {
+    "system": "ICD-10-CM",
+    "code": "L81.0",
+    "description": "Postinflammatory hyperpigmentation",
+    "rank": 1,
+    "rationale": "Matches the assessment: Postinflammatory hyperpigmentation",
+    "evidence": [],
+    "valid": true,
+    "billable": true,
+    "flags": [
+     {
+      "kind": "code_unsupported",
+      "severity": "warning",
+      "message": "No verified quote supports this code.",
+      "acknowledged": false,
+      "detail": {}
+     }
+    ],
+    "accepted": null
+   },
+   {
+    "system": "ICD-10-CM",
+    "code": "L81.4",
+    "description": "Other melanin hyperpigmentation",
+    "rank": 2,
+    "rationale": "Matches the assessment: Other melanin hyperpigmentation",
+    "evidence": [],
+    "valid": true,
+    "billable": true,
+    "flags": [
+     {
+      "kind": "code_unsupported",
+      "severity": "warning",
+      "message": "No verified quote supports this code.",
+      "acknowledged": false,
+      "detail": {}
+     }
+    ],
+    "accepted": null
+   },
+   {
+    "system": "ICD-10-CM",
+    "code": "H53.61",
+    "description": "Abnormal dark adaptation curve",
+    "rank": 3,
+    "rationale": "Matches the assessment: Abnormal dark adaptation curve",
+    "evidence": [],
+    "valid": true,
+    "billable": true,
+    "flags": [
+     {
+      "kind": "code_unsupported",
+      "severity": "warning",
+      "message": "No verified quote supports this code.",
+      "acknowledged": false,
+      "detail": {}
+     }
+    ],
+    "accepted": null
+   }
+  ],
+  "em": {
+   "system": "CPT",
+   "code": "99204",
+   "description": "New patient office visit, moderate-complexity decision making",
+   "rank": 1,
+   "rationale": "Rule-based: prescription drug management",
+   "evidence": [],
+   "valid": true,
+   "billable": true,
+   "flags": [
+    {
+     "kind": "em_mismatch",
+     "severity": "warning",
+     "message": "The rule-based MDM estimate is straightforward (99202): problems: one minor problem; risk: prescription drug management",
+     "acknowledged": false,
+     "detail": {
+      "estimate": "99202"
+     }
+    }
+   ],
+   "accepted": null
+  },
+  "procedures": [],
+  "mdm": {
+   "problems": "straightforward",
+   "data": "straightforward",
+   "risk": "moderate",
+   "level": "straightforward",
+   "code": "99202",
+   "reasons": [
+    "problems: one minor problem",
+    "risk: prescription drug management"
+   ]
+  },
+  "section_status": {
+   "subjective": "draft",
+   "objective": "draft",
+   "assessment": "draft",
+   "plan": "draft"
+  },
+  "model": "fake/fake-scribe",
+  "created_at": "2026-10-13T07:54:38.167112Z",
+  "signed_by": null,
+  "signed_at": null,
+  "timings": {
+   "phi_masking": 0.018,
+   "llm_note": 0.01,
+   "guards_note": 0.031,
+   "llm_codes": 0.004,
+   "guards_codes": 0.026,
+   "total": 0.089,
+   "wall": 0.095
+  },
+  "usage": {
+   "model_ms": 14,
+   "input_tokens": 3369,
+   "output_tokens": 1316,
+   "calls": 2
+  },
+  "phi": {
+   "NAME": 3,
+   "DOB": 1,
+   "ORG": 1,
+   "ADDRESS": 1,
+   "PHONE": 1
+  }
+ },
+ "vault": {
+  "originals": {
+   "[NAME_1]": "Adise Arkhafer",
+   "[DOB]": "February 14, 2005",
+   "[NAME_2]": "Dapalene",
+   "[ORG_1]": "Lakeshore State",
+   "[NAME_3]": "Priya",
+   "[ADDRESS_1]": "4120 Belmont Avenue",
+   "[PHONE_1]": "555 -0118"
+  },
+  "surfaces": {
+   "[NAME_1]": [
+    "Adise",
+    "Adise Arkhafer"
+   ],
+   "[DOB]": [
+    "February 14, 2005"
+   ],
+   "[NAME_2]": [
+    "Dapalene"
+   ],
+   "[ORG_1]": [
+    "Lakeshore State"
+   ],
+   "[NAME_3]": [
+    "Priya"
+   ],
+   "[ADDRESS_1]": [
+    "4120 Belmont Avenue"
+   ],
+   "[PHONE_1]": [
+    "555 -0118"
+   ]
+  },
+  "types": {
+   "[NAME_1]": "NAME",
+   "[DOB]": "DOB",
+   "[NAME_2]": "NAME",
+   "[ORG_1]": "ORG",
+   "[NAME_3]": "NAME",
+   "[ADDRESS_1]": "ADDRESS",
+   "[PHONE_1]": "PHONE"
+  },
+  "counters": {
+   "NAME": 3,
+   "ORG": 1,
+   "ADDRESS": 1,
+   "PHONE": 1
+  }
+ },
+ "score": {
+  "case": "dm-02",
+  "specialty": "dermatology",
+  "facts": 27,
+  "found": 15,
+  "found_in_section": 11,
+  "negation_errors": [],
+  "trap_errors": [],
+  "missed": [
+   "f1 [subjective] Acne since age 18, much worse over the last 6 months",
+   "f4 [subjective] Takes norgestimate combined oral contraceptive pill daily",
+   "f5 [subjective] Takes vitamin D3 2000 units daily",
+   "f6 [subjective] Amoxicillin allergy with hives",
+   "f7 [subjective] Menses regular on the pill",
+   "f15 [objective] No acne scarring",
+   "f16 [objective] About 10 scattered red papules on the upper back",
+   "f17 [assessment] Moderate acne vulgaris of face and upper back",
+   "f19 [plan] Start adapalene 0.1% gel, pea-sized amount to whole face nightly, every other night for the first 2 weeks",
+   "f23 [plan] Counseled on photosensitivity; daily sunscreen SPF 30 or higher and hat",
+   "f24 [plan] Restart benzoyl peroxide as gentler 4% wash once each morning to prevent antibiotic resistance",
+   "f25 [plan] Prescriptions sent to pharmacy on Belmont Avenue"
+  ],
+  "statements": 17,
+  "statements_matching_gold": 12,
+  "unsupported": 0,
+  "partial": 1,
+  "flags": {
+   "partial_support": 1
+  },
+  "meds": 5,
+  "meds_found": 3,
+  "meds_dose_correct": 1,
+  "icd_primary": "L70.0",
+  "icd_suggested": [
+   "L81.0",
+   "L81.4",
+   "H53.61"
+  ],
+  "icd_top1": false,
+  "icd_top3": false,
+  "icd_top3_lenient": false,
+  "icd_top3_category": false,
+  "icd_gold_recall": 0.5,
+  "icd_invalid": 0,
+  "em_gold": "99204",
+  "em_suggested": "99204",
+  "em_exact": true,
+  "em_within_one": true,
+  "em_rule_estimate": "99202",
+  "procedures_gold": 0,
+  "procedures_found": 0
+ },
+ "egress_residue": {}
+}

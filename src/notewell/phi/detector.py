@@ -776,6 +776,12 @@ _ORG = re.compile(
 )
 
 
+_ORG_INNER_STOP = frozenset(
+    "at to with in on for from and but so or is was are be i i'm she he it we you they me her him them back go goes "
+    "going went didn didn't even around how what when where week weeks years grade job manager coach".split()
+)
+
+
 class PHIDetector:
     def __init__(self, *, aggressive: bool = True) -> None:
         self.aggressive = aggressive
@@ -1156,8 +1162,41 @@ class PHIDetector:
             kept.append(w.removesuffix("'s").strip(".,"))
         return " ".join(kept)
 
+    _ORG_APPOSITION = re.compile(
+        r"\b(?i:daycare|day care|preschool|school|church|gym|employer|company|plant|warehouse|work|job)\s*,\s+"
+        r"((?:[A-Za-z][\w'&-]*\s?){1,4}?)\s*[,.]"
+    )
+    _ORG_SUFFIX_ANY_CASE = re.compile(
+        r"\b((?:[A-Za-z][\w'&-]+\s){1,3}(?i:distribution|logistics|industries|manufacturing|construction|motors|foods|"
+        r"elementary|academy|montessori|daycare|preschool))\b"
+    )
+    _ORG_LEAD_STOP = frozenset(
+        "the a an our my his her their your local big small new old same that this at in to for".split()
+    )
+
     def _orgs(self, text: str) -> list[Span]:
+        """Organizations tied to the patient, also as speech recognition writes them ("at her daycare, little acorns,",
+        "harbor point distribution")."""
         spans: list[Span] = []
+        for regex in (self._ORG_APPOSITION, self._ORG_SUFFIX_ANY_CASE):
+            for m in regex.finditer(text):
+                words = m.group(1).split()
+                start = m.start(1)
+                while words and words[0].lower() in self._ORG_LEAD_STOP | NEVER_NAMES:
+                    start = text.index(words[1], start + len(words[0])) if len(words) > 1 else start
+                    words = words[1:]
+                if not words or (regex is self._ORG_APPOSITION and words[0].lower() in self.clinical):
+                    continue
+                if any(w.lower().strip("'") in _ORG_INNER_STOP for w in words):
+                    continue  # a clause, not a name ("go back to daycare", "at night")
+                if regex is self._ORG_SUFFIX_ANY_CASE and (
+                    len(words) < 2 or (words[0][0].islower() and words[0].lower() in self.english)
+                ):
+                    continue  # "her daycare" names no daycare; lowercase ordinary words are not a name
+                if regex is self._ORG_APPOSITION and len(words) == 1 and words[0].lower() in self.english:
+                    continue  # "to work, then home"
+                value = " ".join(words)
+                spans.append(Span(start, start + len(value), "ORG", value, "org_lowercase", "other", 5))
         for m in re.finditer(rf"\b(?:St|Saint)\.?\s+[{U}][{L}'-]+(?:'s)?", text):
             spans.append(Span(m.start(), m.end(), "ORG", m.group(0), "org_saint", "other", 6))
         for m in _ORG.finditer(text):

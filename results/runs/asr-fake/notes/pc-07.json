@@ -1,0 +1,614 @@
+{
+ "note": {
+  "visit_id": "pc-07",
+  "statements": [
+   {
+    "id": "s1",
+    "section": "subjective",
+    "text": "A little more tired than usual, and is always cold",
+    "evidence": [
+     {
+      "turn": 11,
+      "quote": "A little more tired than usual, and I'm always cold.",
+      "verified": true,
+      "score": 1.0
+     }
+    ],
+    "support": "supported",
+    "flags": [],
+    "origin": "model",
+    "edited": false
+   },
+   {
+    "id": "s2",
+    "section": "subjective",
+    "text": "Denies constipation",
+    "evidence": [
+     {
+      "turn": 12,
+      "quote": "Any constipation, hair thinning, or weight changes?",
+      "verified": true,
+      "score": 1.0
+     },
+     {
+      "turn": 13,
+      "quote": "No, my weight is the same.",
+      "verified": true,
+      "score": 1.0
+     }
+    ],
+    "support": "supported",
+    "flags": [],
+    "origin": "model",
+    "edited": false
+   },
+   {
+    "id": "s3",
+    "section": "subjective",
+    "text": "Denies hair thinning",
+    "evidence": [
+     {
+      "turn": 12,
+      "quote": "Any constipation, hair thinning, or weight changes?",
+      "verified": true,
+      "score": 1.0
+     },
+     {
+      "turn": 13,
+      "quote": "No, my weight is the same.",
+      "verified": true,
+      "score": 1.0
+     }
+    ],
+    "support": "supported",
+    "flags": [],
+    "origin": "model",
+    "edited": false
+   },
+   {
+    "id": "s4",
+    "section": "subjective",
+    "text": "Denies racing heart",
+    "evidence": [
+     {
+      "turn": 14,
+      "quote": "Any racing heart or palpitations?",
+      "verified": true,
+      "score": 1.0
+     },
+     {
+      "turn": 15,
+      "quote": "No.",
+      "verified": true,
+      "score": 1.0
+     }
+    ],
+    "support": "supported",
+    "flags": [],
+    "origin": "model",
+    "edited": false
+   },
+   {
+    "id": "s5",
+    "section": "subjective",
+    "text": "Denies palpitations",
+    "evidence": [
+     {
+      "turn": 14,
+      "quote": "Any racing heart or palpitations?",
+      "verified": true,
+      "score": 1.0
+     },
+     {
+      "turn": 15,
+      "quote": "No.",
+      "verified": true,
+      "score": 1.0
+     }
+    ],
+    "support": "supported",
+    "flags": [],
+    "origin": "model",
+    "edited": false
+   },
+   {
+    "id": "s6",
+    "section": "subjective",
+    "text": "Vitamin d 2000 units a day and a hair skin and nails gummy thinks it has biotin the calcium is 600 milligrams once a day do you smoke never any allergies to medicines codine makes them throw up really badly got it",
+    "evidence": [
+     {
+      "turn": 21,
+      "quote": "vitamin d 2000 units a day and a hair skin and nails gummy I think it has biotin",
+      "verified": true,
+      "score": 1.0
+     }
+    ],
+    "support": "supported",
+    "flags": [],
+    "origin": "model",
+    "edited": false
+   },
+   {
+    "id": "o1",
+    "section": "objective",
+    "text": "Your last TSH in the records from May was 5 .8, which is a bit high",
+    "evidence": [
+     {
+      "turn": 16,
+      "quote": "Your last TSH in the records from May was 5 .8, which is a bit high.",
+      "verified": true,
+      "score": 1.0
+     }
+    ],
+    "support": "supported",
+    "flags": [],
+    "origin": "model",
+    "edited": false
+   },
+   {
+    "id": "o2",
+    "section": "objective",
+    "text": "And your cholesterol panel from May shows total cholesterol 248, LDL 164, HDL 52, and triglycerides 160",
+    "evidence": [
+     {
+      "turn": 16,
+      "quote": "And your cholesterol panel from May shows total cholesterol 248, LDL 164, HDL 52, and triglycerides 160.",
+      "verified": true,
+      "score": 1.0
+     }
+    ],
+    "support": "supported",
+    "flags": [],
+    "origin": "model",
+    "edited": false
+   },
+   {
+    "id": "o3",
+    "section": "objective",
+    "text": "your Your blood pressure is 124 over 78, pulse 66, weight 158 pounds",
+    "evidence": [
+     {
+      "turn": 22,
+      "quote": "your Your blood pressure is 124 over 78, pulse 66, weight 158 pounds.",
+      "verified": true,
+      "score": 1.0
+     }
+    ],
+    "support": "supported",
+    "flags": [],
+    "origin": "model",
+    "edited": false
+   },
+   {
+    "id": "o4",
+    "section": "objective",
+    "text": "Skin is a little dry, heart is regular, lungs are clear, and your reflexes are normal",
+    "evidence": [
+     {
+      "turn": 22,
+      "quote": "Skin is a little dry, heart is regular, lungs are clear, and your reflexes are normal.",
+      "verified": true,
+      "score": 1.0
+     }
+    ],
+    "support": "supported",
+    "flags": [],
+    "origin": "model",
+    "edited": false
+   },
+   {
+    "id": "o5",
+    "section": "objective",
+    "text": "The TSH was a little high and I think part of that is the way you're taking the pill. coffee and calcium both block absorption, take the levathuric sign alone with water first thing in the morning, at least 30 to 60 minutes before coffee or breakfast, and take the calcium at least four hours later with dinner is easiest",
+    "evidence": [
+     {
+      "turn": 24,
+      "quote": "The TSH was a little high and I think part of that is the way you're taking the",
+      "verified": true,
+      "score": 1.0
+     }
+    ],
+    "support": "supported",
+    "flags": [],
+    "origin": "model",
+    "edited": false
+   },
+   {
+    "id": "o6",
+    "section": "objective",
+    "text": "I'll recheck the TSH and a free T4 in six weeks once you've been taking it the right way",
+    "evidence": [
+     {
+      "turn": 26,
+      "quote": "I'll recheck the TSH and a free T4 in six weeks once you've been taking it the right",
+      "verified": true,
+      "score": 1.0
+     }
+    ],
+    "support": "supported",
+    "flags": [],
+    "origin": "model",
+    "edited": false
+   },
+   {
+    "id": "o7",
+    "section": "objective",
+    "text": "If the TSH is still above 4 .5, we'd go up to 100 micrograms, but let's see first",
+    "evidence": [
+     {
+      "turn": 28,
+      "quote": "If the TSH is still above 4 .5, we'd go up to 100 micrograms, but let's see first.",
+      "verified": true,
+      "score": 1.0
+     }
+    ],
+    "support": "supported",
+    "flags": [],
+    "origin": "model",
+    "edited": false
+   },
+   {
+    "id": "p1",
+    "section": "plan",
+    "text": "Since you're new with us, let's confirm your full name and date of birth",
+    "evidence": [
+     {
+      "turn": 0,
+      "quote": "Since you're new with us, let's confirm your full name and date of birth.",
+      "verified": true,
+      "score": 1.0
+     }
+    ],
+    "support": "supported",
+    "flags": [],
+    "origin": "model",
+    "edited": false
+   },
+   {
+    "id": "p2",
+    "section": "plan",
+    "text": "I'll come back to that",
+    "evidence": [
+     {
+      "turn": 10,
+      "quote": "I'll come back to that.",
+      "verified": true,
+      "score": 1.0
+     }
+    ],
+    "support": "supported",
+    "flags": [],
+    "origin": "model",
+    "edited": false
+   },
+   {
+    "id": "p3",
+    "section": "plan",
+    "text": "Stop the biotin gummy three days before that blood draw because biotin can throw off thyroid tests",
+    "evidence": [
+     {
+      "turn": 26,
+      "quote": "Stop the biotin gummy three days before that blood draw because biotin can throw off thyroid tests.",
+      "verified": true,
+      "score": 1.0
+     }
+    ],
+    "support": "supported",
+    "flags": [],
+    "origin": "model",
+    "edited": false
+   },
+   {
+    "id": "p4",
+    "section": "plan",
+    "text": "Second, your cholesterol is high and an underactive thyroid can raise cholesterol, so I'd like a fasting lipid panel with the thyroid labs and then we'll talk about your overall heart risk, especially with your father's history",
+    "evidence": [
+     {
+      "turn": 28,
+      "quote": "Second, your cholesterol is high and an underactive thyroid can raise cholesterol, so I'd like a fasting lipid",
+      "verified": true,
+      "score": 1.0
+     }
+    ],
+    "support": "supported",
+    "flags": [],
+    "origin": "model",
+    "edited": false
+   },
+   {
+    "id": "p5",
+    "section": "plan",
+    "text": "I'll see you in six to eight weeks after the labs",
+    "evidence": [
+     {
+      "turn": 30,
+      "quote": "I'll see you in six to eight weeks after the labs.",
+      "verified": true,
+      "score": 1.0
+     }
+    ],
+    "support": "supported",
+    "flags": [],
+    "origin": "model",
+    "edited": false
+   }
+  ],
+  "medications": [
+   {
+    "name": "calcium carbonate",
+    "dose": "600 milligrams",
+    "frequency": "a day",
+    "route": "",
+    "status": "active",
+    "evidence": [
+     {
+      "turn": 21,
+      "quote": "vitamin d 2000 units a day and a hair skin and nails gummy I think it has biotin",
+      "verified": true,
+      "score": 1.0
+     }
+    ],
+    "flags": []
+   },
+   {
+    "name": "vitamin d3",
+    "dose": "2000 units",
+    "frequency": "a day",
+    "route": "",
+    "status": "active",
+    "evidence": [
+     {
+      "turn": 21,
+      "quote": "vitamin d 2000 units a day and a hair skin and nails gummy I think it has biotin",
+      "verified": true,
+      "score": 1.0
+     }
+    ],
+    "flags": []
+   }
+  ],
+  "allergies": [],
+  "after_visit_summary": "Thank you for coming in today. Here is what we talked about. Since you're new with us, let's confirm your full name and date of birth. I'll come back to that. Stop the biotin gummy three days before that blood draw because biotin can throw off thyroid tests. Second, your cholesterol is high and an underactive thyroid can raise cholesterol, so I'd like a fasting lipid panel with the thyroid labs and then we will talk about your overall heart risk, especially with your father's history. I'll see you in six to eight weeks after the labs.",
+  "avs_flags": [],
+  "icd10": [
+   {
+    "system": "ICD-10-CM",
+    "code": "Q97.1",
+    "description": "Female with more than three X chromosomes",
+    "rank": 1,
+    "rationale": "Matches the assessment: Female with more than three X chromosomes",
+    "evidence": [],
+    "valid": true,
+    "billable": true,
+    "flags": [
+     {
+      "kind": "code_unsupported",
+      "severity": "warning",
+      "message": "No verified quote supports this code.",
+      "acknowledged": false,
+      "detail": {}
+     }
+    ],
+    "accepted": null
+   },
+   {
+    "system": "ICD-10-CM",
+    "code": "Q98.1",
+    "description": "Klinefelter syndrome, male with more than two X chromosomes",
+    "rank": 2,
+    "rationale": "Matches the assessment: Klinefelter syndrome, male with more than two X chromosomes",
+    "evidence": [],
+    "valid": true,
+    "billable": true,
+    "flags": [
+     {
+      "kind": "code_unsupported",
+      "severity": "warning",
+      "message": "No verified quote supports this code.",
+      "acknowledged": false,
+      "detail": {}
+     }
+    ],
+    "accepted": null
+   },
+   {
+    "system": "ICD-10-CM",
+    "code": "K58.1",
+    "description": "Irritable bowel syndrome with constipation",
+    "rank": 3,
+    "rationale": "Matches the assessment: Irritable bowel syndrome with constipation",
+    "evidence": [],
+    "valid": true,
+    "billable": true,
+    "flags": [
+     {
+      "kind": "code_unsupported",
+      "severity": "warning",
+      "message": "No verified quote supports this code.",
+      "acknowledged": false,
+      "detail": {}
+     },
+     {
+      "kind": "code_negated",
+      "severity": "error",
+      "message": "The code describes constipation, which the patient denied.",
+      "acknowledged": false,
+      "detail": {}
+     }
+    ],
+    "accepted": null
+   }
+  ],
+  "em": {
+   "system": "CPT",
+   "code": "99204",
+   "description": "New patient office visit, moderate-complexity decision making",
+   "rank": 1,
+   "rationale": "Rule-based: prescription drug management",
+   "evidence": [],
+   "valid": true,
+   "billable": true,
+   "flags": [],
+   "accepted": null
+  },
+  "procedures": [],
+  "mdm": {
+   "problems": "straightforward",
+   "data": "moderate",
+   "risk": "moderate",
+   "level": "moderate",
+   "code": "99204",
+   "reasons": [
+    "data: 5 tests or sources",
+    "risk: prescription drug management"
+   ]
+  },
+  "section_status": {
+   "subjective": "draft",
+   "objective": "draft",
+   "assessment": "draft",
+   "plan": "draft"
+  },
+  "model": "fake/fake-scribe",
+  "created_at": "2026-10-13T07:54:37.133039Z",
+  "signed_by": null,
+  "signed_at": null,
+  "timings": {
+   "phi_masking": 0.016,
+   "llm_note": 0.008,
+   "guards_note": 0.031,
+   "llm_codes": 0.005,
+   "guards_codes": 0.022,
+   "total": 0.082,
+   "wall": 0.087
+  },
+  "usage": {
+   "model_ms": 13,
+   "input_tokens": 3054,
+   "output_tokens": 1404,
+   "calls": 2
+  },
+  "phi": {
+   "NAME": 3,
+   "DOB": 1,
+   "ADDRESS": 2,
+   "DATE": 2,
+   "ORG": 1,
+   "EMAIL": 1
+  }
+ },
+ "vault": {
+  "originals": {
+   "[NAME_1]": "Aleman",
+   "[PATIENT]": "Svetlana Petrovah",
+   "[DOB]": "December 4th, 1979",
+   "[ADDRESS_1]": "4417 Juniper Ridge Drive",
+   "[ADDRESS_2]": "Pittsburgh",
+   "[DATE_1]": "August",
+   "[NAME_2]": "Ostrowski",
+   "[ORG_1]": "Levothyric Sign",
+   "[DATE_2]": "May",
+   "[EMAIL_1]": "spetrova79 at example .com"
+  },
+  "surfaces": {
+   "[NAME_1]": [
+    "Aleman"
+   ],
+   "[PATIENT]": [
+    "Svetlana",
+    "Svetlana Petrovah"
+   ],
+   "[DOB]": [
+    "December 4th, 1979"
+   ],
+   "[ADDRESS_1]": [
+    "4417 Juniper Ridge Drive"
+   ],
+   "[ADDRESS_2]": [
+    "Pittsburgh"
+   ],
+   "[DATE_1]": [
+    "August"
+   ],
+   "[NAME_2]": [
+    "Ostrowski"
+   ],
+   "[ORG_1]": [
+    "Levothyric Sign"
+   ],
+   "[DATE_2]": [
+    "May"
+   ],
+   "[EMAIL_1]": [
+    "spetrova79 at example .com"
+   ]
+  },
+  "types": {
+   "[NAME_1]": "NAME",
+   "[PATIENT]": "NAME",
+   "[DOB]": "DOB",
+   "[ADDRESS_1]": "ADDRESS",
+   "[ADDRESS_2]": "ADDRESS",
+   "[DATE_1]": "DATE",
+   "[NAME_2]": "NAME",
+   "[ORG_1]": "ORG",
+   "[DATE_2]": "DATE",
+   "[EMAIL_1]": "EMAIL"
+  },
+  "counters": {
+   "NAME": 2,
+   "ADDRESS": 2,
+   "DATE": 2,
+   "ORG": 1,
+   "EMAIL": 1
+  }
+ },
+ "score": {
+  "case": "pc-07",
+  "specialty": "primary_care",
+  "facts": 28,
+  "found": 19,
+  "found_in_section": 15,
+  "negation_errors": [],
+  "trap_errors": [],
+  "missed": [
+   "f1 [subjective] New patient, moved from Pittsburgh in August; records from prior physician reviewed",
+   "f2 [subjective] Hashimoto thyroiditis diagnosed 2015",
+   "f3 [subjective] Takes levothyroxine 88 mcg every morning",
+   "f9 [subjective] Family history of myocardial infarction in father at 58",
+   "f13 [subjective] Not on any cholesterol medication, previously advised diet",
+   "f14 [objective] Outside TSH in May 5.8 (elevated)",
+   "f20 [assessment] Hypothyroidism due to Hashimoto thyroiditis, TSH mildly elevated likely from improper levothyroxine administration",
+   "f23 [plan] Continue levothyroxine 88 mcg daily",
+   "f27 [plan] Lifestyle, more fiber, less saturated fat, regular exercise"
+  ],
+  "statements": 18,
+  "statements_matching_gold": 14,
+  "unsupported": 0,
+  "partial": 0,
+  "flags": {},
+  "meds": 4,
+  "meds_found": 2,
+  "meds_dose_correct": 2,
+  "icd_primary": "E06.3",
+  "icd_suggested": [
+   "Q97.1",
+   "Q98.1",
+   "K58.1"
+  ],
+  "icd_top1": false,
+  "icd_top3": false,
+  "icd_top3_lenient": false,
+  "icd_top3_category": false,
+  "icd_gold_recall": 0.0,
+  "icd_invalid": 0,
+  "em_gold": "99204",
+  "em_suggested": "99204",
+  "em_exact": true,
+  "em_within_one": true,
+  "em_rule_estimate": "99204",
+  "procedures_gold": 0,
+  "procedures_found": 0
+ },
+ "egress_residue": {}
+}

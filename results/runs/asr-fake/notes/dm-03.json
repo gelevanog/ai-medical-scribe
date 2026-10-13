@@ -1,0 +1,596 @@
+{
+ "note": {
+  "visit_id": "dm-03",
+  "statements": [
+   {
+    "id": "s1",
+    "section": "subjective",
+    "text": "Like an eight, it wakes them up at night",
+    "evidence": [
+     {
+      "turn": 7,
+      "quote": "Like an eight, it wakes me up at night.",
+      "verified": true,
+      "score": 1.0
+     }
+    ],
+    "support": "supported",
+    "flags": [],
+    "origin": "model",
+    "edited": false
+   },
+   {
+    "id": "s2",
+    "section": "subjective",
+    "text": "They haven't used an inhaler since was like twelve",
+    "evidence": [
+     {
+      "turn": 19,
+      "quote": "I haven't used an inhaler since I was like twelve.",
+      "verified": true,
+      "score": 1.0
+     }
+    ],
+    "support": "supported",
+    "flags": [],
+    "origin": "model",
+    "edited": false
+   },
+   {
+    "id": "s3",
+    "section": "subjective",
+    "text": "Should they call the same number?",
+    "evidence": [
+     {
+      "turn": 31,
+      "quote": "Should I call the same number?",
+      "verified": true,
+      "score": 1.0
+     }
+    ],
+    "support": "supported",
+    "flags": [],
+    "origin": "model",
+    "edited": false
+   },
+   {
+    "id": "o1",
+    "section": "objective",
+    "text": "Your face and eyelids are clear",
+    "evidence": [
+     {
+      "turn": 22,
+      "quote": "Your face and eyelids are clear.",
+      "verified": true,
+      "score": 1.0
+     }
+    ],
+    "support": "supported",
+    "flags": [],
+    "origin": "model",
+    "edited": false
+   },
+   {
+    "id": "o2",
+    "section": "objective",
+    "text": "Let's see you back in four weeks on Monday, November 2nd, and see how the skin's doing",
+    "evidence": [
+     {
+      "turn": 34,
+      "quote": "Let's see you back in four weeks on Monday, November 2nd, and see how the skin's doing.",
+      "verified": true,
+      "score": 1.0
+     }
+    ],
+    "support": "supported",
+    "flags": [],
+    "origin": "model",
+    "edited": false
+   },
+   {
+    "id": "a1",
+    "section": "assessment",
+    "text": "So this is a flare of your atopic dermatitis, probably set off by the cold, dry air at work",
+    "evidence": [
+     {
+      "turn": 24,
+      "quote": "So this is a flare of your atopic dermatitis, probably set off by the cold, dry air at",
+      "verified": true,
+      "score": 1.0
+     }
+    ],
+    "support": "supported",
+    "flags": [],
+    "origin": "model",
+    "edited": false
+   },
+   {
+    "id": "p1",
+    "section": "plan",
+    "text": "Hey, good to see you again, just to confirm full name and date of birth. Haeunwoo Park,",
+    "evidence": [
+     {
+      "turn": 0,
+      "quote": "Hey, good to see you again, just to confirm full name and date of birth. Haeunwoo Park,",
+      "verified": true,
+      "score": 1.0
+     }
+    ],
+    "support": "supported",
+    "flags": [],
+    "origin": "model",
+    "edited": false
+   },
+   {
+    "id": "p2",
+    "section": "plan",
+    "text": "Anything else you take",
+    "evidence": [
+     {
+      "turn": 16,
+      "quote": "Anything else you take.",
+      "verified": true,
+      "score": 1.0
+     }
+    ],
+    "support": "supported",
+    "flags": [],
+    "origin": "model",
+    "edited": false
+   },
+   {
+    "id": "p3",
+    "section": "plan",
+    "text": "Alright, let's look",
+    "evidence": [
+     {
+      "turn": 22,
+      "quote": "Alright, let's look.",
+      "verified": true,
+      "score": 1.0
+     }
+    ],
+    "support": "supported",
+    "flags": [],
+    "origin": "model",
+    "edited": false
+   },
+   {
+    "id": "p4",
+    "section": "plan",
+    "text": "Here's the plan",
+    "evidence": [
+     {
+      "turn": 24,
+      "quote": "Here's the plan.",
+      "verified": true,
+      "score": 1.0
+     }
+    ],
+    "support": "supported",
+    "flags": [],
+    "origin": "model",
+    "edited": false
+   },
+   {
+    "id": "p5",
+    "section": "plan",
+    "text": "Then cut back to just weekends, Saturday and Sunday, on the spots that like to come back",
+    "evidence": [
+     {
+      "turn": 24,
+      "quote": "Then cut back to just weekends, Saturday and Sunday, on the spots that like to come back.",
+      "verified": true,
+      "score": 1.0
+     }
+    ],
+    "support": "supported",
+    "flags": [],
+    "origin": "model",
+    "edited": false
+   },
+   {
+    "id": "p6",
+    "section": "plan",
+    "text": "Don't use it on your face or groin",
+    "evidence": [
+     {
+      "turn": 24,
+      "quote": "Don't use it on your face or groin.",
+      "verified": true,
+      "score": 1.0
+     }
+    ],
+    "support": "supported",
+    "flags": [],
+    "origin": "model",
+    "edited": false
+   },
+   {
+    "id": "p7",
+    "section": "plan",
+    "text": "You can stop the hydrocortisone",
+    "evidence": [
+     {
+      "turn": 26,
+      "quote": "You can stop the hydrocortisone.",
+      "verified": true,
+      "score": 1.0
+     }
+    ],
+    "support": "supported",
+    "flags": [],
+    "origin": "model",
+    "edited": false
+   },
+   {
+    "id": "p8",
+    "section": "plan",
+    "text": "For the itch at night, let's add hydroxyzine 25 milligrams at bedtime as needed",
+    "evidence": [
+     {
+      "turn": 26,
+      "quote": "For the itch at night, let's add hydroxyzine 25 milligrams at bedtime as needed.",
+      "verified": true,
+      "score": 1.0
+     }
+    ],
+    "support": "supported",
+    "flags": [],
+    "origin": "model",
+    "edited": false
+   },
+   {
+    "id": "p9",
+    "section": "plan",
+    "text": "And if you see oozing, yellow crusts, or you get a fever, call us right away. that could be an infection",
+    "evidence": [
+     {
+      "turn": 30,
+      "quote": "And if you see oozing, yellow crusts, or you get a fever, call us right away. that could",
+      "verified": true,
+      "score": 1.0
+     }
+    ],
+    "support": "supported",
+    "flags": [],
+    "origin": "model",
+    "edited": false
+   }
+  ],
+  "medications": [
+   {
+    "name": "hydrocortisone",
+    "dose": "5 percent",
+    "frequency": "",
+    "route": "",
+    "status": "active",
+    "evidence": [
+     {
+      "turn": 15,
+      "quote": "I ran out of the triumphs in a loan you gave me last time, so I've been using",
+      "verified": true,
+      "score": 1.0
+     }
+    ],
+    "flags": [
+     {
+      "kind": "dose_range",
+      "severity": "error",
+      "message": "5 % is outside the usual 0.5-2.5 % per dose for hydrocortisone.",
+      "acknowledged": false,
+      "detail": {
+       "amount": 5.0,
+       "range": [
+        0.5,
+        2.5
+       ]
+      }
+     },
+     {
+      "kind": "dose_mismatch",
+      "severity": "warning",
+      "message": "The hydrocortisone dose was corrected in the conversation (1, 2, 5); confirm the final dose.",
+      "acknowledged": false,
+      "detail": {
+       "doses": [
+        "1",
+        "2",
+        "5"
+       ],
+       "turn": 15
+      }
+     }
+    ]
+   },
+   {
+    "name": "hydroxyzine",
+    "dose": "25 milligrams",
+    "frequency": "at bedtime",
+    "route": "",
+    "status": "active",
+    "evidence": [
+     {
+      "turn": 26,
+      "quote": "For the itch at night, let's add hydroxyzine 25 milligrams at bedtime as needed.",
+      "verified": true,
+      "score": 1.0
+     }
+    ],
+    "flags": []
+   },
+   {
+    "name": "cetirizine",
+    "dose": "",
+    "frequency": "",
+    "route": "",
+    "status": "active",
+    "evidence": [
+     {
+      "turn": 26,
+      "quote": "Keep the Cetirizine in the morning.",
+      "verified": true,
+      "score": 1.0
+     }
+    ],
+    "flags": []
+   },
+   {
+    "name": "dupilumab",
+    "dose": "",
+    "frequency": "",
+    "route": "",
+    "status": "active",
+    "evidence": [
+     {
+      "turn": 30,
+      "quote": "If it keeps flaring even with all this, there are newer options like dupilumab and injection and we",
+      "verified": true,
+      "score": 1.0
+     }
+    ],
+    "flags": []
+   }
+  ],
+  "allergies": [],
+  "after_visit_summary": "Thank you for coming in today. Here is what we talked about. Hey, good to see you again, just to confirm full name and date of birth. Haeunwoo Park,. Anything else you take. Alright, let's look. Here's the plan. Then cut back to just weekends, Saturday and Sunday, on the spots that like to come back. Don't use it on your face or groin.",
+  "avs_flags": [],
+  "icd10": [
+   {
+    "system": "ICD-10-CM",
+    "code": "L20.89",
+    "description": "Other atopic dermatitis",
+    "rank": 1,
+    "rationale": "Matches the assessment: Other atopic dermatitis",
+    "evidence": [],
+    "valid": true,
+    "billable": true,
+    "flags": [
+     {
+      "kind": "code_unsupported",
+      "severity": "warning",
+      "message": "No verified quote supports this code.",
+      "acknowledged": false,
+      "detail": {}
+     }
+    ],
+    "accepted": null
+   },
+   {
+    "system": "ICD-10-CM",
+    "code": "L20.9",
+    "description": "Atopic dermatitis, unspecified",
+    "rank": 2,
+    "rationale": "Matches the assessment: Atopic dermatitis, unspecified",
+    "evidence": [],
+    "valid": true,
+    "billable": true,
+    "flags": [
+     {
+      "kind": "code_unsupported",
+      "severity": "warning",
+      "message": "No verified quote supports this code.",
+      "acknowledged": false,
+      "detail": {}
+     }
+    ],
+    "accepted": null
+   },
+   {
+    "system": "ICD-10-CM",
+    "code": "Z56.3",
+    "description": "Stressful work schedule",
+    "rank": 3,
+    "rationale": "Matches the assessment: Stressful work schedule",
+    "evidence": [],
+    "valid": true,
+    "billable": true,
+    "flags": [
+     {
+      "kind": "code_unsupported",
+      "severity": "warning",
+      "message": "No verified quote supports this code.",
+      "acknowledged": false,
+      "detail": {}
+     }
+    ],
+    "accepted": null
+   }
+  ],
+  "em": {
+   "system": "CPT",
+   "code": "99214",
+   "description": "Established patient office visit, moderate-complexity decision making",
+   "rank": 1,
+   "rationale": "Rule-based: prescription drug management",
+   "evidence": [],
+   "valid": true,
+   "billable": true,
+   "flags": [],
+   "accepted": null
+  },
+  "procedures": [],
+  "mdm": {
+   "problems": "moderate",
+   "data": "straightforward",
+   "risk": "moderate",
+   "level": "moderate",
+   "code": "99214",
+   "reasons": [
+    "problems: chronic illness not at goal",
+    "risk: prescription drug management"
+   ]
+  },
+  "section_status": {
+   "subjective": "draft",
+   "objective": "draft",
+   "assessment": "draft",
+   "plan": "draft"
+  },
+  "model": "fake/fake-scribe",
+  "created_at": "2026-10-13T07:54:38.258716Z",
+  "signed_by": null,
+  "signed_at": null,
+  "timings": {
+   "phi_masking": 0.015,
+   "llm_note": 0.008,
+   "guards_note": 0.028,
+   "llm_codes": 0.004,
+   "guards_codes": 0.021,
+   "total": 0.076,
+   "wall": 0.08
+  },
+  "usage": {
+   "model_ms": 12,
+   "input_tokens": 2973,
+   "output_tokens": 1024,
+   "calls": 2
+  },
+  "phi": {
+   "NAME": 5,
+   "DOB": 1,
+   "ORG": 1,
+   "PHONE": 1,
+   "DATE": 1
+  }
+ },
+ "vault": {
+  "originals": {
+   "[PATIENT]": "Haeunwoo Park",
+   "[DOB]": "November 3rd, 1996",
+   "[NAME_1]": "Haeunwoo",
+   "[ORG_1]": "Brightline Logistics",
+   "[NAME_2]": "Jisoo",
+   "[NAME_3]": "Triumcin",
+   "[PHONE_1]": "555 -0177",
+   "[DATE_1]": "Monday, November 2nd",
+   "[NAME_4]": "Haddad"
+  },
+  "surfaces": {
+   "[PATIENT]": [
+    "Haeunwoo Park"
+   ],
+   "[DOB]": [
+    "November 3rd, 1996"
+   ],
+   "[NAME_1]": [
+    "Haeunwoo"
+   ],
+   "[ORG_1]": [
+    "Brightline Logistics"
+   ],
+   "[NAME_2]": [
+    "Jisoo"
+   ],
+   "[NAME_3]": [
+    "Triumcin"
+   ],
+   "[PHONE_1]": [
+    "555 -0177"
+   ],
+   "[DATE_1]": [
+    "Monday, November 2nd"
+   ],
+   "[NAME_4]": [
+    "Haddad"
+   ]
+  },
+  "types": {
+   "[PATIENT]": "NAME",
+   "[DOB]": "DOB",
+   "[NAME_1]": "NAME",
+   "[ORG_1]": "ORG",
+   "[NAME_2]": "NAME",
+   "[NAME_3]": "NAME",
+   "[PHONE_1]": "PHONE",
+   "[DATE_1]": "DATE",
+   "[NAME_4]": "NAME"
+  },
+  "counters": {
+   "NAME": 4,
+   "ORG": 1,
+   "PHONE": 1,
+   "DATE": 1
+  }
+ },
+ "score": {
+  "case": "dm-03",
+  "specialty": "dermatology",
+  "facts": 27,
+  "found": 9,
+  "found_in_section": 5,
+  "negation_errors": [],
+  "trap_errors": [],
+  "missed": [
+   "f1 [subjective] Eczema flare for 3 weeks, started after new job in a cold, dry warehouse",
+   "f2 [subjective] Involves both antecubital fossae, behind both knees, neck, and backs of hands with cracking",
+   "f4 [subjective] Denies oozing or yellow crusting",
+   "f5 [subjective] Denies fever",
+   "f6 [subjective] No new soaps, detergents or lotions",
+   "f7 [subjective] Ran out of prescribed triamcinolone; using OTC hydrocortisone 1% without enough benefit",
+   "f8 [subjective] Takes cetirizine 10 mg daily for seasonal allergies",
+   "f9 [subjective] Childhood asthma, resolved, no inhaler since age 12; no current breathing trouble",
+   "f10 [subjective] No known drug allergies",
+   "f11 [objective] Red, scaly, lichenified plaques with excoriations in both antecubital fossae, about 6 by 4 cm each",
+   "f12 [objective] Similar smaller plaques in both popliteal fossae",
+   "f13 [objective] Dry red patch on the back of the neck",
+   "f14 [objective] Dry skin with small fissures over the knuckles of both hands",
+   "f15 [objective] No weeping or honey-colored crusting, no signs of infection",
+   "f17 [objective] About 10% body surface area involved",
+   "f19 [plan] Restart triamcinolone 0.1% ointment twice daily to body and hands for 2 weeks, then weekends only for maintenance; avoid face and groin",
+   "f24 [plan] Thick fragrance-free moisturizer or petroleum jelly at least twice daily and after short lukewarm showers",
+   "f25 [plan] Cotton-lined gloves at work; work note provided"
+  ],
+  "statements": 15,
+  "statements_matching_gold": 8,
+  "unsupported": 0,
+  "partial": 0,
+  "flags": {
+   "dose_range": 1,
+   "dose_mismatch": 1
+  },
+  "meds": 5,
+  "meds_found": 3,
+  "meds_dose_correct": 1,
+  "icd_primary": "L20.9",
+  "icd_suggested": [
+   "L20.89",
+   "L20.9",
+   "Z56.3"
+  ],
+  "icd_top1": false,
+  "icd_top3": true,
+  "icd_top3_lenient": true,
+  "icd_top3_category": true,
+  "icd_gold_recall": 1.0,
+  "icd_invalid": 0,
+  "em_gold": "99214",
+  "em_suggested": "99214",
+  "em_exact": true,
+  "em_within_one": true,
+  "em_rule_estimate": "99214",
+  "procedures_gold": 0,
+  "procedures_found": 0
+ },
+ "egress_residue": {}
+}

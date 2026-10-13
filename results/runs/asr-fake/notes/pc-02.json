@@ -1,0 +1,604 @@
+{
+ "note": {
+  "visit_id": "pc-02",
+  "statements": [
+   {
+    "id": "s1",
+    "section": "subjective",
+    "text": "About two months ago, was getting shaky and sweaty in the afternoons",
+    "evidence": [
+     {
+      "turn": 7,
+      "quote": "About two months ago, I was getting shaky and sweaty in the afternoons.",
+      "verified": true,
+      "score": 1.0
+     }
+    ],
+    "support": "supported",
+    "flags": [],
+    "origin": "model",
+    "edited": false
+   },
+   {
+    "id": "s2",
+    "section": "subjective",
+    "text": "Maybe a little more thirsty",
+    "evidence": [
+     {
+      "turn": 15,
+      "quote": "Maybe a little more thirsty.",
+      "verified": true,
+      "score": 1.0
+     }
+    ],
+    "support": "supported",
+    "flags": [],
+    "origin": "model",
+    "edited": false
+   },
+   {
+    "id": "s3",
+    "section": "subjective",
+    "text": "Not up at night, no",
+    "evidence": [
+     {
+      "turn": 15,
+      "quote": "Not up at night, no.",
+      "verified": true,
+      "score": 1.0
+     }
+    ],
+    "support": "supported",
+    "flags": [],
+    "origin": "model",
+    "edited": false
+   },
+   {
+    "id": "s4",
+    "section": "subjective",
+    "text": "Denies numbness",
+    "evidence": [
+     {
+      "turn": 16,
+      "quote": "Any numbness or tingling in your feet?",
+      "verified": true,
+      "score": 1.0
+     },
+     {
+      "turn": 17,
+      "quote": "No.",
+      "verified": true,
+      "score": 1.0
+     }
+    ],
+    "support": "supported",
+    "flags": [],
+    "origin": "model",
+    "edited": false
+   },
+   {
+    "id": "s5",
+    "section": "subjective",
+    "text": "Denies tingling",
+    "evidence": [
+     {
+      "turn": 16,
+      "quote": "Any numbness or tingling in your feet?",
+      "verified": true,
+      "score": 1.0
+     },
+     {
+      "turn": 17,
+      "quote": "No.",
+      "verified": true,
+      "score": 1.0
+     }
+    ],
+    "support": "supported",
+    "flags": [],
+    "origin": "model",
+    "edited": false
+   },
+   {
+    "id": "s6",
+    "section": "subjective",
+    "text": "They broke out in a rash all over their body",
+    "evidence": [
+     {
+      "turn": 21,
+      "quote": "I broke out in a rash all over my body.",
+      "verified": true,
+      "score": 1.0
+     }
+    ],
+    "support": "supported",
+    "flags": [],
+    "origin": "model",
+    "edited": false
+   },
+   {
+    "id": "o1",
+    "section": "objective",
+    "text": "You're a 1c from last week came back at 8 .4%",
+    "evidence": [
+     {
+      "turn": 4,
+      "quote": "You're a 1c from last week came back at 8 .4%.",
+      "verified": true,
+      "score": 1.0
+     }
+    ],
+    "support": "supported",
+    "flags": [],
+    "origin": "model",
+    "edited": false
+   },
+   {
+    "id": "o2",
+    "section": "objective",
+    "text": "Blood pressure is 128 over 76, pulse 80, weight 186 pounds, about the same as April",
+    "evidence": [
+     {
+      "turn": 24,
+      "quote": "Blood pressure is 128 over 76, pulse 80, weight 186 pounds, about the same as April.",
+      "verified": true,
+      "score": 1.0
+     }
+    ],
+    "support": "supported",
+    "flags": [],
+    "origin": "model",
+    "edited": false
+   },
+   {
+    "id": "o3",
+    "section": "objective",
+    "text": "skin looks good, no sores or calluses",
+    "evidence": [
+     {
+      "turn": 26,
+      "quote": "skin looks good, no sores or calluses.",
+      "verified": true,
+      "score": 1.0
+     }
+    ],
+    "support": "supported",
+    "flags": [],
+    "origin": "model",
+    "edited": false
+   },
+   {
+    "id": "o4",
+    "section": "objective",
+    "text": "Heart and lungs sound normal",
+    "evidence": [
+     {
+      "turn": 26,
+      "quote": "Heart and lungs sound normal.",
+      "verified": true,
+      "score": 1.0
+     }
+    ],
+    "support": "supported",
+    "flags": [],
+    "origin": "model",
+    "edited": false
+   },
+   {
+    "id": "o5",
+    "section": "objective",
+    "text": "kidney function is normal, the filtration rate is 78 and there's no protein in your urine",
+    "evidence": [
+     {
+      "turn": 28,
+      "quote": "kidney function is normal, the filtration rate is 78 and there's no protein in your urine",
+      "verified": true,
+      "score": 1.0
+     }
+    ],
+    "support": "supported",
+    "flags": [],
+    "origin": "model",
+    "edited": false
+   },
+   {
+    "id": "o6",
+    "section": "objective",
+    "text": "together your type 2 diabetes is above our goal and the glipizide was causing low sugar so we'll leave that off for good keep the metformin 1000 milligrams twice a day i'd like to add a new medicine called impagloflozin 10 milligrams once a day in the morning it doesn't usually cause lows and it also protects the heart and",
+    "evidence": [
+     {
+      "turn": 30,
+      "quote": "together your type 2 diabetes is above our goal and the glipizide was causing low sugar so we'll",
+      "verified": true,
+      "score": 1.0
+     }
+    ],
+    "support": "supported",
+    "flags": [],
+    "origin": "model",
+    "edited": false
+   },
+   {
+    "id": "o7",
+    "section": "objective",
+    "text": "it works by letting you You pass extra sugar in the urine, so drink plenty of water and keep that area clean",
+    "evidence": [
+     {
+      "turn": 32,
+      "quote": "it works by letting you You pass extra sugar in the urine, so drink plenty of water and",
+      "verified": true,
+      "score": 1.0
+     }
+    ],
+    "support": "supported",
+    "flags": [],
+    "origin": "model",
+    "edited": false
+   },
+   {
+    "id": "o8",
+    "section": "objective",
+    "text": "We'll repeat the A1C in three months and see you then",
+    "evidence": [
+     {
+      "turn": 34,
+      "quote": "We'll repeat the A1C in three months and see you then.",
+      "verified": true,
+      "score": 1.0
+     }
+    ],
+    "support": "supported",
+    "flags": [],
+    "origin": "model",
+    "edited": false
+   },
+   {
+    "id": "p1",
+    "section": "plan",
+    "text": "We'll take care of that today and remind me you're allergic to sulfa",
+    "evidence": [
+     {
+      "turn": 20,
+      "quote": "We'll take care of that today and remind me you're allergic to sulfa.",
+      "verified": true,
+      "score": 1.0
+     }
+    ],
+    "support": "supported",
+    "flags": [],
+    "origin": "model",
+    "edited": false
+   },
+   {
+    "id": "p2",
+    "section": "plan",
+    "text": "If you get any itching or a yeast infection, call us, it's treatable",
+    "evidence": [
+     {
+      "turn": 32,
+      "quote": "If you get any itching or a yeast infection, call us, it's treatable.",
+      "verified": true,
+      "score": 1.0
+     }
+    ],
+    "support": "supported",
+    "flags": [],
+    "origin": "model",
+    "edited": false
+   },
+   {
+    "id": "p3",
+    "section": "plan",
+    "text": "I'm also putting in a referral for a diabetic eye exam and keep up the evening walks, they really do help",
+    "evidence": [
+     {
+      "turn": 34,
+      "quote": "I'm also putting in a referral for a diabetic eye exam and keep up the evening walks, they",
+      "verified": true,
+      "score": 1.0
+     }
+    ],
+    "support": "supported",
+    "flags": [],
+    "origin": "model",
+    "edited": false
+   }
+  ],
+  "medications": [
+   {
+    "name": "glipizide",
+    "dose": "1000 milligrams",
+    "frequency": "twice a day",
+    "route": "",
+    "status": "active",
+    "evidence": [
+     {
+      "turn": 30,
+      "quote": "together your type 2 diabetes is above our goal and the glipizide was causing low sugar so we'll",
+      "verified": true,
+      "score": 1.0
+     }
+    ],
+    "flags": [
+     {
+      "kind": "dose_range",
+      "severity": "error",
+      "message": "1000 mg is outside the usual 2.5-20 mg per dose for glipizide.",
+      "acknowledged": false,
+      "detail": {
+       "amount": 1000.0,
+       "range": [
+        2.5,
+        20.0
+       ]
+      }
+     }
+    ]
+   },
+   {
+    "name": "metformin",
+    "dose": "1000 milligrams",
+    "frequency": "twice a day",
+    "route": "",
+    "status": "active",
+    "evidence": [
+     {
+      "turn": 30,
+      "quote": "together your type 2 diabetes is above our goal and the glipizide was causing low sugar so we'll",
+      "verified": true,
+      "score": 1.0
+     }
+    ],
+    "flags": []
+   },
+   {
+    "name": "sulfamethoxazole-trimethoprim",
+    "dose": "",
+    "frequency": "",
+    "route": "",
+    "status": "active",
+    "evidence": [
+     {
+      "turn": 21,
+      "quote": "Yes, the bactrim.",
+      "verified": true,
+      "score": 1.0
+     }
+    ],
+    "flags": [
+     {
+      "kind": "allergy_conflict",
+      "severity": "error",
+      "message": "sulfamethoxazole-trimethoprim conflicts with the documented sulfa allergy.",
+      "acknowledged": false,
+      "detail": {}
+     }
+    ]
+   }
+  ],
+  "allergies": [
+   {
+    "substance": "sulfa",
+    "reaction": "",
+    "evidence": [
+     {
+      "turn": 20,
+      "quote": "We'll take care of that today and remind me you're allergic to sulfa.",
+      "verified": true,
+      "score": 1.0
+     }
+    ]
+   }
+  ],
+  "after_visit_summary": "Thank you for coming in today. Here is what we talked about. we will take care of that today and remind me you're allergic to sulfa. If you get any itching or a yeast infection, call us, it's treatable. I'm also putting in a referral for a diabetic eye exam and keep up the evening walks, they really do help.",
+  "avs_flags": [],
+  "icd10": [
+   {
+    "system": "ICD-10-CM",
+    "code": "T31.99",
+    "description": "Burns involving 90% or more of body surface with 90% or more third degree burns",
+    "rank": 1,
+    "rationale": "Matches the assessment: Burns involving 90% or more of body surface with 90% or more third degree burns",
+    "evidence": [],
+    "valid": true,
+    "billable": true,
+    "flags": [
+     {
+      "kind": "code_unsupported",
+      "severity": "warning",
+      "message": "No verified quote supports this code.",
+      "acknowledged": false,
+      "detail": {}
+     }
+    ],
+    "accepted": null
+   },
+   {
+    "system": "ICD-10-CM",
+    "code": "T32.99",
+    "description": "Corrosions involving 90% or more of body surface with 90% or more third degree corrosion",
+    "rank": 2,
+    "rationale": "Matches the assessment: Corrosions involving 90% or more of body surface with 90% or more third degree corrosion",
+    "evidence": [],
+    "valid": true,
+    "billable": true,
+    "flags": [
+     {
+      "kind": "code_unsupported",
+      "severity": "warning",
+      "message": "No verified quote supports this code.",
+      "acknowledged": false,
+      "detail": {}
+     }
+    ],
+    "accepted": null
+   },
+   {
+    "system": "ICD-10-CM",
+    "code": "Q97.1",
+    "description": "Female with more than three X chromosomes",
+    "rank": 3,
+    "rationale": "Matches the assessment: Female with more than three X chromosomes",
+    "evidence": [],
+    "valid": true,
+    "billable": true,
+    "flags": [
+     {
+      "kind": "code_unsupported",
+      "severity": "warning",
+      "message": "No verified quote supports this code.",
+      "acknowledged": false,
+      "detail": {}
+     }
+    ],
+    "accepted": null
+   }
+  ],
+  "em": {
+   "system": "CPT",
+   "code": "99213",
+   "description": "Established patient office visit, low-complexity decision making",
+   "rank": 1,
+   "rationale": "Rule-based: low complexity",
+   "evidence": [],
+   "valid": true,
+   "billable": true,
+   "flags": [],
+   "accepted": null
+  },
+  "procedures": [],
+  "mdm": {
+   "problems": "straightforward",
+   "data": "moderate",
+   "risk": "low",
+   "level": "low",
+   "code": "99213",
+   "reasons": [
+    "data: 3 tests or sources",
+    "risk: over-the-counter drugs, minor procedure or counseling"
+   ]
+  },
+  "section_status": {
+   "subjective": "draft",
+   "objective": "draft",
+   "assessment": "draft",
+   "plan": "draft"
+  },
+  "model": "fake/fake-scribe",
+  "created_at": "2026-10-13T07:54:36.641288Z",
+  "signed_by": null,
+  "signed_at": null,
+  "timings": {
+   "phi_masking": 0.017,
+   "llm_note": 0.009,
+   "guards_note": 0.029,
+   "llm_codes": 0.004,
+   "guards_codes": 0.023,
+   "total": 0.082,
+   "wall": 0.087
+  },
+  "usage": {
+   "model_ms": 13,
+   "input_tokens": 3180,
+   "output_tokens": 1237,
+   "calls": 2
+  },
+  "phi": {
+   "NAME": 3,
+   "DOB": 1,
+   "DATE": 1,
+   "EMAIL": 1
+  }
+ },
+ "vault": {
+  "originals": {
+   "[PATIENT]": "Guadalupe Rios",
+   "[DOB]": "June 17th, 1965",
+   "[DATE_1]": "April",
+   "[NAME_1]": "Mary Eisler",
+   "[EMAIL_1]": "LupeRio65 at example .com",
+   "[NAME_2]": "Impaglaflauzin"
+  },
+  "surfaces": {
+   "[PATIENT]": [
+    "Guadalupe Rios",
+    "Rios"
+   ],
+   "[DOB]": [
+    "June 17th, 1965"
+   ],
+   "[DATE_1]": [
+    "April"
+   ],
+   "[NAME_1]": [
+    "Mary Eisler"
+   ],
+   "[EMAIL_1]": [
+    "LupeRio65 at example .com"
+   ],
+   "[NAME_2]": [
+    "Impaglaflauzin"
+   ]
+  },
+  "types": {
+   "[PATIENT]": "NAME",
+   "[DOB]": "DOB",
+   "[DATE_1]": "DATE",
+   "[NAME_1]": "NAME",
+   "[EMAIL_1]": "EMAIL",
+   "[NAME_2]": "NAME"
+  },
+  "counters": {
+   "DATE": 1,
+   "NAME": 2,
+   "EMAIL": 1
+  }
+ },
+ "score": {
+  "case": "pc-02",
+  "specialty": "primary_care",
+  "facts": 27,
+  "found": 22,
+  "found_in_section": 12,
+  "negation_errors": [],
+  "trap_errors": [],
+  "missed": [
+   "f5 [subjective] Home fasting glucose 150 to 180",
+   "f9 [subjective] Denies blurry vision",
+   "f12 [objective] Hemoglobin A1c 8.4 percent, up from 7.6 percent in April",
+   "f16 [objective] Foot exam normal, no sores or calluses, pedal pulses strong, monofilament sensation intact",
+   "f23 [plan] Start empagliflozin 10 mg once daily in the morning"
+  ],
+  "statements": 17,
+  "statements_matching_gold": 12,
+  "unsupported": 0,
+  "partial": 0,
+  "flags": {
+   "dose_range": 1,
+   "allergy_conflict": 1
+  },
+  "meds": 3,
+  "meds_found": 2,
+  "meds_dose_correct": 1,
+  "icd_primary": "E11.65",
+  "icd_suggested": [
+   "T31.99",
+   "T32.99",
+   "Q97.1"
+  ],
+  "icd_top1": false,
+  "icd_top3": false,
+  "icd_top3_lenient": false,
+  "icd_top3_category": false,
+  "icd_gold_recall": 0.0,
+  "icd_invalid": 0,
+  "em_gold": "99214",
+  "em_suggested": "99213",
+  "em_exact": false,
+  "em_within_one": true,
+  "em_rule_estimate": "99213",
+  "procedures_gold": 0,
+  "procedures_found": 0
+ },
+ "egress_residue": {}
+}

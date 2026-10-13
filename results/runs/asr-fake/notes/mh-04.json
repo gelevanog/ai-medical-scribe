@@ -1,0 +1,503 @@
+{
+ "note": {
+  "visit_id": "mh-04",
+  "statements": [
+   {
+    "id": "s1",
+    "section": "subjective",
+    "text": "No, not since last winter, and that was mild",
+    "evidence": [
+     {
+      "turn": 9,
+      "quote": "No, not since last winter, and that was mild.",
+      "verified": true,
+      "score": 1.0
+     }
+    ],
+    "support": "supported",
+    "flags": [],
+    "origin": "model",
+    "edited": false
+   },
+   {
+    "id": "s2",
+    "section": "subjective",
+    "text": "Reports number",
+    "evidence": [
+     {
+      "turn": 32,
+      "quote": "Keep the multivitamin. I'll see you in three months, unless the level or the pill changes things sooner.",
+      "verified": true,
+      "score": 1.0
+     },
+     {
+      "turn": 33,
+      "quote": "Yep, same number.",
+      "verified": true,
+      "score": 1.0
+     }
+    ],
+    "support": "supported",
+    "flags": [],
+    "origin": "model",
+    "edited": false
+   },
+   {
+    "id": "o1",
+    "section": "objective",
+    "text": "Your liver and kidney tests were all normal",
+    "evidence": [
+     {
+      "turn": 24,
+      "quote": "Your liver and kidney tests were all normal.",
+      "verified": true,
+      "score": 1.0
+     }
+    ],
+    "support": "supported",
+    "flags": [],
+    "origin": "model",
+    "edited": false
+   },
+   {
+    "id": "o2",
+    "section": "objective",
+    "text": "Your blood pressure today is 112 over 70 and your weight is 131 same as last time",
+    "evidence": [
+     {
+      "turn": 24,
+      "quote": "Your blood pressure today is 112 over 70 and your weight is 131 same as last time.",
+      "verified": true,
+      "score": 1.0
+     }
+    ],
+    "support": "supported",
+    "flags": [],
+    "origin": "model",
+    "edited": false
+   },
+   {
+    "id": "o3",
+    "section": "objective",
+    "text": "You're bright and relaxed today, mood euthemic, speech is normal, not pressured, and your thoughts are organized",
+    "evidence": [
+     {
+      "turn": 24,
+      "quote": "You're bright and relaxed today, mood euthemic, speech is normal, not pressured, and your thoughts are organized.",
+      "verified": true,
+      "score": 1.0
+     }
+    ],
+    "support": "supported",
+    "flags": [],
+    "origin": "model",
+    "edited": false
+   },
+   {
+    "id": "o4",
+    "section": "objective",
+    "text": "I'd like a baseline lamatrogen level this week, drawn in the morning before your dose at our lab at 2200 Kessler Boulevard",
+    "evidence": [
+     {
+      "turn": 26,
+      "quote": "I'd like a baseline lamatrogen level this week, drawn in the morning before your dose at our lab",
+      "verified": true,
+      "score": 1.0
+     }
+    ],
+    "support": "supported",
+    "flags": [],
+    "origin": "model",
+    "edited": false
+   },
+   {
+    "id": "o5",
+    "section": "objective",
+    "text": "Then once you start the pill, we'll recheck the level two to three weeks later, and I'll probably need to increase your dose",
+    "evidence": [
+     {
+      "turn": 26,
+      "quote": "Then once you start the pill, we'll recheck the level two to three weeks later, and I'll probably",
+      "verified": true,
+      "score": 1.0
+     }
+    ],
+    "support": "supported",
+    "flags": [],
+    "origin": "model",
+    "edited": false
+   },
+   {
+    "id": "o6",
+    "section": "objective",
+    "text": "I'll see you in three months, unless the level or the pill changes things sooner",
+    "evidence": [
+     {
+      "turn": 32,
+      "quote": "I'll see you in three months, unless the level or the pill changes things sooner.",
+      "verified": true,
+      "score": 1.0
+     }
+    ],
+    "support": "supported",
+    "flags": [],
+    "origin": "model",
+    "edited": false
+   },
+   {
+    "id": "p1",
+    "section": "plan",
+    "text": "Good to see you",
+    "evidence": [
+     {
+      "turn": 0,
+      "quote": "Good to see you.",
+      "verified": true,
+      "score": 1.0
+     }
+    ],
+    "support": "supported",
+    "flags": [],
+    "origin": "model",
+    "edited": false
+   },
+   {
+    "id": "p2",
+    "section": "plan",
+    "text": "The estrogen in combination pills can lower lamitrogen levels in your blood, sometimes by about half, so the dose that works now could stop being enough",
+    "evidence": [
+     {
+      "turn": 20,
+      "quote": "The estrogen in combination pills can lower lamitrogen levels in your blood, sometimes by about half, so the",
+      "verified": true,
+      "score": 1.0
+     }
+    ],
+    "support": "supported",
+    "flags": [],
+    "origin": "model",
+    "edited": false
+   },
+   {
+    "id": "p3",
+    "section": "plan",
+    "text": "It applies to anyone on it, so to sum up, your bipolar roman 2 disorder is stable on lamatrogen 200 milligrams a day, and we'll keep that dose for now",
+    "evidence": [
+     {
+      "turn": 26,
+      "quote": "It applies to anyone on it, so to sum up, your bipolar roman 2 disorder is stable on",
+      "verified": true,
+      "score": 1.0
+     }
+    ],
+    "support": "supported",
+    "flags": [],
+    "origin": "model",
+    "edited": false
+   },
+   {
+    "id": "p4",
+    "section": "plan",
+    "text": "Here's the plan for the pill",
+    "evidence": [
+     {
+      "turn": 26,
+      "quote": "Here's the plan for the pill.",
+      "verified": true,
+      "score": 1.0
+     }
+    ],
+    "support": "supported",
+    "flags": [],
+    "origin": "model",
+    "edited": false
+   },
+   {
+    "id": "p5",
+    "section": "plan",
+    "text": "If you ever get a rash, especially with fever or mouth sores, stop the lamitrogen and call us or go to the emergency room",
+    "evidence": [
+     {
+      "turn": 30,
+      "quote": "If you ever get a rash, especially with fever or mouth sores, stop the lamitrogen and call us",
+      "verified": true,
+      "score": 1.0
+     }
+    ],
+    "support": "supported",
+    "flags": [],
+    "origin": "model",
+    "edited": false
+   },
+   {
+    "id": "p6",
+    "section": "plan",
+    "text": "And if you miss five days or more in a row, don't restart at 200, call us, because we need to build back up slowly",
+    "evidence": [
+     {
+      "turn": 30,
+      "quote": "And if you miss five days or more in a row, don't restart at 200, call us, because",
+      "verified": true,
+      "score": 1.0
+     }
+    ],
+    "support": "supported",
+    "flags": [],
+    "origin": "model",
+    "edited": false
+   }
+  ],
+  "medications": [
+   {
+    "name": "multivitamin",
+    "dose": "",
+    "frequency": "every morning",
+    "route": "",
+    "status": "active",
+    "evidence": [
+     {
+      "turn": 19,
+      "quote": "Just a multivitamin every morning.",
+      "verified": true,
+      "score": 1.0
+     }
+    ],
+    "flags": []
+   }
+  ],
+  "allergies": [],
+  "after_visit_summary": "Thank you for coming in today. Here is what we talked about. Good to see you. The estrogen in combination pills can lower lamitrogen levels in your blood, sometimes by about half, so the dose that works now could stop being enough. It applies to anyone on it, so to sum up, your bipolar roman 2 disorder is stable on lamatrogen 200 milligrams a day, and we will keep that dose for now. Here's the plan for the pill. If you ever get a rash, especially with fever or mouth sores, stop the lamitrogen and call us or go to the emergency room. And if you miss five days or more in a row, don't restart at 200, call us, because we need to build back up slowly.",
+  "avs_flags": [],
+  "icd10": [
+   {
+    "system": "ICD-10-CM",
+    "code": "F50.010",
+    "description": "Anorexia nervosa, restricting type, mild",
+    "rank": 1,
+    "rationale": "Matches the assessment: Anorexia nervosa, restricting type, mild",
+    "evidence": [],
+    "valid": true,
+    "billable": true,
+    "flags": [
+     {
+      "kind": "code_unsupported",
+      "severity": "warning",
+      "message": "No verified quote supports this code.",
+      "acknowledged": false,
+      "detail": {}
+     }
+    ],
+    "accepted": null
+   },
+   {
+    "system": "ICD-10-CM",
+    "code": "F50.810",
+    "description": "Binge eating disorder, mild",
+    "rank": 2,
+    "rationale": "Matches the assessment: Binge eating disorder, mild",
+    "evidence": [],
+    "valid": true,
+    "billable": true,
+    "flags": [
+     {
+      "kind": "code_unsupported",
+      "severity": "warning",
+      "message": "No verified quote supports this code.",
+      "acknowledged": false,
+      "detail": {}
+     }
+    ],
+    "accepted": null
+   },
+   {
+    "system": "ICD-10-CM",
+    "code": "Z74.2",
+    "description": "Need for assistance at home and no other household member able to render care",
+    "rank": 3,
+    "rationale": "Matches the assessment: Need for assistance at home and no other household member able to render care",
+    "evidence": [],
+    "valid": true,
+    "billable": true,
+    "flags": [
+     {
+      "kind": "code_unsupported",
+      "severity": "warning",
+      "message": "No verified quote supports this code.",
+      "acknowledged": false,
+      "detail": {}
+     }
+    ],
+    "accepted": null
+   }
+  ],
+  "em": {
+   "system": "CPT",
+   "code": "99214",
+   "description": "Established patient office visit, moderate-complexity decision making",
+   "rank": 1,
+   "rationale": "Rule-based: prescription drug management",
+   "evidence": [],
+   "valid": true,
+   "billable": true,
+   "flags": [],
+   "accepted": null
+  },
+  "procedures": [],
+  "mdm": {
+   "problems": "straightforward",
+   "data": "moderate",
+   "risk": "moderate",
+   "level": "moderate",
+   "code": "99214",
+   "reasons": [
+    "data: 3 tests or sources",
+    "risk: prescription drug management"
+   ]
+  },
+  "section_status": {
+   "subjective": "draft",
+   "objective": "draft",
+   "assessment": "draft",
+   "plan": "draft"
+  },
+  "model": "fake/fake-scribe",
+  "created_at": "2026-10-13T07:54:40.683242Z",
+  "signed_by": null,
+  "signed_at": null,
+  "timings": {
+   "phi_masking": 0.019,
+   "llm_note": 0.009,
+   "guards_note": 0.029,
+   "llm_codes": 0.006,
+   "guards_codes": 0.026,
+   "total": 0.089,
+   "wall": 0.094
+  },
+  "usage": {
+   "model_ms": 15,
+   "input_tokens": 3331,
+   "output_tokens": 1127,
+   "calls": 2
+  },
+  "phi": {
+   "NAME": 5,
+   "DOB": 1,
+   "DATE": 2,
+   "ADDRESS": 1,
+   "PHONE": 1
+  }
+ },
+ "vault": {
+  "originals": {
+   "[PATIENT]": "Hana Kobayashi",
+   "[DOB]": "July 3, 1997",
+   "[NAME_1]": "Shiba",
+   "[DATE_1]": "July",
+   "[NAME_2]": "Alvarez",
+   "[DATE_2]": "August",
+   "[ADDRESS_1]": "2200 Kessler Boulevard",
+   "[NAME_3]": "Progestin",
+   "[PHONE_1]": "317 -555 -0172",
+   "[NAME_4]": "Petrenko"
+  },
+  "surfaces": {
+   "[PATIENT]": [
+    "Hana",
+    "Hana Kobayashi"
+   ],
+   "[DOB]": [
+    "July 3, 1997"
+   ],
+   "[NAME_1]": [
+    "Shiba"
+   ],
+   "[DATE_1]": [
+    "July"
+   ],
+   "[NAME_2]": [
+    "Alvarez"
+   ],
+   "[DATE_2]": [
+    "August"
+   ],
+   "[ADDRESS_1]": [
+    "2200 Kessler Boulevard"
+   ],
+   "[NAME_3]": [
+    "Progestin"
+   ],
+   "[PHONE_1]": [
+    "317 -555 -0172"
+   ],
+   "[NAME_4]": [
+    "Petrenko"
+   ]
+  },
+  "types": {
+   "[PATIENT]": "NAME",
+   "[DOB]": "DOB",
+   "[NAME_1]": "NAME",
+   "[DATE_1]": "DATE",
+   "[NAME_2]": "NAME",
+   "[DATE_2]": "DATE",
+   "[ADDRESS_1]": "ADDRESS",
+   "[NAME_3]": "NAME",
+   "[PHONE_1]": "PHONE",
+   "[NAME_4]": "NAME"
+  },
+  "counters": {
+   "NAME": 4,
+   "DATE": 2,
+   "ADDRESS": 1,
+   "PHONE": 1
+  }
+ },
+ "score": {
+  "case": "mh-04",
+  "specialty": "mental_health",
+  "facts": 24,
+  "found": 15,
+  "found_in_section": 7,
+  "negation_errors": [],
+  "trap_errors": [],
+  "missed": [
+   "f2 [subjective] Denies hypomanic symptoms (decreased need for sleep, increased energy, overspending)",
+   "f3 [subjective] Last hypomanic episode 2 years ago",
+   "f4 [subjective] Denies depressive symptoms; last mild depressive period last winter",
+   "f5 [subjective] Sleeping about 7 hours with regular schedule",
+   "f6 [subjective] Taking lamotrigine 200 mg once daily, misses about one dose a month",
+   "f7 [subjective] Denies rash, mouth sores, or blisters",
+   "f10 [subjective] Denies suicidal ideation or thoughts of self-harm; has safety plan and 988 saved",
+   "f17 [plan] Continue lamotrigine 200 mg daily",
+   "f20 [plan] Discuss progestin-only or IUD contraception with gynecologist as alternatives that do not affect lamotrigine"
+  ],
+  "statements": 14,
+  "statements_matching_gold": 10,
+  "unsupported": 0,
+  "partial": 0,
+  "flags": {},
+  "meds": 3,
+  "meds_found": 1,
+  "meds_dose_correct": 0,
+  "icd_primary": "F31.81",
+  "icd_suggested": [
+   "F50.010",
+   "F50.810",
+   "Z74.2"
+  ],
+  "icd_top1": false,
+  "icd_top3": false,
+  "icd_top3_lenient": false,
+  "icd_top3_category": false,
+  "icd_gold_recall": 0.0,
+  "icd_invalid": 0,
+  "em_gold": "99213",
+  "em_suggested": "99214",
+  "em_exact": false,
+  "em_within_one": true,
+  "em_rule_estimate": "99214",
+  "procedures_gold": 0,
+  "procedures_found": 0
+ },
+ "egress_residue": {}
+}

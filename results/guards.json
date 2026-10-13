@@ -29,8 +29,8 @@
   },
   "negation_flip": {
    "trials": 32,
-   "caught": 15,
-   "rate": 0.469
+   "caught": 17,
+   "rate": 0.531
   },
   "number_change": {
    "trials": 29,
@@ -45,17 +45,17 @@
  },
  "overall": {
   "trials": 236,
-  "caught": 214
+  "caught": 216
  },
  "baseline_polarity_error_flags_per_statement": 0.0011,
  "missed_examples": {
   "negation_flip": [
    "cd-01: Reports chest pressure does occur at rest or wake patient at night",
-   "dm-02: Reports extra hair growth on chin or chest.",
-   "dm-03: Reports oozing or yellow crusting.",
    "dm-04: Reports warts do hurt.",
    "dm-06: Reports pain in the scalp spots.",
-   "mh-01: Reports patient history of prior depression or anxiety treatment."
+   "mh-01: Reports patient history of prior depression or anxiety treatment.",
+   "mh-02: Reports panic attacks since April",
+   "mh-04: Reports periods of feeling revved up, needing less sleep, or spending more than usual."
   ],
   "dose_x10": [
    "cd-03: sacubitril/valsartan 40 9"

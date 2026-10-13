@@ -1,0 +1,1074 @@
+{
+ "runs": {
+  "apodex": {
+   "visits": 32,
+   "gold_facts": 878,
+   "fact_recall": 0.9487,
+   "fact_recall_section_correct": 0.918,
+   "statements": 896,
+   "gold_matched_precision": 0.9007,
+   "unsupported_rate": 0.0,
+   "partial_rate": 0.019,
+   "negation_errors": 7,
+   "negatives_in_gold": 173,
+   "trap_errors": 2,
+   "medication_recall": 0.9009,
+   "medication_dose_correct": 0.7387,
+   "icd_top1": 0.5938,
+   "icd_top3": 0.5938,
+   "icd_top3_lenient": 0.75,
+   "icd_top3_category": 0.8438,
+   "icd_all_gold_recall": 0.6302,
+   "icd_invalid_suggestions": 7,
+   "em_exact": 0.5938,
+   "em_within_one": 1.0,
+   "em_rule_estimate_exact": 0.6562,
+   "procedure_recall": 0.6957,
+   "flags": {
+    "dose_mismatch": 11,
+    "partial_support": 17,
+    "negation": 3,
+    "unknown_drug": 5,
+    "allergy_conflict": 3
+   },
+   "by_specialty": {
+    "cardiology": {
+     "visits": 6,
+     "fact_recall": 0.9345,
+     "icd_top3": 0.5,
+     "unsupported_rate": 0.0
+    },
+    "dermatology": {
+     "visits": 6,
+     "fact_recall": 0.9383,
+     "icd_top3": 0.6667,
+     "unsupported_rate": 0.0
+    },
+    "mental_health": {
+     "visits": 6,
+     "fact_recall": 0.9477,
+     "icd_top3": 0.6667,
+     "unsupported_rate": 0.0
+    },
+    "pediatrics": {
+     "visits": 6,
+     "fact_recall": 0.9706,
+     "icd_top3": 0.3333,
+     "unsupported_rate": 0.0
+    },
+    "primary_care": {
+     "visits": 8,
+     "fact_recall": 0.9511,
+     "icd_top3": 0.75,
+     "unsupported_rate": 0.0
+    }
+   },
+   "name": "apodex",
+   "model": "openrouter/apodex/apodex-1.1-mini:free",
+   "requested_model": "openrouter/apodex/apodex-1.1-mini:free",
+   "transcripts": "gold",
+   "failures": [],
+   "payloads_checked": 65,
+   "phi_leaks": 0,
+   "latency_s": {
+    "phi_masking": {
+     "p50": 0.03,
+     "p95": 0.04
+    },
+    "llm_note": {
+     "p50": 17.38,
+     "p95": 35.09
+    },
+    "llm_codes": {
+     "p50": 2.98,
+     "p95": 8.29
+    },
+    "guards_note": {
+     "p50": 0.06,
+     "p95": 0.08
+    },
+    "guards_codes": {
+     "p50": 0.04,
+     "p95": 0.06
+    },
+    "total": {
+     "p50": 20.86,
+     "p95": 39.01
+    }
+   },
+   "tokens_per_visit": {
+    "input_mean": 5358,
+    "output_mean": 2834,
+    "calls_total": 65
+   },
+   "wall_minutes": 0.7
+  },
+  "asr-fake": {
+   "visits": 32,
+   "gold_facts": 878,
+   "fact_recall": 0.5456,
+   "fact_recall_section_correct": 0.3975,
+   "statements": 577,
+   "gold_matched_precision": 0.7002,
+   "unsupported_rate": 0.0,
+   "partial_rate": 0.0035,
+   "negation_errors": 14,
+   "negatives_in_gold": 173,
+   "trap_errors": 6,
+   "medication_recall": 0.7658,
+   "medication_dose_correct": 0.3243,
+   "icd_top1": 0.0625,
+   "icd_top3": 0.1875,
+   "icd_top3_lenient": 0.1875,
+   "icd_top3_category": 0.2188,
+   "icd_all_gold_recall": 0.1823,
+   "icd_invalid_suggestions": 0,
+   "em_exact": 0.625,
+   "em_within_one": 0.9688,
+   "em_rule_estimate_exact": 0.4375,
+   "procedure_recall": 0.3478,
+   "flags": {
+    "dose_mismatch": 2,
+    "dose_range": 9,
+    "allergy_conflict": 3,
+    "dose_unit": 2,
+    "partial_support": 2
+   },
+   "by_specialty": {
+    "cardiology": {
+     "visits": 6,
+     "fact_recall": 0.6726,
+     "icd_top3": 0.1667,
+     "unsupported_rate": 0.0
+    },
+    "dermatology": {
+     "visits": 6,
+     "fact_recall": 0.3704,
+     "icd_top3": 0.1667,
+     "unsupported_rate": 0.0
+    },
+    "mental_health": {
+     "visits": 6,
+     "fact_recall": 0.5033,
+     "icd_top3": 0.3333,
+     "unsupported_rate": 0.0
+    },
+    "pediatrics": {
+     "visits": 6,
+     "fact_recall": 0.4529,
+     "icd_top3": 0.0,
+     "unsupported_rate": 0.0
+    },
+    "primary_care": {
+     "visits": 8,
+     "fact_recall": 0.6756,
+     "icd_top3": 0.25,
+     "unsupported_rate": 0.0
+    }
+   },
+   "name": "asr-fake",
+   "model": "fake/fake-scribe",
+   "requested_model": "fake/fake-scribe",
+   "transcripts": "small.en-clean",
+   "failures": [],
+   "payloads_checked": 64,
+   "phi_leaks": 0,
+   "latency_s": {
+    "phi_masking": {
+     "p50": 0.02,
+     "p95": 0.02
+    },
+    "llm_note": {
+     "p50": 0.01,
+     "p95": 0.02
+    },
+    "llm_codes": {
+     "p50": 0.0,
+     "p95": 0.01
+    },
+    "guards_note": {
+     "p50": 0.03,
+     "p95": 0.04
+    },
+    "guards_codes": {
+     "p50": 0.03,
+     "p95": 0.03
+    },
+    "total": {
+     "p50": 0.09,
+     "p95": 0.1
+    }
+   },
+   "tokens_per_visit": {
+    "input_mean": 3261,
+    "output_mean": 1259,
+    "calls_total": 64
+   },
+   "wall_minutes": 0.1
+  },
+  "fake": {
+   "visits": 32,
+   "gold_facts": 878,
+   "fact_recall": 0.6424,
+   "fact_recall_section_correct": 0.4818,
+   "statements": 674,
+   "gold_matched_precision": 0.7315,
+   "unsupported_rate": 0.0,
+   "partial_rate": 0.003,
+   "negation_errors": 6,
+   "negatives_in_gold": 173,
+   "trap_errors": 6,
+   "medication_recall": 0.9009,
+   "medication_dose_correct": 0.5766,
+   "icd_top1": 0.0938,
+   "icd_top3": 0.2188,
+   "icd_top3_lenient": 0.2188,
+   "icd_top3_category": 0.2812,
+   "icd_all_gold_recall": 0.2135,
+   "icd_invalid_suggestions": 0,
+   "em_exact": 0.5938,
+   "em_within_one": 0.9688,
+   "em_rule_estimate_exact": 0.5312,
+   "procedure_recall": 0.4783,
+   "flags": {
+    "dose_mismatch": 7,
+    "dose_range": 5,
+    "partial_support": 2,
+    "allergy_conflict": 3,
+    "negation": 1
+   },
+   "by_specialty": {
+    "cardiology": {
+     "visits": 6,
+     "fact_recall": 0.7381,
+     "icd_top3": 0.3333,
+     "unsupported_rate": 0.0
+    },
+    "dermatology": {
+     "visits": 6,
+     "fact_recall": 0.5309,
+     "icd_top3": 0.1667,
+     "unsupported_rate": 0.0
+    },
+    "mental_health": {
+     "visits": 6,
+     "fact_recall": 0.6144,
+     "icd_top3": 0.3333,
+     "unsupported_rate": 0.0
+    },
+    "pediatrics": {
+     "visits": 6,
+     "fact_recall": 0.5824,
+     "icd_top3": 0.0,
+     "unsupported_rate": 0.0
+    },
+    "primary_care": {
+     "visits": 8,
+     "fact_recall": 0.7156,
+     "icd_top3": 0.25,
+     "unsupported_rate": 0.0
+    }
+   },
+   "name": "fake",
+   "model": "fake/fake-scribe",
+   "requested_model": "fake/fake-scribe",
+   "transcripts": "gold",
+   "failures": [],
+   "payloads_checked": 64,
+   "phi_leaks": 0,
+   "latency_s": {
+    "phi_masking": {
+     "p50": 0.03,
+     "p95": 0.04
+    },
+    "llm_note": {
+     "p50": 0.02,
+     "p95": 0.02
+    },
+    "llm_codes": {
+     "p50": 0.01,
+     "p95": 0.01
+    },
+    "guards_note": {
+     "p50": 0.06,
+     "p95": 0.08
+    },
+    "guards_codes": {
+     "p50": 0.04,
+     "p95": 0.05
+    },
+    "total": {
+     "p50": 0.16,
+     "p95": 0.19
+    }
+   },
+   "tokens_per_visit": {
+    "input_mean": 3258,
+    "output_mean": 1392,
+    "calls_total": 64
+   },
+   "wall_minutes": 0.1
+  },
+  "main": {
+   "visits": 32,
+   "gold_facts": 878,
+   "fact_recall": 0.9248,
+   "fact_recall_section_correct": 0.8964,
+   "statements": 943,
+   "gold_matched_precision": 0.9099,
+   "unsupported_rate": 0.0,
+   "partial_rate": 0.017,
+   "negation_errors": 11,
+   "negatives_in_gold": 173,
+   "trap_errors": 0,
+   "medication_recall": 0.8468,
+   "medication_dose_correct": 0.7117,
+   "icd_top1": 0.6875,
+   "icd_top3": 0.6875,
+   "icd_top3_lenient": 0.8438,
+   "icd_top3_category": 0.8438,
+   "icd_all_gold_recall": 0.6406,
+   "icd_invalid_suggestions": 1,
+   "em_exact": 0.5625,
+   "em_within_one": 0.9688,
+   "em_rule_estimate_exact": 0.6875,
+   "procedure_recall": 0.8261,
+   "flags": {
+    "partial_support": 16,
+    "dose_mismatch": 9,
+    "unknown_drug": 4,
+    "negation": 1,
+    "allergy_conflict": 1
+   },
+   "by_specialty": {
+    "cardiology": {
+     "visits": 6,
+     "fact_recall": 0.9226,
+     "icd_top3": 0.6667,
+     "unsupported_rate": 0.0
+    },
+    "dermatology": {
+     "visits": 6,
+     "fact_recall": 0.9321,
+     "icd_top3": 0.6667,
+     "unsupported_rate": 0.0
+    },
+    "mental_health": {
+     "visits": 6,
+     "fact_recall": 0.9085,
+     "icd_top3": 0.8333,
+     "unsupported_rate": 0.0
+    },
+    "pediatrics": {
+     "visits": 6,
+     "fact_recall": 0.9294,
+     "icd_top3": 0.5,
+     "unsupported_rate": 0.0
+    },
+    "primary_care": {
+     "visits": 8,
+     "fact_recall": 0.9289,
+     "icd_top3": 0.75,
+     "unsupported_rate": 0.0
+    }
+   },
+   "name": "main",
+   "model": "openrouter/nvidia/nemotron-3-super-120b-a12b:free",
+   "requested_model": "openrouter/nvidia/nemotron-3-super-120b-a12b:free",
+   "transcripts": "gold",
+   "failures": [],
+   "payloads_checked": 64,
+   "phi_leaks": 0,
+   "latency_s": {
+    "phi_masking": {
+     "p50": 0.03,
+     "p95": 0.03
+    },
+    "llm_note": {
+     "p50": 19.66,
+     "p95": 37.02
+    },
+    "llm_codes": {
+     "p50": 4.28,
+     "p95": 8.68
+    },
+    "guards_note": {
+     "p50": 0.05,
+     "p95": 0.07
+    },
+    "guards_codes": {
+     "p50": 0.04,
+     "p95": 0.05
+    },
+    "total": {
+     "p50": 24.88,
+     "p95": 40.4
+    }
+   },
+   "tokens_per_visit": {
+    "input_mean": 5067,
+    "output_mean": 2884,
+    "calls_total": 64
+   },
+   "wall_minutes": 0.1
+  }
+ },
+ "asr": {
+  "base.en-clean": {
+   "name": "base.en-clean",
+   "model": "faster-whisper base.en int8 (CPU, 12 threads)",
+   "condition": "clean",
+   "medical_prompt": true,
+   "visits": 12,
+   "ref_words": 8169,
+   "wer": 0.0448,
+   "key_terms": 532,
+   "key_term_recall": 0.8477,
+   "role_accuracy": 0.9146,
+   "audio_minutes": 53.0,
+   "real_time_factor_p50": 0.058,
+   "asr_seconds_per_visit_p50": 15.2,
+   "diarization_seconds_per_visit_p50": 1.28,
+   "misrecognized_drug_terms": {
+    "lisinopril": 5,
+    "amlodipine": 3,
+    "clobetasol": 3,
+    "lamotrigine": 3,
+    "atorvastatin": 2,
+    "furosemide": 2,
+    "fluticasone": 2,
+    "ibuprofen": 1,
+    "diphenhydramine": 1,
+    "succinate": 1,
+    "carvedilol": 1,
+    "spironolactone": 1,
+    "levothyroxine": 1,
+    "risankizumab": 1,
+    "amoxicillin": 1,
+    "prednisolone": 1,
+    "albuterol": 1,
+    "bupropion": 1,
+    "naltrexone": 1
+   }
+  },
+  "small.en-clean-noprompt": {
+   "name": "small.en-clean-noprompt",
+   "model": "faster-whisper small.en int8 (CPU, 12 threads)",
+   "condition": "clean",
+   "medical_prompt": false,
+   "visits": 12,
+   "ref_words": 8169,
+   "wer": 0.0273,
+   "key_terms": 532,
+   "key_term_recall": 0.9023,
+   "role_accuracy": 0.9175,
+   "audio_minutes": 53.0,
+   "real_time_factor_p50": 0.148,
+   "asr_seconds_per_visit_p50": 39.3,
+   "diarization_seconds_per_visit_p50": 1.32,
+   "misrecognized_drug_terms": {
+    "lamotrigine": 6,
+    "lisinopril": 2,
+    "succinate": 1,
+    "dapagliflozin": 1,
+    "furosemide": 1,
+    "levothyroxine": 1,
+    "naltrexone": 1
+   }
+  },
+  "small.en-clean": {
+   "name": "small.en-clean",
+   "model": "faster-whisper small.en int8 (CPU, 12 threads)",
+   "condition": "clean",
+   "medical_prompt": true,
+   "visits": 32,
+   "ref_words": 20756,
+   "wer": 0.0298,
+   "key_terms": 1330,
+   "key_term_recall": 0.8977,
+   "role_accuracy": 0.9291,
+   "audio_minutes": 133.5,
+   "real_time_factor_p50": 0.14,
+   "asr_seconds_per_visit_p50": 37.6,
+   "diarization_seconds_per_visit_p50": 1.3,
+   "misrecognized_drug_terms": {
+    "apixaban": 6,
+    "lamotrigine": 6,
+    "lisinopril": 4,
+    "levothyroxine": 3,
+    "succinate": 3,
+    "adapalene": 3,
+    "escitalopram": 3,
+    "empagliflozin": 2,
+    "triamcinolone": 2,
+    "cetirizine": 2,
+    "miralax": 2,
+    "doxycycline": 1,
+    "fluticasone": 1,
+    "nitrofurantoin": 1,
+    "dapagliflozin": 1,
+    "furosemide": 1,
+    "accutane": 1,
+    "fluorouracil": 1,
+    "cephalexin": 1,
+    "guanfacine": 1,
+    "bupropion": 1,
+    "naltrexone": 1
+   }
+  },
+  "small.en-noisy": {
+   "name": "small.en-noisy",
+   "model": "faster-whisper small.en int8 (CPU, 12 threads)",
+   "condition": "noisy",
+   "medical_prompt": true,
+   "visits": 12,
+   "ref_words": 8169,
+   "wer": 0.0768,
+   "key_terms": 532,
+   "key_term_recall": 0.8759,
+   "role_accuracy": 0.951,
+   "audio_minutes": 53.0,
+   "real_time_factor_p50": 0.17,
+   "asr_seconds_per_visit_p50": 41.0,
+   "diarization_seconds_per_visit_p50": 1.46,
+   "misrecognized_drug_terms": {
+    "lamotrigine": 5,
+    "lisinopril": 3,
+    "naproxen": 2,
+    "succinate": 1,
+    "dapagliflozin": 1,
+    "acetaminophen": 1,
+    "methotrexate": 1,
+    "risankizumab": 1,
+    "prednisolone": 1,
+    "naltrexone": 1
+   }
+  }
+ },
+ "phi": {
+  "dialogues_gold_text": {
+   "gold_values": 251,
+   "covered": 250,
+   "recall": 0.996,
+   "by_type": {
+    "ADDRESS": {
+     "total": 16,
+     "covered": 15
+    },
+    "AGE": {
+     "total": 2,
+     "covered": 2
+    },
+    "DATE": {
+     "total": 51,
+     "covered": 51
+    },
+    "EMAIL": {
+     "total": 8,
+     "covered": 8
+    },
+    "ID": {
+     "total": 3,
+     "covered": 3
+    },
+    "NAME": {
+     "total": 126,
+     "covered": 126
+    },
+    "ORG": {
+     "total": 23,
+     "covered": 23
+    },
+    "PHONE": {
+     "total": 22,
+     "covered": 22
+    }
+   },
+   "misses": [
+    {
+     "case": "dm-06",
+     "type": "ADDRESS",
+     "value": "8817 County Road 12, Seward, Nebraska"
+    }
+   ],
+   "masked_words": 631,
+   "masked_words_not_in_gold_phi": 32,
+   "over_masking_rate": 0.0507
+  },
+  "dialogues_asr_text": {
+   "gold_values": 159,
+   "covered": 158,
+   "recall": 0.9937,
+   "by_type": {
+    "ADDRESS": {
+     "total": 14,
+     "covered": 13
+    },
+    "AGE": {
+     "total": 2,
+     "covered": 2
+    },
+    "DATE": {
+     "total": 43,
+     "covered": 43
+    },
+    "ID": {
+     "total": 1,
+     "covered": 1
+    },
+    "NAME": {
+     "total": 79,
+     "covered": 79
+    },
+    "ORG": {
+     "total": 20,
+     "covered": 20
+    }
+   },
+   "misses": [
+    {
+     "case": "dm-06",
+     "type": "ADDRESS",
+     "value": "8817 County Road 12, Seward, Nebraska"
+    }
+   ],
+   "masked_words": 603,
+   "masked_words_not_in_gold_phi": 250,
+   "over_masking_rate": 0.4146
+  },
+  "phi_challenge_current": {
+   "items": 100,
+   "gold_values": 148,
+   "covered": 142,
+   "recall": 0.9595,
+   "by_type": {
+    "ADDRESS": {
+     "total": 24,
+     "covered": 22
+    },
+    "AGE": {
+     "total": 5,
+     "covered": 5
+    },
+    "DATE": {
+     "total": 12,
+     "covered": 12
+    },
+    "DOB": {
+     "total": 10,
+     "covered": 9
+    },
+    "EMAIL": {
+     "total": 3,
+     "covered": 3
+    },
+    "ID": {
+     "total": 10,
+     "covered": 10
+    },
+    "NAME": {
+     "total": 63,
+     "covered": 61
+    },
+    "ORG": {
+     "total": 13,
+     "covered": 12
+    },
+    "PHONE": {
+     "total": 6,
+     "covered": 6
+    },
+    "URL": {
+     "total": 2,
+     "covered": 2
+    }
+   },
+   "negative_items": 20,
+   "negative_items_untouched": 19,
+   "masked_words": 427,
+   "masked_words_not_in_gold_phi": 2
+  },
+  "phi_challenge_2_current": {
+   "items": 120,
+   "gold_values": 169,
+   "covered": 134,
+   "recall": 0.7929,
+   "by_type": {
+    "ADDRESS": {
+     "total": 26,
+     "covered": 21
+    },
+    "AGE": {
+     "total": 7,
+     "covered": 7
+    },
+    "DATE": {
+     "total": 17,
+     "covered": 14
+    },
+    "DOB": {
+     "total": 11,
+     "covered": 6
+    },
+    "EMAIL": {
+     "total": 5,
+     "covered": 5
+    },
+    "ID": {
+     "total": 15,
+     "covered": 10
+    },
+    "NAME": {
+     "total": 66,
+     "covered": 56
+    },
+    "ORG": {
+     "total": 15,
+     "covered": 11
+    },
+    "PHONE": {
+     "total": 6,
+     "covered": 3
+    },
+    "URL": {
+     "total": 1,
+     "covered": 1
+    }
+   },
+   "negative_items": 25,
+   "negative_items_untouched": 22,
+   "masked_words": 396,
+   "masked_words_not_in_gold_phi": 12
+  }
+ },
+ "phi_challenge_frozen": {
+  "v1_on_set1": {
+   "items": 100,
+   "gold_values": 148,
+   "covered": 101,
+   "recall": 0.6824,
+   "by_type": {
+    "ADDRESS": {
+     "total": 24,
+     "covered": 16
+    },
+    "AGE": {
+     "total": 5,
+     "covered": 2
+    },
+    "DATE": {
+     "total": 12,
+     "covered": 11
+    },
+    "DOB": {
+     "total": 10,
+     "covered": 4
+    },
+    "EMAIL": {
+     "total": 3,
+     "covered": 2
+    },
+    "ID": {
+     "total": 10,
+     "covered": 6
+    },
+    "NAME": {
+     "total": 63,
+     "covered": 43
+    },
+    "ORG": {
+     "total": 13,
+     "covered": 12
+    },
+    "PHONE": {
+     "total": 6,
+     "covered": 5
+    },
+    "URL": {
+     "total": 2,
+     "covered": 0
+    }
+   },
+   "negative_items": 20,
+   "negative_items_untouched": 17
+  },
+  "v2_on_set2": {
+   "items": 120,
+   "gold_values": 169,
+   "covered": 134,
+   "recall": 0.7929,
+   "by_type": {
+    "ADDRESS": {
+     "total": 26,
+     "covered": 21
+    },
+    "AGE": {
+     "total": 7,
+     "covered": 7
+    },
+    "DATE": {
+     "total": 17,
+     "covered": 14
+    },
+    "DOB": {
+     "total": 11,
+     "covered": 6
+    },
+    "EMAIL": {
+     "total": 5,
+     "covered": 5
+    },
+    "ID": {
+     "total": 15,
+     "covered": 10
+    },
+    "NAME": {
+     "total": 66,
+     "covered": 56
+    },
+    "ORG": {
+     "total": 15,
+     "covered": 11
+    },
+    "PHONE": {
+     "total": 6,
+     "covered": 3
+    },
+    "URL": {
+     "total": 1,
+     "covered": 1
+    }
+   },
+   "negative_items": 25,
+   "negative_items_untouched": 22
+  }
+ },
+ "canary": {
+  "visits": 32,
+  "payloads_checked": 64,
+  "canary_values_per_visit": 7,
+  "leaks": 0,
+  "visits_with_errors": 1,
+  "egress_residue_masked_visits": 0,
+  "model": "openrouter/nvidia/nemotron-3-super-120b-a12b:free"
+ },
+ "guards": {
+  "run": "main",
+  "notes": 32,
+  "catch_rate": {
+   "dose_x10": {
+    "trials": 30,
+    "caught": 29,
+    "rate": 0.967
+   },
+   "icd_denied": {
+    "trials": 23,
+    "caught": 23,
+    "rate": 1.0
+   },
+   "icd_fake": {
+    "trials": 32,
+    "caught": 32,
+    "rate": 1.0
+   },
+   "icd_header": {
+    "trials": 32,
+    "caught": 32,
+    "rate": 1.0
+   },
+   "invented": {
+    "trials": 32,
+    "caught": 29,
+    "rate": 0.906
+   },
+   "negation_flip": {
+    "trials": 32,
+    "caught": 17,
+    "rate": 0.531
+   },
+   "number_change": {
+    "trials": 29,
+    "caught": 28,
+    "rate": 0.966
+   },
+   "unit_swap": {
+    "trials": 26,
+    "caught": 26,
+    "rate": 1.0
+   }
+  },
+  "overall": {
+   "trials": 236,
+   "caught": 216
+  },
+  "baseline_polarity_error_flags_per_statement": 0.0011,
+  "missed_examples": {
+   "negation_flip": [
+    "cd-01: Reports chest pressure does occur at rest or wake patient at night",
+    "dm-04: Reports warts do hurt.",
+    "dm-06: Reports pain in the scalp spots.",
+    "mh-01: Reports patient history of prior depression or anxiety treatment.",
+    "mh-02: Reports panic attacks since April",
+    "mh-04: Reports periods of feeling revved up, needing less sleep, or spending more than usual."
+   ],
+   "dose_x10": [
+    "cd-03: sacubitril/valsartan 40 9"
+   ],
+   "invented": [
+    "cd-05: Lungs clear",
+    "cd-06: No leg swelling.",
+    "pc-03: Lungs: clear."
+   ],
+   "number_change": [
+    "pd-05: Vital signs: blood pressure 134/66, heart rate 94."
+   ]
+  }
+ },
+ "calls": {
+  "requests": 325,
+  "ok": 216,
+  "input_tokens": 558132,
+  "output_tokens": 314455,
+  "non_free_models": [],
+  "by_model_status": {
+   "nvidia/nemotron-3-super-120b-a12b:free retryable_error": 87,
+   "nvidia/nemotron-3-super-120b-a12b:free ok": 140,
+   "google/gemma-4-31b-it:free retryable_error": 4,
+   "nvidia/nemotron-3-ultra-550b-a55b:free ok": 3,
+   "thinkingmachines/inkling:free error": 1,
+   "poolside/laguna-s-2.1:free ok": 2,
+   "poolside/laguna-s-2.1:free retryable_error": 1,
+   "dots-studio/dots-3-note-preview:free ok": 2,
+   "google/gemma-4-26b-a4b-it:free retryable_error": 3,
+   "apodex/apodex-1.1-mini:free ok": 67,
+   "nvidia/nemotron-3.5-lightning:free ok": 2,
+   "apodex/apodex-1.1-mini:free retryable_error": 9,
+   "apodex/apodex-1.1-mini:free error": 2,
+   "nvidia/nemotron-3-super-120b-a12b:free error": 2
+  }
+ },
+ "smoke": {
+  "visit": "pc-01",
+  "date": "2026-10-13",
+  "results": [
+   {
+    "model": "nvidia/nemotron-3-super-120b-a12b:free",
+    "ok": true,
+    "seconds": 22.2,
+    "fact_recall": 1.0,
+    "statements": 29,
+    "unsupported": 0,
+    "icd": [
+     "I10"
+    ],
+    "icd_top3": true,
+    "em": "99213",
+    "negation_errors": 0,
+    "tokens": {
+     "input_tokens": 5110,
+     "output_tokens": 2448,
+     "calls": 2
+    }
+   },
+   {
+    "model": "google/gemma-4-31b-it:free",
+    "ok": false,
+    "seconds": 17.1,
+    "error": "rate limited: google/gemma-4-31b-it:free is temporarily rate-limited upstream. Please retry shortly, or add your own key to accumulate your rate limits: https://openrouter.ai/settings/integrations"
+   },
+   {
+    "model": "poolside/laguna-s-2.1:free",
+    "ok": true,
+    "seconds": 73.8,
+    "fact_recall": 1.0,
+    "statements": 24,
+    "unsupported": 0,
+    "icd": [
+     "I10",
+     "E78.5"
+    ],
+    "icd_top3": true,
+    "em": "99214",
+    "negation_errors": 0,
+    "tokens": {
+     "input_tokens": 5493,
+     "output_tokens": 2733,
+     "calls": 2
+    }
+   },
+   {
+    "model": "dots-studio/dots-3-note-preview:free",
+    "ok": true,
+    "seconds": 43.4,
+    "fact_recall": 1.0,
+    "statements": 25,
+    "unsupported": 0,
+    "icd": [
+     "I10",
+     "E78.5",
+     "Z82.0"
+    ],
+    "icd_top3": true,
+    "em": "99214",
+    "negation_errors": 0,
+    "tokens": {
+     "input_tokens": 5336,
+     "output_tokens": 2607,
+     "calls": 2
+    }
+   },
+   {
+    "model": "google/gemma-4-26b-a4b-it:free",
+    "ok": false,
+    "seconds": 19.0,
+    "error": "rate limited: google/gemma-4-26b-a4b-it:free is temporarily rate-limited upstream. Please retry shortly, or add your own key to accumulate your rate limits: https://openrouter.ai/settings/integrations"
+   },
+   {
+    "model": "apodex/apodex-1.1-mini:free",
+    "ok": true,
+    "seconds": 27.0,
+    "fact_recall": 1.0,
+    "statements": 28,
+    "unsupported": 0,
+    "icd": [
+     "I10",
+     "E78.5"
+    ],
+    "icd_top3": true,
+    "em": "99213",
+    "negation_errors": 0,
+    "tokens": {
+     "input_tokens": 5470,
+     "output_tokens": 2785,
+     "calls": 2
+    }
+   },
+   {
+    "model": "nvidia/nemotron-3.5-lightning:free",
+    "ok": false,
+    "seconds": 63.0,
+    "error": "the model's answer is not valid JSON after one repair: invalid JSON: Extra data at line 1"
+   },
+   {
+    "model": "nvidia/nemotron-3-ultra-550b-a55b:free",
+    "ok": true,
+    "seconds": 38.7,
+    "fact_recall": 1.0,
+    "statements": 27,
+    "unsupported": 0,
+    "icd": [
+     "I10",
+     "E78.5"
+    ],
+    "icd_top3": true,
+    "em": "99214",
+    "negation_errors": 0,
+    "tokens": {
+     "input_tokens": 5096,
+     "output_tokens": 2612,
+     "calls": 2
+    }
+   }
+  ]
+ }
+}

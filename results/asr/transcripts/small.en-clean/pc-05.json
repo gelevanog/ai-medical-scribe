@@ -1,0 +1,341 @@
+{
+ "turns": [
+  {
+   "idx": 0,
+   "speaker": "patient",
+   "text": "Morning.",
+   "start": 0.05,
+   "end": 0.71
+  },
+  {
+   "idx": 1,
+   "speaker": "clinician",
+   "text": "Let's start with your full name and date of birth. Brendan Gallagher,",
+   "start": 0.99,
+   "end": 4.57
+  },
+  {
+   "idx": 2,
+   "speaker": "patient",
+   "text": "August 30th, 1974.",
+   "start": 5.01,
+   "end": 7.15
+  },
+  {
+   "idx": 3,
+   "speaker": "clinician",
+   "text": "Thanks, Brendan. Big weekend coming up.",
+   "start": 8.36,
+   "end": 10.46
+  },
+  {
+   "idx": 4,
+   "speaker": "patient",
+   "text": "My daughter, Siobhan, has a soccer tournament in Canton, so I'll be freezing on the sidelines all Saturday.",
+   "start": 11.44,
+   "end": 17.46
+  },
+  {
+   "idx": 5,
+   "speaker": "clinician",
+   "text": "Bring a thermos, so this is your yearly physical. Anything bothering you or new since last year? Honestly, I feel fine. No complaints.",
+   "start": 18.32,
+   "end": 26.42
+  },
+  {
+   "idx": 6,
+   "speaker": "patient",
+   "text": "Well, I want to talk about the smoking. I think I'm ready to quit for real.",
+   "start": 27.04,
+   "end": 31.02
+  },
+  {
+   "idx": 7,
+   "speaker": "clinician",
+   "text": "I'm really glad to hear that.",
+   "start": 31.56,
+   "end": 32.96
+  },
+  {
+   "idx": 8,
+   "speaker": "patient",
+   "text": "We'll spend some time on it. How much are you smoking right now?\" About a pack a day. I started when I was twenty -two, so about thirty years.",
+   "start": 33.32,
+   "end": 41.92
+  },
+  {
+   "idx": 9,
+   "speaker": "clinician",
+   "text": "Have you tried quitting before?",
+   "start": 42.62,
+   "end": 44.22
+  },
+  {
+   "idx": 10,
+   "speaker": "patient",
+   "text": "Yeah, in two thousand nineteen I used the patch and made it six months. Then work got stressful and I picked it back up. Six months is a real accomplishment. It means you can do it. Any cough, chest pain, or shortness of breath?",
+   "start": 44.92,
+   "end": 59.21
+  },
+  {
+   "idx": 11,
+   "speaker": "clinician",
+   "text": "Nope, none of those. Any blood in your stool or weight loss you can't explain? No. Alcohols?",
+   "start": 60.23,
+   "end": 67.59
+  },
+  {
+   "idx": 12,
+   "speaker": "patient",
+   "text": "Two or three beers a week, maybe.",
+   "start": 68.21,
+   "end": 70.51
+  },
+  {
+   "idx": 13,
+   "speaker": "clinician",
+   "text": "Any family history changes?",
+   "start": 71.45,
+   "end": 73.07
+  },
+  {
+   "idx": 14,
+   "speaker": "patient",
+   "text": "My mum had breast cancer back in 2021. She did chemo, she's doing great now.",
+   "start": 74.04,
+   "end": 79.82
+  },
+  {
+   "idx": 15,
+   "speaker": "clinician",
+   "text": "Dad's fine,",
+   "start": 80.4,
+   "end": 81.14
+  },
+  {
+   "idx": 16,
+   "speaker": "patient",
+   "text": "he's 80 and still golfing. Glad she's doing well.",
+   "start": 81.46,
+   "end": 84.84
+  },
+  {
+   "idx": 17,
+   "speaker": "clinician",
+   "text": "You're not on any regular medicines, right?",
+   "start": 85.2,
+   "end": 87.06
+  },
+  {
+   "idx": 18,
+   "speaker": "patient",
+   "text": "Nothing. Just a multivitamin most days. And no allergies to medications? Not that I know of.",
+   "start": 87.54,
+   "end": 94.72
+  },
+  {
+   "idx": 19,
+   "speaker": "clinician",
+   "text": "OK.",
+   "start": 95.24,
+   "end": 95.7
+  },
+  {
+   "idx": 20,
+   "speaker": "patient",
+   "text": "Your blood pressure is one hundred thirty -two over eighty -two, pulse seventy -eight, and weight is two hundred five pounds.",
+   "start": 95.88,
+   "end": 101.1
+  },
+  {
+   "idx": 21,
+   "speaker": "clinician",
+   "text": "Let me listen.",
+   "start": 101.74,
+   "end": 102.28
+  },
+  {
+   "idx": 22,
+   "speaker": "patient",
+   "text": "Heart is regular, no murmurs. Lungs are clear, no wheezing. Belly is soft and non -tender.",
+   "start": 102.92,
+   "end": 108.2
+  },
+  {
+   "idx": 23,
+   "speaker": "clinician",
+   "text": "No swelling in your legs.",
+   "start": 108.52,
+   "end": 109.54
+  },
+  {
+   "idx": 24,
+   "speaker": "patient",
+   "text": "Everything looks good.",
+   "start": 109.84,
+   "end": 110.72
+  },
+  {
+   "idx": 25,
+   "speaker": "clinician",
+   "text": "Good.",
+   "start": 111.3,
+   "end": 111.52
+  },
+  {
+   "idx": 26,
+   "speaker": "patient",
+   "text": "I'll take it. Now, a few screening things.",
+   "start": 111.72,
+   "end": 114.24
+  },
+  {
+   "idx": 27,
+   "speaker": "clinician",
+   "text": "You've never had a colonoscopy, right? Never.",
+   "start": 114.64,
+   "end": 117.3
+  },
+  {
+   "idx": 28,
+   "speaker": "patient",
+   "text": "I keep putting it off.",
+   "start": 117.66,
+   "end": 118.7
+  },
+  {
+   "idx": 29,
+   "speaker": "clinician",
+   "text": "You're 52, so you do.",
+   "start": 119.48,
+   "end": 120.62
+  },
+  {
+   "idx": 30,
+   "speaker": "patient",
+   "text": "I'll put in a referral to gastroenterology for a screening colonoscopy, and because you've smoked about 30 pack years, you qualify for a yearly low -dose CT scan at the chest to screen for lung cancer. I'll order that, too.",
+   "start": 121.2,
+   "end": 134.06
+  },
+  {
+   "idx": 31,
+   "speaker": "clinician",
+   "text": "Okay, makes sense. And I'd like fasting labs,",
+   "start": 134.68,
+   "end": 137.88
+  },
+  {
+   "idx": 32,
+   "speaker": "patient",
+   "text": "a cholesterol panel, and an A1C to check for diabetes. Your tetanus shot was two thousand twenty, so you're up to date there.",
+   "start": 138.24,
+   "end": 145.2
+  },
+  {
+   "idx": 33,
+   "speaker": "clinician",
+   "text": "We do have the flu shot today, would you like it? Sure, go ahead.",
+   "start": 145.72,
+   "end": 149.46
+  },
+  {
+   "idx": 34,
+   "speaker": "patient",
+   "text": "Great, the nurse will give you the flu shot in your left arm before you leave.",
+   "start": 150.34,
+   "end": 153.32
+  },
+  {
+   "idx": 35,
+   "speaker": "clinician",
+   "text": "Okay, the smoking. Let's pick a quit date. How about November 1st? That's a Sunday.",
+   "start": 153.9,
+   "end": 158.72
+  },
+  {
+   "idx": 36,
+   "speaker": "patient",
+   "text": "November 1st?",
+   "start": 159.99,
+   "end": 160.79
+  },
+  {
+   "idx": 37,
+   "speaker": "clinician",
+   "text": "Okay, yeah. Since a pack a day is heavy,",
+   "start": 161.05,
+   "end": 163.81
+  },
+  {
+   "idx": 38,
+   "speaker": "patient",
+   "text": "start the twenty -one milligram nicotine patch that morning, one patch a day and use nicotine gum two milligrams when you get a craving.",
+   "start": 164.23,
+   "end": 171.19
+  },
+  {
+   "idx": 39,
+   "speaker": "clinician",
+   "text": "You can buy both over the counter. Get rid of the lighters and ashtrays and figure out what you'll do instead after meals and in the car,",
+   "start": 171.91,
+   "end": 178.33
+  },
+  {
+   "idx": 40,
+   "speaker": "patient",
+   "text": "that's when people slip. You can also call the quit line, 1 -800 -Quit Now for free coaching. The car is the big one for me.",
+   "start": 178.65,
+   "end": 186.91
+  },
+  {
+   "idx": 41,
+   "speaker": "clinician",
+   "text": "Keep gum in the cup holder then.",
+   "start": 187.65,
+   "end": 189.03
+  },
+  {
+   "idx": 42,
+   "speaker": "patient",
+   "text": "We spent about eight minutes on this and it's the most important thing you'll do for your health. I'll see you in one month to check how the quit is going and we'll go over the labs then.",
+   "start": 189.51,
+   "end": 198.57
+  },
+  {
+   "idx": 43,
+   "speaker": "clinician",
+   "text": "Sounds good.",
+   "start": 199.39,
+   "end": 199.91
+  },
+  {
+   "idx": 44,
+   "speaker": "patient",
+   "text": "Thanks, Dr.",
+   "start": 200.39,
+   "end": 201.03
+  },
+  {
+   "idx": 45,
+   "speaker": "clinician",
+   "text": "Zhu. You're welcome. Good luck to Siobhan this weekend.",
+   "start": 201.33,
+   "end": 204.37
+  }
+ ],
+ "source": "asr",
+ "asr_model": "faster-whisper small.en int8 + medical prompt",
+ "duration_s": 205.12,
+ "timings": {
+  "asr": 69.92,
+  "diarization": 1.19
+ },
+ "diarization": {
+  "method": "log-mel + pitch signatures, k-means (k=2), lexical role inference",
+  "chunks": 88,
+  "role_scores": {
+   "clinician": 22.5,
+   "patient": 13.0
+  }
+ }
+}

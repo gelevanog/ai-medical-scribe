@@ -88,16 +88,8 @@
       "score": 1.0
      }
     ],
-    "support": "partial",
-    "flags": [
-     {
-      "kind": "partial_support",
-      "severity": "warning",
-      "message": "Quoted turn does not contain most of its terms; check against the transcript.",
-      "acknowledged": false,
-      "detail": {}
-     }
-    ],
+    "support": "supported",
+    "flags": [],
     "origin": "model",
     "edited": false
    },
@@ -142,16 +134,8 @@
       "score": 1.0
      }
     ],
-    "support": "partial",
-    "flags": [
-     {
-      "kind": "partial_support",
-      "severity": "warning",
-      "message": "Quoted turn does not contain most of its terms; check against the transcript.",
-      "acknowledged": false,
-      "detail": {}
-     }
-    ],
+    "support": "supported",
+    "flags": [],
     "origin": "model",
     "edited": false
    },
@@ -269,16 +253,8 @@
       "score": 1.0
      }
     ],
-    "support": "partial",
-    "flags": [
-     {
-      "kind": "partial_support",
-      "severity": "warning",
-      "message": "Quoted turn does not contain most of its terms; check against the transcript.",
-      "acknowledged": false,
-      "detail": {}
-     }
-    ],
+    "support": "supported",
+    "flags": [],
     "origin": "model",
     "edited": false
    },
@@ -744,18 +720,20 @@
    "plan": "draft"
   },
   "model": "openrouter/nvidia/nemotron-3-super-120b-a12b:free",
-  "created_at": "2026-10-13T05:37:33.287873Z",
+  "created_at": "2026-10-13T05:44:11.383747Z",
   "signed_by": null,
   "signed_at": null,
   "timings": {
-   "phi_masking": 0.048,
-   "llm_note": 21.438,
-   "guards_note": 0.06,
-   "llm_codes": 3.283,
-   "guards_codes": 0.044,
-   "total": 24.872
+   "phi_masking": 0.041,
+   "llm_note": 21.42,
+   "guards_note": 0.083,
+   "llm_codes": 3.21,
+   "guards_codes": 0.049,
+   "total": 24.803,
+   "wall": 0.25
   },
   "usage": {
+   "model_ms": 24630,
    "input_tokens": 5344,
    "output_tokens": 2879,
    "calls": 2
@@ -833,14 +811,13 @@
   "statements": 29,
   "statements_matching_gold": 26,
   "unsupported": 0,
-  "partial": 3,
+  "partial": 0,
   "flags": {
-   "partial_support": 3,
    "dose_mismatch": 2
   },
   "meds": 7,
-  "meds_found": 6,
-  "meds_dose_correct": 6,
+  "meds_found": 7,
+  "meds_dose_correct": 7,
   "icd_primary": "I50.23",
   "icd_suggested": [
    "I50.22"

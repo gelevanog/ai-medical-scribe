@@ -89,21 +89,7 @@
      }
     ],
     "support": "supported",
-    "flags": [
-     {
-      "kind": "negation",
-      "severity": "error",
-      "message": "The transcript says the opposite: 'polyuria' (turns 14, 15).",
-      "acknowledged": false,
-      "detail": {
-       "concept": "polyuria",
-       "turns": [
-        14,
-        15
-       ]
-      }
-     }
-    ],
+    "flags": [],
     "origin": "model",
     "edited": false
    },
@@ -202,22 +188,16 @@
       "quote": "your type 2 diabetes is above our goal",
       "verified": true,
       "score": 1.0
-     }
-    ],
-    "support": "partial",
-    "flags": [
+     },
      {
-      "kind": "partial_support",
-      "severity": "error",
-      "message": "Quoted turn does not contain 8.4; check against the transcript.",
-      "acknowledged": false,
-      "detail": {
-       "numbers_not_in_evidence": [
-        "8.4"
-       ]
-      }
+      "turn": 4,
+      "quote": "That's good to hear, actually, because we're here to talk about your diabetes. Your ...",
+      "verified": true,
+      "score": 0.0
      }
     ],
+    "support": "supported",
+    "flags": [],
     "origin": "model",
     "edited": false
    },
@@ -301,20 +281,8 @@
       "score": 1.0
      }
     ],
-    "support": "partial",
-    "flags": [
-     {
-      "kind": "partial_support",
-      "severity": "error",
-      "message": "Quoted turn does not contain 1; check against the transcript.",
-      "acknowledged": false,
-      "detail": {
-       "numbers_not_in_evidence": [
-        "1"
-       ]
-      }
-     }
-    ],
+    "support": "supported",
+    "flags": [],
     "origin": "model",
     "edited": false
    },
@@ -478,18 +446,20 @@
    "plan": "draft"
   },
   "model": "openrouter/nvidia/nemotron-3-super-120b-a12b:free",
-  "created_at": "2026-10-13T05:36:42.672767Z",
+  "created_at": "2026-10-13T05:44:09.259065Z",
   "signed_by": null,
   "signed_at": null,
   "timings": {
-   "phi_masking": 0.083,
-   "llm_note": 0.008,
-   "guards_note": 0.063,
-   "llm_codes": 0.029,
-   "guards_codes": 0.063,
-   "total": 0.245
+   "phi_masking": 0.052,
+   "llm_note": 10.6,
+   "guards_note": 0.083,
+   "llm_codes": 3.58,
+   "guards_codes": 0.059,
+   "total": 14.374,
+   "wall": 0.224
   },
   "usage": {
+   "model_ms": 14180,
    "input_tokens": 4893,
    "output_tokens": 1748,
    "calls": 2
@@ -559,11 +529,8 @@
   "statements": 19,
   "statements_matching_gold": 17,
   "unsupported": 0,
-  "partial": 2,
-  "flags": {
-   "negation": 1,
-   "partial_support": 2
-  },
+  "partial": 0,
+  "flags": {},
   "meds": 3,
   "meds_found": 2,
   "meds_dose_correct": 2,

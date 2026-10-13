@@ -559,23 +559,8 @@
       "score": 1.0
      }
     ],
-    "support": "partial",
-    "flags": [
-     {
-      "kind": "partial_support",
-      "severity": "error",
-      "message": "Quoted turn does not contain 3, vitamin d3; check against the transcript.",
-      "acknowledged": false,
-      "detail": {
-       "numbers_not_in_evidence": [
-        "3"
-       ],
-       "drugs_not_in_evidence": [
-        "vitamin d3"
-       ]
-      }
-     }
-    ],
+    "support": "supported",
+    "flags": [],
     "origin": "model",
     "edited": false
    },
@@ -591,20 +576,8 @@
       "score": 1.0
      }
     ],
-    "support": "partial",
-    "flags": [
-     {
-      "kind": "partial_support",
-      "severity": "error",
-      "message": "Quoted turn does not contain 12; check against the transcript.",
-      "acknowledged": false,
-      "detail": {
-       "numbers_not_in_evidence": [
-        "12"
-       ]
-      }
-     }
-    ],
+    "support": "supported",
+    "flags": [],
     "origin": "model",
     "edited": false
    },
@@ -963,18 +936,20 @@
    "plan": "draft"
   },
   "model": "openrouter/nvidia/nemotron-3-super-120b-a12b:free",
-  "created_at": "2026-10-13T05:37:07.825079Z",
+  "created_at": "2026-10-13T05:44:10.622820Z",
   "signed_by": null,
   "signed_at": null,
   "timings": {
-   "phi_masking": 0.06,
-   "llm_note": 0.013,
-   "guards_note": 0.106,
-   "llm_codes": 0.025,
-   "guards_codes": 0.051,
-   "total": 0.254
+   "phi_masking": 0.033,
+   "llm_note": 21.83,
+   "guards_note": 0.071,
+   "llm_codes": 5.25,
+   "guards_codes": 0.043,
+   "total": 27.227,
+   "wall": 0.166
   },
   "usage": {
+   "model_ms": 27080,
    "input_tokens": 5060,
    "output_tokens": 3644,
    "calls": 2
@@ -1041,12 +1016,12 @@
   "statements": 32,
   "statements_matching_gold": 31,
   "unsupported": 0,
-  "partial": 4,
+  "partial": 2,
   "flags": {
-   "partial_support": 4
+   "partial_support": 2
   },
   "meds": 7,
-  "meds_found": 5,
+  "meds_found": 7,
   "meds_dose_correct": 5,
   "icd_primary": "R53.83",
   "icd_suggested": [

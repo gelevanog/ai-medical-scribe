@@ -151,13 +151,13 @@ STOPWORDS = frozenset(
 NEGATION_PRE = re.compile(
     r"\b(?:no|not|denies|denied|deny|denying|without|negative for|free of|absence of|never|none|nor|"
     r"doesn't|does not|didn't|did not|don't|do not|isn't|is not|wasn't|was not|haven't|have not|hasn't|has not|"
-    r"hadn't|had not|can't|cannot|won't|nothing|no longer|rules out|ruled out|unremarkable for|no signs? of|"
+    r"hadn't|had not|can't|cannot|won't|nothing|no longer|rules out|ruled out|unremarkable for|no signs? of|rather than|"
     r"no evidence of|no history of|no h/o|w/o)\b",
     re.IGNORECASE,
 )
 NEGATION_POST = re.compile(r"\b(?:is|are|was|were)?\s*(?:negative|absent|ruled out|resolved|gone|not present)\b", re.I)
 SCOPE_BREAK = re.compile(
-    r"\b(?:but|however|although|though|except|aside from|apart from|other than|yet|which|who)\b|[.;:!?]", re.I
+    r"\b(?:but|however|although|though|except|aside from|apart from|other than|yet|which|who|with)\b|[.;:!?]", re.I
 )
 FAMILY = re.compile(
     r"\b(?:mother|mom|father|dad|brother|sister|sibling|grandmother|grandma|grandfather|grandpa|aunt|uncle|cousin|"
@@ -165,8 +165,8 @@ FAMILY = re.compile(
     re.I,
 )
 OTHER_PEOPLE = re.compile(
-    r"\b(?:wife|husband|spouse|partner|boyfriend|girlfriend|son|daughter|kids?|children|friend|coworker|co-worker|"
-    r"neighbor|roommate|boss|classmates?|half the room|everyone at)\b",
+    r"\b(?:wife|husband|spouse|partner|boyfriend|girlfriend|friend|coworker|co-worker|neighbor|roommate|boss|"
+    r"classmates?|half the room|everyone at|(?:my|our|his|her|their) (?:son|daughter|kids?|children|baby))\b",
     re.I,
 )
 HYPOTHETICAL = re.compile(
@@ -211,6 +211,8 @@ def words_to_digits(text: str) -> str:
     out = re.sub(r"\b(" + "|".join(_TENS) + r")[- ](" + "|".join(_UNITS) + r")\b", tens, text, flags=re.IGNORECASE)
     out = re.sub(r"\b(?:a|one) hundred(?: and)? (\d+)\b", lambda m: str(100 + int(m.group(1))), out, flags=re.I)
     out = re.sub(r"\b(\d+) and a half\b", lambda m: f"{m.group(1)}.5", out, flags=re.I)
+    out = re.sub(r"\bhalf an hour\b", "30 minutes", out, flags=re.I)
+    out = re.sub(r"\b(?:noon|midday|midnight)\b", "12", out, flags=re.I)
     out = re.sub(r"\b(\d+)(?:st|nd|rd|th)\b", r"\1", out)
 
     out = re.sub(
@@ -266,6 +268,25 @@ def content_terms(text: str) -> set[str]:
             continue
         s = stem(t)
         out.add(_CANON.get(t, _CANON.get(s, s)))
+    return out
+
+
+_STRICT_NUMBER = re.compile(r"(?<![A-Za-z0-9.])(\d+(?:\.\d+)?)(?!\d)(?![A-Za-z]*\d)")
+
+
+def strict_numbers(text: str) -> set[str]:
+    """Numbers a statement asserts that must be backed by the transcript: digits written as digits, not part of a
+    name ("vitamin D3", "B12", "free T4", "A1c"), not a clock time's minutes, and not the uninformative 0 and 1."""
+    text = re.sub(r"(\d),(\d{3})\b", r"\1\2", text)
+    text = re.sub(r"\b(\d{1,2}):\d{2}\b", r"\1", text)
+    out: set[str] = set()
+    for m in _STRICT_NUMBER.finditer(text):
+        if m.start() > 0 and text[m.start() - 1].isalpha():
+            continue
+        value = float(m.group(1))
+        norm = str(int(value)) if value == int(value) else str(value)
+        if norm not in {"0", "1"}:
+            out.add(norm)
     return out
 
 

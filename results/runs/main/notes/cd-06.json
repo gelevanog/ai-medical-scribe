@@ -134,16 +134,8 @@
       "score": 1.0
      }
     ],
-    "support": "partial",
-    "flags": [
-     {
-      "kind": "partial_support",
-      "severity": "warning",
-      "message": "Quoted turn does not contain most of its terms; check against the transcript.",
-      "acknowledged": false,
-      "detail": {}
-     }
-    ],
+    "support": "supported",
+    "flags": [],
     "origin": "model",
     "edited": false
    },
@@ -378,24 +370,28 @@
       "quote": "your family history does raise your risk, so we want to get your numbers down and look at the whole picture.",
       "verified": true,
       "score": 1.0
-     }
-    ],
-    "support": "partial",
-    "flags": [
+     },
      {
-      "kind": "partial_support",
-      "severity": "error",
-      "message": "Quoted turn does not contain 51, 58, 70; check against the transcript.",
-      "acknowledged": false,
-      "detail": {
-       "numbers_not_in_evidence": [
-        "51",
-        "58",
-        "70"
-       ]
-      }
+      "turn": 13,
+      "quote": "Yeah, that's honestly why I'm here. My dad had a heart attack at 51, ...",
+      "verified": true,
+      "score": 0.0
+     },
+     {
+      "turn": 13,
+      "quote": "Yeah, that's honestly why I'm here. My dad had a heart attack at 51, ...",
+      "verified": true,
+      "score": 0.0
+     },
+     {
+      "turn": 13,
+      "quote": "Yeah, that's honestly why I'm here. My dad had a heart attack at 51, ...",
+      "verified": true,
+      "score": 0.0
      }
     ],
+    "support": "supported",
+    "flags": [],
     "origin": "model",
     "edited": false
    },
@@ -817,18 +813,20 @@
    "plan": "draft"
   },
   "model": "openrouter/nvidia/nemotron-3-super-120b-a12b:free",
-  "created_at": "2026-10-13T05:37:41.918082Z",
+  "created_at": "2026-10-13T05:44:12.166856Z",
   "signed_by": null,
   "signed_at": null,
   "timings": {
-   "phi_masking": 0.048,
-   "llm_note": 0.014,
-   "guards_note": 0.069,
-   "llm_codes": 7.974,
-   "guards_codes": 0.046,
-   "total": 8.151
+   "phi_masking": 0.04,
+   "llm_note": 17.4,
+   "guards_note": 0.091,
+   "llm_codes": 7.95,
+   "guards_codes": 0.06,
+   "total": 25.541,
+   "wall": 0.235
   },
   "usage": {
+   "model_ms": 25350,
    "input_tokens": 5479,
    "output_tokens": 3458,
    "calls": 2
@@ -923,10 +921,8 @@
   "statements": 33,
   "statements_matching_gold": 31,
   "unsupported": 0,
-  "partial": 2,
-  "flags": {
-   "partial_support": 2
-  },
+  "partial": 0,
+  "flags": {},
   "meds": 3,
   "meds_found": 3,
   "meds_dose_correct": 2,

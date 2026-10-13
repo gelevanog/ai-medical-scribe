@@ -152,20 +152,7 @@
      }
     ],
     "support": "supported",
-    "flags": [
-     {
-      "kind": "negation",
-      "severity": "error",
-      "message": "The transcript says the opposite: 'shortness of breath' (turns 12).",
-      "acknowledged": false,
-      "detail": {
-       "concept": "dyspnea",
-       "turns": [
-        12
-       ]
-      }
-     }
-    ],
+    "flags": [],
     "origin": "model",
     "edited": false
    },
@@ -222,20 +209,7 @@
      }
     ],
     "support": "supported",
-    "flags": [
-     {
-      "kind": "attribution",
-      "severity": "error",
-      "message": "This was said about someone else (family or another person): 'hives' (turns 17).",
-      "acknowledged": false,
-      "detail": {
-       "concept": "rash",
-       "turns": [
-        17
-       ]
-      }
-     }
-    ],
+    "flags": [],
     "origin": "model",
     "edited": false
    },
@@ -383,20 +357,7 @@
      }
     ],
     "support": "supported",
-    "flags": [
-     {
-      "kind": "negation",
-      "severity": "error",
-      "message": "The transcript says the opposite: 'erythematous' (turns 8).",
-      "acknowledged": false,
-      "detail": {
-       "concept": "erythema",
-       "turns": [
-        8
-       ]
-      }
-     }
-    ],
+    "flags": [],
     "origin": "model",
     "edited": false
    },
@@ -817,18 +778,20 @@
    "plan": "draft"
   },
   "model": "openrouter/nvidia/nemotron-3-super-120b-a12b:free",
-  "created_at": "2026-10-13T05:36:42.896714Z",
+  "created_at": "2026-10-13T05:44:09.524478Z",
   "signed_by": null,
   "signed_at": null,
   "timings": {
-   "phi_masking": 0.052,
-   "llm_note": 0.008,
-   "guards_note": 0.057,
-   "llm_codes": 0.024,
-   "guards_codes": 0.039,
-   "total": 0.18
+   "phi_masking": 0.044,
+   "llm_note": 63.3,
+   "guards_note": 0.102,
+   "llm_codes": 8.68,
+   "guards_codes": 0.057,
+   "total": 72.183,
+   "wall": 0.231
   },
   "usage": {
+   "model_ms": 71980,
    "input_tokens": 4823,
    "output_tokens": 3136,
    "calls": 2
@@ -895,8 +858,6 @@
   "unsupported": 0,
   "partial": 1,
   "flags": {
-   "negation": 2,
-   "attribution": 1,
    "partial_support": 1
   },
   "meds": 5,

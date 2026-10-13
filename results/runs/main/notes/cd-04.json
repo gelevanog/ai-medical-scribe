@@ -67,23 +67,7 @@
      }
     ],
     "support": "supported",
-    "flags": [
-     {
-      "kind": "negation",
-      "severity": "error",
-      "message": "The transcript says the opposite: 'palpitations' (turns 4, 5, 32, 36).",
-      "acknowledged": false,
-      "detail": {
-       "concept": "palpitations",
-       "turns": [
-        4,
-        5,
-        32,
-        36
-       ]
-      }
-     }
-    ],
+    "flags": [],
     "origin": "model",
     "edited": false
    },
@@ -572,18 +556,20 @@
    "plan": "draft"
   },
   "model": "openrouter/nvidia/nemotron-3-super-120b-a12b:free",
-  "created_at": "2026-10-13T05:37:33.464890Z",
+  "created_at": "2026-10-13T05:44:11.612785Z",
   "signed_by": null,
   "signed_at": null,
   "timings": {
-   "phi_masking": 0.034,
-   "llm_note": 0.006,
-   "guards_note": 0.049,
-   "llm_codes": 0.017,
-   "guards_codes": 0.034,
-   "total": 0.14
+   "phi_masking": 0.039,
+   "llm_note": 14.81,
+   "guards_note": 0.081,
+   "llm_codes": 3.58,
+   "guards_codes": 0.048,
+   "total": 18.558,
+   "wall": 0.19
   },
   "usage": {
+   "model_ms": 18390,
    "input_tokens": 4719,
    "output_tokens": 2295,
    "calls": 2
@@ -659,7 +645,6 @@
   "unsupported": 0,
   "partial": 2,
   "flags": {
-   "negation": 1,
    "partial_support": 2,
    "unknown_drug": 1
   },

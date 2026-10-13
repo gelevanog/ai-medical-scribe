@@ -18,7 +18,7 @@ from __future__ import annotations
 from collections.abc import Sequence
 from dataclasses import dataclass
 
-from notewell.guards.text import content_terms, numbers, tokens
+from notewell.guards.text import content_terms, numbers, strict_numbers, tokens
 from notewell.kb import drug_aliases, drug_pattern, find_concepts
 from notewell.models import Evidence, Flag, Statement, Turn
 
@@ -109,7 +109,7 @@ class Grounder:
         evidence = [e for e in (self.verify_quote(ev) for ev in statement.evidence) if e is not None]
         verified = [e for e in evidence if e.verified]
         text = statement.text
-        stmt_numbers = numbers(text, words=False)
+        stmt_numbers = strict_numbers(text)
         stmt_drugs = drugs_in(text)
         stmt_terms = content_terms(text) - stmt_numbers
         stmt_concepts = {c for c, _, _ in find_concepts(text)}
@@ -139,8 +139,19 @@ class Grounder:
             else:
                 # The model may cite the wrong turn: look for a better one before flagging.
                 linked = self._autolink(stmt_terms, stmt_numbers, stmt_drugs)
+                extra = (
+                    self._find_numbers(missing_nums, stmt_terms)
+                    if not missing_drugs and overlap >= CONTENT_MIN_OVERLAP
+                    else None
+                )
                 if linked is not None:
                     evidence.append(Evidence(turn=linked.idx, quote=_snippet(linked.text), verified=True, score=0.0))
+                    support = "supported"
+                elif extra is not None:
+                    # Every missing number was said elsewhere in the visit, next to the statement's own words.
+                    evidence.extend(
+                        Evidence(turn=t.idx, quote=_snippet(t.text), verified=True, score=0.0) for t in extra
+                    )
                     support = "supported"
                 else:
                     support = "partial"
@@ -175,6 +186,15 @@ class Grounder:
         return statement.model_copy(
             update={"evidence": evidence, "support": support, "flags": [*statement.flags, *flags]}
         )
+
+    def _find_numbers(self, missing: set[str], terms: set[str]) -> list[TurnText] | None:
+        found: list[TurnText] = []
+        for number in missing:
+            turn = next((t for t in self.turns if number in t.numbers and t.terms & terms), None)
+            if turn is None:
+                return None
+            found.append(turn)
+        return found
 
     def _autolink(self, terms: set[str], nums: set[str], drugs: set[str]) -> TurnText | None:
         if not terms and not nums:

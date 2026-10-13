@@ -543,20 +543,7 @@
      }
     ],
     "support": "supported",
-    "flags": [
-     {
-      "kind": "negation",
-      "severity": "error",
-      "message": "The transcript says the opposite: 'tender' (turns 24).",
-      "acknowledged": false,
-      "detail": {
-       "concept": "tenderness",
-       "turns": [
-        24
-       ]
-      }
-     }
-    ],
+    "flags": [],
     "origin": "model",
     "edited": false
    },
@@ -776,20 +763,8 @@
       "score": 1.0
      }
     ],
-    "support": "partial",
-    "flags": [
-     {
-      "kind": "partial_support",
-      "severity": "error",
-      "message": "Quoted turn does not contain 1; check against the transcript.",
-      "acknowledged": false,
-      "detail": {
-       "numbers_not_in_evidence": [
-        "1"
-       ]
-      }
-     }
-    ],
+    "support": "supported",
+    "flags": [],
     "origin": "model",
     "edited": false
    }
@@ -989,18 +964,20 @@
    "plan": "draft"
   },
   "model": "openrouter/nvidia/nemotron-3-super-120b-a12b:free",
-  "created_at": "2026-10-13T05:37:48.314596Z",
+  "created_at": "2026-10-13T05:44:14.499325Z",
   "signed_by": null,
   "signed_at": null,
   "timings": {
-   "phi_masking": 0.044,
-   "llm_note": 0.009,
-   "guards_note": 0.071,
-   "llm_codes": 0.088,
-   "guards_codes": 0.044,
-   "total": 0.255
+   "phi_masking": 0.032,
+   "llm_note": 24.01,
+   "guards_note": 0.086,
+   "llm_codes": 7.21,
+   "guards_codes": 0.049,
+   "total": 31.387,
+   "wall": 0.255
   },
   "usage": {
+   "model_ms": 31220,
    "input_tokens": 5380,
    "output_tokens": 3740,
    "calls": 2
@@ -1080,10 +1057,9 @@
   "statements": 40,
   "statements_matching_gold": 34,
   "unsupported": 0,
-  "partial": 2,
+  "partial": 1,
   "flags": {
-   "partial_support": 2,
-   "negation": 1
+   "partial_support": 1
   },
   "meds": 3,
   "meds_found": 3,

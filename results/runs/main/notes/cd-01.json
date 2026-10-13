@@ -226,20 +226,8 @@
       "score": 1.0
      }
     ],
-    "support": "partial",
-    "flags": [
-     {
-      "kind": "partial_support",
-      "severity": "error",
-      "message": "Quoted turn does not contain 1; check against the transcript.",
-      "acknowledged": false,
-      "detail": {
-       "numbers_not_in_evidence": [
-        "1"
-       ]
-      }
-     }
-    ],
+    "support": "supported",
+    "flags": [],
     "origin": "model",
     "edited": false
    },
@@ -869,18 +857,20 @@
    "plan": "draft"
   },
   "model": "openrouter/nvidia/nemotron-3-super-120b-a12b:free",
-  "created_at": "2026-10-13T05:37:08.144837Z",
+  "created_at": "2026-10-13T05:44:10.865153Z",
   "signed_by": null,
   "signed_at": null,
   "timings": {
-   "phi_masking": 0.063,
-   "llm_note": 0.019,
-   "guards_note": 0.106,
-   "llm_codes": 0.029,
-   "guards_codes": 0.064,
-   "total": 0.281
+   "phi_masking": 0.042,
+   "llm_note": 23.63,
+   "guards_note": 0.088,
+   "llm_codes": 3.66,
+   "guards_codes": 0.057,
+   "total": 27.477,
+   "wall": 0.209
   },
   "usage": {
+   "model_ms": 27290,
    "input_tokens": 5687,
    "output_tokens": 3640,
    "calls": 2
@@ -952,10 +942,8 @@
   "statements": 35,
   "statements_matching_gold": 32,
   "unsupported": 0,
-  "partial": 1,
-  "flags": {
-   "partial_support": 1
-  },
+  "partial": 0,
+  "flags": {},
   "meds": 5,
   "meds_found": 5,
   "meds_dose_correct": 4,

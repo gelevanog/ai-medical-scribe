@@ -57,11 +57,8 @@
   "statements": 19,
   "statements_matching_gold": 17,
   "unsupported": 0,
-  "partial": 2,
-  "flags": {
-   "negation": 1,
-   "partial_support": 2
-  },
+  "partial": 0,
+  "flags": {},
   "meds": 3,
   "meds_found": 2,
   "meds_dose_correct": 2,
@@ -99,8 +96,6 @@
   "unsupported": 0,
   "partial": 1,
   "flags": {
-   "negation": 2,
-   "attribution": 1,
    "partial_support": 1
   },
   "meds": 5,
@@ -266,14 +261,13 @@
   "statements": 38,
   "statements_matching_gold": 34,
   "unsupported": 0,
-  "partial": 1,
+  "partial": 0,
   "flags": {
-   "partial_support": 1,
-   "unknown_drug": 3
+   "unknown_drug": 1
   },
   "meds": 4,
-  "meds_found": 1,
-  "meds_dose_correct": 1,
+  "meds_found": 4,
+  "meds_dose_correct": 3,
   "icd_primary": "E06.3",
   "icd_suggested": [
    "E03.9",
@@ -309,12 +303,12 @@
   "statements": 32,
   "statements_matching_gold": 31,
   "unsupported": 0,
-  "partial": 4,
+  "partial": 2,
   "flags": {
-   "partial_support": 4
+   "partial_support": 2
   },
   "meds": 7,
-  "meds_found": 5,
+  "meds_found": 7,
   "meds_dose_correct": 5,
   "icd_primary": "R53.83",
   "icd_suggested": [
@@ -350,10 +344,8 @@
   "statements": 35,
   "statements_matching_gold": 32,
   "unsupported": 0,
-  "partial": 1,
-  "flags": {
-   "partial_support": 1
-  },
+  "partial": 0,
+  "flags": {},
   "meds": 5,
   "meds_found": 5,
   "meds_dose_correct": 4,
@@ -433,14 +425,13 @@
   "statements": 29,
   "statements_matching_gold": 26,
   "unsupported": 0,
-  "partial": 3,
+  "partial": 0,
   "flags": {
-   "partial_support": 3,
    "dose_mismatch": 2
   },
   "meds": 7,
-  "meds_found": 6,
-  "meds_dose_correct": 6,
+  "meds_found": 7,
+  "meds_dose_correct": 7,
   "icd_primary": "I50.23",
   "icd_suggested": [
    "I50.22"
@@ -477,7 +468,6 @@
   "unsupported": 0,
   "partial": 2,
   "flags": {
-   "negation": 1,
    "partial_support": 2,
    "unknown_drug": 1
   },
@@ -559,10 +549,8 @@
   "statements": 33,
   "statements_matching_gold": 31,
   "unsupported": 0,
-  "partial": 2,
-  "flags": {
-   "partial_support": 2
-  },
+  "partial": 0,
+  "flags": {},
   "meds": 3,
   "meds_found": 3,
   "meds_dose_correct": 2,
@@ -639,13 +627,13 @@
   "statements": 24,
   "statements_matching_gold": 21,
   "unsupported": 0,
-  "partial": 2,
+  "partial": 1,
   "flags": {
-   "partial_support": 2,
+   "partial_support": 1,
    "unknown_drug": 1
   },
   "meds": 5,
-  "meds_found": 4,
+  "meds_found": 5,
   "meds_dose_correct": 4,
   "icd_primary": "L70.0",
   "icd_suggested": [
@@ -729,8 +717,8 @@
    "unknown_drug": 1
   },
   "meds": 3,
-  "meds_found": 2,
-  "meds_dose_correct": 1,
+  "meds_found": 3,
+  "meds_dose_correct": 2,
   "icd_primary": "B07.8",
   "icd_suggested": [
    "B07.8",
@@ -766,9 +754,7 @@
   "statements_matching_gold": 23,
   "unsupported": 0,
   "partial": 0,
-  "flags": {
-   "negation": 4
-  },
+  "flags": {},
   "meds": 5,
   "meds_found": 3,
   "meds_dose_correct": 1,
@@ -806,9 +792,7 @@
   "statements_matching_gold": 18,
   "unsupported": 0,
   "partial": 0,
-  "flags": {
-   "negation": 1
-  },
+  "flags": {},
   "meds": 3,
   "meds_found": 2,
   "meds_dose_correct": 2,
@@ -929,10 +913,9 @@
   "statements": 40,
   "statements_matching_gold": 34,
   "unsupported": 0,
-  "partial": 2,
+  "partial": 1,
   "flags": {
-   "partial_support": 2,
-   "negation": 1
+   "partial_support": 1
   },
   "meds": 3,
   "meds_found": 3,
@@ -973,11 +956,10 @@
   "unsupported": 0,
   "partial": 1,
   "flags": {
-   "partial_support": 1,
-   "dose_range": 1
+   "partial_support": 1
   },
   "meds": 4,
-  "meds_found": 3,
+  "meds_found": 4,
   "meds_dose_correct": 3,
   "icd_primary": "J45.31",
   "icd_suggested": [
@@ -1090,10 +1072,8 @@
   "statements": 28,
   "statements_matching_gold": 25,
   "unsupported": 0,
-  "partial": 1,
-  "flags": {
-   "partial_support": 1
-  },
+  "partial": 0,
+  "flags": {},
   "meds": 1,
   "meds_found": 1,
   "meds_dose_correct": 1,
@@ -1254,11 +1234,8 @@
   "statements": 29,
   "statements_matching_gold": 26,
   "unsupported": 0,
-  "partial": 5,
-  "flags": {
-   "partial_support": 5,
-   "negation": 2
-  },
+  "partial": 0,
+  "flags": {},
   "meds": 3,
   "meds_found": 3,
   "meds_dose_correct": 3,

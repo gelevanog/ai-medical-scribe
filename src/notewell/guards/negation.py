@@ -76,7 +76,7 @@ def clause_polarity(sentence: str, start: int, end: int, *, others: bool = True)
     # then a negation, and only then weak modal words ("Denies feeling like she might pass out" is a denial).
     if HYPOTHETICAL_STRONG.search(window):
         return "hypothetical"
-    if FAMILY.search(window) or FAMILY.search(after_window[:30]):
+    if FAMILY.search(window):
         return "family"
     if others and OTHER_PEOPLE.search(window):
         return "family"
@@ -96,19 +96,25 @@ def index_transcript(turns: list[Turn]) -> ConceptIndex:
                 # A caregiver's "my daughter" is the patient; a patient's "my daughter" is someone else.
                 polarity = clause_polarity(sentence, start, end, others=turn.speaker == "patient")
                 if is_question and turn.speaker == "clinician" and polarity in {"present", "absent"}:
-                    polarity = _answer_polarity(turns, i)
+                    polarity = _answer_polarity(turns, i, concept)
                 index.mentions[concept].append(Mention(concept, turn.idx, polarity, sentence[start:end]))
     return index
 
 
-def _answer_polarity(turns: list[Turn], i: int) -> Polarity:
-    """The next turn by the other speaker answers the clinician's question."""
+_MIXED = re.compile(r"\b(?:no|not|nothing|never|fine|okay|ok|normal)\b", re.I)
+
+
+def _answer_polarity(turns: list[Turn], i: int, concept: str) -> Polarity:
+    """The next turn by the other speaker answers the clinician's question. If the answer names the finding itself
+    ("A little cough at night. Breathing's fine."), its own mention decides; a mixed answer decides nothing."""
     for nxt in turns[i + 1 : i + 3]:
         if nxt.speaker == turns[i].speaker:
             continue
-        if DENY.match(nxt.text):
+        if any(c == concept for c, _, _ in find_concepts(nxt.text)):
+            return "unknown"
+        if DENY.match(nxt.text) and not AFFIRM.search(nxt.text[3:]):
             return "absent"
-        if AFFIRM.match(nxt.text):
+        if AFFIRM.match(nxt.text) and not _MIXED.search(nxt.text):
             return "present"
         return "unknown"
     return "unknown"

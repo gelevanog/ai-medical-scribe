@@ -6,12 +6,12 @@
  "statements": 943,
  "gold_matched_precision": 0.9099,
  "unsupported_rate": 0.0,
- "partial_rate": 0.0371,
+ "partial_rate": 0.017,
  "negation_errors": 11,
  "negatives_in_gold": 173,
  "trap_errors": 0,
- "medication_recall": 0.7658,
- "medication_dose_correct": 0.6757,
+ "medication_recall": 0.8468,
+ "medication_dose_correct": 0.7117,
  "icd_top1": 0.6875,
  "icd_top3": 0.6875,
  "icd_top3_lenient": 0.8438,
@@ -23,13 +23,10 @@
  "em_rule_estimate_exact": 0.6875,
  "procedure_recall": 0.8261,
  "flags": {
-  "partial_support": 35,
+  "partial_support": 16,
   "dose_mismatch": 9,
-  "negation": 12,
-  "attribution": 1,
-  "unknown_drug": 6,
-  "allergy_conflict": 1,
-  "dose_range": 1
+  "unknown_drug": 4,
+  "allergy_conflict": 1
  },
  "by_specialty": {
   "cardiology": {
@@ -73,28 +70,28 @@
  "phi_leak_details": [],
  "latency_s": {
   "phi_masking": {
-   "p50": 0.05,
-   "p95": 0.08
+   "p50": 0.04,
+   "p95": 0.05
   },
   "llm_note": {
-   "p50": 0.01,
-   "p95": 19.13
+   "p50": 19.66,
+   "p95": 37.02
   },
   "llm_codes": {
-   "p50": 0.03,
-   "p95": 4.39
+   "p50": 4.28,
+   "p95": 8.68
   },
   "guards_note": {
-   "p50": 0.06,
-   "p95": 0.14
+   "p50": 0.08,
+   "p95": 0.1
   },
   "guards_codes": {
-   "p50": 0.04,
-   "p95": 0.08
+   "p50": 0.05,
+   "p95": 0.06
   },
   "total": {
-   "p50": 0.23,
-   "p95": 23.87
+   "p50": 24.96,
+   "p95": 40.43
   }
  },
  "tokens_per_visit": {
@@ -102,5 +99,5 @@
   "output_mean": 2884,
   "calls_total": 64
  },
- "wall_minutes": 1.6
+ "wall_minutes": 0.2
 }

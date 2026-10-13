@@ -66,21 +66,7 @@
      }
     ],
     "support": "supported",
-    "flags": [
-     {
-      "kind": "negation",
-      "severity": "error",
-      "message": "The transcript says the opposite: 'methotrexate' (turns 6, 20).",
-      "acknowledged": false,
-      "detail": {
-       "concept": "drug_use",
-       "turns": [
-        6,
-        20
-       ]
-      }
-     }
-    ],
+    "flags": [],
     "origin": "model",
     "edited": false
    },
@@ -97,21 +83,7 @@
      }
     ],
     "support": "supported",
-    "flags": [
-     {
-      "kind": "negation",
-      "severity": "error",
-      "message": "The transcript says the opposite: 'Methotrexate' (turns 6, 20).",
-      "acknowledged": false,
-      "detail": {
-       "concept": "drug_use",
-       "turns": [
-        6,
-        20
-       ]
-      }
-     }
-    ],
+    "flags": [],
     "origin": "model",
     "edited": false
    },
@@ -287,20 +259,7 @@
      }
     ],
     "support": "supported",
-    "flags": [
-     {
-      "kind": "negation",
-      "severity": "error",
-      "message": "The transcript says the opposite: 'tender' (turns 18).",
-      "acknowledged": false,
-      "detail": {
-       "concept": "tenderness",
-       "turns": [
-        18
-       ]
-      }
-     }
-    ],
+    "flags": [],
     "origin": "model",
     "edited": false
    },
@@ -334,21 +293,7 @@
      }
     ],
     "support": "supported",
-    "flags": [
-     {
-      "kind": "negation",
-      "severity": "error",
-      "message": "The transcript says the opposite: 'methotrexate' (turns 6, 20).",
-      "acknowledged": false,
-      "detail": {
-       "concept": "drug_use",
-       "turns": [
-        6,
-        20
-       ]
-      }
-     }
-    ],
+    "flags": [],
     "origin": "model",
     "edited": false
    },
@@ -646,18 +591,20 @@
    "plan": "draft"
   },
   "model": "openrouter/nvidia/nemotron-3-super-120b-a12b:free",
-  "created_at": "2026-10-13T05:37:47.077631Z",
+  "created_at": "2026-10-13T05:44:13.467250Z",
   "signed_by": null,
   "signed_at": null,
   "timings": {
-   "phi_masking": 0.057,
-   "llm_note": 0.013,
-   "guards_note": 0.061,
-   "llm_codes": 4.018,
-   "guards_codes": 0.052,
-   "total": 4.201
+   "phi_masking": 0.035,
+   "llm_note": 19.11,
+   "guards_note": 0.065,
+   "llm_codes": 3.94,
+   "guards_codes": 0.042,
+   "total": 23.192,
+   "wall": 0.214
   },
   "usage": {
+   "model_ms": 23050,
    "input_tokens": 4922,
    "output_tokens": 2783,
    "calls": 2
@@ -743,9 +690,7 @@
   "statements_matching_gold": 23,
   "unsupported": 0,
   "partial": 0,
-  "flags": {
-   "negation": 4
-  },
+  "flags": {},
   "meds": 5,
   "meds_found": 3,
   "meds_dose_correct": 1,

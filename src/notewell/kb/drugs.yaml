@@ -76,7 +76,7 @@
 - {name: prednisolone, brands: [orapred, prelone], classes: [corticosteroid], units: [mg], routes: [oral], dose: [1, 60], max_daily: 60, peds_mg_kg_day: [1, 2]}
 - {name: methylprednisolone, brands: [medrol], classes: [corticosteroid], units: [mg], routes: [oral], dose: [4, 48], max_daily: 48}
 - {name: dexamethasone, brands: [decadron], classes: [corticosteroid], units: [mg], routes: [oral, injection], dose: [0.5, 16], max_daily: 16, peds_mg_kg_day: [0.15, 0.6]}
-- {name: albuterol, brands: [proair, ventolin, proventil], classes: [saba], units: [puffs, mg, mcg], routes: [inhaled, nebulized], dose: [1, 4], max_daily: 12}
+- {name: albuterol, brands: [proair, ventolin, proventil], classes: [saba], units: [puffs, mg, mcg], routes: [inhaled, nebulized], dose: [1, 8], max_daily: 48}
 - {name: fluticasone, brands: [flovent, flonase, arnuity], classes: [inhaled_corticosteroid], units: [mcg, sprays, puffs], routes: [inhaled, nasal], dose: [1, 500], max_daily: 1000}
 - {name: budesonide-formoterol, brands: [symbicort, breyna], classes: [inhaled_corticosteroid, laba], units: [puffs], routes: [inhaled], dose: [1, 2], max_daily: 12}
 - {name: fluticasone-salmeterol, brands: [advair, wixela], classes: [inhaled_corticosteroid, laba], units: [puffs, mcg], routes: [inhaled], dose: [1, 2], max_daily: 2}

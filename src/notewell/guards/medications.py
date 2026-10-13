@@ -233,7 +233,10 @@ def _dose_in_transcript(med: Medication, amount: float, turns: Sequence[Turn], d
         limit = (cue.end() + 16) if cue else len(window)
         doses = {
             m.group(1)
-            for m in re.finditer(r"(\d+(?:\.\d+)?)(?=\s*(?:mg|mcg|ml|milligrams?|micrograms?|milliliters?|units?|puffs?|now|\b(?!\s*(?:to|or|hours?|times|days?|weeks?))))", window)
+            for m in re.finditer(
+                r"(\d+(?:\.\d+)?)(?=\s*(?:mg|mcg|ml|milligrams?|micrograms?|milliliters?|units?|puffs?|now|\b(?!\s*(?:to|or|hours?|times|days?|weeks?))))",
+                window,
+            )
             if m.start() < limit
         }
         if window:

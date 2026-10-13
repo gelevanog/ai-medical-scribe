@@ -12,6 +12,7 @@ import numpy as np
 from notewell.models import Transcript
 from notewell.speech.audio import SAMPLE_RATE, Audio
 from notewell.speech.diarize import Word, diarize
+from notewell.speech.vocab import correct_drug_names
 
 # A fixed list of commonly prescribed US drugs and clinical words (not taken from the evaluation set) that primes
 # Whisper's spelling of medication names.
@@ -62,6 +63,11 @@ class WhisperASR:
         result = self.words(audio)
         t0 = time.perf_counter()
         turns, info = diarize(audio, result.words, second_speaker=second_speaker)
+        corrected = 0
+        for turn in turns:
+            turn.text, n = correct_drug_names(turn.text)
+            corrected += n
+        info["drug_names_corrected"] = corrected
         return Transcript(
             turns=turns,
             source="asr",

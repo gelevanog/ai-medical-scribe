@@ -23,7 +23,8 @@ def extract_json(text: str) -> dict[str, Any]:
     if start < 0 or end <= start:
         raise ParseError("no JSON object in the answer")
     candidate = cleaned[start : end + 1]
-    for attempt in (candidate, re.sub(r",\s*([}\]])", r"\1", candidate)):
+    no_trailing = re.sub(r",\s*([}\]])", r"\1", candidate)
+    for attempt in (candidate, no_trailing, balance_brackets(no_trailing), balance_brackets(cleaned[start:])):
         try:
             data = json.loads(attempt)
         except json.JSONDecodeError as exc:
@@ -33,6 +34,40 @@ def extract_json(text: str) -> dict[str, Any]:
             raise ParseError("the answer is not a JSON object")
         return data
     raise ParseError(f"invalid JSON: {error.msg} at line {error.lineno}")
+
+
+def balance_brackets(text: str) -> str:
+    """Repair the most common structural slip of small models: a missing closing brace or bracket. Closers are
+    inserted where the nesting requires them (outside strings), missing ones are appended, extra ones dropped."""
+    out: list[str] = []
+    stack: list[str] = []
+    in_string = escaped = False
+    pairs = {"{": "}", "[": "]"}
+    for ch in text:
+        if in_string:
+            out.append(ch)
+            if escaped:
+                escaped = False
+            elif ch == "\\":
+                escaped = True
+            elif ch == '"':
+                in_string = False
+            continue
+        if ch == '"':
+            in_string = True
+        elif ch in pairs:
+            stack.append(pairs[ch])
+        elif ch in "}]":
+            if ch not in stack:
+                continue  # an extra closer
+            while stack and stack[-1] != ch:
+                out.append(stack.pop())
+            stack.pop()
+        out.append(ch)
+        if not stack and ch in "}]" and text:
+            break
+    out.extend(reversed(stack))
+    return "".join(out)
 
 
 def _int(value: Any) -> int | None:

@@ -422,7 +422,7 @@ def build_services(settings: Settings, *, llm: ChatModel | None = None, seed: bo
     cases = {c.id: c for c in load_cases(settings.dataset_dir)} if settings.dataset_dir.exists() else {}
     services = Services(settings=settings, store=store, codeset=codeset, llm=model, cases=cases)
     if settings.seed_demo if seed is None else seed:
-        notes = settings.results_dir / "demo-notes"
+        notes = settings.results_dir / "runs" / settings.demo_notes_run / "notes"
         services.seed_demo(notes_dir=notes if notes.exists() else None)
     return services
 

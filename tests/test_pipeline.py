@@ -151,3 +151,9 @@ def test_one_repair_then_a_clear_error(case_by_id: dict[str, Case], codeset: Cod
     with pytest.raises(ScribeError, match="after one repair"):
         Scribe(Garbage(), codeset).draft(_visit(case_by_id["pc-01"]))
     assert Garbage.calls == 2
+
+
+def test_missing_closing_brace_is_repaired_locally() -> None:
+    broken = '{"subjective": [{"text": "a", "evidence": [{"turn": 1}]}, {"text": "b", "evidence": []], "plan": []}'
+    assert extract_json(broken)["subjective"][1]["text"] == "b"
+    assert extract_json('{"a": 1}} trailing') == {"a": 1}

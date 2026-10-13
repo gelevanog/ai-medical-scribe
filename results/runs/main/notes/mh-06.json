@@ -1,0 +1,935 @@
+{
+ "note": {
+  "visit_id": "mh-06",
+  "statements": [
+   {
+    "id": "s1",
+    "section": "subjective",
+    "text": "Mood is good.",
+    "evidence": [
+     {
+      "turn": 4,
+      "quote": "So how's the mood been?",
+      "verified": true,
+      "score": 1.0
+     },
+     {
+      "turn": 5,
+      "quote": "Good, actually.",
+      "verified": true,
+      "score": 1.0
+     }
+    ],
+    "support": "supported",
+    "flags": [],
+    "origin": "model",
+    "edited": false
+   },
+   {
+    "id": "s2",
+    "section": "subjective",
+    "text": "Bupropion is still working.",
+    "evidence": [
+     {
+      "turn": 5,
+      "quote": "The bupropion is still working.",
+      "verified": true,
+      "score": 1.0
+     }
+    ],
+    "support": "supported",
+    "flags": [],
+    "origin": "model",
+    "edited": false
+   },
+   {
+    "id": "s3",
+    "section": "subjective",
+    "text": "Patient reports drinking pattern: since working from home last year, a glass of wine at 6 turned into three or four most nights, five or six on Saturdays.",
+    "evidence": [
+     {
+      "turn": 7,
+      "quote": "Since I started working from home last year, a glass of wine at 6 turned into three, sometimes four, most nights. Saturdays it can be five or six.",
+      "verified": true,
+      "score": 1.0
+     }
+    ],
+    "support": "supported",
+    "flags": [],
+    "origin": "model",
+    "edited": false
+   },
+   {
+    "id": "s4",
+    "section": "subjective",
+    "text": "Patient often drinks more than planned.",
+    "evidence": [
+     {
+      "turn": 8,
+      "quote": "Do you often end up drinking more than you planned?",
+      "verified": true,
+      "score": 1.0
+     },
+     {
+      "turn": 9,
+      "quote": "Pretty much always. I tell myself one glass.",
+      "verified": true,
+      "score": 1.0
+     }
+    ],
+    "support": "supported",
+    "flags": [],
+    "origin": "model",
+    "edited": false
+   },
+   {
+    "id": "s5",
+    "section": "subjective",
+    "text": "Patient attempted to stop drinking for a month in August but only lasted four days.",
+    "evidence": [
+     {
+      "turn": 10,
+      "quote": "Have you tried to cut back?",
+      "verified": true,
+      "score": 1.0
+     },
+     {
+      "turn": 11,
+      "quote": "In August I tried to stop for a month. I made it four days.",
+      "verified": true,
+      "score": 1.0
+     }
+    ],
+    "support": "supported",
+    "flags": [],
+    "origin": "model",
+    "edited": false
+   },
+   {
+    "id": "s6",
+    "section": "subjective",
+    "text": "Patient denies morning drinking.",
+    "evidence": [
+     {
+      "turn": 12,
+      "quote": "Do you ever drink in the morning, or get shaky or sweaty when you go without?",
+      "verified": true,
+      "score": 1.0
+     },
+     {
+      "turn": 13,
+      "quote": "No, never in the morning, and no shakes.",
+      "verified": true,
+      "score": 1.0
+     }
+    ],
+    "support": "supported",
+    "flags": [],
+    "origin": "model",
+    "edited": false
+   },
+   {
+    "id": "s7",
+    "section": "subjective",
+    "text": "Patient denies shakes or sweating when not drinking.",
+    "evidence": [
+     {
+      "turn": 12,
+      "quote": "Do you ever drink in the morning, or get shaky or sweaty when you go without?",
+      "verified": true,
+      "score": 1.0
+     },
+     {
+      "turn": 13,
+      "quote": "No, never in the morning, and no shakes.",
+      "verified": true,
+      "score": 1.0
+     }
+    ],
+    "support": "supported",
+    "flags": [],
+    "origin": "model",
+    "edited": false
+   },
+   {
+    "id": "s8",
+    "section": "subjective",
+    "text": "Patient reports one blackout at a wedding in August.",
+    "evidence": [
+     {
+      "turn": 14,
+      "quote": "Any blackouts, where you can't remember part of the night?",
+      "verified": true,
+      "score": 1.0
+     },
+     {
+      "turn": 15,
+      "quote": "Once. At a wedding in August, I don't remember the end of the night. That kind of scared me.",
+      "verified": true,
+      "score": 1.0
+     }
+    ],
+    "support": "supported",
+    "flags": [],
+    "origin": "model",
+    "edited": false
+   },
+   {
+    "id": "s9",
+    "section": "subjective",
+    "text": "Patient denies driving after drinking.",
+    "evidence": [
+     {
+      "turn": 16,
+      "quote": "Any driving after drinking?",
+      "verified": true,
+      "score": 1.0
+     },
+     {
+      "turn": 17,
+      "quote": "No. Never. I'm really careful about that.",
+      "verified": true,
+      "score": 1.0
+     }
+    ],
+    "support": "supported",
+    "flags": [],
+    "origin": "model",
+    "edited": false
+   },
+   {
+    "id": "s10",
+    "section": "subjective",
+    "text": "Patient denies smoking, cannabis, or other drug use.",
+    "evidence": [
+     {
+      "turn": 18,
+      "quote": "Any smoking, cannabis, other drugs?",
+      "verified": true,
+      "score": 1.0
+     },
+     {
+      "turn": 19,
+      "quote": "No, none of that.",
+      "verified": true,
+      "score": 1.0
+     }
+    ],
+    "support": "supported",
+    "flags": [],
+    "origin": "model",
+    "edited": false
+   },
+   {
+    "id": "s11",
+    "section": "subjective",
+    "text": "Family history: father was a heavy drinker and died of cirrhosis when patient was in college.",
+    "evidence": [
+     {
+      "turn": 20,
+      "quote": "Anyone in your family with alcohol problems?",
+      "verified": true,
+      "score": 1.0
+     },
+     {
+      "turn": 21,
+      "quote": "My dad was a heavy drinker. He died of cirrhosis when I was in college.",
+      "verified": true,
+      "score": 1.0
+     }
+    ],
+    "support": "supported",
+    "flags": [],
+    "origin": "model",
+    "edited": false
+   },
+   {
+    "id": "s12",
+    "section": "subjective",
+    "text": "Patient denies suicidal thoughts or self-harm.",
+    "evidence": [
+     {
+      "turn": 24,
+      "quote": "I have to ask, any thoughts of suicide or of hurting yourself?",
+      "verified": true,
+      "score": 1.0
+     },
+     {
+      "turn": 25,
+      "quote": "No, not at all.",
+      "verified": true,
+      "score": 1.0
+     }
+    ],
+    "support": "supported",
+    "flags": [],
+    "origin": "model",
+    "edited": false
+   },
+   {
+    "id": "o1",
+    "section": "objective",
+    "text": "AUDIT-C score is 8 out of 12.",
+    "evidence": [
+     {
+      "turn": 26,
+      "quote": "So, your AUDIT-C score today is 8 out of 12.",
+      "verified": true,
+      "score": 1.0
+     }
+    ],
+    "support": "supported",
+    "flags": [],
+    "origin": "model",
+    "edited": false
+   },
+   {
+    "id": "o2",
+    "section": "objective",
+    "text": "PHQ-9 score is 4.",
+    "evidence": [
+     {
+      "turn": 26,
+      "quote": "Your PHQ-9 is 4, so your depression is still in remission.",
+      "verified": true,
+      "score": 1.0
+     }
+    ],
+    "support": "supported",
+    "flags": [],
+    "origin": "model",
+    "edited": false
+   },
+   {
+    "id": "o3",
+    "section": "objective",
+    "text": "Blood pressure is 138/88.",
+    "evidence": [
+     {
+      "turn": 26,
+      "quote": "Your blood pressure is a bit high today at 138 over 88, pulse 90.",
+      "verified": true,
+      "score": 1.0
+     }
+    ],
+    "support": "supported",
+    "flags": [],
+    "origin": "model",
+    "edited": false
+   },
+   {
+    "id": "o4",
+    "section": "objective",
+    "text": "Pulse is 90.",
+    "evidence": [
+     {
+      "turn": 26,
+      "quote": "Your blood pressure is a bit high today at 138 over 88, pulse 90.",
+      "verified": true,
+      "score": 1.0
+     }
+    ],
+    "support": "supported",
+    "flags": [],
+    "origin": "model",
+    "edited": false
+   },
+   {
+    "id": "o5",
+    "section": "objective",
+    "text": "No tremor observed in hands.",
+    "evidence": [
+     {
+      "turn": 26,
+      "quote": "I don't see any tremor in your hands.",
+      "verified": true,
+      "score": 1.0
+     }
+    ],
+    "support": "supported",
+    "flags": [],
+    "origin": "model",
+    "edited": false
+   },
+   {
+    "id": "o6",
+    "section": "objective",
+    "text": "Patient appears calm and open.",
+    "evidence": [
+     {
+      "turn": 26,
+      "quote": "You seem calm and open, your mood is good, and your thinking is clear.",
+      "verified": true,
+      "score": 1.0
+     }
+    ],
+    "support": "supported",
+    "flags": [],
+    "origin": "model",
+    "edited": false
+   },
+   {
+    "id": "o7",
+    "section": "objective",
+    "text": "Mood is good.",
+    "evidence": [
+     {
+      "turn": 26,
+      "quote": "You seem calm and open, your mood is good, and your thinking is clear.",
+      "verified": true,
+      "score": 1.0
+     }
+    ],
+    "support": "supported",
+    "flags": [],
+    "origin": "model",
+    "edited": false
+   },
+   {
+    "id": "o8",
+    "section": "objective",
+    "text": "Thinking is clear.",
+    "evidence": [
+     {
+      "turn": 26,
+      "quote": "You seem calm and open, your mood is good, and your thinking is clear.",
+      "verified": true,
+      "score": 1.0
+     }
+    ],
+    "support": "supported",
+    "flags": [],
+    "origin": "model",
+    "edited": false
+   },
+   {
+    "id": "a1",
+    "section": "assessment",
+    "text": "Mild alcohol use disorder.",
+    "evidence": [
+     {
+      "turn": 28,
+      "quote": "I think this is a mild alcohol use disorder.",
+      "verified": true,
+      "score": 1.0
+     }
+    ],
+    "support": "supported",
+    "flags": [],
+    "origin": "model",
+    "edited": false
+   },
+   {
+    "id": "a2",
+    "section": "assessment",
+    "text": "Recurrent major depression in full remission on bupropion.",
+    "evidence": [
+     {
+      "turn": 28,
+      "quote": "Your recurrent major depression is in full remission on the bupropion, and I want to keep it that way, because alcohol can bring depression back.",
+      "verified": true,
+      "score": 1.0
+     }
+    ],
+    "support": "supported",
+    "flags": [],
+    "origin": "model",
+    "edited": false
+   },
+   {
+    "id": "p1",
+    "section": "plan",
+    "text": "Order liver panel and GGT.",
+    "evidence": [
+     {
+      "turn": 30,
+      "quote": "First, a liver panel and a GGT, at the lab on your way out.",
+      "verified": true,
+      "score": 1.0
+     }
+    ],
+    "support": "supported",
+    "flags": [],
+    "origin": "model",
+    "edited": false
+   },
+   {
+    "id": "p2",
+    "section": "plan",
+    "text": "If liver panel and GGT are okay, start naltrexone 50 mg once daily.",
+    "evidence": [
+     {
+      "turn": 30,
+      "quote": "If those are okay, I'll start naltrexone, 50 milligrams once a day.",
+      "verified": true,
+      "score": 1.0
+     }
+    ],
+    "support": "supported",
+    "flags": [],
+    "origin": "model",
+    "edited": false
+   },
+   {
+    "id": "p3",
+    "section": "plan",
+    "text": "Clinician will call with lab results before starting naltrexone.",
+    "evidence": [
+     {
+      "turn": 30,
+      "quote": "I'll call you with the results before you start it.",
+      "verified": true,
+      "score": 1.0
+     }
+    ],
+    "support": "supported",
+    "flags": [],
+    "origin": "model",
+    "edited": false
+   },
+   {
+    "id": "p4",
+    "section": "plan",
+    "text": "Goal: no more than one drink per day and at least three alcohol-free days per week.",
+    "evidence": [
+     {
+      "turn": 32,
+      "quote": "Second, a goal for now, no more than one drink a day and at least three alcohol-free days a week.",
+      "verified": true,
+      "score": 1.0
+     }
+    ],
+    "support": "supported",
+    "flags": [],
+    "origin": "model",
+    "edited": false
+   },
+   {
+    "id": "p5",
+    "section": "plan",
+    "text": "Refer to Riverbend Recovery Center outpatient program for evening groups twice a week.",
+    "evidence": [
+     {
+      "turn": 32,
+      "quote": "Third, I'm referring you to the Riverbend Recovery Center outpatient program. They have evening groups twice a week.",
+      "verified": true,
+      "score": 1.0
+     }
+    ],
+    "support": "supported",
+    "flags": [],
+    "origin": "model",
+    "edited": false
+   },
+   {
+    "id": "p6",
+    "section": "plan",
+    "text": "Continue bupropion XL 150 mg every morning.",
+    "evidence": [
+     {
+      "turn": 34,
+      "quote": "Keep the bupropion at 150.",
+      "verified": true,
+      "score": 1.0
+     }
+    ],
+    "support": "supported",
+    "flags": [],
+    "origin": "model",
+    "edited": false
+   },
+   {
+    "id": "p7",
+    "section": "plan",
+    "text": "Precaution: if shaky, sweaty, or anxious when cutting down, call right away.",
+    "evidence": [
+     {
+      "turn": 34,
+      "quote": "If you get shaky, sweaty, or anxious when you cut down, call us right away.",
+      "verified": true,
+      "score": 1.0
+     }
+    ],
+    "support": "supported",
+    "flags": [],
+    "origin": "model",
+    "edited": false
+   },
+   {
+    "id": "p8",
+    "section": "plan",
+    "text": "Precaution: if mood drops or thoughts of hurting self, call or text 988.",
+    "evidence": [
+     {
+      "turn": 34,
+      "quote": "And if your mood drops or you have any thoughts of hurting yourself, call or text 988.",
+      "verified": true,
+      "score": 1.0
+     }
+    ],
+    "support": "supported",
+    "flags": [],
+    "origin": "model",
+    "edited": false
+   },
+   {
+    "id": "p9",
+    "section": "plan",
+    "text": "Recheck blood pressure at next visit.",
+    "evidence": [
+     {
+      "turn": 34,
+      "quote": "We'll recheck your blood pressure next time.",
+      "verified": true,
+      "score": 1.0
+     }
+    ],
+    "support": "supported",
+    "flags": [],
+    "origin": "model",
+    "edited": false
+   },
+   {
+    "id": "p10",
+    "section": "plan",
+    "text": "Follow-up in 4 weeks on October 30th.",
+    "evidence": [
+     {
+      "turn": 34,
+      "quote": "Let's meet again in 4 weeks, on October 30th.",
+      "verified": true,
+      "score": 1.0
+     }
+    ],
+    "support": "supported",
+    "flags": [],
+    "origin": "model",
+    "edited": false
+   }
+  ],
+  "medications": [
+   {
+    "name": "bupropion XL",
+    "dose": "150 mg",
+    "frequency": "every morning",
+    "route": "oral",
+    "status": "active",
+    "evidence": [
+     {
+      "turn": 22,
+      "quote": "And you're still on bupropion XL, 150 milligrams every morning?",
+      "verified": true,
+      "score": 1.0
+     },
+     {
+      "turn": 23,
+      "quote": "Yes, every morning.",
+      "verified": true,
+      "score": 1.0
+     },
+     {
+      "turn": 34,
+      "quote": "Keep the bupropion at 150.",
+      "verified": true,
+      "score": 1.0
+     }
+    ],
+    "flags": []
+   },
+   {
+    "name": "naltrexone",
+    "dose": "50 mg",
+    "frequency": "once daily",
+    "route": "oral",
+    "status": "planned",
+    "evidence": [
+     {
+      "turn": 30,
+      "quote": "If those are okay, I'll start naltrexone, 50 milligrams once a day.",
+      "verified": true,
+      "score": 1.0
+     }
+    ],
+    "flags": []
+   }
+  ],
+  "allergies": [
+   {
+    "substance": "none reported",
+    "reaction": "none reported",
+    "evidence": [
+     {
+      "turn": 19,
+      "quote": "No, none of that.",
+      "verified": true,
+      "score": 1.0
+     }
+    ]
+   }
+  ],
+  "after_visit_summary": "Today we discussed your mood and drinking. Your mood is good and your depression is in remission on bupropion. However, your drinking has increased to three or four glasses most nights and up to six on weekends, with one blackout that concerned you. Your AUDIT-C score shows risky drinking. We are concerned about mild alcohol use disorder. Because bupropion can increase seizure risk with heavy drinking or sudden withdrawal, we want to address this carefully. We will check your liver with a blood test today. If results are normal, we will start naltrexone 50 mg daily to reduce cravings. For now, aim for no more than one drink per day and at least three alcohol-free days each week. You are being referred to Riverbend Recovery Center for evening counseling twice a week. Continue bupropion 150 mg each morning. If you feel shaky, sweaty, or anxious when cutting back on alcohol, call us right away. If your mood worsens or you have thoughts of self-harm, call or text 988. We will recheck your blood pressure at your next visit. Please return in 4 weeks on October 30th.",
+  "avs_flags": [],
+  "icd10": [
+   {
+    "system": "ICD-10-CM",
+    "code": "F10.10",
+    "description": "Alcohol abuse, uncomplicated",
+    "rank": 1,
+    "rationale": "Mild alcohol use disorder, uncomplicated, as assessed by the clinician based on patient's drinking pattern, failed attempt to cut back, blackout, and AUDIT-C score of 8.",
+    "evidence": [
+     {
+      "turn": 28,
+      "quote": "I think this is a mild alcohol use disorder.",
+      "verified": true,
+      "score": 1.0
+     },
+     {
+      "turn": 7,
+      "quote": "Since I started working from home last year, a glass of wine at 6 turned into three, sometimes four, most nights. Saturdays it can be five or six.",
+      "verified": true,
+      "score": 1.0
+     },
+     {
+      "turn": 11,
+      "quote": "In August I tried to stop for a month. I made it four days.",
+      "verified": true,
+      "score": 1.0
+     },
+     {
+      "turn": 15,
+      "quote": "Once. At a wedding in August, I don't remember the end of the night.",
+      "verified": true,
+      "score": 1.0
+     },
+     {
+      "turn": 26,
+      "quote": "your AUDIT-C score today is 8 out of 12.",
+      "verified": true,
+      "score": 1.0
+     }
+    ],
+    "valid": true,
+    "billable": true,
+    "flags": [],
+    "accepted": null
+   },
+   {
+    "system": "ICD-10-CM",
+    "code": "F33.42",
+    "description": "Major depressive disorder, recurrent, in full remission",
+    "rank": 2,
+    "rationale": "Recurrent major depressive disorder in full remission, as explicitly stated in assessment and plan, and supported by ongoing bupropion use and low PHQ-9 score.",
+    "evidence": [
+     {
+      "turn": 28,
+      "quote": "Your recurrent major depression is in full remission on the bupropion",
+      "verified": true,
+      "score": 1.0
+     },
+     {
+      "turn": 26,
+      "quote": "Your PHQ-9 is 4, so your depression is still in remission.",
+      "verified": true,
+      "score": 1.0
+     },
+     {
+      "turn": 34,
+      "quote": "Keep the bupropion at 150.",
+      "verified": true,
+      "score": 1.0
+     }
+    ],
+    "valid": true,
+    "billable": true,
+    "flags": [],
+    "accepted": null
+   }
+  ],
+  "em": {
+   "system": "CPT",
+   "code": "99213",
+   "description": "Established patient office visit, low-complexity decision making",
+   "rank": 1,
+   "rationale": "Established patient with two stable chronic conditions (mild alcohol use disorder and recurrent MDD in full remission), low complexity decision making, minimal data reviewed (AUDIT-C, PHQ-9, BP), and low risk (no new prescriptions started, only labs ordered).",
+   "evidence": [],
+   "valid": true,
+   "billable": true,
+   "flags": [
+    {
+     "kind": "em_mismatch",
+     "severity": "warning",
+     "message": "The rule-based MDM estimate is moderate (99214): problems: two or more chronic illnesses; data: 3 tests or sources; risk: prescription drug management",
+     "acknowledged": false,
+     "detail": {
+      "estimate": "99214"
+     }
+    }
+   ],
+   "accepted": null
+  },
+  "procedures": [
+   {
+    "system": "CPT",
+    "code": "96127",
+    "description": "Brief emotional or behavioral assessment with a standardized instrument (e.g. PHQ-9, GAD-7)",
+    "rank": 1,
+    "rationale": "Administration of standardized behavioral assessments: AUDIT-C and PHQ-9 were scored and discussed during the visit.",
+    "evidence": [
+     {
+      "turn": 26,
+      "quote": "your AUDIT-C score today is 8 out of 12. Your PHQ-9 is 4",
+      "verified": true,
+      "score": 1.0
+     }
+    ],
+    "valid": true,
+    "billable": true,
+    "flags": [],
+    "accepted": null
+   }
+  ],
+  "mdm": {
+   "problems": "moderate",
+   "data": "moderate",
+   "risk": "moderate",
+   "level": "moderate",
+   "code": "99214",
+   "reasons": [
+    "problems: two or more chronic illnesses",
+    "data: 3 tests or sources",
+    "risk: prescription drug management"
+   ]
+  },
+  "section_status": {
+   "subjective": "draft",
+   "objective": "draft",
+   "assessment": "draft",
+   "plan": "draft"
+  },
+  "model": "openrouter/nvidia/nemotron-3-super-120b-a12b:free",
+  "created_at": "2026-10-13T05:33:49.604139Z",
+  "signed_by": null,
+  "signed_at": null,
+  "timings": {
+   "phi_masking": 0.053,
+   "llm_note": 17.469,
+   "guards_note": 0.119,
+   "llm_codes": 5.662,
+   "guards_codes": 0.109,
+   "total": 23.413
+  },
+  "usage": {
+   "input_tokens": 4890,
+   "output_tokens": 3048,
+   "calls": 2
+  },
+  "phi": {
+   "NAME": 3,
+   "DOB": 1,
+   "DATE": 2,
+   "PHONE": 1,
+   "ORG": 1,
+   "egress_residue_DATE": 2
+  }
+ },
+ "vault": {
+  "originals": {
+   "[PATIENT]": "Neha Kulkarni",
+   "[DOB]": "January 25th, 1987",
+   "[NAME_1]": "Anaya",
+   "[NAME_2]": "Vikram",
+   "[DATE_1]": "August",
+   "[PHONE_1]": "919-555-0117",
+   "[ORG_1]": "Riverbend Recovery Center",
+   "[DATE_2]": "October 30th"
+  },
+  "surfaces": {
+   "[PATIENT]": [
+    "Neha",
+    "Neha Kulkarni"
+   ],
+   "[DOB]": [
+    "January 25th, 1987"
+   ],
+   "[NAME_1]": [
+    "Anaya"
+   ],
+   "[NAME_2]": [
+    "Vikram"
+   ],
+   "[DATE_1]": [
+    "August"
+   ],
+   "[PHONE_1]": [
+    "919-555-0117"
+   ],
+   "[ORG_1]": [
+    "Riverbend Recovery Center"
+   ],
+   "[DATE_2]": [
+    "October 30th"
+   ]
+  },
+  "types": {
+   "[PATIENT]": "NAME",
+   "[DOB]": "DOB",
+   "[NAME_1]": "NAME",
+   "[NAME_2]": "NAME",
+   "[DATE_1]": "DATE",
+   "[PHONE_1]": "PHONE",
+   "[ORG_1]": "ORG",
+   "[DATE_2]": "DATE"
+  },
+  "counters": {
+   "NAME": 2,
+   "DATE": 2,
+   "PHONE": 1,
+   "ORG": 1
+  }
+ },
+ "score": {
+  "case": "mh-06",
+  "specialty": "mental_health",
+  "facts": 28,
+  "found": 25,
+  "found_in_section": 24,
+  "negation_errors": [
+   "f24: Drinking goal no more than 1 drink per day and at least 3 alcohol-free days per week (present)"
+  ],
+  "trap_errors": [],
+  "missed": [
+   "f2 [subjective] Husband concerned about her drinking",
+   "f20 [assessment] Bupropion lowers seizure threshold; heavy drinking or abrupt cessation increases seizure risk",
+   "f24 [plan] Drinking goal no more than 1 drink per day and at least 3 alcohol-free days per week"
+  ],
+  "statements": 32,
+  "statements_matching_gold": 27,
+  "unsupported": 0,
+  "partial": 0,
+  "flags": {},
+  "meds": 2,
+  "meds_found": 2,
+  "meds_dose_correct": 2,
+  "icd_primary": "F10.10",
+  "icd_suggested": [
+   "F10.10",
+   "F33.42"
+  ],
+  "icd_top1": true,
+  "icd_top3": true,
+  "icd_top3_lenient": true,
+  "icd_top3_category": true,
+  "icd_gold_recall": 0.5,
+  "icd_invalid": 0,
+  "em_gold": "99214",
+  "em_suggested": "99213",
+  "em_exact": false,
+  "em_within_one": true,
+  "em_rule_estimate": "99214",
+  "procedures_gold": 1,
+  "procedures_found": 1
+ },
+ "egress_residue": {
+  "DATE": 2
+ }
+}

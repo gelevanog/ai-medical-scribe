@@ -55,10 +55,19 @@ def match_fact(statement: str, groups: list[list[str]]) -> re.Match[str] | None:
     return first
 
 
+_POST_NEGATION = re.compile(r"^\W*(?:\w+\W+){0,3}?(?:not|never|negative|absent|none)\b")
+
+
 def statement_polarity(statement: str, match: re.Match[str]) -> str:
+    """present | absent | hypothetical for the matched finding: NegEx-style triggers before it in the same clause,
+    a short post-negation ("thyroid not enlarged", "never had one"), or a precaution ("return if ...")."""
     text = _norm(statement)
     pol = clause_polarity(text, match.start(), match.end(), others=False)
-    return "absent" if pol == "absent" else "present"
+    if pol == "hypothetical":
+        return "hypothetical"
+    if pol == "absent" or _POST_NEGATION.match(text[match.end() :]):
+        return "absent"
+    return "present"
 
 
 def note_lines(note: Note) -> list[tuple[str, str]]:
@@ -203,10 +212,13 @@ def _score_fact(fact: GoldFact, lines: list[tuple[str, str]], score: CaseScore, 
         if m is None:
             continue
         matched.add(i)
-        if statement_polarity(text, m) == fact.polarity:
+        polarity = statement_polarity(text, m)
+        if polarity == fact.polarity or (polarity == "hypothetical" and fact.section == "plan"):
             correct = True
             in_section = in_section or section == fact.section
-        else:
+        elif polarity != "hypothetical" and section == fact.section and fact.section in {"subjective", "objective"}:
+            # A finding stated with the opposite polarity in the same section ("Denies dizziness" for a reported
+            # dizziness). Plan instructions ("no basketball for 2 weeks") are not findings.
             wrong_polarity = True
     if correct:
         score.found += 1

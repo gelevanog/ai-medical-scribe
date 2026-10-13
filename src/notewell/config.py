@@ -47,6 +47,9 @@ class Settings(BaseSettings):
     """`notewell purge` deletes audio and transcripts of signed visits older than this."""
     seed_demo: bool = True
     """Load the synthetic visits into the visit list on first start."""
+    demo_notes_run: str = "main"
+    """Attach the notes drafted by this evaluation run (results/runs/<run>/notes) to the demo visits, so the review
+    UI shows real model output without a key. Visits without a saved note start as transcribed."""
 
     # ---- access control (demo-grade; see README > HIPAA-minded design)
     auth_tokens: Annotated[list[str], NoDecode] = Field(default_factory=list)

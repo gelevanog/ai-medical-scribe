@@ -1,0 +1,111 @@
+{
+ "visits": 31,
+ "gold_facts": 848,
+ "fact_recall": 0.9328,
+ "fact_recall_section_correct": 0.9057,
+ "statements": 913,
+ "gold_matched_precision": 0.9069,
+ "unsupported_rate": 0.0,
+ "partial_rate": 0.034,
+ "negation_errors": 13,
+ "negatives_in_gold": 173,
+ "trap_errors": 0,
+ "medication_recall": 0.7685,
+ "medication_dose_correct": 0.6759,
+ "icd_top1": 0.6774,
+ "icd_top3": 0.6774,
+ "icd_top3_lenient": 0.8387,
+ "icd_top3_category": 0.8387,
+ "icd_all_gold_recall": 0.629,
+ "icd_invalid_suggestions": 1,
+ "em_exact": 0.5484,
+ "em_within_one": 0.9677,
+ "em_rule_estimate_exact": 0.6774,
+ "procedure_recall": 0.8261,
+ "flags": {
+  "partial_support": 31,
+  "dose_mismatch": 5,
+  "negation": 12,
+  "attribution": 1,
+  "unknown_drug": 6,
+  "allergy_conflict": 1,
+  "dose_range": 1
+ },
+ "by_specialty": {
+  "cardiology": {
+   "visits": 5,
+   "fact_recall": 0.9275,
+   "icd_top3": 0.6,
+   "unsupported_rate": 0.0
+  },
+  "dermatology": {
+   "visits": 6,
+   "fact_recall": 0.9383,
+   "icd_top3": 0.6667,
+   "unsupported_rate": 0.0
+  },
+  "mental_health": {
+   "visits": 6,
+   "fact_recall": 0.915,
+   "icd_top3": 0.8333,
+   "unsupported_rate": 0.0
+  },
+  "pediatrics": {
+   "visits": 6,
+   "fact_recall": 0.9412,
+   "icd_top3": 0.5,
+   "unsupported_rate": 0.0
+  },
+  "primary_care": {
+   "visits": 8,
+   "fact_recall": 0.9378,
+   "icd_top3": 0.75,
+   "unsupported_rate": 0.0
+  }
+ },
+ "name": "main",
+ "model": "openrouter/nvidia/nemotron-3-super-120b-a12b:free",
+ "requested_model": "openrouter/nvidia/nemotron-3-super-120b-a12b:free",
+ "transcripts": "gold",
+ "failures": [
+  {
+   "case": "cd-06",
+   "error": "the model's answer is not valid JSON after one repair: invalid JSON: Expecting ',' delimiter at line 13"
+  }
+ ],
+ "payloads_checked": 65,
+ "phi_leaks": 0,
+ "phi_leak_details": [],
+ "latency_s": {
+  "phi_masking": {
+   "p50": 0.04,
+   "p95": 0.1
+  },
+  "llm_note": {
+   "p50": 20.3,
+   "p95": 37.52
+  },
+  "llm_codes": {
+   "p50": 4.31,
+   "p95": 8.7
+  },
+  "guards_note": {
+   "p50": 0.07,
+   "p95": 0.16
+  },
+  "guards_codes": {
+   "p50": 0.05,
+   "p95": 0.11
+  },
+  "total": {
+   "p50": 25.19,
+   "p95": 44.63
+  }
+ },
+ "tokens_per_visit": {
+  "input_mean": 5157,
+  "output_mean": 2956,
+  "calls_total": 63
+ },
+ "wall_minutes": 13.5
+}

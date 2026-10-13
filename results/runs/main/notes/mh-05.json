@@ -1,0 +1,860 @@
+{
+ "note": {
+  "visit_id": "mh-05",
+  "statements": [
+   {
+    "id": "s1",
+    "section": "subjective",
+    "text": "Patient reports stopping trazodone after about ten days due to morning grogginess and dizziness upon waking.",
+    "evidence": [
+     {
+      "turn": 5,
+      "quote": "Well, I gotta be honest, I stopped it. After about ten days.",
+      "verified": true,
+      "score": 1.0
+     },
+     {
+      "turn": 7,
+      "quote": "I'd sleep, sure, but in the morning I felt like I was walking through mud. And one night I got up to use the bathroom and got real dizzy, had to grab the dresser.",
+      "verified": true,
+      "score": 1.0
+     }
+    ],
+    "support": "supported",
+    "flags": [],
+    "origin": "model",
+    "edited": false
+   },
+   {
+    "id": "s2",
+    "section": "subjective",
+    "text": "Patient reports current sleep pattern: goes to bed around 9:30 PM, lies awake for 1-2 hours, wakes around 3 AM and remains awake for the rest of the night.",
+    "evidence": [
+     {
+      "turn": 11,
+      "quote": "I go to bed around 9:30, lie there an hour, maybe two. Then I wake up about 3 and I'm up for good, most nights.",
+      "verified": true,
+      "score": 1.0
+     }
+    ],
+    "support": "partial",
+    "flags": [
+     {
+      "kind": "partial_support",
+      "severity": "error",
+      "message": "Quoted turn does not contain 1; check against the transcript.",
+      "acknowledged": false,
+      "detail": {
+       "numbers_not_in_evidence": [
+        "1"
+       ]
+      }
+     }
+    ],
+    "origin": "model",
+    "edited": false
+   },
+   {
+    "id": "s3",
+    "section": "subjective",
+    "text": "Patient reports taking diphenhydramine (Benadryl) 25 mg most nights and melatonin 5 mg for sleep.",
+    "evidence": [
+     {
+      "turn": 13,
+      "quote": "The Benadryl, the 25 milligrams, most nights. And melatonin, 5 milligrams.",
+      "verified": true,
+      "score": 1.0
+     }
+    ],
+    "support": "supported",
+    "flags": [],
+    "origin": "model",
+    "edited": false
+   },
+   {
+    "id": "s4",
+    "section": "subjective",
+    "text": "Patient reports taking an afternoon nap after lunch, lasting about an hour.",
+    "evidence": [
+     {
+      "turn": 15,
+      "quote": "After lunch, an hour or so in the recliner.",
+      "verified": true,
+      "score": 1.0
+     }
+    ],
+    "support": "supported",
+    "flags": [],
+    "origin": "model",
+    "edited": false
+   },
+   {
+    "id": "s5",
+    "section": "subjective",
+    "text": "Patient reports drinking two cups of coffee daily: one in the morning and one around 3 PM.",
+    "evidence": [
+     {
+      "turn": 17,
+      "quote": "I have two. One in the morning and one around 3 in the afternoon.",
+      "verified": true,
+      "score": 1.0
+     }
+    ],
+    "support": "supported",
+    "flags": [],
+    "origin": "model",
+    "edited": false
+   },
+   {
+    "id": "s6",
+    "section": "subjective",
+    "text": "Patient reports watching TV in bed every night as a method to fall asleep.",
+    "evidence": [
+     {
+      "turn": 19,
+      "quote": "Every night. That's how I fall asleep, when I do.",
+      "verified": true,
+      "score": 1.0
+     }
+    ],
+    "support": "supported",
+    "flags": [],
+    "origin": "model",
+    "edited": false
+   },
+   {
+    "id": "s7",
+    "section": "subjective",
+    "text": "Patient denies snoring or apnea as reported by spouse.",
+    "evidence": [
+     {
+      "turn": 20,
+      "quote": "Does Bernadette ever say you snore loud or stop breathing at night?",
+      "verified": true,
+      "score": 1.0
+     },
+     {
+      "turn": 21,
+      "quote": "No, she says I sleep quiet.",
+      "verified": true,
+      "score": 1.0
+     }
+    ],
+    "support": "partial",
+    "flags": [
+     {
+      "kind": "partial_support",
+      "severity": "warning",
+      "message": "Quoted turn does not contain most of its terms; check against the transcript.",
+      "acknowledged": false,
+      "detail": {}
+     }
+    ],
+    "origin": "model",
+    "edited": false
+   },
+   {
+    "id": "s8",
+    "section": "subjective",
+    "text": "Patient denies restless legs symptoms.",
+    "evidence": [
+     {
+      "turn": 24,
+      "quote": "And how's your mood, are you feeling down or worried a lot?",
+      "verified": true,
+      "score": 1.0
+     },
+     {
+      "turn": 23,
+      "quote": "No.",
+      "verified": true,
+      "score": 1.0
+     }
+    ],
+    "support": "supported",
+    "flags": [],
+    "origin": "model",
+    "edited": false
+   },
+   {
+    "id": "s9",
+    "section": "subjective",
+    "text": "Patient reports mood is fine, attributes symptoms to tiredness rather than depression or anxiety.",
+    "evidence": [
+     {
+      "turn": 24,
+      "quote": "And how's your mood, are you feeling down or worried a lot?",
+      "verified": true,
+      "score": 1.0
+     },
+     {
+      "turn": 25,
+      "quote": "No, mood's fine. I'm just tired.",
+      "verified": true,
+      "score": 1.0
+     }
+    ],
+    "support": "supported",
+    "flags": [
+     {
+      "kind": "negation",
+      "severity": "error",
+      "message": "The transcript says the opposite: 'depression' (turns 24).",
+      "acknowledged": false,
+      "detail": {
+       "concept": "depressed_mood",
+       "turns": [
+        24
+       ]
+      }
+     },
+     {
+      "kind": "negation",
+      "severity": "error",
+      "message": "The transcript says the opposite: 'anxiety' (turns 24).",
+      "acknowledged": false,
+      "detail": {
+       "concept": "anxiety",
+       "turns": [
+        24
+       ]
+      }
+     }
+    ],
+    "origin": "model",
+    "edited": false
+   },
+   {
+    "id": "o1",
+    "section": "objective",
+    "text": "Blood pressure sitting: 134/80 mmHg.",
+    "evidence": [
+     {
+      "turn": 26,
+      "quote": "Your blood pressure sitting is 134 over 80, and standing it's 130 over 78, so no real drop.",
+      "verified": true,
+      "score": 1.0
+     }
+    ],
+    "support": "supported",
+    "flags": [],
+    "origin": "model",
+    "edited": false
+   },
+   {
+    "id": "o2",
+    "section": "objective",
+    "text": "Blood pressure standing: 130/78 mmHg.",
+    "evidence": [
+     {
+      "turn": 26,
+      "quote": "Your blood pressure sitting is 134 over 80, and standing it's 130 over 78, so no real drop.",
+      "verified": true,
+      "score": 1.0
+     }
+    ],
+    "support": "supported",
+    "flags": [],
+    "origin": "model",
+    "edited": false
+   },
+   {
+    "id": "o3",
+    "section": "objective",
+    "text": "Pulse: 68 bpm.",
+    "evidence": [
+     {
+      "turn": 26,
+      "quote": "Your blood pressure sitting is 134 over 80, and standing it's 130 over 78, so no real drop. Pulse is 68.",
+      "verified": true,
+      "score": 1.0
+     }
+    ],
+    "support": "supported",
+    "flags": [],
+    "origin": "model",
+    "edited": false
+   },
+   {
+    "id": "o4",
+    "section": "objective",
+    "text": "Patient is alert, appears slightly tired, and thinking is sharp.",
+    "evidence": [
+     {
+      "turn": 26,
+      "quote": "You're alert, a little tired looking, and your thinking is sharp.",
+      "verified": true,
+      "score": 1.0
+     }
+    ],
+    "support": "supported",
+    "flags": [],
+    "origin": "model",
+    "edited": false
+   },
+   {
+    "id": "o5",
+    "section": "objective",
+    "text": "Sleep questionnaire score: 18, indicating moderate insomnia.",
+    "evidence": [
+     {
+      "turn": 26,
+      "quote": "Your sleep questionnaire score is 18, which is moderate insomnia.",
+      "verified": true,
+      "score": 1.0
+     }
+    ],
+    "support": "supported",
+    "flags": [],
+    "origin": "model",
+    "edited": false
+   },
+   {
+    "id": "a1",
+    "section": "assessment",
+    "text": "Chronic insomnia.",
+    "evidence": [
+     {
+      "turn": 28,
+      "quote": "So here's what I think. This is chronic insomnia, and a lot of it comes down to sleep habits that keep it going, the nap, the late coffee, the TV in bed.",
+      "verified": true,
+      "score": 1.0
+     }
+    ],
+    "support": "supported",
+    "flags": [],
+    "origin": "model",
+    "edited": false
+   },
+   {
+    "id": "p1",
+    "section": "plan",
+    "text": "Discontinue trazodone due to side effects of dizziness and grogginess.",
+    "evidence": [
+     {
+      "turn": 28,
+      "quote": "We won't restart the trazodone, since it made you dizzy.",
+      "verified": true,
+      "score": 1.0
+     }
+    ],
+    "support": "supported",
+    "flags": [],
+    "origin": "model",
+    "edited": false
+   },
+   {
+    "id": "p2",
+    "section": "plan",
+    "text": "Discontinue diphenhydramine (Benadryl) due to risk of confusion, dizziness, and falls in older adults.",
+    "evidence": [
+     {
+      "turn": 28,
+      "quote": "I also want you to stop the Benadryl. At your age it can cause confusion, dizziness, and falls.",
+      "verified": true,
+      "score": 1.0
+     }
+    ],
+    "support": "supported",
+    "flags": [],
+    "origin": "model",
+    "edited": false
+   },
+   {
+    "id": "p3",
+    "section": "plan",
+    "text": "Continue melatonin but reduce dose to 3 mg, to be taken 1 hour before bedtime.",
+    "evidence": [
+     {
+      "turn": 30,
+      "quote": "You can keep melatonin, but drop it to 3 milligrams, an hour before bed.",
+      "verified": true,
+      "score": 1.0
+     }
+    ],
+    "support": "partial",
+    "flags": [
+     {
+      "kind": "partial_support",
+      "severity": "error",
+      "message": "Quoted turn does not contain 1; check against the transcript.",
+      "acknowledged": false,
+      "detail": {
+       "numbers_not_in_evidence": [
+        "1"
+       ]
+      }
+     }
+    ],
+    "origin": "model",
+    "edited": false
+   },
+   {
+    "id": "p4",
+    "section": "plan",
+    "text": "Maintain consistent wake time at 6:30 AM daily, including weekends.",
+    "evidence": [
+     {
+      "turn": 30,
+      "quote": "Get up at 6:30 every day, even weekends.",
+      "verified": true,
+      "score": 1.0
+     }
+    ],
+    "support": "supported",
+    "flags": [],
+    "origin": "model",
+    "edited": false
+   },
+   {
+    "id": "p5",
+    "section": "plan",
+    "text": "Go to bed only when sleepy.",
+    "evidence": [
+     {
+      "turn": 30,
+      "quote": "Only go to bed when you're sleepy.",
+      "verified": true,
+      "score": 1.0
+     }
+    ],
+    "support": "supported",
+    "flags": [],
+    "origin": "model",
+    "edited": false
+   },
+   {
+    "id": "p6",
+    "section": "plan",
+    "text": "Remove TV from bedroom; avoid watching TV in bed.",
+    "evidence": [
+     {
+      "turn": 30,
+      "quote": "No TV in bed.",
+      "verified": true,
+      "score": 1.0
+     }
+    ],
+    "support": "supported",
+    "flags": [],
+    "origin": "model",
+    "edited": false
+   },
+   {
+    "id": "p7",
+    "section": "plan",
+    "text": "If awake in bed for >20 minutes, get up, sit in living room with a book, return to bed when drowsy.",
+    "evidence": [
+     {
+      "turn": 30,
+      "quote": "If you're awake more than about 20 minutes, get up, sit in the living room with a book, then go back when you're drowsy.",
+      "verified": true,
+      "score": 1.0
+     }
+    ],
+    "support": "supported",
+    "flags": [],
+    "origin": "model",
+    "edited": false
+   },
+   {
+    "id": "p8",
+    "section": "plan",
+    "text": "Limit naps: avoid if possible, or restrict to ≤20 minutes before 2:00 PM.",
+    "evidence": [
+     {
+      "turn": 32,
+      "quote": "Skip it if you can, or 20 minutes at most before 2 o'clock.",
+      "verified": true,
+      "score": 1.0
+     }
+    ],
+    "support": "partial",
+    "flags": [
+     {
+      "kind": "partial_support",
+      "severity": "error",
+      "message": "Quoted turn does not contain 0; check against the transcript.",
+      "acknowledged": false,
+      "detail": {
+       "numbers_not_in_evidence": [
+        "0"
+       ]
+      }
+     }
+    ],
+    "origin": "model",
+    "edited": false
+   },
+   {
+    "id": "p9",
+    "section": "plan",
+    "text": "Avoid coffee after 12:00 PM (noon).",
+    "evidence": [
+     {
+      "turn": 32,
+      "quote": "Last coffee by noon.",
+      "verified": true,
+      "score": 1.0
+     }
+    ],
+    "support": "partial",
+    "flags": [
+     {
+      "kind": "partial_support",
+      "severity": "error",
+      "message": "Quoted turn does not contain 0, 12; check against the transcript.",
+      "acknowledged": false,
+      "detail": {
+       "numbers_not_in_evidence": [
+        "0",
+        "12"
+       ]
+      }
+     }
+    ],
+    "origin": "model",
+    "edited": false
+   },
+   {
+    "id": "p10",
+    "section": "plan",
+    "text": "Engage in morning walk outside for daylight exposure.",
+    "evidence": [
+     {
+      "turn": 32,
+      "quote": "And take a morning walk outside for the daylight.",
+      "verified": true,
+      "score": 1.0
+     }
+    ],
+    "support": "supported",
+    "flags": [],
+    "origin": "model",
+    "edited": false
+   },
+   {
+    "id": "p11",
+    "section": "plan",
+    "text": "Refer to CBT for insomnia program (6-session class).",
+    "evidence": [
+     {
+      "turn": 34,
+      "quote": "I'm also referring you to our CBT for insomnia program, it's a 6-session class and it works better than pills long term.",
+      "verified": true,
+      "score": 1.0
+     }
+    ],
+    "support": "supported",
+    "flags": [],
+    "origin": "model",
+    "edited": false
+   },
+   {
+    "id": "p12",
+    "section": "plan",
+    "text": "Instruct patient to keep a sleep diary for the next two weeks; form to be sent via patient portal.",
+    "evidence": [
+     {
+      "turn": 34,
+      "quote": "Keep a sleep diary for the next two weeks. I'll put the form in your portal.",
+      "verified": true,
+      "score": 1.0
+     }
+    ],
+    "support": "supported",
+    "flags": [],
+    "origin": "model",
+    "edited": false
+   },
+   {
+    "id": "p13",
+    "section": "plan",
+    "text": "Follow-up appointment in 6 weeks.",
+    "evidence": [
+     {
+      "turn": 36,
+      "quote": "Let's follow up in 6 weeks.",
+      "verified": true,
+      "score": 1.0
+     }
+    ],
+    "support": "supported",
+    "flags": [],
+    "origin": "model",
+    "edited": false
+   },
+   {
+    "id": "p14",
+    "section": "plan",
+    "text": "Precaution: Contact clinic sooner if confusion or fall occurs.",
+    "evidence": [
+     {
+      "turn": 36,
+      "quote": "If you get confused or have a fall, call us sooner.",
+      "verified": true,
+      "score": 1.0
+     }
+    ],
+    "support": "supported",
+    "flags": [],
+    "origin": "model",
+    "edited": false
+   }
+  ],
+  "medications": [
+   {
+    "name": "trazodone",
+    "dose": "50 mg",
+    "frequency": "at bedtime",
+    "route": "oral",
+    "status": "stopped",
+    "evidence": [
+     {
+      "turn": 4,
+      "quote": "last time we started trazodone, 50 milligrams at bedtime, for sleep.",
+      "verified": true,
+      "score": 1.0
+     },
+     {
+      "turn": 5,
+      "quote": "Well, I gotta be honest, I stopped it. After about ten days.",
+      "verified": true,
+      "score": 1.0
+     }
+    ],
+    "flags": []
+   },
+   {
+    "name": "diphenhydramine",
+    "dose": "25 mg",
+    "frequency": "most nights",
+    "route": "oral",
+    "status": "stopped",
+    "evidence": [
+     {
+      "turn": 13,
+      "quote": "The Benadryl, the 25 milligrams, most nights.",
+      "verified": true,
+      "score": 1.0
+     },
+     {
+      "turn": 28,
+      "quote": "I also want you to stop the Benadryl.",
+      "verified": true,
+      "score": 1.0
+     }
+    ],
+    "flags": []
+   },
+   {
+    "name": "melatonin",
+    "dose": "3 mg",
+    "frequency": "once daily",
+    "route": "oral",
+    "status": "changed",
+    "evidence": [
+     {
+      "turn": 13,
+      "quote": "And melatonin, 5 milligrams.",
+      "verified": true,
+      "score": 1.0
+     },
+     {
+      "turn": 30,
+      "quote": "You can keep melatonin, but drop it to 3 milligrams, an hour before bed.",
+      "verified": true,
+      "score": 1.0
+     }
+    ],
+    "flags": []
+   }
+  ],
+  "allergies": [
+   {
+    "substance": "none reported",
+    "reaction": "none reported",
+    "evidence": [
+     {
+      "turn": 21,
+      "quote": "No, she says I sleep quiet.",
+      "verified": true,
+      "score": 1.0
+     }
+    ]
+   }
+  ],
+  "after_visit_summary": "Today we discussed your ongoing trouble sleeping, which we believe is due to habits like napping, late coffee, and watching TV in bed. You previously tried trazodone but stopped it because it made you feel groggy and dizzy in the morning. You are currently using Benadryl and melatonin, but we recommend stopping Benadryl as it can cause confusion and falls at your age. You may continue melatonin at a lower dose of 3 mg, taken one hour before bed. To improve your sleep, please wake up at 6:30 AM every day, even on weekends. Only go to bed when you feel sleepy, and remove the TV from your bedroom. If you lie awake for more than 20 minutes, get up, sit quietly with a book, and return to bed when drowsy. Limit naps to no more than 20 minutes before 2:00 PM, or skip them entirely. Avoid coffee after noon. Try a morning walk outside to get sunlight. We are referring you to a 6-session CBT for insomnia program, which works better than medication long-term. Please keep a sleep diary for the next two weeks using the form we will send to your portal. Return for follow-up in 6 weeks, or call sooner if you experience confusion or a fall.",
+  "avs_flags": [],
+  "icd10": [
+   {
+    "system": "ICD-10-CM",
+    "code": "G47.09",
+    "description": "Other insomnia",
+    "rank": 1,
+    "rationale": "Chronic insomnia is the primary diagnosis assessed, based on patient-reported sleep difficulties lasting >3 months, sleep questionnaire score of 18 indicating moderate insomnia, and clinician assessment of chronic insomnia perpetuated by maladaptive sleep habits.",
+    "evidence": [
+     {
+      "turn": 11,
+      "quote": "Back to the same. I go to bed around 9:30, lie there an hour, maybe two. Then I wake up about 3 and I'm up for good, most nights.",
+      "verified": true,
+      "score": 1.0
+     },
+     {
+      "turn": 26,
+      "quote": "Your sleep questionnaire score is 18, which is moderate insomnia.",
+      "verified": true,
+      "score": 1.0
+     },
+     {
+      "turn": 28,
+      "quote": "So here's what I think. This is chronic insomnia, and a lot of it comes down to sleep habits that keep it going, the nap, the late coffee, the TV in bed.",
+      "verified": true,
+      "score": 1.0
+     }
+    ],
+    "valid": true,
+    "billable": true,
+    "flags": [],
+    "accepted": null
+   }
+  ],
+  "em": {
+   "system": "CPT",
+   "code": "99213",
+   "description": "Established patient office visit, low-complexity decision making",
+   "rank": 1,
+   "rationale": "Established patient visit with stable chronic insomnia; medical decision making involves low complexity (one stable problem, minimal data reviewed, low risk management with non-pharmacologic interventions and medication adjustments).",
+   "evidence": [],
+   "valid": true,
+   "billable": true,
+   "flags": [],
+   "accepted": null
+  },
+  "procedures": [],
+  "mdm": {
+   "problems": "low",
+   "data": "straightforward",
+   "risk": "moderate",
+   "level": "low",
+   "code": "99213",
+   "reasons": [
+    "problems: one stable chronic illness or two self-limited problems",
+    "risk: prescription drug management"
+   ]
+  },
+  "section_status": {
+   "subjective": "draft",
+   "objective": "draft",
+   "assessment": "draft",
+   "plan": "draft"
+  },
+  "model": "openrouter/nvidia/nemotron-3-super-120b-a12b:free",
+  "created_at": "2026-10-13T05:33:26.147164Z",
+  "signed_by": null,
+  "signed_at": null,
+  "timings": {
+   "phi_masking": 0.048,
+   "llm_note": 22.733,
+   "guards_note": 0.063,
+   "llm_codes": 3.118,
+   "guards_codes": 0.039,
+   "total": 26.0
+  },
+  "usage": {
+   "input_tokens": 4932,
+   "output_tokens": 2787,
+   "calls": 2
+  },
+  "phi": {
+   "NAME": 2,
+   "DOB": 1,
+   "ORG": 1,
+   "EMAIL": 1
+  }
+ },
+ "vault": {
+  "originals": {
+   "[PATIENT]": "Raymond Delacroix",
+   "[DOB]": "April 12th, 1958",
+   "[ORG_1]": "Crescent City Transit",
+   "[NAME_1]": "Bernadette",
+   "[EMAIL_1]": "ray dot delacroix at bayoumail dot com"
+  },
+  "surfaces": {
+   "[PATIENT]": [
+    "Delacroix",
+    "Raymond Delacroix"
+   ],
+   "[DOB]": [
+    "April 12th, 1958"
+   ],
+   "[ORG_1]": [
+    "Crescent City Transit"
+   ],
+   "[NAME_1]": [
+    "Bernadette"
+   ],
+   "[EMAIL_1]": [
+    "ray dot delacroix at bayoumail dot com"
+   ]
+  },
+  "types": {
+   "[PATIENT]": "NAME",
+   "[DOB]": "DOB",
+   "[ORG_1]": "ORG",
+   "[NAME_1]": "NAME",
+   "[EMAIL_1]": "EMAIL"
+  },
+  "counters": {
+   "ORG": 1,
+   "NAME": 1,
+   "EMAIL": 1
+  }
+ },
+ "score": {
+  "case": "mh-05",
+  "specialty": "mental_health",
+  "facts": 26,
+  "found": 24,
+  "found_in_section": 23,
+  "negation_errors": [
+   "f3: No fall with the dizzy episode (absent)",
+   "f13: Denies depressed mood or excessive worry (absent)"
+  ],
+  "trap_errors": [],
+  "missed": [
+   "f3 [subjective] No fall with the dizzy episode",
+   "f13 [subjective] Denies depressed mood or excessive worry"
+  ],
+  "statements": 29,
+  "statements_matching_gold": 26,
+  "unsupported": 0,
+  "partial": 5,
+  "flags": {
+   "partial_support": 5,
+   "negation": 2
+  },
+  "meds": 3,
+  "meds_found": 3,
+  "meds_dose_correct": 3,
+  "icd_primary": "F51.01",
+  "icd_suggested": [
+   "G47.09"
+  ],
+  "icd_top1": false,
+  "icd_top3": false,
+  "icd_top3_lenient": false,
+  "icd_top3_category": false,
+  "icd_gold_recall": 0.0,
+  "icd_invalid": 0,
+  "em_gold": "99214",
+  "em_suggested": "99213",
+  "em_exact": false,
+  "em_within_one": true,
+  "em_rule_estimate": "99213",
+  "procedures_gold": 0,
+  "procedures_found": 0
+ },
+ "egress_residue": {}
+}

@@ -18,7 +18,7 @@ from notewell.phi.detector import Registered, _close, lexicons
 from notewell.phi.masker import Vault
 
 _WORD = re.compile(r"[a-z][a-z'-]+")
-_DIGITS = re.compile(r"\d(?:[\s().,-]{0,3}\d)+")
+_DIGITS = re.compile(r"\d(?:[\s().,/-]{0,3}\d)+")
 
 
 @dataclass
@@ -49,9 +49,9 @@ class EgressGuard:
             digits = re.sub(r"\D", "", value)
             if len(digits) >= 6 and len(digits) >= len(re.sub(r"\s", "", value)) * 0.6:
                 self.digits.append((digits, kind))
-            elif len(value) >= 3 and " " not in value and value.lower() in self._common:
+            elif len(value) >= 3 and all(w in self._common for w in value.lower().split()):
                 if value[:1].isupper():
-                    self.cased.append((value, kind))
+                    self.cased.append((value, kind))  # "Will Hope" the person, not "will hope" the words
             elif len(value) >= 3:
                 self.texts.append((value.lower(), kind))
         for name in [registered.patient_name, *registered.names]:

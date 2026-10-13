@@ -1,0 +1,831 @@
+{
+ "note": {
+  "visit_id": "dm-03",
+  "statements": [
+   {
+    "id": "s1",
+    "section": "subjective",
+    "text": "Eczema flare started about 3 weeks ago after starting new job at warehouse with freezing and dry air.",
+    "evidence": [
+     {
+      "turn": 3,
+      "quote": "My eczema's back, bad. It started flaring about 3 weeks ago, right after I started a new job at Brightline Logistics. The warehouse is freezing and super dry.",
+      "verified": true,
+      "score": 1.0
+     }
+    ],
+    "support": "supported",
+    "flags": [],
+    "origin": "model",
+    "edited": false
+   },
+   {
+    "id": "s2",
+    "section": "subjective",
+    "text": "Rash located in inside both elbows, behind knees, neck, and backs of hands with cracking.",
+    "evidence": [
+     {
+      "turn": 5,
+      "quote": "Inside both elbows, behind my knees, my neck, and the backs of my hands are cracking.",
+      "verified": true,
+      "score": 1.0
+     }
+    ],
+    "support": "supported",
+    "flags": [],
+    "origin": "model",
+    "edited": false
+   },
+   {
+    "id": "s3",
+    "section": "subjective",
+    "text": "Itch severity 8 out of 10, wakes patient at night.",
+    "evidence": [
+     {
+      "turn": 7,
+      "quote": "Like an 8. It wakes me up at night. My girlfriend Jisoo says I'm scratching in my sleep.",
+      "verified": true,
+      "score": 1.0
+     }
+    ],
+    "support": "supported",
+    "flags": [],
+    "origin": "model",
+    "edited": false
+   },
+   {
+    "id": "s4",
+    "section": "subjective",
+    "text": "No oozing or yellow crusting.",
+    "evidence": [
+     {
+      "turn": 8,
+      "quote": "Any oozing, or yellow crusting?",
+      "verified": true,
+      "score": 1.0
+     },
+     {
+      "turn": 9,
+      "quote": "No, nothing like that.",
+      "verified": true,
+      "score": 1.0
+     }
+    ],
+    "support": "supported",
+    "flags": [],
+    "origin": "model",
+    "edited": false
+   },
+   {
+    "id": "s5",
+    "section": "subjective",
+    "text": "No fevers.",
+    "evidence": [
+     {
+      "turn": 10,
+      "quote": "Fevers?",
+      "verified": true,
+      "score": 1.0
+     },
+     {
+      "turn": 11,
+      "quote": "Nope.",
+      "verified": true,
+      "score": 1.0
+     }
+    ],
+    "support": "supported",
+    "flags": [],
+    "origin": "model",
+    "edited": false
+   },
+   {
+    "id": "s6",
+    "section": "subjective",
+    "text": "No new soaps, detergents, or lotions.",
+    "evidence": [
+     {
+      "turn": 12,
+      "quote": "Any new soaps, detergents, or lotions?",
+      "verified": true,
+      "score": 1.0
+     },
+     {
+      "turn": 13,
+      "quote": "No, same stuff as always.",
+      "verified": true,
+      "score": 1.0
+     }
+    ],
+    "support": "supported",
+    "flags": [],
+    "origin": "model",
+    "edited": false
+   },
+   {
+    "id": "s7",
+    "section": "subjective",
+    "text": "Using over-the-counter hydrocortisone 1 percent, not strong enough.",
+    "evidence": [
+     {
+      "turn": 15,
+      "quote": "I ran out of the triamcinolone you gave me last time, so I've been using the drugstore hydrocortisone, the 2.5 percent. Wait, no, it's the 1 percent. The 2.5 needs a prescription, right?",
+      "verified": true,
+      "score": 1.0
+     },
+     {
+      "turn": 16,
+      "quote": "Right, the 1 percent is the over-the-counter one. And it's just not strong enough for this.",
+      "verified": true,
+      "score": 1.0
+     }
+    ],
+    "support": "supported",
+    "flags": [],
+    "origin": "model",
+    "edited": false
+   },
+   {
+    "id": "s8",
+    "section": "subjective",
+    "text": "Taking cetirizine 10 milligrams daily for seasonal allergies.",
+    "evidence": [
+     {
+      "turn": 17,
+      "quote": "Cetirizine, 10 milligrams every day for my seasonal allergies.",
+      "verified": true,
+      "score": 1.0
+     }
+    ],
+    "support": "supported",
+    "flags": [],
+    "origin": "model",
+    "edited": false
+   },
+   {
+    "id": "s9",
+    "section": "subjective",
+    "text": "History of childhood asthma, outgrown, no current breathing trouble or inhaler use.",
+    "evidence": [
+     {
+      "turn": 18,
+      "quote": "And you had asthma as a kid, right? Any breathing trouble now?",
+      "verified": true,
+      "score": 1.0
+     },
+     {
+      "turn": 19,
+      "quote": "No, I outgrew that. I haven't used an inhaler since I was like 12.",
+      "verified": true,
+      "score": 1.0
+     }
+    ],
+    "support": "supported",
+    "flags": [],
+    "origin": "model",
+    "edited": false
+   },
+   {
+    "id": "s10",
+    "section": "subjective",
+    "text": "No drug allergies.",
+    "evidence": [
+     {
+      "turn": 20,
+      "quote": "Still no drug allergies?",
+      "verified": true,
+      "score": 1.0
+     },
+     {
+      "turn": 21,
+      "quote": "None.",
+      "verified": true,
+      "score": 1.0
+     }
+    ],
+    "support": "supported",
+    "flags": [],
+    "origin": "model",
+    "edited": false
+   },
+   {
+    "id": "o1",
+    "section": "objective",
+    "text": "Red, scaly, thickened plaques in both elbow creases, 6 by 4 cm each, with scratch marks.",
+    "evidence": [
+     {
+      "turn": 22,
+      "quote": "In both elbow creases there are red, scaly, thickened plaques, about 6 by 4 centimeters each, with scratch marks.",
+      "verified": true,
+      "score": 1.0
+     }
+    ],
+    "support": "supported",
+    "flags": [],
+    "origin": "model",
+    "edited": false
+   },
+   {
+    "id": "o2",
+    "section": "objective",
+    "text": "Similar plaques behind both knees, slightly smaller.",
+    "evidence": [
+     {
+      "turn": 22,
+      "quote": "Same thing behind both knees, a bit smaller.",
+      "verified": true,
+      "score": 1.0
+     }
+    ],
+    "support": "supported",
+    "flags": [],
+    "origin": "model",
+    "edited": false
+   },
+   {
+    "id": "o3",
+    "section": "objective",
+    "text": "Dry, red skin patch on back of neck.",
+    "evidence": [
+     {
+      "turn": 22,
+      "quote": "There's a patch of dry, red skin on the back of your neck.",
+      "verified": true,
+      "score": 1.0
+     }
+    ],
+    "support": "supported",
+    "flags": [],
+    "origin": "model",
+    "edited": false
+   },
+   {
+    "id": "o4",
+    "section": "objective",
+    "text": "Dry skin with small cracks over knuckles on backs of both hands.",
+    "evidence": [
+     {
+      "turn": 22,
+      "quote": "The backs of both hands are dry with a few small cracks over the knuckles.",
+      "verified": true,
+      "score": 1.0
+     }
+    ],
+    "support": "supported",
+    "flags": [],
+    "origin": "model",
+    "edited": false
+   },
+   {
+    "id": "o5",
+    "section": "objective",
+    "text": "No weeping or honey-colored crusting observed.",
+    "evidence": [
+     {
+      "turn": 22,
+      "quote": "No weeping and no honey-colored crusting, so I don't see signs of infection.",
+      "verified": true,
+      "score": 1.0
+     }
+    ],
+    "support": "supported",
+    "flags": [],
+    "origin": "model",
+    "edited": false
+   },
+   {
+    "id": "o6",
+    "section": "objective",
+    "text": "Face and eyelids clear.",
+    "evidence": [
+     {
+      "turn": 22,
+      "quote": "Your face and eyelids are clear.",
+      "verified": true,
+      "score": 1.0
+     }
+    ],
+    "support": "supported",
+    "flags": [],
+    "origin": "model",
+    "edited": false
+   },
+   {
+    "id": "o7",
+    "section": "objective",
+    "text": "Estimated 10 percent body surface area involved.",
+    "evidence": [
+     {
+      "turn": 22,
+      "quote": "I'd estimate about 10 percent of your body surface.",
+      "verified": true,
+      "score": 1.0
+     },
+     {
+      "turn": 23,
+      "quote": "Yeah, that sounds about right.",
+      "verified": true,
+      "score": 1.0
+     }
+    ],
+    "support": "supported",
+    "flags": [],
+    "origin": "model",
+    "edited": false
+   },
+   {
+    "id": "a1",
+    "section": "assessment",
+    "text": "Flare of atopic dermatitis, likely triggered by cold, dry air at work.",
+    "evidence": [
+     {
+      "turn": 24,
+      "quote": "So this is a flare of your atopic dermatitis, probably set off by the cold, dry air at work.",
+      "verified": true,
+      "score": 1.0
+     }
+    ],
+    "support": "supported",
+    "flags": [],
+    "origin": "model",
+    "edited": false
+   },
+   {
+    "id": "p1",
+    "section": "plan",
+    "text": "Restart triamcinolone 0.1 percent ointment, twice daily to body and hand patches for 2 weeks, then reduce to weekends only on recurrent spots; avoid face and groin.",
+    "evidence": [
+     {
+      "turn": 24,
+      "quote": "I'm restarting triamcinolone 0.1 percent ointment, twice a day to the patches on your body and hands, for 2 weeks. Then cut back to just weekends, Saturday and Sunday, on the spots that like to come back. Don't use it on your face or groin.",
+      "verified": true,
+      "score": 1.0
+     }
+    ],
+    "support": "supported",
+    "flags": [],
+    "origin": "model",
+    "edited": false
+   },
+   {
+    "id": "p2",
+    "section": "plan",
+    "text": "Discontinue over-the-counter hydrocortisone.",
+    "evidence": [
+     {
+      "turn": 26,
+      "quote": "You can stop the hydrocortisone.",
+      "verified": true,
+      "score": 1.0
+     }
+    ],
+    "support": "supported",
+    "flags": [],
+    "origin": "model",
+    "edited": false
+   },
+   {
+    "id": "p3",
+    "section": "plan",
+    "text": "Add hydroxyzine 25 milligrams at bedtime as needed for nighttime itch; may cause drowsiness, avoid driving after use.",
+    "evidence": [
+     {
+      "turn": 26,
+      "quote": "For the itch at night, let's add hydroxyzine 25 milligrams at bedtime as needed. It'll make you drowsy, so don't drive after taking it.",
+      "verified": true,
+      "score": 1.0
+     }
+    ],
+    "support": "supported",
+    "flags": [],
+    "origin": "model",
+    "edited": false
+   },
+   {
+    "id": "p4",
+    "section": "plan",
+    "text": "Continue cetirizine in the morning for seasonal allergies.",
+    "evidence": [
+     {
+      "turn": 26,
+      "quote": "Keep the cetirizine in the morning.",
+      "verified": true,
+      "score": 1.0
+     }
+    ],
+    "support": "supported",
+    "flags": [],
+    "origin": "model",
+    "edited": false
+   },
+   {
+    "id": "p5",
+    "section": "plan",
+    "text": "Moisturize with thick fragrance-free cream or petroleum jelly at least twice daily and after short lukewarm showers.",
+    "evidence": [
+     {
+      "turn": 28,
+      "quote": "Moisturizing is half the battle. A thick, fragrance-free cream or plain petroleum jelly at least twice a day, and right after a short, lukewarm shower.",
+      "verified": true,
+      "score": 1.0
+     }
+    ],
+    "support": "supported",
+    "flags": [],
+    "origin": "model",
+    "edited": false
+   },
+   {
+    "id": "p6",
+    "section": "plan",
+    "text": "Wear cotton-lined gloves at work when possible; clinician can provide note.",
+    "evidence": [
+     {
+      "turn": 28,
+      "quote": "At work, wear cotton-lined gloves when you can. I can write a note for that.",
+      "verified": true,
+      "score": 1.0
+     }
+    ],
+    "support": "supported",
+    "flags": [],
+    "origin": "model",
+    "edited": false
+   },
+   {
+    "id": "p7",
+    "section": "plan",
+    "text": "Consider dupilumab if flare persists despite current plan.",
+    "evidence": [
+     {
+      "turn": 30,
+      "quote": "If it keeps flaring even with all this, there are newer options like dupilumab, an injection, and we can talk about it then.",
+      "verified": true,
+      "score": 1.0
+     }
+    ],
+    "support": "partial",
+    "flags": [
+     {
+      "kind": "partial_support",
+      "severity": "warning",
+      "message": "Quoted turn does not contain most of its terms; check against the transcript.",
+      "acknowledged": false,
+      "detail": {}
+     }
+    ],
+    "origin": "model",
+    "edited": false
+   },
+   {
+    "id": "p8",
+    "section": "plan",
+    "text": "Return precautions: call immediately if oozing, yellow crusting, or fever develops (possible infection).",
+    "evidence": [
+     {
+      "turn": 30,
+      "quote": "And if you see oozing, yellow crusts, or you get a fever, call us right away, that could be an infection.",
+      "verified": true,
+      "score": 1.0
+     }
+    ],
+    "support": "supported",
+    "flags": [],
+    "origin": "model",
+    "edited": false
+   },
+   {
+    "id": "p9",
+    "section": "plan",
+    "text": "Follow-up in 4 weeks on Monday, November 2nd to assess skin.",
+    "evidence": [
+     {
+      "turn": 34,
+      "quote": "Great. Let's see you back in 4 weeks, on Monday, November 2nd, and see how the skin's doing.",
+      "verified": true,
+      "score": 1.0
+     }
+    ],
+    "support": "supported",
+    "flags": [],
+    "origin": "model",
+    "edited": false
+   }
+  ],
+  "medications": [
+   {
+    "name": "triamcinolone",
+    "dose": "0.1 percent",
+    "frequency": "twice daily",
+    "route": "topical",
+    "status": "active",
+    "evidence": [
+     {
+      "turn": 24,
+      "quote": "I'm restarting triamcinolone 0.1 percent ointment, twice a day to the patches on your body and hands, for 2 weeks.",
+      "verified": true,
+      "score": 1.0
+     }
+    ],
+    "flags": [
+     {
+      "kind": "dose_mismatch",
+      "severity": "warning",
+      "message": "The triamcinolone dose was corrected in the conversation (1, 2.5); confirm the final dose.",
+      "acknowledged": false,
+      "detail": {
+       "doses": [
+        "1",
+        "2.5"
+       ],
+       "turn": 15
+      }
+     }
+    ]
+   },
+   {
+    "name": "hydrocortisone",
+    "dose": "1 percent",
+    "frequency": "discontinued",
+    "route": "topical",
+    "status": "stopped",
+    "evidence": [
+     {
+      "turn": 26,
+      "quote": "You can stop the hydrocortisone.",
+      "verified": true,
+      "score": 1.0
+     }
+    ],
+    "flags": [
+     {
+      "kind": "dose_mismatch",
+      "severity": "warning",
+      "message": "The hydrocortisone dose was corrected in the conversation (1, 2.5); confirm the final dose.",
+      "acknowledged": false,
+      "detail": {
+       "doses": [
+        "1",
+        "2.5"
+       ],
+       "turn": 15
+      }
+     }
+    ]
+   },
+   {
+    "name": "hydroxyzine",
+    "dose": "25 milligrams",
+    "frequency": "at bedtime as needed",
+    "route": "oral",
+    "status": "new",
+    "evidence": [
+     {
+      "turn": 26,
+      "quote": "For the itch at night, let's add hydroxyzine 25 milligrams at bedtime as needed.",
+      "verified": true,
+      "score": 1.0
+     }
+    ],
+    "flags": []
+   },
+   {
+    "name": "cetirizine",
+    "dose": "10 milligrams",
+    "frequency": "every day",
+    "route": "oral",
+    "status": "active",
+    "evidence": [
+     {
+      "turn": 17,
+      "quote": "Cetirizine, 10 milligrams every day for my seasonal allergies.",
+      "verified": true,
+      "score": 1.0
+     },
+     {
+      "turn": 26,
+      "quote": "Keep the cetirizine in the morning.",
+      "verified": true,
+      "score": 1.0
+     }
+    ],
+    "flags": []
+   }
+  ],
+  "allergies": [],
+  "after_visit_summary": "You are having a flare of your eczema (atopic dermatitis), likely due to the cold, dry air at your warehouse job. We are restarting a stronger prescription ointment, triamcinolone 0.1 percent, to apply twice daily to the affected areas on your elbows, knees, neck, and hands for two weeks, then only on weekends on spots that tend to return. Do not use it on your face or groin. Stop the over-the-counter hydrocortisone you were using. For nighttime itching that wakes you, take hydroxyzine 25 milligrams at bedtime as needed; it may make you sleepy, so do not drive after taking it. Continue taking your cetirizine 10 milligrams each morning for allergies. Moisturize well with a thick, fragrance-free cream or petroleum jelly at least twice a day and right after lukewarm showers. Wear cotton-lined gloves at work when you can to protect your skin. If you notice oozing, yellow crusts, or develop a fever, call us right away as this could mean infection. We will see you back in 4 weeks on Monday, November 2nd to check your skin.",
+  "avs_flags": [],
+  "icd10": [
+   {
+    "system": "ICD-10-CM",
+    "code": "L20.89",
+    "description": "Other atopic dermatitis",
+    "rank": 1,
+    "rationale": "Primary diagnosis: flare of atopic dermatitis (eczema) affecting elbows, knees, neck, and hands, triggered by cold/dry work environment, with 10% BSA involvement, consistent with other specified atopic dermatitis.",
+    "evidence": [
+     {
+      "turn": 3,
+      "quote": "My eczema's back, bad. It started flaring about 3 weeks ago, right after I started a new job at Brightline Logistics. The warehouse is freezing and super dry.",
+      "verified": true,
+      "score": 1.0
+     },
+     {
+      "turn": 5,
+      "quote": "Inside both elbows, behind my knees, my neck, and the backs of my hands are cracking.",
+      "verified": true,
+      "score": 1.0
+     },
+     {
+      "turn": 22,
+      "quote": "In both elbow creases there are red, scaly, thickened plaques, about 6 by 4 centimeters each, with scratch marks. Same thing behind both knees, a bit smaller. There's a patch of dry, red skin on the back of your neck. The backs of both hands are dry with a few small cracks over the knuckles.",
+      "verified": true,
+      "score": 1.0
+     },
+     {
+      "turn": 24,
+      "quote": "So this is a flare of your atopic dermatitis, probably set off by the cold, dry air at work.",
+      "verified": true,
+      "score": 1.0
+     }
+    ],
+    "valid": true,
+    "billable": true,
+    "flags": [],
+    "accepted": null
+   },
+   {
+    "system": "ICD-10-CM",
+    "code": "Z56.3",
+    "description": "Stressful work schedule",
+    "rank": 2,
+    "rationale": "Stressful work schedule due to new job in freezing, dry warehouse contributing to atopic dermatitis flare; relevant to management and documented as trigger.",
+    "evidence": [
+     {
+      "turn": 3,
+      "quote": "It started flaring about 3 weeks ago, right after I started a new job at Brightline Logistics. The warehouse is freezing and super dry.",
+      "verified": true,
+      "score": 1.0
+     },
+     {
+      "turn": 24,
+      "quote": "So this is a flare of your atopic dermatitis, probably set off by the cold, dry air at work.",
+      "verified": true,
+      "score": 1.0
+     }
+    ],
+    "valid": true,
+    "billable": true,
+    "flags": [],
+    "accepted": null
+   }
+  ],
+  "em": {
+   "system": "CPT",
+   "code": "99214",
+   "description": "Established patient office visit, moderate-complexity decision making",
+   "rank": 1,
+   "rationale": "Established patient with moderate medical decision making: one chronic condition (atopic dermatitis flare) with exacerbation requiring adjustment of two prescription medications (triamcinolone, hydroxyzine), review of systems, and moderate risk due to prescription drug management; data includes limited review but sufficient for level 4 under 2021 guidelines.",
+   "evidence": [],
+   "valid": true,
+   "billable": true,
+   "flags": [],
+   "accepted": null
+  },
+  "procedures": [],
+  "mdm": {
+   "problems": "moderate",
+   "data": "straightforward",
+   "risk": "moderate",
+   "level": "moderate",
+   "code": "99214",
+   "reasons": [
+    "problems: chronic illness not at goal",
+    "risk: prescription drug management"
+   ]
+  },
+  "section_status": {
+   "subjective": "draft",
+   "objective": "draft",
+   "assessment": "draft",
+   "plan": "draft"
+  },
+  "model": "openrouter/nvidia/nemotron-3-super-120b-a12b:free",
+  "created_at": "2026-10-13T05:27:55.302256Z",
+  "signed_by": null,
+  "signed_at": null,
+  "timings": {
+   "phi_masking": 0.018,
+   "llm_note": 20.743,
+   "guards_note": 0.073,
+   "llm_codes": 5.492,
+   "guards_codes": 0.034,
+   "total": 26.36
+  },
+  "usage": {
+   "input_tokens": 4959,
+   "output_tokens": 3252,
+   "calls": 2
+  },
+  "phi": {
+   "NAME": 3,
+   "DOB": 1,
+   "ORG": 1,
+   "PHONE": 1,
+   "DATE": 1
+  }
+ },
+ "vault": {
+  "originals": {
+   "[PATIENT]": "Hyun-woo Park",
+   "[DOB]": "November 3rd, 1996",
+   "[ORG_1]": "Brightline Logistics",
+   "[NAME_1]": "Jisoo",
+   "[PHONE_1]": "555-0177",
+   "[DATE_1]": "Monday, November 2nd",
+   "[NAME_2]": "Haddad"
+  },
+  "surfaces": {
+   "[PATIENT]": [
+    "Hyun-woo",
+    "Hyun-woo Park"
+   ],
+   "[DOB]": [
+    "November 3rd, 1996"
+   ],
+   "[ORG_1]": [
+    "Brightline Logistics"
+   ],
+   "[NAME_1]": [
+    "Jisoo"
+   ],
+   "[PHONE_1]": [
+    "555-0177"
+   ],
+   "[DATE_1]": [
+    "Monday, November 2nd"
+   ],
+   "[NAME_2]": [
+    "Haddad"
+   ]
+  },
+  "types": {
+   "[PATIENT]": "NAME",
+   "[DOB]": "DOB",
+   "[ORG_1]": "ORG",
+   "[NAME_1]": "NAME",
+   "[PHONE_1]": "PHONE",
+   "[DATE_1]": "DATE",
+   "[NAME_2]": "NAME"
+  },
+  "counters": {
+   "ORG": 1,
+   "NAME": 2,
+   "PHONE": 1,
+   "DATE": 1
+  }
+ },
+ "score": {
+  "case": "dm-03",
+  "specialty": "dermatology",
+  "facts": 27,
+  "found": 26,
+  "found_in_section": 26,
+  "negation_errors": [
+   "f16: Face and eyelids clear (absent)"
+  ],
+  "trap_errors": [],
+  "missed": [
+   "f16 [objective] Face and eyelids clear"
+  ],
+  "statements": 27,
+  "statements_matching_gold": 26,
+  "unsupported": 0,
+  "partial": 1,
+  "flags": {
+   "partial_support": 1,
+   "dose_mismatch": 2
+  },
+  "meds": 5,
+  "meds_found": 4,
+  "meds_dose_correct": 4,
+  "icd_primary": "L20.9",
+  "icd_suggested": [
+   "L20.89",
+   "Z56.3"
+  ],
+  "icd_top1": false,
+  "icd_top3": false,
+  "icd_top3_lenient": true,
+  "icd_top3_category": true,
+  "icd_gold_recall": 1.0,
+  "icd_invalid": 0,
+  "em_gold": "99214",
+  "em_suggested": "99214",
+  "em_exact": true,
+  "em_within_one": true,
+  "em_rule_estimate": "99214",
+  "procedures_gold": 0,
+  "procedures_found": 0
+ },
+ "egress_residue": {}
+}

@@ -173,10 +173,23 @@ class Masker:
     def mask_turns(self, turns: Sequence[Turn], registered: Registered, vault: Vault | None = None) -> MaskedTranscript:
         vault = vault or Vault()
         all_spans = self.detector.detect_many([t.text for t in turns], registered)
-        masked: list[Turn] = []
-        for turn, spans in zip(turns, all_spans, strict=True):
-            masked.append(turn.model_copy(update={"text": self._apply(turn.text, spans, registered, vault)}))
+        texts = [self._apply(t.text, spans, registered, vault) for t, spans in zip(turns, all_spans, strict=True)]
+        texts = self._propagate(texts, vault)
+        masked = [turn.model_copy(update={"text": text}) for turn, text in zip(turns, texts, strict=True)]
         return MaskedTranscript(masked, vault, all_spans)
+
+    def _propagate(self, texts: list[str], vault: Vault) -> list[str]:
+        """A value masked once is masked everywhere ("November" at the start of a sentence too). Values that are
+        ordinary words are matched only with the same capitalization ("May" the month, not "may" the verb)."""
+        common = self.detector.english | self.detector.ambiguous
+        values = sorted(((v, p) for p, forms in vault.surfaces.items() for v in forms if len(v.strip()) >= 3), key=lambda x: -len(x[0]))
+        out: list[str] = []
+        for text in texts:
+            for value, placeholder in values:
+                flags = 0 if all(w in common for w in value.lower().split()) else re.IGNORECASE
+                text = re.sub(rf"(?<![\w\[]){re.escape(value)}(?![\w\]])", placeholder, text, flags=flags)
+            out.append(text)
+        return out
 
     def mask_text(self, text: str, registered: Registered, vault: Vault) -> str:
         known = [f for p, forms in vault.surfaces.items() if p.startswith("[NAME") or p == "[PATIENT]" for f in forms]

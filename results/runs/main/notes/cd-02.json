@@ -1,0 +1,1107 @@
+{
+ "note": {
+  "visit_id": "cd-02",
+  "statements": [
+   {
+    "id": "s1",
+    "section": "subjective",
+    "text": "Atrial fibrillation, established patient, 6 month check.",
+    "evidence": [
+     {
+      "turn": 4,
+      "quote": "So this is your 6 month check on the atrial fibrillation.",
+      "verified": true,
+      "score": 1.0
+     }
+    ],
+    "support": "supported",
+    "flags": [],
+    "origin": "model",
+    "edited": false
+   },
+   {
+    "id": "s2",
+    "section": "subjective",
+    "text": "Mostly fine, no heart racing like before.",
+    "evidence": [
+     {
+      "turn": 5,
+      "quote": "Mostly fine. I don't feel the heart racing like before.",
+      "verified": true,
+      "score": 1.0
+     }
+    ],
+    "support": "supported",
+    "flags": [],
+    "origin": "model",
+    "edited": false
+   },
+   {
+    "id": "s3",
+    "section": "subjective",
+    "text": "Sometimes a little tired in the afternoon.",
+    "evidence": [
+     {
+      "turn": 5,
+      "quote": "Sometimes I'm a little tired in the afternoon, but I'm 74, you know.",
+      "verified": true,
+      "score": 1.0
+     }
+    ],
+    "support": "supported",
+    "flags": [],
+    "origin": "model",
+    "edited": false
+   },
+   {
+    "id": "s4",
+    "section": "subjective",
+    "text": "Denies shortness of breath.",
+    "evidence": [
+     {
+      "turn": 6,
+      "quote": "Any shortness of breath, dizziness, or chest pain?",
+      "verified": true,
+      "score": 1.0
+     },
+     {
+      "turn": 7,
+      "quote": "No, none of that.",
+      "verified": true,
+      "score": 1.0
+     }
+    ],
+    "support": "supported",
+    "flags": [],
+    "origin": "model",
+    "edited": false
+   },
+   {
+    "id": "s5",
+    "section": "subjective",
+    "text": "Denies dizziness.",
+    "evidence": [
+     {
+      "turn": 6,
+      "quote": "Any shortness of breath, dizziness, or chest pain?",
+      "verified": true,
+      "score": 1.0
+     },
+     {
+      "turn": 7,
+      "quote": "No, none of that.",
+      "verified": true,
+      "score": 1.0
+     }
+    ],
+    "support": "supported",
+    "flags": [],
+    "origin": "model",
+    "edited": false
+   },
+   {
+    "id": "s6",
+    "section": "subjective",
+    "text": "Denies chest pain.",
+    "evidence": [
+     {
+      "turn": 6,
+      "quote": "Any shortness of breath, dizziness, or chest pain?",
+      "verified": true,
+      "score": 1.0
+     },
+     {
+      "turn": 7,
+      "quote": "No, none of that.",
+      "verified": true,
+      "score": 1.0
+     }
+    ],
+    "support": "supported",
+    "flags": [],
+    "origin": "model",
+    "edited": false
+   },
+   {
+    "id": "s7",
+    "section": "subjective",
+    "text": "Gums bleed a little when brushing.",
+    "evidence": [
+     {
+      "turn": 13,
+      "quote": "My gums bleed a little when I brush.",
+      "verified": true,
+      "score": 1.0
+     }
+    ],
+    "support": "supported",
+    "flags": [],
+    "origin": "model",
+    "edited": false
+   },
+   {
+    "id": "s8",
+    "section": "subjective",
+    "text": "Had one nosebleed in August, stopped on its own after about 10 minutes, has not happened again.",
+    "evidence": [
+     {
+      "turn": 13,
+      "quote": "And I had one nosebleed in August, but it stopped on its own after about 10 minutes and it hasn't happened again.",
+      "verified": true,
+      "score": 1.0
+     }
+    ],
+    "support": "supported",
+    "flags": [],
+    "origin": "model",
+    "edited": false
+   },
+   {
+    "id": "s9",
+    "section": "subjective",
+    "text": "Denies black or tarry stools.",
+    "evidence": [
+     {
+      "turn": 14,
+      "quote": "Any black or tarry stools, or blood in your urine?",
+      "verified": true,
+      "score": 1.0
+     },
+     {
+      "turn": 15,
+      "quote": "No.",
+      "verified": true,
+      "score": 1.0
+     }
+    ],
+    "support": "supported",
+    "flags": [],
+    "origin": "model",
+    "edited": false
+   },
+   {
+    "id": "s10",
+    "section": "subjective",
+    "text": "Denies blood in urine.",
+    "evidence": [
+     {
+      "turn": 14,
+      "quote": "Any black or tarry stools, or blood in your urine?",
+      "verified": true,
+      "score": 1.0
+     },
+     {
+      "turn": 15,
+      "quote": "No.",
+      "verified": true,
+      "score": 1.0
+     }
+    ],
+    "support": "supported",
+    "flags": [],
+    "origin": "model",
+    "edited": false
+   },
+   {
+    "id": "s11",
+    "section": "subjective",
+    "text": "Denies falls since last visit.",
+    "evidence": [
+     {
+      "turn": 16,
+      "quote": "Any falls since I last saw you?",
+      "verified": true,
+      "score": 1.0
+     },
+     {
+      "turn": 17,
+      "quote": "No falls, thank God. I walk with my church group twice a week.",
+      "verified": true,
+      "score": 1.0
+     }
+    ],
+    "support": "supported",
+    "flags": [],
+    "origin": "model",
+    "edited": false
+   },
+   {
+    "id": "s12",
+    "section": "subjective",
+    "text": "Takes apixaban 5 milligrams twice a day.",
+    "evidence": [
+     {
+      "turn": 8,
+      "quote": "You're on apixaban, 5 milligrams twice a day, and metoprolol succinate 25 milligrams?",
+      "verified": true,
+      "score": 1.0
+     },
+     {
+      "turn": 9,
+      "quote": "The apixaban yes, morning and night.",
+      "verified": true,
+      "score": 1.0
+     }
+    ],
+    "support": "supported",
+    "flags": [],
+    "origin": "model",
+    "edited": false
+   },
+   {
+    "id": "s13",
+    "section": "subjective",
+    "text": "Takes metoprolol succinate 50 milligrams once a day.",
+    "evidence": [
+     {
+      "turn": 8,
+      "quote": "You're on apixaban, 5 milligrams twice a day, and metoprolol succinate 25 milligrams?",
+      "verified": true,
+      "score": 1.0
+     },
+     {
+      "turn": 9,
+      "quote": "But the metoprolol is 50 now. You went up to 50 in April, remember?",
+      "verified": true,
+      "score": 1.0
+     },
+     {
+      "turn": 10,
+      "quote": "You're right, I see it here, 50 milligrams once a day.",
+      "verified": true,
+      "score": 1.0
+     }
+    ],
+    "support": "supported",
+    "flags": [],
+    "origin": "model",
+    "edited": false
+   },
+   {
+    "id": "s14",
+    "section": "subjective",
+    "text": "Takes lisinopril 10 milligrams in the morning for blood pressure.",
+    "evidence": [
+     {
+      "turn": 10,
+      "quote": "And the lisinopril, 10 milligrams in the morning for the blood pressure?",
+      "verified": true,
+      "score": 1.0
+     },
+     {
+      "turn": 11,
+      "quote": "Yes.",
+      "verified": true,
+      "score": 1.0
+     }
+    ],
+    "support": "supported",
+    "flags": [],
+    "origin": "model",
+    "edited": false
+   },
+   {
+    "id": "s15",
+    "section": "subjective",
+    "text": "Takes baby aspirin every day, started in the summer.",
+    "evidence": [
+     {
+      "turn": 11,
+      "quote": "And I also take a baby aspirin every day now. My friend Ruth said it's good for the heart, so I started it in the summer.",
+      "verified": true,
+      "score": 1.0
+     }
+    ],
+    "support": "supported",
+    "flags": [],
+    "origin": "model",
+    "edited": false
+   },
+   {
+    "id": "s16",
+    "section": "subjective",
+    "text": "Takes fish oil 1000 milligrams.",
+    "evidence": [
+     {
+      "turn": 11,
+      "quote": "And my fish oil, 1000 milligrams.",
+      "verified": true,
+      "score": 1.0
+     }
+    ],
+    "support": "supported",
+    "flags": [],
+    "origin": "model",
+    "edited": false
+   },
+   {
+    "id": "o1",
+    "section": "objective",
+    "text": "Blood pressure 132 over 78.",
+    "evidence": [
+     {
+      "turn": 18,
+      "quote": "Okay, your blood pressure is 132 over 78, and your pulse is 72 and irregular, which is expected with the atrial fibrillation.",
+      "verified": true,
+      "score": 1.0
+     }
+    ],
+    "support": "supported",
+    "flags": [],
+    "origin": "model",
+    "edited": false
+   },
+   {
+    "id": "o2",
+    "section": "objective",
+    "text": "Pulse 72 and irregular, expected with atrial fibrillation.",
+    "evidence": [
+     {
+      "turn": 18,
+      "quote": "Okay, your blood pressure is 132 over 78, and your pulse is 72 and irregular, which is expected with the atrial fibrillation.",
+      "verified": true,
+      "score": 1.0
+     }
+    ],
+    "support": "supported",
+    "flags": [],
+    "origin": "model",
+    "edited": false
+   },
+   {
+    "id": "o3",
+    "section": "objective",
+    "text": "Weight 148 pounds, same as last time.",
+    "evidence": [
+     {
+      "turn": 18,
+      "quote": "Weight is 148 pounds, same as last time.",
+      "verified": true,
+      "score": 1.0
+     }
+    ],
+    "support": "supported",
+    "flags": [],
+    "origin": "model",
+    "edited": false
+   },
+   {
+    "id": "o4",
+    "section": "objective",
+    "text": "Heart irregularly irregular, no murmur.",
+    "evidence": [
+     {
+      "turn": 18,
+      "quote": "Heart is irregularly irregular, no murmur.",
+      "verified": true,
+      "score": 1.0
+     }
+    ],
+    "support": "supported",
+    "flags": [],
+    "origin": "model",
+    "edited": false
+   },
+   {
+    "id": "o5",
+    "section": "objective",
+    "text": "Lungs clear.",
+    "evidence": [
+     {
+      "turn": 18,
+      "quote": "Lungs are clear, and no swelling in your ankles.",
+      "verified": true,
+      "score": 1.0
+     }
+    ],
+    "support": "supported",
+    "flags": [],
+    "origin": "model",
+    "edited": false
+   },
+   {
+    "id": "o6",
+    "section": "objective",
+    "text": "No swelling in ankles.",
+    "evidence": [
+     {
+      "turn": 18,
+      "quote": "Lungs are clear, and no swelling in your ankles.",
+      "verified": true,
+      "score": 1.0
+     }
+    ],
+    "support": "supported",
+    "flags": [],
+    "origin": "model",
+    "edited": false
+   },
+   {
+    "id": "o7",
+    "section": "objective",
+    "text": "ECG shows atrial fibrillation with rate of 74, rate well controlled on metoprolol.",
+    "evidence": [
+     {
+      "turn": 20,
+      "quote": "We did an ECG today. It shows atrial fibrillation with a rate of 74, so your rate is well controlled on the metoprolol.",
+      "verified": true,
+      "score": 1.0
+     }
+    ],
+    "support": "supported",
+    "flags": [],
+    "origin": "model",
+    "edited": false
+   },
+   {
+    "id": "o8",
+    "section": "objective",
+    "text": "Labs from last month: hemoglobin 12.9.",
+    "evidence": [
+     {
+      "turn": 20,
+      "quote": "Your labs from last month look good too. Hemoglobin was 12.9, and kidney function was normal, creatinine 0.9.",
+      "verified": true,
+      "score": 1.0
+     }
+    ],
+    "support": "supported",
+    "flags": [],
+    "origin": "model",
+    "edited": false
+   },
+   {
+    "id": "o9",
+    "section": "objective",
+    "text": "Labs from last month: creatinine 0.9, kidney function normal.",
+    "evidence": [
+     {
+      "turn": 20,
+      "quote": "Your labs from last month look good too. Hemoglobin was 12.9, and kidney function was normal, creatinine 0.9.",
+      "verified": true,
+      "score": 1.0
+     }
+    ],
+    "support": "supported",
+    "flags": [],
+    "origin": "model",
+    "edited": false
+   },
+   {
+    "id": "a1",
+    "section": "assessment",
+    "text": "Permanent atrial fibrillation, rate controlled.",
+    "evidence": [
+     {
+      "turn": 28,
+      "quote": "So to sum up. This is permanent atrial fibrillation, rate controlled, on long term anticoagulation, and your blood pressure is at goal.",
+      "verified": true,
+      "score": 1.0
+     }
+    ],
+    "support": "supported",
+    "flags": [],
+    "origin": "model",
+    "edited": false
+   },
+   {
+    "id": "a2",
+    "section": "assessment",
+    "text": "On long term anticoagulation.",
+    "evidence": [
+     {
+      "turn": 28,
+      "quote": "So to sum up. This is permanent atrial fibrillation, rate controlled, on long term anticoagulation, and your blood pressure is at goal.",
+      "verified": true,
+      "score": 1.0
+     }
+    ],
+    "support": "supported",
+    "flags": [],
+    "origin": "model",
+    "edited": false
+   },
+   {
+    "id": "a3",
+    "section": "assessment",
+    "text": "Blood pressure at goal.",
+    "evidence": [
+     {
+      "turn": 28,
+      "quote": "So to sum up. This is permanent atrial fibrillation, rate controlled, on long term anticoagulation, and your blood pressure is at goal.",
+      "verified": true,
+      "score": 1.0
+     }
+    ],
+    "support": "supported",
+    "flags": [],
+    "origin": "model",
+    "edited": false
+   },
+   {
+    "id": "p1",
+    "section": "plan",
+    "text": "Continue apixaban 5 milligrams twice a day.",
+    "evidence": [
+     {
+      "turn": 28,
+      "quote": "Keep the apixaban 5 milligrams twice a day, metoprolol succinate 50 milligrams once a day, and lisinopril 10 milligrams. Stop the aspirin.",
+      "verified": true,
+      "score": 1.0
+     }
+    ],
+    "support": "supported",
+    "flags": [],
+    "origin": "model",
+    "edited": false
+   },
+   {
+    "id": "p2",
+    "section": "plan",
+    "text": "Continue metoprolol succinate 50 milligrams once a day.",
+    "evidence": [
+     {
+      "turn": 28,
+      "quote": "Keep the apixaban 5 milligrams twice a day, metoprolol succinate 50 milligrams once a day, and lisinopril 10 milligrams. Stop the aspirin.",
+      "verified": true,
+      "score": 1.0
+     }
+    ],
+    "support": "supported",
+    "flags": [],
+    "origin": "model",
+    "edited": false
+   },
+   {
+    "id": "p3",
+    "section": "plan",
+    "text": "Continue lisinopril 10 milligrams.",
+    "evidence": [
+     {
+      "turn": 28,
+      "quote": "Keep the apixaban 5 milligrams twice a day, metoprolol succinate 50 milligrams once a day, and lisinopril 10 milligrams. Stop the aspirin.",
+      "verified": true,
+      "score": 1.0
+     }
+    ],
+    "support": "supported",
+    "flags": [],
+    "origin": "model",
+    "edited": false
+   },
+   {
+    "id": "p4",
+    "section": "plan",
+    "text": "Stop aspirin.",
+    "evidence": [
+     {
+      "turn": 28,
+      "quote": "Keep the apixaban 5 milligrams twice a day, metoprolol succinate 50 milligrams once a day, and lisinopril 10 milligrams. Stop the aspirin.",
+      "verified": true,
+      "score": 1.0
+     }
+    ],
+    "support": "supported",
+    "flags": [],
+    "origin": "model",
+    "edited": false
+   },
+   {
+    "id": "p5",
+    "section": "plan",
+    "text": "Continue fish oil 1000 milligrams.",
+    "evidence": [
+     {
+      "turn": 26,
+      "quote": "The fish oil at that dose is fine to keep.",
+      "verified": true,
+      "score": 1.0
+     }
+    ],
+    "support": "supported",
+    "flags": [],
+    "origin": "model",
+    "edited": false
+   },
+   {
+    "id": "p6",
+    "section": "plan",
+    "text": "Use a soft toothbrush.",
+    "evidence": [
+     {
+      "turn": 26,
+      "quote": "Use a soft toothbrush, and mention the gums to your dentist at your next cleaning.",
+      "verified": true,
+      "score": 1.0
+     }
+    ],
+    "support": "supported",
+    "flags": [],
+    "origin": "model",
+    "edited": false
+   },
+   {
+    "id": "p7",
+    "section": "plan",
+    "text": "Mention gum bleeding to dentist at next cleaning.",
+    "evidence": [
+     {
+      "turn": 26,
+      "quote": "Use a soft toothbrush, and mention the gums to your dentist at your next cleaning.",
+      "verified": true,
+      "score": 1.0
+     }
+    ],
+    "support": "supported",
+    "flags": [],
+    "origin": "model",
+    "edited": false
+   },
+   {
+    "id": "p8",
+    "section": "plan",
+    "text": "Check blood count again in 3 months at lab on 2210 Wexford Avenue.",
+    "evidence": [
+     {
+      "turn": 28,
+      "quote": "We'll check a blood count again in 3 months, you can do that at the lab on 2210 Wexford Avenue.",
+      "verified": true,
+      "score": 1.0
+     }
+    ],
+    "support": "supported",
+    "flags": [],
+    "origin": "model",
+    "edited": false
+   },
+   {
+    "id": "p9",
+    "section": "plan",
+    "text": "Call if black stools, blood in urine, or nosebleed that won't stop after 20 minutes.",
+    "evidence": [
+     {
+      "turn": 30,
+      "quote": "Call us if you see black stools, blood in the urine, or a nosebleed that won't stop after 20 minutes.",
+      "verified": true,
+      "score": 1.0
+     }
+    ],
+    "support": "supported",
+    "flags": [],
+    "origin": "model",
+    "edited": false
+   },
+   {
+    "id": "p10",
+    "section": "plan",
+    "text": "If fall and hit head, go to emergency room even if feel fine, due to blood thinner.",
+    "evidence": [
+     {
+      "turn": 30,
+      "quote": "And if you ever fall and hit your head, go to the emergency room, even if you feel fine, because of the blood thinner.",
+      "verified": true,
+      "score": 1.0
+     }
+    ],
+    "support": "supported",
+    "flags": [],
+    "origin": "model",
+    "edited": false
+   },
+   {
+    "id": "p11",
+    "section": "plan",
+    "text": "Follow up in 6 months.",
+    "evidence": [
+     {
+      "turn": 32,
+      "quote": "I'll see you back in 6 months. Say hi to Efua for me.",
+      "verified": true,
+      "score": 1.0
+     }
+    ],
+    "support": "partial",
+    "flags": [
+     {
+      "kind": "partial_support",
+      "severity": "warning",
+      "message": "Quoted turn does not contain most of its terms; check against the transcript.",
+      "acknowledged": false,
+      "detail": {}
+     }
+    ],
+    "origin": "model",
+    "edited": false
+   }
+  ],
+  "medications": [
+   {
+    "name": "apixaban",
+    "dose": "5 mg",
+    "frequency": "twice daily",
+    "route": "oral",
+    "status": "active",
+    "evidence": [
+     {
+      "turn": 8,
+      "quote": "You're on apixaban, 5 milligrams twice a day, and metoprolol succinate 25 milligrams?",
+      "verified": true,
+      "score": 1.0
+     },
+     {
+      "turn": 9,
+      "quote": "The apixaban yes, morning and night.",
+      "verified": true,
+      "score": 1.0
+     }
+    ],
+    "flags": []
+   },
+   {
+    "name": "metoprolol succinate",
+    "dose": "50 mg",
+    "frequency": "once daily",
+    "route": "oral",
+    "status": "active",
+    "evidence": [
+     {
+      "turn": 8,
+      "quote": "You're on apixaban, 5 milligrams twice a day, and metoprolol succinate 25 milligrams?",
+      "verified": true,
+      "score": 1.0
+     },
+     {
+      "turn": 9,
+      "quote": "But the metoprolol is 50 now. You went up to 50 in April, remember?",
+      "verified": true,
+      "score": 1.0
+     },
+     {
+      "turn": 10,
+      "quote": "You're right, I see it here, 50 milligrams once a day.",
+      "verified": true,
+      "score": 1.0
+     }
+    ],
+    "flags": []
+   },
+   {
+    "name": "lisinopril",
+    "dose": "10 mg",
+    "frequency": "once daily",
+    "route": "oral",
+    "status": "active",
+    "evidence": [
+     {
+      "turn": 10,
+      "quote": "And the lisinopril, 10 milligrams in the morning for the blood pressure?",
+      "verified": true,
+      "score": 1.0
+     },
+     {
+      "turn": 11,
+      "quote": "Yes.",
+      "verified": true,
+      "score": 1.0
+     }
+    ],
+    "flags": []
+   },
+   {
+    "name": "aspirin",
+    "dose": "baby aspirin",
+    "frequency": "daily",
+    "route": "oral",
+    "status": "stopped",
+    "evidence": [
+     {
+      "turn": 11,
+      "quote": "And I also take a baby aspirin every day now. My friend Ruth said it's good for the heart, so I started it in the summer.",
+      "verified": true,
+      "score": 1.0
+     },
+     {
+      "turn": 25,
+      "quote": "Oh. Ruth will be surprised. Okay, I'll stop it.",
+      "verified": true,
+      "score": 1.0
+     },
+     {
+      "turn": 28,
+      "quote": "Keep the apixaban 5 milligrams twice a day, metoprolol succinate 50 milligrams once a day, and lisinopril 10 milligrams. Stop the aspirin.",
+      "verified": true,
+      "score": 1.0
+     }
+    ],
+    "flags": []
+   },
+   {
+    "name": "fish oil",
+    "dose": "1000 mg",
+    "frequency": "daily",
+    "route": "oral",
+    "status": "active",
+    "evidence": [
+     {
+      "turn": 11,
+      "quote": "And my fish oil, 1000 milligrams.",
+      "verified": true,
+      "score": 1.0
+     },
+     {
+      "turn": 26,
+      "quote": "The fish oil at that dose is fine to keep.",
+      "verified": true,
+      "score": 1.0
+     }
+    ],
+    "flags": []
+   }
+  ],
+  "allergies": [
+   {
+    "substance": "none reported",
+    "reaction": "none",
+    "evidence": [
+     {
+      "turn": 14,
+      "quote": "Any black or tarry stools, or blood in your urine?",
+      "verified": true,
+      "score": 1.0
+     },
+     {
+      "turn": 15,
+      "quote": "No.",
+      "verified": true,
+      "score": 1.0
+     }
+    ]
+   }
+  ],
+  "after_visit_summary": "You have atrial fibrillation, which is under control. Your blood pressure is at goal. You are taking apixaban to prevent stroke, metoprolol to control your heart rate, and lisinopril for blood pressure. Stop taking aspirin because it increases your risk of bleeding while on apixaban and does not help your heart. Continue taking fish oil. Use a soft toothbrush and tell your dentist about your gum bleeding. Get a blood count check in 3 months at the lab on 2210 Wexford Avenue. Call if you have black stools, blood in urine, or a nosebleed that does not stop after 20 minutes. If you fall and hit your head, go to the emergency room right away, even if you feel fine. Return in 6 months for follow-up.",
+  "avs_flags": [],
+  "icd10": [
+   {
+    "system": "ICD-10-CM",
+    "code": "I48.21",
+    "description": "Permanent atrial fibrillation",
+    "rank": 1,
+    "rationale": "Permanent atrial fibrillation is the primary condition assessed and documented in the visit.",
+    "evidence": [
+     {
+      "turn": 28,
+      "quote": "So to sum up. This is permanent atrial fibrillation, rate controlled, on long term anticoagulation, and your blood pressure is at goal.",
+      "verified": true,
+      "score": 1.0
+     }
+    ],
+    "valid": true,
+    "billable": true,
+    "flags": [],
+    "accepted": null
+   },
+   {
+    "system": "ICD-10-CM",
+    "code": "Z79.01",
+    "description": "Long term (current) use of anticoagulants",
+    "rank": 2,
+    "rationale": "Long term (current) use of anticoagulants is documented as the patient is on apixaban for atrial fibrillation stroke prevention.",
+    "evidence": [
+     {
+      "turn": 28,
+      "quote": "This is permanent atrial fibrillation, rate controlled, on long term anticoagulation...",
+      "verified": true,
+      "score": 1.0
+     }
+    ],
+    "valid": true,
+    "billable": true,
+    "flags": [],
+    "accepted": null
+   }
+  ],
+  "em": {
+   "system": "CPT",
+   "code": "99213",
+   "description": "Established patient office visit, low-complexity decision making",
+   "rank": 1,
+   "rationale": "Established patient with stable chronic conditions (atrial fibrillation, hypertension) managed with medication review and low complexity decision making (stop aspirin, continue current meds), meeting criteria for moderate complexity problems and low data review.",
+   "evidence": [],
+   "valid": true,
+   "billable": true,
+   "flags": [
+    {
+     "kind": "em_mismatch",
+     "severity": "warning",
+     "message": "The rule-based MDM estimate is moderate (99214): problems: one stable chronic illness or two self-limited problems; data: tests ordered or reviewed plus an independent interpretation; risk: prescription drug management",
+     "acknowledged": false,
+     "detail": {
+      "estimate": "99214"
+     }
+    }
+   ],
+   "accepted": null
+  },
+  "procedures": [
+   {
+    "system": "CPT",
+    "code": "93000",
+    "description": "Electrocardiogram with interpretation and report",
+    "rank": 1,
+    "rationale": "Electrocardiogram with interpretation and report was performed today in clinic to assess atrial fibrillation control.",
+    "evidence": [
+     {
+      "turn": 20,
+      "quote": "We did an ECG today. It shows atrial fibrillation with a rate of 74, so your rate is well controlled on the metoprolol.",
+      "verified": true,
+      "score": 1.0
+     }
+    ],
+    "valid": true,
+    "billable": true,
+    "flags": [],
+    "accepted": null
+   }
+  ],
+  "mdm": {
+   "problems": "low",
+   "data": "moderate",
+   "risk": "moderate",
+   "level": "moderate",
+   "code": "99214",
+   "reasons": [
+    "problems: one stable chronic illness or two self-limited problems",
+    "data: tests ordered or reviewed plus an independent interpretation",
+    "risk: prescription drug management"
+   ]
+  },
+  "section_status": {
+   "subjective": "draft",
+   "objective": "draft",
+   "assessment": "draft",
+   "plan": "draft"
+  },
+  "model": "openrouter/nvidia/nemotron-3-super-120b-a12b:free",
+  "created_at": "2026-10-13T05:25:07.577665Z",
+  "signed_by": null,
+  "signed_at": null,
+  "timings": {
+   "phi_masking": 0.028,
+   "llm_note": 24.674,
+   "guards_note": 0.062,
+   "llm_codes": 4.834,
+   "guards_codes": 0.05,
+   "total": 29.648
+  },
+  "usage": {
+   "input_tokens": 5210,
+   "output_tokens": 3738,
+   "calls": 2
+  },
+  "phi": {
+   "NAME": 3,
+   "DOB": 1,
+   "PHONE": 1,
+   "DATE": 2,
+   "ADDRESS": 1
+  }
+ },
+ "vault": {
+  "originals": {
+   "[PATIENT]": "Abena Owusu",
+   "[DOB]": "November 19th, 1951",
+   "[NAME_1]": "Efua",
+   "[PHONE_1]": "555-0148",
+   "[DATE_1]": "April",
+   "[NAME_2]": "Ruth",
+   "[DATE_2]": "August",
+   "[ADDRESS_1]": "2210 Wexford Avenue"
+  },
+  "surfaces": {
+   "[PATIENT]": [
+    "Abena Owusu",
+    "Owusu"
+   ],
+   "[DOB]": [
+    "November 19th, 1951"
+   ],
+   "[NAME_1]": [
+    "Efua"
+   ],
+   "[PHONE_1]": [
+    "555-0148"
+   ],
+   "[DATE_1]": [
+    "April"
+   ],
+   "[NAME_2]": [
+    "Ruth"
+   ],
+   "[DATE_2]": [
+    "August"
+   ],
+   "[ADDRESS_1]": [
+    "2210 Wexford Avenue"
+   ]
+  },
+  "types": {
+   "[PATIENT]": "NAME",
+   "[DOB]": "DOB",
+   "[NAME_1]": "NAME",
+   "[PHONE_1]": "PHONE",
+   "[DATE_1]": "DATE",
+   "[NAME_2]": "NAME",
+   "[DATE_2]": "DATE",
+   "[ADDRESS_1]": "ADDRESS"
+  },
+  "counters": {
+   "NAME": 2,
+   "PHONE": 1,
+   "DATE": 2,
+   "ADDRESS": 1
+  }
+ },
+ "score": {
+  "case": "cd-02",
+  "specialty": "cardiology",
+  "facts": 28,
+  "found": 25,
+  "found_in_section": 25,
+  "negation_errors": [],
+  "trap_errors": [],
+  "missed": [
+   "f12 [subjective] Walks twice weekly with church group",
+   "f20 [assessment] CHA2DS2-VASc score 3 (age, female sex, hypertension); anticoagulation indicated, apixaban dose appropriate",
+   "f21 [assessment] HAS-BLED score 2, including concurrent aspirin use"
+  ],
+  "statements": 39,
+  "statements_matching_gold": 31,
+  "unsupported": 0,
+  "partial": 1,
+  "flags": {
+   "partial_support": 1
+  },
+  "meds": 5,
+  "meds_found": 5,
+  "meds_dose_correct": 4,
+  "icd_primary": "I48.21",
+  "icd_suggested": [
+   "I48.21",
+   "Z79.01"
+  ],
+  "icd_top1": true,
+  "icd_top3": true,
+  "icd_top3_lenient": true,
+  "icd_top3_category": true,
+  "icd_gold_recall": 0.6666666666666666,
+  "icd_invalid": 0,
+  "em_gold": "99214",
+  "em_suggested": "99213",
+  "em_exact": false,
+  "em_within_one": true,
+  "em_rule_estimate": "99214",
+  "procedures_gold": 1,
+  "procedures_found": 1
+ },
+ "egress_residue": {}
+}

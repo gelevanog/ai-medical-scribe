@@ -1,0 +1,692 @@
+{
+ "note": {
+  "visit_id": "cd-04",
+  "statements": [
+   {
+    "id": "s1",
+    "section": "subjective",
+    "text": "Palpitations described as fluttering or skipped beats with a big thump for 3 weeks",
+    "evidence": [
+     {
+      "turn": 5,
+      "quote": "For about 3 weeks I've been feeling this, like, fluttering in my chest. Or like my heart skips and then does a big thump.",
+      "verified": true,
+      "score": 1.0
+     }
+    ],
+    "support": "supported",
+    "flags": [],
+    "origin": "model",
+    "edited": false
+   },
+   {
+    "id": "s2",
+    "section": "subjective",
+    "text": "Episodes last a few seconds and occur multiple times per day, mostly at night while lying in bed",
+    "evidence": [
+     {
+      "turn": 7,
+      "quote": "Just a few seconds. It happens a bunch of times a day, mostly at night when I'm lying in bed.",
+      "verified": true,
+      "score": 1.0
+     }
+    ],
+    "support": "supported",
+    "flags": [],
+    "origin": "model",
+    "edited": false
+   },
+   {
+    "id": "s3",
+    "section": "subjective",
+    "text": "Denies chest pain, shortness of breath, syncope, or presyncope with palpitations",
+    "evidence": [
+     {
+      "turn": 12,
+      "quote": "Any chest pain or shortness of breath when it happens?",
+      "verified": true,
+      "score": 1.0
+     },
+     {
+      "turn": 13,
+      "quote": "Nope. It's just weird and it makes me anxious.",
+      "verified": true,
+      "score": 1.0
+     },
+     {
+      "turn": 10,
+      "quote": "Have you fainted or felt like you were going to faint?",
+      "verified": true,
+      "score": 1.0
+     },
+     {
+      "turn": 11,
+      "quote": "No, never.",
+      "verified": true,
+      "score": 1.0
+     }
+    ],
+    "support": "supported",
+    "flags": [
+     {
+      "kind": "negation",
+      "severity": "error",
+      "message": "The transcript says the opposite: 'palpitations' (turns 4, 5, 32, 36).",
+      "acknowledged": false,
+      "detail": {
+       "concept": "palpitations",
+       "turns": [
+        4,
+        5,
+        32,
+        36
+       ]
+      }
+     }
+    ],
+    "origin": "model",
+    "edited": false
+   },
+   {
+    "id": "s4",
+    "section": "subjective",
+    "text": "Reports caffeine intake of approximately 4 big cold brews and 2 energy drinks daily",
+    "evidence": [
+     {
+      "turn": 15,
+      "quote": "Probably 4 big cold brews a day, and then 2 energy drinks at night to keep studying.",
+      "verified": true,
+      "score": 1.0
+     }
+    ],
+    "support": "supported",
+    "flags": [],
+    "origin": "model",
+    "edited": false
+   },
+   {
+    "id": "s5",
+    "section": "subjective",
+    "text": "Reports average sleep of about 5 hours per night, sometimes less",
+    "evidence": [
+     {
+      "turn": 17,
+      "quote": "Maybe 5 hours. Sometimes less.",
+      "verified": true,
+      "score": 1.0
+     }
+    ],
+    "support": "supported",
+    "flags": [],
+    "origin": "model",
+    "edited": false
+   },
+   {
+    "id": "s6",
+    "section": "subjective",
+    "text": "Reports occasional alcohol use (glass of wine on weekends), denies smoking or vaping",
+    "evidence": [
+     {
+      "turn": 19,
+      "quote": "A glass of wine on weekends sometimes. I don't smoke or vape.",
+      "verified": true,
+      "score": 1.0
+     }
+    ],
+    "support": "supported",
+    "flags": [],
+    "origin": "model",
+    "edited": false
+   },
+   {
+    "id": "s7",
+    "section": "subjective",
+    "text": "Current medications: birth control pill once daily and melatonin 3 mg at night as needed for sleep",
+    "evidence": [
+     {
+      "turn": 21,
+      "quote": "Just my birth control pill once a day, and I take melatonin, 3 milligrams, on nights I can't fall asleep.",
+      "verified": true,
+      "score": 1.0
+     }
+    ],
+    "support": "supported",
+    "flags": [],
+    "origin": "model",
+    "edited": false
+   },
+   {
+    "id": "s8",
+    "section": "subjective",
+    "text": "Denies allergies",
+    "evidence": [
+     {
+      "turn": 21,
+      "quote": "No allergies.",
+      "verified": true,
+      "score": 1.0
+     }
+    ],
+    "support": "supported",
+    "flags": [],
+    "origin": "model",
+    "edited": false
+   },
+   {
+    "id": "s9",
+    "section": "subjective",
+    "text": "Family history: mother has Hashimoto's thyroiditis and takes medication for it; no known heart problems or sudden cardiac death in family",
+    "evidence": [
+     {
+      "turn": 23,
+      "quote": "No heart stuff that I know of. My mom has a thyroid problem, Hashimoto's, she takes a pill for it.",
+      "verified": true,
+      "score": 1.0
+     }
+    ],
+    "support": "supported",
+    "flags": [],
+    "origin": "model",
+    "edited": false
+   },
+   {
+    "id": "o1",
+    "section": "objective",
+    "text": "Blood pressure 118/74 mmHg",
+    "evidence": [
+     {
+      "turn": 24,
+      "quote": "Blood pressure is 118 over 74, pulse 88, oxygen 99 percent.",
+      "verified": true,
+      "score": 1.0
+     }
+    ],
+    "support": "supported",
+    "flags": [],
+    "origin": "model",
+    "edited": false
+   },
+   {
+    "id": "o2",
+    "section": "objective",
+    "text": "Pulse 88 beats per minute",
+    "evidence": [
+     {
+      "turn": 24,
+      "quote": "Blood pressure is 118 over 74, pulse 88, oxygen 99 percent.",
+      "verified": true,
+      "score": 1.0
+     }
+    ],
+    "support": "supported",
+    "flags": [],
+    "origin": "model",
+    "edited": false
+   },
+   {
+    "id": "o3",
+    "section": "objective",
+    "text": "Oxygen saturation 99%",
+    "evidence": [
+     {
+      "turn": 24,
+      "quote": "Blood pressure is 118 over 74, pulse 88, oxygen 99 percent.",
+      "verified": true,
+      "score": 1.0
+     }
+    ],
+    "support": "supported",
+    "flags": [],
+    "origin": "model",
+    "edited": false
+   },
+   {
+    "id": "o4",
+    "section": "objective",
+    "text": "Thyroid not enlarged, no hand tremors",
+    "evidence": [
+     {
+      "turn": 24,
+      "quote": "Your thyroid doesn't feel enlarged, no tremor in your hands.",
+      "verified": true,
+      "score": 1.0
+     }
+    ],
+    "support": "supported",
+    "flags": [],
+    "origin": "model",
+    "edited": false
+   },
+   {
+    "id": "o5",
+    "section": "objective",
+    "text": "Heart rhythm regular, no murmurs or clicks",
+    "evidence": [
+     {
+      "turn": 24,
+      "quote": "Heart has a regular rhythm, no murmurs or clicks. Lungs are clear.",
+      "verified": true,
+      "score": 1.0
+     }
+    ],
+    "support": "supported",
+    "flags": [],
+    "origin": "model",
+    "edited": false
+   },
+   {
+    "id": "o6",
+    "section": "objective",
+    "text": "Lungs clear",
+    "evidence": [
+     {
+      "turn": 24,
+      "quote": "Heart has a regular rhythm, no murmurs or clicks. Lungs are clear.",
+      "verified": true,
+      "score": 1.0
+     }
+    ],
+    "support": "supported",
+    "flags": [],
+    "origin": "model",
+    "edited": false
+   },
+   {
+    "id": "o7",
+    "section": "objective",
+    "text": "ECG shows normal sinus rhythm at 84 bpm with normal intervals and no evidence of accessory pathway",
+    "evidence": [
+     {
+      "turn": 26,
+      "quote": "We also did an ECG at check-in. It's a normal ECG, sinus rhythm at 84, with normal intervals and no signs of an extra electrical pathway.",
+      "verified": true,
+      "score": 1.0
+     }
+    ],
+    "support": "supported",
+    "flags": [],
+    "origin": "model",
+    "edited": false
+   },
+   {
+    "id": "a1",
+    "section": "assessment",
+    "text": "Palpitations, likely premature atrial or ventricular contractions, benign in context",
+    "evidence": [
+     {
+      "turn": 28,
+      "quote": "What you're describing sounds like extra beats, early beats from the top or bottom chambers, which are very common and usually harmless.",
+      "verified": true,
+      "score": 1.0
+     }
+    ],
+    "support": "partial",
+    "flags": [
+     {
+      "kind": "partial_support",
+      "severity": "warning",
+      "message": "Quoted turn does not contain most of its terms; check against the transcript.",
+      "acknowledged": false,
+      "detail": {}
+     }
+    ],
+    "origin": "model",
+    "edited": false
+   },
+   {
+    "id": "p1",
+    "section": "plan",
+    "text": "Gradually reduce caffeine over 2 weeks to avoid withdrawal headaches; limit to no more than 1 regular coffee per day and eliminate energy drinks",
+    "evidence": [
+     {
+      "turn": 30,
+      "quote": "I'd like you to cut back the caffeine gradually over the next 2 weeks, so you don't get withdrawal headaches. Aim for no more than 1 regular coffee a day, and no energy drinks at all.",
+      "verified": true,
+      "score": 1.0
+     }
+    ],
+    "support": "supported",
+    "flags": [],
+    "origin": "model",
+    "edited": false
+   },
+   {
+    "id": "p2",
+    "section": "plan",
+    "text": "Aim for at least 7 hours of sleep per night",
+    "evidence": [
+     {
+      "turn": 30,
+      "quote": "And try to get at least 7 hours of sleep.",
+      "verified": true,
+      "score": 1.0
+     }
+    ],
+    "support": "supported",
+    "flags": [],
+    "origin": "model",
+    "edited": false
+   },
+   {
+    "id": "p3",
+    "section": "plan",
+    "text": "Order TSH, CBC, and basic metabolic panel to rule out contributing factors",
+    "evidence": [
+     {
+      "turn": 32,
+      "quote": "I'm also ordering a thyroid test, a TSH, plus a blood count and electrolytes, just to rule out anything simple.",
+      "verified": true,
+      "score": 1.0
+     }
+    ],
+    "support": "supported",
+    "flags": [],
+    "origin": "model",
+    "edited": false
+   },
+   {
+    "id": "p4",
+    "section": "plan",
+    "text": "If palpitations persist after 6 weeks of lifestyle changes, apply 2-week patch monitor for rhythm recording",
+    "evidence": [
+     {
+      "turn": 32,
+      "quote": "If the palpitations are still happening in 6 weeks after you've cut back, we'll put a 2 week patch monitor on you to record your rhythm.",
+      "verified": true,
+      "score": 1.0
+     }
+    ],
+    "support": "supported",
+    "flags": [],
+    "origin": "model",
+    "edited": false
+   },
+   {
+    "id": "p5",
+    "section": "plan",
+    "text": "Return to emergency room if syncope, chest pain with palpitations, or sustained racing heartbeat occurs",
+    "evidence": [
+     {
+      "turn": 36,
+      "quote": "If you ever faint, or have chest pain with the fluttering, or a racing heartbeat that won't stop, go to the emergency room.",
+      "verified": true,
+      "score": 1.0
+     }
+    ],
+    "support": "supported",
+    "flags": [],
+    "origin": "model",
+    "edited": false
+   },
+   {
+    "id": "p6",
+    "section": "plan",
+    "text": "Follow-up in 6 weeks",
+    "evidence": [
+     {
+      "turn": 36,
+      "quote": "Otherwise I'll see you back in 6 weeks.",
+      "verified": true,
+      "score": 1.0
+     }
+    ],
+    "support": "partial",
+    "flags": [
+     {
+      "kind": "partial_support",
+      "severity": "warning",
+      "message": "Quoted turn does not contain most of its terms; check against the transcript.",
+      "acknowledged": false,
+      "detail": {}
+     }
+    ],
+    "origin": "model",
+    "edited": false
+   }
+  ],
+  "medications": [
+   {
+    "name": "birth control pill",
+    "dose": "once daily",
+    "frequency": "once daily",
+    "route": "oral",
+    "status": "active",
+    "evidence": [
+     {
+      "turn": 21,
+      "quote": "Just my birth control pill once a day, and I take melatonin, 3 milligrams, on nights I can't fall asleep.",
+      "verified": true,
+      "score": 1.0
+     }
+    ],
+    "flags": [
+     {
+      "kind": "unknown_drug",
+      "severity": "warning",
+      "message": "'birth control pill' is not in the drug list: check the spelling and the dose yourself.",
+      "acknowledged": false,
+      "detail": {}
+     }
+    ]
+   },
+   {
+    "name": "melatonin",
+    "dose": "3 mg",
+    "frequency": "at night as needed",
+    "route": "oral",
+    "status": "active",
+    "evidence": [
+     {
+      "turn": 21,
+      "quote": "Just my birth control pill once a day, and I take melatonin, 3 milligrams, on nights I can't fall asleep.",
+      "verified": true,
+      "score": 1.0
+     }
+    ],
+    "flags": []
+   }
+  ],
+  "allergies": [],
+  "after_visit_summary": "You came in because you've been feeling fluttering or skipped beats in your chest for about 3 weeks, mostly at night. These episodes last just a few seconds and happen several times a day. You haven't had chest pain, shortness of breath, or fainting. We checked your heart rhythm with an ECG, which was normal. Your symptoms are likely due to extra heartbeats that are common and usually harmless, especially when triggered by caffeine, energy drinks, and lack of sleep. You're currently drinking about 4 cold brews and 2 energy drinks each day and sleeping around 5 hours. To help, we recommend gradually cutting back caffeine over the next two weeks to no more than one regular coffee per day and stopping energy drinks completely. Aim for at least 7 hours of sleep each night. We're also checking a thyroid test, blood count, and electrolytes to rule out other causes. If the fluttering continues after six weeks of these changes, we may use a monitor to record your heart rhythm for two weeks. Seek emergency care if you faint, develop chest pain with the fluttering, or have a racing heartbeat that doesn't stop. Otherwise, return for follow-up in six weeks. Continue taking your birth control pill daily and melatonin 3 mg at night as needed for sleep. You have no known drug allergies.",
+  "avs_flags": [],
+  "icd10": [
+   {
+    "system": "ICD-10-CM",
+    "code": "R00.2",
+    "description": "Palpitations",
+    "rank": 1,
+    "rationale": "Palpitations is the primary symptom assessed and documented as the reason for the visit; no confirmed arrhythmia was diagnosed, so the symptom code is appropriate.",
+    "evidence": [
+     {
+      "turn": 5,
+      "quote": "For about 3 weeks I've been feeling this, like, fluttering in my chest. Or like my heart skips and then does a big thump.",
+      "verified": true,
+      "score": 1.0
+     }
+    ],
+    "valid": true,
+    "billable": true,
+    "flags": [],
+    "accepted": null
+   }
+  ],
+  "em": {
+   "system": "CPT",
+   "code": "99203",
+   "description": "New patient office visit, low-complexity decision making",
+   "rank": 1,
+   "rationale": "New patient visit with 1 self-limited problem (palpitations), minimal data reviewed (ECG performed and interpreted), and low risk (lifestyle advice only), meeting criteria for 99203.",
+   "evidence": [],
+   "valid": true,
+   "billable": true,
+   "flags": [
+    {
+     "kind": "em_mismatch",
+     "severity": "warning",
+     "message": "The rule-based MDM estimate is moderate (99204): problems: undiagnosed new problem with uncertain prognosis; data: tests ordered or reviewed plus an independent interpretation; risk: prescription drug management",
+     "acknowledged": false,
+     "detail": {
+      "estimate": "99204"
+     }
+    }
+   ],
+   "accepted": null
+  },
+  "procedures": [
+   {
+    "system": "CPT",
+    "code": "93000",
+    "description": "Electrocardiogram with interpretation and report",
+    "rank": 1,
+    "rationale": "ECG with interpretation and report was performed at check-in and discussed during the visit.",
+    "evidence": [
+     {
+      "turn": 26,
+      "quote": "We also did an ECG at check-in. It's a normal ECG, sinus rhythm at 84, with normal intervals and no signs of an extra electrical pathway.",
+      "verified": true,
+      "score": 1.0
+     }
+    ],
+    "valid": true,
+    "billable": true,
+    "flags": [],
+    "accepted": null
+   }
+  ],
+  "mdm": {
+   "problems": "moderate",
+   "data": "moderate",
+   "risk": "moderate",
+   "level": "moderate",
+   "code": "99204",
+   "reasons": [
+    "problems: undiagnosed new problem with uncertain prognosis",
+    "data: tests ordered or reviewed plus an independent interpretation",
+    "risk: prescription drug management"
+   ]
+  },
+  "section_status": {
+   "subjective": "draft",
+   "objective": "draft",
+   "assessment": "draft",
+   "plan": "draft"
+  },
+  "model": "openrouter/nvidia/nemotron-3-super-120b-a12b:free",
+  "created_at": "2026-10-13T05:25:26.561359Z",
+  "signed_by": null,
+  "signed_at": null,
+  "timings": {
+   "phi_masking": 0.042,
+   "llm_note": 14.814,
+   "guards_note": 0.072,
+   "llm_codes": 3.605,
+   "guards_codes": 0.078,
+   "total": 18.611
+  },
+  "usage": {
+   "input_tokens": 4719,
+   "output_tokens": 2295,
+   "calls": 2
+  },
+  "phi": {
+   "NAME": 2,
+   "DOB": 1,
+   "ORG": 1,
+   "DATE": 1,
+   "PHONE": 1
+  }
+ },
+ "vault": {
+  "originals": {
+   "[NAME_1]": "Kenji Watanabe",
+   "[PATIENT]": "Priya Raghunathan",
+   "[DOB]": "May 14th, 2002",
+   "[ORG_1]": "Lakeshore University",
+   "[DATE_1]": "the 12th of December",
+   "[PHONE_1]": "555-0117"
+  },
+  "surfaces": {
+   "[NAME_1]": [
+    "Kenji Watanabe"
+   ],
+   "[PATIENT]": [
+    "Priya",
+    "Priya Raghunathan"
+   ],
+   "[DOB]": [
+    "May 14th, 2002"
+   ],
+   "[ORG_1]": [
+    "Lakeshore University"
+   ],
+   "[DATE_1]": [
+    "the 12th of December"
+   ],
+   "[PHONE_1]": [
+    "555-0117"
+   ]
+  },
+  "types": {
+   "[NAME_1]": "NAME",
+   "[PATIENT]": "NAME",
+   "[DOB]": "DOB",
+   "[ORG_1]": "ORG",
+   "[DATE_1]": "DATE",
+   "[PHONE_1]": "PHONE"
+  },
+  "counters": {
+   "NAME": 1,
+   "ORG": 1,
+   "DATE": 1,
+   "PHONE": 1
+  }
+ },
+ "score": {
+  "case": "cd-04",
+  "specialty": "cardiology",
+  "facts": 25,
+  "found": 21,
+  "found_in_section": 21,
+  "negation_errors": [
+   "f3: No sustained racing heartbeat with abrupt onset and offset (absent)",
+   "f16: Thyroid not enlarged, no tremor (absent)"
+  ],
+  "trap_errors": [],
+  "missed": [
+   "f3 [subjective] No sustained racing heartbeat with abrupt onset and offset",
+   "f7 [subjective] Episodes cause anxiety",
+   "f16 [objective] Thyroid not enlarged, no tremor",
+   "f20 [assessment] Palpitations, likely benign premature beats triggered by caffeine excess and sleep deprivation"
+  ],
+  "statements": 23,
+  "statements_matching_gold": 19,
+  "unsupported": 0,
+  "partial": 2,
+  "flags": {
+   "negation": 1,
+   "partial_support": 2,
+   "unknown_drug": 1
+  },
+  "meds": 2,
+  "meds_found": 1,
+  "meds_dose_correct": 1,
+  "icd_primary": "R00.2",
+  "icd_suggested": [
+   "R00.2"
+  ],
+  "icd_top1": true,
+  "icd_top3": true,
+  "icd_top3_lenient": true,
+  "icd_top3_category": true,
+  "icd_gold_recall": 1.0,
+  "icd_invalid": 0,
+  "em_gold": "99203",
+  "em_suggested": "99203",
+  "em_exact": true,
+  "em_within_one": true,
+  "em_rule_estimate": "99204",
+  "procedures_gold": 1,
+  "procedures_found": 1
+ },
+ "egress_residue": {}
+}

@@ -1,0 +1,591 @@
+{
+ "note": {
+  "visit_id": "pc-02",
+  "statements": [
+   {
+    "id": "s1",
+    "section": "subjective",
+    "text": "Patient reports stopping glipizide about two months ago due to hypoglycemic episodes.",
+    "evidence": [
+     {
+      "turn": 5,
+      "quote": "I stopped the glipizide.",
+      "verified": true,
+      "score": 1.0
+     },
+     {
+      "turn": 7,
+      "quote": "About two months ago. I was getting shaky and sweaty in the afternoons.",
+      "verified": true,
+      "score": 1.0
+     }
+    ],
+    "support": "supported",
+    "flags": [],
+    "origin": "model",
+    "edited": false
+   },
+   {
+    "id": "s2",
+    "section": "subjective",
+    "text": "Patient reports no hypoglycemic episodes since stopping glipizide.",
+    "evidence": [
+     {
+      "turn": 9,
+      "quote": "Since I stopped it, no more lows.",
+      "verified": true,
+      "score": 1.0
+     }
+    ],
+    "support": "supported",
+    "flags": [],
+    "origin": "model",
+    "edited": false
+   },
+   {
+    "id": "s3",
+    "section": "subjective",
+    "text": "Patient takes metformin 1000 milligrams twice daily with breakfast and dinner, reports stomach is fine.",
+    "evidence": [
+     {
+      "turn": 11,
+      "quote": "Yes, 1000 milligrams twice a day, with breakfast and dinner. My stomach is fine with it now.",
+      "verified": true,
+      "score": 1.0
+     }
+    ],
+    "support": "supported",
+    "flags": [],
+    "origin": "model",
+    "edited": false
+   },
+   {
+    "id": "s4",
+    "section": "subjective",
+    "text": "Patient reports fasting sugars at home mostly 150 to 180 in the morning.",
+    "evidence": [
+     {
+      "turn": 13,
+      "quote": "Mostly 150 to 180 in the morning.",
+      "verified": true,
+      "score": 1.0
+     }
+    ],
+    "support": "supported",
+    "flags": [],
+    "origin": "model",
+    "edited": false
+   },
+   {
+    "id": "s5",
+    "section": "subjective",
+    "text": "Patient reports maybe a little more thirsty than usual, denies nocturnal polyuria.",
+    "evidence": [
+     {
+      "turn": 15,
+      "quote": "Maybe a little more thirsty. Not up at night, no.",
+      "verified": true,
+      "score": 1.0
+     }
+    ],
+    "support": "supported",
+    "flags": [
+     {
+      "kind": "negation",
+      "severity": "error",
+      "message": "The transcript says the opposite: 'polyuria' (turns 14, 15).",
+      "acknowledged": false,
+      "detail": {
+       "concept": "polyuria",
+       "turns": [
+        14,
+        15
+       ]
+      }
+     }
+    ],
+    "origin": "model",
+    "edited": false
+   },
+   {
+    "id": "s6",
+    "section": "subjective",
+    "text": "Patient denies numbness or tingling in feet.",
+    "evidence": [
+     {
+      "turn": 17,
+      "quote": "No.",
+      "verified": true,
+      "score": 1.0
+     }
+    ],
+    "support": "supported",
+    "flags": [],
+    "origin": "model",
+    "edited": false
+   },
+   {
+    "id": "s7",
+    "section": "subjective",
+    "text": "Patient reports eyes are fine, last eye exam before COVID.",
+    "evidence": [
+     {
+      "turn": 19,
+      "quote": "My eyes are fine. The eye exam, um, I think it was before COVID.",
+      "verified": true,
+      "score": 1.0
+     }
+    ],
+    "support": "supported",
+    "flags": [],
+    "origin": "model",
+    "edited": false
+   },
+   {
+    "id": "s8",
+    "section": "subjective",
+    "text": "Patient confirms allergy to sulfa (Bactrim) with rash all over body.",
+    "evidence": [
+     {
+      "turn": 21,
+      "quote": "Yes, the Bactrim. I broke out in a rash all over my body.",
+      "verified": true,
+      "score": 1.0
+     }
+    ],
+    "support": "supported",
+    "flags": [],
+    "origin": "model",
+    "edited": false
+   },
+   {
+    "id": "s9",
+    "section": "subjective",
+    "text": "Patient reports husband's diabetes worsened, he was put on insulin last month.",
+    "evidence": [
+     {
+      "turn": 23,
+      "quote": "My husband's sugar is worse than mine, they put him on insulin last month.",
+      "verified": true,
+      "score": 1.0
+     }
+    ],
+    "support": "supported",
+    "flags": [],
+    "origin": "model",
+    "edited": false
+   },
+   {
+    "id": "o1",
+    "section": "objective",
+    "text": "Blood pressure 128 over 76, pulse 80, weight 186 pounds.",
+    "evidence": [
+     {
+      "turn": 24,
+      "quote": "Blood pressure is 128 over 76, pulse 80, weight 186 pounds",
+      "verified": true,
+      "score": 1.0
+     }
+    ],
+    "support": "supported",
+    "flags": [],
+    "origin": "model",
+    "edited": false
+   },
+   {
+    "id": "a1",
+    "section": "assessment",
+    "text": "Type 2 diabetes above goal (A1c 8.4%).",
+    "evidence": [
+     {
+      "turn": 28,
+      "quote": "your type 2 diabetes is above our goal",
+      "verified": true,
+      "score": 1.0
+     }
+    ],
+    "support": "partial",
+    "flags": [
+     {
+      "kind": "partial_support",
+      "severity": "error",
+      "message": "Quoted turn does not contain 8.4; check against the transcript.",
+      "acknowledged": false,
+      "detail": {
+       "numbers_not_in_evidence": [
+        "8.4"
+       ]
+      }
+     }
+    ],
+    "origin": "model",
+    "edited": false
+   },
+   {
+    "id": "p1",
+    "section": "plan",
+    "text": "Discontinue glipizide permanently.",
+    "evidence": [
+     {
+      "turn": 28,
+      "quote": "we'll leave that off for good",
+      "verified": true,
+      "score": 1.0
+     }
+    ],
+    "support": "supported",
+    "flags": [],
+    "origin": "model",
+    "edited": false
+   },
+   {
+    "id": "p2",
+    "section": "plan",
+    "text": "Continue metformin 1000 milligrams twice daily.",
+    "evidence": [
+     {
+      "turn": 28,
+      "quote": "Keep the metformin, 1000 milligrams twice a day",
+      "verified": true,
+      "score": 1.0
+     }
+    ],
+    "support": "supported",
+    "flags": [],
+    "origin": "model",
+    "edited": false
+   },
+   {
+    "id": "p3",
+    "section": "plan",
+    "text": "Start empagliflozin 10 milligrams once daily in the morning.",
+    "evidence": [
+     {
+      "turn": 28,
+      "quote": "I'd like to add a new medicine called empagliflozin, 10 milligrams once a day in the morning",
+      "verified": true,
+      "score": 1.0
+     }
+    ],
+    "support": "supported",
+    "flags": [],
+    "origin": "model",
+    "edited": false
+   },
+   {
+    "id": "p4",
+    "section": "plan",
+    "text": "Refer for diabetic eye exam.",
+    "evidence": [
+     {
+      "turn": 32,
+      "quote": "I'm also putting in a referral for a diabetic eye exam",
+      "verified": true,
+      "score": 1.0
+     }
+    ],
+    "support": "supported",
+    "flags": [],
+    "origin": "model",
+    "edited": false
+   },
+   {
+    "id": "p5",
+    "section": "plan",
+    "text": "Repeat A1c in 3 months.",
+    "evidence": [
+     {
+      "turn": 32,
+      "quote": "We'll repeat the A1c in 3 months and see you then",
+      "verified": true,
+      "score": 1.0
+     }
+    ],
+    "support": "partial",
+    "flags": [
+     {
+      "kind": "partial_support",
+      "severity": "error",
+      "message": "Quoted turn does not contain 1; check against the transcript.",
+      "acknowledged": false,
+      "detail": {
+       "numbers_not_in_evidence": [
+        "1"
+       ]
+      }
+     }
+    ],
+    "origin": "model",
+    "edited": false
+   },
+   {
+    "id": "p6",
+    "section": "plan",
+    "text": "Advise to drink plenty of water and keep genital area clean while on empagliflozin.",
+    "evidence": [
+     {
+      "turn": 30,
+      "quote": "drink plenty of water and keep that area clean",
+      "verified": true,
+      "score": 1.0
+     }
+    ],
+    "support": "supported",
+    "flags": [],
+    "origin": "model",
+    "edited": false
+   },
+   {
+    "id": "p7",
+    "section": "plan",
+    "text": "Instruct to hold empagliflozin if unable to eat or drink due to illness.",
+    "evidence": [
+     {
+      "turn": 30,
+      "quote": "If you can't eat or drink because you're sick, skip it that day",
+      "verified": true,
+      "score": 1.0
+     }
+    ],
+    "support": "supported",
+    "flags": [],
+    "origin": "model",
+    "edited": false
+   },
+   {
+    "id": "p8",
+    "section": "plan",
+    "text": "Advise to call if itching or yeast infection develops on empagliflozin.",
+    "evidence": [
+     {
+      "turn": 30,
+      "quote": "If you get any itching or a yeast infection, call us, it's treatable",
+      "verified": true,
+      "score": 1.0
+     }
+    ],
+    "support": "supported",
+    "flags": [],
+    "origin": "model",
+    "edited": false
+   }
+  ],
+  "medications": [
+   {
+    "name": "metformin",
+    "dose": "1000 milligrams",
+    "frequency": "twice daily",
+    "route": "oral",
+    "status": "active",
+    "evidence": [
+     {
+      "turn": 11,
+      "quote": "Yes, 1000 milligrams twice a day, with breakfast and dinner",
+      "verified": true,
+      "score": 1.0
+     }
+    ],
+    "flags": []
+   },
+   {
+    "name": "empagliflozin",
+    "dose": "10 milligrams",
+    "frequency": "once daily",
+    "route": "oral",
+    "status": "new",
+    "evidence": [
+     {
+      "turn": 28,
+      "quote": "I'd like to add a new medicine called empagliflozin, 10 milligrams once a day in the morning",
+      "verified": true,
+      "score": 1.0
+     }
+    ],
+    "flags": []
+   }
+  ],
+  "allergies": [
+   {
+    "substance": "sulfa (Bactrim)",
+    "reaction": "rash all over body",
+    "evidence": [
+     {
+      "turn": 21,
+      "quote": "Yes, the Bactrim. I broke out in a rash all over my body.",
+      "verified": true,
+      "score": 1.0
+     }
+    ]
+   }
+  ],
+  "after_visit_summary": "Your diabetes is not at goal, with an A1c of 8.4%. You stopped glipizide because it caused low blood sugar, and you have not had lows since stopping it. Continue taking metformin 1000 mg twice daily with breakfast and dinner. Start empagliflozin 10 mg once daily in the morning. Drink plenty of water and keep your genital area clean while taking this medicine. If you get itching or a yeast infection, call the office. If you are sick and cannot eat or drink, skip empagliflozin that day. You need a diabetic eye exam; we have placed a referral and will send the details to your portal. Keep up your evening walks. We will repeat your A1c in 3 months and see you then.",
+  "avs_flags": [],
+  "icd10": [
+   {
+    "system": "ICD-10-CM",
+    "code": "E11.65",
+    "description": "Type 2 diabetes mellitus with hyperglycemia",
+    "rank": 1,
+    "rationale": "Type 2 diabetes mellitus with hyperglycemia, as the patient's A1c is 8.4% and fasting sugars are 150-180 mg/dL, indicating hyperglycemia, and this is the primary reason for the visit.",
+    "evidence": [
+     {
+      "turn": 4,
+      "quote": "Your A1c from last week came back at 8.4 percent.",
+      "verified": true,
+      "score": 1.0
+     },
+     {
+      "turn": 13,
+      "quote": "Mostly 150 to 180 in the morning.",
+      "verified": true,
+      "score": 1.0
+     }
+    ],
+    "valid": true,
+    "billable": true,
+    "flags": [],
+    "accepted": null
+   }
+  ],
+  "em": {
+   "system": "CPT",
+   "code": "99214",
+   "description": "Established patient office visit, moderate-complexity decision making",
+   "rank": 1,
+   "rationale": "Established patient with moderate medical decision making: one chronic illness (type 2 diabetes) with exacerbation (hyperglycemia), medication management changes (discontinue glipizide, continue metformin, start empagliflozin), and review of labs (A1c, kidney function).",
+   "evidence": [],
+   "valid": true,
+   "billable": true,
+   "flags": [],
+   "accepted": null
+  },
+  "procedures": [],
+  "mdm": {
+   "problems": "moderate",
+   "data": "straightforward",
+   "risk": "moderate",
+   "level": "moderate",
+   "code": "99214",
+   "reasons": [
+    "problems: chronic illness not at goal",
+    "risk: prescription drug management"
+   ]
+  },
+  "section_status": {
+   "subjective": "draft",
+   "objective": "draft",
+   "assessment": "draft",
+   "plan": "draft"
+  },
+  "model": "openrouter/nvidia/nemotron-3-super-120b-a12b:free",
+  "created_at": "2026-10-13T05:20:35.252680Z",
+  "signed_by": null,
+  "signed_at": null,
+  "timings": {
+   "phi_masking": 0.107,
+   "llm_note": 10.625,
+   "guards_note": 0.063,
+   "llm_codes": 3.605,
+   "guards_codes": 0.071,
+   "total": 14.472
+  },
+  "usage": {
+   "input_tokens": 4893,
+   "output_tokens": 1748,
+   "calls": 2
+  },
+  "phi": {
+   "NAME": 2,
+   "DOB": 1,
+   "DATE": 1,
+   "EMAIL": 1
+  }
+ },
+ "vault": {
+  "originals": {
+   "[PATIENT]": "Guadalupe Rios",
+   "[DOB]": "June 17th, 1965",
+   "[DATE_1]": "April",
+   "[NAME_1]": "Marisela",
+   "[EMAIL_1]": "lupe rios 65 at example dot com"
+  },
+  "surfaces": {
+   "[PATIENT]": [
+    "Guadalupe Rios",
+    "Rios"
+   ],
+   "[DOB]": [
+    "June 17th, 1965"
+   ],
+   "[DATE_1]": [
+    "April"
+   ],
+   "[NAME_1]": [
+    "Marisela"
+   ],
+   "[EMAIL_1]": [
+    "lupe rios 65 at example dot com"
+   ]
+  },
+  "types": {
+   "[PATIENT]": "NAME",
+   "[DOB]": "DOB",
+   "[DATE_1]": "DATE",
+   "[NAME_1]": "NAME",
+   "[EMAIL_1]": "EMAIL"
+  },
+  "counters": {
+   "DATE": 1,
+   "NAME": 1,
+   "EMAIL": 1
+  }
+ },
+ "score": {
+  "case": "pc-02",
+  "specialty": "primary_care",
+  "facts": 27,
+  "found": 21,
+  "found_in_section": 19,
+  "negation_errors": [
+   "f16: Foot exam normal, no sores or calluses, pedal pulses strong, monofilament sensation intact (present)"
+  ],
+  "trap_errors": [],
+  "missed": [
+   "f9 [subjective] Denies blurry vision",
+   "f11 [subjective] Walking in the evenings for exercise",
+   "f16 [objective] Foot exam normal, no sores or calluses, pedal pulses strong, monofilament sensation intact",
+   "f17 [objective] Heart and lungs normal",
+   "f18 [objective] eGFR 78, normal kidney function, no urine protein",
+   "f27 [plan] Continue evening walks"
+  ],
+  "statements": 19,
+  "statements_matching_gold": 17,
+  "unsupported": 0,
+  "partial": 2,
+  "flags": {
+   "negation": 1,
+   "partial_support": 2
+  },
+  "meds": 3,
+  "meds_found": 2,
+  "meds_dose_correct": 2,
+  "icd_primary": "E11.65",
+  "icd_suggested": [
+   "E11.65"
+  ],
+  "icd_top1": true,
+  "icd_top3": true,
+  "icd_top3_lenient": true,
+  "icd_top3_category": true,
+  "icd_gold_recall": 0.5,
+  "icd_invalid": 0,
+  "em_gold": "99214",
+  "em_suggested": "99214",
+  "em_exact": true,
+  "em_within_one": true,
+  "em_rule_estimate": "99214",
+  "procedures_gold": 0,
+  "procedures_found": 0
+ },
+ "egress_residue": {}
+}

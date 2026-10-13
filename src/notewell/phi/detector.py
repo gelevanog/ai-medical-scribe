@@ -894,6 +894,11 @@ class PHIDetector:
                     continue
                 if source == "id_keyword" and not re.search(rf"\d|{_DIGIT_WORDS}", value[-12:], re.IGNORECASE):
                     continue
+                if source in {"url_spoken", "email_spoken"}:
+                    lead = re.match(r"(?:(?:is|the|it's|its|at|portal|website|site|go to|on|email|e-mail)\s+)+", value, re.I)
+                    if lead:
+                        start += lead.end()
+                        value = text[start:end]
                 if source == "zip" and value.lower().startswith("zip"):
                     start += value.lower().rfind(" ") + 1
                     value = text[start:end]
@@ -1070,12 +1075,18 @@ class PHIDetector:
             re.IGNORECASE,
         )
         for m in domain.finditer(text):
-            words = list(re.finditer(r"[\w.+-]+", text[: m.start()]))
+            words = list(re.finditer(r"[\w.+'’-]+", text[: m.start()]))
             start = m.start()
             taken = 0
             for w in reversed(words):
                 token = w.group(0).lower()
-                if token in self._EMAIL_STOP or taken >= 6 or text[w.end() : start].strip(" ") not in {""}:
+                if (
+                    token in self._EMAIL_STOP
+                    or "'" in token
+                    or "’" in token
+                    or taken >= 6
+                    or text[w.end() : start].strip(" ") not in {""}
+                ):
                     break
                 start = w.start()
                 taken += 1
@@ -1123,7 +1134,11 @@ class PHIDetector:
             if any(w in NEVER_NAMES or w in self.clinical or w.isupper() for w in lowered + core):
                 continue
             value = " ".join(words)
-            spans.append(Span(offset, offset + len(value), "ORG", value, "capitalized_run", "other", 4))
+            # Unknown words only ("Zebulon Quarrington") read as a person; ordinary words ("Crescent City Transit")
+            # read as a business, school or place.
+            unknown = all(w not in self.english and w not in self.ambiguous for w in lowered)
+            kind: PHIType = "NAME" if unknown and len(core) <= 3 else "ORG"
+            spans.append(Span(offset, offset + len(value), kind, value, "capitalized_run", "other", 4))
         return spans
 
     def _trim_name(self, candidate: str, *, strict: bool = False) -> str:

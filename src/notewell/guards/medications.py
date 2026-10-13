@@ -224,6 +224,8 @@ def _dose_in_transcript(med: Medication, amount: float, turns: Sequence[Turn], d
         windows = [
             text[m.start() : m.start() + 140] for n in names for m in re.finditer(rf"\b{re.escape(n)}\b", text, re.I)
         ]
+        if i + 1 < len(turns) and turns[i + 1].speaker != turns[i].speaker:
+            windows.append(words_to_digits(turns[i + 1].text)[:160])  # the answer to "are you taking the X?"
         window = next(
             (w for w in windows if len(set(re.findall(r"\d+(?:\.\d+)?", w))) > 1 and _CORRECTION.search(w)), ""
         )

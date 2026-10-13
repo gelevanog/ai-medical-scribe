@@ -7,7 +7,7 @@ Corruptions (each applied separately to a copy of a note):
   unit_swap          a dose unit swapped (mg <-> mcg)
   invented           a statement copied from a visit of another specialty, without evidence
   icd_header         a billable ICD-10-CM code replaced by its non-billable category (E11.65 -> E11)
-  icd_fake           a code that does not exist (the first letter changed to an unused one)
+  icd_fake           a code that does not exist (the category with an invented ".9999" extension)
   icd_denied         a code added for a symptom the patient denied (e.g. R07.9 chest pain when chest pain was denied)
 A corruption is caught if the corrupted item carries a new error-level flag of the expected kind.
 """
@@ -161,7 +161,7 @@ def run_guard_eval(settings: Settings, run: str = "main", seed: int = 7) -> dict
         assessment = [s for s in base.statements if s.section == "assessment"]
         primary = next((c for c in note.icd10 if c.valid and len(c.code) > 3), None)
         if primary:
-            for kind, code in (("icd_header", primary.code.split(".")[0]), ("icd_fake", "U" + primary.code[1:])):
+            for kind, code in (("icd_header", primary.code.split(".")[0]), ("icd_fake", primary.code[:3] + ".9999")):
                 result = check_icd(
                     [{"code": code}], codeset=codeset, grounder=grounder, index=index, assessment=assessment
                 )

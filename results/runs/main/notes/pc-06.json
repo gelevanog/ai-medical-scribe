@@ -1,0 +1,887 @@
+{
+ "note": {
+  "visit_id": "pc-06",
+  "statements": [
+   {
+    "id": "s1",
+    "section": "subjective",
+    "text": "Burning with urination for 2 days",
+    "evidence": [
+     {
+      "turn": 3,
+      "quote": "Yeah. Since Saturday, so two days. It burns when I pee, and I feel like I have to go every 20 minutes, even when nothing much comes out.",
+      "verified": true,
+      "score": 1.0
+     }
+    ],
+    "support": "supported",
+    "flags": [],
+    "origin": "model",
+    "edited": false
+   },
+   {
+    "id": "s2",
+    "section": "subjective",
+    "text": "Urinary frequency every 20 minutes",
+    "evidence": [
+     {
+      "turn": 3,
+      "quote": "Yeah. Since Saturday, so two days. It burns when I pee, and I feel like I have to go every 20 minutes, even when nothing much comes out.",
+      "verified": true,
+      "score": 1.0
+     }
+    ],
+    "support": "supported",
+    "flags": [],
+    "origin": "model",
+    "edited": false
+   },
+   {
+    "id": "s3",
+    "section": "subjective",
+    "text": "Lower abdominal pressure",
+    "evidence": [
+     {
+      "turn": 5,
+      "quote": "Kind of a pressure, right down low.",
+      "verified": true,
+      "score": 1.0
+     }
+    ],
+    "support": "supported",
+    "flags": [],
+    "origin": "model",
+    "edited": false
+   },
+   {
+    "id": "s4",
+    "section": "subjective",
+    "text": "No hematuria",
+    "evidence": [
+     {
+      "turn": 6,
+      "quote": "Have you seen any blood in your urine?",
+      "verified": true,
+      "score": 1.0
+     },
+     {
+      "turn": 7,
+      "quote": "No, I don't think so. It's been orange since yesterday, but that's the AZO I took.",
+      "verified": true,
+      "score": 1.0
+     }
+    ],
+    "support": "partial",
+    "flags": [
+     {
+      "kind": "partial_support",
+      "severity": "warning",
+      "message": "Quoted turn does not contain most of its terms; check against the transcript.",
+      "acknowledged": false,
+      "detail": {}
+     }
+    ],
+    "origin": "model",
+    "edited": false
+   },
+   {
+    "id": "s5",
+    "section": "subjective",
+    "text": "Taking phenazopyridine (AZO) two tablets three times daily",
+    "evidence": [
+     {
+      "turn": 8,
+      "quote": "How much of the AZO?",
+      "verified": true,
+      "score": 1.0
+     },
+     {
+      "turn": 9,
+      "quote": "The box says two tablets three times a day, so I did that yesterday and once this morning.",
+      "verified": true,
+      "score": 1.0
+     }
+    ],
+    "support": "supported",
+    "flags": [],
+    "origin": "model",
+    "edited": false
+   },
+   {
+    "id": "s6",
+    "section": "subjective",
+    "text": "Denies fever or chills",
+    "evidence": [
+     {
+      "turn": 10,
+      "quote": "Any fever or chills?",
+      "verified": true,
+      "score": 1.0
+     },
+     {
+      "turn": 11,
+      "quote": "No fever.",
+      "verified": true,
+      "score": 1.0
+     }
+    ],
+    "support": "supported",
+    "flags": [],
+    "origin": "model",
+    "edited": false
+   },
+   {
+    "id": "s7",
+    "section": "subjective",
+    "text": "Denies flank pain",
+    "evidence": [
+     {
+      "turn": 12,
+      "quote": "Pain in your back or your side, up here under the ribs?",
+      "verified": true,
+      "score": 1.0
+     },
+     {
+      "turn": 13,
+      "quote": "Nope.",
+      "verified": true,
+      "score": 1.0
+     }
+    ],
+    "support": "supported",
+    "flags": [],
+    "origin": "model",
+    "edited": false
+   },
+   {
+    "id": "s8",
+    "section": "subjective",
+    "text": "Denies nausea or vomiting",
+    "evidence": [
+     {
+      "turn": 14,
+      "quote": "Nausea or vomiting?",
+      "verified": true,
+      "score": 1.0
+     },
+     {
+      "turn": 15,
+      "quote": "No.",
+      "verified": true,
+      "score": 1.0
+     }
+    ],
+    "support": "supported",
+    "flags": [],
+    "origin": "model",
+    "edited": false
+   },
+   {
+    "id": "s9",
+    "section": "subjective",
+    "text": "Denies vaginal discharge, itching, or odor",
+    "evidence": [
+     {
+      "turn": 16,
+      "quote": "Any vaginal discharge, itching, or odor?",
+      "verified": true,
+      "score": 1.0
+     },
+     {
+      "turn": 17,
+      "quote": "No, nothing like that.",
+      "verified": true,
+      "score": 1.0
+     }
+    ],
+    "support": "supported",
+    "flags": [],
+    "origin": "model",
+    "edited": false
+   },
+   {
+    "id": "s10",
+    "section": "subjective",
+    "text": "Last menstrual period ended two weeks ago",
+    "evidence": [
+     {
+      "turn": 18,
+      "quote": "When was your last period, and what are you using for birth control?",
+      "verified": true,
+      "score": 1.0
+     },
+     {
+      "turn": 19,
+      "quote": "My period ended about two weeks ago, totally normal. I have the copper IUD, I got it last year.",
+      "verified": true,
+      "score": 1.0
+     }
+    ],
+    "support": "supported",
+    "flags": [],
+    "origin": "model",
+    "edited": false
+   },
+   {
+    "id": "s11",
+    "section": "subjective",
+    "text": "Using copper IUD for birth control",
+    "evidence": [
+     {
+      "turn": 18,
+      "quote": "When was your last period, and what are you using for birth control?",
+      "verified": true,
+      "score": 1.0
+     },
+     {
+      "turn": 19,
+      "quote": "My period ended about two weeks ago, totally normal. I have the copper IUD, I got it last year.",
+      "verified": true,
+      "score": 1.0
+     }
+    ],
+    "support": "supported",
+    "flags": [],
+    "origin": "model",
+    "edited": false
+   },
+   {
+    "id": "s12",
+    "section": "subjective",
+    "text": "Denies possibility of pregnancy",
+    "evidence": [
+     {
+      "turn": 20,
+      "quote": "Any chance of pregnancy otherwise?",
+      "verified": true,
+      "score": 1.0
+     },
+     {
+      "turn": 21,
+      "quote": "No, I don't think so.",
+      "verified": true,
+      "score": 1.0
+     }
+    ],
+    "support": "supported",
+    "flags": [],
+    "origin": "model",
+    "edited": false
+   },
+   {
+    "id": "s13",
+    "section": "subjective",
+    "text": "History of bladder infection three years ago, treated with antibiotics",
+    "evidence": [
+     {
+      "turn": 22,
+      "quote": "Have you had a bladder infection before?",
+      "verified": true,
+      "score": 1.0
+     },
+     {
+      "turn": 23,
+      "quote": "Once, in college. Maybe three years ago. It cleared up with antibiotics and I've been fine since. My roommate swears by cranberry pills, so I've been drinking cranberry juice too.",
+      "verified": true,
+      "score": 1.0
+     }
+    ],
+    "support": "supported",
+    "flags": [],
+    "origin": "model",
+    "edited": false
+   },
+   {
+    "id": "s14",
+    "section": "subjective",
+    "text": "No medication allergies",
+    "evidence": [
+     {
+      "turn": 24,
+      "quote": "Any allergies to medications?",
+      "verified": true,
+      "score": 1.0
+     },
+     {
+      "turn": 25,
+      "quote": "None.",
+      "verified": true,
+      "score": 1.0
+     }
+    ],
+    "support": "supported",
+    "flags": [],
+    "origin": "model",
+    "edited": false
+   },
+   {
+    "id": "o1",
+    "section": "objective",
+    "text": "Temperature 98.2°F",
+    "evidence": [
+     {
+      "turn": 26,
+      "quote": "Your temperature is 98.2, blood pressure 118 over 72, pulse 80.",
+      "verified": true,
+      "score": 1.0
+     }
+    ],
+    "support": "supported",
+    "flags": [],
+    "origin": "model",
+    "edited": false
+   },
+   {
+    "id": "o2",
+    "section": "objective",
+    "text": "Blood pressure 118/72 mmHg",
+    "evidence": [
+     {
+      "turn": 26,
+      "quote": "Your temperature is 98.2, blood pressure 118 over 72, pulse 80.",
+      "verified": true,
+      "score": 1.0
+     }
+    ],
+    "support": "supported",
+    "flags": [],
+    "origin": "model",
+    "edited": false
+   },
+   {
+    "id": "o3",
+    "section": "objective",
+    "text": "Pulse 80 bpm",
+    "evidence": [
+     {
+      "turn": 26,
+      "quote": "Your temperature is 98.2, blood pressure 118 over 72, pulse 80.",
+      "verified": true,
+      "score": 1.0
+     }
+    ],
+    "support": "supported",
+    "flags": [],
+    "origin": "model",
+    "edited": false
+   },
+   {
+    "id": "o4",
+    "section": "objective",
+    "text": "Mild suprapubic tenderness",
+    "evidence": [
+     {
+      "turn": 26,
+      "quote": "Let me press on your belly. There's mild tenderness right above the pubic bone.",
+      "verified": true,
+      "score": 1.0
+     }
+    ],
+    "support": "supported",
+    "flags": [],
+    "origin": "model",
+    "edited": false
+   },
+   {
+    "id": "o5",
+    "section": "objective",
+    "text": "No costovertebral angle tenderness",
+    "evidence": [
+     {
+      "turn": 26,
+      "quote": "And tapping on your back, any pain?",
+      "verified": true,
+      "score": 1.0
+     },
+     {
+      "turn": 27,
+      "quote": "No, that's fine.",
+      "verified": true,
+      "score": 1.0
+     },
+     {
+      "turn": 28,
+      "quote": "No tenderness over the kidneys.",
+      "verified": true,
+      "score": 1.0
+     }
+    ],
+    "support": "supported",
+    "flags": [],
+    "origin": "model",
+    "edited": false
+   },
+   {
+    "id": "o6",
+    "section": "objective",
+    "text": "Urine dipstick positive for leukocyte esterase and nitrites",
+    "evidence": [
+     {
+      "turn": 28,
+      "quote": "We did a urine dip here in the office. It's positive for white blood cells and positive for nitrites. No blood and no protein.",
+      "verified": true,
+      "score": 1.0
+     }
+    ],
+    "support": "supported",
+    "flags": [],
+    "origin": "model",
+    "edited": false
+   },
+   {
+    "id": "o7",
+    "section": "objective",
+    "text": "Urine dipstick negative for blood and protein",
+    "evidence": [
+     {
+      "turn": 28,
+      "quote": "We did a urine dip here in the office. It's positive for white blood cells and positive for nitrites. No blood and no protein.",
+      "verified": true,
+      "score": 1.0
+     }
+    ],
+    "support": "supported",
+    "flags": [],
+    "origin": "model",
+    "edited": false
+   },
+   {
+    "id": "a1",
+    "section": "assessment",
+    "text": "Acute cystitis",
+    "evidence": [
+     {
+      "turn": 30,
+      "quote": "So this looks like a simple bladder infection, what we call acute cystitis.",
+      "verified": true,
+      "score": 1.0
+     }
+    ],
+    "support": "supported",
+    "flags": [],
+    "origin": "model",
+    "edited": false
+   },
+   {
+    "id": "p1",
+    "section": "plan",
+    "text": "Start nitrofurantoin 100 mg orally twice daily for 5 days",
+    "evidence": [
+     {
+      "turn": 30,
+      "quote": "I'm going to start you on nitrofurantoin, 100 milligrams twice a day for 5 days. Take it with food, it's easier on the stomach.",
+      "verified": true,
+      "score": 1.0
+     }
+    ],
+    "support": "supported",
+    "flags": [],
+    "origin": "model",
+    "edited": false
+   },
+   {
+    "id": "p2",
+    "section": "plan",
+    "text": "Continue phenazopyridine for one more day (total two days)",
+    "evidence": [
+     {
+      "turn": 31,
+      "quote": "Can I keep taking the AZO?",
+      "verified": true,
+      "score": 1.0
+     },
+     {
+      "turn": 32,
+      "quote": "You can keep the AZO, but only for one more day, so two days total.",
+      "verified": true,
+      "score": 1.0
+     }
+    ],
+    "support": "supported",
+    "flags": [],
+    "origin": "model",
+    "edited": false
+   },
+   {
+    "id": "p3",
+    "section": "plan",
+    "text": "Increase fluid intake",
+    "evidence": [
+     {
+      "turn": 32,
+      "quote": "Drink plenty of water.",
+      "verified": true,
+      "score": 1.0
+     }
+    ],
+    "support": "partial",
+    "flags": [
+     {
+      "kind": "partial_support",
+      "severity": "warning",
+      "message": "Quoted turn does not contain most of its terms; check against the transcript.",
+      "acknowledged": false,
+      "detail": {}
+     }
+    ],
+    "origin": "model",
+    "edited": false
+   },
+   {
+    "id": "p4",
+    "section": "plan",
+    "text": "Send urine for culture and sensitivity",
+    "evidence": [
+     {
+      "turn": 28,
+      "quote": "The AZO can tint the dip and throw off the colors, so I'm also sending your urine for a culture to be sure.",
+      "verified": true,
+      "score": 1.0
+     },
+     {
+      "turn": 32,
+      "quote": "The culture takes 2 to 3 days.",
+      "verified": true,
+      "score": 1.0
+     }
+    ],
+    "support": "supported",
+    "flags": [],
+    "origin": "model",
+    "edited": false
+   },
+   {
+    "id": "p5",
+    "section": "plan",
+    "text": "If culture shows resistant organism, contact patient to change antibiotic",
+    "evidence": [
+     {
+      "turn": 32,
+      "quote": "If it shows something the nitrofurantoin doesn't cover, we'll call you and switch.",
+      "verified": true,
+      "score": 1.0
+     }
+    ],
+    "support": "supported",
+    "flags": [],
+    "origin": "model",
+    "edited": false
+   },
+   {
+    "id": "p6",
+    "section": "plan",
+    "text": "Precaution: Call same day if fever, flank pain, or vomiting develops",
+    "evidence": [
+     {
+      "turn": 34,
+      "quote": "And if you develop fever, back or side pain, or vomiting, that could mean the infection is moving up to the kidneys, so call us the same day.",
+      "verified": true,
+      "score": 1.0
+     }
+    ],
+    "support": "supported",
+    "flags": [],
+    "origin": "model",
+    "edited": false
+   },
+   {
+    "id": "p7",
+    "section": "plan",
+    "text": "Precaution: Call if not better in 2 to 3 days",
+    "evidence": [
+     {
+      "turn": 34,
+      "quote": "If you're not better in 2 to 3 days, let us know.",
+      "verified": true,
+      "score": 1.0
+     }
+    ],
+    "support": "supported",
+    "flags": [],
+    "origin": "model",
+    "edited": false
+   },
+   {
+    "id": "p8",
+    "section": "plan",
+    "text": "No routine follow-up needed",
+    "evidence": [
+     {
+      "turn": 34,
+      "quote": "Otherwise, no follow-up needed.",
+      "verified": true,
+      "score": 1.0
+     }
+    ],
+    "support": "supported",
+    "flags": [],
+    "origin": "model",
+    "edited": false
+   },
+   {
+    "id": "p9",
+    "section": "plan",
+    "text": "Confirm best contact number is 555-0118",
+    "evidence": [
+     {
+      "turn": 32,
+      "quote": "Is 555-0118 the best number?",
+      "verified": true,
+      "score": 1.0
+     },
+     {
+      "turn": 33,
+      "quote": "Yes, that's my cell.",
+      "verified": true,
+      "score": 1.0
+     }
+    ],
+    "support": "supported",
+    "flags": [],
+    "origin": "model",
+    "edited": false
+   }
+  ],
+  "medications": [
+   {
+    "name": "nitrofurantoin",
+    "dose": "100 mg",
+    "frequency": "twice daily",
+    "route": "oral",
+    "status": "new",
+    "evidence": [
+     {
+      "turn": 30,
+      "quote": "I'm going to start you on nitrofurantoin, 100 milligrams twice a day for 5 days. Take it with food, it's easier on the stomach.",
+      "verified": true,
+      "score": 1.0
+     }
+    ],
+    "flags": []
+   },
+   {
+    "name": "phenazopyridine",
+    "dose": "2 tablets",
+    "frequency": "three times daily",
+    "route": "oral",
+    "status": "active",
+    "evidence": [
+     {
+      "turn": 8,
+      "quote": "How much of the AZO?",
+      "verified": true,
+      "score": 1.0
+     },
+     {
+      "turn": 9,
+      "quote": "The box says two tablets three times a day, so I did that yesterday and once this morning.",
+      "verified": true,
+      "score": 1.0
+     },
+     {
+      "turn": 31,
+      "quote": "Can I keep taking the AZO?",
+      "verified": true,
+      "score": 1.0
+     },
+     {
+      "turn": 32,
+      "quote": "You can keep the AZO, but only for one more day, so two days total.",
+      "verified": true,
+      "score": 1.0
+     }
+    ],
+    "flags": []
+   }
+  ],
+  "allergies": [],
+  "after_visit_summary": "You have a bladder infection, also called acute cystitis. We found burning when you urinate, needing to go often, and pressure in your lower belly. Your urine test showed signs of infection. We are starting you on an antibiotic called nitrofurantoin. Take 100 mg by mouth twice a day for 5 days, and take it with food to avoid stomach upset. You may continue taking the AZO for urinary pain for one more day only. Drink plenty of water. We sent a urine sample to the lab to confirm the infection and check which antibiotic works best; results will be ready in 2 to 3 days. If the lab shows the antibiotic needs to be changed, we will call you. Call us the same day if you get fever, back or side pain, or vomiting, as this could mean the infection is spreading. Also call if you are not feeling better in 2 to 3 days. Otherwise, no follow-up visit is needed. We will reach you at 555-0118 if we need to contact you.",
+  "avs_flags": [],
+  "icd10": [
+   {
+    "system": "ICD-10-CM",
+    "code": "N30.00",
+    "description": "Acute cystitis without hematuria",
+    "rank": 1,
+    "rationale": "Acute cystitis without hematuria is the diagnosis assessed, supported by symptoms of dysuria, frequency, suprapubic tenderness, and positive leukocyte esterase and nitrites on urinalysis, with no hematuria reported.",
+    "evidence": [
+     {
+      "turn": 3,
+      "quote": "Yeah. Since Saturday, so two days. It burns when I pee, and I feel like I have to go every 20 minutes, even when nothing much comes out.",
+      "verified": true,
+      "score": 1.0
+     },
+     {
+      "turn": 5,
+      "quote": "Kind of a pressure, right down low.",
+      "verified": true,
+      "score": 1.0
+     },
+     {
+      "turn": 28,
+      "quote": "We did a urine dip here in the office. It's positive for white blood cells and positive for nitrites. No blood and no protein.",
+      "verified": true,
+      "score": 1.0
+     },
+     {
+      "turn": 30,
+      "quote": "So this looks like a simple bladder infection, what we call acute cystitis.",
+      "verified": true,
+      "score": 1.0
+     }
+    ],
+    "valid": true,
+    "billable": true,
+    "flags": [],
+    "accepted": null
+   }
+  ],
+  "em": {
+   "system": "CPT",
+   "code": "99213",
+   "description": "Established patient office visit, low-complexity decision making",
+   "rank": 1,
+   "rationale": "Established patient with one stable chronic condition (history of bladder infection) and one acute, uncomplicated illness (acute cystitis) managed with prescription drug therapy; low complexity medical decision making, minimal data reviewed (urine dipstick in office), and low risk.",
+   "evidence": [],
+   "valid": true,
+   "billable": true,
+   "flags": [],
+   "accepted": null
+  },
+  "procedures": [
+   {
+    "system": "CPT",
+    "code": "81002",
+    "description": "Urinalysis by dipstick, non-automated, without microscopy",
+    "rank": 1,
+    "rationale": "Urinalysis by dipstick performed in the office during the visit to assess for leukocyte esterase and nitrites.",
+    "evidence": [
+     {
+      "turn": 28,
+      "quote": "We did a urine dip here in the office. It's positive for white blood cells and positive for nitrites. No blood and no protein.",
+      "verified": true,
+      "score": 1.0
+     }
+    ],
+    "valid": true,
+    "billable": true,
+    "flags": [],
+    "accepted": null
+   }
+  ],
+  "mdm": {
+   "problems": "low",
+   "data": "low",
+   "risk": "moderate",
+   "level": "low",
+   "code": "99213",
+   "reasons": [
+    "problems: one acute uncomplicated problem",
+    "data: limited (tests or an independent historian)",
+    "risk: prescription drug management"
+   ]
+  },
+  "section_status": {
+   "subjective": "draft",
+   "objective": "draft",
+   "assessment": "draft",
+   "plan": "draft"
+  },
+  "model": "openrouter/nvidia/nemotron-3-super-120b-a12b:free",
+  "created_at": "2026-10-13T05:23:03.610371Z",
+  "signed_by": null,
+  "signed_at": null,
+  "timings": {
+   "phi_masking": 0.051,
+   "llm_note": 20.296,
+   "guards_note": 0.032,
+   "llm_codes": 4.173,
+   "guards_codes": 0.033,
+   "total": 24.584
+  },
+  "usage": {
+   "input_tokens": 4478,
+   "output_tokens": 2929,
+   "calls": 2
+  },
+  "phi": {
+   "NAME": 1,
+   "DOB": 1,
+   "ADDRESS": 1,
+   "PHONE": 1
+  }
+ },
+ "vault": {
+  "originals": {
+   "[PATIENT]": "Aisha Bello",
+   "[DOB]": "March 11th, 1997",
+   "[ADDRESS_1]": "Kessler Road",
+   "[PHONE_1]": "555-0118"
+  },
+  "surfaces": {
+   "[PATIENT]": [
+    "Aisha",
+    "Aisha Bello"
+   ],
+   "[DOB]": [
+    "March 11th, 1997"
+   ],
+   "[ADDRESS_1]": [
+    "Kessler Road"
+   ],
+   "[PHONE_1]": [
+    "555-0118"
+   ]
+  },
+  "types": {
+   "[PATIENT]": "NAME",
+   "[DOB]": "DOB",
+   "[ADDRESS_1]": "ADDRESS",
+   "[PHONE_1]": "PHONE"
+  },
+  "counters": {
+   "ADDRESS": 1,
+   "PHONE": 1
+  }
+ },
+ "score": {
+  "case": "pc-06",
+  "specialty": "primary_care",
+  "facts": 25,
+  "found": 24,
+  "found_in_section": 24,
+  "negation_errors": [],
+  "trap_errors": [],
+  "missed": [
+   "f12 [subjective] Drinking cranberry juice"
+  ],
+  "statements": 31,
+  "statements_matching_gold": 28,
+  "unsupported": 0,
+  "partial": 2,
+  "flags": {
+   "partial_support": 2
+  },
+  "meds": 4,
+  "meds_found": 2,
+  "meds_dose_correct": 2,
+  "icd_primary": "N30.00",
+  "icd_suggested": [
+   "N30.00"
+  ],
+  "icd_top1": true,
+  "icd_top3": true,
+  "icd_top3_lenient": true,
+  "icd_top3_category": true,
+  "icd_gold_recall": 1.0,
+  "icd_invalid": 0,
+  "em_gold": "99213",
+  "em_suggested": "99213",
+  "em_exact": true,
+  "em_within_one": true,
+  "em_rule_estimate": "99213",
+  "procedures_gold": 1,
+  "procedures_found": 1
+ },
+ "egress_residue": {}
+}

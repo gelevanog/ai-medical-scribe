@@ -24,6 +24,8 @@ FULL_URL = "https://ftp.cdc.gov/pub/Health_Statistics/NCHS/Publications/ICD10CM/
 FULL_SHA256 = "93e3ad6004badf470c55bfe679b748ae88fd9b2b421851e409eec382c7713b9a"
 FULL_MEMBER = "icd10cm-order-2027.txt"
 SUBSET_FILE = "icd10cm-order-2027-subset.txt"
+SUBSET_CHAPTERS = frozenset("EFIJLRZ")
+"""Chapters the offline subset contains completely: a code missing from them is invalid, not unverifiable."""
 FISCAL_YEAR = "FY2027 (October 1, 2026 - September 30, 2027)"
 
 _TOKEN = re.compile(r"[a-z0-9]+")
@@ -177,7 +179,7 @@ class CodeSet:
             return Validation("invalid", code, message=f"{code!r} is not an ICD-10-CM code format")
         entry = self.codes.get(raw)
         if entry is None:
-            if not self.complete and raw[:3] not in self.categories:
+            if not self.complete and raw[:3] not in self.categories and raw[0] not in SUBSET_CHAPTERS:
                 return Validation(
                     "unverifiable",
                     dotted(raw),

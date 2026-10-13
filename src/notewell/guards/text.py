@@ -240,6 +240,7 @@ def stem(word: str) -> str:
 
 @lru_cache(maxsize=8192)
 def tokens(text: str) -> tuple[str, ...]:
+    text = re.sub(r"(\d),(\d{3})\b", r"\1\2", text)
     return tuple(_TOKEN.findall(words_to_digits(text.lower()).replace("/", " ")))
 
 

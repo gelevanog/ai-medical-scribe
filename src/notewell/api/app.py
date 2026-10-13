@@ -67,6 +67,27 @@ class CreateVisitBody(BaseModel):
     patient: Patient
 
 
+def current_user(request: Request, authorization: Annotated[str | None, Header()] = None) -> User:
+    tokens: dict[str, User] = request.app.state.tokens
+    if not tokens:
+        return User(name=request.app.state.settings.demo_user, role="clinician")
+    token = (authorization or "").removeprefix("Bearer ").strip()
+    user = tokens.get(token)
+    if user is None:
+        raise HTTPException(401, "missing or invalid bearer token")
+    return user
+
+
+def require_clinician(user: Annotated[User, Depends(current_user)]) -> User:
+    if user.role != "clinician":
+        raise HTTPException(403, "only a clinician may change or sign a note")
+    return user
+
+
+CurrentUser = Annotated[User, Depends(current_user)]
+Clinician = Annotated[User, Depends(require_clinician)]
+
+
 def visit_summary(v: Visit) -> dict[str, Any]:
     note = v.note
     flags = 0
@@ -120,23 +141,8 @@ def create_app(settings: Settings | None = None, services: Services | None = Non
     for triple in settings.auth_tokens:
         role, name, token = triple.split(":", 2)
         tokens[token] = User(name=name, role=role)
-
-    def current_user(authorization: Annotated[str | None, Header()] = None) -> User:
-        if not tokens:
-            return User(name=settings.demo_user, role="clinician")
-        token = (authorization or "").removeprefix("Bearer ").strip()
-        user = tokens.get(token)
-        if user is None:
-            raise HTTPException(401, "missing or invalid bearer token")
-        return user
-
-    def clinician(user: Annotated[User, Depends(current_user)]) -> User:
-        if user.role != "clinician":
-            raise HTTPException(403, "only a clinician may change or sign a note")
-        return user
-
-    CurrentUser = Annotated[User, Depends(current_user)]
-    Clinician = Annotated[User, Depends(clinician)]
+    app.state.tokens = tokens
+    app.state.settings = settings
 
     @app.exception_handler(ServiceError)
     async def service_error(_: Request, exc: ServiceError) -> JSONResponse:

@@ -1,0 +1,763 @@
+{
+ "note": {
+  "visit_id": "dm-02",
+  "statements": [
+   {
+    "id": "s1",
+    "section": "subjective",
+    "text": "Acne since age 18, worsened over last 6 months, affecting face and upper back.",
+    "evidence": [
+     {
+      "turn": 3,
+      "quote": "My acne. I've had it since like, 18, but the last 6 months it's gotten so much worse. It's on my face and some on my upper back.",
+      "verified": true,
+      "score": 1.0
+     }
+    ],
+    "support": "supported",
+    "flags": [],
+    "origin": "model",
+    "edited": false
+   },
+   {
+    "id": "s2",
+    "section": "subjective",
+    "text": "Tried benzoyl peroxide 10% wash for about a month, stopped due to bleaching of towels and pillowcases.",
+    "evidence": [
+     {
+      "turn": 5,
+      "quote": "I used a benzoyl peroxide wash, the 10 percent one, for about a month. But I stopped it in the summer because it bleached all my towels and my pillowcases.",
+      "verified": true,
+      "score": 1.0
+     }
+    ],
+    "support": "supported",
+    "flags": [],
+    "origin": "model",
+    "edited": false
+   },
+   {
+    "id": "s3",
+    "section": "subjective",
+    "text": "Reports benzoyl peroxide helped a little but not enough.",
+    "evidence": [
+     {
+      "turn": 7,
+      "quote": "A little, I guess. Not enough.",
+      "verified": true,
+      "score": 1.0
+     }
+    ],
+    "support": "supported",
+    "flags": [],
+    "origin": "model",
+    "edited": false
+   },
+   {
+    "id": "s4",
+    "section": "subjective",
+    "text": "Taking norgestimate birth control pill once daily.",
+    "evidence": [
+     {
+      "turn": 9,
+      "quote": "I'm on the birth control pill, the norgestimate one, once a day.",
+      "verified": true,
+      "score": 1.0
+     }
+    ],
+    "support": "supported",
+    "flags": [],
+    "origin": "model",
+    "edited": false
+   },
+   {
+    "id": "s5",
+    "section": "subjective",
+    "text": "Taking vitamin D3 2000 units daily.",
+    "evidence": [
+     {
+      "turn": 9,
+      "quote": "And vitamin D3, 2000 units a day.",
+      "verified": true,
+      "score": 1.0
+     }
+    ],
+    "support": "partial",
+    "flags": [
+     {
+      "kind": "partial_support",
+      "severity": "error",
+      "message": "Quoted turn does not contain 3; check against the transcript.",
+      "acknowledged": false,
+      "detail": {
+       "numbers_not_in_evidence": [
+        "3"
+       ]
+      }
+     }
+    ],
+    "origin": "model",
+    "edited": false
+   },
+   {
+    "id": "s6",
+    "section": "subjective",
+    "text": "Denies extra hair growth on chin or chest.",
+    "evidence": [
+     {
+      "turn": 14,
+      "quote": "Any extra hair growth on your chin or chest?",
+      "verified": true,
+      "score": 1.0
+     },
+     {
+      "turn": 15,
+      "quote": "No.",
+      "verified": true,
+      "score": 1.0
+     }
+    ],
+    "support": "supported",
+    "flags": [],
+    "origin": "model",
+    "edited": false
+   },
+   {
+    "id": "s7",
+    "section": "subjective",
+    "text": "Reports dark spots from acne, no scarring.",
+    "evidence": [
+     {
+      "turn": 17,
+      "quote": "Dark spots, yeah. I don't think scars.",
+      "verified": true,
+      "score": 1.0
+     }
+    ],
+    "support": "supported",
+    "flags": [],
+    "origin": "model",
+    "edited": false
+   },
+   {
+    "id": "s8",
+    "section": "subjective",
+    "text": "Last menstrual period was 2 weeks ago.",
+    "evidence": [
+     {
+      "turn": 25,
+      "quote": "No. My last period was 2 weeks ago.",
+      "verified": true,
+      "score": 1.0
+     }
+    ],
+    "support": "supported",
+    "flags": [],
+    "origin": "model",
+    "edited": false
+   },
+   {
+    "id": "s9",
+    "section": "subjective",
+    "text": "Denies current pregnancy.",
+    "evidence": [
+     {
+      "turn": 25,
+      "quote": "No. My last period was 2 weeks ago.",
+      "verified": true,
+      "score": 1.0
+     }
+    ],
+    "support": "supported",
+    "flags": [],
+    "origin": "model",
+    "edited": false
+   },
+   {
+    "id": "s10",
+    "section": "subjective",
+    "text": "Allergic to amoxicillin; caused hives as a child.",
+    "evidence": [
+     {
+      "turn": 10,
+      "quote": "Any allergies to medications?",
+      "verified": true,
+      "score": 1.0
+     },
+     {
+      "turn": 11,
+      "quote": "Amoxicillin. I got hives all over when I was a kid.",
+      "verified": true,
+      "score": 1.0
+     }
+    ],
+    "support": "supported",
+    "flags": [],
+    "origin": "model",
+    "edited": false
+   },
+   {
+    "id": "s11",
+    "section": "subjective",
+    "text": "Reports periods are regular while on birth control pill.",
+    "evidence": [
+     {
+      "turn": 12,
+      "quote": "Are your periods regular?",
+      "verified": true,
+      "score": 1.0
+     },
+     {
+      "turn": 13,
+      "quote": "Yeah, pretty regular, on the pill anyway.",
+      "verified": true,
+      "score": 1.0
+     }
+    ],
+    "support": "supported",
+    "flags": [],
+    "origin": "model",
+    "edited": false
+   },
+   {
+    "id": "o1",
+    "section": "objective",
+    "text": "Forehead, cheeks, jawline: multiple open and closed comedones, about 15 red inflamed bumps, maybe 6 pustules, a few tender 4 mm nodules along jawline, no large cysts.",
+    "evidence": [
+     {
+      "turn": 18,
+      "quote": "On your forehead, cheeks and jawline you've got lots of open and closed comedones, so blackheads and whiteheads, about 15 red inflamed bumps and maybe 6 pustules. There are a few tender 4 millimeter nodules along the jawline, no large cysts.",
+      "verified": true,
+      "score": 1.0
+     }
+    ],
+    "support": "supported",
+    "flags": [],
+    "origin": "model",
+    "edited": false
+   },
+   {
+    "id": "o2",
+    "section": "objective",
+    "text": "Flat dark brown spots on both cheeks consistent with post-inflammatory hyperpigmentation.",
+    "evidence": [
+     {
+      "turn": 18,
+      "quote": "You have some flat dark brown spots on both cheeks, that's post-inflammatory hyperpigmentation.",
+      "verified": true,
+      "score": 1.0
+     }
+    ],
+    "support": "supported",
+    "flags": [],
+    "origin": "model",
+    "edited": false
+   },
+   {
+    "id": "o3",
+    "section": "objective",
+    "text": "No scarring observed.",
+    "evidence": [
+     {
+      "turn": 18,
+      "quote": "I don't see any scarring.",
+      "verified": true,
+      "score": 1.0
+     }
+    ],
+    "support": "supported",
+    "flags": [],
+    "origin": "model",
+    "edited": false
+   },
+   {
+    "id": "o4",
+    "section": "objective",
+    "text": "Upper back: scattered red papules, approximately 10.",
+    "evidence": [
+     {
+      "turn": 18,
+      "quote": "On the upper back, scattered red papules, maybe 10 or so.",
+      "verified": true,
+      "score": 1.0
+     }
+    ],
+    "support": "supported",
+    "flags": [],
+    "origin": "model",
+    "edited": false
+   },
+   {
+    "id": "a1",
+    "section": "assessment",
+    "text": "Moderate acne vulgaris with post-inflammatory hyperpigmentation.",
+    "evidence": [
+     {
+      "turn": 20,
+      "quote": "I'd call this moderate acne vulgaris, with some dark spots from old breakouts.",
+      "verified": true,
+      "score": 1.0
+     }
+    ],
+    "support": "supported",
+    "flags": [],
+    "origin": "model",
+    "edited": false
+   },
+   {
+    "id": "p1",
+    "section": "plan",
+    "text": "Start adapalene 0.1% gel, pea-sized amount to whole face at night; begin every other night for first 2 weeks.",
+    "evidence": [
+     {
+      "turn": 20,
+      "quote": "First, adapalene 0.1 percent gel, a pea-sized amount to your whole face at night. Start every other night for the first 2 weeks, because it can make your skin dry and a little peely.",
+      "verified": true,
+      "score": 1.0
+     }
+    ],
+    "support": "supported",
+    "flags": [],
+    "origin": "model",
+    "edited": false
+   },
+   {
+    "id": "p2",
+    "section": "plan",
+    "text": "Start doxycycline 100 mg twice daily for 3 months; take with food and full glass of water; remain upright 30 minutes after; avoid dairy, calcium, iron within 2 hours.",
+    "evidence": [
+     {
+      "turn": 22,
+      "quote": "Second, doxycycline 100 milligrams twice a day for 3 months. Take it with food and a full glass of water, and stay upright for 30 minutes after, so it doesn't irritate your esophagus. Keep it 2 hours away from dairy, calcium or iron.",
+      "verified": true,
+      "score": 1.0
+     }
+    ],
+    "support": "supported",
+    "flags": [],
+    "origin": "model",
+    "edited": false
+   },
+   {
+    "id": "p3",
+    "section": "plan",
+    "text": "Resume benzoyl peroxide 4% wash once daily in morning.",
+    "evidence": [
+     {
+      "turn": 30,
+      "quote": "I'd also like you to go back to benzoyl peroxide, but the gentler 4 percent wash, once in the morning.",
+      "verified": true,
+      "score": 1.0
+     }
+    ],
+    "support": "supported",
+    "flags": [],
+    "origin": "model",
+    "edited": false
+   },
+   {
+    "id": "p4",
+    "section": "plan",
+    "text": "Use white towels and pillowcases to avoid concern about bleaching.",
+    "evidence": [
+     {
+      "turn": 30,
+      "quote": "Use white towels and you won't care about the bleaching.",
+      "verified": true,
+      "score": 1.0
+     }
+    ],
+    "support": "supported",
+    "flags": [],
+    "origin": "model",
+    "edited": false
+   },
+   {
+    "id": "p5",
+    "section": "plan",
+    "text": "Apply sunscreen SPF 30 or higher every morning; wear hat if outdoors extensively due to photosensitivity from doxycycline and adapalene.",
+    "evidence": [
+     {
+      "turn": 28,
+      "quote": "The other big thing with doxycycline is sun sensitivity. You can burn really fast on it. So sunscreen, SPF 30 or higher every morning, and a hat if you're out a lot. The adapalene makes you more sun sensitive too.",
+      "verified": true,
+      "score": 1.0
+     }
+    ],
+    "support": "supported",
+    "flags": [],
+    "origin": "model",
+    "edited": false
+   },
+   {
+    "id": "p6",
+    "section": "plan",
+    "text": "If pregnancy suspected, stop adapalene and doxycycline and contact clinic.",
+    "evidence": [
+     {
+      "turn": 26,
+      "quote": "No, and that's a really good question. Doxycycline can affect a baby's teeth and bones, and we don't use adapalene in pregnancy either. So if you ever think you might be pregnant, stop both and call us.",
+      "verified": true,
+      "score": 1.0
+     }
+    ],
+    "support": "supported",
+    "flags": [],
+    "origin": "model",
+    "edited": false
+   },
+   {
+    "id": "p7",
+    "section": "plan",
+    "text": "Return in 3 months for follow-up.",
+    "evidence": [
+     {
+      "turn": 36,
+      "quote": "Let's see you back in 3 months.",
+      "verified": true,
+      "score": 1.0
+     }
+    ],
+    "support": "partial",
+    "flags": [
+     {
+      "kind": "partial_support",
+      "severity": "warning",
+      "message": "Quoted turn does not contain most of its terms; check against the transcript.",
+      "acknowledged": false,
+      "detail": {}
+     }
+    ],
+    "origin": "model",
+    "edited": false
+   },
+   {
+    "id": "p8",
+    "section": "plan",
+    "text": "If severe sunburn, significant stomach upset, or headaches with vision changes on doxycycline, stop medication and call clinic.",
+    "evidence": [
+     {
+      "turn": 36,
+      "quote": "If you get a really bad sunburn, bad stomach upset or headaches with vision changes on the doxycycline, stop it and call us.",
+      "verified": true,
+      "score": 1.0
+     }
+    ],
+    "support": "supported",
+    "flags": [],
+    "origin": "model",
+    "edited": false
+   }
+  ],
+  "medications": [
+   {
+    "name": "adapalene",
+    "dose": "0.1 percent",
+    "frequency": "every other night (initially, then nightly)",
+    "route": "topical",
+    "status": "new",
+    "evidence": [
+     {
+      "turn": 20,
+      "quote": "First, adapalene 0.1 percent gel, a pea-sized amount to your whole face at night. Start every other night for the first 2 weeks, because it can make your skin dry and a little peely.",
+      "verified": true,
+      "score": 1.0
+     }
+    ],
+    "flags": []
+   },
+   {
+    "name": "doxycycline",
+    "dose": "100 mg",
+    "frequency": "twice daily",
+    "route": "oral",
+    "status": "new",
+    "evidence": [
+     {
+      "turn": 22,
+      "quote": "Second, doxycycline 100 milligrams twice a day for 3 months. Take it with food and a full glass of water, and stay upright for 30 minutes after, so it doesn't irritate your esophagus. Keep it 2 hours away from dairy, calcium or iron.",
+      "verified": true,
+      "score": 1.0
+     }
+    ],
+    "flags": []
+   },
+   {
+    "name": "benzoyl peroxide",
+    "dose": "4 percent",
+    "frequency": "once daily",
+    "route": "topical",
+    "status": "changed",
+    "evidence": [
+     {
+      "turn": 30,
+      "quote": "I'd also like you to go back to benzoyl peroxide, but the gentler 4 percent wash, once in the morning.",
+      "verified": true,
+      "score": 1.0
+     }
+    ],
+    "flags": []
+   },
+   {
+    "name": "norgestimate",
+    "dose": "not specified",
+    "frequency": "once daily",
+    "route": "oral",
+    "status": "active",
+    "evidence": [
+     {
+      "turn": 9,
+      "quote": "I'm on the birth control pill, the norgestimate one, once a day.",
+      "verified": true,
+      "score": 1.0
+     }
+    ],
+    "flags": [
+     {
+      "kind": "unknown_drug",
+      "severity": "warning",
+      "message": "'norgestimate' is not in the drug list: check the spelling and the dose yourself.",
+      "acknowledged": false,
+      "detail": {}
+     }
+    ]
+   },
+   {
+    "name": "vitamin D3",
+    "dose": "2000 units",
+    "frequency": "daily",
+    "route": "oral",
+    "status": "active",
+    "evidence": [
+     {
+      "turn": 9,
+      "quote": "And vitamin D3, 2000 units a day.",
+      "verified": true,
+      "score": 1.0
+     }
+    ],
+    "flags": []
+   }
+  ],
+  "allergies": [
+   {
+    "substance": "amoxicillin",
+    "reaction": "hives",
+    "evidence": [
+     {
+      "turn": 10,
+      "quote": "Any allergies to medications?",
+      "verified": true,
+      "score": 1.0
+     },
+     {
+      "turn": 11,
+      "quote": "Amoxicillin. I got hives all over when I was a kid.",
+      "verified": true,
+      "score": 1.0
+     }
+    ]
+   }
+  ],
+  "after_visit_summary": "You have moderate acne with dark spots from past breakouts. We are starting two treatments: adapalene 0.1% gel to use every other night at first, then nightly, and doxycycline 100 mg twice daily for 3 months. You will also restart a 4% benzoyl peroxide wash each morning. Take doxycycline with food and a full glass of water, stay upright for 30 minutes after, and avoid dairy, calcium, or iron for 2 hours before and after. Use sunscreen SPF 30 or higher every morning and wear a hat when outside, as both medications increase sun sensitivity. If you think you might be pregnant, stop both medications and call us right away. Use white towels to avoid bleaching concerns. Return in 3 months for a check-up. Call sooner if you get a bad sunburn, severe stomach upset, or headaches with vision changes.",
+  "avs_flags": [],
+  "icd10": [
+   {
+    "system": "ICD-10-CM",
+    "code": "L70.0",
+    "description": "Acne vulgaris",
+    "rank": 1,
+    "rationale": "Moderate acne vulgaris is the primary diagnosis assessed in this visit, supported by description of comedones, inflammatory papules, pustules, and nodules on face and upper back.",
+    "evidence": [
+     {
+      "turn": 20,
+      "quote": "I'd call this moderate acne vulgaris, with some dark spots from old breakouts.",
+      "verified": true,
+      "score": 1.0
+     },
+     {
+      "turn": 18,
+      "quote": "On your forehead, cheeks and jawline you've got lots of open and closed comedones, so blackheads and whiteheads, about 15 red inflamed bumps and maybe 6 pustules. There are a few tender 4 millimeter nodules along the jawline, no large cysts.",
+      "verified": true,
+      "score": 1.0
+     }
+    ],
+    "valid": true,
+    "billable": true,
+    "flags": [],
+    "accepted": null
+   },
+   {
+    "system": "ICD-10-CM",
+    "code": "L81.0",
+    "description": "Postinflammatory hyperpigmentation",
+    "rank": 2,
+    "rationale": "Postinflammatory hyperpigmentation is assessed as a secondary condition, described as flat dark brown spots on cheeks consistent with post-inflammatory hyperpigmentation from acne.",
+    "evidence": [
+     {
+      "turn": 18,
+      "quote": "You have some flat dark brown spots on both cheeks, that's post-inflammatory hyperpigmentation.",
+      "verified": true,
+      "score": 1.0
+     },
+     {
+      "turn": 20,
+      "quote": "I'd call this moderate acne vulgaris, with some dark spots from old breakouts.",
+      "verified": true,
+      "score": 1.0
+     }
+    ],
+    "valid": true,
+    "billable": true,
+    "flags": [],
+    "accepted": null
+   }
+  ],
+  "em": {
+   "system": "CPT",
+   "code": "99203",
+   "description": "New patient office visit, low-complexity decision making",
+   "rank": 1,
+   "rationale": "New patient visit with 2 problems (acne vulgaris, post-inflammatory hyperpigmentation), moderate medical decision making (prescription drug management of adapalene and doxycycline), no additional data reviewed/ordered beyond history and exam, low risk.",
+   "evidence": [],
+   "valid": true,
+   "billable": true,
+   "flags": [],
+   "accepted": null
+  },
+  "procedures": [],
+  "mdm": {
+   "problems": "low",
+   "data": "straightforward",
+   "risk": "moderate",
+   "level": "low",
+   "code": "99203",
+   "reasons": [
+    "problems: one stable chronic illness or two self-limited problems",
+    "risk: prescription drug management"
+   ]
+  },
+  "section_status": {
+   "subjective": "draft",
+   "objective": "draft",
+   "assessment": "draft",
+   "plan": "draft"
+  },
+  "model": "openrouter/nvidia/nemotron-3-super-120b-a12b:free",
+  "created_at": "2026-10-13T05:27:28.925496Z",
+  "signed_by": null,
+  "signed_at": null,
+  "timings": {
+   "phi_masking": 0.036,
+   "llm_note": 18.421,
+   "guards_note": 0.088,
+   "llm_codes": 6.621,
+   "guards_codes": 0.02,
+   "total": 25.186
+  },
+  "usage": {
+   "input_tokens": 5098,
+   "output_tokens": 2828,
+   "calls": 2
+  },
+  "phi": {
+   "NAME": 3,
+   "DOB": 1,
+   "ORG": 1,
+   "ADDRESS": 1,
+   "PHONE": 1
+  }
+ },
+ "vault": {
+  "originals": {
+   "[NAME_1]": "Mei-Ling Chou",
+   "[PATIENT]": "Adaeze Okafor",
+   "[DOB]": "February 14th, 2005",
+   "[ORG_1]": "Lakeshore State",
+   "[NAME_2]": "Priya",
+   "[ADDRESS_1]": "4120 Belmont Avenue",
+   "[PHONE_1]": "555-0118"
+  },
+  "surfaces": {
+   "[NAME_1]": [
+    "Mei-Ling Chou"
+   ],
+   "[PATIENT]": [
+    "Adaeze",
+    "Adaeze Okafor"
+   ],
+   "[DOB]": [
+    "February 14th, 2005"
+   ],
+   "[ORG_1]": [
+    "Lakeshore State"
+   ],
+   "[NAME_2]": [
+    "Priya"
+   ],
+   "[ADDRESS_1]": [
+    "4120 Belmont Avenue"
+   ],
+   "[PHONE_1]": [
+    "555-0118"
+   ]
+  },
+  "types": {
+   "[NAME_1]": "NAME",
+   "[PATIENT]": "NAME",
+   "[DOB]": "DOB",
+   "[ORG_1]": "ORG",
+   "[NAME_2]": "NAME",
+   "[ADDRESS_1]": "ADDRESS",
+   "[PHONE_1]": "PHONE"
+  },
+  "counters": {
+   "NAME": 2,
+   "ORG": 1,
+   "ADDRESS": 1,
+   "PHONE": 1
+  }
+ },
+ "score": {
+  "case": "dm-02",
+  "specialty": "dermatology",
+  "facts": 27,
+  "found": 26,
+  "found_in_section": 26,
+  "negation_errors": [],
+  "trap_errors": [],
+  "missed": [
+   "f25 [plan] Prescriptions sent to pharmacy on Belmont Avenue"
+  ],
+  "statements": 24,
+  "statements_matching_gold": 21,
+  "unsupported": 0,
+  "partial": 2,
+  "flags": {
+   "partial_support": 2,
+   "unknown_drug": 1
+  },
+  "meds": 5,
+  "meds_found": 4,
+  "meds_dose_correct": 4,
+  "icd_primary": "L70.0",
+  "icd_suggested": [
+   "L70.0",
+   "L81.0"
+  ],
+  "icd_top1": true,
+  "icd_top3": true,
+  "icd_top3_lenient": true,
+  "icd_top3_category": true,
+  "icd_gold_recall": 1.0,
+  "icd_invalid": 0,
+  "em_gold": "99204",
+  "em_suggested": "99203",
+  "em_exact": false,
+  "em_within_one": true,
+  "em_rule_estimate": "99203",
+  "procedures_gold": 0,
+  "procedures_found": 0
+ },
+ "egress_residue": {}
+}

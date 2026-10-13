@@ -103,7 +103,7 @@ def signature(audio: Audio, start: float, end: float) -> np.ndarray[Any, np.dtyp
 def _standardize(
     x: np.ndarray[Any, np.dtype[np.float64]], mean: Any, std: Any
 ) -> np.ndarray[Any, np.dtype[np.float64]]:
-    z = (x - mean) / std
+    z: np.ndarray[Any, np.dtype[np.float64]] = (x - mean) / std
     z[..., -1] *= PITCH_WEIGHT
     return z
 

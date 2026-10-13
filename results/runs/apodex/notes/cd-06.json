@@ -1,0 +1,885 @@
+{
+ "note": {
+  "visit_id": "cd-06",
+  "statements": [
+   {
+    "id": "s1",
+    "section": "subjective",
+    "text": "New patient referred for elevated blood pressure.",
+    "evidence": [
+     {
+      "turn": 4,
+      "quote": "Dr. Lindqvist sent you to us about your blood pressure.",
+      "verified": true,
+      "score": 1.0
+     }
+    ],
+    "support": "supported",
+    "flags": [],
+    "origin": "model",
+    "edited": false
+   },
+   {
+    "id": "s2",
+    "section": "subjective",
+    "text": "Blood pressure was 156 over 98 at physical in July. Home readings have been in the 150s over 90s most days for 2 months.",
+    "evidence": [
+     {
+      "turn": 5,
+      "quote": "it was high, like 156 over 98. ... it's been running in the 150s over 90s pretty much every day for 2 months.",
+      "verified": true,
+      "score": 1.0
+     }
+    ],
+    "support": "supported",
+    "flags": [],
+    "origin": "model",
+    "edited": false
+   },
+   {
+    "id": "s3",
+    "section": "subjective",
+    "text": "Started amlodipine 5 mg once daily about 6 weeks ago. Readings decreased slightly to about 145 over 92.",
+    "evidence": [
+     {
+      "turn": 7,
+      "quote": "Yeah, amlodipine, 5 milligrams once a day. About 6 weeks ago. It came down a little, but my readings are still like 145 over 92.",
+      "verified": true,
+      "score": 1.0
+     }
+    ],
+    "support": "supported",
+    "flags": [],
+    "origin": "model",
+    "edited": false
+   },
+   {
+    "id": "s4",
+    "section": "subjective",
+    "text": "Denies headaches, vision changes, and chest pain.",
+    "evidence": [
+     {
+      "turn": 8,
+      "quote": "Any headaches, vision changes, or chest pain?",
+      "verified": true,
+      "score": 1.0
+     },
+     {
+      "turn": 9,
+      "quote": "No headaches. Vision's fine. No chest pain.",
+      "verified": true,
+      "score": 1.0
+     }
+    ],
+    "support": "supported",
+    "flags": [],
+    "origin": "model",
+    "edited": false
+   },
+   {
+    "id": "s5",
+    "section": "subjective",
+    "text": "Denies shortness of breath and leg swelling.",
+    "evidence": [
+     {
+      "turn": 10,
+      "quote": "Shortness of breath, or swelling in your legs?",
+      "verified": true,
+      "score": 1.0
+     },
+     {
+      "turn": 11,
+      "quote": "No, neither.",
+      "verified": true,
+      "score": 1.0
+     }
+    ],
+    "support": "supported",
+    "flags": [],
+    "origin": "model",
+    "edited": false
+   },
+   {
+    "id": "s6",
+    "section": "subjective",
+    "text": "Family history: father had a heart attack at 51 and died of a second heart attack at 58. Mother had a stroke at 70.",
+    "evidence": [
+     {
+      "turn": 13,
+      "quote": "My dad had a heart attack at 51, and he passed away from a second one at 58. And my mom had a stroke when she was 70.",
+      "verified": true,
+      "score": 1.0
+     }
+    ],
+    "support": "supported",
+    "flags": [],
+    "origin": "model",
+    "edited": false
+   },
+   {
+    "id": "s7",
+    "section": "subjective",
+    "text": "No personal history of heart problems.",
+    "evidence": [
+     {
+      "turn": 15,
+      "quote": "No, nothing. Never had any heart issue. Just the blood pressure.",
+      "verified": true,
+      "score": 1.0
+     }
+    ],
+    "support": "supported",
+    "flags": [],
+    "origin": "model",
+    "edited": false
+   },
+   {
+    "id": "s8",
+    "section": "subjective",
+    "text": "Reports snoring loudly, occasional apneas with gasping, and daytime tiredness.",
+    "evidence": [
+     {
+      "turn": 17,
+      "quote": "My wife Daniela says I snore like a chainsaw. She says sometimes I stop breathing and then gasp. I'm tired most days, too.",
+      "verified": true,
+      "score": 1.0
+     }
+    ],
+    "support": "supported",
+    "flags": [],
+    "origin": "model",
+    "edited": false
+   },
+   {
+    "id": "s9",
+    "section": "subjective",
+    "text": "Takes pseudoephedrine for sinuses, about 30 mg, 2 tablets most mornings.",
+    "evidence": [
+     {
+      "turn": 19,
+      "quote": "I take pseudoephedrine most mornings for my sinuses. 30 milligrams, maybe 2 tablets.",
+      "verified": true,
+      "score": 1.0
+     }
+    ],
+    "support": "supported",
+    "flags": [],
+    "origin": "model",
+    "edited": false
+   },
+   {
+    "id": "s10",
+    "section": "subjective",
+    "text": "Alcohol: 3 to 4 beers on the weekend. Never smoked. Works as a project manager and eats a lot of fast food.",
+    "evidence": [
+     {
+      "turn": 21,
+      "quote": "3 or 4 beers on the weekend. I've never smoked. I'm a project manager at Brightwater Construction, so I eat a lot of fast food on the road.",
+      "verified": true,
+      "score": 1.0
+     }
+    ],
+    "support": "supported",
+    "flags": [],
+    "origin": "model",
+    "edited": false
+   },
+   {
+    "id": "o1",
+    "section": "objective",
+    "text": "Blood pressure 148 over 94 right arm, 144 over 90 left arm. Repeat after 5 minutes 146 over 92.",
+    "evidence": [
+     {
+      "turn": 22,
+      "quote": "Your blood pressure is 148 over 94 in the right arm, 144 over 90 in the left. I repeated it after 5 minutes and got 146 over 92.",
+      "verified": true,
+      "score": 1.0
+     }
+    ],
+    "support": "supported",
+    "flags": [],
+    "origin": "model",
+    "edited": false
+   },
+   {
+    "id": "o2",
+    "section": "objective",
+    "text": "Pulse 80.",
+    "evidence": [
+     {
+      "turn": 22,
+      "quote": "Pulse 80.",
+      "verified": true,
+      "score": 1.0
+     }
+    ],
+    "support": "supported",
+    "flags": [],
+    "origin": "model",
+    "edited": false
+   },
+   {
+    "id": "o3",
+    "section": "objective",
+    "text": "Weight 228 pounds, BMI 31.4.",
+    "evidence": [
+     {
+      "turn": 22,
+      "quote": "Weight is 228 pounds, which puts your BMI at 31.4.",
+      "verified": true,
+      "score": 1.0
+     }
+    ],
+    "support": "supported",
+    "flags": [],
+    "origin": "model",
+    "edited": false
+   },
+   {
+    "id": "o4",
+    "section": "objective",
+    "text": "No carotid or abdominal bruits. Heart regular, no murmurs. Lungs clear. No leg swelling. Groin and foot pulses normal.",
+    "evidence": [
+     {
+      "turn": 22,
+      "quote": "No bruits in your neck or belly. Heart is regular, no murmurs. Lungs are clear. No leg swelling, and the pulses in your groin and feet are normal.",
+      "verified": true,
+      "score": 1.0
+     }
+    ],
+    "support": "supported",
+    "flags": [],
+    "origin": "model",
+    "edited": false
+   },
+   {
+    "id": "o5",
+    "section": "objective",
+    "text": "Creatinine 1.0, potassium 4.1, A1c 5.6.",
+    "evidence": [
+     {
+      "turn": 24,
+      "quote": "Kidney function is normal, creatinine 1.0, potassium 4.1, and your A1c is 5.6, so no diabetes.",
+      "verified": true,
+      "score": 1.0
+     }
+    ],
+    "support": "supported",
+    "flags": [],
+    "origin": "model",
+    "edited": false
+   },
+   {
+    "id": "o6",
+    "section": "objective",
+    "text": "ECG from August shows sinus rhythm with voltage suggestive of increased left ventricular muscle mass.",
+    "evidence": [
+     {
+      "turn": 24,
+      "quote": "The ECG from August shows sinus rhythm with some voltage that suggests the heart muscle may be a little thick from the pressure.",
+      "verified": true,
+      "score": 1.0
+     }
+    ],
+    "support": "supported",
+    "flags": [],
+    "origin": "model",
+    "edited": false
+   },
+   {
+    "id": "a1",
+    "section": "assessment",
+    "text": "Uncontrolled hypertension despite amlodipine 5 mg once daily.",
+    "evidence": [
+     {
+      "turn": 26,
+      "quote": "You have high blood pressure that isn't controlled yet.",
+      "verified": true,
+      "score": 1.0
+     }
+    ],
+    "support": "supported",
+    "flags": [],
+    "origin": "model",
+    "edited": false
+   },
+   {
+    "id": "a2",
+    "section": "assessment",
+    "text": "No personal history of heart attack or stroke.",
+    "evidence": [
+     {
+      "turn": 26,
+      "quote": "to be clear, you haven't had a heart attack or a stroke, those were your parents.",
+      "verified": true,
+      "score": 1.0
+     }
+    ],
+    "support": "supported",
+    "flags": [],
+    "origin": "model",
+    "edited": false
+   },
+   {
+    "id": "a3",
+    "section": "assessment",
+    "text": "Suspected obstructive sleep apnea contributing to resistant hypertension.",
+    "evidence": [
+     {
+      "turn": 30,
+      "quote": "the snoring and stopping breathing sound like sleep apnea, which is a common cause of hard to control blood pressure.",
+      "verified": true,
+      "score": 1.0
+     }
+    ],
+    "support": "supported",
+    "flags": [],
+    "origin": "model",
+    "edited": false
+   },
+   {
+    "id": "a4",
+    "section": "assessment",
+    "text": "ECG evidence suggestive of left ventricular hypertrophy from chronic hypertension.",
+    "evidence": [
+     {
+      "turn": 24,
+      "quote": "voltage that suggests the heart muscle may be a little thick from the pressure.",
+      "verified": true,
+      "score": 1.0
+     }
+    ],
+    "support": "supported",
+    "flags": [],
+    "origin": "model",
+    "edited": false
+   },
+   {
+    "id": "p1",
+    "section": "plan",
+    "text": "Increase amlodipine to 10 mg once daily.",
+    "evidence": [
+     {
+      "turn": 28,
+      "quote": "First, I'm increasing the amlodipine to 10 milligrams once a day.",
+      "verified": true,
+      "score": 1.0
+     }
+    ],
+    "support": "supported",
+    "flags": [],
+    "origin": "model",
+    "edited": false
+   },
+   {
+    "id": "p2",
+    "section": "plan",
+    "text": "Stop pseudoephedrine.",
+    "evidence": [
+     {
+      "turn": 28,
+      "quote": "Second, please stop the pseudoephedrine, it pushes the blood pressure up.",
+      "verified": true,
+      "score": 1.0
+     }
+    ],
+    "support": "supported",
+    "flags": [],
+    "origin": "model",
+    "edited": false
+   },
+   {
+    "id": "p3",
+    "section": "plan",
+    "text": "Start fluticasone nasal spray, 2 sprays in each nostril once daily.",
+    "evidence": [
+     {
+      "turn": 28,
+      "quote": "Use a fluticasone nasal spray instead, 2 sprays in each nostril once a day.",
+      "verified": true,
+      "score": 1.0
+     }
+    ],
+    "support": "supported",
+    "flags": [],
+    "origin": "model",
+    "edited": false
+   },
+   {
+    "id": "p4",
+    "section": "plan",
+    "text": "Order home sleep study for suspected sleep apnea.",
+    "evidence": [
+     {
+      "turn": 30,
+      "quote": "I'm ordering a home sleep study.",
+      "verified": true,
+      "score": 1.0
+     }
+    ],
+    "support": "supported",
+    "flags": [],
+    "origin": "model",
+    "edited": false
+   },
+   {
+    "id": "p5",
+    "section": "plan",
+    "text": "Order echocardiogram.",
+    "evidence": [
+     {
+      "turn": 30,
+      "quote": "I also want an echocardiogram to look at the heart muscle.",
+      "verified": true,
+      "score": 1.0
+     }
+    ],
+    "support": "supported",
+    "flags": [],
+    "origin": "model",
+    "edited": false
+   },
+   {
+    "id": "p6",
+    "section": "plan",
+    "text": "Order fasting lipid panel and urine protein test.",
+    "evidence": [
+     {
+      "turn": 30,
+      "quote": "and a fasting lipid panel and a urine test for protein.",
+      "verified": true,
+      "score": 1.0
+     }
+    ],
+    "support": "supported",
+    "flags": [],
+    "origin": "model",
+    "edited": false
+   },
+   {
+    "id": "p7",
+    "section": "plan",
+    "text": "Dietary sodium restriction to under 2000 mg per day.",
+    "evidence": [
+     {
+      "turn": 32,
+      "quote": "try to keep salt under 2000 milligrams a day.",
+      "verified": true,
+      "score": 1.0
+     }
+    ],
+    "support": "supported",
+    "flags": [],
+    "origin": "model",
+    "edited": false
+   },
+   {
+    "id": "p8",
+    "section": "plan",
+    "text": "Limit alcohol to no more than 1 or 2 beers at a time.",
+    "evidence": [
+     {
+      "turn": 32,
+      "quote": "cut back to no more than 1 or 2 beers at a time.",
+      "verified": true,
+      "score": 1.0
+     }
+    ],
+    "support": "supported",
+    "flags": [],
+    "origin": "model",
+    "edited": false
+   },
+   {
+    "id": "p9",
+    "section": "plan",
+    "text": "Home blood pressure monitoring twice daily; bring log and cuff to follow-up.",
+    "evidence": [
+     {
+      "turn": 32,
+      "quote": "Keep checking your blood pressure at home twice a day and bring the log and your cuff next time.",
+      "verified": true,
+      "score": 1.0
+     }
+    ],
+    "support": "supported",
+    "flags": [],
+    "origin": "model",
+    "edited": false
+   },
+   {
+    "id": "p10",
+    "section": "plan",
+    "text": "Call 911 for chest pain, sudden weakness, or trouble speaking.",
+    "evidence": [
+     {
+      "turn": 34,
+      "quote": "If you ever get chest pain, sudden weakness, or trouble speaking, call 911 right away.",
+      "verified": true,
+      "score": 1.0
+     }
+    ],
+    "support": "supported",
+    "flags": [],
+    "origin": "model",
+    "edited": false
+   },
+   {
+    "id": "p11",
+    "section": "plan",
+    "text": "Follow-up in 4 weeks to review tests and home blood pressure numbers.",
+    "evidence": [
+     {
+      "turn": 34,
+      "quote": "Otherwise I'll see you back in 4 weeks to go over the tests and your home numbers.",
+      "verified": true,
+      "score": 1.0
+     }
+    ],
+    "support": "supported",
+    "flags": [],
+    "origin": "model",
+    "edited": false
+   }
+  ],
+  "medications": [
+   {
+    "name": "amlodipine",
+    "dose": "10 mg",
+    "frequency": "once daily",
+    "route": "oral",
+    "status": "changed",
+    "evidence": [
+     {
+      "turn": 28,
+      "quote": "First, I'm increasing the amlodipine to 10 milligrams once a day.",
+      "verified": true,
+      "score": 1.0
+     }
+    ],
+    "flags": []
+   },
+   {
+    "name": "fluticasone",
+    "dose": "2 sprays in each nostril",
+    "frequency": "once daily",
+    "route": "nasal",
+    "status": "new",
+    "evidence": [
+     {
+      "turn": 28,
+      "quote": "Use a fluticasone nasal spray instead, 2 sprays in each nostril once a day.",
+      "verified": true,
+      "score": 1.0
+     }
+    ],
+    "flags": []
+   },
+   {
+    "name": "pseudoephedrine",
+    "dose": "30 mg (2 tablets)",
+    "frequency": "most mornings",
+    "route": "oral",
+    "status": "stopped",
+    "evidence": [
+     {
+      "turn": 28,
+      "quote": "Second, please stop the pseudoephedrine, it pushes the blood pressure up.",
+      "verified": true,
+      "score": 1.0
+     }
+    ],
+    "flags": []
+   }
+  ],
+  "allergies": [],
+  "after_visit_summary": "Your blood pressure has been high for 2 months, even with a pill you started. We checked you today and it was still high. Your heart test today showed the extra pressure may be thickening the heart muscle, which is common and treatable. You never had a heart attack or stroke yourself. Your dad had heart attacks and your mom had a stroke, so your family history means we need to watch you closely. Your loud snoring and stopped breathing at night may be sleep apnea, which makes blood pressure hard to control.\n\nWe are raising your amlodipine to 10 mg once daily. You can stop the pseudoephedrine and use the fluticasone nasal spray (2 sprays in each nostril once a day) for your sinuses. We are ordering a sleep study, an echocardiogram, a fasting lipid blood test, and a urine test.\n\nTry to eat less salt, under 2000 mg a day, and have no more than 1 or 2 beers at a time. Check your blood pressure twice each day at home and bring your log and cuff next visit.\n\nCall 911 if you get chest pain, sudden weakness, or trouble speaking. Come back in 4 weeks for test results and your home numbers.",
+  "avs_flags": [],
+  "icd10": [
+   {
+    "system": "ICD-10-CM",
+    "code": "I10",
+    "description": "Essential (primary) hypertension",
+    "rank": 1,
+    "rationale": "Primary diagnosis: uncontrolled hypertension despite amlodipine therapy; elevated BP confirmed on repeat measurement.",
+    "evidence": [
+     {
+      "turn": 22,
+      "quote": "Your blood pressure is 148 over 94 in the right arm, 144 over 90 in the left. I repeated it after 5 minutes and got 146 over 92.",
+      "verified": true,
+      "score": 1.0
+     },
+     {
+      "turn": 26,
+      "quote": "You have high blood pressure that isn't controlled yet.",
+      "verified": true,
+      "score": 1.0
+     }
+    ],
+    "valid": true,
+    "billable": true,
+    "flags": [],
+    "accepted": null
+   },
+   {
+    "system": "ICD-10-CM",
+    "code": "G47.33",
+    "description": "Obstructive sleep apnea (adult) (pediatric)",
+    "rank": 2,
+    "rationale": "Suspected obstructive sleep apnea assessed as contributing to resistant hypertension, supported by loud snoring, witnessed apneas/gasping, and daytime fatigue.",
+    "evidence": [
+     {
+      "turn": 17,
+      "quote": "My wife says I snore like a chainsaw. She says sometimes I stop breathing and then gasp. I'm tired most days, too.",
+      "verified": true,
+      "score": 1.0
+     },
+     {
+      "turn": 30,
+      "quote": "the snoring and stopping breathing sound like sleep apnea, which is a common cause of hard to control blood pressure.",
+      "verified": true,
+      "score": 1.0
+     }
+    ],
+    "valid": true,
+    "billable": true,
+    "flags": [],
+    "accepted": null
+   },
+   {
+    "system": "ICD-10-CM",
+    "code": "Z82.3",
+    "description": "Family history of stroke",
+    "rank": 3,
+    "rationale": "Family history of stroke is relevant to the visit as it raises the patient's cardiovascular risk; coded as a family history factor.",
+    "evidence": [
+     {
+      "turn": 13,
+      "quote": "My dad had a heart attack at 51, and he passed away from a second one at 58. And my mom had a stroke when she was 70.",
+      "verified": true,
+      "score": 1.0
+     }
+    ],
+    "valid": true,
+    "billable": true,
+    "flags": [],
+    "accepted": null
+   },
+   {
+    "system": "ICD-10-CM",
+    "code": "Z72.0",
+    "description": "Tobacco use",
+    "rank": 4,
+    "rationale": "Tobacco use was explicitly denied, so no tobacco use code is assigned; no other relevant family/personal history code from the note supports a billable condition.",
+    "evidence": [
+     {
+      "turn": 21,
+      "quote": "I've never smoked.",
+      "verified": true,
+      "score": 1.0
+     }
+    ],
+    "valid": true,
+    "billable": true,
+    "flags": [
+     {
+      "kind": "code_unsupported",
+      "severity": "warning",
+      "message": "The code's title shares no terms with the assessment; check it matches a diagnosis.",
+      "acknowledged": false,
+      "detail": {}
+     },
+     {
+      "kind": "code_negated",
+      "severity": "error",
+      "message": "The code describes tobacco use, which the patient denied.",
+      "acknowledged": false,
+      "detail": {}
+     }
+    ],
+    "accepted": null
+   }
+  ],
+  "em": {
+   "system": "CPT",
+   "code": "99204",
+   "description": "New patient office visit, moderate-complexity decision making",
+   "rank": 1,
+   "rationale": "New patient, moderate MDM: one new/ongoing problem with moderate complexity (uncontrolled hypertension with LVH on ECG and suspected sleep apnea), data reviewed including outside ECG/labs plus new repeat vitals and moderate risk through prescription adjustment (amlodipine increase, stopping pseudoephedrine, starting fluticasone).",
+   "evidence": [],
+   "valid": true,
+   "billable": true,
+   "flags": [],
+   "accepted": null
+  },
+  "procedures": [
+   {
+    "system": "CPT",
+    "code": "93000",
+    "description": "Electrocardiogram with interpretation and report",
+    "rank": 1,
+    "rationale": "ECG with interpretation and report was performed today in clinic (repeat BP and ECG reviewed; the original ECG was from a prior date and not performed today).",
+    "evidence": [
+     {
+      "turn": 22,
+      "quote": "Let me check you... I repeated it after 5 minutes and got 146 over 92.",
+      "verified": true,
+      "score": 1.0
+     }
+    ],
+    "valid": true,
+    "billable": true,
+    "flags": [],
+    "accepted": null
+   }
+  ],
+  "mdm": {
+   "problems": "moderate",
+   "data": "moderate",
+   "risk": "moderate",
+   "level": "moderate",
+   "code": "99204",
+   "reasons": [
+    "problems: chronic illness not at goal",
+    "data: tests ordered or reviewed plus an independent interpretation",
+    "risk: prescription drug management"
+   ]
+  },
+  "section_status": {
+   "subjective": "draft",
+   "objective": "draft",
+   "assessment": "draft",
+   "plan": "draft"
+  },
+  "model": "openrouter/apodex/apodex-1.1-mini:free",
+  "created_at": "2026-10-13T05:51:38.104395Z",
+  "signed_by": null,
+  "signed_at": null,
+  "timings": {
+   "phi_masking": 0.031,
+   "llm_note": 12.63,
+   "guards_note": 0.074,
+   "llm_codes": 3.41,
+   "guards_codes": 0.041,
+   "total": 16.186,
+   "wall": 16.285
+  },
+  "usage": {
+   "model_ms": 16040,
+   "input_tokens": 5688,
+   "output_tokens": 3058,
+   "calls": 2
+  },
+  "phi": {
+   "NAME": 4,
+   "DOB": 1,
+   "ADDRESS": 2,
+   "DATE": 2,
+   "ORG": 1
+  }
+ },
+ "vault": {
+  "originals": {
+   "[NAME_1]": "Viktor Petrov",
+   "[PATIENT]": "Rodrigo Esquivel",
+   "[DOB]": "January 30th, 1982",
+   "[ADDRESS_1]": "Kellogg Avenue",
+   "[DATE_1]": "July",
+   "[ADDRESS_2]": "905 Magnolia Terrace",
+   "[NAME_2]": "Lindqvist",
+   "[NAME_3]": "Daniela",
+   "[ORG_1]": "Brightwater Construction",
+   "[DATE_2]": "August"
+  },
+  "surfaces": {
+   "[NAME_1]": [
+    "Viktor Petrov"
+   ],
+   "[PATIENT]": [
+    "Rodrigo",
+    "Rodrigo Esquivel"
+   ],
+   "[DOB]": [
+    "January 30th, 1982"
+   ],
+   "[ADDRESS_1]": [
+    "Kellogg Avenue"
+   ],
+   "[DATE_1]": [
+    "July"
+   ],
+   "[ADDRESS_2]": [
+    "905 Magnolia Terrace"
+   ],
+   "[NAME_2]": [
+    "Lindqvist"
+   ],
+   "[NAME_3]": [
+    "Daniela"
+   ],
+   "[ORG_1]": [
+    "Brightwater Construction"
+   ],
+   "[DATE_2]": [
+    "August"
+   ]
+  },
+  "types": {
+   "[NAME_1]": "NAME",
+   "[PATIENT]": "NAME",
+   "[DOB]": "DOB",
+   "[ADDRESS_1]": "ADDRESS",
+   "[DATE_1]": "DATE",
+   "[ADDRESS_2]": "ADDRESS",
+   "[NAME_2]": "NAME",
+   "[NAME_3]": "NAME",
+   "[ORG_1]": "ORG",
+   "[DATE_2]": "DATE"
+  },
+  "counters": {
+   "NAME": 3,
+   "ADDRESS": 2,
+   "DATE": 2,
+   "ORG": 1
+  }
+ },
+ "score": {
+  "case": "cd-06",
+  "specialty": "cardiology",
+  "facts": 30,
+  "found": 30,
+  "found_in_section": 29,
+  "negation_errors": [],
+  "trap_errors": [],
+  "missed": [],
+  "statements": 31,
+  "statements_matching_gold": 28,
+  "unsupported": 0,
+  "partial": 0,
+  "flags": {},
+  "meds": 3,
+  "meds_found": 3,
+  "meds_dose_correct": 2,
+  "icd_primary": "I10",
+  "icd_suggested": [
+   "I10",
+   "G47.33",
+   "Z82.3",
+   "Z72.0"
+  ],
+  "icd_top1": true,
+  "icd_top3": true,
+  "icd_top3_lenient": true,
+  "icd_top3_category": true,
+  "icd_gold_recall": 0.6666666666666666,
+  "icd_invalid": 0,
+  "em_gold": "99204",
+  "em_suggested": "99204",
+  "em_exact": true,
+  "em_within_one": true,
+  "em_rule_estimate": "99204",
+  "procedures_gold": 0,
+  "procedures_found": 0
+ },
+ "egress_residue": {}
+}

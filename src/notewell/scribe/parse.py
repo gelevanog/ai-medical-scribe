@@ -144,7 +144,8 @@ def parse_note(data: dict[str, Any]) -> tuple[list[Statement], list[Medication],
     for item in lowered.get("allergies", []) or []:
         if isinstance(item, dict) and str(item.get("substance", "")).strip():
             substance = str(item["substance"]).strip()
-            if substance.lower() in {"none", "nkda", "no known drug allergies", "no known allergies"}:
+            lowered_substance = substance.lower().strip(" .")
+            if lowered_substance in {"none", "nkda", "nka", "n/a", "unknown"} or lowered_substance.startswith(("no ", "none", "denies")):
                 continue
             allergies.append(
                 Allergy(

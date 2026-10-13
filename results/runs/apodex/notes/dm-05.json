@@ -1,0 +1,871 @@
+{
+ "note": {
+  "visit_id": "dm-05",
+  "statements": [
+   {
+    "id": "s1",
+    "section": "subjective",
+    "text": "Psoriasis worse over the last 4 months; spread to elbows and knees, a large lower back patch, and scalp itching",
+    "evidence": [
+     {
+      "turn": 3,
+      "quote": "Over the last 4 months it's spread. My elbows and knees are bad again, there's a big patch on my lower back, and my scalp itches like crazy.",
+      "verified": true,
+      "score": 1.0
+     }
+    ],
+    "support": "supported",
+    "flags": [],
+    "origin": "model",
+    "edited": false
+   },
+   {
+    "id": "s2",
+    "section": "subjective",
+    "text": "Psoriasis diagnosed 8 years ago; worst it has been",
+    "evidence": [
+     {
+      "turn": 3,
+      "quote": "I've had this for 8 years and this is the worst it's been.",
+      "verified": true,
+      "score": 1.0
+     }
+    ],
+    "support": "supported",
+    "flags": [],
+    "origin": "model",
+    "edited": false
+   },
+   {
+    "id": "s3",
+    "section": "subjective",
+    "text": "Using clobetasol ointment twice daily on worst spots; helps for a few days then recurrence",
+    "evidence": [
+     {
+      "turn": 5,
+      "quote": "Yes, twice a day on the worst spots. It helps for a few days and then it all comes back.",
+      "verified": true,
+      "score": 1.0
+     }
+    ],
+    "support": "supported",
+    "flags": [],
+    "origin": "model",
+    "edited": false
+   },
+   {
+    "id": "s4",
+    "section": "subjective",
+    "text": "Methotrexate stopped on own in June; dose 15 mg once weekly (6 of the 2.5 mg tablets); stopped due to nausea and hair thinning",
+    "evidence": [
+     {
+      "turn": 7,
+      "quote": "I stopped that on my own in June. It was 15, 6 of the little 2.5 pills. It made me so nauseous and my hair got thin.",
+      "verified": true,
+      "score": 1.0
+     }
+    ],
+    "support": "supported",
+    "flags": [],
+    "origin": "model",
+    "edited": false
+   },
+   {
+    "id": "s5",
+    "section": "subjective",
+    "text": "No joint pain, swelling, morning stiffness, or sausage-like digit swelling",
+    "evidence": [
+     {
+      "turn": 9,
+      "quote": "No.",
+      "verified": true,
+      "score": 1.0
+     },
+     {
+      "turn": 11,
+      "quote": "No, none of that.",
+      "verified": true,
+      "score": 1.0
+     }
+    ],
+    "support": "supported",
+    "flags": [],
+    "origin": "model",
+    "edited": false
+   },
+   {
+    "id": "s6",
+    "section": "subjective",
+    "text": "Maternal history of rheumatoid arthritis in the hands",
+    "evidence": [
+     {
+      "turn": 11,
+      "quote": "My mom had rheumatoid arthritis in her hands, so I'd notice, believe me.",
+      "verified": true,
+      "score": 1.0
+     }
+    ],
+    "support": "supported",
+    "flags": [],
+    "origin": "model",
+    "edited": false
+   },
+   {
+    "id": "s7",
+    "section": "subjective",
+    "text": "Smoking: quit 3 years ago",
+    "evidence": [
+     {
+      "turn": 17,
+      "quote": "3 years quit now.",
+      "verified": true,
+      "score": 1.0
+     }
+    ],
+    "support": "supported",
+    "flags": [],
+    "origin": "model",
+    "edited": false
+   },
+   {
+    "id": "s8",
+    "section": "subjective",
+    "text": "No drug allergies other than sulfa, which causes a widespread rash",
+    "evidence": [
+     {
+      "turn": 15,
+      "quote": "Yes, I get a rash all over.",
+      "verified": true,
+      "score": 1.0
+     }
+    ],
+    "support": "supported",
+    "flags": [],
+    "origin": "model",
+    "edited": false
+   },
+   {
+    "id": "o1",
+    "section": "objective",
+    "text": "Examination shows well-defined red plaques with thick silvery scale on both elbows; right elbow lesion approximately 8 by 6 centimeters",
+    "evidence": [
+     {
+      "turn": 18,
+      "quote": "On both elbows there are well-defined red plaques with thick silvery scale, the right one is about 8 by 6 centimeters.",
+      "verified": true,
+      "score": 1.0
+     }
+    ],
+    "support": "supported",
+    "flags": [],
+    "origin": "model",
+    "edited": false
+   },
+   {
+    "id": "o2",
+    "section": "objective",
+    "text": "Similar plaques on both knees",
+    "evidence": [
+     {
+      "turn": 18,
+      "quote": "Similar plaques on both knees.",
+      "verified": true,
+      "score": 1.0
+     }
+    ],
+    "support": "supported",
+    "flags": [],
+    "origin": "model",
+    "edited": false
+   },
+   {
+    "id": "o3",
+    "section": "objective",
+    "text": "Lower back plaque approximately 10 by 7 centimeters",
+    "evidence": [
+     {
+      "turn": 18,
+      "quote": "On the lower back there's a 10 by 7 centimeter plaque.",
+      "verified": true,
+      "score": 1.0
+     }
+    ],
+    "support": "supported",
+    "flags": [],
+    "origin": "model",
+    "edited": false
+   },
+   {
+    "id": "o4",
+    "section": "objective",
+    "text": "Red scaly plaques on the scalp behind both ears and along the hairline",
+    "evidence": [
+     {
+      "turn": 18,
+      "quote": "On the scalp, red scaly plaques behind both ears and along the hairline.",
+      "verified": true,
+      "score": 1.0
+     }
+    ],
+    "support": "supported",
+    "flags": [],
+    "origin": "model",
+    "edited": false
+   },
+   {
+    "id": "o5",
+    "section": "objective",
+    "text": "Pitting of 3 fingernails",
+    "evidence": [
+     {
+      "turn": 18,
+      "quote": "I see pitting on 3 of your fingernails.",
+      "verified": true,
+      "score": 1.0
+     }
+    ],
+    "support": "supported",
+    "flags": [],
+    "origin": "model",
+    "edited": false
+   },
+   {
+    "id": "o6",
+    "section": "objective",
+    "text": "Finger joints not swollen or tender; no swollen fingers or toes",
+    "evidence": [
+     {
+      "turn": 18,
+      "quote": "Your finger joints aren't swollen or tender, and no swollen fingers or toes.",
+      "verified": true,
+      "score": 1.0
+     }
+    ],
+    "support": "supported",
+    "flags": [],
+    "origin": "model",
+    "edited": false
+   },
+   {
+    "id": "o7",
+    "section": "objective",
+    "text": "Estimated body surface area involvement about 12 percent",
+    "evidence": [
+     {
+      "turn": 18,
+      "quote": "Overall about 12 percent of your body surface.",
+      "verified": true,
+      "score": 1.0
+     }
+    ],
+    "support": "supported",
+    "flags": [],
+    "origin": "model",
+    "edited": false
+   },
+   {
+    "id": "a1",
+    "section": "assessment",
+    "text": "Moderate to severe plaque psoriasis not controlled with topical creams",
+    "evidence": [
+     {
+      "turn": 20,
+      "quote": "So this is moderate to severe plaque psoriasis that isn't controlled with creams.",
+      "verified": true,
+      "score": 1.0
+     }
+    ],
+    "support": "supported",
+    "flags": [],
+    "origin": "model",
+    "edited": false
+   },
+   {
+    "id": "a2",
+    "section": "assessment",
+    "text": "Methotrexate discontinued due to intolerance",
+    "evidence": [
+     {
+      "turn": 20,
+      "quote": "methotrexate didn't work out for you.",
+      "verified": true,
+      "score": 1.0
+     }
+    ],
+    "support": "supported",
+    "flags": [],
+    "origin": "model",
+    "edited": false
+   },
+   {
+    "id": "p1",
+    "section": "plan",
+    "text": "Continue clobetasol ointment twice daily on body plaques, only 2 weeks at a time followed by 1 week off",
+    "evidence": [
+     {
+      "turn": 26,
+      "quote": "keep the clobetasol ointment twice a day on the body plaques, but only 2 weeks at a time, then a week off, so the skin doesn't thin.",
+      "verified": true,
+      "score": 1.0
+     }
+    ],
+    "support": "supported",
+    "flags": [],
+    "origin": "model",
+    "edited": false
+   },
+   {
+    "id": "p2",
+    "section": "plan",
+    "text": "Start clobetasol 0.05 percent solution once daily at night for the scalp",
+    "evidence": [
+     {
+      "turn": 26,
+      "quote": "For your scalp, I'm adding clobetasol 0.05 percent solution, once a day at night.",
+      "verified": true,
+      "score": 1.0
+     }
+    ],
+    "support": "supported",
+    "flags": [],
+    "origin": "model",
+    "edited": false
+   },
+   {
+    "id": "p3",
+    "section": "plan",
+    "text": "Evaluate for risankizumab 150 mg injection under the skin at week 0, week 4, and every 12 weeks thereafter",
+    "evidence": [
+     {
+      "turn": 20,
+      "quote": "It's an injection under the skin, 150 milligrams, given at week 0, week 4, and then just every 12 weeks.",
+      "verified": true,
+      "score": 1.0
+     }
+    ],
+    "support": "supported",
+    "flags": [],
+    "origin": "model",
+    "edited": false
+   },
+   {
+    "id": "p4",
+    "section": "plan",
+    "text": "Order TB blood test, hepatitis B and C tests, complete blood count, and metabolic panel; send to 2250 Riverside Drive",
+    "evidence": [
+     {
+      "turn": 22,
+      "quote": "Before we start, I need a TB blood test, hepatitis B and C tests, a blood count and a metabolic panel.",
+      "verified": true,
+      "score": 1.0
+     },
+     {
+      "turn": 23,
+      "quote": "Can I do the blood work at the lab by my house? It's at 2250 Riverside Drive.",
+      "verified": true,
+      "score": 1.0
+     }
+    ],
+    "support": "supported",
+    "flags": [],
+    "origin": "model",
+    "edited": false
+   },
+   {
+    "id": "p5",
+    "section": "plan",
+    "text": "Prior authorization from insurance requested; member ID K as in kilo 7 0 3 9 2 1 5",
+    "evidence": [
+     {
+      "turn": 25,
+      "quote": "Yeah, member ID is K as in kilo 7 0 3 9 2 1 5.",
+      "verified": true,
+      "score": 1.0
+     }
+    ],
+    "support": "supported",
+    "flags": [],
+    "origin": "model",
+    "edited": false
+   },
+   {
+    "id": "p6",
+    "section": "plan",
+    "text": "Avoid live vaccines while on biologic; seasonal influenza vaccine recommended",
+    "evidence": [
+     {
+      "turn": 22,
+      "quote": "You should also avoid live vaccines once you're on it, so getting your flu shot this fall is a good idea.",
+      "verified": true,
+      "score": 1.0
+     }
+    ],
+    "support": "supported",
+    "flags": [],
+    "origin": "model",
+    "edited": false
+   },
+   {
+    "id": "p7",
+    "section": "plan",
+    "text": "Return precautions: report any new joint pain, swelling, or morning stiffness right away",
+    "evidence": [
+     {
+      "turn": 28,
+      "quote": "if you ever do get joint pain, swelling, or morning stiffness, tell me right away.",
+      "verified": true,
+      "score": 1.0
+     }
+    ],
+    "support": "supported",
+    "flags": [],
+    "origin": "model",
+    "edited": false
+   },
+   {
+    "id": "p8",
+    "section": "plan",
+    "text": "Follow-up in 6 weeks; return for first injection and self-injection teaching once labs and insurance approval return",
+    "evidence": [
+     {
+      "turn": 30,
+      "quote": "Once the labs and insurance approval come back, we'll have you in for the first injection and teach you how to do it. Otherwise follow-up in 6 weeks.",
+      "verified": true,
+      "score": 1.0
+     }
+    ],
+    "support": "supported",
+    "flags": [],
+    "origin": "model",
+    "edited": false
+   }
+  ],
+  "medications": [
+   {
+    "name": "amlodipine",
+    "dose": "5 mg",
+    "frequency": "once daily in the morning",
+    "route": "oral",
+    "status": "active",
+    "evidence": [
+     {
+      "turn": 13,
+      "quote": "Amlodipine, 5 milligrams every morning for blood pressure. That's it.",
+      "verified": true,
+      "score": 1.0
+     }
+    ],
+    "flags": []
+   },
+   {
+    "name": "clobetasol ointment",
+    "dose": "not stated",
+    "frequency": "twice daily",
+    "route": "topical",
+    "status": "active",
+    "evidence": [
+     {
+      "turn": 26,
+      "quote": "keep the clobetasol ointment twice a day on the body plaques, but only 2 weeks at a time, then a week off.",
+      "verified": true,
+      "score": 1.0
+     }
+    ],
+    "flags": []
+   },
+   {
+    "name": "clobetasol 0.05 percent solution",
+    "dose": "not stated",
+    "frequency": "once daily at night",
+    "route": "topical",
+    "status": "new",
+    "evidence": [
+     {
+      "turn": 26,
+      "quote": "For your scalp, I'm adding clobetasol 0.05 percent solution, once a day at night.",
+      "verified": true,
+      "score": 1.0
+     }
+    ],
+    "flags": []
+   },
+   {
+    "name": "risankizumab",
+    "dose": "150 mg",
+    "frequency": "week 0, week 4, then every 12 weeks",
+    "route": "subcutaneous injection",
+    "status": "recommended new",
+    "evidence": [
+     {
+      "turn": 20,
+      "quote": "It's an injection under the skin, 150 milligrams, given at week 0, week 4, and then just every 12 weeks.",
+      "verified": true,
+      "score": 1.0
+     }
+    ],
+    "flags": []
+   }
+  ],
+  "allergies": [
+   {
+    "substance": "sulfa",
+    "reaction": "widespread rash",
+    "evidence": [
+     {
+      "turn": 15,
+      "quote": "Yes, I get a rash all over.",
+      "verified": true,
+      "score": 1.0
+     }
+    ]
+   }
+  ],
+  "after_visit_summary": "Your psoriasis has gotten worse and covers about 12 percent of your body. The red, scaly patches on your elbows, knees, lower back, and scalp are moderate to severe. Your joints look fine. We are adding a new medicine for your scalp and will start a weekly shot once your insurance is approved and your blood tests come back. Keep taking your amlodipine 5 mg each morning. Use the clobetasol ointment on your body patches twice a day, but only for 2 weeks at a time, then stop for 1 week. Use the clobetasol scalp solution once at night. Do not get any live vaccines, but you should get the flu shot this fall. If you ever get joint pain, swelling, or morning stiffness, call us right away. We will contact you with your lab results. Follow up in 6 weeks, or sooner for your first injection once everything is approved.",
+  "avs_flags": [],
+  "icd10": [
+   {
+    "system": "ICD-10-CM",
+    "code": "L40.0",
+    "description": "Psoriasis vulgaris",
+    "rank": 1,
+    "rationale": "Plaque psoriasis with typical well-defined plaques, thick silvery scale, and nail pitting; assessed as moderate to severe and is the primary reason for the visit",
+    "evidence": [
+     {
+      "turn": 18,
+      "quote": "On both elbows there are well-defined red plaques with thick silvery scale ... Similar plaques on both knees. On the lower back there's a 10 by 7 centimeter plaque. On the scalp, red scaly plaques behind both ears and along the hairline. I see pitting on 3 of your fingernails.",
+      "verified": true,
+      "score": 1.0
+     },
+     {
+      "turn": 20,
+      "quote": "So this is moderate to severe plaque psoriasis that isn't controlled with creams, and methotrexate didn't work out for you.",
+      "verified": true,
+      "score": 1.0
+     }
+    ],
+    "valid": true,
+    "billable": true,
+    "flags": [],
+    "accepted": null
+   },
+   {
+    "system": "ICD-10-CM",
+    "code": "Z79.84",
+    "description": "Long term (current) use of oral hypoglycemic drugs",
+    "rank": 2,
+    "rationale": "Long-term (current) use of clobetasol ointment, which was continued and specifically dosed during this visit",
+    "evidence": [
+     {
+      "turn": 5,
+      "quote": "Yes, twice a day on the worst spots. It helps for a few days and then it all comes back.",
+      "verified": true,
+      "score": 1.0
+     },
+     {
+      "turn": 26,
+      "quote": "keep the clobetasol ointment twice a day on the body plaques, but only 2 weeks at a time, then a week off",
+      "verified": true,
+      "score": 1.0
+     }
+    ],
+    "valid": true,
+    "billable": true,
+    "flags": [
+     {
+      "kind": "code_unsupported",
+      "severity": "warning",
+      "message": "The code's title shares no terms with the assessment; check it matches a diagnosis.",
+      "acknowledged": false,
+      "detail": {}
+     }
+    ],
+    "accepted": null
+   },
+   {
+    "system": "ICD-10-CM",
+    "code": "Z91.19",
+    "description": "Patient's noncompliance with other medical treatment and regimen",
+    "rank": 3,
+    "rationale": "Documented sulfa allergy with rash",
+    "evidence": [
+     {
+      "turn": 14,
+      "quote": "And you're allergic to sulfa, right?",
+      "verified": true,
+      "score": 1.0
+     },
+     {
+      "turn": 15,
+      "quote": "Yes, I get a rash all over.",
+      "verified": true,
+      "score": 1.0
+     }
+    ],
+    "valid": false,
+    "billable": false,
+    "flags": [
+     {
+      "kind": "code_not_billable",
+      "severity": "error",
+      "message": "Z91.19 is a category header, not billable; choose a more specific code",
+      "acknowledged": false,
+      "detail": {
+       "children": [
+        "Z91.190",
+        "Z91.198",
+        "Z91.199"
+       ]
+      }
+     },
+     {
+      "kind": "code_unsupported",
+      "severity": "warning",
+      "message": "The code's title shares no terms with the assessment; check it matches a diagnosis.",
+      "acknowledged": false,
+      "detail": {}
+     }
+    ],
+    "accepted": null
+   },
+   {
+    "system": "ICD-10-CM",
+    "code": "Z87.891",
+    "description": "Personal history of nicotine dependence",
+    "rank": 4,
+    "rationale": "Personal history of methotrexate intolerance (nausea and hair thinning), which was discontinued and relevant to treatment decisions",
+    "evidence": [
+     {
+      "turn": 7,
+      "quote": "I stopped that on my own in June. I was on 10 milligrams a week. No, wait, it was 15, 6 of the little 2.5 pills. It made me so nauseous and my hair got thin.",
+      "verified": true,
+      "score": 1.0
+     }
+    ],
+    "valid": true,
+    "billable": true,
+    "flags": [
+     {
+      "kind": "code_unsupported",
+      "severity": "warning",
+      "message": "The code's title shares no terms with the assessment; check it matches a diagnosis.",
+      "acknowledged": false,
+      "detail": {}
+     }
+    ],
+    "accepted": null
+   },
+   {
+    "system": "ICD-10-CM",
+    "code": "Z71.6",
+    "description": "Tobacco abuse counseling",
+    "rank": 5,
+    "rationale": "History of tobacco use (quit 3 years ago), relevant for biologic initiation given infection and vascular risks",
+    "evidence": [
+     {
+      "turn": 16,
+      "quote": "Still not smoking?",
+      "verified": true,
+      "score": 1.0
+     },
+     {
+      "turn": 17,
+      "quote": "3 years quit now.",
+      "verified": true,
+      "score": 1.0
+     }
+    ],
+    "valid": true,
+    "billable": true,
+    "flags": [
+     {
+      "kind": "code_unsupported",
+      "severity": "warning",
+      "message": "The code's title shares no terms with the assessment; check it matches a diagnosis.",
+      "acknowledged": false,
+      "detail": {}
+     }
+    ],
+    "accepted": null
+   }
+  ],
+  "em": {
+   "system": "CPT",
+   "code": "99214",
+   "description": "Established patient office visit, moderate-complexity decision making",
+   "rank": 1,
+   "rationale": "Established patient visit with moderate medical decision making: starting a biologic agent requiring new baseline labs (TB, hepatitis, CBC, CMP), prior authorization, complex medication management including a new prescription drug management decision for risankizumab, and moderate-risk management.",
+   "evidence": [],
+   "valid": true,
+   "billable": true,
+   "flags": [],
+   "accepted": null
+  },
+  "procedures": [
+   {
+    "system": "CPT",
+    "code": "36415",
+    "description": "Collection of venous blood by venipuncture",
+    "rank": 1,
+    "rationale": "Venipuncture collection of venous blood ordered today for TB, hepatitis B/C, CBC, and metabolic panel (lab draw occurs, though at an outside facility)",
+    "evidence": [
+     {
+      "turn": 22,
+      "quote": "Before we start, I need a TB blood test, hepatitis B and C tests, a blood count and a metabolic panel.",
+      "verified": true,
+      "score": 1.0
+     }
+    ],
+    "valid": true,
+    "billable": true,
+    "flags": [],
+    "accepted": null
+   }
+  ],
+  "mdm": {
+   "problems": "moderate",
+   "data": "moderate",
+   "risk": "moderate",
+   "level": "moderate",
+   "code": "99214",
+   "reasons": [
+    "problems: chronic illness not at goal",
+    "data: 3 tests or sources",
+    "risk: prescription drug management"
+   ]
+  },
+  "section_status": {
+   "subjective": "draft",
+   "objective": "draft",
+   "assessment": "draft",
+   "plan": "draft"
+  },
+  "model": "openrouter/apodex/apodex-1.1-mini:free",
+  "created_at": "2026-10-13T05:53:13.115049Z",
+  "signed_by": null,
+  "signed_at": null,
+  "timings": {
+   "phi_masking": 0.032,
+   "llm_note": 20.47,
+   "guards_note": 0.077,
+   "llm_codes": 8.29,
+   "guards_codes": 0.047,
+   "total": 28.916,
+   "wall": 29.003
+  },
+  "usage": {
+   "model_ms": 28760,
+   "input_tokens": 4900,
+   "output_tokens": 2887,
+   "calls": 2
+  },
+  "phi": {
+   "NAME": 3,
+   "DOB": 1,
+   "DATE": 1,
+   "ADDRESS": 1,
+   "ID": 1,
+   "PHONE": 1
+  }
+ },
+ "vault": {
+  "originals": {
+   "[PATIENT]": "Oksana Kovalenko",
+   "[DOB]": "August 30th, 1979",
+   "[DATE_1]": "June",
+   "[ADDRESS_1]": "2250 Riverside Drive",
+   "[ID_1]": "K as in kilo 7 0 3 9 2 1 5",
+   "[NAME_1]": "Taras",
+   "[PHONE_1]": "555-0134",
+   "[NAME_2]": "Nair"
+  },
+  "surfaces": {
+   "[PATIENT]": [
+    "Oksana",
+    "Oksana Kovalenko"
+   ],
+   "[DOB]": [
+    "August 30th, 1979"
+   ],
+   "[DATE_1]": [
+    "June"
+   ],
+   "[ADDRESS_1]": [
+    "2250 Riverside Drive"
+   ],
+   "[ID_1]": [
+    "K as in kilo 7 0 3 9 2 1 5"
+   ],
+   "[NAME_1]": [
+    "Taras"
+   ],
+   "[PHONE_1]": [
+    "555-0134"
+   ],
+   "[NAME_2]": [
+    "Nair"
+   ]
+  },
+  "types": {
+   "[PATIENT]": "NAME",
+   "[DOB]": "DOB",
+   "[DATE_1]": "DATE",
+   "[ADDRESS_1]": "ADDRESS",
+   "[ID_1]": "ID",
+   "[NAME_1]": "NAME",
+   "[PHONE_1]": "PHONE",
+   "[NAME_2]": "NAME"
+  },
+  "counters": {
+   "DATE": 1,
+   "ADDRESS": 1,
+   "ID": 1,
+   "NAME": 2,
+   "PHONE": 1
+  }
+ },
+ "score": {
+  "case": "dm-05",
+  "specialty": "dermatology",
+  "facts": 29,
+  "found": 25,
+  "found_in_section": 24,
+  "negation_errors": [],
+  "trap_errors": [],
+  "missed": [
+   "f9 [subjective] Denies heel pain",
+   "f10 [subjective] Mother had rheumatoid arthritis",
+   "f17 [objective] Pitting of 3 fingernails",
+   "f20 [assessment] Moderate to severe plaque psoriasis, not controlled with topicals, failed methotrexate due to side effects"
+  ],
+  "statements": 25,
+  "statements_matching_gold": 22,
+  "unsupported": 0,
+  "partial": 0,
+  "flags": {},
+  "meds": 5,
+  "meds_found": 4,
+  "meds_dose_correct": 2,
+  "icd_primary": "L40.0",
+  "icd_suggested": [
+   "L40.0",
+   "Z79.84",
+   "Z91.19",
+   "Z87.891",
+   "Z71.6"
+  ],
+  "icd_top1": true,
+  "icd_top3": true,
+  "icd_top3_lenient": true,
+  "icd_top3_category": true,
+  "icd_gold_recall": 1.0,
+  "icd_invalid": 1,
+  "em_gold": "99214",
+  "em_suggested": "99214",
+  "em_exact": true,
+  "em_within_one": true,
+  "em_rule_estimate": "99214",
+  "procedures_gold": 0,
+  "procedures_found": 0
+ },
+ "egress_residue": {}
+}

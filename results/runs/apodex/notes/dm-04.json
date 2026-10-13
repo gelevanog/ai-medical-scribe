@@ -1,0 +1,804 @@
+{
+ "note": {
+  "visit_id": "dm-04",
+  "statements": [
+   {
+    "id": "s1",
+    "section": "subjective",
+    "text": "New patient, 9-year-old boy.",
+    "evidence": [
+     {
+      "turn": 3,
+      "quote": "Mateo Herrera, April 21st, 2017. He's 9.",
+      "verified": true,
+      "score": 1.0
+     }
+    ],
+    "support": "partial",
+    "flags": [
+     {
+      "kind": "partial_support",
+      "severity": "warning",
+      "message": "Quoted turn does not contain most of its terms; check against the transcript.",
+      "acknowledged": false,
+      "detail": {}
+     }
+    ],
+    "origin": "model",
+    "edited": false
+   },
+   {
+    "id": "s2",
+    "section": "subjective",
+    "text": "Warts on right pointer finger (2), left thumb (1), and right knee (1), present about 5 months, multiplying.",
+    "evidence": [
+     {
+      "turn": 5,
+      "quote": "Warts. He's got a couple on his right pointer finger, one on his left thumb, and one on his knee. The finger ones started maybe 5 months ago and they keep multiplying.",
+      "verified": true,
+      "score": 1.0
+     },
+     {
+      "turn": 14,
+      "quote": "Good to know, they do spread in families. Okay, Mateo, let me see your ...",
+      "verified": true,
+      "score": 0.0
+     }
+    ],
+    "support": "supported",
+    "flags": [],
+    "origin": "model",
+    "edited": false
+   },
+   {
+    "id": "s3",
+    "section": "subjective",
+    "text": "No pain from the warts.",
+    "evidence": [
+     {
+      "turn": 9,
+      "quote": "No, not really.",
+      "verified": true,
+      "score": 1.0
+     }
+    ],
+    "support": "supported",
+    "flags": [],
+    "origin": "model",
+    "edited": false
+   },
+   {
+    "id": "s4",
+    "section": "subjective",
+    "text": "Patient picks at the warts and bites his nails.",
+    "evidence": [
+     {
+      "turn": 9,
+      "quote": "He picks at them, though. And bites his nails.",
+      "verified": true,
+      "score": 1.0
+     }
+    ],
+    "support": "supported",
+    "flags": [],
+    "origin": "model",
+    "edited": false
+   },
+   {
+    "id": "s5",
+    "section": "subjective",
+    "text": "No bleeding or infection of the warts.",
+    "evidence": [
+     {
+      "turn": 11,
+      "quote": "No.",
+      "verified": true,
+      "score": 1.0
+     }
+    ],
+    "support": "supported",
+    "flags": [],
+    "origin": "model",
+    "edited": false
+   },
+   {
+    "id": "s6",
+    "section": "subjective",
+    "text": "No significant medical history; no medicines.",
+    "evidence": [
+     {
+      "turn": 13,
+      "quote": "No, he's healthy. No medicines, no allergies.",
+      "verified": true,
+      "score": 1.0
+     }
+    ],
+    "support": "supported",
+    "flags": [],
+    "origin": "model",
+    "edited": false
+   },
+   {
+    "id": "s7",
+    "section": "subjective",
+    "text": "No known drug allergies.",
+    "evidence": [
+     {
+      "turn": 13,
+      "quote": "No medicines, no allergies.",
+      "verified": true,
+      "score": 1.0
+     }
+    ],
+    "support": "supported",
+    "flags": [],
+    "origin": "model",
+    "edited": false
+   },
+   {
+    "id": "s8",
+    "section": "subjective",
+    "text": "Sister has a wart on the bottom of her foot.",
+    "evidence": [
+     {
+      "turn": 13,
+      "quote": "Oh, and his sister Lucia has one on the bottom of her foot, if that matters.",
+      "verified": true,
+      "score": 1.0
+     }
+    ],
+    "support": "supported",
+    "flags": [],
+    "origin": "model",
+    "edited": false
+   },
+   {
+    "id": "s9",
+    "section": "subjective",
+    "text": "Family history: sister has a plantar wart.",
+    "evidence": [
+     {
+      "turn": 13,
+      "quote": "his sister Lucia has one on the bottom of her foot",
+      "verified": true,
+      "score": 1.0
+     }
+    ],
+    "support": "supported",
+    "flags": [],
+    "origin": "model",
+    "edited": false
+   },
+   {
+    "id": "s10",
+    "section": "subjective",
+    "text": "Patient attends Maple Grove Elementary, 4th grade.",
+    "evidence": [
+     {
+      "turn": 27,
+      "quote": "Maple Grove Elementary, 4th grade.",
+      "verified": true,
+      "score": 1.0
+     }
+    ],
+    "support": "supported",
+    "flags": [],
+    "origin": "model",
+    "edited": false
+   },
+   {
+    "id": "o1",
+    "section": "objective",
+    "text": "Right index finger: two rough, skin-colored warts, 5 mm and 3 mm, with tiny black dots.",
+    "evidence": [
+     {
+      "turn": 14,
+      "quote": "On the right index finger there are two rough, skin-colored bumps, 5 millimeters and 3 millimeters, with tiny black dots in them.",
+      "verified": true,
+      "score": 1.0
+     }
+    ],
+    "support": "supported",
+    "flags": [],
+    "origin": "model",
+    "edited": false
+   },
+   {
+    "id": "o2",
+    "section": "objective",
+    "text": "Left thumb: one 6 mm wart next to the nail fold.",
+    "evidence": [
+     {
+      "turn": 14,
+      "quote": "On the left thumb there's a 6 millimeter one right next to the nail fold.",
+      "verified": true,
+      "score": 1.0
+     }
+    ],
+    "support": "supported",
+    "flags": [],
+    "origin": "model",
+    "edited": false
+   },
+   {
+    "id": "o3",
+    "section": "objective",
+    "text": "Right knee: one 4 mm wart.",
+    "evidence": [
+     {
+      "turn": 14,
+      "quote": "And on the right knee, a 4 millimeter one.",
+      "verified": true,
+      "score": 1.0
+     }
+    ],
+    "support": "supported",
+    "flags": [],
+    "origin": "model",
+    "edited": false
+   },
+   {
+    "id": "o4",
+    "section": "objective",
+    "text": "No redness or signs of infection around the warts.",
+    "evidence": [
+     {
+      "turn": 14,
+      "quote": "No redness or signs of infection around them.",
+      "verified": true,
+      "score": 1.0
+     }
+    ],
+    "support": "supported",
+    "flags": [],
+    "origin": "model",
+    "edited": false
+   },
+   {
+    "id": "o5",
+    "section": "objective",
+    "text": "Backs of both upper arms: numerous tiny pinpoint rough follicular bumps, skin-colored to pink (keratosis pilaris).",
+    "evidence": [
+     {
+      "turn": 16,
+      "quote": "Yes, on the backs of both upper arms there are lots of tiny, pinpoint, rough bumps around the hair follicles, skin-colored to pink.",
+      "verified": true,
+      "score": 1.0
+     }
+    ],
+    "support": "supported",
+    "flags": [],
+    "origin": "model",
+    "edited": false
+   },
+   {
+    "id": "o6",
+    "section": "objective",
+    "text": "All 4 warts treated with liquid nitrogen; 2 freeze-thaw cycles each.",
+    "evidence": [
+     {
+      "turn": 20,
+      "quote": "Alright, I'm doing all 4 warts, two freeze-thaw cycles each.",
+      "verified": true,
+      "score": 1.0
+     }
+    ],
+    "support": "supported",
+    "flags": [],
+    "origin": "model",
+    "edited": false
+   },
+   {
+    "id": "a1",
+    "section": "assessment",
+    "text": "Common warts, verruca vulgaris (right index finger, left thumb, right knee).",
+    "evidence": [
+     {
+      "turn": 14,
+      "quote": "These are all common warts.",
+      "verified": true,
+      "score": 1.0
+     }
+    ],
+    "support": "supported",
+    "flags": [],
+    "origin": "model",
+    "edited": false
+   },
+   {
+    "id": "a2",
+    "section": "assessment",
+    "text": "Keratosis pilaris, benign, commonly seen in children.",
+    "evidence": [
+     {
+      "turn": 16,
+      "quote": "That's keratosis pilaris. It's really common, it's harmless, and it often gets better as kids get older.",
+      "verified": true,
+      "score": 1.0
+     }
+    ],
+    "support": "supported",
+    "flags": [],
+    "origin": "model",
+    "edited": false
+   },
+   {
+    "id": "p1",
+    "section": "plan",
+    "text": "Warts treated with liquid nitrogen cryotherapy, 4 lesions, 2 freeze-thaw cycles each.",
+    "evidence": [
+     {
+      "turn": 20,
+      "quote": "Alright, I'm doing all 4 warts, two freeze-thaw cycles each.",
+      "verified": true,
+      "score": 1.0
+     }
+    ],
+    "support": "supported",
+    "flags": [],
+    "origin": "model",
+    "edited": false
+   },
+   {
+    "id": "p2",
+    "section": "plan",
+    "text": "Counseling: treated lesions may become red, form a blister, or turn dark over the next few days (expected).",
+    "evidence": [
+     {
+      "turn": 22,
+      "quote": "They may get red, form a blister, or turn dark over the next few days, that's normal.",
+      "verified": true,
+      "score": 1.0
+     }
+    ],
+    "support": "supported",
+    "flags": [],
+    "origin": "model",
+    "edited": false
+   },
+   {
+    "id": "p3",
+    "section": "plan",
+    "text": "Acetaminophen (children's) per package directions for soreness.",
+    "evidence": [
+     {
+      "turn": 22,
+      "quote": "Children's acetaminophen per the package directions if they're sore.",
+      "verified": true,
+      "score": 1.0
+     }
+    ],
+    "support": "supported",
+    "flags": [],
+    "origin": "model",
+    "edited": false
+   },
+   {
+    "id": "p4",
+    "section": "plan",
+    "text": "After blisters heal (~1 week), restart salicylic acid 17% liquid nightly: soak, file dead skin with a dedicated emery board, cover with duct tape.",
+    "evidence": [
+     {
+      "turn": 22,
+      "quote": "Once the blisters heal, in about a week, restart the salicylic acid at night. Soak first, file the dead skin with an emery board that only he uses, then cover with duct tape.",
+      "verified": true,
+      "score": 1.0
+     }
+    ],
+    "support": "supported",
+    "flags": [],
+    "origin": "model",
+    "edited": false
+   },
+   {
+    "id": "p5",
+    "section": "plan",
+    "text": "Keratosis pilaris: urea 10% cream once daily after bath (over the counter); use gentle soap, avoid scrubbing.",
+    "evidence": [
+     {
+      "turn": 18,
+      "quote": "A urea 10 percent cream once a day after the bath helps smooth it out, it's over the counter. Use a gentle soap and don't scrub hard.",
+      "verified": true,
+      "score": 1.0
+     }
+    ],
+    "support": "supported",
+    "flags": [],
+    "origin": "model",
+    "edited": false
+   },
+   {
+    "id": "p6",
+    "section": "plan",
+    "text": "Precaution: avoid picking at warts and nail biting, which spread them.",
+    "evidence": [
+     {
+      "turn": 24,
+      "quote": "And try to keep him from picking and biting, that's how they spread.",
+      "verified": true,
+      "score": 1.0
+     }
+    ],
+    "support": "supported",
+    "flags": [],
+    "origin": "model",
+    "edited": false
+   },
+   {
+    "id": "p7",
+    "section": "plan",
+    "text": "Return precautions: call if a treated lesion becomes very red, swollen, or has pus.",
+    "evidence": [
+     {
+      "turn": 24,
+      "quote": "If one gets very red, swollen, or has pus, give us a call.",
+      "verified": true,
+      "score": 1.0
+     }
+    ],
+    "support": "supported",
+    "flags": [],
+    "origin": "model",
+    "edited": false
+   },
+   {
+    "id": "p8",
+    "section": "plan",
+    "text": "Patient may attend school and play sports.",
+    "evidence": [
+     {
+      "turn": 26,
+      "quote": "No, he can go to school and play sports.",
+      "verified": true,
+      "score": 1.0
+     }
+    ],
+    "support": "supported",
+    "flags": [],
+    "origin": "model",
+    "edited": false
+   },
+   {
+    "id": "p9",
+    "section": "plan",
+    "text": "Follow-up in 3 to 4 weeks for another freezing session (typically 2 to 4 freezing sessions total).",
+    "evidence": [
+     {
+      "turn": 28,
+      "quote": "Warts usually take 2 to 4 freezing sessions, so let's bring him back in 3 to 4 weeks for another round.",
+      "verified": true,
+      "score": 1.0
+     }
+    ],
+    "support": "supported",
+    "flags": [],
+    "origin": "model",
+    "edited": false
+   },
+   {
+    "id": "p10",
+    "section": "plan",
+    "text": "Best contact number: 555-0191.",
+    "evidence": [
+     {
+      "turn": 29,
+      "quote": "My cell, 555-0191.",
+      "verified": true,
+      "score": 1.0
+     }
+    ],
+    "support": "supported",
+    "flags": [],
+    "origin": "model",
+    "edited": false
+   }
+  ],
+  "medications": [
+   {
+    "name": "salicylic acid 17% liquid",
+    "dose": "17%",
+    "frequency": "nightly",
+    "route": "topical",
+    "status": "stopped",
+    "evidence": [
+     {
+      "turn": 7,
+      "quote": "The drugstore salicylic acid, the 17 percent liquid, every night for about 6 weeks. Didn't really do much.",
+      "verified": true,
+      "score": 1.0
+     }
+    ],
+    "flags": []
+   },
+   {
+    "name": "children's acetaminophen",
+    "dose": "per package directions",
+    "frequency": "as needed for soreness",
+    "route": "oral",
+    "status": "started",
+    "evidence": [
+     {
+      "turn": 22,
+      "quote": "Children's acetaminophen per the package directions if they're sore.",
+      "verified": true,
+      "score": 1.0
+     }
+    ],
+    "flags": []
+   },
+   {
+    "name": "urea 10% cream",
+    "dose": "10%",
+    "frequency": "once daily after bath",
+    "route": "topical",
+    "status": "started",
+    "evidence": [
+     {
+      "turn": 18,
+      "quote": "A urea 10 percent cream once a day after the bath helps smooth it out, it's over the counter.",
+      "verified": true,
+      "score": 1.0
+     }
+    ],
+    "flags": [
+     {
+      "kind": "unknown_drug",
+      "severity": "warning",
+      "message": "'urea 10% cream' is not in the drug list: check the spelling and the dose yourself.",
+      "acknowledged": false,
+      "detail": {}
+     }
+    ]
+   }
+  ],
+  "allergies": [
+   {
+    "substance": "none reported",
+    "reaction": "none",
+    "evidence": [
+     {
+      "turn": 13,
+      "quote": "No medicines, no allergies.",
+      "verified": true,
+      "score": 1.0
+     }
+    ]
+   }
+  ],
+  "after_visit_summary": "Your 9-year-old has four common warts: two on his right index finger, one on his left thumb, and one on his right knee. We froze all four today with liquid nitrogen. This is expected to sting for a few seconds. Over the next few days the spots may turn red, blister, or darken; that is normal. For soreness, you may use children's acetaminophen exactly as directed on the package. Once the blisters heal, about one week, start again with salicylic acid 17% liquid every night: soak the area, gently file the dead skin with an emery board he uses only, then cover with duct tape. Keep him from picking at the warts or biting his nails, since this can spread them. For the rough sandpaper-like bumps on the backs of his arms (keratosis pilaris), use urea 10% cream once a day after bath time. Use gentle soap and do not scrub. He can go to school and play sports. Please call if a treated spot becomes very red, swollen, or has pus. You should expect 2 to 4 freezing visits in total; we will see him again in 3 to 4 weeks. You can reach us at 555-0191.",
+  "avs_flags": [],
+  "icd10": [
+   {
+    "system": "ICD-10-CM",
+    "code": "B07.8",
+    "description": "Other viral warts",
+    "rank": 1,
+    "rationale": "Most specific code for common warts (verruca vulgaris) at multiple sites; documented diagnosis for all treated lesions.",
+    "evidence": [
+     {
+      "turn": 14,
+      "quote": "These are all common warts.",
+      "verified": true,
+      "score": 1.0
+     },
+     {
+      "turn": 14,
+      "quote": "On the right index finger there are two rough, skin-colored bumps, 5 millimeters and 3 millimeters",
+      "verified": true,
+      "score": 1.0
+     },
+     {
+      "turn": 14,
+      "quote": "On the left thumb there's a 6 millimeter one",
+      "verified": true,
+      "score": 1.0
+     },
+     {
+      "turn": 14,
+      "quote": "And on the right knee, a 4 millimeter one",
+      "verified": true,
+      "score": 1.0
+     }
+    ],
+    "valid": true,
+    "billable": true,
+    "flags": [],
+    "accepted": null
+   },
+   {
+    "system": "ICD-10-CM",
+    "code": "L57.0",
+    "description": "Actinic keratosis",
+    "rank": 2,
+    "rationale": "Keratosis pilaris confirmed on physical exam; benign, commonly seen in children.",
+    "evidence": [
+     {
+      "turn": 16,
+      "quote": "Yes, on the backs of both upper arms there are lots of tiny, pinpoint, rough bumps around the hair follicles, skin-colored to pink. That's keratosis pilaris.",
+      "verified": true,
+      "score": 1.0
+     }
+    ],
+    "valid": true,
+    "billable": true,
+    "flags": [],
+    "accepted": null
+   }
+  ],
+  "em": {
+   "system": "CPT",
+   "code": "99203",
+   "description": "New patient office visit, low-complexity decision making",
+   "rank": 1,
+   "rationale": "New patient established with two acute problems (warts, keratosis pilaris), moderate complexity data (review of prior salicylic acid use, physical exam of multiple sites), and moderate risk (cryotherapy procedure plus prescription/OTC medication management).",
+   "evidence": [],
+   "valid": true,
+   "billable": true,
+   "flags": [],
+   "accepted": null
+  },
+  "procedures": [
+   {
+    "system": "CPT",
+    "code": "17110",
+    "description": "Destruction of benign lesions such as warts, up to 14",
+    "rank": 1,
+    "rationale": "Destruction of benign warts, up to 14 lesions; 4 warts treated with liquid nitrogen.",
+    "evidence": [
+     {
+      "turn": 20,
+      "quote": "Alright, I'm doing all 4 warts, two freeze-thaw cycles each.",
+      "verified": true,
+      "score": 1.0
+     },
+     {
+      "turn": 18,
+      "quote": "Now for the warts, I'd like to freeze them today with liquid nitrogen.",
+      "verified": true,
+      "score": 1.0
+     }
+    ],
+    "valid": true,
+    "billable": true,
+    "flags": [],
+    "accepted": null
+   }
+  ],
+  "mdm": {
+   "problems": "low",
+   "data": "low",
+   "risk": "moderate",
+   "level": "low",
+   "code": "99203",
+   "reasons": [
+    "problems: one stable chronic illness or two self-limited problems",
+    "data: limited (tests or an independent historian)",
+    "risk: prescription drug management"
+   ]
+  },
+  "section_status": {
+   "subjective": "draft",
+   "objective": "draft",
+   "assessment": "draft",
+   "plan": "draft"
+  },
+  "model": "openrouter/apodex/apodex-1.1-mini:free",
+  "created_at": "2026-10-13T05:52:44.087669Z",
+  "signed_by": null,
+  "signed_at": null,
+  "timings": {
+   "phi_masking": 0.025,
+   "llm_note": 12.05,
+   "guards_note": 0.07,
+   "llm_codes": 2.96,
+   "guards_codes": 0.044,
+   "total": 15.149,
+   "wall": 15.28
+  },
+  "usage": {
+   "model_ms": 15010,
+   "input_tokens": 5011,
+   "output_tokens": 2557,
+   "calls": 2
+  },
+  "phi": {
+   "NAME": 4,
+   "DOB": 1,
+   "ORG": 1,
+   "PHONE": 1
+  }
+ },
+ "vault": {
+  "originals": {
+   "[NAME_1]": "Grace Oyelaran",
+   "[NAME_2]": "Javier",
+   "[PATIENT]": "Mateo Herrera",
+   "[DOB]": "April 21st, 2017",
+   "[NAME_3]": "Lucia",
+   "[ORG_1]": "Maple Grove Elementary",
+   "[PHONE_1]": "555-0191"
+  },
+  "surfaces": {
+   "[NAME_1]": [
+    "Grace Oyelaran",
+    "Oyelaran"
+   ],
+   "[NAME_2]": [
+    "Javier"
+   ],
+   "[PATIENT]": [
+    "Mateo",
+    "Mateo Herrera"
+   ],
+   "[DOB]": [
+    "April 21st, 2017"
+   ],
+   "[NAME_3]": [
+    "Lucia"
+   ],
+   "[ORG_1]": [
+    "Maple Grove Elementary"
+   ],
+   "[PHONE_1]": [
+    "555-0191"
+   ]
+  },
+  "types": {
+   "[NAME_1]": "NAME",
+   "[NAME_2]": "NAME",
+   "[PATIENT]": "NAME",
+   "[DOB]": "DOB",
+   "[NAME_3]": "NAME",
+   "[ORG_1]": "ORG",
+   "[PHONE_1]": "PHONE"
+  },
+  "counters": {
+   "NAME": 3,
+   "ORG": 1,
+   "PHONE": 1
+  }
+ },
+ "score": {
+  "case": "dm-04",
+  "specialty": "dermatology",
+  "facts": 25,
+  "found": 23,
+  "found_in_section": 22,
+  "negation_errors": [],
+  "trap_errors": [],
+  "missed": [
+   "f6 [subjective] Otherwise healthy, no immune problems or frequent infections",
+   "f10 [subjective] History given by father"
+  ],
+  "statements": 28,
+  "statements_matching_gold": 25,
+  "unsupported": 0,
+  "partial": 1,
+  "flags": {
+   "partial_support": 1,
+   "unknown_drug": 1
+  },
+  "meds": 3,
+  "meds_found": 3,
+  "meds_dose_correct": 2,
+  "icd_primary": "B07.8",
+  "icd_suggested": [
+   "B07.8",
+   "L57.0"
+  ],
+  "icd_top1": true,
+  "icd_top3": true,
+  "icd_top3_lenient": true,
+  "icd_top3_category": true,
+  "icd_gold_recall": 0.5,
+  "icd_invalid": 0,
+  "em_gold": "99203",
+  "em_suggested": "99203",
+  "em_exact": true,
+  "em_within_one": true,
+  "em_rule_estimate": "99203",
+  "procedures_gold": 1,
+  "procedures_found": 1
+ },
+ "egress_residue": {}
+}

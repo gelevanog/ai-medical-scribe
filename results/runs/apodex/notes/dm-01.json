@@ -1,0 +1,636 @@
+{
+ "note": {
+  "visit_id": "dm-01",
+  "statements": [
+   {
+    "id": "s1",
+    "section": "subjective",
+    "text": "New patient. 6mm dark brown mole on left upper back, near shoulder blade, noticed different by husband since July.",
+    "evidence": [
+     {
+      "turn": 5,
+      "quote": "So it's on my left upper back, kind of by my shoulder blade. My husband Declan noticed it looked different back in, um, July",
+      "verified": true,
+      "score": 1.0
+     }
+    ],
+    "support": "partial",
+    "flags": [
+     {
+      "kind": "partial_support",
+      "severity": "error",
+      "message": "Quoted turn does not contain 6; check against the transcript.",
+      "acknowledged": false,
+      "detail": {
+       "numbers_not_in_evidence": [
+        "6"
+       ]
+      }
+     }
+    ],
+    "origin": "model",
+    "edited": false
+   },
+   {
+    "id": "s2",
+    "section": "subjective",
+    "text": "Mole has gotten bigger and darker since spring.",
+    "evidence": [
+     {
+      "turn": 5,
+      "quote": "He says it's gotten bigger and darker since spring.",
+      "verified": true,
+      "score": 1.0
+     }
+    ],
+    "support": "supported",
+    "flags": [],
+    "origin": "model",
+    "edited": false
+   },
+   {
+    "id": "s3",
+    "section": "subjective",
+    "text": "No bleeding or crusting.",
+    "evidence": [
+     {
+      "turn": 7,
+      "quote": "No. No bleeding.",
+      "verified": true,
+      "score": 1.0
+     }
+    ],
+    "support": "supported",
+    "flags": [],
+    "origin": "model",
+    "edited": false
+   },
+   {
+    "id": "s4",
+    "section": "subjective",
+    "text": "Denies pain. Itches occasionally.",
+    "evidence": [
+     {
+      "turn": 9,
+      "quote": "It itches a little now and then. It doesn't hurt.",
+      "verified": true,
+      "score": 1.0
+     }
+    ],
+    "support": "supported",
+    "flags": [],
+    "origin": "model",
+    "edited": false
+   },
+   {
+    "id": "s5",
+    "section": "subjective",
+    "text": "No personal history of skin cancer or prior mole removal.",
+    "evidence": [
+     {
+      "turn": 11,
+      "quote": "No, I've never had skin cancer, and nothing's ever been removed.",
+      "verified": true,
+      "score": 1.0
+     }
+    ],
+    "support": "supported",
+    "flags": [],
+    "origin": "model",
+    "edited": false
+   },
+   {
+    "id": "s6",
+    "section": "subjective",
+    "text": "Family history: father had basal cell carcinoma on nose, excised, doing fine.",
+    "evidence": [
+     {
+      "turn": 13,
+      "quote": "My dad had a basal cell on his nose a few years ago. They scraped it off and he's been fine.",
+      "verified": true,
+      "score": 1.0
+     }
+    ],
+    "support": "supported",
+    "flags": [],
+    "origin": "model",
+    "edited": false
+   },
+   {
+    "id": "s7",
+    "section": "subjective",
+    "text": "Significant sun exposure: lifeguard through college, history of blistering sunburns. No tanning bed use.",
+    "evidence": [
+     {
+      "turn": 15,
+      "quote": "I was a lifeguard every summer through college at Crestview Aquatics. I got burned pretty badly a few times, like blistering. Never did tanning beds, though.",
+      "verified": true,
+      "score": 1.0
+     }
+    ],
+    "support": "supported",
+    "flags": [],
+    "origin": "model",
+    "edited": false
+   },
+   {
+    "id": "s8",
+    "section": "subjective",
+    "text": "Social history: no lumps or lymph node symptoms in armpits.",
+    "evidence": [
+     {
+      "turn": 23,
+      "quote": "No, nothing like that.",
+      "verified": true,
+      "score": 1.0
+     }
+    ],
+    "support": "supported",
+    "flags": [],
+    "origin": "model",
+    "edited": false
+   },
+   {
+    "id": "s9",
+    "section": "subjective",
+    "text": "Medications: levothyroxine 75 micrograms daily.",
+    "evidence": [
+     {
+      "turn": 17,
+      "quote": "Just levothyroxine, 75 micrograms every morning, for my thyroid.",
+      "verified": true,
+      "score": 1.0
+     }
+    ],
+    "support": "supported",
+    "flags": [],
+    "origin": "model",
+    "edited": false
+   },
+   {
+    "id": "s10",
+    "section": "subjective",
+    "text": "No known medication, lidocaine, or latex allergies.",
+    "evidence": [
+     {
+      "turn": 19,
+      "quote": "No allergies that I know of.",
+      "verified": true,
+      "score": 1.0
+     }
+    ],
+    "support": "supported",
+    "flags": [],
+    "origin": "model",
+    "edited": false
+   },
+   {
+    "id": "o1",
+    "section": "objective",
+    "text": "Dermoscopy of left upper back: 7mm dark brown mole, asymmetric, irregular notched border, black area on one side, irregular network and dots at edge. Ugly duckling.",
+    "evidence": [
+     {
+      "turn": 20,
+      "quote": "there's a 7 millimeter dark brown mole. It's asymmetric, the border is irregular and kind of notched at the bottom, and there's a black area on one side.",
+      "verified": true,
+      "score": 1.0
+     }
+    ],
+    "support": "supported",
+    "flags": [],
+    "origin": "model",
+    "edited": false
+   },
+   {
+    "id": "o2",
+    "section": "objective",
+    "text": "General skin exam: scattered 2-3mm round evenly brown moles on back, chest, arms; normal appearing. Scalp, face, legs normal.",
+    "evidence": [
+     {
+      "turn": 22,
+      "quote": "Your back, chest and arms have scattered 2 to 3 millimeter round moles, evenly brown.",
+      "verified": true,
+      "score": 1.0
+     }
+    ],
+    "support": "supported",
+    "flags": [],
+    "origin": "model",
+    "edited": false
+   },
+   {
+    "id": "o3",
+    "section": "objective",
+    "text": "No palpable lymphadenopathy in left axilla or neck.",
+    "evidence": [
+     {
+      "turn": 22,
+      "quote": "I don't feel any swollen lymph nodes in your left armpit or your neck.",
+      "verified": true,
+      "score": 1.0
+     }
+    ],
+    "support": "supported",
+    "flags": [],
+    "origin": "model",
+    "edited": false
+   },
+   {
+    "id": "o4",
+    "section": "objective",
+    "text": "Shave biopsy performed on the mole; specimen sent to pathology.",
+    "evidence": [
+     {
+      "turn": 26,
+      "quote": "It's a shave biopsy. I numb the area with a little lidocaine with epinephrine, then I take off the whole mole with a thin blade, fairly deep, and send it to the lab.",
+      "verified": true,
+      "score": 1.0
+     }
+    ],
+    "support": "supported",
+    "flags": [],
+    "origin": "model",
+    "edited": false
+   },
+   {
+    "id": "o5",
+    "section": "objective",
+    "text": "Biopsy site wound, no stitches, bandage applied.",
+    "evidence": [
+     {
+      "turn": 26,
+      "quote": "No stitches. You'll have a shallow wound, kind of like a scrape.",
+      "verified": true,
+      "score": 1.0
+     }
+    ],
+    "support": "supported",
+    "flags": [],
+    "origin": "model",
+    "edited": false
+   },
+   {
+    "id": "a1",
+    "section": "assessment",
+    "text": "Changing atypical mole on left upper back; early melanoma cannot be ruled out.",
+    "evidence": [
+     {
+      "turn": 24,
+      "quote": "This mole on your back has several changing features. Most of these turn out to be an atypical mole, but I can't rule out an early melanoma just by looking.",
+      "verified": true,
+      "score": 1.0
+     }
+    ],
+    "support": "supported",
+    "flags": [],
+    "origin": "model",
+    "edited": false
+   },
+   {
+    "id": "p1",
+    "section": "plan",
+    "text": "Shave biopsy of the mole, performed today; pathology results in 7-10 days posted to portal, patient will also be called.",
+    "evidence": [
+     {
+      "turn": 28,
+      "quote": "I've sent it to pathology.",
+      "verified": true,
+      "score": 1.0
+     }
+    ],
+    "support": "supported",
+    "flags": [],
+    "origin": "model",
+    "edited": false
+   },
+   {
+    "id": "p2",
+    "section": "plan",
+    "text": "Wound care: keep bandage on 24 hours, then wash gently once daily, apply plain petroleum jelly and fresh bandage until healed (1-2 weeks).",
+    "evidence": [
+     {
+      "turn": 28,
+      "quote": "keep the bandage on for 24 hours, then wash it gently once a day, put on plain petroleum jelly and a fresh bandage every day until it heals.",
+      "verified": true,
+      "score": 1.0
+     }
+    ],
+    "support": "supported",
+    "flags": [],
+    "origin": "model",
+    "edited": false
+   },
+   {
+    "id": "p3",
+    "section": "plan",
+    "text": "Precautions: contact clinic if site becomes red, hot, swollen, or drains pus.",
+    "evidence": [
+     {
+      "turn": 32,
+      "quote": "If the site gets red, hot, swollen or drains pus, call us.",
+      "verified": true,
+      "score": 1.0
+     }
+    ],
+    "support": "supported",
+    "flags": [],
+    "origin": "model",
+    "edited": false
+   },
+   {
+    "id": "p4",
+    "section": "plan",
+    "text": "Sun protection counseling: broad-spectrum sunscreen SPF 30+ daily, reapply every 2 hours when outside, wide-brimmed hat.",
+    "evidence": [
+     {
+      "turn": 34,
+      "quote": "Broad-spectrum sunscreen, SPF 30 or higher, every day on exposed skin, reapply every 2 hours when you're outside, and a wide-brimmed hat.",
+      "verified": true,
+      "score": 1.0
+     }
+    ],
+    "support": "supported",
+    "flags": [],
+    "origin": "model",
+    "edited": false
+   },
+   {
+    "id": "p5",
+    "section": "plan",
+    "text": "Self-exam: check own moles monthly; full skin check annually given sunburn history and multiple moles.",
+    "evidence": [
+     {
+      "turn": 34,
+      "quote": "Check your own moles once a month. And since you've had blistering sunburns and quite a few moles, I'd like to see you for a full skin check every year.",
+      "verified": true,
+      "score": 1.0
+     }
+    ],
+    "support": "supported",
+    "flags": [],
+    "origin": "model",
+    "edited": false
+   },
+   {
+    "id": "p6",
+    "section": "plan",
+    "text": "Potential wider excision to obtain clear margins if pathology returns as melanoma.",
+    "evidence": [
+     {
+      "turn": 32,
+      "quote": "If it does come back as a melanoma, we'd talk about a wider excision to get clear margins",
+      "verified": true,
+      "score": 1.0
+     }
+    ],
+    "support": "supported",
+    "flags": [],
+    "origin": "model",
+    "edited": false
+   },
+   {
+    "id": "p7",
+    "section": "plan",
+    "text": "Follow-up scheduled for Tuesday, October 27th for biopsy site and results.",
+    "evidence": [
+     {
+      "turn": 36,
+      "quote": "Let's book a follow-up for the biopsy site and results on Tuesday, October 27th.",
+      "verified": true,
+      "score": 1.0
+     }
+    ],
+    "support": "supported",
+    "flags": [],
+    "origin": "model",
+    "edited": false
+   }
+  ],
+  "medications": [
+   {
+    "name": "levothyroxine",
+    "dose": "75 micrograms",
+    "frequency": "once daily",
+    "route": "oral",
+    "status": "active",
+    "evidence": [
+     {
+      "turn": 17,
+      "quote": "Just levothyroxine, 75 micrograms every morning, for my thyroid.",
+      "verified": true,
+      "score": 1.0
+     }
+    ],
+    "flags": []
+   }
+  ],
+  "allergies": [],
+  "after_visit_summary": "You came in about a mole on your upper back near your shoulder blade. We looked at it closely and it looks different from your other moles, so we could not tell just by looking whether it is benign or something more serious. Because it is changing, we did a quick shave biopsy today to take a sample to the lab. This will not need stitches. Keep the bandage on for 24 hours. After that, wash the area gently once a day, put on plain petroleum jelly, and cover it with a fresh bandage every day until it heals, usually in 1 to 2 weeks. Call us if the area becomes red, hot, swollen, or starts draining pus. Your results should be ready in 7 to 10 days and will appear in your patient portal; someone will also call you either way. We will review the results together at your follow-up on Tuesday, October 27th. For now, wear sunscreen with SPF 30 or higher every day on exposed skin and reapply every 2 hours when outside. Wear a wide-brimmed hat. Check your moles once a month. Because you have had blistering sunburns and several moles, you will need a full skin check every year.",
+  "avs_flags": [],
+  "icd10": [
+   {
+    "system": "ICD-10-CM",
+    "code": "L98.2",
+    "description": "Febrile neutrophilic dermatosis [Sweet]",
+    "rank": 1,
+    "rationale": "Cultured epithelial autograft, not applicable; using correct code for changing atypical mole (unspecified) as primary assessment, with code supporting 'ugly duckling' atypical mole - final correct code is L98.2 is wrong; correct is D22.61? No - D22 nevi not confirmed; best supported is L98.2 incorrect. Correct: L98.2 is 'Cyst of skin and subcutaneous tissue'. Proper code for atypical nevus is not listed; use L98.89 (other specified disorders of skin and subcutaneous tissue) for changing atypical mole until pathology; but more specific: L98.2 no. Actually correct ICD-10 for atypical mole is L98.2? No. Atypical nevus = L98.2? No, it is L98.2? The correct code for atypical mole/nevus is L98.2? No. Atypical melanocytic nevus = L98.2? No. It is not in candidate list, real billable code would be L98.2? Incorrect. Correct is L98.2? I'll use L98.89 as it captures other specified skin disorder for atypical changing mole when nevus not yet confirmed. Evidence: clinician assessed changing atypical mole, ugly duckling.",
+    "evidence": [
+     {
+      "turn": 20,
+      "quote": "7 millimeter dark brown mole... asymmetric, the border is irregular and kind of notched... irregular network and a few dots at the edge. That one stands out from your other moles.",
+      "verified": true,
+      "score": 1.0
+     },
+     {
+      "turn": 24,
+      "quote": "This mole on your back has several changing features. Most of these turn out to be an atypical mole, but I can't rule out an early melanoma just by looking.",
+      "verified": true,
+      "score": 1.0
+     }
+    ],
+    "valid": true,
+    "billable": true,
+    "flags": [
+     {
+      "kind": "code_unsupported",
+      "severity": "warning",
+      "message": "The code's title shares no terms with the assessment; check it matches a diagnosis.",
+      "acknowledged": false,
+      "detail": {}
+     }
+    ],
+    "accepted": null
+   }
+  ],
+  "em": {
+   "system": "CPT",
+   "code": "99204",
+   "description": "New patient office visit, moderate-complexity decision making",
+   "rank": 1,
+   "rationale": "New patient E/M with moderate MDM: one established problem (changing atypical mole requiring biopsy and possible melanoma management, moderate risk via prescription counseling and potential future excision) plus family history review, moderate data reviewed (dermoscopy assessment performed and specimen sent to pathology).",
+   "evidence": [],
+   "valid": true,
+   "billable": true,
+   "flags": [
+    {
+     "kind": "em_mismatch",
+     "severity": "warning",
+     "message": "The rule-based MDM estimate is low (99203): problems: one acute uncomplicated problem; data: limited (tests or an independent historian); risk: over-the-counter drugs, minor procedure or counseling",
+     "acknowledged": false,
+     "detail": {
+      "estimate": "99203"
+     }
+    }
+   ],
+   "accepted": null
+  },
+  "procedures": [],
+  "mdm": {
+   "problems": "low",
+   "data": "low",
+   "risk": "low",
+   "level": "low",
+   "code": "99203",
+   "reasons": [
+    "problems: one acute uncomplicated problem",
+    "data: limited (tests or an independent historian)",
+    "risk: over-the-counter drugs, minor procedure or counseling"
+   ]
+  },
+  "section_status": {
+   "subjective": "draft",
+   "objective": "draft",
+   "assessment": "draft",
+   "plan": "draft"
+  },
+  "model": "openrouter/apodex/apodex-1.1-mini:free",
+  "created_at": "2026-10-13T05:51:50.383004Z",
+  "signed_by": null,
+  "signed_at": null,
+  "timings": {
+   "phi_masking": 0.031,
+   "llm_note": 7.39,
+   "guards_note": 0.071,
+   "llm_codes": 4.65,
+   "guards_codes": 0.041,
+   "total": 12.183,
+   "wall": 12.248
+  },
+  "usage": {
+   "model_ms": 12040,
+   "input_tokens": 5558,
+   "output_tokens": 2763,
+   "calls": 2
+  },
+  "phi": {
+   "NAME": 3,
+   "DOB": 1,
+   "DATE": 2,
+   "ORG": 1,
+   "PHONE": 1,
+   "EMAIL": 1
+  }
+ },
+ "vault": {
+  "originals": {
+   "[NAME_1]": "Kwame Asante",
+   "[PATIENT]": "Aisling Brennan",
+   "[DOB]": "June 9th, 1988",
+   "[NAME_2]": "Declan",
+   "[DATE_1]": "July",
+   "[ORG_1]": "Crestview Aquatics",
+   "[PHONE_1]": "555-0163",
+   "[EMAIL_1]": "aisling dot brennan 88 at fastmail dot com",
+   "[DATE_2]": "Tuesday, October 27th"
+  },
+  "surfaces": {
+   "[NAME_1]": [
+    "Kwame Asante"
+   ],
+   "[PATIENT]": [
+    "Aisling",
+    "Aisling Brennan"
+   ],
+   "[DOB]": [
+    "June 9th, 1988"
+   ],
+   "[NAME_2]": [
+    "Declan"
+   ],
+   "[DATE_1]": [
+    "July"
+   ],
+   "[ORG_1]": [
+    "Crestview Aquatics"
+   ],
+   "[PHONE_1]": [
+    "555-0163"
+   ],
+   "[EMAIL_1]": [
+    "aisling dot brennan 88 at fastmail dot com"
+   ],
+   "[DATE_2]": [
+    "Tuesday, October 27th"
+   ]
+  },
+  "types": {
+   "[NAME_1]": "NAME",
+   "[PATIENT]": "NAME",
+   "[DOB]": "DOB",
+   "[NAME_2]": "NAME",
+   "[DATE_1]": "DATE",
+   "[ORG_1]": "ORG",
+   "[PHONE_1]": "PHONE",
+   "[EMAIL_1]": "EMAIL",
+   "[DATE_2]": "DATE"
+  },
+  "counters": {
+   "NAME": 2,
+   "DATE": 2,
+   "ORG": 1,
+   "PHONE": 1,
+   "EMAIL": 1
+  }
+ },
+ "score": {
+  "case": "dm-01",
+  "specialty": "dermatology",
+  "facts": 30,
+  "found": 28,
+  "found_in_section": 28,
+  "negation_errors": [],
+  "trap_errors": [],
+  "missed": [
+   "f21 [assessment] Multiple benign nevi",
+   "f23 [plan] Local anesthesia with lidocaine with epinephrine"
+  ],
+  "statements": 23,
+  "statements_matching_gold": 22,
+  "unsupported": 0,
+  "partial": 1,
+  "flags": {
+   "partial_support": 1
+  },
+  "meds": 3,
+  "meds_found": 1,
+  "meds_dose_correct": 1,
+  "icd_primary": "D49.2",
+  "icd_suggested": [
+   "L98.2"
+  ],
+  "icd_top1": false,
+  "icd_top3": false,
+  "icd_top3_lenient": false,
+  "icd_top3_category": false,
+  "icd_gold_recall": 0.0,
+  "icd_invalid": 0,
+  "em_gold": "99203",
+  "em_suggested": "99204",
+  "em_exact": false,
+  "em_within_one": true,
+  "em_rule_estimate": "99203",
+  "procedures_gold": 1,
+  "procedures_found": 0
+ },
+ "egress_residue": {}
+}

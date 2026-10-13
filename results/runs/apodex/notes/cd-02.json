@@ -1,0 +1,703 @@
+{
+ "note": {
+  "visit_id": "cd-02",
+  "statements": [
+   {
+    "id": "s1",
+    "section": "subjective",
+    "text": "6-month follow-up for atrial fibrillation. Feeling mostly fine.",
+    "evidence": [
+     {
+      "turn": 4,
+      "quote": "So this is your 6 month check on the atrial fibrillation.",
+      "verified": true,
+      "score": 1.0
+     },
+     {
+      "turn": 5,
+      "quote": "Mostly fine.",
+      "verified": true,
+      "score": 1.0
+     }
+    ],
+    "support": "supported",
+    "flags": [],
+    "origin": "model",
+    "edited": false
+   },
+   {
+    "id": "s2",
+    "section": "subjective",
+    "text": "Does not feel the heart racing like before. Sometimes a little tired in the afternoon.",
+    "evidence": [
+     {
+      "turn": 5,
+      "quote": "I don't feel the heart racing like before. Sometimes I'm a little tired in the afternoon",
+      "verified": true,
+      "score": 1.0
+     }
+    ],
+    "support": "supported",
+    "flags": [],
+    "origin": "model",
+    "edited": false
+   },
+   {
+    "id": "s3",
+    "section": "subjective",
+    "text": "Denies shortness of breath, dizziness, or chest pain.",
+    "evidence": [
+     {
+      "turn": 6,
+      "quote": "Any shortness of breath, dizziness, or chest pain?",
+      "verified": true,
+      "score": 1.0
+     },
+     {
+      "turn": 7,
+      "quote": "No, none of that.",
+      "verified": true,
+      "score": 1.0
+     }
+    ],
+    "support": "supported",
+    "flags": [],
+    "origin": "model",
+    "edited": false
+   },
+   {
+    "id": "s4",
+    "section": "subjective",
+    "text": "Gums bleed a little when brushing. One nosebleed in August, stopped on its own after about 10 minutes, no recurrence.",
+    "evidence": [
+     {
+      "turn": 13,
+      "quote": "My gums bleed a little when I brush. And I had one nosebleed in August",
+      "verified": true,
+      "score": 1.0
+     }
+    ],
+    "support": "supported",
+    "flags": [],
+    "origin": "model",
+    "edited": false
+   },
+   {
+    "id": "s5",
+    "section": "subjective",
+    "text": "Denies black or tarry stools or blood in urine.",
+    "evidence": [
+     {
+      "turn": 14,
+      "quote": "Any black or tarry stools, or blood in your urine?",
+      "verified": true,
+      "score": 1.0
+     },
+     {
+      "turn": 15,
+      "quote": "No.",
+      "verified": true,
+      "score": 1.0
+     }
+    ],
+    "support": "supported",
+    "flags": [],
+    "origin": "model",
+    "edited": false
+   },
+   {
+    "id": "s6",
+    "section": "subjective",
+    "text": "No falls since last visit. Walks with church group twice a week.",
+    "evidence": [
+     {
+      "turn": 16,
+      "quote": "Any falls since I last saw you?",
+      "verified": true,
+      "score": 1.0
+     },
+     {
+      "turn": 17,
+      "quote": "No falls, thank God. I walk with my church group twice a week.",
+      "verified": true,
+      "score": 1.0
+     }
+    ],
+    "support": "supported",
+    "flags": [],
+    "origin": "model",
+    "edited": false
+   },
+   {
+    "id": "o1",
+    "section": "objective",
+    "text": "Blood pressure 132 over 78.",
+    "evidence": [
+     {
+      "turn": 18,
+      "quote": "your blood pressure is 132 over 78",
+      "verified": true,
+      "score": 1.0
+     }
+    ],
+    "support": "supported",
+    "flags": [],
+    "origin": "model",
+    "edited": false
+   },
+   {
+    "id": "o2",
+    "section": "objective",
+    "text": "Pulse 72 and irregular.",
+    "evidence": [
+     {
+      "turn": 18,
+      "quote": "your pulse is 72 and irregular",
+      "verified": true,
+      "score": 1.0
+     }
+    ],
+    "support": "supported",
+    "flags": [],
+    "origin": "model",
+    "edited": false
+   },
+   {
+    "id": "o3",
+    "section": "objective",
+    "text": "Weight 148 pounds, same as last time.",
+    "evidence": [
+     {
+      "turn": 18,
+      "quote": "Weight is 148 pounds, same as last time.",
+      "verified": true,
+      "score": 1.0
+     }
+    ],
+    "support": "supported",
+    "flags": [],
+    "origin": "model",
+    "edited": false
+   },
+   {
+    "id": "o4",
+    "section": "objective",
+    "text": "Cardiac exam: irregularly irregular rhythm, no murmur.",
+    "evidence": [
+     {
+      "turn": 18,
+      "quote": "Heart is irregularly irregular, no murmur.",
+      "verified": true,
+      "score": 1.0
+     }
+    ],
+    "support": "supported",
+    "flags": [],
+    "origin": "model",
+    "edited": false
+   },
+   {
+    "id": "o5",
+    "section": "objective",
+    "text": "Lungs clear, no swelling in ankles.",
+    "evidence": [
+     {
+      "turn": 18,
+      "quote": "Lungs are clear, and no swelling in your ankles.",
+      "verified": true,
+      "score": 1.0
+     }
+    ],
+    "support": "supported",
+    "flags": [],
+    "origin": "model",
+    "edited": false
+   },
+   {
+    "id": "o6",
+    "section": "objective",
+    "text": "ECG today shows atrial fibrillation with a rate of 74.",
+    "evidence": [
+     {
+      "turn": 20,
+      "quote": "It shows atrial fibrillation with a rate of 74",
+      "verified": true,
+      "score": 1.0
+     }
+    ],
+    "support": "supported",
+    "flags": [],
+    "origin": "model",
+    "edited": false
+   },
+   {
+    "id": "o7",
+    "section": "objective",
+    "text": "Hemoglobin 12.9, creatinine 0.9, kidney function normal.",
+    "evidence": [
+     {
+      "turn": 20,
+      "quote": "Hemoglobin was 12.9, and kidney function was normal, creatinine 0.9.",
+      "verified": true,
+      "score": 1.0
+     }
+    ],
+    "support": "supported",
+    "flags": [],
+    "origin": "model",
+    "edited": false
+   },
+   {
+    "id": "o8",
+    "section": "objective",
+    "text": "Stroke risk score 3 (age, female sex, high blood pressure). Bleeding risk score 2 (one point from aspirin).",
+    "evidence": [
+     {
+      "turn": 22,
+      "quote": "Your stroke risk score is 3, because of your age, being a woman, and the high blood pressure.",
+      "verified": true,
+      "score": 1.0
+     },
+     {
+      "turn": 24,
+      "quote": "Your bleeding risk score is 2 right now, and one of those points is the aspirin.",
+      "verified": true,
+      "score": 1.0
+     }
+    ],
+    "support": "supported",
+    "flags": [],
+    "origin": "model",
+    "edited": false
+   },
+   {
+    "id": "a1",
+    "section": "assessment",
+    "text": "Permanent atrial fibrillation, rate controlled.",
+    "evidence": [
+     {
+      "turn": 28,
+      "quote": "This is permanent atrial fibrillation, rate controlled",
+      "verified": true,
+      "score": 1.0
+     }
+    ],
+    "support": "supported",
+    "flags": [],
+    "origin": "model",
+    "edited": false
+   },
+   {
+    "id": "a2",
+    "section": "assessment",
+    "text": "On long-term anticoagulation. Blood pressure at goal.",
+    "evidence": [
+     {
+      "turn": 28,
+      "quote": "on long term anticoagulation, and your blood pressure is at goal.",
+      "verified": true,
+      "score": 1.0
+     }
+    ],
+    "support": "supported",
+    "flags": [],
+    "origin": "model",
+    "edited": false
+   },
+   {
+    "id": "p1",
+    "section": "plan",
+    "text": "Continue apixaban 5 milligrams twice daily.",
+    "evidence": [
+     {
+      "turn": 28,
+      "quote": "Keep the apixaban 5 milligrams twice a day",
+      "verified": true,
+      "score": 1.0
+     }
+    ],
+    "support": "supported",
+    "flags": [],
+    "origin": "model",
+    "edited": false
+   }
+  ],
+  "medications": [
+   {
+    "name": "apixaban",
+    "dose": "5 mg",
+    "frequency": "twice daily",
+    "route": "oral",
+    "status": "active",
+    "evidence": [
+     {
+      "turn": 8,
+      "quote": "You're on apixaban, 5 milligrams twice a day",
+      "verified": true,
+      "score": 1.0
+     }
+    ],
+    "flags": []
+   },
+   {
+    "name": "metoprolol succinate",
+    "dose": "50 mg",
+    "frequency": "once daily",
+    "route": "oral",
+    "status": "active",
+    "evidence": [
+     {
+      "turn": 9,
+      "quote": "But the metoprolol is 50 now. You went up to 50 in April",
+      "verified": true,
+      "score": 1.0
+     }
+    ],
+    "flags": []
+   },
+   {
+    "name": "lisinopril",
+    "dose": "10 mg",
+    "frequency": "once daily",
+    "route": "oral",
+    "status": "active",
+    "evidence": [
+     {
+      "turn": 10,
+      "quote": "And the lisinopril, 10 milligrams in the morning for the blood pressure",
+      "verified": true,
+      "score": 1.0
+     }
+    ],
+    "flags": []
+   },
+   {
+    "name": "aspirin (baby aspirin)",
+    "dose": "1 tablet",
+    "frequency": "daily",
+    "route": "oral",
+    "status": "stopped",
+    "evidence": [
+     {
+      "turn": 11,
+      "quote": "And I also take a baby aspirin every day now",
+      "verified": true,
+      "score": 1.0
+     }
+    ],
+    "flags": []
+   },
+   {
+    "name": "fish oil",
+    "dose": "1000 mg",
+    "frequency": "daily",
+    "route": "oral",
+    "status": "active",
+    "evidence": [
+     {
+      "turn": 11,
+      "quote": "And my fish oil, 1000 milligrams",
+      "verified": true,
+      "score": 1.0
+     }
+    ],
+    "flags": []
+   }
+  ],
+  "allergies": [
+   {
+    "substance": "none stated",
+    "reaction": "none stated",
+    "evidence": [
+     {
+      "turn": 2,
+      "quote": "Did your daughter bring you today?",
+      "verified": true,
+      "score": 1.0
+     }
+    ]
+   }
+  ],
+  "after_visit_summary": "You came in for your 6-month check on atrial fibrillation. Your heart rhythm was irregular as expected, but your heart rate is well controlled. Your blood pressure is at goal, and your recent blood and kidney tests look good. One thing we changed is your aspirin. You had been taking a baby aspirin every day, but it adds bleeding risk on top of your blood thinner (apixaban) without giving extra heart protection, so we are stopping it. Keep taking apixaban 5 mg twice a day, metoprolol 50 mg once daily, lisinopril 10 mg once daily, and fish oil 1000 mg. You may keep a soft toothbrush, and tell your dentist about the gums bleeding. We will check your blood count again in 3 months. Call the clinic if you have black stools, blood in your urine, or a nosebleed that does not stop after 20 minutes. If you fall and hit your head, go to the emergency room even if you feel fine. Please come back in 6 months.",
+  "avs_flags": [],
+  "icd10": [
+   {
+    "system": "ICD-10-CM",
+    "code": "I48.21",
+    "description": "Permanent atrial fibrillation",
+    "rank": 1,
+    "rationale": "Primary diagnosis of permanent atrial fibrillation with rate controlled status, explicitly assessed today and documented.",
+    "evidence": [
+     {
+      "turn": 28,
+      "quote": "This is permanent atrial fibrillation, rate controlled",
+      "verified": true,
+      "score": 1.0
+     }
+    ],
+    "valid": true,
+    "billable": true,
+    "flags": [],
+    "accepted": null
+   },
+   {
+    "system": "ICD-10-CM",
+    "code": "I10",
+    "description": "Essential (primary) hypertension",
+    "rank": 2,
+    "rationale": "Essential hypertension documented as high blood pressure with stroke risk scoring and BP at goal, relevant to the anticoagulation risk assessment.",
+    "evidence": [
+     {
+      "turn": 22,
+      "quote": "stroke risk score is 3, because of your age, being a woman, and the high blood pressure",
+      "verified": true,
+      "score": 1.0
+     }
+    ],
+    "valid": true,
+    "billable": true,
+    "flags": [],
+    "accepted": null
+   },
+   {
+    "system": "ICD-10-CM",
+    "code": "R06.02",
+    "description": "Shortness of breath",
+    "rank": 3,
+    "rationale": "Intermittent epistaxis (one nosebleed) assessed today and addressed in the visit, though minor.",
+    "evidence": [
+     {
+      "turn": 13,
+      "quote": "I had one nosebleed in August, but it stopped on its own after about 10 minutes and it hasn't happened again",
+      "verified": true,
+      "score": 1.0
+     }
+    ],
+    "valid": true,
+    "billable": true,
+    "flags": [
+     {
+      "kind": "code_unsupported",
+      "severity": "warning",
+      "message": "The code's title shares no terms with the assessment; check it matches a diagnosis.",
+      "acknowledged": false,
+      "detail": {}
+     },
+     {
+      "kind": "code_negated",
+      "severity": "error",
+      "message": "The code describes dyspnea, which the patient denied.",
+      "acknowledged": false,
+      "detail": {}
+     }
+    ],
+    "accepted": null
+   },
+   {
+    "system": "ICD-10-CM",
+    "code": "Z79.01",
+    "description": "Long term (current) use of anticoagulants",
+    "rank": 4,
+    "rationale": "Long-term current use of anticoagulants (apixaban 5 mg twice daily), assessed and medication plan confirmed.",
+    "evidence": [
+     {
+      "turn": 28,
+      "quote": "Keep the apixaban 5 milligrams twice a day",
+      "verified": true,
+      "score": 1.0
+     }
+    ],
+    "valid": true,
+    "billable": true,
+    "flags": [],
+    "accepted": null
+   }
+  ],
+  "em": {
+   "system": "CPT",
+   "code": "99214",
+   "description": "Established patient office visit, moderate-complexity decision making",
+   "rank": 1,
+   "rationale": "Established patient office visit with moderate complexity: chronic atrial fibrillation with stable medication management including initiation of a prescription change (stopping aspirin), review of ECG and prior labs, and moderate-risk decision making involving anticoagulant therapy.",
+   "evidence": [],
+   "valid": true,
+   "billable": true,
+   "flags": [
+    {
+     "kind": "em_mismatch",
+     "severity": "warning",
+     "message": "The rule-based MDM estimate is low (99213): problems: one stable chronic illness or two self-limited problems; data: 2 tests or sources; risk: prescription drug management",
+     "acknowledged": false,
+     "detail": {
+      "estimate": "99213"
+     }
+    }
+   ],
+   "accepted": null
+  },
+  "procedures": [
+   {
+    "system": "CPT",
+    "code": "93000",
+    "description": "Electrocardiogram with interpretation and report",
+    "rank": 1,
+    "rationale": "Electrocardiogram performed today with documented interpretation and report of atrial fibrillation with rate 74.",
+    "evidence": [
+     {
+      "turn": 20,
+      "quote": "We did an ECG today. It shows atrial fibrillation with a rate of 74, so your rate is well controlled",
+      "verified": true,
+      "score": 1.0
+     }
+    ],
+    "valid": true,
+    "billable": true,
+    "flags": [],
+    "accepted": null
+   }
+  ],
+  "mdm": {
+   "problems": "low",
+   "data": "low",
+   "risk": "moderate",
+   "level": "low",
+   "code": "99213",
+   "reasons": [
+    "problems: one stable chronic illness or two self-limited problems",
+    "data: 2 tests or sources",
+    "risk: prescription drug management"
+   ]
+  },
+  "section_status": {
+   "subjective": "draft",
+   "objective": "draft",
+   "assessment": "draft",
+   "plan": "draft"
+  },
+  "model": "openrouter/apodex/apodex-1.1-mini:free",
+  "created_at": "2026-10-13T05:49:48.626402Z",
+  "signed_by": null,
+  "signed_at": null,
+  "timings": {
+   "phi_masking": 0.031,
+   "llm_note": 6.77,
+   "guards_note": 0.053,
+   "llm_codes": 3.45,
+   "guards_codes": 0.038,
+   "total": 10.342,
+   "wall": 10.357
+  },
+  "usage": {
+   "model_ms": 10220,
+   "input_tokens": 5118,
+   "output_tokens": 2056,
+   "calls": 2
+  },
+  "phi": {
+   "NAME": 3,
+   "DOB": 1,
+   "PHONE": 1,
+   "DATE": 2,
+   "ADDRESS": 1
+  }
+ },
+ "vault": {
+  "originals": {
+   "[PATIENT]": "Abena Owusu",
+   "[DOB]": "November 19th, 1951",
+   "[NAME_1]": "Efua",
+   "[PHONE_1]": "555-0148",
+   "[DATE_1]": "April",
+   "[NAME_2]": "Ruth",
+   "[DATE_2]": "August",
+   "[ADDRESS_1]": "2210 Wexford Avenue"
+  },
+  "surfaces": {
+   "[PATIENT]": [
+    "Abena Owusu",
+    "Owusu"
+   ],
+   "[DOB]": [
+    "November 19th, 1951"
+   ],
+   "[NAME_1]": [
+    "Efua"
+   ],
+   "[PHONE_1]": [
+    "555-0148"
+   ],
+   "[DATE_1]": [
+    "April"
+   ],
+   "[NAME_2]": [
+    "Ruth"
+   ],
+   "[DATE_2]": [
+    "August"
+   ],
+   "[ADDRESS_1]": [
+    "2210 Wexford Avenue"
+   ]
+  },
+  "types": {
+   "[PATIENT]": "NAME",
+   "[DOB]": "DOB",
+   "[NAME_1]": "NAME",
+   "[PHONE_1]": "PHONE",
+   "[DATE_1]": "DATE",
+   "[NAME_2]": "NAME",
+   "[DATE_2]": "DATE",
+   "[ADDRESS_1]": "ADDRESS"
+  },
+  "counters": {
+   "NAME": 2,
+   "PHONE": 1,
+   "DATE": 2,
+   "ADDRESS": 1
+  }
+ },
+ "score": {
+  "case": "cd-02",
+  "specialty": "cardiology",
+  "facts": 28,
+  "found": 24,
+  "found_in_section": 21,
+  "negation_errors": [],
+  "trap_errors": [],
+  "missed": [
+   "f25 [plan] Soft toothbrush and tell dentist about gum bleeding",
+   "f26 [plan] Repeat CBC in 3 months",
+   "f27 [plan] Bleeding precautions; ED evaluation for any fall with head strike",
+   "f28 [plan] Follow-up in 6 months"
+  ],
+  "statements": 17,
+  "statements_matching_gold": 15,
+  "unsupported": 0,
+  "partial": 0,
+  "flags": {},
+  "meds": 5,
+  "meds_found": 5,
+  "meds_dose_correct": 4,
+  "icd_primary": "I48.21",
+  "icd_suggested": [
+   "I48.21",
+   "I10",
+   "R06.02",
+   "Z79.01"
+  ],
+  "icd_top1": true,
+  "icd_top3": true,
+  "icd_top3_lenient": true,
+  "icd_top3_category": true,
+  "icd_gold_recall": 1.0,
+  "icd_invalid": 0,
+  "em_gold": "99214",
+  "em_suggested": "99214",
+  "em_exact": true,
+  "em_within_one": true,
+  "em_rule_estimate": "99213",
+  "procedures_gold": 1,
+  "procedures_found": 1
+ },
+ "egress_residue": {}
+}

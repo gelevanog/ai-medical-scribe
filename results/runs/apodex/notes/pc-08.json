@@ -1,0 +1,956 @@
+{
+ "note": {
+  "visit_id": "pc-08",
+  "statements": [
+   {
+    "id": "s1",
+    "section": "subjective",
+    "text": "6 weeks of increased fatigue; naps in morning and after lunch.",
+    "evidence": [
+     {
+      "turn": 5,
+      "quote": "I'm just worn out, doctor. For about six weeks now.",
+      "verified": true,
+      "score": 1.0
+     }
+    ],
+    "support": "supported",
+    "flags": [],
+    "origin": "model",
+    "edited": false
+   },
+   {
+    "id": "s2",
+    "section": "subjective",
+    "text": "Morning dizziness with room swimming on standing, transient.",
+    "evidence": [
+     {
+      "turn": 7,
+      "quote": "When I first get up out of bed in the morning, the room kind of swims for a second.",
+      "verified": true,
+      "score": 1.0
+     }
+    ],
+    "support": "supported",
+    "flags": [],
+    "origin": "model",
+    "edited": false
+   },
+   {
+    "id": "s3",
+    "section": "subjective",
+    "text": "Denies falls.",
+    "evidence": [
+     {
+      "turn": 8,
+      "quote": "Have you fallen at all?",
+      "verified": true,
+      "score": 1.0
+     },
+     {
+      "turn": 9,
+      "quote": "No, I hold on to the dresser.",
+      "verified": true,
+      "score": 1.0
+     }
+    ],
+    "support": "partial",
+    "flags": [
+     {
+      "kind": "partial_support",
+      "severity": "warning",
+      "message": "Quoted turn does not contain most of its terms; check against the transcript.",
+      "acknowledged": false,
+      "detail": {}
+     }
+    ],
+    "origin": "model",
+    "edited": false
+   },
+   {
+    "id": "s4",
+    "section": "subjective",
+    "text": "Denies chest pain.",
+    "evidence": [
+     {
+      "turn": 10,
+      "quote": "Any chest pain or shortness of breath?",
+      "verified": true,
+      "score": 1.0
+     },
+     {
+      "turn": 11,
+      "quote": "No chest pain.",
+      "verified": true,
+      "score": 1.0
+     }
+    ],
+    "support": "supported",
+    "flags": [],
+    "origin": "model",
+    "edited": false
+   },
+   {
+    "id": "s5",
+    "section": "subjective",
+    "text": "Denies shortness of breath.",
+    "evidence": [
+     {
+      "turn": 10,
+      "quote": "Any chest pain or shortness of breath?",
+      "verified": true,
+      "score": 1.0
+     },
+     {
+      "turn": 11,
+      "quote": "I breathe fine.",
+      "verified": true,
+      "score": 1.0
+     }
+    ],
+    "support": "supported",
+    "flags": [],
+    "origin": "model",
+    "edited": false
+   },
+   {
+    "id": "s6",
+    "section": "subjective",
+    "text": "Denies fever, black stools, and unintentional weight loss.",
+    "evidence": [
+     {
+      "turn": 12,
+      "quote": "Fever, black stools, or losing weight without trying?",
+      "verified": true,
+      "score": 1.0
+     },
+     {
+      "turn": 13,
+      "quote": "No, none of that.",
+      "verified": true,
+      "score": 1.0
+     }
+    ],
+    "support": "supported",
+    "flags": [],
+    "origin": "model",
+    "edited": false
+   },
+   {
+    "id": "s7",
+    "section": "subjective",
+    "text": "Denies feeling down or sad.",
+    "evidence": [
+     {
+      "turn": 14,
+      "quote": "Have you been feeling down or sad?",
+      "verified": true,
+      "score": 1.0
+     },
+     {
+      "turn": 15,
+      "quote": "No, I'm not sad.",
+      "verified": true,
+      "score": 1.0
+     }
+    ],
+    "support": "supported",
+    "flags": [],
+    "origin": "model",
+    "edited": false
+   },
+   {
+    "id": "s8",
+    "section": "subjective",
+    "text": "History of pneumonia last winter, fully recovered.",
+    "evidence": [
+     {
+      "turn": 21,
+      "quote": "Well, I had pneumonia last winter, but I got over that.",
+      "verified": true,
+      "score": 1.0
+     }
+    ],
+    "support": "supported",
+    "flags": [],
+    "origin": "model",
+    "edited": false
+   },
+   {
+    "id": "s9",
+    "section": "subjective",
+    "text": "Social: lives with Gloria, who brings her to visits and gardens.",
+    "evidence": [
+     {
+      "turn": 3,
+      "quote": "She did, she's out in the waiting room on her phone.",
+      "verified": true,
+      "score": 1.0
+     },
+     {
+      "turn": 5,
+      "quote": "My tomatoes are going to waste because I can't get out to the garden.",
+      "verified": true,
+      "score": 1.0
+     }
+    ],
+    "support": "supported",
+    "flags": [],
+    "origin": "model",
+    "edited": false
+   },
+   {
+    "id": "o1",
+    "section": "objective",
+    "text": "Sitting blood pressure 118/64, pulse 52.",
+    "evidence": [
+     {
+      "turn": 22,
+      "quote": "Sitting, your blood pressure is 118 over 64, and your pulse is 52, which is on the slow side.",
+      "verified": true,
+      "score": 1.0
+     }
+    ],
+    "support": "supported",
+    "flags": [],
+    "origin": "model",
+    "edited": false
+   },
+   {
+    "id": "o2",
+    "section": "objective",
+    "text": "Standing blood pressure 104/60.",
+    "evidence": [
+     {
+      "turn": 22,
+      "quote": "Standing up, the pressure drops to 104 over 60.",
+      "verified": true,
+      "score": 1.0
+     }
+    ],
+    "support": "supported",
+    "flags": [],
+    "origin": "model",
+    "edited": false
+   },
+   {
+    "id": "o3",
+    "section": "objective",
+    "text": "Heart slow but regular, no murmur.",
+    "evidence": [
+     {
+      "turn": 23,
+      "quote": "Your heart is slow but regular, no murmur.",
+      "verified": true,
+      "score": 1.0
+     }
+    ],
+    "support": "supported",
+    "flags": [],
+    "origin": "model",
+    "edited": false
+   },
+   {
+    "id": "o4",
+    "section": "objective",
+    "text": "Lungs clear, no ankle edema, no conjunctival pallor.",
+    "evidence": [
+     {
+      "turn": 23,
+      "quote": "Lungs are clear. No swelling in your ankles. Your color looks good, no paleness inside the eyelids.",
+      "verified": true,
+      "score": 1.0
+     }
+    ],
+    "support": "supported",
+    "flags": [],
+    "origin": "model",
+    "edited": false
+   },
+   {
+    "id": "o5",
+    "section": "objective",
+    "text": "ECG: slow regular rhythm, rate 52, no heart block.",
+    "evidence": [
+     {
+      "turn": 24,
+      "quote": "It shows a slow, regular rhythm, a rate of 52, and no heart block.",
+      "verified": true,
+      "score": 1.0
+     }
+    ],
+    "support": "supported",
+    "flags": [],
+    "origin": "model",
+    "edited": false
+   },
+   {
+    "id": "a1",
+    "section": "assessment",
+    "text": "Fatigue and dizziness likely related to metoprolol and diphenhydramine.",
+    "evidence": [
+     {
+      "turn": 26,
+      "quote": "I think a big part is your medicines. Your pulse is slow, and the metoprolol may be slowing it too much.",
+      "verified": true,
+      "score": 1.0
+     }
+    ],
+    "support": "supported",
+    "flags": [],
+    "origin": "model",
+    "edited": false
+   },
+   {
+    "id": "p1",
+    "section": "plan",
+    "text": "Stop Tylenol PM.",
+    "evidence": [
+     {
+      "turn": 28,
+      "quote": "Stop the Tylenol PM.",
+      "verified": true,
+      "score": 1.0
+     }
+    ],
+    "support": "supported",
+    "flags": [],
+    "origin": "model",
+    "edited": false
+   },
+   {
+    "id": "p2",
+    "section": "plan",
+    "text": "Use plain acetaminophen 500 mg for aches at night.",
+    "evidence": [
+     {
+      "turn": 28,
+      "quote": "If you have aches at night, plain Tylenol, that's acetaminophen, 500 milligrams is fine.",
+      "verified": true,
+      "score": 1.0
+     }
+    ],
+    "support": "supported",
+    "flags": [],
+    "origin": "model",
+    "edited": false
+   },
+   {
+    "id": "p3",
+    "section": "plan",
+    "text": "Reduce metoprolol to 25 mg twice daily.",
+    "evidence": [
+     {
+      "turn": 28,
+      "quote": "Cut the metoprolol down to 25 milligrams twice a day, that's half a tablet.",
+      "verified": true,
+      "score": 1.0
+     }
+    ],
+    "support": "supported",
+    "flags": [],
+    "origin": "model",
+    "edited": false
+   },
+   {
+    "id": "p4",
+    "section": "plan",
+    "text": "Continue amlodipine, atorvastatin, and aspirin unchanged.",
+    "evidence": [
+     {
+      "turn": 28,
+      "quote": "Keep the amlodipine, atorvastatin and aspirin the same.",
+      "verified": true,
+      "score": 1.0
+     }
+    ],
+    "support": "supported",
+    "flags": [],
+    "origin": "model",
+    "edited": false
+   },
+   {
+    "id": "p5",
+    "section": "plan",
+    "text": "Sleep hygiene: same bedtime, limit afternoon naps, morning light.",
+    "evidence": [
+     {
+      "turn": 30,
+      "quote": "Same bedtime every night, no long afternoon naps, and some light in the morning.",
+      "verified": true,
+      "score": 1.0
+     }
+    ],
+    "support": "supported",
+    "flags": [],
+    "origin": "model",
+    "edited": false
+   },
+   {
+    "id": "p6",
+    "section": "plan",
+    "text": "Switch vitamin D to chewable 1000 units daily.",
+    "evidence": [
+     {
+      "turn": 30,
+      "quote": "I'll switch you to a chewable, 1000 units a day.",
+      "verified": true,
+      "score": 1.0
+     }
+    ],
+    "support": "supported",
+    "flags": [],
+    "origin": "model",
+    "edited": false
+   },
+   {
+    "id": "p7",
+    "section": "plan",
+    "text": "Obtain CBC, chemistry panel, thyroid test, and B12 today.",
+    "evidence": [
+     {
+      "turn": 32,
+      "quote": "I also want some blood work today, a blood count, chemistry panel, thyroid test and B12, to make sure we're not missing anything else.",
+      "verified": true,
+      "score": 1.0
+     }
+    ],
+    "support": "supported",
+    "flags": [],
+    "origin": "model",
+    "edited": false
+   },
+   {
+    "id": "p8",
+    "section": "plan",
+    "text": "Precautions: rise slowly, sit on edge of bed before standing; call or go to emergency room if fainting, chest pain, or slower pulse.",
+    "evidence": [
+     {
+      "turn": 34,
+      "quote": "Get up slowly, sit on the edge of the bed for a minute first. If you faint, have chest pain, or your pulse gets slower, call us or go to the emergency room.",
+      "verified": true,
+      "score": 1.0
+     }
+    ],
+    "support": "supported",
+    "flags": [],
+    "origin": "model",
+    "edited": false
+   },
+   {
+    "id": "p9",
+    "section": "plan",
+    "text": "Follow-up in 2 weeks; results will be called to Gloria at 555-0177.",
+    "evidence": [
+     {
+      "turn": 34,
+      "quote": "I'll see you in 2 weeks, and we'll call Gloria at 555-0177 with the results.",
+      "verified": true,
+      "score": 1.0
+     }
+    ],
+    "support": "supported",
+    "flags": [],
+    "origin": "model",
+    "edited": false
+   }
+  ],
+  "medications": [
+   {
+    "name": "amlodipine",
+    "dose": "5 mg",
+    "frequency": "once daily",
+    "route": "oral",
+    "status": "active",
+    "evidence": [
+     {
+      "turn": 16,
+      "quote": "I have amlodipine 5 milligrams once a day for your blood pressure",
+      "verified": true,
+      "score": 1.0
+     }
+    ],
+    "flags": []
+   },
+   {
+    "name": "metoprolol",
+    "dose": "50 mg",
+    "frequency": "twice daily",
+    "route": "oral",
+    "status": "changed to 25 mg twice daily",
+    "evidence": [
+     {
+      "turn": 16,
+      "quote": "metoprolol 50 milligrams twice a day",
+      "verified": true,
+      "score": 1.0
+     },
+     {
+      "turn": 28,
+      "quote": "Cut the metoprolol down to 25 milligrams twice a day",
+      "verified": true,
+      "score": 1.0
+     }
+    ],
+    "flags": []
+   },
+   {
+    "name": "atorvastatin",
+    "dose": "10 mg",
+    "frequency": "at night",
+    "route": "oral",
+    "status": "active",
+    "evidence": [
+     {
+      "turn": 16,
+      "quote": "atorvastatin 10 at night",
+      "verified": true,
+      "score": 1.0
+     }
+    ],
+    "flags": []
+   },
+   {
+    "name": "aspirin",
+    "dose": "81 mg",
+    "frequency": "not specified",
+    "route": "oral",
+    "status": "active",
+    "evidence": [
+     {
+      "turn": 16,
+      "quote": "a baby aspirin, 81 milligrams",
+      "verified": true,
+      "score": 1.0
+     }
+    ],
+    "flags": []
+   },
+   {
+    "name": "Tylenol PM",
+    "dose": "not specified",
+    "frequency": "every night",
+    "route": "oral",
+    "status": "stopped",
+    "evidence": [
+     {
+      "turn": 17,
+      "quote": "I take a Tylenol PM at bedtime",
+      "verified": true,
+      "score": 1.0
+     },
+     {
+      "turn": 28,
+      "quote": "Stop the Tylenol PM.",
+      "verified": true,
+      "score": 1.0
+     }
+    ],
+    "flags": []
+   },
+   {
+    "name": "vitamin D",
+    "dose": "not specified",
+    "frequency": "not specified",
+    "route": "oral",
+    "status": "stopped, to switch to chewable 1000 units daily",
+    "evidence": [
+     {
+      "turn": 19,
+      "quote": "Oh, and I quit the vitamin D.",
+      "verified": true,
+      "score": 1.0
+     },
+     {
+      "turn": 30,
+      "quote": "I'll switch you to a chewable, 1000 units a day.",
+      "verified": true,
+      "score": 1.0
+     }
+    ],
+    "flags": []
+   },
+   {
+    "name": "acetaminophen",
+    "dose": "500 mg",
+    "frequency": "as needed for aches at night",
+    "route": "oral",
+    "status": "new",
+    "evidence": [
+     {
+      "turn": 28,
+      "quote": "plain Tylenol, that's acetaminophen, 500 milligrams is fine.",
+      "verified": true,
+      "score": 1.0
+     }
+    ],
+    "flags": []
+   }
+  ],
+  "allergies": [],
+  "after_visit_summary": "You came in feeling very tired for about six weeks and feeling dizzy when you first stand up. You had no chest pain, shortness of breath, fever, or weight loss. Your heart rate was slow at 52, and your blood pressure dropped when you stood up. The doctor thinks your tiredness comes mostly from your medicines: metoprolol can slow your heart too much, and Tylenol PM makes many older adults drowsy all day. Please stop taking Tylenol PM. For night aches, you may use acetaminophen 500 mg. Take metoprolol 25 mg twice a day instead of 50 mg. Keep taking amlodipine, atorvastatin, and baby aspirin the same. Get up slowly and sit on the edge of your bed before standing. For sleep, go to bed at the same time, avoid long afternoon naps, and get morning light. Vitamin D will become a chewable 1000 units once a day. You are getting blood tests today. Call us or go to the emergency room if you faint, get chest pain, or notice a slower pulse. We will see you in 2 weeks to review your test results.",
+  "avs_flags": [],
+  "icd10": [
+   {
+    "system": "ICD-10-CM",
+    "code": "R53.83",
+    "description": "Other fatigue",
+    "rank": 1,
+    "rationale": "Other fatigue, the primary reason for the visit (6 weeks of increased fatigue); more specific than R53.0 and not a confirmed post-infection syndrome given the likely medication etiology.",
+    "evidence": [
+     {
+      "turn": 5,
+      "quote": "I'm just worn out, doctor. For about six weeks now.",
+      "verified": true,
+      "score": 1.0
+     }
+    ],
+    "valid": true,
+    "billable": true,
+    "flags": [],
+    "accepted": null
+   },
+   {
+    "system": "ICD-10-CM",
+    "code": "R42",
+    "description": "Dizziness and giddiness",
+    "rank": 2,
+    "rationale": "Dizziness and giddiness documented as morning dizziness with room swimming on standing, transient; supported by candidate list.",
+    "evidence": [
+     {
+      "turn": 7,
+      "quote": "When I first get up out of bed in the morning, the room kind of swims for a second.",
+      "verified": true,
+      "score": 1.0
+     }
+    ],
+    "valid": true,
+    "billable": true,
+    "flags": [],
+    "accepted": null
+   },
+   {
+    "system": "ICD-10-CM",
+    "code": "M54.5",
+    "description": "Low back pain",
+    "rank": 3,
+    "rationale": "Low back pain not documented; this is an illustrative placeholder and should not be billed — actual note supports no back pain. [NOT CODED: no evidence of back pain in note.]",
+    "evidence": [],
+    "valid": false,
+    "billable": false,
+    "flags": [
+     {
+      "kind": "code_not_billable",
+      "severity": "error",
+      "message": "M54.5 is a category header, not billable; choose a more specific code",
+      "acknowledged": false,
+      "detail": {
+       "children": [
+        "M54.50",
+        "M54.51",
+        "M54.59"
+       ]
+      }
+     },
+     {
+      "kind": "code_unsupported",
+      "severity": "warning",
+      "message": "No verified quote supports this code.",
+      "acknowledged": false,
+      "detail": {}
+     },
+     {
+      "kind": "code_unsupported",
+      "severity": "warning",
+      "message": "The code's title shares no terms with the assessment; check it matches a diagnosis.",
+      "acknowledged": false,
+      "detail": {}
+     }
+    ],
+    "accepted": null
+   },
+   {
+    "system": "ICD-10-CM",
+    "code": "Z79.899",
+    "description": "Other long term (current) drug therapy",
+    "rank": 4,
+    "rationale": "Long-term (current) use of other medication — patient uses metoprolol, amlodipine, atorvastatin, aspirin, and acetaminophen; Z code only when relevant and assessed.",
+    "evidence": [
+     {
+      "turn": 16,
+      "quote": "I have amlodipine 5 milligrams once a day for your blood pressure, metoprolol 50 milligrams twice a day, atorvastatin 10 at night, and a baby aspirin, 81 milligrams.",
+      "verified": true,
+      "score": 1.0
+     }
+    ],
+    "valid": true,
+    "billable": true,
+    "flags": [
+     {
+      "kind": "code_unsupported",
+      "severity": "warning",
+      "message": "The code's title shares no terms with the assessment; check it matches a diagnosis.",
+      "acknowledged": false,
+      "detail": {}
+     }
+    ],
+    "accepted": null
+   },
+   {
+    "system": "ICD-10-CM",
+    "code": "Z87.891",
+    "description": "Personal history of nicotine dependence",
+    "rank": 5,
+    "rationale": "Personal history of pneumonia, fully recovered, no current problem; family history of pneumonia not assessed, so not coded.",
+    "evidence": [
+     {
+      "turn": 21,
+      "quote": "Well, I had pneumonia last winter, but I got over that.",
+      "verified": true,
+      "score": 1.0
+     }
+    ],
+    "valid": true,
+    "billable": true,
+    "flags": [
+     {
+      "kind": "code_unsupported",
+      "severity": "warning",
+      "message": "The code's title shares no terms with the assessment; check it matches a diagnosis.",
+      "acknowledged": false,
+      "detail": {}
+     }
+    ],
+    "accepted": null
+   }
+  ],
+  "em": {
+   "system": "CPT",
+   "code": "99213",
+   "description": "Established patient office visit, low-complexity decision making",
+   "rank": 1,
+   "rationale": "Established patient with 1 stable chronic problem (hypertension/multisystem med review), 1 acute problem (fatigue/dizziness likely medication-related), low-to-moderate MDM with review of outside ECG and independent interpretation plus moderate-risk management (prescription drug management: reducing metoprolol and stopping Tylenol PM) — supports 99213.",
+   "evidence": [],
+   "valid": true,
+   "billable": true,
+   "flags": [
+    {
+     "kind": "em_mismatch",
+     "severity": "warning",
+     "message": "The rule-based MDM estimate is moderate (99214): problems: undiagnosed new problem with uncertain prognosis; data: 4 tests or sources; risk: prescription drug management",
+     "acknowledged": false,
+     "detail": {
+      "estimate": "99214"
+     }
+    }
+   ],
+   "accepted": null
+  },
+  "procedures": [
+   {
+    "system": "CPT",
+    "code": "93000",
+    "description": "Electrocardiogram with interpretation and report",
+    "rank": 1,
+    "rationale": "ECG performed in clinic with interpretation and report today; patient had slow regular rhythm rate 52, no heart block.",
+    "evidence": [
+     {
+      "turn": 24,
+      "quote": "We also did an ECG while you were waiting. It shows a slow, regular rhythm, a rate of 52, and no heart block.",
+      "verified": true,
+      "score": 1.0
+     }
+    ],
+    "valid": true,
+    "billable": true,
+    "flags": [],
+    "accepted": null
+   },
+   {
+    "system": "CPT",
+    "code": "36415",
+    "description": "Collection of venous blood by venipuncture",
+    "rank": 2,
+    "rationale": "Venous blood collection (venipuncture) performed today for CBC, chemistry panel, thyroid test, and B12.",
+    "evidence": [
+     {
+      "turn": 32,
+      "quote": "I also want some blood work today, a blood count, chemistry panel, thyroid test and B12, to make sure we're not missing anything else.",
+      "verified": true,
+      "score": 1.0
+     }
+    ],
+    "valid": true,
+    "billable": true,
+    "flags": [],
+    "accepted": null
+   },
+   {
+    "system": "CPT",
+    "code": "85025",
+    "description": "Complete blood count with automated differential",
+    "rank": 3,
+    "rationale": "Complete blood count ordered and drawn today as part of the workup for fatigue/dizziness.",
+    "evidence": [
+     {
+      "turn": 32,
+      "quote": "I also want some blood work today, a blood count, chemistry panel, thyroid test and B12, to make sure we're not missing anything else.",
+      "verified": true,
+      "score": 1.0
+     }
+    ],
+    "valid": true,
+    "billable": true,
+    "flags": [],
+    "accepted": null
+   },
+   {
+    "system": "CPT",
+    "code": "80053",
+    "description": "Comprehensive metabolic panel",
+    "rank": 4,
+    "rationale": "Comprehensive metabolic panel ordered and drawn today.",
+    "evidence": [
+     {
+      "turn": 32,
+      "quote": "I also want some blood work today, a blood count, chemistry panel, thyroid test and B12, to make sure we're not missing anything else.",
+      "verified": true,
+      "score": 1.0
+     }
+    ],
+    "valid": true,
+    "billable": true,
+    "flags": [],
+    "accepted": null
+   }
+  ],
+  "mdm": {
+   "problems": "moderate",
+   "data": "moderate",
+   "risk": "moderate",
+   "level": "moderate",
+   "code": "99214",
+   "reasons": [
+    "problems: undiagnosed new problem with uncertain prognosis",
+    "data: 4 tests or sources",
+    "risk: prescription drug management"
+   ]
+  },
+  "section_status": {
+   "subjective": "draft",
+   "objective": "draft",
+   "assessment": "draft",
+   "plan": "draft"
+  },
+  "model": "openrouter/apodex/apodex-1.1-mini:free",
+  "created_at": "2026-10-13T05:49:18.593525Z",
+  "signed_by": null,
+  "signed_at": null,
+  "timings": {
+   "phi_masking": 0.033,
+   "llm_note": 19.22,
+   "guards_note": 0.056,
+   "llm_codes": 6.15,
+   "guards_codes": 0.047,
+   "total": 25.506,
+   "wall": 60.481
+  },
+  "usage": {
+   "model_ms": 25370,
+   "input_tokens": 5175,
+   "output_tokens": 3101,
+   "calls": 2
+  },
+  "phi": {
+   "NAME": 2,
+   "DOB": 1,
+   "AGE": 1,
+   "PHONE": 1
+  }
+ },
+ "vault": {
+  "originals": {
+   "[PATIENT]": "Odessa Turner",
+   "[DOB]": "April 19th, 1935",
+   "[AGE_90_PLUS]": "91 years old",
+   "[NAME_1]": "Gloria",
+   "[PHONE_1]": "555-0177"
+  },
+  "surfaces": {
+   "[PATIENT]": [
+    "Odessa Turner",
+    "Turner"
+   ],
+   "[DOB]": [
+    "April 19th, 1935"
+   ],
+   "[AGE_90_PLUS]": [
+    "91",
+    "91 years old"
+   ],
+   "[NAME_1]": [
+    "Gloria"
+   ],
+   "[PHONE_1]": [
+    "555-0177"
+   ]
+  },
+  "types": {
+   "[PATIENT]": "NAME",
+   "[DOB]": "DOB",
+   "[AGE_90_PLUS]": "AGE",
+   "[NAME_1]": "NAME",
+   "[PHONE_1]": "PHONE"
+  },
+  "counters": {
+   "NAME": 1,
+   "PHONE": 1
+  }
+ },
+ "score": {
+  "case": "pc-08",
+  "specialty": "primary_care",
+  "facts": 30,
+  "found": 29,
+  "found_in_section": 27,
+  "negation_errors": [],
+  "trap_errors": [
+   "small_talk: Tomatoes and garden"
+  ],
+  "missed": [
+   "f20 [assessment] Bradycardia, likely related to metoprolol"
+  ],
+  "statements": 24,
+  "statements_matching_gold": 22,
+  "unsupported": 0,
+  "partial": 1,
+  "flags": {
+   "partial_support": 1
+  },
+  "meds": 7,
+  "meds_found": 7,
+  "meds_dose_correct": 3,
+  "icd_primary": "R53.83",
+  "icd_suggested": [
+   "R53.83",
+   "R42",
+   "M54.5",
+   "Z79.899",
+   "Z87.891"
+  ],
+  "icd_top1": true,
+  "icd_top3": true,
+  "icd_top3_lenient": true,
+  "icd_top3_category": true,
+  "icd_gold_recall": 0.3333333333333333,
+  "icd_invalid": 1,
+  "em_gold": "99214",
+  "em_suggested": "99213",
+  "em_exact": false,
+  "em_within_one": true,
+  "em_rule_estimate": "99214",
+  "procedures_gold": 2,
+  "procedures_found": 2
+ },
+ "egress_residue": {}
+}

@@ -48,7 +48,7 @@ export default function VisitsPage() {
         </div>
         <button
           onClick={() => setOpen(true)}
-          className="flex items-center gap-2 rounded-md bg-brand px-3.5 py-2 text-sm font-medium text-white shadow-sm hover:bg-teal-800"
+          className="flex shrink-0 items-center gap-2 whitespace-nowrap rounded-md bg-brand px-3.5 py-2 text-sm font-medium text-white shadow-sm hover:bg-teal-800"
         >
           <MicIcon className="h-4 w-4" /> New visit
         </button>
@@ -130,7 +130,7 @@ export default function VisitsPage() {
                   )}
                 </td>
                 <td className="px-4 py-3">
-                  <span className={`rounded-full px-2 py-0.5 text-xs font-medium ${STATUS_STYLE[v.status]}`}>{STATUS_LABEL[v.status]}</span>
+                  <span className={`whitespace-nowrap rounded-full px-2 py-0.5 text-xs font-medium ${STATUS_STYLE[v.status]}`}>{STATUS_LABEL[v.status]}</span>
                 </td>
                 <td className="px-4 py-3 text-right tabular-nums">
                   {v.status === "drafted" ? (

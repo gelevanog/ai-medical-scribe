@@ -1,0 +1,916 @@
+{
+ "note": {
+  "visit_id": "cd-01",
+  "statements": [
+   {
+    "id": "s1",
+    "section": "subjective",
+    "text": "Chest pressure in the middle of the chest for 6 weeks.",
+    "evidence": [
+     {
+      "turn": 5,
+      "quote": "about 6 weeks ago I started getting this pressure in the middle of my chest",
+      "verified": true,
+      "score": 1.0
+     }
+    ],
+    "support": "supported",
+    "flags": [],
+    "origin": "model",
+    "edited": false
+   },
+   {
+    "id": "s2",
+    "section": "subjective",
+    "text": "Exertional chest pressure precipitated by walking up a hill or carrying groceries up stairs.",
+    "evidence": [
+     {
+      "turn": 5,
+      "quote": "It happens when I walk up the hill to my house, or when I carry groceries up the stairs",
+      "verified": true,
+      "score": 1.0
+     }
+    ],
+    "support": "supported",
+    "flags": [],
+    "origin": "model",
+    "edited": false
+   },
+   {
+    "id": "s3",
+    "section": "subjective",
+    "text": "Episodes last a few minutes and resolve in about 3 to 4 minutes with rest.",
+    "evidence": [
+     {
+      "turn": 7,
+      "quote": "A few minutes. If I stop and stand there, it goes away in maybe 3, 4 minutes",
+      "verified": true,
+      "score": 1.0
+     }
+    ],
+    "support": "supported",
+    "flags": [],
+    "origin": "model",
+    "edited": false
+   },
+   {
+    "id": "s4",
+    "section": "subjective",
+    "text": "No pain at rest and no nocturnal episodes.",
+    "evidence": [
+     {
+      "turn": 9,
+      "quote": "No, never at rest. Only when I'm pushing it",
+      "verified": true,
+      "score": 1.0
+     }
+    ],
+    "support": "supported",
+    "flags": [],
+    "origin": "model",
+    "edited": false
+   },
+   {
+    "id": "s5",
+    "section": "subjective",
+    "text": "Radiates a little to the left arm; not the jaw.",
+    "evidence": [
+     {
+      "turn": 11,
+      "quote": "Sometimes a little into my left arm. Not the jaw",
+      "verified": true,
+      "score": 1.0
+     }
+    ],
+    "support": "supported",
+    "flags": [],
+    "origin": "model",
+    "edited": false
+   },
+   {
+    "id": "s6",
+    "section": "subjective",
+    "text": "A little shortness of breath with exertion.",
+    "evidence": [
+     {
+      "turn": 13,
+      "quote": "A little winded, yeah",
+      "verified": true,
+      "score": 1.0
+     }
+    ],
+    "support": "supported",
+    "flags": [],
+    "origin": "model",
+    "edited": false
+   },
+   {
+    "id": "s7",
+    "section": "subjective",
+    "text": "No sweating, no nausea, and no syncope.",
+    "evidence": [
+     {
+      "turn": 15,
+      "quote": "No sweating. No nausea. I've never passed out or anything like that",
+      "verified": true,
+      "score": 1.0
+     }
+    ],
+    "support": "supported",
+    "flags": [],
+    "origin": "model",
+    "edited": false
+   },
+   {
+    "id": "s8",
+    "section": "subjective",
+    "text": "Frequency about 2 to 3 times a week, stable.",
+    "evidence": [
+     {
+      "turn": 17,
+      "quote": "not really. It's about the same, maybe 2 or 3 times a week",
+      "verified": true,
+      "score": 1.0
+     }
+    ],
+    "support": "supported",
+    "flags": [],
+    "origin": "model",
+    "edited": false
+   },
+   {
+    "id": "s9",
+    "section": "subjective",
+    "text": "History of high blood pressure and high cholesterol.",
+    "evidence": [
+     {
+      "turn": 18,
+      "quote": "Dr. Patel's note says you have high blood pressure and high cholesterol",
+      "verified": true,
+      "score": 1.0
+     }
+    ],
+    "support": "supported",
+    "flags": [],
+    "origin": "model",
+    "edited": false
+   },
+   {
+    "id": "s10",
+    "section": "subjective",
+    "text": "Never had diabetes; blood sugar always fine.",
+    "evidence": [
+     {
+      "turn": 25,
+      "quote": "No, my sugar's always been fine",
+      "verified": true,
+      "score": 1.0
+     }
+    ],
+    "support": "supported",
+    "flags": [],
+    "origin": "model",
+    "edited": false
+   },
+   {
+    "id": "s11",
+    "section": "subjective",
+    "text": "Former smoker: quit 10 years ago after about 25 years at a pack a day.",
+    "evidence": [
+     {
+      "turn": 23,
+      "quote": "I quit 10 years ago. Before that I smoked about a pack a day for 25 years",
+      "verified": true,
+      "score": 1.0
+     }
+    ],
+    "support": "supported",
+    "flags": [],
+    "origin": "model",
+    "edited": false
+   },
+   {
+    "id": "s12",
+    "section": "subjective",
+    "text": "Occupation is dispatcher at Hollister Freight, mostly sitting.",
+    "evidence": [
+     {
+      "turn": 27,
+      "quote": "I'm a dispatcher at Hollister Freight. Mostly sitting, honestly",
+      "verified": true,
+      "score": 1.0
+     }
+    ],
+    "support": "supported",
+    "flags": [],
+    "origin": "model",
+    "edited": false
+   },
+   {
+    "id": "o1",
+    "section": "objective",
+    "text": "Blood pressure 142 over 86, pulse 74, oxygen saturation 98 percent, weight 214 pounds.",
+    "evidence": [
+     {
+      "turn": 28,
+      "quote": "Your blood pressure today is 142 over 86, pulse 74, and your oxygen is 98 percent. Weight is 214 pounds",
+      "verified": true,
+      "score": 1.0
+     }
+    ],
+    "support": "supported",
+    "flags": [],
+    "origin": "model",
+    "edited": false
+   },
+   {
+    "id": "o2",
+    "section": "objective",
+    "text": "Heart has a regular rhythm with no murmurs.",
+    "evidence": [
+     {
+      "turn": 28,
+      "quote": "Heart has a regular rhythm, no murmurs",
+      "verified": true,
+      "score": 1.0
+     }
+    ],
+    "support": "supported",
+    "flags": [],
+    "origin": "model",
+    "edited": false
+   },
+   {
+    "id": "o3",
+    "section": "objective",
+    "text": "Lungs clear, no leg swelling, pulses in feet good.",
+    "evidence": [
+     {
+      "turn": 28,
+      "quote": "Lungs are clear. No swelling in your legs, and the pulses in your feet are good",
+      "verified": true,
+      "score": 1.0
+     }
+    ],
+    "support": "supported",
+    "flags": [],
+    "origin": "model",
+    "edited": false
+   },
+   {
+    "id": "o4",
+    "section": "objective",
+    "text": "ECG shows normal sinus rhythm at 72, no old heart attack or acute changes.",
+    "evidence": [
+     {
+      "turn": 30,
+      "quote": "It shows normal sinus rhythm at 72, and I don't see any signs of an old heart attack or any acute changes",
+      "verified": true,
+      "score": 1.0
+     }
+    ],
+    "support": "supported",
+    "flags": [],
+    "origin": "model",
+    "edited": false
+   },
+   {
+    "id": "a1",
+    "section": "assessment",
+    "text": "Stable angina, likely from coronary artery narrowing.",
+    "evidence": [
+     {
+      "turn": 32,
+      "quote": "What you're describing, pressure with exertion that goes away with rest, is pretty classic for stable angina",
+      "verified": true,
+      "score": 1.0
+     }
+    ],
+    "support": "supported",
+    "flags": [],
+    "origin": "model",
+    "edited": false
+   },
+   {
+    "id": "a2",
+    "section": "assessment",
+    "text": "Risk factors include smoking history, high blood pressure, and high cholesterol.",
+    "evidence": [
+     {
+      "turn": 32,
+      "quote": "With your smoking history, blood pressure and cholesterol, that's my main concern",
+      "verified": true,
+      "score": 1.0
+     }
+    ],
+    "support": "supported",
+    "flags": [],
+    "origin": "model",
+    "edited": false
+   },
+   {
+    "id": "p1",
+    "section": "plan",
+    "text": "Nuclear stress test scheduled within the next 2 weeks.",
+    "evidence": [
+     {
+      "turn": 34,
+      "quote": "I'd like you to have a nuclear stress test",
+      "verified": true,
+      "score": 1.0
+     },
+     {
+      "turn": 44,
+      "quote": "We'll get the stress test done within the next 2 weeks",
+      "verified": true,
+      "score": 1.0
+     }
+    ],
+    "support": "supported",
+    "flags": [],
+    "origin": "model",
+    "edited": false
+   },
+   {
+    "id": "p2",
+    "section": "plan",
+    "text": "Fasting lipid panel and basic metabolic panel ordered.",
+    "evidence": [
+     {
+      "turn": 34,
+      "quote": "We'll also check a fasting lipid panel and a basic metabolic panel",
+      "verified": true,
+      "score": 1.0
+     }
+    ],
+    "support": "supported",
+    "flags": [],
+    "origin": "model",
+    "edited": false
+   },
+   {
+    "id": "p3",
+    "section": "plan",
+    "text": "Start aspirin 81 mg once daily.",
+    "evidence": [
+     {
+      "turn": 36,
+      "quote": "I want you to start aspirin, 81 milligrams once a day",
+      "verified": true,
+      "score": 1.0
+     }
+    ],
+    "support": "supported",
+    "flags": [],
+    "origin": "model",
+    "edited": false
+   },
+   {
+    "id": "p4",
+    "section": "plan",
+    "text": "Start metoprolol succinate 25 mg once daily.",
+    "evidence": [
+     {
+      "turn": 36,
+      "quote": "I'm also starting metoprolol succinate, 25 milligrams once a day",
+      "verified": true,
+      "score": 1.0
+     }
+    ],
+    "support": "supported",
+    "flags": [],
+    "origin": "model",
+    "edited": false
+   },
+   {
+    "id": "p5",
+    "section": "plan",
+    "text": "Start nitroglycerin 0.4 mg one tablet sublingual as needed for chest pressure not relieved by rest, repeat every 5 minutes up to 3 tablets.",
+    "evidence": [
+     {
+      "turn": 36,
+      "quote": "I'm giving you nitroglycerin, 0.4 milligrams, one tablet under the tongue if the pressure comes on and doesn't go away with rest. You can repeat it every 5 minutes, up to 3 tablets",
+      "verified": true,
+      "score": 1.0
+     }
+    ],
+    "support": "supported",
+    "flags": [],
+    "origin": "model",
+    "edited": false
+   },
+   {
+    "id": "p6",
+    "section": "plan",
+    "text": "Increase atorvastatin from 40 to 80 mg at night.",
+    "evidence": [
+     {
+      "turn": 38,
+      "quote": "I'm also going to increase your atorvastatin from 40 to 80 milligrams at night",
+      "verified": true,
+      "score": 1.0
+     }
+    ],
+    "support": "supported",
+    "flags": [],
+    "origin": "model",
+    "edited": false
+   },
+   {
+    "id": "p7",
+    "section": "plan",
+    "text": "Continue lisinopril at the same dose.",
+    "evidence": [
+     {
+      "turn": 38,
+      "quote": "Keep the lisinopril the same",
+      "verified": true,
+      "score": 1.0
+     }
+    ],
+    "support": "supported",
+    "flags": [],
+    "origin": "model",
+    "edited": false
+   },
+   {
+    "id": "p8",
+    "section": "plan",
+    "text": "Avoid heavy lifting and walking up the hill until stress test results are available.",
+    "evidence": [
+     {
+      "turn": 42,
+      "quote": "And hold off on heavy lifting and that hill until we have the stress test results",
+      "verified": true,
+      "score": 1.0
+     }
+    ],
+    "support": "supported",
+    "flags": [],
+    "origin": "model",
+    "edited": false
+   },
+   {
+    "id": "p9",
+    "section": "plan",
+    "text": "Call 911 and do not drive yourself if chest pain occurs at rest, lasts more than 15 minutes, or does not go away after one nitroglycerin.",
+    "evidence": [
+     {
+      "turn": 40,
+      "quote": "If you get chest pain at rest, or pain that lasts more than 15 minutes, or it doesn't go away after one nitroglycerin, call 911. Don't drive yourself",
+      "verified": true,
+      "score": 1.0
+     }
+    ],
+    "support": "supported",
+    "flags": [],
+    "origin": "model",
+    "edited": false
+   },
+   {
+    "id": "p10",
+    "section": "plan",
+    "text": "Follow-up after stress test results within the next 2 weeks.",
+    "evidence": [
+     {
+      "turn": 44,
+      "quote": "I'll see you back right after to go over the results",
+      "verified": true,
+      "score": 1.0
+     }
+    ],
+    "support": "supported",
+    "flags": [],
+    "origin": "model",
+    "edited": false
+   },
+   {
+    "id": "p11",
+    "section": "plan",
+    "text": "Contact number for scheduling: 555-0163.",
+    "evidence": [
+     {
+      "turn": 43,
+      "quote": "My cell, 555-0163",
+      "verified": true,
+      "score": 1.0
+     }
+    ],
+    "support": "supported",
+    "flags": [],
+    "origin": "model",
+    "edited": false
+   }
+  ],
+  "medications": [
+   {
+    "name": "lisinopril",
+    "dose": "20 mg",
+    "frequency": "once daily",
+    "route": "oral",
+    "status": "active",
+    "evidence": [
+     {
+      "turn": 19,
+      "quote": "Lisinopril, 20 milligrams in the morning",
+      "verified": true,
+      "score": 1.0
+     }
+    ],
+    "flags": []
+   },
+   {
+    "name": "atorvastatin",
+    "dose": "80 mg",
+    "frequency": "once daily",
+    "route": "oral",
+    "status": "changed",
+    "evidence": [
+     {
+      "turn": 38,
+      "quote": "I'm also going to increase your atorvastatin from 40 to 80 milligrams at night",
+      "verified": true,
+      "score": 1.0
+     }
+    ],
+    "flags": []
+   },
+   {
+    "name": "aspirin",
+    "dose": "81 mg",
+    "frequency": "once daily",
+    "route": "oral",
+    "status": "new",
+    "evidence": [
+     {
+      "turn": 36,
+      "quote": "I want you to start aspirin, 81 milligrams once a day",
+      "verified": true,
+      "score": 1.0
+     }
+    ],
+    "flags": []
+   },
+   {
+    "name": "metoprolol succinate",
+    "dose": "25 mg",
+    "frequency": "once daily",
+    "route": "oral",
+    "status": "new",
+    "evidence": [
+     {
+      "turn": 36,
+      "quote": "I'm also starting metoprolol succinate, 25 milligrams once a day",
+      "verified": true,
+      "score": 1.0
+     }
+    ],
+    "flags": []
+   },
+   {
+    "name": "nitroglycerin",
+    "dose": "0.4 mg",
+    "frequency": "every 5 minutes as needed",
+    "route": "sublingual",
+    "status": "new",
+    "evidence": [
+     {
+      "turn": 36,
+      "quote": "I'm giving you nitroglycerin, 0.4 milligrams, one tablet under the tongue if the pressure comes on and doesn't go away with rest",
+      "verified": true,
+      "score": 1.0
+     }
+    ],
+    "flags": []
+   }
+  ],
+  "allergies": [
+   {
+    "substance": "penicillin",
+    "reaction": "hives",
+    "evidence": [
+     {
+      "turn": 21,
+      "quote": "Penicillin. I got hives from it as a kid",
+      "verified": true,
+      "score": 1.0
+     }
+    ]
+   }
+  ],
+  "after_visit_summary": "You have chest pressure with activity that goes away with rest. We think this is stable angina, meaning your heart muscle does not get enough blood when it works hard. We will do a nuclear stress test within the next 2 weeks to check this, along with blood tests for cholesterol and your electrolytes. Take aspirin 81 mg once a day. Take metoprolol succinate 25 mg once a day. If you get chest pressure, put one nitroglycerin tablet under your tongue; you may repeat it every 5 minutes for up to 3 tablets if needed. We are raising your atorvastatin to 80 mg at night, and your lisinopril stays the same. Call 911 and do not drive yourself if you have chest pain at rest, pain that lasts more than 15 minutes, or pain that does not go away after one nitroglycerin. Avoid heavy lifting and walking up the hill until we see your stress test results. We will call you to schedule your test and see you again right after to review the results. For any questions, reach us at 555-0163.",
+  "avs_flags": [],
+  "icd10": [
+   {
+    "system": "ICD-10-CM",
+    "code": "I25.119",
+    "description": "Atherosclerotic heart disease of native coronary artery with unspecified angina pectoris",
+    "rank": 1,
+    "rationale": "Stable angina secondary to atherosclerotic heart disease of native coronary artery without angina pectoris; 'stable angina' with risk factors and exertional chest pressure is best captured as I25.119 (atherosclerotic heart disease of native coronary artery with unstable angina is not supported by stability and absence of MI; the most specific stable angina code is I20.9 if no documented angina type, but note A: 'stable angina, likely from coronary artery narrowing' supports I25.119).",
+    "evidence": [
+     {
+      "turn": 32,
+      "quote": "What you're describing, pressure with exertion that goes away with rest, is pretty classic for stable angina.",
+      "verified": true,
+      "score": 1.0
+     },
+     {
+      "turn": 32,
+      "quote": "usually from narrowing in the heart arteries",
+      "verified": true,
+      "score": 1.0
+     }
+    ],
+    "valid": true,
+    "billable": true,
+    "flags": [],
+    "accepted": null
+   },
+   {
+    "system": "ICD-10-CM",
+    "code": "I10",
+    "description": "Essential (primary) hypertension",
+    "rank": 2,
+    "rationale": "Documented essential (primary) hypertension with BP 142/86 on exam.",
+    "evidence": [
+     {
+      "turn": 28,
+      "quote": "Your blood pressure today is 142 over 86",
+      "verified": true,
+      "score": 1.0
+     }
+    ],
+    "valid": true,
+    "billable": true,
+    "flags": [],
+    "accepted": null
+   },
+   {
+    "system": "ICD-10-CM",
+    "code": "Z87.891",
+    "description": "Personal history of nicotine dependence",
+    "rank": 3,
+    "rationale": "Personal history of nicotine dependence (former smoker, quit 10 years ago, 25 pack-year history) is a relevant ongoing risk factor for CAD.",
+    "evidence": [
+     {
+      "turn": 23,
+      "quote": "I quit 10 years ago. Before that I smoked about a pack a day for 25 years.",
+      "verified": true,
+      "score": 1.0
+     }
+    ],
+    "valid": true,
+    "billable": true,
+    "flags": [],
+    "accepted": null
+   },
+   {
+    "system": "ICD-10-CM",
+    "code": "Z79.899",
+    "description": "Other long term (current) drug therapy",
+    "rank": 4,
+    "rationale": "Long-term (current) use of other medications, specifically lisinopril, atorvastatin, and now aspirin/metoprolol/nitroglycerin therapy initiated today.",
+    "evidence": [
+     {
+      "turn": 19,
+      "quote": "Lisinopril, 20 milligrams in the morning. And he started me on atorvastatin, 40 milligrams at night",
+      "verified": true,
+      "score": 1.0
+     },
+     {
+      "turn": 36,
+      "quote": "I want you to start aspirin, 81 milligrams once a day. I'm also starting metoprolol succinate",
+      "verified": true,
+      "score": 1.0
+     },
+     {
+      "turn": 38,
+      "quote": "increase your atorvastatin from 40 to 80 milligrams at night. Keep the lisinopril the same.",
+      "verified": true,
+      "score": 1.0
+     }
+    ],
+    "valid": true,
+    "billable": true,
+    "flags": [
+     {
+      "kind": "code_unsupported",
+      "severity": "warning",
+      "message": "The code's title shares no terms with the assessment; check it matches a diagnosis.",
+      "acknowledged": false,
+      "detail": {}
+     }
+    ],
+    "accepted": null
+   },
+   {
+    "system": "ICD-10-CM",
+    "code": "Z72.5",
+    "description": "High risk sexual behavior",
+    "rank": 5,
+    "rationale": "Tobacco use history as a cardiovascular risk factor (former smoker, still documented risk).",
+    "evidence": [
+     {
+      "turn": 23,
+      "quote": "I quit 10 years ago. Before that I smoked about a pack a day for 25 years.",
+      "verified": true,
+      "score": 1.0
+     }
+    ],
+    "valid": false,
+    "billable": false,
+    "flags": [
+     {
+      "kind": "code_not_billable",
+      "severity": "error",
+      "message": "Z72.5 is a category header, not billable; choose a more specific code",
+      "acknowledged": false,
+      "detail": {
+       "children": [
+        "Z72.51",
+        "Z72.52",
+        "Z72.53"
+       ]
+      }
+     }
+    ],
+    "accepted": null
+   }
+  ],
+  "em": {
+   "system": "CPT",
+   "code": "99203",
+   "description": "New patient office visit, low-complexity decision making",
+   "rank": 1,
+   "rationale": "New patient office E/M with 2 stable chronic problems plus a new complaint of chest pressure, low risk decision making involving ordering stress testing/labs and initiating moderate-risk prescription drug management.",
+   "evidence": [],
+   "valid": true,
+   "billable": true,
+   "flags": [
+    {
+     "kind": "em_mismatch",
+     "severity": "warning",
+     "message": "The rule-based MDM estimate is moderate (99204): problems: undiagnosed new problem with uncertain prognosis; data: tests ordered or reviewed plus an independent interpretation; risk: prescription drug management",
+     "acknowledged": false,
+     "detail": {
+      "estimate": "99204"
+     }
+    }
+   ],
+   "accepted": null
+  },
+  "procedures": [
+   {
+    "system": "CPT",
+    "code": "93000",
+    "description": "Electrocardiogram with interpretation and report",
+    "rank": 1,
+    "rationale": "In-office ECG performed today with interpretation noted by the clinician.",
+    "evidence": [
+     {
+      "turn": 30,
+      "quote": "We did an ECG when you came in. It shows normal sinus rhythm at 72",
+      "verified": true,
+      "score": 1.0
+     }
+    ],
+    "valid": true,
+    "billable": true,
+    "flags": [],
+    "accepted": null
+   }
+  ],
+  "mdm": {
+   "problems": "moderate",
+   "data": "moderate",
+   "risk": "moderate",
+   "level": "moderate",
+   "code": "99204",
+   "reasons": [
+    "problems: undiagnosed new problem with uncertain prognosis",
+    "data: tests ordered or reviewed plus an independent interpretation",
+    "risk: prescription drug management"
+   ]
+  },
+  "section_status": {
+   "subjective": "draft",
+   "objective": "draft",
+   "assessment": "draft",
+   "plan": "draft"
+  },
+  "model": "openrouter/apodex/apodex-1.1-mini:free",
+  "created_at": "2026-10-13T05:49:38.240436Z",
+  "signed_by": null,
+  "signed_at": null,
+  "timings": {
+   "phi_masking": 0.032,
+   "llm_note": 15.26,
+   "guards_note": 0.073,
+   "llm_codes": 4.16,
+   "guards_codes": 0.052,
+   "total": 19.577,
+   "wall": 19.62
+  },
+  "usage": {
+   "model_ms": 19420,
+   "input_tokens": 5784,
+   "output_tokens": 3019,
+   "calls": 2
+  },
+  "phi": {
+   "NAME": 3,
+   "DOB": 1,
+   "ORG": 1,
+   "PHONE": 1
+  }
+ },
+ "vault": {
+  "originals": {
+   "[NAME_1]": "Adaeze Okonkwo",
+   "[PATIENT]": "Tomasz Wieczorek",
+   "[DOB]": "August 3rd, 1964",
+   "[NAME_2]": "Patel",
+   "[ORG_1]": "Hollister Freight",
+   "[PHONE_1]": "555-0163"
+  },
+  "surfaces": {
+   "[NAME_1]": [
+    "Adaeze Okonkwo"
+   ],
+   "[PATIENT]": [
+    "Tomasz Wieczorek",
+    "Wieczorek"
+   ],
+   "[DOB]": [
+    "August 3rd, 1964"
+   ],
+   "[NAME_2]": [
+    "Patel"
+   ],
+   "[ORG_1]": [
+    "Hollister Freight"
+   ],
+   "[PHONE_1]": [
+    "555-0163"
+   ]
+  },
+  "types": {
+   "[NAME_1]": "NAME",
+   "[PATIENT]": "NAME",
+   "[DOB]": "DOB",
+   "[NAME_2]": "NAME",
+   "[ORG_1]": "ORG",
+   "[PHONE_1]": "PHONE"
+  },
+  "counters": {
+   "NAME": 2,
+   "ORG": 1,
+   "PHONE": 1
+  }
+ },
+ "score": {
+  "case": "cd-01",
+  "specialty": "cardiology",
+  "facts": 30,
+  "found": 28,
+  "found_in_section": 28,
+  "negation_errors": [
+   "f5: Occasional radiation to the left arm (present)"
+  ],
+  "trap_errors": [],
+  "missed": [
+   "f5 [subjective] Occasional radiation to the left arm",
+   "f29 [plan] Call 911 for rest pain, pain over 15 minutes, or pain not relieved by nitroglycerin; avoid heavy exertion until testing"
+  ],
+  "statements": 29,
+  "statements_matching_gold": 26,
+  "unsupported": 0,
+  "partial": 0,
+  "flags": {},
+  "meds": 5,
+  "meds_found": 5,
+  "meds_dose_correct": 5,
+  "icd_primary": "I20.9",
+  "icd_suggested": [
+   "I25.119",
+   "I10",
+   "Z87.891",
+   "Z79.899",
+   "Z72.5"
+  ],
+  "icd_top1": false,
+  "icd_top3": false,
+  "icd_top3_lenient": true,
+  "icd_top3_category": false,
+  "icd_gold_recall": 0.75,
+  "icd_invalid": 1,
+  "em_gold": "99204",
+  "em_suggested": "99203",
+  "em_exact": false,
+  "em_within_one": true,
+  "em_rule_estimate": "99204",
+  "procedures_gold": 1,
+  "procedures_found": 1
+ },
+ "egress_residue": {}
+}

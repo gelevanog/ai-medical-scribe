@@ -1,0 +1,197 @@
+{
+ "dialogues_gold_text": {
+  "gold_values": 251,
+  "covered": 250,
+  "recall": 0.996,
+  "by_type": {
+   "ADDRESS": {
+    "total": 16,
+    "covered": 15
+   },
+   "AGE": {
+    "total": 2,
+    "covered": 2
+   },
+   "DATE": {
+    "total": 51,
+    "covered": 51
+   },
+   "EMAIL": {
+    "total": 8,
+    "covered": 8
+   },
+   "ID": {
+    "total": 3,
+    "covered": 3
+   },
+   "NAME": {
+    "total": 126,
+    "covered": 126
+   },
+   "ORG": {
+    "total": 23,
+    "covered": 23
+   },
+   "PHONE": {
+    "total": 22,
+    "covered": 22
+   }
+  },
+  "misses": [
+   {
+    "case": "dm-06",
+    "type": "ADDRESS",
+    "value": "8817 County Road 12, Seward, Nebraska"
+   }
+  ],
+  "masked_words": 625,
+  "masked_words_not_in_gold_phi": 26,
+  "over_masking_rate": 0.0416
+ },
+ "dialogues_asr_text": {
+  "gold_values": 47,
+  "covered": 45,
+  "recall": 0.9574,
+  "by_type": {
+   "ADDRESS": {
+    "total": 5,
+    "covered": 5
+   },
+   "AGE": {
+    "total": 2,
+    "covered": 2
+   },
+   "DATE": {
+    "total": 15,
+    "covered": 15
+   },
+   "NAME": {
+    "total": 22,
+    "covered": 21
+   },
+   "ORG": {
+    "total": 3,
+    "covered": 2
+   }
+  },
+  "misses": [
+   {
+    "case": "pc-04",
+    "type": "ORG",
+    "value": "Harbor Point Distribution"
+   },
+   {
+    "case": "cd-01",
+    "type": "NAME",
+    "value": "Dr. Patel"
+   }
+  ],
+  "masked_words": 147,
+  "masked_words_not_in_gold_phi": 53,
+  "over_masking_rate": 0.3605
+ },
+ "phi_challenge_current": {
+  "items": 100,
+  "gold_values": 148,
+  "covered": 142,
+  "recall": 0.9595,
+  "by_type": {
+   "ADDRESS": {
+    "total": 24,
+    "covered": 22
+   },
+   "AGE": {
+    "total": 5,
+    "covered": 5
+   },
+   "DATE": {
+    "total": 12,
+    "covered": 12
+   },
+   "DOB": {
+    "total": 10,
+    "covered": 9
+   },
+   "EMAIL": {
+    "total": 3,
+    "covered": 3
+   },
+   "ID": {
+    "total": 10,
+    "covered": 10
+   },
+   "NAME": {
+    "total": 63,
+    "covered": 61
+   },
+   "ORG": {
+    "total": 13,
+    "covered": 12
+   },
+   "PHONE": {
+    "total": 6,
+    "covered": 6
+   },
+   "URL": {
+    "total": 2,
+    "covered": 2
+   }
+  },
+  "negative_items": 20,
+  "negative_items_untouched": 19,
+  "masked_words": 427,
+  "masked_words_not_in_gold_phi": 2
+ },
+ "phi_challenge_2_current": {
+  "items": 120,
+  "gold_values": 169,
+  "covered": 134,
+  "recall": 0.7929,
+  "by_type": {
+   "ADDRESS": {
+    "total": 26,
+    "covered": 21
+   },
+   "AGE": {
+    "total": 7,
+    "covered": 7
+   },
+   "DATE": {
+    "total": 17,
+    "covered": 14
+   },
+   "DOB": {
+    "total": 11,
+    "covered": 6
+   },
+   "EMAIL": {
+    "total": 5,
+    "covered": 5
+   },
+   "ID": {
+    "total": 15,
+    "covered": 10
+   },
+   "NAME": {
+    "total": 66,
+    "covered": 56
+   },
+   "ORG": {
+    "total": 15,
+    "covered": 11
+   },
+   "PHONE": {
+    "total": 6,
+    "covered": 3
+   },
+   "URL": {
+    "total": 1,
+    "covered": 1
+   }
+  },
+  "negative_items": 25,
+  "negative_items_untouched": 22,
+  "masked_words": 394,
+  "masked_words_not_in_gold_phi": 10
+ }
+}

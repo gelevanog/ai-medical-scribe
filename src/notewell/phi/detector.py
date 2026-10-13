@@ -67,7 +67,8 @@ _ID_KEYWORDS = (
     r"(?:MRN|medical record(?: number)?|record number|chart number|member (?:ID|number)|member I\.?D\.?|"
     r"policy (?:number|ID)|subscriber (?:ID|number)|insurance (?:ID|number)|group number|account number|"
     r"ID number|I\.?D\.? number|patient ID|Medicare (?:number|ID)|Medicaid (?:number|ID)|license number|"
-    r"case number|claim number)"
+    r"case number|claim number|license plate|plate(?: number)?|plates|serial(?: number)?|serial on [a-z ]{0,30}?card|"
+    r"device (?:ID|number)|confirmation number|reference number)"
 )
 _NATO = (
     r"(?:alpha|alfa|bravo|charlie|delta|echo|foxtrot|golf|hotel|india|juliet|juliett|kilo|lima|mike|november|oscar|"
@@ -100,7 +101,13 @@ NEVER_NAMES = frozenset(
     bmi phq gad audit emr ehr er ed icu ob gyn ent pt ot ups fedex amazon google facebook instagram tiktok youtube
     netflix zoom bluetooth wifi walgreens cvs rite aid walmart target costco kroger publix safeway english spanish
     american african asian hispanic latino latina european christian muslim jewish catholic baptist mondays tuesdays
-    wednesdays thursdays fridays saturdays sundays weekends honestly actually basically anyway okay alright""".split()
+    wednesdays thursdays fridays saturdays sundays weekends honestly actually basically anyway okay alright
+    alabama alaska arizona arkansas california colorado connecticut delaware florida georgia hawaii idaho illinois
+    indiana iowa kansas kentucky louisiana maine maryland massachusetts michigan minnesota mississippi missouri
+    montana nebraska nevada hampshire jersey mexico york carolina dakota ohio oklahoma oregon pennsylvania rhode
+    tennessee texas utah vermont virginia washington wisconsin wyoming america usa canada glasgow moro apgar
+    braden morse mini-cog moca mmse beck hamilton wells caprini centor chads2 vasc he she it we they you his her him
+    them their our your its me us""".split()
 )
 
 U = "A-ZÀ-ÖØ-Þ"
@@ -150,7 +157,6 @@ def _load(name: str) -> frozenset[str]:
     return frozenset(line.strip() for line in text.splitlines() if line.strip() and not line.startswith("#"))
 
 
-@lru_cache(maxsize=1)
 @lru_cache(maxsize=1)
 def places() -> frozenset[str]:
     return _load("us_places_census2020.txt")
@@ -234,6 +240,16 @@ _PATTERNS: list[tuple[PHIType, str, re.Pattern[str], int]] = [
         8,
     ),
     ("URL", "url", re.compile(r"\b(?:https?://|www\.)[^\s,;]+", re.IGNORECASE), 9),
+    (
+        "URL",
+        "url_spoken",
+        re.compile(
+            r"\b(?:www\s+dot\s+)?[\w-]+(?:\s+[\w-]+)?(?:\s+dot\s+[\w-]+(?:\s+[\w-]+)?)*\s+dot\s+"
+            r"(?:com|org|net|edu|gov|io|health|us|info)\b(?:\s+slash\s+[\w-]+)*",
+            re.IGNORECASE,
+        ),
+        7,
+    ),
     ("SSN", "ssn", re.compile(r"\b\d{3}-\d{2}-\d{4}\b"), 9),
     (
         "PHONE",
@@ -241,6 +257,7 @@ _PATTERNS: list[tuple[PHIType, str, re.Pattern[str], int]] = [
         re.compile(r"(?<![\d-])(?:\+?1[\s.-]?)?(?:\(\d{3}\)\s?|\d{3}[\s.-])\d{3}[\s.-]\d{4}(?![\d-])"),
         8,
     ),
+    ("PHONE", "extension", re.compile(r"\b(?i:extension|ext\.?|x)\s*\d{2,5}\b"), 6),
     ("PHONE", "phone7", re.compile(r"(?<![\d-])\d{3}-\d{4}(?![\d-])"), 7),
     ("PHONE", "phone_digits", re.compile(r"(?<![\d])(?:\d[\s,.-]{1,2}){6,10}\d(?![\d])"), 6),
     (
@@ -248,8 +265,8 @@ _PATTERNS: list[tuple[PHIType, str, re.Pattern[str], int]] = [
         "id_keyword",
         re.compile(
             rf"\b(?i:{_ID_KEYWORDS})\b(?i:\s+(?:is|was|of|it's|its|number|reads|should be|ends in))*[\s:,#-]*"
-            rf"((?:[A-Z](?:\s+(?i:as in)\s+[A-Za-z-]+)?[\s,-]+)?(?:[A-Z]{{1,3}}[\s-]?)?(?:\d|(?i:{_DIGIT_WORDS}))"
-            rf"(?:[\s,.-]{{0,2}}(?:\d|[A-Z]\b|(?i:{_DIGIT_WORDS})\b))*)"
+            rf"((?:(?:[A-Z]{{1,3}}|[A-Z](?:\s+(?i:as in)\s+[A-Za-z-]+))[\s,-]+){{0,4}}(?:[A-Z]{{1,3}}[\s-]?)?"
+            rf"(?:\d|(?i:{_DIGIT_WORDS}))(?:[\s,.-]{{0,2}}(?:\d|[A-Z]\b|(?i:{_DIGIT_WORDS}|dash)\b))*)"
         ),
         8,
     ),
@@ -259,7 +276,7 @@ _PATTERNS: list[tuple[PHIType, str, re.Pattern[str], int]] = [
         "DATE",
         "date_month_day",
         re.compile(
-            rf"\b(?:{_WEEKDAY},?\s+)?(?:the\s+)?(?:{_MONTH_RE}\s+(?:\d{{1,2}}{_ORD}|the\s+{_ORD_WORD}|{_ORD_WORD})(?:,?\s+(?:19|20)\d{{2}})?|"
+            rf"\b(?:{_WEEKDAY},?\s+)?(?:the\s+)?(?:{_MONTH_RE}\s+(?:\d{{1,2}}{_ORD}|the\s+\d{{1,2}}{_ORD}|the\s+{_ORD_WORD}|{_ORD_WORD})(?:,?\s+(?:(?:19|20)\d{{2}}|'\d{{2}}))?|"
             rf"(?:\d{{1,2}}{_ORD}|{_ORD_WORD})\s+of\s+{_MONTH_RE}(?:,?\s+(?:19|20)\d{{2}})?)\b"
         ),
         7,
@@ -276,6 +293,23 @@ _PATTERNS: list[tuple[PHIType, str, re.Pattern[str], int]] = [
     ("DATE", "month_alone", re.compile(rf"(?<=[a-z,] )(?:{_MONTH_NAMES})\b(?! I\b)"), 4),
     ("DATE", "date_month_year", re.compile(rf"\b{_MONTH_RE}\s+(?:of\s+)?(?:19|20)\d{{2}}\b"), 6),
     ("DATE", "date_numeric", re.compile(r"\b\d{1,2}/\d{1,2}/(?:\d{4}|\d{2})\b"), 7),
+    (
+        "DATE",
+        "date_numeric_short",
+        re.compile(r"\b(?i:on|since|from|until|till|by|before|after|last seen|dated|was)\s+((?:1[0-2]|0?[1-9])/(?:3[01]|[12]\d|0?[1-9]))\b(?!/)"),
+        6,
+    ),
+    (
+        "DATE",
+        "holiday",
+        re.compile(
+            r"\b(?:New Year's(?: Day| Eve)?|Valentine's Day|St\.? Patrick's Day|Saint Patrick's Day|Groundhog Day|"
+            r"Easter(?: Sunday)?|Mother's Day|Father's Day|Memorial Day|Independence Day|the Fourth of July|July 4th|"
+            r"Labor Day|Halloween|Veterans Day|Thanksgiving(?: Day)?|Christmas(?: Day| Eve)?)"
+            r"(?:,?\s+(?:(?:19|20)\d{2}|'\d{2}))?"
+        ),
+        5,
+    ),
     ("DATE", "date_iso", re.compile(r"\b(?:19|20)\d{2}-\d{2}-\d{2}\b"), 7),
     (
         "AGE",
@@ -290,9 +324,20 @@ _PATTERNS: list[tuple[PHIType, str, re.Pattern[str], int]] = [
     ),
     (
         "AGE",
+        "age_words",
+        re.compile(
+            r"\b(?:ninety(?:-|\s)(?:one|two|three|four|five|six|seven|eight|nine)|(?:a|one) hundred(?: and \w+)?|ninety)\b"
+            r"(?!\s*(?:percent|%|days?|minutes?|seconds?|milligrams?|micrograms?|mg|pounds?|beats|over|degrees|"
+            r"dollars|units|ml|milliliters|of|bucks|hours?|times))",
+            re.IGNORECASE,
+        ),
+        6,
+    ),
+    (
+        "AGE",
         "age_im",
         re.compile(
-            r"\b(?:I'm|I am|she's|he's|she is|he is|turned|turning|age|aged)\s"
+            r"\b(?:I'm|I am|she's|he's|she is|he is|turned|turning|age|aged|be|'s)\s"
             r"(9\d|1[0-1]\d|ninety(?:-(?:one|two|three|four|five|six|seven|eight|nine))?)\b",
             re.IGNORECASE,
         ),
@@ -316,6 +361,20 @@ _PATTERNS: list[tuple[PHIType, str, re.Pattern[str], int]] = [
         6,
     ),
     ("ADDRESS", "zip", re.compile(r"(?<=\b[A-Z]{2}\s)\d{5}(?:-\d{4})?\b|\bzip(?: code)?(?: is)?\s+\d{5}\b"), 7),
+    ("ADDRESS", "zip_after_comma", re.compile(rf"(?<=[{L}], )\d{{5}}(?:-\d{{4}})?\b|(?<=[{L}] )\d{{5}}(?=[.,]?\s*$)"), 6),
+    (
+        "ADDRESS",
+        "zip_spoken",
+        re.compile(r"\b(?i:zip|zip code|postal code)(?i:\s+is|\s+code|\s+it's)*[\s:,]+((?:\d[\s,-]{0,2}){4}\d)\b"),
+        7,
+    ),
+    (
+        "ADDRESS",
+        "unit",
+        re.compile(r"\b(?i:apartment|apt\.?|unit|suite|room|lot|space)\s+#?(?:\d+[A-Z]?|[A-Z]\d*)\b"),
+        6,
+    ),
+    ("ADDRESS", "route", re.compile(r"\b(?:Route|State Route|County Road|Highway|Interstate|Rural Route|RR)\s+\d+\b"), 6),
     (
         "ADDRESS",
         "po_box",
@@ -324,15 +383,25 @@ _PATTERNS: list[tuple[PHIType, str, re.Pattern[str], int]] = [
     ),
 ]
 
+_CUE_NAME_LOWER = re.compile(
+    r"\b(?i:my name is|my name's|name is|name's|call me|named|goes by|first name|last name|"
+    r"first name's|last name's|first name is|last name is)\s+([a-zà-ÿ][a-zà-ÿ-]{2,})\b(?!')"
+)
+_TITLE_LOWER = re.compile(r"\b(?i:dr\.?|doctor|nurse|mr\.?|mrs\.?|ms\.?)[ ]([a-zà-ÿ][a-zà-ÿ]{2,}(?:-[a-zà-ÿ]+)?)\b(?!')")
+_SPELLED = re.compile(r"\b(?:[A-Za-z]-){2,}[A-Za-z]\b|\b(?:[A-Za-z] ){3,}[A-Za-z]\b")
+_NAME_VERB = (
+    r"(?:is|was|has|had|said|says|called|calls|came|comes|drove|drives|lives|lived|turned|turns|helps|takes|took|"
+    r"picks|picked|from|will|can|could|would|thinks|wants|wanted|died|passed|left|gets|got|does|did|and I)"
+)
 _CUE_NAME = re.compile(
     r"\b(?i:my name is|my name's|name is|name's|i'm|i am|this is|call me|called|named|goes by|it's|its)\s+"
     r"((?:[A-ZÀ-ÖØ-Þ][a-zA-ZÀ-ÖØ-öø-ÿ'-]+)(?:\s+[A-ZÀ-ÖØ-Þ][a-zA-ZÀ-ÖØ-öø-ÿ'-]+){0,2})",
 )
 _TITLE_NAME = re.compile(rf"\b{TITLES}\.?\s+((?:[A-ZÀ-ÖØ-Þ][a-zA-ZÀ-ÖØ-öø-ÿ'-]+)(?:[\s-]+[A-ZÀ-ÖØ-Þ][a-zA-ZÀ-ÖØ-öø-ÿ'-]+){{0,2}})")
 _RELATION_NAME = re.compile(
-    rf"\b(?:my|our|her|his|your|the)\s+(?:\w+\s+)?{RELATIONS}(?:'s)?,?\s+((?:[A-ZÀ-ÖØ-Þ][a-zA-ZÀ-ÖØ-öø-ÿ'-]+)(?:\s+[A-ZÀ-ÖØ-Þ][a-zA-ZÀ-ÖØ-öø-ÿ'-]+)?)"
+    rf"\b(?i:my|our|her|his|your|the)\s+(?:\w+\s+)?{RELATIONS}(?:'s)?,?\s+((?:[A-ZÀ-ÖØ-Þ][a-zA-ZÀ-ÖØ-öø-ÿ'-]+)(?:\s+[A-ZÀ-ÖØ-Þ][a-zA-ZÀ-ÖØ-öø-ÿ'-]+)?)"
 )
-_NAME_RELATION = re.compile(rf"\b([A-ZÀ-ÖØ-Þ][a-zA-ZÀ-ÖØ-öø-ÿ'-]+),?\s+(?:is\s+)?(?:my|our|her|his)\s+{RELATIONS}\b")
+_NAME_RELATION = re.compile(rf"\b([A-ZÀ-ÖØ-Þ][a-zA-ZÀ-ÖØ-öø-ÿ'-]+),?\s+(?:is\s+)?(?i:my|our|her|his)\s+{RELATIONS}\b")
 _ORG = re.compile(
     rf"\b((?:[A-ZÀ-ÖØ-Þ][a-zA-ZÀ-ÖØ-öø-ÿ'&-]*[ ]){{1,4}}{ORG_SUFFIX})\b|"
     rf"\b(?:work|works|working|worked|employed|job|teacher|nurse|cashier|manager)\s+(?:at|for|with)[ ](?:the[ ])?"
@@ -376,7 +445,12 @@ class PHIDetector:
             for s in spans:
                 if s.type == "NAME":
                     names.update(
-                        w for w in _WORD_RE.findall(s.text) if len(w) >= 3 and w.lower() not in _TITLE_WORDS
+                        w
+                        for w in _WORD_RE.findall(s.text)
+                        if len(w) >= 3
+                        and w.lower() not in _TITLE_WORDS
+                        and w.lower() not in NEVER_NAMES
+                        and (w[0].isupper() or w.lower() not in self.english)
                     )
                 if s.type == "AGE":
                     ages.update(re.findall(r"\d{2,3}", s.text))
@@ -478,9 +552,35 @@ class PHIDetector:
                 spans.append(Span(m.start(1), m.start(1) + len(name), "NAME", name, "title", "other", 8))
         for regex, source in ((_CUE_NAME, "cue"), (_RELATION_NAME, "relation"), (_NAME_RELATION, "relation")):
             for m in regex.finditer(text):
-                name = self._trim_name(m.group(1), strict=source == "cue")
+                strong = source == "cue" and re.match(r"(?i)(?:my name is|my name's|name is|name's|call me|named|goes by)", m.group(0))
+                name = self._trim_name(m.group(1), strict=source == "cue" and not strong)
                 if name:
                     spans.append(Span(m.start(1), m.start(1) + len(name), "NAME", name, source, "other", 7))
+        for m in _TITLE_LOWER.finditer(text):
+            word = m.group(1)
+            parts = [w for w in word.split("-") if w]
+            if all(w not in self.english and w not in self.clinical and w not in NEVER_NAMES for w in parts):
+                spans.append(Span(m.start(1), m.end(1), "NAME", word, "title_lower", "other", 7))
+        for m in _CUE_NAME_LOWER.finditer(text):
+            word = m.group(1)
+            if word not in self.english and word not in self.clinical and word not in NEVER_NAMES:
+                spans.append(Span(m.start(1), m.end(1), "NAME", word, "cue_lower", "other", 6))
+        for m in _SPELLED.finditer(text):
+            letters = re.sub(r"[^A-Za-z]", "", m.group(0)).lower()
+            if letters not in self.clinical and letters not in NEVER_NAMES:
+                spans.append(Span(m.start(), m.end(), "NAME", m.group(0), "spelled", "other", 6))
+        for m in re.finditer(rf"\b([{U}][{L}'-]+?)(?:'s)?\s+{_NAME_VERB}\b", text):
+            word = m.group(1)
+            lw = word.lower()
+            if lw in NEVER_NAMES or lw in self.clinical or (lw not in self.first and lw not in self.surnames):
+                continue
+            if m.start(1) in _sentence_starts(text) and lw in self.english:
+                continue
+            spans.append(Span(m.start(1), m.end(1), "NAME", word, "name_verb", "other", 5))
+        for m in re.finditer(rf"\b([{U}][{L}'-]+)'s\s+(?:going|gonna|been|getting|doing|coming|turning|having)\b", text):
+            lw = m.group(1).lower()
+            if (lw in self.first or lw in self.surnames) and lw not in NEVER_NAMES and lw not in self.clinical:
+                spans.append(Span(m.start(1), m.end(1), "NAME", m.group(1), "name_verb", "other", 5))
         known = {k.lower() for k in known_names}
         sentence_starts = _sentence_starts(text)
         tokens = list(_WORD_RE.finditer(text))
@@ -549,7 +649,7 @@ class PHIDetector:
         """ "lupe rios 65 at example dot com": walk back from "at <domain> dot <tld>" over the spoken local part."""
         spans: list[Span] = []
         domain = re.compile(
-            r"\s(?:at)\s[\w-]+(?:\s(?:dot)\s[\w-]+)*\s(?:dot)\s(?:com|org|net|edu|gov|io|co|us|me|info|biz)\b",
+            r"\s(?:at)\s[\w-]+(?:\s[\w-]+)?(?:\s(?:dot)\s[\w-]+)*\s(?:dot)\s(?:com|org|net|edu|gov|io|co|us|me|info|biz)\b",
             re.IGNORECASE,
         )
         for m in domain.finditer(text):
@@ -624,6 +724,8 @@ class PHIDetector:
 
     def _orgs(self, text: str) -> list[Span]:
         spans: list[Span] = []
+        for m in re.finditer(rf"\b(?:St|Saint)\.?\s+[{U}][{L}'-]+(?:'s)?", text):
+            spans.append(Span(m.start(), m.end(), "ORG", m.group(0), "org_saint", "other", 6))
         for m in _ORG.finditer(text):
             group = 1 if m.group(1) else 2
             start = m.start(group)

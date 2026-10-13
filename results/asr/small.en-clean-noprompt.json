@@ -1,0 +1,221 @@
+{
+ "name": "small.en-clean-noprompt",
+ "model": "faster-whisper small.en int8 (CPU, 12 threads)",
+ "condition": "clean",
+ "medical_prompt": false,
+ "visits": 12,
+ "ref_words": 8169,
+ "wer": 0.0273,
+ "key_terms": 532,
+ "key_term_recall": 0.9023,
+ "role_accuracy": 0.9175,
+ "audio_minutes": 53.0,
+ "real_time_factor_p50": 0.148,
+ "asr_seconds_per_visit_p50": 39.3,
+ "diarization_seconds_per_visit_p50": 1.32,
+ "misrecognized_drug_terms": {
+  "lamotrigine": 6,
+  "lisinopril": 2,
+  "succinate": 1,
+  "dapagliflozin": 1,
+  "furosemide": 1,
+  "levothyroxine": 1,
+  "naltrexone": 1
+ },
+ "cases": [
+  {
+   "case": "pc-01",
+   "specialty": "primary_care",
+   "ref_words": 665,
+   "wer": 0.0241,
+   "key_terms": 47,
+   "key_term_recall": 0.8936,
+   "role_accuracy": 0.9955,
+   "audio_s": 242.43,
+   "asr_s": 35.92,
+   "diarization_s": 1.34,
+   "turns_gold": 44,
+   "turns_asr": 39,
+   "misrecognized_terms": {
+    "lisinopril": 1
+   }
+  },
+  {
+   "case": "pc-04",
+   "specialty": "primary_care",
+   "ref_words": 620,
+   "wer": 0.0242,
+   "key_terms": 24,
+   "key_term_recall": 0.9583,
+   "role_accuracy": 0.9984,
+   "audio_s": 227.55,
+   "asr_s": 32.72,
+   "diarization_s": 1.25,
+   "turns_gold": 37,
+   "turns_asr": 37,
+   "misrecognized_terms": {}
+  },
+  {
+   "case": "pc-08",
+   "specialty": "primary_care",
+   "ref_words": 619,
+   "wer": 0.0048,
+   "key_terms": 45,
+   "key_term_recall": 0.9778,
+   "role_accuracy": 0.9564,
+   "audio_s": 216.89,
+   "asr_s": 32.83,
+   "diarization_s": 1.15,
+   "turns_gold": 37,
+   "turns_asr": 35,
+   "misrecognized_terms": {}
+  },
+  {
+   "case": "cd-01",
+   "specialty": "cardiology",
+   "ref_words": 771,
+   "wer": 0.0259,
+   "key_terms": 45,
+   "key_term_recall": 0.9111,
+   "role_accuracy": 1.0,
+   "audio_s": 293.76,
+   "asr_s": 42.66,
+   "diarization_s": 1.42,
+   "turns_gold": 46,
+   "turns_asr": 46,
+   "misrecognized_terms": {
+    "lisinopril": 1,
+    "succinate": 1
+   }
+  },
+  {
+   "case": "cd-03",
+   "specialty": "cardiology",
+   "ref_words": 730,
+   "wer": 0.0301,
+   "key_terms": 69,
+   "key_term_recall": 0.913,
+   "role_accuracy": 0.9643,
+   "audio_s": 353.19,
+   "asr_s": 40.9,
+   "diarization_s": 1.62,
+   "turns_gold": 38,
+   "turns_asr": 38,
+   "misrecognized_terms": {
+    "dapagliflozin": 1,
+    "furosemide": 1
+   }
+  },
+  {
+   "case": "dm-01",
+   "specialty": "dermatology",
+   "ref_words": 767,
+   "wer": 0.0443,
+   "key_terms": 26,
+   "key_term_recall": 0.8462,
+   "role_accuracy": 0.9974,
+   "audio_s": 275.93,
+   "asr_s": 40.98,
+   "diarization_s": 1.27,
+   "turns_gold": 39,
+   "turns_asr": 39,
+   "misrecognized_terms": {
+    "levothyroxine": 1
+   }
+  },
+  {
+   "case": "dm-05",
+   "specialty": "dermatology",
+   "ref_words": 641,
+   "wer": 0.0203,
+   "key_terms": 49,
+   "key_term_recall": 0.9592,
+   "role_accuracy": 0.9844,
+   "audio_s": 312.21,
+   "asr_s": 37.99,
+   "diarization_s": 1.33,
+   "turns_gold": 32,
+   "turns_asr": 32,
+   "misrecognized_terms": {}
+  },
+  {
+   "case": "pd-01",
+   "specialty": "pediatrics",
+   "ref_words": 778,
+   "wer": 0.054,
+   "key_terms": 55,
+   "key_term_recall": 0.8,
+   "role_accuracy": 0.3033,
+   "audio_s": 272.11,
+   "asr_s": 42.18,
+   "diarization_s": 1.5,
+   "turns_gold": 45,
+   "turns_asr": 29,
+   "misrecognized_terms": {}
+  },
+  {
+   "case": "pd-04",
+   "specialty": "pediatrics",
+   "ref_words": 668,
+   "wer": 0.0329,
+   "key_terms": 60,
+   "key_term_recall": 0.85,
+   "role_accuracy": 0.9366,
+   "audio_s": 226.47,
+   "asr_s": 41.1,
+   "diarization_s": 1.31,
+   "turns_gold": 37,
+   "turns_asr": 33,
+   "misrecognized_terms": {}
+  },
+  {
+   "case": "mh-01",
+   "specialty": "mental_health",
+   "ref_words": 696,
+   "wer": 0.0187,
+   "key_terms": 34,
+   "key_term_recall": 0.9706,
+   "role_accuracy": 0.9942,
+   "audio_s": 335.21,
+   "asr_s": 40.7,
+   "diarization_s": 1.41,
+   "turns_gold": 42,
+   "turns_asr": 40,
+   "misrecognized_terms": {}
+  },
+  {
+   "case": "mh-04",
+   "specialty": "mental_health",
+   "ref_words": 601,
+   "wer": 0.02,
+   "key_terms": 40,
+   "key_term_recall": 0.85,
+   "role_accuracy": 1.0,
+   "audio_s": 214.78,
+   "asr_s": 31.71,
+   "diarization_s": 1.15,
+   "turns_gold": 34,
+   "turns_asr": 34,
+   "misrecognized_terms": {
+    "lamotrigine": 6
+   }
+  },
+  {
+   "case": "mh-06",
+   "specialty": "mental_health",
+   "ref_words": 613,
+   "wer": 0.0179,
+   "key_terms": 38,
+   "key_term_recall": 0.9474,
+   "role_accuracy": 0.9755,
+   "audio_s": 210.15,
+   "asr_s": 32.02,
+   "diarization_s": 1.13,
+   "turns_gold": 36,
+   "turns_asr": 36,
+   "misrecognized_terms": {
+    "naltrexone": 1
+   }
+  }
+ ]
+}

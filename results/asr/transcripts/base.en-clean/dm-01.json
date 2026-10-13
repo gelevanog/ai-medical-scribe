@@ -1,0 +1,4135 @@
+{
+ "turns": [
+  {
+   "idx": 0,
+   "speaker": "clinician",
+   "text": "Hi there, I'm Dr. Cuema Sant, one of the dermatologists here. Did you find parking okay? That garage is a maze.",
+   "start": 0.08,
+   "end": 7.8
+  },
+  {
+   "idx": 1,
+   "speaker": "patient",
+   "text": "Ha, it really is. I went around twice before I found a spot on level three.",
+   "start": 8.68,
+   "end": 12.96
+  },
+  {
+   "idx": 2,
+   "speaker": "clinician",
+   "text": "Everybody does. So before we start, can you tell me your full name and date of birth?",
+   "start": 13.5,
+   "end": 18.42
+  },
+  {
+   "idx": 3,
+   "speaker": "patient",
+   "text": "Ashling Brennan, and my birthday is June 9th, 1988.",
+   "start": 19.18,
+   "end": 22.66
+  },
+  {
+   "idx": 4,
+   "speaker": "clinician",
+   "text": "Thank you, Ashling. Your referral mentions a mole on your back. Tell me what's going on with it.",
+   "start": 23.5,
+   "end": 29.16
+  },
+  {
+   "idx": 5,
+   "speaker": "patient",
+   "text": "So it's on my left upper back, kind of by my shoulder blade. My husband Declan noticed it looked different back in arm July. He says it's gotten bigger and darker since spring.",
+   "start": 29.16,
+   "end": 39.38
+  },
+  {
+   "idx": 6,
+   "speaker": "clinician",
+   "text": "Okay, has it bled at all, or crusted over?",
+   "start": 40.22,
+   "end": 43.1
+  },
+  {
+   "idx": 7,
+   "speaker": "patient",
+   "text": "No, no bleeding.",
+   "start": 43.66,
+   "end": 44.52
+  },
+  {
+   "idx": 8,
+   "speaker": "clinician",
+   "text": "Does it itch or hurt?",
+   "start": 45.26,
+   "end": 46.9
+  },
+  {
+   "idx": 9,
+   "speaker": "patient",
+   "text": "It itches a little now and then, it doesn't hurt.",
+   "start": 47.68,
+   "end": 50.14
+  },
+  {
+   "idx": 10,
+   "speaker": "clinician",
+   "text": "Have you ever had a skin cancer yourself, or any moles removed?",
+   "start": 50.8,
+   "end": 54.32
+  },
+  {
+   "idx": 11,
+   "speaker": "patient",
+   "text": "No, I've never had skin cancer, and and nothing's ever been removed.",
+   "start": 55.32,
+   "end": 58.7
+  },
+  {
+   "idx": 12,
+   "speaker": "clinician",
+   "text": "Anyone in the family with skin cancer.",
+   "start": 59.32,
+   "end": 61.76
+  },
+  {
+   "idx": 13,
+   "speaker": "patient",
+   "text": "My dad had a basal cell on his nose a few years ago. They scraped it off and he's been fine.",
+   "start": 62.55,
+   "end": 67.33
+  },
+  {
+   "idx": 14,
+   "speaker": "clinician",
+   "text": "Good to know. How about sun exposure? Some burns growing up, tanning beds.",
+   "start": 68.05,
+   "end": 72.51
+  },
+  {
+   "idx": 15,
+   "speaker": "patient",
+   "text": "Oh, lots of sun. I was a lifeguard every summer through college at Crestview Aquatics. I got burned pretty badly a few times like blistering. Never did tanning beds though.",
+   "start": 73.33,
+   "end": 83.17
+  },
+  {
+   "idx": 16,
+   "speaker": "clinician",
+   "text": "Garded any medicines you take regularly.",
+   "start": 83.75,
+   "end": 86.05
+  },
+  {
+   "idx": 17,
+   "speaker": "patient",
+   "text": "Just levothiric sign, 75 micrograms every morning for my thyroid.",
+   "start": 86.69,
+   "end": 90.89
+  },
+  {
+   "idx": 18,
+   "speaker": "clinician",
+   "text": "And any allergies to medications, or to lidocaine, or latex?",
+   "start": 91.77,
+   "end": 95.43
+  },
+  {
+   "idx": 19,
+   "speaker": "patient",
+   "text": "No allergies that I know of.",
+   "start": 96.17,
+   "end": 97.85
+  },
+  {
+   "idx": 20,
+   "speaker": "clinician",
+   "text": "Alright, let me take a look. Can you slip your left arm out of the gown? Okay. So on your left upper back, just over the shoulder blade, there's a 7mm dark brown mole. It's asymmetric, the border is irregular and kind of nudged at the bottom, and there's a black area on one side. under the dermatoscope I see an irregular network and a few darts at the edge. That one stands out from your other moles.",
+   "start": 98.68,
+   "end": 122.56
+  },
+  {
+   "idx": 21,
+   "speaker": "patient",
+   "text": "Is that bad?",
+   "start": 123.12,
+   "end": 123.88
+  },
+  {
+   "idx": 22,
+   "speaker": "clinician",
+   "text": "It's what we call an ugly duckling. It doesn't look like its neighbours. Let me check the rest of you first. Your back, chest and arms have scattered two to three millimetre round moles evenly brown. Those all look like normal benign moles. Scalp, face and legs look fine. I don't feel any swollen lymph nodes in your left armpit or your neck, and he lumps you've noticed in your armpit.",
+   "start": 124.6,
+   "end": 147.12
+  },
+  {
+   "idx": 23,
+   "speaker": "patient",
+   "text": "No, nothing like that.",
+   "start": 147.48,
+   "end": 148.92
+  },
+  {
+   "idx": 24,
+   "speaker": "clinician",
+   "text": "Okay, so here's what I think. This mole on your back has several changing features. Most of these turn out to be in a typical mole, but I can't rule out an early melanoma just by looking, so I'd like to do a biopsy today.",
+   "start": 150.01,
+   "end": 164.07
+  },
+  {
+   "idx": 25,
+   "speaker": "patient",
+   "text": "Today, okay, what does that involve?",
+   "start": 164.71,
+   "end": 166.65
+  },
+  {
+   "idx": 26,
+   "speaker": "clinician",
+   "text": "It's a shave biopsy. I numb the area with a little lidocaine with epinephrine, then Then I take off the whole mole with a thin blade, fairly deep, and send it to the lab. No stitches. You'll have a shallow wound, kind of like a scrape.",
+   "start": 167.55,
+   "end": 182.05
+  },
+  {
+   "idx": 27,
+   "speaker": "patient",
+   "text": "That's fine, let's do it.",
+   "start": 182.63,
+   "end": 183.97
+  },
+  {
+   "idx": 28,
+   "speaker": "clinician",
+   "text": "Great, a little pinch and a burn now. Okay, and that's done, it went well. I've sent it to pathology. For care, keep the bandage on for 24 hours, then wash it gently once a day, put on plain petroleum jelly and a fresh bandage every day until it heals. That's usually one to two weeks.",
+   "start": 184.63,
+   "end": 203.69
+  },
+  {
+   "idx": 29,
+   "speaker": "patient",
+   "text": "Okay, when will I know?",
+   "start": 204.25,
+   "end": 205.59
+  },
+  {
+   "idx": 30,
+   "speaker": "clinician",
+   "text": "Results take about seven to ten days. They'll post to the portal and someone will call you either way. What's the best number for you?",
+   "start": 206.11,
+   "end": 214.15
+  },
+  {
+   "idx": 31,
+   "speaker": "patient",
+   "text": "My cell, 555 -0163. And my portal email is AshlingDartBrenon88 at fastmail .com.",
+   "start": 214.61,
+   "end": 222.09
+  },
+  {
+   "idx": 32,
+   "speaker": "clinician",
+   "text": "Gartid, if it does come back as a melanoma, we talk about a wider excision to get clear margins, but let's not get ahead of ourselves. ourselves. If the site gets red, hard, swollen, or drains pass, call us.",
+   "start": 222.65,
+   "end": 235.29
+  },
+  {
+   "idx": 33,
+   "speaker": "patient",
+   "text": "Okay, should I be doing anything about the sun?",
+   "start": 235.75,
+   "end": 238.05
+  },
+  {
+   "idx": 34,
+   "speaker": "clinician",
+   "text": "Yes, broad spectrum sunscreen, SPF 30 or higher, every day on exposed skin, reapply every two hours when you're outside, and a wide -brimmed hat. Check your own moles once a month, and since you've had blistering sunburns and quite a few moles, I'd like to see you for a full skin check every year.",
+   "start": 238.83,
+   "end": 258.19
+  },
+  {
+   "idx": 35,
+   "speaker": "patient",
+   "text": "Sounds good.",
+   "start": 258.19,
+   "end": 259.57
+  },
+  {
+   "idx": 36,
+   "speaker": "clinician",
+   "text": "Let's book a follow -up for the biopsy site and results on Tuesday October 27th. Any other questions?",
+   "start": 260.17,
+   "end": 267.41
+  },
+  {
+   "idx": 37,
+   "speaker": "patient",
+   "text": "No, I think that's it. Thank you.",
+   "start": 268.03,
+   "end": 270.19
+  },
+  {
+   "idx": 38,
+   "speaker": "clinician",
+   "text": "You're welcome, Ashling. Take care and good luck getting out of that garage.",
+   "start": 270.81,
+   "end": 274.95
+  }
+ ],
+ "source": "asr",
+ "asr_model": "faster-whisper base.en int8 + medical prompt",
+ "duration_s": 275.93,
+ "timings": {
+  "asr": 15.76,
+  "diarization": 1.25
+ },
+ "diarization": {
+  "method": "voice centers from log-mel + pitch (k-means, k=2), word-level Viterbi smoothing, lexical role inference",
+  "chunks": 119,
+  "role_scores": {
+   "clinician": 1.5,
+   "patient": 0.21
+  },
+  "words": [
+   [
+    " Hi",
+    0.08,
+    0.6
+   ],
+   [
+    " there,",
+    0.6,
+    0.82
+   ],
+   [
+    " I'm",
+    0.94,
+    1.12
+   ],
+   [
+    " Dr.",
+    1.12,
+    1.3
+   ],
+   [
+    " Cuema",
+    1.74,
+    1.96
+   ],
+   [
+    " Sant,",
+    1.96,
+    2.18
+   ],
+   [
+    " one",
+    2.74,
+    2.78
+   ],
+   [
+    " of",
+    2.78,
+    2.86
+   ],
+   [
+    " the",
+    2.86,
+    2.98
+   ],
+   [
+    " dermatologists",
+    2.98,
+    3.8
+   ],
+   [
+    " here.",
+    3.8,
+    4.3
+   ],
+   [
+    " Did",
+    4.74,
+    4.92
+   ],
+   [
+    " you",
+    4.92,
+    5.0
+   ],
+   [
+    " find",
+    5.0,
+    5.2
+   ],
+   [
+    " parking",
+    5.2,
+    5.46
+   ],
+   [
+    " okay?",
+    5.46,
+    6.02
+   ],
+   [
+    " That",
+    6.56,
+    6.7
+   ],
+   [
+    " garage",
+    6.7,
+    7.06
+   ],
+   [
+    " is",
+    7.06,
+    7.46
+   ],
+   [
+    " a",
+    7.46,
+    7.56
+   ],
+   [
+    " maze.",
+    7.56,
+    7.8
+   ],
+   [
+    " Ha,",
+    8.68,
+    8.98
+   ],
+   [
+    " it",
+    9.14,
+    9.24
+   ],
+   [
+    " really",
+    9.24,
+    9.42
+   ],
+   [
+    " is.",
+    9.42,
+    9.72
+   ],
+   [
+    " I",
+    10.32,
+    10.4
+   ],
+   [
+    " went",
+    10.4,
+    10.56
+   ],
+   [
+    " around",
+    10.56,
+    10.76
+   ],
+   [
+    " twice",
+    10.76,
+    11.04
+   ],
+   [
+    " before",
+    11.04,
+    11.36
+   ],
+   [
+    " I",
+    11.36,
+    11.6
+   ],
+   [
+    " found",
+    11.6,
+    11.82
+   ],
+   [
+    " a",
+    11.82,
+    11.92
+   ],
+   [
+    " spot",
+    11.92,
+    12.14
+   ],
+   [
+    " on",
+    12.14,
+    12.42
+   ],
+   [
+    " level",
+    12.42,
+    12.56
+   ],
+   [
+    " three.",
+    12.56,
+    12.96
+   ],
+   [
+    " Everybody",
+    13.5,
+    13.82
+   ],
+   [
+    " does.",
+    13.82,
+    14.38
+   ],
+   [
+    " So",
+    15.04,
+    15.14
+   ],
+   [
+    " before",
+    15.14,
+    15.3
+   ],
+   [
+    " we",
+    15.3,
+    15.54
+   ],
+   [
+    " start,",
+    15.54,
+    15.84
+   ],
+   [
+    " can",
+    16.34,
+    16.4
+   ],
+   [
+    " you",
+    16.4,
+    16.48
+   ],
+   [
+    " tell",
+    16.48,
+    16.7
+   ],
+   [
+    " me",
+    16.7,
+    16.82
+   ],
+   [
+    " your",
+    16.82,
+    16.96
+   ],
+   [
+    " full",
+    16.96,
+    17.26
+   ],
+   [
+    " name",
+    17.26,
+    17.56
+   ],
+   [
+    " and",
+    17.56,
+    17.82
+   ],
+   [
+    " date",
+    17.82,
+    18.04
+   ],
+   [
+    " of",
+    18.04,
+    18.2
+   ],
+   [
+    " birth?",
+    18.2,
+    18.42
+   ],
+   [
+    " Ashling",
+    19.18,
+    19.5
+   ],
+   [
+    " Brennan,",
+    19.5,
+    19.76
+   ],
+   [
+    " and",
+    20.18,
+    20.26
+   ],
+   [
+    " my",
+    20.26,
+    20.4
+   ],
+   [
+    " birthday",
+    20.4,
+    20.78
+   ],
+   [
+    " is",
+    20.78,
+    21.04
+   ],
+   [
+    " June",
+    21.04,
+    21.2
+   ],
+   [
+    " 9th,",
+    21.2,
+    21.78
+   ],
+   [
+    " 1988.",
+    22.66,
+    22.66
+   ],
+   [
+    " Thank",
+    23.5,
+    23.94
+   ],
+   [
+    " you,",
+    23.94,
+    24.22
+   ],
+   [
+    " Ashling.",
+    24.42,
+    24.76
+   ],
+   [
+    " Your",
+    25.16,
+    25.38
+   ],
+   [
+    " referral",
+    25.38,
+    25.72
+   ],
+   [
+    " mentions",
+    25.72,
+    26.24
+   ],
+   [
+    " a",
+    26.24,
+    26.52
+   ],
+   [
+    " mole",
+    26.52,
+    26.72
+   ],
+   [
+    " on",
+    26.72,
+    26.98
+   ],
+   [
+    " your",
+    26.98,
+    27.1
+   ],
+   [
+    " back.",
+    27.1,
+    27.32
+   ],
+   [
+    " Tell",
+    27.78,
+    27.92
+   ],
+   [
+    " me",
+    27.92,
+    28.08
+   ],
+   [
+    " what's",
+    28.08,
+    28.32
+   ],
+   [
+    " going",
+    28.32,
+    28.52
+   ],
+   [
+    " on",
+    28.52,
+    28.82
+   ],
+   [
+    " with",
+    28.82,
+    29.02
+   ],
+   [
+    " it.",
+    29.02,
+    29.16
+   ],
+   [
+    " So",
+    29.16,
+    30.1
+   ],
+   [
+    " it's",
+    30.1,
+    30.28
+   ],
+   [
+    " on",
+    30.28,
+    30.34
+   ],
+   [
+    " my",
+    30.34,
+    30.5
+   ],
+   [
+    " left",
+    30.5,
+    30.72
+   ],
+   [
+    " upper",
+    30.72,
+    30.9
+   ],
+   [
+    " back,",
+    30.9,
+    31.2
+   ],
+   [
+    " kind",
+    31.6,
+    31.78
+   ],
+   [
+    " of",
+    31.78,
+    31.88
+   ],
+   [
+    " by",
+    31.88,
+    32.02
+   ],
+   [
+    " my",
+    32.02,
+    32.16
+   ],
+   [
+    " shoulder",
+    32.16,
+    32.5
+   ],
+   [
+    " blade.",
+    32.5,
+    32.76
+   ],
+   [
+    " My",
+    33.42,
+    33.66
+   ],
+   [
+    " husband",
+    33.66,
+    34.0
+   ],
+   [
+    " Declan",
+    34.0,
+    34.48
+   ],
+   [
+    " noticed",
+    34.48,
+    34.68
+   ],
+   [
+    " it",
+    34.68,
+    34.98
+   ],
+   [
+    " looked",
+    34.98,
+    35.1
+   ],
+   [
+    " different",
+    35.1,
+    35.34
+   ],
+   [
+    " back",
+    35.34,
+    35.64
+   ],
+   [
+    " in",
+    35.64,
+    35.9
+   ],
+   [
+    " arm",
+    35.9,
+    36.22
+   ],
+   [
+    " July.",
+    36.22,
+    36.5
+   ],
+   [
+    " He",
+    37.2,
+    37.38
+   ],
+   [
+    " says",
+    37.38,
+    37.52
+   ],
+   [
+    " it's",
+    37.52,
+    37.74
+   ],
+   [
+    " gotten",
+    37.74,
+    37.86
+   ],
+   [
+    " bigger",
+    37.86,
+    38.3
+   ],
+   [
+    " and",
+    38.3,
+    38.52
+   ],
+   [
+    " darker",
+    38.52,
+    38.76
+   ],
+   [
+    " since",
+    38.76,
+    39.1
+   ],
+   [
+    " spring.",
+    39.1,
+    39.38
+   ],
+   [
+    " Okay,",
+    40.22,
+    40.7
+   ],
+   [
+    " has",
+    41.02,
+    41.16
+   ],
+   [
+    " it",
+    41.16,
+    41.28
+   ],
+   [
+    " bled",
+    41.28,
+    41.52
+   ],
+   [
+    " at",
+    41.52,
+    41.7
+   ],
+   [
+    " all,",
+    41.7,
+    41.92
+   ],
+   [
+    " or",
+    42.32,
+    42.4
+   ],
+   [
+    " crusted",
+    42.4,
+    42.78
+   ],
+   [
+    " over?",
+    42.78,
+    43.1
+   ],
+   [
+    " No,",
+    43.66,
+    43.96
+   ],
+   [
+    " no",
+    44.06,
+    44.28
+   ],
+   [
+    " bleeding.",
+    44.28,
+    44.52
+   ],
+   [
+    " Does",
+    45.26,
+    45.74
+   ],
+   [
+    " it",
+    45.74,
+    45.92
+   ],
+   [
+    " itch",
+    45.92,
+    46.14
+   ],
+   [
+    " or",
+    46.14,
+    46.64
+   ],
+   [
+    " hurt?",
+    46.64,
+    46.9
+   ],
+   [
+    " It",
+    47.68,
+    47.76
+   ],
+   [
+    " itches",
+    47.76,
+    48.14
+   ],
+   [
+    " a",
+    48.14,
+    48.36
+   ],
+   [
+    " little",
+    48.36,
+    48.46
+   ],
+   [
+    " now",
+    48.46,
+    48.78
+   ],
+   [
+    " and",
+    48.78,
+    48.98
+   ],
+   [
+    " then,",
+    48.98,
+    49.16
+   ],
+   [
+    " it",
+    49.38,
+    49.6
+   ],
+   [
+    " doesn't",
+    49.6,
+    49.9
+   ],
+   [
+    " hurt.",
+    49.9,
+    50.14
+   ],
+   [
+    " Have",
+    50.8,
+    50.96
+   ],
+   [
+    " you",
+    50.96,
+    51.06
+   ],
+   [
+    " ever",
+    51.06,
+    51.26
+   ],
+   [
+    " had",
+    51.26,
+    51.48
+   ],
+   [
+    " a",
+    51.48,
+    51.58
+   ],
+   [
+    " skin",
+    51.58,
+    51.86
+   ],
+   [
+    " cancer",
+    51.86,
+    52.2
+   ],
+   [
+    " yourself,",
+    52.2,
+    52.68
+   ],
+   [
+    " or",
+    53.24,
+    53.52
+   ],
+   [
+    " any",
+    53.52,
+    53.66
+   ],
+   [
+    " moles",
+    53.66,
+    54.04
+   ],
+   [
+    " removed?",
+    54.04,
+    54.32
+   ],
+   [
+    " No,",
+    55.32,
+    55.54
+   ],
+   [
+    " I've",
+    55.64,
+    55.86
+   ],
+   [
+    " never",
+    55.86,
+    56.04
+   ],
+   [
+    " had",
+    56.04,
+    56.28
+   ],
+   [
+    " skin",
+    56.28,
+    56.5
+   ],
+   [
+    " cancer,",
+    56.5,
+    57.02
+   ],
+   [
+    " and",
+    57.46,
+    57.5
+   ],
+   [
+    " and",
+    57.5,
+    57.5
+   ],
+   [
+    " nothing's",
+    57.5,
+    57.96
+   ],
+   [
+    " ever",
+    57.96,
+    58.16
+   ],
+   [
+    " been",
+    58.16,
+    58.36
+   ],
+   [
+    " removed.",
+    58.36,
+    58.7
+   ],
+   [
+    " Anyone",
+    59.32,
+    59.58
+   ],
+   [
+    " in",
+    59.58,
+    59.9
+   ],
+   [
+    " the",
+    59.9,
+    60.02
+   ],
+   [
+    " family",
+    60.02,
+    60.44
+   ],
+   [
+    " with",
+    60.44,
+    60.9
+   ],
+   [
+    " skin",
+    60.9,
+    61.2
+   ],
+   [
+    " cancer.",
+    61.2,
+    61.76
+   ],
+   [
+    " My",
+    62.55,
+    62.81
+   ],
+   [
+    " dad",
+    62.81,
+    63.03
+   ],
+   [
+    " had",
+    63.03,
+    63.25
+   ],
+   [
+    " a",
+    63.25,
+    63.35
+   ],
+   [
+    " basal",
+    63.35,
+    63.63
+   ],
+   [
+    " cell",
+    63.63,
+    63.93
+   ],
+   [
+    " on",
+    63.93,
+    64.11
+   ],
+   [
+    " his",
+    64.11,
+    64.21
+   ],
+   [
+    " nose",
+    64.21,
+    64.45
+   ],
+   [
+    " a",
+    64.45,
+    64.65
+   ],
+   [
+    " few",
+    64.65,
+    64.79
+   ],
+   [
+    " years",
+    64.79,
+    64.99
+   ],
+   [
+    " ago.",
+    64.99,
+    65.25
+   ],
+   [
+    " They",
+    65.75,
+    65.87
+   ],
+   [
+    " scraped",
+    65.87,
+    66.29
+   ],
+   [
+    " it",
+    66.29,
+    66.35
+   ],
+   [
+    " off",
+    66.35,
+    66.55
+   ],
+   [
+    " and",
+    66.55,
+    66.75
+   ],
+   [
+    " he's",
+    66.75,
+    66.87
+   ],
+   [
+    " been",
+    66.87,
+    67.01
+   ],
+   [
+    " fine.",
+    67.01,
+    67.33
+   ],
+   [
+    " Good",
+    68.05,
+    68.23
+   ],
+   [
+    " to",
+    68.23,
+    68.39
+   ],
+   [
+    " know.",
+    68.39,
+    68.63
+   ],
+   [
+    " How",
+    69.19,
+    69.21
+   ],
+   [
+    " about",
+    69.21,
+    69.37
+   ],
+   [
+    " sun",
+    69.37,
+    69.65
+   ],
+   [
+    " exposure?",
+    69.65,
+    69.95
+   ],
+   [
+    " Some",
+    70.75,
+    70.91
+   ],
+   [
+    " burns",
+    70.91,
+    71.13
+   ],
+   [
+    " growing",
+    71.13,
+    71.45
+   ],
+   [
+    " up,",
+    71.45,
+    71.81
+   ],
+   [
+    " tanning",
+    72.01,
+    72.31
+   ],
+   [
+    " beds.",
+    72.31,
+    72.51
+   ],
+   [
+    " Oh,",
+    73.33,
+    73.65
+   ],
+   [
+    " lots",
+    73.79,
+    73.93
+   ],
+   [
+    " of",
+    73.93,
+    74.17
+   ],
+   [
+    " sun.",
+    74.17,
+    74.35
+   ],
+   [
+    " I",
+    74.97,
+    75.07
+   ],
+   [
+    " was",
+    75.07,
+    75.17
+   ],
+   [
+    " a",
+    75.17,
+    75.27
+   ],
+   [
+    " lifeguard",
+    75.27,
+    75.71
+   ],
+   [
+    " every",
+    75.71,
+    75.99
+   ],
+   [
+    " summer",
+    75.99,
+    76.39
+   ],
+   [
+    " through",
+    76.39,
+    76.65
+   ],
+   [
+    " college",
+    76.65,
+    76.91
+   ],
+   [
+    " at",
+    76.91,
+    77.17
+   ],
+   [
+    " Crestview",
+    77.17,
+    77.55
+   ],
+   [
+    " Aquatics.",
+    77.55,
+    77.91
+   ],
+   [
+    " I",
+    78.63,
+    78.77
+   ],
+   [
+    " got",
+    78.77,
+    78.91
+   ],
+   [
+    " burned",
+    78.91,
+    79.23
+   ],
+   [
+    " pretty",
+    79.23,
+    79.57
+   ],
+   [
+    " badly",
+    79.57,
+    79.89
+   ],
+   [
+    " a",
+    79.89,
+    80.17
+   ],
+   [
+    " few",
+    80.17,
+    80.31
+   ],
+   [
+    " times",
+    80.31,
+    80.59
+   ],
+   [
+    " like",
+    80.59,
+    80.93
+   ],
+   [
+    " blistering.",
+    80.93,
+    81.47
+   ],
+   [
+    " Never",
+    81.95,
+    82.05
+   ],
+   [
+    " did",
+    82.05,
+    82.33
+   ],
+   [
+    " tanning",
+    82.33,
+    82.71
+   ],
+   [
+    " beds",
+    82.71,
+    82.89
+   ],
+   [
+    " though.",
+    82.89,
+    83.17
+   ],
+   [
+    " Garded",
+    83.75,
+    84.11
+   ],
+   [
+    " any",
+    84.11,
+    84.57
+   ],
+   [
+    " medicines",
+    84.57,
+    84.89
+   ],
+   [
+    " you",
+    84.89,
+    85.35
+   ],
+   [
+    " take",
+    85.35,
+    85.55
+   ],
+   [
+    " regularly.",
+    85.55,
+    86.05
+   ],
+   [
+    " Just",
+    86.69,
+    87.17
+   ],
+   [
+    " levothiric",
+    87.17,
+    87.65
+   ],
+   [
+    " sign,",
+    87.65,
+    87.85
+   ],
+   [
+    " 75",
+    88.19,
+    88.73
+   ],
+   [
+    " micrograms",
+    88.73,
+    89.73
+   ],
+   [
+    " every",
+    89.73,
+    89.83
+   ],
+   [
+    " morning",
+    89.83,
+    90.23
+   ],
+   [
+    " for",
+    90.23,
+    90.51
+   ],
+   [
+    " my",
+    90.51,
+    90.63
+   ],
+   [
+    " thyroid.",
+    90.63,
+    90.89
+   ],
+   [
+    " And",
+    91.77,
+    91.95
+   ],
+   [
+    " any",
+    91.95,
+    92.03
+   ],
+   [
+    " allergies",
+    92.03,
+    92.53
+   ],
+   [
+    " to",
+    92.53,
+    92.89
+   ],
+   [
+    " medications,",
+    92.89,
+    93.27
+   ],
+   [
+    " or",
+    93.95,
+    94.13
+   ],
+   [
+    " to",
+    94.13,
+    94.27
+   ],
+   [
+    " lidocaine,",
+    94.27,
+    94.79
+   ],
+   [
+    " or",
+    95.17,
+    95.23
+   ],
+   [
+    " latex?",
+    95.23,
+    95.43
+   ],
+   [
+    " No",
+    96.17,
+    96.47
+   ],
+   [
+    " allergies",
+    96.47,
+    96.81
+   ],
+   [
+    " that",
+    96.81,
+    97.27
+   ],
+   [
+    " I",
+    97.27,
+    97.41
+   ],
+   [
+    " know",
+    97.41,
+    97.57
+   ],
+   [
+    " of.",
+    97.57,
+    97.85
+   ],
+   [
+    " Alright,",
+    98.68,
+    99.04
+   ],
+   [
+    " let",
+    99.26,
+    99.32
+   ],
+   [
+    " me",
+    99.32,
+    99.42
+   ],
+   [
+    " take",
+    99.42,
+    99.62
+   ],
+   [
+    " a",
+    99.62,
+    99.74
+   ],
+   [
+    " look.",
+    99.74,
+    99.9
+   ],
+   [
+    " Can",
+    100.48,
+    100.5
+   ],
+   [
+    " you",
+    100.5,
+    100.58
+   ],
+   [
+    " slip",
+    100.58,
+    100.82
+   ],
+   [
+    " your",
+    100.82,
+    101.0
+   ],
+   [
+    " left",
+    101.0,
+    101.16
+   ],
+   [
+    " arm",
+    101.16,
+    101.5
+   ],
+   [
+    " out",
+    101.5,
+    101.66
+   ],
+   [
+    " of",
+    101.66,
+    101.76
+   ],
+   [
+    " the",
+    101.76,
+    101.82
+   ],
+   [
+    " gown?",
+    101.82,
+    102.04
+   ],
+   [
+    " Okay.",
+    102.6,
+    102.9
+   ],
+   [
+    " So",
+    103.54,
+    103.72
+   ],
+   [
+    " on",
+    103.72,
+    103.88
+   ],
+   [
+    " your",
+    103.88,
+    103.98
+   ],
+   [
+    " left",
+    103.98,
+    104.16
+   ],
+   [
+    " upper",
+    104.16,
+    104.38
+   ],
+   [
+    " back,",
+    104.38,
+    104.66
+   ],
+   [
+    " just",
+    104.88,
+    105.0
+   ],
+   [
+    " over",
+    105.0,
+    105.2
+   ],
+   [
+    " the",
+    105.2,
+    105.34
+   ],
+   [
+    " shoulder",
+    105.34,
+    105.58
+   ],
+   [
+    " blade,",
+    105.58,
+    105.9
+   ],
+   [
+    " there's",
+    106.44,
+    106.6
+   ],
+   [
+    " a",
+    106.6,
+    106.62
+   ],
+   [
+    " 7mm",
+    106.62,
+    107.3
+   ],
+   [
+    " dark",
+    107.3,
+    107.8
+   ],
+   [
+    " brown",
+    107.8,
+    108.18
+   ],
+   [
+    " mole.",
+    108.18,
+    108.52
+   ],
+   [
+    " It's",
+    109.18,
+    109.36
+   ],
+   [
+    " asymmetric,",
+    109.36,
+    109.92
+   ],
+   [
+    " the",
+    110.3,
+    110.4
+   ],
+   [
+    " border",
+    110.4,
+    110.68
+   ],
+   [
+    " is",
+    110.68,
+    110.94
+   ],
+   [
+    " irregular",
+    110.94,
+    111.18
+   ],
+   [
+    " and",
+    111.18,
+    111.76
+   ],
+   [
+    " kind",
+    111.76,
+    111.92
+   ],
+   [
+    " of",
+    111.92,
+    112.08
+   ],
+   [
+    " nudged",
+    112.08,
+    112.48
+   ],
+   [
+    " at",
+    112.48,
+    112.58
+   ],
+   [
+    " the",
+    112.58,
+    112.66
+   ],
+   [
+    " bottom,",
+    112.66,
+    112.96
+   ],
+   [
+    " and",
+    113.3,
+    113.5
+   ],
+   [
+    " there's",
+    113.5,
+    113.66
+   ],
+   [
+    " a",
+    113.66,
+    113.74
+   ],
+   [
+    " black",
+    113.74,
+    113.92
+   ],
+   [
+    " area",
+    113.92,
+    114.3
+   ],
+   [
+    " on",
+    114.3,
+    114.6
+   ],
+   [
+    " one",
+    114.6,
+    114.78
+   ],
+   [
+    " side.",
+    114.78,
+    115.18
+   ],
+   [
+    " under",
+    115.18,
+    115.9
+   ],
+   [
+    " the",
+    115.9,
+    116.1
+   ],
+   [
+    " dermatoscope",
+    116.1,
+    116.76
+   ],
+   [
+    " I",
+    116.76,
+    117.34
+   ],
+   [
+    " see",
+    117.34,
+    117.54
+   ],
+   [
+    " an",
+    117.54,
+    117.66
+   ],
+   [
+    " irregular",
+    117.66,
+    117.82
+   ],
+   [
+    " network",
+    117.82,
+    118.48
+   ],
+   [
+    " and",
+    118.48,
+    119.02
+   ],
+   [
+    " a",
+    119.02,
+    119.08
+   ],
+   [
+    " few",
+    119.08,
+    119.28
+   ],
+   [
+    " darts",
+    119.28,
+    119.54
+   ],
+   [
+    " at",
+    119.54,
+    119.9
+   ],
+   [
+    " the",
+    119.9,
+    120.0
+   ],
+   [
+    " edge.",
+    120.0,
+    120.24
+   ],
+   [
+    " That",
+    120.88,
+    121.08
+   ],
+   [
+    " one",
+    121.08,
+    121.22
+   ],
+   [
+    " stands",
+    121.22,
+    121.44
+   ],
+   [
+    " out",
+    121.44,
+    121.78
+   ],
+   [
+    " from",
+    121.78,
+    121.98
+   ],
+   [
+    " your",
+    121.98,
+    122.1
+   ],
+   [
+    " other",
+    122.1,
+    122.32
+   ],
+   [
+    " moles.",
+    122.32,
+    122.56
+   ],
+   [
+    " Is",
+    123.12,
+    123.38
+   ],
+   [
+    " that",
+    123.38,
+    123.54
+   ],
+   [
+    " bad?",
+    123.54,
+    123.88
+   ],
+   [
+    " It's",
+    124.6,
+    124.76
+   ],
+   [
+    " what",
+    124.76,
+    124.92
+   ],
+   [
+    " we",
+    124.92,
+    125.04
+   ],
+   [
+    " call",
+    125.04,
+    125.24
+   ],
+   [
+    " an",
+    125.24,
+    125.44
+   ],
+   [
+    " ugly",
+    125.44,
+    125.74
+   ],
+   [
+    " duckling.",
+    125.74,
+    126.24
+   ],
+   [
+    " It",
+    126.7,
+    126.74
+   ],
+   [
+    " doesn't",
+    126.74,
+    126.98
+   ],
+   [
+    " look",
+    126.98,
+    127.14
+   ],
+   [
+    " like",
+    127.14,
+    127.28
+   ],
+   [
+    " its",
+    127.28,
+    127.44
+   ],
+   [
+    " neighbours.",
+    127.44,
+    127.68
+   ],
+   [
+    " Let",
+    128.54,
+    128.58
+   ],
+   [
+    " me",
+    128.58,
+    128.68
+   ],
+   [
+    " check",
+    128.68,
+    128.9
+   ],
+   [
+    " the",
+    128.9,
+    129.08
+   ],
+   [
+    " rest",
+    129.08,
+    129.24
+   ],
+   [
+    " of",
+    129.24,
+    129.44
+   ],
+   [
+    " you",
+    129.44,
+    129.54
+   ],
+   [
+    " first.",
+    129.54,
+    129.84
+   ],
+   [
+    " Your",
+    130.54,
+    130.56
+   ],
+   [
+    " back,",
+    130.56,
+    130.8
+   ],
+   [
+    " chest",
+    131.02,
+    131.26
+   ],
+   [
+    " and",
+    131.26,
+    131.58
+   ],
+   [
+    " arms",
+    131.58,
+    131.84
+   ],
+   [
+    " have",
+    131.84,
+    132.06
+   ],
+   [
+    " scattered",
+    132.06,
+    132.32
+   ],
+   [
+    " two",
+    132.32,
+    132.68
+   ],
+   [
+    " to",
+    132.68,
+    132.78
+   ],
+   [
+    " three",
+    132.78,
+    133.06
+   ],
+   [
+    " millimetre",
+    133.06,
+    133.5
+   ],
+   [
+    " round",
+    133.5,
+    133.7
+   ],
+   [
+    " moles",
+    133.7,
+    134.14
+   ],
+   [
+    " evenly",
+    134.14,
+    134.74
+   ],
+   [
+    " brown.",
+    134.74,
+    135.14
+   ],
+   [
+    " Those",
+    135.84,
+    136.04
+   ],
+   [
+    " all",
+    136.04,
+    136.24
+   ],
+   [
+    " look",
+    136.24,
+    136.48
+   ],
+   [
+    " like",
+    136.48,
+    136.72
+   ],
+   [
+    " normal",
+    136.72,
+    137.0
+   ],
+   [
+    " benign",
+    137.0,
+    137.34
+   ],
+   [
+    " moles.",
+    137.34,
+    137.86
+   ],
+   [
+    " Scalp,",
+    138.68,
+    139.02
+   ],
+   [
+    " face",
+    139.46,
+    139.46
+   ],
+   [
+    " and",
+    139.46,
+    139.8
+   ],
+   [
+    " legs",
+    139.8,
+    140.02
+   ],
+   [
+    " look",
+    140.02,
+    140.34
+   ],
+   [
+    " fine.",
+    140.34,
+    140.7
+   ],
+   [
+    " I",
+    141.3,
+    141.4
+   ],
+   [
+    " don't",
+    141.4,
+    141.56
+   ],
+   [
+    " feel",
+    141.56,
+    141.7
+   ],
+   [
+    " any",
+    141.7,
+    141.86
+   ],
+   [
+    " swollen",
+    141.86,
+    142.26
+   ],
+   [
+    " lymph",
+    142.26,
+    142.56
+   ],
+   [
+    " nodes",
+    142.56,
+    143.08
+   ],
+   [
+    " in",
+    143.08,
+    143.3
+   ],
+   [
+    " your",
+    143.3,
+    143.38
+   ],
+   [
+    " left",
+    143.38,
+    143.56
+   ],
+   [
+    " armpit",
+    143.56,
+    144.08
+   ],
+   [
+    " or",
+    144.08,
+    144.34
+   ],
+   [
+    " your",
+    144.34,
+    144.48
+   ],
+   [
+    " neck,",
+    144.48,
+    144.74
+   ],
+   [
+    " and",
+    145.14,
+    145.38
+   ],
+   [
+    " he",
+    145.38,
+    145.46
+   ],
+   [
+    " lumps",
+    145.46,
+    145.7
+   ],
+   [
+    " you've",
+    145.7,
+    146.0
+   ],
+   [
+    " noticed",
+    146.0,
+    146.3
+   ],
+   [
+    " in",
+    146.3,
+    146.52
+   ],
+   [
+    " your",
+    146.52,
+    146.66
+   ],
+   [
+    " armpit.",
+    146.66,
+    147.12
+   ],
+   [
+    " No,",
+    147.48,
+    147.86
+   ],
+   [
+    " nothing",
+    148.06,
+    148.34
+   ],
+   [
+    " like",
+    148.34,
+    148.64
+   ],
+   [
+    " that.",
+    148.64,
+    148.92
+   ],
+   [
+    " Okay,",
+    150.01,
+    150.53
+   ],
+   [
+    " so",
+    150.81,
+    151.03
+   ],
+   [
+    " here's",
+    151.03,
+    151.39
+   ],
+   [
+    " what",
+    151.39,
+    151.53
+   ],
+   [
+    " I",
+    151.53,
+    151.65
+   ],
+   [
+    " think.",
+    151.65,
+    151.91
+   ],
+   [
+    " This",
+    152.49,
+    152.69
+   ],
+   [
+    " mole",
+    152.69,
+    152.91
+   ],
+   [
+    " on",
+    152.91,
+    153.19
+   ],
+   [
+    " your",
+    153.19,
+    153.31
+   ],
+   [
+    " back",
+    153.31,
+    153.53
+   ],
+   [
+    " has",
+    153.53,
+    153.83
+   ],
+   [
+    " several",
+    153.83,
+    154.15
+   ],
+   [
+    " changing",
+    154.15,
+    154.61
+   ],
+   [
+    " features.",
+    154.61,
+    155.05
+   ],
+   [
+    " Most",
+    155.83,
+    156.07
+   ],
+   [
+    " of",
+    156.07,
+    156.21
+   ],
+   [
+    " these",
+    156.21,
+    156.35
+   ],
+   [
+    " turn",
+    156.35,
+    156.61
+   ],
+   [
+    " out",
+    156.61,
+    156.87
+   ],
+   [
+    " to",
+    156.87,
+    157.03
+   ],
+   [
+    " be",
+    157.03,
+    157.15
+   ],
+   [
+    " in",
+    157.15,
+    157.27
+   ],
+   [
+    " a",
+    157.27,
+    157.37
+   ],
+   [
+    " typical",
+    157.37,
+    157.67
+   ],
+   [
+    " mole,",
+    157.67,
+    158.03
+   ],
+   [
+    " but",
+    158.57,
+    158.65
+   ],
+   [
+    " I",
+    158.65,
+    158.75
+   ],
+   [
+    " can't",
+    158.75,
+    159.15
+   ],
+   [
+    " rule",
+    159.15,
+    159.35
+   ],
+   [
+    " out",
+    159.35,
+    159.65
+   ],
+   [
+    " an",
+    159.65,
+    159.81
+   ],
+   [
+    " early",
+    159.81,
+    160.11
+   ],
+   [
+    " melanoma",
+    160.11,
+    160.73
+   ],
+   [
+    " just",
+    160.73,
+    161.05
+   ],
+   [
+    " by",
+    161.05,
+    161.35
+   ],
+   [
+    " looking,",
+    161.35,
+    161.69
+   ],
+   [
+    " so",
+    162.07,
+    162.43
+   ],
+   [
+    " I'd",
+    162.43,
+    162.65
+   ],
+   [
+    " like",
+    162.65,
+    162.77
+   ],
+   [
+    " to",
+    162.77,
+    162.91
+   ],
+   [
+    " do",
+    162.91,
+    163.05
+   ],
+   [
+    " a",
+    163.05,
+    163.11
+   ],
+   [
+    " biopsy",
+    163.11,
+    163.63
+   ],
+   [
+    " today.",
+    163.63,
+    164.07
+   ],
+   [
+    " Today,",
+    164.71,
+    165.07
+   ],
+   [
+    " okay,",
+    165.29,
+    165.59
+   ],
+   [
+    " what",
+    165.93,
+    166.11
+   ],
+   [
+    " does",
+    166.11,
+    166.25
+   ],
+   [
+    " that",
+    166.25,
+    166.43
+   ],
+   [
+    " involve?",
+    166.43,
+    166.65
+   ],
+   [
+    " It's",
+    167.55,
+    168.07
+   ],
+   [
+    " a",
+    168.07,
+    168.15
+   ],
+   [
+    " shave",
+    168.15,
+    168.39
+   ],
+   [
+    " biopsy.",
+    168.39,
+    169.05
+   ],
+   [
+    " I",
+    169.73,
+    169.93
+   ],
+   [
+    " numb",
+    169.93,
+    170.09
+   ],
+   [
+    " the",
+    170.09,
+    170.29
+   ],
+   [
+    " area",
+    170.29,
+    170.53
+   ],
+   [
+    " with",
+    170.53,
+    170.79
+   ],
+   [
+    " a",
+    170.79,
+    170.89
+   ],
+   [
+    " little",
+    170.89,
+    171.09
+   ],
+   [
+    " lidocaine",
+    171.09,
+    171.57
+   ],
+   [
+    " with",
+    171.57,
+    171.77
+   ],
+   [
+    " epinephrine,",
+    171.77,
+    172.41
+   ],
+   [
+    " then",
+    172.81,
+    172.97
+   ],
+   [
+    " Then",
+    172.97,
+    172.97
+   ],
+   [
+    " I",
+    172.97,
+    173.09
+   ],
+   [
+    " take",
+    173.09,
+    173.31
+   ],
+   [
+    " off",
+    173.31,
+    173.53
+   ],
+   [
+    " the",
+    173.53,
+    173.71
+   ],
+   [
+    " whole",
+    173.71,
+    173.87
+   ],
+   [
+    " mole",
+    173.87,
+    174.19
+   ],
+   [
+    " with",
+    174.19,
+    174.43
+   ],
+   [
+    " a",
+    174.43,
+    174.51
+   ],
+   [
+    " thin",
+    174.51,
+    174.79
+   ],
+   [
+    " blade,",
+    174.79,
+    175.19
+   ],
+   [
+    " fairly",
+    175.57,
+    175.81
+   ],
+   [
+    " deep,",
+    175.81,
+    176.21
+   ],
+   [
+    " and",
+    176.67,
+    176.77
+   ],
+   [
+    " send",
+    176.77,
+    176.97
+   ],
+   [
+    " it",
+    176.97,
+    177.17
+   ],
+   [
+    " to",
+    177.17,
+    177.29
+   ],
+   [
+    " the",
+    177.29,
+    177.39
+   ],
+   [
+    " lab.",
+    177.39,
+    177.65
+   ],
+   [
+    " No",
+    178.33,
+    178.53
+   ],
+   [
+    " stitches.",
+    178.53,
+    178.83
+   ],
+   [
+    " You'll",
+    179.65,
+    179.87
+   ],
+   [
+    " have",
+    179.87,
+    180.01
+   ],
+   [
+    " a",
+    180.01,
+    180.07
+   ],
+   [
+    " shallow",
+    180.07,
+    180.35
+   ],
+   [
+    " wound,",
+    180.35,
+    180.73
+   ],
+   [
+    " kind",
+    181.15,
+    181.37
+   ],
+   [
+    " of",
+    181.37,
+    181.53
+   ],
+   [
+    " like",
+    181.53,
+    181.67
+   ],
+   [
+    " a",
+    181.67,
+    181.79
+   ],
+   [
+    " scrape.",
+    181.79,
+    182.05
+   ],
+   [
+    " That's",
+    182.63,
+    182.97
+   ],
+   [
+    " fine,",
+    182.97,
+    183.17
+   ],
+   [
+    " let's",
+    183.43,
+    183.65
+   ],
+   [
+    " do",
+    183.65,
+    183.81
+   ],
+   [
+    " it.",
+    183.81,
+    183.97
+   ],
+   [
+    " Great,",
+    184.63,
+    185.07
+   ],
+   [
+    " a",
+    185.31,
+    185.47
+   ],
+   [
+    " little",
+    185.47,
+    185.57
+   ],
+   [
+    " pinch",
+    185.57,
+    185.81
+   ],
+   [
+    " and",
+    185.81,
+    186.17
+   ],
+   [
+    " a",
+    186.17,
+    186.25
+   ],
+   [
+    " burn",
+    186.25,
+    186.47
+   ],
+   [
+    " now.",
+    186.47,
+    186.83
+   ],
+   [
+    " Okay,",
+    187.37,
+    187.75
+   ],
+   [
+    " and",
+    188.05,
+    188.15
+   ],
+   [
+    " that's",
+    188.15,
+    188.45
+   ],
+   [
+    " done,",
+    188.45,
+    188.63
+   ],
+   [
+    " it",
+    188.63,
+    188.87
+   ],
+   [
+    " went",
+    188.87,
+    189.01
+   ],
+   [
+    " well.",
+    189.01,
+    189.31
+   ],
+   [
+    " I've",
+    190.09,
+    190.27
+   ],
+   [
+    " sent",
+    190.27,
+    190.43
+   ],
+   [
+    " it",
+    190.43,
+    190.61
+   ],
+   [
+    " to",
+    190.61,
+    190.73
+   ],
+   [
+    " pathology.",
+    190.73,
+    190.99
+   ],
+   [
+    " For",
+    191.95,
+    192.03
+   ],
+   [
+    " care,",
+    192.03,
+    192.27
+   ],
+   [
+    " keep",
+    192.57,
+    192.73
+   ],
+   [
+    " the",
+    192.73,
+    192.87
+   ],
+   [
+    " bandage",
+    192.87,
+    193.27
+   ],
+   [
+    " on",
+    193.27,
+    193.43
+   ],
+   [
+    " for",
+    193.43,
+    193.69
+   ],
+   [
+    " 24",
+    193.69,
+    194.03
+   ],
+   [
+    " hours,",
+    194.03,
+    194.55
+   ],
+   [
+    " then",
+    195.11,
+    195.21
+   ],
+   [
+    " wash",
+    195.21,
+    195.43
+   ],
+   [
+    " it",
+    195.43,
+    195.67
+   ],
+   [
+    " gently",
+    195.67,
+    195.91
+   ],
+   [
+    " once",
+    195.91,
+    196.31
+   ],
+   [
+    " a",
+    196.31,
+    196.51
+   ],
+   [
+    " day,",
+    196.51,
+    196.73
+   ],
+   [
+    " put",
+    197.19,
+    197.27
+   ],
+   [
+    " on",
+    197.27,
+    197.43
+   ],
+   [
+    " plain",
+    197.43,
+    197.67
+   ],
+   [
+    " petroleum",
+    197.67,
+    198.17
+   ],
+   [
+    " jelly",
+    198.17,
+    198.73
+   ],
+   [
+    " and",
+    198.73,
+    199.27
+   ],
+   [
+    " a",
+    199.27,
+    199.35
+   ],
+   [
+    " fresh",
+    199.35,
+    199.57
+   ],
+   [
+    " bandage",
+    199.57,
+    200.15
+   ],
+   [
+    " every",
+    200.15,
+    200.35
+   ],
+   [
+    " day",
+    200.35,
+    200.71
+   ],
+   [
+    " until",
+    200.71,
+    201.03
+   ],
+   [
+    " it",
+    201.03,
+    201.21
+   ],
+   [
+    " heals.",
+    201.21,
+    201.43
+   ],
+   [
+    " That's",
+    202.03,
+    202.55
+   ],
+   [
+    " usually",
+    202.55,
+    202.77
+   ],
+   [
+    " one",
+    202.77,
+    203.05
+   ],
+   [
+    " to",
+    203.05,
+    203.25
+   ],
+   [
+    " two",
+    203.25,
+    203.47
+   ],
+   [
+    " weeks.",
+    203.47,
+    203.69
+   ],
+   [
+    " Okay,",
+    204.25,
+    204.59
+   ],
+   [
+    " when",
+    204.79,
+    204.97
+   ],
+   [
+    " will",
+    204.97,
+    205.15
+   ],
+   [
+    " I",
+    205.15,
+    205.33
+   ],
+   [
+    " know?",
+    205.33,
+    205.59
+   ],
+   [
+    " Results",
+    206.11,
+    206.57
+   ],
+   [
+    " take",
+    206.57,
+    206.95
+   ],
+   [
+    " about",
+    206.95,
+    207.21
+   ],
+   [
+    " seven",
+    207.21,
+    207.61
+   ],
+   [
+    " to",
+    207.61,
+    207.85
+   ],
+   [
+    " ten",
+    207.85,
+    208.11
+   ],
+   [
+    " days.",
+    208.11,
+    208.35
+   ],
+   [
+    " They'll",
+    208.93,
+    209.09
+   ],
+   [
+    " post",
+    209.09,
+    209.27
+   ],
+   [
+    " to",
+    209.27,
+    209.55
+   ],
+   [
+    " the",
+    209.55,
+    209.65
+   ],
+   [
+    " portal",
+    209.65,
+    209.89
+   ],
+   [
+    " and",
+    209.89,
+    210.51
+   ],
+   [
+    " someone",
+    210.51,
+    210.77
+   ],
+   [
+    " will",
+    210.77,
+    211.07
+   ],
+   [
+    " call",
+    211.07,
+    211.33
+   ],
+   [
+    " you",
+    211.33,
+    211.61
+   ],
+   [
+    " either",
+    211.61,
+    211.85
+   ],
+   [
+    " way.",
+    211.85,
+    212.15
+   ],
+   [
+    " What's",
+    212.77,
+    213.03
+   ],
+   [
+    " the",
+    213.03,
+    213.13
+   ],
+   [
+    " best",
+    213.13,
+    213.35
+   ],
+   [
+    " number",
+    213.35,
+    213.61
+   ],
+   [
+    " for",
+    213.61,
+    213.93
+   ],
+   [
+    " you?",
+    213.93,
+    214.15
+   ],
+   [
+    " My",
+    214.61,
+    214.75
+   ],
+   [
+    " cell,",
+    214.75,
+    214.99
+   ],
+   [
+    " 555",
+    215.45,
+    215.49
+   ],
+   [
+    "-0163.",
+    215.49,
+    217.21
+   ],
+   [
+    " And",
+    217.93,
+    218.03
+   ],
+   [
+    " my",
+    218.03,
+    218.15
+   ],
+   [
+    " portal",
+    218.15,
+    218.43
+   ],
+   [
+    " email",
+    218.43,
+    218.77
+   ],
+   [
+    " is",
+    218.77,
+    219.09
+   ],
+   [
+    " AshlingDartBrenon88",
+    219.09,
+    220.49
+   ],
+   [
+    " at",
+    220.49,
+    220.97
+   ],
+   [
+    " fastmail",
+    220.97,
+    221.45
+   ],
+   [
+    ".com.",
+    221.45,
+    222.09
+   ],
+   [
+    " Gartid,",
+    222.65,
+    223.15
+   ],
+   [
+    " if",
+    223.33,
+    223.47
+   ],
+   [
+    " it",
+    223.47,
+    223.57
+   ],
+   [
+    " does",
+    223.57,
+    223.73
+   ],
+   [
+    " come",
+    223.73,
+    223.99
+   ],
+   [
+    " back",
+    223.99,
+    224.25
+   ],
+   [
+    " as",
+    224.25,
+    224.47
+   ],
+   [
+    " a",
+    224.47,
+    224.57
+   ],
+   [
+    " melanoma,",
+    224.57,
+    225.07
+   ],
+   [
+    " we",
+    225.55,
+    225.65
+   ],
+   [
+    " talk",
+    225.65,
+    225.81
+   ],
+   [
+    " about",
+    225.81,
+    226.11
+   ],
+   [
+    " a",
+    226.11,
+    226.21
+   ],
+   [
+    " wider",
+    226.21,
+    226.45
+   ],
+   [
+    " excision",
+    226.45,
+    227.05
+   ],
+   [
+    " to",
+    227.05,
+    227.23
+   ],
+   [
+    " get",
+    227.23,
+    227.37
+   ],
+   [
+    " clear",
+    227.37,
+    227.63
+   ],
+   [
+    " margins,",
+    227.63,
+    227.93
+   ],
+   [
+    " but",
+    228.05,
+    228.79
+   ],
+   [
+    " let's",
+    228.79,
+    229.05
+   ],
+   [
+    " not",
+    229.05,
+    229.23
+   ],
+   [
+    " get",
+    229.23,
+    229.43
+   ],
+   [
+    " ahead",
+    229.43,
+    229.65
+   ],
+   [
+    " of",
+    229.65,
+    229.81
+   ],
+   [
+    " ourselves.",
+    229.81,
+    229.99
+   ],
+   [
+    " ourselves.",
+    229.99,
+    230.25
+   ],
+   [
+    " If",
+    230.89,
+    231.09
+   ],
+   [
+    " the",
+    231.09,
+    231.19
+   ],
+   [
+    " site",
+    231.19,
+    231.43
+   ],
+   [
+    " gets",
+    231.43,
+    231.67
+   ],
+   [
+    " red,",
+    231.67,
+    232.01
+   ],
+   [
+    " hard,",
+    232.39,
+    232.67
+   ],
+   [
+    " swollen,",
+    233.17,
+    233.37
+   ],
+   [
+    " or",
+    233.81,
+    233.89
+   ],
+   [
+    " drains",
+    233.89,
+    234.19
+   ],
+   [
+    " pass,",
+    234.19,
+    234.61
+   ],
+   [
+    " call",
+    234.91,
+    235.09
+   ],
+   [
+    " us.",
+    235.09,
+    235.29
+   ],
+   [
+    " Okay,",
+    235.75,
+    236.25
+   ],
+   [
+    " should",
+    236.49,
+    236.63
+   ],
+   [
+    " I",
+    236.63,
+    236.77
+   ],
+   [
+    " be",
+    236.77,
+    236.87
+   ],
+   [
+    " doing",
+    236.87,
+    237.07
+   ],
+   [
+    " anything",
+    237.07,
+    237.39
+   ],
+   [
+    " about",
+    237.39,
+    237.67
+   ],
+   [
+    " the",
+    237.67,
+    237.83
+   ],
+   [
+    " sun?",
+    237.83,
+    238.05
+   ],
+   [
+    " Yes,",
+    238.83,
+    239.33
+   ],
+   [
+    " broad",
+    239.67,
+    239.85
+   ],
+   [
+    " spectrum",
+    239.85,
+    240.27
+   ],
+   [
+    " sunscreen,",
+    240.27,
+    240.87
+   ],
+   [
+    " SPF",
+    241.53,
+    242.07
+   ],
+   [
+    " 30",
+    242.07,
+    242.45
+   ],
+   [
+    " or",
+    242.45,
+    242.77
+   ],
+   [
+    " higher,",
+    242.77,
+    243.05
+   ],
+   [
+    " every",
+    243.77,
+    243.77
+   ],
+   [
+    " day",
+    243.77,
+    243.99
+   ],
+   [
+    " on",
+    243.99,
+    244.15
+   ],
+   [
+    " exposed",
+    244.15,
+    244.49
+   ],
+   [
+    " skin,",
+    244.49,
+    245.21
+   ],
+   [
+    " reapply",
+    245.49,
+    245.95
+   ],
+   [
+    " every",
+    245.95,
+    246.29
+   ],
+   [
+    " two",
+    246.29,
+    246.55
+   ],
+   [
+    " hours",
+    246.55,
+    246.89
+   ],
+   [
+    " when",
+    246.89,
+    247.11
+   ],
+   [
+    " you're",
+    247.11,
+    247.23
+   ],
+   [
+    " outside,",
+    247.23,
+    247.51
+   ],
+   [
+    " and",
+    248.15,
+    248.25
+   ],
+   [
+    " a",
+    248.25,
+    248.33
+   ],
+   [
+    " wide",
+    248.33,
+    248.55
+   ],
+   [
+    "-brimmed",
+    248.55,
+    249.11
+   ],
+   [
+    " hat.",
+    249.11,
+    249.33
+   ],
+   [
+    " Check",
+    250.07,
+    250.27
+   ],
+   [
+    " your",
+    250.27,
+    250.49
+   ],
+   [
+    " own",
+    250.49,
+    250.65
+   ],
+   [
+    " moles",
+    250.65,
+    250.93
+   ],
+   [
+    " once",
+    250.93,
+    251.23
+   ],
+   [
+    " a",
+    251.23,
+    251.37
+   ],
+   [
+    " month,",
+    251.37,
+    251.51
+   ],
+   [
+    " and",
+    252.05,
+    252.21
+   ],
+   [
+    " since",
+    252.21,
+    252.37
+   ],
+   [
+    " you've",
+    252.37,
+    252.65
+   ],
+   [
+    " had",
+    252.65,
+    252.75
+   ],
+   [
+    " blistering",
+    252.75,
+    253.31
+   ],
+   [
+    " sunburns",
+    253.31,
+    254.03
+   ],
+   [
+    " and",
+    254.03,
+    254.13
+   ],
+   [
+    " quite",
+    254.13,
+    254.33
+   ],
+   [
+    " a",
+    254.33,
+    254.51
+   ],
+   [
+    " few",
+    254.51,
+    254.63
+   ],
+   [
+    " moles,",
+    254.63,
+    255.03
+   ],
+   [
+    " I'd",
+    255.45,
+    255.61
+   ],
+   [
+    " like",
+    255.61,
+    255.73
+   ],
+   [
+    " to",
+    255.73,
+    255.87
+   ],
+   [
+    " see",
+    255.87,
+    256.03
+   ],
+   [
+    " you",
+    256.03,
+    256.23
+   ],
+   [
+    " for",
+    256.23,
+    256.39
+   ],
+   [
+    " a",
+    256.39,
+    256.51
+   ],
+   [
+    " full",
+    256.51,
+    256.71
+   ],
+   [
+    " skin",
+    256.71,
+    257.07
+   ],
+   [
+    " check",
+    257.07,
+    257.43
+   ],
+   [
+    " every",
+    257.43,
+    257.89
+   ],
+   [
+    " year.",
+    257.89,
+    258.19
+   ],
+   [
+    " Sounds",
+    258.19,
+    259.11
+   ],
+   [
+    " good.",
+    259.11,
+    259.57
+   ],
+   [
+    " Let's",
+    260.17,
+    260.67
+   ],
+   [
+    " book",
+    260.67,
+    260.85
+   ],
+   [
+    " a",
+    260.85,
+    261.05
+   ],
+   [
+    " follow",
+    261.05,
+    261.33
+   ],
+   [
+    "-up",
+    261.33,
+    261.67
+   ],
+   [
+    " for",
+    261.67,
+    261.81
+   ],
+   [
+    " the",
+    261.81,
+    261.89
+   ],
+   [
+    " biopsy",
+    261.89,
+    262.41
+   ],
+   [
+    " site",
+    262.41,
+    262.77
+   ],
+   [
+    " and",
+    262.77,
+    263.19
+   ],
+   [
+    " results",
+    263.19,
+    263.47
+   ],
+   [
+    " on",
+    263.47,
+    263.83
+   ],
+   [
+    " Tuesday",
+    263.83,
+    264.09
+   ],
+   [
+    " October",
+    264.09,
+    265.03
+   ],
+   [
+    " 27th.",
+    265.03,
+    266.15
+   ],
+   [
+    " Any",
+    266.73,
+    266.75
+   ],
+   [
+    " other",
+    266.75,
+    267.01
+   ],
+   [
+    " questions?",
+    267.01,
+    267.41
+   ],
+   [
+    " No,",
+    268.03,
+    268.63
+   ],
+   [
+    " I",
+    268.69,
+    268.83
+   ],
+   [
+    " think",
+    268.83,
+    269.01
+   ],
+   [
+    " that's",
+    269.01,
+    269.39
+   ],
+   [
+    " it.",
+    269.39,
+    269.51
+   ],
+   [
+    " Thank",
+    269.81,
+    269.89
+   ],
+   [
+    " you.",
+    269.89,
+    270.19
+   ],
+   [
+    " You're",
+    270.81,
+    271.01
+   ],
+   [
+    " welcome,",
+    271.01,
+    271.37
+   ],
+   [
+    " Ashling.",
+    271.77,
+    272.05
+   ],
+   [
+    " Take",
+    272.63,
+    272.73
+   ],
+   [
+    " care",
+    272.73,
+    273.05
+   ],
+   [
+    " and",
+    273.05,
+    273.51
+   ],
+   [
+    " good",
+    273.51,
+    273.67
+   ],
+   [
+    " luck",
+    273.67,
+    273.97
+   ],
+   [
+    " getting",
+    273.97,
+    274.25
+   ],
+   [
+    " out",
+    274.25,
+    274.45
+   ],
+   [
+    " of",
+    274.45,
+    274.57
+   ],
+   [
+    " that",
+    274.57,
+    274.73
+   ],
+   [
+    " garage.",
+    274.73,
+    274.95
+   ]
+  ],
+  "drug_names_corrected": 0
+ }
+}

@@ -1,0 +1,4181 @@
+{
+ "turns": [
+  {
+   "idx": 0,
+   "speaker": "clinician",
+   "text": "Hi, come on in and have a seat. I'm Dr. Adiz Akonquo, one of the cardiologists here. Can you tell me your full name and date of birth?",
+   "start": 0.08,
+   "end": 9.28
+  },
+  {
+   "idx": 1,
+   "speaker": "patient",
+   "text": "Thomas Weixerec, August 3rd, 1964.",
+   "start": 10.44,
+   "end": 13.6
+  },
+  {
+   "idx": 2,
+   "speaker": "clinician",
+   "text": "Thank you, Mr. Weixerec. Did you find parking okay? The garage is a mess this week with the construction.",
+   "start": 14.54,
+   "end": 20.86
+  },
+  {
+   "idx": 3,
+   "speaker": "patient",
+   "text": "Took me two laps, but yeah, I found a spot eventually.",
+   "start": 21.97,
+   "end": 25.05
+  },
+  {
+   "idx": 4,
+   "speaker": "clinician",
+   "text": "Sorry about that. So, Dr. Patel sent you over about some chest discomfort. Tell me what's been going on.",
+   "start": 26.05,
+   "end": 32.63
+  },
+  {
+   "idx": 5,
+   "speaker": "patient",
+   "text": "So about six weeks ago I started getting this pressure in the middle of my chest like somebody sitting on me. It happens when I walk up the hill to my house or when I carry groceries up the stairs.",
+   "start": 33.34,
+   "end": 45.84
+  },
+  {
+   "idx": 6,
+   "speaker": "clinician",
+   "text": "And how long does it last when it comes on?",
+   "start": 46.76,
+   "end": 48.8
+  },
+  {
+   "idx": 7,
+   "speaker": "patient",
+   "text": "A few minutes. If I stop and stand there it goes away in maybe three, four minutes.",
+   "start": 49.65,
+   "end": 54.79
+  },
+  {
+   "idx": 8,
+   "speaker": "clinician",
+   "text": "Does it ever happen when you're resting? Or wake you up at night?",
+   "start": 54.79,
+   "end": 58.29
+  },
+  {
+   "idx": 9,
+   "speaker": "patient",
+   "text": "No, never at rest. Only when I'm pushing it.",
+   "start": 59.37,
+   "end": 62.03
+  },
+  {
+   "idx": 10,
+   "speaker": "clinician",
+   "text": "Does the pressure go anywhere? Like your arm, your jaw, or your back?",
+   "start": 62.41,
+   "end": 65.93
+  },
+  {
+   "idx": 11,
+   "speaker": "patient",
+   "text": "Sometimes a little into my left arm. Not the jaw.",
+   "start": 66.71,
+   "end": 69.77
+  },
+  {
+   "idx": 12,
+   "speaker": "clinician",
+   "text": "Any shortness of breath with it?",
+   "start": 70.65,
+   "end": 72.15
+  },
+  {
+   "idx": 13,
+   "speaker": "patient",
+   "text": "A little winded, yeah. But I figured that's just me being out of shape.",
+   "start": 72.49,
+   "end": 76.43
+  },
+  {
+   "idx": 14,
+   "speaker": "clinician",
+   "text": "Any sweating, nausea, or lightheadedness with the episodes?",
+   "start": 77.15,
+   "end": 80.51
+  },
+  {
+   "idx": 15,
+   "speaker": "patient",
+   "text": "No sweating, no nausea. I've never passed out or anything like that.",
+   "start": 80.51,
+   "end": 85.77
+  },
+  {
+   "idx": 16,
+   "speaker": "clinician",
+   "text": "Has it been getting more frequent or easier to bring on?",
+   "start": 86.33,
+   "end": 89.11
+  },
+  {
+   "idx": 17,
+   "speaker": "patient",
+   "text": "Um, not really. It's about the same, maybe two or three times a week.",
+   "start": 89.77,
+   "end": 93.81
+  },
+  {
+   "idx": 18,
+   "speaker": "clinician",
+   "text": "Okay, doctor. Patel's note says you have high blood pressure and high cholesterol. What are you taking for those?",
+   "start": 94.33,
+   "end": 101.13
+  },
+  {
+   "idx": 19,
+   "speaker": "patient",
+   "text": "lisinopril 20 milligrams in the morning and he started me on atorvastatin 40 milligrams at night about a year ago any allergies to medications penicillin I got hives from it as a kid do you smoke I quit 10 years ago before that I smoked about a pack a day for 25 years",
+   "start": 102.13,
+   "end": 123.73
+  },
+  {
+   "idx": 20,
+   "speaker": "clinician",
+   "text": "good for you on quitting that's a big deal Any diabetes?",
+   "start": 123.73,
+   "end": 127.53
+  },
+  {
+   "idx": 21,
+   "speaker": "patient",
+   "text": "No, my sugar's always been fine.",
+   "start": 128.84,
+   "end": 130.5
+  },
+  {
+   "idx": 22,
+   "speaker": "clinician",
+   "text": "And what do you do for work?",
+   "start": 131.26,
+   "end": 132.26
+  },
+  {
+   "idx": 23,
+   "speaker": "patient",
+   "text": "I'm a dispatcher at Hollister Freight, mostly sitting, honestly.",
+   "start": 133.04,
+   "end": 136.92
+  },
+  {
+   "idx": 24,
+   "speaker": "clinician",
+   "text": "Okay, your blood pressure today is 142 over 86, pulse 74, and your oxygen is 98%. Weight is 214 pounds. Let me take a listen. Heart has a regular rhythm, no murmurs. Lungs are clear. No swelling in your legs, and the pulses in your feet are good.",
+   "start": 137.82,
+   "end": 156.76
+  },
+  {
+   "idx": 25,
+   "speaker": "patient",
+   "text": "That's good, I guess.",
+   "start": 157.74,
+   "end": 158.58
+  },
+  {
+   "idx": 26,
+   "speaker": "clinician",
+   "text": "We did an ECG when you came in. It shows normal sinus rhythm at 72, and I don't see any signs of an old heart attack or any acute changes. That's reassuring, but a resting ECG is often normal even when there's a blockage, because the problem only shows up when the heart is working hard.",
+   "start": 159.3,
+   "end": 177.98
+  },
+  {
+   "idx": 27,
+   "speaker": "patient",
+   "text": "So what does that mean then?",
+   "start": 178.6,
+   "end": 179.96
+  },
+  {
+   "idx": 28,
+   "speaker": "clinician",
+   "text": "What you're describing, pressure with exertion that goes away with rest, is pretty classic for stable angina. That means the heart muscle isn't getting enough blood when it works harder, usually from narrowing in the heart arteries. With your smoking history, blood pressure and cholesterol, that's my main concern.",
+   "start": 179.96,
+   "end": 199.1
+  },
+  {
+   "idx": 29,
+   "speaker": "patient",
+   "text": "Okay, that's kind of scary.",
+   "start": 199.68,
+   "end": 201.06
+  },
+  {
+   "idx": 30,
+   "speaker": "clinician",
+   "text": "I understand. The good news is it's stable, and we have a clear plan. First, I'd like you to have a nuclear stress test where you walk on a treadmill while we take pictures of the blood flow to your heart. We'll also check a fasting lipid panel and a basic metabolic panel.",
+   "start": 202.08,
+   "end": 218.34
+  },
+  {
+   "idx": 31,
+   "speaker": "patient",
+   "text": "Sure, that's fine.",
+   "start": 219.0,
+   "end": 219.86
+  },
+  {
+   "idx": 32,
+   "speaker": "clinician",
+   "text": "In the meantime, I want you to start aspirin, 81 milligrams once a day. I'm also starting Metoprolol 6 and 8, 25 milligrams once a day, which slows the heart down so it doesn't work as hard. And I'm giving you nitroglycerin, 0 .4 milligrams, one tablet under the tongue if the pressure comes on and doesn't go away with rest. You can repeat it every five minutes up to three tablets.",
+   "start": 220.79,
+   "end": 245.27
+  },
+  {
+   "idx": 33,
+   "speaker": "patient",
+   "text": "Got it.",
+   "start": 245.91,
+   "end": 246.53
+  },
+  {
+   "idx": 34,
+   "speaker": "clinician",
+   "text": "I'm also going to increase your atorvastatin from 40 to 80 milligrams at night. Keep the lisinopril the same.",
+   "start": 246.87,
+   "end": 254.45
+  },
+  {
+   "idx": 35,
+   "speaker": "patient",
+   "text": "Okay.",
+   "start": 255.01,
+   "end": 255.43
+  },
+  {
+   "idx": 36,
+   "speaker": "clinician",
+   "text": "Now this part is important. If you get chest pain at rest, or pain that lasts more than 15 minutes, or it doesn't go away after 1 nitroglycerin, call 911. Don't drive yourself.",
+   "start": 256.15,
+   "end": 269.15
+  },
+  {
+   "idx": 37,
+   "speaker": "patient",
+   "text": "Understood.",
+   "start": 270.3,
+   "end": 270.74
+  },
+  {
+   "idx": 38,
+   "speaker": "clinician",
+   "text": "And hold off on heavy lifting, and that hill, until we have the stress test results. What's the best number to reach you for scheduling?",
+   "start": 271.58,
+   "end": 279.1
+  },
+  {
+   "idx": 39,
+   "speaker": "patient",
+   "text": "Mycel 555 -0163.",
+   "start": 279.76,
+   "end": 282.86
+  },
+  {
+   "idx": 40,
+   "speaker": "clinician",
+   "text": "Great. We'll get the stress test done within the next two weeks, and I'll see you back right after to go over the results.",
+   "start": 283.62,
+   "end": 290.16
+  },
+  {
+   "idx": 41,
+   "speaker": "patient",
+   "text": "Thanks, doctor. I appreciate it.",
+   "start": 291.08,
+   "end": 293.08
+  }
+ ],
+ "source": "asr",
+ "asr_model": "faster-whisper small.en int8 + medical prompt",
+ "duration_s": 293.76,
+ "timings": {
+  "asr": 49.21,
+  "diarization": 1.8
+ },
+ "diarization": {
+  "method": "voice centers from log-mel + pitch (k-means, k=2), word-level Viterbi smoothing, lexical role inference",
+  "chunks": 101,
+  "role_scores": {
+   "clinician": 2.05,
+   "patient": -0.07
+  },
+  "words": [
+   [
+    " Hi,",
+    0.08,
+    0.7
+   ],
+   [
+    " come",
+    0.82,
+    0.98
+   ],
+   [
+    " on",
+    0.98,
+    1.16
+   ],
+   [
+    " in",
+    1.16,
+    1.36
+   ],
+   [
+    " and",
+    1.36,
+    1.54
+   ],
+   [
+    " have",
+    1.54,
+    1.68
+   ],
+   [
+    " a",
+    1.68,
+    1.82
+   ],
+   [
+    " seat.",
+    1.82,
+    2.16
+   ],
+   [
+    " I'm",
+    2.72,
+    2.86
+   ],
+   [
+    " Dr.",
+    2.86,
+    3.3
+   ],
+   [
+    " Adiz",
+    3.82,
+    4.16
+   ],
+   [
+    " Akonquo,",
+    4.16,
+    4.84
+   ],
+   [
+    " one",
+    5.12,
+    5.2
+   ],
+   [
+    " of",
+    5.2,
+    5.3
+   ],
+   [
+    " the",
+    5.3,
+    5.44
+   ],
+   [
+    " cardiologists",
+    5.44,
+    6.14
+   ],
+   [
+    " here.",
+    6.14,
+    6.58
+   ],
+   [
+    " Can",
+    7.2,
+    7.26
+   ],
+   [
+    " you",
+    7.26,
+    7.4
+   ],
+   [
+    " tell",
+    7.4,
+    7.58
+   ],
+   [
+    " me",
+    7.58,
+    7.72
+   ],
+   [
+    " your",
+    7.72,
+    7.84
+   ],
+   [
+    " full",
+    7.84,
+    8.12
+   ],
+   [
+    " name",
+    8.12,
+    8.4
+   ],
+   [
+    " and",
+    8.4,
+    8.64
+   ],
+   [
+    " date",
+    8.64,
+    8.82
+   ],
+   [
+    " of",
+    8.82,
+    8.98
+   ],
+   [
+    " birth?",
+    8.98,
+    9.28
+   ],
+   [
+    " Thomas",
+    10.44,
+    10.44
+   ],
+   [
+    " Weixerec,",
+    10.44,
+    11.16
+   ],
+   [
+    " August",
+    11.66,
+    11.82
+   ],
+   [
+    " 3rd,",
+    11.82,
+    12.58
+   ],
+   [
+    " 1964.",
+    12.66,
+    13.6
+   ],
+   [
+    " Thank",
+    14.54,
+    14.68
+   ],
+   [
+    " you,",
+    14.68,
+    14.94
+   ],
+   [
+    " Mr.",
+    14.94,
+    15.24
+   ],
+   [
+    " Weixerec.",
+    15.8,
+    16.26
+   ],
+   [
+    " Did",
+    16.7,
+    16.8
+   ],
+   [
+    " you",
+    16.8,
+    16.94
+   ],
+   [
+    " find",
+    16.94,
+    17.18
+   ],
+   [
+    " parking",
+    17.18,
+    17.54
+   ],
+   [
+    " okay?",
+    17.54,
+    17.94
+   ],
+   [
+    " The",
+    18.52,
+    18.7
+   ],
+   [
+    " garage",
+    18.7,
+    19.06
+   ],
+   [
+    " is",
+    19.06,
+    19.3
+   ],
+   [
+    " a",
+    19.3,
+    19.42
+   ],
+   [
+    " mess",
+    19.42,
+    19.58
+   ],
+   [
+    " this",
+    19.58,
+    19.8
+   ],
+   [
+    " week",
+    19.8,
+    20.1
+   ],
+   [
+    " with",
+    20.1,
+    20.3
+   ],
+   [
+    " the",
+    20.3,
+    20.44
+   ],
+   [
+    " construction.",
+    20.44,
+    20.86
+   ],
+   [
+    " Took",
+    21.97,
+    22.07
+   ],
+   [
+    " me",
+    22.07,
+    22.21
+   ],
+   [
+    " two",
+    22.21,
+    22.41
+   ],
+   [
+    " laps,",
+    22.41,
+    22.71
+   ],
+   [
+    " but",
+    22.87,
+    22.97
+   ],
+   [
+    " yeah,",
+    22.97,
+    23.25
+   ],
+   [
+    " I",
+    23.59,
+    23.91
+   ],
+   [
+    " found",
+    23.91,
+    24.13
+   ],
+   [
+    " a",
+    24.13,
+    24.29
+   ],
+   [
+    " spot",
+    24.29,
+    24.57
+   ],
+   [
+    " eventually.",
+    24.57,
+    25.05
+   ],
+   [
+    " Sorry",
+    26.05,
+    26.27
+   ],
+   [
+    " about",
+    26.27,
+    26.55
+   ],
+   [
+    " that.",
+    26.55,
+    26.85
+   ],
+   [
+    " So,",
+    27.29,
+    27.51
+   ],
+   [
+    " Dr.",
+    27.63,
+    27.89
+   ],
+   [
+    " Patel",
+    28.41,
+    28.41
+   ],
+   [
+    " sent",
+    28.41,
+    28.75
+   ],
+   [
+    " you",
+    28.75,
+    28.95
+   ],
+   [
+    " over",
+    28.95,
+    29.13
+   ],
+   [
+    " about",
+    29.13,
+    29.37
+   ],
+   [
+    " some",
+    29.37,
+    29.61
+   ],
+   [
+    " chest",
+    29.61,
+    29.97
+   ],
+   [
+    " discomfort.",
+    29.97,
+    30.65
+   ],
+   [
+    " Tell",
+    31.27,
+    31.39
+   ],
+   [
+    " me",
+    31.39,
+    31.51
+   ],
+   [
+    " what's",
+    31.51,
+    31.71
+   ],
+   [
+    " been",
+    31.71,
+    31.83
+   ],
+   [
+    " going",
+    31.83,
+    32.09
+   ],
+   [
+    " on.",
+    32.09,
+    32.63
+   ],
+   [
+    " So",
+    33.34,
+    33.52
+   ],
+   [
+    " about",
+    33.52,
+    33.88
+   ],
+   [
+    " six",
+    33.88,
+    34.22
+   ],
+   [
+    " weeks",
+    34.22,
+    34.46
+   ],
+   [
+    " ago",
+    34.46,
+    34.78
+   ],
+   [
+    " I",
+    34.78,
+    34.98
+   ],
+   [
+    " started",
+    34.98,
+    35.32
+   ],
+   [
+    " getting",
+    35.32,
+    35.6
+   ],
+   [
+    " this",
+    35.6,
+    35.88
+   ],
+   [
+    " pressure",
+    35.88,
+    36.24
+   ],
+   [
+    " in",
+    36.24,
+    36.46
+   ],
+   [
+    " the",
+    36.46,
+    36.62
+   ],
+   [
+    " middle",
+    36.62,
+    36.72
+   ],
+   [
+    " of",
+    36.72,
+    36.94
+   ],
+   [
+    " my",
+    36.94,
+    37.08
+   ],
+   [
+    " chest",
+    37.08,
+    37.54
+   ],
+   [
+    " like",
+    37.54,
+    38.32
+   ],
+   [
+    " somebody",
+    38.32,
+    38.84
+   ],
+   [
+    " sitting",
+    38.84,
+    39.3
+   ],
+   [
+    " on",
+    39.3,
+    39.6
+   ],
+   [
+    " me.",
+    39.6,
+    39.88
+   ],
+   [
+    " It",
+    40.3,
+    40.54
+   ],
+   [
+    " happens",
+    40.54,
+    40.9
+   ],
+   [
+    " when",
+    40.9,
+    41.2
+   ],
+   [
+    " I",
+    41.2,
+    41.34
+   ],
+   [
+    " walk",
+    41.34,
+    41.6
+   ],
+   [
+    " up",
+    41.6,
+    41.8
+   ],
+   [
+    " the",
+    41.8,
+    41.96
+   ],
+   [
+    " hill",
+    41.96,
+    42.12
+   ],
+   [
+    " to",
+    42.12,
+    42.32
+   ],
+   [
+    " my",
+    42.32,
+    42.5
+   ],
+   [
+    " house",
+    42.5,
+    42.94
+   ],
+   [
+    " or",
+    42.94,
+    43.54
+   ],
+   [
+    " when",
+    43.54,
+    43.9
+   ],
+   [
+    " I",
+    43.9,
+    44.08
+   ],
+   [
+    " carry",
+    44.08,
+    44.38
+   ],
+   [
+    " groceries",
+    44.38,
+    44.9
+   ],
+   [
+    " up",
+    44.9,
+    45.24
+   ],
+   [
+    " the",
+    45.24,
+    45.48
+   ],
+   [
+    " stairs.",
+    45.48,
+    45.84
+   ],
+   [
+    " And",
+    46.76,
+    46.96
+   ],
+   [
+    " how",
+    46.96,
+    47.14
+   ],
+   [
+    " long",
+    47.14,
+    47.42
+   ],
+   [
+    " does",
+    47.42,
+    47.62
+   ],
+   [
+    " it",
+    47.62,
+    47.74
+   ],
+   [
+    " last",
+    47.74,
+    48.0
+   ],
+   [
+    " when",
+    48.0,
+    48.2
+   ],
+   [
+    " it",
+    48.2,
+    48.32
+   ],
+   [
+    " comes",
+    48.32,
+    48.48
+   ],
+   [
+    " on?",
+    48.48,
+    48.8
+   ],
+   [
+    " A",
+    49.65,
+    49.85
+   ],
+   [
+    " few",
+    49.85,
+    50.03
+   ],
+   [
+    " minutes.",
+    50.03,
+    50.37
+   ],
+   [
+    " If",
+    50.89,
+    51.07
+   ],
+   [
+    " I",
+    51.07,
+    51.23
+   ],
+   [
+    " stop",
+    51.23,
+    51.53
+   ],
+   [
+    " and",
+    51.53,
+    51.73
+   ],
+   [
+    " stand",
+    51.73,
+    52.03
+   ],
+   [
+    " there",
+    52.03,
+    52.33
+   ],
+   [
+    " it",
+    52.33,
+    52.55
+   ],
+   [
+    " goes",
+    52.55,
+    52.73
+   ],
+   [
+    " away",
+    52.73,
+    53.11
+   ],
+   [
+    " in",
+    53.11,
+    53.31
+   ],
+   [
+    " maybe",
+    53.31,
+    53.57
+   ],
+   [
+    " three,",
+    53.57,
+    54.03
+   ],
+   [
+    " four",
+    54.27,
+    54.43
+   ],
+   [
+    " minutes.",
+    54.43,
+    54.79
+   ],
+   [
+    " Does",
+    54.79,
+    55.51
+   ],
+   [
+    " it",
+    55.51,
+    55.61
+   ],
+   [
+    " ever",
+    55.61,
+    55.83
+   ],
+   [
+    " happen",
+    55.83,
+    56.17
+   ],
+   [
+    " when",
+    56.17,
+    56.37
+   ],
+   [
+    " you're",
+    56.37,
+    56.49
+   ],
+   [
+    " resting?",
+    56.49,
+    56.89
+   ],
+   [
+    " Or",
+    57.33,
+    57.45
+   ],
+   [
+    " wake",
+    57.45,
+    57.65
+   ],
+   [
+    " you",
+    57.65,
+    57.81
+   ],
+   [
+    " up",
+    57.81,
+    57.91
+   ],
+   [
+    " at",
+    57.91,
+    58.05
+   ],
+   [
+    " night?",
+    58.05,
+    58.29
+   ],
+   [
+    " No,",
+    59.37,
+    59.41
+   ],
+   [
+    " never",
+    59.57,
+    59.71
+   ],
+   [
+    " at",
+    59.71,
+    59.91
+   ],
+   [
+    " rest.",
+    59.91,
+    60.25
+   ],
+   [
+    " Only",
+    60.71,
+    60.89
+   ],
+   [
+    " when",
+    60.89,
+    61.17
+   ],
+   [
+    " I'm",
+    61.17,
+    61.41
+   ],
+   [
+    " pushing",
+    61.41,
+    61.63
+   ],
+   [
+    " it.",
+    61.63,
+    62.03
+   ],
+   [
+    " Does",
+    62.41,
+    62.49
+   ],
+   [
+    " the",
+    62.49,
+    62.65
+   ],
+   [
+    " pressure",
+    62.65,
+    62.87
+   ],
+   [
+    " go",
+    62.87,
+    63.11
+   ],
+   [
+    " anywhere?",
+    63.11,
+    63.47
+   ],
+   [
+    " Like",
+    63.93,
+    64.05
+   ],
+   [
+    " your",
+    64.05,
+    64.21
+   ],
+   [
+    " arm,",
+    64.21,
+    64.57
+   ],
+   [
+    " your",
+    64.81,
+    64.91
+   ],
+   [
+    " jaw,",
+    64.91,
+    65.29
+   ],
+   [
+    " or",
+    65.43,
+    65.55
+   ],
+   [
+    " your",
+    65.55,
+    65.67
+   ],
+   [
+    " back?",
+    65.67,
+    65.93
+   ],
+   [
+    " Sometimes",
+    66.71,
+    67.15
+   ],
+   [
+    " a",
+    67.15,
+    67.37
+   ],
+   [
+    " little",
+    67.37,
+    67.47
+   ],
+   [
+    " into",
+    67.47,
+    67.77
+   ],
+   [
+    " my",
+    67.77,
+    67.97
+   ],
+   [
+    " left",
+    67.97,
+    68.23
+   ],
+   [
+    " arm.",
+    68.23,
+    68.55
+   ],
+   [
+    " Not",
+    69.05,
+    69.21
+   ],
+   [
+    " the",
+    69.21,
+    69.45
+   ],
+   [
+    " jaw.",
+    69.45,
+    69.77
+   ],
+   [
+    " Any",
+    70.65,
+    70.87
+   ],
+   [
+    " shortness",
+    70.87,
+    71.33
+   ],
+   [
+    " of",
+    71.33,
+    71.49
+   ],
+   [
+    " breath",
+    71.49,
+    71.71
+   ],
+   [
+    " with",
+    71.71,
+    71.91
+   ],
+   [
+    " it?",
+    71.91,
+    72.15
+   ],
+   [
+    " A",
+    72.49,
+    72.69
+   ],
+   [
+    " little",
+    72.69,
+    72.89
+   ],
+   [
+    " winded,",
+    72.89,
+    73.35
+   ],
+   [
+    " yeah.",
+    73.47,
+    73.69
+   ],
+   [
+    " But",
+    74.31,
+    74.45
+   ],
+   [
+    " I",
+    74.45,
+    74.63
+   ],
+   [
+    " figured",
+    74.63,
+    74.87
+   ],
+   [
+    " that's",
+    74.87,
+    75.29
+   ],
+   [
+    " just",
+    75.29,
+    75.45
+   ],
+   [
+    " me",
+    75.45,
+    75.65
+   ],
+   [
+    " being",
+    75.65,
+    75.91
+   ],
+   [
+    " out",
+    75.91,
+    76.09
+   ],
+   [
+    " of",
+    76.09,
+    76.23
+   ],
+   [
+    " shape.",
+    76.23,
+    76.43
+   ],
+   [
+    " Any",
+    77.15,
+    77.37
+   ],
+   [
+    " sweating,",
+    77.37,
+    77.73
+   ],
+   [
+    " nausea,",
+    78.53,
+    78.67
+   ],
+   [
+    " or",
+    78.93,
+    79.13
+   ],
+   [
+    " lightheadedness",
+    79.13,
+    79.79
+   ],
+   [
+    " with",
+    79.79,
+    79.93
+   ],
+   [
+    " the",
+    79.93,
+    80.11
+   ],
+   [
+    " episodes?",
+    80.11,
+    80.51
+   ],
+   [
+    " No",
+    80.51,
+    81.51
+   ],
+   [
+    " sweating,",
+    81.51,
+    82.03
+   ],
+   [
+    " no",
+    82.59,
+    82.67
+   ],
+   [
+    " nausea.",
+    82.67,
+    83.11
+   ],
+   [
+    " I've",
+    83.59,
+    83.69
+   ],
+   [
+    " never",
+    83.69,
+    83.87
+   ],
+   [
+    " passed",
+    83.87,
+    84.23
+   ],
+   [
+    " out",
+    84.23,
+    84.55
+   ],
+   [
+    " or",
+    84.55,
+    84.71
+   ],
+   [
+    " anything",
+    84.71,
+    85.03
+   ],
+   [
+    " like",
+    85.03,
+    85.31
+   ],
+   [
+    " that.",
+    85.31,
+    85.77
+   ],
+   [
+    " Has",
+    86.33,
+    86.35
+   ],
+   [
+    " it",
+    86.35,
+    86.47
+   ],
+   [
+    " been",
+    86.47,
+    86.59
+   ],
+   [
+    " getting",
+    86.59,
+    86.85
+   ],
+   [
+    " more",
+    86.85,
+    87.11
+   ],
+   [
+    " frequent",
+    87.11,
+    87.57
+   ],
+   [
+    " or",
+    87.57,
+    88.11
+   ],
+   [
+    " easier",
+    88.11,
+    88.41
+   ],
+   [
+    " to",
+    88.41,
+    88.65
+   ],
+   [
+    " bring",
+    88.65,
+    88.83
+   ],
+   [
+    " on?",
+    88.83,
+    89.11
+   ],
+   [
+    " Um,",
+    89.77,
+    89.99
+   ],
+   [
+    " not",
+    90.09,
+    90.25
+   ],
+   [
+    " really.",
+    90.25,
+    90.59
+   ],
+   [
+    " It's",
+    91.19,
+    91.41
+   ],
+   [
+    " about",
+    91.41,
+    91.57
+   ],
+   [
+    " the",
+    91.57,
+    91.79
+   ],
+   [
+    " same,",
+    91.79,
+    92.07
+   ],
+   [
+    " maybe",
+    92.29,
+    92.41
+   ],
+   [
+    " two",
+    92.41,
+    92.71
+   ],
+   [
+    " or",
+    92.71,
+    92.85
+   ],
+   [
+    " three",
+    92.85,
+    93.07
+   ],
+   [
+    " times",
+    93.07,
+    93.37
+   ],
+   [
+    " a",
+    93.37,
+    93.59
+   ],
+   [
+    " week.",
+    93.59,
+    93.81
+   ],
+   [
+    " Okay,",
+    94.33,
+    94.79
+   ],
+   [
+    " doctor.",
+    95.07,
+    95.41
+   ],
+   [
+    " Patel's",
+    96.13,
+    96.53
+   ],
+   [
+    " note",
+    96.53,
+    96.67
+   ],
+   [
+    " says",
+    96.67,
+    96.91
+   ],
+   [
+    " you",
+    96.91,
+    97.09
+   ],
+   [
+    " have",
+    97.09,
+    97.27
+   ],
+   [
+    " high",
+    97.27,
+    97.63
+   ],
+   [
+    " blood",
+    97.63,
+    97.89
+   ],
+   [
+    " pressure",
+    97.89,
+    98.29
+   ],
+   [
+    " and",
+    98.29,
+    98.53
+   ],
+   [
+    " high",
+    98.53,
+    98.79
+   ],
+   [
+    " cholesterol.",
+    98.79,
+    99.27
+   ],
+   [
+    " What",
+    99.99,
+    100.13
+   ],
+   [
+    " are",
+    100.13,
+    100.23
+   ],
+   [
+    " you",
+    100.23,
+    100.37
+   ],
+   [
+    " taking",
+    100.37,
+    100.55
+   ],
+   [
+    " for",
+    100.55,
+    100.85
+   ],
+   [
+    " those?",
+    100.85,
+    101.13
+   ],
+   [
+    " lisinopril",
+    102.13,
+    102.79
+   ],
+   [
+    " 20",
+    102.79,
+    103.23
+   ],
+   [
+    " milligrams",
+    103.23,
+    103.79
+   ],
+   [
+    " in",
+    103.79,
+    103.99
+   ],
+   [
+    " the",
+    103.99,
+    104.11
+   ],
+   [
+    " morning",
+    104.11,
+    104.47
+   ],
+   [
+    " and",
+    104.47,
+    105.19
+   ],
+   [
+    " he",
+    105.19,
+    105.33
+   ],
+   [
+    " started",
+    105.33,
+    105.69
+   ],
+   [
+    " me",
+    105.69,
+    106.03
+   ],
+   [
+    " on",
+    106.03,
+    106.25
+   ],
+   [
+    " adorvastatin",
+    106.25,
+    107.31
+   ],
+   [
+    " 40",
+    107.31,
+    108.11
+   ],
+   [
+    " milligrams",
+    108.11,
+    108.73
+   ],
+   [
+    " at",
+    108.73,
+    108.91
+   ],
+   [
+    " night",
+    108.91,
+    109.23
+   ],
+   [
+    " about",
+    109.23,
+    109.85
+   ],
+   [
+    " a",
+    109.85,
+    110.05
+   ],
+   [
+    " year",
+    110.05,
+    110.23
+   ],
+   [
+    " ago",
+    110.23,
+    110.65
+   ],
+   [
+    " any",
+    110.65,
+    111.49
+   ],
+   [
+    " allergies",
+    111.49,
+    111.99
+   ],
+   [
+    " to",
+    111.99,
+    112.21
+   ],
+   [
+    " medications",
+    112.21,
+    112.85
+   ],
+   [
+    " penicillin",
+    112.85,
+    113.99
+   ],
+   [
+    " I",
+    113.99,
+    114.53
+   ],
+   [
+    " got",
+    114.53,
+    114.69
+   ],
+   [
+    " hives",
+    114.69,
+    115.09
+   ],
+   [
+    " from",
+    115.09,
+    115.35
+   ],
+   [
+    " it",
+    115.35,
+    115.47
+   ],
+   [
+    " as",
+    115.47,
+    115.59
+   ],
+   [
+    " a",
+    115.59,
+    115.71
+   ],
+   [
+    " kid",
+    115.71,
+    116.21
+   ],
+   [
+    " do",
+    116.21,
+    116.97
+   ],
+   [
+    " you",
+    116.97,
+    117.09
+   ],
+   [
+    " smoke",
+    117.09,
+    117.43
+   ],
+   [
+    " I",
+    117.53,
+    118.41
+   ],
+   [
+    " quit",
+    118.41,
+    118.65
+   ],
+   [
+    " 10",
+    118.65,
+    118.91
+   ],
+   [
+    " years",
+    118.91,
+    119.23
+   ],
+   [
+    " ago",
+    119.23,
+    119.57
+   ],
+   [
+    " before",
+    119.57,
+    120.33
+   ],
+   [
+    " that",
+    120.33,
+    120.65
+   ],
+   [
+    " I",
+    120.65,
+    121.03
+   ],
+   [
+    " smoked",
+    121.03,
+    121.37
+   ],
+   [
+    " about",
+    121.37,
+    121.63
+   ],
+   [
+    " a",
+    121.63,
+    121.79
+   ],
+   [
+    " pack",
+    121.79,
+    122.03
+   ],
+   [
+    " a",
+    122.03,
+    122.15
+   ],
+   [
+    " day",
+    122.15,
+    122.33
+   ],
+   [
+    " for",
+    122.33,
+    122.57
+   ],
+   [
+    " 25",
+    122.57,
+    123.13
+   ],
+   [
+    " years",
+    123.13,
+    123.73
+   ],
+   [
+    " good",
+    123.73,
+    124.59
+   ],
+   [
+    " for",
+    124.59,
+    124.79
+   ],
+   [
+    " you",
+    124.79,
+    124.91
+   ],
+   [
+    " on",
+    124.91,
+    125.09
+   ],
+   [
+    " quitting",
+    125.09,
+    125.43
+   ],
+   [
+    " that's",
+    125.43,
+    125.95
+   ],
+   [
+    " a",
+    125.95,
+    126.01
+   ],
+   [
+    " big",
+    126.01,
+    126.17
+   ],
+   [
+    " deal",
+    126.17,
+    126.49
+   ],
+   [
+    " Any",
+    126.49,
+    126.99
+   ],
+   [
+    " diabetes?",
+    126.99,
+    127.53
+   ],
+   [
+    " No,",
+    128.84,
+    128.84
+   ],
+   [
+    " my",
+    129.02,
+    129.16
+   ],
+   [
+    " sugar's",
+    129.16,
+    129.64
+   ],
+   [
+    " always",
+    129.64,
+    129.88
+   ],
+   [
+    " been",
+    129.88,
+    130.12
+   ],
+   [
+    " fine.",
+    130.12,
+    130.5
+   ],
+   [
+    " And",
+    131.26,
+    131.36
+   ],
+   [
+    " what",
+    131.36,
+    131.5
+   ],
+   [
+    " do",
+    131.5,
+    131.64
+   ],
+   [
+    " you",
+    131.64,
+    131.7
+   ],
+   [
+    " do",
+    131.7,
+    131.84
+   ],
+   [
+    " for",
+    131.84,
+    132.0
+   ],
+   [
+    " work?",
+    132.0,
+    132.26
+   ],
+   [
+    " I'm",
+    133.04,
+    133.3
+   ],
+   [
+    " a",
+    133.3,
+    133.38
+   ],
+   [
+    " dispatcher",
+    133.38,
+    133.76
+   ],
+   [
+    " at",
+    133.76,
+    134.12
+   ],
+   [
+    " Hollister",
+    134.12,
+    134.56
+   ],
+   [
+    " Freight,",
+    134.56,
+    135.04
+   ],
+   [
+    " mostly",
+    135.56,
+    135.82
+   ],
+   [
+    " sitting,",
+    135.82,
+    136.28
+   ],
+   [
+    " honestly.",
+    136.42,
+    136.92
+   ],
+   [
+    " Okay,",
+    137.82,
+    138.16
+   ],
+   [
+    " your",
+    138.44,
+    138.56
+   ],
+   [
+    " blood",
+    138.56,
+    138.76
+   ],
+   [
+    " pressure",
+    138.76,
+    139.12
+   ],
+   [
+    " today",
+    139.12,
+    139.44
+   ],
+   [
+    " is",
+    139.44,
+    139.66
+   ],
+   [
+    " 142",
+    139.66,
+    140.38
+   ],
+   [
+    " over",
+    140.38,
+    140.96
+   ],
+   [
+    " 86,",
+    140.96,
+    141.44
+   ],
+   [
+    " pulse",
+    142.02,
+    142.2
+   ],
+   [
+    " 74,",
+    142.2,
+    142.86
+   ],
+   [
+    " and",
+    143.26,
+    143.38
+   ],
+   [
+    " your",
+    143.38,
+    143.5
+   ],
+   [
+    " oxygen",
+    143.5,
+    143.92
+   ],
+   [
+    " is",
+    143.92,
+    144.22
+   ],
+   [
+    " 98%.",
+    144.22,
+    145.54
+   ],
+   [
+    " Weight",
+    145.54,
+    146.08
+   ],
+   [
+    " is",
+    146.08,
+    146.32
+   ],
+   [
+    " 214",
+    146.32,
+    147.14
+   ],
+   [
+    " pounds.",
+    147.14,
+    147.66
+   ],
+   [
+    " Let",
+    148.44,
+    148.5
+   ],
+   [
+    " me",
+    148.5,
+    148.64
+   ],
+   [
+    " take",
+    148.64,
+    148.8
+   ],
+   [
+    " a",
+    148.8,
+    148.94
+   ],
+   [
+    " listen.",
+    148.94,
+    149.2
+   ],
+   [
+    " Heart",
+    150.0,
+    150.08
+   ],
+   [
+    " has",
+    150.08,
+    150.3
+   ],
+   [
+    " a",
+    150.3,
+    150.44
+   ],
+   [
+    " regular",
+    150.44,
+    150.68
+   ],
+   [
+    " rhythm,",
+    150.68,
+    151.1
+   ],
+   [
+    " no",
+    151.3,
+    151.44
+   ],
+   [
+    " murmurs.",
+    151.44,
+    151.88
+   ],
+   [
+    " Lungs",
+    151.88,
+    152.88
+   ],
+   [
+    " are",
+    152.88,
+    153.0
+   ],
+   [
+    " clear.",
+    153.0,
+    153.38
+   ],
+   [
+    " No",
+    153.88,
+    154.0
+   ],
+   [
+    " swelling",
+    154.0,
+    154.42
+   ],
+   [
+    " in",
+    154.42,
+    154.62
+   ],
+   [
+    " your",
+    154.62,
+    154.74
+   ],
+   [
+    " legs,",
+    154.74,
+    155.02
+   ],
+   [
+    " and",
+    155.24,
+    155.32
+   ],
+   [
+    " the",
+    155.32,
+    155.42
+   ],
+   [
+    " pulses",
+    155.42,
+    155.7
+   ],
+   [
+    " in",
+    155.7,
+    156.0
+   ],
+   [
+    " your",
+    156.0,
+    156.12
+   ],
+   [
+    " feet",
+    156.12,
+    156.3
+   ],
+   [
+    " are",
+    156.3,
+    156.48
+   ],
+   [
+    " good.",
+    156.48,
+    156.76
+   ],
+   [
+    " That's",
+    157.74,
+    157.94
+   ],
+   [
+    " good,",
+    157.94,
+    158.08
+   ],
+   [
+    " I",
+    158.16,
+    158.32
+   ],
+   [
+    " guess.",
+    158.32,
+    158.58
+   ],
+   [
+    " We",
+    159.3,
+    159.38
+   ],
+   [
+    " did",
+    159.38,
+    159.54
+   ],
+   [
+    " an",
+    159.54,
+    159.72
+   ],
+   [
+    " ECG",
+    159.72,
+    160.32
+   ],
+   [
+    " when",
+    160.32,
+    160.56
+   ],
+   [
+    " you",
+    160.56,
+    160.7
+   ],
+   [
+    " came",
+    160.7,
+    160.92
+   ],
+   [
+    " in.",
+    160.92,
+    161.3
+   ],
+   [
+    " It",
+    161.7,
+    161.86
+   ],
+   [
+    " shows",
+    161.86,
+    162.14
+   ],
+   [
+    " normal",
+    162.14,
+    162.58
+   ],
+   [
+    " sinus",
+    162.58,
+    163.12
+   ],
+   [
+    " rhythm",
+    163.12,
+    163.4
+   ],
+   [
+    " at",
+    163.4,
+    163.62
+   ],
+   [
+    " 72,",
+    163.62,
+    164.08
+   ],
+   [
+    " and",
+    164.7,
+    164.9
+   ],
+   [
+    " I",
+    164.9,
+    165.02
+   ],
+   [
+    " don't",
+    165.02,
+    165.16
+   ],
+   [
+    " see",
+    165.16,
+    165.38
+   ],
+   [
+    " any",
+    165.38,
+    165.6
+   ],
+   [
+    " signs",
+    165.6,
+    165.96
+   ],
+   [
+    " of",
+    165.96,
+    166.18
+   ],
+   [
+    " an",
+    166.18,
+    166.26
+   ],
+   [
+    " old",
+    166.26,
+    166.5
+   ],
+   [
+    " heart",
+    166.5,
+    166.76
+   ],
+   [
+    " attack",
+    166.76,
+    167.14
+   ],
+   [
+    " or",
+    167.14,
+    167.52
+   ],
+   [
+    " any",
+    167.52,
+    167.72
+   ],
+   [
+    " acute",
+    167.72,
+    168.02
+   ],
+   [
+    " changes.",
+    168.02,
+    168.58
+   ],
+   [
+    " That's",
+    169.26,
+    169.6
+   ],
+   [
+    " reassuring,",
+    169.6,
+    170.1
+   ],
+   [
+    " but",
+    170.6,
+    170.8
+   ],
+   [
+    " a",
+    170.8,
+    170.9
+   ],
+   [
+    " resting",
+    170.9,
+    171.24
+   ],
+   [
+    " ECG",
+    171.24,
+    171.98
+   ],
+   [
+    " is",
+    171.98,
+    172.22
+   ],
+   [
+    " often",
+    172.22,
+    172.6
+   ],
+   [
+    " normal",
+    172.6,
+    173.0
+   ],
+   [
+    " even",
+    173.0,
+    173.38
+   ],
+   [
+    " when",
+    173.38,
+    173.6
+   ],
+   [
+    " there's",
+    173.6,
+    173.82
+   ],
+   [
+    " a",
+    173.82,
+    173.92
+   ],
+   [
+    " blockage,",
+    173.92,
+    174.17
+   ],
+   [
+    " because",
+    174.78,
+    175.06
+   ],
+   [
+    " the",
+    175.06,
+    175.24
+   ],
+   [
+    " problem",
+    175.24,
+    175.6
+   ],
+   [
+    " only",
+    175.6,
+    175.94
+   ],
+   [
+    " shows",
+    175.94,
+    176.28
+   ],
+   [
+    " up",
+    176.28,
+    176.56
+   ],
+   [
+    " when",
+    176.56,
+    176.76
+   ],
+   [
+    " the",
+    176.76,
+    176.86
+   ],
+   [
+    " heart",
+    176.86,
+    177.08
+   ],
+   [
+    " is",
+    177.08,
+    177.28
+   ],
+   [
+    " working",
+    177.28,
+    177.6
+   ],
+   [
+    " hard.",
+    177.6,
+    177.98
+   ],
+   [
+    " So",
+    178.6,
+    178.84
+   ],
+   [
+    " what",
+    178.84,
+    179.02
+   ],
+   [
+    " does",
+    179.02,
+    179.18
+   ],
+   [
+    " that",
+    179.18,
+    179.4
+   ],
+   [
+    " mean",
+    179.4,
+    179.62
+   ],
+   [
+    " then?",
+    179.62,
+    179.96
+   ],
+   [
+    " What",
+    179.96,
+    180.94
+   ],
+   [
+    " you're",
+    180.98,
+    181.16
+   ],
+   [
+    " describing,",
+    181.16,
+    181.7
+   ],
+   [
+    " pressure",
+    182.3,
+    182.5
+   ],
+   [
+    " with",
+    182.5,
+    182.74
+   ],
+   [
+    " exertion",
+    182.74,
+    183.34
+   ],
+   [
+    " that",
+    183.34,
+    183.46
+   ],
+   [
+    " goes",
+    183.46,
+    183.64
+   ],
+   [
+    " away",
+    183.64,
+    183.9
+   ],
+   [
+    " with",
+    183.9,
+    184.1
+   ],
+   [
+    " rest,",
+    184.1,
+    184.46
+   ],
+   [
+    " is",
+    184.8,
+    185.02
+   ],
+   [
+    " pretty",
+    185.02,
+    185.28
+   ],
+   [
+    " classic",
+    185.28,
+    185.68
+   ],
+   [
+    " for",
+    185.68,
+    185.96
+   ],
+   [
+    " stable",
+    185.96,
+    186.32
+   ],
+   [
+    " angina.",
+    186.32,
+    186.96
+   ],
+   [
+    " That",
+    187.76,
+    187.86
+   ],
+   [
+    " means",
+    187.86,
+    188.12
+   ],
+   [
+    " the",
+    188.12,
+    188.34
+   ],
+   [
+    " heart",
+    188.34,
+    188.56
+   ],
+   [
+    " muscle",
+    188.56,
+    188.94
+   ],
+   [
+    " isn't",
+    188.94,
+    189.26
+   ],
+   [
+    " getting",
+    189.26,
+    189.48
+   ],
+   [
+    " enough",
+    189.48,
+    189.76
+   ],
+   [
+    " blood",
+    189.76,
+    190.1
+   ],
+   [
+    " when",
+    190.1,
+    190.32
+   ],
+   [
+    " it",
+    190.32,
+    190.44
+   ],
+   [
+    " works",
+    190.44,
+    190.64
+   ],
+   [
+    " harder,",
+    190.64,
+    191.08
+   ],
+   [
+    " usually",
+    191.58,
+    191.76
+   ],
+   [
+    " from",
+    191.76,
+    192.18
+   ],
+   [
+    " narrowing",
+    192.18,
+    192.58
+   ],
+   [
+    " in",
+    192.58,
+    192.82
+   ],
+   [
+    " the",
+    192.82,
+    192.92
+   ],
+   [
+    " heart",
+    192.92,
+    193.14
+   ],
+   [
+    " arteries.",
+    193.14,
+    193.62
+   ],
+   [
+    " With",
+    194.28,
+    194.42
+   ],
+   [
+    " your",
+    194.42,
+    194.56
+   ],
+   [
+    " smoking",
+    194.56,
+    194.96
+   ],
+   [
+    " history,",
+    194.96,
+    195.54
+   ],
+   [
+    " blood",
+    196.0,
+    196.16
+   ],
+   [
+    " pressure",
+    196.16,
+    196.58
+   ],
+   [
+    " and",
+    196.58,
+    196.82
+   ],
+   [
+    " cholesterol,",
+    196.82,
+    197.34
+   ],
+   [
+    " that's",
+    197.86,
+    198.18
+   ],
+   [
+    " my",
+    198.18,
+    198.34
+   ],
+   [
+    " main",
+    198.34,
+    198.6
+   ],
+   [
+    " concern.",
+    198.6,
+    199.1
+   ],
+   [
+    " Okay,",
+    199.68,
+    200.1
+   ],
+   [
+    " that's",
+    200.24,
+    200.52
+   ],
+   [
+    " kind",
+    200.52,
+    200.66
+   ],
+   [
+    " of",
+    200.66,
+    200.82
+   ],
+   [
+    " scary.",
+    200.82,
+    201.06
+   ],
+   [
+    " I",
+    202.08,
+    202.28
+   ],
+   [
+    " understand.",
+    202.28,
+    202.8
+   ],
+   [
+    " The",
+    203.46,
+    203.66
+   ],
+   [
+    " good",
+    203.66,
+    203.82
+   ],
+   [
+    " news",
+    203.82,
+    204.08
+   ],
+   [
+    " is",
+    204.08,
+    204.3
+   ],
+   [
+    " it's",
+    204.3,
+    204.54
+   ],
+   [
+    " stable,",
+    204.54,
+    204.82
+   ],
+   [
+    " and",
+    205.12,
+    205.36
+   ],
+   [
+    " we",
+    205.36,
+    205.46
+   ],
+   [
+    " have",
+    205.46,
+    205.62
+   ],
+   [
+    " a",
+    205.62,
+    205.74
+   ],
+   [
+    " clear",
+    205.74,
+    205.94
+   ],
+   [
+    " plan.",
+    205.94,
+    206.34
+   ],
+   [
+    " First,",
+    206.84,
+    207.32
+   ],
+   [
+    " I'd",
+    207.6,
+    207.78
+   ],
+   [
+    " like",
+    207.78,
+    207.88
+   ],
+   [
+    " you",
+    207.88,
+    208.06
+   ],
+   [
+    " to",
+    208.06,
+    208.14
+   ],
+   [
+    " have",
+    208.14,
+    208.3
+   ],
+   [
+    " a",
+    208.3,
+    208.46
+   ],
+   [
+    " nuclear",
+    208.46,
+    208.72
+   ],
+   [
+    " stress",
+    208.72,
+    209.16
+   ],
+   [
+    " test",
+    209.16,
+    209.66
+   ],
+   [
+    " where",
+    209.66,
+    210.08
+   ],
+   [
+    " you",
+    210.08,
+    210.22
+   ],
+   [
+    " walk",
+    210.22,
+    210.44
+   ],
+   [
+    " on",
+    210.44,
+    210.6
+   ],
+   [
+    " a",
+    210.6,
+    210.72
+   ],
+   [
+    " treadmill",
+    210.72,
+    211.08
+   ],
+   [
+    " while",
+    211.08,
+    211.36
+   ],
+   [
+    " we",
+    211.36,
+    211.52
+   ],
+   [
+    " take",
+    211.52,
+    211.7
+   ],
+   [
+    " pictures",
+    211.7,
+    212.18
+   ],
+   [
+    " of",
+    212.18,
+    212.4
+   ],
+   [
+    " the",
+    212.4,
+    212.52
+   ],
+   [
+    " blood",
+    212.52,
+    212.74
+   ],
+   [
+    " flow",
+    212.74,
+    213.12
+   ],
+   [
+    " to",
+    213.12,
+    213.32
+   ],
+   [
+    " your",
+    213.32,
+    213.44
+   ],
+   [
+    " heart.",
+    213.44,
+    213.78
+   ],
+   [
+    " We'll",
+    214.32,
+    214.6
+   ],
+   [
+    " also",
+    214.6,
+    214.88
+   ],
+   [
+    " check",
+    214.88,
+    215.14
+   ],
+   [
+    " a",
+    215.14,
+    215.3
+   ],
+   [
+    " fasting",
+    215.3,
+    215.74
+   ],
+   [
+    " lipid",
+    215.74,
+    216.0
+   ],
+   [
+    " panel",
+    216.0,
+    216.46
+   ],
+   [
+    " and",
+    216.46,
+    216.82
+   ],
+   [
+    " a",
+    216.82,
+    216.96
+   ],
+   [
+    " basic",
+    216.96,
+    217.3
+   ],
+   [
+    " metabolic",
+    217.3,
+    217.76
+   ],
+   [
+    " panel.",
+    217.76,
+    218.34
+   ],
+   [
+    " Sure,",
+    219.0,
+    219.22
+   ],
+   [
+    " that's",
+    219.34,
+    219.56
+   ],
+   [
+    " fine.",
+    219.56,
+    219.86
+   ],
+   [
+    " In",
+    220.79,
+    221.03
+   ],
+   [
+    " the",
+    221.03,
+    221.13
+   ],
+   [
+    " meantime,",
+    221.13,
+    221.51
+   ],
+   [
+    " I",
+    221.89,
+    222.09
+   ],
+   [
+    " want",
+    222.09,
+    222.23
+   ],
+   [
+    " you",
+    222.23,
+    222.37
+   ],
+   [
+    " to",
+    222.37,
+    222.51
+   ],
+   [
+    " start",
+    222.51,
+    222.71
+   ],
+   [
+    " aspirin,",
+    222.71,
+    223.17
+   ],
+   [
+    " 81",
+    223.67,
+    224.03
+   ],
+   [
+    " milligrams",
+    224.03,
+    224.57
+   ],
+   [
+    " once",
+    224.57,
+    224.81
+   ],
+   [
+    " a",
+    224.81,
+    224.97
+   ],
+   [
+    " day.",
+    224.97,
+    225.15
+   ],
+   [
+    " I'm",
+    225.79,
+    226.07
+   ],
+   [
+    " also",
+    226.07,
+    226.39
+   ],
+   [
+    " starting",
+    226.39,
+    226.79
+   ],
+   [
+    " Metaprolol",
+    226.79,
+    227.43
+   ],
+   [
+    " 6",
+    227.43,
+    227.63
+   ],
+   [
+    " and",
+    227.63,
+    227.81
+   ],
+   [
+    " 8,",
+    227.81,
+    228.05
+   ],
+   [
+    " 25",
+    228.45,
+    228.91
+   ],
+   [
+    " milligrams",
+    228.91,
+    229.43
+   ],
+   [
+    " once",
+    229.43,
+    229.67
+   ],
+   [
+    " a",
+    229.67,
+    229.81
+   ],
+   [
+    " day,",
+    229.81,
+    230.03
+   ],
+   [
+    " which",
+    230.27,
+    230.53
+   ],
+   [
+    " slows",
+    230.53,
+    230.83
+   ],
+   [
+    " the",
+    230.83,
+    231.05
+   ],
+   [
+    " heart",
+    231.05,
+    231.23
+   ],
+   [
+    " down",
+    231.23,
+    231.57
+   ],
+   [
+    " so",
+    231.57,
+    231.79
+   ],
+   [
+    " it",
+    231.79,
+    231.91
+   ],
+   [
+    " doesn't",
+    231.91,
+    232.15
+   ],
+   [
+    " work",
+    232.15,
+    232.33
+   ],
+   [
+    " as",
+    232.33,
+    232.51
+   ],
+   [
+    " hard.",
+    232.51,
+    232.85
+   ],
+   [
+    " And",
+    232.85,
+    233.63
+   ],
+   [
+    " I'm",
+    233.63,
+    233.85
+   ],
+   [
+    " giving",
+    233.85,
+    233.99
+   ],
+   [
+    " you",
+    233.99,
+    234.25
+   ],
+   [
+    " nitroglycerin,",
+    234.25,
+    235.27
+   ],
+   [
+    " 0",
+    235.75,
+    235.99
+   ],
+   [
+    ".4",
+    235.99,
+    236.61
+   ],
+   [
+    " milligrams,",
+    236.61,
+    237.15
+   ],
+   [
+    " one",
+    237.55,
+    237.79
+   ],
+   [
+    " tablet",
+    237.79,
+    238.19
+   ],
+   [
+    " under",
+    238.19,
+    238.37
+   ],
+   [
+    " the",
+    238.37,
+    238.53
+   ],
+   [
+    " tongue",
+    238.53,
+    238.81
+   ],
+   [
+    " if",
+    238.81,
+    239.05
+   ],
+   [
+    " the",
+    239.05,
+    239.19
+   ],
+   [
+    " pressure",
+    239.19,
+    239.43
+   ],
+   [
+    " comes",
+    239.43,
+    239.75
+   ],
+   [
+    " on",
+    239.75,
+    240.11
+   ],
+   [
+    " and",
+    240.11,
+    240.59
+   ],
+   [
+    " doesn't",
+    240.59,
+    240.83
+   ],
+   [
+    " go",
+    240.83,
+    240.99
+   ],
+   [
+    " away",
+    240.99,
+    241.27
+   ],
+   [
+    " with",
+    241.27,
+    241.45
+   ],
+   [
+    " rest.",
+    241.45,
+    241.77
+   ],
+   [
+    " You",
+    242.43,
+    242.61
+   ],
+   [
+    " can",
+    242.61,
+    242.73
+   ],
+   [
+    " repeat",
+    242.73,
+    243.05
+   ],
+   [
+    " it",
+    243.05,
+    243.19
+   ],
+   [
+    " every",
+    243.19,
+    243.41
+   ],
+   [
+    " five",
+    243.41,
+    243.73
+   ],
+   [
+    " minutes",
+    243.73,
+    244.05
+   ],
+   [
+    " up",
+    244.05,
+    244.33
+   ],
+   [
+    " to",
+    244.33,
+    244.51
+   ],
+   [
+    " three",
+    244.51,
+    244.73
+   ],
+   [
+    " tablets.",
+    244.73,
+    245.27
+   ],
+   [
+    " Got",
+    245.91,
+    246.23
+   ],
+   [
+    " it.",
+    246.23,
+    246.53
+   ],
+   [
+    " I'm",
+    246.87,
+    247.27
+   ],
+   [
+    " also",
+    247.27,
+    247.55
+   ],
+   [
+    " going",
+    247.55,
+    247.83
+   ],
+   [
+    " to",
+    247.83,
+    248.03
+   ],
+   [
+    " increase",
+    248.03,
+    248.41
+   ],
+   [
+    " your",
+    248.41,
+    248.63
+   ],
+   [
+    " adorvastatin",
+    248.63,
+    249.47
+   ],
+   [
+    " from",
+    249.47,
+    249.95
+   ],
+   [
+    " 40",
+    249.95,
+    250.43
+   ],
+   [
+    " to",
+    250.43,
+    250.85
+   ],
+   [
+    " 80",
+    250.85,
+    251.21
+   ],
+   [
+    " milligrams",
+    251.21,
+    251.77
+   ],
+   [
+    " at",
+    251.77,
+    252.01
+   ],
+   [
+    " night.",
+    252.01,
+    252.33
+   ],
+   [
+    " Keep",
+    252.91,
+    253.13
+   ],
+   [
+    " the",
+    253.13,
+    253.31
+   ],
+   [
+    " lisinopril",
+    253.31,
+    253.93
+   ],
+   [
+    " the",
+    253.93,
+    254.11
+   ],
+   [
+    " same.",
+    254.11,
+    254.45
+   ],
+   [
+    " Okay.",
+    255.01,
+    255.43
+   ],
+   [
+    " Now",
+    256.15,
+    256.49
+   ],
+   [
+    " this",
+    256.49,
+    256.75
+   ],
+   [
+    " part",
+    256.75,
+    257.01
+   ],
+   [
+    " is",
+    257.01,
+    257.21
+   ],
+   [
+    " important.",
+    257.21,
+    257.67
+   ],
+   [
+    " If",
+    257.67,
+    258.15
+   ],
+   [
+    " you",
+    258.15,
+    258.53
+   ],
+   [
+    " get",
+    258.53,
+    258.71
+   ],
+   [
+    " chest",
+    258.71,
+    259.01
+   ],
+   [
+    " pain",
+    259.01,
+    259.37
+   ],
+   [
+    " at",
+    259.37,
+    259.53
+   ],
+   [
+    " rest,",
+    259.53,
+    259.89
+   ],
+   [
+    " or",
+    260.31,
+    260.35
+   ],
+   [
+    " pain",
+    260.35,
+    260.67
+   ],
+   [
+    " that",
+    260.67,
+    260.95
+   ],
+   [
+    " lasts",
+    260.95,
+    261.29
+   ],
+   [
+    " more",
+    261.29,
+    261.55
+   ],
+   [
+    " than",
+    261.55,
+    261.75
+   ],
+   [
+    " 15",
+    261.75,
+    262.07
+   ],
+   [
+    " minutes,",
+    262.07,
+    262.47
+   ],
+   [
+    " or",
+    262.99,
+    263.07
+   ],
+   [
+    " it",
+    263.07,
+    263.21
+   ],
+   [
+    " doesn't",
+    263.21,
+    263.45
+   ],
+   [
+    " go",
+    263.45,
+    263.61
+   ],
+   [
+    " away",
+    263.61,
+    263.95
+   ],
+   [
+    " after",
+    263.95,
+    264.27
+   ],
+   [
+    " 1",
+    264.27,
+    264.57
+   ],
+   [
+    " nitroglycerin,",
+    264.57,
+    265.61
+   ],
+   [
+    " call",
+    265.95,
+    266.11
+   ],
+   [
+    " 911.",
+    266.11,
+    266.83
+   ],
+   [
+    " Don't",
+    267.99,
+    268.35
+   ],
+   [
+    " drive",
+    268.35,
+    268.61
+   ],
+   [
+    " yourself.",
+    268.61,
+    269.15
+   ],
+   [
+    " Understood.",
+    270.3,
+    270.74
+   ],
+   [
+    " And",
+    271.58,
+    271.66
+   ],
+   [
+    " hold",
+    271.66,
+    271.88
+   ],
+   [
+    " off",
+    271.88,
+    272.14
+   ],
+   [
+    " on",
+    272.14,
+    272.38
+   ],
+   [
+    " heavy",
+    272.38,
+    272.56
+   ],
+   [
+    " lifting,",
+    272.56,
+    273.06
+   ],
+   [
+    " and",
+    273.44,
+    273.56
+   ],
+   [
+    " that",
+    273.56,
+    273.74
+   ],
+   [
+    " hill,",
+    273.74,
+    274.06
+   ],
+   [
+    " until",
+    274.48,
+    274.72
+   ],
+   [
+    " we",
+    274.72,
+    274.86
+   ],
+   [
+    " have",
+    274.86,
+    275.04
+   ],
+   [
+    " the",
+    275.04,
+    275.28
+   ],
+   [
+    " stress",
+    275.28,
+    275.5
+   ],
+   [
+    " test",
+    275.5,
+    275.88
+   ],
+   [
+    " results.",
+    275.88,
+    276.36
+   ],
+   [
+    " What's",
+    277.16,
+    277.36
+   ],
+   [
+    " the",
+    277.36,
+    277.48
+   ],
+   [
+    " best",
+    277.48,
+    277.68
+   ],
+   [
+    " number",
+    277.68,
+    277.92
+   ],
+   [
+    " to",
+    277.92,
+    278.14
+   ],
+   [
+    " reach",
+    278.14,
+    278.32
+   ],
+   [
+    " you",
+    278.32,
+    278.52
+   ],
+   [
+    " for",
+    278.52,
+    278.68
+   ],
+   [
+    " scheduling?",
+    278.68,
+    279.1
+   ],
+   [
+    " Mycel",
+    279.76,
+    280.2
+   ],
+   [
+    " 555",
+    280.2,
+    280.92
+   ],
+   [
+    "-0163.",
+    280.92,
+    282.86
+   ],
+   [
+    " Great.",
+    283.62,
+    284.1
+   ],
+   [
+    " We'll",
+    284.66,
+    284.86
+   ],
+   [
+    " get",
+    284.86,
+    284.98
+   ],
+   [
+    " the",
+    284.98,
+    285.14
+   ],
+   [
+    " stress",
+    285.14,
+    285.38
+   ],
+   [
+    " test",
+    285.38,
+    285.68
+   ],
+   [
+    " done",
+    285.68,
+    285.96
+   ],
+   [
+    " within",
+    285.96,
+    286.18
+   ],
+   [
+    " the",
+    286.18,
+    286.34
+   ],
+   [
+    " next",
+    286.34,
+    286.54
+   ],
+   [
+    " two",
+    286.54,
+    286.84
+   ],
+   [
+    " weeks,",
+    286.84,
+    287.18
+   ],
+   [
+    " and",
+    287.38,
+    287.7
+   ],
+   [
+    " I'll",
+    287.7,
+    287.86
+   ],
+   [
+    " see",
+    287.86,
+    288.06
+   ],
+   [
+    " you",
+    288.06,
+    288.24
+   ],
+   [
+    " back",
+    288.24,
+    288.5
+   ],
+   [
+    " right",
+    288.5,
+    288.8
+   ],
+   [
+    " after",
+    288.8,
+    289.12
+   ],
+   [
+    " to",
+    289.12,
+    289.34
+   ],
+   [
+    " go",
+    289.34,
+    289.48
+   ],
+   [
+    " over",
+    289.48,
+    289.72
+   ],
+   [
+    " the",
+    289.72,
+    289.86
+   ],
+   [
+    " results.",
+    289.86,
+    290.16
+   ],
+   [
+    " Thanks,",
+    291.08,
+    291.28
+   ],
+   [
+    " doctor.",
+    291.46,
+    291.56
+   ],
+   [
+    " I",
+    292.06,
+    292.2
+   ],
+   [
+    " appreciate",
+    292.2,
+    292.54
+   ],
+   [
+    " it.",
+    292.54,
+    293.08
+   ]
+  ],
+  "drug_names_corrected": 3
+ }
+}

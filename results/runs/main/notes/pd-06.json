@@ -1,0 +1,700 @@
+{
+ "note": {
+  "visit_id": "pd-06",
+  "statements": [
+   {
+    "id": "s1",
+    "section": "subjective",
+    "text": "Right ankle injury after rolling during basketball practice on Saturday morning.",
+    "evidence": [
+     {
+      "turn": 5,
+      "quote": "I rolled it at basketball on Sunday. Wait, no, Saturday, it was Saturday morning practice.",
+      "verified": true,
+      "score": 1.0
+     }
+    ],
+    "support": "supported",
+    "flags": [],
+    "origin": "model",
+    "edited": false
+   },
+   {
+    "id": "s2",
+    "section": "subjective",
+    "text": "Pain level 6/10 when walking, 2/10 at rest.",
+    "evidence": [
+     {
+      "turn": 11,
+      "quote": "Like a 6 when I walk on it. Maybe a 2 when I'm just sitting.",
+      "verified": true,
+      "score": 1.0
+     }
+    ],
+    "support": "supported",
+    "flags": [],
+    "origin": "model",
+    "edited": false
+   },
+   {
+    "id": "s3",
+    "section": "subjective",
+    "text": "No numbness or tingling in foot.",
+    "evidence": [
+     {
+      "turn": 12,
+      "quote": "Any numbness or tingling in your foot?",
+      "verified": true,
+      "score": 1.0
+     },
+     {
+      "turn": 13,
+      "quote": "Nope.",
+      "verified": true,
+      "score": 1.0
+     }
+    ],
+    "support": "supported",
+    "flags": [],
+    "origin": "model",
+    "edited": false
+   },
+   {
+    "id": "s4",
+    "section": "subjective",
+    "text": "No pain in knee or higher up leg.",
+    "evidence": [
+     {
+      "turn": 14,
+      "quote": "Any pain in your knee or higher up the leg?",
+      "verified": true,
+      "score": 1.0
+     },
+     {
+      "turn": 15,
+      "quote": "No, just the ankle.",
+      "verified": true,
+      "score": 1.0
+     }
+    ],
+    "support": "supported",
+    "flags": [],
+    "origin": "model",
+    "edited": false
+   },
+   {
+    "id": "s5",
+    "section": "subjective",
+    "text": "History of left ankle sprain in 8th grade, healed with no problems since.",
+    "evidence": [
+     {
+      "turn": 19,
+      "quote": "Not this one. I sprained my left one in 8th grade, but it healed fine, no problems since.",
+      "verified": true,
+      "score": 1.0
+     }
+    ],
+    "support": "supported",
+    "flags": [],
+    "origin": "model",
+    "edited": false
+   },
+   {
+    "id": "s6",
+    "section": "subjective",
+    "text": "Taking cetirizine 10 mg in spring for allergies, not currently taking.",
+    "evidence": [
+     {
+      "turn": 21,
+      "quote": "Just cetirizine, 10 milligrams, in the spring for my allergies, I'm not on it right now.",
+      "verified": true,
+      "score": 1.0
+     }
+    ],
+    "support": "supported",
+    "flags": [],
+    "origin": "model",
+    "edited": false
+   },
+   {
+    "id": "s7",
+    "section": "subjective",
+    "text": "Allergic to Bactrim, rash all over.",
+    "evidence": [
+     {
+      "turn": 21,
+      "quote": "And I'm allergic to Bactrim, I got a rash all over from it.",
+      "verified": true,
+      "score": 1.0
+     }
+    ],
+    "support": "supported",
+    "flags": [],
+    "origin": "model",
+    "edited": false
+   },
+   {
+    "id": "s8",
+    "section": "subjective",
+    "text": "Used ice and ibuprofen 400 mg twice daily for pain relief.",
+    "evidence": [
+     {
+      "turn": 17,
+      "quote": "Ice, and I took 2 of the 200 milligram ibuprofen, so 400, twice a day. That helps some.",
+      "verified": true,
+      "score": 1.0
+     }
+    ],
+    "support": "supported",
+    "flags": [],
+    "origin": "model",
+    "edited": false
+   },
+   {
+    "id": "o1",
+    "section": "objective",
+    "text": "Blood pressure 118/72, pulse 70.",
+    "evidence": [
+     {
+      "turn": 22,
+      "quote": "Your blood pressure is 118 over 72, pulse 70.",
+      "verified": true,
+      "score": 1.0
+     }
+    ],
+    "support": "supported",
+    "flags": [],
+    "origin": "model",
+    "edited": false
+   },
+   {
+    "id": "o2",
+    "section": "objective",
+    "text": "Right ankle swelling and bruising on outside, tender in front of lateral ankle bone.",
+    "evidence": [
+     {
+      "turn": 22,
+      "quote": "On your right ankle there's swelling and some bruising on the outside, and you're tender right here, in front of the ankle bone on the outside.",
+      "verified": true,
+      "score": 1.0
+     }
+    ],
+    "support": "supported",
+    "flags": [],
+    "origin": "model",
+    "edited": false
+   },
+   {
+    "id": "o3",
+    "section": "objective",
+    "text": "No tenderness on posterior edge or tip of either ankle bone, base of fifth metatarsal, or dorsal midfoot.",
+    "evidence": [
+     {
+      "turn": 24,
+      "quote": "No tenderness on the back edge or tip of either ankle bone, and none at the base of your fifth toe bone or on top of the midfoot.",
+      "verified": true,
+      "score": 1.0
+     }
+    ],
+    "support": "supported",
+    "flags": [],
+    "origin": "model",
+    "edited": false
+   },
+   {
+    "id": "o4",
+    "section": "objective",
+    "text": "Anterior drawer test shows mild laxity with firm endpoint compared to left.",
+    "evidence": [
+     {
+      "turn": 24,
+      "quote": "When I pull your foot forward it's a little loose compared to the left, but there's a firm endpoint.",
+      "verified": true,
+      "score": 1.0
+     }
+    ],
+    "support": "supported",
+    "flags": [],
+    "origin": "model",
+    "edited": false
+   },
+   {
+    "id": "o5",
+    "section": "objective",
+    "text": "Normal pulses and sensation in foot.",
+    "evidence": [
+     {
+      "turn": 24,
+      "quote": "Pulses and feeling in your foot are normal.",
+      "verified": true,
+      "score": 1.0
+     }
+    ],
+    "support": "supported",
+    "flags": [],
+    "origin": "model",
+    "edited": false
+   },
+   {
+    "id": "o6",
+    "section": "objective",
+    "text": "Able to walk more than 4 steps with limp.",
+    "evidence": [
+     {
+      "turn": 25,
+      "quote": "Sure. It's limpy but okay.",
+      "verified": true,
+      "score": 1.0
+     },
+     {
+      "turn": 26,
+      "quote": "You took more than 4 steps on your own, good.",
+      "verified": true,
+      "score": 1.0
+     }
+    ],
+    "support": "supported",
+    "flags": [],
+    "origin": "model",
+    "edited": false
+   },
+   {
+    "id": "a1",
+    "section": "assessment",
+    "text": "Grade 1 to 2 sprain of lateral ligaments of right ankle.",
+    "evidence": [
+     {
+      "turn": 26,
+      "quote": "So this is a sprain of the ligaments on the outside of your right ankle, probably grade 1 to 2.",
+      "verified": true,
+      "score": 1.0
+     }
+    ],
+    "support": "supported",
+    "flags": [],
+    "origin": "model",
+    "edited": false
+   },
+   {
+    "id": "p1",
+    "section": "plan",
+    "text": "Ice right ankle 15-20 minutes every 2-3 hours for next 2 days.",
+    "evidence": [
+     {
+      "turn": 28,
+      "quote": "Ice for 15 to 20 minutes every 2 to 3 hours for the next 2 days",
+      "verified": true,
+      "score": 1.0
+     }
+    ],
+    "support": "supported",
+    "flags": [],
+    "origin": "model",
+    "edited": false
+   },
+   {
+    "id": "p2",
+    "section": "plan",
+    "text": "Elevate ankle on pillow.",
+    "evidence": [
+     {
+      "turn": 28,
+      "quote": "keep it up on a pillow",
+      "verified": true,
+      "score": 1.0
+     }
+    ],
+    "support": "supported",
+    "flags": [],
+    "origin": "model",
+    "edited": false
+   },
+   {
+    "id": "p3",
+    "section": "plan",
+    "text": "Apply compression wrap.",
+    "evidence": [
+     {
+      "turn": 28,
+      "quote": "and wear a compression wrap",
+      "verified": true,
+      "score": 1.0
+     }
+    ],
+    "support": "supported",
+    "flags": [],
+    "origin": "model",
+    "edited": false
+   },
+   {
+    "id": "p4",
+    "section": "plan",
+    "text": "Fit with lace-up ankle brace for wear during practice for next couple months.",
+    "evidence": [
+     {
+      "turn": 28,
+      "quote": "We'll fit you with a lace-up ankle brace, and wear it for practice for the next couple of months.",
+      "verified": true,
+      "score": 1.0
+     }
+    ],
+    "support": "supported",
+    "flags": [],
+    "origin": "model",
+    "edited": false
+   },
+   {
+    "id": "p5",
+    "section": "plan",
+    "text": "Continue ibuprofen 400 mg every 8 hours with food for 5-7 days, then as needed.",
+    "evidence": [
+     {
+      "turn": 30,
+      "quote": "Keep the ibuprofen at 400 milligrams, but every 8 hours with food, for 5 to 7 days, then just as needed.",
+      "verified": true,
+      "score": 1.0
+     }
+    ],
+    "support": "supported",
+    "flags": [],
+    "origin": "model",
+    "edited": false
+   },
+   {
+    "id": "p6",
+    "section": "plan",
+    "text": "Use crutches for 2-3 days if walking painful, but weight bear as tolerated.",
+    "evidence": [
+     {
+      "turn": 30,
+      "quote": "You can use crutches for 2 or 3 days if walking hurts, but put weight on it as much as you can.",
+      "verified": true,
+      "score": 1.0
+     }
+    ],
+    "support": "supported",
+    "flags": [],
+    "origin": "model",
+    "edited": false
+   },
+   {
+    "id": "p7",
+    "section": "plan",
+    "text": "Perform ankle alphabet exercises several times daily.",
+    "evidence": [
+     {
+      "turn": 30,
+      "quote": "And start ankle alphabets, tracing the letters with your toes, a few times a day.",
+      "verified": true,
+      "score": 1.0
+     }
+    ],
+    "support": "supported",
+    "flags": [],
+    "origin": "model",
+    "edited": false
+   },
+   {
+    "id": "p8",
+    "section": "plan",
+    "text": "No basketball for approximately 2 weeks; return to play when able to hop and run without pain.",
+    "evidence": [
+     {
+      "turn": 32,
+      "quote": "No basketball for about 2 weeks. You can go back once you can hop and run on it without pain.",
+      "verified": true,
+      "score": 1.0
+     }
+    ],
+    "support": "supported",
+    "flags": [],
+    "origin": "model",
+    "edited": false
+   },
+   {
+    "id": "p9",
+    "section": "plan",
+    "text": "Provide note for Coach Brennan and gym class at Westfield High School.",
+    "evidence": [
+     {
+      "turn": 32,
+      "quote": "I'll write a note for Coach Brennan and for gym class at Westfield High School.",
+      "verified": true,
+      "score": 1.0
+     }
+    ],
+    "support": "supported",
+    "flags": [],
+    "origin": "model",
+    "edited": false
+   },
+   {
+    "id": "p10",
+    "section": "plan",
+    "text": "Return if unable to bear weight or pain moves to bone for X-ray.",
+    "evidence": [
+     {
+      "turn": 32,
+      "quote": "If you can't put weight on it, or the pain moves onto the bone, call us and we'll get an X-ray.",
+      "verified": true,
+      "score": 1.0
+     }
+    ],
+    "support": "supported",
+    "flags": [],
+    "origin": "model",
+    "edited": false
+   },
+   {
+    "id": "p11",
+    "section": "plan",
+    "text": "Follow up in 2 weeks if not improved for possible physical therapy.",
+    "evidence": [
+     {
+      "turn": 32,
+      "quote": "If it's not much better in 2 weeks, come back and we'll set up physical therapy.",
+      "verified": true,
+      "score": 1.0
+     }
+    ],
+    "support": "supported",
+    "flags": [],
+    "origin": "model",
+    "edited": false
+   }
+  ],
+  "medications": [
+   {
+    "name": "ibuprofen",
+    "dose": "400 mg",
+    "frequency": "every 8 hours",
+    "route": "oral",
+    "status": "active",
+    "evidence": [
+     {
+      "turn": 30,
+      "quote": "Keep the ibuprofen at 400 milligrams, but every 8 hours with food, for 5 to 7 days, then just as needed.",
+      "verified": true,
+      "score": 1.0
+     }
+    ],
+    "flags": []
+   },
+   {
+    "name": "cetirizine",
+    "dose": "10 mg",
+    "frequency": "as needed",
+    "route": "oral",
+    "status": "active",
+    "evidence": [
+     {
+      "turn": 21,
+      "quote": "Just cetirizine, 10 milligrams, in the spring for my allergies, I'm not on it right now.",
+      "verified": true,
+      "score": 1.0
+     }
+    ],
+    "flags": []
+   }
+  ],
+  "allergies": [
+   {
+    "substance": "Bactrim",
+    "reaction": "rash all over",
+    "evidence": [
+     {
+      "turn": 21,
+      "quote": "And I'm allergic to Bactrim, I got a rash all over from it.",
+      "verified": true,
+      "score": 1.0
+     }
+    ]
+   }
+  ],
+  "after_visit_summary": "You have a sprain of the ligaments on the outside of your right ankle from basketball. There is swelling and bruising, and it hurts when you walk. We did not need an X-ray based on your exam. To help it heal: ice your ankle for 15-20 minutes every few hours for the next two days, keep it raised on a pillow, and wear a compression wrap. We will give you a lace-up ankle brace to wear during sports for the next couple months. Take ibuprofen 400 mg by mouth every 8 hours with food for 5 to 7 days, then only as needed for pain. You may use crutches for a few days if walking hurts, but try to put weight on it as much as you can. Do ankle alphabet exercises by tracing letters with your toes a few times each day. Do not play basketball for about two weeks. You can return when you can hop and run without pain. If you cannot put weight on it or the pain moves to the bone, call us so we can check if you need an X-ray. If it is not much better in two weeks, come back so we can set up physical therapy. We will send a note to your school and gym class through your portal. Your mom’s cell phone number on file is 555-0192.",
+  "avs_flags": [],
+  "icd10": [
+   {
+    "system": "ICD-10-CM",
+    "code": "S93.412A",
+    "description": "Sprain of calcaneofibular ligament of left ankle, initial encounter",
+    "rank": 1,
+    "rationale": "Grade 1 to 2 sprain of lateral ligaments of right ankle, initial encounter, as assessed by the clinician based on mechanism, exam findings (swelling, bruising, tenderness anterior to lateral malleolus, mild laxity with firm endpoint on anterior drawer test), and ability to bear weight.",
+    "evidence": [
+     {
+      "turn": 26,
+      "quote": "So this is a sprain of the ligaments on the outside of your right ankle, probably grade 1 to 2.",
+      "verified": true,
+      "score": 1.0
+     }
+    ],
+    "valid": true,
+    "billable": true,
+    "flags": [],
+    "accepted": null
+   }
+  ],
+  "em": {
+   "system": "CPT",
+   "code": "99203",
+   "description": "New patient office visit, low-complexity decision making",
+   "rank": 1,
+   "rationale": "New patient visit with straightforward medical decision making: one problem (ankle sprain) managed with conservative treatment, minimal data reviewed (no tests ordered), and low risk (ice, compression, NSAIDs, brace, activity modification).",
+   "evidence": [],
+   "valid": true,
+   "billable": true,
+   "flags": [],
+   "accepted": null
+  },
+  "procedures": [],
+  "mdm": {
+   "problems": "low",
+   "data": "straightforward",
+   "risk": "low",
+   "level": "low",
+   "code": "99203",
+   "reasons": [
+    "problems: one acute uncomplicated problem",
+    "risk: over-the-counter drugs, minor procedure or counseling"
+   ]
+  },
+  "section_status": {
+   "subjective": "draft",
+   "objective": "draft",
+   "assessment": "draft",
+   "plan": "draft"
+  },
+  "model": "openrouter/nvidia/nemotron-3-super-120b-a12b:free",
+  "created_at": "2026-10-13T05:31:34.036621Z",
+  "signed_by": null,
+  "signed_at": null,
+  "timings": {
+   "phi_masking": 0.042,
+   "llm_note": 16.677,
+   "guards_note": 0.12,
+   "llm_codes": 3.27,
+   "guards_codes": 0.09,
+   "total": 20.199
+  },
+  "usage": {
+   "input_tokens": 5287,
+   "output_tokens": 2408,
+   "calls": 2
+  },
+  "phi": {
+   "NAME": 4,
+   "DOB": 1,
+   "DATE": 1,
+   "ORG": 2,
+   "EMAIL": 1,
+   "PHONE": 1
+  }
+ },
+ "vault": {
+  "originals": {
+   "[NAME_1]": "Al-Sayed",
+   "[PATIENT]": "Kenji Watanabe",
+   "[DOB]": "March 9th, 2011",
+   "[NAME_2]": "Yumi",
+   "[NAME_3]": "Diego",
+   "[DATE_1]": "November",
+   "[ORG_1]": "Coach Brennan",
+   "[ORG_2]": "Westfield High School",
+   "[EMAIL_1]": "kenji dot watanabe 11 at example dot com",
+   "[PHONE_1]": "555-0192"
+  },
+  "surfaces": {
+   "[NAME_1]": [
+    "Al-Sayed"
+   ],
+   "[PATIENT]": [
+    "Kenji",
+    "Kenji Watanabe"
+   ],
+   "[DOB]": [
+    "March 9th, 2011"
+   ],
+   "[NAME_2]": [
+    "Yumi"
+   ],
+   "[NAME_3]": [
+    "Diego"
+   ],
+   "[DATE_1]": [
+    "November"
+   ],
+   "[ORG_1]": [
+    "Coach Brennan"
+   ],
+   "[ORG_2]": [
+    "Westfield High School"
+   ],
+   "[EMAIL_1]": [
+    "kenji dot watanabe 11 at example dot com"
+   ],
+   "[PHONE_1]": [
+    "555-0192"
+   ]
+  },
+  "types": {
+   "[NAME_1]": "NAME",
+   "[PATIENT]": "NAME",
+   "[DOB]": "DOB",
+   "[NAME_2]": "NAME",
+   "[NAME_3]": "NAME",
+   "[DATE_1]": "DATE",
+   "[ORG_1]": "ORG",
+   "[ORG_2]": "ORG",
+   "[EMAIL_1]": "EMAIL",
+   "[PHONE_1]": "PHONE"
+  },
+  "counters": {
+   "NAME": 3,
+   "DATE": 1,
+   "ORG": 2,
+   "EMAIL": 1,
+   "PHONE": 1
+  }
+ },
+ "score": {
+  "case": "pd-06",
+  "specialty": "pediatrics",
+  "facts": 26,
+  "found": 24,
+  "found_in_section": 23,
+  "negation_errors": [
+   "f24: No basketball for about 2 weeks; return when able to hop and run without pain; note for coach and gym class (present)"
+  ],
+  "trap_errors": [],
+  "missed": [
+   "f3 [subjective] No pop heard at time of injury",
+   "f24 [plan] No basketball for about 2 weeks; return when able to hop and run without pain; note for coach and gym class"
+  ],
+  "statements": 26,
+  "statements_matching_gold": 25,
+  "unsupported": 0,
+  "partial": 0,
+  "flags": {},
+  "meds": 2,
+  "meds_found": 2,
+  "meds_dose_correct": 2,
+  "icd_primary": "S93.401A",
+  "icd_suggested": [
+   "S93.412A"
+  ],
+  "icd_top1": false,
+  "icd_top3": false,
+  "icd_top3_lenient": false,
+  "icd_top3_category": true,
+  "icd_gold_recall": 0.0,
+  "icd_invalid": 0,
+  "em_gold": "99203",
+  "em_suggested": "99203",
+  "em_exact": true,
+  "em_within_one": true,
+  "em_rule_estimate": "99203",
+  "procedures_gold": 0,
+  "procedures_found": 0
+ },
+ "egress_residue": {}
+}

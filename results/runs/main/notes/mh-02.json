@@ -1,0 +1,730 @@
+{
+ "note": {
+  "visit_id": "mh-02",
+  "statements": [
+   {
+    "id": "s1",
+    "section": "subjective",
+    "text": "Patient reports feeling halfway better since starting escitalopram, not lying awake every night but worrying still present most days.",
+    "evidence": [
+     {
+      "turn": 3,
+      "quote": "Better, I'd say. Maybe halfway better. I'm not lying awake every night anymore, but the worrying is still there most days.",
+      "verified": true,
+      "score": 1.0
+     }
+    ],
+    "support": "supported",
+    "flags": [],
+    "origin": "model",
+    "edited": false
+   },
+   {
+    "id": "s2",
+    "section": "subjective",
+    "text": "Worrying primarily about work reorganization and upcoming baby due November.",
+    "evidence": [
+     {
+      "turn": 5,
+      "quote": "Mostly work. I'm a loan officer at Lakeshore Credit Union and there's a reorganization going on. And my wife Kasia is due in November, so, you know, there's a lot on my mind.",
+      "verified": true,
+      "score": 1.0
+     }
+    ],
+    "support": "supported",
+    "flags": [],
+    "origin": "model",
+    "edited": false
+   },
+   {
+    "id": "s3",
+    "section": "subjective",
+    "text": "Patient reports shoulders tight all the time and snapping at people more than desired.",
+    "evidence": [
+     {
+      "turn": 5,
+      "quote": "My shoulders are tight all the time and I snap at people more than I want to.",
+      "verified": true,
+      "score": 1.0
+     }
+    ],
+    "support": "supported",
+    "flags": [],
+    "origin": "model",
+    "edited": false
+   },
+   {
+    "id": "s4",
+    "section": "subjective",
+    "text": "Sleep onset takes about 45 minutes most nights due to brain not shutting off.",
+    "evidence": [
+     {
+      "turn": 7,
+      "quote": "Still takes me maybe 45 minutes most nights. My brain just won't shut off.",
+      "verified": true,
+      "score": 1.0
+     }
+    ],
+    "support": "supported",
+    "flags": [],
+    "origin": "model",
+    "edited": false
+   },
+   {
+    "id": "s5",
+    "section": "subjective",
+    "text": "No panic attacks since April.",
+    "evidence": [
+     {
+      "turn": 8,
+      "quote": "You were having panic attacks back in the spring. Any since we last met?",
+      "verified": true,
+      "score": 1.0
+     },
+     {
+      "turn": 9,
+      "quote": "No, none since April. That part's actually gone.",
+      "verified": true,
+      "score": 1.0
+     }
+    ],
+    "support": "supported",
+    "flags": [],
+    "origin": "model",
+    "edited": false
+   },
+   {
+    "id": "s6",
+    "section": "subjective",
+    "text": "Patient takes escitalopram 10 milligrams every morning.",
+    "evidence": [
+     {
+      "turn": 10,
+      "quote": "Remind me what dose of escitalopram you're on.",
+      "verified": true,
+      "score": 1.0
+     },
+     {
+      "turn": 11,
+      "quote": "The 5 milligrams. Oh, no, wait, sorry. I went up to 10 after the first two weeks, like you said. So 10 every morning.",
+      "verified": true,
+      "score": 1.0
+     }
+    ],
+    "support": "supported",
+    "flags": [],
+    "origin": "model",
+    "edited": false
+   },
+   {
+    "id": "s7",
+    "section": "subjective",
+    "text": "Patient denies nausea, sexual side effects, or other side effects from escitalopram.",
+    "evidence": [
+     {
+      "turn": 12,
+      "quote": "Any side effects, nausea, sexual side effects, anything like that?",
+      "verified": true,
+      "score": 1.0
+     },
+     {
+      "turn": 13,
+      "quote": "No, nothing really. Stomach was a bit off the first week, then fine.",
+      "verified": true,
+      "score": 1.0
+     }
+    ],
+    "support": "supported",
+    "flags": [],
+    "origin": "model",
+    "edited": false
+   },
+   {
+    "id": "s8",
+    "section": "subjective",
+    "text": "Patient uses hydroxyzine 25 milligrams about twice in the last month for bad moments.",
+    "evidence": [
+     {
+      "turn": 14,
+      "quote": "And the hydroxyzine, the 25 milligrams for bad moments, how often are you using it?",
+      "verified": true,
+      "score": 1.0
+     },
+     {
+      "turn": 15,
+      "quote": "Maybe twice in the last month. It works but it knocks me out.",
+      "verified": true,
+      "score": 1.0
+     }
+    ],
+    "support": "supported",
+    "flags": [],
+    "origin": "model",
+    "edited": false
+   },
+   {
+    "id": "s9",
+    "section": "subjective",
+    "text": "Patient takes magnesium glycinate 200 milligrams at night.",
+    "evidence": [
+     {
+      "turn": 16,
+      "quote": "Anything else you're taking, over the counter or supplements?",
+      "verified": true,
+      "score": 1.0
+     },
+     {
+      "turn": 17,
+      "quote": "Magnesium glycinate, 200 milligrams at night. A friend recommended it.",
+      "verified": true,
+      "score": 1.0
+     }
+    ],
+    "support": "supported",
+    "flags": [],
+    "origin": "model",
+    "edited": false
+   },
+   {
+    "id": "s10",
+    "section": "subjective",
+    "text": "Patient drinks about four cups of coffee daily, up to five on bad days.",
+    "evidence": [
+     {
+      "turn": 18,
+      "quote": "How much coffee are you drinking?",
+      "verified": true,
+      "score": 1.0
+     },
+     {
+      "turn": 19,
+      "quote": "Uh, honestly, four cups a day. Maybe five on bad days.",
+      "verified": true,
+      "score": 1.0
+     }
+    ],
+    "support": "supported",
+    "flags": [],
+    "origin": "model",
+    "edited": false
+   },
+   {
+    "id": "s11",
+    "section": "subjective",
+    "text": "Patient consumes alcohol: a beer on the weekend, that's it.",
+    "evidence": [
+     {
+      "turn": 20,
+      "quote": "Any alcohol?",
+      "verified": true,
+      "score": 1.0
+     },
+     {
+      "turn": 21,
+      "quote": "A beer on the weekend, that's it.",
+      "verified": true,
+      "score": 1.0
+     }
+    ],
+    "support": "supported",
+    "flags": [],
+    "origin": "model",
+    "edited": false
+   },
+   {
+    "id": "s12",
+    "section": "subjective",
+    "text": "Patient denies thoughts of suicide or self-harm.",
+    "evidence": [
+     {
+      "turn": 22,
+      "quote": "I have to ask this every time. Any thoughts of suicide or of harming yourself?",
+      "verified": true,
+      "score": 1.0
+     },
+     {
+      "turn": 23,
+      "quote": "No. None.",
+      "verified": true,
+      "score": 1.0
+     }
+    ],
+    "support": "supported",
+    "flags": [],
+    "origin": "model",
+    "edited": false
+   },
+   {
+    "id": "o1",
+    "section": "objective",
+    "text": "GAD-7 score is 12 (was 16 at start), in moderate range.",
+    "evidence": [
+     {
+      "turn": 24,
+      "quote": "So your GAD-7 today is 12. When you started it was 16, so it's moving in the right direction, but it's still in the moderate range.",
+      "verified": true,
+      "score": 1.0
+     }
+    ],
+    "support": "supported",
+    "flags": [],
+    "origin": "model",
+    "edited": false
+   },
+   {
+    "id": "o2",
+    "section": "objective",
+    "text": "Blood pressure is 128 over 82.",
+    "evidence": [
+     {
+      "turn": 24,
+      "quote": "Your blood pressure is 128 over 82 and your pulse is 84.",
+      "verified": true,
+      "score": 1.0
+     }
+    ],
+    "support": "supported",
+    "flags": [],
+    "origin": "model",
+    "edited": false
+   },
+   {
+    "id": "o3",
+    "section": "objective",
+    "text": "Pulse is 84.",
+    "evidence": [
+     {
+      "turn": 24,
+      "quote": "Your blood pressure is 128 over 82 and your pulse is 84.",
+      "verified": true,
+      "score": 1.0
+     }
+    ],
+    "support": "supported",
+    "flags": [],
+    "origin": "model",
+    "edited": false
+   },
+   {
+    "id": "o4",
+    "section": "objective",
+    "text": "Patient appears tense but talkative, mood anxious, thinking clear.",
+    "evidence": [
+     {
+      "turn": 24,
+      "quote": "You look a little tense but you're talkative, your mood is anxious, your thinking is clear.",
+      "verified": true,
+      "score": 1.0
+     }
+    ],
+    "support": "supported",
+    "flags": [],
+    "origin": "model",
+    "edited": false
+   },
+   {
+    "id": "a1",
+    "section": "assessment",
+    "text": "Generalized anxiety disorder, partly responding to treatment.",
+    "evidence": [
+     {
+      "turn": 26,
+      "quote": "So I think this is generalized anxiety disorder that's partly responding.",
+      "verified": true,
+      "score": 1.0
+     }
+    ],
+    "support": "supported",
+    "flags": [],
+    "origin": "model",
+    "edited": false
+   },
+   {
+    "id": "p1",
+    "section": "plan",
+    "text": "Increase escitalopram to 20 milligrams once daily; take two 10 mg tablets until new prescription filled.",
+    "evidence": [
+     {
+      "turn": 26,
+      "quote": "You're tolerating the escitalopram well, so I'd like to increase it to 20 milligrams once a day. Take two of your 10s until the new prescription is filled.",
+      "verified": true,
+      "score": 1.0
+     }
+    ],
+    "support": "supported",
+    "flags": [],
+    "origin": "model",
+    "edited": false
+   },
+   {
+    "id": "p2",
+    "section": "plan",
+    "text": "Continue hydroxyzine 25 milligrams for rough moments, up to once daily; avoid driving after taking it.",
+    "evidence": [
+     {
+      "turn": 28,
+      "quote": "Keep the hydroxyzine for the rough moments, up to once a day, and don't drive after you take it.",
+      "verified": true,
+      "score": 1.0
+     }
+    ],
+    "support": "supported",
+    "flags": [],
+    "origin": "model",
+    "edited": false
+   },
+   {
+    "id": "p3",
+    "section": "plan",
+    "text": "Continue magnesium glycinate 200 milligrams at night.",
+    "evidence": [
+     {
+      "turn": 28,
+      "quote": "Keep the magnesium.",
+      "verified": true,
+      "score": 1.0
+     }
+    ],
+    "support": "supported",
+    "flags": [],
+    "origin": "model",
+    "edited": false
+   },
+   {
+    "id": "p4",
+    "section": "plan",
+    "text": "Reduce coffee intake to 2 cups daily, none after noon.",
+    "evidence": [
+     {
+      "turn": 28,
+      "quote": "And I'd like you to cut the coffee to 2 cups a day, nothing after noon.",
+      "verified": true,
+      "score": 1.0
+     }
+    ],
+    "support": "supported",
+    "flags": [],
+    "origin": "model",
+    "edited": false
+   },
+   {
+    "id": "p5",
+    "section": "plan",
+    "text": "Continue cognitive behavioral therapy every other week.",
+    "evidence": [
+     {
+      "turn": 30,
+      "quote": "Are you still seeing the therapist for CBT?",
+      "verified": true,
+      "score": 1.0
+     },
+     {
+      "turn": 31,
+      "quote": "Every other week, yeah.",
+      "verified": true,
+      "score": 1.0
+     },
+     {
+      "turn": 32,
+      "quote": "Good, keep that going.",
+      "verified": true,
+      "score": 1.0
+     }
+    ],
+    "support": "supported",
+    "flags": [],
+    "origin": "model",
+    "edited": false
+   },
+   {
+    "id": "p6",
+    "section": "plan",
+    "text": "Provide suicide precaution: call or text 988 if thoughts of self-harm occur.",
+    "evidence": [
+     {
+      "turn": 32,
+      "quote": "And as always, if you ever have thoughts of hurting yourself, call or text 988 right away.",
+      "verified": true,
+      "score": 1.0
+     }
+    ],
+    "support": "supported",
+    "flags": [],
+    "origin": "model",
+    "edited": false
+   },
+   {
+    "id": "p7",
+    "section": "plan",
+    "text": "Follow-up in 6 weeks, around November 4th.",
+    "evidence": [
+     {
+      "turn": 32,
+      "quote": "I'd like to see you back in 6 weeks, so that's around November 4th, before the baby comes.",
+      "verified": true,
+      "score": 1.0
+     }
+    ],
+    "support": "supported",
+    "flags": [],
+    "origin": "model",
+    "edited": false
+   }
+  ],
+  "medications": [
+   {
+    "name": "escitalopram",
+    "dose": "10 mg",
+    "frequency": "once daily",
+    "route": "oral",
+    "status": "active",
+    "evidence": [
+     {
+      "turn": 11,
+      "quote": "The 5 milligrams. Oh, no, wait, sorry. I went up to 10 after the first two weeks, like you said. So 10 every morning.",
+      "verified": true,
+      "score": 1.0
+     }
+    ],
+    "flags": []
+   },
+   {
+    "name": "hydroxyzine",
+    "dose": "25 mg",
+    "frequency": "as needed for bad moments, up to twice last month",
+    "route": "oral",
+    "status": "active",
+    "evidence": [
+     {
+      "turn": 15,
+      "quote": "Maybe twice in the last month. It works but it knocks me out.",
+      "verified": true,
+      "score": 1.0
+     }
+    ],
+    "flags": []
+   },
+   {
+    "name": "magnesium glycinate",
+    "dose": "200 mg",
+    "frequency": "at night",
+    "route": "oral",
+    "status": "active",
+    "evidence": [
+     {
+      "turn": 17,
+      "quote": "Magnesium glycinate, 200 milligrams at night. A friend recommended it.",
+      "verified": true,
+      "score": 1.0
+     }
+    ],
+    "flags": []
+   }
+  ],
+  "allergies": [
+   {
+    "substance": "none reported",
+    "reaction": "none",
+    "evidence": [
+     {
+      "turn": 13,
+      "quote": "No, nothing really. Stomach was a bit off the first week, then fine.",
+      "verified": true,
+      "score": 1.0
+     }
+    ]
+   }
+  ],
+  "after_visit_summary": "You're doing better with your anxiety, but worrying and tension are still present. We're increasing your escitalopram from 10 mg to 20 mg daily to help further. Take two of your 10 mg pills each morning until your new prescription arrives. Keep using hydroxyzine 25 mg only when needed for tough moments, but don't drive after taking it. Continue magnesium glycinate 200 mg at night. Cut coffee to 2 cups per day, none after noon, as it may worsen anxiety. Keep attending therapy every other week. If you ever have thoughts of harming yourself, call or text 988 right away. Return in about 6 weeks, around November 4th, before the baby arrives. We'll update your portal with your new email s tomasz dot nowak at fastmail dot com.",
+  "avs_flags": [],
+  "icd10": [
+   {
+    "system": "ICD-10-CM",
+    "code": "F41.1",
+    "description": "Generalized anxiety disorder",
+    "rank": 1,
+    "rationale": "Generalized anxiety disorder, partly responding to treatment, is the primary condition assessed and managed in this visit.",
+    "evidence": [
+     {
+      "turn": 26,
+      "quote": "So I think this is generalized anxiety disorder that's partly responding.",
+      "verified": true,
+      "score": 1.0
+     }
+    ],
+    "valid": true,
+    "billable": true,
+    "flags": [],
+    "accepted": null
+   }
+  ],
+  "em": {
+   "system": "CPT",
+   "code": "99213",
+   "description": "Established patient office visit, low-complexity decision making",
+   "rank": 1,
+   "rationale": "Established patient with one stable chronic illness (generalized anxiety disorder), low complexity decision making (medication adjustment, counseling), and minimal data reviewed (GAD-7, vitals).",
+   "evidence": [],
+   "valid": true,
+   "billable": true,
+   "flags": [],
+   "accepted": null
+  },
+  "procedures": [
+   {
+    "system": "CPT",
+    "code": "96127",
+    "description": "Brief emotional or behavioral assessment with a standardized instrument (e.g. PHQ-9, GAD-7)",
+    "rank": 1,
+    "rationale": "Brief emotional/behavioral assessment with standardized instrument (GAD-7) performed and scored during the visit.",
+    "evidence": [],
+    "valid": true,
+    "billable": true,
+    "flags": [
+     {
+      "kind": "code_unsupported",
+      "severity": "warning",
+      "message": "No verified quote shows this service was performed today.",
+      "acknowledged": false,
+      "detail": {}
+     }
+    ],
+    "accepted": null
+   }
+  ],
+  "mdm": {
+   "problems": "low",
+   "data": "straightforward",
+   "risk": "moderate",
+   "level": "low",
+   "code": "99213",
+   "reasons": [
+    "problems: one stable chronic illness or two self-limited problems",
+    "risk: prescription drug management"
+   ]
+  },
+  "section_status": {
+   "subjective": "draft",
+   "objective": "draft",
+   "assessment": "draft",
+   "plan": "draft"
+  },
+  "model": "openrouter/nvidia/nemotron-3-super-120b-a12b:free",
+  "created_at": "2026-10-13T05:31:56.467373Z",
+  "signed_by": null,
+  "signed_at": null,
+  "timings": {
+   "phi_masking": 0.057,
+   "llm_note": 0.017,
+   "guards_note": 0.096,
+   "llm_codes": 0.033,
+   "guards_codes": 0.044,
+   "total": 0.248
+  },
+  "usage": {
+   "input_tokens": 4743,
+   "output_tokens": 2492,
+   "calls": 2
+  },
+  "phi": {
+   "NAME": 2,
+   "DOB": 1,
+   "ORG": 1,
+   "DATE": 3,
+   "EMAIL": 1
+  }
+ },
+ "vault": {
+  "originals": {
+   "[PATIENT]": "Tomasz Nowak",
+   "[DOB]": "November 30th, 1985",
+   "[ORG_1]": "Lakeshore Credit Union",
+   "[NAME_1]": "Kasia",
+   "[DATE_1]": "November",
+   "[DATE_2]": "April",
+   "[DATE_3]": "November 4th",
+   "[EMAIL_1]": "s tomasz dot nowak at fastmail dot com"
+  },
+  "surfaces": {
+   "[PATIENT]": [
+    "Tomasz",
+    "Tomasz Nowak"
+   ],
+   "[DOB]": [
+    "November 30th, 1985"
+   ],
+   "[ORG_1]": [
+    "Lakeshore Credit Union"
+   ],
+   "[NAME_1]": [
+    "Kasia"
+   ],
+   "[DATE_1]": [
+    "November"
+   ],
+   "[DATE_2]": [
+    "April"
+   ],
+   "[DATE_3]": [
+    "November 4th"
+   ],
+   "[EMAIL_1]": [
+    "s tomasz dot nowak at fastmail dot com"
+   ]
+  },
+  "types": {
+   "[PATIENT]": "NAME",
+   "[DOB]": "DOB",
+   "[ORG_1]": "ORG",
+   "[NAME_1]": "NAME",
+   "[DATE_1]": "DATE",
+   "[DATE_2]": "DATE",
+   "[DATE_3]": "DATE",
+   "[EMAIL_1]": "EMAIL"
+  },
+  "counters": {
+   "ORG": 1,
+   "NAME": 1,
+   "DATE": 3,
+   "EMAIL": 1
+  }
+ },
+ "score": {
+  "case": "mh-02",
+  "specialty": "mental_health",
+  "facts": 24,
+  "found": 23,
+  "found_in_section": 23,
+  "negation_errors": [],
+  "trap_errors": [],
+  "missed": [
+   "f17 [assessment] Tolerating escitalopram well"
+  ],
+  "statements": 24,
+  "statements_matching_gold": 23,
+  "unsupported": 0,
+  "partial": 0,
+  "flags": {},
+  "meds": 3,
+  "meds_found": 3,
+  "meds_dose_correct": 2,
+  "icd_primary": "F41.1",
+  "icd_suggested": [
+   "F41.1"
+  ],
+  "icd_top1": true,
+  "icd_top3": true,
+  "icd_top3_lenient": true,
+  "icd_top3_category": true,
+  "icd_gold_recall": 1.0,
+  "icd_invalid": 0,
+  "em_gold": "99214",
+  "em_suggested": "99213",
+  "em_exact": false,
+  "em_within_one": true,
+  "em_rule_estimate": "99213",
+  "procedures_gold": 1,
+  "procedures_found": 1
+ },
+ "egress_residue": {}
+}

@@ -37,7 +37,9 @@ def test_parse_note_shapes() -> None:
     assert statements[0].evidence[0].turn == 4
     assert meds[0].evidence[0].turn == 7 and meds[0].status == "active"
     assert [a.substance for a in allergies] == ["penicillin"] and avs == "Take care."
-    icd, em, procs = parse_codes({"icd10": ["I10", {"code": "R51.9"}], "em": "99214", "procedures": [{"code": "93000"}]})
+    icd, em, procs = parse_codes(
+        {"icd10": ["I10", {"code": "R51.9"}], "em": "99214", "procedures": [{"code": "93000"}]}
+    )
     assert [c["code"] for c in icd] == ["I10", "R51.9"] and em == {"code": "99214"} and procs[0]["code"] == "93000"
 
 
@@ -68,7 +70,9 @@ class Echo:
 
     def complete(self, messages: Sequence[Message], *, max_tokens: int, temperature: float = 0.0) -> Completion:
         if "medical coder" in messages[0]["content"]:
-            return Completion(text=json.dumps({"icd10": [{"code": "I10"}], "em": {"code": "99213"}, "procedures": []}), model="echo")
+            return Completion(
+                text=json.dumps({"icd10": [{"code": "I10"}], "em": {"code": "99213"}, "procedures": []}), model="echo"
+            )
         body = {
             "subjective": [{"text": "[PATIENT] reports headaches for 2 weeks", "evidence": [{"turn": 1, "quote": "headaches for about two weeks"}]}],
             "objective": [], "assessment": [{"text": "Hypertension"}], "plan": [{"text": "Call [NAME_7] tomorrow"}],
@@ -117,7 +121,9 @@ def test_egress_residue_is_masked_and_counted(case_by_id: dict[str, Case], codes
     assert result.note.phi.get("NAME", 0) >= 1
 
 
-def test_block_when_the_egress_check_cannot_be_satisfied(case_by_id: dict[str, Case], codeset: CodeSet, monkeypatch: pytest.MonkeyPatch) -> None:
+def test_block_when_the_egress_check_cannot_be_satisfied(
+    case_by_id: dict[str, Case], codeset: CodeSet, monkeypatch: pytest.MonkeyPatch
+) -> None:
     from notewell.phi import egress
 
     case = case_by_id["pc-01"]

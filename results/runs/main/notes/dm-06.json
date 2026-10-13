@@ -1,0 +1,676 @@
+{
+ "note": {
+  "visit_id": "dm-06",
+  "statements": [
+   {
+    "id": "s1",
+    "section": "subjective",
+    "text": "Rough spots on top of head for a few months, described as feeling like sandpaper, catching on comb, and bleeding slightly when scratched.",
+    "evidence": [
+     {
+      "turn": 7,
+      "quote": "These rough spots on top of my head. My wife Elena says they look like sandpaper. They catch on the comb and bleed a little when I scratch them. Been a few months.",
+      "verified": true,
+      "score": 1.0
+     }
+    ],
+    "support": "supported",
+    "flags": [
+     {
+      "kind": "negation",
+      "severity": "error",
+      "message": "The transcript says the opposite: 'bleeding' (turns 10).",
+      "acknowledged": false,
+      "detail": {
+       "concept": "bleeding_lesion",
+       "turns": [
+        10
+       ]
+      }
+     }
+    ],
+    "origin": "model",
+    "edited": false
+   },
+   {
+    "id": "s2",
+    "section": "subjective",
+    "text": "Denies pain in the scalp spots.",
+    "evidence": [
+     {
+      "turn": 8,
+      "quote": "Do any of them hurt?",
+      "verified": true,
+      "score": 1.0
+     },
+     {
+      "turn": 9,
+      "quote": "No, they don't hurt.",
+      "verified": true,
+      "score": 1.0
+     }
+    ],
+    "support": "supported",
+    "flags": [],
+    "origin": "model",
+    "edited": false
+   },
+   {
+    "id": "s3",
+    "section": "subjective",
+    "text": "Denies any spot growing fast or bleeding on its own.",
+    "evidence": [
+     {
+      "turn": 10,
+      "quote": "Any spot that's growing fast or bleeding on its own?",
+      "verified": true,
+      "score": 1.0
+     },
+     {
+      "turn": 11,
+      "quote": "No, nothing like that.",
+      "verified": true,
+      "score": 1.0
+     }
+    ],
+    "support": "supported",
+    "flags": [],
+    "origin": "model",
+    "edited": false
+   },
+   {
+    "id": "s4",
+    "section": "subjective",
+    "text": "Wears a seed cap with mesh in the back when out in the field; does not use sunscreen.",
+    "evidence": [
+     {
+      "turn": 12,
+      "quote": "Do you wear a hat out in the field?",
+      "verified": true,
+      "score": 1.0
+     },
+     {
+      "turn": 13,
+      "quote": "A seed cap, the kind with the mesh in the back. Sunscreen, no, I never bother with it.",
+      "verified": true,
+      "score": 1.0
+     }
+    ],
+    "support": "supported",
+    "flags": [],
+    "origin": "model",
+    "edited": false
+   },
+   {
+    "id": "s5",
+    "section": "subjective",
+    "text": "Taking atorvastatin 20 milligrams at night and baby aspirin 81 milligrams every morning; no allergies.",
+    "evidence": [
+     {
+      "turn": 15,
+      "quote": "Same as always. Atorvastatin 20 milligrams at night and a baby aspirin, the 81, every morning. No allergies.",
+      "verified": true,
+      "score": 1.0
+     }
+    ],
+    "support": "supported",
+    "flags": [],
+    "origin": "model",
+    "edited": false
+   },
+   {
+    "id": "s6",
+    "section": "subjective",
+    "text": "Reports the spot on left cheek where basal cell was removed in 2021 is fine.",
+    "evidence": [
+     {
+      "turn": 16,
+      "quote": "Oh, and how's the spot on your left cheek where we took off the basal cell back in 2021?",
+      "verified": true,
+      "score": 1.0
+     },
+     {
+      "turn": 17,
+      "quote": "Fine, I don't even think about it.",
+      "verified": true,
+      "score": 1.0
+     }
+    ],
+    "support": "supported",
+    "flags": [],
+    "origin": "model",
+    "edited": false
+   },
+   {
+    "id": "o1",
+    "section": "objective",
+    "text": "Scalp has 6 rough, gritty, pink scaly spots, 3 to 8 millimeters, on top and front; none are thick, tender, or growing like a bump.",
+    "evidence": [
+     {
+      "turn": 18,
+      "quote": "Your scalp has a lot of background sun damage. I count 6 rough, gritty, pink scaly spots, 3 to 8 millimeters, on the top and front of the scalp. None of them are thick, tender, or growing like a bump, so nothing that worries me for a skin cancer today.",
+      "verified": true,
+      "score": 1.0
+     }
+    ],
+    "support": "supported",
+    "flags": [],
+    "origin": "model",
+    "edited": false
+   },
+   {
+    "id": "o2",
+    "section": "objective",
+    "text": "Scar on left cheek is well healed with no signs of recurrence.",
+    "evidence": [
+     {
+      "turn": 18,
+      "quote": "The scar on your left cheek is well healed and I don't see anything coming back there.",
+      "verified": true,
+      "score": 1.0
+     }
+    ],
+    "support": "supported",
+    "flags": [],
+    "origin": "model",
+    "edited": false
+   },
+   {
+    "id": "o3",
+    "section": "objective",
+    "text": "Back has several brown, waxy, stuck-on spots, about 1 centimeter each, consistent with seborrheic keratoses.",
+    "evidence": [
+     {
+      "turn": 20,
+      "quote": "You have several brown, waxy, stuck-on spots on your back, about 1 centimeter each. Those are seborrheic keratoses.",
+      "verified": true,
+      "score": 1.0
+     }
+    ],
+    "support": "supported",
+    "flags": [],
+    "origin": "model",
+    "edited": false
+   },
+   {
+    "id": "a1",
+    "section": "assessment",
+    "text": "Actinic keratoses of the scalp, 6 lesions.",
+    "evidence": [
+     {
+      "turn": 22,
+      "quote": "So the spots on your scalp are actinic keratoses. They're precancers from years of sun.",
+      "verified": true,
+      "score": 1.0
+     }
+    ],
+    "support": "supported",
+    "flags": [],
+    "origin": "model",
+    "edited": false
+   },
+   {
+    "id": "a2",
+    "section": "assessment",
+    "text": "Seborrheic keratoses of the back, multiple lesions.",
+    "evidence": [
+     {
+      "turn": 20,
+      "quote": "Those are seborrheic keratoses. They're harmless, no treatment needed.",
+      "verified": true,
+      "score": 1.0
+     }
+    ],
+    "support": "supported",
+    "flags": [],
+    "origin": "model",
+    "edited": false
+   },
+   {
+    "id": "a3",
+    "section": "assessment",
+    "text": "History of basal cell carcinoma of left cheek, excised in 2021, with well-healed scar and no recurrence.",
+    "evidence": [
+     {
+      "turn": 16,
+      "quote": "Oh, and how's the spot on your left cheek where we took off the basal cell back in 2021?",
+      "verified": true,
+      "score": 1.0
+     },
+     {
+      "turn": 17,
+      "quote": "Fine, I don't even think about it.",
+      "verified": true,
+      "score": 1.0
+     },
+     {
+      "turn": 18,
+      "quote": "The scar on your left cheek is well healed and I don't see anything coming back there.",
+      "verified": true,
+      "score": 1.0
+     }
+    ],
+    "support": "supported",
+    "flags": [],
+    "origin": "model",
+    "edited": false
+   },
+   {
+    "id": "p1",
+    "section": "plan",
+    "text": "Liquid nitrogen cryotherapy applied to all 6 actinic keratoses on the scalp.",
+    "evidence": [
+     {
+      "turn": 22,
+      "quote": "I'd like to freeze all 6 today with liquid nitrogen.",
+      "verified": true,
+      "score": 1.0
+     },
+     {
+      "turn": 24,
+      "quote": "First one. Second. Third, fourth, fifth, and six. That's all 6 done.",
+      "verified": true,
+      "score": 1.0
+     }
+    ],
+    "support": "supported",
+    "flags": [],
+    "origin": "model",
+    "edited": false
+   },
+   {
+    "id": "p2",
+    "section": "plan",
+    "text": "Instructed to apply petroleum jelly to treated spots as needed.",
+    "evidence": [
+     {
+      "turn": 26,
+      "quote": "You can put a little petroleum jelly on them.",
+      "verified": true,
+      "score": 1.0
+     }
+    ],
+    "support": "supported",
+    "flags": [],
+    "origin": "model",
+    "edited": false
+   },
+   {
+    "id": "p3",
+    "section": "plan",
+    "text": "Advised to return if any spot does not heal in 6 weeks or starts growing, for possible biopsy.",
+    "evidence": [
+     {
+      "turn": 26,
+      "quote": "If any spot hasn't healed in 6 weeks, or starts growing, come back and we'll biopsy it.",
+      "verified": true,
+      "score": 1.0
+     }
+    ],
+    "support": "supported",
+    "flags": [],
+    "origin": "model",
+    "edited": false
+   },
+   {
+    "id": "p4",
+    "section": "plan",
+    "text": "Counseled to use broad-spectrum sunscreen SPF 30 or higher on scalp, face, ears, and backs of hands every morning; reapply every 2 hours when out in the field.",
+    "evidence": [
+     {
+      "turn": 28,
+      "quote": "Every morning, a broad-spectrum sunscreen, SPF 30 or higher, on your scalp, face, ears, and the backs of your hands. Reapply every 2 hours when you're out in the field.",
+      "verified": true,
+      "score": 1.0
+     }
+    ],
+    "support": "supported",
+    "flags": [],
+    "origin": "model",
+    "edited": false
+   },
+   {
+    "id": "p5",
+    "section": "plan",
+    "text": "Advised to trade seed cap for wide-brimmed hat covering ears and neck; use long sleeves for sun protection.",
+    "evidence": [
+     {
+      "turn": 28,
+      "quote": "And trade the seed cap for a wide-brimmed hat that covers your ears and neck. Long sleeves help too.",
+      "verified": true,
+      "score": 1.0
+     }
+    ],
+    "support": "supported",
+    "flags": [],
+    "origin": "model",
+    "edited": false
+   },
+   {
+    "id": "p6",
+    "section": "plan",
+    "text": "Planned follow-up in 6 months for full skin check due to history of skin cancer.",
+    "evidence": [
+     {
+      "turn": 30,
+      "quote": "I'd like to see you in 6 months for a full skin check, since you've had a skin cancer before.",
+      "verified": true,
+      "score": 1.0
+     }
+    ],
+    "support": "supported",
+    "flags": [],
+    "origin": "model",
+    "edited": false
+   }
+  ],
+  "medications": [
+   {
+    "name": "atorvastatin",
+    "dose": "20 mg",
+    "frequency": "at night",
+    "route": "oral",
+    "status": "active",
+    "evidence": [
+     {
+      "turn": 15,
+      "quote": "Atorvastatin 20 milligrams at night and a baby aspirin, the 81, every morning.",
+      "verified": true,
+      "score": 1.0
+     }
+    ],
+    "flags": []
+   },
+   {
+    "name": "aspirin",
+    "dose": "81 mg",
+    "frequency": "every morning",
+    "route": "oral",
+    "status": "active",
+    "evidence": [
+     {
+      "turn": 15,
+      "quote": "Atorvastatin 20 milligrams at night and a baby aspirin, the 81, every morning.",
+      "verified": true,
+      "score": 1.0
+     }
+    ],
+    "flags": []
+   }
+  ],
+  "allergies": [],
+  "after_visit_summary": "Today we found rough, scaly spots on your scalp that are actinic keratoses, which are precancerous spots from sun exposure. We also saw harmless, waxy spots on your back called seborrheic keratoses. The spot on your left cheek where a skin cancer was removed in 2021 looks healed and fine. We treated the 6 spots on your scalp with liquid nitrogen freezing. Over the next few days, they may get red, blister, or crust, and should peel off in 1 to 3 weeks. You can use petroleum jelly on them if they feel uncomfortable. If any spot does not heal in 6 weeks or starts to grow, come back so we can check it further. To prevent more spots, use a broad-spectrum sunscreen with SPF 30 or higher every morning on your scalp, face, ears, and hands. Reapply every 2 hours when you are outside. Wear a wide-brimmed hat that covers your ears and neck instead of your seed cap, and consider long sleeves for added protection. We want to see you back in 6 months for a full skin check because of your history of skin cancer. Put this follow-up visit on your calendar after harvest.",
+  "avs_flags": [],
+  "icd10": [
+   {
+    "system": "ICD-10-CM",
+    "code": "L57.0",
+    "description": "Actinic keratosis",
+    "rank": 1,
+    "rationale": "Actinic keratosis of the scalp, 6 lesions, assessed and treated in this visit.",
+    "evidence": [
+     {
+      "turn": 22,
+      "quote": "So the spots on your scalp are actinic keratoses. They're precancers from years of sun.",
+      "verified": true,
+      "score": 1.0
+     },
+     {
+      "turn": 24,
+      "quote": "First one. Second. Third, fourth, fifth, and six. That's all 6 done.",
+      "verified": true,
+      "score": 1.0
+     }
+    ],
+    "valid": true,
+    "billable": true,
+    "flags": [],
+    "accepted": null
+   },
+   {
+    "system": "ICD-10-CM",
+    "code": "L82.1",
+    "description": "Other seborrheic keratosis",
+    "rank": 2,
+    "rationale": "Seborrheic keratoses of the back, multiple lesions, assessed but not treated.",
+    "evidence": [
+     {
+      "turn": 20,
+      "quote": "You have several brown, waxy, stuck-on spots on your back, about 1 centimeter each. Those are seborrheic keratoses.",
+      "verified": true,
+      "score": 1.0
+     }
+    ],
+    "valid": true,
+    "billable": true,
+    "flags": [],
+    "accepted": null
+   },
+   {
+    "system": "ICD-10-CM",
+    "code": "Z85.828",
+    "description": "Personal history of other malignant neoplasm of skin",
+    "rank": 3,
+    "rationale": "Personal history of malignant neoplasm of skin, basal cell carcinoma of left cheek excised in 2021, relevant for follow-up planning.",
+    "evidence": [
+     {
+      "turn": 16,
+      "quote": "how's the spot on your left cheek where we took off the basal cell back in 2021?",
+      "verified": true,
+      "score": 1.0
+     },
+     {
+      "turn": 17,
+      "quote": "Fine, I don't even think about it.",
+      "verified": true,
+      "score": 1.0
+     },
+     {
+      "turn": 30,
+      "quote": "I'd like to see you in 6 months for a full skin check, since you've had a skin cancer before.",
+      "verified": true,
+      "score": 1.0
+     }
+    ],
+    "valid": true,
+    "billable": true,
+    "flags": [],
+    "accepted": null
+   }
+  ],
+  "em": {
+   "system": "CPT",
+   "code": "99214",
+   "description": "Established patient office visit, moderate-complexity decision making",
+   "rank": 1,
+   "rationale": "Established patient with 3 chronic conditions (actinic keratoses, seborrheic keratoses, history of basal cell carcinoma), moderate complexity; data reviewed includes limited exam and history; risk moderate due to prescription management (atorvastatin, aspirin) and procedure (cryotherapy).",
+   "evidence": [],
+   "valid": true,
+   "billable": true,
+   "flags": [
+    {
+     "kind": "em_mismatch",
+     "severity": "warning",
+     "message": "The rule-based MDM estimate is low (99213): problems: one stable chronic illness or two self-limited problems; risk: prescription drug management",
+     "acknowledged": false,
+     "detail": {
+      "estimate": "99213"
+     }
+    }
+   ],
+   "accepted": null
+  },
+  "procedures": [
+   {
+    "system": "CPT",
+    "code": "17000",
+    "description": "Destruction of a premalignant lesion (e.g. actinic keratosis), first lesion",
+    "rank": 1,
+    "rationale": "Destruction of premalignant lesion (actinic keratosis), first lesion, via liquid nitrogen cryotherapy.",
+    "evidence": [
+     {
+      "turn": 24,
+      "quote": "First one. Second. Third, fourth, fifth, and six. That's all 6 done.",
+      "verified": true,
+      "score": 1.0
+     }
+    ],
+    "valid": true,
+    "billable": true,
+    "flags": [],
+    "accepted": null
+   },
+   {
+    "system": "CPT",
+    "code": "17003",
+    "description": "Destruction of premalignant lesions, each additional lesion 2 to 14",
+    "rank": 2,
+    "rationale": "Destruction of premalignant lesions, each additional lesion 2 to 14, for 5 additional actinic keratoses treated.",
+    "evidence": [
+     {
+      "turn": 24,
+      "quote": "First one. Second. Third, fourth, fifth, and six. That's all 6 done.",
+      "verified": true,
+      "score": 1.0
+     }
+    ],
+    "valid": true,
+    "billable": true,
+    "flags": [],
+    "accepted": null
+   }
+  ],
+  "mdm": {
+   "problems": "low",
+   "data": "straightforward",
+   "risk": "moderate",
+   "level": "low",
+   "code": "99213",
+   "reasons": [
+    "problems: one stable chronic illness or two self-limited problems",
+    "risk: prescription drug management"
+   ]
+  },
+  "section_status": {
+   "subjective": "draft",
+   "objective": "draft",
+   "assessment": "draft",
+   "plan": "draft"
+  },
+  "model": "openrouter/nvidia/nemotron-3-super-120b-a12b:free",
+  "created_at": "2026-10-13T05:29:27.155177Z",
+  "signed_by": null,
+  "signed_at": null,
+  "timings": {
+   "phi_masking": 0.027,
+   "llm_note": 16.11,
+   "guards_note": 0.054,
+   "llm_codes": 11.51,
+   "guards_codes": 0.04,
+   "total": 27.741
+  },
+  "usage": {
+   "input_tokens": 4838,
+   "output_tokens": 2647,
+   "calls": 2
+  },
+  "phi": {
+   "NAME": 4,
+   "DOB": 1,
+   "ADDRESS": 1,
+   "PHONE": 1
+  }
+ },
+ "vault": {
+  "originals": {
+   "[PATIENT]": "Bogdan Petrescu",
+   "[DOB]": "March 11th, 1952",
+   "[ADDRESS_1]": "8817 County Road 12",
+   "[NAME_1]": "Seward",
+   "[PHONE_1]": "555-0156",
+   "[NAME_2]": "Elena",
+   "[NAME_3]": "Roy"
+  },
+  "surfaces": {
+   "[PATIENT]": [
+    "Bogdan Petrescu",
+    "Petrescu"
+   ],
+   "[DOB]": [
+    "March 11th, 1952"
+   ],
+   "[ADDRESS_1]": [
+    "8817 County Road 12"
+   ],
+   "[NAME_1]": [
+    "Seward"
+   ],
+   "[PHONE_1]": [
+    "555-0156"
+   ],
+   "[NAME_2]": [
+    "Elena"
+   ],
+   "[NAME_3]": [
+    "Roy"
+   ]
+  },
+  "types": {
+   "[PATIENT]": "NAME",
+   "[DOB]": "DOB",
+   "[ADDRESS_1]": "ADDRESS",
+   "[NAME_1]": "NAME",
+   "[PHONE_1]": "PHONE",
+   "[NAME_2]": "NAME",
+   "[NAME_3]": "NAME"
+  },
+  "counters": {
+   "ADDRESS": 1,
+   "NAME": 3,
+   "PHONE": 1
+  }
+ },
+ "score": {
+  "case": "dm-06",
+  "specialty": "dermatology",
+  "facts": 24,
+  "found": 22,
+  "found_in_section": 21,
+  "negation_errors": [],
+  "trap_errors": [],
+  "missed": [
+   "f10 [objective] Background chronic sun damage of the scalp",
+   "f24 [plan] Address updated to 8817 County Road 12, Seward, Nebraska"
+  ],
+  "statements": 18,
+  "statements_matching_gold": 18,
+  "unsupported": 0,
+  "partial": 0,
+  "flags": {
+   "negation": 1
+  },
+  "meds": 3,
+  "meds_found": 2,
+  "meds_dose_correct": 2,
+  "icd_primary": "L57.0",
+  "icd_suggested": [
+   "L57.0",
+   "L82.1",
+   "Z85.828"
+  ],
+  "icd_top1": true,
+  "icd_top3": true,
+  "icd_top3_lenient": true,
+  "icd_top3_category": true,
+  "icd_gold_recall": 1.0,
+  "icd_invalid": 0,
+  "em_gold": "99213",
+  "em_suggested": "99214",
+  "em_exact": false,
+  "em_within_one": true,
+  "em_rule_estimate": "99213",
+  "procedures_gold": 2,
+  "procedures_found": 2
+ },
+ "egress_residue": {}
+}

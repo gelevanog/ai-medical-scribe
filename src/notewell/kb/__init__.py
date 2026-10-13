@@ -41,8 +41,8 @@ def drugs() -> dict[str, Drug]:
             routes=tuple(row.get("routes") or ()),
             dose=(float(row["dose"][0]), float(row["dose"][1])),
             max_daily=float(row["max_daily"]),
-            peds_mg_kg_day=tuple(row["peds_mg_kg_day"]) if row.get("peds_mg_kg_day") else None,  # type: ignore[arg-type]
-            peds_mg_kg_dose=tuple(row["peds_mg_kg_dose"]) if row.get("peds_mg_kg_dose") else None,  # type: ignore[arg-type]
+            peds_mg_kg_day=tuple(row["peds_mg_kg_day"]) if row.get("peds_mg_kg_day") else None,
+            peds_mg_kg_dose=tuple(row["peds_mg_kg_dose"]) if row.get("peds_mg_kg_dose") else None,
             peds_max_mg_kg_day=row.get("peds_max_mg_kg_day"),
         )
         out[drug.name] = drug

@@ -139,7 +139,7 @@ def estimate(
     ranks = sorted(_level_index(x) for x in (problems, data, risk))
     level = LEVELS[ranks[1]]  # two of three elements must meet or exceed the level
     table = NEW if visit_type == "new" else ESTABLISHED
-    return MDMEstimate(problems=problems, data=data, risk=risk, level=level, code=table[level], reasons=reasons)  # type: ignore[arg-type]
+    return MDMEstimate(problems=problems, data=data, risk=risk, level=level, code=table[level], reasons=reasons)
 
 
 def code_level(code: str) -> str | None:

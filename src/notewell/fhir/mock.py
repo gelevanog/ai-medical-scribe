@@ -112,7 +112,7 @@ def router(server: MockFHIRServer) -> APIRouter:
                 "kind": "instance",
                 "format": ["json"],
                 "software": {"name": "Notewell mock FHIR server"},
-            },  # fmt: skip
+            },
             media_type=FHIR_JSON,
         )
 

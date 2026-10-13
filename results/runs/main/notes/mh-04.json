@@ -1,0 +1,711 @@
+{
+ "note": {
+  "visit_id": "mh-04",
+  "statements": [
+   {
+    "id": "s1",
+    "section": "subjective",
+    "text": "Mood steady, most days rated 5 or 6 on mood chart app, no big lows or highs.",
+    "evidence": [
+     {
+      "turn": 5,
+      "quote": "Honestly, really steady. On my mood chart app most days are a 5 or a 6. No big lows, no highs.",
+      "verified": true,
+      "score": 1.0
+     }
+    ],
+    "support": "supported",
+    "flags": [],
+    "origin": "model",
+    "edited": false
+   },
+   {
+    "id": "s2",
+    "section": "subjective",
+    "text": "No periods of feeling revved up, needing less sleep, or spending more than usual.",
+    "evidence": [
+     {
+      "turn": 6,
+      "quote": "No stretches of feeling revved up, needing less sleep, spending more than usual?",
+      "verified": true,
+      "score": 1.0
+     },
+     {
+      "turn": 7,
+      "quote": "No. The last time that happened was two years ago, before we found the right dose.",
+      "verified": true,
+      "score": 1.0
+     }
+    ],
+    "support": "supported",
+    "flags": [],
+    "origin": "model",
+    "edited": false
+   },
+   {
+    "id": "s3",
+    "section": "subjective",
+    "text": "No low periods, loss of interest, or staying in bed since last winter, which was mild.",
+    "evidence": [
+     {
+      "turn": 8,
+      "quote": "And any low periods, losing interest in things, staying in bed?",
+      "verified": true,
+      "score": 1.0
+     },
+     {
+      "turn": 9,
+      "quote": "No, not since last winter, and that was mild.",
+      "verified": true,
+      "score": 1.0
+     }
+    ],
+    "support": "supported",
+    "flags": [],
+    "origin": "model",
+    "edited": false
+   },
+   {
+    "id": "s4",
+    "section": "subjective",
+    "text": "Sleeping about 7 hours regularly with consistent bedtime.",
+    "evidence": [
+     {
+      "turn": 10,
+      "quote": "How are you sleeping?",
+      "verified": true,
+      "score": 1.0
+     },
+     {
+      "turn": 11,
+      "quote": "About 7 hours, pretty regular. I keep the same bedtime, like you told me.",
+      "verified": true,
+      "score": 1.0
+     }
+    ],
+    "support": "supported",
+    "flags": [],
+    "origin": "model",
+    "edited": false
+   },
+   {
+    "id": "s5",
+    "section": "subjective",
+    "text": "Taking lamotrigine 200 milligrams once daily.",
+    "evidence": [
+     {
+      "turn": 12,
+      "quote": "You're on lamotrigine 200 milligrams once a day, correct?",
+      "verified": true,
+      "score": 1.0
+     },
+     {
+      "turn": 13,
+      "quote": "Yes. Well, wait, is it 150? No, no, it's 200. The 150 was before the last increase.",
+      "verified": true,
+      "score": 1.0
+     }
+    ],
+    "support": "supported",
+    "flags": [],
+    "origin": "model",
+    "edited": false
+   },
+   {
+    "id": "s6",
+    "section": "subjective",
+    "text": "Misses lamotrigine dose about once a month, takes it the next day as usual.",
+    "evidence": [
+     {
+      "turn": 14,
+      "quote": "Any missed doses?",
+      "verified": true,
+      "score": 1.0
+     },
+     {
+      "turn": 15,
+      "quote": "Maybe once a month I forget, then I just take it the next day as usual.",
+      "verified": true,
+      "score": 1.0
+     }
+    ],
+    "support": "supported",
+    "flags": [],
+    "origin": "model",
+    "edited": false
+   },
+   {
+    "id": "s7",
+    "section": "subjective",
+    "text": "No rash, mouth sores, or blisters.",
+    "evidence": [
+     {
+      "turn": 16,
+      "quote": "Any rash, mouth sores, or blisters anywhere?",
+      "verified": true,
+      "score": 1.0
+     },
+     {
+      "turn": 17,
+      "quote": "No, nothing like that.",
+      "verified": true,
+      "score": 1.0
+     }
+    ],
+    "support": "supported",
+    "flags": [],
+    "origin": "model",
+    "edited": false
+   },
+   {
+    "id": "s8",
+    "section": "subjective",
+    "text": "Taking a multivitamin every morning.",
+    "evidence": [
+     {
+      "turn": 18,
+      "quote": "Anything else you're taking?",
+      "verified": true,
+      "score": 1.0
+     },
+     {
+      "turn": 19,
+      "quote": "Just a multivitamin every morning. Oh, and that's actually what I wanted to ask about.",
+      "verified": true,
+      "score": 1.0
+     }
+    ],
+    "support": "supported",
+    "flags": [],
+    "origin": "model",
+    "edited": false
+   },
+   {
+    "id": "s9",
+    "section": "subjective",
+    "text": "Gynecologist Dr. Alvarez plans to start combination birth control pills (norgestimate and ethinyl estradiol) next month.",
+    "evidence": [
+     {
+      "turn": 19,
+      "quote": "My gynecologist, Dr. Alvarez, wants to start me on birth control pills next month. The combination one, norgestimate and ethinyl estradiol.",
+      "verified": true,
+      "score": 1.0
+     }
+    ],
+    "support": "supported",
+    "flags": [],
+    "origin": "model",
+    "edited": false
+   },
+   {
+    "id": "s10",
+    "section": "subjective",
+    "text": "Denies suicidal thoughts or self-harm.",
+    "evidence": [
+     {
+      "turn": 22,
+      "quote": "Before we talk plans, any thoughts of suicide or of hurting yourself?",
+      "verified": true,
+      "score": 1.0
+     },
+     {
+      "turn": 23,
+      "quote": "No, none. I still have my safety plan and 988 saved in my phone.",
+      "verified": true,
+      "score": 1.0
+     }
+    ],
+    "support": "supported",
+    "flags": [],
+    "origin": "model",
+    "edited": false
+   },
+   {
+    "id": "s11",
+    "section": "subjective",
+    "text": "Brother takes lamotrigine for seizures.",
+    "evidence": [
+     {
+      "turn": 25,
+      "quote": "My brother takes lamotrigine for his seizures, actually. He never mentioned this.",
+      "verified": true,
+      "score": 1.0
+     }
+    ],
+    "support": "supported",
+    "flags": [],
+    "origin": "model",
+    "edited": false
+   },
+   {
+    "id": "o1",
+    "section": "objective",
+    "text": "Blood pressure 112 over 70.",
+    "evidence": [
+     {
+      "turn": 24,
+      "quote": "Your blood pressure today is 112 over 70, and your weight is 131, same as last time.",
+      "verified": true,
+      "score": 1.0
+     }
+    ],
+    "support": "supported",
+    "flags": [],
+    "origin": "model",
+    "edited": false
+   },
+   {
+    "id": "o2",
+    "section": "objective",
+    "text": "Weight 131.",
+    "evidence": [
+     {
+      "turn": 24,
+      "quote": "Your blood pressure today is 112 over 70, and your weight is 131, same as last time.",
+      "verified": true,
+      "score": 1.0
+     }
+    ],
+    "support": "supported",
+    "flags": [],
+    "origin": "model",
+    "edited": false
+   },
+   {
+    "id": "o3",
+    "section": "objective",
+    "text": "Bright and relaxed, mood euthymic, speech normal, not pressured, thoughts organized.",
+    "evidence": [
+     {
+      "turn": 24,
+      "quote": "You're bright and relaxed today, mood euthymic, speech is normal, not pressured, and your thoughts are organized.",
+      "verified": true,
+      "score": 1.0
+     }
+    ],
+    "support": "supported",
+    "flags": [],
+    "origin": "model",
+    "edited": false
+   },
+   {
+    "id": "o4",
+    "section": "objective",
+    "text": "Liver and kidney tests normal per primary care lab work from August.",
+    "evidence": [
+     {
+      "turn": 24,
+      "quote": "I looked at your lab work from your primary care doctor in August. Your liver and kidney tests were all normal.",
+      "verified": true,
+      "score": 1.0
+     }
+    ],
+    "support": "supported",
+    "flags": [],
+    "origin": "model",
+    "edited": false
+   },
+   {
+    "id": "a1",
+    "section": "assessment",
+    "text": "Bipolar II disorder, stable on lamotrigine 200 milligrams daily.",
+    "evidence": [
+     {
+      "turn": 26,
+      "quote": "So, to sum up, your bipolar II disorder is stable on lamotrigine 200 milligrams a day, and we'll keep that dose for now.",
+      "verified": true,
+      "score": 1.0
+     }
+    ],
+    "support": "supported",
+    "flags": [],
+    "origin": "model",
+    "edited": false
+   },
+   {
+    "id": "p1",
+    "section": "plan",
+    "text": "Obtain baseline lamotrigine level this week, drawn in morning before dose, at lab at 2200 Kessler Boulevard.",
+    "evidence": [
+     {
+      "turn": 26,
+      "quote": "I'd like a baseline lamotrigine level this week, drawn in the morning before your dose, at our lab at 2200 Kessler Boulevard.",
+      "verified": true,
+      "score": 1.0
+     }
+    ],
+    "support": "supported",
+    "flags": [],
+    "origin": "model",
+    "edited": false
+   },
+   {
+    "id": "p2",
+    "section": "plan",
+    "text": "Recheck lamotrigine level 2 to 3 weeks after starting birth control pills.",
+    "evidence": [
+     {
+      "turn": 26,
+      "quote": "Then once you start the pill, we'll recheck the level 2 to 3 weeks later, and I'll probably need to increase your dose.",
+      "verified": true,
+      "score": 1.0
+     }
+    ],
+    "support": "supported",
+    "flags": [],
+    "origin": "model",
+    "edited": false
+   },
+   {
+    "id": "p3",
+    "section": "plan",
+    "text": "Consider progestin-only birth control or IUD as alternatives that do not affect lamotrigine levels.",
+    "evidence": [
+     {
+      "turn": 28,
+      "quote": "A progestin-only option or an IUD wouldn't really affect it. That's worth raising with Dr. Alvarez.",
+      "verified": true,
+      "score": 1.0
+     }
+    ],
+    "support": "supported",
+    "flags": [],
+    "origin": "model",
+    "edited": false
+   },
+   {
+    "id": "p4",
+    "section": "plan",
+    "text": "If rash with fever or mouth sores develops, stop lamotrigine and seek emergency care.",
+    "evidence": [
+     {
+      "turn": 30,
+      "quote": "If you ever get a rash, especially with fever or mouth sores, stop the lamotrigine and call us or go to the emergency room.",
+      "verified": true,
+      "score": 1.0
+     }
+    ],
+    "support": "supported",
+    "flags": [],
+    "origin": "model",
+    "edited": false
+   },
+   {
+    "id": "p5",
+    "section": "plan",
+    "text": "If 5 or more consecutive lamotrigine doses are missed, do not restart at 200 mg; contact clinic for gradual re-titration.",
+    "evidence": [
+     {
+      "turn": 30,
+      "quote": "And if you miss 5 days or more in a row, don't restart at 200, call us, because we'd need to build back up slowly.",
+      "verified": true,
+      "score": 1.0
+     }
+    ],
+    "support": "supported",
+    "flags": [],
+    "origin": "model",
+    "edited": false
+   },
+   {
+    "id": "p6",
+    "section": "plan",
+    "text": "Continue multivitamin.",
+    "evidence": [
+     {
+      "turn": 32,
+      "quote": "Keep the multivitamin.",
+      "verified": true,
+      "score": 1.0
+     }
+    ],
+    "support": "supported",
+    "flags": [],
+    "origin": "model",
+    "edited": false
+   },
+   {
+    "id": "p7",
+    "section": "plan",
+    "text": "Follow up in 3 months, or sooner if lamotrigine level or birth control changes necessitate earlier visit.",
+    "evidence": [
+     {
+      "turn": 32,
+      "quote": "I'll see you in 3 months, unless the level or the pill changes things sooner.",
+      "verified": true,
+      "score": 1.0
+     }
+    ],
+    "support": "supported",
+    "flags": [],
+    "origin": "model",
+    "edited": false
+   },
+   {
+    "id": "p8",
+    "section": "plan",
+    "text": "Confirm 317-555-0172 as contact number for lab results.",
+    "evidence": [
+     {
+      "turn": 32,
+      "quote": "Is 317-555-0172 still the best number for the lab results?",
+      "verified": true,
+      "score": 1.0
+     },
+     {
+      "turn": 33,
+      "quote": "Yep, same number.",
+      "verified": true,
+      "score": 1.0
+     }
+    ],
+    "support": "supported",
+    "flags": [],
+    "origin": "model",
+    "edited": false
+   }
+  ],
+  "medications": [
+   {
+    "name": "lamotrigine",
+    "dose": "200 mg",
+    "frequency": "once daily",
+    "route": "oral",
+    "status": "active",
+    "evidence": [
+     {
+      "turn": 12,
+      "quote": "You're on lamotrigine 200 milligrams once a day, correct?",
+      "verified": true,
+      "score": 1.0
+     },
+     {
+      "turn": 13,
+      "quote": "Yes. Well, wait, is it 150? No, no, it's 200. The 150 was before the last increase.",
+      "verified": true,
+      "score": 1.0
+     }
+    ],
+    "flags": []
+   },
+   {
+    "name": "multivitamin",
+    "dose": "unspecified",
+    "frequency": "every morning",
+    "route": "oral",
+    "status": "active",
+    "evidence": [
+     {
+      "turn": 19,
+      "quote": "Just a multivitamin every morning.",
+      "verified": true,
+      "score": 1.0
+     }
+    ],
+    "flags": []
+   }
+  ],
+  "allergies": [],
+  "after_visit_summary": "Your mood has been stable, and your bipolar II disorder is well-controlled on lamotrigine 200 mg daily. You sleep about 7 hours regularly and take your medication most days, though you sometimes forget a dose. You have no rash or mouth sores. You are planning to start combination birth control pills next month, which can lower lamotrigine levels in your blood. To make sure your medication still works, we will check your lamotrigine blood level this week before you start the pill, and again 2 to 3 weeks after you begin it. If needed, we will adjust your dose. If you prefer, progestin-only pills or an IUD are options that won’t affect your lamotrigine—discuss these with your gynecologist. Continue your multivitamin. If you develop a rash with fever or mouth sores, stop lamotrigine and seek emergency care. If you miss 5 or more doses in a row, do not restart at 200 mg without calling us first. We will call your lab results to 317-555-0172. Return in 3 months, or sooner if your medication or birth control plan changes.",
+  "avs_flags": [],
+  "icd10": [
+   {
+    "system": "ICD-10-CM",
+    "code": "F31.81",
+    "description": "Bipolar II disorder",
+    "rank": 1,
+    "rationale": "Bipolar II disorder is the primary diagnosis assessed and documented as stable in this visit.",
+    "evidence": [
+     {
+      "turn": 26,
+      "quote": "your bipolar II disorder is stable on lamotrigine 200 milligrams a day",
+      "verified": true,
+      "score": 1.0
+     }
+    ],
+    "valid": true,
+    "billable": true,
+    "flags": [],
+    "accepted": null
+   }
+  ],
+  "em": {
+   "system": "CPT",
+   "code": "99213",
+   "description": "Established patient office visit, low-complexity decision making",
+   "rank": 1,
+   "rationale": "Established patient with one stable chronic condition (bipolar II disorder), minimal data reviewed (prior labs), and low risk (prescription management of lamotrigine is moderate but overall clinical decision-making is low due to stability).",
+   "evidence": [],
+   "valid": true,
+   "billable": true,
+   "flags": [
+    {
+     "kind": "em_mismatch",
+     "severity": "warning",
+     "message": "The rule-based MDM estimate is moderate (99214): problems: one stable chronic illness or two self-limited problems; data: 3 tests or sources; risk: prescription drug management",
+     "acknowledged": false,
+     "detail": {
+      "estimate": "99214"
+     }
+    }
+   ],
+   "accepted": null
+  },
+  "procedures": [
+   {
+    "system": "CPT",
+    "code": "36415",
+    "description": "Collection of venous blood by venipuncture",
+    "rank": 1,
+    "rationale": "Venipuncture for baseline lamotrigine level ordered to be drawn this week at the clinic lab.",
+    "evidence": [
+     {
+      "turn": 26,
+      "quote": "I'd like a baseline lamotrigine level this week, drawn in the morning before your dose, at our lab at 2200 Kessler Boulevard.",
+      "verified": true,
+      "score": 1.0
+     }
+    ],
+    "valid": true,
+    "billable": true,
+    "flags": [],
+    "accepted": null
+   }
+  ],
+  "mdm": {
+   "problems": "low",
+   "data": "moderate",
+   "risk": "moderate",
+   "level": "moderate",
+   "code": "99214",
+   "reasons": [
+    "problems: one stable chronic illness or two self-limited problems",
+    "data: 3 tests or sources",
+    "risk: prescription drug management"
+   ]
+  },
+  "section_status": {
+   "subjective": "draft",
+   "objective": "draft",
+   "assessment": "draft",
+   "plan": "draft"
+  },
+  "model": "openrouter/nvidia/nemotron-3-super-120b-a12b:free",
+  "created_at": "2026-10-13T05:33:00.044800Z",
+  "signed_by": null,
+  "signed_at": null,
+  "timings": {
+   "phi_masking": 0.026,
+   "llm_note": 18.683,
+   "guards_note": 0.164,
+   "llm_codes": 3.992,
+   "guards_codes": 0.089,
+   "total": 22.954
+  },
+  "usage": {
+   "input_tokens": 4988,
+   "output_tokens": 2519,
+   "calls": 2
+  },
+  "phi": {
+   "NAME": 3,
+   "DOB": 1,
+   "DATE": 2,
+   "ADDRESS": 1,
+   "PHONE": 1
+  }
+ },
+ "vault": {
+  "originals": {
+   "[PATIENT]": "Hana Kobayashi",
+   "[DOB]": "July 3rd, 1997",
+   "[DATE_1]": "July",
+   "[NAME_1]": "Alvarez",
+   "[DATE_2]": "August",
+   "[ADDRESS_1]": "2200 Kessler Boulevard",
+   "[PHONE_1]": "317-555-0172",
+   "[NAME_2]": "Petrenko"
+  },
+  "surfaces": {
+   "[PATIENT]": [
+    "Hana",
+    "Hana Kobayashi"
+   ],
+   "[DOB]": [
+    "July 3rd, 1997"
+   ],
+   "[DATE_1]": [
+    "July"
+   ],
+   "[NAME_1]": [
+    "Alvarez"
+   ],
+   "[DATE_2]": [
+    "August"
+   ],
+   "[ADDRESS_1]": [
+    "2200 Kessler Boulevard"
+   ],
+   "[PHONE_1]": [
+    "317-555-0172"
+   ],
+   "[NAME_2]": [
+    "Petrenko"
+   ]
+  },
+  "types": {
+   "[PATIENT]": "NAME",
+   "[DOB]": "DOB",
+   "[DATE_1]": "DATE",
+   "[NAME_1]": "NAME",
+   "[DATE_2]": "DATE",
+   "[ADDRESS_1]": "ADDRESS",
+   "[PHONE_1]": "PHONE",
+   "[NAME_2]": "NAME"
+  },
+  "counters": {
+   "DATE": 2,
+   "NAME": 2,
+   "ADDRESS": 1,
+   "PHONE": 1
+  }
+ },
+ "score": {
+  "case": "mh-04",
+  "specialty": "mental_health",
+  "facts": 24,
+  "found": 23,
+  "found_in_section": 22,
+  "negation_errors": [],
+  "trap_errors": [],
+  "missed": [
+   "f3 [subjective] Last hypomanic episode 2 years ago"
+  ],
+  "statements": 24,
+  "statements_matching_gold": 21,
+  "unsupported": 0,
+  "partial": 0,
+  "flags": {},
+  "meds": 3,
+  "meds_found": 2,
+  "meds_dose_correct": 1,
+  "icd_primary": "F31.81",
+  "icd_suggested": [
+   "F31.81"
+  ],
+  "icd_top1": true,
+  "icd_top3": true,
+  "icd_top3_lenient": true,
+  "icd_top3_category": true,
+  "icd_gold_recall": 0.5,
+  "icd_invalid": 0,
+  "em_gold": "99213",
+  "em_suggested": "99213",
+  "em_exact": true,
+  "em_within_one": true,
+  "em_rule_estimate": "99214",
+  "procedures_gold": 0,
+  "procedures_found": 0
+ },
+ "egress_residue": {}
+}

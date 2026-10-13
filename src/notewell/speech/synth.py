@@ -38,8 +38,7 @@ def pick_voices(case: Case) -> dict[str, str]:
 def speakable(text: str) -> str:
     """Tweak written forms that Kokoro reads badly; the gold transcript keeps the original text."""
     out = text.replace("A1c", "A 1 C").replace("PHQ-9", "P H Q 9").replace("GAD-7", "G A D 7")
-    out = re.sub(r"\b(\d{3})-(\d{4})\b", lambda m: " ".join(m.group(1)) + ", " + " ".join(m.group(2)), out)
-    return out
+    return re.sub(r"\b(\d{3})-(\d{4})\b", lambda m: " ".join(m.group(1)) + ", " + " ".join(m.group(2)), out)
 
 
 class Synthesizer:

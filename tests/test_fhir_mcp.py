@@ -28,7 +28,15 @@ def test_bundle_is_valid_fhir_and_complete(services: Services) -> None:
     bundle = build_bundle(visit, note, pdf=render_pdf(visit, note))
     assert validate_bundle(bundle) == []
     types = [e["resource"]["resourceType"] for e in bundle["entry"]]
-    assert {"Patient", "Practitioner", "Encounter", "Composition", "DocumentReference", "Condition", "Provenance"} <= set(types)
+    assert {
+        "Patient",
+        "Practitioner",
+        "Encounter",
+        "Composition",
+        "DocumentReference",
+        "Condition",
+        "Provenance",
+    } <= set(types)
     composition = next(e["resource"] for e in bundle["entry"] if e["resource"]["resourceType"] == "Composition")
     assert [s["title"] for s in composition["section"]][:4] == [s.capitalize() for s in SECTIONS]
     condition = next(e["resource"] for e in bundle["entry"] if e["resource"]["resourceType"] == "Condition")

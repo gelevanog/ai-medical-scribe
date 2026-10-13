@@ -182,7 +182,10 @@ class Masker:
         """A value masked once is masked everywhere ("November" at the start of a sentence too). Values that are
         ordinary words are matched only with the same capitalization ("May" the month, not "may" the verb)."""
         common = self.detector.english | self.detector.ambiguous
-        values = sorted(((v, p) for p, forms in vault.surfaces.items() for v in forms if len(v.strip()) >= 3), key=lambda x: -len(x[0]))
+        values = sorted(
+            ((v, p) for p, forms in vault.surfaces.items() for v in forms if len(v.strip()) >= 3),
+            key=lambda x: -len(x[0]),
+        )
         out: list[str] = []
         for text in texts:
             for value, placeholder in values:

@@ -74,7 +74,7 @@ class NotewellTools:
         registered = registered_from(visit.patient, visit.clinician.name)
         guard = EgressGuard(registered, vault)
 
-        def mask(value: Any) -> Any:
+        def mask(value: Any) -> Any:  # strings, lists and dicts of them
             if isinstance(value, str):
                 masked = svc.masker.mask_text(value, registered, vault)
                 report = guard.scan([{"role": "user", "content": masked}])
@@ -144,7 +144,7 @@ class NotewellTools:
              "flags": [{"kind": f.kind, "severity": f.severity, "message": f.message} for f in s.flags]}
             for s in note.statements
         ]  # fmt: skip
-        return mask(
+        view: dict[str, Any] = mask(
             {
                 "visit_id": visit.id,
                 "model": note.model,
@@ -158,13 +158,14 @@ class NotewellTools:
                         "flags": [f.message for f in m.flags],
                     }
                     for m in note.medications
-                ],  # fmt: skip
+                ],
                 "allergies": [{"substance": a.substance, "reaction": a.reaction} for a in note.allergies],
                 "after_visit_summary": note.after_visit_summary,
                 "codes": self._codes_view(visit)["icd10"],
                 "status": visit.status,
             }
         )
+        return view
 
     def check_note(self, visit_id: str, statements: list[dict[str, Any]]) -> dict[str, Any]:
         visit = self._visit(visit_id)
@@ -184,7 +185,7 @@ class NotewellTools:
             quote = str(item.get("quote", "") or "")
             if quote:
                 evidence.append(Evidence(turn=evidence[0].turn if evidence else -1, quote=vault.restore(quote)))
-            stmt = grounder.ground(Statement(id=f"c{i + 1}", section=section, text=text, evidence=evidence))  # type: ignore[arg-type]
+            stmt = grounder.ground(Statement(id=f"c{i + 1}", section=section, text=text, evidence=evidence))
             issues = check_statement(stmt.text, index, section=section)
             results.append(
                 {
@@ -194,11 +195,12 @@ class NotewellTools:
                     "evidence_turns": sorted({e.turn for e in stmt.evidence if e.verified}),
                     "flags": [f.message for f in stmt.flags]
                     + [f"{x.kind}: {x.surface!r} (turns {x.turns[:4]})" for x in issues],
-                }  # fmt: skip
+                }
             )
         self.services().store.audit(ACTOR, "mcp.check_note", visit_id, statements=len(results))
         ok = sum(1 for r in results if r["support"] == "supported" and not r["flags"])
-        return mask({"visit_id": visit_id, "checked": len(results), "clean": ok, "results": results})
+        checked: dict[str, Any] = mask({"visit_id": visit_id, "checked": len(results), "clean": ok, "results": results})
+        return checked
 
     def _codes_view(self, visit: Visit) -> dict[str, Any]:
         note = visit.note
@@ -214,7 +216,7 @@ class NotewellTools:
                     "flags": [f.message for f in c.flags],
                 }
                 for c in note.icd10
-            ],  # fmt: skip
+            ],
             "em": {
                 "code": note.em.code,
                 "description": note.em.description,
@@ -240,8 +242,15 @@ class NotewellTools:
         for text in assessment:
             for code, score in svc.codeset.search(text, limit=5):
                 candidates.append({"code": code.dotted, "title": code.title, "for": text, "score": round(score, 1)})
-        return mask({"visit_id": visit_id, **self._codes_view(visit), "candidates_from_official_list": candidates[:25],
-                     "code_list": svc.codeset.source if svc.codeset.complete else "offline subset"})  # fmt: skip
+        view: dict[str, Any] = mask(
+            {
+                "visit_id": visit_id,
+                **self._codes_view(visit),
+                "candidates_from_official_list": candidates[:25],
+                "code_list": svc.codeset.source if svc.codeset.complete else "offline subset",
+            }
+        )
+        return view
 
     def validate_codes(self, codes: list[str]) -> dict[str, Any]:
         cs = self.services().codeset
@@ -316,7 +325,7 @@ def build_server(tools: NotewellTools) -> MCPServer:
             destructive_hint=False,
             idempotent_hint=False,
             open_world_hint=tools.settings.llm_provider != "fake",
-        ),  # fmt: skip
+        ),
     )
     def draft_note(visit_id: VisitId) -> dict[str, Any]:
         """Run Notewell's own pipeline: mask, draft with the configured model (offline rule-based model by default),
@@ -333,7 +342,7 @@ def build_server(tools: NotewellTools) -> MCPServer:
                 max_length=200,
                 description='Statements to verify: [{"section": "subjective", "text": "Denies chest pain", '
                 '"evidence_turns": [5, 6], "quote": "Any chest pain?"}]. Placeholders are allowed.',
-            ),  # fmt: skip
+            ),
         ],
     ) -> dict[str, Any]:
         """Verify statements you wrote from the masked transcript: is each one supported by a transcript quote, and

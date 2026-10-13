@@ -32,7 +32,10 @@ def test_wer_normalizer_and_alignment() -> None:
 
 def test_asr_score_with_roles() -> None:
     gold = turns(("clinician", "Any chest pain?"), ("patient", "No, I take lisinopril 20 milligrams."))
-    hyp = [Turn(idx=0, speaker="clinician", text="Any chest pain? No,"), Turn(idx=1, speaker="patient", text="I take lisinopril 20 milligrams.")]
+    hyp = [
+        Turn(idx=0, speaker="clinician", text="Any chest pain? No,"),
+        Turn(idx=1, speaker="patient", text="I take lisinopril 20 milligrams."),
+    ]
     s = score(gold, hyp)
     assert s.wer == 0.0
     assert s.key_terms == 2 and s.key_terms_correct == 2  # lisinopril and 20
@@ -138,7 +141,7 @@ def test_diarization_separates_two_voices_and_assigns_roles() -> None:
         tokens = text.split()
         step = 2.4 / len(tokens)
         for i, tok in enumerate(tokens):
-            words.append(Word(text=(" " if i else " ") + tok, start=cursor + i * step, end=cursor + (i + 0.8) * step))
+            words.append(Word(text=" " + tok, start=cursor + i * step, end=cursor + (i + 0.8) * step))
         audio_parts += [seg, np.zeros(int(0.6 * SAMPLE_RATE), dtype=np.float32)]
         cursor += 3.0
     audio = np.concatenate(audio_parts)

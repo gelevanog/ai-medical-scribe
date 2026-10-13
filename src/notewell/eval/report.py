@@ -19,14 +19,14 @@ def _pct(x: float | None) -> str:
 
 def build_report(settings: Settings) -> Path:
     r = settings.results_dir
-    runs = {}
-    for summary in sorted((r / "runs").glob("*/summary.json")):
-        data = _load(summary)
-        runs[summary.parent.name] = {k: v for k, v in data.items() if k not in {"phi_leak_details"}}
-    asr = {}
-    for path in sorted((r / "asr").glob("*.json")):
-        data = _load(path)
-        asr[path.stem] = {k: v for k, v in data.items() if k != "cases"}
+    runs: dict[str, Any] = {}
+    for run_file in sorted((r / "runs").glob("*/summary.json")):
+        run_data = _load(run_file)
+        runs[run_file.parent.name] = {k: v for k, v in run_data.items() if k not in {"phi_leak_details"}}
+    asr: dict[str, Any] = {}
+    for asr_file in sorted((r / "asr").glob("*.json")):
+        asr_data = _load(asr_file)
+        asr[asr_file.stem] = {k: v for k, v in asr_data.items() if k != "cases"}
     summary = {
         "runs": runs,
         "asr": asr,

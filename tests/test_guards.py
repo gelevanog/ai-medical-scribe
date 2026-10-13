@@ -39,7 +39,9 @@ def test_number_words() -> None:
 
 
 def test_grounding_supported_with_verified_quote() -> None:
-    g = Grounder(T).ground(stmt("Headaches for 2 weeks, mostly in the morning", turn=1, quote="getting headaches for about two weeks"))
+    g = Grounder(T).ground(
+        stmt("Headaches for 2 weeks, mostly in the morning", turn=1, quote="getting headaches for about two weeks")
+    )
     assert g.support == "supported" and g.evidence[0].verified and not g.flags
 
 
@@ -49,7 +51,9 @@ def test_grounding_fixes_a_wrong_turn_number() -> None:
 
 
 def test_grounding_flags_a_number_nobody_said() -> None:
-    g = Grounder(T).ground(stmt("Blood pressure 182 over 94", "objective", turn=7, quote="Your blood pressure today is 152 over 94"))
+    g = Grounder(T).ground(
+        stmt("Blood pressure 182 over 94", "objective", turn=7, quote="Your blood pressure today is 152 over 94")
+    )
     assert g.support == "partial"
     assert g.flags[0].severity == "error" and "182" in g.flags[0].message
 
@@ -127,7 +131,9 @@ def test_medication_checks() -> None:
     assert "dose_range" in kinds(high) and "dose_mismatch" in kinds(high)
     unit = check_medication(Medication(name="levothyroxine", dose="88 mg", frequency="daily"), turns=T, allergies=[])
     assert "dose_unit" in kinds(unit)
-    daily = check_medication(Medication(name="ibuprofen", dose="800 mg", frequency="every 4 hours"), turns=T, allergies=[])
+    daily = check_medication(
+        Medication(name="ibuprofen", dose="800 mg", frequency="every 4 hours"), turns=T, allergies=[]
+    )
     assert "dose_range" in kinds(daily)
     unknown = check_medication(Medication(name="zorbex", dose="5 mg"), turns=T, allergies=[])
     assert kinds(unknown)[0] == "unknown_drug"
@@ -141,19 +147,33 @@ def test_dose_correction_in_conversation_is_surfaced() -> None:
 
 def test_allergy_conflicts() -> None:
     pen = [Allergy(substance="penicillin", reaction="hives")]
-    assert "allergy_conflict" in kinds(check_medication(Medication(name="amoxicillin", dose="500 mg", frequency="three times a day"), turns=[], allergies=pen))
-    ceph = check_medication(Medication(name="cephalexin", dose="500 mg", frequency="twice a day"), turns=[], allergies=pen)
+    assert "allergy_conflict" in kinds(
+        check_medication(
+            Medication(name="amoxicillin", dose="500 mg", frequency="three times a day"), turns=[], allergies=pen
+        )
+    )
+    ceph = check_medication(
+        Medication(name="cephalexin", dose="500 mg", frequency="twice a day"), turns=[], allergies=pen
+    )
     assert ceph[-1].kind == "allergy_conflict" and ceph[-1].severity == "warning"
     sulfa = [Allergy(substance="sulfa")]
-    assert "allergy_conflict" in kinds(check_medication(Medication(name="Bactrim", dose="800 mg"), turns=[], allergies=sulfa))
+    assert "allergy_conflict" in kinds(
+        check_medication(Medication(name="Bactrim", dose="800 mg"), turns=[], allergies=sulfa)
+    )
 
 
 def test_pediatric_weight_based_dose() -> None:
-    t = turns(("clinician", "Her weight today is 16 kilograms."), ("clinician", "Amoxicillin 720 milligrams twice a day."))
+    t = turns(
+        ("clinician", "Her weight today is 16 kilograms."), ("clinician", "Amoxicillin 720 milligrams twice a day.")
+    )
     assert weight_kg(t) == 16
-    ok = check_medication(Medication(name="amoxicillin", dose="720 mg", frequency="twice daily"), turns=t, allergies=[], pediatric=True)
+    ok = check_medication(
+        Medication(name="amoxicillin", dose="720 mg", frequency="twice daily"), turns=t, allergies=[], pediatric=True
+    )
     assert "dose_range" not in kinds(ok)
-    bad = check_medication(Medication(name="amoxicillin", dose="72 mg", frequency="twice daily"), turns=t, allergies=[], pediatric=True)
+    bad = check_medication(
+        Medication(name="amoxicillin", dose="72 mg", frequency="twice daily"), turns=t, allergies=[], pediatric=True
+    )
     assert "dose_range" in kinds(bad)
 
 
@@ -189,7 +209,10 @@ def test_em_checks() -> None:
 
 
 def test_procedure_checks() -> None:
-    out = check_procedures([{"code": "93000", "evidence": [{"turn": 7, "quote": "Lungs are clear"}]}, {"code": "99999"}], grounder=Grounder(T))
+    out = check_procedures(
+        [{"code": "93000", "evidence": [{"turn": 7, "quote": "Lungs are clear"}]}, {"code": "99999"}],
+        grounder=Grounder(T),
+    )
     assert out[0].valid and "code_invalid" in kinds(out[1].flags)
 
 

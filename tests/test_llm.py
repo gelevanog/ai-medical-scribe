@@ -117,7 +117,9 @@ def test_error_mapping(status: int, payload: dict[str, object], error: type[Exce
 
 def test_empty_answer_after_hidden_reasoning_is_retryable() -> None:
     def handler(request: httpx.Request) -> httpx.Response:
-        return httpx.Response(200, json={"model": "a/b:free", "choices": [{"message": {"content": ""}, "finish_reason": "length"}]})
+        return httpx.Response(
+            200, json={"model": "a/b:free", "choices": [{"message": {"content": ""}, "finish_reason": "length"}]}
+        )
 
     with pytest.raises(RetryableLLMError, match="max_tokens"):
         _model(handler).complete(MSGS, max_tokens=5)  # type: ignore[arg-type]
@@ -141,7 +143,9 @@ class Flaky:
 def test_retries_ledger_and_cache(tmp_path: Path) -> None:
     ledger = CallLedger(tmp_path / "calls.jsonl", max_calls=10)
     inner = Flaky(failures=2)
-    model = ResilientModel(inner, ledger=ledger, cache=DiskCache(tmp_path / "cache"), max_retries=3, retry_base_seconds=0.01, tag="t")
+    model = ResilientModel(
+        inner, ledger=ledger, cache=DiskCache(tmp_path / "cache"), max_retries=3, retry_base_seconds=0.01, tag="t"
+    )
     assert model.complete(MSGS, max_tokens=5).text == "ok"  # type: ignore[arg-type]
     rows = [json.loads(line) for line in (tmp_path / "calls.jsonl").read_text().splitlines()]
     assert [r["status"] for r in rows] == ["retryable_error", "retryable_error", "ok"]

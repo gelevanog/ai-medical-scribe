@@ -133,7 +133,8 @@ class Scribe:
         try:
             return extract_json(completion.text)
         except ParseError as exc:
-            retry = [*sent, {"role": "assistant", "content": completion.text[:4000]}, repair_message(str(exc))]
+            answer: Message = {"role": "assistant", "content": completion.text[:4000]}
+            retry: list[Message] = [*sent, answer, repair_message(str(exc))]
             completion, _ = self._call(retry, guard, vault, f"{tag}:repair", residue)
             usage["input_tokens"] += completion.input_tokens
             usage["output_tokens"] += completion.output_tokens

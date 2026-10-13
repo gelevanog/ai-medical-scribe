@@ -895,7 +895,9 @@ class PHIDetector:
                 if source == "id_keyword" and not re.search(rf"\d|{_DIGIT_WORDS}", value[-12:], re.IGNORECASE):
                     continue
                 if source in {"url_spoken", "email_spoken"}:
-                    lead = re.match(r"(?:(?:is|the|it's|its|at|portal|website|site|go to|on|email|e-mail)\s+)+", value, re.I)
+                    lead = re.match(
+                        r"(?:(?:is|the|it's|its|at|portal|website|site|go to|on|email|e-mail)\s+)+", value, re.I
+                    )
                     if lead:
                         start += lead.end()
                         value = text[start:end]
@@ -1217,7 +1219,7 @@ def _join_adjacent_names(text: str, spans: list[Span]) -> list[Span]:
     for span in spans:
         prev = out[-1] if out else None
         if prev and prev.type == span.type == "NAME" and text[prev.end : span.start] == " ":
-            who = "patient" if "patient" in (prev.who, span.who) else "other"
+            who: Literal["patient", "other"] = "patient" if "patient" in (prev.who, span.who) else "other"
             out[-1] = Span(prev.start, span.end, "NAME", text[prev.start : span.end], prev.source, who,
                            max(prev.priority, span.priority))  # fmt: skip
         else:

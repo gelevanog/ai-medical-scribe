@@ -1,0 +1,52 @@
+# Notewell: the API (with the built-in mock FHIR server) and the Next.js review UI.
+#   docker compose up --build                  -> UI http://localhost:3000, API http://localhost:8000
+#   docker compose --profile hapi up --build   -> also a HAPI FHIR R4 server on http://localhost:8080/fhir
+# With no keys the offline fake scribe drafts the notes. For free cloud models put OPENROUTER_API_KEY and
+# NOTEWELL_LLM_PROVIDER=openrouter in .env. To export to HAPI set NOTEWELL_FHIR_BASE_URL=http://hapi:8080/fhir.
+name: notewell
+
+services:
+  api:
+    build:
+      context: .
+      args:
+        EXTRAS: ${NOTEWELL_EXTRAS:-}
+    image: notewell-api:latest
+    env_file:
+      - path: .env
+        required: false
+    environment:
+      NOTEWELL_LLM_PROVIDER: ${NOTEWELL_LLM_PROVIDER:-fake}
+      NOTEWELL_CORS_ORIGINS: http://localhost:${WEB_PORT:-3000}
+      NOTEWELL_FHIR_BASE_URL: ${NOTEWELL_FHIR_BASE_URL:-http://127.0.0.1:8000/mock-fhir}
+    volumes:
+      - notewell-data:/home/app/var
+      - ./data/audio:/app/data/audio:ro
+    ports:
+      - "${API_PORT:-8000}:8000"
+    restart: unless-stopped
+
+  web:
+    build:
+      context: ./web
+      args:
+        NEXT_PUBLIC_API_URL: http://localhost:${API_PORT:-8000}
+    image: notewell-web:latest
+    depends_on:
+      api:
+        condition: service_healthy
+    ports:
+      - "${WEB_PORT:-3000}:3000"
+    restart: unless-stopped
+
+  hapi:
+    image: hapiproject/hapi:v8.12.0-1
+    profiles: ["hapi"]
+    environment:
+      hapi.fhir.fhir_version: R4
+      hapi.fhir.allow_external_references: "true"
+    ports:
+      - "${HAPI_PORT:-8080}:8080"
+
+volumes:
+  notewell-data:

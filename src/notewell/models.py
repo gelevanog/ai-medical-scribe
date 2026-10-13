@@ -139,6 +139,10 @@ class MDMEstimate(BaseModel):
     reasons: list[str] = Field(default_factory=list)
 
 
+def _draft_status() -> dict[str, Literal["draft", "accepted"]]:
+    return dict.fromkeys(SECTIONS, "draft")
+
+
 class Note(BaseModel):
     visit_id: str
     statements: list[Statement] = Field(default_factory=list)
@@ -150,9 +154,7 @@ class Note(BaseModel):
     em: CodeSuggestion | None = None
     procedures: list[CodeSuggestion] = Field(default_factory=list)
     mdm: MDMEstimate | None = None
-    section_status: dict[str, Literal["draft", "accepted"]] = Field(
-        default_factory=lambda: dict.fromkeys(SECTIONS, "draft")
-    )
+    section_status: dict[str, Literal["draft", "accepted"]] = Field(default_factory=lambda: _draft_status())
     model: str = ""
     created_at: datetime | None = None
     signed_by: str | None = None

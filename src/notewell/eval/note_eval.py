@@ -63,7 +63,7 @@ def statement_polarity(statement: str, match: re.Match[str]) -> str:
 
 def note_lines(note: Note) -> list[tuple[str, str]]:
     """(section, text) of every statement, plus medications and allergies as subjective lines."""
-    lines = [(s.section, s.text) for s in note.statements]
+    lines: list[tuple[str, str]] = [(s.section, s.text) for s in note.statements]
     lines += [("subjective", f"{m.name} {m.dose} {m.frequency} {m.status}") for m in note.medications]
     lines += [("subjective", f"allergy to {a.substance} {a.reaction}") for a in note.allergies]
     return lines
@@ -146,21 +146,21 @@ def score_note(case: Case, note: Note) -> CaseScore:
             score.partial += 1
         for f in s.flags:
             score.flags[f.kind] += 1
-    for m in note.medications:
-        for f in m.flags:
+    for med in note.medications:
+        for f in med.flags:
             score.flags[f.kind] += 1
     # medications
     for gm in case.gold.medications:
         score.meds += 1
         gold_drug = normalize_drug(gm.name)
-        for m in note.medications:
-            drug = normalize_drug(m.name)
+        for med in note.medications:
+            drug = normalize_drug(med.name)
             same = (
                 drug is not None and gold_drug is not None and drug.name == gold_drug.name
-            ) or m.name.lower() == gm.name.lower()
+            ) or med.name.lower() == gm.name.lower()
             if same:
                 score.meds_found += 1
-                if not gm.dose or (numbers(gm.dose) & numbers(f"{m.dose}")):
+                if not gm.dose or (numbers(gm.dose) & numbers(f"{med.dose}")):
                     score.meds_dose_correct += 1
                 break
     # ICD-10-CM
@@ -175,7 +175,7 @@ def score_note(case: Case, note: Note) -> CaseScore:
     score.icd_top3 = primary.code in top3
     score.icd_top3_lenient = bool(lenient & set(top3))
     score.icd_top3_category = any(c[:3] == primary.code[:3] for c in top3)
-    gold_codes = [d for d in case.gold.diagnoses]
+    gold_codes = list(case.gold.diagnoses)
     hits = sum(1 for d in gold_codes if ({d.code, *d.alternatives} & set(suggested)))
     score.icd_gold_recall = hits / len(gold_codes) if gold_codes else 1.0
     # E/M

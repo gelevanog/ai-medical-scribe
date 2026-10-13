@@ -1,0 +1,12 @@
+{
+  "mcpServers": {
+    "notewell": {
+      "type": "stdio",
+      "command": "uv",
+      "args": ["run", "--directory", "${CLAUDE_PROJECT_DIR:-.}", "notewell", "mcp"],
+      "env": {
+        "NOTEWELL_LLM_PROVIDER": "fake"
+      }
+    }
+  }
+}

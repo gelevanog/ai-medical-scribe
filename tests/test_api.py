@@ -28,15 +28,21 @@ def _resolve_everything(client: TestClient, vid: str, visit: dict) -> dict:  # t
     for s in note["statements"]:
         for f in s["flags"]:
             if f["severity"] == "error":
-                visit = client.post(f"/api/visits/{vid}/acknowledge", json={"target": s["id"], "kind": f["kind"]}).json()
+                visit = client.post(
+                    f"/api/visits/{vid}/acknowledge", json={"target": s["id"], "kind": f["kind"]}
+                ).json()
     for i, m in enumerate(visit["note"]["medications"]):
         for f in m["flags"]:
             if f["severity"] == "error":
-                visit = client.post(f"/api/visits/{vid}/acknowledge", json={"target": f"med:{i}", "kind": f["kind"]}).json()
+                visit = client.post(
+                    f"/api/visits/{vid}/acknowledge", json={"target": f"med:{i}", "kind": f["kind"]}
+                ).json()
     for c in [*visit["note"]["icd10"], *visit["note"]["procedures"], visit["note"]["em"]]:
         for f in c["flags"]:
             if f["severity"] == "error":
-                visit = client.post(f"/api/visits/{vid}/acknowledge", json={"target": f"code:{c['code']}", "kind": f["kind"]}).json()
+                visit = client.post(
+                    f"/api/visits/{vid}/acknowledge", json={"target": f"code:{c['code']}", "kind": f["kind"]}
+                ).json()
     for f in visit["note"]["avs_flags"]:
         if f["severity"] == "error":
             visit = client.post(f"/api/visits/{vid}/acknowledge", json={"target": "avs", "kind": f["kind"]}).json()
@@ -65,9 +71,13 @@ def test_draft_review_sign_export_flow(client: TestClient) -> None:
     visit = _draft(client)
     assert visit["status"] == "drafted" and visit["note"]["statements"]
     sid = visit["note"]["statements"][0]["id"]
-    edited = client.put(f"/api/visits/pc-01/statements/{sid}", json={"text": "Home blood pressure readings around 145 to 150 systolic"}).json()
+    edited = client.put(
+        f"/api/visits/pc-01/statements/{sid}", json={"text": "Home blood pressure readings around 145 to 150 systolic"}
+    ).json()
     assert next(s for s in edited["note"]["statements"] if s["id"] == sid)["edited"]
-    added = client.post("/api/visits/pc-01/statements", json={"section": "plan", "text": "Discussed home blood pressure log"}).json()
+    added = client.post(
+        "/api/visits/pc-01/statements", json={"section": "plan", "text": "Discussed home blood pressure log"}
+    ).json()
     assert any(s["origin"] == "clinician" for s in added["note"]["statements"])
     # Sign-off is refused until every section is accepted and every issue resolved
     assert client.post("/api/visits/pc-01/sign", json={"attestation": True}).status_code == 409
@@ -87,7 +97,10 @@ def test_draft_review_sign_export_flow(client: TestClient) -> None:
     exported = client.post("/api/visits/pc-01/export/fhir")
     assert exported.status_code == 200, exported.text
     assert any(loc.startswith("Composition/") for loc in exported.json()["resources"])
-    composition = client.get("/mock-fhir/Composition/" + next(x for x in exported.json()["resources"] if x.startswith("Composition/")).split("/")[1])
+    composition = client.get(
+        "/mock-fhir/Composition/"
+        + next(x for x in exported.json()["resources"] if x.startswith("Composition/")).split("/")[1]
+    )
     assert composition.status_code == 200 and composition.json()["status"] == "final"
     pdf = client.get("/api/visits/pc-01/note.pdf")
     assert pdf.status_code == 200 and pdf.content[:4] == b"%PDF"
@@ -96,7 +109,9 @@ def test_draft_review_sign_export_flow(client: TestClient) -> None:
 
 def test_accept_section_with_open_errors_is_refused(client: TestClient) -> None:
     visit = _draft(client, "cd-03")
-    sections_with_errors = {s["section"] for s in visit["note"]["statements"] if any(f["severity"] == "error" for f in s["flags"])}
+    sections_with_errors = {
+        s["section"] for s in visit["note"]["statements"] if any(f["severity"] == "error" for f in s["flags"])
+    }
     for section in sections_with_errors:
         assert client.post(f"/api/visits/cd-03/sections/{section}/accept").status_code == 409
 
@@ -125,7 +140,9 @@ def test_audit_log_never_contains_identifiers(client: TestClient) -> None:
 
 
 def test_create_visit_and_upload_audio(client: TestClient) -> None:
-    created = client.post("/api/visits", json={"title": "Cough", "patient": {"name": "Rowan Ellery", "dob": "1990-01-02"}}).json()
+    created = client.post(
+        "/api/visits", json={"title": "Cough", "patient": {"name": "Rowan Ellery", "dob": "1990-01-02"}}
+    ).json()
     vid = created["id"]
     r = client.post(f"/api/visits/{vid}/audio", files={"file": ("a.webm", b"\x1aE\xdf\xa3fake", "audio/webm")})
     assert r.status_code == 200 and r.json()["has_audio"]

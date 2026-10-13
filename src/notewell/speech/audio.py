@@ -47,7 +47,7 @@ def resample(audio: Audio, rate: int, target: int = SAMPLE_RATE) -> Audio:
     if target < rate:
         kernel = np.hanning(int(rate / target) * 4 + 1)
         kernel /= kernel.sum()
-        audio = np.convolve(audio, kernel, mode="same")
+        audio = np.convolve(audio, kernel, mode="same").astype(np.float32)
     x_old = np.linspace(0.0, duration, num=len(audio), endpoint=False)
     x_new = np.linspace(0.0, duration, num=n, endpoint=False)
     return np.interp(x_new, x_old, audio).astype(np.float32)
@@ -59,14 +59,16 @@ def pink_noise(n: int, rng: np.random.Generator) -> Audio:
     freqs = np.arange(len(spectrum))
     spectrum[1:] /= np.sqrt(freqs[1:])
     noise = np.fft.irfft(spectrum, n)
-    return (noise / (np.std(noise) + 1e-9)).astype(np.float32)
+    out: Audio = (noise / (np.std(noise) + 1e-9)).astype(np.float32)
+    return out
 
 
 def add_noise(audio: Audio, snr_db: float, rng: np.random.Generator) -> Audio:
     speech_power = float(np.mean(audio[np.abs(audio) > 0.01] ** 2)) if np.any(np.abs(audio) > 0.01) else 1e-4
     noise = pink_noise(len(audio), rng)
     noise *= np.sqrt(speech_power / (10 ** (snr_db / 10)))
-    return np.clip(audio + noise, -1.0, 1.0).astype(np.float32)
+    noisy: Audio = np.clip(audio + noise, -1.0, 1.0).astype(np.float32)
+    return noisy
 
 
 def _mel_filters(n_fft: int, n_mels: int, rate: int) -> NDArray[np.float64]:

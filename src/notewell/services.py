@@ -250,7 +250,7 @@ class Services:
         if section not in SECTIONS:
             raise ServiceError(f"unknown section {section!r}")
         sid = f"{section[0]}c{sum(1 for s in note.statements if s.section == section) + 1}"
-        note.statements.append(Statement(id=sid, section=section, text=text.strip(), origin="clinician", edited=True))  # type: ignore[arg-type]
+        note.statements.append(Statement(id=sid, section=section, text=text.strip(), origin="clinician", edited=True))
         note.section_status[section] = "draft"
         note = regrade(note, visit, self.codeset)
         return self._save_note(visit, note, actor, "note.add", statement=sid)
@@ -280,7 +280,7 @@ class Services:
         if accepted:
             open_errors = [
                 f for s in note.section(section) for f in s.flags if f.severity == "error" and not f.acknowledged
-            ]  # type: ignore[arg-type]
+            ]
             if open_errors:
                 raise ServiceError(
                     f"{len(open_errors)} open issue(s) in {section}: fix or acknowledge them before accepting", 409
@@ -317,7 +317,7 @@ class Services:
                 valid=True,
                 billable=True,
                 accepted=True,
-            )  # fmt: skip
+            )
         )
         return self._save_note(visit, note, actor, "code.add", code=validation.code)
 

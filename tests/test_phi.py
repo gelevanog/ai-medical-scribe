@@ -175,7 +175,9 @@ def test_dataset_gold_identifiers_recall(cases: list[Case]) -> None:
 
 
 def test_masked_text_keeps_titles_and_clinical_content() -> None:
-    masked = Masker().mask_turns(turns(("clinician", "Dr. Chen started lisinopril 10 milligrams on the 3rd of May.")), Registered())
+    masked = Masker().mask_turns(
+        turns(("clinician", "Dr. Chen started lisinopril 10 milligrams on the 3rd of May.")), Registered()
+    )
     text = masked.turns[0].text
     assert text.startswith("Dr. [NAME_1] started lisinopril 10 milligrams on [DATE_1]")
     assert re.search(r"\[DATE_\d\]", text)

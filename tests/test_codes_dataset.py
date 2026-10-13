@@ -47,7 +47,10 @@ def test_search_ranks_the_obvious_code_first(codeset: CodeSet) -> None:
 def test_download_verifies_the_checksum(tmp_path: Path, monkeypatch: pytest.MonkeyPatch) -> None:
     buffer = io.BytesIO()
     with zipfile.ZipFile(buffer, "w") as z:
-        z.writestr("x/icd10cm-order-2027.txt", "00001 I10     1 Essential (primary) hypertension" + " " * 30 + "Essential (primary) hypertension\n")
+        z.writestr(
+            "x/icd10cm-order-2027.txt",
+            "00001 I10     1 Essential (primary) hypertension" + " " * 30 + "Essential (primary) hypertension\n",
+        )
     payload = buffer.getvalue()
 
     class Response(io.BytesIO):

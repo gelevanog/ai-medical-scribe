@@ -1,0 +1,774 @@
+{
+ "note": {
+  "visit_id": "pd-01",
+  "statements": [
+   {
+    "id": "s1",
+    "section": "subjective",
+    "text": "Fever started yesterday afternoon, pulling at left ear nonstop.",
+    "evidence": [
+     {
+      "turn": 5,
+      "quote": "she started with a fever yesterday afternoon, and she's been pulling at her left ear, like, nonstop.",
+      "verified": true,
+      "score": 1.0
+     }
+    ],
+    "support": "supported",
+    "flags": [],
+    "origin": "model",
+    "edited": false
+   },
+   {
+    "id": "s2",
+    "section": "subjective",
+    "text": "Fever reached 102.8 last night, child was up crying most of the night.",
+    "evidence": [
+     {
+      "turn": 5,
+      "quote": "Last night it went up to 102.8 and she was up crying most of the night.",
+      "verified": true,
+      "score": 1.0
+     }
+    ],
+    "support": "supported",
+    "flags": [],
+    "origin": "model",
+    "edited": false
+   },
+   {
+    "id": "s3",
+    "section": "subjective",
+    "text": "Given children's Tylenol 5 mL around 2 AM, helped a little, nothing since.",
+    "evidence": [
+     {
+      "turn": 7,
+      "quote": "I gave her the children's Tylenol around 2 in the morning, 5 milliliters, and that helped a little. Nothing since then.",
+      "verified": true,
+      "score": 1.0
+     }
+    ],
+    "support": "supported",
+    "flags": [],
+    "origin": "model",
+    "edited": false
+   },
+   {
+    "id": "s4",
+    "section": "subjective",
+    "text": "Runny nose and little cough for 4-5 days.",
+    "evidence": [
+     {
+      "turn": 9,
+      "quote": "Yeah, runny nose and a little cough for maybe 4 or 5 days.",
+      "verified": true,
+      "score": 1.0
+     }
+    ],
+    "support": "supported",
+    "flags": [],
+    "origin": "model",
+    "edited": false
+   },
+   {
+    "id": "s5",
+    "section": "subjective",
+    "text": "Denies mouth sores or rash on hands/feet.",
+    "evidence": [
+     {
+      "turn": 10,
+      "quote": "Any sores in her mouth, or a rash on her hands or feet?",
+      "verified": true,
+      "score": 1.0
+     },
+     {
+      "turn": 11,
+      "quote": "No, I looked. Nothing.",
+      "verified": true,
+      "score": 1.0
+     }
+    ],
+    "support": "supported",
+    "flags": [],
+    "origin": "model",
+    "edited": false
+   },
+   {
+    "id": "s6",
+    "section": "subjective",
+    "text": "Eating not much, drinking juice and water okay.",
+    "evidence": [
+     {
+      "turn": 13,
+      "quote": "Eating, not much. But she's drinking okay, juice and water mostly.",
+      "verified": true,
+      "score": 1.0
+     }
+    ],
+    "support": "supported",
+    "flags": [],
+    "origin": "model",
+    "edited": false
+   },
+   {
+    "id": "s7",
+    "section": "subjective",
+    "text": "Peeing normally, peed this morning normal amount.",
+    "evidence": [
+     {
+      "turn": 15,
+      "quote": "Yeah, she's mostly potty trained, just a pull-up at night. She peed this morning, a normal amount.",
+      "verified": true,
+      "score": 1.0
+     }
+    ],
+    "support": "supported",
+    "flags": [],
+    "origin": "model",
+    "edited": false
+   },
+   {
+    "id": "s8",
+    "section": "subjective",
+    "text": "Denies vomiting or diarrhea.",
+    "evidence": [
+     {
+      "turn": 16,
+      "quote": "Any vomiting or diarrhea?",
+      "verified": true,
+      "score": 1.0
+     },
+     {
+      "turn": 17,
+      "quote": "Nope.",
+      "verified": true,
+      "score": 1.0
+     }
+    ],
+    "support": "supported",
+    "flags": [],
+    "origin": "model",
+    "edited": false
+   },
+   {
+    "id": "s9",
+    "section": "subjective",
+    "text": "Denies ear drainage.",
+    "evidence": [
+     {
+      "turn": 18,
+      "quote": "Any drainage coming out of the ear?",
+      "verified": true,
+      "score": 1.0
+     },
+     {
+      "turn": 19,
+      "quote": "No, nothing like that.",
+      "verified": true,
+      "score": 1.0
+     }
+    ],
+    "support": "supported",
+    "flags": [],
+    "origin": "model",
+    "edited": false
+   },
+   {
+    "id": "s10",
+    "section": "subjective",
+    "text": "History of one prior ear infection at age 1, cleared with pink medicine.",
+    "evidence": [
+     {
+      "turn": 21,
+      "quote": "Just one, when she was about 1. It cleared up with the pink medicine and she's been fine since.",
+      "verified": true,
+      "score": 1.0
+     }
+    ],
+    "support": "supported",
+    "flags": [],
+    "origin": "model",
+    "edited": false
+   },
+   {
+    "id": "s11",
+    "section": "subjective",
+    "text": "No known medicine allergies.",
+    "evidence": [
+     {
+      "turn": 22,
+      "quote": "And she's not allergic to any medicines?",
+      "verified": true,
+      "score": 1.0
+     },
+     {
+      "turn": 23,
+      "quote": "No allergies that we know of.",
+      "verified": true,
+      "score": 1.0
+     }
+    ],
+    "support": "supported",
+    "flags": [],
+    "origin": "model",
+    "edited": false
+   },
+   {
+    "id": "o1",
+    "section": "objective",
+    "text": "Weight 16 kilograms (about 35 pounds).",
+    "evidence": [
+     {
+      "turn": 24,
+      "quote": "So her weight today is 16 kilograms, that's about 35 pounds.",
+      "verified": true,
+      "score": 1.0
+     }
+    ],
+    "support": "supported",
+    "flags": [],
+    "origin": "model",
+    "edited": false
+   },
+   {
+    "id": "o2",
+    "section": "objective",
+    "text": "Temperature 101.6°F.",
+    "evidence": [
+     {
+      "turn": 24,
+      "quote": "Temperature here is 101.6, heart rate 128, and her oxygen is 99 percent.",
+      "verified": true,
+      "score": 1.0
+     }
+    ],
+    "support": "supported",
+    "flags": [],
+    "origin": "model",
+    "edited": false
+   },
+   {
+    "id": "o3",
+    "section": "objective",
+    "text": "Heart rate 128 bpm.",
+    "evidence": [
+     {
+      "turn": 24,
+      "quote": "Temperature here is 101.6, heart rate 128, and her oxygen is 99 percent.",
+      "verified": true,
+      "score": 1.0
+     }
+    ],
+    "support": "supported",
+    "flags": [],
+    "origin": "model",
+    "edited": false
+   },
+   {
+    "id": "o4",
+    "section": "objective",
+    "text": "Oxygen saturation 99%.",
+    "evidence": [
+     {
+      "turn": 24,
+      "quote": "Temperature here is 101.6, heart rate 128, and her oxygen is 99 percent.",
+      "verified": true,
+      "score": 1.0
+     }
+    ],
+    "support": "supported",
+    "flags": [],
+    "origin": "model",
+    "edited": false
+   },
+   {
+    "id": "o5",
+    "section": "objective",
+    "text": "Right eardrum normal.",
+    "evidence": [
+     {
+      "turn": 26,
+      "quote": "Okay, her right eardrum looks normal.",
+      "verified": true,
+      "score": 1.0
+     }
+    ],
+    "support": "supported",
+    "flags": [],
+    "origin": "model",
+    "edited": false
+   },
+   {
+    "id": "o6",
+    "section": "objective",
+    "text": "Left eardrum red and bulging with pus behind it.",
+    "evidence": [
+     {
+      "turn": 26,
+      "quote": "The left one is red and bulging, and I can see pus behind it.",
+      "verified": true,
+      "score": 1.0
+     }
+    ],
+    "support": "supported",
+    "flags": [],
+    "origin": "model",
+    "edited": false
+   },
+   {
+    "id": "o7",
+    "section": "objective",
+    "text": "Throat a little red, no sores or blisters.",
+    "evidence": [
+     {
+      "turn": 26,
+      "quote": "Her throat is a little red, but no sores or blisters.",
+      "verified": true,
+      "score": 1.0
+     }
+    ],
+    "support": "supported",
+    "flags": [],
+    "origin": "model",
+    "edited": false
+   },
+   {
+    "id": "o8",
+    "section": "objective",
+    "text": "Lungs clear, no wheezing.",
+    "evidence": [
+     {
+      "turn": 26,
+      "quote": "Lungs sound clear, no wheezing, and her neck is nice and soft.",
+      "verified": true,
+      "score": 1.0
+     }
+    ],
+    "support": "supported",
+    "flags": [],
+    "origin": "model",
+    "edited": false
+   },
+   {
+    "id": "o9",
+    "section": "objective",
+    "text": "Neck supple.",
+    "evidence": [
+     {
+      "turn": 26,
+      "quote": "Lungs sound clear, no wheezing, and her neck is nice and soft.",
+      "verified": true,
+      "score": 1.0
+     }
+    ],
+    "support": "supported",
+    "flags": [],
+    "origin": "model",
+    "edited": false
+   },
+   {
+    "id": "a1",
+    "section": "assessment",
+    "text": "Acute otitis media, left ear.",
+    "evidence": [
+     {
+      "turn": 28,
+      "quote": "Yes, this is an acute ear infection in her left ear, on top of a cold.",
+      "verified": true,
+      "score": 1.0
+     }
+    ],
+    "support": "supported",
+    "flags": [],
+    "origin": "model",
+    "edited": false
+   },
+   {
+    "id": "p1",
+    "section": "plan",
+    "text": "Amoxicillin 90 mg/kg/day divided BID for 10 days.",
+    "evidence": [
+     {
+      "turn": 28,
+      "quote": "We'll use amoxicillin at the higher dose, 90 milligrams per kilogram per day. She's 16 kilograms, so that's 1440 milligrams a day, split into 2 doses, so 720 milligrams twice a day.",
+      "verified": true,
+      "score": 1.0
+     }
+    ],
+    "support": "supported",
+    "flags": [],
+    "origin": "model",
+    "edited": false
+   },
+   {
+    "id": "p2",
+    "section": "plan",
+    "text": "Ibuprofen 160 mg every 6-8 hours PRN for pain/fever.",
+    "evidence": [
+     {
+      "turn": 32,
+      "quote": "For pain and fever you can use ibuprofen. Her dose is 160 milligrams, which with the children's liquid is 8 milliliters, every 6 to 8 hours as needed.",
+      "verified": true,
+      "score": 1.0
+     }
+    ],
+    "support": "supported",
+    "flags": [],
+    "origin": "model",
+    "edited": false
+   },
+   {
+    "id": "p3",
+    "section": "plan",
+    "text": "Acetaminophen 7.5 mL every 4-6 hours PRN for pain/fever (corrected dose).",
+    "evidence": [
+     {
+      "turn": 32,
+      "quote": "The Tylenol is fine too, every 4 to 6 hours, but for her weight it's 7 and a half milliliters, not 5.",
+      "verified": true,
+      "score": 1.0
+     }
+    ],
+    "support": "supported",
+    "flags": [],
+    "origin": "model",
+    "edited": false
+   },
+   {
+    "id": "p4",
+    "section": "plan",
+    "text": "Return to daycare after 24 hours fever-free without medicine.",
+    "evidence": [
+     {
+      "turn": 40,
+      "quote": "As for Amara Okafor, she can go back to daycare once she's been fever-free for 24 hours without medicine.",
+      "verified": true,
+      "score": 0.95
+     }
+    ],
+    "support": "supported",
+    "flags": [],
+    "origin": "model",
+    "edited": false
+   },
+   {
+    "id": "p5",
+    "section": "plan",
+    "text": "Call if fever/pain persists 48-72 hours on amoxicillin.",
+    "evidence": [
+     {
+      "turn": 40,
+      "quote": "If she's still running fevers or in a lot of pain after 48 to 72 hours on the amoxicillin, call us, because we may need to switch antibiotics.",
+      "verified": true,
+      "score": 1.0
+     }
+    ],
+    "support": "supported",
+    "flags": [],
+    "origin": "model",
+    "edited": false
+   },
+   {
+    "id": "p6",
+    "section": "plan",
+    "text": "Return immediately for swelling/redness behind ear or difficulty waking.",
+    "evidence": [
+     {
+      "turn": 40,
+      "quote": "And if you see swelling or redness behind the ear, or she's really hard to wake up, bring her in right away.",
+      "verified": true,
+      "score": 1.0
+     }
+    ],
+    "support": "supported",
+    "flags": [],
+    "origin": "model",
+    "edited": false
+   },
+   {
+    "id": "p7",
+    "section": "plan",
+    "text": "No routine recheck if improved in few days; recheck if recurrent infection in next couple months.",
+    "evidence": [
+     {
+      "turn": 42,
+      "quote": "If she's back to herself in a few days, no routine recheck. If she gets another ear infection in the next couple of months, we'll want to see her.",
+      "verified": true,
+      "score": 1.0
+     }
+    ],
+    "support": "supported",
+    "flags": [],
+    "origin": "model",
+    "edited": false
+   }
+  ],
+  "medications": [
+   {
+    "name": "amoxicillin",
+    "dose": "720 mg",
+    "frequency": "twice daily",
+    "route": "oral",
+    "status": "new",
+    "evidence": [
+     {
+      "turn": 28,
+      "quote": "720 milligrams twice a day.",
+      "verified": true,
+      "score": 1.0
+     },
+     {
+      "turn": 30,
+      "quote": "9 milliliters twice a day, for 10 full days",
+      "verified": true,
+      "score": 1.0
+     }
+    ],
+    "flags": []
+   },
+   {
+    "name": "ibuprofen",
+    "dose": "160 mg",
+    "frequency": "every 6 to 8 hours as needed",
+    "route": "oral",
+    "status": "new",
+    "evidence": [
+     {
+      "turn": 32,
+      "quote": "Her dose is 160 milligrams, which with the children's liquid is 8 milliliters, every 6 to 8 hours as needed.",
+      "verified": true,
+      "score": 1.0
+     }
+    ],
+    "flags": []
+   },
+   {
+    "name": "acetaminophen",
+    "dose": "7.5 mL",
+    "frequency": "every 4 to 6 hours as needed",
+    "route": "oral",
+    "status": "changed",
+    "evidence": [
+     {
+      "turn": 32,
+      "quote": "for her weight it's 7 and a half milliliters, not 5.",
+      "verified": true,
+      "score": 1.0
+     },
+     {
+      "turn": 33,
+      "quote": "Okay, 7 and a half.",
+      "verified": true,
+      "score": 1.0
+     }
+    ],
+    "flags": [
+     {
+      "kind": "dose_mismatch",
+      "severity": "warning",
+      "message": "The acetaminophen dose was corrected in the conversation (4, 5, 6, 7.5); confirm the final dose.",
+      "acknowledged": false,
+      "detail": {
+       "doses": [
+        "4",
+        "5",
+        "6",
+        "7.5"
+       ],
+       "turn": 32
+      }
+     }
+    ]
+   }
+  ],
+  "allergies": [
+   {
+    "substance": "none known",
+    "reaction": "none",
+    "evidence": [
+     {
+      "turn": 22,
+      "quote": "And she's not allergic to any medicines?",
+      "verified": true,
+      "score": 1.0
+     },
+     {
+      "turn": 23,
+      "quote": "No allergies that we know of.",
+      "verified": true,
+      "score": 1.0
+     }
+    ]
+   }
+  ],
+  "after_visit_summary": "Your child has an ear infection in the left ear along with a cold. We prescribed amoxicillin 720 mg by mouth twice daily for 10 days. For pain or fever, you can give ibuprofen 160 mg by mouth every 6 to 8 hours as needed, or acetaminophen 7.5 mL by mouth every 4 to 6 hours as needed. She can return to daycare after being fever-free for 24 hours without medicine. Call us if fever or pain continues after 48 to 72 hours on the antibiotic, or if you see swelling or redness behind the ear, or if she is hard to wake up. No routine follow-up is needed if she improves in a few days, but return if she gets another ear infection in the next couple of months.",
+  "avs_flags": [],
+  "icd10": [
+   {
+    "system": "ICD-10-CM",
+    "code": "H66.002",
+    "description": "Acute suppurative otitis media without spontaneous rupture of ear drum, left ear",
+    "rank": 1,
+    "rationale": "Acute suppurative otitis media without spontaneous rupture of ear drum, left ear, matches the documented findings of red, bulging tympanic membrane with pus behind it.",
+    "evidence": [
+     {
+      "turn": 26,
+      "quote": "The left one is red and bulging, and I can see pus behind it.",
+      "verified": true,
+      "score": 1.0
+     }
+    ],
+    "valid": true,
+    "billable": true,
+    "flags": [],
+    "accepted": null
+   }
+  ],
+  "em": {
+   "system": "CPT",
+   "code": "99213",
+   "description": "Established patient office visit, low-complexity decision making",
+   "rank": 1,
+   "rationale": "Established patient with one diagnosed problem (acute otitis media), minimal data reviewed (no tests ordered), and low risk (antibiotic prescription is moderate risk but overall complexity is low), meeting criteria for 99213.",
+   "evidence": [],
+   "valid": true,
+   "billable": true,
+   "flags": [],
+   "accepted": null
+  },
+  "procedures": [],
+  "mdm": {
+   "problems": "low",
+   "data": "low",
+   "risk": "moderate",
+   "level": "low",
+   "code": "99213",
+   "reasons": [
+    "problems: one acute uncomplicated problem",
+    "data: limited (tests or an independent historian)",
+    "risk: prescription drug management"
+   ]
+  },
+  "section_status": {
+   "subjective": "draft",
+   "objective": "draft",
+   "assessment": "draft",
+   "plan": "draft"
+  },
+  "model": "openrouter/nvidia/nemotron-3-super-120b-a12b:free",
+  "created_at": "2026-10-13T05:29:27.405607Z",
+  "signed_by": null,
+  "signed_at": null,
+  "timings": {
+   "phi_masking": 0.037,
+   "llm_note": 0.01,
+   "guards_note": 0.068,
+   "llm_codes": 0.067,
+   "guards_codes": 0.042,
+   "total": 0.224
+  },
+  "usage": {
+   "input_tokens": 5738,
+   "output_tokens": 2563,
+   "calls": 2
+  },
+  "phi": {
+   "NAME": 2,
+   "DOB": 1,
+   "ORG": 1,
+   "ADDRESS": 2,
+   "PHONE": 1
+  }
+ },
+ "vault": {
+  "originals": {
+   "[PATIENT]": "Amara Okafor",
+   "[DOB]": "July 18th, 2023",
+   "[NAME_1]": "Chiamaka",
+   "[ORG_1]": "Little Acorns",
+   "[ADDRESS_1]": "Euclid Avenue",
+   "[ADDRESS_2]": "4410 Euclid",
+   "[PHONE_1]": "555-0163"
+  },
+  "surfaces": {
+   "[PATIENT]": [
+    "Amara",
+    "Amara Okafor"
+   ],
+   "[DOB]": [
+    "July 18th, 2023"
+   ],
+   "[NAME_1]": [
+    "Chiamaka"
+   ],
+   "[ORG_1]": [
+    "Little Acorns"
+   ],
+   "[ADDRESS_1]": [
+    "Euclid Avenue"
+   ],
+   "[ADDRESS_2]": [
+    "4410 Euclid"
+   ],
+   "[PHONE_1]": [
+    "555-0163"
+   ]
+  },
+  "types": {
+   "[PATIENT]": "NAME",
+   "[DOB]": "DOB",
+   "[NAME_1]": "NAME",
+   "[ORG_1]": "ORG",
+   "[ADDRESS_1]": "ADDRESS",
+   "[ADDRESS_2]": "ADDRESS",
+   "[PHONE_1]": "PHONE"
+  },
+  "counters": {
+   "NAME": 1,
+   "ORG": 1,
+   "ADDRESS": 2,
+   "PHONE": 1
+  }
+ },
+ "score": {
+  "case": "pd-01",
+  "specialty": "pediatrics",
+  "facts": 31,
+  "found": 29,
+  "found_in_section": 28,
+  "negation_errors": [],
+  "trap_errors": [],
+  "missed": [
+   "f23 [assessment] Concurrent viral upper respiratory infection",
+   "f30 [plan] Return immediately for swelling or redness behind the ear or lethargy"
+  ],
+  "statements": 28,
+  "statements_matching_gold": 26,
+  "unsupported": 0,
+  "partial": 0,
+  "flags": {
+   "dose_mismatch": 1
+  },
+  "meds": 3,
+  "meds_found": 3,
+  "meds_dose_correct": 3,
+  "icd_primary": "H66.002",
+  "icd_suggested": [
+   "H66.002"
+  ],
+  "icd_top1": true,
+  "icd_top3": true,
+  "icd_top3_lenient": true,
+  "icd_top3_category": true,
+  "icd_gold_recall": 0.5,
+  "icd_invalid": 0,
+  "em_gold": "99214",
+  "em_suggested": "99213",
+  "em_exact": false,
+  "em_within_one": true,
+  "em_rule_estimate": "99213",
+  "procedures_gold": 0,
+  "procedures_found": 0
+ },
+ "egress_residue": {}
+}

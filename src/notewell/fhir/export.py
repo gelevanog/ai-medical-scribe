@@ -191,11 +191,11 @@ def build_bundle(
 
     sections = []
     for section in SECTIONS:
-        code, display = SECTION_LOINC[section]
+        loinc, display = SECTION_LOINC[section]
         texts = [s.text for s in note.section(section)]
         entry: dict[str, Any] = {
             "title": section.capitalize(),
-            "code": {"coding": [{"system": LOINC, "code": code, "display": display}]},
+            "code": {"coding": [{"system": LOINC, "code": loinc, "display": display}]},
             "text": {"status": "generated", "div": _div(texts)},
         }
         if section == "assessment" and condition_refs:

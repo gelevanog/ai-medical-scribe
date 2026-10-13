@@ -14,7 +14,7 @@ import json
 import re
 import statistics
 import time
-from collections.abc import Sequence
+from collections.abc import Callable, Sequence
 from dataclasses import dataclass, field
 from pathlib import Path
 from typing import Any
@@ -93,6 +93,13 @@ _PROMPT_WORDS = {
 }
 
 
+def _collector(sink: list[list[Message]]) -> Callable[[str, Sequence[Message]], None]:
+    def observe(_label: str, messages: Sequence[Message]) -> None:
+        sink.append(list(messages))
+
+    return observe
+
+
 # ------------------------------------------------------------------------------------------------- notes run
 @dataclass
 class RunConfig:
@@ -128,9 +135,7 @@ def run_notes(
     started = time.time()
     for i, case in enumerate(cases, 1):
         payloads: list[list[Message]] = []
-        scribe = Scribe(
-            llm, codeset, max_tokens=max_tokens, observer=lambda _label, msgs, sink=payloads: sink.append(list(msgs))
-        )
+        scribe = Scribe(llm, codeset, max_tokens=max_tokens, observer=_collector(payloads))
         visit: Visit = case.visit()
         visit.transcript = load_transcript(case, config.transcripts)
         t0 = time.perf_counter()
@@ -250,9 +255,7 @@ def run_canary(
     for case in cases:
         canary = canary_case(case)
         payloads: list[list[Message]] = []
-        scribe = Scribe(
-            llm, codeset, max_tokens=max_tokens, observer=lambda _l, msgs, sink=payloads: sink.append(list(msgs))
-        )
+        scribe = Scribe(llm, codeset, max_tokens=max_tokens, observer=_collector(payloads))
         visit = canary.visit()
         visit.transcript = canary.transcript()
         error = ""

@@ -1,0 +1,658 @@
+{
+ "note": {
+  "visit_id": "pd-02",
+  "statements": [
+   {
+    "id": "s1",
+    "section": "subjective",
+    "text": "Sore throat since Friday night after soccer game, painful to swallow.",
+    "evidence": [
+     {
+      "turn": 3,
+      "quote": "he's been complaining since Saturday. No, wait, Friday. It was Friday night, after his soccer game. He said it hurt to swallow",
+      "verified": true,
+      "score": 1.0
+     }
+    ],
+    "support": "supported",
+    "flags": [],
+    "origin": "model",
+    "edited": false
+   },
+   {
+    "id": "s2",
+    "section": "subjective",
+    "text": "Fever up to 102.4 last night.",
+    "evidence": [
+     {
+      "turn": 5,
+      "quote": "The highest was 102.4 last night.",
+      "verified": true,
+      "score": 1.0
+     }
+    ],
+    "support": "supported",
+    "flags": [],
+    "origin": "model",
+    "edited": false
+   },
+   {
+    "id": "s3",
+    "section": "subjective",
+    "text": "Stomach hurt yesterday, no vomiting.",
+    "evidence": [
+     {
+      "turn": 7,
+      "quote": "He said his stomach hurt yesterday. Didn't throw up, though.",
+      "verified": true,
+      "score": 1.0
+     }
+    ],
+    "support": "supported",
+    "flags": [],
+    "origin": "model",
+    "edited": false
+   },
+   {
+    "id": "s4",
+    "section": "subjective",
+    "text": "No cough.",
+    "evidence": [
+     {
+      "turn": 8,
+      "quote": "Any cough?",
+      "verified": true,
+      "score": 1.0
+     },
+     {
+      "turn": 9,
+      "quote": "No, not really.",
+      "verified": true,
+      "score": 1.0
+     }
+    ],
+    "support": "supported",
+    "flags": [],
+    "origin": "model",
+    "edited": false
+   },
+   {
+    "id": "s5",
+    "section": "subjective",
+    "text": "No runny or stuffy nose.",
+    "evidence": [
+     {
+      "turn": 10,
+      "quote": "Runny nose or stuffy nose?",
+      "verified": true,
+      "score": 1.0
+     },
+     {
+      "turn": 11,
+      "quote": "No.",
+      "verified": true,
+      "score": 1.0
+     }
+    ],
+    "support": "supported",
+    "flags": [],
+    "origin": "model",
+    "edited": false
+   },
+   {
+    "id": "s6",
+    "section": "subjective",
+    "text": "Drinking fluids well, eating poorly, prefers popsicles.",
+    "evidence": [
+     {
+      "turn": 15,
+      "quote": "Drinking, yes, eating not so much. Popsicles mostly.",
+      "verified": true,
+      "score": 1.0
+     }
+    ],
+    "support": "supported",
+    "flags": [],
+    "origin": "model",
+    "edited": false
+   },
+   {
+    "id": "s7",
+    "section": "subjective",
+    "text": "Allergic to amoxicillin: hives at age 3, no breathing trouble.",
+    "evidence": [
+     {
+      "turn": 17,
+      "quote": "when he was 3 he got hives all over, like big red welts, from the pink amoxicillin. No trouble breathing or anything, just the hives.",
+      "verified": true,
+      "score": 1.0
+     }
+    ],
+    "support": "supported",
+    "flags": [],
+    "origin": "model",
+    "edited": false
+   },
+   {
+    "id": "s8",
+    "section": "subjective",
+    "text": "Only medication is ibuprofen as needed.",
+    "evidence": [
+     {
+      "turn": 19,
+      "quote": "No, just the ibuprofen when he needs it.",
+      "verified": true,
+      "score": 1.0
+     }
+    ],
+    "support": "supported",
+    "flags": [],
+    "origin": "model",
+    "edited": false
+   },
+   {
+    "id": "o1",
+    "section": "objective",
+    "text": "Weight 20 kg (44 lb).",
+    "evidence": [
+     {
+      "turn": 20,
+      "quote": "he weighs 20 kilograms, that's 44 pounds.",
+      "verified": true,
+      "score": 1.0
+     }
+    ],
+    "support": "supported",
+    "flags": [],
+    "origin": "model",
+    "edited": false
+   },
+   {
+    "id": "o2",
+    "section": "objective",
+    "text": "Temperature 101.9°F.",
+    "evidence": [
+     {
+      "turn": 20,
+      "quote": "Temperature is 101.9",
+      "verified": true,
+      "score": 1.0
+     }
+    ],
+    "support": "supported",
+    "flags": [],
+    "origin": "model",
+    "edited": false
+   },
+   {
+    "id": "o3",
+    "section": "objective",
+    "text": "Heart rate 112 bpm.",
+    "evidence": [
+     {
+      "turn": 20,
+      "quote": "heart rate 112.",
+      "verified": true,
+      "score": 1.0
+     }
+    ],
+    "support": "supported",
+    "flags": [],
+    "origin": "model",
+    "edited": false
+   },
+   {
+    "id": "o4",
+    "section": "objective",
+    "text": "Tonsils swollen and red with exudate, palatal petechiae, anterior cervical lymphadenopathy.",
+    "evidence": [
+     {
+      "turn": 21,
+      "quote": "his tonsils are swollen and red, and there's white stuff on them, and some little red spots on the roof of his mouth. The glands in the front of his neck are swollen and tender.",
+      "verified": true,
+      "score": 1.0
+     }
+    ],
+    "support": "supported",
+    "flags": [],
+    "origin": "model",
+    "edited": false
+   },
+   {
+    "id": "o5",
+    "section": "objective",
+    "text": "Ears normal, lungs clear, no rash.",
+    "evidence": [
+     {
+      "turn": 21,
+      "quote": "Ears look normal, lungs are clear, and I don't see any rash.",
+      "verified": true,
+      "score": 1.0
+     }
+    ],
+    "support": "supported",
+    "flags": [],
+    "origin": "model",
+    "edited": false
+   },
+   {
+    "id": "o6",
+    "section": "objective",
+    "text": "Rapid strep test positive.",
+    "evidence": [
+     {
+      "turn": 25,
+      "quote": "the rapid strep came back positive.",
+      "verified": true,
+      "score": 1.0
+     }
+    ],
+    "support": "supported",
+    "flags": [],
+    "origin": "model",
+    "edited": false
+   },
+   {
+    "id": "a1",
+    "section": "assessment",
+    "text": "Strep throat (positive rapid strep).",
+    "evidence": [
+     {
+      "turn": 25,
+      "quote": "the rapid strep came back positive. So this is strep throat.",
+      "verified": true,
+      "score": 1.0
+     }
+    ],
+    "support": "supported",
+    "flags": [],
+    "origin": "model",
+    "edited": false
+   },
+   {
+    "id": "p1",
+    "section": "plan",
+    "text": "Prescribe cephalexin 400 mg orally twice daily for 10 days.",
+    "evidence": [
+     {
+      "turn": 27,
+      "quote": "The dose is 20 milligrams per kilogram, twice a day. At 20 kilograms that's 400 milligrams twice a day.",
+      "verified": true,
+      "score": 1.0
+     }
+    ],
+    "support": "supported",
+    "flags": [],
+    "origin": "model",
+    "edited": false
+   },
+   {
+    "id": "p2",
+    "section": "plan",
+    "text": "Continue ibuprofen 200 mg orally every 6-8 hours as needed for pain/fever with food.",
+    "evidence": [
+     {
+      "turn": 29,
+      "quote": "His dose is 200 milligrams, so 10 milliliters of the children's liquid every 6 to 8 hours as needed, with some food.",
+      "verified": true,
+      "score": 1.0
+     }
+    ],
+    "support": "supported",
+    "flags": [],
+    "origin": "model",
+    "edited": false
+   },
+   {
+    "id": "p3",
+    "section": "plan",
+    "text": "Return to school after 12 hours of antibiotics and fever-free.",
+    "evidence": [
+     {
+      "turn": 31,
+      "quote": "Once he's had at least 12 hours of the antibiotic and he's fever-free, he can go back.",
+      "verified": true,
+      "score": 1.0
+     }
+    ],
+    "support": "supported",
+    "flags": [],
+    "origin": "model",
+    "edited": false
+   },
+   {
+    "id": "p4",
+    "section": "plan",
+    "text": "Provide school note via portal.",
+    "evidence": [
+     {
+      "turn": 31,
+      "quote": "I can put a school note in the portal.",
+      "verified": true,
+      "score": 1.0
+     }
+    ],
+    "support": "supported",
+    "flags": [],
+    "origin": "model",
+    "edited": false
+   },
+   {
+    "id": "p5",
+    "section": "plan",
+    "text": "Replace toothbrush after 1-2 days on antibiotics.",
+    "evidence": [
+     {
+      "turn": 35,
+      "quote": "Swap out his toothbrush after a day or two on the medicine.",
+      "verified": true,
+      "score": 1.0
+     }
+    ],
+    "support": "supported",
+    "flags": [],
+    "origin": "model",
+    "edited": false
+   },
+   {
+    "id": "p6",
+    "section": "plan",
+    "text": "Precaution: Go to ER if drooling, unable to swallow saliva, unable to open mouth, or trouble breathing.",
+    "evidence": [
+     {
+      "turn": 35,
+      "quote": "if he starts drooling, can't swallow his own spit, can't open his mouth all the way, or has trouble breathing, go straight to the emergency room.",
+      "verified": true,
+      "score": 1.0
+     }
+    ],
+    "support": "supported",
+    "flags": [],
+    "origin": "model",
+    "edited": false
+   },
+   {
+    "id": "p7",
+    "section": "plan",
+    "text": "Precaution: Call if not better in 2-3 days.",
+    "evidence": [
+     {
+      "turn": 35,
+      "quote": "If he's not better in 2 or 3 days, call us.",
+      "verified": true,
+      "score": 1.0
+     }
+    ],
+    "support": "supported",
+    "flags": [],
+    "origin": "model",
+    "edited": false
+   }
+  ],
+  "medications": [
+   {
+    "name": "cephalexin",
+    "dose": "400 mg",
+    "frequency": "twice daily",
+    "route": "oral",
+    "status": "new",
+    "evidence": [
+     {
+      "turn": 27,
+      "quote": "At 20 kilograms that's 400 milligrams twice a day.",
+      "verified": true,
+      "score": 1.0
+     }
+    ],
+    "flags": [
+     {
+      "kind": "allergy_conflict",
+      "severity": "warning",
+      "message": "cephalexin is a cephalosporin and the patient reports a penicillin allergy (hives): low cross-reactivity, confirm it was considered.",
+      "acknowledged": false,
+      "detail": {}
+     }
+    ]
+   },
+   {
+    "name": "ibuprofen",
+    "dose": "200 mg",
+    "frequency": "every 6 to 8 hours as needed",
+    "route": "oral",
+    "status": "active",
+    "evidence": [
+     {
+      "turn": 29,
+      "quote": "His dose is 200 milligrams, so 10 milliliters of the children's liquid every 6 to 8 hours as needed, with some food.",
+      "verified": true,
+      "score": 1.0
+     }
+    ],
+    "flags": []
+   }
+  ],
+  "allergies": [
+   {
+    "substance": "amoxicillin",
+    "reaction": "hives",
+    "evidence": [
+     {
+      "turn": 17,
+      "quote": "when he was 3 he got hives all over, like big red welts, from the pink amoxicillin.",
+      "verified": true,
+      "score": 1.0
+     }
+    ]
+   }
+  ],
+  "after_visit_summary": "Your child has strep throat, confirmed by a positive test. He has a sore throat, fever, and swollen tonsils. He is allergic to amoxicillin, so we prescribed cephalexin 400 mg by mouth twice daily for 10 days. For throat pain and fever, give ibuprofen 200 mg by mouth every 6 to 8 hours as needed with food. He can return to school after taking the antibiotic for at least 12 hours and being fever-free, likely Thursday. Replace his toothbrush after a day or two on the antibiotic. Go to the emergency room if he starts drooling, cannot swallow his spit, cannot open his mouth fully, or has trouble breathing. Call us if he is not better in 2 or 3 days. Continue giving fluids and soft foods like popsicles. A school note has been sent to the portal.",
+  "avs_flags": [],
+  "icd10": [
+   {
+    "system": "ICD-10-CM",
+    "code": "J02.0",
+    "description": "Streptococcal pharyngitis",
+    "rank": 1,
+    "rationale": "Streptococcal pharyngitis confirmed by positive rapid strep test and clinical findings of exudative tonsillitis, palatal petechiae, and anterior cervical lymphadenopathy.",
+    "evidence": [
+     {
+      "turn": 25,
+      "quote": "Alright, the rapid strep came back positive. So this is strep throat.",
+      "verified": true,
+      "score": 1.0
+     },
+     {
+      "turn": 21,
+      "quote": "his tonsils are swollen and red, and there's white stuff on them, and some little red spots on the roof of his mouth. The glands in the front of his neck are swollen and tender.",
+      "verified": true,
+      "score": 1.0
+     }
+    ],
+    "valid": true,
+    "billable": true,
+    "flags": [
+     {
+      "kind": "code_unsupported",
+      "severity": "warning",
+      "message": "The code's title shares no terms with the assessment; check it matches a diagnosis.",
+      "acknowledged": false,
+      "detail": {}
+     }
+    ],
+    "accepted": null
+   }
+  ],
+  "em": {
+   "system": "CPT",
+   "code": "99213",
+   "description": "Established patient office visit, low-complexity decision making",
+   "rank": 1,
+   "rationale": "Established patient with one stable chronic problem (allergy history) and one acute uncomplicated illness (strep throat); minimal data reviewed (rapid strep test); low risk management (oral antibiotic).",
+   "evidence": [],
+   "valid": true,
+   "billable": true,
+   "flags": [],
+   "accepted": null
+  },
+  "procedures": [
+   {
+    "system": "CPT",
+    "code": "87880",
+    "description": "Rapid streptococcus group A antigen test",
+    "rank": 1,
+    "rationale": "Rapid streptococcus group A antigen test performed in clinic during the visit.",
+    "evidence": [
+     {
+      "turn": 21,
+      "quote": "I'm going to do a quick strep swab, it takes about 10 minutes.",
+      "verified": true,
+      "score": 1.0
+     },
+     {
+      "turn": 25,
+      "quote": "Alright, the rapid strep came back positive.",
+      "verified": true,
+      "score": 1.0
+     }
+    ],
+    "valid": true,
+    "billable": true,
+    "flags": [],
+    "accepted": null
+   }
+  ],
+  "mdm": {
+   "problems": "low",
+   "data": "low",
+   "risk": "moderate",
+   "level": "low",
+   "code": "99213",
+   "reasons": [
+    "problems: one acute uncomplicated problem",
+    "data: limited (tests or an independent historian)",
+    "risk: prescription drug management"
+   ]
+  },
+  "section_status": {
+   "subjective": "draft",
+   "objective": "draft",
+   "assessment": "draft",
+   "plan": "draft"
+  },
+  "model": "openrouter/nvidia/nemotron-3-super-120b-a12b:free",
+  "created_at": "2026-10-13T05:29:50.745725Z",
+  "signed_by": null,
+  "signed_at": null,
+  "timings": {
+   "phi_masking": 0.037,
+   "llm_note": 19.755,
+   "guards_note": 0.025,
+   "llm_codes": 3.458,
+   "guards_codes": 0.026,
+   "total": 23.3
+  },
+  "usage": {
+   "input_tokens": 5050,
+   "output_tokens": 2089,
+   "calls": 2
+  },
+  "phi": {
+   "NAME": 3,
+   "DOB": 1,
+   "ORG": 1,
+   "EMAIL": 1,
+   "PHONE": 1
+  }
+ },
+ "vault": {
+  "originals": {
+   "[NAME_1]": "Asante",
+   "[PATIENT]": "Mateo Villanueva",
+   "[DOB]": "April 2nd, 2019",
+   "[NAME_2]": "Andrés",
+   "[ORG_1]": "Brookside Elementary",
+   "[EMAIL_1]": "andres dot villanueva at example dot com",
+   "[PHONE_1]": "555-0118"
+  },
+  "surfaces": {
+   "[NAME_1]": [
+    "Asante"
+   ],
+   "[PATIENT]": [
+    "Mateo",
+    "Mateo Villanueva"
+   ],
+   "[DOB]": [
+    "April 2nd, 2019"
+   ],
+   "[NAME_2]": [
+    "Andrés"
+   ],
+   "[ORG_1]": [
+    "Brookside Elementary"
+   ],
+   "[EMAIL_1]": [
+    "andres dot villanueva at example dot com"
+   ],
+   "[PHONE_1]": [
+    "555-0118"
+   ]
+  },
+  "types": {
+   "[NAME_1]": "NAME",
+   "[PATIENT]": "NAME",
+   "[DOB]": "DOB",
+   "[NAME_2]": "NAME",
+   "[ORG_1]": "ORG",
+   "[EMAIL_1]": "EMAIL",
+   "[PHONE_1]": "PHONE"
+  },
+  "counters": {
+   "NAME": 2,
+   "ORG": 1,
+   "EMAIL": 1,
+   "PHONE": 1
+  }
+ },
+ "score": {
+  "case": "pd-02",
+  "specialty": "pediatrics",
+  "facts": 29,
+  "found": 27,
+  "found_in_section": 26,
+  "negation_errors": [],
+  "trap_errors": [],
+  "missed": [
+   "f8 [subjective] Strep exposure, cases going around his school class",
+   "f11 [subjective] No daily medications besides ibuprofen as needed"
+  ],
+  "statements": 22,
+  "statements_matching_gold": 21,
+  "unsupported": 0,
+  "partial": 0,
+  "flags": {
+   "allergy_conflict": 1
+  },
+  "meds": 2,
+  "meds_found": 2,
+  "meds_dose_correct": 2,
+  "icd_primary": "J02.0",
+  "icd_suggested": [
+   "J02.0"
+  ],
+  "icd_top1": true,
+  "icd_top3": true,
+  "icd_top3_lenient": true,
+  "icd_top3_category": true,
+  "icd_gold_recall": 0.5,
+  "icd_invalid": 0,
+  "em_gold": "99213",
+  "em_suggested": "99213",
+  "em_exact": true,
+  "em_within_one": true,
+  "em_rule_estimate": "99213",
+  "procedures_gold": 1,
+  "procedures_found": 1
+ },
+ "egress_residue": {}
+}

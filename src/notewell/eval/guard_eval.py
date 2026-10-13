@@ -109,9 +109,9 @@ def run_guard_eval(settings: Settings, run: str = "main", seed: int = 7) -> dict
             )
             break
         # medication dose x10 and unit swap
-        for i, m in enumerate(base.medications):
-            d = re.match(r"\s*(\d+(?:\.\d+)?)\s*(\w+)", m.dose or "")
-            if not d or m.flags:
+        for i, med in enumerate(base.medications):
+            d = re.match(r"\s*(\d+(?:\.\d+)?)\s*(\w+)", med.dose or "")
+            if not d or med.flags:
                 continue
             value = float(d.group(1)) * 10
             tampered = base.model_copy(deep=True)
@@ -120,7 +120,7 @@ def run_guard_eval(settings: Settings, run: str = "main", seed: int = 7) -> dict
             record(
                 "dose_x10",
                 _errors(out.medications[i].flags, {"dose_range", "dose_mismatch"}),
-                f"{cid}: {m.name} {tampered.medications[i].dose}",
+                f"{cid}: {med.name} {tampered.medications[i].dose}",
             )
             unit = d.group(2).lower()
             swapped_unit = (
@@ -137,7 +137,7 @@ def run_guard_eval(settings: Settings, run: str = "main", seed: int = 7) -> dict
                 record(
                     "unit_swap",
                     _errors(out.medications[i].flags, {"dose_unit", "dose_range"}),
-                    f"{cid}: {m.name} {tampered.medications[i].dose}",
+                    f"{cid}: {med.name} {tampered.medications[i].dose}",
                 )
             break
         # invented statement from another specialty

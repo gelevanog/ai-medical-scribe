@@ -55,15 +55,24 @@ class MockFHIRServer:
             for entry in bundle.get("entry", []):
                 resource = copy.deepcopy(entry["resource"])
                 request = entry.get("request", {})
-                existing = self._find(resource["resourceType"], request["ifNoneExist"]) if request.get("ifNoneExist") else None
+                existing = (
+                    self._find(resource["resourceType"], request["ifNoneExist"]) if request.get("ifNoneExist") else None
+                )
                 if existing is not None:
                     mapping[entry.get("fullUrl", "")] = f"{existing['resourceType']}/{existing['id']}"
-                    responses.append({"response": {"status": "200 OK", "location": mapping[entry.get('fullUrl', '')]}})
+                    responses.append({"response": {"status": "200 OK", "location": mapping[entry.get("fullUrl", "")]}})
                     continue
                 stored = self._store(resource)
                 mapping[entry.get("fullUrl", "")] = f"{stored['resourceType']}/{stored['id']}"
                 created.append((stored["resourceType"], stored))
-                responses.append({"response": {"status": "201 Created", "location": f"{stored['resourceType']}/{stored['id']}/_history/1"}})
+                responses.append(
+                    {
+                        "response": {
+                            "status": "201 Created",
+                            "location": f"{stored['resourceType']}/{stored['id']}/_history/1",
+                        }
+                    }
+                )
             for _, stored in created:
                 text = json.dumps(stored)
                 for urn, ref in mapping.items():
@@ -82,7 +91,12 @@ class MockFHIRServer:
             if key in params:
                 ref = params[key] if "/" in params[key] else f"Patient/{params[key]}"
                 items = [r for r in items if (r.get("subject") or r.get("patient") or {}).get("reference") == ref]
-        return {"resourceType": "Bundle", "type": "searchset", "total": len(items), "entry": [{"resource": r} for r in items]}
+        return {
+            "resourceType": "Bundle",
+            "type": "searchset",
+            "total": len(items),
+            "entry": [{"resource": r} for r in items],
+        }
 
 
 def router(server: MockFHIRServer) -> APIRouter:
@@ -91,8 +105,14 @@ def router(server: MockFHIRServer) -> APIRouter:
     @api.get("/metadata")
     def metadata() -> JSONResponse:
         return JSONResponse(
-            {"resourceType": "CapabilityStatement", "status": "active", "fhirVersion": "4.0.1", "kind": "instance",
-             "format": ["json"], "software": {"name": "Notewell mock FHIR server"}},  # fmt: skip
+            {
+                "resourceType": "CapabilityStatement",
+                "status": "active",
+                "fhirVersion": "4.0.1",
+                "kind": "instance",
+                "format": ["json"],
+                "software": {"name": "Notewell mock FHIR server"},
+            },  # fmt: skip
             media_type=FHIR_JSON,
         )
 

@@ -24,7 +24,7 @@ from notewell.llm.factory import build_chat_model, resilient
 from notewell.logging_config import get_logger
 from notewell.models import SECTIONS, CodeSuggestion, Evidence, Flag, Note, Statement, Transcript, Visit
 from notewell.pdf import render_pdf
-from notewell.phi.masker import Masker, MaskedTranscript, registered_from
+from notewell.phi.masker import MaskedTranscript, Masker, registered_from
 from notewell.scribe.pipeline import Scribe, ScribeError, regrade
 from notewell.store import Store
 
@@ -159,7 +159,9 @@ class Services:
         visit.status = "transcribed"
         visit.note = None
         self.store.save_visit(visit)
-        self.store.audit(actor, "visit.transcribe", visit_id, source=visit.transcript.source, turns=len(visit.transcript.turns))
+        self.store.audit(
+            actor, "visit.transcribe", visit_id, source=visit.transcript.source, turns=len(visit.transcript.turns)
+        )
         return visit
 
     def _run_asr(self, visit: Visit) -> Transcript:
@@ -168,9 +170,15 @@ class Services:
         from notewell.speech.asr import WhisperASR, decode_audio
 
         if self._asr is None:
-            self._asr = WhisperASR(self.settings.stt_model, threads=self.settings.stt_threads, medical_prompt=self.settings.stt_medical_prompt)
+            self._asr = WhisperASR(
+                self.settings.stt_model,
+                threads=self.settings.stt_threads,
+                medical_prompt=self.settings.stt_medical_prompt,
+            )
         data, mime = self.audio(visit.id)
-        suffix = {"audio/wav": ".wav", "audio/webm": ".webm", "audio/ogg": ".ogg", "audio/mpeg": ".mp3"}.get(mime.split(";")[0], ".bin")
+        suffix = {"audio/wav": ".wav", "audio/webm": ".webm", "audio/ogg": ".ogg", "audio/mpeg": ".mp3"}.get(
+            mime.split(";")[0], ".bin"
+        )
         with tempfile.NamedTemporaryFile(suffix=suffix) as tmp:
             tmp.write(data)
             tmp.flush()
@@ -270,7 +278,9 @@ class Services:
         if section not in SECTIONS:
             raise ServiceError(f"unknown section {section!r}")
         if accepted:
-            open_errors = [f for s in note.section(section) for f in s.flags if f.severity == "error" and not f.acknowledged]  # type: ignore[arg-type]
+            open_errors = [
+                f for s in note.section(section) for f in s.flags if f.severity == "error" and not f.acknowledged
+            ]  # type: ignore[arg-type]
             if open_errors:
                 raise ServiceError(
                     f"{len(open_errors)} open issue(s) in {section}: fix or acknowledge them before accepting", 409
@@ -298,8 +308,16 @@ class Services:
         if any(c.code == validation.code for c in note.icd10):
             raise ServiceError(f"{validation.code} is already on the note", 409)
         note.icd10.append(
-            CodeSuggestion(system="ICD-10-CM", code=validation.code, description=validation.title, rank=len(note.icd10) + 1,
-                           rationale="Added by the clinician", valid=True, billable=True, accepted=True)  # fmt: skip
+            CodeSuggestion(
+                system="ICD-10-CM",
+                code=validation.code,
+                description=validation.title,
+                rank=len(note.icd10) + 1,
+                rationale="Added by the clinician",
+                valid=True,
+                billable=True,
+                accepted=True,
+            )  # fmt: skip
         )
         return self._save_note(visit, note, actor, "code.add", code=validation.code)
 
@@ -325,7 +343,9 @@ class Services:
         visit = self.visit(visit_id)
         if visit.note is None or visit.note.signed_at is None:
             raise ServiceError("only a signed note can be exported", 409)
-        return build_bundle(visit, visit.note, pdf=render_pdf(visit, visit.note), organization=self.settings.organization_name)
+        return build_bundle(
+            visit, visit.note, pdf=render_pdf(visit, visit.note), organization=self.settings.organization_name
+        )
 
     def export_fhir(self, visit_id: str, actor: str) -> dict[str, Any]:
         visit = self.visit(visit_id)

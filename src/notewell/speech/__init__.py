@@ -46,7 +46,7 @@ def download_models(models_dir: Path, *, whisper: list[str], kokoro: bool = True
                 continue
             printer(f"download  {item.name} <- {item.url}")
             partial = target.with_suffix(target.suffix + ".part")
-            urllib.request.urlretrieve(item.url, partial)  # noqa: S310 - fixed https URL
+            urllib.request.urlretrieve(item.url, partial)
             partial.rename(target)
     for name in whisper:
         from faster_whisper import download_model

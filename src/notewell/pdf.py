@@ -24,14 +24,23 @@ def render_pdf(visit: Visit, note: Note) -> bytes:
         title=f"Progress note - {visit.title}", author=visit.clinician.name,
     )  # fmt: skip
     styles = getSampleStyleSheet()
-    h1 = ParagraphStyle("h1", parent=styles["Heading1"], fontSize=16, spaceAfter=4, textColor=colors.HexColor("#12355b"))
-    h2 = ParagraphStyle("h2", parent=styles["Heading2"], fontSize=12, spaceBefore=10, spaceAfter=3, textColor=colors.HexColor("#12355b"))
+    h1 = ParagraphStyle(
+        "h1", parent=styles["Heading1"], fontSize=16, spaceAfter=4, textColor=colors.HexColor("#12355b")
+    )
+    h2 = ParagraphStyle(
+        "h2", parent=styles["Heading2"], fontSize=12, spaceBefore=10, spaceAfter=3, textColor=colors.HexColor("#12355b")
+    )
     body = ParagraphStyle("body", parent=styles["BodyText"], fontSize=9.5, leading=12.5)
     small = ParagraphStyle("small", parent=body, fontSize=8, textColor=colors.HexColor("#555555"))
     story: list[object] = [Paragraph("Progress note", h1)]
     p = visit.patient
     meta = [
-        ["Patient", f"{p.name}  (DOB {p.dob or 'n/a'}, MRN {p.mrn or 'n/a'})", "Visit", f"{visit.visit_date}, {visit.visit_type}"],
+        [
+            "Patient",
+            f"{p.name}  (DOB {p.dob or 'n/a'}, MRN {p.mrn or 'n/a'})",
+            "Visit",
+            f"{visit.visit_date}, {visit.visit_type}",
+        ],
         ["Clinician", visit.clinician.name, "Specialty", visit.specialty.replace("_", " ").title()],
     ]
     table = Table(meta, colWidths=[0.8 * inch, 3.2 * inch, 0.8 * inch, 2.1 * inch])
@@ -44,8 +53,12 @@ def render_pdf(visit: Visit, note: Note) -> bytes:
         if items:
             story.append(ListFlowable(items, bulletType="bullet", start="•", leftIndent=12))
         if section == "subjective":
-            meds = "; ".join(" ".join(x for x in (m.name, m.dose, m.frequency, f"({m.status})") if x) for m in note.medications)
-            allergies = "; ".join(f"{a.substance} ({a.reaction})" if a.reaction else a.substance for a in note.allergies)
+            meds = "; ".join(
+                " ".join(x for x in (m.name, m.dose, m.frequency, f"({m.status})") if x) for m in note.medications
+            )
+            allergies = "; ".join(
+                f"{a.substance} ({a.reaction})" if a.reaction else a.substance for a in note.allergies
+            )
             story.append(Paragraph(f"<b>Medications:</b> {escape(meds) or 'none documented'}", body))
             story.append(Paragraph(f"<b>Allergies:</b> {escape(allergies) or 'none reported'}", body))
     accepted = [c for c in note.icd10 if c.accepted]
@@ -62,7 +75,10 @@ def render_pdf(visit: Visit, note: Note) -> bytes:
     else:
         story.append(Paragraph("No codes accepted.", body))
     if note.after_visit_summary:
-        story += [Paragraph("After-visit summary (for the patient)", h2), Paragraph(escape(note.after_visit_summary), body)]
+        story += [
+            Paragraph("After-visit summary (for the patient)", h2),
+            Paragraph(escape(note.after_visit_summary), body),
+        ]
     signed = (
         f"Electronically signed by {escape(note.signed_by or '')} on {note.signed_at:%Y-%m-%d %H:%M} UTC."
         if note.signed_at

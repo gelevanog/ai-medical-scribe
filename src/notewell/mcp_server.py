@@ -149,8 +149,16 @@ class NotewellTools:
                 "visit_id": visit.id,
                 "model": note.model,
                 "statements": statements,
-                "medications": [{"name": m.name, "dose": m.dose, "frequency": m.frequency, "status": m.status,
-                                 "flags": [f.message for f in m.flags]} for m in note.medications],  # fmt: skip
+                "medications": [
+                    {
+                        "name": m.name,
+                        "dose": m.dose,
+                        "frequency": m.frequency,
+                        "status": m.status,
+                        "flags": [f.message for f in m.flags],
+                    }
+                    for m in note.medications
+                ],  # fmt: skip
                 "allergies": [{"substance": a.substance, "reaction": a.reaction} for a in note.allergies],
                 "after_visit_summary": note.after_visit_summary,
                 "codes": self._codes_view(visit)["icd10"],
@@ -179,8 +187,14 @@ class NotewellTools:
             stmt = grounder.ground(Statement(id=f"c{i + 1}", section=section, text=text, evidence=evidence))  # type: ignore[arg-type]
             issues = check_statement(stmt.text, index, section=section)
             results.append(
-                {"index": i, "text": text, "support": stmt.support, "evidence_turns": sorted({e.turn for e in stmt.evidence if e.verified}),
-                 "flags": [f.message for f in stmt.flags] + [f"{x.kind}: {x.surface!r} (turns {x.turns[:4]})" for x in issues]}  # fmt: skip
+                {
+                    "index": i,
+                    "text": text,
+                    "support": stmt.support,
+                    "evidence_turns": sorted({e.turn for e in stmt.evidence if e.verified}),
+                    "flags": [f.message for f in stmt.flags]
+                    + [f"{x.kind}: {x.surface!r} (turns {x.turns[:4]})" for x in issues],
+                }  # fmt: skip
             )
         self.services().store.audit(ACTOR, "mcp.check_note", visit_id, statements=len(results))
         ok = sum(1 for r in results if r["support"] == "supported" and not r["flags"])
@@ -191,11 +205,28 @@ class NotewellTools:
         if note is None:
             return {"icd10": [], "em": None, "procedures": []}
         return {
-            "icd10": [{"code": c.code, "description": c.description, "valid": c.valid, "rationale": c.rationale,
-                       "flags": [f.message for f in c.flags]} for c in note.icd10],  # fmt: skip
-            "em": {"code": note.em.code, "description": note.em.description, "flags": [f.message for f in note.em.flags]} if note.em else None,
+            "icd10": [
+                {
+                    "code": c.code,
+                    "description": c.description,
+                    "valid": c.valid,
+                    "rationale": c.rationale,
+                    "flags": [f.message for f in c.flags],
+                }
+                for c in note.icd10
+            ],  # fmt: skip
+            "em": {
+                "code": note.em.code,
+                "description": note.em.description,
+                "flags": [f.message for f in note.em.flags],
+            }
+            if note.em
+            else None,
             "rule_based_mdm": note.mdm.model_dump() if note.mdm else None,
-            "procedures": [{"code": p.code, "description": p.description, "flags": [f.message for f in p.flags]} for p in note.procedures],
+            "procedures": [
+                {"code": p.code, "description": p.description, "flags": [f.message for f in p.flags]}
+                for p in note.procedures
+            ],
         }
 
     def suggest_codes(self, visit_id: str) -> dict[str, Any]:
@@ -217,19 +248,35 @@ class NotewellTools:
         out = []
         for code in codes[:50]:
             v = cs.validate(code)
-            out.append({"code": v.code, "status": v.status, "title": v.title, "message": v.message, "children": list(v.children)})
+            out.append(
+                {
+                    "code": v.code,
+                    "status": v.status,
+                    "title": v.title,
+                    "message": v.message,
+                    "children": list(v.children),
+                }
+            )
         return {"codes": out, "code_list": "ICD-10-CM FY2027" + ("" if cs.complete else " (offline subset)")}
 
     def search_icd10(self, query: str, limit: int = 10) -> dict[str, Any]:
         cs = self.services().codeset
-        return {"results": [{"code": c.dotted, "title": c.title, "score": round(s, 1)} for c, s in cs.search(query, limit=limit)]}
+        return {
+            "results": [
+                {"code": c.dotted, "title": c.title, "score": round(s, 1)} for c, s in cs.search(query, limit=limit)
+            ]
+        }
 
     def export_fhir(self, visit_id: str) -> dict[str, Any]:
         try:
             result = self.services().export_fhir(visit_id, ACTOR)
         except ServiceError as exc:
             raise ToolError(str(exc)) from None
-        return {"visit_id": visit_id, **result, "note": "Resources were created on the FHIR server; their content is not returned here."}
+        return {
+            "visit_id": visit_id,
+            **result,
+            "note": "Resources were created on the FHIR server; their content is not returned here.",
+        }
 
 
 def build_server(tools: NotewellTools) -> MCPServer:
@@ -248,7 +295,9 @@ def build_server(tools: NotewellTools) -> MCPServer:
 
     @server.tool(
         title="Transcribe a visit",
-        annotations=ToolAnnotations(read_only_hint=False, destructive_hint=False, idempotent_hint=True, open_world_hint=False),
+        annotations=ToolAnnotations(
+            read_only_hint=False, destructive_hint=False, idempotent_hint=True, open_world_hint=False
+        ),
     )
     def transcribe_visit(visit_id: VisitId) -> dict[str, Any]:
         """Transcribe the visit's audio locally (faster-whisper on CPU when enabled; the gold transcript for the
@@ -262,8 +311,12 @@ def build_server(tools: NotewellTools) -> MCPServer:
 
     @server.tool(
         title="Draft the SOAP note",
-        annotations=ToolAnnotations(read_only_hint=False, destructive_hint=False, idempotent_hint=False,
-                                    open_world_hint=tools.settings.llm_provider != "fake"),  # fmt: skip
+        annotations=ToolAnnotations(
+            read_only_hint=False,
+            destructive_hint=False,
+            idempotent_hint=False,
+            open_world_hint=tools.settings.llm_provider != "fake",
+        ),  # fmt: skip
     )
     def draft_note(visit_id: VisitId) -> dict[str, Any]:
         """Run Notewell's own pipeline: mask, draft with the configured model (offline rule-based model by default),
@@ -276,8 +329,11 @@ def build_server(tools: NotewellTools) -> MCPServer:
         visit_id: VisitId,
         statements: Annotated[
             list[dict[str, Any]],
-            Field(max_length=200, description='Statements to verify: [{"section": "subjective", "text": "Denies chest pain", '
-                  '"evidence_turns": [5, 6], "quote": "Any chest pain?"}]. Placeholders are allowed.'),  # fmt: skip
+            Field(
+                max_length=200,
+                description='Statements to verify: [{"section": "subjective", "text": "Denies chest pain", '
+                '"evidence_turns": [5, 6], "quote": "Any chest pain?"}]. Placeholders are allowed.',
+            ),  # fmt: skip
         ],
     ) -> dict[str, Any]:
         """Verify statements you wrote from the masked transcript: is each one supported by a transcript quote, and
@@ -293,7 +349,9 @@ def build_server(tools: NotewellTools) -> MCPServer:
         return tools.suggest_codes(visit_id)
 
     @server.tool(title="Validate ICD-10-CM codes", annotations=READ_ONLY)
-    def validate_codes(codes: Annotated[list[str], Field(max_length=50, description="Codes, with or without the dot.")]) -> dict[str, Any]:
+    def validate_codes(
+        codes: Annotated[list[str], Field(max_length=50, description="Codes, with or without the dot.")],
+    ) -> dict[str, Any]:
         """Check codes against the official ICD-10-CM list: valid and billable, a category header (with billable
         children), or not a code."""
         return tools.validate_codes(codes)
@@ -308,7 +366,9 @@ def build_server(tools: NotewellTools) -> MCPServer:
 
     @server.tool(
         title="Export a signed note as FHIR R4",
-        annotations=ToolAnnotations(read_only_hint=False, destructive_hint=False, idempotent_hint=False, open_world_hint=True),
+        annotations=ToolAnnotations(
+            read_only_hint=False, destructive_hint=False, idempotent_hint=False, open_world_hint=True
+        ),
     )
     def export_fhir(visit_id: VisitId) -> dict[str, Any]:
         """Post the signed note as a FHIR R4 transaction (Composition, DocumentReference with the PDF, Condition,

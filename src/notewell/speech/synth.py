@@ -65,7 +65,14 @@ class Synthesizer:
             peak = float(np.max(np.abs(audio))) or 1.0
             audio = (audio / peak * 0.8).astype(np.float32)
             duration = len(audio) / SAMPLE_RATE
-            timings.append({"idx": turn.idx, "speaker": turn.speaker, "start": round(cursor, 3), "end": round(cursor + duration, 3)})
+            timings.append(
+                {
+                    "idx": turn.idx,
+                    "speaker": turn.speaker,
+                    "start": round(cursor, 3),
+                    "end": round(cursor + duration, 3),
+                }
+            )
             pieces.append(audio)
             gap = float(rng.uniform(0.25, 0.75))
             pieces.append(np.zeros(int(gap * SAMPLE_RATE), dtype=np.float32))

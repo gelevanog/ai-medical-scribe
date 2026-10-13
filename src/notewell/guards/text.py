@@ -171,8 +171,15 @@ OTHER_PEOPLE = re.compile(
 )
 HYPOTHETICAL = re.compile(
     r"\b(?:if|in case|should (?:you|it|she|he|they)|unless|watch for|look out for|call (?:us )?if|come back if|"
-    r"return if|go to the (?:er|emergency)|precautions?|would|could|might|may need|consider|considering|"
-    r"plan to|planning|thinking about|down the road|in the future|eventually|possible|possibly)\b",
+    r"return if|go to the (?:er|emergency)|(?:go to|call) (?:the )?(?:er|ed|911|emergency room)|precautions?|"
+    r"warning signs?|seek care|would|could|might|may need|consider|considering|plan to|planning|thinking about|"
+    r"down the road|in the future|eventually|possible|possibly)\b",
+    re.I,
+)
+HYPOTHETICAL_STRONG = re.compile(
+    r"\b(?:if|in case|should (?:you|it|she|he|they)|unless|watch for|look out for|call (?:us )?if|come back if|"
+    r"return if|go to the (?:er|emergency)|(?:go to|call) (?:the )?(?:er|ed|911|emergency room)|precautions?|"
+    r"warning signs?|seek care)\b",
     re.I,
 )
 AFFIRM = re.compile(
@@ -203,6 +210,15 @@ def words_to_digits(text: str) -> str:
 
     out = re.sub(r"\b(" + "|".join(_TENS) + r")[- ](" + "|".join(_UNITS) + r")\b", tens, text, flags=re.IGNORECASE)
     out = re.sub(r"\b(?:a|one) hundred(?: and)? (\d+)\b", lambda m: str(100 + int(m.group(1))), out, flags=re.I)
+    out = re.sub(r"\b(\d+) and a half\b", lambda m: f"{m.group(1)}.5", out, flags=re.I)
+    out = re.sub(r"\b(\d+)(?:st|nd|rd|th)\b", r"\1", out)
+
+    out = re.sub(
+        r"\b(?:" + "|".join(_UNITS) + r") and a half\b",
+        lambda m: f"{_UNITS[m.group(0).split()[0].lower()]}.5",
+        out,
+        flags=re.I,
+    )
 
     def single(match: re.Match[str]) -> str:
         value = _NUMBER_WORDS[match.group(0).lower()]
@@ -227,14 +243,40 @@ def tokens(text: str) -> tuple[str, ...]:
     return tuple(_TOKEN.findall(words_to_digits(text.lower()).replace("/", " ")))
 
 
+_CANON = {
+    "follow": "followup", "followup": "followup", "return": "followup", "recheck": "followup", "revisit": "followup",
+    "salt": "sodium", "sodium": "sodium", "hypertension": "pressure", "pressure": "pressure", "bp": "pressure",
+    "hyperlipidemia": "cholesterol", "cholesterol": "cholesterol", "lipid": "cholesterol", "dyspnea": "breath",
+    "breath": "breath", "edema": "swell", "swell": "swell", "swollen": "swell", "discontinue": "stop", "stop": "stop",
+    "quit": "stop", "increase": "increase", "raise": "increase", "bump": "increase", "decrease": "decrease",
+    "lower": "decrease", "reduce": "decrease", "medication": "medicine", "medicine": "medicine", "med": "medicine",
+    "pill": "medicine", "tablet": "medicine", "physician": "doctor", "doctor": "doctor", "pain": "pain", "hurt": "pain",
+    "ache": "pain", "sore": "pain", "fever": "fever", "temperature": "fever", "febrile": "fever", "weight": "weigh",
+    "weigh": "weigh", "pound": "weigh", "lb": "weigh", "lbs": "weigh", "kilogram": "weigh", "milligram": "mg",
+    "mg": "mg", "microgram": "mcg", "mcg": "mcg", "daily": "day", "day": "day", "nightly": "night", "bedtime": "night",
+    "night": "night", "week": "week", "weekly": "week", "laboratory": "lab", "lab": "lab", "bloodwork": "lab",
+}  # fmt: skip
+
+
 def content_terms(text: str) -> set[str]:
-    return {stem(t) for t in tokens(text) if t not in STOPWORDS and (len(t) >= 3 or t.replace(".", "").isdigit())}
-
-
-def numbers(text: str) -> set[str]:
-    """Numbers that carry meaning (doses, vitals, durations), normalized: "1,440" -> "1440", "10.0" -> "10"."""
     out: set[str] = set()
     for t in tokens(text):
+        if t in STOPWORDS or not (len(t) >= 3 or t.replace(".", "").isdigit()):
+            continue
+        s = stem(t)
+        out.add(_CANON.get(t, _CANON.get(s, s)))
+    return out
+
+
+def numbers(text: str, *, words: bool = True) -> set[str]:
+    """Numbers that carry meaning (doses, vitals, durations), normalized: "1,440" -> "1440", "10.0" -> "10".
+    words=False ignores spelled-out numbers ("one day"), for statements whose digits must be backed by the transcript."""
+    out: set[str] = set()
+    source = (
+        tokens(text) if words else tuple(re.findall(r"[0-9]+(?:\.[0-9]+)?", re.sub(r"(\d),(\d{3})", r"\1\2", text)))
+    )
+    for t in source:
+        t = re.sub(r"^(\d+(?:\.\d+)?)s$", r"\1", t)  # "your 10s" -> 10
         value = number_value(t)
         if value is None:
             continue

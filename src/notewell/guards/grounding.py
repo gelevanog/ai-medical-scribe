@@ -23,7 +23,10 @@ from notewell.kb import drug_aliases, drug_pattern
 from notewell.models import Evidence, Flag, Statement, Turn
 
 QUOTE_MIN_RATIO = 0.8
-CONTENT_MIN_OVERLAP = 0.34
+CONTENT_MIN_OVERLAP = 0.15
+"""Below this share of content terms found near the quote, a verified quote is probably about something else."""
+NEIGHBORHOOD = 2
+"""Turns before and after a cited turn that count as its context (questions, answers, a sentence split by ASR)."""
 AUTOLINK_MIN_OVERLAP = 0.6
 
 
@@ -65,9 +68,12 @@ class Grounder:
         ]
         self.by_idx = {t.idx: t for t in self.turns}
 
-    def neighbors(self, idx: int) -> list[TurnText]:
-        """The cited turn plus the turn before and after (a question and its answer belong together)."""
-        return [self.by_idx[i] for i in (idx - 1, idx, idx + 1) if i in self.by_idx]
+    def neighbors(self, idx: int, span: int = 1) -> list[TurnText]:
+        """The cited turn plus the turns around it (a question and its answer belong together)."""
+        return [self.by_idx[i] for i in range(idx - span, idx + span + 1) if i in self.by_idx]
+
+    def drug_turns(self, drugs: set[str]) -> list[TurnText]:
+        return [t for t in self.turns if t.drugs & drugs]
 
     def verify_quote(self, ev: Evidence) -> Evidence | None:
         quote = tokens(ev.quote)
@@ -93,7 +99,7 @@ class Grounder:
         evidence = [e for e in (self.verify_quote(ev) for ev in statement.evidence) if e is not None]
         verified = [e for e in evidence if e.verified]
         text = statement.text
-        stmt_numbers = numbers(text)
+        stmt_numbers = numbers(text, words=False)
         stmt_drugs = drugs_in(text)
         stmt_terms = content_terms(text) - stmt_numbers
         flags: list[Flag] = []
@@ -101,7 +107,8 @@ class Grounder:
         def coverage(turn_ids: set[int]) -> tuple[set[str], set[str], float]:
             pool: list[TurnText] = []
             for idx in turn_ids:
-                pool.extend(self.neighbors(idx))
+                pool.extend(self.neighbors(idx, NEIGHBORHOOD))
+            pool.extend(self.drug_turns(stmt_drugs))  # a dose belongs to wherever its drug was discussed
             nums = set().union(*(t.numbers for t in pool)) if pool else set()
             drugs = set().union(*(t.drugs for t in pool)) if pool else set()
             terms = set().union(*(t.terms for t in pool)) if pool else set()

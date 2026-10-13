@@ -14,7 +14,9 @@ from rich.table import Table
 
 from notewell.config import Settings, get_settings
 
-app = typer.Typer(help="Notewell: an AI medical scribe demo (synthetic data, not for clinical use).", no_args_is_help=True)
+app = typer.Typer(
+    help="Notewell: an AI medical scribe demo (synthetic data, not for clinical use).", no_args_is_help=True
+)
 codes_app = typer.Typer(help="The official ICD-10-CM code list.", no_args_is_help=True)
 data_app = typer.Typer(help="The synthetic visit dataset.", no_args_is_help=True)
 models_app = typer.Typer(help="Local speech models and free cloud models.", no_args_is_help=True)
@@ -26,11 +28,15 @@ app.add_typer(eval_app, name="eval")
 console = Console()
 
 Provider = Annotated[str | None, typer.Option(help="fake | openrouter | openai_compatible")]
-Model = Annotated[str | None, typer.Option(help="model id (OpenRouter ids must end in :free unless paid models are allowed)")]
+Model = Annotated[
+    str | None, typer.Option(help="model id (OpenRouter ids must end in :free unless paid models are allowed)")
+]
 Fallbacks = Annotated[str | None, typer.Option(help="comma-separated fallback model ids")]
 
 
-def _settings(provider: str | None = None, model: str | None = None, fallbacks: str | None = None, **extra: object) -> Settings:
+def _settings(
+    provider: str | None = None, model: str | None = None, fallbacks: str | None = None, **extra: object
+) -> Settings:
     settings = get_settings()
     update: dict[str, object] = dict(extra)
     if provider:
@@ -100,7 +106,9 @@ def draft(visit_id: str, provider: Provider = None, model: Model = None, fallbac
         flags = ", ".join(f.kind for f in s.flags)
         console.print(f"[bold]{s.section[:1].upper()}[/] {s.text}  [dim]{s.support}[/] [red]{flags}[/]")
     for m in note.medications:
-        console.print(f"[cyan]Rx[/] {m.name} {m.dose} {m.frequency} ({m.status}) [red]{', '.join(f.kind for f in m.flags)}[/]")
+        console.print(
+            f"[cyan]Rx[/] {m.name} {m.dose} {m.frequency} ({m.status}) [red]{', '.join(f.kind for f in m.flags)}[/]"
+        )
     for c in note.icd10:
         console.print(f"[magenta]ICD[/] {c.code} {c.description} [red]{', '.join(f.kind for f in c.flags)}[/]")
     if note.em:
@@ -174,7 +182,9 @@ def data_validate() -> None:
             bad += 1
             console.print(f"[red]FAIL[/] {case.id}: " + "; ".join(errors[:5]))
     stats = Counter(c.specialty for c in cases)
-    console.print(f"{len(cases) - bad}/{len(cases)} valid; {dict(stats)}; facts {sum(len(c.gold.facts) for c in cases)}")
+    console.print(
+        f"{len(cases) - bad}/{len(cases)} valid; {dict(stats)}; facts {sum(len(c.gold.facts) for c in cases)}"
+    )
     if bad:
         raise typer.Exit(1)
 
@@ -214,7 +224,11 @@ def models_free() -> None:
     import httpx
 
     settings = get_settings()
-    r = httpx.get(f"{settings.openrouter_base_url}/models", headers={"Authorization": f"Bearer {settings.openrouter_api_key}"}, timeout=30)
+    r = httpx.get(
+        f"{settings.openrouter_base_url}/models",
+        headers={"Authorization": f"Bearer {settings.openrouter_api_key}"},
+        timeout=30,
+    )
     r.raise_for_status()
     for m in sorted(r.json()["data"], key=lambda m: m["id"]):
         if m["id"].endswith(":free"):
@@ -254,7 +268,9 @@ def eval_smoke(
         rows.append(row)
         console.print(row)
     out.parent.mkdir(parents=True, exist_ok=True)
-    out.write_text(json.dumps({"visit": visit, "date": time.strftime("%Y-%m-%d"), "results": rows}, indent=1), encoding="utf-8")
+    out.write_text(
+        json.dumps({"visit": visit, "date": time.strftime("%Y-%m-%d"), "results": rows}, indent=1), encoding="utf-8"
+    )
 
 
 @eval_app.command("notes")
@@ -314,7 +330,9 @@ def eval_asr(
     from notewell.eval.asr_runner import run_asr
 
     settings = get_settings()
-    summary = run_asr(settings, model=model, condition=condition, prompt=prompt, ids=ids.split(",") if ids else None, threads=threads)
+    summary = run_asr(
+        settings, model=model, condition=condition, prompt=prompt, ids=ids.split(",") if ids else None, threads=threads
+    )
     console.print({k: v for k, v in summary.items() if k != "cases"})
 
 
@@ -346,7 +364,11 @@ def eval_report() -> None:
 @app.command()
 def calls(ledger: Path = Path("results/calls.jsonl")) -> None:
     """Summarize the call ledger: requests by model and status, tokens; verifies every model id ends in :free."""
-    rows = [json.loads(line) for line in ledger.read_text(encoding="utf-8").splitlines() if line.strip()] if ledger.exists() else []
+    rows = (
+        [json.loads(line) for line in ledger.read_text(encoding="utf-8").splitlines() if line.strip()]
+        if ledger.exists()
+        else []
+    )
     by = Counter((r.get("requested_model"), r.get("status")) for r in rows)
     table = Table("model", "status", "requests")
     for (model, status), n in sorted(by.items(), key=lambda kv: (str(kv[0][0]), str(kv[0][1]))):
@@ -362,7 +384,10 @@ def calls(ledger: Path = Path("results/calls.jsonl")) -> None:
         "non_free_models": sorted(non_free),
     }
     console.print(summary)
-    (ledger.parent / "calls_summary.json").write_text(json.dumps({**summary, "by_model_status": {f"{m} {s}": n for (m, s), n in by.items()}}, indent=1), encoding="utf-8")
+    (ledger.parent / "calls_summary.json").write_text(
+        json.dumps({**summary, "by_model_status": {f"{m} {s}": n for (m, s), n in by.items()}}, indent=1),
+        encoding="utf-8",
+    )
 
 
 def _print_summary(summary: dict[str, object]) -> None:

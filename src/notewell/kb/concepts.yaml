@@ -61,7 +61,7 @@ suicidal_ideation: [suicid*, kill myself, killing myself, end my life, ending my
 homicidal_ideation: [homicid*, hurting someone, hurting anyone else, hurt someone else, harming others]
 hallucinations: [hallucinat*, hearing voices, seeing things]
 mania: [manic, mania, hypomani*, racing thoughts, decreased need for sleep]
-alcohol_use: [alcohol, drinking, drinks, beer*, wine, liquor, vodka, whiskey]
+alcohol_use: [alcohol, drinking alcohol, alcoholic drinks, drinks a week, drinks per, beer*, wine, liquor, vodka, whiskey, binge]
 tobacco_use: [smok*, cigarette*, tobacco, vap*, nicotine, chew]
 drug_use: [marijuana, cannabis, weed, recreational drug*, street drugs, cocaine, opioid*, heroin, meth*]
 irritability: [irritab*, short-tempered, snapping at]

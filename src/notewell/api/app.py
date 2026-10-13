@@ -84,7 +84,9 @@ def visit_summary(v: Visit) -> dict[str, Any]:
         "patient": {"name": v.patient.name, "dob": v.patient.dob, "sex": v.patient.sex},
         "clinician": v.clinician.name,
         "has_audio": bool(v.audio),
-        "duration_s": (v.transcript.turns[-1].end if v.transcript and v.transcript.turns and v.transcript.turns[-1].end else None),
+        "duration_s": (
+            v.transcript.turns[-1].end if v.transcript and v.transcript.turns and v.transcript.turns[-1].end else None
+        ),
         "open_issues": flags,
         "primary_code": {"code": primary.code, "description": primary.description} if primary else None,
         "model": note.model if note else None,
@@ -238,7 +240,9 @@ def create_app(settings: Settings | None = None, services: Services | None = Non
 
     @app.get("/api/codes/search")
     def search_codes(q: str, _: CurrentUser, limit: int = 12) -> list[dict[str, Any]]:
-        return [{"code": c.dotted, "title": c.title, "score": round(s, 2)} for c, s in svc().codeset.search(q, limit=limit)]
+        return [
+            {"code": c.dotted, "title": c.title, "score": round(s, 2)} for c, s in svc().codeset.search(q, limit=limit)
+        ]
 
     @app.post("/api/visits/{visit_id}/sign")
     def sign(visit_id: str, body: SignBody, user: Clinician) -> dict[str, Any]:

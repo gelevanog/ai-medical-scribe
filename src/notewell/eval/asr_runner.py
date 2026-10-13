@@ -71,7 +71,9 @@ def run_asr(
         "audio_minutes": round(sum(c["audio_s"] for c in per_case) / 60, 1),
         "real_time_factor_p50": round(statistics.median(rtf), 3) if rtf else None,
         "asr_seconds_per_visit_p50": round(statistics.median(c["asr_s"] for c in per_case), 1) if per_case else None,
-        "diarization_seconds_per_visit_p50": round(statistics.median(c["diarization_s"] for c in per_case), 2) if per_case else None,
+        "diarization_seconds_per_visit_p50": round(statistics.median(c["diarization_s"] for c in per_case), 2)
+        if per_case
+        else None,
         "misrecognized_drug_terms": dict(sorted(terms.items(), key=lambda kv: -kv[1])[:30]),
         "cases": per_case,
     }

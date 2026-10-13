@@ -8,6 +8,7 @@ transcript only ever denies, attributes to someone else or mentions as a hypothe
 
 from __future__ import annotations
 
+import re
 from collections import defaultdict
 from dataclasses import dataclass, field
 from typing import Literal
@@ -17,6 +18,7 @@ from notewell.guards.text import (
     DENY,
     FAMILY,
     HYPOTHETICAL,
+    HYPOTHETICAL_STRONG,
     NEGATION_POST,
     NEGATION_PRE,
     OTHER_PEOPLE,
@@ -70,7 +72,9 @@ def clause_polarity(sentence: str, start: int, end: int, *, others: bool = True)
     after = sentence[end:]
     after_break = SCOPE_BREAK.search(after)
     after_window = after[: after_break.start()] if after_break else after
-    if HYPOTHETICAL.search(window):
+    # Order matters: a strong hypothetical ("if", "call if", "go to the ER for") wins, then someone else's history,
+    # then a negation, and only then weak modal words ("Denies feeling like she might pass out" is a denial).
+    if HYPOTHETICAL_STRONG.search(window):
         return "hypothetical"
     if FAMILY.search(window) or FAMILY.search(after_window[:30]):
         return "family"
@@ -78,6 +82,8 @@ def clause_polarity(sentence: str, start: int, end: int, *, others: bool = True)
         return "family"
     if NEGATION_PRE.search(window) or NEGATION_POST.match(after_window[:25]):
         return "absent"
+    if HYPOTHETICAL.search(window):
+        return "hypothetical"
     return "present"
 
 
@@ -115,6 +121,13 @@ def statement_polarity(text: str, start: int, end: int) -> Polarity:
     return clause_polarity(text, start, end, others=False)
 
 
+_TEMPORAL = re.compile(
+    r"\b(?:since|anymore|no longer|lately|recently|currently|now|today|in the (?:past|last)|"
+    r"this (?:week|month)|resolved|gone)\b",
+    re.I,
+)
+
+
 @dataclass
 class PolarityIssue:
     concept: str
@@ -136,9 +149,11 @@ def check_statement(text: str, index: ConceptIndex, *, section: str = "") -> lis
         mine = statement_polarity(text, start, end)
         theirs = index.summary(concept)
         turns = sorted({m.turn for m in said})
+        if hedged and mine in {"present", "hypothetical"}:
+            continue  # a precaution or plan item that names a denied symptom ("go to the ER for chest pain") is fine
         if mine == "present" and theirs == "absent" and not mentions_family:
             issues.append(PolarityIssue(concept, text[start:end], "negation", mine, theirs, turns))
-        elif mine == "absent" and theirs == "present":
+        elif mine == "absent" and theirs == "present" and not _TEMPORAL.search(text):
             # "Denies fever" while the patient described a fever, unless the transcript also denies it somewhere.
             if "absent" not in index.polarities(concept):
                 issues.append(PolarityIssue(concept, text[start:end], "negation", mine, theirs, turns))

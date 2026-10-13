@@ -36,6 +36,10 @@ def run_phi(settings: Settings) -> dict[str, Any]:
         if path.exists():
             items = yaml.safe_load(path.read_text(encoding="utf-8"))
             r = evaluate_challenge(items)
-            summary[Path(name).stem + "_current"] = {k: v for k, v in r.items() if k not in {"misses", "over_masked_negatives"}}
+            summary[Path(name).stem + "_current"] = {
+                k: v for k, v in r.items() if k not in {"misses", "over_masked_negatives"}
+            }
     (out / "summary.json").write_text(json.dumps(summary, indent=1), encoding="utf-8")
-    return {k: {kk: vv for kk, vv in v.items() if kk in {"recall", "gold_values", "covered"}} for k, v in summary.items()}
+    return {
+        k: {kk: vv for kk, vv in v.items() if kk in {"recall", "gold_values", "covered"}} for k, v in summary.items()
+    }

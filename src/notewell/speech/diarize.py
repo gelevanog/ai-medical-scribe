@@ -46,7 +46,9 @@ class Chunk:
     @property
     def text(self) -> str:
         # Whisper's word strings carry their own leading space ("follow" + "-up" stays "follow-up").
-        return "".join(w.text if w.text[:1].isspace() or i == 0 else " " + w.text for i, w in enumerate(self.words)).strip()
+        return "".join(
+            w.text if w.text[:1].isspace() or i == 0 else " " + w.text for i, w in enumerate(self.words)
+        ).strip()
 
 
 _CLINICIAN = re.compile(
@@ -92,7 +94,9 @@ def signature(audio: Audio, start: float, end: float) -> np.ndarray[Any, np.dtyp
     return np.concatenate([voiced.mean(axis=0), voiced.std(axis=0), [np.log(f0 + 1.0) * 4.0]])
 
 
-def kmeans2(x: np.ndarray[Any, np.dtype[np.float64]], *, restarts: int = 12, seed: int = 0) -> np.ndarray[Any, np.dtype[np.int64]]:
+def kmeans2(
+    x: np.ndarray[Any, np.dtype[np.float64]], *, restarts: int = 12, seed: int = 0
+) -> np.ndarray[Any, np.dtype[np.int64]]:
     rng = np.random.default_rng(seed)
     best_labels = np.zeros(len(x), dtype=np.int64)
     best_inertia = np.inf
@@ -158,7 +162,11 @@ def diarize(audio: Audio, words: list[Word], *, second_speaker: str = "patient")
             last = turns[-1]
             turns[-1] = last.model_copy(update={"text": f"{last.text} {chunk.text}", "end": round(chunk.end, 2)})
         else:
-            turns.append(Turn(idx=len(turns), speaker=role, text=chunk.text, start=round(chunk.start, 2), end=round(chunk.end, 2)))
+            turns.append(
+                Turn(
+                    idx=len(turns), speaker=role, text=chunk.text, start=round(chunk.start, 2), end=round(chunk.end, 2)
+                )
+            )
     info = {
         "method": "log-mel + pitch signatures, k-means (k=2), lexical role inference",
         "chunks": len(chunks),

@@ -1,11 +1,11 @@
 """Evaluation runs. Each writes JSON artifacts under results/ (committed), so every number in the README has a file.
 
-    notewell eval asr      speech recognition + diarization on the synthesized audio (local, no API calls)
-    notewell eval notes    notes and codes for every visit with a model; PHI leak check on every outgoing payload
-    notewell eval canary   the leak test with canary identities and an injected unregistered identifier
-    notewell eval phi      PHI detection on the dialogues and the two held-out challenge sets (local)
-    notewell eval guards   guard catch rate on deliberately corrupted notes (local)
-    notewell eval report   results/summary.json and results/report.md from the artifacts above
+notewell eval asr      speech recognition + diarization on the synthesized audio (local, no API calls)
+notewell eval notes    notes and codes for every visit with a model; PHI leak check on every outgoing payload
+notewell eval canary   the leak test with canary identities and an injected unregistered identifier
+notewell eval phi      PHI detection on the dialogues and the two held-out challenge sets (local)
+notewell eval guards   guard catch rate on deliberately corrupted notes (local)
+notewell eval report   results/summary.json and results/report.md from the artifacts above
 """
 
 from __future__ import annotations
@@ -45,7 +45,7 @@ def sensitive_values(case: Case) -> list[tuple[str, str]]:
     values: list[tuple[str, str]] = []
     for phi in case.gold.phi:
         value = _TITLE.sub("", phi.value).strip()
-        if len(value) >= 3 and not value.lower() in {"the", "may", "june"}:
+        if len(value) >= 3 and value.lower() not in {"the", "may", "june"}:
             values.append((phi.type, value))
     p = case.patient
     values += [("NAME", p.name), *[("NAME", part) for part in p.name.split() if len(part) >= 3]]
@@ -79,7 +79,18 @@ def find_leaks(values: Sequence[tuple[str, str]], payloads: Sequence[Sequence[Me
     return leaks
 
 
-_PROMPT_WORDS = {"january", "february", "march", "april", "july", "august", "september", "october", "november", "december"}
+_PROMPT_WORDS = {
+    "january",
+    "february",
+    "march",
+    "april",
+    "july",
+    "august",
+    "september",
+    "october",
+    "november",
+    "december",
+}
 
 
 # ------------------------------------------------------------------------------------------------- notes run
@@ -109,13 +120,17 @@ def load_transcript(case: Case, source: str) -> Transcript:
     return Transcript.model_validate(json.loads(path.read_text(encoding="utf-8")))
 
 
-def run_notes(cases: Sequence[Case], llm: ChatModel, codeset: CodeSet, config: RunConfig, *, max_tokens: int = 6000) -> dict[str, Any]:
+def run_notes(
+    cases: Sequence[Case], llm: ChatModel, codeset: CodeSet, config: RunConfig, *, max_tokens: int = 6000
+) -> dict[str, Any]:
     result = RunResult()
     notes_dir = config.out_dir / "notes"
     started = time.time()
     for i, case in enumerate(cases, 1):
         payloads: list[list[Message]] = []
-        scribe = Scribe(llm, codeset, max_tokens=max_tokens, observer=lambda _label, msgs, sink=payloads: sink.append(list(msgs)))
+        scribe = Scribe(
+            llm, codeset, max_tokens=max_tokens, observer=lambda _label, msgs, sink=payloads: sink.append(list(msgs))
+        )
         visit: Visit = case.visit()
         visit.transcript = load_transcript(case, config.transcripts)
         t0 = time.perf_counter()
@@ -171,7 +186,10 @@ def _latency(timings: list[dict[str, float]]) -> dict[str, Any]:
         return out
     for key in ("phi_masking", "llm_note", "llm_codes", "guards_note", "guards_codes", "total"):
         values = sorted(t.get(key, 0.0) for t in timings)
-        out[key] = {"p50": round(statistics.median(values), 2), "p95": round(values[min(len(values) - 1, int(0.95 * len(values)))], 2)}
+        out[key] = {
+            "p50": round(statistics.median(values), 2),
+            "p95": round(values[min(len(values) - 1, int(0.95 * len(values)))], 2),
+        }
     return out
 
 
@@ -223,14 +241,18 @@ def canary_case(case: Case) -> Case:
     return data
 
 
-def run_canary(cases: Sequence[Case], llm: ChatModel, codeset: CodeSet, out_dir: Path, *, max_tokens: int = 6000) -> dict[str, Any]:
+def run_canary(
+    cases: Sequence[Case], llm: ChatModel, codeset: CodeSet, out_dir: Path, *, max_tokens: int = 6000
+) -> dict[str, Any]:
     per_case: list[dict[str, Any]] = []
     leaked_total = 0
     payload_count = 0
     for case in cases:
         canary = canary_case(case)
         payloads: list[list[Message]] = []
-        scribe = Scribe(llm, codeset, max_tokens=max_tokens, observer=lambda _l, msgs, sink=payloads: sink.append(list(msgs)))
+        scribe = Scribe(
+            llm, codeset, max_tokens=max_tokens, observer=lambda _l, msgs, sink=payloads: sink.append(list(msgs))
+        )
         visit = canary.visit()
         visit.transcript = canary.transcript()
         error = ""
@@ -244,7 +266,15 @@ def run_canary(cases: Sequence[Case], llm: ChatModel, codeset: CodeSet, out_dir:
         leaks = find_leaks(values, payloads)
         leaked_total += len(leaks)
         payload_count += len(payloads)
-        per_case.append({"case": case.id, "payloads": len(payloads), "leaks": leaks, "egress_residue_masked": residue, "error": error})
+        per_case.append(
+            {
+                "case": case.id,
+                "payloads": len(payloads),
+                "leaks": leaks,
+                "egress_residue_masked": residue,
+                "error": error,
+            }
+        )
     summary = {
         "visits": len(cases),
         "payloads_checked": payload_count,

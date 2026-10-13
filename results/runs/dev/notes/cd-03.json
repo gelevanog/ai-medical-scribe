@@ -1,0 +1,858 @@
+{
+ "note": {
+  "visit_id": "cd-03",
+  "statements": [
+   {
+    "id": "s1",
+    "section": "subjective",
+    "text": "Ankle swelling for about a week, worse by afternoon, shoes tight.",
+    "evidence": [
+     {
+      "turn": 3,
+      "quote": "Yeah, my ankles have been puffing up for about a week. My shoes are tight by the afternoon.",
+      "verified": true,
+      "score": 1.0
+     }
+    ],
+    "support": "supported",
+    "flags": [],
+    "origin": "model",
+    "edited": false
+   },
+   {
+    "id": "s2",
+    "section": "subjective",
+    "text": "Weight increased 7 pounds from usual.",
+    "evidence": [
+     {
+      "turn": 3,
+      "quote": "And the scale says I'm up 7 pounds.",
+      "verified": true,
+      "score": 1.0
+     }
+    ],
+    "support": "supported",
+    "flags": [],
+    "origin": "model",
+    "edited": false
+   },
+   {
+    "id": "s3",
+    "section": "subjective",
+    "text": "Usual weight around 182 pounds, current weight 189 pounds.",
+    "evidence": [
+     {
+      "turn": 5,
+      "quote": "I'm usually right around 182. This morning it was 189.",
+      "verified": true,
+      "score": 1.0
+     }
+    ],
+    "support": "supported",
+    "flags": [],
+    "origin": "model",
+    "edited": false
+   },
+   {
+    "id": "s4",
+    "section": "subjective",
+    "text": "Shortness of breath worse than usual, winded after 1 block vs usual 3 blocks.",
+    "evidence": [
+     {
+      "turn": 7,
+      "quote": "Worse than usual. Normally I can walk 3 blocks to the corner store. Now I'm winded after about 1 block.",
+      "verified": true,
+      "score": 1.0
+     }
+    ],
+    "support": "supported",
+    "flags": [],
+    "origin": "model",
+    "edited": false
+   },
+   {
+    "id": "s5",
+    "section": "subjective",
+    "text": "Increased pillow use from 1 to 2 for breathing comfort.",
+    "evidence": [
+     {
+      "turn": 9,
+      "quote": "I've gone from 1 pillow to 2. Feels easier to breathe propped up.",
+      "verified": true,
+      "score": 1.0
+     }
+    ],
+    "support": "supported",
+    "flags": [],
+    "origin": "model",
+    "edited": false
+   },
+   {
+    "id": "s6",
+    "section": "subjective",
+    "text": "Denies waking up at night gasping for air.",
+    "evidence": [
+     {
+      "turn": 10,
+      "quote": "Are you waking up at night gasping for air?",
+      "verified": true,
+      "score": 1.0
+     },
+     {
+      "turn": 11,
+      "quote": "No, not that.",
+      "verified": true,
+      "score": 1.0
+     }
+    ],
+    "support": "supported",
+    "flags": [],
+    "origin": "model",
+    "edited": false
+   },
+   {
+    "id": "s7",
+    "section": "subjective",
+    "text": "Denies chest pain.",
+    "evidence": [
+     {
+      "turn": 12,
+      "quote": "Any chest pain, or feeling like you might pass out?",
+      "verified": true,
+      "score": 1.0
+     },
+     {
+      "turn": 13,
+      "quote": "No chest pain. No passing out.",
+      "verified": true,
+      "score": 1.0
+     }
+    ],
+    "support": "supported",
+    "flags": [],
+    "origin": "model",
+    "edited": false
+   },
+   {
+    "id": "s8",
+    "section": "subjective",
+    "text": "Denies feeling like might pass out.",
+    "evidence": [
+     {
+      "turn": 12,
+      "quote": "Any chest pain, or feeling like you might pass out?",
+      "verified": true,
+      "score": 1.0
+     },
+     {
+      "turn": 13,
+      "quote": "No chest pain. No passing out.",
+      "verified": true,
+      "score": 1.0
+     }
+    ],
+    "support": "supported",
+    "flags": [],
+    "origin": "model",
+    "edited": false
+   },
+   {
+    "id": "s9",
+    "section": "subjective",
+    "text": "Increased salt intake due to wedding two weekends ago, ate ham and salty food.",
+    "evidence": [
+     {
+      "turn": 15,
+      "quote": "Well, my nephew got married two weekends ago. There was a lot of ham, a lot of salty food. I wasn't careful, I'll admit it.",
+      "verified": true,
+      "score": 1.0
+     }
+    ],
+    "support": "supported",
+    "flags": [],
+    "origin": "model",
+    "edited": false
+   },
+   {
+    "id": "s10",
+    "section": "subjective",
+    "text": "Taking naproxen for knee arthritis: two 220 mg pills twice daily for about two weeks.",
+    "evidence": [
+     {
+      "turn": 21,
+      "quote": "Um, I've been taking naproxen for my knees. The arthritis acts up. Two of the 220 milligram pills, twice a day, for about two weeks.",
+      "verified": true,
+      "score": 1.0
+     }
+    ],
+    "support": "supported",
+    "flags": [],
+    "origin": "model",
+    "edited": false
+   },
+   {
+    "id": "o1",
+    "section": "objective",
+    "text": "Weight 189 pounds.",
+    "evidence": [
+     {
+      "turn": 22,
+      "quote": "Your weight here is 189 pounds.",
+      "verified": true,
+      "score": 1.0
+     }
+    ],
+    "support": "supported",
+    "flags": [],
+    "origin": "model",
+    "edited": false
+   },
+   {
+    "id": "o2",
+    "section": "objective",
+    "text": "Blood pressure 112 over 70.",
+    "evidence": [
+     {
+      "turn": 22,
+      "quote": "Blood pressure is 112 over 70, pulse 78, and oxygen is 95 percent on room air.",
+      "verified": true,
+      "score": 1.0
+     }
+    ],
+    "support": "supported",
+    "flags": [],
+    "origin": "model",
+    "edited": false
+   },
+   {
+    "id": "o3",
+    "section": "objective",
+    "text": "Pulse 78.",
+    "evidence": [
+     {
+      "turn": 22,
+      "quote": "Blood pressure is 112 over 70, pulse 78, and oxygen is 95 percent on room air.",
+      "verified": true,
+      "score": 1.0
+     }
+    ],
+    "support": "supported",
+    "flags": [],
+    "origin": "model",
+    "edited": false
+   },
+   {
+    "id": "o4",
+    "section": "objective",
+    "text": "Oxygen saturation 95% on room air.",
+    "evidence": [
+     {
+      "turn": 22,
+      "quote": "Blood pressure is 112 over 70, pulse 78, and oxygen is 95 percent on room air.",
+      "verified": true,
+      "score": 1.0
+     }
+    ],
+    "support": "supported",
+    "flags": [],
+    "origin": "model",
+    "edited": false
+   },
+   {
+    "id": "o5",
+    "section": "objective",
+    "text": "Neck veins elevated to 10 centimeters.",
+    "evidence": [
+     {
+      "turn": 22,
+      "quote": "Your neck veins are up to about 10 centimeters.",
+      "verified": true,
+      "score": 1.0
+     }
+    ],
+    "support": "supported",
+    "flags": [],
+    "origin": "model",
+    "edited": false
+   },
+   {
+    "id": "o6",
+    "section": "objective",
+    "text": "Crackles at lung bases bilaterally.",
+    "evidence": [
+     {
+      "turn": 22,
+      "quote": "I hear some crackles at the bottom of both lungs.",
+      "verified": true,
+      "score": 1.0
+     }
+    ],
+    "support": "supported",
+    "flags": [],
+    "origin": "model",
+    "edited": false
+   },
+   {
+    "id": "o7",
+    "section": "objective",
+    "text": "Regular heart rhythm with S3 gallop.",
+    "evidence": [
+     {
+      "turn": 22,
+      "quote": "Heart is regular, and I hear a soft extra sound called an S3.",
+      "verified": true,
+      "score": 1.0
+     }
+    ],
+    "support": "supported",
+    "flags": [],
+    "origin": "model",
+    "edited": false
+   },
+   {
+    "id": "o8",
+    "section": "objective",
+    "text": "2+ pitting edema up to mid-shins bilaterally.",
+    "evidence": [
+     {
+      "turn": 22,
+      "quote": "And you've got 2 plus pitting swelling up to the middle of both shins.",
+      "verified": true,
+      "score": 1.0
+     }
+    ],
+    "support": "supported",
+    "flags": [],
+    "origin": "model",
+    "edited": false
+   },
+   {
+    "id": "a1",
+    "section": "assessment",
+    "text": "Mild flare of heart failure with reduced ejection fraction.",
+    "evidence": [
+     {
+      "turn": 26,
+      "quote": "So this is a mild flare of your heart failure with reduced ejection fraction.",
+      "verified": true,
+      "score": 1.0
+     }
+    ],
+    "support": "supported",
+    "flags": [],
+    "origin": "model",
+    "edited": false
+   },
+   {
+    "id": "p1",
+    "section": "plan",
+    "text": "Discontinue naproxen completely.",
+    "evidence": [
+     {
+      "turn": 26,
+      "quote": "Naproxen makes the kidneys hold onto salt and water, so I want you to stop it completely.",
+      "verified": true,
+      "score": 1.0
+     }
+    ],
+    "support": "supported",
+    "flags": [],
+    "origin": "model",
+    "edited": false
+   },
+   {
+    "id": "p2",
+    "section": "plan",
+    "text": "Start acetaminophen 650 mg up to 3 times daily for knee pain.",
+    "evidence": [
+     {
+      "turn": 28,
+      "quote": "Acetaminophen is safer for your heart. You can take 650 milligrams up to 3 times a day.",
+      "verified": true,
+      "score": 1.0
+     }
+    ],
+    "support": "supported",
+    "flags": [],
+    "origin": "model",
+    "edited": false
+   },
+   {
+    "id": "p3",
+    "section": "plan",
+    "text": "Increase furosemide to 40 mg twice daily for 5 days, then resume 40 mg daily when weight near 183 lbs.",
+    "evidence": [
+     {
+      "turn": 28,
+      "quote": "For the fluid, I'm increasing the furosemide to 40 milligrams twice a day for the next 5 days. Once your weight is back near 183, go back to 40 milligrams once a day.",
+      "verified": true,
+      "score": 1.0
+     }
+    ],
+    "support": "supported",
+    "flags": [],
+    "origin": "model",
+    "edited": false
+   },
+   {
+    "id": "p4",
+    "section": "plan",
+    "text": "Continue sacubitril valsartan 49/51 mg twice daily, carvedilol 12.5 mg twice daily, spironolactone 25 mg daily, dapagliflozin 10 mg daily unchanged.",
+    "evidence": [
+     {
+      "turn": 30,
+      "quote": "Keep all your other heart medicines the same.",
+      "verified": true,
+      "score": 1.0
+     }
+    ],
+    "support": "supported",
+    "flags": [],
+    "origin": "model",
+    "edited": false
+   },
+   {
+    "id": "p5",
+    "section": "plan",
+    "text": "Daily morning weight after bathroom, record log.",
+    "evidence": [
+     {
+      "turn": 30,
+      "quote": "Weigh yourself every morning after you use the bathroom and write it down.",
+      "verified": true,
+      "score": 1.0
+     }
+    ],
+    "support": "supported",
+    "flags": [],
+    "origin": "model",
+    "edited": false
+   },
+   {
+    "id": "p6",
+    "section": "plan",
+    "text": "Limit sodium intake to under 2000 mg daily.",
+    "evidence": [
+     {
+      "turn": 30,
+      "quote": "Keep salt under 2000 milligrams a day and fluids to about 2 liters.",
+      "verified": true,
+      "score": 1.0
+     }
+    ],
+    "support": "partial",
+    "flags": [
+     {
+      "kind": "partial_support",
+      "severity": "warning",
+      "message": "Quoted turn does not contain most of its terms; check against the transcript.",
+      "acknowledged": false,
+      "detail": {}
+     }
+    ],
+    "origin": "model",
+    "edited": false
+   },
+   {
+    "id": "p7",
+    "section": "plan",
+    "text": "Limit fluid intake to about 2 liters daily.",
+    "evidence": [
+     {
+      "turn": 30,
+      "quote": "Keep salt under 2000 milligrams a day and fluids to about 2 liters.",
+      "verified": true,
+      "score": 1.0
+     }
+    ],
+    "support": "supported",
+    "flags": [],
+    "origin": "model",
+    "edited": false
+   },
+   {
+    "id": "p8",
+    "section": "plan",
+    "text": "Basic metabolic panel on the 21st of October.",
+    "evidence": [
+     {
+      "turn": 32,
+      "quote": "I'd also like a basic metabolic panel on the 21st of October, to make sure your kidneys and potassium are okay with the higher dose.",
+      "verified": true,
+      "score": 1.0
+     }
+    ],
+    "support": "supported",
+    "flags": [],
+    "origin": "model",
+    "edited": false
+   },
+   {
+    "id": "p9",
+    "section": "plan",
+    "text": "Call if weight increases 3 lbs in one day or 5 lbs in one week.",
+    "evidence": [
+     {
+      "turn": 32,
+      "quote": "Call us if your weight goes up 3 pounds in a day or 5 pounds in a week.",
+      "verified": true,
+      "score": 1.0
+     }
+    ],
+    "support": "supported",
+    "flags": [],
+    "origin": "model",
+    "edited": false
+   },
+   {
+    "id": "p10",
+    "section": "plan",
+    "text": "Go to ER for shortness of breath at rest or chest pain.",
+    "evidence": [
+     {
+      "turn": 32,
+      "quote": "If you're short of breath at rest, or you get chest pain, go to the emergency room.",
+      "verified": true,
+      "score": 1.0
+     }
+    ],
+    "support": "supported",
+    "flags": [],
+    "origin": "model",
+    "edited": false
+   },
+   {
+    "id": "p11",
+    "section": "plan",
+    "text": "Follow-up in 1 week to check weight and swelling.",
+    "evidence": [
+     {
+      "turn": 36,
+      "quote": "I want to see you back in 1 week to check your weight and the swelling.",
+      "verified": true,
+      "score": 1.0
+     }
+    ],
+    "support": "supported",
+    "flags": [],
+    "origin": "model",
+    "edited": false
+   }
+  ],
+  "medications": [
+   {
+    "name": "sacubitril valsartan",
+    "dose": "49/51 mg",
+    "frequency": "twice daily",
+    "route": "oral",
+    "status": "active",
+    "evidence": [
+     {
+      "turn": 16,
+      "quote": "You're on sacubitril valsartan, 49 and 51 milligrams twice a day",
+      "verified": true,
+      "score": 1.0
+     }
+    ],
+    "flags": []
+   },
+   {
+    "name": "carvedilol",
+    "dose": "12.5 mg",
+    "frequency": "twice daily",
+    "route": "oral",
+    "status": "active",
+    "evidence": [
+     {
+      "turn": 16,
+      "quote": "carvedilol 12.5 milligrams twice a day",
+      "verified": true,
+      "score": 1.0
+     }
+    ],
+    "flags": []
+   },
+   {
+    "name": "spironolactone",
+    "dose": "25 mg",
+    "frequency": "once daily",
+    "route": "oral",
+    "status": "active",
+    "evidence": [
+     {
+      "turn": 16,
+      "quote": "spironolactone 25 milligrams once a day",
+      "verified": true,
+      "score": 1.0
+     }
+    ],
+    "flags": []
+   },
+   {
+    "name": "dapagliflozin",
+    "dose": "10 mg",
+    "frequency": "once daily",
+    "route": "oral",
+    "status": "active",
+    "evidence": [
+     {
+      "turn": 16,
+      "quote": "and dapagliflozin 10 milligrams once a day",
+      "verified": true,
+      "score": 1.0
+     }
+    ],
+    "flags": []
+   },
+   {
+    "name": "furosemide",
+    "dose": "40 mg",
+    "frequency": "twice daily",
+    "route": "oral",
+    "status": "changed",
+    "evidence": [
+     {
+      "turn": 19,
+      "quote": "The water pill is 20 milligrams in the morning. Wait, no, it's the 40. They changed it in the summer, it's 40.",
+      "verified": true,
+      "score": 1.0
+     },
+     {
+      "turn": 28,
+      "quote": "For the fluid, I'm increasing the furosemide to 40 milligrams twice a day for the next 5 days.",
+      "verified": true,
+      "score": 1.0
+     }
+    ],
+    "flags": []
+   },
+   {
+    "name": "naproxen",
+    "dose": "220 mg",
+    "frequency": "twice daily",
+    "route": "oral",
+    "status": "stopped",
+    "evidence": [
+     {
+      "turn": 21,
+      "quote": "Two of the 220 milligram pills, twice a day, for about two weeks.",
+      "verified": true,
+      "score": 1.0
+     },
+     {
+      "turn": 26,
+      "quote": "I want you to stop it completely.",
+      "verified": true,
+      "score": 1.0
+     }
+    ],
+    "flags": []
+   },
+   {
+    "name": "acetaminophen",
+    "dose": "650 mg",
+    "frequency": "up to 3 times daily",
+    "route": "oral",
+    "status": "new",
+    "evidence": [
+     {
+      "turn": 28,
+      "quote": "Acetaminophen is safer for your heart. You can take 650 milligrams up to 3 times a day.",
+      "verified": true,
+      "score": 1.0
+     }
+    ],
+    "flags": []
+   }
+  ],
+  "allergies": [
+   {
+    "substance": "none reported",
+    "reaction": "none",
+    "evidence": [
+     {
+      "turn": 20,
+      "quote": "Anything over the counter?",
+      "verified": true,
+      "score": 1.0
+     }
+    ]
+   }
+  ],
+  "after_visit_summary": "You have a mild worsening of your heart failure, likely due to eating salty food and taking naproxen for your knees. We found swelling in your legs, weight gain, and increased shortness of breath. To help, stop naproxen completely and use acetaminophen (650 mg up to 3 times daily) for knee pain instead. Increase your water pill (furosemide) to 40 mg twice daily for 5 days, then go back to 40 mg daily once your weight is near 183 lbs. Keep taking your other heart medicines as before. Weigh yourself each morning after using the bathroom and write it down. Limit salt to under 2000 mg per day and fluids to about 2 liters daily. We will check a blood test on the 21st of October to monitor your kidneys and potassium. Call us if your weight goes up 3 lbs in one day or 5 lbs in one week. Go to the emergency room if you have shortness of breath at rest or chest pain. Follow up in 1 week to check your weight and swelling.",
+  "avs_flags": [],
+  "icd10": [
+   {
+    "system": "ICD-10-CM",
+    "code": "I50.22",
+    "description": "Chronic systolic (congestive) heart failure",
+    "rank": 1,
+    "rationale": "Chronic systolic (congestive) heart failure, as the patient has known heart failure with reduced ejection fraction (EF 30%) and presents with a mild flare due to dietary salt and NSAID use.",
+    "evidence": [
+     {
+      "turn": 26,
+      "quote": "So this is a mild flare of your heart failure with reduced ejection fraction.",
+      "verified": true,
+      "score": 1.0
+     },
+     {
+      "turn": 24,
+      "quote": "Your last echo in March showed an ejection fraction of 30 percent, so your heart pump is weaker than normal",
+      "verified": true,
+      "score": 1.0
+     }
+    ],
+    "valid": true,
+    "billable": true,
+    "flags": [],
+    "accepted": null
+   }
+  ],
+  "em": {
+   "system": "CPT",
+   "code": "99214",
+   "description": "Established patient office visit, moderate-complexity decision making",
+   "rank": 1,
+   "rationale": "Established patient with one chronic illness (heart failure) with mild exacerbation requiring medication adjustment, monitoring, and patient education; moderate medical decision making based on prescription drug management (moderate risk) and review of symptoms, vitals, and plan.",
+   "evidence": [],
+   "valid": true,
+   "billable": true,
+   "flags": [],
+   "accepted": null
+  },
+  "procedures": [],
+  "mdm": {
+   "problems": "moderate",
+   "data": "low",
+   "risk": "moderate",
+   "level": "moderate",
+   "code": "99214",
+   "reasons": [
+    "problems: chronic illness not at goal",
+    "data: limited (tests or an independent historian)",
+    "risk: prescription drug management"
+   ]
+  },
+  "section_status": {
+   "subjective": "draft",
+   "objective": "draft",
+   "assessment": "draft",
+   "plan": "draft"
+  },
+  "model": "openrouter/nvidia/nemotron-3-super-120b-a12b:free",
+  "created_at": "2026-10-13T05:19:41.435219Z",
+  "signed_by": null,
+  "signed_at": null,
+  "timings": {
+   "phi_masking": 0.083,
+   "llm_note": 0.019,
+   "guards_note": 0.127,
+   "llm_codes": 0.127,
+   "guards_codes": 0.074,
+   "total": 0.43
+  },
+  "usage": {
+   "input_tokens": 5335,
+   "output_tokens": 3011,
+   "calls": 2
+  },
+  "phi": {
+   "NAME": 3,
+   "DOB": 1,
+   "DATE": 2,
+   "EMAIL": 1
+  }
+ },
+ "vault": {
+  "originals": {
+   "[PATIENT]": "Darnell Whitaker",
+   "[NAME_1]": "Megan Kowalczyk",
+   "[DOB]": "February 27th, 1958",
+   "[NAME_2]": "Lorraine",
+   "[DATE_1]": "March",
+   "[DATE_2]": "the 21st of October",
+   "[EMAIL_1]": "s darnell dot whitaker at examplemail dot com"
+  },
+  "surfaces": {
+   "[PATIENT]": [
+    "Darnell Whitaker",
+    "Whitaker"
+   ],
+   "[NAME_1]": [
+    "Megan",
+    "Megan Kowalczyk"
+   ],
+   "[DOB]": [
+    "February 27th, 1958"
+   ],
+   "[NAME_2]": [
+    "Lorraine"
+   ],
+   "[DATE_1]": [
+    "March"
+   ],
+   "[DATE_2]": [
+    "the 21st of October"
+   ],
+   "[EMAIL_1]": [
+    "s darnell dot whitaker at examplemail dot com"
+   ]
+  },
+  "types": {
+   "[PATIENT]": "NAME",
+   "[NAME_1]": "NAME",
+   "[DOB]": "DOB",
+   "[NAME_2]": "NAME",
+   "[DATE_1]": "DATE",
+   "[DATE_2]": "DATE",
+   "[EMAIL_1]": "EMAIL"
+  },
+  "counters": {
+   "NAME": 2,
+   "DATE": 2,
+   "EMAIL": 1
+  }
+ },
+ "score": {
+  "case": "cd-03",
+  "specialty": "cardiology",
+  "facts": 28,
+  "found": 25,
+  "found_in_section": 23,
+  "negation_errors": [],
+  "trap_errors": [],
+  "missed": [
+   "f9 [subjective] Adherent to guideline medications; wife fills weekly pill box",
+   "f17 [objective] Echo in March with LVEF 30%",
+   "f18 [objective] Labs 3 weeks ago potassium 4.6, creatinine 1.2"
+  ],
+  "statements": 30,
+  "statements_matching_gold": 27,
+  "unsupported": 0,
+  "partial": 1,
+  "flags": {
+   "partial_support": 1
+  },
+  "meds": 7,
+  "meds_found": 6,
+  "meds_dose_correct": 5,
+  "icd_primary": "I50.23",
+  "icd_suggested": [
+   "I50.22"
+  ],
+  "icd_top1": false,
+  "icd_top3": false,
+  "icd_top3_lenient": true,
+  "icd_top3_category": true,
+  "icd_gold_recall": 0.5,
+  "icd_invalid": 0,
+  "em_gold": "99214",
+  "em_suggested": "99214",
+  "em_exact": true,
+  "em_within_one": true,
+  "em_rule_estimate": "99214",
+  "procedures_gold": 0,
+  "procedures_found": 0
+ },
+ "egress_residue": {}
+}

@@ -118,8 +118,11 @@ def score_note(case: Case, note: Note) -> CaseScore:
         score.facts += 1
         _score_fact(fact, lines, score, matched_statements)
     score.statements_matching_gold = len({i for i in matched_statements if i < len(note.statements)})
+    legit = {lines[i][1] for i in matched_statements}
     for trap in case.traps:
         for _, text in lines:
+            if text in legit:
+                continue  # a statement that states a gold fact is not a trap error ("salt at a wedding" is the cause)
             m = match_fact(text, trap.match)
             if m is None:
                 continue
@@ -128,7 +131,9 @@ def score_note(case: Case, note: Note) -> CaseScore:
             if trap.type == "correction":
                 hedged = bool(re.search(r"\b(?:corrected|not|previously|was|earlier|from)\b", lowered))
             if trap.type == "past_resolved":
-                hedged = hedged or bool(re.search(r"\b(?:resolved|history of|previous|prior|past|ago|was|had)\b", lowered))
+                hedged = hedged or bool(
+                    re.search(r"\b(?:resolved|history of|previous|prior|past|ago|was|had)\b", lowered)
+                )
             if trap.type == "small_talk":
                 hedged = False
             if not hedged and statement_polarity(text, m) == "present":
@@ -150,7 +155,9 @@ def score_note(case: Case, note: Note) -> CaseScore:
         gold_drug = normalize_drug(gm.name)
         for m in note.medications:
             drug = normalize_drug(m.name)
-            same = (drug is not None and gold_drug is not None and drug.name == gold_drug.name) or m.name.lower() == gm.name.lower()
+            same = (
+                drug is not None and gold_drug is not None and drug.name == gold_drug.name
+            ) or m.name.lower() == gm.name.lower()
             if same:
                 score.meds_found += 1
                 if not gm.dose or (numbers(gm.dose) & numbers(f"{m.dose}")):
@@ -178,7 +185,9 @@ def score_note(case: Case, note: Note) -> CaseScore:
     score.em_exact = score.em_suggested == score.em_gold
     g, s_ = code_level(score.em_gold), code_level(score.em_suggested)
     same_family = score.em_gold[:4] == score.em_suggested[:4]
-    score.em_within_one = score.em_exact or bool(g and s_ and same_family and abs(_LEVELS.index(g) - _LEVELS.index(s_)) <= 1)
+    score.em_within_one = score.em_exact or bool(
+        g and s_ and same_family and abs(_LEVELS.index(g) - _LEVELS.index(s_)) <= 1
+    )
     gold_proc = {str(p["code"]) for p in case.gold.procedures}
     score.procedures_gold = len(gold_proc)
     score.procedures_found = len(gold_proc & {p.code for p in note.procedures})

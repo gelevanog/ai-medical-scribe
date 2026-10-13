@@ -75,11 +75,16 @@ def run_guard_eval(settings: Settings, run: str = "main", seed: int = 7) -> dict
         case = cases[cid]
         base = _verify(note, case)
         baseline_statements += len(base.statements)
-        baseline_errors += sum(1 for s in base.statements if _errors(s.flags, {"negation", "attribution", "hypothetical"}))
+        baseline_errors += sum(
+            1 for s in base.statements if _errors(s.flags, {"negation", "attribution", "hypothetical"})
+        )
         # negation flip
         absent = [f for f in case.gold.facts if f.polarity == "absent"]
         for s in base.statements:
-            fact = next((f for f in absent if (m := match_fact(s.text, f.match)) and statement_polarity(s.text, m) == "absent"), None)
+            fact = next(
+                (f for f in absent if (m := match_fact(s.text, f.match)) and statement_polarity(s.text, m) == "absent"),
+                None,
+            )
             if fact is None or _errors(s.flags, {"negation"}):
                 continue
             flipped = re.sub(r"^(?:denies|no|negative for|without)\s+", "Reports ", s.text, flags=re.I)
@@ -97,7 +102,11 @@ def run_guard_eval(settings: Settings, run: str = "main", seed: int = 7) -> dict
             target = nums[0]
             changed = re.sub(rf"\b{target}\b", str(int(target) + 30), s.text, count=1)
             out = _verify(_replace(base, s.id, changed), case)
-            record("number_change", _errors(_stmt(out, s.id).flags, {"partial_support", "unsupported"}), f"{cid}: {changed}")
+            record(
+                "number_change",
+                _errors(_stmt(out, s.id).flags, {"partial_support", "unsupported"}),
+                f"{cid}: {changed}",
+            )
             break
         # medication dose x10 and unit swap
         for i, m in enumerate(base.medications):
@@ -108,24 +117,44 @@ def run_guard_eval(settings: Settings, run: str = "main", seed: int = 7) -> dict
             tampered = base.model_copy(deep=True)
             tampered.medications[i].dose = f"{value:g} {d.group(2)}"
             out = _verify(tampered, case)
-            record("dose_x10", _errors(out.medications[i].flags, {"dose_range", "dose_mismatch"}), f"{cid}: {m.name} {tampered.medications[i].dose}")
+            record(
+                "dose_x10",
+                _errors(out.medications[i].flags, {"dose_range", "dose_mismatch"}),
+                f"{cid}: {m.name} {tampered.medications[i].dose}",
+            )
             unit = d.group(2).lower()
-            swapped_unit = "mcg" if unit.startswith(("mg", "milligram")) else "mg" if unit.startswith(("mcg", "microgram")) else None
+            swapped_unit = (
+                "mcg"
+                if unit.startswith(("mg", "milligram"))
+                else "mg"
+                if unit.startswith(("mcg", "microgram"))
+                else None
+            )
             if swapped_unit:
                 tampered = base.model_copy(deep=True)
                 tampered.medications[i].dose = f"{d.group(1)} {swapped_unit}"
                 out = _verify(tampered, case)
-                record("unit_swap", _errors(out.medications[i].flags, {"dose_unit", "dose_range"}), f"{cid}: {m.name} {tampered.medications[i].dose}")
+                record(
+                    "unit_swap",
+                    _errors(out.medications[i].flags, {"dose_unit", "dose_range"}),
+                    f"{cid}: {m.name} {tampered.medications[i].dose}",
+                )
             break
         # invented statement from another specialty
-        pool = [s for oid, s in other_statements if cases[oid].specialty != case.specialty and s.section in {"objective", "assessment"}]
+        pool = [
+            s
+            for oid, s in other_statements
+            if cases[oid].specialty != case.specialty and s.section in {"objective", "assessment"}
+        ]
         if pool:
             alien = rng.choice(pool)
             injected = base.model_copy(deep=True)
             injected.statements.append(Statement(id="x1", section=alien.section, text=alien.text,
                                                  evidence=[Evidence(turn=rng.randrange(len(case.dialogue)), quote=alien.text[:60])]))  # fmt: skip
             out = _verify(injected, case)
-            record("invented", _errors(_stmt(out, "x1").flags, {"unsupported", "partial_support"}), f"{cid}: {alien.text}")
+            record(
+                "invented", _errors(_stmt(out, "x1").flags, {"unsupported", "partial_support"}), f"{cid}: {alien.text}"
+            )
         # ICD corruptions
         grounder = Grounder(case.dialogue)
         index = index_transcript(case.dialogue)
@@ -133,9 +162,13 @@ def run_guard_eval(settings: Settings, run: str = "main", seed: int = 7) -> dict
         primary = next((c for c in note.icd10 if c.valid and len(c.code) > 3), None)
         if primary:
             for kind, code in (("icd_header", primary.code.split(".")[0]), ("icd_fake", "U" + primary.code[1:])):
-                result = check_icd([{"code": code}], codeset=codeset, grounder=grounder, index=index, assessment=assessment)
+                result = check_icd(
+                    [{"code": code}], codeset=codeset, grounder=grounder, index=index, assessment=assessment
+                )
                 record(kind, _errors(result[0].flags, {"code_invalid", "code_not_billable"}), f"{cid}: {code}")
-        denied = next((c for c, ms in index.mentions.items() if index.summary(c) == "absent" and c in _DENIED_CODES), None)
+        denied = next(
+            (c for c, ms in index.mentions.items() if index.summary(c) == "absent" and c in _DENIED_CODES), None
+        )
         if denied:
             code = _DENIED_CODES[denied]
             result = check_icd([{"code": code}], codeset=codeset, grounder=grounder, index=index, assessment=assessment)
@@ -143,7 +176,10 @@ def run_guard_eval(settings: Settings, run: str = "main", seed: int = 7) -> dict
     summary = {
         "run": run,
         "notes": len(notes),
-        "catch_rate": {k: {"trials": trials[k], "caught": caught[k], "rate": round(caught[k] / trials[k], 3)} for k in sorted(trials)},
+        "catch_rate": {
+            k: {"trials": trials[k], "caught": caught[k], "rate": round(caught[k] / trials[k], 3)}
+            for k in sorted(trials)
+        },
         "overall": {"trials": sum(trials.values()), "caught": sum(caught.values())},
         "baseline_polarity_error_flags_per_statement": round(baseline_errors / max(1, baseline_statements), 4),
         "missed_examples": {k: v[:6] for k, v in examples.items()},

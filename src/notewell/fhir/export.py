@@ -49,13 +49,24 @@ def note_text(note: Note) -> str:
         lines.extend(f"- {s.text}" for s in note.section(section))
         if section == "subjective":
             if note.medications:
-                lines.append("Medications: " + "; ".join(f"{m.name} {m.dose} {m.frequency} ({m.status})".strip() for m in note.medications))
-            lines.append("Allergies: " + ("; ".join(f"{a.substance} ({a.reaction})" if a.reaction else a.substance for a in note.allergies) or "none reported"))
+                lines.append(
+                    "Medications: "
+                    + "; ".join(f"{m.name} {m.dose} {m.frequency} ({m.status})".strip() for m in note.medications)
+                )
+            lines.append(
+                "Allergies: "
+                + (
+                    "; ".join(f"{a.substance} ({a.reaction})" if a.reaction else a.substance for a in note.allergies)
+                    or "none reported"
+                )
+            )
         lines.append("")
     return "\n".join(lines).strip()
 
 
-def build_bundle(visit: Visit, note: Note, *, pdf: bytes | None = None, organization: str = "Notewell Demo Clinic") -> dict[str, Any]:
+def build_bundle(
+    visit: Visit, note: Note, *, pdf: bytes | None = None, organization: str = "Notewell Demo Clinic"
+) -> dict[str, Any]:
     if note.signed_at is None or not note.signed_by:
         raise ValueError("only a signed note can be exported")
     now = datetime.now(UTC).isoformat(timespec="seconds")
@@ -96,8 +107,14 @@ def build_bundle(visit: Visit, note: Note, *, pdf: bytes | None = None, organiza
         {
             "resourceType": "Encounter",
             "status": "finished",
-            "class": {"system": "http://terminology.hl7.org/CodeSystem/v3-ActCode", "code": "AMB", "display": "ambulatory"},
-            "type": [{"coding": [{"system": CPT_SYSTEM, "code": note.em.code}]}] if note.em and note.em.accepted is not False else [],
+            "class": {
+                "system": "http://terminology.hl7.org/CodeSystem/v3-ActCode",
+                "code": "AMB",
+                "display": "ambulatory",
+            },
+            "type": [{"coding": [{"system": CPT_SYSTEM, "code": note.em.code}]}]
+            if note.em and note.em.accepted is not False
+            else [],
             "subject": {"reference": patient_ref},
             "participant": [{"individual": {"reference": practitioner_ref}}],
             "period": {"start": visit.visit_date, "end": visit.visit_date},
@@ -114,10 +131,28 @@ def build_bundle(visit: Visit, note: Note, *, pdf: bytes | None = None, organiza
             ref,
             {
                 "resourceType": "Condition",
-                "clinicalStatus": {"coding": [{"system": "http://terminology.hl7.org/CodeSystem/condition-clinical", "code": "active"}]},
-                "verificationStatus": {"coding": [{"system": "http://terminology.hl7.org/CodeSystem/condition-ver-status", "code": "confirmed"}]},
-                "category": [{"coding": [{"system": "http://terminology.hl7.org/CodeSystem/condition-category", "code": "encounter-diagnosis"}]}],
-                "code": {"coding": [{"system": ICD10CM, "code": code.code, "display": code.description}], "text": code.description},
+                "clinicalStatus": {
+                    "coding": [{"system": "http://terminology.hl7.org/CodeSystem/condition-clinical", "code": "active"}]
+                },
+                "verificationStatus": {
+                    "coding": [
+                        {"system": "http://terminology.hl7.org/CodeSystem/condition-ver-status", "code": "confirmed"}
+                    ]
+                },
+                "category": [
+                    {
+                        "coding": [
+                            {
+                                "system": "http://terminology.hl7.org/CodeSystem/condition-category",
+                                "code": "encounter-diagnosis",
+                            }
+                        ]
+                    }
+                ],
+                "code": {
+                    "coding": [{"system": ICD10CM, "code": code.code, "display": code.description}],
+                    "text": code.description,
+                },
                 "subject": {"reference": patient_ref},
                 "encounter": {"reference": encounter_ref},
                 "recordedDate": signed,
@@ -134,13 +169,19 @@ def build_bundle(visit: Visit, note: Note, *, pdf: bytes | None = None, organiza
                 "medicationCodeableConcept": {"text": med.name},
                 "subject": {"reference": patient_ref},
                 "context": {"reference": encounter_ref},
-                "dosage": [{"text": " ".join(x for x in (med.dose, med.frequency, med.route) if x).strip() or "as directed"}],
+                "dosage": [
+                    {"text": " ".join(x for x in (med.dose, med.frequency, med.route) if x).strip() or "as directed"}
+                ],
             },
         )
     for i, allergy in enumerate(note.allergies):
         resource: dict[str, Any] = {
             "resourceType": "AllergyIntolerance",
-            "clinicalStatus": {"coding": [{"system": "http://terminology.hl7.org/CodeSystem/allergyintolerance-clinical", "code": "active"}]},
+            "clinicalStatus": {
+                "coding": [
+                    {"system": "http://terminology.hl7.org/CodeSystem/allergyintolerance-clinical", "code": "active"}
+                ]
+            },
             "code": {"text": allergy.substance},
             "patient": {"reference": patient_ref},
         }
@@ -181,14 +222,33 @@ def build_bundle(visit: Visit, note: Note, *, pdf: bytes | None = None, organiza
             "title": f"{visit.title} - progress note",
             "attester": [{"mode": "legal", "time": signed, "party": {"reference": practitioner_ref}}],
             "custodian": {"reference": org_ref},
-            "extension": [{"url": AI_EXTENSION, "valueString": f"Drafted by {note.model}; reviewed and signed by the clinician."}],
+            "extension": [
+                {"url": AI_EXTENSION, "valueString": f"Drafted by {note.model}; reviewed and signed by the clinician."}
+            ],
             "section": sections,
         },
     )
     text = note_text(note)
-    content = [{"attachment": {"contentType": "text/plain", "data": base64.b64encode(text.encode()).decode(), "title": "SOAP note (text)"}}]
+    content = [
+        {
+            "attachment": {
+                "contentType": "text/plain",
+                "data": base64.b64encode(text.encode()).decode(),
+                "title": "SOAP note (text)",
+            }
+        }
+    ]
     if pdf is not None:
-        content.insert(0, {"attachment": {"contentType": "application/pdf", "data": base64.b64encode(pdf).decode(), "title": "SOAP note (PDF)"}})
+        content.insert(
+            0,
+            {
+                "attachment": {
+                    "contentType": "application/pdf",
+                    "data": base64.b64encode(pdf).decode(),
+                    "title": "SOAP note (PDF)",
+                }
+            },
+        )
     add(
         docref_ref,
         {

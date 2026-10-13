@@ -41,7 +41,9 @@ _FREQ = [
                 r"morning|every night|each morning|each night|one time)\b", re.I), 1.0),
 ]  # fmt: skip
 _CORRECTION = re.compile(
-    r"\b(?:no|actually|wait|sorry|not|I mean|correction|they (?:upped|raised|lowered|changed))\b", re.I
+    r"\b(?:actually|wait|sorry|I mean|correction|scratch that|no,? (?:it's|it is|wait)|not \d+(?:\.\d+)?|"
+    r"they (?:upped|raised|lowered|changed|bumped))\b",
+    re.I,
 )
 _ALLERGY_CLASSES = {
     "penicillin": "penicillin", "penicillins": "penicillin", "amoxicillin": "penicillin", "augmentin": "penicillin",
@@ -219,8 +221,20 @@ def _dose_in_transcript(med: Medication, amount: float, turns: Sequence[Turn], d
         )
     for i in mention_turns:
         text = words_to_digits(turns[i].text)
-        doses = {m.group(1) for m in _DOSE.finditer(text)}
-        if len(doses) > 1 and _CORRECTION.search(text):
+        windows = [
+            text[m.start() : m.start() + 140] for n in names for m in re.finditer(rf"\b{re.escape(n)}\b", text, re.I)
+        ]
+        window = next(
+            (w for w in windows if len(set(re.findall(r"\d+(?:\.\d+)?", w))) > 1 and _CORRECTION.search(w)), ""
+        )
+        cue = _CORRECTION.search(window)
+        doses = set(
+            re.findall(
+                r"\d+(?:\.\d+)?(?=\s*(?:mg|mcg|ml|milligrams?|micrograms?|milliliters?|units?|now|\b))",
+                window[: (cue.end() + 16) if cue else len(window)],
+            )
+        )
+        if window:
             flags.append(
                 Flag(
                     kind="dose_mismatch",

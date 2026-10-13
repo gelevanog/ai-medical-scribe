@@ -75,10 +75,19 @@ class Vault:
             if not placeholder.startswith("[NAME_"):
                 continue
             for form in forms:
-                known = {t for t in re.findall(r"[a-z][a-z'-]+", form.lower())}
+                known = set(re.findall(r"[a-z][a-z'-]+", form.lower()))
                 if tokens <= known or known <= tokens:
                     return placeholder
         return None
+
+    def add(self, surface: str, kind: str) -> str:
+        """A placeholder for a value found outside the detector (the egress check's residue)."""
+        existing = self._by_value.get(_norm(surface))
+        if existing:
+            return existing
+        prefix = _TYPE_PREFIX.get(kind, "NAME" if kind.startswith("NAME") else "ID")
+        self._counters[prefix] += 1
+        return self._remember(f"[{prefix}_{self._counters[prefix]}]", surface, kind)
 
     def _remember(self, placeholder: str, surface: str, kind: str) -> str:
         forms = self.surfaces.setdefault(placeholder, set())

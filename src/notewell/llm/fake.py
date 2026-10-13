@@ -12,12 +12,11 @@ import re
 from collections.abc import Sequence
 from typing import Any
 
-from notewell.guards.text import AFFIRM, DENY
+from notewell.guards.text import AFFIRM, DENY, sentences
 from notewell.kb import drug_aliases, drug_pattern, find_concepts
 from notewell.llm.base import Completion, Message
 
 _LINE = re.compile(r"^\[(\d+)\]\s+(clinician|patient|caregiver|unknown):\s+(.*)$", re.MULTILINE)
-_SENT = re.compile(r"[^.?!]+[.?!]?")
 _VITALS = re.compile(
     r"\b(?:blood pressure|pulse|heart rate|temperature|temp|oxygen|o2|weight|weigh|bmi|respiratory rate|a1c|score|"
     r"phq|gad|audit|ldl|tsh|ejection fraction|ecg|ekg|rapid strep|urine|dip|level|results?|came back)\b",
@@ -40,9 +39,7 @@ _PLAN = re.compile(
     r"recheck|let's|plan|take|use|apply|call us|go to the|avoid|return)\b",
     re.I,
 )
-_DOSE = re.compile(
-    r"(\d+(?:\.\d+)?)\s*(milligrams?|micrograms?|mg|mcg|units|percent|grams?|milliliters?|puffs?)", re.I
-)
+_DOSE = re.compile(r"(\d+(?:\.\d+)?)\s*(milligrams?|micrograms?|mg|mcg|units|percent|grams?|milliliters?|puffs?)", re.I)
 _FREQ = re.compile(
     r"\b(?:once a day|once daily|twice a day|twice daily|three times a day|four times a day|every \d+ hours|"
     r"every morning|every night|at bedtime|daily|a day|weekly|as needed|nightly)\b",
@@ -51,12 +48,25 @@ _FREQ = re.compile(
 _ALLERGY = re.compile(r"\ballergic to ([a-z][a-z -]+?)(?:[,.]| and | it | they |$)", re.I)
 _REACTION = re.compile(r"\b(hives|rash|swelling|vomiting|itching|anaphylaxis|trouble breathing|nausea)\b", re.I)
 _PROCEDURE_CUES = [
-    (re.compile(r"\b(?:ecg|ekg|electrocardiogram)\b.*\b(?:today|shows|showed|did)\b|\bwe did an? (?:ecg|ekg)\b", re.I), "93000"),
-    (re.compile(r"\b(?:phq-9|phq 9|gad-7|gad 7|vanderbilt|audit-c)\b.*\bscore\b|\bscore\b.*\b(?:phq|gad)\b", re.I), "96127"),
+    (
+        re.compile(
+            r"\b(?:ecg|ekg|electrocardiogram)\b.*\b(?:today|shows|showed|did)\b|\bwe did an? (?:ecg|ekg)\b", re.I
+        ),
+        "93000",
+    ),
+    (
+        re.compile(r"\b(?:phq-9|phq 9|gad-7|gad 7|vanderbilt|audit-c)\b.*\bscore\b|\bscore\b.*\b(?:phq|gad)\b", re.I),
+        "96127",
+    ),
     (re.compile(r"\brapid strep\b", re.I), "87880"),
     (re.compile(r"\b(?:urine dip|dipstick|urine test)\b", re.I), "81002"),
     (re.compile(r"\bnebulizer\b.*\b(?:now|today|right now)\b", re.I), "94640"),
-    (re.compile(r"\b(?:freeze|freezing|cryotherapy|liquid nitrogen)\b.*\bwarts?\b|\bwarts?\b.*\b(?:freeze|cryo)", re.I), "17110"),
+    (
+        re.compile(
+            r"\b(?:freeze|freezing|cryotherapy|liquid nitrogen)\b.*\bwarts?\b|\bwarts?\b.*\b(?:freeze|cryo)", re.I
+        ),
+        "17110",
+    ),
     (re.compile(r"\bshave biopsy\b", re.I), "11102"),
     (re.compile(r"\bpunch biopsy\b", re.I), "11104"),
     (re.compile(r"\bflu shot\b.*\btoday\b|\bflu vaccine\b.*\btoday\b", re.I), "90686"),
@@ -102,8 +112,8 @@ def draft_note(prompt: str) -> dict[str, Any]:
 
     for i, (turn, role, text) in enumerate(lines):
         prev = lines[i - 1] if i > 0 else None
-        for sm in _SENT.finditer(text):
-            sentence = sm.group(0).strip()
+        for offset, raw_sentence in sentences(text):
+            sentence = raw_sentence.strip()
             if not sentence:
                 continue
             if role == "clinician":
@@ -111,7 +121,9 @@ def draft_note(prompt: str) -> dict[str, Any]:
                     continue
                 if _ASSESS.search(sentence) and not _VITALS.search(sentence):
                     add("assessment", sentence.rstrip("."), [_ev(turn, sentence)])
-                elif _VITALS.search(sentence) or (_EXAM.search(sentence) and re.search(r"\d|no |normal|clear", sentence, re.I)):
+                elif _VITALS.search(sentence) or (
+                    _EXAM.search(sentence) and re.search(r"\d|no |normal|clear", sentence, re.I)
+                ):
                     add("objective", sentence.rstrip("."), [_ev(turn, sentence)])
                 elif _PLAN.search(sentence):
                     add("plan", sentence.rstrip("."), [_ev(turn, sentence)])
@@ -119,15 +131,25 @@ def draft_note(prompt: str) -> dict[str, Any]:
                 if prev and prev[1] == "clinician" and prev[2].strip().endswith("?"):
                     question = prev[2]
                     concepts = find_concepts(question.split(".")[-1])
-                    if concepts and DENY.match(text) and sm.start() == 0:
+                    if concepts and DENY.match(text) and offset == 0:
                         for _, s, e in concepts:
-                            add("subjective", f"Denies {question.split('.')[-1][s:e].lower()}", [_ev(prev[0], question), _ev(turn, sentence)])
+                            add(
+                                "subjective",
+                                f"Denies {question.split('.')[-1][s:e].lower()}",
+                                [_ev(prev[0], question), _ev(turn, sentence)],
+                            )
                         continue
-                    if concepts and AFFIRM.match(text) and sm.start() == 0 and len(sentence.split()) <= 3:
+                    if concepts and AFFIRM.match(text) and offset == 0 and len(sentence.split()) <= 3:
                         for _, s, e in concepts:
-                            add("subjective", f"Reports {question.split('.')[-1][s:e].lower()}", [_ev(prev[0], question), _ev(turn, sentence)])
+                            add(
+                                "subjective",
+                                f"Reports {question.split('.')[-1][s:e].lower()}",
+                                [_ev(prev[0], question), _ev(turn, sentence)],
+                            )
                         continue
-                if find_concepts(sentence) or re.search(r"\b\d+\s*(?:days?|weeks?|months?|years?)\b|\bsince\b", sentence):
+                if find_concepts(sentence) or re.search(
+                    r"\b\d+\s*(?:days?|weeks?|months?|years?)\b|\bsince\b", sentence
+                ):
                     add("subjective", _third_person(sentence).rstrip("."), [_ev(turn, sentence)])
             for m in drug_pattern().finditer(sentence):
                 name = drug_aliases()[m.group(1).lower()]
@@ -155,7 +177,11 @@ def draft_note(prompt: str) -> dict[str, Any]:
             if am and not re.search(r"\b(no|not)\b", sentence[: am.start()], re.I):
                 reaction = _REACTION.search(text)
                 allergies.append(
-                    {"substance": am.group(1).strip(), "reaction": reaction.group(1) if reaction else "", "evidence": [_ev(turn, sentence)]}
+                    {
+                        "substance": am.group(1).strip(),
+                        "reaction": reaction.group(1) if reaction else "",
+                        "evidence": [_ev(turn, sentence)],
+                    }
                 )
     plan_lines = [p["text"] for p in sections["plan"]][:6]
     avs = "Thank you for coming in today. Here is what we talked about. " + " ".join(
@@ -181,11 +207,16 @@ def suggest_codes(prompt: str) -> dict[str, Any]:
         candidates,
         key=lambda c: (-len(words & set(re.findall(r"[a-z]{4,}", c[1].lower()))), candidates.index(c)),
     )
-    icd = [{"code": code, "rationale": f"Matches the assessment: {title}", "evidence": []} for code, title in scored[:3]]
+    icd = [
+        {"code": code, "rationale": f"Matches the assessment: {title}", "evidence": []} for code, title in scored[:3]
+    ]
     new = "Visit type: new" in prompt
     rx = re.search(r"\b(start|increase|decrease|prescrib|switch|stop)\w*", note_part, re.I)
     level = "4" if rx else "3"
-    em = {"code": f"9920{level}" if new else f"9921{level}", "rationale": "Rule-based: prescription drug management" if rx else "Rule-based: low complexity"}
+    em = {
+        "code": f"9920{level}" if new else f"9921{level}",
+        "rationale": "Rule-based: prescription drug management" if rx else "Rule-based: low complexity",
+    }
     transcript = prompt.split("Transcript:", 1)[-1]
     procedures = []
     for pattern, code in _PROCEDURE_CUES:

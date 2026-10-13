@@ -28,8 +28,30 @@ FISCAL_YEAR = "FY2027 (October 1, 2026 - September 30, 2027)"
 
 _TOKEN = re.compile(r"[a-z0-9]+")
 _STOP = frozenset(
-    "of the and or in to for by due other specified not elsewhere classified type nos "
-    "a an as on at site".split()
+    [
+        "of",
+        "the",
+        "and",
+        "or",
+        "in",
+        "to",
+        "for",
+        "by",
+        "due",
+        "other",
+        "specified",
+        "not",
+        "elsewhere",
+        "classified",
+        "type",
+        "nos",
+        "a",
+        "an",
+        "as",
+        "on",
+        "at",
+        "site",
+    ]
 )
 _SYNONYMS = {
     "high blood pressure": "hypertension",
@@ -103,7 +125,7 @@ def download_full(codes_dir: Path, *, url: str = FULL_URL, sha256: str = FULL_SH
     """Download the official code descriptions zip from CDC, verify its checksum, extract the order file."""
     target = default_full_path(codes_dir)
     target.parent.mkdir(parents=True, exist_ok=True)
-    with urllib.request.urlopen(url, timeout=120) as response:  # noqa: S310 - fixed https URL
+    with urllib.request.urlopen(url, timeout=120) as response:
         payload = response.read()
     digest = hashlib.sha256(payload).hexdigest()
     if digest != sha256:

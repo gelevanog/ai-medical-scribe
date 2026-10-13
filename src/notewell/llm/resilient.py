@@ -227,7 +227,9 @@ class ResilientModel:
                 return completion
             if attempt < self.max_retries:
                 delay = self._backoff(attempt, last)
-                log.warning("llm.retry", tag=self.tag, attempt=attempt + 1, delay=round(delay, 1), error=str(last)[:160])
+                log.warning(
+                    "llm.retry", tag=self.tag, attempt=attempt + 1, delay=round(delay, 1), error=str(last)[:160]
+                )
                 time.sleep(delay)
         raise last or LLMError("request failed")
 

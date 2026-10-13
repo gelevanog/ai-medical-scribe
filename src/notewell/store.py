@@ -98,7 +98,7 @@ class Store:
     def delete_visit(self, visit_id: str) -> None:
         with self._tx() as conn:
             for table, column in (("visits", "id"), ("vaults", "visit_id"), ("uploads", "visit_id")):
-                conn.execute(f"DELETE FROM {table} WHERE {column} = ?", (visit_id,))  # noqa: S608 - fixed names
+                conn.execute(f"DELETE FROM {table} WHERE {column} = ?", (visit_id,))
 
     # ---- vaults
     def save_vault(self, visit_id: str, vault: Vault) -> None:

@@ -44,13 +44,17 @@ _TEST = re.compile(
     r"monitor|spirometry|pathology)\b",
     re.I,
 )
-_INTERPRETATION = re.compile(r"\b(?:ecg|ekg|electrocardiogram|x-ray)\b.*\b(?:shows|showed|normal|sinus|interpret)", re.I)
+_INTERPRETATION = re.compile(
+    r"\b(?:ecg|ekg|electrocardiogram|x-ray)\b.*\b(?:shows|showed|normal|sinus|interpret)", re.I
+)
 _RX_ACTION = re.compile(
     r"\b(?:start\w*|begin|prescrib\w*|increase\w*|decrease\w*|reduce\w*|lower\w*|raise\w*|switch\w*|stop\w*|"
     r"discontinu\w*|continue\w*|refill\w*|titrat\w*|change\w*|adjust\w*|taper\w*|hold\w*)\b",
     re.I,
 )
-_HIGH_RISK = re.compile(r"\b(?:hospitali[sz]\w*|admit\w*|emergency surgery|icu|intensive care|do not resuscitate)\b", re.I)
+_HIGH_RISK = re.compile(
+    r"\b(?:hospitali[sz]\w*|admit\w*|emergency surgery|icu|intensive care|do not resuscitate)\b", re.I
+)
 _OTC = re.compile(
     r"\b(?:over the counter|otc|acetaminophen|tylenol|ibuprofen|advil|motrin|naproxen|aleve|loratadine|cetiriz\w*|"
     r"miralax|polyethylene|saline|sunscreen|moisturiz\w*|vitamin|melatonin|zinc oxide|nicotine)\b",

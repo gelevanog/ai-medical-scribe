@@ -8,7 +8,6 @@ transcript only ever denies, attributes to someone else or mentions as a hypothe
 
 from __future__ import annotations
 
-import re
 from collections import defaultdict
 from dataclasses import dataclass, field
 from typing import Literal
@@ -22,13 +21,12 @@ from notewell.guards.text import (
     NEGATION_PRE,
     OTHER_PEOPLE,
     SCOPE_BREAK,
+    sentences,
 )
 from notewell.kb import find_concepts
 from notewell.models import Turn
 
 Polarity = Literal["present", "absent", "family", "hypothetical", "unknown"]
-
-_SENTENCE = re.compile(r"[^.?!]+[.?!]?")
 
 
 @dataclass
@@ -68,7 +66,7 @@ def clause_polarity(sentence: str, start: int, end: int, *, others: bool = True)
     before = sentence[:start]
     breaks = list(SCOPE_BREAK.finditer(before))
     window = before[breaks[-1].end() :] if breaks else before
-    window = window[-60:]
+    window = window[-110:]
     after = sentence[end:]
     after_break = SCOPE_BREAK.search(after)
     after_window = after[: after_break.start()] if after_break else after
@@ -86,8 +84,7 @@ def clause_polarity(sentence: str, start: int, end: int, *, others: bool = True)
 def index_transcript(turns: list[Turn]) -> ConceptIndex:
     index = ConceptIndex()
     for i, turn in enumerate(turns):
-        for sentence_match in _SENTENCE.finditer(turn.text):
-            sentence = sentence_match.group(0)
+        for _, sentence in sentences(turn.text):
             is_question = sentence.strip().endswith("?")
             for concept, start, end in find_concepts(sentence):
                 # A caregiver's "my daughter" is the patient; a patient's "my daughter" is someone else.
@@ -112,10 +109,9 @@ def _answer_polarity(turns: list[Turn], i: int) -> Polarity:
 
 
 def statement_polarity(text: str, start: int, end: int) -> Polarity:
-    for sentence_match in _SENTENCE.finditer(text):
-        if sentence_match.start() <= start < sentence_match.end():
-            s0 = sentence_match.start()
-            return clause_polarity(sentence_match.group(0), start - s0, end - s0, others=False)
+    for s0, sentence in sentences(text):
+        if s0 <= start < s0 + len(sentence):
+            return clause_polarity(sentence, start - s0, end - s0, others=False)
     return clause_polarity(text, start, end, others=False)
 
 

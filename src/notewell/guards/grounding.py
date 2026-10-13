@@ -151,7 +151,9 @@ class Grounder:
                         message="No supporting quote found in the transcript. Remove it or confirm it yourself.",
                     )
                 )
-        return statement.model_copy(update={"evidence": evidence, "support": support, "flags": [*statement.flags, *flags]})
+        return statement.model_copy(
+            update={"evidence": evidence, "support": support, "flags": [*statement.flags, *flags]}
+        )
 
     def _autolink(self, terms: set[str], nums: set[str], drugs: set[str]) -> TurnText | None:
         if not terms and not nums:

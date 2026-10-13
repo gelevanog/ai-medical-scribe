@@ -49,10 +49,7 @@ class PHIResult:
 
 
 def _covered(text: str, start: int, end: int, spans: list[Span]) -> bool:
-    for i in range(start, end):
-        if text[i].isalnum() and not any(s.start <= i < s.end for s in spans):
-            return False
-    return True
+    return all(not (text[i].isalnum() and not any(s.start <= i < s.end for s in spans)) for i in range(start, end))
 
 
 def evaluate_case(case: Case, turns: list[Turn], masker: Masker, result: PHIResult) -> None:
@@ -90,7 +87,9 @@ def evaluate_case(case: Case, turns: list[Turn], masker: Masker, result: PHIResu
                     result.false_positive_examples[f"{span.type}:{w.group(0)}"] += 1
 
 
-def evaluate(cases: list[Case], masker: Masker | None = None, *, turns_by_case: dict[str, list[Turn]] | None = None) -> PHIResult:
+def evaluate(
+    cases: list[Case], masker: Masker | None = None, *, turns_by_case: dict[str, list[Turn]] | None = None
+) -> PHIResult:
     masker = masker or Masker()
     result = PHIResult()
     for case in cases:
@@ -134,7 +133,9 @@ def evaluate_challenge(items: list[dict[str, Any]], masker: Masker | None = None
                 covered += 1
                 covered_by_type[phi["type"]] += 1
             else:
-                misses.append({"id": item["id"], "type": phi["type"], "value": str(phi["value"]), "masked": masked.turns[0].text})
+                misses.append(
+                    {"id": item["id"], "type": phi["type"], "value": str(phi["value"]), "masked": masked.turns[0].text}
+                )
         for span in spans:
             for w in re.finditer(r"[A-Za-z0-9]+", text[span.start : span.end]):
                 masked_words += 1

@@ -16,12 +16,136 @@ _TENS = {"twenty": 20, "thirty": 30, "forty": 40, "fifty": 50, "sixty": 60, "sev
 _UNITS = {k: v for k, v in _NUMBER_WORDS.items() if isinstance(v, int) and 1 <= v <= 9}
 
 STOPWORDS = frozenset(
-    """a an the and or but of to in on at for with by from as is are was were be been being it its this that these
-    those i you he she we they my your his her our their me him us them do does did have has had having not no so if
-    then than there here about into over under up down out off just also very really some any all can could would
-    should will may might must shall per day days week weeks month months year years daily patient pt reports report
-    reported states stated says said notes noted denies denied endorses endorsed describes described feels feel
-    felt has having currently today now recently since ago last past currently mild moderate severe""".split()
+    [
+        "a",
+        "an",
+        "the",
+        "and",
+        "or",
+        "but",
+        "of",
+        "to",
+        "in",
+        "on",
+        "at",
+        "for",
+        "with",
+        "by",
+        "from",
+        "as",
+        "is",
+        "are",
+        "was",
+        "were",
+        "be",
+        "been",
+        "being",
+        "it",
+        "its",
+        "this",
+        "that",
+        "these",
+        "those",
+        "i",
+        "you",
+        "he",
+        "she",
+        "we",
+        "they",
+        "my",
+        "your",
+        "his",
+        "her",
+        "our",
+        "their",
+        "me",
+        "him",
+        "us",
+        "them",
+        "do",
+        "does",
+        "did",
+        "have",
+        "has",
+        "had",
+        "having",
+        "not",
+        "no",
+        "so",
+        "if",
+        "then",
+        "than",
+        "there",
+        "here",
+        "about",
+        "into",
+        "over",
+        "under",
+        "up",
+        "down",
+        "out",
+        "off",
+        "just",
+        "also",
+        "very",
+        "really",
+        "some",
+        "any",
+        "all",
+        "can",
+        "could",
+        "would",
+        "should",
+        "will",
+        "may",
+        "might",
+        "must",
+        "shall",
+        "per",
+        "day",
+        "days",
+        "week",
+        "weeks",
+        "month",
+        "months",
+        "year",
+        "years",
+        "daily",
+        "patient",
+        "pt",
+        "reports",
+        "report",
+        "reported",
+        "states",
+        "stated",
+        "says",
+        "said",
+        "notes",
+        "noted",
+        "denies",
+        "denied",
+        "endorses",
+        "endorsed",
+        "describes",
+        "described",
+        "feels",
+        "feel",
+        "felt",
+        "has",
+        "having",
+        "currently",
+        "today",
+        "now",
+        "recently",
+        "since",
+        "ago",
+        "last",
+        "past",
+        "currently",
+        "mild",
+        "moderate",
+        "severe",
+    ]
 )
 
 NEGATION_PRE = re.compile(
@@ -32,7 +156,9 @@ NEGATION_PRE = re.compile(
     re.IGNORECASE,
 )
 NEGATION_POST = re.compile(r"\b(?:is|are|was|were)?\s*(?:negative|absent|ruled out|resolved|gone|not present)\b", re.I)
-SCOPE_BREAK = re.compile(r"\b(?:but|however|although|though|except|aside from|apart from|other than|yet|which|who)\b|[.;:!?]", re.I)
+SCOPE_BREAK = re.compile(
+    r"\b(?:but|however|although|though|except|aside from|apart from|other than|yet|which|who)\b|[.;:!?]", re.I
+)
 FAMILY = re.compile(
     r"\b(?:mother|mom|father|dad|brother|sister|sibling|grandmother|grandma|grandfather|grandpa|aunt|uncle|cousin|"
     r"parents?|family history|family hx|runs in (?:the|my|our|his|her) family)\b",
@@ -70,19 +196,17 @@ def number_value(token: str) -> float | None:
 
 
 def words_to_digits(text: str) -> str:
-    """"two weeks" -> "2 weeks", "twenty-five" -> "25", "a hundred and two" -> "102"."""
+    """ "two weeks" -> "2 weeks", "twenty-five" -> "25", "a hundred and two" -> "102"."""
 
     def tens(match: re.Match[str]) -> str:
         return str(_TENS[match.group(1).lower()] + _UNITS[match.group(2).lower()])
 
-    out = re.sub(
-        r"\b(" + "|".join(_TENS) + r")[- ](" + "|".join(_UNITS) + r")\b", tens, text, flags=re.IGNORECASE
-    )
+    out = re.sub(r"\b(" + "|".join(_TENS) + r")[- ](" + "|".join(_UNITS) + r")\b", tens, text, flags=re.IGNORECASE)
     out = re.sub(r"\b(?:a|one) hundred(?: and)? (\d+)\b", lambda m: str(100 + int(m.group(1))), out, flags=re.I)
 
     def single(match: re.Match[str]) -> str:
         value = _NUMBER_WORDS[match.group(0).lower()]
-        return str(value) if isinstance(value, int) else str(value)
+        return str(value)
 
     keys = sorted((k for k in _NUMBER_WORDS if " " not in k), key=len, reverse=True)
     return re.sub(r"\b(?:" + "|".join(keys) + r")\b", single, out, flags=re.IGNORECASE)
@@ -115,4 +239,23 @@ def numbers(text: str) -> set[str]:
         if value is None:
             continue
         out.add(str(int(value)) if value == int(value) else str(value))
+    return out
+
+
+_SENTENCE_SPLIT = re.compile(r"(?<=[.!?])[\"”']?\s+(?=[\"“']?[A-Z0-9])")
+
+
+def sentences(text: str) -> list[tuple[int, str]]:
+    """(offset, sentence) pairs; decimals ("0.9") and abbreviations followed by lowercase do not split."""
+    out: list[tuple[int, str]] = []
+    start = 0
+    for m in _SENTENCE_SPLIT.finditer(text):
+        piece = text[start : m.start()]
+        if re.search(r"\b(?:Dr|Mr|Mrs|Ms|St|vs|No)\.$", piece):
+            continue
+        if piece.strip():
+            out.append((start, piece))
+        start = m.end()
+    if text[start:].strip():
+        out.append((start, text[start:]))
     return out

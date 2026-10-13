@@ -83,31 +83,382 @@ _NUMBER_WORDS = {
 
 # Capitalized words that are never identifiers on their own in a clinic conversation.
 NEVER_NAMES = frozenset(
-    """i i'm i've i'll i'd okay ok yes yeah no nope um uh hmm mm oh hi hello hey thanks thank please sorry well so and
-    but or if then now right sure alright all god jesus lord christmas thanksgiving easter halloween monday tuesday
-    wednesday thursday friday saturday sunday january february march april may june july august september october
-    november december dr doctor mr mrs ms miss nurse covid medicare medicaid tylenol advil motrin aleve benadryl zyrtec
-    claritin allegra flonase sudafed mucinex nyquil dayquil tums pepto excedrin aspirin vaseline aquaphor cerave
-    eucerin cetaphil neosporin epipen ozempic wegovy mounjaro jardiance farxiga eliquis xarelto coumadin lipitor
-    crestor zocor synthroid adderall ritalin concerta vyvanse focalin strattera zoloft prozac lexapro celexa paxil
-    wellbutrin effexor cymbalta trazodone ambien xanax ativan klonopin valium lamictal depakote seroquel abilify
-    lithium flovent albuterol proair ventolin symbicort advair singulair qvar pulmicort xopenex augmentin keflex
-    bactrim cipro macrobid zithromax z-pak amoxil prednisone medrol humira dupixent stelara cosentyx skyrizi otezla
-    taltz tremfya enbrel accutane absorica differin retin-a tretinoin epiduo aczone benzoyl doxycycline minocycline
-    kenalog elidel protopic eucrisa opzelura lasix toprol lopressor norvasc zestril prinivil cozaar diovan entresto
-    plavix brilinta nitrostat nitro metformin glucophage januvia lantus humalog novolog basaglar tresiba victoza
-    trulicity rybelsus gabapentin neurontin lyrica flexeril mobic celebrex ultram norco percocet narcan naloxone
-    vivitrol suboxone naltrexone antabuse campral chantix nicorette nicoderm pap mri ct ekg ecg echo a1c ldl hdl tsh
-    bmi phq gad audit emr ehr er ed icu ob gyn ent pt ot ups fedex amazon google facebook instagram tiktok youtube
-    netflix zoom bluetooth wifi walgreens cvs rite aid walmart target costco kroger publix safeway english spanish
-    american african asian hispanic latino latina european christian muslim jewish catholic baptist mondays tuesdays
-    wednesdays thursdays fridays saturdays sundays weekends honestly actually basically anyway okay alright
-    alabama alaska arizona arkansas california colorado connecticut delaware florida georgia hawaii idaho illinois
-    indiana iowa kansas kentucky louisiana maine maryland massachusetts michigan minnesota mississippi missouri
-    montana nebraska nevada hampshire jersey mexico york carolina dakota ohio oklahoma oregon pennsylvania rhode
-    tennessee texas utah vermont virginia washington wisconsin wyoming america usa canada glasgow moro apgar
-    braden morse mini-cog moca mmse beck hamilton wells caprini centor chads2 vasc he she it we they you his her him
-    them their our your its me us""".split()
+    [
+        "i",
+        "i'm",
+        "i've",
+        "i'll",
+        "i'd",
+        "okay",
+        "ok",
+        "yes",
+        "yeah",
+        "no",
+        "nope",
+        "um",
+        "uh",
+        "hmm",
+        "mm",
+        "oh",
+        "hi",
+        "hello",
+        "hey",
+        "thanks",
+        "thank",
+        "please",
+        "sorry",
+        "well",
+        "so",
+        "and",
+        "but",
+        "or",
+        "if",
+        "then",
+        "now",
+        "right",
+        "sure",
+        "alright",
+        "all",
+        "god",
+        "jesus",
+        "lord",
+        "christmas",
+        "thanksgiving",
+        "easter",
+        "halloween",
+        "monday",
+        "tuesday",
+        "wednesday",
+        "thursday",
+        "friday",
+        "saturday",
+        "sunday",
+        "january",
+        "february",
+        "march",
+        "april",
+        "may",
+        "june",
+        "july",
+        "august",
+        "september",
+        "october",
+        "november",
+        "december",
+        "dr",
+        "doctor",
+        "mr",
+        "mrs",
+        "ms",
+        "miss",
+        "nurse",
+        "covid",
+        "medicare",
+        "medicaid",
+        "tylenol",
+        "advil",
+        "motrin",
+        "aleve",
+        "benadryl",
+        "zyrtec",
+        "claritin",
+        "allegra",
+        "flonase",
+        "sudafed",
+        "mucinex",
+        "nyquil",
+        "dayquil",
+        "tums",
+        "pepto",
+        "excedrin",
+        "aspirin",
+        "vaseline",
+        "aquaphor",
+        "cerave",
+        "eucerin",
+        "cetaphil",
+        "neosporin",
+        "epipen",
+        "ozempic",
+        "wegovy",
+        "mounjaro",
+        "jardiance",
+        "farxiga",
+        "eliquis",
+        "xarelto",
+        "coumadin",
+        "lipitor",
+        "crestor",
+        "zocor",
+        "synthroid",
+        "adderall",
+        "ritalin",
+        "concerta",
+        "vyvanse",
+        "focalin",
+        "strattera",
+        "zoloft",
+        "prozac",
+        "lexapro",
+        "celexa",
+        "paxil",
+        "wellbutrin",
+        "effexor",
+        "cymbalta",
+        "trazodone",
+        "ambien",
+        "xanax",
+        "ativan",
+        "klonopin",
+        "valium",
+        "lamictal",
+        "depakote",
+        "seroquel",
+        "abilify",
+        "lithium",
+        "flovent",
+        "albuterol",
+        "proair",
+        "ventolin",
+        "symbicort",
+        "advair",
+        "singulair",
+        "qvar",
+        "pulmicort",
+        "xopenex",
+        "augmentin",
+        "keflex",
+        "bactrim",
+        "cipro",
+        "macrobid",
+        "zithromax",
+        "z-pak",
+        "amoxil",
+        "prednisone",
+        "medrol",
+        "humira",
+        "dupixent",
+        "stelara",
+        "cosentyx",
+        "skyrizi",
+        "otezla",
+        "taltz",
+        "tremfya",
+        "enbrel",
+        "accutane",
+        "absorica",
+        "differin",
+        "retin-a",
+        "tretinoin",
+        "epiduo",
+        "aczone",
+        "benzoyl",
+        "doxycycline",
+        "minocycline",
+        "kenalog",
+        "elidel",
+        "protopic",
+        "eucrisa",
+        "opzelura",
+        "lasix",
+        "toprol",
+        "lopressor",
+        "norvasc",
+        "zestril",
+        "prinivil",
+        "cozaar",
+        "diovan",
+        "entresto",
+        "plavix",
+        "brilinta",
+        "nitrostat",
+        "nitro",
+        "metformin",
+        "glucophage",
+        "januvia",
+        "lantus",
+        "humalog",
+        "novolog",
+        "basaglar",
+        "tresiba",
+        "victoza",
+        "trulicity",
+        "rybelsus",
+        "gabapentin",
+        "neurontin",
+        "lyrica",
+        "flexeril",
+        "mobic",
+        "celebrex",
+        "ultram",
+        "norco",
+        "percocet",
+        "narcan",
+        "naloxone",
+        "vivitrol",
+        "suboxone",
+        "naltrexone",
+        "antabuse",
+        "campral",
+        "chantix",
+        "nicorette",
+        "nicoderm",
+        "pap",
+        "mri",
+        "ct",
+        "ekg",
+        "ecg",
+        "echo",
+        "a1c",
+        "ldl",
+        "hdl",
+        "tsh",
+        "bmi",
+        "phq",
+        "gad",
+        "audit",
+        "emr",
+        "ehr",
+        "er",
+        "ed",
+        "icu",
+        "ob",
+        "gyn",
+        "ent",
+        "pt",
+        "ot",
+        "ups",
+        "fedex",
+        "amazon",
+        "google",
+        "facebook",
+        "instagram",
+        "tiktok",
+        "youtube",
+        "netflix",
+        "zoom",
+        "bluetooth",
+        "wifi",
+        "walgreens",
+        "cvs",
+        "rite",
+        "aid",
+        "walmart",
+        "target",
+        "costco",
+        "kroger",
+        "publix",
+        "safeway",
+        "english",
+        "spanish",
+        "american",
+        "african",
+        "asian",
+        "hispanic",
+        "latino",
+        "latina",
+        "european",
+        "christian",
+        "muslim",
+        "jewish",
+        "catholic",
+        "baptist",
+        "mondays",
+        "tuesdays",
+        "wednesdays",
+        "thursdays",
+        "fridays",
+        "saturdays",
+        "sundays",
+        "weekends",
+        "honestly",
+        "actually",
+        "basically",
+        "anyway",
+        "okay",
+        "alright",
+        "alabama",
+        "alaska",
+        "arizona",
+        "arkansas",
+        "california",
+        "colorado",
+        "connecticut",
+        "delaware",
+        "florida",
+        "georgia",
+        "hawaii",
+        "idaho",
+        "illinois",
+        "indiana",
+        "iowa",
+        "kansas",
+        "kentucky",
+        "louisiana",
+        "maine",
+        "maryland",
+        "massachusetts",
+        "michigan",
+        "minnesota",
+        "mississippi",
+        "missouri",
+        "montana",
+        "nebraska",
+        "nevada",
+        "hampshire",
+        "jersey",
+        "mexico",
+        "york",
+        "carolina",
+        "dakota",
+        "ohio",
+        "oklahoma",
+        "oregon",
+        "pennsylvania",
+        "rhode",
+        "tennessee",
+        "texas",
+        "utah",
+        "vermont",
+        "virginia",
+        "washington",
+        "wisconsin",
+        "wyoming",
+        "america",
+        "usa",
+        "canada",
+        "glasgow",
+        "moro",
+        "apgar",
+        "braden",
+        "morse",
+        "mini-cog",
+        "moca",
+        "mmse",
+        "beck",
+        "hamilton",
+        "wells",
+        "caprini",
+        "centor",
+        "chads2",
+        "vasc",
+        "he",
+        "she",
+        "it",
+        "we",
+        "they",
+        "you",
+        "his",
+        "her",
+        "him",
+        "them",
+        "their",
+        "our",
+        "your",
+        "its",
+        "me",
+        "us",
+    ]
 )
 
 U = "A-ZÀ-ÖØ-Þ"
@@ -296,7 +647,9 @@ _PATTERNS: list[tuple[PHIType, str, re.Pattern[str], int]] = [
     (
         "DATE",
         "date_numeric_short",
-        re.compile(r"\b(?i:on|since|from|until|till|by|before|after|last seen|dated|was)\s+((?:1[0-2]|0?[1-9])/(?:3[01]|[12]\d|0?[1-9]))\b(?!/)"),
+        re.compile(
+            r"\b(?i:on|since|from|until|till|by|before|after|last seen|dated|was)\s+((?:1[0-2]|0?[1-9])/(?:3[01]|[12]\d|0?[1-9]))\b(?!/)"
+        ),
         6,
     ),
     (
@@ -361,7 +714,12 @@ _PATTERNS: list[tuple[PHIType, str, re.Pattern[str], int]] = [
         6,
     ),
     ("ADDRESS", "zip", re.compile(r"(?<=\b[A-Z]{2}\s)\d{5}(?:-\d{4})?\b|\bzip(?: code)?(?: is)?\s+\d{5}\b"), 7),
-    ("ADDRESS", "zip_after_comma", re.compile(rf"(?<=[{L}], )\d{{5}}(?:-\d{{4}})?\b|(?<=[{L}] )\d{{5}}(?=[.,]?\s*$)"), 6),
+    (
+        "ADDRESS",
+        "zip_after_comma",
+        re.compile(rf"(?<=[{L}], )\d{{5}}(?:-\d{{4}})?\b|(?<=[{L}] )\d{{5}}(?=[.,]?\s*$)"),
+        6,
+    ),
     (
         "ADDRESS",
         "zip_spoken",
@@ -374,7 +732,12 @@ _PATTERNS: list[tuple[PHIType, str, re.Pattern[str], int]] = [
         re.compile(r"\b(?i:apartment|apt\.?|unit|suite|room|lot|space)\s+#?(?:\d+[A-Z]?|[A-Z]\d*)\b"),
         6,
     ),
-    ("ADDRESS", "route", re.compile(r"\b(?:Route|State Route|County Road|Highway|Interstate|Rural Route|RR)\s+\d+\b"), 6),
+    (
+        "ADDRESS",
+        "route",
+        re.compile(r"\b(?:Route|State Route|County Road|Highway|Interstate|Rural Route|RR)\s+\d+\b"),
+        6,
+    ),
     (
         "ADDRESS",
         "po_box",
@@ -387,7 +750,9 @@ _CUE_NAME_LOWER = re.compile(
     r"\b(?i:my name is|my name's|name is|name's|call me|named|goes by|first name|last name|"
     r"first name's|last name's|first name is|last name is)\s+([a-zà-ÿ][a-zà-ÿ-]{2,})\b(?!')"
 )
-_TITLE_LOWER = re.compile(r"\b(?i:dr\.?|doctor|nurse|mr\.?|mrs\.?|ms\.?)[ ]([a-zà-ÿ][a-zà-ÿ]{2,}(?:-[a-zà-ÿ]+)?)\b(?!')")
+_TITLE_LOWER = re.compile(
+    r"\b(?i:dr\.?|doctor|nurse|mr\.?|mrs\.?|ms\.?)[ ]([a-zà-ÿ][a-zà-ÿ]{2,}(?:-[a-zà-ÿ]+)?)\b(?!')"
+)
 _SPELLED = re.compile(r"\b(?:[A-Za-z]-){2,}[A-Za-z]\b|\b(?:[A-Za-z] ){3,}[A-Za-z]\b")
 _NAME_VERB = (
     r"(?:is|was|has|had|said|says|called|calls|came|comes|drove|drives|lives|lived|turned|turns|helps|takes|took|"
@@ -397,7 +762,9 @@ _CUE_NAME = re.compile(
     r"\b(?i:my name is|my name's|name is|name's|i'm|i am|this is|call me|called|named|goes by|it's|its)\s+"
     r"((?:[A-ZÀ-ÖØ-Þ][a-zA-ZÀ-ÖØ-öø-ÿ'-]+)(?:\s+[A-ZÀ-ÖØ-Þ][a-zA-ZÀ-ÖØ-öø-ÿ'-]+){0,2})",
 )
-_TITLE_NAME = re.compile(rf"\b{TITLES}\.?\s+((?:[A-ZÀ-ÖØ-Þ][a-zA-ZÀ-ÖØ-öø-ÿ'-]+)(?:[\s-]+[A-ZÀ-ÖØ-Þ][a-zA-ZÀ-ÖØ-öø-ÿ'-]+){{0,2}})")
+_TITLE_NAME = re.compile(
+    rf"\b{TITLES}\.?\s+((?:[A-ZÀ-ÖØ-Þ][a-zA-ZÀ-ÖØ-öø-ÿ'-]+)(?:[\s-]+[A-ZÀ-ÖØ-Þ][a-zA-ZÀ-ÖØ-öø-ÿ'-]+){{0,2}})"
+)
 _RELATION_NAME = re.compile(
     rf"\b(?i:my|our|her|his|your|the)\s+(?:\w+\s+)?{RELATIONS}(?:'s)?,?\s+((?:[A-ZÀ-ÖØ-Þ][a-zA-ZÀ-ÖØ-öø-ÿ'-]+)(?:\s+[A-ZÀ-ÖØ-Þ][a-zA-ZÀ-ÖØ-öø-ÿ'-]+)?)"
 )
@@ -425,7 +792,9 @@ class PHIDetector:
         reg = registered or Registered()
         spans: list[Span] = []
         for age in known_ages:  # an age over 89 said once is masked wherever the number recurs ("At 91, ...")
-            for m in re.finditer(rf"\b{re.escape(age)}\b(?!\s*(?:mg|milligrams?|percent|%|pounds|beats|over|degrees))", text):
+            for m in re.finditer(
+                rf"\b{re.escape(age)}\b(?!\s*(?:mg|milligrams?|percent|%|pounds|beats|over|degrees))", text
+            ):
                 spans.append(Span(m.start(), m.end(), "AGE", m.group(0), "propagated", "patient", 6))
         spans += self._registered(text, reg)
         spans += self._patterns(text, reg)
@@ -552,7 +921,9 @@ class PHIDetector:
                 spans.append(Span(m.start(1), m.start(1) + len(name), "NAME", name, "title", "other", 8))
         for regex, source in ((_CUE_NAME, "cue"), (_RELATION_NAME, "relation"), (_NAME_RELATION, "relation")):
             for m in regex.finditer(text):
-                strong = source == "cue" and re.match(r"(?i)(?:my name is|my name's|name is|name's|call me|named|goes by)", m.group(0))
+                strong = source == "cue" and re.match(
+                    r"(?i)(?:my name is|my name's|name is|name's|call me|named|goes by)", m.group(0)
+                )
                 name = self._trim_name(m.group(1), strict=source == "cue" and not strong)
                 if name:
                     spans.append(Span(m.start(1), m.start(1) + len(name), "NAME", name, source, "other", 7))
@@ -577,7 +948,9 @@ class PHIDetector:
             if m.start(1) in _sentence_starts(text) and lw in self.english:
                 continue
             spans.append(Span(m.start(1), m.end(1), "NAME", word, "name_verb", "other", 5))
-        for m in re.finditer(rf"\b([{U}][{L}'-]+)'s\s+(?:going|gonna|been|getting|doing|coming|turning|having)\b", text):
+        for m in re.finditer(
+            rf"\b([{U}][{L}'-]+)'s\s+(?:going|gonna|been|getting|doing|coming|turning|having)\b", text
+        ):
             lw = m.group(1).lower()
             if (lw in self.first or lw in self.surnames) and lw not in NEVER_NAMES and lw not in self.clinical:
                 spans.append(Span(m.start(1), m.end(1), "NAME", m.group(1), "name_verb", "other", 5))
@@ -605,7 +978,9 @@ class PHIDetector:
                 and nxt.group(0).lower().removesuffix("'s") in self.surnames
                 and nxt.group(0).lower() not in self.clinical
             )
-            vocative = text[end : end + 1] in {",", "."} and (at_start or text[max(0, m.start() - 2) : m.start()] == ", ")
+            vocative = text[end : end + 1] in {",", "."} and (
+                at_start or text[max(0, m.start() - 2) : m.start()] == ", "
+            )
             if lw in self.first and (lw not in self.ambiguous or followed_by_surname or (vocative and not at_start)):
                 if at_start and not (followed_by_surname or vocative):
                     continue
@@ -641,8 +1016,50 @@ class PHIDetector:
         return spans
 
     _EMAIL_STOP = frozenset(
-        "is it's its me my email e-mail address at to send use that's was be the and or portal account write reach "
-        "it under as still now use using just new old same your our his her their for on in with".split()
+        [
+            "is",
+            "it's",
+            "its",
+            "me",
+            "my",
+            "email",
+            "e-mail",
+            "address",
+            "at",
+            "to",
+            "send",
+            "use",
+            "that's",
+            "was",
+            "be",
+            "the",
+            "and",
+            "or",
+            "portal",
+            "account",
+            "write",
+            "reach",
+            "it",
+            "under",
+            "as",
+            "still",
+            "now",
+            "use",
+            "using",
+            "just",
+            "new",
+            "old",
+            "same",
+            "your",
+            "our",
+            "his",
+            "her",
+            "their",
+            "for",
+            "on",
+            "in",
+            "with",
+        ]
     )
 
     def _spoken_emails(self, text: str) -> list[Span]:
@@ -766,7 +1183,10 @@ def _levenshtein(a: str, b: str, limit: int) -> int:
 
 
 def _is_measurement(text: str, end: int) -> bool:
-    return re.match(r"\s*(?:mg|milligrams?|mcg|micrograms?|units?|ml|steps|calories|dollars|pounds)\b", text[end:], re.I) is not None
+    return (
+        re.match(r"\s*(?:mg|milligrams?|mcg|micrograms?|units?|ml|steps|calories|dollars|pounds)\b", text[end:], re.I)
+        is not None
+    )
 
 
 def _sentence_starts(text: str) -> set[int]:
@@ -777,7 +1197,7 @@ def _sentence_starts(text: str) -> set[int]:
 
 
 def _join_adjacent_names(text: str, spans: list[Span]) -> list[Span]:
-    """"[NAME_3] [NAME_4]" for "Zebulon Quarrington" becomes one name."""
+    """ "[NAME_3] [NAME_4]" for "Zebulon Quarrington" becomes one name."""
     out: list[Span] = []
     for span in spans:
         prev = out[-1] if out else None

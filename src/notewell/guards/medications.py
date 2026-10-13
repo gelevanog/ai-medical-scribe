@@ -40,7 +40,9 @@ _FREQ = [
     (re.compile(r"\b(?:once|daily|every day|a day|per day|qd|nightly|at bedtime|bedtime|qhs|every morning|in the "
                 r"morning|every night|each morning|each night|one time)\b", re.I), 1.0),
 ]  # fmt: skip
-_CORRECTION = re.compile(r"\b(?:no|actually|wait|sorry|not|I mean|correction|they (?:upped|raised|lowered|changed))\b", re.I)
+_CORRECTION = re.compile(
+    r"\b(?:no|actually|wait|sorry|not|I mean|correction|they (?:upped|raised|lowered|changed))\b", re.I
+)
 _ALLERGY_CLASSES = {
     "penicillin": "penicillin", "penicillins": "penicillin", "amoxicillin": "penicillin", "augmentin": "penicillin",
     "sulfa": "sulfonamide", "sulfa drugs": "sulfonamide", "bactrim": "sulfonamide", "sulfonamide": "sulfonamide",
@@ -118,7 +120,11 @@ def check_medication(
     dose = parse_dose(f"{med.dose} {med.frequency}") if med.dose else None
     if drug is not None and dose is not None:
         amount, unit, per_kg = dose
-        unit_ok = unit in drug.units or (unit in {"ml", "tablet", "dose", "patch"}) or (unit == "iu" and "units" in drug.units)
+        unit_ok = (
+            unit in drug.units
+            or (unit in {"ml", "tablet", "dose", "patch"})
+            or (unit == "iu" and "units" in drug.units)
+        )
         if not unit_ok:
             flags.append(
                 Flag(
@@ -190,9 +196,7 @@ def _dose_in_transcript(med: Medication, amount: float, turns: Sequence[Turn], d
     if drug is not None:
         names |= {drug.name, *drug.brands}
     mention_turns = [
-        i
-        for i, t in enumerate(turns)
-        if any(re.search(rf"\b{re.escape(n)}\b", t.text, re.I) for n in names)
+        i for i, t in enumerate(turns) if any(re.search(rf"\b{re.escape(n)}\b", t.text, re.I) for n in names)
     ]
     if not mention_turns:
         return []

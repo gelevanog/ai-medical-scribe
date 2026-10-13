@@ -1,10 +1,10 @@
 {
  "visits": 32,
  "gold_facts": 878,
- "fact_recall": 0.639,
- "fact_recall_section_correct": 0.4784,
- "statements": 669,
- "gold_matched_precision": 0.7294,
+ "fact_recall": 0.6424,
+ "fact_recall_section_correct": 0.4818,
+ "statements": 674,
+ "gold_matched_precision": 0.7315,
  "unsupported_rate": 0.0,
  "partial_rate": 0.003,
  "negation_errors": 6,
@@ -38,7 +38,7 @@
   },
   "dermatology": {
    "visits": 6,
-   "fact_recall": 0.5185,
+   "fact_recall": 0.5309,
    "icd_top3": 0.1667,
    "unsupported_rate": 0.0
   },
@@ -50,7 +50,7 @@
   },
   "pediatrics": {
    "visits": 6,
-   "fact_recall": 0.5765,
+   "fact_recall": 0.5824,
    "icd_top3": 0.0,
    "unsupported_rate": 0.0
   },
@@ -91,13 +91,13 @@
    "p95": 0.05
   },
   "total": {
-   "p50": 0.15,
+   "p50": 0.16,
    "p95": 0.19
   }
  },
  "tokens_per_visit": {
-  "input_mean": 3257,
-  "output_mean": 1386,
+  "input_mean": 3258,
+  "output_mean": 1392,
   "calls_total": 64
  },
  "wall_minutes": 0.1

@@ -14,9 +14,9 @@
  "medication_dose_correct": 0.7117,
  "icd_top1": 0.6875,
  "icd_top3": 0.6875,
- "icd_top3_lenient": 0.8125,
+ "icd_top3_lenient": 0.8438,
  "icd_top3_category": 0.8438,
- "icd_all_gold_recall": 0.6302,
+ "icd_all_gold_recall": 0.6406,
  "icd_invalid_suggestions": 1,
  "em_exact": 0.5625,
  "em_within_one": 0.9688,
@@ -71,34 +71,34 @@
  "phi_leak_details": [],
  "latency_s": {
   "phi_masking": {
-   "p50": 0.04,
-   "p95": 0.05
+   "p50": 0.03,
+   "p95": 0.03
   },
   "llm_note": {
    "p50": 19.66,
    "p95": 37.02
   },
   "llm_codes": {
-   "p50": 4.22,
+   "p50": 4.28,
    "p95": 8.68
   },
   "guards_note": {
-   "p50": 0.07,
-   "p95": 0.09
+   "p50": 0.05,
+   "p95": 0.07
   },
   "guards_codes": {
-   "p50": 0.05,
-   "p95": 0.06
+   "p50": 0.04,
+   "p95": 0.05
   },
   "total": {
-   "p50": 24.94,
-   "p95": 40.44
+   "p50": 24.88,
+   "p95": 40.4
   }
  },
  "tokens_per_visit": {
   "input_mean": 5067,
-  "output_mean": 2880,
+  "output_mean": 2884,
   "calls_total": 64
  },
- "wall_minutes": 0.2
+ "wall_minutes": 0.1
 }

@@ -551,20 +551,7 @@
     ]
    }
   ],
-  "allergies": [
-   {
-    "substance": "none reported",
-    "reaction": "none",
-    "evidence": [
-     {
-      "turn": 13,
-      "quote": "No medicines, no allergies.",
-      "verified": true,
-      "score": 1.0
-     }
-    ]
-   }
-  ],
+  "allergies": [],
   "after_visit_summary": "Your 9-year-old has four common warts: two on his right index finger, one on his left thumb, and one on his right knee. We froze all four today with liquid nitrogen. This is expected to sting for a few seconds. Over the next few days the spots may turn red, blister, or darken; that is normal. For soreness, you may use children's acetaminophen exactly as directed on the package. Once the blisters heal, about one week, start again with salicylic acid 17% liquid every night: soak the area, gently file the dead skin with an emery board he uses only, then cover with duct tape. Keep him from picking at the warts or biting his nails, since this can spread them. For the rough sandpaper-like bumps on the backs of his arms (keratosis pilaris), use urea 10% cream once a day after bath time. Use gentle soap and do not scrub. He can go to school and play sports. Please call if a treated spot becomes very red, swollen, or has pus. You should expect 2 to 4 freezing visits in total; we will see him again in 3 to 4 weeks. You can reach us at 555-0191.",
   "avs_flags": [],
   "icd10": [
@@ -683,17 +670,17 @@
    "plan": "draft"
   },
   "model": "openrouter/apodex/apodex-1.1-mini:free",
-  "created_at": "2026-10-13T05:52:44.087669Z",
+  "created_at": "2026-10-13T07:04:03.448691Z",
   "signed_by": null,
   "signed_at": null,
   "timings": {
-   "phi_masking": 0.025,
+   "phi_masking": 0.024,
    "llm_note": 12.05,
-   "guards_note": 0.07,
+   "guards_note": 0.059,
    "llm_codes": 2.96,
-   "guards_codes": 0.044,
-   "total": 15.149,
-   "wall": 15.28
+   "guards_codes": 0.038,
+   "total": 15.131,
+   "wall": 0.193
   },
   "usage": {
    "model_ms": 15010,

@@ -553,13 +553,11 @@
      {
       "kind": "dose_mismatch",
       "severity": "warning",
-      "message": "The acetaminophen (children's) dose was corrected in the conversation (4, 5, 6, 7.5); confirm the final dose.",
+      "message": "The acetaminophen (children's) dose was corrected in the conversation (5, 7.5); confirm the final dose.",
       "acknowledged": false,
       "detail": {
        "doses": [
-        "4",
         "5",
-        "6",
         "7.5"
        ],
        "turn": 32
@@ -585,13 +583,11 @@
      {
       "kind": "dose_mismatch",
       "severity": "warning",
-      "message": "The acetaminophen (children's) dose was corrected in the conversation (4, 5, 6, 7.5); confirm the final dose.",
+      "message": "The acetaminophen (children's) dose was corrected in the conversation (5, 7.5); confirm the final dose.",
       "acknowledged": false,
       "detail": {
        "doses": [
-        "4",
         "5",
-        "6",
         "7.5"
        ],
        "turn": 32
@@ -600,20 +596,7 @@
     ]
    }
   ],
-  "allergies": [
-   {
-    "substance": "none known",
-    "reaction": "none",
-    "evidence": [
-     {
-      "turn": 23,
-      "quote": "No allergies that we know of",
-      "verified": true,
-      "score": 1.0
-     }
-    ]
-   }
-  ],
+  "allergies": [],
   "after_visit_summary": "Your child has an ear infection in her left ear and a cold. We found a red, bulging eardrum with pus behind it. We will start amoxicillin 720 mg two times a day from the liquid 400 mg per 5 mL (9 mL twice a day) for 10 days, even if she feels better sooner. For pain and fever, you may give ibuprofen 160 mg (8 mL children's liquid) every 6 to 8 hours, or acetaminophen 7.5 mL every 4 to 6 hours. For fever, 7.5 mL of the children's acetaminophen is the right amount for her weight. She can return to daycare once she has been fever-free for 24 hours without medicine. Call us if the fever or pain is not better after 2 to 3 days of the antibiotic, or bring her in right away if you see swelling or redness behind her ear or if she is very hard to wake up. No follow-up visit is needed if she is back to herself in a few days, unless another ear infection happens in the next few months. Her baby brother does not need to come in unless he gets a fever or pulls at his ears.",
   "avs_flags": [
    {
@@ -745,17 +728,17 @@
    "plan": "draft"
   },
   "model": "openrouter/apodex/apodex-1.1-mini:free",
-  "created_at": "2026-10-13T05:53:59.086784Z",
+  "created_at": "2026-10-13T07:04:04.096907Z",
   "signed_by": null,
   "signed_at": null,
   "timings": {
-   "phi_masking": 0.044,
+   "phi_masking": 0.032,
    "llm_note": 19.37,
-   "guards_note": 0.094,
+   "guards_note": 0.081,
    "llm_codes": 2.77,
-   "guards_codes": 0.052,
-   "total": 22.33,
-   "wall": 22.392
+   "guards_codes": 0.047,
+   "total": 22.3,
+   "wall": 0.221
   },
   "usage": {
    "model_ms": 22140,

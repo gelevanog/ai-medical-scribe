@@ -758,20 +758,7 @@
     "flags": []
    }
   ],
-  "allergies": [
-   {
-    "substance": "unknown",
-    "reaction": "none reported",
-    "evidence": [
-     {
-      "turn": 11,
-      "quote": "And no allergies",
-      "verified": true,
-      "score": 1.0
-     }
-    ]
-   }
-  ],
+  "allergies": [],
   "after_visit_summary": "Your 4-year-old is healthy and growing well. Her weight, height, blood pressure, vision, and hearing screens were all normal. The only problem today is constipation. She has hard stools only every 3 to 4 days, which hurts, so we will start MiraLAX. Give half a capful (8.5 grams) once a day mixed in 4 ounces of water or juice. This will help make her poop soft and easy. To help too, cut milk down to 2 cups a day, eat more fruit, drink more water, and let her sit on the potty for 5 minutes after meals. You can adjust the MiraLAX a little to get a soft poop every day or every other day. We also gave her 2 shots today. Her leg may be sore, or she may have a low fever. With the MMR shot, a rash or fever could appear 1 to 2 weeks later. If she is uncomfortable, you can give children's Tylenol, 8 milliliters. Come back if you see blood, if her tummy pain gets worse, or if things are not better in one month. We will see you again in one month.",
   "avs_flags": [],
   "icd10": [
@@ -929,17 +916,17 @@
    "plan": "draft"
   },
   "model": "openrouter/apodex/apodex-1.1-mini:free",
-  "created_at": "2026-10-13T05:54:49.494367Z",
+  "created_at": "2026-10-13T07:04:04.502204Z",
   "signed_by": null,
   "signed_at": null,
   "timings": {
-   "phi_masking": 0.044,
+   "phi_masking": 0.031,
    "llm_note": 35.09,
-   "guards_note": 0.266,
+   "guards_note": 0.08,
    "llm_codes": 3.0,
-   "guards_codes": 0.052,
-   "total": 38.452,
-   "wall": 38.852
+   "guards_codes": 0.038,
+   "total": 38.239,
+   "wall": 0.206
   },
   "usage": {
    "model_ms": 38090,

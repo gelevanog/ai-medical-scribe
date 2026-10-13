@@ -704,12 +704,12 @@
      {
       "kind": "dose_mismatch",
       "severity": "warning",
-      "message": "The furosemide dose was corrected in the conversation (20, 4); confirm the final dose.",
+      "message": "The furosemide dose was corrected in the conversation (20, 40); confirm the final dose.",
       "acknowledged": false,
       "detail": {
        "doses": [
         "20",
-        "4"
+        "40"
        ],
        "turn": 18
       }
@@ -919,17 +919,17 @@
    "plan": "draft"
   },
   "model": "openrouter/apodex/apodex-1.1-mini:free",
-  "created_at": "2026-10-13T05:50:46.407335Z",
+  "created_at": "2026-10-13T07:04:01.875005Z",
   "signed_by": null,
   "signed_at": null,
   "timings": {
-   "phi_masking": 0.031,
+   "phi_masking": 0.032,
    "llm_note": 40.87,
-   "guards_note": 0.093,
+   "guards_note": 0.061,
    "llm_codes": 3.05,
-   "guards_codes": 0.05,
-   "total": 44.094,
-   "wall": 57.762
+   "guards_codes": 0.044,
+   "total": 44.057,
+   "wall": 0.224
   },
   "usage": {
    "model_ms": 43920,

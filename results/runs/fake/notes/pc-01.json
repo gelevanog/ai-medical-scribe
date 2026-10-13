@@ -603,20 +603,20 @@
    "plan": "draft"
   },
   "model": "fake/fake-scribe",
-  "created_at": "2026-10-13T05:44:43.017171Z",
+  "created_at": "2026-10-13T07:04:49.044067Z",
   "signed_by": null,
   "signed_at": null,
   "timings": {
-   "phi_masking": 0.057,
-   "llm_note": 0.046,
-   "guards_note": 0.08,
-   "llm_codes": 0.007,
-   "guards_codes": 0.044,
-   "total": 0.234,
-   "wall": 1.089
+   "phi_masking": 0.058,
+   "llm_note": 0.03,
+   "guards_note": 0.052,
+   "llm_codes": 0.008,
+   "guards_codes": 0.042,
+   "total": 0.19,
+   "wall": 1.123
   },
   "usage": {
-   "model_ms": 53,
+   "model_ms": 38,
    "input_tokens": 3205,
    "output_tokens": 1283,
    "calls": 2

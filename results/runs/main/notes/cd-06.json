@@ -656,26 +656,7 @@
     "flags": []
    }
   ],
-  "allergies": [
-   {
-    "substance": "none reported",
-    "reaction": "none",
-    "evidence": [
-     {
-      "turn": 20,
-      "quote": "Alcohol, smoking?",
-      "verified": true,
-      "score": 1.0
-     },
-     {
-      "turn": 21,
-      "quote": "3 or 4 beers on the weekend. I've never smoked.",
-      "verified": true,
-      "score": 1.0
-     }
-    ]
-   }
-  ],
+  "allergies": [],
   "after_visit_summary": "You have high blood pressure that is not yet under control, and your family history increases your risk for heart problems. We are increasing your amlodipine to 10 mg once daily and asking you to stop pseudoephedrine, which can raise blood pressure. Instead, use fluticasone nasal spray, 2 sprays in each nostril once daily for your sinuses. We are also checking for sleep apnea with a home sleep test, as your snoring and breathing pauses may be making your blood pressure harder to control. An echocardiogram will look at your heart muscle, and we will check your cholesterol and urine for protein. Please limit salt to less than 2000 mg per day and have no more than 1-2 beers at a time. Keep checking your blood pressure at home twice a day and bring the log and cuff to your next visit. If you have chest pain, sudden weakness, or trouble speaking, call 911 right away. We will see you back in 4 weeks to review your test results and home blood pressure readings.",
   "avs_flags": [],
   "icd10": [
@@ -813,17 +794,17 @@
    "plan": "draft"
   },
   "model": "openrouter/nvidia/nemotron-3-super-120b-a12b:free",
-  "created_at": "2026-10-13T05:47:04.321259Z",
+  "created_at": "2026-10-13T07:03:48.983121Z",
   "signed_by": null,
   "signed_at": null,
   "timings": {
-   "phi_masking": 0.034,
+   "phi_masking": 0.02,
    "llm_note": 17.4,
-   "guards_note": 0.08,
+   "guards_note": 0.044,
    "llm_codes": 7.95,
-   "guards_codes": 0.052,
-   "total": 25.516,
-   "wall": 0.205
+   "guards_codes": 0.034,
+   "total": 25.448,
+   "wall": 0.119
   },
   "usage": {
    "model_ms": 25350,

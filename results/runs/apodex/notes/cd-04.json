@@ -574,20 +574,7 @@
     "flags": []
    }
   ],
-  "allergies": [
-   {
-    "substance": "none reported",
-    "reaction": "none",
-    "evidence": [
-     {
-      "turn": 21,
-      "quote": "No allergies.",
-      "verified": true,
-      "score": 1.0
-     }
-    ]
-   }
-  ],
+  "allergies": [],
   "after_visit_summary": "We looked into your heart fluttering, which has been going on for 3 weeks. Your blood pressure, pulse, oxygen level, heart and lung exam, and ECG all looked normal. The exam and ECG suggest you are having extra heart beats, which are common and usually not dangerous. They are often triggered by caffeine, energy drinks, and not enough sleep, and you have all three right now. We will order a thyroid test (TSH), a blood count, and electrolytes to check for simple causes. Please cut back caffeine slowly over the next 2 weeks to avoid headaches. Try to have no more than one regular coffee a day and no energy drinks at all. Aim to sleep at least 7 hours each night. If your palpitations are still happening in 6 weeks, we will put a 2-week monitor on you. Go to the emergency room right away if you faint, have chest pain with the fluttering, or get a racing heartbeat that will not stop. Otherwise, see us again in 6 weeks.",
   "avs_flags": [],
   "icd10": [
@@ -738,17 +725,17 @@
    "plan": "draft"
   },
   "model": "openrouter/apodex/apodex-1.1-mini:free",
-  "created_at": "2026-10-13T05:51:02.271786Z",
+  "created_at": "2026-10-13T07:04:02.082581Z",
   "signed_by": null,
   "signed_at": null,
   "timings": {
-   "phi_masking": 0.044,
+   "phi_masking": 0.024,
    "llm_note": 12.25,
-   "guards_note": 0.069,
+   "guards_note": 0.062,
    "llm_codes": 3.34,
-   "guards_codes": 0.037,
-   "total": 15.74,
-   "wall": 15.833
+   "guards_codes": 0.043,
+   "total": 15.719,
+   "wall": 0.18
   },
   "usage": {
    "model_ms": 15590,
@@ -813,11 +800,12 @@
   "case": "cd-04",
   "specialty": "cardiology",
   "facts": 25,
-  "found": 24,
-  "found_in_section": 24,
+  "found": 23,
+  "found_in_section": 23,
   "negation_errors": [],
   "trap_errors": [],
   "missed": [
+   "f12 [subjective] No known drug allergies",
    "f20 [assessment] Palpitations, likely benign premature beats triggered by caffeine excess and sleep deprivation"
   ],
   "statements": 27,

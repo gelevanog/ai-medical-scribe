@@ -551,26 +551,7 @@
     "flags": []
    }
   ],
-  "allergies": [
-   {
-    "substance": "none reported",
-    "reaction": "none reported",
-    "evidence": [
-     {
-      "turn": 12,
-      "quote": "Any side effects, nausea, sexual side effects, anything like that?",
-      "verified": true,
-      "score": 1.0
-     },
-     {
-      "turn": 13,
-      "quote": "No, nothing really. Stomach was a bit off the first week, then fine.",
-      "verified": true,
-      "score": 1.0
-     }
-    ]
-   }
-  ],
+  "allergies": [],
   "after_visit_summary": "You have generalized anxiety disorder that is improving with treatment. Your worrying and tension are better but still present. We are increasing your escitalopram from 10 mg to 20 mg once daily; take two 10 mg pills each morning until your new prescription arrives. Continue taking hydroxyzine 25 mg as needed for rough moments, but no more than once a day and do not drive after taking it. Keep taking magnesium glycinate 200 mg at night. Cut your coffee to no more than 2 cups per day, and avoid coffee after noon. Continue your CBT therapy every other week. If you ever have thoughts of harming yourself, call or text 988 right away. Return for follow-up in about 6 weeks, around November 4th, before the baby arrives. We will update your portal email to tomasz dot nowak at fastmail dot com.",
   "avs_flags": [],
   "icd10": [
@@ -646,17 +627,17 @@
    "plan": "draft"
   },
   "model": "openrouter/nvidia/nemotron-3-super-120b-a12b:free",
-  "created_at": "2026-10-13T05:47:07.536938Z",
+  "created_at": "2026-10-13T07:03:51.588947Z",
   "signed_by": null,
   "signed_at": null,
   "timings": {
-   "phi_masking": 0.033,
+   "phi_masking": 0.026,
    "llm_note": 18.63,
-   "guards_note": 0.064,
+   "guards_note": 0.055,
    "llm_codes": 3.31,
-   "guards_codes": 0.041,
-   "total": 22.078,
-   "wall": 0.159
+   "guards_codes": 0.037,
+   "total": 22.058,
+   "wall": 0.137
   },
   "usage": {
    "model_ms": 21940,

@@ -602,17 +602,17 @@
    "plan": "draft"
   },
   "model": "openrouter/apodex/apodex-1.1-mini:free",
-  "created_at": "2026-10-13T05:46:43.353801Z",
+  "created_at": "2026-10-13T07:03:56.800664Z",
   "signed_by": null,
   "signed_at": null,
   "timings": {
-   "phi_masking": 0.031,
+   "phi_masking": 0.032,
    "llm_note": 31.25,
-   "guards_note": 0.11,
+   "guards_note": 0.055,
    "llm_codes": 1.98,
-   "guards_codes": 0.042,
-   "total": 33.413,
-   "wall": 39.361
+   "guards_codes": 0.039,
+   "total": 33.356,
+   "wall": 0.163
   },
   "usage": {
    "model_ms": 33230,

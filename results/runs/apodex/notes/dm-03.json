@@ -666,20 +666,7 @@
     "flags": []
    }
   ],
-  "allergies": [
-   {
-    "substance": "none reported",
-    "reaction": "none",
-    "evidence": [
-     {
-      "turn": 21,
-      "quote": "None.",
-      "verified": true,
-      "score": 1.0
-     }
-    ]
-   }
-  ],
+  "allergies": [],
   "after_visit_summary": "Your eczema has flared again, affecting both elbow creases, both knee creases, your neck, and the backs of your hands. The doctor thinks cold, dry air at your new job started it. You do not have signs of infection. We are restarting triamcinolone 0.1 percent ointment. Put it on your body and hands twice a day for 2 weeks, then only on Saturdays and Sundays on the spots that keep coming back. Do not put it on your face or groin. Stop the hydrocortisone you were using. For itching at night, take hydroxyzine 25 mg at bedtime as needed, but it can make you sleepy, so do not drive after taking it. Keep taking cetirizine 10 mg in the morning. Put on a thick, unscented cream or plain petroleum jelly at least twice a day, especially right after a short lukewarm shower. Wear cotton-lined gloves at work when you can. Call us right away if you see oozing, yellow crusts, or get a fever, because that could be an infection. Come back to see us in 4 weeks on Monday, November 2nd.",
   "avs_flags": [],
   "icd10": [
@@ -765,17 +752,17 @@
    "plan": "draft"
   },
   "model": "openrouter/apodex/apodex-1.1-mini:free",
-  "created_at": "2026-10-13T05:52:28.786724Z",
+  "created_at": "2026-10-13T07:04:03.228535Z",
   "signed_by": null,
   "signed_at": null,
   "timings": {
-   "phi_masking": 0.04,
+   "phi_masking": 0.023,
    "llm_note": 9.67,
-   "guards_note": 0.072,
+   "guards_note": 0.067,
    "llm_codes": 8.63,
-   "guards_codes": 0.038,
-   "total": 18.45,
-   "wall": 19.335
+   "guards_codes": 0.045,
+   "total": 18.435,
+   "wall": 0.154
   },
   "usage": {
    "model_ms": 18300,

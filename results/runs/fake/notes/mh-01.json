@@ -655,20 +655,20 @@
    "plan": "draft"
   },
   "model": "fake/fake-scribe",
-  "created_at": "2026-10-13T05:44:48.205310Z",
+  "created_at": "2026-10-13T07:04:54.433342Z",
   "signed_by": null,
   "signed_at": null,
   "timings": {
    "phi_masking": 0.03,
-   "llm_note": 0.019,
-   "guards_note": 0.075,
-   "llm_codes": 0.008,
-   "guards_codes": 0.048,
-   "total": 0.18,
-   "wall": 0.203
+   "llm_note": 0.017,
+   "guards_note": 0.071,
+   "llm_codes": 0.009,
+   "guards_codes": 0.049,
+   "total": 0.176,
+   "wall": 0.195
   },
   "usage": {
-   "model_ms": 27,
+   "model_ms": 26,
    "input_tokens": 3677,
    "output_tokens": 1742,
    "calls": 2

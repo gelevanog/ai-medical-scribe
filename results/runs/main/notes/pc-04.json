@@ -602,20 +602,7 @@
     "flags": []
    }
   ],
-  "allergies": [
-   {
-    "substance": "none reported",
-    "reaction": "none reported",
-    "evidence": [
-     {
-      "turn": 17,
-      "quote": "None of that.",
-      "verified": true,
-      "score": 1.0
-     }
-    ]
-   }
-  ],
+  "allergies": [],
   "after_visit_summary": "You have a muscle strain in your lower back from lifting at work. There is no sign of nerve damage or serious injury. We treated it with ibuprofen 600 mg three times daily with food for one week and cyclobenzaprine 5 mg at bedtime as needed for muscle spasms. The cyclobenzaprine may cause drowsiness, so do not drive or operate a forklift after taking it. Continue using heat on your back and walk gently—bed rest is not helpful. You have a work note for light duty, meaning no lifting over 20 pounds, through October 15th. If you are not better in two weeks, return for physical therapy. Go to the emergency room immediately if you lose control of your bladder or bowels, feel numb in the groin or inner thighs, or develop weakness in a leg. Follow up in two weeks.",
   "avs_flags": [],
   "icd10": [
@@ -670,17 +657,17 @@
    "plan": "draft"
   },
   "model": "openrouter/nvidia/nemotron-3-super-120b-a12b:free",
-  "created_at": "2026-10-13T05:47:02.169019Z",
+  "created_at": "2026-10-13T07:03:47.512030Z",
   "signed_by": null,
   "signed_at": null,
   "timings": {
-   "phi_masking": 0.039,
+   "phi_masking": 0.03,
    "llm_note": 20.73,
-   "guards_note": 0.066,
+   "guards_note": 0.052,
    "llm_codes": 2.22,
-   "guards_codes": 0.046,
-   "total": 23.101,
-   "wall": 0.178
+   "guards_codes": 0.033,
+   "total": 23.065,
+   "wall": 0.139
   },
   "usage": {
    "model_ms": 22950,

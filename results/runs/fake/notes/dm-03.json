@@ -39,6 +39,52 @@
    {
     "id": "s3",
     "section": "subjective",
+    "text": "Denies oozing",
+    "evidence": [
+     {
+      "turn": 8,
+      "quote": "That's rough. Any oozing, or yellow crusting?",
+      "verified": true,
+      "score": 1.0
+     },
+     {
+      "turn": 9,
+      "quote": "No, nothing like that.",
+      "verified": true,
+      "score": 1.0
+     }
+    ],
+    "support": "supported",
+    "flags": [],
+    "origin": "model",
+    "edited": false
+   },
+   {
+    "id": "s4",
+    "section": "subjective",
+    "text": "Denies yellow crusting",
+    "evidence": [
+     {
+      "turn": 8,
+      "quote": "That's rough. Any oozing, or yellow crusting?",
+      "verified": true,
+      "score": 1.0
+     },
+     {
+      "turn": 9,
+      "quote": "No, nothing like that.",
+      "verified": true,
+      "score": 1.0
+     }
+    ],
+    "support": "supported",
+    "flags": [],
+    "origin": "model",
+    "edited": false
+   },
+   {
+    "id": "s5",
+    "section": "subjective",
     "text": "Denies fevers",
     "evidence": [
      {
@@ -60,7 +106,7 @@
     "edited": false
    },
    {
-    "id": "s4",
+    "id": "s6",
     "section": "subjective",
     "text": "They haven't used an inhaler since was like 12",
     "evidence": [
@@ -77,7 +123,7 @@
     "edited": false
    },
    {
-    "id": "s5",
+    "id": "s7",
     "section": "subjective",
     "text": "Should they call the same number?",
     "evidence": [
@@ -504,22 +550,22 @@
    "plan": "draft"
   },
   "model": "fake/fake-scribe",
-  "created_at": "2026-10-13T05:44:45.867065Z",
+  "created_at": "2026-10-13T07:04:52.224017Z",
   "signed_by": null,
   "signed_at": null,
   "timings": {
-   "phi_masking": 0.042,
-   "llm_note": 0.019,
-   "guards_note": 0.064,
-   "llm_codes": 0.005,
-   "guards_codes": 0.044,
-   "total": 0.174,
-   "wall": 0.178
+   "phi_masking": 0.043,
+   "llm_note": 0.022,
+   "guards_note": 0.054,
+   "llm_codes": 0.006,
+   "guards_codes": 0.037,
+   "total": 0.162,
+   "wall": 0.172
   },
   "usage": {
-   "model_ms": 24,
-   "input_tokens": 2995,
-   "output_tokens": 1179,
+   "model_ms": 28,
+   "input_tokens": 3005,
+   "output_tokens": 1261,
    "calls": 2
   },
   "phi": {
@@ -584,13 +630,12 @@
   "case": "dm-03",
   "specialty": "dermatology",
   "facts": 27,
-  "found": 14,
-  "found_in_section": 8,
+  "found": 15,
+  "found_in_section": 9,
   "negation_errors": [],
   "trap_errors": [],
   "missed": [
    "f1 [subjective] Eczema flare for 3 weeks, started after new job in a cold, dry warehouse",
-   "f4 [subjective] Denies oozing or yellow crusting",
    "f6 [subjective] No new soaps, detergents or lotions",
    "f7 [subjective] Ran out of prescribed triamcinolone; using OTC hydrocortisone 1% without enough benefit",
    "f9 [subjective] Childhood asthma, resolved, no inhaler since age 12; no current breathing trouble",
@@ -603,8 +648,8 @@
    "f24 [plan] Thick fragrance-free moisturizer or petroleum jelly at least twice daily and after short lukewarm showers",
    "f25 [plan] Cotton-lined gloves at work; work note provided"
   ],
-  "statements": 17,
-  "statements_matching_gold": 10,
+  "statements": 19,
+  "statements_matching_gold": 12,
   "unsupported": 0,
   "partial": 0,
   "flags": {

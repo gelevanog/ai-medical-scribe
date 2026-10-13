@@ -404,20 +404,7 @@
     "flags": []
    }
   ],
-  "allergies": [
-   {
-    "substance": "none stated",
-    "reaction": "none stated",
-    "evidence": [
-     {
-      "turn": 2,
-      "quote": "Did your daughter bring you today?",
-      "verified": true,
-      "score": 1.0
-     }
-    ]
-   }
-  ],
+  "allergies": [],
   "after_visit_summary": "You came in for your 6-month check on atrial fibrillation. Your heart rhythm was irregular as expected, but your heart rate is well controlled. Your blood pressure is at goal, and your recent blood and kidney tests look good. One thing we changed is your aspirin. You had been taking a baby aspirin every day, but it adds bleeding risk on top of your blood thinner (apixaban) without giving extra heart protection, so we are stopping it. Keep taking apixaban 5 mg twice a day, metoprolol 50 mg once daily, lisinopril 10 mg once daily, and fish oil 1000 mg. You may keep a soft toothbrush, and tell your dentist about the gums bleeding. We will check your blood count again in 3 months. Call the clinic if you have black stools, blood in your urine, or a nosebleed that does not stop after 20 minutes. If you fall and hit your head, go to the emergency room even if you feel fine. Please come back in 6 months.",
   "avs_flags": [],
   "icd10": [
@@ -575,17 +562,17 @@
    "plan": "draft"
   },
   "model": "openrouter/apodex/apodex-1.1-mini:free",
-  "created_at": "2026-10-13T05:49:48.626402Z",
+  "created_at": "2026-10-13T07:04:01.630074Z",
   "signed_by": null,
   "signed_at": null,
   "timings": {
-   "phi_masking": 0.031,
+   "phi_masking": 0.034,
    "llm_note": 6.77,
-   "guards_note": 0.053,
+   "guards_note": 0.057,
    "llm_codes": 3.45,
    "guards_codes": 0.038,
-   "total": 10.342,
-   "wall": 10.357
+   "total": 10.349,
+   "wall": 0.158
   },
   "usage": {
    "model_ms": 10220,

@@ -544,26 +544,7 @@
     "flags": []
    }
   ],
-  "allergies": [
-   {
-    "substance": "none reported",
-    "reaction": "none reported",
-    "evidence": [
-     {
-      "turn": 16,
-      "quote": "Any headaches or stomachaches?",
-      "verified": true,
-      "score": 1.0
-     },
-     {
-      "turn": 17,
-      "quote": "No, not really.",
-      "verified": true,
-      "score": 1.0
-     }
-    ]
-   }
-  ],
+  "allergies": [],
   "after_visit_summary": "Today we checked on Zainab Haddad's ADHD treatment. She is doing well in school—her teacher says she finishes her work and stays in her seat more, and her reading grade improved from a C to a B. The medication (methylphenidate 27 mg every morning) is helping her focus. However, it is affecting her appetite: she eats little at lunch and gets very hungry later in the day. She has also lost a small amount of weight (about 2 pounds). To help, we will keep the same medication dose but give it with a bigger, higher-calorie breakfast (like eggs or a peanut butter smoothie). Please pack a snack she likes for lunch and give her a real snack after school and before bed. On weekends, if her behavior is good, it’s okay to skip the dose to help her eat more. For sleep, try to turn off screens by 8 PM and keep the same bedtime each night. If she still has trouble falling asleep, we can try a lower dose of melatonin (1 mg) instead of 3 mg. A prescription for 30 days of methylphenidate has been sent to the pharmacy at 2210 Kenwood Avenue. Please bring her for a nurse weight check on Tuesday, November 24th, and return for a follow-up visit in 3 months. If her weight continues to drop, we may consider a different medication. If you have any concerns, call 555-0147.",
   "avs_flags": [],
   "icd10": [
@@ -638,17 +619,17 @@
    "plan": "draft"
   },
   "model": "openrouter/nvidia/nemotron-3-super-120b-a12b:free",
-  "created_at": "2026-10-13T05:47:06.853986Z",
+  "created_at": "2026-10-13T07:03:50.991771Z",
   "signed_by": null,
   "signed_at": null,
   "timings": {
-   "phi_masking": 0.035,
+   "phi_masking": 0.025,
    "llm_note": 18.14,
-   "guards_note": 0.072,
+   "guards_note": 0.068,
    "llm_codes": 4.05,
-   "guards_codes": 0.051,
-   "total": 22.348,
-   "wall": 0.183
+   "guards_codes": 0.045,
+   "total": 22.328,
+   "wall": 0.165
   },
   "usage": {
    "model_ms": 22190,

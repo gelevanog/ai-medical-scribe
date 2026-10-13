@@ -756,17 +756,17 @@
    "plan": "draft"
   },
   "model": "openrouter/apodex/apodex-1.1-mini:free",
-  "created_at": "2026-10-13T05:51:21.797984Z",
+  "created_at": "2026-10-13T07:04:02.330199Z",
   "signed_by": null,
   "signed_at": null,
   "timings": {
-   "phi_masking": 0.033,
+   "phi_masking": 0.028,
    "llm_note": 8.039,
-   "guards_note": 0.078,
+   "guards_note": 0.066,
    "llm_codes": 2.86,
-   "guards_codes": 0.037,
-   "total": 11.047,
-   "wall": 19.497
+   "guards_codes": 0.046,
+   "total": 11.039,
+   "wall": 0.222
   },
   "usage": {
    "model_ms": 10899,

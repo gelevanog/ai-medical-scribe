@@ -39,6 +39,29 @@
    {
     "id": "s3",
     "section": "subjective",
+    "text": "Denies extra hair growth",
+    "evidence": [
+     {
+      "turn": 14,
+      "quote": "Any extra hair growth on your chin or chest?",
+      "verified": true,
+      "score": 1.0
+     },
+     {
+      "turn": 15,
+      "quote": "No.",
+      "verified": true,
+      "score": 1.0
+     }
+    ],
+    "support": "supported",
+    "flags": [],
+    "origin": "model",
+    "edited": false
+   },
+   {
+    "id": "s4",
+    "section": "subjective",
     "text": "Denies pregnant",
     "evidence": [
      {
@@ -60,7 +83,7 @@
     "edited": false
    },
    {
-    "id": "s4",
+    "id": "s5",
     "section": "subjective",
     "text": "Um, if they did get pregnant, could they keep taking these?",
     "evidence": [
@@ -535,22 +558,22 @@
    "plan": "draft"
   },
   "model": "fake/fake-scribe",
-  "created_at": "2026-10-13T05:44:45.668095Z",
+  "created_at": "2026-10-13T07:04:52.033083Z",
   "signed_by": null,
   "signed_at": null,
   "timings": {
-   "phi_masking": 0.035,
-   "llm_note": 0.023,
-   "guards_note": 0.076,
-   "llm_codes": 0.009,
-   "guards_codes": 0.038,
-   "total": 0.181,
-   "wall": 0.191
+   "phi_masking": 0.028,
+   "llm_note": 0.017,
+   "guards_note": 0.065,
+   "llm_codes": 0.004,
+   "guards_codes": 0.05,
+   "total": 0.164,
+   "wall": 0.183
   },
   "usage": {
-   "model_ms": 32,
-   "input_tokens": 3392,
-   "output_tokens": 1477,
+   "model_ms": 21,
+   "input_tokens": 3399,
+   "output_tokens": 1515,
    "calls": 2
   },
   "phi": {
@@ -615,8 +638,8 @@
   "case": "dm-02",
   "specialty": "dermatology",
   "facts": 27,
-  "found": 18,
-  "found_in_section": 12,
+  "found": 19,
+  "found_in_section": 13,
   "negation_errors": [],
   "trap_errors": [
    "other_person: Roommate took isotretinoin; the patient has never taken it and it was not prescribed"
@@ -627,13 +650,12 @@
    "f4 [subjective] Takes norgestimate combined oral contraceptive pill daily",
    "f6 [subjective] Amoxicillin allergy with hives",
    "f7 [subjective] Menses regular on the pill",
-   "f8 [subjective] Denies excess facial or chest hair growth",
    "f15 [objective] No acne scarring",
    "f17 [assessment] Moderate acne vulgaris of face and upper back",
    "f25 [plan] Prescriptions sent to pharmacy on Belmont Avenue"
   ],
-  "statements": 18,
-  "statements_matching_gold": 11,
+  "statements": 19,
+  "statements_matching_gold": 12,
   "unsupported": 0,
   "partial": 0,
   "flags": {},

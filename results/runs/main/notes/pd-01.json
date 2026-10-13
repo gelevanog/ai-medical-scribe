@@ -566,13 +566,11 @@
      {
       "kind": "dose_mismatch",
       "severity": "warning",
-      "message": "The acetaminophen dose was corrected in the conversation (4, 5, 6, 7.5); confirm the final dose.",
+      "message": "The acetaminophen dose was corrected in the conversation (5, 7.5); confirm the final dose.",
       "acknowledged": false,
       "detail": {
        "doses": [
-        "4",
         "5",
-        "6",
         "7.5"
        ],
        "turn": 32
@@ -581,26 +579,7 @@
     ]
    }
   ],
-  "allergies": [
-   {
-    "substance": "none known",
-    "reaction": "none",
-    "evidence": [
-     {
-      "turn": 22,
-      "quote": "And she's not allergic to any medicines?",
-      "verified": true,
-      "score": 1.0
-     },
-     {
-      "turn": 23,
-      "quote": "No allergies that we know of.",
-      "verified": true,
-      "score": 1.0
-     }
-    ]
-   }
-  ],
+  "allergies": [],
   "after_visit_summary": "Your child has an ear infection in the left ear along with a cold. We prescribed amoxicillin 720 mg by mouth twice daily for 10 days. For pain or fever, you can give ibuprofen 160 mg by mouth every 6 to 8 hours as needed, or acetaminophen 7.5 mL by mouth every 4 to 6 hours as needed. She can return to daycare after being fever-free for 24 hours without medicine. Call us if fever or pain continues after 48 to 72 hours on the antibiotic, or if you see swelling or redness behind the ear, or if she is hard to wake up. No routine follow-up is needed if she improves in a few days, but return if she gets another ear infection in the next couple of months.",
   "avs_flags": [],
   "icd10": [
@@ -656,17 +635,17 @@
    "plan": "draft"
   },
   "model": "openrouter/nvidia/nemotron-3-super-120b-a12b:free",
-  "created_at": "2026-10-13T05:47:05.975545Z",
+  "created_at": "2026-10-13T07:03:50.206513Z",
   "signed_by": null,
   "signed_at": null,
   "timings": {
-   "phi_masking": 0.039,
+   "phi_masking": 0.03,
    "llm_note": 19.59,
-   "guards_note": 0.076,
+   "guards_note": 0.07,
    "llm_codes": 2.51,
    "guards_codes": 0.048,
-   "total": 22.263,
-   "wall": 0.221
+   "total": 22.248,
+   "wall": 0.195
   },
   "usage": {
    "model_ms": 22100,

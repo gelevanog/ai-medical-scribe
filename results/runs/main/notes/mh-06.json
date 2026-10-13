@@ -653,20 +653,7 @@
     "flags": []
    }
   ],
-  "allergies": [
-   {
-    "substance": "none reported",
-    "reaction": "none reported",
-    "evidence": [
-     {
-      "turn": 19,
-      "quote": "No, none of that.",
-      "verified": true,
-      "score": 1.0
-     }
-    ]
-   }
-  ],
+  "allergies": [],
   "after_visit_summary": "Today we discussed your mood and drinking. Your mood is good and your depression is in remission on bupropion. However, your drinking has increased to three or four glasses most nights and up to six on weekends, with one blackout that concerned you. Your AUDIT-C score shows risky drinking. We are concerned about mild alcohol use disorder. Because bupropion can increase seizure risk with heavy drinking or sudden withdrawal, we want to address this carefully. We will check your liver with a blood test today. If results are normal, we will start naltrexone 50 mg daily to reduce cravings. For now, aim for no more than one drink per day and at least three alcohol-free days each week. You are being referred to Riverbend Recovery Center for evening counseling twice a week. Continue bupropion 150 mg each morning. If you feel shaky, sweaty, or anxious when cutting back on alcohol, call us right away. If your mood worsens or you have thoughts of self-harm, call or text 988. We will recheck your blood pressure at your next visit. Please return in 4 weeks on October 30th.",
   "avs_flags": [],
   "icd10": [
@@ -807,17 +794,17 @@
    "plan": "draft"
   },
   "model": "openrouter/nvidia/nemotron-3-super-120b-a12b:free",
-  "created_at": "2026-10-13T05:47:09.446230Z",
+  "created_at": "2026-10-13T07:03:52.305671Z",
   "signed_by": null,
   "signed_at": null,
   "timings": {
-   "phi_masking": 0.046,
+   "phi_masking": 0.028,
    "llm_note": 17.46,
-   "guards_note": 0.089,
+   "guards_note": 0.057,
    "llm_codes": 5.6,
-   "guards_codes": 0.041,
-   "total": 23.236,
-   "wall": 0.202
+   "guards_codes": 0.038,
+   "total": 23.183,
+   "wall": 0.144
   },
   "usage": {
    "model_ms": 23060,

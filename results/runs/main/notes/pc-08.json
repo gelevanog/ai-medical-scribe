@@ -815,20 +815,7 @@
     "flags": []
    }
   ],
-  "allergies": [
-   {
-    "substance": "none reported",
-    "reaction": "none",
-    "evidence": [
-     {
-      "turn": 13,
-      "quote": "No, none of that.",
-      "verified": true,
-      "score": 1.0
-     }
-    ]
-   }
-  ],
+  "allergies": [],
   "after_visit_summary": "You have been feeling unusually tired for about six weeks, needing naps in the morning and afternoon. This is likely due to two of your medications: metoprolol, which may be slowing your heart rate too much, and Tylenol PM, which contains an antihistamine that can cause daytime drowsiness, especially at your age. We are stopping Tylenol PM and reducing your metoprolol dose from 50 mg twice daily to 25 mg twice daily. You should continue taking amlodipine 5 mg daily, atorvastatin 10 mg nightly, and aspirin 81 mg daily as before. For nighttime discomfort, you may take plain acetaminophen 500 mg as needed. We are starting a chewable vitamin D3 supplement at 1000 units daily since swallowing pills has been difficult. Blood work including a complete blood count, metabolic panel, thyroid function, and vitamin B12 level will be done today to rule out other causes. When getting up in the morning, sit on the edge of the bed for a minute before standing to avoid lightheadedness. If you feel faint, develop chest pain, or notice your pulse slowing further, call our office or go to the emergency room. We will call your helper Gloria at 555-0177 with your test results and see you back in two weeks.",
   "avs_flags": [
    {
@@ -950,17 +937,17 @@
    "plan": "draft"
   },
   "model": "openrouter/nvidia/nemotron-3-super-120b-a12b:free",
-  "created_at": "2026-10-13T05:47:02.972996Z",
+  "created_at": "2026-10-13T07:03:48.154436Z",
   "signed_by": null,
   "signed_at": null,
   "timings": {
-   "phi_masking": 0.039,
+   "phi_masking": 0.028,
    "llm_note": 21.83,
-   "guards_note": 0.076,
+   "guards_note": 0.046,
    "llm_codes": 5.25,
-   "guards_codes": 0.048,
-   "total": 27.243,
-   "wall": 0.182
+   "guards_codes": 0.029,
+   "total": 27.183,
+   "wall": 0.117
   },
   "usage": {
    "model_ms": 27080,

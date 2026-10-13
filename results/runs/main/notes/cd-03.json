@@ -597,12 +597,12 @@
      {
       "kind": "dose_mismatch",
       "severity": "warning",
-      "message": "The furosemide dose was corrected in the conversation (20, 4); confirm the final dose.",
+      "message": "The furosemide dose was corrected in the conversation (20, 40); confirm the final dose.",
       "acknowledged": false,
       "detail": {
        "doses": [
         "20",
-        "4"
+        "40"
        ],
        "turn": 18
       }
@@ -720,17 +720,17 @@
    "plan": "draft"
   },
   "model": "openrouter/nvidia/nemotron-3-super-120b-a12b:free",
-  "created_at": "2026-10-13T05:47:03.670672Z",
+  "created_at": "2026-10-13T07:03:48.589919Z",
   "signed_by": null,
   "signed_at": null,
   "timings": {
-   "phi_masking": 0.038,
+   "phi_masking": 0.022,
    "llm_note": 21.42,
-   "guards_note": 0.075,
+   "guards_note": 0.043,
    "llm_codes": 3.21,
-   "guards_codes": 0.046,
-   "total": 24.789,
-   "wall": 0.231
+   "guards_codes": 0.029,
+   "total": 24.724,
+   "wall": 0.126
   },
   "usage": {
    "model_ms": 24630,

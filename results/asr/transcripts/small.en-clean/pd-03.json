@@ -1,0 +1,4098 @@
+{
+ "turns": [
+  {
+   "idx": 0,
+   "speaker": "clinician",
+   "text": "Hi, welcome back. Wow, someone got tall. Can you confirm her full name and date of birth for me, mom?",
+   "start": 0.08,
+   "end": 5.86
+  },
+  {
+   "idx": 1,
+   "speaker": "caregiver",
+   "text": "Ananya Iyer, September 28th, 2022. She just turned four, so she's very proud.",
+   "start": 6.48,
+   "end": 12.36
+  },
+  {
+   "idx": 2,
+   "speaker": "clinician",
+   "text": "Happy birthday, Ananya.",
+   "start": 13.14,
+   "end": 14.04
+  },
+  {
+   "idx": 3,
+   "speaker": "caregiver",
+   "text": "So this is her four -year checkup. Laxmi, any concerns before we get into the usual stuff? Just one really, her poop. She's been going only every three or four days for maybe two months, and it's hard, and she cries when she goes. sometimes she hides behind the couch and holds it that's really common at this age any blood in the stool or on the toilet paper no I haven't seen any any accidents during the day or belly pain between poops no accidents she'll say her tummy hurts right before she goes but otherwise she's fine how much milk is she drinking oh a lot probably three or four cups a day she's a picky eater so milk and crackers and pasta, honestly. Fruit sometimes.",
+   "start": 14.48,
+   "end": 56.6
+  },
+  {
+   "idx": 4,
+   "speaker": "clinician",
+   "text": "Okay, that's a big part of the picture. Is she taking any medicines or vitamins?",
+   "start": 57.78,
+   "end": 61.74
+  },
+  {
+   "idx": 5,
+   "speaker": "caregiver",
+   "text": "Just a kid's multivitamin gummy, one a day. No medicines and no allergies.",
+   "start": 62.58,
+   "end": 67.08
+  },
+  {
+   "idx": 6,
+   "speaker": "clinician",
+   "text": "Great, how's preschool going?",
+   "start": 67.96,
+   "end": 69.28
+  },
+  {
+   "idx": 7,
+   "speaker": "caregiver",
+   "text": "She loves it. She's at Sunflower Montessori, four mornings a week.",
+   "start": 70.18,
+   "end": 73.92
+  },
+  {
+   "idx": 8,
+   "speaker": "clinician",
+   "text": "The teachers say she plays well with the other kids. Love that.",
+   "start": 74.54,
+   "end": 78.0
+  },
+  {
+   "idx": 9,
+   "speaker": "caregiver",
+   "text": "Is she talking in full sentences?",
+   "start": 78.26,
+   "end": 79.74
+  },
+  {
+   "idx": 10,
+   "speaker": "clinician",
+   "text": "Can strangers understand her?",
+   "start": 80.22,
+   "end": 81.64
+  },
+  {
+   "idx": 11,
+   "speaker": "caregiver",
+   "text": "Oh yes, she never stops talking. She can hop on one foot. She draws people with arms and legs. She dresses herself mostly. Daytime potty train since three.",
+   "start": 81.64,
+   "end": 91.58
+  },
+  {
+   "idx": 12,
+   "speaker": "clinician",
+   "text": "Those are all right on track.",
+   "start": 92.58,
+   "end": 93.58
+  },
+  {
+   "idx": 13,
+   "speaker": "caregiver",
+   "text": "How sleep does she snore? No snoring.",
+   "start": 93.96,
+   "end": 96.18
+  },
+  {
+   "idx": 14,
+   "speaker": "clinician",
+   "text": "She sleeps about 10 or 11 hours. And she's seeing a dentist.",
+   "start": 96.74,
+   "end": 100.38
+  },
+  {
+   "idx": 15,
+   "speaker": "caregiver",
+   "text": "Yes last month no cavities.",
+   "start": 101.64,
+   "end": 103.0
+  },
+  {
+   "idx": 16,
+   "speaker": "clinician",
+   "text": "We brush twice a day. Perfect, still in a car seat with a harness.",
+   "start": 103.46,
+   "end": 107.2
+  },
+  {
+   "idx": 17,
+   "speaker": "caregiver",
+   "text": "Yes forward facing, five point harness. Good.",
+   "start": 108.16,
+   "end": 111.3
+  },
+  {
+   "idx": 18,
+   "speaker": "clinician",
+   "text": "Okay. Her numbers.",
+   "start": 111.46,
+   "end": 112.28
+  },
+  {
+   "idx": 19,
+   "speaker": "caregiver",
+   "text": "Weight is 17",
+   "start": 112.86,
+   "end": 113.68
+  },
+  {
+   "idx": 20,
+   "speaker": "clinician",
+   "text": "kilograms, about 37 and a half pounds.",
+   "start": 113.68,
+   "end": 115.82
+  },
+  {
+   "idx": 21,
+   "speaker": "caregiver",
+   "text": "Height is 103 centimeters, and her BMI is around the 65th percentile, so she's growing nicely. Blood pressure is 94 over 56. On the vision screen, she read the 20 over 30 line with each eye, which is a pass for four. And she passed the hearing screen in both ears. Oh, good. I was a little worried about her eyes, because my husband had a lazy eye as a kid, and had to wear a patch. That's good to know and that's exactly why we screen.",
+   "start": 116.38,
+   "end": 142.82
+  },
+  {
+   "idx": 22,
+   "speaker": "clinician",
+   "text": "Her eyes line up well and the screen is normal, let me examine her. Heart sounds normal, no murmur,",
+   "start": 143.44,
+   "end": 148.4
+  },
+  {
+   "idx": 23,
+   "speaker": "caregiver",
+   "text": "lungs are clear. Her belly is soft and not tender but I can feel some stool on the lower left side. Her bottom looks normal no tears or fissures. Teeth look great.",
+   "start": 148.72,
+   "end": 157.82
+  },
+  {
+   "idx": 24,
+   "speaker": "clinician",
+   "text": "Okay. So overall, a healthy four year old, growing and developing normally.",
+   "start": 158.32,
+   "end": 162.84
+  },
+  {
+   "idx": 25,
+   "speaker": "caregiver",
+   "text": "The one issue is constipation. With the hard stools and the holding, I'd like to start Mira LAX.",
+   "start": 163.56,
+   "end": 168.86
+  },
+  {
+   "idx": 26,
+   "speaker": "clinician",
+   "text": "The usual dose is about half a gram per kilogram,",
+   "start": 169.44,
+   "end": 171.74
+  },
+  {
+   "idx": 27,
+   "speaker": "caregiver",
+   "text": "so at 17 kilograms, that's about eight and a half grams, which is half a capful, mixed in four ounces of water or juice once a day. Half a capful once a day?",
+   "start": 172.1,
+   "end": 180.9
+  },
+  {
+   "idx": 28,
+   "speaker": "clinician",
+   "text": "Okay.",
+   "start": 181.26,
+   "end": 181.64
+  },
+  {
+   "idx": 29,
+   "speaker": "caregiver",
+   "text": "You can adjust it.",
+   "start": 182.26,
+   "end": 183.12
+  },
+  {
+   "idx": 30,
+   "speaker": "clinician",
+   "text": "The goal is a soft poop every day or every other day. Also, cut the milk down to two cups a day,",
+   "start": 183.64,
+   "end": 188.88
+  },
+  {
+   "idx": 31,
+   "speaker": "caregiver",
+   "text": "16 ounces, add fruit and water,",
+   "start": 189.2,
+   "end": 190.94
+  },
+  {
+   "idx": 32,
+   "speaker": "clinician",
+   "text": "and have her sit on the party for five minutes after meals. If it isn't better in a month or you see blood, send me a message and we'll go from there.",
+   "start": 191.34,
+   "end": 198.64
+  },
+  {
+   "idx": 33,
+   "speaker": "caregiver",
+   "text": "That makes sense, and sharts today. Yes, two sharts. One is D .T .R .P.",
+   "start": 199.16,
+   "end": 203.98
+  },
+  {
+   "idx": 34,
+   "speaker": "clinician",
+   "text": "and polio combined, the other is M .M .R.",
+   "start": 203.98,
+   "end": 206.04
+  },
+  {
+   "idx": 35,
+   "speaker": "caregiver",
+   "text": "and chicken pucks combined.",
+   "start": 206.08,
+   "end": 207.24
+  },
+  {
+   "idx": 36,
+   "speaker": "clinician",
+   "text": "She might get a sore leg or a low fever, and with the M .M .R.",
+   "start": 207.88,
+   "end": 210.78
+  },
+  {
+   "idx": 37,
+   "speaker": "caregiver",
+   "text": "part a rash or fever one to two weeks later is passable. If she's uncomfortable, children's Tylenol about 8 milliliters for her weight. Has she had her flu shot this year? Yes, we got it at the pharmacy on October 2nd, when I got mine.",
+   "start": 210.86,
+   "end": 225.04
+  },
+  {
+   "idx": 38,
+   "speaker": "clinician",
+   "text": "Perfect, I'll record that. Any questions about the shots?",
+   "start": 225.8,
+   "end": 228.66
+  },
+  {
+   "idx": 39,
+   "speaker": "caregiver",
+   "text": "No, we're good. She had a cough back in September, but that's totally gone, so she's okay to get them right.",
+   "start": 229.48,
+   "end": 235.4
+  },
+  {
+   "idx": 40,
+   "speaker": "clinician",
+   "text": "Yes, totally fine. So, shots with the nurse the Mira LAX and I'll see her at 5 for her next checkup. What's she going to be for Halloween?",
+   "start": 236.26,
+   "end": 244.08
+  },
+  {
+   "idx": 41,
+   "speaker": "caregiver",
+   "text": "A purple dinosaur, she's insisting.",
+   "start": 244.8,
+   "end": 246.74
+  },
+  {
+   "idx": 42,
+   "speaker": "clinician",
+   "text": "Of course she is, by Ananya.",
+   "start": 247.72,
+   "end": 249.16
+  }
+ ],
+ "source": "asr",
+ "asr_model": "faster-whisper small.en int8 + medical prompt",
+ "duration_s": 249.89,
+ "timings": {
+  "asr": 83.79,
+  "diarization": 1.65
+ },
+ "diarization": {
+  "method": "voice centers from log-mel + pitch (k-means, k=2), word-level Viterbi smoothing, lexical role inference",
+  "chunks": 98,
+  "role_scores": {
+   "clinician": 0.68,
+   "caregiver": 0.55
+  },
+  "words": [
+   [
+    " Hi,",
+    0.08,
+    0.66
+   ],
+   [
+    " welcome",
+    0.82,
+    1.12
+   ],
+   [
+    " back.",
+    1.12,
+    1.6
+   ],
+   [
+    " Wow,",
+    2.02,
+    2.06
+   ],
+   [
+    " someone",
+    2.16,
+    2.36
+   ],
+   [
+    " got",
+    2.36,
+    2.58
+   ],
+   [
+    " tall.",
+    2.58,
+    2.86
+   ],
+   [
+    " Can",
+    3.32,
+    3.38
+   ],
+   [
+    " you",
+    3.38,
+    3.5
+   ],
+   [
+    " confirm",
+    3.5,
+    3.84
+   ],
+   [
+    " her",
+    3.84,
+    4.04
+   ],
+   [
+    " full",
+    4.04,
+    4.22
+   ],
+   [
+    " name",
+    4.22,
+    4.46
+   ],
+   [
+    " and",
+    4.46,
+    4.66
+   ],
+   [
+    " date",
+    4.66,
+    4.84
+   ],
+   [
+    " of",
+    4.84,
+    4.98
+   ],
+   [
+    " birth",
+    4.98,
+    5.2
+   ],
+   [
+    " for",
+    5.2,
+    5.42
+   ],
+   [
+    " me,",
+    5.42,
+    5.56
+   ],
+   [
+    " mom?",
+    5.86,
+    5.86
+   ],
+   [
+    " Ananya",
+    6.48,
+    6.72
+   ],
+   [
+    " Iyer,",
+    6.72,
+    7.14
+   ],
+   [
+    " September",
+    7.44,
+    7.64
+   ],
+   [
+    " 28th,",
+    7.64,
+    8.7
+   ],
+   [
+    " 2022.",
+    8.7,
+    9.46
+   ],
+   [
+    " She",
+    10.46,
+    10.48
+   ],
+   [
+    " just",
+    10.48,
+    10.64
+   ],
+   [
+    " turned",
+    10.64,
+    10.92
+   ],
+   [
+    " four,",
+    10.92,
+    11.22
+   ],
+   [
+    " so",
+    11.36,
+    11.5
+   ],
+   [
+    " she's",
+    11.5,
+    11.74
+   ],
+   [
+    " very",
+    11.74,
+    11.96
+   ],
+   [
+    " proud.",
+    11.96,
+    12.36
+   ],
+   [
+    " Happy",
+    13.14,
+    13.14
+   ],
+   [
+    " birthday,",
+    13.14,
+    13.6
+   ],
+   [
+    " Ananya.",
+    13.76,
+    14.04
+   ],
+   [
+    " So",
+    14.48,
+    14.66
+   ],
+   [
+    " this",
+    14.66,
+    14.82
+   ],
+   [
+    " is",
+    14.82,
+    15.0
+   ],
+   [
+    " her",
+    15.0,
+    15.16
+   ],
+   [
+    " four",
+    15.16,
+    15.38
+   ],
+   [
+    "-year",
+    15.38,
+    15.54
+   ],
+   [
+    " checkup.",
+    15.54,
+    16.08
+   ],
+   [
+    " Laxmi,",
+    16.84,
+    17.14
+   ],
+   [
+    " any",
+    17.22,
+    17.36
+   ],
+   [
+    " concerns",
+    17.36,
+    17.78
+   ],
+   [
+    " before",
+    17.78,
+    18.18
+   ],
+   [
+    " we",
+    18.18,
+    18.34
+   ],
+   [
+    " get",
+    18.34,
+    18.46
+   ],
+   [
+    " into",
+    18.46,
+    18.64
+   ],
+   [
+    " the",
+    18.64,
+    18.78
+   ],
+   [
+    " usual",
+    18.78,
+    19.02
+   ],
+   [
+    " stuff?",
+    19.02,
+    19.36
+   ],
+   [
+    " Just",
+    19.96,
+    20.16
+   ],
+   [
+    " one",
+    20.16,
+    20.36
+   ],
+   [
+    " really,",
+    20.36,
+    20.66
+   ],
+   [
+    " her",
+    20.94,
+    21.06
+   ],
+   [
+    " poop.",
+    21.06,
+    21.3
+   ],
+   [
+    " She's",
+    21.86,
+    22.1
+   ],
+   [
+    " been",
+    22.1,
+    22.22
+   ],
+   [
+    " going",
+    22.22,
+    22.44
+   ],
+   [
+    " only",
+    22.44,
+    22.8
+   ],
+   [
+    " every",
+    22.8,
+    23.16
+   ],
+   [
+    " three",
+    23.16,
+    23.42
+   ],
+   [
+    " or",
+    23.42,
+    23.56
+   ],
+   [
+    " four",
+    23.56,
+    23.74
+   ],
+   [
+    " days",
+    23.74,
+    23.98
+   ],
+   [
+    " for",
+    23.98,
+    24.22
+   ],
+   [
+    " maybe",
+    24.22,
+    24.42
+   ],
+   [
+    " two",
+    24.42,
+    24.68
+   ],
+   [
+    " months,",
+    24.68,
+    24.98
+   ],
+   [
+    " and",
+    25.14,
+    25.44
+   ],
+   [
+    " it's",
+    25.44,
+    25.6
+   ],
+   [
+    " hard,",
+    25.6,
+    25.86
+   ],
+   [
+    " and",
+    26.18,
+    26.32
+   ],
+   [
+    " she",
+    26.32,
+    26.46
+   ],
+   [
+    " cries",
+    26.46,
+    26.76
+   ],
+   [
+    " when",
+    26.76,
+    27.0
+   ],
+   [
+    " she",
+    27.0,
+    27.14
+   ],
+   [
+    " goes.",
+    27.14,
+    27.42
+   ],
+   [
+    " sometimes",
+    27.42,
+    28.46
+   ],
+   [
+    " she",
+    28.46,
+    28.92
+   ],
+   [
+    " hides",
+    28.92,
+    29.18
+   ],
+   [
+    " behind",
+    29.18,
+    29.54
+   ],
+   [
+    " the",
+    29.54,
+    29.66
+   ],
+   [
+    " couch",
+    29.66,
+    29.92
+   ],
+   [
+    " and",
+    29.92,
+    30.16
+   ],
+   [
+    " holds",
+    30.16,
+    30.38
+   ],
+   [
+    " it",
+    30.38,
+    30.74
+   ],
+   [
+    " that's",
+    30.74,
+    31.56
+   ],
+   [
+    " really",
+    31.56,
+    31.72
+   ],
+   [
+    " common",
+    31.72,
+    32.1
+   ],
+   [
+    " at",
+    32.1,
+    32.26
+   ],
+   [
+    " this",
+    32.26,
+    32.44
+   ],
+   [
+    " age",
+    32.44,
+    32.76
+   ],
+   [
+    " any",
+    32.76,
+    33.34
+   ],
+   [
+    " blood",
+    33.34,
+    33.58
+   ],
+   [
+    " in",
+    33.58,
+    33.76
+   ],
+   [
+    " the",
+    33.76,
+    33.86
+   ],
+   [
+    " stool",
+    33.86,
+    34.1
+   ],
+   [
+    " or",
+    34.1,
+    34.34
+   ],
+   [
+    " on",
+    34.34,
+    34.44
+   ],
+   [
+    " the",
+    34.44,
+    34.58
+   ],
+   [
+    " toilet",
+    34.58,
+    34.84
+   ],
+   [
+    " paper",
+    34.84,
+    35.3
+   ],
+   [
+    " no",
+    35.3,
+    36.06
+   ],
+   [
+    " I",
+    36.06,
+    36.3
+   ],
+   [
+    " haven't",
+    36.3,
+    36.62
+   ],
+   [
+    " seen",
+    36.62,
+    36.78
+   ],
+   [
+    " any",
+    36.78,
+    37.14
+   ],
+   [
+    " any",
+    37.14,
+    37.72
+   ],
+   [
+    " accidents",
+    37.72,
+    38.14
+   ],
+   [
+    " during",
+    38.14,
+    38.48
+   ],
+   [
+    " the",
+    38.48,
+    38.66
+   ],
+   [
+    " day",
+    38.66,
+    38.92
+   ],
+   [
+    " or",
+    38.92,
+    39.2
+   ],
+   [
+    " belly",
+    39.2,
+    39.44
+   ],
+   [
+    " pain",
+    39.44,
+    39.76
+   ],
+   [
+    " between",
+    39.76,
+    40.1
+   ],
+   [
+    " poops",
+    40.1,
+    40.52
+   ],
+   [
+    " no",
+    40.52,
+    41.42
+   ],
+   [
+    " accidents",
+    41.42,
+    42.02
+   ],
+   [
+    " she'll",
+    42.02,
+    42.78
+   ],
+   [
+    " say",
+    42.78,
+    42.92
+   ],
+   [
+    " her",
+    42.92,
+    43.06
+   ],
+   [
+    " tummy",
+    43.06,
+    43.36
+   ],
+   [
+    " hurts",
+    43.36,
+    43.58
+   ],
+   [
+    " right",
+    43.58,
+    43.88
+   ],
+   [
+    " before",
+    43.88,
+    44.14
+   ],
+   [
+    " she",
+    44.14,
+    44.3
+   ],
+   [
+    " goes",
+    44.3,
+    44.58
+   ],
+   [
+    " but",
+    44.58,
+    44.96
+   ],
+   [
+    " otherwise",
+    44.96,
+    45.36
+   ],
+   [
+    " she's",
+    45.36,
+    45.74
+   ],
+   [
+    " fine",
+    45.74,
+    46.04
+   ],
+   [
+    " how",
+    46.04,
+    46.88
+   ],
+   [
+    " much",
+    46.88,
+    47.12
+   ],
+   [
+    " milk",
+    47.12,
+    47.38
+   ],
+   [
+    " is",
+    47.38,
+    47.6
+   ],
+   [
+    " she",
+    47.6,
+    47.78
+   ],
+   [
+    " drinking",
+    47.78,
+    48.16
+   ],
+   [
+    " oh",
+    48.16,
+    49.32
+   ],
+   [
+    " a",
+    49.38,
+    49.56
+   ],
+   [
+    " lot",
+    49.56,
+    49.82
+   ],
+   [
+    " probably",
+    49.82,
+    50.32
+   ],
+   [
+    " three",
+    50.32,
+    50.66
+   ],
+   [
+    " or",
+    50.66,
+    50.78
+   ],
+   [
+    " four",
+    50.78,
+    50.98
+   ],
+   [
+    " cups",
+    50.98,
+    51.2
+   ],
+   [
+    " a",
+    51.2,
+    51.34
+   ],
+   [
+    " day",
+    51.34,
+    51.58
+   ],
+   [
+    " she's",
+    51.58,
+    52.24
+   ],
+   [
+    " a",
+    52.24,
+    52.3
+   ],
+   [
+    " picky",
+    52.3,
+    52.6
+   ],
+   [
+    " eater",
+    52.6,
+    52.82
+   ],
+   [
+    " so",
+    52.82,
+    53.14
+   ],
+   [
+    " milk",
+    53.14,
+    53.4
+   ],
+   [
+    " and",
+    53.4,
+    53.62
+   ],
+   [
+    " crackers",
+    53.62,
+    54.08
+   ],
+   [
+    " and",
+    54.08,
+    54.24
+   ],
+   [
+    " pasta,",
+    54.24,
+    54.62
+   ],
+   [
+    " honestly.",
+    54.8,
+    55.18
+   ],
+   [
+    " Fruit",
+    55.88,
+    56.02
+   ],
+   [
+    " sometimes.",
+    56.02,
+    56.6
+   ],
+   [
+    " Okay,",
+    57.78,
+    57.78
+   ],
+   [
+    " that's",
+    58.0,
+    58.22
+   ],
+   [
+    " a",
+    58.22,
+    58.3
+   ],
+   [
+    " big",
+    58.3,
+    58.44
+   ],
+   [
+    " part",
+    58.44,
+    58.68
+   ],
+   [
+    " of",
+    58.68,
+    58.84
+   ],
+   [
+    " the",
+    58.84,
+    58.94
+   ],
+   [
+    " picture.",
+    58.94,
+    59.3
+   ],
+   [
+    " Is",
+    59.88,
+    60.0
+   ],
+   [
+    " she",
+    60.0,
+    60.12
+   ],
+   [
+    " taking",
+    60.12,
+    60.38
+   ],
+   [
+    " any",
+    60.38,
+    60.66
+   ],
+   [
+    " medicines",
+    60.66,
+    61.02
+   ],
+   [
+    " or",
+    61.02,
+    61.36
+   ],
+   [
+    " vitamins?",
+    61.36,
+    61.74
+   ],
+   [
+    " Just",
+    62.58,
+    62.78
+   ],
+   [
+    " a",
+    62.78,
+    62.96
+   ],
+   [
+    " kid's",
+    62.96,
+    63.32
+   ],
+   [
+    " multivitamin",
+    63.32,
+    63.9
+   ],
+   [
+    " gummy,",
+    63.9,
+    64.26
+   ],
+   [
+    " one",
+    64.44,
+    64.52
+   ],
+   [
+    " a",
+    64.52,
+    64.64
+   ],
+   [
+    " day.",
+    64.64,
+    64.82
+   ],
+   [
+    " No",
+    65.46,
+    65.64
+   ],
+   [
+    " medicines",
+    65.64,
+    66.08
+   ],
+   [
+    " and",
+    66.08,
+    66.46
+   ],
+   [
+    " no",
+    66.46,
+    66.66
+   ],
+   [
+    " allergies.",
+    66.66,
+    67.08
+   ],
+   [
+    " Great,",
+    67.96,
+    68.14
+   ],
+   [
+    " how's",
+    68.32,
+    68.58
+   ],
+   [
+    " preschool",
+    68.58,
+    68.86
+   ],
+   [
+    " going?",
+    68.86,
+    69.28
+   ],
+   [
+    " She",
+    70.18,
+    70.44
+   ],
+   [
+    " loves",
+    70.44,
+    70.62
+   ],
+   [
+    " it.",
+    70.62,
+    70.86
+   ],
+   [
+    " She's",
+    71.34,
+    71.52
+   ],
+   [
+    " at",
+    71.52,
+    71.68
+   ],
+   [
+    " Sunflower",
+    71.68,
+    72.18
+   ],
+   [
+    " Montessori,",
+    72.18,
+    72.88
+   ],
+   [
+    " four",
+    73.1,
+    73.24
+   ],
+   [
+    " mornings",
+    73.24,
+    73.54
+   ],
+   [
+    " a",
+    73.54,
+    73.72
+   ],
+   [
+    " week.",
+    73.72,
+    73.92
+   ],
+   [
+    " The",
+    74.54,
+    74.66
+   ],
+   [
+    " teachers",
+    74.66,
+    74.94
+   ],
+   [
+    " say",
+    74.94,
+    75.24
+   ],
+   [
+    " she",
+    75.24,
+    75.42
+   ],
+   [
+    " plays",
+    75.42,
+    75.64
+   ],
+   [
+    " well",
+    75.64,
+    75.92
+   ],
+   [
+    " with",
+    75.92,
+    76.08
+   ],
+   [
+    " the",
+    76.08,
+    76.2
+   ],
+   [
+    " other",
+    76.2,
+    76.36
+   ],
+   [
+    " kids.",
+    76.36,
+    76.7
+   ],
+   [
+    " Love",
+    77.6,
+    77.72
+   ],
+   [
+    " that.",
+    77.72,
+    78.0
+   ],
+   [
+    " Is",
+    78.26,
+    78.34
+   ],
+   [
+    " she",
+    78.34,
+    78.5
+   ],
+   [
+    " talking",
+    78.5,
+    78.76
+   ],
+   [
+    " in",
+    78.76,
+    79.02
+   ],
+   [
+    " full",
+    79.02,
+    79.22
+   ],
+   [
+    " sentences?",
+    79.22,
+    79.74
+   ],
+   [
+    " Can",
+    80.22,
+    80.3
+   ],
+   [
+    " strangers",
+    80.3,
+    80.78
+   ],
+   [
+    " understand",
+    80.78,
+    81.34
+   ],
+   [
+    " her?",
+    81.34,
+    81.64
+   ],
+   [
+    " Oh",
+    81.64,
+    82.2
+   ],
+   [
+    " yes,",
+    82.2,
+    82.46
+   ],
+   [
+    " she",
+    82.62,
+    82.72
+   ],
+   [
+    " never",
+    82.72,
+    82.94
+   ],
+   [
+    " stops",
+    82.94,
+    83.32
+   ],
+   [
+    " talking.",
+    83.32,
+    83.78
+   ],
+   [
+    " She",
+    84.5,
+    84.52
+   ],
+   [
+    " can",
+    84.52,
+    84.64
+   ],
+   [
+    " hop",
+    84.64,
+    84.84
+   ],
+   [
+    " on",
+    84.84,
+    85.0
+   ],
+   [
+    " one",
+    85.0,
+    85.18
+   ],
+   [
+    " foot.",
+    85.18,
+    85.46
+   ],
+   [
+    " She",
+    85.78,
+    85.86
+   ],
+   [
+    " draws",
+    85.86,
+    86.12
+   ],
+   [
+    " people",
+    86.12,
+    86.46
+   ],
+   [
+    " with",
+    86.46,
+    86.68
+   ],
+   [
+    " arms",
+    86.68,
+    87.04
+   ],
+   [
+    " and",
+    87.04,
+    87.26
+   ],
+   [
+    " legs.",
+    87.26,
+    87.48
+   ],
+   [
+    " She",
+    87.96,
+    87.98
+   ],
+   [
+    " dresses",
+    87.98,
+    88.28
+   ],
+   [
+    " herself",
+    88.28,
+    88.66
+   ],
+   [
+    " mostly.",
+    88.66,
+    89.16
+   ],
+   [
+    " Daytime",
+    90.0,
+    90.34
+   ],
+   [
+    " potty",
+    90.34,
+    90.74
+   ],
+   [
+    " train",
+    90.74,
+    90.96
+   ],
+   [
+    " since",
+    90.96,
+    91.18
+   ],
+   [
+    " three.",
+    91.18,
+    91.58
+   ],
+   [
+    " Those",
+    92.58,
+    92.62
+   ],
+   [
+    " are",
+    92.62,
+    92.78
+   ],
+   [
+    " all",
+    92.78,
+    92.94
+   ],
+   [
+    " right",
+    92.94,
+    93.1
+   ],
+   [
+    " on",
+    93.1,
+    93.3
+   ],
+   [
+    " track.",
+    93.3,
+    93.58
+   ],
+   [
+    " How",
+    93.96,
+    94.12
+   ],
+   [
+    " sleep",
+    94.12,
+    94.4
+   ],
+   [
+    " does",
+    94.4,
+    94.6
+   ],
+   [
+    " she",
+    94.6,
+    94.76
+   ],
+   [
+    " snore?",
+    94.76,
+    95.06
+   ],
+   [
+    " No",
+    95.64,
+    95.76
+   ],
+   [
+    " snoring.",
+    95.76,
+    96.18
+   ],
+   [
+    " She",
+    96.74,
+    96.82
+   ],
+   [
+    " sleeps",
+    96.82,
+    97.08
+   ],
+   [
+    " about",
+    97.08,
+    97.36
+   ],
+   [
+    " 10",
+    97.36,
+    97.7
+   ],
+   [
+    " or",
+    97.7,
+    97.92
+   ],
+   [
+    " 11",
+    97.92,
+    98.18
+   ],
+   [
+    " hours.",
+    98.18,
+    98.52
+   ],
+   [
+    " And",
+    99.34,
+    99.48
+   ],
+   [
+    " she's",
+    99.48,
+    99.72
+   ],
+   [
+    " seeing",
+    99.72,
+    99.92
+   ],
+   [
+    " a",
+    99.92,
+    100.08
+   ],
+   [
+    " dentist.",
+    100.08,
+    100.38
+   ],
+   [
+    " Yes",
+    101.64,
+    101.78
+   ],
+   [
+    " last",
+    101.78,
+    102.06
+   ],
+   [
+    " month",
+    102.06,
+    102.3
+   ],
+   [
+    " no",
+    102.3,
+    102.56
+   ],
+   [
+    " cavities.",
+    102.56,
+    103.0
+   ],
+   [
+    " We",
+    103.46,
+    103.56
+   ],
+   [
+    " brush",
+    103.56,
+    103.78
+   ],
+   [
+    " twice",
+    103.78,
+    104.04
+   ],
+   [
+    " a",
+    104.04,
+    104.22
+   ],
+   [
+    " day.",
+    104.22,
+    104.42
+   ],
+   [
+    " Perfect,",
+    105.22,
+    105.56
+   ],
+   [
+    " still",
+    105.9,
+    106.0
+   ],
+   [
+    " in",
+    106.0,
+    106.12
+   ],
+   [
+    " a",
+    106.12,
+    106.22
+   ],
+   [
+    " car",
+    106.22,
+    106.42
+   ],
+   [
+    " seat",
+    106.42,
+    106.66
+   ],
+   [
+    " with",
+    106.66,
+    106.84
+   ],
+   [
+    " a",
+    106.84,
+    106.94
+   ],
+   [
+    " harness.",
+    106.94,
+    107.2
+   ],
+   [
+    " Yes",
+    108.16,
+    108.42
+   ],
+   [
+    " forward",
+    108.42,
+    108.74
+   ],
+   [
+    " facing,",
+    108.74,
+    109.2
+   ],
+   [
+    " five",
+    109.56,
+    109.76
+   ],
+   [
+    " point",
+    109.76,
+    109.98
+   ],
+   [
+    " harness.",
+    109.98,
+    110.4
+   ],
+   [
+    " Good.",
+    110.4,
+    111.3
+   ],
+   [
+    " Okay.",
+    111.46,
+    111.72
+   ],
+   [
+    " Her",
+    111.8,
+    111.92
+   ],
+   [
+    " numbers.",
+    111.92,
+    112.28
+   ],
+   [
+    " Weight",
+    112.86,
+    113.04
+   ],
+   [
+    " is",
+    113.04,
+    113.26
+   ],
+   [
+    " 17",
+    113.26,
+    113.68
+   ],
+   [
+    " kilograms,",
+    113.68,
+    114.12
+   ],
+   [
+    " about",
+    114.38,
+    114.48
+   ],
+   [
+    " 37",
+    114.48,
+    115.0
+   ],
+   [
+    " and",
+    115.0,
+    115.18
+   ],
+   [
+    " a",
+    115.18,
+    115.24
+   ],
+   [
+    " half",
+    115.24,
+    115.46
+   ],
+   [
+    " pounds.",
+    115.46,
+    115.82
+   ],
+   [
+    " Height",
+    116.38,
+    116.46
+   ],
+   [
+    " is",
+    116.46,
+    116.68
+   ],
+   [
+    " 103",
+    116.68,
+    117.3
+   ],
+   [
+    " centimeters,",
+    117.3,
+    117.72
+   ],
+   [
+    " and",
+    118.34,
+    118.44
+   ],
+   [
+    " her",
+    118.44,
+    118.58
+   ],
+   [
+    " BMI",
+    118.58,
+    118.98
+   ],
+   [
+    " is",
+    118.98,
+    119.28
+   ],
+   [
+    " around",
+    119.28,
+    119.52
+   ],
+   [
+    " the",
+    119.52,
+    119.68
+   ],
+   [
+    " 65th",
+    119.68,
+    120.28
+   ],
+   [
+    " percentile,",
+    120.28,
+    120.7
+   ],
+   [
+    " so",
+    120.96,
+    121.06
+   ],
+   [
+    " she's",
+    121.06,
+    121.26
+   ],
+   [
+    " growing",
+    121.26,
+    121.46
+   ],
+   [
+    " nicely.",
+    121.46,
+    121.9
+   ],
+   [
+    " Blood",
+    122.72,
+    122.84
+   ],
+   [
+    " pressure",
+    122.84,
+    123.16
+   ],
+   [
+    " is",
+    123.16,
+    123.42
+   ],
+   [
+    " 94",
+    123.42,
+    123.92
+   ],
+   [
+    " over",
+    123.92,
+    124.18
+   ],
+   [
+    " 56.",
+    124.18,
+    124.7
+   ],
+   [
+    " On",
+    125.46,
+    125.62
+   ],
+   [
+    " the",
+    125.62,
+    125.72
+   ],
+   [
+    " vision",
+    125.72,
+    125.9
+   ],
+   [
+    " screen,",
+    125.9,
+    126.28
+   ],
+   [
+    " she",
+    126.4,
+    126.48
+   ],
+   [
+    " read",
+    126.48,
+    126.64
+   ],
+   [
+    " the",
+    126.64,
+    126.8
+   ],
+   [
+    " 20",
+    126.8,
+    127.06
+   ],
+   [
+    " over",
+    127.06,
+    127.24
+   ],
+   [
+    " 30",
+    127.24,
+    127.56
+   ],
+   [
+    " line",
+    127.56,
+    127.8
+   ],
+   [
+    " with",
+    127.8,
+    127.98
+   ],
+   [
+    " each",
+    127.98,
+    128.14
+   ],
+   [
+    " eye,",
+    128.14,
+    128.46
+   ],
+   [
+    " which",
+    128.72,
+    128.82
+   ],
+   [
+    " is",
+    128.82,
+    128.96
+   ],
+   [
+    " a",
+    128.96,
+    129.06
+   ],
+   [
+    " pass",
+    129.06,
+    129.26
+   ],
+   [
+    " for",
+    129.26,
+    129.5
+   ],
+   [
+    " four.",
+    129.5,
+    129.8
+   ],
+   [
+    " And",
+    130.34,
+    130.48
+   ],
+   [
+    " she",
+    130.48,
+    130.6
+   ],
+   [
+    " passed",
+    130.6,
+    130.84
+   ],
+   [
+    " the",
+    130.84,
+    131.02
+   ],
+   [
+    " hearing",
+    131.02,
+    131.22
+   ],
+   [
+    " screen",
+    131.22,
+    131.58
+   ],
+   [
+    " in",
+    131.58,
+    131.78
+   ],
+   [
+    " both",
+    131.78,
+    131.98
+   ],
+   [
+    " ears.",
+    131.98,
+    132.34
+   ],
+   [
+    " Oh,",
+    133.16,
+    133.44
+   ],
+   [
+    " good.",
+    133.46,
+    133.68
+   ],
+   [
+    " I",
+    134.18,
+    134.38
+   ],
+   [
+    " was",
+    134.38,
+    134.48
+   ],
+   [
+    " a",
+    134.48,
+    134.6
+   ],
+   [
+    " little",
+    134.6,
+    134.72
+   ],
+   [
+    " worried",
+    134.72,
+    135.04
+   ],
+   [
+    " about",
+    135.04,
+    135.28
+   ],
+   [
+    " her",
+    135.28,
+    135.44
+   ],
+   [
+    " eyes,",
+    135.44,
+    135.76
+   ],
+   [
+    " because",
+    136.12,
+    136.3
+   ],
+   [
+    " my",
+    136.3,
+    136.54
+   ],
+   [
+    " husband",
+    136.54,
+    136.8
+   ],
+   [
+    " had",
+    136.8,
+    137.1
+   ],
+   [
+    " a",
+    137.1,
+    137.26
+   ],
+   [
+    " lazy",
+    137.26,
+    137.52
+   ],
+   [
+    " eye",
+    137.52,
+    137.88
+   ],
+   [
+    " as",
+    137.88,
+    138.06
+   ],
+   [
+    " a",
+    138.06,
+    138.16
+   ],
+   [
+    " kid,",
+    138.16,
+    138.38
+   ],
+   [
+    " and",
+    138.72,
+    138.86
+   ],
+   [
+    " had",
+    138.86,
+    139.0
+   ],
+   [
+    " to",
+    139.0,
+    139.12
+   ],
+   [
+    " wear",
+    139.12,
+    139.28
+   ],
+   [
+    " a",
+    139.28,
+    139.42
+   ],
+   [
+    " patch.",
+    139.42,
+    139.76
+   ],
+   [
+    " That's",
+    140.64,
+    140.9
+   ],
+   [
+    " good",
+    140.9,
+    141.04
+   ],
+   [
+    " to",
+    141.04,
+    141.16
+   ],
+   [
+    " know",
+    141.16,
+    141.34
+   ],
+   [
+    " and",
+    141.34,
+    141.54
+   ],
+   [
+    " that's",
+    141.54,
+    141.76
+   ],
+   [
+    " exactly",
+    141.76,
+    142.08
+   ],
+   [
+    " why",
+    142.08,
+    142.38
+   ],
+   [
+    " we",
+    142.38,
+    142.54
+   ],
+   [
+    " screen.",
+    142.54,
+    142.82
+   ],
+   [
+    " Her",
+    143.44,
+    143.6
+   ],
+   [
+    " eyes",
+    143.6,
+    143.84
+   ],
+   [
+    " line",
+    143.84,
+    144.06
+   ],
+   [
+    " up",
+    144.06,
+    144.24
+   ],
+   [
+    " well",
+    144.24,
+    144.44
+   ],
+   [
+    " and",
+    144.44,
+    144.58
+   ],
+   [
+    " the",
+    144.58,
+    144.72
+   ],
+   [
+    " screen",
+    144.72,
+    144.94
+   ],
+   [
+    " is",
+    144.94,
+    145.12
+   ],
+   [
+    " normal,",
+    145.12,
+    145.38
+   ],
+   [
+    " let",
+    145.68,
+    145.76
+   ],
+   [
+    " me",
+    145.76,
+    145.9
+   ],
+   [
+    " examine",
+    145.9,
+    146.2
+   ],
+   [
+    " her.",
+    146.2,
+    146.52
+   ],
+   [
+    " Heart",
+    146.96,
+    147.2
+   ],
+   [
+    " sounds",
+    147.2,
+    147.48
+   ],
+   [
+    " normal,",
+    147.48,
+    147.76
+   ],
+   [
+    " no",
+    147.94,
+    148.04
+   ],
+   [
+    " murmur,",
+    148.04,
+    148.4
+   ],
+   [
+    " lungs",
+    148.72,
+    148.86
+   ],
+   [
+    " are",
+    148.86,
+    149.1
+   ],
+   [
+    " clear.",
+    149.1,
+    149.38
+   ],
+   [
+    " Her",
+    149.88,
+    150.0
+   ],
+   [
+    " belly",
+    150.0,
+    150.18
+   ],
+   [
+    " is",
+    150.18,
+    150.42
+   ],
+   [
+    " soft",
+    150.42,
+    150.7
+   ],
+   [
+    " and",
+    150.7,
+    150.9
+   ],
+   [
+    " not",
+    150.9,
+    151.1
+   ],
+   [
+    " tender",
+    151.1,
+    151.4
+   ],
+   [
+    " but",
+    151.4,
+    151.6
+   ],
+   [
+    " I",
+    151.6,
+    151.72
+   ],
+   [
+    " can",
+    151.72,
+    151.84
+   ],
+   [
+    " feel",
+    151.84,
+    152.0
+   ],
+   [
+    " some",
+    152.0,
+    152.26
+   ],
+   [
+    " stool",
+    152.26,
+    152.52
+   ],
+   [
+    " on",
+    152.52,
+    152.72
+   ],
+   [
+    " the",
+    152.72,
+    152.82
+   ],
+   [
+    " lower",
+    152.82,
+    153.04
+   ],
+   [
+    " left",
+    153.04,
+    153.26
+   ],
+   [
+    " side.",
+    153.26,
+    153.68
+   ],
+   [
+    " Her",
+    154.22,
+    154.36
+   ],
+   [
+    " bottom",
+    154.36,
+    154.62
+   ],
+   [
+    " looks",
+    154.62,
+    154.88
+   ],
+   [
+    " normal",
+    154.88,
+    155.18
+   ],
+   [
+    " no",
+    155.18,
+    155.5
+   ],
+   [
+    " tears",
+    155.5,
+    155.84
+   ],
+   [
+    " or",
+    155.84,
+    156.08
+   ],
+   [
+    " fissures.",
+    156.08,
+    156.48
+   ],
+   [
+    " Teeth",
+    157.08,
+    157.3
+   ],
+   [
+    " look",
+    157.3,
+    157.46
+   ],
+   [
+    " great.",
+    157.46,
+    157.82
+   ],
+   [
+    " Okay.",
+    158.32,
+    158.68
+   ],
+   [
+    " So",
+    159.42,
+    159.56
+   ],
+   [
+    " overall,",
+    159.56,
+    159.88
+   ],
+   [
+    " a",
+    160.24,
+    160.3
+   ],
+   [
+    " healthy",
+    160.3,
+    160.58
+   ],
+   [
+    " four",
+    160.58,
+    160.86
+   ],
+   [
+    " year",
+    160.86,
+    161.02
+   ],
+   [
+    " old,",
+    161.02,
+    161.4
+   ],
+   [
+    " growing",
+    161.56,
+    161.8
+   ],
+   [
+    " and",
+    161.8,
+    162.06
+   ],
+   [
+    " developing",
+    162.06,
+    162.4
+   ],
+   [
+    " normally.",
+    162.4,
+    162.84
+   ],
+   [
+    " The",
+    163.56,
+    163.72
+   ],
+   [
+    " one",
+    163.72,
+    163.88
+   ],
+   [
+    " issue",
+    163.88,
+    164.1
+   ],
+   [
+    " is",
+    164.1,
+    164.28
+   ],
+   [
+    " constipation.",
+    164.28,
+    164.96
+   ],
+   [
+    " With",
+    165.62,
+    165.8
+   ],
+   [
+    " the",
+    165.8,
+    165.9
+   ],
+   [
+    " hard",
+    165.9,
+    166.12
+   ],
+   [
+    " stools",
+    166.12,
+    166.5
+   ],
+   [
+    " and",
+    166.5,
+    166.66
+   ],
+   [
+    " the",
+    166.66,
+    166.74
+   ],
+   [
+    " holding,",
+    166.74,
+    167.06
+   ],
+   [
+    " I'd",
+    167.26,
+    167.36
+   ],
+   [
+    " like",
+    167.36,
+    167.46
+   ],
+   [
+    " to",
+    167.46,
+    167.64
+   ],
+   [
+    " start",
+    167.64,
+    167.86
+   ],
+   [
+    " Mira",
+    167.86,
+    168.22
+   ],
+   [
+    " LAX.",
+    168.22,
+    168.86
+   ],
+   [
+    " The",
+    169.44,
+    169.62
+   ],
+   [
+    " usual",
+    169.62,
+    169.86
+   ],
+   [
+    " dose",
+    169.86,
+    170.12
+   ],
+   [
+    " is",
+    170.12,
+    170.28
+   ],
+   [
+    " about",
+    170.28,
+    170.54
+   ],
+   [
+    " half",
+    170.54,
+    170.76
+   ],
+   [
+    " a",
+    170.76,
+    170.88
+   ],
+   [
+    " gram",
+    170.88,
+    171.06
+   ],
+   [
+    " per",
+    171.06,
+    171.28
+   ],
+   [
+    " kilogram,",
+    171.28,
+    171.74
+   ],
+   [
+    " so",
+    172.1,
+    172.3
+   ],
+   [
+    " at",
+    172.3,
+    172.42
+   ],
+   [
+    " 17",
+    172.42,
+    172.8
+   ],
+   [
+    " kilograms,",
+    172.8,
+    173.28
+   ],
+   [
+    " that's",
+    173.62,
+    173.8
+   ],
+   [
+    " about",
+    173.8,
+    173.98
+   ],
+   [
+    " eight",
+    173.98,
+    174.24
+   ],
+   [
+    " and",
+    174.24,
+    174.38
+   ],
+   [
+    " a",
+    174.38,
+    174.48
+   ],
+   [
+    " half",
+    174.48,
+    174.66
+   ],
+   [
+    " grams,",
+    174.66,
+    174.96
+   ],
+   [
+    " which",
+    175.22,
+    175.3
+   ],
+   [
+    " is",
+    175.3,
+    175.44
+   ],
+   [
+    " half",
+    175.44,
+    175.62
+   ],
+   [
+    " a",
+    175.62,
+    175.76
+   ],
+   [
+    " capful,",
+    175.76,
+    176.16
+   ],
+   [
+    " mixed",
+    176.52,
+    176.74
+   ],
+   [
+    " in",
+    176.74,
+    176.98
+   ],
+   [
+    " four",
+    176.98,
+    177.18
+   ],
+   [
+    " ounces",
+    177.18,
+    177.44
+   ],
+   [
+    " of",
+    177.44,
+    177.68
+   ],
+   [
+    " water",
+    177.68,
+    177.88
+   ],
+   [
+    " or",
+    177.88,
+    178.12
+   ],
+   [
+    " juice",
+    178.12,
+    178.38
+   ],
+   [
+    " once",
+    178.38,
+    178.6
+   ],
+   [
+    " a",
+    178.6,
+    178.82
+   ],
+   [
+    " day.",
+    178.82,
+    179.02
+   ],
+   [
+    " Half",
+    179.82,
+    179.94
+   ],
+   [
+    " a",
+    179.94,
+    180.06
+   ],
+   [
+    " capful",
+    180.06,
+    180.4
+   ],
+   [
+    " once",
+    180.4,
+    180.56
+   ],
+   [
+    " a",
+    180.56,
+    180.72
+   ],
+   [
+    " day?",
+    180.72,
+    180.9
+   ],
+   [
+    " Okay.",
+    181.26,
+    181.64
+   ],
+   [
+    " You",
+    182.26,
+    182.46
+   ],
+   [
+    " can",
+    182.46,
+    182.58
+   ],
+   [
+    " adjust",
+    182.58,
+    182.84
+   ],
+   [
+    " it.",
+    182.84,
+    183.12
+   ],
+   [
+    " The",
+    183.64,
+    183.74
+   ],
+   [
+    " goal",
+    183.74,
+    183.94
+   ],
+   [
+    " is",
+    183.94,
+    184.12
+   ],
+   [
+    " a",
+    184.12,
+    184.28
+   ],
+   [
+    " soft",
+    184.28,
+    184.52
+   ],
+   [
+    " poop",
+    184.52,
+    184.74
+   ],
+   [
+    " every",
+    184.74,
+    185.08
+   ],
+   [
+    " day",
+    185.08,
+    185.28
+   ],
+   [
+    " or",
+    185.28,
+    185.42
+   ],
+   [
+    " every",
+    185.42,
+    185.66
+   ],
+   [
+    " other",
+    185.66,
+    185.82
+   ],
+   [
+    " day.",
+    185.82,
+    186.1
+   ],
+   [
+    " Also,",
+    186.82,
+    187.18
+   ],
+   [
+    " cut",
+    187.32,
+    187.46
+   ],
+   [
+    " the",
+    187.46,
+    187.6
+   ],
+   [
+    " milk",
+    187.6,
+    187.78
+   ],
+   [
+    " down",
+    187.78,
+    188.02
+   ],
+   [
+    " to",
+    188.02,
+    188.18
+   ],
+   [
+    " two",
+    188.18,
+    188.34
+   ],
+   [
+    " cups",
+    188.34,
+    188.52
+   ],
+   [
+    " a",
+    188.52,
+    188.68
+   ],
+   [
+    " day,",
+    188.68,
+    188.88
+   ],
+   [
+    " 16",
+    189.2,
+    189.52
+   ],
+   [
+    " ounces,",
+    189.52,
+    189.9
+   ],
+   [
+    " add",
+    190.1,
+    190.26
+   ],
+   [
+    " fruit",
+    190.26,
+    190.52
+   ],
+   [
+    " and",
+    190.52,
+    190.72
+   ],
+   [
+    " water,",
+    190.72,
+    190.94
+   ],
+   [
+    " and",
+    191.34,
+    191.54
+   ],
+   [
+    " have",
+    191.54,
+    191.68
+   ],
+   [
+    " her",
+    191.68,
+    191.82
+   ],
+   [
+    " sit",
+    191.82,
+    191.94
+   ],
+   [
+    " on",
+    191.94,
+    192.1
+   ],
+   [
+    " the",
+    192.1,
+    192.2
+   ],
+   [
+    " party",
+    192.2,
+    192.48
+   ],
+   [
+    " for",
+    192.48,
+    192.7
+   ],
+   [
+    " five",
+    192.7,
+    192.96
+   ],
+   [
+    " minutes",
+    192.96,
+    193.2
+   ],
+   [
+    " after",
+    193.2,
+    193.52
+   ],
+   [
+    " meals.",
+    193.52,
+    193.8
+   ],
+   [
+    " If",
+    194.6,
+    194.72
+   ],
+   [
+    " it",
+    194.72,
+    194.82
+   ],
+   [
+    " isn't",
+    194.82,
+    195.08
+   ],
+   [
+    " better",
+    195.08,
+    195.24
+   ],
+   [
+    " in",
+    195.24,
+    195.42
+   ],
+   [
+    " a",
+    195.42,
+    195.52
+   ],
+   [
+    " month",
+    195.52,
+    195.76
+   ],
+   [
+    " or",
+    195.76,
+    195.98
+   ],
+   [
+    " you",
+    195.98,
+    196.14
+   ],
+   [
+    " see",
+    196.14,
+    196.3
+   ],
+   [
+    " blood,",
+    196.3,
+    196.54
+   ],
+   [
+    " send",
+    196.96,
+    197.06
+   ],
+   [
+    " me",
+    197.06,
+    197.22
+   ],
+   [
+    " a",
+    197.22,
+    197.32
+   ],
+   [
+    " message",
+    197.32,
+    197.6
+   ],
+   [
+    " and",
+    197.6,
+    197.86
+   ],
+   [
+    " we'll",
+    197.86,
+    198.02
+   ],
+   [
+    " go",
+    198.02,
+    198.16
+   ],
+   [
+    " from",
+    198.16,
+    198.36
+   ],
+   [
+    " there.",
+    198.36,
+    198.64
+   ],
+   [
+    " That",
+    199.16,
+    199.38
+   ],
+   [
+    " makes",
+    199.38,
+    199.58
+   ],
+   [
+    " sense,",
+    199.58,
+    199.94
+   ],
+   [
+    " and",
+    200.22,
+    200.36
+   ],
+   [
+    " sharts",
+    200.36,
+    200.66
+   ],
+   [
+    " today.",
+    200.66,
+    201.02
+   ],
+   [
+    " Yes,",
+    201.54,
+    201.76
+   ],
+   [
+    " two",
+    201.94,
+    202.04
+   ],
+   [
+    " sharts.",
+    202.04,
+    202.46
+   ],
+   [
+    " One",
+    203.0,
+    203.2
+   ],
+   [
+    " is",
+    203.2,
+    203.34
+   ],
+   [
+    " D",
+    203.34,
+    203.52
+   ],
+   [
+    ".T",
+    203.52,
+    203.66
+   ],
+   [
+    ".R",
+    203.66,
+    203.78
+   ],
+   [
+    ".P.",
+    203.78,
+    203.98
+   ],
+   [
+    " and",
+    203.98,
+    204.2
+   ],
+   [
+    " polio",
+    204.2,
+    204.52
+   ],
+   [
+    " combined,",
+    204.52,
+    204.96
+   ],
+   [
+    " the",
+    205.18,
+    205.24
+   ],
+   [
+    " other",
+    205.24,
+    205.4
+   ],
+   [
+    " is",
+    205.4,
+    205.58
+   ],
+   [
+    " M",
+    205.58,
+    205.72
+   ],
+   [
+    ".M",
+    205.72,
+    205.82
+   ],
+   [
+    ".R.",
+    205.82,
+    206.04
+   ],
+   [
+    " and",
+    206.08,
+    206.18
+   ],
+   [
+    " chicken",
+    206.18,
+    206.46
+   ],
+   [
+    " pucks",
+    206.46,
+    206.78
+   ],
+   [
+    " combined.",
+    206.78,
+    207.24
+   ],
+   [
+    " She",
+    207.88,
+    208.0
+   ],
+   [
+    " might",
+    208.0,
+    208.14
+   ],
+   [
+    " get",
+    208.14,
+    208.28
+   ],
+   [
+    " a",
+    208.28,
+    208.42
+   ],
+   [
+    " sore",
+    208.42,
+    208.62
+   ],
+   [
+    " leg",
+    208.62,
+    208.88
+   ],
+   [
+    " or",
+    208.88,
+    209.04
+   ],
+   [
+    " a",
+    209.04,
+    209.16
+   ],
+   [
+    " low",
+    209.16,
+    209.3
+   ],
+   [
+    " fever,",
+    209.3,
+    209.6
+   ],
+   [
+    " and",
+    209.96,
+    210.06
+   ],
+   [
+    " with",
+    210.06,
+    210.18
+   ],
+   [
+    " the",
+    210.18,
+    210.32
+   ],
+   [
+    " M",
+    210.32,
+    210.48
+   ],
+   [
+    ".M",
+    210.48,
+    210.58
+   ],
+   [
+    ".R.",
+    210.58,
+    210.78
+   ],
+   [
+    " part",
+    210.86,
+    211.04
+   ],
+   [
+    " a",
+    211.04,
+    211.26
+   ],
+   [
+    " rash",
+    211.26,
+    211.5
+   ],
+   [
+    " or",
+    211.5,
+    211.74
+   ],
+   [
+    " fever",
+    211.74,
+    212.04
+   ],
+   [
+    " one",
+    212.04,
+    212.24
+   ],
+   [
+    " to",
+    212.24,
+    212.36
+   ],
+   [
+    " two",
+    212.36,
+    212.56
+   ],
+   [
+    " weeks",
+    212.56,
+    212.8
+   ],
+   [
+    " later",
+    212.8,
+    213.12
+   ],
+   [
+    " is",
+    213.12,
+    213.28
+   ],
+   [
+    " passable.",
+    213.28,
+    213.76
+   ],
+   [
+    " If",
+    214.38,
+    214.6
+   ],
+   [
+    " she's",
+    214.6,
+    214.8
+   ],
+   [
+    " uncomfortable,",
+    214.8,
+    215.32
+   ],
+   [
+    " children's",
+    215.82,
+    216.16
+   ],
+   [
+    " Tylenol",
+    216.16,
+    216.82
+   ],
+   [
+    " about",
+    216.82,
+    217.08
+   ],
+   [
+    " 8",
+    217.08,
+    217.36
+   ],
+   [
+    " milliliters",
+    217.36,
+    217.9
+   ],
+   [
+    " for",
+    217.9,
+    218.08
+   ],
+   [
+    " her",
+    218.08,
+    218.2
+   ],
+   [
+    " weight.",
+    218.2,
+    218.44
+   ],
+   [
+    " Has",
+    219.12,
+    219.28
+   ],
+   [
+    " she",
+    219.28,
+    219.42
+   ],
+   [
+    " had",
+    219.42,
+    219.56
+   ],
+   [
+    " her",
+    219.56,
+    219.72
+   ],
+   [
+    " flu",
+    219.72,
+    219.9
+   ],
+   [
+    " shot",
+    219.9,
+    220.2
+   ],
+   [
+    " this",
+    220.2,
+    220.4
+   ],
+   [
+    " year?",
+    220.4,
+    220.68
+   ],
+   [
+    " Yes,",
+    221.54,
+    221.54
+   ],
+   [
+    " we",
+    221.86,
+    221.9
+   ],
+   [
+    " got",
+    221.9,
+    222.08
+   ],
+   [
+    " it",
+    222.08,
+    222.18
+   ],
+   [
+    " at",
+    222.18,
+    222.3
+   ],
+   [
+    " the",
+    222.3,
+    222.4
+   ],
+   [
+    " pharmacy",
+    222.4,
+    222.78
+   ],
+   [
+    " on",
+    222.78,
+    223.1
+   ],
+   [
+    " October",
+    223.1,
+    223.4
+   ],
+   [
+    " 2nd,",
+    223.4,
+    224.14
+   ],
+   [
+    " when",
+    224.26,
+    224.42
+   ],
+   [
+    " I",
+    224.42,
+    224.52
+   ],
+   [
+    " got",
+    224.52,
+    224.7
+   ],
+   [
+    " mine.",
+    224.7,
+    225.04
+   ],
+   [
+    " Perfect,",
+    225.8,
+    226.08
+   ],
+   [
+    " I'll",
+    226.32,
+    226.42
+   ],
+   [
+    " record",
+    226.42,
+    226.64
+   ],
+   [
+    " that.",
+    226.64,
+    227.0
+   ],
+   [
+    " Any",
+    227.42,
+    227.56
+   ],
+   [
+    " questions",
+    227.56,
+    227.9
+   ],
+   [
+    " about",
+    227.9,
+    228.22
+   ],
+   [
+    " the",
+    228.22,
+    228.42
+   ],
+   [
+    " shots?",
+    228.42,
+    228.66
+   ],
+   [
+    " No,",
+    229.48,
+    229.92
+   ],
+   [
+    " we're",
+    230.02,
+    230.16
+   ],
+   [
+    " good.",
+    230.16,
+    230.36
+   ],
+   [
+    " She",
+    230.94,
+    231.12
+   ],
+   [
+    " had",
+    231.12,
+    231.24
+   ],
+   [
+    " a",
+    231.24,
+    231.36
+   ],
+   [
+    " cough",
+    231.36,
+    231.52
+   ],
+   [
+    " back",
+    231.52,
+    231.8
+   ],
+   [
+    " in",
+    231.8,
+    231.98
+   ],
+   [
+    " September,",
+    231.98,
+    232.34
+   ],
+   [
+    " but",
+    232.7,
+    232.82
+   ],
+   [
+    " that's",
+    232.82,
+    233.12
+   ],
+   [
+    " totally",
+    233.12,
+    233.38
+   ],
+   [
+    " gone,",
+    233.38,
+    233.72
+   ],
+   [
+    " so",
+    233.96,
+    234.12
+   ],
+   [
+    " she's",
+    234.12,
+    234.32
+   ],
+   [
+    " okay",
+    234.32,
+    234.56
+   ],
+   [
+    " to",
+    234.56,
+    234.8
+   ],
+   [
+    " get",
+    234.8,
+    234.94
+   ],
+   [
+    " them",
+    234.94,
+    235.12
+   ],
+   [
+    " right.",
+    235.12,
+    235.4
+   ],
+   [
+    " Yes,",
+    236.26,
+    236.54
+   ],
+   [
+    " totally",
+    236.7,
+    236.86
+   ],
+   [
+    " fine.",
+    236.86,
+    237.28
+   ],
+   [
+    " So,",
+    237.88,
+    238.04
+   ],
+   [
+    " shots",
+    238.4,
+    238.4
+   ],
+   [
+    " with",
+    238.4,
+    238.62
+   ],
+   [
+    " the",
+    238.62,
+    238.76
+   ],
+   [
+    " nurse",
+    238.76,
+    239.04
+   ],
+   [
+    " the",
+    239.04,
+    239.24
+   ],
+   [
+    " Mira",
+    239.24,
+    239.56
+   ],
+   [
+    " LAX",
+    239.56,
+    240.12
+   ],
+   [
+    " and",
+    240.12,
+    240.3
+   ],
+   [
+    " I'll",
+    240.3,
+    240.5
+   ],
+   [
+    " see",
+    240.5,
+    240.66
+   ],
+   [
+    " her",
+    240.66,
+    240.8
+   ],
+   [
+    " at",
+    240.8,
+    240.92
+   ],
+   [
+    " 5",
+    240.92,
+    241.12
+   ],
+   [
+    " for",
+    241.12,
+    241.34
+   ],
+   [
+    " her",
+    241.34,
+    241.5
+   ],
+   [
+    " next",
+    241.5,
+    241.72
+   ],
+   [
+    " checkup.",
+    241.72,
+    242.18
+   ],
+   [
+    " What's",
+    242.18,
+    242.94
+   ],
+   [
+    " she",
+    242.94,
+    243.04
+   ],
+   [
+    " going",
+    243.04,
+    243.18
+   ],
+   [
+    " to",
+    243.18,
+    243.36
+   ],
+   [
+    " be",
+    243.36,
+    243.48
+   ],
+   [
+    " for",
+    243.48,
+    243.66
+   ],
+   [
+    " Halloween?",
+    243.66,
+    244.08
+   ],
+   [
+    " A",
+    244.8,
+    244.92
+   ],
+   [
+    " purple",
+    244.92,
+    245.18
+   ],
+   [
+    " dinosaur,",
+    245.18,
+    245.72
+   ],
+   [
+    " she's",
+    246.16,
+    246.3
+   ],
+   [
+    " insisting.",
+    246.3,
+    246.74
+   ],
+   [
+    " Of",
+    247.72,
+    247.84
+   ],
+   [
+    " course",
+    247.84,
+    248.02
+   ],
+   [
+    " she",
+    248.02,
+    248.26
+   ],
+   [
+    " is,",
+    248.26,
+    248.48
+   ],
+   [
+    " by",
+    248.68,
+    248.76
+   ],
+   [
+    " Ananya.",
+    248.76,
+    249.16
+   ]
+  ],
+  "drug_names_corrected": 0
+ }
+}

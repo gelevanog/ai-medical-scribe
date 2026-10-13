@@ -588,20 +588,7 @@
     "flags": []
    }
   ],
-  "allergies": [
-   {
-    "substance": "none reported",
-    "reaction": "none reported",
-    "evidence": [
-     {
-      "turn": 21,
-      "quote": "No, she says I sleep quiet.",
-      "verified": true,
-      "score": 1.0
-     }
-    ]
-   }
-  ],
+  "allergies": [],
   "after_visit_summary": "Today we discussed your ongoing trouble sleeping, which we believe is due to habits like napping, late coffee, and watching TV in bed. You previously tried trazodone but stopped it because it made you feel groggy and dizzy in the morning. You are currently using Benadryl and melatonin, but we recommend stopping Benadryl as it can cause confusion and falls at your age. You may continue melatonin at a lower dose of 3 mg, taken one hour before bed. To improve your sleep, please wake up at 6:30 AM every day, even on weekends. Only go to bed when you feel sleepy, and remove the TV from your bedroom. If you lie awake for more than 20 minutes, get up, sit quietly with a book, and return to bed when drowsy. Limit naps to no more than 20 minutes before 2:00 PM, or skip them entirely. Avoid coffee after noon. Try a morning walk outside to get sunlight. We are referring you to a 6-session CBT for insomnia program, which works better than medication long-term. Please keep a sleep diary for the next two weeks using the form we will send to your portal. Return for follow-up in 6 weeks, or call sooner if you experience confusion or a fall.",
   "avs_flags": [],
   "icd10": [
@@ -668,17 +655,17 @@
    "plan": "draft"
   },
   "model": "openrouter/nvidia/nemotron-3-super-120b-a12b:free",
-  "created_at": "2026-10-13T05:47:08.271379Z",
+  "created_at": "2026-10-13T07:03:52.133513Z",
   "signed_by": null,
   "signed_at": null,
   "timings": {
-   "phi_masking": 0.034,
+   "phi_masking": 0.031,
    "llm_note": 22.71,
-   "guards_note": 0.077,
+   "guards_note": 0.056,
    "llm_codes": 3.1,
-   "guards_codes": 0.051,
-   "total": 25.972,
-   "wall": 0.189
+   "guards_codes": 0.035,
+   "total": 25.932,
+   "wall": 0.141
   },
   "usage": {
    "model_ms": 25810,

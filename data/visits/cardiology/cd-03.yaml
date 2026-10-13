@@ -1,0 +1,305 @@
+id: cd-03
+specialty: cardiology
+title: Heart failure with reduced ejection fraction, weight gain and ankle swelling
+visit_type: established
+visit_date: "2026-10-14"
+patient:
+  name: Darnell Whitaker
+  dob: "1958-02-27"
+  sex: male
+  phone: 555-0191
+  address: 3307 Fairmount Street, Cleveland, OH 44104
+  mrn: "5104462"
+clinician:
+  name: Megan Kowalczyk
+  role: heart failure nurse practitioner
+speakers:
+  clinician: {sex: female}
+  patient: {sex: male}
+dialogue:
+  - speaker: clinician
+    text: Hi Mr. Whitaker, I'm Megan Kowalczyk, the nurse practitioner in the heart failure clinic. Can you confirm your full name and date of birth for me?
+  - speaker: patient
+    text: Darnell Whitaker. February 27th, 1958.
+  - speaker: clinician
+    text: Thank you. The nurse said you called on Monday about some swelling. What's been happening?
+  - speaker: patient
+    text: Yeah, my ankles have been puffing up for about a week. My shoes are tight by the afternoon. And the scale says I'm up 7 pounds.
+  - speaker: clinician
+    text: Okay. What's your usual weight at home?
+  - speaker: patient
+    text: I'm usually right around 182. This morning it was 189.
+  - speaker: clinician
+    text: And how's your breathing?
+  - speaker: patient
+    text: Worse than usual. Normally I can walk 3 blocks to the corner store. Now I'm winded after about 1 block.
+  - speaker: clinician
+    text: How many pillows are you sleeping on?
+  - speaker: patient
+    text: I've gone from 1 pillow to 2. Feels easier to breathe propped up.
+  - speaker: clinician
+    text: Are you waking up at night gasping for air?
+  - speaker: patient
+    text: No, not that.
+  - speaker: clinician
+    text: Any chest pain, or feeling like you might pass out?
+  - speaker: patient
+    text: No chest pain. No passing out.
+  - speaker: clinician
+    text: Anything different with your diet the last couple of weeks?
+  - speaker: patient
+    text: Well, my nephew got married two weekends ago. There was a lot of ham, a lot of salty food. I wasn't careful, I'll admit it. My wife Lorraine already gave me an earful.
+  - speaker: clinician
+    text: That happens. Let's go through your medicines. You're on sacubitril valsartan, 49 and 51 milligrams twice a day, carvedilol 12.5 milligrams twice a day, spironolactone 25 milligrams once a day, and dapagliflozin 10 milligrams once a day. Still taking all of those?
+  - speaker: patient
+    text: Every one of them. Lorraine fills my pill box on Sundays.
+  - speaker: clinician
+    text: And the furosemide, how much are you taking?
+  - speaker: patient
+    text: The water pill is 20 milligrams in the morning. Wait, no, it's the 40. They changed it in the summer, it's 40.
+  - speaker: clinician
+    text: Yes, 40 milligrams once a day is what I have. Anything over the counter?
+  - speaker: patient
+    text: Um, I've been taking naproxen for my knees. The arthritis acts up. Two of the 220 milligram pills, twice a day, for about two weeks.
+  - speaker: clinician
+    text: Okay, that's important, I'll come back to that. Let me check you over. Your weight here is 189 pounds. Blood pressure is 112 over 70, pulse 78, and oxygen is 95 percent on room air. Your neck veins are up to about 10 centimeters. I hear some crackles at the bottom of both lungs. Heart is regular, and I hear a soft extra sound called an S3. And you've got 2 plus pitting swelling up to the middle of both shins.
+  - speaker: patient
+    text: That doesn't sound great.
+  - speaker: clinician
+    text: It tells me you're holding onto extra fluid. Your last echo in March showed an ejection fraction of 30 percent, so your heart pump is weaker than normal, and it's sensitive to salt. Your labs from 3 weeks ago were okay, potassium 4.6 and creatinine 1.2.
+  - speaker: patient
+    text: So what do we do?
+  - speaker: clinician
+    text: So this is a mild flare of your heart failure with reduced ejection fraction. I think the salty food and the naproxen both played a part. Naproxen makes the kidneys hold onto salt and water, so I want you to stop it completely.
+  - speaker: patient
+    text: What do I take for the knees, then?
+  - speaker: clinician
+    text: Acetaminophen is safer for your heart. You can take 650 milligrams up to 3 times a day. For the fluid, I'm increasing the furosemide to 40 milligrams twice a day for the next 5 days. Once your weight is back near 183, go back to 40 milligrams once a day.
+  - speaker: patient
+    text: Okay, 40 twice a day for 5 days.
+  - speaker: clinician
+    text: Right. Keep all your other heart medicines the same. Weigh yourself every morning after you use the bathroom and write it down. Keep salt under 2000 milligrams a day and fluids to about 2 liters.
+  - speaker: patient
+    text: Lorraine's going to love that. She's been on me about the salt.
+  - speaker: clinician
+    text: I'd also like a basic metabolic panel on the 21st of October, to make sure your kidneys and potassium are okay with the higher dose. Call us if your weight goes up 3 pounds in a day or 5 pounds in a week. If you're short of breath at rest, or you get chest pain, go to the emergency room.
+  - speaker: patient
+    text: Got it.
+  - speaker: clinician
+    text: And are you using the patient portal? I can send you the instructions there.
+  - speaker: patient
+    text: Yes, it's darnell dot whitaker at examplemail dot com.
+  - speaker: clinician
+    text: Perfect. I'll send the plan there, and I want to see you back in 1 week to check your weight and the swelling.
+  - speaker: patient
+    text: Sounds good. Thank you, Megan.
+gold:
+  facts:
+    - id: f1
+      section: subjective
+      text: Bilateral ankle swelling for about 1 week
+      polarity: present
+      evidence: "my ankles have been puffing up for about a week"
+      match: [["ankle", "edema", "swelling", "swollen"]]
+    - id: f2
+      section: subjective
+      text: Home weight up 7 lb, from 182 to 189
+      polarity: present
+      evidence: "I'm usually right around 182. This morning it was 189."
+      match: [["7 pound", "7 lb", "seven pound", "182", "weight gain"]]
+    - id: f3
+      section: subjective
+      text: Worsening exertional dyspnea, winded after 1 block (baseline 3 blocks)
+      polarity: present
+      evidence: "Now I'm winded after about 1 block."
+      match: [["winded", "dyspnea", "shortness of breath", "short of breath", "sob"], ["block"]]
+    - id: f4
+      section: subjective
+      text: Two-pillow orthopnea, previously 1 pillow
+      polarity: present
+      evidence: "I've gone from 1 pillow to 2."
+      match: [["orthopnea", "pillow"]]
+    - id: f5
+      section: subjective
+      text: No paroxysmal nocturnal dyspnea
+      polarity: absent
+      evidence: "Are you waking up at night gasping for air?"
+      match: [["paroxysmal nocturnal", "pnd", "gasping", "waking up at night", "nocturnal dyspnea"]]
+    - id: f6
+      section: subjective
+      text: Denies chest pain
+      polarity: absent
+      evidence: "No chest pain."
+      match: [["chest pain"]]
+    - id: f7
+      section: subjective
+      text: Denies syncope or presyncope
+      polarity: absent
+      evidence: "No passing out."
+      match: [["syncope", "presyncope", "pass out", "passing out", "faint"]]
+    - id: f8
+      section: subjective
+      text: Dietary sodium indiscretion at a family wedding two weekends ago
+      polarity: present
+      evidence: "There was a lot of ham, a lot of salty food."
+      match: [["salt", "sodium", "dietary"]]
+    - id: f9
+      section: subjective
+      text: Adherent to guideline medications; wife fills weekly pill box
+      polarity: present
+      evidence: "Every one of them. Lorraine fills my pill box on Sundays."
+      match: [["adheren", "compliant", "compliance", "taking all", "pill box", "pillbox"]]
+    - id: f10
+      section: subjective
+      text: Taking OTC naproxen 440 mg twice daily for knee arthritis for about 2 weeks
+      polarity: present
+      evidence: "I've been taking naproxen for my knees."
+      match: [["naproxen", "aleve", "nsaid"]]
+    - id: f11
+      section: objective
+      text: Clinic weight 189 lb
+      polarity: present
+      evidence: "Your weight here is 189 pounds."
+      match: [["189"]]
+    - id: f12
+      section: objective
+      text: Blood pressure 112/70, pulse 78, oxygen saturation 95% on room air
+      polarity: present
+      evidence: "Blood pressure is 112 over 70, pulse 78, and oxygen is 95 percent on room air."
+      match: [["112"], ["70"]]
+    - id: f13
+      section: objective
+      text: Jugular venous pressure elevated to about 10 cm
+      polarity: present
+      evidence: "Your neck veins are up to about 10 centimeters."
+      match: [["jvp", "jugular", "neck vein", "jvd"]]
+    - id: f14
+      section: objective
+      text: Bibasilar crackles
+      polarity: present
+      evidence: "I hear some crackles at the bottom of both lungs."
+      match: [["crackle", "rales", "bibasilar"]]
+    - id: f15
+      section: objective
+      text: Regular rhythm with S3 gallop
+      polarity: present
+      evidence: "I hear a soft extra sound called an S3"
+      match: [["s3", "gallop"]]
+    - id: f16
+      section: objective
+      text: 2+ pitting edema to mid-shins bilaterally
+      polarity: present
+      evidence: "you've got 2 plus pitting swelling up to the middle of both shins"
+      match: [["pitting", "edema", "swelling"], ["2+", "2 plus", "shin"]]
+    - id: f17
+      section: objective
+      text: Echo in March with LVEF 30%
+      polarity: present
+      evidence: "Your last echo in March showed an ejection fraction of 30 percent"
+      match: [["ejection fraction", "lvef"], ["30"]]
+    - id: f18
+      section: objective
+      text: Labs 3 weeks ago potassium 4.6, creatinine 1.2
+      polarity: present
+      evidence: "potassium 4.6 and creatinine 1.2"
+      match: [["potassium", "creatinine"], ["4.6", "1.2"]]
+    - id: f19
+      section: assessment
+      text: Mild acute on chronic HFrEF exacerbation with volume overload
+      polarity: present
+      evidence: "this is a mild flare of your heart failure with reduced ejection fraction"
+      match: [["heart failure", "hfref", "chf", "systolic"]]
+    - id: f20
+      section: assessment
+      text: Precipitated by dietary sodium and NSAID use
+      polarity: present
+      evidence: "I think the salty food and the naproxen both played a part."
+      match: [["naproxen", "nsaid", "salt", "sodium"]]
+    - id: f21
+      section: assessment
+      text: Bilateral knee osteoarthritis
+      polarity: present
+      evidence: "The arthritis acts up."
+      match: [["arthritis"], ["knee"]]
+    - id: f22
+      section: plan
+      text: Stop naproxen; use acetaminophen 650 mg up to 3 times daily for knee pain
+      polarity: present
+      evidence: "Acetaminophen is safer for your heart. You can take 650 milligrams up to 3 times a day."
+      match: [["acetaminophen", "tylenol", "paracetamol"]]
+    - id: f23
+      section: plan
+      text: Increase furosemide to 40 mg twice daily for 5 days, then back to 40 mg daily once weight near 183 lb
+      polarity: present
+      evidence: "I'm increasing the furosemide to 40 milligrams twice a day for the next 5 days."
+      match: [["furosemide", "lasix", "diuretic"], ["twice", "bid", "5 days", "five days"]]
+    - id: f24
+      section: plan
+      text: Continue sacubitril-valsartan, carvedilol, spironolactone and dapagliflozin unchanged
+      polarity: present
+      evidence: "Keep all your other heart medicines the same."
+      match: [["continue", "unchanged", "same"]]
+    - id: f25
+      section: plan
+      text: Daily morning weights; sodium under 2000 mg per day; fluid about 2 liters per day
+      polarity: present
+      evidence: "Keep salt under 2000 milligrams a day and fluids to about 2 liters."
+      match: [["2000", "2 g", "2 gram", "2 liter", "fluid"]]
+    - id: f26
+      section: plan
+      text: Basic metabolic panel in 1 week
+      polarity: present
+      evidence: "I'd also like a basic metabolic panel on the 21st of October"
+      match: [["bmp", "metabolic panel", "electrolytes", "kidney function"]]
+    - id: f27
+      section: plan
+      text: Call for weight gain of 3 lb in a day or 5 lb in a week; ED for dyspnea at rest or chest pain
+      polarity: present
+      evidence: "Call us if your weight goes up 3 pounds in a day or 5 pounds in a week."
+      match: [["3 pound", "3 lb", "5 pound", "5 lb", "emergency"]]
+    - id: f28
+      section: plan
+      text: Follow-up in 1 week for weight and edema check
+      polarity: present
+      evidence: "I want to see you back in 1 week"
+      match: [["1 week", "one week", "7 days"]]
+  medications:
+    - {name: sacubitril-valsartan, dose: 49-51 mg, frequency: twice daily, route: oral, status: active, evidence: "sacubitril valsartan, 49 and 51 milligrams twice a day"}
+    - {name: carvedilol, dose: 12.5 mg, frequency: twice daily, route: oral, status: active, evidence: "carvedilol 12.5 milligrams twice a day"}
+    - {name: spironolactone, dose: 25 mg, frequency: once daily, route: oral, status: active, evidence: "spironolactone 25 milligrams once a day"}
+    - {name: dapagliflozin, dose: 10 mg, frequency: once daily, route: oral, status: active, evidence: "dapagliflozin 10 milligrams once a day"}
+    - {name: furosemide, dose: 40 mg, frequency: twice daily for 5 days, then once daily, route: oral, status: changed, evidence: "I'm increasing the furosemide to 40 milligrams twice a day for the next 5 days."}
+    - {name: naproxen, dose: 440 mg, frequency: twice daily, route: oral, status: stopped, evidence: "so I want you to stop it completely"}
+    - {name: acetaminophen, dose: 650 mg, frequency: up to 3 times daily as needed, route: oral, status: new, evidence: "You can take 650 milligrams up to 3 times a day."}
+  allergies: []
+  diagnoses:
+    - code: I50.23
+      description: Acute on chronic systolic (congestive) heart failure
+      primary: true
+      evidence: "this is a mild flare of your heart failure with reduced ejection fraction"
+      alternatives: [I50.22, I50.20]
+    - code: M17.0
+      description: Bilateral primary osteoarthritis of knee
+      evidence: "I've been taking naproxen for my knees. The arthritis acts up."
+      alternatives: [M17.9]
+  em_code: "99214"
+  em_rationale: Chronic illness with exacerbation (HFrEF volume overload) plus knee osteoarthritis, review of echo and prior labs and BMP ordered, with prescription drug management (diuretic increase, NSAID stopped) (moderate MDM).
+  procedures: []
+  phi:
+    - {type: NAME, value: Mr. Whitaker, who: patient}
+    - {type: NAME, value: Darnell Whitaker, who: patient}
+    - {type: DATE, value: "February 27th, 1958", who: patient}
+    - {type: NAME, value: Megan Kowalczyk, who: clinician}
+    - {type: NAME, value: Megan, who: clinician}
+    - {type: NAME, value: Lorraine, who: relative}
+    - {type: DATE, value: the 21st of October, who: patient}
+    - {type: EMAIL, value: darnell dot whitaker at examplemail dot com, who: patient}
+traps:
+  - type: correction
+    text: Furosemide first stated as 20 mg, corrected to 40 mg daily
+    evidence: "The water pill is 20 milligrams in the morning."
+    match: [["furosemide", "lasix", "water pill"], ["20 mg", "20 milligram"]]
+  - type: small_talk
+    text: Nephew's wedding and wife's comments are social context, only the dietary sodium matters
+    evidence: "my nephew got married two weekends ago"
+    match: [["nephew", "wedding", "married"]]

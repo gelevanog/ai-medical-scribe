@@ -1,0 +1,316 @@
+id: cd-06
+specialty: cardiology
+title: Hypertension referral with family history of early heart attack
+visit_type: new
+visit_date: "2026-09-24"
+patient:
+  name: Rodrigo Esquivel
+  dob: "1982-01-30"
+  sex: male
+  phone: 555-0136
+  address: 905 Magnolia Terrace, Cincinnati, OH 45227
+  mrn: "2069954"
+clinician:
+  name: Dr. Viktor Petrov
+  role: cardiologist
+speakers:
+  clinician: {sex: male}
+  patient: {sex: male}
+dialogue:
+  - speaker: clinician
+    text: Hi there, I'm Dr. Viktor Petrov. Before we get going, can you tell me your full name and date of birth?
+  - speaker: patient
+    text: Rodrigo Esquivel. January 30th, 1982.
+  - speaker: clinician
+    text: Thanks, Rodrigo. And is your address still the one on Kellogg Avenue?
+  - speaker: patient
+    text: No, we moved in July. It's 905 Magnolia Terrace now.
+  - speaker: clinician
+    text: Got it, I'll update that. So Dr. Lindqvist sent you to us about your blood pressure. What's the story?
+  - speaker: patient
+    text: So at my physical in July it was high, like 156 over 98. She had me check it at home, and it's been running in the 150s over 90s pretty much every day for 2 months.
+  - speaker: clinician
+    text: And she started a medicine?
+  - speaker: patient
+    text: Yeah, amlodipine, 5 milligrams once a day. About 6 weeks ago. It came down a little, but my readings are still like 145 over 92.
+  - speaker: clinician
+    text: Any headaches, vision changes, or chest pain?
+  - speaker: patient
+    text: No headaches. Vision's fine. No chest pain.
+  - speaker: clinician
+    text: Shortness of breath, or swelling in your legs?
+  - speaker: patient
+    text: No, neither.
+  - speaker: clinician
+    text: Dr. Lindqvist wrote that you're worried because of your family. Tell me about that.
+  - speaker: patient
+    text: Yeah, that's honestly why I'm here. My dad had a heart attack at 51, and he passed away from a second one at 58. And my mom had a stroke when she was 70. So I'm kind of freaking out about this.
+  - speaker: clinician
+    text: I'm sorry about your dad. That's a real reason to take this seriously, and we will. Have you ever had any heart problems yourself, any chest pain or a heart test?
+  - speaker: patient
+    text: No, nothing. Never had any heart issue. Just the blood pressure.
+  - speaker: clinician
+    text: Okay. Do you snore?
+  - speaker: patient
+    text: My wife Daniela says I snore like a chainsaw. She says sometimes I stop breathing and then gasp. I'm tired most days, too.
+  - speaker: clinician
+    text: That's important, I'll come back to it. Any medicines over the counter? Decongestants, pain relievers?
+  - speaker: patient
+    text: I take pseudoephedrine most mornings for my sinuses. 30 milligrams, maybe 2 tablets.
+  - speaker: clinician
+    text: Alcohol, smoking?
+  - speaker: patient
+    text: 3 or 4 beers on the weekend. I've never smoked. I'm a project manager at Brightwater Construction, so I eat a lot of fast food on the road, if I'm being honest.
+  - speaker: clinician
+    text: Thanks for being straight with me. Let me check you. Your blood pressure is 148 over 94 in the right arm, 144 over 90 in the left. I repeated it after 5 minutes and got 146 over 92. Pulse 80. Weight is 228 pounds, which puts your BMI at 31.4. No bruits in your neck or belly. Heart is regular, no murmurs. Lungs are clear. No leg swelling, and the pulses in your groin and feet are normal.
+  - speaker: patient
+    text: Okay.
+  - speaker: clinician
+    text: I also looked at the labs and ECG Dr. Lindqvist sent. Kidney function is normal, creatinine 1.0, potassium 4.1, and your A1c is 5.6, so no diabetes. The ECG from August shows sinus rhythm with some voltage that suggests the heart muscle may be a little thick from the pressure.
+  - speaker: patient
+    text: Thick? Is that bad?
+  - speaker: clinician
+    text: It's a sign the blood pressure has been working the heart harder, and it's very treatable. So my thinking is this. You have high blood pressure that isn't controlled yet. To be clear, you haven't had a heart attack or a stroke, those were your parents. But your family history does raise your risk, so we want to get your numbers down and look at the whole picture.
+  - speaker: patient
+    text: Okay, that helps.
+  - speaker: clinician
+    text: First, I'm increasing the amlodipine to 10 milligrams once a day. Second, please stop the pseudoephedrine, it pushes the blood pressure up. Use a fluticasone nasal spray instead, 2 sprays in each nostril once a day.
+  - speaker: patient
+    text: I didn't know that about the decongestant.
+  - speaker: clinician
+    text: Most people don't. Third, the snoring and stopping breathing sound like sleep apnea, which is a common cause of hard to control blood pressure. I'm ordering a home sleep study. I also want an echocardiogram to look at the heart muscle, and a fasting lipid panel and a urine test for protein.
+  - speaker: patient
+    text: Okay.
+  - speaker: clinician
+    text: On the lifestyle side, try to keep salt under 2000 milligrams a day, and cut back to no more than 1 or 2 beers at a time. Keep checking your blood pressure at home twice a day and bring the log and your cuff next time.
+  - speaker: patient
+    text: Will do. Should I worry about chest pain, like my dad?
+  - speaker: clinician
+    text: If you ever get chest pain, sudden weakness, or trouble speaking, call 911 right away. Otherwise I'll see you back in 4 weeks to go over the tests and your home numbers.
+  - speaker: patient
+    text: Sounds good. Thanks, Doctor.
+gold:
+  facts:
+    - id: f1
+      section: subjective
+      text: Elevated blood pressure at July physical, 156/98; home readings 150s/90s for 2 months
+      polarity: present
+      evidence: "it's been running in the 150s over 90s pretty much every day for 2 months"
+      match: [["blood pressure", "hypertension", "bp", "home reading"], ["150", "156", "2 months", "two months"]]
+    - id: f2
+      section: subjective
+      text: Started amlodipine 5 mg daily 6 weeks ago; home readings still about 145/92
+      polarity: present
+      evidence: "my readings are still like 145 over 92"
+      match: [["145"], ["92"]]
+    - id: f3
+      section: subjective
+      text: Denies headaches or vision changes
+      polarity: absent
+      evidence: "Any headaches, vision changes, or chest pain?"
+      match: [["headache", "vision", "visual"]]
+    - id: f4
+      section: subjective
+      text: Denies chest pain
+      polarity: absent
+      evidence: "No chest pain."
+      match: [["chest pain"]]
+    - id: f5
+      section: subjective
+      text: No shortness of breath or leg swelling
+      polarity: absent
+      evidence: "Shortness of breath, or swelling in your legs?"
+      match: [["shortness of breath", "dyspnea", "sob", "short of breath", "swelling", "edema"]]
+    - id: f6
+      section: subjective
+      text: Family history of father with MI at 51 and fatal MI at 58; mother with stroke at 70
+      polarity: present
+      evidence: "My dad had a heart attack at 51, and he passed away from a second one at 58."
+      match: [["father", "dad", "family"], ["51", "myocardial infarction", "heart attack", "mi at"]]
+    - id: f7
+      section: subjective
+      text: No personal history of heart disease
+      polarity: absent
+      evidence: "Never had any heart issue."
+      match: [["heart disease", "cardiac history", "heart issue", "heart problem", "cardiac disease"]]
+    - id: f8
+      section: subjective
+      text: Loud snoring with witnessed apneas and gasping per wife; daytime fatigue
+      polarity: present
+      evidence: "She says sometimes I stop breathing and then gasp."
+      match: [["snor", "apnea", "stop breathing", "witnessed"]]
+    - id: f9
+      section: subjective
+      text: Daytime fatigue
+      polarity: present
+      evidence: "I'm tired most days, too."
+      match: [["tired", "fatigue", "somnolence", "sleepiness"]]
+    - id: f10
+      section: subjective
+      text: Takes OTC pseudoephedrine about 60 mg most mornings for sinuses
+      polarity: present
+      evidence: "I take pseudoephedrine most mornings for my sinuses."
+      match: [["pseudoephedrine", "sudafed", "decongestant"]]
+    - id: f11
+      section: subjective
+      text: Drinks 3 to 4 beers on weekends
+      polarity: present
+      evidence: "3 or 4 beers on the weekend."
+      match: [["beer", "alcohol", "etoh", "drinks"]]
+    - id: f12
+      section: subjective
+      text: Frequent fast food while traveling for work
+      polarity: present
+      evidence: "I eat a lot of fast food on the road"
+      match: [["fast food", "diet", "eating out", "restaurant"]]
+    - id: f13
+      section: subjective
+      text: Never smoker
+      polarity: absent
+      evidence: "I've never smoked."
+      match: [["smok", "tobacco"]]
+    - id: f14
+      section: objective
+      text: Blood pressure 148/94 right arm, 144/90 left arm, repeat 146/92
+      polarity: present
+      evidence: "Your blood pressure is 148 over 94 in the right arm, 144 over 90 in the left."
+      match: [["148", "146", "144"], ["94", "92", "90"]]
+    - id: f15
+      section: objective
+      text: Pulse 80; weight 228 lb, BMI 31.4
+      polarity: present
+      evidence: "Weight is 228 pounds, which puts your BMI at 31.4."
+      match: [["bmi", "body mass", "228"], ["31.4", "228"]]
+    - id: f16
+      section: objective
+      text: No carotid or abdominal bruits
+      polarity: absent
+      evidence: "No bruits in your neck or belly."
+      match: [["bruit"]]
+    - id: f17
+      section: objective
+      text: Regular rhythm, no murmurs
+      polarity: absent
+      evidence: "Heart is regular, no murmurs."
+      match: [["murmur"]]
+    - id: f18
+      section: objective
+      text: Lungs clear; no leg edema; femoral and pedal pulses normal
+      polarity: present
+      evidence: "the pulses in your groin and feet are normal"
+      match: [["lung", "pulses", "femoral", "pedal"]]
+    - id: f19
+      section: objective
+      text: Outside labs creatinine 1.0, potassium 4.1, A1c 5.6
+      polarity: present
+      evidence: "Kidney function is normal, creatinine 1.0, potassium 4.1, and your A1c is 5.6"
+      match: [["creatinine", "potassium", "a1c", "kidney function"]]
+    - id: f20
+      section: objective
+      text: Outside ECG from August with sinus rhythm and voltage criteria suggesting left ventricular hypertrophy
+      polarity: present
+      evidence: "The ECG from August shows sinus rhythm with some voltage that suggests the heart muscle may be a little thick"
+      match: [["lvh", "left ventricular hypertrophy", "hypertrophy", "voltage", "thick"]]
+    - id: f21
+      section: assessment
+      text: Uncontrolled essential hypertension on amlodipine 5 mg
+      polarity: present
+      evidence: "You have high blood pressure that isn't controlled yet."
+      match: [["hypertension", "high blood pressure", "htn", "blood pressure"], ["uncontrolled", "not controlled", "isn't controlled", "above goal", "not at goal"]]
+    - id: f22
+      section: assessment
+      text: Family history of premature coronary disease increases cardiovascular risk
+      polarity: present
+      evidence: "your family history does raise your risk"
+      match: [["family history", "fhx", "fh"]]
+    - id: f23
+      section: assessment
+      text: Suspected obstructive sleep apnea as a contributor to hypertension
+      polarity: present
+      evidence: "the snoring and stopping breathing sound like sleep apnea"
+      match: [["sleep apnea", "osa"]]
+    - id: f24
+      section: plan
+      text: Increase amlodipine to 10 mg daily
+      polarity: present
+      evidence: "I'm increasing the amlodipine to 10 milligrams once a day"
+      match: [["amlodipine", "norvasc"], ["10 mg", "10 milligram", "10mg"]]
+    - id: f25
+      section: plan
+      text: Stop pseudoephedrine
+      polarity: present
+      evidence: "please stop the pseudoephedrine, it pushes the blood pressure up"
+      match: [["pseudoephedrine", "sudafed", "decongestant"], ["stop", "discontinu", "avoid"]]
+    - id: f26
+      section: plan
+      text: Start fluticasone nasal spray, 2 sprays each nostril daily
+      polarity: present
+      evidence: "Use a fluticasone nasal spray instead, 2 sprays in each nostril once a day."
+      match: [["fluticasone", "flonase", "nasal steroid", "nasal spray"]]
+    - id: f27
+      section: plan
+      text: Home sleep apnea study
+      polarity: present
+      evidence: "I'm ordering a home sleep study."
+      match: [["sleep study", "polysomnograph", "hsat", "sleep test"]]
+    - id: f28
+      section: plan
+      text: Echocardiogram, fasting lipid panel and urine protein test ordered
+      polarity: present
+      evidence: "I also want an echocardiogram to look at the heart muscle, and a fasting lipid panel and a urine test for protein."
+      match: [["echo", "lipid", "urine", "albumin"]]
+    - id: f29
+      section: plan
+      text: Sodium under 2000 mg daily, limit alcohol to 1 to 2 beers per occasion, home BP log twice daily
+      polarity: present
+      evidence: "try to keep salt under 2000 milligrams a day"
+      match: [["salt", "sodium", "alcohol", "home blood pressure", "log"]]
+    - id: f30
+      section: plan
+      text: Call 911 for chest pain or stroke symptoms; follow-up in 4 weeks
+      polarity: present
+      evidence: "Otherwise I'll see you back in 4 weeks to go over the tests and your home numbers."
+      match: [["4 weeks", "four weeks", "4 wk", "1 month", "one month"]]
+  medications:
+    - {name: amlodipine, dose: 10 mg, frequency: once daily, route: oral, status: changed, evidence: "I'm increasing the amlodipine to 10 milligrams once a day"}
+    - {name: pseudoephedrine, dose: 60 mg, frequency: most mornings, route: oral, status: stopped, evidence: "please stop the pseudoephedrine"}
+    - {name: fluticasone, dose: 2 sprays each nostril, frequency: once daily, route: intranasal, status: new, evidence: "Use a fluticasone nasal spray instead, 2 sprays in each nostril once a day."}
+  allergies: []
+  diagnoses:
+    - code: I10
+      description: Essential (primary) hypertension
+      primary: true
+      evidence: "You have high blood pressure that isn't controlled yet."
+    - code: Z82.49
+      description: Family history of ischemic heart disease and other diseases of the circulatory system
+      evidence: "My dad had a heart attack at 51"
+    - code: R06.83
+      description: Snoring
+      evidence: "the snoring and stopping breathing sound like sleep apnea"
+      alternatives: [G47.33]
+  em_code: "99204"
+  em_rationale: Chronic illness with progression (uncontrolled hypertension) plus suspected sleep apnea, review of external labs and ECG and ordering echo, sleep study and labs, with prescription drug management (moderate MDM).
+  procedures: []
+  phi:
+    - {type: NAME, value: Dr. Viktor Petrov, who: clinician}
+    - {type: NAME, value: Rodrigo Esquivel, who: patient}
+    - {type: NAME, value: Rodrigo, who: patient}
+    - {type: DATE, value: "January 30th, 1982", who: patient}
+    - {type: ADDRESS, value: Kellogg Avenue, who: patient}
+    - {type: ADDRESS, value: 905 Magnolia Terrace, who: patient}
+    - {type: NAME, value: Dr. Lindqvist, who: clinician}
+    - {type: NAME, value: Daniela, who: relative}
+    - {type: ORG, value: Brightwater Construction, who: patient}
+traps:
+  - type: family_history
+    text: Father's heart attacks must not become the patient's diagnosis or history
+    evidence: "My dad had a heart attack at 51, and he passed away from a second one at 58."
+    match: [["heart attack", "myocardial infarction", "coronary artery disease"]]
+  - type: family_history
+    text: Mother's stroke must not become the patient's diagnosis or history
+    evidence: "And my mom had a stroke when she was 70."
+    match: [["stroke", "cva", "cerebrovascular"]]
+  - type: hypothetical
+    text: Chest pain, sudden weakness or trouble speaking are return precautions, not current symptoms
+    evidence: "If you ever get chest pain, sudden weakness, or trouble speaking, call 911 right away."
+    match: [["weakness", "trouble speaking", "slurred"]]

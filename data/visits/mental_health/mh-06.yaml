@@ -1,0 +1,303 @@
+id: mh-06
+specialty: mental_health
+title: Alcohol use counseling with AUDIT-C, depression in remission on bupropion
+visit_type: established
+visit_date: "2026-10-02"
+patient:
+  name: Neha Kulkarni
+  dob: "1987-01-25"
+  sex: female
+  phone: 919-555-0117
+  address: 908 Glenwood Avenue, Raleigh, NC 27605
+  mrn: "2269054"
+clinician:
+  name: Dr. Samuel Osei-Bonsu
+  role: psychiatrist
+speakers:
+  clinician: {sex: male}
+  patient: {sex: female}
+dialogue:
+  - speaker: clinician
+    text: Hi, Neha, come on in. Can I have your full name and date of birth, please?
+  - speaker: patient
+    text: Neha Kulkarni, January 25th, 1987.
+  - speaker: clinician
+    text: Thanks. How did your daughter's soccer tournament go?
+  - speaker: patient
+    text: They lost in the semifinal, but Anaya scored, so she was over the moon.
+  - speaker: clinician
+    text: That's great. So how's the mood been?
+  - speaker: patient
+    text: Good, actually. The bupropion is still working. But, um, there's something I wanted to bring up. My husband Vikram thinks I should talk to you about my drinking.
+  - speaker: clinician
+    text: I'm glad you did. Tell me what it looks like.
+  - speaker: patient
+    text: Since I started working from home last year, a glass of wine at 6 turned into three, sometimes four, most nights. Saturdays it can be five or six.
+  - speaker: clinician
+    text: Do you often end up drinking more than you planned?
+  - speaker: patient
+    text: Pretty much always. I tell myself one glass.
+  - speaker: clinician
+    text: Have you tried to cut back?
+  - speaker: patient
+    text: In August I tried to stop for a month. I made it four days.
+  - speaker: clinician
+    text: Do you ever drink in the morning, or get shaky or sweaty when you go without?
+  - speaker: patient
+    text: No, never in the morning, and no shakes.
+  - speaker: clinician
+    text: Any blackouts, where you can't remember part of the night?
+  - speaker: patient
+    text: Once. At a wedding in August, I don't remember the end of the night. That kind of scared me.
+  - speaker: clinician
+    text: Any driving after drinking?
+  - speaker: patient
+    text: No. Never. I'm really careful about that.
+  - speaker: clinician
+    text: Any smoking, cannabis, other drugs?
+  - speaker: patient
+    text: No, none of that.
+  - speaker: clinician
+    text: Anyone in your family with alcohol problems?
+  - speaker: patient
+    text: My dad was a heavy drinker. He died of cirrhosis when I was in college.
+  - speaker: clinician
+    text: I'm sorry. That's a lot to carry. And you're still on bupropion XL, 150 milligrams every morning?
+  - speaker: patient
+    text: Yes, every morning.
+  - speaker: clinician
+    text: I have to ask, any thoughts of suicide or of hurting yourself?
+  - speaker: patient
+    text: No, not at all.
+  - speaker: clinician
+    text: Good. So, your AUDIT-C score today is 8 out of 12. For women, 3 or more is a positive screen, so this is clearly in the risky range. Your PHQ-9 is 4, so your depression is still in remission. Your blood pressure is a bit high today at 138 over 88, pulse 90. I don't see any tremor in your hands. You seem calm and open, your mood is good, and your thinking is clear.
+  - speaker: patient
+    text: Okay. Honestly, I figured it would be high.
+  - speaker: clinician
+    text: So here's where I land. I think this is a mild alcohol use disorder. Your recurrent major depression is in full remission on the bupropion, and I want to keep it that way, because alcohol can bring depression back. There's one more important thing. Bupropion lowers the seizure threshold, and heavy drinking, or stopping suddenly after heavy drinking, raises that risk.
+  - speaker: patient
+    text: Wow, I didn't know that.
+  - speaker: clinician
+    text: So what I'd like to do is this. First, a liver panel and a GGT, at the lab on your way out. If those are okay, I'll start naltrexone, 50 milligrams once a day. It cuts cravings and makes drinking less rewarding. I'll call you with the results before you start it.
+  - speaker: patient
+    text: Okay. Is it the same number on file? 919-555-0117?
+  - speaker: clinician
+    text: That's what I have. Second, a goal for now, no more than one drink a day and at least three alcohol-free days a week. Third, I'm referring you to the Riverbend Recovery Center outpatient program. They have evening groups twice a week.
+  - speaker: patient
+    text: Evenings work. Vikram can handle the kids.
+  - speaker: clinician
+    text: Keep the bupropion at 150. If you get shaky, sweaty, or anxious when you cut down, call us right away. And if your mood drops or you have any thoughts of hurting yourself, call or text 988. We'll recheck your blood pressure next time. Let's meet again in 4 weeks, on October 30th.
+  - speaker: patient
+    text: Thank you. This is easier to say out loud than I thought.
+gold:
+  facts:
+    - id: f1
+      section: subjective
+      text: Drinking 3 to 4 glasses of wine most nights, 5 to 6 on Saturdays, increased since working from home
+      polarity: present
+      evidence: a glass of wine at 6 turned into three, sometimes four, most nights. Saturdays it can be five or six.
+      match: [["wine", "alcohol", "drink", "glasses"], ["3", "three", "4", "four"]]
+    - id: f2
+      section: subjective
+      text: Husband concerned about her drinking
+      polarity: present
+      evidence: My husband Vikram thinks I should talk to you about my drinking.
+      match: [["husband", "spouse", "vikram"]]
+    - id: f3
+      section: subjective
+      text: Usually drinks more than intended
+      polarity: present
+      evidence: Pretty much always. I tell myself one glass.
+      match: [["more than intended", "more than planned", "more than she planned", "more than she intended", "more than she intends", "larger amounts", "loss of control"]]
+    - id: f4
+      section: subjective
+      text: Unsuccessful attempt to cut back in August, lasted 4 days
+      polarity: present
+      evidence: In August I tried to stop for a month. I made it four days.
+      match: [["cut back", "cut down", "stop", "quit", "attempt"], ["4 days", "four days", "unsuccessful"]]
+    - id: f5
+      section: subjective
+      text: Denies morning drinking
+      polarity: absent
+      evidence: Do you ever drink in the morning, or get shaky or sweaty when you go without?
+      match: [["morning drink", "eye-opener", "eye opener", "in the morning", "drinking in the morning"]]
+    - id: f6
+      section: subjective
+      text: Denies withdrawal symptoms (shakiness, sweating)
+      polarity: absent
+      evidence: no shakes
+      match: [["withdrawal", "shak", "tremor", "sweat"]]
+    - id: f7
+      section: subjective
+      text: One alcohol-related blackout at a wedding in August
+      polarity: present
+      evidence: At a wedding in August, I don't remember the end of the night.
+      match: [["blackout", "black out", "memory", "don't remember"]]
+    - id: f8
+      section: subjective
+      text: Denies driving after drinking
+      polarity: absent
+      evidence: Any driving after drinking?
+      match: [["driv"]]
+    - id: f9
+      section: subjective
+      text: Denies tobacco, cannabis, or other drug use
+      polarity: absent
+      evidence: Any smoking, cannabis, other drugs?
+      match: [["smok", "tobacco", "cannabis", "marijuana", "drug", "substance"]]
+    - id: f10
+      section: subjective
+      text: Family history of heavy drinking in father, who died of cirrhosis
+      polarity: present
+      evidence: My dad was a heavy drinker. He died of cirrhosis when I was in college.
+      match: [["father", "dad", "family"], ["drink", "alcohol", "cirrhosis"]]
+    - id: f11
+      section: subjective
+      text: Mood good on bupropion XL 150 mg every morning
+      polarity: present
+      evidence: And you're still on bupropion XL, 150 milligrams every morning?
+      match: [["bupropion", "wellbutrin"], ["150"]]
+    - id: f12
+      section: subjective
+      text: Denies suicidal ideation or self-harm thoughts
+      polarity: absent
+      evidence: any thoughts of suicide or of hurting yourself?
+      match: [["suicid", "self-harm", "self harm", "hurting herself"]]
+    - id: f13
+      section: objective
+      text: AUDIT-C score 8 out of 12, positive screen
+      polarity: present
+      evidence: your AUDIT-C score today is 8 out of 12
+      match: [["audit"], ["8"]]
+    - id: f14
+      section: objective
+      text: PHQ-9 score 4
+      polarity: present
+      evidence: Your PHQ-9 is 4
+      match: [["phq"], ["4"]]
+    - id: f15
+      section: objective
+      text: Blood pressure 138/88, pulse 90
+      polarity: present
+      evidence: Your blood pressure is a bit high today at 138 over 88, pulse 90.
+      match: [["138"], ["88"]]
+    - id: f16
+      section: objective
+      text: No hand tremor
+      polarity: absent
+      evidence: I don't see any tremor in your hands.
+      match: [["tremor"]]
+    - id: f17
+      section: objective
+      text: Mental status - calm, open, good mood, clear thinking
+      polarity: present
+      evidence: You seem calm and open, your mood is good, and your thinking is clear.
+      match: [["calm", "cooperative", "thought process", "thinking", "linear"]]
+    - id: f18
+      section: assessment
+      text: Mild alcohol use disorder
+      polarity: present
+      evidence: I think this is a mild alcohol use disorder.
+      match: [["alcohol use disorder", "alcohol abuse", "alcohol use"]]
+    - id: f19
+      section: assessment
+      text: Recurrent major depressive disorder in full remission on bupropion
+      polarity: present
+      evidence: Your recurrent major depression is in full remission on the bupropion
+      match: [["depress", "mdd"], ["remission"]]
+    - id: f20
+      section: assessment
+      text: Bupropion lowers seizure threshold; heavy drinking or abrupt cessation increases seizure risk
+      polarity: present
+      evidence: Bupropion lowers the seizure threshold
+      match: [["seizure"]]
+    - id: f21
+      section: assessment
+      text: Elevated blood pressure reading today
+      polarity: present
+      evidence: Your blood pressure is a bit high today
+      match: [["blood pressure", "bp", "hypertens"], ["elevated", "high", "recheck"]]
+    - id: f22
+      section: plan
+      text: Liver panel and GGT ordered today
+      polarity: present
+      evidence: a liver panel and a GGT, at the lab on your way out
+      match: [["liver", "lft", "hepatic", "ggt", "cmp"]]
+    - id: f23
+      section: plan
+      text: Start naltrexone 50 mg once daily after liver results are reviewed
+      polarity: present
+      evidence: If those are okay, I'll start naltrexone, 50 milligrams once a day.
+      match: [["naltrexone", "revia"], ["50"]]
+    - id: f24
+      section: plan
+      text: Drinking goal no more than 1 drink per day and at least 3 alcohol-free days per week
+      polarity: present
+      evidence: no more than one drink a day and at least three alcohol-free days a week
+      match: [["one drink", "1 drink", "alcohol-free", "alcohol free", "goal"]]
+    - id: f25
+      section: plan
+      text: Referral to Riverbend Recovery Center outpatient program, evening groups twice weekly
+      polarity: present
+      evidence: I'm referring you to the Riverbend Recovery Center outpatient program.
+      match: [["refer", "outpatient", "program", "riverbend"]]
+    - id: f26
+      section: plan
+      text: Continue bupropion XL 150 mg
+      polarity: present
+      evidence: Keep the bupropion at 150.
+      match: [["bupropion", "wellbutrin"], ["continue", "keep", "150"]]
+    - id: f27
+      section: plan
+      text: Call if withdrawal symptoms when cutting down; 988 for mood worsening or self-harm thoughts
+      polarity: present
+      evidence: If you get shaky, sweaty, or anxious when you cut down, call us right away.
+      match: [["withdrawal", "shaky", "sweaty", "988"]]
+    - id: f28
+      section: plan
+      text: Recheck blood pressure next visit; follow-up in 4 weeks on October 30th
+      polarity: present
+      evidence: Let's meet again in 4 weeks, on October 30th.
+      match: [["follow", "return", "meet", "f/u", "recheck"], ["4 weeks", "four weeks", "4 wk", "october 30"]]
+  medications:
+    - {name: bupropion, dose: 150 mg XL, frequency: every morning, route: oral, status: active, evidence: "bupropion XL, 150 milligrams every morning"}
+    - {name: naltrexone, dose: 50 mg, frequency: once daily, route: oral, status: new, evidence: "I'll start naltrexone, 50 milligrams once a day"}
+  allergies: []
+  diagnoses:
+    - code: F10.10
+      description: Alcohol abuse, uncomplicated
+      primary: true
+      evidence: I think this is a mild alcohol use disorder.
+      alternatives: [F10.90]
+    - code: F33.42
+      description: Major depressive disorder, recurrent, in full remission
+      evidence: Your recurrent major depression is in full remission on the bupropion
+      alternatives: [F33.41]
+    - code: Z71.41
+      description: Alcohol abuse counseling and surveillance of alcoholic
+      evidence: a goal for now, no more than one drink a day
+    - code: R03.0
+      description: Elevated blood-pressure reading, without diagnosis of hypertension
+      evidence: Your blood pressure is a bit high today at 138 over 88
+  em_code: "99214"
+  em_rationale: A new problem (mild alcohol use disorder) plus a stable chronic illness, labs ordered, and prescription drug management (naltrexone, bupropion interaction), moderate MDM.
+  procedures:
+    - {code: "96127", evidence: "Your PHQ-9 is 4"}
+  phi:
+    - {type: NAME, value: Neha, who: patient}
+    - {type: NAME, value: Neha Kulkarni, who: patient}
+    - {type: DATE, value: "January 25th, 1987", who: patient}
+    - {type: NAME, value: Anaya, who: relative}
+    - {type: NAME, value: Vikram, who: relative}
+    - {type: PHONE, value: 919-555-0117, who: patient}
+    - {type: ORG, value: Riverbend Recovery Center, who: other}
+    - {type: DATE, value: October 30th, who: patient}
+traps:
+  - type: family_history
+    text: Father died of cirrhosis; the patient has no liver disease
+    evidence: He died of cirrhosis when I was in college.
+    match: [["cirrhosis"]]
+  - type: small_talk
+    text: Daughter's soccer tournament is small talk and should not appear in the note
+    evidence: They lost in the semifinal, but Anaya scored
+    match: [["soccer", "tournament", "semifinal"]]

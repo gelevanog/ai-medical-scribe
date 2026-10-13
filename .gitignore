@@ -1,0 +1,42 @@
+# Python
+__pycache__/
+*.py[cod]
+*.egg-info/
+build/
+dist/
+
+# Environments and secrets (keys live outside the repository)
+.venv/
+.env
+.env.*
+!.env.example
+*.key
+*.pem
+
+# Local runtime data: the visit database, encrypted uploads, the data key, model weights, caches
+var/
+.cache/
+models/
+data/audio/
+data/external/
+data/codes/full/
+
+# Frontend
+node_modules/
+web/.next/
+web/out/
+web/next-env.d.ts
+*.tsbuildinfo
+
+# Tooling
+.mcp.json
+.pytest_cache/
+.mypy_cache/
+.ruff_cache/
+.hypothesis/
+.coverage
+htmlcov/
+report.xml
+.idea/
+.vscode/
+.DS_Store

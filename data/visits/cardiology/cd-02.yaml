@@ -1,0 +1,301 @@
+id: cd-02
+specialty: cardiology
+title: Atrial fibrillation follow-up on apixaban with bleeding-risk review
+visit_type: established
+visit_date: "2026-10-06"
+patient:
+  name: Abena Owusu
+  dob: "1951-11-19"
+  sex: female
+  phone: 555-0148
+  address: 88 Cedar Hollow Court, Columbus, OH 43229
+  mrn: "3391807"
+clinician:
+  name: Dr. Rafael Quintero
+  role: cardiologist
+speakers:
+  clinician: {sex: male}
+  patient: {sex: female}
+dialogue:
+  - speaker: clinician
+    text: Good afternoon, Mrs. Owusu. Nice to see you again. Just so we have the right chart, can you give me your full name and date of birth?
+  - speaker: patient
+    text: Abena Owusu, November 19th, 1951.
+  - speaker: clinician
+    text: Perfect. Did your daughter bring you today?
+  - speaker: patient
+    text: Yes, Efua dropped me at the door. She's parking the car. You can call her if you need anything, her number is 555-0148.
+  - speaker: clinician
+    text: Good, I'll keep that on file. So this is your 6 month check on the atrial fibrillation. How have you been feeling?
+  - speaker: patient
+    text: Mostly fine. I don't feel the heart racing like before. Sometimes I'm a little tired in the afternoon, but I'm 74, you know.
+  - speaker: clinician
+    text: Fair enough. Any shortness of breath, dizziness, or chest pain?
+  - speaker: patient
+    text: No, none of that.
+  - speaker: clinician
+    text: Let's go over your medicines. You're on apixaban, 5 milligrams twice a day, and metoprolol succinate 25 milligrams?
+  - speaker: patient
+    text: The apixaban yes, morning and night. But the metoprolol is 50 now. You went up to 50 in April, remember?
+  - speaker: clinician
+    text: You're right, I see it here, 50 milligrams once a day. And the lisinopril, 10 milligrams in the morning for the blood pressure?
+  - speaker: patient
+    text: Yes. And I also take a baby aspirin every day now. My friend Ruth said it's good for the heart, so I started it in the summer. And my fish oil, 1000 milligrams.
+  - speaker: clinician
+    text: Okay, I'm glad you told me. That's actually something I want to talk about. Have you noticed any bleeding?
+  - speaker: patient
+    text: My gums bleed a little when I brush. And I had one nosebleed in August, but it stopped on its own after about 10 minutes and it hasn't happened again.
+  - speaker: clinician
+    text: Any black or tarry stools, or blood in your urine?
+  - speaker: patient
+    text: No.
+  - speaker: clinician
+    text: Any falls since I last saw you?
+  - speaker: patient
+    text: No falls, thank God. I walk with my church group twice a week.
+  - speaker: clinician
+    text: That's great. Okay, your blood pressure is 132 over 78, and your pulse is 72 and irregular, which is expected with the atrial fibrillation. Weight is 148 pounds, same as last time. Heart is irregularly irregular, no murmur. Lungs are clear, and no swelling in your ankles.
+  - speaker: patient
+    text: Okay.
+  - speaker: clinician
+    text: We did an ECG today. It shows atrial fibrillation with a rate of 74, so your rate is well controlled on the metoprolol. Your labs from last month look good too. Hemoglobin was 12.9, and kidney function was normal, creatinine 0.9.
+  - speaker: patient
+    text: So the blood is okay?
+  - speaker: clinician
+    text: Yes, no sign that you're losing blood. Now let me explain the balance. Your stroke risk score is 3, because of your age, being a woman, and the high blood pressure. That's high enough that the apixaban really protects you from a stroke. And your dose of 5 milligrams twice a day is the right one for your age, weight and kidneys.
+  - speaker: patient
+    text: Okay.
+  - speaker: clinician
+    text: The flip side is bleeding. Your bleeding risk score is 2 right now, and one of those points is the aspirin. Taking aspirin on top of apixaban raises the bleeding risk quite a bit, and for your heart it doesn't add protection. So I'd like you to stop the aspirin.
+  - speaker: patient
+    text: Oh. Ruth will be surprised. Okay, I'll stop it.
+  - speaker: clinician
+    text: Ruth's situation may be different. For you, the apixaban is doing the job. The fish oil at that dose is fine to keep. Use a soft toothbrush, and mention the gums to your dentist at your next cleaning.
+  - speaker: patient
+    text: I can do that.
+  - speaker: clinician
+    text: So to sum up. This is permanent atrial fibrillation, rate controlled, on long term anticoagulation, and your blood pressure is at goal. Keep the apixaban 5 milligrams twice a day, metoprolol succinate 50 milligrams once a day, and lisinopril 10 milligrams. Stop the aspirin. We'll check a blood count again in 3 months, you can do that at the lab on 2210 Wexford Avenue.
+  - speaker: patient
+    text: Yes, that's close to my house.
+  - speaker: clinician
+    text: Call us if you see black stools, blood in the urine, or a nosebleed that won't stop after 20 minutes. And if you ever fall and hit your head, go to the emergency room, even if you feel fine, because of the blood thinner.
+  - speaker: patient
+    text: Okay, I'll remember.
+  - speaker: clinician
+    text: I'll see you back in 6 months. Say hi to Efua for me.
+  - speaker: patient
+    text: I will. Thank you, doctor.
+gold:
+  facts:
+    - id: f1
+      section: subjective
+      text: No racing heartbeat or palpitations
+      polarity: absent
+      evidence: "I don't feel the heart racing like before."
+      match: [["racing", "palpitation"]]
+    - id: f2
+      section: subjective
+      text: Mild afternoon fatigue
+      polarity: present
+      evidence: "Sometimes I'm a little tired in the afternoon"
+      match: [["tired", "fatigue"]]
+    - id: f3
+      section: subjective
+      text: Denies shortness of breath
+      polarity: absent
+      evidence: "Any shortness of breath, dizziness, or chest pain?"
+      match: [["shortness of breath", "dyspnea", "sob", "short of breath"]]
+    - id: f4
+      section: subjective
+      text: Denies dizziness
+      polarity: absent
+      evidence: "Any shortness of breath, dizziness, or chest pain?"
+      match: [["dizz", "lightheaded", "light-headed"]]
+    - id: f5
+      section: subjective
+      text: Denies chest pain
+      polarity: absent
+      evidence: "Any shortness of breath, dizziness, or chest pain?"
+      match: [["chest pain"]]
+    - id: f6
+      section: subjective
+      text: Started aspirin 81 mg daily on her own in the summer on a friend's advice
+      polarity: present
+      evidence: "I also take a baby aspirin every day now."
+      match: [["aspirin", "asa"]]
+    - id: f7
+      section: subjective
+      text: Takes fish oil 1000 mg daily
+      polarity: present
+      evidence: "And my fish oil, 1000 milligrams."
+      match: [["fish oil", "omega"]]
+    - id: f8
+      section: subjective
+      text: Mild gum bleeding when brushing teeth
+      polarity: present
+      evidence: "My gums bleed a little when I brush."
+      match: [["gum", "gingival"]]
+    - id: f9
+      section: subjective
+      text: Single self-limited nosebleed in August lasting about 10 minutes, no recurrence
+      polarity: present
+      evidence: "I had one nosebleed in August, but it stopped on its own after about 10 minutes"
+      match: [["nosebleed", "epistaxis", "nose bleed"]]
+    - id: f10
+      section: subjective
+      text: No black or tarry stools or blood in urine
+      polarity: absent
+      evidence: "Any black or tarry stools, or blood in your urine?"
+      match: [["melena", "black", "tarry", "hematuria", "blood in urine", "blood in the urine"]]
+    - id: f11
+      section: subjective
+      text: No falls
+      polarity: absent
+      evidence: "Any falls since I last saw you?"
+      match: [["fall"]]
+    - id: f12
+      section: subjective
+      text: Walks twice weekly with church group
+      polarity: present
+      evidence: "I walk with my church group twice a week."
+      match: [["walk"]]
+    - id: f13
+      section: objective
+      text: Blood pressure 132/78
+      polarity: present
+      evidence: "your blood pressure is 132 over 78"
+      match: [["132"], ["78"]]
+    - id: f14
+      section: objective
+      text: Pulse 72, irregular; weight 148 lb, stable
+      polarity: present
+      evidence: "your pulse is 72 and irregular"
+      match: [["72"], ["irregular"]]
+    - id: f15
+      section: objective
+      text: Irregularly irregular rhythm without murmur; lungs clear
+      polarity: present
+      evidence: "Heart is irregularly irregular, no murmur."
+      match: [["irregularly irregular", "irregular rhythm"]]
+    - id: f16
+      section: objective
+      text: No ankle edema
+      polarity: absent
+      evidence: "no swelling in your ankles"
+      match: [["edema", "swelling"]]
+    - id: f17
+      section: objective
+      text: ECG shows atrial fibrillation with ventricular rate 74
+      polarity: present
+      evidence: "It shows atrial fibrillation with a rate of 74"
+      match: [["ecg", "ekg", "electrocardiogram"], ["74"]]
+    - id: f18
+      section: objective
+      text: Labs last month hemoglobin 12.9, creatinine 0.9
+      polarity: present
+      evidence: "Hemoglobin was 12.9, and kidney function was normal, creatinine 0.9."
+      match: [["hemoglobin", "hgb", "hb", "creatinine"], ["12.9", "0.9"]]
+    - id: f19
+      section: assessment
+      text: Permanent atrial fibrillation, rate controlled
+      polarity: present
+      evidence: "This is permanent atrial fibrillation, rate controlled"
+      match: [["atrial fibrillation", "afib", "a-fib"], ["rate control", "rate-control", "controlled"]]
+    - id: f20
+      section: assessment
+      text: CHA2DS2-VASc score 3 (age, female sex, hypertension); anticoagulation indicated, apixaban dose appropriate
+      polarity: present
+      evidence: "Your stroke risk score is 3"
+      match: [["cha2ds2", "chads", "stroke risk"], ["3"]]
+    - id: f21
+      section: assessment
+      text: HAS-BLED score 2, including concurrent aspirin use
+      polarity: present
+      evidence: "Your bleeding risk score is 2 right now"
+      match: [["has-bled", "hasbled", "bleeding risk"], ["2"]]
+    - id: f22
+      section: assessment
+      text: Hypertension at goal
+      polarity: present
+      evidence: "your blood pressure is at goal"
+      match: [["hypertension", "blood pressure", "htn"], ["goal", "controlled", "at target"]]
+    - id: f23
+      section: plan
+      text: Stop aspirin to lower bleeding risk
+      polarity: present
+      evidence: "So I'd like you to stop the aspirin."
+      match: [["aspirin", "asa"], ["stop", "discontinu", "d/c"]]
+    - id: f24
+      section: plan
+      text: Continue apixaban 5 mg twice daily, metoprolol succinate 50 mg daily, lisinopril 10 mg daily; fish oil may continue
+      polarity: present
+      evidence: "Keep the apixaban 5 milligrams twice a day, metoprolol succinate 50 milligrams once a day, and lisinopril 10 milligrams."
+      match: [["apixaban", "eliquis"], ["continue"]]
+    - id: f25
+      section: plan
+      text: Soft toothbrush and tell dentist about gum bleeding
+      polarity: present
+      evidence: "Use a soft toothbrush, and mention the gums to your dentist at your next cleaning."
+      match: [["toothbrush", "dentist", "dental"]]
+    - id: f26
+      section: plan
+      text: Repeat CBC in 3 months
+      polarity: present
+      evidence: "We'll check a blood count again in 3 months"
+      match: [["cbc", "blood count", "hemoglobin"], ["3 months", "three months"]]
+    - id: f27
+      section: plan
+      text: Bleeding precautions; ED evaluation for any fall with head strike
+      polarity: present
+      evidence: "if you ever fall and hit your head, go to the emergency room"
+      match: [["head", "bleeding precaution", "emergency"]]
+    - id: f28
+      section: plan
+      text: Follow-up in 6 months
+      polarity: present
+      evidence: "I'll see you back in 6 months."
+      match: [["6 months", "six months", "6 mo"]]
+  medications:
+    - {name: apixaban, dose: 5 mg, frequency: twice daily, route: oral, status: active, evidence: "Keep the apixaban 5 milligrams twice a day"}
+    - {name: metoprolol succinate, dose: 50 mg, frequency: once daily, route: oral, status: active, evidence: "I see it here, 50 milligrams once a day"}
+    - {name: lisinopril, dose: 10 mg, frequency: once daily in the morning, route: oral, status: active, evidence: "the lisinopril, 10 milligrams in the morning"}
+    - {name: aspirin, dose: 81 mg, frequency: once daily, route: oral, status: stopped, evidence: "So I'd like you to stop the aspirin."}
+    - {name: fish oil, dose: 1000 mg, frequency: once daily, route: oral, status: active, evidence: "And my fish oil, 1000 milligrams."}
+  allergies: []
+  diagnoses:
+    - code: I48.21
+      description: Permanent atrial fibrillation
+      primary: true
+      evidence: "This is permanent atrial fibrillation, rate controlled"
+      alternatives: [I48.20, I48.91]
+    - code: Z79.01
+      description: Long term (current) use of anticoagulants
+      evidence: "on long term anticoagulation"
+    - code: I10
+      description: Essential (primary) hypertension
+      evidence: "your blood pressure is at goal"
+  em_code: "99214"
+  em_rationale: Two stable chronic illnesses (atrial fibrillation, hypertension) with independent review of ECG and labs and prescription drug management of anticoagulation and aspirin discontinuation (moderate MDM).
+  procedures:
+    - {code: "93000", evidence: "We did an ECG today."}
+  phi:
+    - {type: NAME, value: Mrs. Owusu, who: patient}
+    - {type: NAME, value: Abena Owusu, who: patient}
+    - {type: DATE, value: "November 19th, 1951", who: patient}
+    - {type: NAME, value: Efua, who: relative}
+    - {type: PHONE, value: 555-0148, who: relative}
+    - {type: NAME, value: Ruth, who: other}
+    - {type: ADDRESS, value: 2210 Wexford Avenue, who: other}
+traps:
+  - type: correction
+    text: Metoprolol succinate dose first stated as 25 mg, corrected to 50 mg
+    evidence: "metoprolol succinate 25 milligrams?"
+    match: [["metoprolol"], ["25 mg", "25 milligram"]]
+  - type: past_resolved
+    text: Single nosebleed in August resolved on its own and did not recur; not an active problem
+    evidence: "it stopped on its own after about 10 minutes and it hasn't happened again"
+    match: [["active epistaxis", "ongoing nosebleed", "recurrent nosebleed", "recurrent epistaxis", "current nosebleed"]]
+  - type: other_person
+    text: Friend Ruth's aspirin advice and situation belong to another person
+    evidence: "My friend Ruth said it's good for the heart"
+    match: [["ruth"]]

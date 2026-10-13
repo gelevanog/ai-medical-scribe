@@ -1,0 +1,309 @@
+id: pd-04
+specialty: pediatrics
+title: Asthma exacerbation with in-clinic nebulizer treatment and steroid burst
+visit_type: established
+visit_date: "2026-10-13"
+patient:
+  name: Jaylen Brooks
+  dob: "2016-05-21"
+  sex: male
+  phone: 555-0129
+  address: 1517 Oakdale Street, Memphis, TN 38114
+  mrn: "3087742"
+clinician:
+  name: Dr. Sanjay Mehta
+  role: pediatrician
+speakers:
+  clinician: {sex: male}
+  caregiver: {sex: female}
+dialogue:
+  - speaker: clinician
+    text: Hi, come on in, have a seat right there. I can hear him from here, buddy. Can I get his full name and date of birth?
+  - speaker: caregiver
+    text: Jaylen Brooks, May 21st, 2016. I'm his grandmother, Loretta. I have guardianship.
+  - speaker: clinician
+    text: Thanks, Loretta. What's been going on?
+  - speaker: caregiver
+    text: He caught a cold about 3 days ago, runny nose, and then yesterday the wheezing started and the cough got real bad. He woke up twice last night coughing.
+  - speaker: clinician
+    text: How often has he needed his albuterol?
+  - speaker: caregiver
+    text: Every 4 hours since last night. 2 puffs each time. Well, no, he's been doing 4 puffs, the school nurse told him 4. Last time was around 7 this morning.
+  - speaker: clinician
+    text: And does it help?
+  - speaker: caregiver
+    text: For an hour or two, then he's back to wheezing.
+  - speaker: clinician
+    text: Okay. And the daily inhaler, the fluticasone, is he still taking that?
+  - speaker: caregiver
+    text: Um, honestly, no. He was doing so good over the summer that we kind of stopped it. Maybe since June.
+  - speaker: clinician
+    text: That happens a lot, no judgment. Any fever?
+  - speaker: caregiver
+    text: No, I've been checking, no fever.
+  - speaker: clinician
+    text: Jaylen, does your chest hurt?
+  - speaker: caregiver
+    text: He's shaking his head. He says it just feels tight.
+  - speaker: clinician
+    text: Any vomiting after coughing fits?
+  - speaker: caregiver
+    text: No.
+  - speaker: clinician
+    text: Anybody smoke around him, at home or in the car?
+  - speaker: caregiver
+    text: No, nobody smokes. I've got COPD myself, I'm on oxygen at night, so believe me, there's no smoking in my house.
+  - speaker: clinician
+    text: Good. Has he needed steroids or been in the hospital for his asthma this year?
+  - speaker: caregiver
+    text: Not this year. He had pneumonia 2 winters ago, but that cleared up, and he's never been admitted for asthma.
+  - speaker: clinician
+    text: Any allergies to medicines?
+  - speaker: caregiver
+    text: None.
+  - speaker: clinician
+    text: Okay. So his weight today is 30 kilograms. Temperature 99.1, heart rate 118, he's breathing 28 times a minute, and his oxygen level is 93 percent on room air. Let me listen. I hear wheezing all over both lungs when he breathes out, and there's a little pulling in under his ribs. He's still talking in full sentences, which is reassuring. Ears and throat look okay.
+  - speaker: caregiver
+    text: Is that bad, the 93?
+  - speaker: clinician
+    text: It's a bit low, so I want to give him a breathing treatment right now, albuterol with ipratropium in the nebulizer, and we'll recheck in about 20 minutes.
+  - speaker: caregiver
+    text: Okay. Go on, baby, hold the mask.
+  - speaker: clinician
+    text: Alright, it's been about 20 minutes. Oxygen is up to 97 percent, breathing rate 22, heart rate 130, which is from the albuterol, that's expected. Just a few scattered wheezes now and no more pulling under the ribs. That's a nice response.
+  - speaker: caregiver
+    text: He looks better. His color's better.
+  - speaker: clinician
+    text: Agreed. So this is an asthma flare, triggered by the cold, and made worse because he's been off his controller. First, a steroid by mouth. The dose is 1 milligram per kilogram, he's 30 kilograms, so prednisolone 30 milligrams once a day for 5 days. The liquid is 15 milligrams per 5 milliliters, so that's 10 milliliters each morning. I'll give the first dose here.
+  - speaker: caregiver
+    text: 10 milliliters, 5 days.
+  - speaker: clinician
+    text: Right. Second, albuterol, 4 puffs with the spacer every 4 hours while he's awake for the next 2 days, then just as needed. Third, restart the fluticasone, the 44 micrograms, 2 puffs twice a day, and have him rinse his mouth after. That one he needs every day, even when he feels fine.
+  - speaker: caregiver
+    text: Okay. I'll put it next to his toothbrush.
+  - speaker: clinician
+    text: Great idea. I'm updating his asthma action plan, and I'll print one for the nurse at Garfield Elementary. He can go back to school when he's not needing albuterol more than every 4 hours.
+  - speaker: caregiver
+    text: Okay. Can you check his insurance is still the same? The member ID is M as in Mary 6 6 2 0 4 1 8.
+  - speaker: clinician
+    text: Got it, that matches. If he needs albuterol more often than every 4 hours, can't speak in full sentences, his ribs are pulling in, or his lips look blue, go to the emergency room. I want to see him back on Friday to recheck, and we'll do his flu shot then.
+  - speaker: caregiver
+    text: Friday. And the number is still 555-0129.
+  - speaker: clinician
+    text: Perfect. Hang in there, Jaylen.
+gold:
+  facts:
+    - id: f1
+      section: subjective
+      text: Cold with runny nose starting 3 days ago
+      polarity: present
+      evidence: He caught a cold about 3 days ago, runny nose
+      match: [["cold", "uri", "upper respiratory", "runny nose", "rhinorrhea"], ["3 days", "three days"]]
+    - id: f2
+      section: subjective
+      text: Wheezing and worsening cough since yesterday
+      polarity: present
+      evidence: yesterday the wheezing started and the cough got real bad
+      match: [["wheez", "cough"]]
+    - id: f3
+      section: subjective
+      text: Nighttime awakenings with cough, twice last night
+      polarity: present
+      evidence: He woke up twice last night coughing.
+      match: [["night", "woke", "awaken", "nocturnal"]]
+    - id: f4
+      section: subjective
+      text: Using albuterol 4 puffs every 4 hours since last night with only 1 to 2 hours of relief; last dose about 7 AM
+      polarity: present
+      evidence: Every 4 hours since last night.
+      match: [["albuterol", "rescue", "proair", "ventolin"], ["every 4 hours", "q4", "4 hours", "every four hours"]]
+    - id: f5
+      section: subjective
+      text: Stopped daily fluticasone controller on his own around June
+      polarity: present
+      evidence: we kind of stopped it. Maybe since June.
+      match: [["fluticasone", "flovent", "controller", "inhaled steroid", "ics"], ["stop", "off", "nonadheren", "non-adheren", "not taking", "discontinu", "june"]]
+    - id: f6
+      section: subjective
+      text: No fever
+      polarity: absent
+      evidence: Any fever?
+      match: [["fever", "febrile"]]
+    - id: f7
+      section: subjective
+      text: No chest pain
+      polarity: absent
+      evidence: Jaylen, does your chest hurt?
+      match: [["chest pain"]]
+    - id: f8
+      section: subjective
+      text: Chest tightness
+      polarity: present
+      evidence: He says it just feels tight.
+      match: [["tight"]]
+    - id: f9
+      section: subjective
+      text: No post-tussive vomiting
+      polarity: absent
+      evidence: Any vomiting after coughing fits?
+      match: [["vomit", "emesis"]]
+    - id: f10
+      section: subjective
+      text: No smoke exposure at home or in the car
+      polarity: absent
+      evidence: No, nobody smokes.
+      match: [["smok", "tobacco"]]
+    - id: f11
+      section: subjective
+      text: No oral steroids or asthma admissions this year, never hospitalized for asthma
+      polarity: absent
+      evidence: he's never been admitted for asthma
+      match: [["hospital", "admi"]]
+    - id: f12
+      section: subjective
+      text: No known drug allergies
+      polarity: absent
+      evidence: Any allergies to medicines?
+      match: [["allerg", "nkda"]]
+    - id: f13
+      section: objective
+      text: Weight 30 kg
+      polarity: present
+      evidence: his weight today is 30 kilograms
+      match: [["30 kg", "30 kilogram", "30kg"]]
+    - id: f14
+      section: objective
+      text: Temperature 99.1, heart rate 118, respiratory rate 28
+      polarity: present
+      evidence: Temperature 99.1, heart rate 118, he's breathing 28 times a minute
+      match: [["118", "99.1", "28"]]
+    - id: f15
+      section: objective
+      text: Oxygen saturation 93 percent on room air before treatment
+      polarity: present
+      evidence: his oxygen level is 93 percent on room air
+      match: [["oxygen", "spo2", "o2", "sat", "pulse ox"], ["93"]]
+    - id: f16
+      section: objective
+      text: Diffuse expiratory wheezing bilaterally
+      polarity: present
+      evidence: I hear wheezing all over both lungs when he breathes out
+      match: [["wheez"], ["diffuse", "bilateral", "both lungs", "expiratory", "throughout"]]
+    - id: f17
+      section: objective
+      text: Mild subcostal retractions, speaking in full sentences
+      polarity: present
+      evidence: there's a little pulling in under his ribs
+      match: [["retraction", "pulling", "subcostal"]]
+    - id: f18
+      section: objective
+      text: Ears and throat unremarkable
+      polarity: present
+      evidence: Ears and throat look okay.
+      match: [["ears", "throat", "tympanic", "pharyn", "heent"]]
+    - id: f19
+      section: objective
+      text: After one albuterol-ipratropium nebulizer, SpO2 97 percent, RR 22, HR 130, few scattered wheezes, no retractions
+      polarity: present
+      evidence: Oxygen is up to 97 percent, breathing rate 22, heart rate 130
+      match: [["97"]]
+    - id: f20
+      section: assessment
+      text: Asthma exacerbation triggered by viral URI, worsened by controller nonadherence
+      polarity: present
+      evidence: So this is an asthma flare, triggered by the cold
+      match: [["asthma"], ["exacerbation", "flare", "attack"]]
+    - id: f21
+      section: assessment
+      text: Good response to nebulizer treatment
+      polarity: present
+      evidence: That's a nice response.
+      match: [["respon", "improv"]]
+    - id: f22
+      section: plan
+      text: Albuterol with ipratropium nebulizer treatment given in clinic
+      polarity: present
+      evidence: albuterol with ipratropium in the nebulizer
+      match: [["nebuliz", "neb", "duoneb", "ipratropium"]]
+    - id: f23
+      section: plan
+      text: Prednisolone 1 mg/kg, 30 mg (10 mL of 15 mg/5 mL) once daily for 5 days, first dose in clinic
+      polarity: present
+      evidence: so prednisolone 30 milligrams once a day for 5 days
+      match: [["prednisolone", "orapred", "steroid", "prednisone"], ["30 mg", "30 milligram", "10 ml", "10 milliliter", "5 days", "five days"]]
+    - id: f24
+      section: plan
+      text: Albuterol 4 puffs with spacer every 4 hours while awake for 2 days, then as needed
+      polarity: present
+      evidence: albuterol, 4 puffs with the spacer every 4 hours while he's awake for the next 2 days
+      match: [["albuterol", "proair", "ventolin"], ["4 puffs", "four puffs", "2 days", "two days", "48 hours"]]
+    - id: f25
+      section: plan
+      text: Restart fluticasone 44 mcg 2 puffs twice daily, rinse mouth after, take daily even when well
+      polarity: present
+      evidence: restart the fluticasone, the 44 micrograms, 2 puffs twice a day
+      match: [["fluticasone", "flovent", "controller", "inhaled steroid", "ics"], ["44", "twice a day", "twice daily", "bid", "restart", "resume"]]
+    - id: f26
+      section: plan
+      text: Asthma action plan updated, copy for school nurse
+      polarity: present
+      evidence: I'm updating his asthma action plan
+      match: [["action plan"]]
+    - id: f27
+      section: plan
+      text: ER if albuterol needed more than every 4 hours, unable to speak in full sentences, retractions, or cyanosis
+      polarity: present
+      evidence: go to the emergency room
+      match: [["emergency", "blue", "cyanosis", "cyanotic"]]
+    - id: f28
+      section: plan
+      text: Recheck on Friday; influenza vaccine at that visit
+      polarity: present
+      evidence: I want to see him back on Friday to recheck
+      match: [["friday", "recheck", "follow"]]
+    - id: f29
+      section: plan
+      text: Flu vaccine at follow-up visit
+      polarity: present
+      evidence: we'll do his flu shot then
+      match: [["flu", "influenza"]]
+  medications:
+    - {name: ipratropium-albuterol, dose: 0.5 mg/2.5 mg, frequency: once in clinic, route: inhaled (nebulized), status: new, evidence: "albuterol with ipratropium in the nebulizer"}
+    - {name: prednisolone, dose: 30 mg (10 mL of 15 mg/5 mL), frequency: once daily for 5 days, route: oral, status: new, evidence: "so prednisolone 30 milligrams once a day for 5 days"}
+    - {name: albuterol, dose: 4 puffs (90 mcg/puff) with spacer, frequency: every 4 hours while awake for 2 days, then as needed, route: inhaled, status: changed, evidence: "albuterol, 4 puffs with the spacer every 4 hours while he's awake for the next 2 days"}
+    - {name: fluticasone, dose: 44 mcg, 2 puffs, frequency: twice daily, route: inhaled, status: changed, evidence: "restart the fluticasone, the 44 micrograms, 2 puffs twice a day"}
+  allergies: []
+  diagnoses:
+    - code: J45.31
+      description: Mild persistent asthma with (acute) exacerbation
+      primary: true
+      evidence: So this is an asthma flare
+      alternatives: [J45.901, J45.41]
+    - code: J06.9
+      description: Acute upper respiratory infection, unspecified
+      evidence: He caught a cold about 3 days ago
+  em_code: "99214"
+  em_rationale: Chronic illness with exacerbation, history from a guardian as independent historian, and prescription drug management including a systemic steroid (moderate risk).
+  procedures:
+    - {code: "94640", evidence: "albuterol with ipratropium in the nebulizer"}
+  phi:
+    - {type: NAME, value: Jaylen Brooks, who: patient}
+    - {type: NAME, value: Jaylen, who: patient}
+    - {type: DATE, value: "May 21st, 2016", who: patient}
+    - {type: NAME, value: Loretta, who: relative}
+    - {type: ORG, value: Garfield Elementary, who: patient}
+    - {type: ID, value: M as in Mary 6 6 2 0 4 1 8, who: patient}
+    - {type: PHONE, value: 555-0129, who: patient}
+traps:
+  - type: correction
+    text: Albuterol first said as 2 puffs, corrected to 4 puffs every 4 hours
+    evidence: 2 puffs each time.
+    match: [["albuterol"], ["2 puffs", "two puffs"]]
+  - type: other_person
+    text: Grandmother has COPD and uses nocturnal oxygen; not the patient's condition
+    evidence: I've got COPD myself, I'm on oxygen at night
+    match: [["copd", "home oxygen", "oxygen at night", "nocturnal oxygen"]]
+  - type: past_resolved
+    text: Pneumonia 2 winters ago, resolved; no current pneumonia
+    evidence: He had pneumonia 2 winters ago, but that cleared up
+    match: [["pneumonia"]]

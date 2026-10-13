@@ -1,0 +1,272 @@
+id: dm-06
+specialty: dermatology
+title: Scalp actinic keratoses in a farmer treated with cryotherapy
+visit_type: established
+visit_date: "2026-10-12"
+patient:
+  name: Bogdan Petrescu
+  dob: "1952-03-11"
+  sex: male
+  phone: 555-0156
+  address: 8817 County Road 12, Seward, NE 68434
+clinician:
+  name: Dr. Eileen Mahoney
+  role: dermatologist
+speakers:
+  clinician: {sex: female}
+  patient: {sex: male}
+dialogue:
+  - speaker: clinician
+    text: "Morning, Mr. Petrescu. How's the harvest going?"
+  - speaker: patient
+    text: "Slow. Soybeans are in, corn's still standing. Too wet last week."
+  - speaker: clinician
+    text: "Well, I hope it dries out for you. Can you tell me your full name and date of birth, just to confirm?"
+  - speaker: patient
+    text: "Bogdan Petrescu. March 11th, 1952."
+  - speaker: clinician
+    text: "Thank you. And the front desk said you moved?"
+  - speaker: patient
+    text: "Yep, we sold the old place. New address is 8817 County Road 12, Seward, Nebraska. Phone's the same, 555-0156."
+  - speaker: clinician
+    text: "Got it, I'll make sure that's updated. So what's bothering you today?"
+  - speaker: patient
+    text: "These rough spots on top of my head. My wife Elena says they look like sandpaper. They catch on the comb and bleed a little when I scratch them. Been a few months."
+  - speaker: clinician
+    text: "Do any of them hurt?"
+  - speaker: patient
+    text: "No, they don't hurt."
+  - speaker: clinician
+    text: "Any spot that's growing fast or bleeding on its own?"
+  - speaker: patient
+    text: "No, nothing like that."
+  - speaker: clinician
+    text: "Do you wear a hat out in the field?"
+  - speaker: patient
+    text: "A seed cap, the kind with the mesh in the back. Sunscreen, no, I never bother with it."
+  - speaker: clinician
+    text: "Okay. Any changes in your medicines?"
+  - speaker: patient
+    text: "Same as always. Atorvastatin 20 milligrams at night and a baby aspirin, the 81, every morning. No allergies."
+  - speaker: clinician
+    text: "Good. Oh, and how's the spot on your left cheek where we took off the basal cell back in 2021?"
+  - speaker: patient
+    text: "Fine, I don't even think about it. My neighbor Roy just had a melanoma taken off his ear, though. Scared him half to death."
+  - speaker: clinician
+    text: "I bet. Let's have a look. Your scalp has a lot of background sun damage. I count 6 rough, gritty, pink scaly spots, 3 to 8 millimeters, on the top and front of the scalp. None of them are thick, tender, or growing like a bump, so nothing that worries me for a skin cancer today. The scar on your left cheek is well healed and I don't see anything coming back there."
+  - speaker: patient
+    text: "That's good."
+  - speaker: clinician
+    text: "Can you lift your shirt so I can check your back? Okay. You have several brown, waxy, stuck-on spots on your back, about 1 centimeter each. Those are seborrheic keratoses. They're harmless, no treatment needed."
+  - speaker: patient
+    text: "My barnacles, Elena calls them."
+  - speaker: clinician
+    text: "Ha, that's exactly what they look like. So the spots on your scalp are actinic keratoses. They're precancers from years of sun. Most never turn into cancer, but some can become a squamous cell skin cancer, so I'd like to freeze all 6 today with liquid nitrogen. Okay?"
+  - speaker: patient
+    text: "Go ahead."
+  - speaker: clinician
+    text: "Alright, it'll sting for a bit. First one. Second. Third, fourth, fifth, and six. That's all 6 done."
+  - speaker: patient
+    text: "Huh. That wasn't bad."
+  - speaker: clinician
+    text: "Over the next few days they'll get red, maybe blister, then crust and peel off in 1 to 3 weeks. You can put a little petroleum jelly on them. If any spot hasn't healed in 6 weeks, or starts growing, come back and we'll biopsy it."
+  - speaker: patient
+    text: "Okay."
+  - speaker: clinician
+    text: "Now the big one, the sun. Every morning, a broad-spectrum sunscreen, SPF 30 or higher, on your scalp, face, ears, and the backs of your hands. Reapply every 2 hours when you're out in the field. And trade the seed cap for a wide-brimmed hat that covers your ears and neck. Long sleeves help too."
+  - speaker: patient
+    text: "Elena's going to love that, she's been on me about a hat for years."
+  - speaker: clinician
+    text: "She's right. If a lot more of these come back, there's a cream called fluorouracil we can use to treat the whole scalp at once, but let's see how you do. I'd like to see you in 6 months for a full skin check, since you've had a skin cancer before."
+  - speaker: patient
+    text: "Six months. I'll put it on the calendar after harvest."
+  - speaker: clinician
+    text: "Sounds good. Take care of yourself, Mr. Petrescu."
+gold:
+  facts:
+    - id: f1
+      section: subjective
+      text: Rough sandpaper-like spots on top of the scalp for a few months
+      polarity: present
+      evidence: These rough spots on top of my head.
+      match: [["scalp", "head"], ["rough", "scaly", "sandpaper", "spot", "lesion"]]
+    - id: f2
+      section: subjective
+      text: Lesions catch on comb and bleed a little when scratched
+      polarity: present
+      evidence: They catch on the comb and bleed a little when I scratch them.
+      match: [["bleed", "comb", "scratch"]]
+    - id: f3
+      section: subjective
+      text: Lesions not painful
+      polarity: absent
+      evidence: No, they don't hurt.
+      match: [["pain", "hurt", "tender"]]
+    - id: f4
+      section: subjective
+      text: Denies rapidly growing or spontaneously bleeding lesion
+      polarity: absent
+      evidence: Any spot that's growing fast or bleeding on its own?
+      match: [["grow", "spontaneous", "on its own"]]
+    - id: f5
+      section: subjective
+      text: Farmer with long-term sun exposure, wears mesh-back seed cap, no sunscreen use
+      polarity: present
+      evidence: Sunscreen, no, I never bother with it.
+      match: [["sunscreen", "sun protection", "seed cap", "cap", "farm"]]
+    - id: f6
+      section: subjective
+      text: Takes atorvastatin 20 mg nightly
+      polarity: present
+      evidence: Atorvastatin 20 milligrams at night
+      match: [["atorvastatin", "lipitor"], ["20"]]
+    - id: f7
+      section: subjective
+      text: Takes aspirin 81 mg every morning
+      polarity: present
+      evidence: a baby aspirin, the 81, every morning
+      match: [["aspirin", "asa"], ["81"]]
+    - id: f8
+      section: subjective
+      text: No known drug allergies
+      polarity: absent
+      evidence: No allergies.
+      match: [["allerg", "nkda"]]
+    - id: f9
+      section: subjective
+      text: History of basal cell carcinoma of the left cheek removed in 2021
+      polarity: present
+      evidence: how's the spot on your left cheek where we took off the basal cell back in 2021?
+      match: [["basal cell", "bcc"], ["2021", "history", "prior", "cheek"]]
+    - id: f10
+      section: objective
+      text: Background chronic sun damage of the scalp
+      polarity: present
+      evidence: Your scalp has a lot of background sun damage.
+      match: [["sun damage", "photodamage", "actinic damage", "sun-damage"]]
+    - id: f11
+      section: objective
+      text: Six rough gritty pink scaly papules, 3 to 8 mm, on vertex and frontal scalp
+      polarity: present
+      evidence: I count 6 rough, gritty, pink scaly spots, 3 to 8 millimeters, on the top and front of the scalp.
+      match: [["6", "six"], ["scal"], ["3 to 8", "3-8", "8 mm", "8 millimeter"]]
+    - id: f12
+      section: objective
+      text: No thick, tender or nodular lesion concerning for skin cancer
+      polarity: absent
+      evidence: None of them are thick, tender, or growing like a bump
+      match: [["thick", "tender", "hypertroph", "nodul", "squamous", "scc"]]
+    - id: f13
+      section: objective
+      text: Left cheek scar well healed without recurrence
+      polarity: present
+      evidence: The scar on your left cheek is well healed and I don't see anything coming back there.
+      match: [["scar", "cheek"], ["healed", "recurren", "no recurrence"]]
+    - id: f14
+      section: objective
+      text: Several brown waxy stuck-on lesions about 1 cm on the back
+      polarity: present
+      evidence: You have several brown, waxy, stuck-on spots on your back, about 1 centimeter each.
+      match: [["waxy", "stuck-on", "stuck on", "seborrheic", "brown"], ["back"]]
+    - id: f15
+      section: assessment
+      text: Actinic keratoses of the scalp, 6 lesions
+      polarity: present
+      evidence: So the spots on your scalp are actinic keratoses.
+      match: [["actinic keratos", "aks", "solar keratos"]]
+    - id: f16
+      section: assessment
+      text: Seborrheic keratoses on the back, benign, no treatment needed
+      polarity: present
+      evidence: Those are seborrheic keratoses.
+      match: [["seborrheic keratos"]]
+    - id: f17
+      section: assessment
+      text: Personal history of basal cell carcinoma, no recurrence
+      polarity: present
+      evidence: I don't see anything coming back there.
+      match: [["basal cell", "bcc"]]
+    - id: f18
+      section: plan
+      text: Cryotherapy with liquid nitrogen to all 6 actinic keratoses today
+      polarity: present
+      evidence: That's all 6 done.
+      match: [["cryo", "liquid nitrogen", "freez", "froze"], ["6", "six"]]
+    - id: f19
+      section: plan
+      text: Expect redness, blistering and crusting, healing in 1 to 3 weeks; petroleum jelly to treated spots
+      polarity: present
+      evidence: You can put a little petroleum jelly on them.
+      match: [["petroleum", "vaseline", "petrolatum", "blister", "crust"]]
+    - id: f20
+      section: plan
+      text: Return for biopsy if any lesion not healed in 6 weeks or growing
+      polarity: present
+      evidence: If any spot hasn't healed in 6 weeks, or starts growing, come back and we'll biopsy it.
+      match: [["biops", "6 weeks", "six weeks", "not healed", "persist"]]
+    - id: f21
+      section: plan
+      text: Daily broad-spectrum sunscreen SPF 30 or higher to scalp, face, ears, backs of hands; reapply every 2 hours outdoors
+      polarity: present
+      evidence: Every morning, a broad-spectrum sunscreen, SPF 30 or higher
+      match: [["sunscreen", "spf"]]
+    - id: f22
+      section: plan
+      text: Wide-brimmed hat instead of seed cap, long sleeves
+      polarity: present
+      evidence: trade the seed cap for a wide-brimmed hat that covers your ears and neck
+      match: [["hat", "brim", "sleeve", "protective cloth"]]
+    - id: f23
+      section: plan
+      text: Follow-up in 6 months for full skin check given history of skin cancer
+      polarity: present
+      evidence: I'd like to see you in 6 months for a full skin check
+      match: [["6 months", "six months"], ["skin check", "skin exam", "follow", "return", "total body", "full body"]]
+    - id: f24
+      section: plan
+      text: Address updated to 8817 County Road 12, Seward, Nebraska
+      polarity: present
+      evidence: New address is 8817 County Road 12, Seward, Nebraska.
+      match: [["address", "county road", "seward"]]
+  medications:
+    - {name: atorvastatin, dose: 20 mg, frequency: nightly, route: oral, status: active, evidence: "Atorvastatin 20 milligrams at night"}
+    - {name: aspirin, dose: 81 mg, frequency: once daily in the morning, route: oral, status: active, evidence: "a baby aspirin, the 81, every morning"}
+    - {name: petroleum jelly, dose: thin layer, frequency: as needed to treated spots, route: topical, status: prn, evidence: "You can put a little petroleum jelly on them."}
+  allergies: []
+  diagnoses:
+    - code: L57.0
+      description: Actinic keratosis
+      primary: true
+      evidence: So the spots on your scalp are actinic keratoses.
+    - code: L82.1
+      description: Other seborrheic keratosis
+      evidence: Those are seborrheic keratoses.
+    - code: Z85.828
+      description: Personal history of other malignant neoplasm of skin
+      evidence: where we took off the basal cell back in 2021
+  em_code: "99213"
+  em_rationale: Separately identifiable evaluation of seborrheic keratoses and surveillance skin exam for prior basal cell carcinoma (two minor or stable problems) with sun protection counseling (low risk), so low MDM; actinic keratosis destruction billed as 17000 plus 17003 for 5 additional lesions.
+  procedures:
+    - {code: "17000", evidence: "I'd like to freeze all 6 today with liquid nitrogen."}
+    - {code: "17003", evidence: "That's all 6 done."}
+  phi:
+    - {type: NAME, value: Mr. Petrescu, who: patient}
+    - {type: NAME, value: Bogdan Petrescu, who: patient}
+    - {type: DATE, value: "March 11th, 1952", who: patient}
+    - {type: ADDRESS, value: "8817 County Road 12, Seward, Nebraska", who: patient}
+    - {type: PHONE, value: 555-0156, who: patient}
+    - {type: NAME, value: Elena, who: relative}
+    - {type: NAME, value: Roy, who: other}
+traps:
+  - type: other_person
+    text: Neighbor had a melanoma removed from his ear; the patient has no melanoma
+    evidence: My neighbor Roy just had a melanoma taken off his ear, though.
+    match: [["melanoma"]]
+  - type: small_talk
+    text: Talk about the soybean and corn harvest and wet weather
+    evidence: Soybeans are in, corn's still standing. Too wet last week.
+    match: [["soybean", "corn", "harvest"]]
+  - type: hypothetical
+    text: Fluorouracil field therapy only mentioned if many more lesions recur; not prescribed
+    evidence: there's a cream called fluorouracil we can use to treat the whole scalp at once
+    match: [["fluorouracil", "5-fu", "efudex"], ["start", "prescrib", "apply", "begin"]]

@@ -1,0 +1,270 @@
+id: dm-04
+specialty: dermatology
+title: Common warts on a child treated with cryotherapy
+visit_type: new
+visit_date: "2026-09-29"
+patient:
+  name: Mateo Herrera
+  dob: "2017-04-21"
+  sex: male
+  phone: 555-0191
+clinician:
+  name: Dr. Grace Oyelaran
+  role: dermatologist
+speakers:
+  clinician: {sex: female}
+  caregiver: {sex: male}
+dialogue:
+  - speaker: clinician
+    text: "Hi, I'm Dr. Grace Oyelaran. And this must be the patient. Nice shin guards, buddy. Game today?"
+  - speaker: caregiver
+    text: "Right after this, so he's in a hurry. I'm his dad, Javier."
+  - speaker: clinician
+    text: "Nice to meet you. Can you confirm his full name and date of birth for me?"
+  - speaker: caregiver
+    text: "Mateo Herrera, April 21st, 2017. He's 9."
+  - speaker: clinician
+    text: "Thanks. So what are we looking at today?"
+  - speaker: caregiver
+    text: "Warts. He's got a couple on his right pointer finger, one on his left thumb, and one on his knee. The finger ones started maybe 5 months ago and they keep multiplying."
+  - speaker: clinician
+    text: "Have you tried anything for them?"
+  - speaker: caregiver
+    text: "The drugstore salicylic acid, the 17 percent liquid, every night for about 6 weeks. Didn't really do much."
+  - speaker: clinician
+    text: "That's pretty common, it can take months. Do they hurt him?"
+  - speaker: caregiver
+    text: "No, not really. He picks at them, though. And bites his nails."
+  - speaker: clinician
+    text: "Have they bled or gotten infected?"
+  - speaker: caregiver
+    text: "No."
+  - speaker: clinician
+    text: "Is he generally healthy? Any problems with his immune system or a lot of infections?"
+  - speaker: caregiver
+    text: "No, he's healthy. No medicines, no allergies. Oh, and his sister Lucia has one on the bottom of her foot, if that matters. She's not here today."
+  - speaker: clinician
+    text: "Good to know, they do spread in families. Okay, Mateo, let me see your hands. On the right index finger there are two rough, skin-colored bumps, 5 millimeters and 3 millimeters, with tiny black dots in them. On the left thumb there's a 6 millimeter one right next to the nail fold. And on the right knee, a 4 millimeter one. These are all common warts. No redness or signs of infection around them."
+  - speaker: caregiver
+    text: "Can you also look at his arms? He has these little rough bumps on the backs of his upper arms, like sandpaper."
+  - speaker: clinician
+    text: "Sure. Yes, on the backs of both upper arms there are lots of tiny, pinpoint, rough bumps around the hair follicles, skin-colored to pink. That's keratosis pilaris. It's really common, it's harmless, and it often gets better as kids get older."
+  - speaker: caregiver
+    text: "Oh good. Is there anything for it?"
+  - speaker: clinician
+    text: "A urea 10 percent cream once a day after the bath helps smooth it out, it's over the counter. Use a gentle soap and don't scrub hard. Now for the warts, I'd like to freeze them today with liquid nitrogen. It stings for a few seconds. Is that okay, Mateo?"
+  - speaker: caregiver
+    text: "He's nodding. Go for it."
+  - speaker: clinician
+    text: "Alright, I'm doing all 4 warts, two freeze-thaw cycles each. Here comes the cold. Great job, you didn't even flinch. Done."
+  - speaker: caregiver
+    text: "What should we expect now?"
+  - speaker: clinician
+    text: "They may get red, form a blister, or turn dark over the next few days, that's normal. Children's acetaminophen per the package directions if they're sore. Once the blisters heal, in about a week, restart the salicylic acid at night. Soak first, file the dead skin with an emery board that only he uses, then cover with duct tape."
+  - speaker: caregiver
+    text: "Duct tape, really?"
+  - speaker: clinician
+    text: "Really, it helps keep the medicine on. And try to keep him from picking and biting, that's how they spread. If one gets very red, swollen, or has pus, give us a call."
+  - speaker: caregiver
+    text: "Got it. Does he need to stay home from school?"
+  - speaker: clinician
+    text: "No, he can go to school and play sports. Where does he go?"
+  - speaker: caregiver
+    text: "Maple Grove Elementary, 4th grade."
+  - speaker: clinician
+    text: "Nice. Warts usually take 2 to 4 freezing sessions, so let's bring him back in 3 to 4 weeks for another round. What's the best number for you?"
+  - speaker: caregiver
+    text: "My cell, 555-0191."
+  - speaker: clinician
+    text: "Perfect. Good luck at the game, Mateo."
+  - speaker: caregiver
+    text: "Thanks, Dr. Oyelaran. Say thank you, Mateo. Okay, he said it."
+gold:
+  facts:
+    - id: f1
+      section: subjective
+      text: Warts on right index finger, left thumb and right knee; finger lesions for about 5 months and increasing in number
+      polarity: present
+      evidence: The finger ones started maybe 5 months ago and they keep multiplying.
+      match: [["wart", "verruca"], ["5 months", "five months", "multipl", "increas", "spread"]]
+    - id: f2
+      section: subjective
+      text: Tried OTC salicylic acid 17% liquid nightly for 6 weeks without much benefit
+      polarity: present
+      evidence: The drugstore salicylic acid, the 17 percent liquid, every night for about 6 weeks.
+      match: [["salicylic"], ["17", "6 weeks", "six weeks"]]
+    - id: f3
+      section: subjective
+      text: Warts not painful
+      polarity: absent
+      evidence: Do they hurt him?
+      match: [["pain", "hurt", "tender"]]
+    - id: f4
+      section: subjective
+      text: Picks at the warts and bites his nails
+      polarity: present
+      evidence: He picks at them, though. And bites his nails.
+      match: [["pick", "bite", "biting", "nail"]]
+    - id: f5
+      section: subjective
+      text: No bleeding or infection of the warts
+      polarity: absent
+      evidence: Have they bled or gotten infected?
+      match: [["bleed", "bled", "infect"]]
+    - id: f6
+      section: subjective
+      text: Otherwise healthy, no immune problems or frequent infections
+      polarity: absent
+      evidence: Any problems with his immune system or a lot of infections?
+      match: [["immun", "infections", "healthy"]]
+    - id: f7
+      section: subjective
+      text: No medications
+      polarity: absent
+      evidence: No medicines, no allergies.
+      match: [["medication", "medicine", "meds"]]
+    - id: f8
+      section: subjective
+      text: No known allergies
+      polarity: absent
+      evidence: No medicines, no allergies.
+      match: [["allerg", "nkda"]]
+    - id: f9
+      section: subjective
+      text: Rough sandpaper-like bumps on the backs of the upper arms
+      polarity: present
+      evidence: He has these little rough bumps on the backs of his upper arms, like sandpaper.
+      match: [["arm"], ["bump", "rough", "papule", "sandpaper"]]
+    - id: f10
+      section: subjective
+      text: History given by father
+      polarity: present
+      evidence: I'm his dad, Javier.
+      match: [["father", "dad", "parent"]]
+    - id: f11
+      section: objective
+      text: Two rough skin-colored papules on right index finger, 5 mm and 3 mm, with black dots
+      polarity: present
+      evidence: On the right index finger there are two rough, skin-colored bumps, 5 millimeters and 3 millimeters, with tiny black dots in them.
+      match: [["index finger", "right finger", "finger"], ["5 mm", "5mm", "5 millimeter", "3 mm", "3mm", "3 millimeter"]]
+    - id: f12
+      section: objective
+      text: 6 mm wart on left thumb next to the nail fold
+      polarity: present
+      evidence: On the left thumb there's a 6 millimeter one right next to the nail fold.
+      match: [["thumb"], ["6 mm", "6mm", "6 millimeter", "nail fold", "periungual"]]
+    - id: f13
+      section: objective
+      text: 4 mm wart on right knee
+      polarity: present
+      evidence: And on the right knee, a 4 millimeter one.
+      match: [["knee"], ["4 mm", "4mm", "4 millimeter", "wart", "verruca"]]
+    - id: f14
+      section: objective
+      text: No surrounding redness or signs of infection
+      polarity: absent
+      evidence: No redness or signs of infection around them.
+      match: [["infect", "erythema", "redness"]]
+    - id: f15
+      section: objective
+      text: Tiny rough follicular skin-colored to pink papules on the backs of both upper arms
+      polarity: present
+      evidence: on the backs of both upper arms there are lots of tiny, pinpoint, rough bumps around the hair follicles, skin-colored to pink
+      match: [["follic", "pinpoint", "rough"], ["arm"]]
+    - id: f16
+      section: assessment
+      text: Common warts (verruca vulgaris), 4 lesions on hands and knee
+      polarity: present
+      evidence: These are all common warts.
+      match: [["wart", "verruca"]]
+    - id: f17
+      section: assessment
+      text: Keratosis pilaris, benign
+      polarity: present
+      evidence: That's keratosis pilaris.
+      match: [["keratosis pilaris"]]
+    - id: f18
+      section: plan
+      text: Cryotherapy with liquid nitrogen to all 4 warts, two freeze-thaw cycles each
+      polarity: present
+      evidence: I'm doing all 4 warts, two freeze-thaw cycles each.
+      match: [["cryo", "liquid nitrogen", "freez", "froze"]]
+    - id: f19
+      section: plan
+      text: Expect redness, blistering or darkening; children's acetaminophen as needed for soreness
+      polarity: present
+      evidence: Children's acetaminophen per the package directions if they're sore.
+      match: [["acetaminophen", "tylenol", "blister"]]
+    - id: f20
+      section: plan
+      text: Restart salicylic acid nightly in about a week after blisters heal, with soaking, filing and duct tape occlusion
+      polarity: present
+      evidence: restart the salicylic acid at night
+      match: [["salicylic", "duct tape"]]
+    - id: f21
+      section: plan
+      text: Avoid picking and nail biting to prevent spread
+      polarity: present
+      evidence: try to keep him from picking and biting, that's how they spread
+      match: [["pick", "bite", "biting", "spread"]]
+    - id: f22
+      section: plan
+      text: Call for marked redness, swelling or pus
+      polarity: present
+      evidence: If one gets very red, swollen, or has pus, give us a call.
+      match: [["infect", "pus", "swell", "red"]]
+    - id: f23
+      section: plan
+      text: Urea 10% cream once daily after bathing and gentle soap for keratosis pilaris
+      polarity: present
+      evidence: A urea 10 percent cream once a day after the bath helps smooth it out
+      match: [["urea"]]
+    - id: f24
+      section: plan
+      text: May attend school and sports
+      polarity: present
+      evidence: he can go to school and play sports
+      match: [["school", "sport", "activit"]]
+    - id: f25
+      section: plan
+      text: Return in 3 to 4 weeks for repeat cryotherapy; usually needs 2 to 4 sessions
+      polarity: present
+      evidence: let's bring him back in 3 to 4 weeks for another round
+      match: [["follow", "return", "back", "repeat"], ["3 to 4 weeks", "3-4 weeks", "3 weeks", "4 weeks"]]
+  medications:
+    - {name: salicylic acid, dose: 17% liquid, frequency: nightly, route: topical, status: active, evidence: "restart the salicylic acid at night"}
+    - {name: urea, dose: 10% cream, frequency: once daily after bathing, route: topical, status: new, evidence: "A urea 10 percent cream once a day after the bath"}
+    - {name: acetaminophen, dose: per package directions, frequency: as needed for soreness, route: oral, status: prn, evidence: "Children's acetaminophen per the package directions if they're sore."}
+  allergies: []
+  diagnoses:
+    - code: B07.8
+      description: Other viral warts
+      primary: true
+      evidence: These are all common warts.
+      alternatives: [B07.9]
+    - code: L85.8
+      description: Other specified epidermal thickening
+      evidence: That's keratosis pilaris.
+  em_code: "99203"
+  em_rationale: Separately identifiable evaluation of keratosis pilaris (minor problem) with history from an independent historian (limited data) and over-the-counter management (low risk), so low MDM for a new patient; wart destruction billed as 17110.
+  procedures:
+    - {code: "17110", evidence: "I'm doing all 4 warts, two freeze-thaw cycles each."}
+  phi:
+    - {type: NAME, value: Dr. Grace Oyelaran, who: clinician}
+    - {type: NAME, value: Dr. Oyelaran, who: clinician}
+    - {type: NAME, value: Javier, who: relative}
+    - {type: NAME, value: Mateo Herrera, who: patient}
+    - {type: NAME, value: Mateo, who: patient}
+    - {type: DATE, value: "April 21st, 2017", who: patient}
+    - {type: NAME, value: Lucia, who: relative}
+    - {type: ORG, value: Maple Grove Elementary, who: patient}
+    - {type: PHONE, value: 555-0191, who: relative}
+traps:
+  - type: other_person
+    text: Sister has a plantar wart; the patient has no plantar wart
+    evidence: his sister Lucia has one on the bottom of her foot
+    match: [["plantar", "foot", "sole"]]
+  - type: small_talk
+    text: Soccer game after the visit and shin guards
+    evidence: Nice shin guards, buddy. Game today?
+    match: [["shin guard", "soccer", "game"]]

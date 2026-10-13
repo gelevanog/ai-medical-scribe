@@ -1,0 +1,280 @@
+id: pc-06
+specialty: primary_care
+title: Dysuria and frequency with positive urine dip, acute cystitis
+visit_type: established
+visit_date: "2026-10-12"
+patient:
+  name: Aisha Bello
+  dob: "1997-03-11"
+  sex: female
+  phone: 555-0118
+  address: 640 Kessler Road, Apt 12B, Indianapolis, IN 46220
+  mrn: "8813027"
+clinician:
+  name: Dr. Daniel Reyes
+  role: family physician
+speakers:
+  clinician: {sex: male}
+  patient: {sex: female}
+dialogue:
+  - speaker: clinician
+    text: Hi, come on in. Can you give me your full name and date of birth?
+  - speaker: patient
+    text: Aisha Bello, March 11th, 1997.
+  - speaker: clinician
+    text: Thanks, Aisha. The nurse said you're having some burning?
+  - speaker: patient
+    text: Yeah. Since Saturday, so two days. It burns when I pee, and I feel like I have to go every 20 minutes, even when nothing much comes out.
+  - speaker: clinician
+    text: That sounds miserable. Any pain in your lower belly?
+  - speaker: patient
+    text: Kind of a pressure, right down low.
+  - speaker: clinician
+    text: Have you seen any blood in your urine?
+  - speaker: patient
+    text: No, I don't think so. It's been orange since yesterday, but that's the AZO I took.
+  - speaker: clinician
+    text: Good that you mentioned it. How much of the AZO?
+  - speaker: patient
+    text: The box says two tablets three times a day, so I did that yesterday and once this morning.
+  - speaker: clinician
+    text: Okay. Any fever or chills?
+  - speaker: patient
+    text: No fever.
+  - speaker: clinician
+    text: Pain in your back or your side, up here under the ribs?
+  - speaker: patient
+    text: Nope.
+  - speaker: clinician
+    text: Nausea or vomiting?
+  - speaker: patient
+    text: No.
+  - speaker: clinician
+    text: Any vaginal discharge, itching, or odor?
+  - speaker: patient
+    text: No, nothing like that.
+  - speaker: clinician
+    text: When was your last period, and what are you using for birth control?
+  - speaker: patient
+    text: My period ended about two weeks ago, totally normal. I have the copper IUD, I got it last year.
+  - speaker: clinician
+    text: Any chance of pregnancy otherwise?
+  - speaker: patient
+    text: No, I don't think so.
+  - speaker: clinician
+    text: Have you had a bladder infection before?
+  - speaker: patient
+    text: Once, in college. Maybe three years ago. It cleared up with antibiotics and I've been fine since. My roommate swears by cranberry pills, so I've been drinking cranberry juice too.
+  - speaker: clinician
+    text: Cranberry won't hurt, but it won't cure it. Any allergies to medications?
+  - speaker: patient
+    text: None.
+  - speaker: clinician
+    text: Okay. Your temperature is 98.2, blood pressure 118 over 72, pulse 80. Let me press on your belly. There's mild tenderness right above the pubic bone. And tapping on your back, any pain?
+  - speaker: patient
+    text: No, that's fine.
+  - speaker: clinician
+    text: No tenderness over the kidneys. We did a urine dip here in the office. It's positive for white blood cells and positive for nitrites. No blood and no protein. One thing, though. The AZO can tint the dip and throw off the colors, so I'm also sending your urine for a culture to be sure.
+  - speaker: patient
+    text: Okay, makes sense.
+  - speaker: clinician
+    text: So this looks like a simple bladder infection, what we call acute cystitis. I'm going to start you on nitrofurantoin, 100 milligrams twice a day for 5 days. Take it with food, it's easier on the stomach.
+  - speaker: patient
+    text: Okay. Can you send it to the pharmacy on Kessler Road? And can I keep taking the AZO?
+  - speaker: clinician
+    text: I'll send it there. You can keep the AZO, but only for one more day, so two days total. Drink plenty of water. The culture takes 2 to 3 days. If it shows something the nitrofurantoin doesn't cover, we'll call you and switch. Is 555-0118 the best number?
+  - speaker: patient
+    text: Yes, that's my cell.
+  - speaker: clinician
+    text: And if you develop fever, back or side pain, or vomiting, that could mean the infection is moving up to the kidneys, so call us the same day. If you're not better in 2 to 3 days, let us know. Otherwise, no follow-up needed.
+  - speaker: patient
+    text: Great. Thank you so much.
+  - speaker: clinician
+    text: You're welcome, Aisha. Feel better.
+gold:
+  facts:
+    - id: f1
+      section: subjective
+      text: Dysuria for 2 days
+      polarity: present
+      evidence: It burns when I pee
+      match: [["dysuria", "burning", "burns"]]
+    - id: f2
+      section: subjective
+      text: Urinary frequency and urgency, small voids
+      polarity: present
+      evidence: I feel like I have to go every 20 minutes
+      match: [["frequency", "urgency", "frequent"]]
+    - id: f3
+      section: subjective
+      text: Suprapubic pressure
+      polarity: present
+      evidence: Kind of a pressure, right down low.
+      match: [["suprapubic", "pelvic", "lower abdominal", "pressure"]]
+    - id: f4
+      section: subjective
+      text: Denies gross hematuria; orange urine attributed to phenazopyridine
+      polarity: absent
+      evidence: Have you seen any blood in your urine?
+      match: [["hematuria", "blood in"]]
+    - id: f5
+      section: subjective
+      text: Took phenazopyridine (AZO) 2 tablets three times daily since yesterday
+      polarity: present
+      evidence: The box says two tablets three times a day
+      match: [["phenazopyridine", "azo", "pyridium"]]
+    - id: f6
+      section: subjective
+      text: Denies fever or chills
+      polarity: absent
+      evidence: Any fever or chills?
+      match: [["fever", "chills", "febrile"]]
+    - id: f7
+      section: subjective
+      text: Denies flank or back pain
+      polarity: absent
+      evidence: Pain in your back or your side, up here under the ribs?
+      match: [["flank", "back pain", "side pain", "cva"]]
+    - id: f8
+      section: subjective
+      text: Denies nausea or vomiting
+      polarity: absent
+      evidence: Nausea or vomiting?
+      match: [["nausea", "vomit"]]
+    - id: f9
+      section: subjective
+      text: Denies vaginal discharge, itching, or odor
+      polarity: absent
+      evidence: Any vaginal discharge, itching, or odor?
+      match: [["vaginal", "discharge", "itch"]]
+    - id: f10
+      section: subjective
+      text: Last menstrual period about 2 weeks ago, normal; copper IUD for contraception; pregnancy unlikely
+      polarity: present
+      evidence: I have the copper IUD
+      match: [["iud", "intrauterine", "lmp", "period", "pregnan"]]
+    - id: f11
+      section: subjective
+      text: One prior UTI about 3 years ago, resolved
+      polarity: present
+      evidence: Once, in college. Maybe three years ago.
+      match: [["prior", "previous", "history", "3 years", "three years", "college"]]
+    - id: f12
+      section: subjective
+      text: Drinking cranberry juice
+      polarity: present
+      evidence: I've been drinking cranberry juice too
+      match: [["cranberry"]]
+    - id: f13
+      section: subjective
+      text: No known drug allergies
+      polarity: absent
+      evidence: Any allergies to medications?
+      match: [["allerg", "nkda"]]
+    - id: f14
+      section: objective
+      text: Temperature 98.2, blood pressure 118/72, pulse 80
+      polarity: present
+      evidence: Your temperature is 98.2, blood pressure 118 over 72, pulse 80.
+      match: [["98.2", "118", "afebrile"]]
+    - id: f15
+      section: objective
+      text: Mild suprapubic tenderness
+      polarity: present
+      evidence: There's mild tenderness right above the pubic bone.
+      match: [["suprapubic", "pubic", "lower abdominal"], ["tender"]]
+    - id: f16
+      section: objective
+      text: No costovertebral angle tenderness
+      polarity: absent
+      evidence: No tenderness over the kidneys.
+      match: [["cva", "costovertebral", "flank", "kidney"]]
+    - id: f17
+      section: objective
+      text: Urine dip positive leukocyte esterase and nitrites, negative blood and protein (may be affected by phenazopyridine)
+      polarity: present
+      evidence: It's positive for white blood cells and positive for nitrites.
+      match: [["nitrite", "leukocyte", "white blood cell", "wbc", "dip", "urinalysis"]]
+    - id: f18
+      section: objective
+      text: Urine dip negative for blood
+      polarity: absent
+      evidence: No blood and no protein.
+      match: [["blood", "hematuria"], ["dip", "urinalysis", "urine"]]
+    - id: f19
+      section: assessment
+      text: Acute uncomplicated cystitis
+      polarity: present
+      evidence: what we call acute cystitis
+      match: [["cystitis", "urinary tract infection", "uti", "bladder infection"]]
+    - id: f20
+      section: plan
+      text: Nitrofurantoin 100 mg twice daily for 5 days with food
+      polarity: present
+      evidence: nitrofurantoin, 100 milligrams twice a day for 5 days
+      match: [["nitrofurantoin", "macrobid", "macrodantin"], ["100", "5 days", "five days"]]
+    - id: f21
+      section: plan
+      text: Urine culture sent
+      polarity: present
+      evidence: I'm also sending your urine for a culture to be sure
+      match: [["culture"]]
+    - id: f22
+      section: plan
+      text: Phenazopyridine for one more day only (2 days total)
+      polarity: present
+      evidence: only for one more day, so two days total
+      match: [["phenazopyridine", "azo", "pyridium"]]
+    - id: f23
+      section: plan
+      text: Increase fluids
+      polarity: present
+      evidence: Drink plenty of water.
+      match: [["water", "fluid", "hydrat"]]
+    - id: f24
+      section: plan
+      text: Will call with culture results and switch antibiotic if resistant
+      polarity: present
+      evidence: we'll call you and switch
+      match: [["culture"], ["switch", "call", "adjust", "change", "result"]]
+    - id: f25
+      section: plan
+      text: Return precautions for fever, flank pain, or vomiting; call if not better in 2 to 3 days; no routine follow-up
+      polarity: present
+      evidence: so call us the same day
+      match: [["fever", "flank", "pyelo", "kidney", "return", "not better", "not improv"]]
+  medications:
+    - {name: phenazopyridine, dose: 2 tablets, frequency: three times daily, route: oral, status: active, evidence: The box says two tablets three times a day}
+    - {name: cranberry, dose: juice, frequency: daily, route: oral, status: active, evidence: I've been drinking cranberry juice too}
+    - {name: nitrofurantoin, dose: 100 mg, frequency: twice daily for 5 days, route: oral, status: new, evidence: "nitrofurantoin, 100 milligrams twice a day for 5 days"}
+    - {name: copper intrauterine device, dose: 1 device, frequency: continuous, route: intrauterine, status: active, evidence: I have the copper IUD}
+  allergies: []
+  diagnoses:
+    - code: N30.00
+      description: Acute cystitis without hematuria
+      primary: true
+      evidence: what we call acute cystitis
+      alternatives: [N39.0]
+  em_code: "99213"
+  em_rationale: One acute uncomplicated illness, in-office urinalysis and urine culture ordered, with prescription drug management; low MDM.
+  procedures:
+    - {code: "81002", evidence: We did a urine dip here in the office.}
+  phi:
+    - {type: NAME, value: Aisha Bello, who: patient}
+    - {type: NAME, value: Aisha, who: patient}
+    - {type: DATE, value: "March 11th, 1997", who: patient}
+    - {type: PHONE, value: 555-0118, who: patient}
+    - {type: ADDRESS, value: Kessler Road, who: patient}
+traps:
+  - type: past_resolved
+    text: One UTI in college about three years ago, resolved; not recurrent UTIs
+    evidence: It cleared up with antibiotics and I've been fine since.
+    match: [["recurrent"]]
+  - type: other_person
+    text: Roommate recommends cranberry pills; patient is not taking cranberry pills
+    evidence: My roommate swears by cranberry pills
+    match: [["cranberry pill", "cranberry tablet", "cranberry capsule", "cranberry supplement"]]
+  - type: hypothetical
+    text: Fever, flank pain and vomiting mentioned as warning signs of pyelonephritis, not current
+    evidence: that could mean the infection is moving up to the kidneys
+    match: [["pyelonephritis", "kidney infection"]]

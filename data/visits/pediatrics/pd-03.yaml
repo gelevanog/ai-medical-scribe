@@ -1,0 +1,319 @@
+id: pd-03
+specialty: pediatrics
+title: 4-year well-child check with vaccines, vision and hearing screens, and constipation
+visit_type: established
+visit_date: "2026-10-13"
+patient:
+  name: Ananya Iyer
+  dob: "2022-09-28"
+  sex: female
+  phone: 555-0175
+  address: 88 Birchwood Court, Edison, NJ 08817
+  mrn: "6640391"
+clinician:
+  name: Dr. Rachel Novak
+  role: pediatrician
+speakers:
+  clinician: {sex: female}
+  caregiver: {sex: female}
+dialogue:
+  - speaker: clinician
+    text: Hi, welcome back! Wow, someone got tall. Can you confirm her full name and date of birth for me, Mom?
+  - speaker: caregiver
+    text: Ananya Iyer, September 28th, 2022. She just turned 4, so she's very proud.
+  - speaker: clinician
+    text: Happy birthday, Ananya! So this is her 4-year checkup. Lakshmi, any concerns before we get into the usual stuff?
+  - speaker: caregiver
+    text: Just one, really. Her poop. She's been going only every 3 or 4 days for maybe 2 months, and it's hard, and she cries when she goes. Sometimes she hides behind the couch and holds it.
+  - speaker: clinician
+    text: That's really common at this age. Any blood in the stool or on the toilet paper?
+  - speaker: caregiver
+    text: No, I haven't seen any.
+  - speaker: clinician
+    text: Any accidents during the day, or belly pain between poops?
+  - speaker: caregiver
+    text: No accidents. She'll say her tummy hurts right before she goes, but otherwise she's fine.
+  - speaker: clinician
+    text: How much milk is she drinking?
+  - speaker: caregiver
+    text: Oh, a lot. Probably 3 or 4 cups a day. She's a picky eater, so milk and crackers and pasta, honestly. Fruit sometimes.
+  - speaker: clinician
+    text: Okay, that's a big part of the picture. Is she taking any medicines or vitamins?
+  - speaker: caregiver
+    text: Just a kids' multivitamin gummy, 1 a day. No medicines. And no allergies.
+  - speaker: clinician
+    text: Great. How's preschool going?
+  - speaker: caregiver
+    text: She loves it. She's at Sunflower Montessori, 4 mornings a week. The teachers say she plays well with the other kids.
+  - speaker: clinician
+    text: Love that. Is she talking in full sentences, can strangers understand her?
+  - speaker: caregiver
+    text: Oh yes, she never stops talking. She can hop on one foot, she draws people with arms and legs, she dresses herself, mostly. Daytime potty trained since 3.
+  - speaker: clinician
+    text: Those are all right on track. How's sleep, does she snore?
+  - speaker: caregiver
+    text: No snoring. She sleeps about 10 or 11 hours.
+  - speaker: clinician
+    text: And she's seeing a dentist?
+  - speaker: caregiver
+    text: Yes, last month, no cavities. We brush twice a day.
+  - speaker: clinician
+    text: Perfect. Still in a car seat with a harness?
+  - speaker: caregiver
+    text: Yes, forward-facing, 5-point harness.
+  - speaker: clinician
+    text: Good. Okay, her numbers. Weight is 17 kilograms, about 37 and a half pounds, height is 103 centimeters, and her BMI is around the 65th percentile, so she's growing nicely. Blood pressure is 94 over 56. On the vision screen she read the 20 over 30 line with each eye, which is a pass for 4. And she passed the hearing screen in both ears.
+  - speaker: caregiver
+    text: Oh, good. I was a little worried about her eyes, because my husband had a lazy eye as a kid and had to wear a patch.
+  - speaker: clinician
+    text: That's good to know, and that's exactly why we screen. Her eyes line up well and the screen is normal. Let me examine her. Heart sounds normal, no murmur. Lungs are clear. Her belly is soft and not tender, but I can feel some stool on the lower left side. Her bottom looks normal, no tears or fissures. Teeth look great.
+  - speaker: caregiver
+    text: Okay.
+  - speaker: clinician
+    text: So overall, a healthy 4-year-old, growing and developing normally. The one issue is constipation. With the hard stools and the holding, I'd like to start MiraLAX. The usual dose is about half a gram per kilogram, so at 17 kilograms, that's about 8 and a half grams, which is half a capful, mixed in 4 ounces of water or juice once a day.
+  - speaker: caregiver
+    text: Half a capful once a day. Okay.
+  - speaker: clinician
+    text: You can adjust it. The goal is a soft poop every day or every other day. Also, cut the milk down to 2 cups a day, 16 ounces, add fruit and water, and have her sit on the potty for 5 minutes after meals. If it isn't better in a month, or you see blood, send me a message and we'll go from there.
+  - speaker: caregiver
+    text: That makes sense. And shots today?
+  - speaker: clinician
+    text: Yes, 2 shots. One is DTaP and polio combined, the other is MMR and chickenpox combined. She might get a sore leg or a low fever, and with the MMR part, a rash or fever 1 to 2 weeks later is possible. If she's uncomfortable, children's Tylenol, about 8 milliliters for her weight. Has she had her flu shot this year?
+  - speaker: caregiver
+    text: Yes, we got it at the pharmacy on October 2nd, when I got mine.
+  - speaker: clinician
+    text: Perfect, I'll record that. Any questions about the shots?
+  - speaker: caregiver
+    text: No, we're good. She had a cough back in September, but that's totally gone, so she's okay to get them, right?
+  - speaker: clinician
+    text: Yes, totally fine. So, shots with the nurse, the MiraLAX, and I'll see her at 5 for her next checkup. What's she going to be for Halloween?
+  - speaker: caregiver
+    text: A purple dinosaur. She's insisting.
+  - speaker: clinician
+    text: Of course she is. Bye, Ananya!
+gold:
+  facts:
+    - id: f1
+      section: subjective
+      text: Infrequent hard stools every 3 to 4 days for about 2 months, painful, with withholding
+      polarity: present
+      evidence: She's been going only every 3 or 4 days for maybe 2 months, and it's hard
+      match: [["stool", "constipat", "bowel", "poop"], ["2 months", "two months", "3 or 4 days", "3-4 days", "every 3", "hard"]]
+    - id: f2
+      section: subjective
+      text: Stool withholding behavior
+      polarity: present
+      evidence: Sometimes she hides behind the couch and holds it.
+      match: [["withhold", "holding", "holds it", "hides"]]
+    - id: f3
+      section: subjective
+      text: No blood in stool
+      polarity: absent
+      evidence: Any blood in the stool or on the toilet paper?
+      match: [["blood", "hematochezia"]]
+    - id: f4
+      section: subjective
+      text: No daytime accidents (encopresis)
+      polarity: absent
+      evidence: No accidents.
+      match: [["accident", "encopresis", "soiling"]]
+    - id: f5
+      section: subjective
+      text: Abdominal pain only right before stooling
+      polarity: present
+      evidence: She'll say her tummy hurts right before she goes
+      match: [["abdominal", "belly", "tummy", "stomach"]]
+    - id: f6
+      section: subjective
+      text: High milk intake 3 to 4 cups a day, picky eater with low fruit and fiber
+      polarity: present
+      evidence: Probably 3 or 4 cups a day.
+      match: [["milk"], ["3 or 4 cups", "3-4 cups", "3 to 4 cups", "24", "32"]]
+    - id: f7
+      section: subjective
+      text: Takes a children's multivitamin gummy once daily, no other medications
+      polarity: present
+      evidence: Just a kids' multivitamin gummy, 1 a day.
+      match: [["multivitamin", "vitamin"]]
+    - id: f8
+      section: subjective
+      text: No known allergies
+      polarity: absent
+      evidence: And no allergies.
+      match: [["allerg", "nkda"]]
+    - id: f9
+      section: subjective
+      text: Developmental milestones on track (full sentences, hops on one foot, draws person, dresses self, daytime toilet trained)
+      polarity: present
+      evidence: She can hop on one foot, she draws people with arms and legs, she dresses herself, mostly.
+      match: [["develop", "milestone", "hop", "sentences"]]
+    - id: f10
+      section: subjective
+      text: Attends preschool, doing well socially
+      polarity: present
+      evidence: The teachers say she plays well with the other kids.
+      match: [["preschool", "school", "montessori"]]
+    - id: f11
+      section: subjective
+      text: No snoring; sleeps 10 to 11 hours
+      polarity: absent
+      evidence: No snoring.
+      match: [["snor"]]
+    - id: f12
+      section: subjective
+      text: Dental visit last month, no cavities, brushes twice daily
+      polarity: present
+      evidence: Yes, last month, no cavities.
+      match: [["dentist", "dental", "cavit", "teeth", "brush"]]
+    - id: f13
+      section: subjective
+      text: Forward-facing car seat with 5-point harness
+      polarity: present
+      evidence: Yes, forward-facing, 5-point harness.
+      match: [["car seat", "harness"]]
+    - id: f14
+      section: objective
+      text: Weight 17 kg (about 37.5 lb)
+      polarity: present
+      evidence: Weight is 17 kilograms
+      match: [["17 kg", "17 kilogram", "17kg", "37.5", "37 and a half"]]
+    - id: f15
+      section: objective
+      text: Height 103 cm, BMI about 65th percentile
+      polarity: present
+      evidence: height is 103 centimeters
+      match: [["103", "65th", "65 percentile", "65%"]]
+    - id: f16
+      section: objective
+      text: Blood pressure 94/56
+      polarity: present
+      evidence: Blood pressure is 94 over 56.
+      match: [["94/56", "94 over 56"]]
+    - id: f17
+      section: objective
+      text: Vision screen passed, 20/30 each eye
+      polarity: present
+      evidence: she read the 20 over 30 line with each eye, which is a pass for 4
+      match: [["vision", "visual acuity", "eye"], ["20/30", "20 over 30", "pass", "normal"]]
+    - id: f18
+      section: objective
+      text: Hearing screen passed both ears
+      polarity: present
+      evidence: she passed the hearing screen in both ears
+      match: [["hearing", "audio"], ["pass", "normal"]]
+    - id: f19
+      section: objective
+      text: Heart regular without murmur, lungs clear
+      polarity: present
+      evidence: Heart sounds normal, no murmur. Lungs are clear.
+      match: [["heart", "cardiac", "murmur", "lung"]]
+    - id: f20
+      section: objective
+      text: Abdomen soft and nontender with palpable stool in left lower quadrant
+      polarity: present
+      evidence: I can feel some stool on the lower left side
+      match: [["stool", "fecal"], ["palpa", "feel", "left", "llq"]]
+    - id: f21
+      section: objective
+      text: Perianal exam normal, no fissure
+      polarity: absent
+      evidence: Her bottom looks normal, no tears or fissures.
+      match: [["fissure", "tear"]]
+    - id: f22
+      section: assessment
+      text: Healthy 4-year-old with normal growth and development
+      polarity: present
+      evidence: a healthy 4-year-old, growing and developing normally
+      match: [["well child", "well-child", "healthy", "routine", "normal growth", "growing", "development"]]
+    - id: f23
+      section: assessment
+      text: Functional constipation with stool withholding
+      polarity: present
+      evidence: The one issue is constipation.
+      match: [["constipat"]]
+    - id: f24
+      section: plan
+      text: Start polyethylene glycol 3350 about 0.5 g/kg (8.5 g, half capful) in 4 oz liquid once daily, titrate to soft daily stool
+      polarity: present
+      evidence: that's about 8 and a half grams, which is half a capful
+      match: [["miralax", "polyethylene glycol", "peg"], ["8.5", "half a capful", "half capful", "1/2 cap", "8 and a half", "0.5 g"]]
+    - id: f25
+      section: plan
+      text: Limit milk to 16 oz (2 cups) daily, add fruit and water, toilet sitting 5 minutes after meals
+      polarity: present
+      evidence: cut the milk down to 2 cups a day, 16 ounces
+      match: [["milk"], ["16", "2 cups", "two cups"]]
+    - id: f26
+      section: plan
+      text: Message clinic if not improved in a month or if blood seen
+      polarity: present
+      evidence: If it isn't better in a month, or you see blood, send me a message
+      match: [["month", "4 weeks", "message", "portal"]]
+    - id: f27
+      section: plan
+      text: Vaccines today, DTaP-IPV and MMRV, with counseling on side effects
+      polarity: present
+      evidence: One is DTaP and polio combined, the other is MMR and chickenpox combined.
+      match: [["dtap", "ipv", "polio", "mmr", "varicella", "chickenpox", "vaccin", "immuniz"]]
+    - id: f28
+      section: plan
+      text: Acetaminophen about 8 mL (weight-based) as needed for post-vaccine discomfort
+      polarity: present
+      evidence: children's Tylenol, about 8 milliliters for her weight
+      match: [["acetaminophen", "tylenol"]]
+    - id: f29
+      section: plan
+      text: Influenza vaccine already given at pharmacy on October 2nd, recorded
+      polarity: present
+      evidence: we got it at the pharmacy on October 2nd
+      match: [["flu", "influenza"]]
+    - id: f30
+      section: plan
+      text: Next well-child check at age 5
+      polarity: present
+      evidence: I'll see her at 5 for her next checkup
+      match: [["age 5", "5 years", "5-year", "5 year", "five", "next well", "next check"]]
+  medications:
+    - {name: polyethylene glycol 3350, dose: 8.5 g (half capful) in 4 oz liquid, frequency: once daily, route: oral, status: new, evidence: "that's about 8 and a half grams, which is half a capful"}
+    - {name: multivitamin, dose: 1 gummy, frequency: once daily, route: oral, status: active, evidence: "Just a kids' multivitamin gummy, 1 a day."}
+    - {name: acetaminophen, dose: about 8 mL (approx. 255 mg), frequency: as needed, route: oral, status: prn, evidence: "children's Tylenol, about 8 milliliters for her weight"}
+  allergies: []
+  diagnoses:
+    - code: Z00.121
+      description: Encounter for routine child health examination with abnormal findings
+      primary: true
+      evidence: So this is her 4-year checkup.
+      alternatives: [Z00.129]
+    - code: K59.00
+      description: Constipation, unspecified
+      evidence: The one issue is constipation.
+      alternatives: [K59.09, K59.04]
+    - code: Z23
+      description: Encounter for immunization
+      evidence: Yes, 2 shots.
+  em_code: "99213"
+  em_rationale: The preventive visit itself (99392) is outside this code set; the separately identifiable problem, new constipation with stool withholding managed with an over-the-counter laxative, is low-complexity MDM billed with modifier 25.
+  procedures:
+    - {code: "90460", evidence: "One is DTaP and polio combined, the other is MMR and chickenpox combined."}
+    - {code: "99173", evidence: "On the vision screen she read the 20 over 30 line with each eye"}
+    - {code: "92551", evidence: "she passed the hearing screen in both ears"}
+  phi:
+    - {type: NAME, value: Ananya Iyer, who: patient}
+    - {type: NAME, value: Ananya, who: patient}
+    - {type: DATE, value: "September 28th, 2022", who: patient}
+    - {type: NAME, value: Lakshmi, who: relative}
+    - {type: ORG, value: Sunflower Montessori, who: patient}
+    - {type: DATE, value: October 2nd, who: patient}
+traps:
+  - type: family_history
+    text: Father had amblyopia (lazy eye) as a child; the patient's vision screen is normal
+    evidence: my husband had a lazy eye as a kid and had to wear a patch
+    match: [["lazy eye", "amblyopia", "strabismus", "patch"]]
+  - type: past_resolved
+    text: Cough in September, fully resolved
+    evidence: She had a cough back in September, but that's totally gone
+    match: [["cough"]]
+  - type: small_talk
+    text: Halloween costume talk must not appear in the note
+    evidence: A purple dinosaur. She's insisting.
+    match: [["halloween", "dinosaur", "costume"]]

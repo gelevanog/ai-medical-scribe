@@ -1,0 +1,277 @@
+id: mh-03
+specialty: mental_health
+title: Psychotherapy intake for adjustment disorder after job loss
+visit_type: new
+visit_date: "2026-09-24"
+patient:
+  name: Rashid Al-Amin
+  dob: "1974-02-17"
+  sex: male
+  phone: 216-555-0139
+  address: 1467 Elmwood Road, Cleveland Heights, OH 44118
+  mrn: "7302618"
+clinician:
+  name: Maeve Gallagher, LCSW
+  role: licensed clinical social worker (therapist)
+speakers:
+  clinician: {sex: female}
+  patient: {sex: male}
+dialogue:
+  - speaker: clinician
+    text: Hi, I'm Maeve Gallagher. I'm a licensed clinical social worker, and today is really about getting to know you. Could you start by confirming your full name and date of birth?
+  - speaker: patient
+    text: Rashid Al-Amin. February 17th, 1974.
+  - speaker: clinician
+    text: Thanks, Rashid. And is 216-555-0139 still a good number for you?
+  - speaker: patient
+    text: Yes, that's my cell.
+  - speaker: clinician
+    text: Great. So what made you decide to come in?
+  - speaker: patient
+    text: Honestly, my wife Samira pushed me. I got laid off six weeks ago. Nineteen years at Tri-County Logistics, I ran warehouse operations, and one Tuesday they just called me in and that was it.
+  - speaker: clinician
+    text: Nineteen years. That's a big loss. How have you been feeling since then?
+  - speaker: patient
+    text: Down, mostly. Kind of useless. And I'm short with the kids, which isn't me. I worry about money all the time, the mortgage, my son starting college next year.
+  - speaker: clinician
+    text: What does a typical day look like right now?
+  - speaker: patient
+    text: I sleep until 10, which I never did. I send out a few applications, then I'm on the couch. I stopped going to my Saturday basketball with the guys. I just don't want to explain it.
+  - speaker: clinician
+    text: How's your appetite?
+  - speaker: patient
+    text: I'm eating more, honestly. Junk, mostly.
+  - speaker: clinician
+    text: And before the layoff, how were you doing? Any time in your life you felt like this?
+  - speaker: patient
+    text: No. I was fine. I've never seen a counselor or anything before this.
+  - speaker: clinician
+    text: Any panic attacks, or feeling like your heart is racing and you can't breathe?
+  - speaker: patient
+    text: No, not that. More like a knot in my stomach.
+  - speaker: clinician
+    text: What about alcohol, smoking, any other substances?
+  - speaker: patient
+    text: I don't drink. I smoked for years but I quit ten years ago, when my daughter was born. Nothing else.
+  - speaker: clinician
+    text: Good for you on the quitting. I'm going to ask you something I ask everyone. Have you had any thoughts of ending your life, or of hurting yourself?
+  - speaker: patient
+    text: No. No, I'd never do that to my family.
+  - speaker: clinician
+    text: Any thoughts of hurting anyone else, maybe your old employer?
+  - speaker: patient
+    text: Ha, no. I'm angry, but no.
+  - speaker: clinician
+    text: Thank you for being straight with me. The two questionnaires you filled out, your PHQ-9 for depression is 11 and your GAD-7 for anxiety is 10, so both in the moderate range. And what I'm seeing today, you're casually dressed, good eye contact, your speech is normal, your mood sounds down and a bit anxious, and your thinking is clear and logical.
+  - speaker: patient
+    text: That's fair.
+  - speaker: clinician
+    text: What's been helping, even a little?
+  - speaker: patient
+    text: Walking the dog. And Samira, she's been great. She's picking up extra shifts at the hospital, though, so I feel guilty about that too.
+  - speaker: clinician
+    text: So here's my impression. What you're going through sounds like an adjustment disorder with mixed anxiety and depressed mood. Basically, a strong emotional reaction to a big stressful change, the job loss. It's very common, and it usually responds well to therapy.
+  - speaker: patient
+    text: Okay. So what do we do?
+  - speaker: clinician
+    text: I'd like to meet weekly, about an hour each time. We'll use a CBT approach, and work on behavioral activation, which means rebuilding some structure. To start, I want you up by 7:30 on weekdays, a set two-hour block for job searching each morning, and one call to a basketball friend this week.
+  - speaker: patient
+    text: I can do that. Maybe not the basketball call, but I'll try.
+  - speaker: clinician
+    text: Also, Tri-County should have offered outplacement services with your severance. It's worth calling HR to use those. And if Samira wants to join a session later on, that's welcome.
+  - speaker: patient
+    text: I didn't even think about outplacement.
+  - speaker: clinician
+    text: Before you leave, we'll fill out a short safety plan together. If you ever start having thoughts of hurting yourself, you can call or text 988, any time, day or night. And if the mood gets worse despite therapy, we can talk about seeing one of our psychiatrists, but I don't think we're there.
+  - speaker: patient
+    text: Understood.
+  - speaker: clinician
+    text: Our next session is next Thursday, October 1st, at 4 o'clock.
+  - speaker: patient
+    text: Thursday works. Thank you, Maeve. This helped more than I expected.
+gold:
+  facts:
+    - id: f1
+      section: subjective
+      text: Laid off 6 weeks ago after 19 years as warehouse operations manager
+      polarity: present
+      evidence: I got laid off six weeks ago.
+      match: [["laid off", "layoff", "job loss", "lost his job", "unemploy"], ["6 weeks", "six weeks", "19 years", "nineteen years"]]
+    - id: f2
+      section: subjective
+      text: Depressed mood and feelings of uselessness since the layoff
+      polarity: present
+      evidence: Down, mostly. Kind of useless.
+      match: [["down", "depress", "useless", "low mood", "sad"]]
+    - id: f3
+      section: subjective
+      text: Irritability with his children
+      polarity: present
+      evidence: I'm short with the kids, which isn't me.
+      match: [["irritab", "short with", "snap"]]
+    - id: f4
+      section: subjective
+      text: Constant financial worry (mortgage, son's college)
+      polarity: present
+      evidence: I worry about money all the time, the mortgage
+      match: [["worr", "anxi"], ["money", "financ", "mortgage"]]
+    - id: f5
+      section: subjective
+      text: Oversleeping until 10 am and reduced daily activity
+      polarity: present
+      evidence: I sleep until 10, which I never did.
+      match: [["sleep", "hypersomnia", "oversleep"], ["10"]]
+    - id: f6
+      section: subjective
+      text: Social withdrawal, stopped Saturday basketball with friends
+      polarity: present
+      evidence: I stopped going to my Saturday basketball with the guys.
+      match: [["withdraw", "isolat", "basketball", "stopped"]]
+    - id: f7
+      section: subjective
+      text: Increased appetite, eating more junk food
+      polarity: present
+      evidence: I'm eating more, honestly. Junk, mostly.
+      match: [["appetite", "eating more", "overeat", "junk"]]
+    - id: f8
+      section: subjective
+      text: No prior psychiatric history or mental health treatment
+      polarity: absent
+      evidence: I've never seen a counselor or anything before this.
+      match: [["prior", "previous", "history", "counsel", "treatment"]]
+    - id: f9
+      section: subjective
+      text: Denies panic attacks
+      polarity: absent
+      evidence: Any panic attacks, or feeling like your heart is racing and you can't breathe?
+      match: [["panic"]]
+    - id: f10
+      section: subjective
+      text: Does not drink alcohol, no other substances
+      polarity: absent
+      evidence: I don't drink.
+      match: [["alcohol", "drink", "etoh"]]
+    - id: f11
+      section: subjective
+      text: Former smoker, quit 10 years ago
+      polarity: present
+      evidence: I smoked for years but I quit ten years ago
+      match: [["smok", "tobacco", "cigarette"], ["quit", "former", "10 years", "ten years"]]
+    - id: f12
+      section: subjective
+      text: Denies suicidal ideation or thoughts of self-harm
+      polarity: absent
+      evidence: Have you had any thoughts of ending your life, or of hurting yourself?
+      match: [["suicid", "self-harm", "self harm", "ending his life", "hurting himself"]]
+    - id: f13
+      section: subjective
+      text: Denies homicidal ideation; angry but no thoughts of harming others
+      polarity: absent
+      evidence: Any thoughts of hurting anyone else, maybe your old employer?
+      match: [["homicid", "hurting anyone", "harming others", "hurting others", "harm others"]]
+    - id: f14
+      section: subjective
+      text: Coping supports - walking the dog, supportive wife
+      polarity: present
+      evidence: Walking the dog. And Samira, she's been great.
+      match: [["dog", "support", "wife", "coping"]]
+    - id: f15
+      section: objective
+      text: PHQ-9 score 11 (moderate)
+      polarity: present
+      evidence: your PHQ-9 for depression is 11
+      match: [["phq"], ["11"]]
+    - id: f16
+      section: objective
+      text: GAD-7 score 10 (moderate)
+      polarity: present
+      evidence: your GAD-7 for anxiety is 10
+      match: [["gad"], ["10"]]
+    - id: f17
+      section: objective
+      text: Mental status - casually dressed, good eye contact, normal speech, mood down and anxious, thought process clear and logical
+      polarity: present
+      evidence: you're casually dressed, good eye contact, your speech is normal, your mood sounds down and a bit anxious, and your thinking is clear and logical
+      match: [["eye contact", "speech", "dressed", "logical", "thought process"]]
+    - id: f18
+      section: assessment
+      text: Adjustment disorder with mixed anxiety and depressed mood, related to job loss
+      polarity: present
+      evidence: an adjustment disorder with mixed anxiety and depressed mood
+      match: [["adjustment disorder"]]
+    - id: f19
+      section: plan
+      text: Weekly individual psychotherapy, about 1 hour, CBT approach
+      polarity: present
+      evidence: I'd like to meet weekly, about an hour each time. We'll use a CBT approach
+      match: [["therap", "cbt", "session", "psychotherap"], ["weekly", "every week", "once a week"]]
+    - id: f20
+      section: plan
+      text: Behavioral activation - up by 7:30 on weekdays, 2-hour job search block each morning, call one basketball friend this week
+      polarity: present
+      evidence: To start, I want you up by 7:30 on weekdays, a set two-hour block for job searching each morning, and one call to a basketball friend this week.
+      match: [["behavioral activation", "structure", "7:30", "job search", "routine"]]
+    - id: f21
+      section: plan
+      text: Contact former employer HR about outplacement services
+      polarity: present
+      evidence: It's worth calling HR to use those.
+      match: [["outplacement", "human resources", "contact hr", "call hr", "calling hr", "with hr"]]
+    - id: f22
+      section: plan
+      text: Wife welcome to join a future session
+      polarity: present
+      evidence: if Samira wants to join a session later on, that's welcome
+      match: [["wife", "spouse", "samira"], ["session", "join"]]
+    - id: f23
+      section: plan
+      text: Safety plan completed; 988 crisis line reviewed
+      polarity: present
+      evidence: we'll fill out a short safety plan together. If you ever start having thoughts of hurting yourself, you can call or text 988
+      match: [["safety plan", "988", "crisis"]]
+    - id: f24
+      section: plan
+      text: Next session Thursday, October 1st at 4 pm
+      polarity: present
+      evidence: Our next session is next Thursday, October 1st, at 4 o'clock.
+      match: [["next session", "follow", "return", "next visit"], ["october 1", "1 week", "one week", "thursday", "10/1"]]
+  medications: []
+  allergies: []
+  diagnoses:
+    - code: F43.23
+      description: Adjustment disorder with mixed anxiety and depressed mood
+      primary: true
+      evidence: an adjustment disorder with mixed anxiety and depressed mood
+      alternatives: [F43.20, F43.21]
+    - code: Z56.0
+      description: Unemployment, unspecified
+      evidence: I got laid off six weeks ago.
+      alternatives: [Z56.89]
+  em_code: "90791"
+  em_rationale: Psychiatric diagnostic evaluation by a licensed therapist without medical services (history, mental status, risk assessment, diagnosis and treatment plan); no E/M is billed.
+  procedures:
+    - {code: "96127", evidence: "your PHQ-9 for depression is 11"}
+  phi:
+    - {type: NAME, value: Maeve Gallagher, who: clinician}
+    - {type: NAME, value: Maeve, who: clinician}
+    - {type: NAME, value: Rashid Al-Amin, who: patient}
+    - {type: NAME, value: Rashid, who: patient}
+    - {type: DATE, value: "February 17th, 1974", who: patient}
+    - {type: PHONE, value: 216-555-0139, who: patient}
+    - {type: NAME, value: Samira, who: relative}
+    - {type: ORG, value: Tri-County Logistics, who: patient}
+    - {type: ORG, value: Tri-County, who: patient}
+    - {type: DATE, value: October 1st, who: patient}
+traps:
+  - type: past_resolved
+    text: Smoked for years but quit 10 years ago; not a current smoker
+    evidence: I smoked for years but I quit ten years ago
+    match: [["current smoker", "smokes", "currently smok", "nicotine dependence"]]
+  - type: hypothetical
+    text: Psychiatry referral only if mood worsens despite therapy; no referral made today
+    evidence: if the mood gets worse despite therapy, we can talk about seeing one of our psychiatrists
+    match: [["psychiatr"], ["refer"]]
+  - type: other_person
+    text: Wife works extra hospital shifts; her work is not the patient's
+    evidence: She's picking up extra shifts at the hospital
+    match: [["hospital", "shifts"]]

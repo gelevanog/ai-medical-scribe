@@ -1,0 +1,271 @@
+id: mh-02
+specialty: mental_health
+title: Generalized anxiety follow-up, escitalopram increased
+visit_type: established
+visit_date: "2026-09-23"
+patient:
+  name: Tomasz Nowak
+  dob: "1985-11-30"
+  sex: male
+  phone: 414-555-0128
+  address: 3318 South Howell Avenue, Milwaukee, WI 53207
+  mrn: "5174290"
+clinician:
+  name: Dr. Adaeze Okafor
+  role: psychiatrist
+speakers:
+  clinician: {sex: female}
+  patient: {sex: male}
+dialogue:
+  - speaker: clinician
+    text: Good afternoon, Tomasz. Just to confirm, full name and date of birth?
+  - speaker: patient
+    text: Tomasz Nowak, November 30th, 1985.
+  - speaker: clinician
+    text: Perfect. It's been about three months since we started the escitalopram. How are things?
+  - speaker: patient
+    text: Better, I'd say. Maybe halfway better. I'm not lying awake every night anymore, but the worrying is still there most days.
+  - speaker: clinician
+    text: What does the worrying look like these days?
+  - speaker: patient
+    text: Mostly work. I'm a loan officer at Lakeshore Credit Union and there's a reorganization going on. And my wife Kasia is due in November, so, you know, there's a lot on my mind. My shoulders are tight all the time and I snap at people more than I want to.
+  - speaker: clinician
+    text: Congratulations on the baby. And how's falling asleep?
+  - speaker: patient
+    text: Still takes me maybe 45 minutes most nights. My brain just won't shut off.
+  - speaker: clinician
+    text: You were having panic attacks back in the spring. Any since we last met?
+  - speaker: patient
+    text: No, none since April. That part's actually gone.
+  - speaker: clinician
+    text: That's great. Remind me what dose of escitalopram you're on.
+  - speaker: patient
+    text: The 5 milligrams. Oh, no, wait, sorry. I went up to 10 after the first two weeks, like you said. So 10 every morning.
+  - speaker: clinician
+    text: Okay, 10 milligrams. Any side effects, nausea, sexual side effects, anything like that?
+  - speaker: patient
+    text: No, nothing really. Stomach was a bit off the first week, then fine.
+  - speaker: clinician
+    text: And the hydroxyzine, the 25 milligrams for bad moments, how often are you using it?
+  - speaker: patient
+    text: Maybe twice in the last month. It works but it knocks me out.
+  - speaker: clinician
+    text: Anything else you're taking, over the counter or supplements?
+  - speaker: patient
+    text: Magnesium glycinate, 200 milligrams at night. A friend recommended it.
+  - speaker: clinician
+    text: That's fine to keep. How much coffee are you drinking?
+  - speaker: patient
+    text: Uh, honestly, four cups a day. Maybe five on bad days.
+  - speaker: clinician
+    text: That might be feeding the jitters a bit. Any alcohol?
+  - speaker: patient
+    text: A beer on the weekend, that's it.
+  - speaker: clinician
+    text: I have to ask this every time. Any thoughts of suicide or of harming yourself?
+  - speaker: patient
+    text: No. None.
+  - speaker: clinician
+    text: Good. So your GAD-7 today is 12. When you started it was 16, so it's moving in the right direction, but it's still in the moderate range. Your blood pressure is 128 over 82 and your pulse is 84. You look a little tense but you're talkative, your mood is anxious, your thinking is clear.
+  - speaker: patient
+    text: Yeah. Tense is a good word for it.
+  - speaker: clinician
+    text: So I think this is generalized anxiety disorder that's partly responding. You're tolerating the escitalopram well, so I'd like to increase it to 20 milligrams once a day. Take two of your 10s until the new prescription is filled.
+  - speaker: patient
+    text: Okay, that's easy.
+  - speaker: clinician
+    text: Keep the hydroxyzine for the rough moments, up to once a day, and don't drive after you take it. Keep the magnesium. And I'd like you to cut the coffee to 2 cups a day, nothing after noon.
+  - speaker: patient
+    text: That one's going to hurt, but okay.
+  - speaker: clinician
+    text: Are you still seeing the therapist for CBT?
+  - speaker: patient
+    text: Every other week, yeah.
+  - speaker: clinician
+    text: Good, keep that going. And as always, if you ever have thoughts of hurting yourself, call or text 988 right away. I'd like to see you back in 6 weeks, so that's around November 4th, before the baby comes.
+  - speaker: patient
+    text: Sounds good. Can you send the summary to my portal? My email changed, it's tomasz dot nowak at fastmail dot com.
+  - speaker: clinician
+    text: I'll update it. Take care, and good luck with the reorganization.
+gold:
+  facts:
+    - id: f1
+      section: subjective
+      text: Anxiety partially improved, about halfway better, on escitalopram for 3 months
+      polarity: present
+      evidence: Better, I'd say. Maybe halfway better.
+      match: [["improv", "better", "partial"]]
+    - id: f2
+      section: subjective
+      text: Persistent worry most days, mainly about work reorganization and upcoming birth of baby
+      polarity: present
+      evidence: the worrying is still there most days
+      match: [["worr"]]
+    - id: f3
+      section: subjective
+      text: Muscle tension in shoulders and irritability
+      polarity: present
+      evidence: My shoulders are tight all the time and I snap at people more than I want to.
+      match: [["tension", "tight", "irritab", "snap"]]
+    - id: f4
+      section: subjective
+      text: Sleep-onset difficulty, about 45 minutes to fall asleep
+      polarity: present
+      evidence: Still takes me maybe 45 minutes most nights.
+      match: [["sleep", "insomnia"], ["45"]]
+    - id: f5
+      section: subjective
+      text: No panic attacks since April
+      polarity: absent
+      evidence: No, none since April.
+      match: [["panic"]]
+    - id: f6
+      section: subjective
+      text: Taking escitalopram 10 mg every morning
+      polarity: present
+      evidence: So 10 every morning.
+      match: [["escitalopram", "lexapro"], ["10"]]
+    - id: f7
+      section: subjective
+      text: Denies nausea or sexual side effects; only mild stomach upset in the first week
+      polarity: absent
+      evidence: Any side effects, nausea, sexual side effects, anything like that?
+      match: [["side effect", "nausea", "sexual"]]
+    - id: f8
+      section: subjective
+      text: Hydroxyzine 25 mg as needed used about twice in the past month, sedating
+      polarity: present
+      evidence: Maybe twice in the last month. It works but it knocks me out.
+      match: [["hydroxyzine", "vistaril", "atarax"], ["twice", "2 times", "two times", "sedat", "drows"]]
+    - id: f9
+      section: subjective
+      text: Takes magnesium glycinate 200 mg at night
+      polarity: present
+      evidence: Magnesium glycinate, 200 milligrams at night.
+      match: [["magnesium"], ["200"]]
+    - id: f10
+      section: subjective
+      text: Caffeine 4 to 5 cups of coffee daily
+      polarity: present
+      evidence: four cups a day. Maybe five on bad days.
+      match: [["coffee", "caffeine"], ["4", "four", "5", "five"]]
+    - id: f11
+      section: subjective
+      text: Alcohol, one beer on weekends
+      polarity: present
+      evidence: A beer on the weekend, that's it.
+      match: [["beer", "alcohol", "drink"], ["weekend"]]
+    - id: f12
+      section: subjective
+      text: Denies suicidal ideation or self-harm thoughts
+      polarity: absent
+      evidence: Any thoughts of suicide or of harming yourself?
+      match: [["suicid", "self-harm", "self harm", "harming himself", "harming yourself"]]
+    - id: f13
+      section: objective
+      text: GAD-7 score 12 today (moderate), down from 16 at start
+      polarity: present
+      evidence: So your GAD-7 today is 12. When you started it was 16
+      match: [["gad"], ["12"]]
+    - id: f14
+      section: objective
+      text: Blood pressure 128/82, pulse 84
+      polarity: present
+      evidence: Your blood pressure is 128 over 82 and your pulse is 84.
+      match: [["128"], ["82"]]
+    - id: f15
+      section: objective
+      text: Mental status - appears tense, talkative, anxious mood, clear thought process
+      polarity: present
+      evidence: You look a little tense but you're talkative, your mood is anxious, your thinking is clear.
+      match: [["tense", "anxious", "talkative", "thought process", "thinking"]]
+    - id: f16
+      section: assessment
+      text: Generalized anxiety disorder, partially responding to treatment
+      polarity: present
+      evidence: So I think this is generalized anxiety disorder that's partly responding.
+      match: [["generalized anxiety", "gad"]]
+    - id: f17
+      section: assessment
+      text: Tolerating escitalopram well
+      polarity: present
+      evidence: You're tolerating the escitalopram well
+      match: [["tolerat"]]
+    - id: f18
+      section: plan
+      text: Increase escitalopram from 10 mg to 20 mg once daily; take two 10 mg tablets until new prescription filled
+      polarity: present
+      evidence: I'd like to increase it to 20 milligrams once a day
+      match: [["escitalopram", "lexapro"], ["20"]]
+    - id: f19
+      section: plan
+      text: Continue hydroxyzine 25 mg as needed up to once daily, no driving after taking
+      polarity: present
+      evidence: Keep the hydroxyzine for the rough moments, up to once a day, and don't drive after you take it.
+      match: [["hydroxyzine", "vistaril", "atarax"]]
+    - id: f20
+      section: plan
+      text: Continue magnesium glycinate
+      polarity: present
+      evidence: Keep the magnesium.
+      match: [["magnesium"]]
+    - id: f21
+      section: plan
+      text: Reduce coffee to 2 cups per day, none after noon
+      polarity: present
+      evidence: I'd like you to cut the coffee to 2 cups a day, nothing after noon.
+      match: [["coffee", "caffeine"], ["2 cups", "two cups", "noon", "reduce", "cut", "limit"]]
+    - id: f22
+      section: plan
+      text: Continue CBT with therapist every other week
+      polarity: present
+      evidence: Are you still seeing the therapist for CBT?
+      match: [["cbt", "therap", "cognitive behavioral"]]
+    - id: f23
+      section: plan
+      text: Call or text 988 if thoughts of self-harm
+      polarity: present
+      evidence: if you ever have thoughts of hurting yourself, call or text 988 right away
+      match: [["988", "crisis", "safety"]]
+    - id: f24
+      section: plan
+      text: Follow-up in 6 weeks, around November 4th
+      polarity: present
+      evidence: I'd like to see you back in 6 weeks, so that's around November 4th
+      match: [["follow", "return", "back", "f/u"], ["6 weeks", "six weeks", "6 wk", "november 4"]]
+  medications:
+    - {name: escitalopram, dose: 20 mg, frequency: once daily, route: oral, status: changed, evidence: "I'd like to increase it to 20 milligrams once a day"}
+    - {name: hydroxyzine, dose: 25 mg, frequency: as needed for anxiety, up to once daily, route: oral, status: prn, evidence: "the hydroxyzine, the 25 milligrams for bad moments"}
+    - {name: magnesium glycinate, dose: 200 mg, frequency: nightly, route: oral, status: active, evidence: "Magnesium glycinate, 200 milligrams at night."}
+  allergies: []
+  diagnoses:
+    - code: F41.1
+      description: Generalized anxiety disorder
+      primary: true
+      evidence: So I think this is generalized anxiety disorder that's partly responding.
+      alternatives: [F41.9]
+  em_code: "99214"
+  em_rationale: One chronic illness not at treatment goal with prescription drug management (escitalopram dose increase), moderate MDM.
+  procedures:
+    - {code: "96127", evidence: "So your GAD-7 today is 12."}
+  phi:
+    - {type: NAME, value: Tomasz, who: patient}
+    - {type: NAME, value: Tomasz Nowak, who: patient}
+    - {type: DATE, value: "November 30th, 1985", who: patient}
+    - {type: ORG, value: Lakeshore Credit Union, who: patient}
+    - {type: NAME, value: Kasia, who: relative}
+    - {type: DATE, value: November 4th, who: patient}
+    - {type: EMAIL, value: tomasz dot nowak at fastmail dot com, who: patient}
+traps:
+  - type: correction
+    text: Escitalopram dose first said as 5 mg, corrected to 10 mg
+    evidence: The 5 milligrams.
+    match: [["escitalopram", "lexapro"], ["5 mg", "5 milligram"]]
+  - type: past_resolved
+    text: Panic attacks in the spring, none since April; not a current problem
+    evidence: You were having panic attacks back in the spring.
+    match: [["panic disorder", "panic attacks ongoing", "current panic", "f41.0"]]
+  - type: other_person
+    text: Wife is pregnant and due in November; the pregnancy belongs to the wife, not the patient
+    evidence: my wife Kasia is due in November
+    match: [["pregnan"]]

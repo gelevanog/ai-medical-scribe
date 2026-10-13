@@ -1,0 +1,273 @@
+id: mh-04
+specialty: mental_health
+title: Bipolar II on lamotrigine, stable, contraceptive interaction and level
+visit_type: established
+visit_date: "2026-09-28"
+patient:
+  name: Hana Kobayashi
+  dob: "1997-07-03"
+  sex: female
+  phone: 317-555-0172
+  address: 5408 North College Avenue, Indianapolis, IN 46220
+  mrn: "8840317"
+clinician:
+  name: Dr. Viktor Petrenko
+  role: psychiatrist
+speakers:
+  clinician: {sex: male}
+  patient: {sex: female}
+dialogue:
+  - speaker: clinician
+    text: Hello, Hana, good to see you. Let me just confirm, full name and date of birth?
+  - speaker: patient
+    text: Hana Kobayashi, July 3rd, 1997.
+  - speaker: clinician
+    text: Thank you. Last time you mentioned you were thinking about getting a dog. Did it happen?
+  - speaker: patient
+    text: It did! A little shiba puppy. She's chewed two pairs of my shoes already.
+  - speaker: clinician
+    text: That's the price of admission. So, how has your mood been since July?
+  - speaker: patient
+    text: Honestly, really steady. On my mood chart app most days are a 5 or a 6. No big lows, no highs.
+  - speaker: clinician
+    text: No stretches of feeling revved up, needing less sleep, spending more than usual?
+  - speaker: patient
+    text: No. The last time that happened was two years ago, before we found the right dose.
+  - speaker: clinician
+    text: And any low periods, losing interest in things, staying in bed?
+  - speaker: patient
+    text: No, not since last winter, and that was mild.
+  - speaker: clinician
+    text: How are you sleeping?
+  - speaker: patient
+    text: About 7 hours, pretty regular. I keep the same bedtime, like you told me.
+  - speaker: clinician
+    text: Good. You're on lamotrigine 200 milligrams once a day, correct?
+  - speaker: patient
+    text: Yes. Well, wait, is it 150? No, no, it's 200. The 150 was before the last increase.
+  - speaker: clinician
+    text: Right, 200. Any missed doses?
+  - speaker: patient
+    text: Maybe once a month I forget, then I just take it the next day as usual.
+  - speaker: clinician
+    text: That's fine. Any rash, mouth sores, or blisters anywhere?
+  - speaker: patient
+    text: No, nothing like that.
+  - speaker: clinician
+    text: Anything else you're taking?
+  - speaker: patient
+    text: Just a multivitamin every morning. Oh, and that's actually what I wanted to ask about. My gynecologist, Dr. Alvarez, wants to start me on birth control pills next month. The combination one, norgestimate and ethinyl estradiol.
+  - speaker: clinician
+    text: I'm glad you asked, that's important. The estrogen in combination pills can lower lamotrigine levels in your blood, sometimes by about half. So the dose that works now could stop being enough.
+  - speaker: patient
+    text: Oh. I didn't know that.
+  - speaker: clinician
+    text: Most people don't. Before we talk plans, any thoughts of suicide or of hurting yourself?
+  - speaker: patient
+    text: No, none. I still have my safety plan and 988 saved in my phone.
+  - speaker: clinician
+    text: Good. And I looked at your lab work from your primary care doctor in August. Your liver and kidney tests were all normal. Your blood pressure today is 112 over 70, and your weight is 131, same as last time. You're bright and relaxed today, mood euthymic, speech is normal, not pressured, and your thoughts are organized.
+  - speaker: patient
+    text: My brother takes lamotrigine for his seizures, actually. He never mentioned this.
+  - speaker: clinician
+    text: It applies to anyone on it. So, to sum up, your bipolar II disorder is stable on lamotrigine 200 milligrams a day, and we'll keep that dose for now. Here's the plan for the pill. I'd like a baseline lamotrigine level this week, drawn in the morning before your dose, at our lab at 2200 Kessler Boulevard. Then once you start the pill, we'll recheck the level 2 to 3 weeks later, and I'll probably need to increase your dose.
+  - speaker: patient
+    text: Okay. And if I didn't want to deal with that?
+  - speaker: clinician
+    text: A progestin-only option or an IUD wouldn't really affect it. That's worth raising with Dr. Alvarez. Either way is fine with me, just keep me in the loop.
+  - speaker: patient
+    text: I'll talk to her.
+  - speaker: clinician
+    text: Two safety reminders. If you ever get a rash, especially with fever or mouth sores, stop the lamotrigine and call us or go to the emergency room. And if you miss 5 days or more in a row, don't restart at 200, call us, because we'd need to build back up slowly.
+  - speaker: patient
+    text: Got it.
+  - speaker: clinician
+    text: Keep the multivitamin. I'll see you in 3 months, unless the level or the pill changes things sooner. Is 317-555-0172 still the best number for the lab results?
+  - speaker: patient
+    text: Yep, same number. Thanks, Dr. Petrenko.
+gold:
+  facts:
+    - id: f1
+      section: subjective
+      text: Mood steady since last visit, mood chart mostly 5 to 6 out of 10
+      polarity: present
+      evidence: Honestly, really steady. On my mood chart app most days are a 5 or a 6.
+      match: [["stable", "steady", "euthymic", "mood chart"]]
+    - id: f2
+      section: subjective
+      text: Denies hypomanic symptoms (decreased need for sleep, increased energy, overspending)
+      polarity: absent
+      evidence: No stretches of feeling revved up, needing less sleep, spending more than usual?
+      match: [["hypoman", "manic", "mania", "revved", "less sleep", "spending"]]
+    - id: f3
+      section: subjective
+      text: Last hypomanic episode 2 years ago
+      polarity: present
+      evidence: The last time that happened was two years ago
+      match: [["hypoman", "episode", "last"], ["2 years", "two years"]]
+    - id: f4
+      section: subjective
+      text: Denies depressive symptoms; last mild depressive period last winter
+      polarity: absent
+      evidence: And any low periods, losing interest in things, staying in bed?
+      match: [["depress", "low period", "low mood", "anhedonia", "losing interest"]]
+    - id: f5
+      section: subjective
+      text: Sleeping about 7 hours with regular schedule
+      polarity: present
+      evidence: About 7 hours, pretty regular.
+      match: [["sleep"], ["7 hours", "seven hours", "7 hrs", "7h"]]
+    - id: f6
+      section: subjective
+      text: Taking lamotrigine 200 mg once daily, misses about one dose a month
+      polarity: present
+      evidence: No, no, it's 200.
+      match: [["lamotrigine", "lamictal"], ["200"]]
+    - id: f7
+      section: subjective
+      text: Denies rash, mouth sores, or blisters
+      polarity: absent
+      evidence: Any rash, mouth sores, or blisters anywhere?
+      match: [["rash", "mouth sore", "blister", "oral ulcer"]]
+    - id: f8
+      section: subjective
+      text: Takes a daily multivitamin
+      polarity: present
+      evidence: Just a multivitamin every morning.
+      match: [["multivitamin", "vitamin"]]
+    - id: f9
+      section: subjective
+      text: Gynecologist plans to start combined oral contraceptive (norgestimate and ethinyl estradiol) next month
+      polarity: present
+      evidence: My gynecologist, Dr. Alvarez, wants to start me on birth control pills next month.
+      match: [["birth control", "contracepti", "ocp", "norgestimate", "ethinyl estradiol", "estrogen"]]
+    - id: f10
+      section: subjective
+      text: Denies suicidal ideation or thoughts of self-harm; has safety plan and 988 saved
+      polarity: absent
+      evidence: any thoughts of suicide or of hurting yourself?
+      match: [["suicid", "self-harm", "self harm", "hurting herself"]]
+    - id: f11
+      section: objective
+      text: August labs from primary care reviewed, liver and kidney tests normal
+      polarity: present
+      evidence: Your liver and kidney tests were all normal.
+      match: [["liver", "kidney", "renal", "hepatic", "cmp", "lab"], ["normal", "wnl", "unremarkable"]]
+    - id: f12
+      section: objective
+      text: Blood pressure 112/70
+      polarity: present
+      evidence: Your blood pressure today is 112 over 70
+      match: [["112"], ["70"]]
+    - id: f13
+      section: objective
+      text: Weight 131 lb, unchanged
+      polarity: present
+      evidence: your weight is 131, same as last time
+      match: [["weight", "wt"], ["131"]]
+    - id: f14
+      section: objective
+      text: Mental status - bright and relaxed, euthymic mood, normal non-pressured speech, organized thoughts
+      polarity: present
+      evidence: You're bright and relaxed today, mood euthymic, speech is normal, not pressured, and your thoughts are organized.
+      match: [["euthymic", "bright", "pressured", "organized", "relaxed"]]
+    - id: f15
+      section: assessment
+      text: Bipolar II disorder, stable on lamotrigine 200 mg daily
+      polarity: present
+      evidence: your bipolar II disorder is stable on lamotrigine 200 milligrams a day
+      match: [["bipolar ii", "bipolar 2", "bipolar disorder", "bipolar"], ["stable", "euthymic", "controlled"]]
+    - id: f16
+      section: assessment
+      text: Estrogen-containing contraceptive can lower lamotrigine levels by about half
+      polarity: present
+      evidence: The estrogen in combination pills can lower lamotrigine levels in your blood, sometimes by about half.
+      match: [["estrogen", "contracepti", "birth control", "ocp", "pill"], ["level", "interact", "lower", "reduce"]]
+    - id: f17
+      section: plan
+      text: Continue lamotrigine 200 mg daily
+      polarity: present
+      evidence: we'll keep that dose for now
+      match: [["lamotrigine", "lamictal"], ["continue", "keep", "200"]]
+    - id: f18
+      section: plan
+      text: Baseline trough lamotrigine level this week, morning before dose, at lab on Kessler Boulevard
+      polarity: present
+      evidence: I'd like a baseline lamotrigine level this week, drawn in the morning before your dose
+      match: [["level", "trough"], ["lamotrigine", "lamictal", "baseline"]]
+    - id: f19
+      section: plan
+      text: Recheck lamotrigine level 2 to 3 weeks after starting the pill, likely dose increase
+      polarity: present
+      evidence: we'll recheck the level 2 to 3 weeks later, and I'll probably need to increase your dose
+      match: [["recheck", "repeat", "re-check"], ["2 to 3 weeks", "2-3 weeks", "two to three weeks", "level"]]
+    - id: f20
+      section: plan
+      text: Discuss progestin-only or IUD contraception with gynecologist as alternatives that do not affect lamotrigine
+      polarity: present
+      evidence: A progestin-only option or an IUD wouldn't really affect it.
+      match: [["progestin", "iud", "intrauterine"]]
+    - id: f21
+      section: plan
+      text: Rash precautions - stop lamotrigine and seek care for rash, fever, or mouth sores
+      polarity: present
+      evidence: If you ever get a rash, especially with fever or mouth sores, stop the lamotrigine and call us or go to the emergency room.
+      match: [["rash"], ["stop", "call", "emergency", "seek", "precaution"]]
+    - id: f22
+      section: plan
+      text: If 5 or more consecutive doses missed, call before restarting; requires re-titration
+      polarity: present
+      evidence: if you miss 5 days or more in a row, don't restart at 200
+      match: [["miss", "missed"], ["5 days", "five days", "retitrat", "re-titrat", "restart"]]
+    - id: f23
+      section: plan
+      text: Continue multivitamin
+      polarity: present
+      evidence: Keep the multivitamin.
+      match: [["multivitamin", "vitamin"]]
+    - id: f24
+      section: plan
+      text: Follow-up in 3 months, sooner if level or contraceptive changes require
+      polarity: present
+      evidence: I'll see you in 3 months
+      match: [["follow", "return", "see", "f/u"], ["3 months", "three months", "3 mo"]]
+  medications:
+    - {name: lamotrigine, dose: 200 mg, frequency: once daily, route: oral, status: active, evidence: "You're on lamotrigine 200 milligrams once a day, correct?"}
+    - {name: multivitamin, dose: 1 tablet, frequency: once daily, route: oral, status: active, evidence: "Just a multivitamin every morning."}
+    - {name: norgestimate-ethinyl estradiol, dose: not specified, frequency: once daily, route: oral, status: new, evidence: "The combination one, norgestimate and ethinyl estradiol."}
+  allergies: []
+  diagnoses:
+    - code: F31.81
+      description: Bipolar II disorder
+      primary: true
+      evidence: your bipolar II disorder is stable on lamotrigine 200 milligrams a day
+      alternatives: [F31.9]
+    - code: Z79.899
+      description: Other long term (current) drug therapy
+      evidence: I'd like a baseline lamotrigine level this week
+      alternatives: [Z51.81]
+  em_code: "99213"
+  em_rationale: One stable chronic illness (low), limited data (review of outside labs and ordering a lamotrigine level), and prescription drug management with a drug interaction (moderate risk); two of three elements support low MDM.
+  procedures: []
+  phi:
+    - {type: NAME, value: Hana, who: patient}
+    - {type: NAME, value: Hana Kobayashi, who: patient}
+    - {type: DATE, value: "July 3rd, 1997", who: patient}
+    - {type: NAME, value: Dr. Alvarez, who: clinician}
+    - {type: NAME, value: Alvarez, who: clinician}
+    - {type: ADDRESS, value: 2200 Kessler Boulevard, who: other}
+    - {type: PHONE, value: 317-555-0172, who: patient}
+    - {type: NAME, value: Dr. Petrenko, who: clinician}
+traps:
+  - type: correction
+    text: Lamotrigine dose briefly questioned as 150 mg, confirmed 200 mg (150 mg was a previous dose)
+    evidence: is it 150?
+    match: [["lamotrigine", "lamictal"], ["150"]]
+  - type: other_person
+    text: Brother takes lamotrigine for seizures; the patient has no seizure disorder
+    evidence: My brother takes lamotrigine for his seizures, actually.
+    match: [["seizure", "epilep"]]
+  - type: small_talk
+    text: New shiba puppy chewing shoes is small talk and should not appear in the note
+    evidence: A little shiba puppy.
+    match: [["puppy", "shiba", "dog", "shoes"]]

@@ -1,0 +1,340 @@
+id: pd-01
+specialty: pediatrics
+title: Toddler with fever and left ear pulling, acute otitis media
+visit_type: established
+visit_date: "2026-10-13"
+patient:
+  name: Amara Okafor
+  dob: "2023-07-18"
+  sex: female
+  phone: 555-0163
+  address: 4410 Euclid Avenue, Cleveland, OH 44103
+  mrn: "7302815"
+clinician:
+  name: Dr. Lucia Ferraro
+  role: pediatrician
+speakers:
+  clinician: {sex: female}
+  caregiver: {sex: female}
+dialogue:
+  - speaker: clinician
+    text: Hi there, come on in. Oh, I love those purple boots. Okay, before we get going, can you confirm her full name and date of birth for me?
+  - speaker: caregiver
+    text: Yeah, it's Amara Okafor, July 18th, 2023.
+  - speaker: clinician
+    text: Perfect. And you're mom?
+  - speaker: caregiver
+    text: I am, I'm Chiamaka. Sorry, I look like a mess, it's been a long night.
+  - speaker: clinician
+    text: No apology needed. Tell me what's going on with Amara.
+  - speaker: caregiver
+    text: So she started with a fever yesterday afternoon, and she's been pulling at her left ear, like, nonstop. Last night it went up to 102.8 and she was up crying most of the night.
+  - speaker: clinician
+    text: Oh, poor thing. Did you give her anything for it?
+  - speaker: caregiver
+    text: I gave her the children's Tylenol around 2 in the morning, 5 milliliters, and that helped a little. Nothing since then.
+  - speaker: clinician
+    text: Okay. Has she had a cold leading up to this?
+  - speaker: caregiver
+    text: Yeah, runny nose and a little cough for maybe 4 or 5 days. At her daycare, Little Acorns, half the room has been sick. And her cousin just had hand, foot and mouth, so I was kind of worried about that too.
+  - speaker: clinician
+    text: Any sores in her mouth, or a rash on her hands or feet?
+  - speaker: caregiver
+    text: No, I looked. Nothing.
+  - speaker: clinician
+    text: Good. How's she eating and drinking?
+  - speaker: caregiver
+    text: Eating, not much. But she's drinking okay, juice and water mostly.
+  - speaker: clinician
+    text: And is she peeing normally?
+  - speaker: caregiver
+    text: Yeah, she's mostly potty trained, just a pull-up at night. She peed this morning, a normal amount.
+  - speaker: clinician
+    text: Any vomiting or diarrhea?
+  - speaker: caregiver
+    text: Nope.
+  - speaker: clinician
+    text: Any drainage coming out of the ear?
+  - speaker: caregiver
+    text: No, nothing like that.
+  - speaker: clinician
+    text: Has she had ear infections before?
+  - speaker: caregiver
+    text: Just one, when she was about 1. It cleared up with the pink medicine and she's been fine since.
+  - speaker: clinician
+    text: And she's not allergic to any medicines?
+  - speaker: caregiver
+    text: No allergies that we know of.
+  - speaker: clinician
+    text: Great. So her weight today is 16 kilograms, that's about 35 pounds. Temperature here is 101.6, heart rate 128, and her oxygen is 99 percent. Amara, can I peek in your ears with my little flashlight? Good job, sweetie.
+  - speaker: caregiver
+    text: She hates this part.
+  - speaker: clinician
+    text: She's doing great. Okay, her right eardrum looks normal. The left one is red and bulging, and I can see pus behind it. Her throat is a little red, but no sores or blisters. Lungs sound clear, no wheezing, and her neck is nice and soft.
+  - speaker: caregiver
+    text: So it's an ear infection?
+  - speaker: clinician
+    text: Yes, this is an acute ear infection in her left ear, on top of a cold. With a fever as high as 102.8 and that bulging eardrum, I do recommend an antibiotic. We'll use amoxicillin at the higher dose, 90 milligrams per kilogram per day. She's 16 kilograms, so that's 1440 milligrams a day, split into 2 doses, so 720 milligrams twice a day.
+  - speaker: caregiver
+    text: Okay, and how much is that in the liquid?
+  - speaker: clinician
+    text: The pharmacy will give you the 400 milligrams per 5 milliliters strength, so it's 9 milliliters twice a day, for 10 full days, even if she seems better after a couple of days.
+  - speaker: caregiver
+    text: Got it. 9 milliliters twice a day for 10 days.
+  - speaker: clinician
+    text: Exactly. For pain and fever you can use ibuprofen. Her dose is 160 milligrams, which with the children's liquid is 8 milliliters, every 6 to 8 hours as needed. The Tylenol is fine too, every 4 to 6 hours, but for her weight it's 7 and a half milliliters, not 5. So the 5 you gave was a little low.
+  - speaker: caregiver
+    text: Oh, I didn't know that. Okay, 7 and a half.
+  - speaker: clinician
+    text: Which pharmacy do you want the amoxicillin sent to?
+  - speaker: caregiver
+    text: The one on Euclid Avenue, by the library. 4410 Euclid.
+  - speaker: clinician
+    text: Got it. And is 555-0163 still the best number for you?
+  - speaker: caregiver
+    text: Yes, that's my cell. Um, should I worry about her baby brother? He's got the runny nose now too.
+  - speaker: clinician
+    text: The ear infection itself isn't contagious, it's the cold that spreads. Just watch him, and if he gets a fever or starts pulling at his ears, bring him in.
+  - speaker: caregiver
+    text: Okay, good.
+  - speaker: clinician
+    text: As for Amara, she can go back to daycare once she's been fever-free for 24 hours without medicine. If she's still running fevers or in a lot of pain after 48 to 72 hours on the amoxicillin, call us, because we may need to switch antibiotics. And if you see swelling or redness behind the ear, or she's really hard to wake up, bring her in right away.
+  - speaker: caregiver
+    text: Okay. Does she need to come back to get the ear checked?
+  - speaker: clinician
+    text: If she's back to herself in a few days, no routine recheck. If she gets another ear infection in the next couple of months, we'll want to see her.
+  - speaker: caregiver
+    text: Sounds good. I just hope my parking meter hasn't run out.
+  - speaker: clinician
+    text: Ha, they're strict out there, so go, go. Feel better, Amara.
+gold:
+  facts:
+    - id: f1
+      section: subjective
+      text: Fever since yesterday afternoon, up to 102.8 at home overnight
+      polarity: present
+      evidence: Last night it went up to 102.8
+      match: [["fever", "febrile", "temp"], ["102.8"]]
+    - id: f2
+      section: subjective
+      text: Pulling at left ear
+      polarity: present
+      evidence: she's been pulling at her left ear
+      match: [["pull", "tug"], ["ear"]]
+    - id: f3
+      section: subjective
+      text: Up crying most of the night
+      polarity: present
+      evidence: she was up crying most of the night
+      match: [["cry", "fuss", "irritab", "sleep", "night"]]
+    - id: f4
+      section: subjective
+      text: Runny nose and mild cough for 4 to 5 days
+      polarity: present
+      evidence: runny nose and a little cough for maybe 4 or 5 days
+      match: [["runny nose", "rhinorrhea", "congestion", "cough", "uri", "cold"], ["4 or 5 days", "4-5 days", "4 to 5 days", "four to five days", "4 days", "5 days", "five days", "four days"]]
+    - id: f5
+      section: subjective
+      text: Gave acetaminophen 5 mL at 2 AM with partial relief
+      polarity: present
+      evidence: I gave her the children's Tylenol around 2 in the morning, 5 milliliters
+      match: [["acetaminophen", "tylenol"]]
+    - id: f6
+      section: subjective
+      text: Sick contacts at daycare; cousin recently had hand, foot and mouth disease
+      polarity: present
+      evidence: half the room has been sick
+      match: [["daycare", "day care", "sick contact", "exposure"]]
+    - id: f7
+      section: subjective
+      text: No oral sores or rash on hands or feet
+      polarity: absent
+      evidence: Any sores in her mouth, or a rash on her hands or feet?
+      match: [["sores", "rash", "lesion", "ulcer", "vesic"]]
+    - id: f8
+      section: subjective
+      text: Decreased appetite, drinking fluids okay
+      polarity: present
+      evidence: Eating, not much. But she's drinking okay
+      match: [["appetite", "eating", "intake", "drinking", "fluids", "oral"]]
+    - id: f9
+      section: subjective
+      text: Normal urine output
+      polarity: present
+      evidence: She peed this morning, a normal amount.
+      match: [["urin", "void", "peed", "wet", "output"]]
+    - id: f10
+      section: subjective
+      text: No vomiting
+      polarity: absent
+      evidence: Any vomiting or diarrhea?
+      match: [["vomit", "emesis"]]
+    - id: f11
+      section: subjective
+      text: No diarrhea
+      polarity: absent
+      evidence: Any vomiting or diarrhea?
+      match: [["diarrhea", "loose stool"]]
+    - id: f12
+      section: subjective
+      text: No ear drainage
+      polarity: absent
+      evidence: Any drainage coming out of the ear?
+      match: [["drainage", "discharge", "otorrhea"]]
+    - id: f13
+      section: subjective
+      text: No known drug allergies
+      polarity: absent
+      evidence: No allergies that we know of.
+      match: [["allerg", "nkda"]]
+    - id: f14
+      section: objective
+      text: Weight 16 kg (about 35 lb)
+      polarity: present
+      evidence: her weight today is 16 kilograms
+      match: [["16 kg", "16 kilogram", "16kg", "35 lb", "35 pound"]]
+    - id: f15
+      section: objective
+      text: Temperature 101.6 in clinic
+      polarity: present
+      evidence: Temperature here is 101.6
+      match: [["101.6"]]
+    - id: f16
+      section: objective
+      text: Heart rate 128
+      polarity: present
+      evidence: heart rate 128
+      match: [["heart rate", "pulse", "hr"], ["128"]]
+    - id: f17
+      section: objective
+      text: Oxygen saturation 99 percent
+      polarity: present
+      evidence: her oxygen is 99 percent
+      match: [["oxygen", "spo2", "o2", "sat", "pulse ox"], ["99"]]
+    - id: f18
+      section: objective
+      text: Right tympanic membrane normal
+      polarity: present
+      evidence: her right eardrum looks normal
+      match: [["right"], ["eardrum", "tympanic", "tm"]]
+    - id: f19
+      section: objective
+      text: Left tympanic membrane erythematous and bulging with purulent effusion
+      polarity: present
+      evidence: The left one is red and bulging, and I can see pus behind it.
+      match: [["left"], ["bulg"]]
+    - id: f20
+      section: objective
+      text: Pharynx mildly erythematous without sores or vesicles
+      polarity: present
+      evidence: Her throat is a little red, but no sores or blisters.
+      match: [["throat", "pharyn"]]
+    - id: f21
+      section: objective
+      text: Lungs clear without wheezing; neck supple
+      polarity: present
+      evidence: Lungs sound clear, no wheezing, and her neck is nice and soft.
+      match: [["lung", "chest", "breath sound"], ["clear", "cta"]]
+    - id: f22
+      section: assessment
+      text: Acute otitis media, left ear
+      polarity: present
+      evidence: this is an acute ear infection in her left ear
+      match: [["otitis media", "ear infection", "aom"], ["left"]]
+    - id: f23
+      section: assessment
+      text: Concurrent viral upper respiratory infection
+      polarity: present
+      evidence: on top of a cold
+      match: [["uri", "upper respiratory", "cold", "viral"]]
+    - id: f24
+      section: plan
+      text: Amoxicillin 90 mg/kg/day, 720 mg (9 mL of 400 mg/5 mL) twice daily
+      polarity: present
+      evidence: so 720 milligrams twice a day
+      match: [["amoxicillin", "amoxil"], ["720", "9 ml", "9 milliliter", "9ml", "90 mg/kg", "90 milligrams per kilogram"]]
+    - id: f25
+      section: plan
+      text: Amoxicillin course for 10 days
+      polarity: present
+      evidence: for 10 full days
+      match: [["amoxicillin", "antibiotic"], ["10 days", "ten days", "10-day", "10 day"]]
+    - id: f26
+      section: plan
+      text: Ibuprofen 160 mg (8 mL) every 6 to 8 hours as needed for pain or fever
+      polarity: present
+      evidence: Her dose is 160 milligrams, which with the children's liquid is 8 milliliters, every 6 to 8 hours as needed.
+      match: [["ibuprofen", "motrin", "advil"], ["160", "8 ml", "8 milliliter", "8ml"]]
+    - id: f27
+      section: plan
+      text: Acetaminophen weight-based dose corrected to 7.5 mL (240 mg) every 4 to 6 hours
+      polarity: present
+      evidence: for her weight it's 7 and a half milliliters, not 5
+      match: [["acetaminophen", "tylenol"], ["7.5", "7 and a half", "240"]]
+    - id: f28
+      section: plan
+      text: May return to daycare after fever-free 24 hours without antipyretics
+      polarity: present
+      evidence: she can go back to daycare once she's been fever-free for 24 hours without medicine
+      match: [["daycare", "day care"], ["24 hours", "24 hr", "24-hour", "24h"]]
+    - id: f29
+      section: plan
+      text: Call if fever or pain persists after 48 to 72 hours on amoxicillin (may switch antibiotics)
+      polarity: present
+      evidence: If she's still running fevers or in a lot of pain after 48 to 72 hours on the amoxicillin, call us
+      match: [["48", "72"]]
+    - id: f30
+      section: plan
+      text: Return immediately for swelling or redness behind the ear or lethargy
+      polarity: present
+      evidence: if you see swelling or redness behind the ear, or she's really hard to wake up, bring her in right away
+      match: [["behind the ear", "mastoid", "hard to wake", "letharg"]]
+    - id: f31
+      section: plan
+      text: No routine ear recheck if improved; return if recurrent infection
+      polarity: present
+      evidence: If she's back to herself in a few days, no routine recheck.
+      match: [["recheck", "follow-up", "follow up", "return", "as needed", "prn"]]
+  medications:
+    - {name: amoxicillin, dose: 720 mg (9 mL of 400 mg/5 mL), frequency: twice daily for 10 days, route: oral, status: new, evidence: "so 720 milligrams twice a day"}
+    - {name: ibuprofen, dose: 160 mg (8 mL), frequency: every 6-8 hours as needed, route: oral, status: prn, evidence: "Her dose is 160 milligrams"}
+    - {name: acetaminophen, dose: 240 mg (7.5 mL), frequency: every 4-6 hours as needed, route: oral, status: prn, evidence: "for her weight it's 7 and a half milliliters, not 5"}
+  allergies: []
+  diagnoses:
+    - code: H66.002
+      description: Acute suppurative otitis media without spontaneous rupture of ear drum, left ear
+      primary: true
+      evidence: this is an acute ear infection in her left ear
+      alternatives: [H66.92, H66.90]
+    - code: J06.9
+      description: Acute upper respiratory infection, unspecified
+      evidence: on top of a cold
+  em_code: "99214"
+  em_rationale: Acute illness with systemic symptoms (febrile otitis media) with a parent as independent historian and prescription drug management (moderate risk).
+  procedures: []
+  phi:
+    - {type: NAME, value: Amara Okafor, who: patient}
+    - {type: NAME, value: Amara, who: patient}
+    - {type: DATE, value: "July 18th, 2023", who: patient}
+    - {type: NAME, value: Chiamaka, who: relative}
+    - {type: ORG, value: Little Acorns, who: patient}
+    - {type: ADDRESS, value: Euclid Avenue, who: other}
+    - {type: ADDRESS, value: 4410 Euclid, who: other}
+    - {type: PHONE, value: 555-0163, who: relative}
+traps:
+  - type: past_resolved
+    text: One prior ear infection at about age 1, resolved; not recurrent otitis media
+    evidence: Just one, when she was about 1.
+    match: [["recurrent", "chronic"], ["otitis", "ear infection"]]
+  - type: other_person
+    text: Cousin had hand, foot and mouth disease; the patient has no oral or hand/foot lesions
+    evidence: her cousin just had hand, foot and mouth
+    match: [["hand, foot", "hand foot", "hfmd", "coxsackie"]]
+  - type: other_person
+    text: Baby brother has a runny nose; advice about him is not part of the patient's plan
+    evidence: He's got the runny nose now too.
+    match: [["brother", "sibling"]]
+  - type: small_talk
+    text: Comments about purple boots and the parking meter must not appear in the note
+    evidence: I just hope my parking meter hasn't run out.
+    match: [["parking", "meter", "boots"]]

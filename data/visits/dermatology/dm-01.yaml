@@ -1,0 +1,319 @@
+id: dm-01
+specialty: dermatology
+title: Changing mole on the upper back with shave biopsy
+visit_type: new
+visit_date: "2026-10-13"
+patient:
+  name: Aisling Brennan
+  dob: "1988-06-09"
+  sex: female
+  phone: 555-0163
+  email: aisling.brennan88@fastmail.com
+clinician:
+  name: Dr. Kwame Asante
+  role: dermatologist
+speakers:
+  clinician: {sex: male}
+  patient: {sex: female}
+dialogue:
+  - speaker: clinician
+    text: "Hi there, I'm Dr. Kwame Asante, one of the dermatologists here. Did you find parking okay? That garage is a maze."
+  - speaker: patient
+    text: "Ha, it really is. I went around twice before I found a spot on level 3."
+  - speaker: clinician
+    text: "Everybody does. So before we start, can you tell me your full name and date of birth?"
+  - speaker: patient
+    text: "Aisling Brennan, and my birthday is June 9th, 1988."
+  - speaker: clinician
+    text: "Thank you, Aisling. Your referral mentions a mole on your back. Tell me what's going on with it."
+  - speaker: patient
+    text: "So it's on my left upper back, kind of by my shoulder blade. My husband Declan noticed it looked different back in, um, July. He says it's gotten bigger and darker since spring."
+  - speaker: clinician
+    text: "Okay. Has it bled at all, or crusted over?"
+  - speaker: patient
+    text: "No. No bleeding."
+  - speaker: clinician
+    text: "Does it itch or hurt?"
+  - speaker: patient
+    text: "It itches a little now and then. It doesn't hurt."
+  - speaker: clinician
+    text: "Have you ever had a skin cancer yourself, or any moles removed?"
+  - speaker: patient
+    text: "No, I've never had skin cancer, and nothing's ever been removed."
+  - speaker: clinician
+    text: "Anyone in the family with skin cancer?"
+  - speaker: patient
+    text: "My dad had a basal cell on his nose a few years ago. They scraped it off and he's been fine."
+  - speaker: clinician
+    text: "Good to know. How about sun exposure? Sunburns growing up, tanning beds?"
+  - speaker: patient
+    text: "Oh, lots of sun. I was a lifeguard every summer through college at Crestview Aquatics. I got burned pretty badly a few times, like blistering. Never did tanning beds, though."
+  - speaker: clinician
+    text: "Got it. Any medicines you take regularly?"
+  - speaker: patient
+    text: "Just levothyroxine, 75 micrograms every morning, for my thyroid."
+  - speaker: clinician
+    text: "And any allergies to medications, or to lidocaine or latex?"
+  - speaker: patient
+    text: "No allergies that I know of."
+  - speaker: clinician
+    text: "Alright, let me take a look. Can you slip your left arm out of the gown? Okay. So on your left upper back, just over the shoulder blade, there's a 7 millimeter dark brown mole. It's asymmetric, the border is irregular and kind of notched at the bottom, and there's a black area on one side. Under the dermatoscope I see an irregular network and a few dots at the edge. That one stands out from your other moles."
+  - speaker: patient
+    text: "Is that bad?"
+  - speaker: clinician
+    text: "It's what we call an ugly duckling, it doesn't look like its neighbors. Let me check the rest of you first. Your back, chest and arms have scattered 2 to 3 millimeter round moles, evenly brown. Those all look like normal benign moles. Scalp, face and legs look fine. I don't feel any swollen lymph nodes in your left armpit or your neck. Any lumps you've noticed in your armpit?"
+  - speaker: patient
+    text: "No, nothing like that."
+  - speaker: clinician
+    text: "Okay. So here's what I think. This mole on your back has several changing features. Most of these turn out to be an atypical mole, but I can't rule out an early melanoma just by looking. So I'd like to do a biopsy today."
+  - speaker: patient
+    text: "Today? Okay. What does that involve?"
+  - speaker: clinician
+    text: "It's a shave biopsy. I numb the area with a little lidocaine with epinephrine, then I take off the whole mole with a thin blade, fairly deep, and send it to the lab. No stitches. You'll have a shallow wound, kind of like a scrape."
+  - speaker: patient
+    text: "That's fine. Let's do it."
+  - speaker: clinician
+    text: "Great. A little pinch and a burn now. Okay, and that's done, it went well. I've sent it to pathology. For care, keep the bandage on for 24 hours, then wash it gently once a day, put on plain petroleum jelly and a fresh bandage every day until it heals. That's usually 1 to 2 weeks."
+  - speaker: patient
+    text: "Okay. When will I know?"
+  - speaker: clinician
+    text: "Results take about 7 to 10 days. They'll post to the portal and someone will call you either way. What's the best number for you?"
+  - speaker: patient
+    text: "My cell, 555-0163. And my portal email is aisling dot brennan 88 at fastmail dot com."
+  - speaker: clinician
+    text: "Got it. If it does come back as a melanoma, we'd talk about a wider excision to get clear margins, but let's not get ahead of ourselves. If the site gets red, hot, swollen or drains pus, call us."
+  - speaker: patient
+    text: "Okay. Should I be doing anything about the sun?"
+  - speaker: clinician
+    text: "Yes. Broad-spectrum sunscreen, SPF 30 or higher, every day on exposed skin, reapply every 2 hours when you're outside, and a wide-brimmed hat. Check your own moles once a month. And since you've had blistering sunburns and quite a few moles, I'd like to see you for a full skin check every year."
+  - speaker: patient
+    text: "Sounds good."
+  - speaker: clinician
+    text: "Let's book a follow-up for the biopsy site and results on Tuesday, October 27th. Any other questions?"
+  - speaker: patient
+    text: "No, I think that's it. Thank you."
+  - speaker: clinician
+    text: "You're welcome, Aisling. Take care, and good luck getting out of that garage."
+gold:
+  facts:
+    - id: f1
+      section: subjective
+      text: Mole on left upper back near shoulder blade getting bigger and darker since spring
+      polarity: present
+      evidence: He says it's gotten bigger and darker since spring.
+      match: [["mole", "nevus", "lesion"], ["bigger", "larger", "enlarg", "grow", "darker", "darken", "chang"]]
+    - id: f2
+      section: subjective
+      text: Change first noticed by husband in July
+      polarity: present
+      evidence: My husband Declan noticed it looked different back in, um, July.
+      match: [["july"]]
+    - id: f3
+      section: subjective
+      text: Denies bleeding or crusting of the lesion
+      polarity: absent
+      evidence: Has it bled at all, or crusted over?
+      match: [["bleed", "bled", "crust"]]
+    - id: f4
+      section: subjective
+      text: Occasional itching of the lesion
+      polarity: present
+      evidence: It itches a little now and then.
+      match: [["itch", "prurit"]]
+    - id: f5
+      section: subjective
+      text: Lesion is not painful
+      polarity: absent
+      evidence: It doesn't hurt.
+      match: [["pain", "hurt", "tender"]]
+    - id: f6
+      section: subjective
+      text: No personal history of skin cancer or prior mole removal
+      polarity: absent
+      evidence: I've never had skin cancer, and nothing's ever been removed.
+      match: [["skin cancer", "skin malignan", "removed", "excis"]]
+    - id: f7
+      section: subjective
+      text: Father had basal cell carcinoma of the nose
+      polarity: present
+      evidence: My dad had a basal cell on his nose a few years ago.
+      match: [["basal cell", "bcc"], ["father", "dad", "family"]]
+    - id: f8
+      section: subjective
+      text: Significant sun exposure as a lifeguard through college
+      polarity: present
+      evidence: I was a lifeguard every summer through college
+      match: [["lifeguard", "sun exposure"]]
+    - id: f9
+      section: subjective
+      text: History of several blistering sunburns
+      polarity: present
+      evidence: I got burned pretty badly a few times, like blistering.
+      match: [["sunburn", "burn", "blister"]]
+    - id: f10
+      section: subjective
+      text: No tanning bed use
+      polarity: absent
+      evidence: Never did tanning beds, though.
+      match: [["tanning"]]
+    - id: f11
+      section: subjective
+      text: Takes levothyroxine 75 mcg every morning for thyroid
+      polarity: present
+      evidence: Just levothyroxine, 75 micrograms every morning
+      match: [["levothyroxine", "synthroid"], ["75"]]
+    - id: f12
+      section: subjective
+      text: No known drug allergies
+      polarity: absent
+      evidence: No allergies that I know of.
+      match: [["allerg", "nkda"]]
+    - id: f13
+      section: subjective
+      text: Denies axillary lumps
+      polarity: absent
+      evidence: Any lumps you've noticed in your armpit?
+      match: [["lump", "mass"], ["armpit", "axilla"]]
+    - id: f14
+      section: objective
+      text: 7 mm dark brown mole on left upper back over the scapula
+      polarity: present
+      evidence: there's a 7 millimeter dark brown mole
+      match: [["7 mm", "7mm", "7 millimeter", "0.7 cm"], ["mole", "nevus", "lesion", "macule", "papule"]]
+    - id: f15
+      section: objective
+      text: Lesion asymmetric with irregular notched border
+      polarity: present
+      evidence: It's asymmetric, the border is irregular and kind of notched at the bottom
+      match: [["irregular", "notch", "asymmetr"]]
+    - id: f16
+      section: objective
+      text: Black area on one side of the lesion
+      polarity: present
+      evidence: there's a black area on one side
+      match: [["black", "color variegation", "variegat"]]
+    - id: f17
+      section: objective
+      text: Dermoscopy shows irregular network and peripheral dots
+      polarity: present
+      evidence: Under the dermatoscope I see an irregular network and a few dots at the edge.
+      match: [["dermoscop", "dermatoscop"], ["network", "dots"]]
+    - id: f18
+      section: objective
+      text: Scattered 2-3 mm uniformly brown round nevi on back, chest and arms, benign appearing
+      polarity: present
+      evidence: Those all look like normal benign moles.
+      match: [["benign", "normal", "uniform", "evenly brown"], ["mole", "nev"]]
+    - id: f19
+      section: objective
+      text: No palpable left axillary or cervical lymphadenopathy
+      polarity: absent
+      evidence: I don't feel any swollen lymph nodes in your left armpit or your neck.
+      match: [["lymph", "adenopathy", "node"]]
+    - id: f20
+      section: assessment
+      text: Changing atypical pigmented lesion of left upper back, melanoma not excluded
+      polarity: present
+      evidence: I can't rule out an early melanoma just by looking.
+      match: [["melanoma", "atypical", "dysplastic"]]
+    - id: f21
+      section: assessment
+      text: Multiple benign nevi
+      polarity: present
+      evidence: Those all look like normal benign moles.
+      match: [["benign"], ["nev", "mole"]]
+    - id: f22
+      section: plan
+      text: Deep shave biopsy of the lesion performed today
+      polarity: present
+      evidence: It's a shave biopsy.
+      match: [["shave", "tangential", "saucer"], ["biops"]]
+    - id: f23
+      section: plan
+      text: Local anesthesia with lidocaine with epinephrine
+      polarity: present
+      evidence: I numb the area with a little lidocaine with epinephrine
+      match: [["lidocaine"]]
+    - id: f24
+      section: plan
+      text: Specimen sent to pathology
+      polarity: present
+      evidence: I've sent it to pathology.
+      match: [["patholog", "dermatopath", "histolog"]]
+    - id: f25
+      section: plan
+      text: Wound care with daily gentle washing, petroleum jelly and a fresh bandage
+      polarity: present
+      evidence: put on plain petroleum jelly and a fresh bandage every day until it heals
+      match: [["petroleum", "vaseline", "petrolatum", "wound care"]]
+    - id: f26
+      section: plan
+      text: Results in 7 to 10 days via portal and phone call
+      polarity: present
+      evidence: Results take about 7 to 10 days.
+      match: [["result", "patholog"], ["7 to 10", "7-10", "10 days", "portal"]]
+    - id: f27
+      section: plan
+      text: Return precautions for signs of infection at the biopsy site
+      polarity: present
+      evidence: If the site gets red, hot, swollen or drains pus, call us.
+      match: [["infect", "redness", "pus", "swell", "drain"]]
+    - id: f28
+      section: plan
+      text: Daily broad-spectrum sunscreen SPF 30 or higher, reapply every 2 hours, wide-brimmed hat
+      polarity: present
+      evidence: Broad-spectrum sunscreen, SPF 30 or higher, every day on exposed skin
+      match: [["sunscreen", "spf", "sun protect"]]
+    - id: f29
+      section: plan
+      text: Monthly self skin exams and annual full skin check
+      polarity: present
+      evidence: I'd like to see you for a full skin check every year.
+      match: [["skin check", "skin exam", "total body", "full body", "self-exam", "self exam"]]
+    - id: f30
+      section: plan
+      text: Follow-up for biopsy site and results on October 27
+      polarity: present
+      evidence: Let's book a follow-up for the biopsy site and results on Tuesday, October 27th.
+      match: [["follow", "return", "recheck"], ["october 27", "oct 27", "10/27"]]
+  medications:
+    - {name: levothyroxine, dose: 75 mcg, frequency: once daily in the morning, route: oral, status: active, evidence: "Just levothyroxine, 75 micrograms every morning"}
+    - {name: lidocaine with epinephrine, dose: local infiltration, frequency: once in office, route: injection, status: new, evidence: "I numb the area with a little lidocaine with epinephrine"}
+    - {name: petroleum jelly, dose: thin layer, frequency: once daily until healed, route: topical, status: new, evidence: "put on plain petroleum jelly and a fresh bandage every day"}
+  allergies: []
+  diagnoses:
+    - code: D49.2
+      description: Neoplasm of unspecified behavior of bone, soft tissue, and skin
+      primary: true
+      evidence: I can't rule out an early melanoma just by looking.
+      alternatives: [D48.5, D22.5]
+    - code: D22.5
+      description: Melanocytic nevi of trunk
+      evidence: Those all look like normal benign moles.
+  em_code: "99203"
+  em_rationale: One undiagnosed new problem with uncertain prognosis, minimal data, decision for minor surgery without risk factors (low risk), so low MDM for a new patient; biopsy billed separately.
+  procedures:
+    - {code: "11102", evidence: "It's a shave biopsy."}
+  phi:
+    - {type: NAME, value: Dr. Kwame Asante, who: clinician}
+    - {type: NAME, value: Aisling Brennan, who: patient}
+    - {type: NAME, value: Aisling, who: patient}
+    - {type: DATE, value: "June 9th, 1988", who: patient}
+    - {type: NAME, value: Declan, who: relative}
+    - {type: ORG, value: Crestview Aquatics, who: patient}
+    - {type: PHONE, value: 555-0163, who: patient}
+    - {type: EMAIL, value: aisling dot brennan 88 at fastmail dot com, who: patient}
+    - {type: DATE, value: "Tuesday, October 27th", who: patient}
+traps:
+  - type: family_history
+    text: Father had basal cell carcinoma; the patient has never had skin cancer
+    evidence: My dad had a basal cell on his nose a few years ago.
+    match: [["basal cell", "bcc"]]
+  - type: hypothetical
+    text: Wider excision only if pathology shows melanoma; not planned now
+    evidence: If it does come back as a melanoma, we'd talk about a wider excision
+    match: [["wide excision", "wider excision", "re-excision", "re-excise", "excision with margins"]]
+  - type: small_talk
+    text: Small talk about the parking garage
+    evidence: That garage is a maze.
+    match: [["parking", "garage"]]

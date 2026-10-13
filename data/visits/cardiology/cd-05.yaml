@@ -1,0 +1,304 @@
+id: cd-05
+specialty: cardiology
+title: Hyperlipidemia after coronary stent with statin intolerance
+visit_type: established
+visit_date: "2026-10-02"
+patient:
+  name: Khalid Mansour
+  dob: "1967-09-08"
+  sex: male
+  phone: 555-0175
+  address: 2654 Orchard Ridge Drive, Dearborn, MI 48124
+  mrn: "8847126"
+clinician:
+  name: Dr. Siobhan Byrne
+  role: cardiologist
+speakers:
+  clinician: {sex: female}
+  patient: {sex: male}
+dialogue:
+  - speaker: clinician
+    text: Good morning. I'm Dr. Siobhan Byrne, we met in the hospital back in February. Can you confirm your full name and date of birth for me?
+  - speaker: patient
+    text: Khalid Mansour, September 8th, 1967.
+  - speaker: clinician
+    text: Thanks, Mr. Mansour. The front desk mentioned you had a new insurance card?
+  - speaker: patient
+    text: Yeah, we switched plans. The member ID is K as in kilo 7 3 0 9 2 5 8.
+  - speaker: clinician
+    text: Got it, I'll make sure they update it. So it's been about 8 months since your stent on February 11th. How are you doing overall?
+  - speaker: patient
+    text: Heart-wise, good. No chest pain at all since the stent. I finished cardiac rehab in June, and I'm walking 30 minutes most days.
+  - speaker: clinician
+    text: That's excellent. Any shortness of breath with the walking?
+  - speaker: patient
+    text: No, I'm fine. The kids at Roosevelt High School keep me moving too, I teach chemistry there.
+  - speaker: clinician
+    text: Ha, that'll do it. Your portal message said you had a problem with the atorvastatin?
+  - speaker: patient
+    text: Yeah. So my thighs and calves were aching, both legs, like I'd run a marathon. It started maybe 2 months after the hospital. I put up with it, but about 3 weeks ago I just stopped taking it. I'm sorry, I know I should have called first.
+  - speaker: clinician
+    text: No need to apologize, I'm glad you're telling me. What dose were you taking?
+  - speaker: patient
+    text: 40 milligrams. No, wait, it's the big one. 80 milligrams.
+  - speaker: clinician
+    text: Right, 80 is what we started in the hospital. And since you stopped it, how are the legs?
+  - speaker: patient
+    text: Much better. Maybe 90 percent gone.
+  - speaker: clinician
+    text: Any muscle weakness, trouble getting up from a chair, or dark, cola colored urine?
+  - speaker: patient
+    text: No, nothing like that.
+  - speaker: clinician
+    text: Good. And the other medicines, the aspirin, clopidogrel and metoprolol, you're still taking those?
+  - speaker: patient
+    text: Aspirin 81 once a day, clopidogrel 75 once a day, and the metoprolol, 25 milligrams once a day. I haven't missed any of those.
+  - speaker: clinician
+    text: Great. Any bleeding or bruising on the two blood thinners?
+  - speaker: patient
+    text: Some small bruises on my arms. Nothing serious.
+  - speaker: clinician
+    text: That's common on those two. And you're still allergic to sulfa drugs?
+  - speaker: patient
+    text: Yes, I get a rash all over.
+  - speaker: clinician
+    text: Okay. Your blood pressure today is 124 over 76, pulse 62. Heart has a regular rhythm, no murmur. Lungs are clear. The spot on your right wrist where we put the catheter in is well healed. No tenderness in your thigh or calf muscles, and your leg strength is normal.
+  - speaker: patient
+    text: Good.
+  - speaker: clinician
+    text: Your labs from last week, so after about 2 weeks off the statin, show an LDL of 118. For someone with a stent, we want the LDL under 55, so that's well above goal. Your CK, the muscle enzyme, was normal at 145, and your liver tests were normal.
+  - speaker: patient
+    text: So what now? I really don't want those aches back.
+  - speaker: clinician
+    text: Totally understandable. Muscle aches on statins are common, and a lot of people do fine on a different statin at a lower dose. So I'd like to start rosuvastatin, 5 milligrams once a day. And I'm adding ezetimibe, 10 milligrams once a day. It blocks cholesterol absorption in the gut, and it doesn't cause muscle aches.
+  - speaker: patient
+    text: Two new pills, huh?
+  - speaker: clinician
+    text: Yes, but together they should get you close to goal. If the aches come back, stop the rosuvastatin and send me a message, but keep taking the ezetimibe.
+  - speaker: patient
+    text: Okay, that I can do.
+  - speaker: clinician
+    text: We'll recheck a lipid panel and liver tests in 8 weeks. If your LDL is still above 55 after that, there are injectable cholesterol medicines we could talk about, but let's not get ahead of ourselves.
+  - speaker: patient
+    text: Fair enough.
+  - speaker: clinician
+    text: Keep taking the aspirin and the clopidogrel through February, that's 12 months after the stent, and please don't stop the clopidogrel without talking to us first. Keep the metoprolol the same, and keep up the walking.
+  - speaker: patient
+    text: Will do.
+  - speaker: clinician
+    text: So to sum up, you have coronary artery disease with a stent, which is stable, and high LDL cholesterol not at goal because you couldn't tolerate the atorvastatin. I'll see you back in 3 months.
+  - speaker: patient
+    text: Thanks, Dr. Byrne.
+gold:
+  facts:
+    - id: f1
+      section: subjective
+      text: Coronary stent placed about 8 months ago (February)
+      polarity: present
+      evidence: "it's been about 8 months since your stent on February 11th"
+      match: [["stent", "pci", "angioplasty"]]
+    - id: f2
+      section: subjective
+      text: No chest pain since the stent
+      polarity: absent
+      evidence: "No chest pain at all since the stent."
+      match: [["chest pain", "angina"]]
+    - id: f3
+      section: subjective
+      text: Completed cardiac rehab in June; walks 30 minutes most days
+      polarity: present
+      evidence: "I finished cardiac rehab in June, and I'm walking 30 minutes most days."
+      match: [["rehab", "walk", "exercis"]]
+    - id: f4
+      section: subjective
+      text: No exertional shortness of breath
+      polarity: absent
+      evidence: "Any shortness of breath with the walking?"
+      match: [["shortness of breath", "dyspnea", "sob", "short of breath"]]
+    - id: f5
+      section: subjective
+      text: Bilateral thigh and calf myalgias on atorvastatin 80 mg, starting about 2 months after hospitalization
+      polarity: present
+      evidence: "my thighs and calves were aching, both legs"
+      match: [["myalgia", "ache", "aching", "muscle pain", "muscle"]]
+    - id: f6
+      section: subjective
+      text: Self-discontinued atorvastatin about 3 weeks ago
+      polarity: present
+      evidence: "about 3 weeks ago I just stopped taking it"
+      match: [["atorvastatin", "lipitor", "statin"], ["stop", "discontinu", "self"]]
+    - id: f7
+      section: subjective
+      text: Muscle aches about 90% improved since stopping
+      polarity: present
+      evidence: "Much better. Maybe 90 percent gone."
+      match: [["90", "improv", "better", "resolv"]]
+    - id: f8
+      section: subjective
+      text: No muscle weakness or dark urine
+      polarity: absent
+      evidence: "Any muscle weakness, trouble getting up from a chair, or dark, cola colored urine?"
+      match: [["weakness", "dark urine", "cola", "urine"]]
+    - id: f9
+      section: subjective
+      text: Adherent to aspirin, clopidogrel and metoprolol
+      polarity: present
+      evidence: "I haven't missed any of those."
+      match: [["clopidogrel", "plavix", "aspirin", "metoprolol"]]
+    - id: f10
+      section: subjective
+      text: Minor bruising on arms on dual antiplatelet therapy, no significant bleeding
+      polarity: present
+      evidence: "Some small bruises on my arms."
+      match: [["bruis"]]
+    - id: f11
+      section: subjective
+      text: Sulfa allergy causing generalized rash
+      polarity: present
+      evidence: "Yes, I get a rash all over."
+      match: [["sulfa", "sulfonamide"]]
+    - id: f12
+      section: objective
+      text: Blood pressure 124/76, pulse 62
+      polarity: present
+      evidence: "Your blood pressure today is 124 over 76, pulse 62."
+      match: [["124"], ["76"]]
+    - id: f13
+      section: objective
+      text: Regular rhythm, no murmur
+      polarity: absent
+      evidence: "Heart has a regular rhythm, no murmur."
+      match: [["murmur"]]
+    - id: f14
+      section: objective
+      text: Lungs clear
+      polarity: present
+      evidence: "Lungs are clear."
+      match: [["lung"], ["clear"]]
+    - id: f15
+      section: objective
+      text: Right radial access site well healed
+      polarity: present
+      evidence: "The spot on your right wrist where we put the catheter in is well healed."
+      match: [["wrist", "radial", "access site", "catheter"]]
+    - id: f16
+      section: objective
+      text: No thigh or calf muscle tenderness; normal leg strength
+      polarity: absent
+      evidence: "No tenderness in your thigh or calf muscles"
+      match: [["tender"]]
+    - id: f17
+      section: objective
+      text: LDL 118 after 2 weeks off statin
+      polarity: present
+      evidence: "show an LDL of 118"
+      match: [["ldl"], ["118"]]
+    - id: f18
+      section: objective
+      text: CK normal at 145; liver tests normal
+      polarity: present
+      evidence: "Your CK, the muscle enzyme, was normal at 145"
+      match: [["ck", "creatine kinase", "cpk"], ["145"]]
+    - id: f19
+      section: assessment
+      text: Stable coronary artery disease status post stent
+      polarity: present
+      evidence: "you have coronary artery disease with a stent, which is stable"
+      match: [["coronary artery disease", "cad", "coronary"]]
+    - id: f20
+      section: assessment
+      text: Hyperlipidemia with LDL above goal of under 55 due to statin intolerance (atorvastatin-associated myalgias)
+      polarity: present
+      evidence: "high LDL cholesterol not at goal because you couldn't tolerate the atorvastatin"
+      match: [["ldl", "hyperlipidemia", "cholesterol", "dyslipidemia"], ["goal", "intoleran", "55"]]
+    - id: f21
+      section: plan
+      text: Start rosuvastatin 5 mg daily
+      polarity: present
+      evidence: "I'd like to start rosuvastatin, 5 milligrams once a day"
+      match: [["rosuvastatin", "crestor"], ["5 mg", "5 milligram", "5mg"]]
+    - id: f22
+      section: plan
+      text: Start ezetimibe 10 mg daily
+      polarity: present
+      evidence: "I'm adding ezetimibe, 10 milligrams once a day"
+      match: [["ezetimibe", "zetia"]]
+    - id: f23
+      section: plan
+      text: If myalgias recur, stop rosuvastatin and message clinic but continue ezetimibe
+      polarity: present
+      evidence: "If the aches come back, stop the rosuvastatin and send me a message"
+      match: [["ache", "myalgia", "symptoms recur", "recur"]]
+    - id: f24
+      section: plan
+      text: Repeat lipid panel and liver tests in 8 weeks
+      polarity: present
+      evidence: "We'll recheck a lipid panel and liver tests in 8 weeks."
+      match: [["lipid", "ldl"], ["8 weeks", "eight weeks", "8 wk"]]
+    - id: f25
+      section: plan
+      text: Continue aspirin and clopidogrel through February (12 months post stent), do not stop clopidogrel without discussing
+      polarity: present
+      evidence: "Keep taking the aspirin and the clopidogrel through February, that's 12 months after the stent"
+      match: [["clopidogrel", "plavix", "dapt", "dual antiplatelet"]]
+    - id: f26
+      section: plan
+      text: Continue metoprolol; continue walking program
+      polarity: present
+      evidence: "Keep the metoprolol the same, and keep up the walking."
+      match: [["metoprolol", "walking", "exercise"]]
+    - id: f27
+      section: plan
+      text: Follow-up in 3 months
+      polarity: present
+      evidence: "I'll see you back in 3 months."
+      match: [["3 months", "three months", "3 mo"]]
+  medications:
+    - {name: atorvastatin, dose: 80 mg, frequency: once daily, route: oral, status: stopped, evidence: "about 3 weeks ago I just stopped taking it"}
+    - {name: aspirin, dose: 81 mg, frequency: once daily, route: oral, status: active, evidence: "Aspirin 81 once a day"}
+    - {name: clopidogrel, dose: 75 mg, frequency: once daily, route: oral, status: active, evidence: "clopidogrel 75 once a day"}
+    - {name: metoprolol, dose: 25 mg, frequency: once daily, route: oral, status: active, evidence: "the metoprolol, 25 milligrams once a day"}
+    - {name: rosuvastatin, dose: 5 mg, frequency: once daily, route: oral, status: new, evidence: "I'd like to start rosuvastatin, 5 milligrams once a day"}
+    - {name: ezetimibe, dose: 10 mg, frequency: once daily, route: oral, status: new, evidence: "I'm adding ezetimibe, 10 milligrams once a day"}
+  allergies:
+    - {substance: sulfa drugs, reaction: generalized rash, evidence: "Yes, I get a rash all over."}
+  diagnoses:
+    - code: E78.5
+      description: Hyperlipidemia, unspecified
+      primary: true
+      evidence: "high LDL cholesterol not at goal"
+      alternatives: [E78.00]
+    - code: I25.10
+      description: Atherosclerotic heart disease of native coronary artery without angina pectoris
+      evidence: "you have coronary artery disease with a stent, which is stable"
+    - code: Z95.5
+      description: Presence of coronary angioplasty implant and graft
+      evidence: "since your stent on February 11th"
+    - code: Z79.02
+      description: Long term (current) use of antithrombotics/antiplatelets
+      evidence: "Keep taking the aspirin and the clopidogrel through February"
+  em_code: "99214"
+  em_rationale: Chronic illness with side effects of treatment (statin intolerance, LDL not at goal) plus stable CAD, review of lipid, CK and liver results, and prescription drug management with two new medications (moderate MDM).
+  procedures: []
+  phi:
+    - {type: NAME, value: Dr. Siobhan Byrne, who: clinician}
+    - {type: NAME, value: Dr. Byrne, who: clinician}
+    - {type: NAME, value: Khalid Mansour, who: patient}
+    - {type: NAME, value: Mr. Mansour, who: patient}
+    - {type: DATE, value: "September 8th, 1967", who: patient}
+    - {type: ID, value: K as in kilo 7 3 0 9 2 5 8, who: patient}
+    - {type: DATE, value: February 11th, who: patient}
+    - {type: ORG, value: Roosevelt High School, who: patient}
+traps:
+  - type: correction
+    text: Atorvastatin dose first said as 40 mg, corrected to 80 mg
+    evidence: "40 milligrams. No, wait, it's the big one."
+    match: [["atorvastatin", "lipitor"], ["40 mg", "40 milligram"]]
+  - type: hypothetical
+    text: Injectable cholesterol medicine is only a future option if LDL stays above goal, not started today
+    evidence: "there are injectable cholesterol medicines we could talk about"
+    match: [["pcsk9", "evolocumab", "alirocumab", "repatha", "praluent", "inclisiran", "injectable"]]
+  - type: small_talk
+    text: Teaching chemistry and the kids at school is small talk
+    evidence: "The kids at Roosevelt High School keep me moving too, I teach chemistry there."
+    match: [["chemistry", "teach", "kids"]]

@@ -1,0 +1,296 @@
+id: dm-05
+specialty: dermatology
+title: Uncontrolled plaque psoriasis with biologic planning
+visit_type: established
+visit_date: "2026-10-08"
+patient:
+  name: Oksana Kovalenko
+  dob: "1979-08-30"
+  sex: female
+  phone: 555-0134
+  address: 2250 Riverside Drive, Columbus, OH 43221
+clinician:
+  name: Dr. Priyanka Nair
+  role: dermatologist
+speakers:
+  clinician: {sex: female}
+  patient: {sex: female}
+dialogue:
+  - speaker: clinician
+    text: "Hi Oksana, come on in. Before anything else, can you give me your full name and date of birth?"
+  - speaker: patient
+    text: "Oksana Kovalenko, August 30th, 1979."
+  - speaker: clinician
+    text: "Thank you. How's the psoriasis been?"
+  - speaker: patient
+    text: "Honestly, worse. Over the last 4 months it's spread. My elbows and knees are bad again, there's a big patch on my lower back, and my scalp itches like crazy. I've had this for 8 years and this is the worst it's been."
+  - speaker: clinician
+    text: "I'm sorry. Are you still using the clobetasol ointment?"
+  - speaker: patient
+    text: "Yes, twice a day on the worst spots. It helps for a few days and then it all comes back."
+  - speaker: clinician
+    text: "And the methotrexate from last spring?"
+  - speaker: patient
+    text: "I stopped that on my own in June. I was on 10 milligrams a week. No, wait, it was 15, 6 of the little 2.5 pills. It made me so nauseous and my hair got thin."
+  - speaker: clinician
+    text: "Okay, that's helpful, thank you for telling me. Let me ask about your joints. Any joint pain or swelling?"
+  - speaker: patient
+    text: "No."
+  - speaker: clinician
+    text: "Stiffness in the morning? Sausage-like swelling of a finger or toe? Heel pain?"
+  - speaker: patient
+    text: "No, none of that. My mom had rheumatoid arthritis in her hands, so I'd notice, believe me."
+  - speaker: clinician
+    text: "Good. Other medicines?"
+  - speaker: patient
+    text: "Amlodipine, 5 milligrams every morning for blood pressure. That's it."
+  - speaker: clinician
+    text: "And you're allergic to sulfa, right?"
+  - speaker: patient
+    text: "Yes, I get a rash all over."
+  - speaker: clinician
+    text: "Still not smoking?"
+  - speaker: patient
+    text: "3 years quit now."
+  - speaker: clinician
+    text: "That's great. Okay, let me look. On both elbows there are well-defined red plaques with thick silvery scale, the right one is about 8 by 6 centimeters. Similar plaques on both knees. On the lower back there's a 10 by 7 centimeter plaque. On the scalp, red scaly plaques behind both ears and along the hairline. I see pitting on 3 of your fingernails. Your finger joints aren't swollen or tender, and no swollen fingers or toes. Overall about 12 percent of your body surface."
+  - speaker: patient
+    text: "Twelve percent. That sounds like a lot."
+  - speaker: clinician
+    text: "It is. So this is moderate to severe plaque psoriasis that isn't controlled with creams, and methotrexate didn't work out for you. I think you're a really good candidate for a biologic. The one I'd recommend is risankizumab. It's an injection under the skin, 150 milligrams, given at week 0, week 4, and then just every 12 weeks."
+  - speaker: patient
+    text: "Every 12 weeks? That's not bad. What are the risks?"
+  - speaker: clinician
+    text: "It calms down part of the immune system, so there's a slightly higher chance of infections like colds. Serious problems are rare. Before we start, I need a TB blood test, hepatitis B and C tests, a blood count and a metabolic panel. You should also avoid live vaccines once you're on it, so getting your flu shot this fall is a good idea."
+  - speaker: patient
+    text: "Okay. Can I do the blood work at the lab by my house? It's at 2250 Riverside Drive."
+  - speaker: clinician
+    text: "Absolutely, I'll send the orders there. We'll also need a prior authorization from your insurance. Do you have your card?"
+  - speaker: patient
+    text: "Yeah, member ID is K as in kilo 7 0 3 9 2 1 5."
+  - speaker: clinician
+    text: "Got it. In the meantime, keep the clobetasol ointment twice a day on the body plaques, but only 2 weeks at a time, then a week off, so the skin doesn't thin. For your scalp, I'm adding clobetasol 0.05 percent solution, once a day at night."
+  - speaker: patient
+    text: "Okay. My husband Taras will be thrilled, he's tired of the flakes on the couch."
+  - speaker: clinician
+    text: "Ha. And if you ever do get joint pain, swelling, or morning stiffness, tell me right away, because psoriasis can affect the joints and that changes treatment. Best number to reach you with lab results?"
+  - speaker: patient
+    text: "555-0134."
+  - speaker: clinician
+    text: "Great. Once the labs and insurance approval come back, we'll have you in for the first injection and teach you how to do it. Otherwise follow-up in 6 weeks."
+  - speaker: patient
+    text: "Thank you, Dr. Nair. I'm actually hopeful."
+gold:
+  facts:
+    - id: f1
+      section: subjective
+      text: Psoriasis for 8 years, spreading and worsening over the last 4 months
+      polarity: present
+      evidence: Over the last 4 months it's spread.
+      match: [["spread", "worse", "worsen", "flare"], ["4 months", "four months"]]
+    - id: f2
+      section: subjective
+      text: Involves elbows, knees, lower back, with itchy scalp
+      polarity: present
+      evidence: My elbows and knees are bad again, there's a big patch on my lower back, and my scalp itches like crazy.
+      match: [["scalp"], ["itch", "prurit"]]
+    - id: f3
+      section: subjective
+      text: Using clobetasol ointment twice daily with only temporary benefit
+      polarity: present
+      evidence: Yes, twice a day on the worst spots. It helps for a few days and then it all comes back.
+      match: [["clobetasol"]]
+    - id: f4
+      section: subjective
+      text: Stopped methotrexate 15 mg weekly on her own in June due to nausea and hair thinning
+      polarity: present
+      evidence: I stopped that on my own in June.
+      match: [["methotrexate"], ["stop", "discontinu", "nause", "hair"]]
+    - id: f5
+      section: subjective
+      text: Methotrexate dose was 15 mg weekly (6 tablets of 2.5 mg)
+      polarity: present
+      evidence: No, wait, it was 15, 6 of the little 2.5 pills.
+      match: [["methotrexate"], ["15"]]
+    - id: f6
+      section: subjective
+      text: Denies joint pain or swelling
+      polarity: absent
+      evidence: Any joint pain or swelling?
+      match: [["joint", "arthralg"]]
+    - id: f7
+      section: subjective
+      text: Denies morning stiffness
+      polarity: absent
+      evidence: Stiffness in the morning?
+      match: [["stiff"]]
+    - id: f8
+      section: subjective
+      text: Denies dactylitis
+      polarity: absent
+      evidence: Sausage-like swelling of a finger or toe?
+      match: [["dactylitis", "sausage"]]
+    - id: f9
+      section: subjective
+      text: Denies heel pain
+      polarity: absent
+      evidence: Heel pain?
+      match: [["heel", "enthes"]]
+    - id: f10
+      section: subjective
+      text: Mother had rheumatoid arthritis
+      polarity: present
+      evidence: My mom had rheumatoid arthritis in her hands
+      match: [["rheumatoid"], ["mother", "mom", "family"]]
+    - id: f11
+      section: subjective
+      text: Takes amlodipine 5 mg every morning for hypertension
+      polarity: present
+      evidence: Amlodipine, 5 milligrams every morning for blood pressure.
+      match: [["amlodipine", "norvasc"], ["5"]]
+    - id: f12
+      section: subjective
+      text: Sulfa allergy with generalized rash
+      polarity: present
+      evidence: Yes, I get a rash all over.
+      match: [["sulfa", "sulfonamide"]]
+    - id: f13
+      section: subjective
+      text: Former smoker, quit 3 years ago
+      polarity: present
+      evidence: 3 years quit now.
+      match: [["smok", "tobacco", "cigarette"], ["3 years", "three years", "former", "quit"]]
+    - id: f14
+      section: objective
+      text: Well-defined red plaques with thick silvery scale on both elbows, right about 8 by 6 cm, and both knees
+      polarity: present
+      evidence: On both elbows there are well-defined red plaques with thick silvery scale, the right one is about 8 by 6 centimeters.
+      match: [["elbow"], ["8 by 6", "8 x 6", "8x6", "plaque", "silver"]]
+    - id: f15
+      section: objective
+      text: 10 by 7 cm plaque on the lower back
+      polarity: present
+      evidence: On the lower back there's a 10 by 7 centimeter plaque.
+      match: [["back", "lumbar"], ["10 by 7", "10 x 7", "10x7"]]
+    - id: f16
+      section: objective
+      text: Red scaly scalp plaques behind both ears and along the hairline
+      polarity: present
+      evidence: On the scalp, red scaly plaques behind both ears and along the hairline.
+      match: [["scalp", "hairline", "ear"]]
+    - id: f17
+      section: objective
+      text: Pitting of 3 fingernails
+      polarity: present
+      evidence: I see pitting on 3 of your fingernails.
+      match: [["pit"], ["nail"]]
+    - id: f18
+      section: objective
+      text: No finger joint swelling or tenderness and no dactylitis on exam
+      polarity: absent
+      evidence: Your finger joints aren't swollen or tender, and no swollen fingers or toes.
+      match: [["joint", "synovitis", "dactylitis"]]
+    - id: f19
+      section: objective
+      text: About 12% body surface area involved
+      polarity: present
+      evidence: Overall about 12 percent of your body surface.
+      match: [["12%", "12 percent", "12 %", "twelve percent"]]
+    - id: f20
+      section: assessment
+      text: Moderate to severe plaque psoriasis, not controlled with topicals, failed methotrexate due to side effects
+      polarity: present
+      evidence: So this is moderate to severe plaque psoriasis that isn't controlled with creams
+      match: [["psoriasis"], ["moderate", "severe", "plaque", "uncontrolled", "not controlled"]]
+    - id: f21
+      section: assessment
+      text: Good candidate for biologic therapy
+      polarity: present
+      evidence: I think you're a really good candidate for a biologic.
+      match: [["biologic", "risankizumab", "skyrizi"]]
+    - id: f22
+      section: plan
+      text: Plan to start risankizumab 150 mg subcutaneously at week 0, week 4, then every 12 weeks
+      polarity: present
+      evidence: It's an injection under the skin, 150 milligrams, given at week 0, week 4, and then just every 12 weeks.
+      match: [["risankizumab", "skyrizi"], ["150", "12 weeks", "every 12"]]
+    - id: f23
+      section: plan
+      text: Counseled on increased infection risk, avoid live vaccines, get flu shot this fall
+      polarity: present
+      evidence: You should also avoid live vaccines once you're on it
+      match: [["infection", "live vaccine", "flu"]]
+    - id: f24
+      section: plan
+      text: Pre-biologic labs ordered - TB blood test, hepatitis B and C, CBC, metabolic panel - at lab on Riverside Drive
+      polarity: present
+      evidence: I need a TB blood test, hepatitis B and C tests, a blood count and a metabolic panel.
+      match: [["tb", "tuberculosis", "quantiferon", "hepatitis", "cbc", "blood count", "metabolic"]]
+    - id: f25
+      section: plan
+      text: Prior authorization to be submitted to insurance
+      polarity: present
+      evidence: We'll also need a prior authorization from your insurance.
+      match: [["prior auth", "authorization", "insurance"]]
+    - id: f26
+      section: plan
+      text: Continue clobetasol ointment twice daily to body plaques, 2 weeks on and 1 week off
+      polarity: present
+      evidence: keep the clobetasol ointment twice a day on the body plaques, but only 2 weeks at a time, then a week off
+      match: [["clobetasol"], ["2 weeks", "two weeks", "week off", "twice"]]
+    - id: f27
+      section: plan
+      text: Start clobetasol 0.05% solution to scalp once nightly
+      polarity: present
+      evidence: For your scalp, I'm adding clobetasol 0.05 percent solution, once a day at night.
+      match: [["scalp"], ["solution", "clobetasol"]]
+    - id: f28
+      section: plan
+      text: Report any joint pain, swelling or morning stiffness promptly
+      polarity: present
+      evidence: if you ever do get joint pain, swelling, or morning stiffness, tell me right away
+      match: [["joint", "stiff", "arthritis"]]
+    - id: f29
+      section: plan
+      text: First injection with teaching once labs and approval are back; otherwise follow-up in 6 weeks
+      polarity: present
+      evidence: Otherwise follow-up in 6 weeks.
+      match: [["follow", "return"], ["6 weeks", "six weeks"]]
+  medications:
+    - {name: clobetasol, dose: 0.05% ointment, frequency: twice daily, 2 weeks on then 1 week off, route: topical, status: changed, evidence: "keep the clobetasol ointment twice a day on the body plaques, but only 2 weeks at a time, then a week off"}
+    - {name: clobetasol, dose: 0.05% solution, frequency: once nightly to scalp, route: topical, status: new, evidence: "I'm adding clobetasol 0.05 percent solution, once a day at night."}
+    - {name: methotrexate, dose: 15 mg, frequency: once weekly, route: oral, status: stopped, evidence: "I stopped that on my own in June."}
+    - {name: amlodipine, dose: 5 mg, frequency: once daily in the morning, route: oral, status: active, evidence: "Amlodipine, 5 milligrams every morning for blood pressure."}
+    - {name: risankizumab, dose: 150 mg, frequency: week 0, week 4, then every 12 weeks (pending labs and authorization), route: injection, status: new, evidence: "It's an injection under the skin, 150 milligrams, given at week 0, week 4, and then just every 12 weeks."}
+  allergies:
+    - {substance: sulfa drugs, reaction: generalized rash, evidence: "Yes, I get a rash all over."}
+  diagnoses:
+    - code: L40.0
+      description: Psoriasis vulgaris
+      primary: true
+      evidence: So this is moderate to severe plaque psoriasis that isn't controlled with creams
+  em_code: "99214"
+  em_rationale: Chronic illness with progression, labs ordered, and prescription drug management including biologic planning (moderate risk), so moderate MDM for an established patient.
+  procedures: []
+  phi:
+    - {type: NAME, value: Oksana, who: patient}
+    - {type: NAME, value: Oksana Kovalenko, who: patient}
+    - {type: DATE, value: "August 30th, 1979", who: patient}
+    - {type: ADDRESS, value: 2250 Riverside Drive, who: other}
+    - {type: ID, value: K as in kilo 7 0 3 9 2 1 5, who: patient}
+    - {type: NAME, value: Taras, who: relative}
+    - {type: PHONE, value: 555-0134, who: patient}
+    - {type: NAME, value: Dr. Nair, who: clinician}
+traps:
+  - type: correction
+    text: Methotrexate dose first said as 10 mg weekly, corrected to 15 mg
+    evidence: I was on 10 milligrams a week.
+    match: [["methotrexate"], ["10 mg", "10 milligram"]]
+  - type: family_history
+    text: Mother had rheumatoid arthritis; patient has no arthritis
+    evidence: My mom had rheumatoid arthritis in her hands
+    match: [["rheumatoid"]]
+  - type: hypothetical
+    text: Psoriatic arthritis only mentioned as something to report if joint symptoms develop
+    evidence: psoriasis can affect the joints and that changes treatment
+    match: [["psoriatic arthritis", "psoriatic arthropathy"]]

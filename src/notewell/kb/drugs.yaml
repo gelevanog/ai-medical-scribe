@@ -1,0 +1,183 @@
+# Notewell's small open drug list for medication sanity checks in the demo. NOT a clinical reference.
+# Curated for this repository from general prescribing knowledge and FDA-approved labeling (DailyMed / openFDA,
+# US government works). Adult single-dose ranges and maximum daily doses are deliberately generous orientation
+# values for catching transcription and model errors (a decimal slip, mg vs mcg), not dosing guidance.
+# Fields: name (generic, lowercase), brands, classes (for allergy and duplicate checks), units, routes,
+# dose [min, max] per administration in the first unit, max_daily, peds_mg_kg_day [min, max] where weight-based.
+- {name: acetaminophen, brands: [tylenol, paracetamol], classes: [analgesic], units: [mg], routes: [oral, rectal], dose: [160, 1000], max_daily: 4000, peds_mg_kg_dose: [10, 15], peds_max_mg_kg_day: 75}
+- {name: ibuprofen, brands: [advil, motrin], classes: [nsaid], units: [mg], routes: [oral], dose: [50, 800], max_daily: 3200, peds_mg_kg_dose: [5, 10], peds_max_mg_kg_day: 40}
+- {name: naproxen, brands: [aleve, naprosyn], classes: [nsaid], units: [mg], routes: [oral], dose: [220, 550], max_daily: 1500}
+- {name: meloxicam, brands: [mobic], classes: [nsaid], units: [mg], routes: [oral], dose: [7.5, 15], max_daily: 15}
+- {name: celecoxib, brands: [celebrex], classes: [nsaid], units: [mg], routes: [oral], dose: [100, 200], max_daily: 400}
+- {name: aspirin, brands: [ecotrin, bayer], classes: [nsaid, antiplatelet], units: [mg], routes: [oral], dose: [81, 1000], max_daily: 4000}
+- {name: cyclobenzaprine, brands: [flexeril], classes: [muscle_relaxant], units: [mg], routes: [oral], dose: [5, 10], max_daily: 30}
+- {name: tramadol, brands: [ultram], classes: [opioid], units: [mg], routes: [oral], dose: [25, 100], max_daily: 400}
+- {name: gabapentin, brands: [neurontin], classes: [anticonvulsant], units: [mg], routes: [oral], dose: [100, 1200], max_daily: 3600}
+- {name: lisinopril, brands: [zestril, prinivil], classes: [ace_inhibitor], units: [mg], routes: [oral], dose: [2.5, 40], max_daily: 80}
+- {name: enalapril, brands: [vasotec], classes: [ace_inhibitor], units: [mg], routes: [oral], dose: [2.5, 20], max_daily: 40}
+- {name: losartan, brands: [cozaar], classes: [arb], units: [mg], routes: [oral], dose: [25, 100], max_daily: 100}
+- {name: valsartan, brands: [diovan], classes: [arb], units: [mg], routes: [oral], dose: [40, 320], max_daily: 320}
+- {name: sacubitril-valsartan, brands: [entresto], classes: [arni], units: [mg], routes: [oral], dose: [24, 103], max_daily: 206}
+- {name: amlodipine, brands: [norvasc], classes: [calcium_channel_blocker], units: [mg], routes: [oral], dose: [2.5, 10], max_daily: 10}
+- {name: diltiazem, brands: [cardizem], classes: [calcium_channel_blocker], units: [mg], routes: [oral], dose: [30, 360], max_daily: 480}
+- {name: hydrochlorothiazide, brands: [microzide], classes: [thiazide], units: [mg], routes: [oral], dose: [12.5, 50], max_daily: 50}
+- {name: chlorthalidone, brands: [thalitone], classes: [thiazide], units: [mg], routes: [oral], dose: [12.5, 50], max_daily: 50}
+- {name: furosemide, brands: [lasix], classes: [loop_diuretic], units: [mg], routes: [oral, intravenous], dose: [10, 160], max_daily: 600}
+- {name: torsemide, brands: [demadex, soaanz], classes: [loop_diuretic], units: [mg], routes: [oral], dose: [5, 100], max_daily: 200}
+- {name: spironolactone, brands: [aldactone], classes: [mra], units: [mg], routes: [oral], dose: [12.5, 100], max_daily: 400}
+- {name: metoprolol succinate, brands: [toprol, toprol xl], classes: [beta_blocker], units: [mg], routes: [oral], dose: [12.5, 200], max_daily: 400}
+- {name: metoprolol tartrate, brands: [lopressor], classes: [beta_blocker], units: [mg], routes: [oral], dose: [12.5, 200], max_daily: 450}
+- {name: metoprolol, brands: [], classes: [beta_blocker], units: [mg], routes: [oral], dose: [12.5, 200], max_daily: 450}
+- {name: carvedilol, brands: [coreg], classes: [beta_blocker], units: [mg], routes: [oral], dose: [3.125, 50], max_daily: 100}
+- {name: atenolol, brands: [tenormin], classes: [beta_blocker], units: [mg], routes: [oral], dose: [25, 100], max_daily: 100}
+- {name: propranolol, brands: [inderal], classes: [beta_blocker], units: [mg], routes: [oral], dose: [10, 160], max_daily: 640}
+- {name: apixaban, brands: [eliquis], classes: [anticoagulant], units: [mg], routes: [oral], dose: [2.5, 10], max_daily: 20}
+- {name: rivaroxaban, brands: [xarelto], classes: [anticoagulant], units: [mg], routes: [oral], dose: [2.5, 20], max_daily: 30}
+- {name: warfarin, brands: [coumadin, jantoven], classes: [anticoagulant], units: [mg], routes: [oral], dose: [0.5, 10], max_daily: 15}
+- {name: clopidogrel, brands: [plavix], classes: [antiplatelet], units: [mg], routes: [oral], dose: [75, 600], max_daily: 600}
+- {name: ticagrelor, brands: [brilinta], classes: [antiplatelet], units: [mg], routes: [oral], dose: [60, 180], max_daily: 180}
+- {name: nitroglycerin, brands: [nitrostat], classes: [nitrate], units: [mg], routes: [sublingual], dose: [0.3, 0.6], max_daily: 1.8}
+- {name: atorvastatin, brands: [lipitor], classes: [statin], units: [mg], routes: [oral], dose: [10, 80], max_daily: 80}
+- {name: rosuvastatin, brands: [crestor], classes: [statin], units: [mg], routes: [oral], dose: [5, 40], max_daily: 40}
+- {name: simvastatin, brands: [zocor], classes: [statin], units: [mg], routes: [oral], dose: [5, 40], max_daily: 40}
+- {name: pravastatin, brands: [pravachol], classes: [statin], units: [mg], routes: [oral], dose: [10, 80], max_daily: 80}
+- {name: ezetimibe, brands: [zetia], classes: [cholesterol_absorption_inhibitor], units: [mg], routes: [oral], dose: [10, 10], max_daily: 10}
+- {name: evolocumab, brands: [repatha], classes: [pcsk9_inhibitor], units: [mg], routes: [injection], dose: [140, 420], max_daily: 420}
+- {name: metformin, brands: [glucophage], classes: [biguanide], units: [mg], routes: [oral], dose: [500, 1000], max_daily: 2550}
+- {name: empagliflozin, brands: [jardiance], classes: [sglt2_inhibitor], units: [mg], routes: [oral], dose: [10, 25], max_daily: 25}
+- {name: dapagliflozin, brands: [farxiga], classes: [sglt2_inhibitor], units: [mg], routes: [oral], dose: [5, 10], max_daily: 10}
+- {name: sitagliptin, brands: [januvia], classes: [dpp4_inhibitor], units: [mg], routes: [oral], dose: [25, 100], max_daily: 100}
+- {name: glipizide, brands: [glucotrol], classes: [sulfonylurea], units: [mg], routes: [oral], dose: [2.5, 20], max_daily: 40}
+- {name: semaglutide, brands: [ozempic, wegovy, rybelsus], classes: [glp1_agonist], units: [mg], routes: [injection, oral], dose: [0.25, 14], max_daily: 14}
+- {name: dulaglutide, brands: [trulicity], classes: [glp1_agonist], units: [mg], routes: [injection], dose: [0.75, 4.5], max_daily: 4.5}
+- {name: tirzepatide, brands: [mounjaro, zepbound], classes: [glp1_agonist], units: [mg], routes: [injection], dose: [2.5, 15], max_daily: 15}
+- {name: insulin glargine, brands: [lantus, basaglar, toujeo, semglee], classes: [insulin], units: [units], routes: [injection], dose: [2, 100], max_daily: 300}
+- {name: insulin lispro, brands: [humalog, admelog], classes: [insulin], units: [units], routes: [injection], dose: [1, 50], max_daily: 300}
+- {name: levothyroxine, brands: [synthroid, levoxyl, unithroid, euthyrox], classes: [thyroid_hormone], units: [mcg], routes: [oral], dose: [12.5, 300], max_daily: 300}
+- {name: omeprazole, brands: [prilosec], classes: [ppi], units: [mg], routes: [oral], dose: [10, 40], max_daily: 80}
+- {name: pantoprazole, brands: [protonix], classes: [ppi], units: [mg], routes: [oral], dose: [20, 40], max_daily: 80}
+- {name: famotidine, brands: [pepcid], classes: [h2_blocker], units: [mg], routes: [oral], dose: [10, 40], max_daily: 80}
+- {name: ondansetron, brands: [zofran], classes: [antiemetic], units: [mg], routes: [oral], dose: [2, 8], max_daily: 24}
+- {name: amoxicillin, brands: [amoxil], classes: [penicillin, beta_lactam], units: [mg], routes: [oral], dose: [125, 1000], max_daily: 4000, peds_mg_kg_day: [20, 100]}
+- {name: amoxicillin-clavulanate, brands: [augmentin], classes: [penicillin, beta_lactam], units: [mg], routes: [oral], dose: [125, 2000], max_daily: 4000, peds_mg_kg_day: [20, 90]}
+- {name: penicillin v, brands: [], classes: [penicillin, beta_lactam], units: [mg], routes: [oral], dose: [125, 500], max_daily: 2000, peds_mg_kg_day: [25, 75]}
+- {name: cephalexin, brands: [keflex], classes: [cephalosporin, beta_lactam], units: [mg], routes: [oral], dose: [125, 1000], max_daily: 4000, peds_mg_kg_day: [25, 100]}
+- {name: cefdinir, brands: [omnicef], classes: [cephalosporin, beta_lactam], units: [mg], routes: [oral], dose: [125, 600], max_daily: 600, peds_mg_kg_day: [7, 14]}
+- {name: azithromycin, brands: [zithromax, z-pak, zpack], classes: [macrolide], units: [mg], routes: [oral], dose: [100, 2000], max_daily: 2000, peds_mg_kg_day: [5, 12]}
+- {name: doxycycline, brands: [vibramycin, doryx, acticlate], classes: [tetracycline], units: [mg], routes: [oral], dose: [20, 200], max_daily: 200}
+- {name: minocycline, brands: [minocin, solodyn], classes: [tetracycline], units: [mg], routes: [oral], dose: [45, 135], max_daily: 200}
+- {name: sulfamethoxazole-trimethoprim, brands: [bactrim, septra], classes: [sulfonamide], units: [mg], routes: [oral], dose: [400, 1600], max_daily: 3200}
+- {name: nitrofurantoin, brands: [macrobid, macrodantin], classes: [nitrofuran], units: [mg], routes: [oral], dose: [50, 100], max_daily: 400}
+- {name: ciprofloxacin, brands: [cipro], classes: [fluoroquinolone], units: [mg], routes: [oral], dose: [250, 750], max_daily: 1500}
+- {name: fluconazole, brands: [diflucan], classes: [azole_antifungal], units: [mg], routes: [oral], dose: [50, 400], max_daily: 800}
+- {name: oseltamivir, brands: [tamiflu], classes: [antiviral], units: [mg], routes: [oral], dose: [30, 75], max_daily: 150}
+- {name: valacyclovir, brands: [valtrex], classes: [antiviral], units: [mg], routes: [oral], dose: [500, 2000], max_daily: 4000}
+- {name: prednisone, brands: [deltasone], classes: [corticosteroid], units: [mg], routes: [oral], dose: [1, 80], max_daily: 100}
+- {name: prednisolone, brands: [orapred, prelone], classes: [corticosteroid], units: [mg], routes: [oral], dose: [1, 60], max_daily: 60, peds_mg_kg_day: [1, 2]}
+- {name: methylprednisolone, brands: [medrol], classes: [corticosteroid], units: [mg], routes: [oral], dose: [4, 48], max_daily: 48}
+- {name: dexamethasone, brands: [decadron], classes: [corticosteroid], units: [mg], routes: [oral, injection], dose: [0.5, 16], max_daily: 16, peds_mg_kg_day: [0.15, 0.6]}
+- {name: albuterol, brands: [proair, ventolin, proventil], classes: [saba], units: [puffs, mg, mcg], routes: [inhaled, nebulized], dose: [1, 4], max_daily: 12}
+- {name: fluticasone, brands: [flovent, flonase, arnuity], classes: [inhaled_corticosteroid], units: [mcg, sprays, puffs], routes: [inhaled, nasal], dose: [1, 500], max_daily: 1000}
+- {name: budesonide-formoterol, brands: [symbicort, breyna], classes: [inhaled_corticosteroid, laba], units: [puffs], routes: [inhaled], dose: [1, 2], max_daily: 12}
+- {name: fluticasone-salmeterol, brands: [advair, wixela], classes: [inhaled_corticosteroid, laba], units: [puffs, mcg], routes: [inhaled], dose: [1, 2], max_daily: 2}
+- {name: montelukast, brands: [singulair], classes: [leukotriene_antagonist], units: [mg], routes: [oral], dose: [4, 10], max_daily: 10}
+- {name: cetirizine, brands: [zyrtec], classes: [antihistamine], units: [mg], routes: [oral], dose: [2.5, 10], max_daily: 10}
+- {name: loratadine, brands: [claritin], classes: [antihistamine], units: [mg], routes: [oral], dose: [5, 10], max_daily: 10}
+- {name: diphenhydramine, brands: [benadryl], classes: [antihistamine], units: [mg], routes: [oral], dose: [12.5, 50], max_daily: 300}
+- {name: hydroxyzine, brands: [atarax, vistaril], classes: [antihistamine], units: [mg], routes: [oral], dose: [10, 100], max_daily: 400}
+- {name: sertraline, brands: [zoloft], classes: [ssri], units: [mg], routes: [oral], dose: [25, 200], max_daily: 200}
+- {name: fluoxetine, brands: [prozac], classes: [ssri], units: [mg], routes: [oral], dose: [10, 80], max_daily: 80}
+- {name: escitalopram, brands: [lexapro], classes: [ssri], units: [mg], routes: [oral], dose: [5, 20], max_daily: 20}
+- {name: citalopram, brands: [celexa], classes: [ssri], units: [mg], routes: [oral], dose: [10, 40], max_daily: 40}
+- {name: paroxetine, brands: [paxil], classes: [ssri], units: [mg], routes: [oral], dose: [10, 60], max_daily: 60}
+- {name: venlafaxine, brands: [effexor], classes: [snri], units: [mg], routes: [oral], dose: [37.5, 225], max_daily: 375}
+- {name: duloxetine, brands: [cymbalta], classes: [snri], units: [mg], routes: [oral], dose: [20, 120], max_daily: 120}
+- {name: bupropion, brands: [wellbutrin, zyban], classes: [ndri], units: [mg], routes: [oral], dose: [75, 450], max_daily: 450}
+- {name: mirtazapine, brands: [remeron], classes: [antidepressant], units: [mg], routes: [oral], dose: [7.5, 45], max_daily: 45}
+- {name: trazodone, brands: [desyrel], classes: [antidepressant], units: [mg], routes: [oral], dose: [25, 300], max_daily: 600}
+- {name: buspirone, brands: [buspar], classes: [anxiolytic], units: [mg], routes: [oral], dose: [5, 30], max_daily: 60}
+- {name: hydroxyzine pamoate, brands: [], classes: [antihistamine], units: [mg], routes: [oral], dose: [25, 100], max_daily: 400}
+- {name: lorazepam, brands: [ativan], classes: [benzodiazepine], units: [mg], routes: [oral], dose: [0.5, 2], max_daily: 10}
+- {name: alprazolam, brands: [xanax], classes: [benzodiazepine], units: [mg], routes: [oral], dose: [0.25, 2], max_daily: 4}
+- {name: clonazepam, brands: [klonopin], classes: [benzodiazepine], units: [mg], routes: [oral], dose: [0.25, 2], max_daily: 4}
+- {name: zolpidem, brands: [ambien], classes: [hypnotic], units: [mg], routes: [oral], dose: [5, 10], max_daily: 10}
+- {name: melatonin, brands: [], classes: [supplement], units: [mg], routes: [oral], dose: [0.5, 10], max_daily: 10}
+- {name: lamotrigine, brands: [lamictal], classes: [anticonvulsant, mood_stabilizer], units: [mg], routes: [oral], dose: [25, 400], max_daily: 500}
+- {name: lithium carbonate, brands: [lithobid], classes: [mood_stabilizer], units: [mg], routes: [oral], dose: [150, 1200], max_daily: 2400}
+- {name: lithium, brands: [], classes: [mood_stabilizer], units: [mg], routes: [oral], dose: [150, 1200], max_daily: 2400}
+- {name: quetiapine, brands: [seroquel], classes: [antipsychotic], units: [mg], routes: [oral], dose: [25, 800], max_daily: 800}
+- {name: aripiprazole, brands: [abilify], classes: [antipsychotic], units: [mg], routes: [oral], dose: [2, 30], max_daily: 30}
+- {name: naltrexone, brands: [revia, vivitrol], classes: [opioid_antagonist], units: [mg], routes: [oral, injection], dose: [25, 380], max_daily: 380}
+- {name: acamprosate, brands: [campral], classes: [alcohol_dependence], units: [mg], routes: [oral], dose: [333, 666], max_daily: 1998}
+- {name: varenicline, brands: [chantix], classes: [smoking_cessation], units: [mg], routes: [oral], dose: [0.5, 1], max_daily: 2}
+- {name: nicotine, brands: [nicorette, nicoderm], classes: [smoking_cessation], units: [mg], routes: [transdermal, oral], dose: [2, 21], max_daily: 42}
+- {name: methylphenidate, brands: [ritalin, concerta, metadate, quillichew, jornay], classes: [stimulant], units: [mg], routes: [oral], dose: [5, 72], max_daily: 72}
+- {name: dexmethylphenidate, brands: [focalin], classes: [stimulant], units: [mg], routes: [oral], dose: [2.5, 40], max_daily: 40}
+- {name: amphetamine-dextroamphetamine, brands: [adderall], classes: [stimulant], units: [mg], routes: [oral], dose: [5, 30], max_daily: 40}
+- {name: lisdexamfetamine, brands: [vyvanse], classes: [stimulant], units: [mg], routes: [oral], dose: [10, 70], max_daily: 70}
+- {name: guanfacine, brands: [intuniv, tenex], classes: [alpha2_agonist], units: [mg], routes: [oral], dose: [1, 7], max_daily: 7}
+- {name: atomoxetine, brands: [strattera], classes: [snri], units: [mg], routes: [oral], dose: [10, 100], max_daily: 100}
+- {name: tretinoin, brands: [retin-a, altreno, atralin], classes: [retinoid], units: ["%"], routes: [topical], dose: [0.01, 0.1], max_daily: 0.1}
+- {name: adapalene, brands: [differin], classes: [retinoid], units: ["%"], routes: [topical], dose: [0.1, 0.3], max_daily: 0.3}
+- {name: benzoyl peroxide, brands: [panoxyl, benzac], classes: [topical_antimicrobial], units: ["%"], routes: [topical], dose: [2.5, 10], max_daily: 10}
+- {name: clindamycin, brands: [cleocin], classes: [lincosamide], units: ["%", mg], routes: [topical, oral], dose: [1, 450], max_daily: 1800}
+- {name: isotretinoin, brands: [accutane, absorica, claravis], classes: [retinoid], units: [mg], routes: [oral], dose: [10, 80], max_daily: 160}
+- {name: spironolactone topical, brands: [], classes: [mra], units: ["%"], routes: [topical], dose: [1, 5], max_daily: 5}
+- {name: hydrocortisone, brands: [cortaid], classes: [topical_corticosteroid], units: ["%", mg], routes: [topical, oral], dose: [0.5, 2.5], max_daily: 2.5}
+- {name: triamcinolone, brands: [kenalog], classes: [topical_corticosteroid], units: ["%", mg], routes: [topical, injection], dose: [0.025, 40], max_daily: 80}
+- {name: clobetasol, brands: [temovate, clobex], classes: [topical_corticosteroid], units: ["%"], routes: [topical], dose: [0.05, 0.05], max_daily: 0.05}
+- {name: betamethasone, brands: [diprolene, luxiq], classes: [topical_corticosteroid], units: ["%"], routes: [topical], dose: [0.05, 0.12], max_daily: 0.12}
+- {name: mometasone, brands: [elocon, nasonex], classes: [topical_corticosteroid], units: ["%", mcg, sprays], routes: [topical, nasal], dose: [0.1, 200], max_daily: 400}
+- {name: desonide, brands: [desowen], classes: [topical_corticosteroid], units: ["%"], routes: [topical], dose: [0.05, 0.05], max_daily: 0.05}
+- {name: tacrolimus, brands: [protopic], classes: [calcineurin_inhibitor], units: ["%"], routes: [topical], dose: [0.03, 0.1], max_daily: 0.1}
+- {name: pimecrolimus, brands: [elidel], classes: [calcineurin_inhibitor], units: ["%"], routes: [topical], dose: [1, 1], max_daily: 1}
+- {name: crisaborole, brands: [eucrisa], classes: [pde4_inhibitor], units: ["%"], routes: [topical], dose: [2, 2], max_daily: 2}
+- {name: ruxolitinib cream, brands: [opzelura], classes: [jak_inhibitor], units: ["%"], routes: [topical], dose: [1.5, 1.5], max_daily: 1.5}
+- {name: dupilumab, brands: [dupixent], classes: [biologic], units: [mg], routes: [injection], dose: [200, 600], max_daily: 600}
+- {name: adalimumab, brands: [humira], classes: [biologic, tnf_inhibitor], units: [mg], routes: [injection], dose: [40, 160], max_daily: 160}
+- {name: secukinumab, brands: [cosentyx], classes: [biologic], units: [mg], routes: [injection], dose: [150, 300], max_daily: 300}
+- {name: risankizumab, brands: [skyrizi], classes: [biologic], units: [mg], routes: [injection], dose: [150, 600], max_daily: 600}
+- {name: ustekinumab, brands: [stelara], classes: [biologic], units: [mg], routes: [injection], dose: [45, 90], max_daily: 90}
+- {name: apremilast, brands: [otezla], classes: [pde4_inhibitor], units: [mg], routes: [oral], dose: [10, 30], max_daily: 60}
+- {name: methotrexate, brands: [trexall, otrexup], classes: [dmard], units: [mg], routes: [oral, injection], dose: [2.5, 25], max_daily: 25}
+- {name: calcipotriene, brands: [dovonex], classes: [vitamin_d_analog], units: ["%"], routes: [topical], dose: [0.005, 0.005], max_daily: 0.005}
+- {name: ketoconazole, brands: [nizoral], classes: [azole_antifungal], units: ["%", mg], routes: [topical, oral], dose: [1, 400], max_daily: 400}
+- {name: clotrimazole, brands: [lotrimin], classes: [azole_antifungal], units: ["%"], routes: [topical], dose: [1, 1], max_daily: 1}
+- {name: nystatin, brands: [mycostatin], classes: [polyene_antifungal], units: [units], routes: [topical, oral], dose: [100000, 500000], max_daily: 2000000}
+- {name: zinc oxide, brands: [desitin, boudreaux], classes: [barrier], units: ["%"], routes: [topical], dose: [10, 40], max_daily: 40}
+- {name: mupirocin, brands: [bactroban], classes: [topical_antibiotic], units: ["%"], routes: [topical], dose: [2, 2], max_daily: 2}
+- {name: salicylic acid, brands: [compound w, duofilm], classes: [keratolytic], units: ["%"], routes: [topical], dose: [2, 40], max_daily: 40}
+- {name: fluorouracil, brands: [efudex, carac], classes: [antineoplastic_topical], units: ["%"], routes: [topical], dose: [0.5, 5], max_daily: 5}
+- {name: imiquimod, brands: [aldara, zyclara], classes: [immune_modifier], units: ["%"], routes: [topical], dose: [2.5, 5], max_daily: 5}
+- {name: vitamin d3, brands: [cholecalciferol], classes: [supplement], units: [units, iu, mcg], routes: [oral], dose: [400, 50000], max_daily: 50000}
+- {name: vitamin b12, brands: [cyanocobalamin], classes: [supplement], units: [mcg], routes: [oral, injection], dose: [100, 2000], max_daily: 2000}
+- {name: ferrous sulfate, brands: [feosol], classes: [supplement], units: [mg], routes: [oral], dose: [65, 325], max_daily: 975}
+- {name: fish oil, brands: [omega-3, lovaza], classes: [supplement], units: [mg, g], routes: [oral], dose: [500, 4000], max_daily: 4000}
+- {name: magnesium, brands: [], classes: [supplement], units: [mg], routes: [oral], dose: [100, 500], max_daily: 1000}
+- {name: calcium carbonate, brands: [tums, os-cal], classes: [supplement], units: [mg], routes: [oral], dose: [500, 1500], max_daily: 3000}
+- {name: multivitamin, brands: [], classes: [supplement], units: [tablet], routes: [oral], dose: [1, 1], max_daily: 2}
+- {name: tamsulosin, brands: [flomax], classes: [alpha_blocker], units: [mg], routes: [oral], dose: [0.4, 0.8], max_daily: 0.8}
+- {name: finasteride, brands: [proscar, propecia], classes: [5ari], units: [mg], routes: [oral], dose: [1, 5], max_daily: 5}
+- {name: alendronate, brands: [fosamax], classes: [bisphosphonate], units: [mg], routes: [oral], dose: [10, 70], max_daily: 70}
+- {name: donepezil, brands: [aricept], classes: [cholinesterase_inhibitor], units: [mg], routes: [oral], dose: [5, 23], max_daily: 23}
+- {name: oxybutynin, brands: [ditropan], classes: [anticholinergic], units: [mg], routes: [oral], dose: [2.5, 15], max_daily: 30}
+- {name: phenazopyridine, brands: [pyridium, azo], classes: [urinary_analgesic], units: [mg], routes: [oral], dose: [95, 200], max_daily: 600}
+- {name: polyethylene glycol, brands: [miralax], classes: [laxative], units: [g, grams], routes: [oral], dose: [8.5, 17], max_daily: 34}
+- {name: docusate, brands: [colace], classes: [laxative], units: [mg], routes: [oral], dose: [50, 300], max_daily: 500}
+- {name: senna, brands: [senokot], classes: [laxative], units: [mg], routes: [oral], dose: [8.6, 34.4], max_daily: 68.8}
+- {name: sumatriptan, brands: [imitrex], classes: [triptan], units: [mg], routes: [oral, nasal, injection], dose: [25, 100], max_daily: 200}
+- {name: guaifenesin, brands: [mucinex, robitussin], classes: [expectorant], units: [mg], routes: [oral], dose: [200, 1200], max_daily: 2400}
+- {name: dextromethorphan, brands: [delsym], classes: [antitussive], units: [mg], routes: [oral], dose: [10, 60], max_daily: 120}
+- {name: benzonatate, brands: [tessalon], classes: [antitussive], units: [mg], routes: [oral], dose: [100, 200], max_daily: 600}
+- {name: pseudoephedrine, brands: [sudafed], classes: [decongestant], units: [mg], routes: [oral], dose: [30, 120], max_daily: 240}
+- {name: oxymetazoline, brands: [afrin], classes: [decongestant], units: [sprays], routes: [nasal], dose: [1, 3], max_daily: 6}
+- {name: saline nasal spray, brands: [ocean], classes: [saline], units: [sprays], routes: [nasal], dose: [1, 4], max_daily: 24}
+- {name: epinephrine, brands: [epipen, auvi-q], classes: [adrenergic], units: [mg], routes: [injection], dose: [0.15, 0.5], max_daily: 1}
+- {name: influenza vaccine, brands: [flu shot, fluzone, flucelvax], classes: [vaccine], units: [ml, dose], routes: [injection], dose: [0.25, 0.5], max_daily: 0.5}
+- {name: tdap vaccine, brands: [boostrix, adacel], classes: [vaccine], units: [ml, dose], routes: [injection], dose: [0.5, 0.5], max_daily: 0.5}
+- {name: dtap-ipv vaccine, brands: [kinrix, quadracel], classes: [vaccine], units: [ml, dose], routes: [injection], dose: [0.5, 0.5], max_daily: 0.5}
+- {name: mmrv vaccine, brands: [proquad, mmr, varicella], classes: [vaccine], units: [ml, dose], routes: [injection], dose: [0.5, 0.5], max_daily: 0.5}
+- {name: shingles vaccine, brands: [shingrix], classes: [vaccine], units: [ml, dose], routes: [injection], dose: [0.5, 0.5], max_daily: 0.5}
+- {name: pneumococcal vaccine, brands: [prevnar, vaxneuvance, capvaxive, pneumovax], classes: [vaccine], units: [ml, dose], routes: [injection], dose: [0.5, 0.5], max_daily: 0.5}
+- {name: covid-19 vaccine, brands: [comirnaty, spikevax], classes: [vaccine], units: [ml, dose], routes: [injection], dose: [0.3, 0.5], max_daily: 0.5}
+- {name: hpv vaccine, brands: [gardasil], classes: [vaccine], units: [ml, dose], routes: [injection], dose: [0.5, 0.5], max_daily: 0.5}

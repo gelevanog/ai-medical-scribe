@@ -1,0 +1,312 @@
+id: pc-07
+specialty: primary_care
+title: New patient with Hashimoto hypothyroidism on levothyroxine and hyperlipidemia
+visit_type: new
+visit_date: "2026-10-12"
+patient:
+  name: Svetlana Petrova
+  dob: "1979-12-04"
+  sex: female
+  phone: 555-0146
+  address: 4417 Juniper Ridge Drive, Raleigh, NC 27612
+  mrn: "9150482"
+clinician:
+  name: Dr. Hassan Al-Amin
+  role: internal medicine physician
+speakers:
+  clinician: {sex: male}
+  patient: {sex: female}
+dialogue:
+  - speaker: clinician
+    text: Welcome, I'm Dr. Al-Amin. Since you're new with us, let's confirm your full name and date of birth.
+  - speaker: patient
+    text: Svetlana Petrova. December 4th, 1979.
+  - speaker: clinician
+    text: And your new address?
+  - speaker: patient
+    text: 4417 Juniper Ridge Drive. We moved here from Pittsburgh in August.
+  - speaker: clinician
+    text: How's the move going?
+  - speaker: patient
+    text: Boxes everywhere still. But the weather is much nicer, I won't miss the snow.
+  - speaker: clinician
+    text: I'll bet. So I have the records your old doctor, Dr. Ostrowski, sent over. Tell me about your thyroid.
+  - speaker: patient
+    text: I was diagnosed with Hashimoto's in 2015. I take levothyroxine, 88 micrograms every morning.
+  - speaker: clinician
+    text: How do you take it? With food, coffee?
+  - speaker: patient
+    text: Um, honestly, with my coffee and my calcium, all together. It's the only way I remember.
+  - speaker: clinician
+    text: Okay, that's really common, and it's important. I'll come back to that. How have you been feeling?
+  - speaker: patient
+    text: A little more tired than usual, and I'm always cold. But I've also been moving furniture for two months, so who knows.
+  - speaker: clinician
+    text: Any constipation, hair thinning, or weight changes?
+  - speaker: patient
+    text: No, my weight is the same. Hair's fine.
+  - speaker: clinician
+    text: Any racing heart or palpitations?
+  - speaker: patient
+    text: No.
+  - speaker: clinician
+    text: Your last TSH in the records, from May, was 5.8, which is a bit high. And your cholesterol panel from May shows total cholesterol 248, LDL 164, HDL 52, and triglycerides 160.
+  - speaker: patient
+    text: Dr. Ostrowski said to work on diet. I'm not on anything for it.
+  - speaker: clinician
+    text: Any heart disease in the family?
+  - speaker: patient
+    text: My father had a heart attack at 58. He's okay now, he had stents.
+  - speaker: clinician
+    text: Any other supplements besides the calcium?
+  - speaker: patient
+    text: Vitamin D, 2000 units a day. And a hair, skin and nails gummy, I think it has biotin. The calcium is 600 milligrams once a day.
+  - speaker: clinician
+    text: Do you smoke?
+  - speaker: patient
+    text: Never.
+  - speaker: clinician
+    text: Any allergies to medicines?
+  - speaker: patient
+    text: Codeine makes me throw up, really badly.
+  - speaker: clinician
+    text: Got it. Your blood pressure is 124 over 78, pulse 66, weight 158 pounds. Let me feel your neck. Thyroid isn't enlarged and I don't feel any nodules. Skin is a little dry. Heart is regular, lungs are clear, and your reflexes are normal.
+  - speaker: patient
+    text: Okay.
+  - speaker: clinician
+    text: So, two things. First, your hypothyroidism from Hashimoto's. The TSH was a little high, and I think part of that is the way you're taking the pill. Coffee and calcium both block absorption. Take the levothyroxine alone with water, first thing in the morning, at least 30 to 60 minutes before coffee or breakfast. And take the calcium at least 4 hours later, with dinner is easiest.
+  - speaker: patient
+    text: Oh. I had no idea.
+  - speaker: clinician
+    text: Keep the dose at 88 micrograms for now. I'll recheck the TSH and a free T4 in 6 weeks, once you've been taking it the right way. Stop the biotin gummy 3 days before that blood draw, because biotin can throw off thyroid tests.
+  - speaker: patient
+    text: Okay. And if it's still high?
+  - speaker: clinician
+    text: If the TSH is still above 4.5, we'd go up to 100 micrograms. But let's see first.
+  - speaker: clinician
+    text: Second, your cholesterol is high, and an underactive thyroid can raise cholesterol. So I'd like a fasting lipid panel with the thyroid labs, and then we'll talk about your overall heart risk, especially with your father's history. Meanwhile, more fiber, less saturated fat, and regular exercise.
+  - speaker: patient
+    text: That sounds reasonable.
+  - speaker: clinician
+    text: I'll see you in 6 to 8 weeks after the labs. Can I get an email for the portal?
+  - speaker: patient
+    text: Sure, it's s petrova 79 at example dot com.
+  - speaker: clinician
+    text: Perfect. Welcome to the practice, Svetlana.
+gold:
+  facts:
+    - id: f1
+      section: subjective
+      text: New patient, moved from Pittsburgh in August; records from prior physician reviewed
+      polarity: present
+      evidence: We moved here from Pittsburgh in August.
+      match: [["new patient", "moved", "establish", "relocat", "transfer"]]
+    - id: f2
+      section: subjective
+      text: Hashimoto thyroiditis diagnosed 2015
+      polarity: present
+      evidence: I was diagnosed with Hashimoto's in 2015.
+      match: [["hashimoto", "autoimmune thyroid", "hypothyroid"]]
+    - id: f3
+      section: subjective
+      text: Takes levothyroxine 88 mcg every morning
+      polarity: present
+      evidence: I take levothyroxine, 88 micrograms every morning.
+      match: [["levothyroxine", "synthroid", "levo"], ["88"]]
+    - id: f4
+      section: subjective
+      text: Takes levothyroxine together with coffee and calcium
+      polarity: present
+      evidence: with my coffee and my calcium, all together
+      match: [["coffee", "calcium", "with food"]]
+    - id: f5
+      section: subjective
+      text: Mild fatigue and cold intolerance, confounded by recent move
+      polarity: present
+      evidence: A little more tired than usual, and I'm always cold.
+      match: [["fatigue", "tired", "cold"]]
+    - id: f6
+      section: subjective
+      text: Denies constipation
+      polarity: absent
+      evidence: Any constipation, hair thinning, or weight changes?
+      match: [["constipat"]]
+    - id: f7
+      section: subjective
+      text: Denies hair thinning or weight change
+      polarity: absent
+      evidence: No, my weight is the same. Hair's fine.
+      match: [["hair", "weight"]]
+    - id: f8
+      section: subjective
+      text: Denies palpitations
+      polarity: absent
+      evidence: Any racing heart or palpitations?
+      match: [["palpitation", "racing heart", "tachycard"]]
+    - id: f9
+      section: subjective
+      text: Family history of myocardial infarction in father at 58
+      polarity: present
+      evidence: My father had a heart attack at 58.
+      match: [["heart attack", "myocardial infarction", "coronary"], ["father", "dad", "family"]]
+    - id: f10
+      section: subjective
+      text: Takes calcium 600 mg once daily
+      polarity: present
+      evidence: The calcium is 600 milligrams once a day.
+      match: [["calcium"], ["600"]]
+    - id: f11
+      section: subjective
+      text: Takes vitamin D3 2000 units daily and a biotin-containing hair, skin and nails gummy
+      polarity: present
+      evidence: Vitamin D, 2000 units a day.
+      match: [["vitamin d", "biotin"]]
+    - id: f12
+      section: subjective
+      text: Never smoker
+      polarity: absent
+      evidence: Do you smoke?
+      match: [["smok", "tobacco"]]
+    - id: f13
+      section: subjective
+      text: Not on any cholesterol medication, previously advised diet
+      polarity: absent
+      evidence: I'm not on anything for it.
+      match: [["statin", "cholesterol medication", "lipid-lowering", "lipid lowering"]]
+    - id: f14
+      section: objective
+      text: Outside TSH in May 5.8 (elevated)
+      polarity: present
+      evidence: Your last TSH in the records, from May, was 5.8
+      match: [["tsh"], ["5.8"]]
+    - id: f15
+      section: objective
+      text: Outside lipid panel May, total cholesterol 248, LDL 164, HDL 52, triglycerides 160
+      polarity: present
+      evidence: total cholesterol 248, LDL 164, HDL 52, and triglycerides 160
+      match: [["ldl", "cholesterol", "lipid"], ["164", "248"]]
+    - id: f16
+      section: objective
+      text: Blood pressure 124/78, pulse 66, weight 158 lb
+      polarity: present
+      evidence: Your blood pressure is 124 over 78, pulse 66, weight 158 pounds.
+      match: [["124", "158"]]
+    - id: f17
+      section: objective
+      text: Thyroid not enlarged, no nodules
+      polarity: present
+      evidence: Thyroid isn't enlarged and I don't feel any nodules.
+      match: [["thyroid", "goiter", "nodule", "thyromegaly"]]
+    - id: f18
+      section: objective
+      text: Skin mildly dry
+      polarity: present
+      evidence: Skin is a little dry.
+      match: [["skin"], ["dry", "xerosis"]]
+    - id: f19
+      section: objective
+      text: Heart regular, lungs clear, reflexes normal
+      polarity: present
+      evidence: Heart is regular, lungs are clear, and your reflexes are normal.
+      match: [["heart", "lung", "reflex"], ["regular", "clear", "normal"]]
+    - id: f20
+      section: assessment
+      text: Hypothyroidism due to Hashimoto thyroiditis, TSH mildly elevated likely from improper levothyroxine administration
+      polarity: present
+      evidence: your hypothyroidism from Hashimoto's
+      match: [["hypothyroid", "hashimoto", "thyroiditis"]]
+    - id: f21
+      section: assessment
+      text: Hyperlipidemia, possibly worsened by hypothyroidism
+      polarity: present
+      evidence: your cholesterol is high, and an underactive thyroid can raise cholesterol
+      match: [["hyperlipidemia", "cholesterol", "dyslipidemia", "hypercholesterolemia", "lipid"]]
+    - id: f22
+      section: plan
+      text: Take levothyroxine alone with water, 30 to 60 minutes before coffee or breakfast; separate calcium by at least 4 hours
+      polarity: present
+      evidence: Take the levothyroxine alone with water, first thing in the morning
+      match: [["empty stomach", "alone", "water", "before breakfast", "before coffee", "30", "separate"]]
+    - id: f23
+      section: plan
+      text: Continue levothyroxine 88 mcg daily
+      polarity: present
+      evidence: Keep the dose at 88 micrograms for now.
+      match: [["levothyroxine", "synthroid", "levo"], ["88"]]
+    - id: f24
+      section: plan
+      text: Recheck TSH and free T4 in 6 weeks
+      polarity: present
+      evidence: I'll recheck the TSH and a free T4 in 6 weeks
+      match: [["tsh", "t4", "thyroid"], ["6 weeks", "six weeks", "6 wk"]]
+    - id: f25
+      section: plan
+      text: Hold biotin 3 days before thyroid labs
+      polarity: present
+      evidence: Stop the biotin gummy 3 days before that blood draw
+      match: [["biotin"]]
+    - id: f26
+      section: plan
+      text: Fasting lipid panel with thyroid labs, then cardiovascular risk discussion
+      polarity: present
+      evidence: I'd like a fasting lipid panel with the thyroid labs
+      match: [["lipid", "cholesterol"], ["fasting", "panel", "recheck", "repeat"]]
+    - id: f27
+      section: plan
+      text: Lifestyle, more fiber, less saturated fat, regular exercise
+      polarity: present
+      evidence: more fiber, less saturated fat, and regular exercise
+      match: [["fiber", "saturated fat", "exercise", "diet", "lifestyle"]]
+    - id: f28
+      section: plan
+      text: Follow-up in 6 to 8 weeks after labs
+      polarity: present
+      evidence: I'll see you in 6 to 8 weeks after the labs.
+      match: [["6 to 8", "6-8", "six to eight", "8 weeks"]]
+  medications:
+    - {name: levothyroxine, dose: 88 mcg, frequency: once daily in the morning, route: oral, status: active, evidence: "I take levothyroxine, 88 micrograms every morning."}
+    - {name: calcium carbonate, dose: 600 mg, frequency: once daily, route: oral, status: active, evidence: The calcium is 600 milligrams once a day.}
+    - {name: vitamin d3, dose: 2000 units, frequency: once daily, route: oral, status: active, evidence: "Vitamin D, 2000 units a day."}
+    - {name: biotin, dose: gummy, frequency: daily, route: oral, status: active, evidence: "a hair, skin and nails gummy, I think it has biotin"}
+  allergies:
+    - {substance: codeine, reaction: severe vomiting, evidence: "Codeine makes me throw up, really badly."}
+  diagnoses:
+    - code: E06.3
+      description: Autoimmune thyroiditis
+      primary: true
+      evidence: your hypothyroidism from Hashimoto's
+      alternatives: [E03.9]
+    - code: E78.5
+      description: Hyperlipidemia, unspecified
+      evidence: your cholesterol is high
+      alternatives: [E78.2, E78.00]
+    - code: Z82.49
+      description: Family history of ischemic heart disease and other diseases of the circulatory system
+      evidence: My father had a heart attack at 58.
+  em_code: "99204"
+  em_rationale: New patient with a chronic illness not at goal plus a second chronic illness, review of external records and ordering of TSH, free T4 and lipid panel, and prescription drug management of levothyroxine (moderate MDM).
+  procedures: []
+  phi:
+    - {type: NAME, value: Svetlana Petrova, who: patient}
+    - {type: NAME, value: Svetlana, who: patient}
+    - {type: DATE, value: "December 4th, 1979", who: patient}
+    - {type: ADDRESS, value: 4417 Juniper Ridge Drive, who: patient}
+    - {type: ADDRESS, value: Pittsburgh, who: patient}
+    - {type: DATE, value: August, who: patient}
+    - {type: NAME, value: Dr. Ostrowski, who: clinician}
+    - {type: NAME, value: Dr. Al-Amin, who: clinician}
+    - {type: DATE, value: May, who: patient}
+    - {type: EMAIL, value: s petrova 79 at example dot com, who: patient}
+traps:
+  - type: family_history
+    text: Father had a heart attack with stents at 58; the patient has no coronary disease
+    evidence: My father had a heart attack at 58. He's okay now, he had stents.
+    match: [["heart attack", "myocardial infarction", "stent", "coronary artery disease"]]
+  - type: hypothetical
+    text: Levothyroxine increase to 100 mcg only if TSH remains above 4.5; dose unchanged today
+    evidence: If the TSH is still above 4.5, we'd go up to 100 micrograms.
+    match: [["levothyroxine", "synthroid", "levo"], ["100"]]
+  - type: small_talk
+    text: Moving boxes and weather compared to Pittsburgh snow
+    evidence: Boxes everywhere still. But the weather is much nicer, I won't miss the snow.
+    match: [["boxes", "snow", "weather"]]

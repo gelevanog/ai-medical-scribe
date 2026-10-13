@@ -1,0 +1,302 @@
+id: pd-06
+specialty: pediatrics
+title: Teen with right lateral ankle sprain from basketball
+visit_type: new
+visit_date: "2026-10-13"
+patient:
+  name: Kenji Watanabe
+  dob: "2011-03-09"
+  sex: male
+  phone: 555-0192
+  email: kenji.watanabe11@example.com
+  mrn: "9140268"
+clinician:
+  name: Dr. Fatima Al-Sayed
+  role: pediatrician
+speakers:
+  clinician: {sex: female}
+  patient: {sex: male}
+dialogue:
+  - speaker: clinician
+    text: Hi, I'm Dr. Al-Sayed, nice to meet you. You're new with us, right? Can you tell me your full name and date of birth?
+  - speaker: patient
+    text: Yeah, Kenji Watanabe. March 9th, 2011.
+  - speaker: clinician
+    text: Thanks, Kenji. Is a parent with you today?
+  - speaker: patient
+    text: My mom, Yumi, she's out in the car on a work call. She said I'm 15, I can handle it.
+  - speaker: clinician
+    text: Fair enough. So what happened to the ankle?
+  - speaker: patient
+    text: I rolled it at basketball on Sunday. Wait, no, Saturday, it was Saturday morning practice. I went up for a rebound and came down on another guy's foot, and it kind of turned in.
+  - speaker: clinician
+    text: Ouch. Which ankle?
+  - speaker: patient
+    text: Right one. It swelled up right away. I limped off, but I could walk.
+  - speaker: clinician
+    text: Did you hear a pop or a snap?
+  - speaker: patient
+    text: No, I don't think so.
+  - speaker: clinician
+    text: How bad is the pain now, 0 to 10?
+  - speaker: patient
+    text: Like a 6 when I walk on it. Maybe a 2 when I'm just sitting.
+  - speaker: clinician
+    text: Any numbness or tingling in your foot?
+  - speaker: patient
+    text: Nope.
+  - speaker: clinician
+    text: Any pain in your knee or higher up the leg?
+  - speaker: patient
+    text: No, just the ankle.
+  - speaker: clinician
+    text: What have you done for it so far?
+  - speaker: patient
+    text: Ice, and I took 2 of the 200 milligram ibuprofen, so 400, twice a day. That helps some.
+  - speaker: clinician
+    text: Good. Have you hurt this ankle before?
+  - speaker: patient
+    text: Not this one. I sprained my left one in 8th grade, but it healed fine, no problems since.
+  - speaker: clinician
+    text: Any medicines you take every day, or any allergies?
+  - speaker: patient
+    text: Just cetirizine, 10 milligrams, in the spring for my allergies, I'm not on it right now. And I'm allergic to Bactrim, I got a rash all over from it.
+  - speaker: clinician
+    text: Got it, sulfa allergy with a rash. Okay, let's take a look. Your blood pressure is 118 over 72, pulse 70. On your right ankle there's swelling and some bruising on the outside, and you're tender right here, in front of the ankle bone on the outside.
+  - speaker: patient
+    text: Yeah, that's the spot.
+  - speaker: clinician
+    text: No tenderness on the back edge or tip of either ankle bone, and none at the base of your fifth toe bone or on top of the midfoot. When I pull your foot forward it's a little loose compared to the left, but there's a firm endpoint. Pulses and feeling in your foot are normal. Can you walk across the room for me?
+  - speaker: patient
+    text: Sure. It's limpy but okay.
+  - speaker: clinician
+    text: You took more than 4 steps on your own, good. So this is a sprain of the ligaments on the outside of your right ankle, probably grade 1 to 2. Based on the exam, you meet the rules where we don't need an X-ray.
+  - speaker: patient
+    text: Oh, nice. My friend Diego tore his ACL last month, so my mom kind of freaked out.
+  - speaker: clinician
+    text: Totally understandable, but your knee is fine. Here's the plan. Ice for 15 to 20 minutes every 2 to 3 hours for the next 2 days, keep it up on a pillow, and wear a compression wrap. We'll fit you with a lace-up ankle brace, and wear it for practice for the next couple of months.
+  - speaker: patient
+    text: Okay.
+  - speaker: clinician
+    text: Keep the ibuprofen at 400 milligrams, but every 8 hours with food, for 5 to 7 days, then just as needed. You can use crutches for 2 or 3 days if walking hurts, but put weight on it as much as you can. And start ankle alphabets, tracing the letters with your toes, a few times a day.
+  - speaker: patient
+    text: When can I play again? We've got a tournament in November.
+  - speaker: clinician
+    text: No basketball for about 2 weeks. You can go back once you can hop and run on it without pain. I'll write a note for Coach Brennan and for gym class at Westfield High School. If you can't put weight on it, or the pain moves onto the bone, call us and we'll get an X-ray. If it's not much better in 2 weeks, come back and we'll set up physical therapy.
+  - speaker: patient
+    text: Cool. Can you send the note to my portal? My email is kenji dot watanabe 11 at example dot com.
+  - speaker: clinician
+    text: Sure. And the phone number for you is 555-0192?
+  - speaker: patient
+    text: Yeah, that's my mom's cell.
+  - speaker: clinician
+    text: Perfect. Nice sneakers, by the way.
+  - speaker: patient
+    text: Thanks, they were a birthday present. Wrong ones to roll an ankle in, I guess.
+gold:
+  facts:
+    - id: f1
+      section: subjective
+      text: Inversion injury of right ankle Saturday at basketball practice, landed on another player's foot
+      polarity: present
+      evidence: I went up for a rebound and came down on another guy's foot, and it kind of turned in.
+      match: [["ankle", "inversion", "rolled"], ["basketball", "rebound", "saturday"]]
+    - id: f2
+      section: subjective
+      text: Immediate swelling, able to walk off with a limp
+      polarity: present
+      evidence: It swelled up right away. I limped off, but I could walk.
+      match: [["swell", "swollen", "limp", "walk", "weight"]]
+    - id: f3
+      section: subjective
+      text: No pop heard at time of injury
+      polarity: absent
+      evidence: Did you hear a pop or a snap?
+      match: [["pop", "snap"]]
+    - id: f4
+      section: subjective
+      text: Pain 6 out of 10 with walking, 2 out of 10 at rest
+      polarity: present
+      evidence: Like a 6 when I walk on it.
+      match: [["pain"], ["6/10", "6 out of 10", "6 of 10", "2/10", "2 out of 10"]]
+    - id: f5
+      section: subjective
+      text: No numbness or tingling in the foot
+      polarity: absent
+      evidence: Any numbness or tingling in your foot?
+      match: [["numb", "tingl", "paresthes"]]
+    - id: f6
+      section: subjective
+      text: No knee or proximal leg pain
+      polarity: absent
+      evidence: Any pain in your knee or higher up the leg?
+      match: [["knee", "leg pain", "proximal"]]
+    - id: f7
+      section: subjective
+      text: Using ice and ibuprofen 400 mg twice daily with some relief
+      polarity: present
+      evidence: I took 2 of the 200 milligram ibuprofen, so 400, twice a day
+      match: [["ibuprofen", "advil", "motrin", "nsaid", "ice"]]
+    - id: f8
+      section: subjective
+      text: Takes cetirizine 10 mg seasonally in spring, not currently taking
+      polarity: present
+      evidence: Just cetirizine, 10 milligrams, in the spring for my allergies
+      match: [["cetirizine", "zyrtec"]]
+    - id: f9
+      section: subjective
+      text: Allergy to sulfamethoxazole-trimethoprim (Bactrim) causing rash
+      polarity: present
+      evidence: I'm allergic to Bactrim, I got a rash all over from it.
+      match: [["bactrim", "sulfa", "sulfamethoxazole", "tmp-smx", "trimethoprim"]]
+    - id: f10
+      section: objective
+      text: Blood pressure 118/72, pulse 70
+      polarity: present
+      evidence: Your blood pressure is 118 over 72, pulse 70.
+      match: [["118/72", "118 over 72"]]
+    - id: f11
+      section: objective
+      text: Right lateral ankle swelling and ecchymosis
+      polarity: present
+      evidence: there's swelling and some bruising on the outside
+      match: [["swell", "edema", "bruis", "ecchymo"]]
+    - id: f12
+      section: objective
+      text: Tenderness over anterior talofibular ligament area, anterior to lateral malleolus
+      polarity: present
+      evidence: you're tender right here, in front of the ankle bone on the outside
+      match: [["tender"], ["atfl", "talofibular", "anterior", "lateral", "in front"]]
+    - id: f13
+      section: objective
+      text: No bony tenderness at posterior edge or tip of either malleolus, base of fifth metatarsal or navicular
+      polarity: absent
+      evidence: No tenderness on the back edge or tip of either ankle bone, and none at the base of your fifth toe bone or on top of the midfoot.
+      match: [["malleol", "bony", "bone", "metatarsal", "navicular"]]
+    - id: f14
+      section: objective
+      text: Mild anterior drawer laxity compared to left with firm endpoint
+      polarity: present
+      evidence: When I pull your foot forward it's a little loose compared to the left, but there's a firm endpoint.
+      match: [["drawer", "laxity", "loose", "endpoint"]]
+    - id: f15
+      section: objective
+      text: Distal pulses and sensation intact
+      polarity: present
+      evidence: Pulses and feeling in your foot are normal.
+      match: [["pulse", "neurovascular", "sensation", "sensory"]]
+    - id: f16
+      section: objective
+      text: Able to bear weight and walk more than 4 steps with a limp
+      polarity: present
+      evidence: You took more than 4 steps on your own, good.
+      match: [["4 steps", "four steps", "bear weight", "weight bearing", "weight-bearing", "ambulat", "walk"]]
+    - id: f17
+      section: assessment
+      text: Right lateral ankle sprain, grade 1 to 2
+      polarity: present
+      evidence: So this is a sprain of the ligaments on the outside of your right ankle, probably grade 1 to 2.
+      match: [["sprain"], ["right", "lateral", "ankle"]]
+    - id: f18
+      section: assessment
+      text: Ottawa ankle rules negative, no X-ray indicated
+      polarity: present
+      evidence: you meet the rules where we don't need an X-ray
+      match: [["x-ray", "xray", "x ray", "radiograph", "imaging", "ottawa"]]
+    - id: f19
+      section: plan
+      text: Ice 15 to 20 minutes every 2 to 3 hours for 2 days, elevation, compression wrap
+      polarity: present
+      evidence: Ice for 15 to 20 minutes every 2 to 3 hours for the next 2 days
+      match: [["ice", "rice", "elevat", "compression"]]
+    - id: f20
+      section: plan
+      text: Lace-up ankle brace for practice for the next couple of months
+      polarity: present
+      evidence: We'll fit you with a lace-up ankle brace
+      match: [["brace"]]
+    - id: f21
+      section: plan
+      text: Ibuprofen 400 mg every 8 hours with food for 5 to 7 days, then as needed
+      polarity: present
+      evidence: Keep the ibuprofen at 400 milligrams, but every 8 hours with food, for 5 to 7 days
+      match: [["ibuprofen", "advil", "motrin", "nsaid"], ["400", "every 8", "q8", "8 hours"]]
+    - id: f22
+      section: plan
+      text: Crutches as needed for 2 to 3 days, weight bearing as tolerated
+      polarity: present
+      evidence: You can use crutches for 2 or 3 days if walking hurts
+      match: [["crutch"]]
+    - id: f23
+      section: plan
+      text: Home exercises, ankle alphabets several times daily
+      polarity: present
+      evidence: start ankle alphabets, tracing the letters with your toes
+      match: [["alphabet", "exercise", "range of motion"]]
+    - id: f24
+      section: plan
+      text: No basketball for about 2 weeks; return when able to hop and run without pain; note for coach and gym class
+      polarity: present
+      evidence: No basketball for about 2 weeks.
+      match: [["basketball", "sport", "play", "practice", "gym"], ["2 weeks", "two weeks", "hop", "run"]]
+    - id: f25
+      section: plan
+      text: Call for X-ray if unable to bear weight or bony pain develops
+      polarity: present
+      evidence: If you can't put weight on it, or the pain moves onto the bone, call us and we'll get an X-ray.
+      match: [["x-ray", "xray", "x ray", "radiograph", "imaging"]]
+    - id: f26
+      section: plan
+      text: Return in 2 weeks if not much better for physical therapy referral
+      polarity: present
+      evidence: If it's not much better in 2 weeks, come back and we'll set up physical therapy.
+      match: [["physical therapy", "physiotherapy", "pt referral", "refer to pt", "referral to pt"]]
+  medications:
+    - {name: ibuprofen, dose: 400 mg, frequency: every 8 hours with food for 5-7 days, then as needed, route: oral, status: changed, evidence: "Keep the ibuprofen at 400 milligrams, but every 8 hours with food"}
+    - {name: cetirizine, dose: 10 mg, frequency: once daily seasonally (spring), route: oral, status: prn, evidence: "Just cetirizine, 10 milligrams, in the spring for my allergies"}
+  allergies:
+    - {substance: sulfamethoxazole-trimethoprim, reaction: rash, evidence: "I'm allergic to Bactrim, I got a rash all over from it."}
+  diagnoses:
+    - code: S93.401A
+      description: Sprain of unspecified ligament of right ankle, initial encounter
+      primary: true
+      evidence: this is a sprain of the ligaments on the outside of your right ankle
+      alternatives: [S93.491A]
+    - code: Y93.67
+      description: Activity, basketball
+      evidence: I rolled it at basketball
+  em_code: "99203"
+  em_rationale: New patient with one acute uncomplicated injury, imaging considered and not needed by clinical decision rule, and over-the-counter drug management (low complexity).
+  procedures: []
+  phi:
+    - {type: NAME, value: Kenji Watanabe, who: patient}
+    - {type: NAME, value: Kenji, who: patient}
+    - {type: DATE, value: "March 9th, 2011", who: patient}
+    - {type: NAME, value: Dr. Al-Sayed, who: clinician}
+    - {type: NAME, value: Yumi, who: relative}
+    - {type: NAME, value: Diego, who: other}
+    - {type: NAME, value: Coach Brennan, who: other}
+    - {type: ORG, value: Westfield High School, who: patient}
+    - {type: EMAIL, value: kenji dot watanabe 11 at example dot com, who: patient}
+    - {type: PHONE, value: 555-0192, who: relative}
+traps:
+  - type: correction
+    text: Injury day first said as Sunday, corrected to Saturday
+    evidence: I rolled it at basketball on Sunday.
+    match: [["sunday"]]
+  - type: past_resolved
+    text: Left ankle sprain in 8th grade, healed without problems
+    evidence: I sprained my left one in 8th grade, but it healed fine
+    match: [["left"], ["sprain", "ankle"]]
+  - type: other_person
+    text: Friend tore his ACL; the patient's knee is uninjured
+    evidence: My friend Diego tore his ACL last month
+    match: [["acl", "anterior cruciate", "cruciate"]]
+  - type: hypothetical
+    text: X-ray only if unable to bear weight or bony pain develops; none ordered today
+    evidence: If you can't put weight on it, or the pain moves onto the bone
+    match: [["x-ray ordered", "xray ordered", "obtain x-ray", "x-ray today", "fracture"]]
+  - type: small_talk
+    text: Sneakers small talk must not appear in the note
+    evidence: Nice sneakers, by the way.
+    match: [["sneaker", "birthday present"]]

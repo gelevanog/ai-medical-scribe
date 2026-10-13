@@ -1,0 +1,277 @@
+id: cd-04
+specialty: cardiology
+title: Palpitations in a young adult with caffeine excess and normal ECG
+visit_type: new
+visit_date: "2026-09-29"
+patient:
+  name: Priya Raghunathan
+  dob: "2002-05-14"
+  sex: female
+  phone: 555-0117
+  address: 1190 Linden Avenue, Apt 4, Ann Arbor, MI 48104
+  mrn: "7258031"
+clinician:
+  name: Dr. Kenji Watanabe
+  role: cardiologist
+speakers:
+  clinician: {sex: male}
+  patient: {sex: female}
+dialogue:
+  - speaker: clinician
+    text: Hello, I'm Dr. Kenji Watanabe. Can I get your full name and date of birth, please?
+  - speaker: patient
+    text: Priya Raghunathan. May 14th, 2002.
+  - speaker: clinician
+    text: Thanks, Priya. Quite the rain out there today. Did you get soaked?
+  - speaker: patient
+    text: A little. My umbrella flipped inside out on the way from the bus.
+  - speaker: clinician
+    text: Oh no. Well, let's dry you off with some good news, hopefully. Your student health clinic sent you about palpitations?
+  - speaker: patient
+    text: Yeah. For about 3 weeks I've been feeling this, like, fluttering in my chest. Or like my heart skips and then does a big thump.
+  - speaker: clinician
+    text: How long does each episode last?
+  - speaker: patient
+    text: Just a few seconds. It happens a bunch of times a day, mostly at night when I'm lying in bed.
+  - speaker: clinician
+    text: Does it ever feel like a fast, steady racing that starts and stops suddenly?
+  - speaker: patient
+    text: No, not really racing. More like skipping.
+  - speaker: clinician
+    text: Have you fainted or felt like you were going to faint?
+  - speaker: patient
+    text: No, never.
+  - speaker: clinician
+    text: Any chest pain or shortness of breath when it happens?
+  - speaker: patient
+    text: Nope. It's just weird and it makes me anxious.
+  - speaker: clinician
+    text: That makes sense. Tell me about your caffeine. How much coffee or energy drinks are you having?
+  - speaker: patient
+    text: Um, okay, so I'm in my second year of the pharmacy program at Lakeshore University, and finals prep has been rough. Probably 4 big cold brews a day, and then 2 energy drinks at night to keep studying.
+  - speaker: clinician
+    text: That's a lot of caffeine, probably well over 1000 milligrams a day. How much are you sleeping?
+  - speaker: patient
+    text: Maybe 5 hours. Sometimes less.
+  - speaker: clinician
+    text: Any alcohol, vaping, or other drugs?
+  - speaker: patient
+    text: A glass of wine on weekends sometimes. I don't smoke or vape.
+  - speaker: clinician
+    text: Medicines?
+  - speaker: patient
+    text: Just my birth control pill once a day, and I take melatonin, 3 milligrams, on nights I can't fall asleep. No allergies.
+  - speaker: clinician
+    text: Any heart problems in the family, or anyone who died suddenly when they were young?
+  - speaker: patient
+    text: No heart stuff that I know of. My mom has a thyroid problem, Hashimoto's, she takes a pill for it.
+  - speaker: clinician
+    text: Okay, good to know. Let me examine you. Blood pressure is 118 over 74, pulse 88, oxygen 99 percent. Your thyroid doesn't feel enlarged, no tremor in your hands. Heart has a regular rhythm, no murmurs or clicks. Lungs are clear.
+  - speaker: patient
+    text: Okay.
+  - speaker: clinician
+    text: We also did an ECG at check-in. It's a normal ECG, sinus rhythm at 84, with normal intervals and no signs of an extra electrical pathway.
+  - speaker: patient
+    text: So my heart is okay?
+  - speaker: clinician
+    text: Everything I'm seeing looks healthy. What you're describing sounds like extra beats, early beats from the top or bottom chambers, which are very common and usually harmless. The big triggers are caffeine, energy drinks and not enough sleep, and you've got all three going on.
+  - speaker: patient
+    text: Yeah, that's fair.
+  - speaker: clinician
+    text: So here's the plan. I'd like you to cut back the caffeine gradually over the next 2 weeks, so you don't get withdrawal headaches. Aim for no more than 1 regular coffee a day, and no energy drinks at all. And try to get at least 7 hours of sleep.
+  - speaker: patient
+    text: I can try. Finals end the 12th of December, so it'll get easier after that.
+  - speaker: clinician
+    text: Fair. I'm also ordering a thyroid test, a TSH, plus a blood count and electrolytes, just to rule out anything simple. If the palpitations are still happening in 6 weeks after you've cut back, we'll put a 2 week patch monitor on you to record your rhythm.
+  - speaker: patient
+    text: Okay. What number do you have for me? I changed phones.
+  - speaker: clinician
+    text: I have 555-0117.
+  - speaker: patient
+    text: That's still right.
+  - speaker: clinician
+    text: Good. If you ever faint, or have chest pain with the fluttering, or a racing heartbeat that won't stop, go to the emergency room. Otherwise I'll see you back in 6 weeks.
+  - speaker: patient
+    text: Thank you. That's a relief honestly.
+gold:
+  facts:
+    - id: f1
+      section: subjective
+      text: Palpitations, fluttering and skipped beats, for about 3 weeks
+      polarity: present
+      evidence: "For about 3 weeks I've been feeling this, like, fluttering in my chest."
+      match: [["palpitation", "fluttering", "flutter", "skip"], ["3 weeks", "three weeks", "3 wk"]]
+    - id: f2
+      section: subjective
+      text: Episodes last seconds, many times a day, mostly at night lying in bed
+      polarity: present
+      evidence: "Just a few seconds. It happens a bunch of times a day, mostly at night when I'm lying in bed."
+      match: [["second"], ["night", "lying", "bed", "supine"]]
+    - id: f3
+      section: subjective
+      text: No sustained racing heartbeat with abrupt onset and offset
+      polarity: absent
+      evidence: "No, not really racing."
+      match: [["racing", "sustained", "tachycardia"]]
+    - id: f4
+      section: subjective
+      text: No syncope or presyncope
+      polarity: absent
+      evidence: "Have you fainted or felt like you were going to faint?"
+      match: [["syncope", "faint", "presyncope"]]
+    - id: f5
+      section: subjective
+      text: Denies chest pain
+      polarity: absent
+      evidence: "Any chest pain or shortness of breath when it happens?"
+      match: [["chest pain"]]
+    - id: f6
+      section: subjective
+      text: Denies shortness of breath
+      polarity: absent
+      evidence: "Any chest pain or shortness of breath when it happens?"
+      match: [["shortness of breath", "dyspnea", "sob", "short of breath"]]
+    - id: f7
+      section: subjective
+      text: Episodes cause anxiety
+      polarity: present
+      evidence: "it makes me anxious"
+      match: [["anxi", "worr"]]
+    - id: f8
+      section: subjective
+      text: High caffeine intake, 4 large cold brews and 2 energy drinks daily (over 1000 mg)
+      polarity: present
+      evidence: "Probably 4 big cold brews a day, and then 2 energy drinks at night to keep studying."
+      match: [["caffeine", "coffee", "cold brew", "energy drink"]]
+    - id: f9
+      section: subjective
+      text: Sleeping about 5 hours a night
+      polarity: present
+      evidence: "Maybe 5 hours. Sometimes less."
+      match: [["sleep"], ["5 hours", "five hours", "5 h"]]
+    - id: f10
+      section: subjective
+      text: Occasional glass of wine on weekends
+      polarity: present
+      evidence: "A glass of wine on weekends sometimes."
+      match: [["alcohol", "wine", "etoh"]]
+    - id: f11
+      section: subjective
+      text: Does not smoke or vape
+      polarity: absent
+      evidence: "I don't smoke or vape."
+      match: [["smok", "vap", "tobacco", "nicotine"]]
+    - id: f12
+      section: subjective
+      text: No known drug allergies
+      polarity: absent
+      evidence: "No allergies."
+      match: [["allerg", "nkda"]]
+    - id: f13
+      section: subjective
+      text: No family history of heart disease or sudden death
+      polarity: absent
+      evidence: "No heart stuff that I know of."
+      match: [["sudden", "heart disease", "cardiac disease", "cardiac history", "heart problem"]]
+    - id: f14
+      section: subjective
+      text: Mother has Hashimoto thyroiditis
+      polarity: present
+      evidence: "My mom has a thyroid problem, Hashimoto's"
+      match: [["mother", "mom", "family"], ["thyroid", "hashimoto"]]
+    - id: f15
+      section: objective
+      text: Blood pressure 118/74, pulse 88, oxygen saturation 99%
+      polarity: present
+      evidence: "Blood pressure is 118 over 74, pulse 88, oxygen 99 percent."
+      match: [["118"], ["74"]]
+    - id: f16
+      section: objective
+      text: Thyroid not enlarged, no tremor
+      polarity: absent
+      evidence: "Your thyroid doesn't feel enlarged, no tremor in your hands."
+      match: [["thyroid", "goiter", "thyromegaly", "tremor"]]
+    - id: f17
+      section: objective
+      text: Regular rhythm, no murmurs or clicks
+      polarity: absent
+      evidence: "Heart has a regular rhythm, no murmurs or clicks."
+      match: [["murmur", "click"]]
+    - id: f18
+      section: objective
+      text: Lungs clear
+      polarity: present
+      evidence: "Lungs are clear."
+      match: [["lung"], ["clear"]]
+    - id: f19
+      section: objective
+      text: Normal ECG, sinus rhythm 84, normal intervals, no pre-excitation
+      polarity: present
+      evidence: "It's a normal ECG, sinus rhythm at 84, with normal intervals"
+      match: [["ecg", "ekg", "electrocardiogram", "sinus"], ["84", "normal"]]
+    - id: f20
+      section: assessment
+      text: Palpitations, likely benign premature beats triggered by caffeine excess and sleep deprivation
+      polarity: present
+      evidence: "What you're describing sounds like extra beats"
+      match: [["premature", "ectopy", "ectopic", "extra beats", "pvc", "palpitation"], ["caffeine", "sleep", "energy drink"]]
+    - id: f21
+      section: plan
+      text: Taper caffeine over 2 weeks to at most 1 coffee daily; no energy drinks
+      polarity: present
+      evidence: "I'd like you to cut back the caffeine gradually over the next 2 weeks"
+      match: [["caffeine", "coffee", "energy drink"], ["reduc", "cut", "taper", "limit", "decreas", "avoid"]]
+    - id: f22
+      section: plan
+      text: Sleep at least 7 hours nightly
+      polarity: present
+      evidence: "try to get at least 7 hours of sleep"
+      match: [["sleep"], ["7 hours", "seven hours", "7 h"]]
+    - id: f23
+      section: plan
+      text: Labs ordered TSH, CBC and electrolytes
+      polarity: present
+      evidence: "I'm also ordering a thyroid test, a TSH, plus a blood count and electrolytes"
+      match: [["tsh", "thyroid", "cbc", "blood count", "electrolyte", "bmp"]]
+    - id: f24
+      section: plan
+      text: Two-week patch monitor if palpitations persist after caffeine reduction
+      polarity: present
+      evidence: "we'll put a 2 week patch monitor on you to record your rhythm"
+      match: [["monitor", "holter", "zio", "patch"]]
+    - id: f25
+      section: plan
+      text: ED for syncope, chest pain, or sustained racing heartbeat; follow-up in 6 weeks
+      polarity: present
+      evidence: "Otherwise I'll see you back in 6 weeks."
+      match: [["6 weeks", "six weeks", "6 wk"]]
+  medications:
+    - {name: oral contraceptive, frequency: once daily, route: oral, status: active, evidence: "Just my birth control pill once a day"}
+    - {name: melatonin, dose: 3 mg, frequency: at bedtime as needed, route: oral, status: prn, evidence: "I take melatonin, 3 milligrams, on nights I can't fall asleep"}
+  allergies: []
+  diagnoses:
+    - code: R00.2
+      description: Palpitations
+      primary: true
+      evidence: "I've been feeling this, like, fluttering in my chest"
+  em_code: "99203"
+  em_rationale: One undiagnosed new problem (palpitations) with limited data (labs ordered, ECG billed separately) and low risk from lifestyle management only, so low MDM overall.
+  procedures:
+    - {code: "93000", evidence: "We also did an ECG at check-in."}
+  phi:
+    - {type: NAME, value: Dr. Kenji Watanabe, who: clinician}
+    - {type: NAME, value: Priya Raghunathan, who: patient}
+    - {type: NAME, value: Priya, who: patient}
+    - {type: DATE, value: "May 14th, 2002", who: patient}
+    - {type: ORG, value: Lakeshore University, who: patient}
+    - {type: DATE, value: the 12th of December, who: patient}
+    - {type: PHONE, value: 555-0117, who: patient}
+traps:
+  - type: family_history
+    text: Mother's Hashimoto thyroiditis must not become the patient's diagnosis
+    evidence: "My mom has a thyroid problem, Hashimoto's, she takes a pill for it."
+    match: [["hashimoto", "hypothyroid", "thyroiditis"]]
+  - type: small_talk
+    text: Rain and umbrella small talk must not appear in the note
+    evidence: "My umbrella flipped inside out on the way from the bus."
+    match: [["umbrella", "rain"]]

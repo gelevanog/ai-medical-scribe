@@ -1,0 +1,291 @@
+id: dm-03
+specialty: dermatology
+title: Adult atopic dermatitis flare treated with triamcinolone
+visit_type: established
+visit_date: "2026-10-05"
+patient:
+  name: Hyun-woo Park
+  dob: "1996-11-03"
+  sex: male
+  phone: 555-0177
+clinician:
+  name: Dr. Samir Haddad
+  role: dermatologist
+speakers:
+  clinician: {sex: male}
+  patient: {sex: male}
+dialogue:
+  - speaker: clinician
+    text: "Hey, good to see you again. Just to confirm, full name and date of birth?"
+  - speaker: patient
+    text: "Hyun-woo Park, November 3rd, 1996."
+  - speaker: clinician
+    text: "Thanks, Hyun-woo. It's been, what, a year and a half? What's going on?"
+  - speaker: patient
+    text: "My eczema's back, bad. It started flaring about 3 weeks ago, right after I started a new job at Brightline Logistics. The warehouse is freezing and super dry."
+  - speaker: clinician
+    text: "Where is it this time?"
+  - speaker: patient
+    text: "Inside both elbows, behind my knees, my neck, and the backs of my hands are cracking."
+  - speaker: clinician
+    text: "On a scale of 0 to 10, how bad is the itch?"
+  - speaker: patient
+    text: "Like an 8. It wakes me up at night. My girlfriend Jisoo says I'm scratching in my sleep."
+  - speaker: clinician
+    text: "That's rough. Any oozing, or yellow crusting?"
+  - speaker: patient
+    text: "No, nothing like that."
+  - speaker: clinician
+    text: "Fevers?"
+  - speaker: patient
+    text: "Nope."
+  - speaker: clinician
+    text: "Any new soaps, detergents, or lotions?"
+  - speaker: patient
+    text: "No, same stuff as always."
+  - speaker: clinician
+    text: "What have you been putting on it?"
+  - speaker: patient
+    text: "I ran out of the triamcinolone you gave me last time, so I've been using the drugstore hydrocortisone, the 2.5 percent. Wait, no, it's the 1 percent. The 2.5 needs a prescription, right?"
+  - speaker: clinician
+    text: "Right, the 1 percent is the over-the-counter one. And it's just not strong enough for this. Anything else you take?"
+  - speaker: patient
+    text: "Cetirizine, 10 milligrams every day for my seasonal allergies."
+  - speaker: clinician
+    text: "Okay. And you had asthma as a kid, right? Any breathing trouble now?"
+  - speaker: patient
+    text: "No, I outgrew that. I haven't used an inhaler since I was like 12."
+  - speaker: clinician
+    text: "Good. Still no drug allergies?"
+  - speaker: patient
+    text: "None."
+  - speaker: clinician
+    text: "Alright, let's look. In both elbow creases there are red, scaly, thickened plaques, about 6 by 4 centimeters each, with scratch marks. Same thing behind both knees, a bit smaller. There's a patch of dry, red skin on the back of your neck. The backs of both hands are dry with a few small cracks over the knuckles. No weeping and no honey-colored crusting, so I don't see signs of infection. Your face and eyelids are clear. I'd estimate about 10 percent of your body surface."
+  - speaker: patient
+    text: "Yeah, that sounds about right."
+  - speaker: clinician
+    text: "So this is a flare of your atopic dermatitis, probably set off by the cold, dry air at work. Here's the plan. I'm restarting triamcinolone 0.1 percent ointment, twice a day to the patches on your body and hands, for 2 weeks. Then cut back to just weekends, Saturday and Sunday, on the spots that like to come back. Don't use it on your face or groin."
+  - speaker: patient
+    text: "Ointment, not the cream?"
+  - speaker: clinician
+    text: "Ointment. It's greasier but it works better on dry, cracked skin and it stings less. You can stop the hydrocortisone. For the itch at night, let's add hydroxyzine 25 milligrams at bedtime as needed. It'll make you drowsy, so don't drive after taking it. Keep the cetirizine in the morning."
+  - speaker: patient
+    text: "Okay."
+  - speaker: clinician
+    text: "Moisturizing is half the battle. A thick, fragrance-free cream or plain petroleum jelly at least twice a day, and right after a short, lukewarm shower. At work, wear cotton-lined gloves when you can. I can write a note for that."
+  - speaker: patient
+    text: "That would help, yeah."
+  - speaker: clinician
+    text: "If it keeps flaring even with all this, there are newer options like dupilumab, an injection, and we can talk about it then. And if you see oozing, yellow crusts, or you get a fever, call us right away, that could be an infection."
+  - speaker: patient
+    text: "Got it. Should I call the same number?"
+  - speaker: clinician
+    text: "Yes. And we have 555-0177 for you, is that still right?"
+  - speaker: patient
+    text: "That's still me."
+  - speaker: clinician
+    text: "Great. Let's see you back in 4 weeks, on Monday, November 2nd, and see how the skin's doing."
+  - speaker: patient
+    text: "Sounds good. Thanks, Dr. Haddad."
+gold:
+  facts:
+    - id: f1
+      section: subjective
+      text: Eczema flare for 3 weeks, started after new job in a cold, dry warehouse
+      polarity: present
+      evidence: It started flaring about 3 weeks ago
+      match: [["flare", "eczema", "dermatitis"], ["3 weeks", "three weeks"]]
+    - id: f2
+      section: subjective
+      text: Involves both antecubital fossae, behind both knees, neck, and backs of hands with cracking
+      polarity: present
+      evidence: Inside both elbows, behind my knees, my neck, and the backs of my hands are cracking.
+      match: [["elbow", "antecubital", "knee", "popliteal", "hand"]]
+    - id: f3
+      section: subjective
+      text: Itch 8 out of 10, waking him at night
+      polarity: present
+      evidence: Like an 8. It wakes me up at night.
+      match: [["itch", "prurit"], ["8", "eight", "night", "sleep"]]
+    - id: f4
+      section: subjective
+      text: Denies oozing or yellow crusting
+      polarity: absent
+      evidence: Any oozing, or yellow crusting?
+      match: [["ooz", "crust", "weep"]]
+    - id: f5
+      section: subjective
+      text: Denies fever
+      polarity: absent
+      evidence: Fevers?
+      match: [["fever", "febrile"]]
+    - id: f6
+      section: subjective
+      text: No new soaps, detergents or lotions
+      polarity: absent
+      evidence: Any new soaps, detergents, or lotions?
+      match: [["soap", "detergent", "lotion", "product", "exposure"]]
+    - id: f7
+      section: subjective
+      text: Ran out of prescribed triamcinolone; using OTC hydrocortisone 1% without enough benefit
+      polarity: present
+      evidence: it's the 1 percent.
+      match: [["hydrocortisone"], ["1%", "1 percent", "1 %"]]
+    - id: f8
+      section: subjective
+      text: Takes cetirizine 10 mg daily for seasonal allergies
+      polarity: present
+      evidence: Cetirizine, 10 milligrams every day for my seasonal allergies.
+      match: [["cetirizine", "zyrtec"], ["10"]]
+    - id: f9
+      section: subjective
+      text: Childhood asthma, resolved, no inhaler since age 12; no current breathing trouble
+      polarity: present
+      evidence: I haven't used an inhaler since I was like 12.
+      match: [["asthma"], ["child", "outgrew", "resolved", "history", "remote"]]
+    - id: f10
+      section: subjective
+      text: No known drug allergies
+      polarity: absent
+      evidence: Still no drug allergies?
+      match: [["allerg", "nkda"]]
+    - id: f11
+      section: objective
+      text: Red, scaly, lichenified plaques with excoriations in both antecubital fossae, about 6 by 4 cm each
+      polarity: present
+      evidence: In both elbow creases there are red, scaly, thickened plaques, about 6 by 4 centimeters each, with scratch marks.
+      match: [["elbow", "antecubital"], ["6 by 4", "6 x 4", "6x4", "plaque"]]
+    - id: f12
+      section: objective
+      text: Similar smaller plaques in both popliteal fossae
+      polarity: present
+      evidence: Same thing behind both knees, a bit smaller.
+      match: [["knee", "popliteal"]]
+    - id: f13
+      section: objective
+      text: Dry red patch on the back of the neck
+      polarity: present
+      evidence: There's a patch of dry, red skin on the back of your neck.
+      match: [["neck"]]
+    - id: f14
+      section: objective
+      text: Dry skin with small fissures over the knuckles of both hands
+      polarity: present
+      evidence: The backs of both hands are dry with a few small cracks over the knuckles.
+      match: [["hand", "knuckle"], ["crack", "fissur", "dry"]]
+    - id: f15
+      section: objective
+      text: No weeping or honey-colored crusting, no signs of infection
+      polarity: absent
+      evidence: No weeping and no honey-colored crusting, so I don't see signs of infection.
+      match: [["infect", "honey", "weep", "impetig"]]
+    - id: f16
+      section: objective
+      text: Face and eyelids clear
+      polarity: absent
+      evidence: Your face and eyelids are clear.
+      match: [["face", "eyelid", "facial"]]
+    - id: f17
+      section: objective
+      text: About 10% body surface area involved
+      polarity: present
+      evidence: I'd estimate about 10 percent of your body surface.
+      match: [["10%", "10 percent", "10 %", "bsa"]]
+    - id: f18
+      section: assessment
+      text: Atopic dermatitis flare, likely triggered by cold dry work environment
+      polarity: present
+      evidence: So this is a flare of your atopic dermatitis
+      match: [["atopic", "eczema", "dermatitis"]]
+    - id: f19
+      section: plan
+      text: Restart triamcinolone 0.1% ointment twice daily to body and hands for 2 weeks, then weekends only for maintenance; avoid face and groin
+      polarity: present
+      evidence: I'm restarting triamcinolone 0.1 percent ointment, twice a day to the patches on your body and hands, for 2 weeks.
+      match: [["triamcinolone", "kenalog"], ["0.1", "twice", "2 weeks", "two weeks"]]
+    - id: f20
+      section: plan
+      text: Weekend maintenance twice weekly to recurrent spots after the first 2 weeks
+      polarity: present
+      evidence: Then cut back to just weekends, Saturday and Sunday
+      match: [["weekend", "twice weekly", "twice a week", "saturday", "maintenance", "proactive"]]
+    - id: f21
+      section: plan
+      text: Stop OTC hydrocortisone
+      polarity: present
+      evidence: You can stop the hydrocortisone.
+      match: [["hydrocortisone"]]
+    - id: f22
+      section: plan
+      text: Start hydroxyzine 25 mg at bedtime as needed for itch; counseled on drowsiness, no driving
+      polarity: present
+      evidence: let's add hydroxyzine 25 milligrams at bedtime as needed
+      match: [["hydroxyzine", "atarax", "vistaril"], ["25"]]
+    - id: f23
+      section: plan
+      text: Continue cetirizine in the morning
+      polarity: present
+      evidence: Keep the cetirizine in the morning.
+      match: [["cetirizine", "zyrtec"]]
+    - id: f24
+      section: plan
+      text: Thick fragrance-free moisturizer or petroleum jelly at least twice daily and after short lukewarm showers
+      polarity: present
+      evidence: A thick, fragrance-free cream or plain petroleum jelly at least twice a day
+      match: [["moistur", "emollient", "petroleum", "vaseline", "petrolatum"]]
+    - id: f25
+      section: plan
+      text: Cotton-lined gloves at work; work note provided
+      polarity: present
+      evidence: At work, wear cotton-lined gloves when you can. I can write a note for that.
+      match: [["glove"]]
+    - id: f26
+      section: plan
+      text: Return precautions for oozing, yellow crusts or fever suggesting infection
+      polarity: present
+      evidence: if you see oozing, yellow crusts, or you get a fever, call us right away
+      match: [["infect", "ooz", "crust", "fever"]]
+    - id: f27
+      section: plan
+      text: Follow-up in 4 weeks on November 2
+      polarity: present
+      evidence: Let's see you back in 4 weeks, on Monday, November 2nd
+      match: [["follow", "return", "back"], ["4 weeks", "four weeks", "november 2", "nov 2"]]
+  medications:
+    - {name: triamcinolone, dose: 0.1% ointment, frequency: twice daily for 2 weeks then weekends only, route: topical, status: new, evidence: "I'm restarting triamcinolone 0.1 percent ointment, twice a day"}
+    - {name: hydrocortisone, dose: 1% cream, frequency: as used, route: topical, status: stopped, evidence: "You can stop the hydrocortisone."}
+    - {name: cetirizine, dose: 10 mg, frequency: once daily in the morning, route: oral, status: active, evidence: "Cetirizine, 10 milligrams every day for my seasonal allergies."}
+    - {name: hydroxyzine, dose: 25 mg, frequency: at bedtime as needed for itch, route: oral, status: prn, evidence: "let's add hydroxyzine 25 milligrams at bedtime as needed"}
+    - {name: petroleum jelly, dose: thin layer, frequency: at least twice daily, route: topical, status: new, evidence: "plain petroleum jelly at least twice a day"}
+  allergies: []
+  diagnoses:
+    - code: L20.9
+      description: Atopic dermatitis, unspecified
+      primary: true
+      evidence: So this is a flare of your atopic dermatitis
+      alternatives: [L20.89, L20.82]
+  em_code: "99214"
+  em_rationale: One chronic illness with exacerbation and prescription drug management (moderate risk), so moderate MDM for an established patient.
+  procedures: []
+  phi:
+    - {type: NAME, value: Dr. Haddad, who: clinician}
+    - {type: NAME, value: Hyun-woo Park, who: patient}
+    - {type: NAME, value: Hyun-woo, who: patient}
+    - {type: DATE, value: "November 3rd, 1996", who: patient}
+    - {type: ORG, value: Brightline Logistics, who: patient}
+    - {type: NAME, value: Jisoo, who: relative}
+    - {type: PHONE, value: 555-0177, who: patient}
+    - {type: DATE, value: "Monday, November 2nd", who: patient}
+traps:
+  - type: correction
+    text: Hydrocortisone strength first said as 2.5%, corrected to the 1% over-the-counter product
+    evidence: I've been using the drugstore hydrocortisone, the 2.5 percent.
+    match: [["hydrocortisone"], ["2.5"]]
+  - type: past_resolved
+    text: Childhood asthma resolved, no inhaler since age 12; not a current problem
+    evidence: No, I outgrew that.
+    match: [["active asthma", "current asthma", "uncontrolled asthma", "asthma exacerbation"]]
+  - type: hypothetical
+    text: Dupilumab only discussed as a future option if flares persist; not started
+    evidence: there are newer options like dupilumab
+    match: [["dupilumab", "dupixent"], ["started", "initiated", "prescribed"]]

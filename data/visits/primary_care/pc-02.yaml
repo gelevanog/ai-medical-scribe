@@ -1,0 +1,299 @@
+id: pc-02
+specialty: primary_care
+title: Type 2 diabetes with rising A1c, glipizide stopped, empagliflozin started
+visit_type: established
+visit_date: "2026-10-06"
+patient:
+  name: Guadalupe Rios
+  dob: "1965-06-17"
+  sex: female
+  phone: 555-0131
+  address: 718 Saguaro Vista Road, Tucson, AZ 85710
+  mrn: "3308471"
+clinician:
+  name: Dr. Marcus Feld
+  role: internal medicine physician
+speakers:
+  clinician: {sex: male}
+  patient: {sex: female}
+dialogue:
+  - speaker: clinician
+    text: Good afternoon. Can I have you confirm your full name and date of birth?
+  - speaker: patient
+    text: Guadalupe Rios. June 17th, 1965.
+  - speaker: clinician
+    text: Thank you, Mrs. Rios. Finally cooling off out there, huh?
+  - speaker: patient
+    text: Thank God. I can walk in the evenings again without melting.
+  - speaker: clinician
+    text: That's good to hear, actually, because we're here to talk about your diabetes. Your A1c from last week came back at 8.4 percent. In April it was 7.6.
+  - speaker: patient
+    text: Ay, I figured it went up. I have to tell you something. I stopped the glipizide.
+  - speaker: clinician
+    text: Okay, thanks for telling me. When did you stop it, and what happened?
+  - speaker: patient
+    text: About two months ago. I was getting shaky and sweaty in the afternoons. One time my sugar was 62 and I almost had to pull the car over.
+  - speaker: clinician
+    text: That's scary, and that was the right instinct. That was the 5 milligrams once a day?
+  - speaker: patient
+    text: Yes, the 5 in the morning. Since I stopped it, no more lows.
+  - speaker: clinician
+    text: And the metformin, you're still taking that?
+  - speaker: patient
+    text: Yes, 1000 milligrams twice a day, with breakfast and dinner. My stomach is fine with it now.
+  - speaker: clinician
+    text: Good. What are your fasting sugars running at home?
+  - speaker: patient
+    text: Mostly 150 to 180 in the morning.
+  - speaker: clinician
+    text: Are you more thirsty than usual, or getting up at night to pee?
+  - speaker: patient
+    text: Maybe a little more thirsty. Not up at night, no.
+  - speaker: clinician
+    text: Any numbness or tingling in your feet?
+  - speaker: patient
+    text: No.
+  - speaker: clinician
+    text: Any blurry vision? And when was your last eye exam?
+  - speaker: patient
+    text: My eyes are fine. The eye exam, um, I think it was before COVID. I know, it's been a while.
+  - speaker: clinician
+    text: We'll take care of that today. And remind me, you're allergic to sulfa?
+  - speaker: patient
+    text: Yes, the Bactrim. I broke out in a rash all over my body.
+  - speaker: clinician
+    text: Got it, that's still on your chart. How's the family?
+  - speaker: patient
+    text: Good. My husband's sugar is worse than mine, they put him on insulin last month. So now we're both checking, it's like a competition.
+  - speaker: clinician
+    text: Well, I hope you're winning. Let me look at you. Blood pressure is 128 over 76, pulse 80, weight 186 pounds, about the same as April.
+  - speaker: clinician
+    text: Let me check your feet. Skin looks good, no sores or calluses. Pulses are strong in both feet, and you can feel the monofilament everywhere I touched. Heart and lungs sound normal.
+  - speaker: clinician
+    text: Your other labs look good too. Kidney function is normal, the filtration rate is 78, and there's no protein in your urine.
+  - speaker: patient
+    text: Okay, that's good news at least.
+  - speaker: clinician
+    text: It is. So, to put it together, your type 2 diabetes is above our goal, and the glipizide was causing low sugars, so we'll leave that off for good. Keep the metformin, 1000 milligrams twice a day. I'd like to add a new medicine called empagliflozin, 10 milligrams once a day in the morning. It doesn't usually cause lows, and it also protects the heart and kidneys.
+  - speaker: patient
+    text: Is it a shot?
+  - speaker: clinician
+    text: No, it's a pill. It works by letting you pass extra sugar in the urine, so drink plenty of water and keep that area clean. If you get any itching or a yeast infection, call us, it's treatable. If you can't eat or drink because you're sick, skip it that day.
+  - speaker: patient
+    text: Okay. Water, I can do.
+  - speaker: clinician
+    text: I'm also putting in a referral for a diabetic eye exam. And keep up the evening walks, they really do help. We'll repeat the A1c in 3 months and see you then.
+  - speaker: patient
+    text: Can you send the eye doctor info to the portal? My daughter Marisela reads it for me.
+  - speaker: clinician
+    text: Sure. Is the portal email still lupe rios 65 at example dot com?
+  - speaker: patient
+    text: That's the one.
+  - speaker: clinician
+    text: Great. And the empagliflozin goes to your usual pharmacy. Any questions?
+  - speaker: patient
+    text: No, I think I've got it. Thank you, doctor.
+  - speaker: clinician
+    text: You're welcome. Enjoy those walks.
+gold:
+  facts:
+    - id: f1
+      section: subjective
+      text: Stopped glipizide 5 mg daily on her own about 2 months ago
+      polarity: present
+      evidence: I stopped the glipizide.
+      match: [["glipizide"], ["stop", "discontinu", "self-d", "off"]]
+    - id: f2
+      section: subjective
+      text: Hypoglycemia on glipizide, shaky and sweaty in afternoons, glucose as low as 62
+      polarity: present
+      evidence: One time my sugar was 62
+      match: [["hypoglyc", "low sugar", "low blood sugar", "lows", "62"]]
+    - id: f3
+      section: subjective
+      text: No further lows since stopping glipizide
+      polarity: absent
+      evidence: Since I stopped it, no more lows.
+      match: [["hypoglyc", "lows", "low sugar", "low blood sugar"]]
+    - id: f4
+      section: subjective
+      text: Taking metformin 1000 mg twice daily with meals, tolerating
+      polarity: present
+      evidence: 1000 milligrams twice a day, with breakfast and dinner
+      match: [["metformin"], ["1000", "1 g", "1g"]]
+    - id: f5
+      section: subjective
+      text: Home fasting glucose 150 to 180
+      polarity: present
+      evidence: Mostly 150 to 180 in the morning.
+      match: [["fasting", "glucose", "sugar"], ["150", "180"]]
+    - id: f6
+      section: subjective
+      text: Mild increased thirst
+      polarity: present
+      evidence: Maybe a little more thirsty.
+      match: [["thirst", "polydipsia"]]
+    - id: f7
+      section: subjective
+      text: Denies nocturia
+      polarity: absent
+      evidence: Not up at night, no.
+      match: [["nocturia", "at night", "urinat", "polyuria"]]
+    - id: f8
+      section: subjective
+      text: Denies numbness or tingling in feet
+      polarity: absent
+      evidence: Any numbness or tingling in your feet?
+      match: [["numb", "tingl", "neuropath", "paresthes"]]
+    - id: f9
+      section: subjective
+      text: Denies blurry vision
+      polarity: absent
+      evidence: My eyes are fine.
+      match: [["vision", "blur", "visual"]]
+    - id: f10
+      section: subjective
+      text: Diabetic eye exam overdue, last before COVID
+      polarity: present
+      evidence: I think it was before COVID
+      match: [["eye exam", "retina", "ophthalm", "eye"]]
+    - id: f11
+      section: subjective
+      text: Walking in the evenings for exercise
+      polarity: present
+      evidence: I can walk in the evenings again
+      match: [["walk", "exercise"]]
+    - id: f12
+      section: objective
+      text: Hemoglobin A1c 8.4 percent, up from 7.6 percent in April
+      polarity: present
+      evidence: Your A1c from last week came back at 8.4 percent.
+      match: [["a1c", "hba1c", "hemoglobin a1c"], ["8.4"]]
+    - id: f13
+      section: objective
+      text: Blood pressure 128/76
+      polarity: present
+      evidence: Blood pressure is 128 over 76
+      match: [["128"], ["76"]]
+    - id: f14
+      section: objective
+      text: Pulse 80
+      polarity: present
+      evidence: pulse 80
+      match: [["pulse", "heart rate"], ["80"]]
+    - id: f15
+      section: objective
+      text: Weight 186 lb, stable since April
+      polarity: present
+      evidence: weight 186 pounds
+      match: [["186"]]
+    - id: f16
+      section: objective
+      text: Foot exam normal, no sores or calluses, pedal pulses strong, monofilament sensation intact
+      polarity: present
+      evidence: you can feel the monofilament everywhere I touched
+      match: [["foot", "feet", "monofilament", "pedal"]]
+    - id: f17
+      section: objective
+      text: Heart and lungs normal
+      polarity: present
+      evidence: Heart and lungs sound normal.
+      match: [["heart", "lung", "cardiopulmonary", "cardiac"], ["normal", "clear", "regular", "unremarkable"]]
+    - id: f18
+      section: objective
+      text: eGFR 78, normal kidney function, no urine protein
+      polarity: present
+      evidence: Kidney function is normal, the filtration rate is 78
+      match: [["egfr", "gfr", "kidney", "renal"], ["78", "normal"]]
+    - id: f19
+      section: assessment
+      text: Type 2 diabetes above goal (A1c 8.4)
+      polarity: present
+      evidence: your type 2 diabetes is above our goal
+      match: [["diabetes", "dm", "t2dm"]]
+    - id: f20
+      section: assessment
+      text: Hypoglycemia due to glipizide
+      polarity: present
+      evidence: the glipizide was causing low sugars
+      match: [["glipizide"], ["hypoglyc", "low sugar", "low blood sugar", "lows"]]
+    - id: f21
+      section: plan
+      text: Discontinue glipizide permanently
+      polarity: present
+      evidence: we'll leave that off for good
+      match: [["glipizide"]]
+    - id: f22
+      section: plan
+      text: Continue metformin 1000 mg twice daily
+      polarity: present
+      evidence: Keep the metformin, 1000 milligrams twice a day.
+      match: [["metformin"], ["continue", "1000"]]
+    - id: f23
+      section: plan
+      text: Start empagliflozin 10 mg once daily in the morning
+      polarity: present
+      evidence: empagliflozin, 10 milligrams once a day in the morning
+      match: [["empagliflozin", "jardiance", "sglt2", "sglt-2"], ["10"]]
+    - id: f24
+      section: plan
+      text: Counseled on hydration, genital hygiene and yeast infection risk, hold on sick days
+      polarity: present
+      evidence: so drink plenty of water and keep that area clean
+      match: [["hydrat", "water", "fluid", "yeast", "genital", "hygiene", "sick day"]]
+    - id: f25
+      section: plan
+      text: Referral for diabetic eye exam
+      polarity: present
+      evidence: I'm also putting in a referral for a diabetic eye exam.
+      match: [["eye", "retina", "ophthalm", "optometr"]]
+    - id: f26
+      section: plan
+      text: Repeat A1c and follow-up in 3 months
+      polarity: present
+      evidence: We'll repeat the A1c in 3 months and see you then.
+      match: [["3 months", "three months", "3 mo"]]
+    - id: f27
+      section: plan
+      text: Continue evening walks
+      polarity: present
+      evidence: keep up the evening walks
+      match: [["walk", "exercise"]]
+  medications:
+    - {name: metformin, dose: 1000 mg, frequency: twice daily with meals, route: oral, status: active, evidence: "1000 milligrams twice a day, with breakfast and dinner"}
+    - {name: glipizide, dose: 5 mg, frequency: once daily, route: oral, status: stopped, evidence: I stopped the glipizide.}
+    - {name: empagliflozin, dose: 10 mg, frequency: once daily in the morning, route: oral, status: new, evidence: "empagliflozin, 10 milligrams once a day in the morning"}
+  allergies:
+    - {substance: sulfamethoxazole-trimethoprim (sulfa), reaction: generalized rash, evidence: I broke out in a rash all over my body.}
+  diagnoses:
+    - code: E11.65
+      description: Type 2 diabetes mellitus with hyperglycemia
+      primary: true
+      evidence: your type 2 diabetes is above our goal
+      alternatives: [E11.9]
+    - code: Z79.84
+      description: Long term (current) use of oral hypoglycemic drugs
+      evidence: Keep the metformin, 1000 milligrams twice a day.
+  em_code: "99214"
+  em_rationale: Chronic illness not at goal with medication side effects, review of A1c, renal function and urine albumin, and prescription drug management (moderate MDM).
+  procedures: []
+  phi:
+    - {type: NAME, value: Guadalupe Rios, who: patient}
+    - {type: NAME, value: Mrs. Rios, who: patient}
+    - {type: DATE, value: "June 17th, 1965", who: patient}
+    - {type: DATE, value: April, who: patient}
+    - {type: NAME, value: Marisela, who: relative}
+    - {type: EMAIL, value: lupe rios 65 at example dot com, who: patient}
+traps:
+  - type: other_person
+    text: Husband was started on insulin; the patient is not on insulin
+    evidence: they put him on insulin last month
+    match: [["insulin"]]
+  - type: hypothetical
+    text: Possible yeast infection on empagliflozin mentioned as a warning, not a current problem
+    evidence: If you get any itching or a yeast infection, call us
+    match: [["yeast infection", "candid", "vulvovaginitis"]]
+  - type: small_talk
+    text: Weather cooling off
+    evidence: Finally cooling off out there, huh?
+    match: [["weather", "cooling", "melting"]]

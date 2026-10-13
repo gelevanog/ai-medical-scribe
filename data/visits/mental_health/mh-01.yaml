@@ -1,0 +1,305 @@
+id: mh-01
+specialty: mental_health
+title: New patient with moderate depression, sertraline started
+visit_type: new
+visit_date: "2026-09-21"
+patient:
+  name: Daniela Restrepo
+  dob: "1992-05-08"
+  sex: female
+  phone: 773-555-0164
+  address: 2715 North Kedzie Avenue, Chicago, IL 60647
+  mrn: "6031485"
+clinician:
+  name: Priya Natarajan, PMHNP
+  role: psychiatric nurse practitioner
+speakers:
+  clinician: {sex: female}
+  patient: {sex: female}
+dialogue:
+  - speaker: clinician
+    text: Hi, come on in, have a seat anywhere. I'm Priya Natarajan, one of the psychiatric nurse practitioners here. Can you tell me your full name and date of birth?
+  - speaker: patient
+    text: Daniela Restrepo. May 8th, 1992.
+  - speaker: clinician
+    text: Thank you, Daniela. Did you find parking okay? That garage is a bit of a maze.
+  - speaker: patient
+    text: Yeah, I ended up all the way on the roof, but it's fine.
+  - speaker: clinician
+    text: That happens to everyone. So your primary care doctor sent you over. Tell me in your own words what's been going on.
+  - speaker: patient
+    text: Um, I've just been really down. For about three months now. I don't enjoy anything anymore. I used to paint on the weekends and I haven't touched it since June.
+  - speaker: clinician
+    text: I'm sorry, that sounds really hard. How's your sleep been?
+  - speaker: patient
+    text: Bad. I fall asleep okay, but I wake up around 4 in the morning and I can't get back to sleep.
+  - speaker: clinician
+    text: And your appetite?
+  - speaker: patient
+    text: I'm just not hungry. I think I've lost maybe 8 pounds without trying.
+  - speaker: clinician
+    text: What about energy and concentration?
+  - speaker: patient
+    text: Low energy, all the time. At work I read the same email like three times. I'm a project coordinator at Halvorsen Engineering and I'm, you know, kind of barely keeping up.
+  - speaker: clinician
+    text: Did anything happen that set this off?
+  - speaker: patient
+    text: My relationship ended in the spring. Five years. But honestly, it feels bigger than that now.
+  - speaker: clinician
+    text: That makes sense. Have you ever had a stretch like this before, or been treated for depression or anxiety?
+  - speaker: patient
+    text: No, this is the first time. I've never been on anything for it.
+  - speaker: clinician
+    text: Have you ever had times where you felt the opposite, like really high energy, barely needing sleep for days, racing thoughts?
+  - speaker: patient
+    text: No, never.
+  - speaker: clinician
+    text: Anyone in your family with depression or bipolar disorder?
+  - speaker: patient
+    text: My aunt on my dad's side has bipolar, I think. And my sister Paola takes something for anxiety, I don't know what.
+  - speaker: clinician
+    text: Okay, that's helpful. Now I'm going to ask a couple of questions I ask everyone. Have you had any thoughts that you'd be better off dead, or thoughts of hurting yourself?
+  - speaker: patient
+    text: No. I feel awful, but no, nothing like that.
+  - speaker: clinician
+    text: Any thoughts of hurting anyone else?
+  - speaker: patient
+    text: No.
+  - speaker: clinician
+    text: Thank you for answering that. How about alcohol or drugs?
+  - speaker: patient
+    text: Maybe a glass of wine once a week. No drugs.
+  - speaker: clinician
+    text: Any medical problems, and are you allergic to any medications?
+  - speaker: patient
+    text: I'm healthy otherwise. I'm allergic to penicillin, I break out in hives.
+  - speaker: clinician
+    text: Got it. So the questionnaire you filled out in the waiting room, the PHQ-9, your score is 15, which is in the moderate range. Your GAD-7 anxiety score is 6, so mild. Your blood pressure today is 116 over 74, pulse 72, and your weight is 138 pounds. And so you know what I'm noting, you're well groomed, your speech is normal, your mood is sad and your affect is a bit flat, and your thinking is clear and organized.
+  - speaker: patient
+    text: Yeah, that sounds about right.
+  - speaker: clinician
+    text: So here's what I think. This looks like major depression, a single episode, moderate. The good news is it's very treatable. What I'd like to do is start sertraline, 25 milligrams once a day for one week, then go up to 50 milligrams once a day. It can take 4 to 6 weeks to really feel the difference.
+  - speaker: patient
+    text: Are there side effects?
+  - speaker: clinician
+    text: Some people get an upset stomach or a headache the first week or two, and that usually fades. Take it with breakfast. And because of your aunt's history, if you ever notice you're suddenly wired, not sleeping but not tired, call us right away.
+  - speaker: patient
+    text: Okay.
+  - speaker: clinician
+    text: I'd also like you to start therapy, so I'm putting in a referral to our therapy team for weekly sessions. And I'm giving you this safety plan card. If you ever do have thoughts of hurting yourself, you can call or text 988, the crisis line, any time, or go to the nearest emergency room.
+  - speaker: patient
+    text: Okay. Thank you.
+  - speaker: clinician
+    text: Which pharmacy do you use?
+  - speaker: patient
+    text: Lakeview Pharmacy, on 4120 Belmont Avenue.
+  - speaker: clinician
+    text: I'll send it there. And what's the best number to reach you?
+  - speaker: patient
+    text: 773-555-0164.
+  - speaker: clinician
+    text: Great. Let's see you back in 4 weeks, on October 19th, to check how you're doing on the medicine.
+  - speaker: patient
+    text: Sounds good. Thanks, really.
+gold:
+  facts:
+    - id: f1
+      section: subjective
+      text: Depressed mood for about 3 months
+      polarity: present
+      evidence: I've just been really down. For about three months now.
+      match: [["down", "depress", "low mood", "sad"], ["3 months", "three months", "3 mo"]]
+    - id: f2
+      section: subjective
+      text: Anhedonia, stopped painting since June
+      polarity: present
+      evidence: I don't enjoy anything anymore. I used to paint on the weekends
+      match: [["anhedonia", "enjoy", "interest", "pleasure", "paint"]]
+    - id: f3
+      section: subjective
+      text: Early morning awakening around 4 am, unable to return to sleep
+      polarity: present
+      evidence: I wake up around 4 in the morning and I can't get back to sleep
+      match: [["wak", "insomnia", "sleep"], ["4 am", "4 a.m", "4 in the morning", "4:00", "early morning"]]
+    - id: f4
+      section: subjective
+      text: Decreased appetite with about 8 lb unintentional weight loss
+      polarity: present
+      evidence: I think I've lost maybe 8 pounds without trying.
+      match: [["weight loss", "lost", "pound", "lb"], ["8"]]
+    - id: f5
+      section: subjective
+      text: Low energy and poor concentration, struggling at work
+      polarity: present
+      evidence: Low energy, all the time. At work I read the same email like three times.
+      match: [["energy", "fatigue", "tired", "concentrat", "focus"]]
+    - id: f6
+      section: subjective
+      text: Onset after end of a 5-year relationship in the spring
+      polarity: present
+      evidence: My relationship ended in the spring.
+      match: [["relationship", "breakup", "break-up", "partner"]]
+    - id: f7
+      section: subjective
+      text: No prior depressive episodes or psychiatric treatment
+      polarity: absent
+      evidence: No, this is the first time. I've never been on anything for it.
+      match: [["prior", "previous", "first episode", "first time", "history", "treatment"]]
+    - id: f8
+      section: subjective
+      text: Denies history of manic or hypomanic symptoms
+      polarity: absent
+      evidence: Have you ever had times where you felt the opposite, like really high energy, barely needing sleep for days, racing thoughts?
+      match: [["mania", "manic", "hypoman", "racing thoughts", "decreased need for sleep"]]
+    - id: f9
+      section: subjective
+      text: Family history of bipolar disorder in paternal aunt
+      polarity: present
+      evidence: My aunt on my dad's side has bipolar, I think.
+      match: [["aunt", "family"], ["bipolar"]]
+    - id: f10
+      section: subjective
+      text: Denies suicidal ideation or thoughts of self-harm
+      polarity: absent
+      evidence: Have you had any thoughts that you'd be better off dead, or thoughts of hurting yourself?
+      match: [["suicid", "self-harm", "self harm", "hurting herself", "better off dead", " si "]]
+    - id: f11
+      section: subjective
+      text: Denies homicidal ideation
+      polarity: absent
+      evidence: Any thoughts of hurting anyone else?
+      match: [["homicid", "hurting others", "hurting anyone", "harm others"]]
+    - id: f12
+      section: subjective
+      text: Alcohol about 1 glass of wine per week
+      polarity: present
+      evidence: Maybe a glass of wine once a week.
+      match: [["alcohol", "wine", "drink"], ["week", "weekly"]]
+    - id: f13
+      section: subjective
+      text: Denies drug use
+      polarity: absent
+      evidence: No drugs.
+      match: [["drug", "substance", "illicit"]]
+    - id: f14
+      section: subjective
+      text: Penicillin allergy with hives
+      polarity: present
+      evidence: I'm allergic to penicillin, I break out in hives.
+      match: [["penicillin"], ["hives", "urticaria"]]
+    - id: f15
+      section: subjective
+      text: No other medical problems
+      polarity: absent
+      evidence: I'm healthy otherwise.
+      match: [["medical problem", "medical history", "healthy", "pmh", "otherwise"]]
+    - id: f16
+      section: objective
+      text: PHQ-9 score 15, moderate
+      polarity: present
+      evidence: the PHQ-9, your score is 15
+      match: [["phq"], ["15"]]
+    - id: f17
+      section: objective
+      text: GAD-7 score 6, mild
+      polarity: present
+      evidence: Your GAD-7 anxiety score is 6, so mild.
+      match: [["gad"], ["6"]]
+    - id: f18
+      section: objective
+      text: Blood pressure 116/74, pulse 72
+      polarity: present
+      evidence: Your blood pressure today is 116 over 74, pulse 72
+      match: [["116"], ["74"]]
+    - id: f19
+      section: objective
+      text: Weight 138 lb
+      polarity: present
+      evidence: your weight is 138 pounds
+      match: [["weight", "wt"], ["138"]]
+    - id: f20
+      section: objective
+      text: Mental status exam - well groomed, normal speech, sad mood, flat affect, clear and organized thought process
+      polarity: present
+      evidence: you're well groomed, your speech is normal, your mood is sad and your affect is a bit flat, and your thinking is clear and organized
+      match: [["affect", "groom", "speech", "thought process", "organized"]]
+    - id: f21
+      section: assessment
+      text: Major depressive disorder, single episode, moderate
+      polarity: present
+      evidence: This looks like major depression, a single episode, moderate.
+      match: [["major depress", "mdd", "depressive disorder", "depression"], ["moderate"]]
+    - id: f22
+      section: plan
+      text: Start sertraline 25 mg daily for 1 week, then increase to 50 mg daily, with breakfast
+      polarity: present
+      evidence: start sertraline, 25 milligrams once a day for one week, then go up to 50 milligrams once a day
+      match: [["sertraline", "zoloft"], ["25"], ["50"]]
+    - id: f23
+      section: plan
+      text: Counseled on side effects (GI upset, headache) and 4 to 6 weeks to full effect
+      polarity: present
+      evidence: Some people get an upset stomach or a headache the first week or two
+      match: [["side effect", "upset stomach", "nausea", "gi upset", "headache", "4 to 6 weeks", "4-6 weeks"]]
+    - id: f24
+      section: plan
+      text: Call right away if manic or hypomanic symptoms develop, given family history of bipolar
+      polarity: present
+      evidence: if you ever notice you're suddenly wired, not sleeping but not tired, call us right away
+      match: [["mania", "manic", "hypoman", "wired", "activation"]]
+    - id: f25
+      section: plan
+      text: Referral for weekly psychotherapy
+      polarity: present
+      evidence: I'm putting in a referral to our therapy team for weekly sessions
+      match: [["therap", "counsel", "psychotherap"], ["refer"]]
+    - id: f26
+      section: plan
+      text: Safety plan given; 988 crisis line and emergency room if suicidal thoughts
+      polarity: present
+      evidence: I'm giving you this safety plan card. If you ever do have thoughts of hurting yourself, you can call or text 988, the crisis line
+      match: [["safety plan", "988", "crisis"]]
+    - id: f27
+      section: plan
+      text: Follow-up in 4 weeks
+      polarity: present
+      evidence: Let's see you back in 4 weeks, on October 19th
+      match: [["follow", "return", "back", "f/u"], ["4 weeks", "four weeks", "4 wk", "october 19"]]
+  medications:
+    - {name: sertraline, dose: 25 mg for 1 week then 50 mg, frequency: once daily, route: oral, status: new, evidence: "start sertraline, 25 milligrams once a day for one week, then go up to 50 milligrams once a day"}
+  allergies:
+    - {substance: penicillin, reaction: hives, evidence: "I'm allergic to penicillin, I break out in hives."}
+  diagnoses:
+    - code: F32.1
+      description: Major depressive disorder, single episode, moderate
+      primary: true
+      evidence: This looks like major depression, a single episode, moderate.
+      alternatives: [F32.9, F32.A]
+  em_code: "99204"
+  em_rationale: New patient with a new moderate depressive episode, assessment of suicide risk, and initiation of an SSRI (prescription drug management, moderate risk).
+  procedures:
+    - {code: "96127", evidence: "the PHQ-9, your score is 15"}
+  phi:
+    - {type: NAME, value: Daniela Restrepo, who: patient}
+    - {type: NAME, value: Daniela, who: patient}
+    - {type: DATE, value: "May 8th, 1992", who: patient}
+    - {type: NAME, value: Priya Natarajan, who: clinician}
+    - {type: ORG, value: Halvorsen Engineering, who: patient}
+    - {type: NAME, value: Paola, who: relative}
+    - {type: ORG, value: Lakeview Pharmacy, who: other}
+    - {type: ADDRESS, value: 4120 Belmont Avenue, who: other}
+    - {type: PHONE, value: 773-555-0164, who: patient}
+    - {type: DATE, value: October 19th, who: patient}
+traps:
+  - type: family_history
+    text: Paternal aunt has bipolar disorder; the patient herself has no manic history and must not be diagnosed with bipolar disorder
+    evidence: My aunt on my dad's side has bipolar, I think.
+    match: [["bipolar"]]
+  - type: other_person
+    text: Sister takes an unknown medication for anxiety; not the patient's diagnosis or medication
+    evidence: my sister Paola takes something for anxiety
+    match: [["sister"], ["anxiety", "medication"]]
+  - type: small_talk
+    text: Parking on the garage roof is small talk and should not appear in the note
+    evidence: I ended up all the way on the roof
+    match: [["parking", "garage", "roof"]]

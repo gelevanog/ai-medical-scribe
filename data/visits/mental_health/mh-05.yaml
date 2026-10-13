@@ -1,0 +1,286 @@
+id: mh-05
+specialty: mental_health
+title: Chronic insomnia, trazodone stopped by patient, sleep hygiene plan
+visit_type: established
+visit_date: "2026-09-30"
+patient:
+  name: Raymond Delacroix
+  dob: "1958-04-12"
+  sex: male
+  phone: 504-555-0153
+  address: 4831 Dauphine Street, New Orleans, LA 70117
+  mrn: "3958821"
+clinician:
+  name: Lucía Ortega, PMHNP
+  role: psychiatric nurse practitioner
+speakers:
+  clinician: {sex: female}
+  patient: {sex: male}
+dialogue:
+  - speaker: clinician
+    text: Morning, Mr. Delacroix. Can you give me your full name and date of birth for the chart?
+  - speaker: patient
+    text: Raymond Delacroix. April 12th, 1958.
+  - speaker: clinician
+    text: Thank you. How was the fishing trip you were planning?
+  - speaker: patient
+    text: Oh, we caught a few redfish. My grandson out-fished me, I won't lie.
+  - speaker: clinician
+    text: Ha, that's how it goes. So, last time we started trazodone, 50 milligrams at bedtime, for sleep. How did that go?
+  - speaker: patient
+    text: Well, I gotta be honest, I stopped it. After about ten days.
+  - speaker: clinician
+    text: That's okay, tell me what happened.
+  - speaker: patient
+    text: I'd sleep, sure, but in the morning I felt like I was walking through mud. And one night I got up to use the bathroom and got real dizzy, had to grab the dresser.
+  - speaker: clinician
+    text: I'm glad you stopped it then, and I'm glad you didn't fall. Did you hit anything?
+  - speaker: patient
+    text: No, no fall. Just scared me.
+  - speaker: clinician
+    text: So what's sleep like now, without it?
+  - speaker: patient
+    text: Back to the same. I go to bed around 9:30, lie there an hour, maybe two. Then I wake up about 3 and I'm up for good, most nights.
+  - speaker: clinician
+    text: Are you taking anything to help?
+  - speaker: patient
+    text: The Benadryl, the 25 milligrams, most nights. And melatonin, 5 milligrams.
+  - speaker: clinician
+    text: Okay. Do you nap during the day?
+  - speaker: patient
+    text: After lunch, an hour or so in the recliner. Since I retired from Crescent City Transit there's not much else to do.
+  - speaker: clinician
+    text: And coffee? When's your last cup?
+  - speaker: patient
+    text: I have two. One in the morning and one around 3 in the afternoon.
+  - speaker: clinician
+    text: Do you watch TV in bed?
+  - speaker: patient
+    text: Every night. That's how I fall asleep, when I do.
+  - speaker: clinician
+    text: Does Bernadette ever say you snore loud or stop breathing at night?
+  - speaker: patient
+    text: No, she says I sleep quiet. She's the one who can't sleep, she takes Ambien and swears by it.
+  - speaker: clinician
+    text: Any creepy crawly feeling in your legs at night, an urge to move them?
+  - speaker: patient
+    text: No.
+  - speaker: clinician
+    text: And how's your mood, are you feeling down or worried a lot?
+  - speaker: patient
+    text: No, mood's fine. I'm just tired.
+  - speaker: clinician
+    text: Okay. Your blood pressure sitting is 134 over 80, and standing it's 130 over 78, so no real drop. Pulse is 68. You're alert, a little tired looking, and your thinking is sharp. Your sleep questionnaire score is 18, which is moderate insomnia.
+  - speaker: patient
+    text: Sounds about right.
+  - speaker: clinician
+    text: So here's what I think. This is chronic insomnia, and a lot of it comes down to sleep habits that keep it going, the nap, the late coffee, the TV in bed. We won't restart the trazodone, since it made you dizzy. I also want you to stop the Benadryl. At your age it can cause confusion, dizziness, and falls.
+  - speaker: patient
+    text: Huh. I thought it was harmless since it's over the counter.
+  - speaker: clinician
+    text: A lot of people do. You can keep melatonin, but drop it to 3 milligrams, an hour before bed. Now the main plan. Get up at 6:30 every day, even weekends. Only go to bed when you're sleepy. No TV in bed. If you're awake more than about 20 minutes, get up, sit in the living room with a book, then go back when you're drowsy.
+  - speaker: patient
+    text: Okay. What about the nap?
+  - speaker: clinician
+    text: Skip it if you can, or 20 minutes at most before 2 o'clock. Last coffee by noon. And take a morning walk outside for the daylight.
+  - speaker: patient
+    text: I can walk the levee with my neighbor.
+  - speaker: clinician
+    text: Perfect. I'm also referring you to our CBT for insomnia program, it's a 6-session class and it works better than pills long term. Keep a sleep diary for the next two weeks. I'll put the form in your portal. Is your email still ray dot delacroix at bayoumail dot com?
+  - speaker: patient
+    text: That's it.
+  - speaker: clinician
+    text: Great. Let's follow up in 6 weeks. If you get confused or have a fall, call us sooner.
+  - speaker: patient
+    text: Will do. Thank you, ma'am.
+gold:
+  facts:
+    - id: f1
+      section: subjective
+      text: Stopped trazodone on his own after about 10 days
+      polarity: present
+      evidence: I stopped it. After about ten days.
+      match: [["trazodone", "desyrel"], ["stop", "discontinu", "self-discontinu", "quit"]]
+    - id: f2
+      section: subjective
+      text: Trazodone caused morning grogginess and dizziness on getting up at night
+      polarity: present
+      evidence: in the morning I felt like I was walking through mud. And one night I got up to use the bathroom and got real dizzy
+      match: [["grogg", "hangover", "sedat", "dizz", "mud"]]
+    - id: f3
+      section: subjective
+      text: No fall with the dizzy episode
+      polarity: absent
+      evidence: No, no fall.
+      match: [["fall", "fell"]]
+    - id: f4
+      section: subjective
+      text: Sleep-onset insomnia, lies awake 1 to 2 hours after 9:30 pm bedtime
+      polarity: present
+      evidence: I go to bed around 9:30, lie there an hour, maybe two.
+      match: [["hour", "onset", "falling asleep", "fall asleep", "lie awake", "lies awake"]]
+    - id: f5
+      section: subjective
+      text: Early awakening around 3 am, unable to return to sleep most nights
+      polarity: present
+      evidence: Then I wake up about 3 and I'm up for good, most nights.
+      match: [["wak", "maintenance"], ["3"]]
+    - id: f6
+      section: subjective
+      text: Taking over-the-counter diphenhydramine 25 mg most nights
+      polarity: present
+      evidence: The Benadryl, the 25 milligrams, most nights.
+      match: [["diphenhydramine", "benadryl"], ["25"]]
+    - id: f7
+      section: subjective
+      text: Taking melatonin 5 mg at night
+      polarity: present
+      evidence: And melatonin, 5 milligrams.
+      match: [["melatonin"], ["5"]]
+    - id: f8
+      section: subjective
+      text: Daily afternoon nap about 1 hour; retired
+      polarity: present
+      evidence: After lunch, an hour or so in the recliner.
+      match: [["nap"]]
+    - id: f9
+      section: subjective
+      text: Two cups of coffee daily, last one around 3 pm
+      polarity: present
+      evidence: One in the morning and one around 3 in the afternoon.
+      match: [["coffee", "caffeine"], ["3 pm", "3 p.m", "afternoon", "two", "2 cups"]]
+    - id: f10
+      section: subjective
+      text: Watches TV in bed nightly
+      polarity: present
+      evidence: Every night. That's how I fall asleep, when I do.
+      match: [["tv", "television", "screen"]]
+    - id: f11
+      section: subjective
+      text: No snoring or witnessed apneas per wife
+      polarity: absent
+      evidence: Does Bernadette ever say you snore loud or stop breathing at night?
+      match: [["snor", "apnea", "stop breathing", "stops breathing", "witnessed"]]
+    - id: f12
+      section: subjective
+      text: Denies restless legs symptoms
+      polarity: absent
+      evidence: Any creepy crawly feeling in your legs at night, an urge to move them?
+      match: [["restless leg", "rls", "urge to move", "legs"]]
+    - id: f13
+      section: subjective
+      text: Denies depressed mood or excessive worry
+      polarity: absent
+      evidence: No, mood's fine. I'm just tired.
+      match: [["mood", "depress", "worr", "anxi"]]
+    - id: f14
+      section: objective
+      text: Blood pressure 134/80 sitting, 130/78 standing, no orthostatic drop; pulse 68
+      polarity: present
+      evidence: Your blood pressure sitting is 134 over 80, and standing it's 130 over 78, so no real drop.
+      match: [["134", "130"], ["80", "78", "orthostatic"]]
+    - id: f15
+      section: objective
+      text: Alert, tired appearing, cognition sharp
+      polarity: present
+      evidence: You're alert, a little tired looking, and your thinking is sharp.
+      match: [["alert", "tired", "sharp", "cognit"]]
+    - id: f16
+      section: objective
+      text: Insomnia questionnaire score 18, moderate insomnia
+      polarity: present
+      evidence: Your sleep questionnaire score is 18, which is moderate insomnia.
+      match: [["isi", "insomnia severity", "questionnaire", "score"], ["18"]]
+    - id: f17
+      section: assessment
+      text: Chronic insomnia perpetuated by poor sleep habits (napping, late caffeine, TV in bed)
+      polarity: present
+      evidence: This is chronic insomnia, and a lot of it comes down to sleep habits that keep it going
+      match: [["insomnia"]]
+    - id: f18
+      section: assessment
+      text: Trazodone not tolerated (grogginess, dizziness)
+      polarity: present
+      evidence: We won't restart the trazodone, since it made you dizzy.
+      match: [["trazodone", "desyrel"]]
+    - id: f19
+      section: plan
+      text: Do not restart trazodone
+      polarity: present
+      evidence: We won't restart the trazodone
+      match: [["trazodone", "desyrel"], ["restart", "discontinu", "stop", "not resum"]]
+    - id: f20
+      section: plan
+      text: Stop diphenhydramine due to risk of confusion, dizziness, and falls in older adults
+      polarity: present
+      evidence: I also want you to stop the Benadryl.
+      match: [["diphenhydramine", "benadryl"], ["stop", "discontinu", "avoid"]]
+    - id: f21
+      section: plan
+      text: Reduce melatonin to 3 mg one hour before bed
+      polarity: present
+      evidence: You can keep melatonin, but drop it to 3 milligrams, an hour before bed.
+      match: [["melatonin"], ["3"]]
+    - id: f22
+      section: plan
+      text: Sleep hygiene and stimulus control - fixed wake time 6:30 daily, bed only when sleepy, no TV in bed, get up if awake more than 20 minutes
+      polarity: present
+      evidence: Get up at 6:30 every day, even weekends.
+      match: [["6:30", "wake time", "stimulus control", "sleep hygiene"]]
+    - id: f23
+      section: plan
+      text: Avoid naps or limit to 20 minutes before 2 pm; last coffee by noon; morning walk outdoors for daylight
+      polarity: present
+      evidence: Skip it if you can, or 20 minutes at most before 2 o'clock. Last coffee by noon.
+      match: [["nap", "coffee", "caffeine", "noon", "daylight", "walk"]]
+    - id: f24
+      section: plan
+      text: Referral to CBT for insomnia program, 6 sessions
+      polarity: present
+      evidence: I'm also referring you to our CBT for insomnia program
+      match: [["cbt", "cognitive behavioral"]]
+    - id: f25
+      section: plan
+      text: Keep sleep diary for 2 weeks via portal
+      polarity: present
+      evidence: Keep a sleep diary for the next two weeks.
+      match: [["diary", "log"]]
+    - id: f26
+      section: plan
+      text: Follow-up in 6 weeks, sooner if confusion or fall
+      polarity: present
+      evidence: Let's follow up in 6 weeks. If you get confused or have a fall, call us sooner.
+      match: [["follow", "return", "f/u"], ["6 weeks", "six weeks", "6 wk"]]
+  medications:
+    - {name: trazodone, dose: 50 mg, frequency: at bedtime, route: oral, status: stopped, evidence: "we started trazodone, 50 milligrams at bedtime"}
+    - {name: diphenhydramine, dose: 25 mg, frequency: nightly, route: oral, status: stopped, evidence: "I also want you to stop the Benadryl."}
+    - {name: melatonin, dose: 3 mg, frequency: nightly, 1 hour before bed, route: oral, status: changed, evidence: "drop it to 3 milligrams, an hour before bed"}
+  allergies: []
+  diagnoses:
+    - code: F51.01
+      description: Primary insomnia
+      primary: true
+      evidence: This is chronic insomnia
+      alternatives: [G47.00, F51.04]
+    - code: Z72.821
+      description: Inadequate sleep hygiene
+      evidence: a lot of it comes down to sleep habits that keep it going, the nap, the late coffee, the TV in bed
+  em_code: "99214"
+  em_rationale: One chronic illness not at goal with an intolerable medication side effect, and prescription drug management (decision not to restart trazodone, stopping diphenhydramine in an older adult), moderate MDM.
+  procedures: []
+  phi:
+    - {type: NAME, value: Mr. Delacroix, who: patient}
+    - {type: NAME, value: Raymond Delacroix, who: patient}
+    - {type: DATE, value: "April 12th, 1958", who: patient}
+    - {type: ORG, value: Crescent City Transit, who: patient}
+    - {type: NAME, value: Bernadette, who: relative}
+    - {type: EMAIL, value: ray dot delacroix at bayoumail dot com, who: patient}
+traps:
+  - type: other_person
+    text: Wife takes Ambien; zolpidem is not the patient's medication
+    evidence: she takes Ambien and swears by it
+    match: [["ambien", "zolpidem"]]
+  - type: small_talk
+    text: Fishing trip and grandson catching redfish is small talk and should not appear in the note
+    evidence: we caught a few redfish. My grandson out-fished me
+    match: [["fish", "redfish", "grandson"]]

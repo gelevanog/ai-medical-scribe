@@ -1,0 +1,56 @@
+# CPT(R) codes the demo can suggest. CPT is copyright the American Medical Association (AMA); the official
+# descriptors are AMA-licensed and are NOT included here. The short descriptions below are Notewell's own plain-English
+# summaries for the demo. A production system needs an AMA CPT license (or a licensed code-set vendor).
+em_new:
+  "99202": {mdm: straightforward, summary: "New patient office visit, straightforward decision making"}
+  "99203": {mdm: low, summary: "New patient office visit, low-complexity decision making"}
+  "99204": {mdm: moderate, summary: "New patient office visit, moderate-complexity decision making"}
+  "99205": {mdm: high, summary: "New patient office visit, high-complexity decision making"}
+em_established:
+  "99211": {mdm: minimal, summary: "Established patient office visit, may not need a physician (minimal)"}
+  "99212": {mdm: straightforward, summary: "Established patient office visit, straightforward decision making"}
+  "99213": {mdm: low, summary: "Established patient office visit, low-complexity decision making"}
+  "99214": {mdm: moderate, summary: "Established patient office visit, moderate-complexity decision making"}
+  "99215": {mdm: high, summary: "Established patient office visit, high-complexity decision making"}
+psychiatry:
+  "90791": "Psychiatric diagnostic evaluation (intake), no medical services"
+  "90832": "Psychotherapy, about 30 minutes"
+  "90834": "Psychotherapy, about 45 minutes"
+  "90837": "Psychotherapy, about 60 minutes"
+  "90833": "Psychotherapy add-on to an E/M visit, about 30 minutes"
+  "90836": "Psychotherapy add-on to an E/M visit, about 45 minutes"
+  "90838": "Psychotherapy add-on to an E/M visit, about 60 minutes"
+procedures:
+  "93000": "Electrocardiogram with interpretation and report"
+  "93306": "Transthoracic echocardiogram, complete"
+  "93880": "Duplex scan of extracranial arteries"
+  "96127": "Brief emotional or behavioral assessment with a standardized instrument (e.g. PHQ-9, GAD-7)"
+  "96110": "Developmental screening with a standardized instrument"
+  "96160": "Patient-focused health risk assessment instrument"
+  "17110": "Destruction of benign lesions such as warts, up to 14"
+  "17000": "Destruction of a premalignant lesion (e.g. actinic keratosis), first lesion"
+  "17003": "Destruction of premalignant lesions, each additional lesion 2 to 14"
+  "11102": "Tangential (shave) biopsy of skin, single lesion"
+  "11104": "Punch biopsy of skin, single lesion"
+  "96372": "Therapeutic or diagnostic injection, subcutaneous or intramuscular"
+  "90471": "Immunization administration, one vaccine"
+  "90472": "Immunization administration, each additional vaccine"
+  "90460": "Immunization administration with counseling, under 18, first component"
+  "90461": "Immunization administration with counseling, under 18, each additional component"
+  "90686": "Influenza vaccine, quadrivalent, preservative free, intramuscular"
+  "90715": "Tdap vaccine, intramuscular, 7 years or older"
+  "90651": "HPV vaccine, 9-valent, intramuscular"
+  "90707": "MMR vaccine, live, subcutaneous"
+  "90710": "MMRV vaccine, live, subcutaneous"
+  "99173": "Visual acuity screening, quantitative, bilateral"
+  "92551": "Pure tone hearing screening, air only"
+  "36415": "Collection of venous blood by venipuncture"
+  "81002": "Urinalysis by dipstick, non-automated, without microscopy"
+  "87880": "Rapid streptococcus group A antigen test"
+  "94640": "Inhaled (nebulizer) treatment for airway obstruction"
+  "94010": "Spirometry"
+  "99406": "Smoking and tobacco cessation counseling, 3 to 10 minutes"
+  "80053": "Comprehensive metabolic panel"
+  "80061": "Lipid panel"
+  "83036": "Hemoglobin A1c"
+  "85025": "Complete blood count with automated differential"

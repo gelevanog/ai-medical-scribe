@@ -1,0 +1,297 @@
+id: pc-04
+specialty: primary_care
+title: Acute low back strain after lifting at work
+visit_type: established
+visit_date: "2026-10-08"
+patient:
+  name: Tomasz Kowalczyk
+  dob: "1981-05-03"
+  sex: male
+  phone: 555-0154
+  address: 2216 Kosciuszko Avenue, Milwaukee, WI 53215
+  mrn: "7741306"
+clinician:
+  name: Dr. Leila Haddad
+  role: family physician
+speakers:
+  clinician: {sex: female}
+  patient: {sex: male}
+dialogue:
+  - speaker: clinician
+    text: Hi, I'm Dr. Haddad. Can you confirm your full name and date of birth for me?
+  - speaker: patient
+    text: Tomasz Kowalczyk. May 3rd, 1981.
+  - speaker: clinician
+    text: Thanks, Tomasz. You're walking a little carefully there. What happened?
+  - speaker: patient
+    text: Yeah. Saturday I was helping move pallets at work, and I picked up a box of floor tile wrong. Twisted, you know? Felt something grab in my lower back, right side.
+  - speaker: clinician
+    text: Ouch. Where do you work again?
+  - speaker: patient
+    text: Harbor Point Distribution. I'm a shift lead in the warehouse.
+  - speaker: clinician
+    text: Got it. On a scale of 0 to 10, how bad is the pain?
+  - speaker: patient
+    text: Right now, maybe a 6. When I bend over to tie my shoes, it's like an 8.
+  - speaker: clinician
+    text: Does it go anywhere, like down your leg?
+  - speaker: patient
+    text: A little into the right butt cheek. Not down the leg.
+  - speaker: clinician
+    text: Any numbness or tingling in your legs or feet? Any weakness, like your foot dragging?
+  - speaker: patient
+    text: No, no numbness. Legs feel normal, just the back.
+  - speaker: clinician
+    text: I have to ask a few important ones. Any numbness in the groin or between your legs, like where you'd sit on a saddle?
+  - speaker: patient
+    text: No.
+  - speaker: clinician
+    text: Any trouble controlling your bladder or bowels, or trouble starting to pee?
+  - speaker: patient
+    text: No, everything's working fine there.
+  - speaker: clinician
+    text: Any fevers, unexplained weight loss, or any history of cancer?
+  - speaker: patient
+    text: None of that.
+  - speaker: clinician
+    text: Have you had back trouble before?
+  - speaker: patient
+    text: I had sciatica on the left side maybe six years ago. Did physical therapy and it went away completely, haven't had it since.
+  - speaker: clinician
+    text: Good. What have you tried so far?
+  - speaker: patient
+    text: Ibuprofen, two of the 200s a couple times a day, and my wife Agnieszka's heating pad. The heat helps some. I'm kind of worried, though. A guy on my crew herniated a disc doing the same thing and needed surgery.
+  - speaker: clinician
+    text: That's understandable. Let's take a look. Blood pressure is 134 over 84, pulse 76, temperature 98.4. Can you stand and bend forward for me?
+  - speaker: patient
+    text: That's about as far as I go.
+  - speaker: clinician
+    text: Okay, forward bending is limited by pain, about halfway. I can feel tight, tender muscles along the right side of your lower back. No tenderness when I press right on the spine itself. Now lie back. I'm going to raise each leg straight.
+  - speaker: patient
+    text: Just pulls in the back a little.
+  - speaker: clinician
+    text: Straight leg raise is negative on both sides. Strength is normal in both legs, reflexes are equal at the knees and ankles, and you can feel my touch the same on both sides. You walked in normally, and you can walk on your heels and toes.
+  - speaker: patient
+    text: So, is it a disc?
+  - speaker: clinician
+    text: I don't think so. This looks like a strain of the muscles in your lower back. There are no warning signs, so you don't need an X-ray or MRI right now. Most of these get a lot better in 2 to 4 weeks.
+  - speaker: patient
+    text: Okay. That's a relief.
+  - speaker: clinician
+    text: For pain, take ibuprofen 600 milligrams three times a day with food for the next week or so. I'm also prescribing cyclobenzaprine, a muscle relaxer, 5 milligrams at bedtime as needed for spasm. It can make you drowsy, so no driving or running the forklift after you take it.
+  - speaker: patient
+    text: Got it, only at night.
+  - speaker: clinician
+    text: Keep using heat, and keep moving. Gentle walking is better than bed rest. I'll write you a note for light duty, no lifting over 20 pounds, through October 15th.
+  - speaker: patient
+    text: My supervisor will want that. Thanks.
+  - speaker: clinician
+    text: If you're not better in 2 weeks, come back and we'll start physical therapy. And if you ever lose control of your bladder or bowels, get numb between your legs, or a leg gets weak, go to the emergency room right away.
+  - speaker: patient
+    text: Okay. Hopefully it doesn't come to that.
+  - speaker: clinician
+    text: I don't expect it to. Let's plan a follow-up in 2 weeks. Take care of that back, Tomasz.
+gold:
+  facts:
+    - id: f1
+      section: subjective
+      text: Right low back pain since lifting and twisting with a box of tile at work on Saturday
+      polarity: present
+      evidence: Felt something grab in my lower back, right side.
+      match: [["back"], ["lift", "twist", "tile", "box", "pallet"]]
+    - id: f2
+      section: subjective
+      text: Pain 6 out of 10, up to 8 out of 10 with bending
+      polarity: present
+      evidence: Right now, maybe a 6.
+      match: [["6", "six"]]
+    - id: f3
+      section: subjective
+      text: Pain radiates into the right buttock, not down the leg
+      polarity: present
+      evidence: A little into the right butt cheek. Not down the leg.
+      match: [["buttock", "gluteal", "butt"]]
+    - id: f4
+      section: subjective
+      text: Denies numbness or tingling in legs or feet
+      polarity: absent
+      evidence: No, no numbness.
+      match: [["numb", "tingl", "paresthes"]]
+    - id: f5
+      section: subjective
+      text: Denies leg weakness
+      polarity: absent
+      evidence: Any weakness, like your foot dragging?
+      match: [["weak"]]
+    - id: f6
+      section: subjective
+      text: Denies saddle anesthesia
+      polarity: absent
+      evidence: Any numbness in the groin or between your legs, like where you'd sit on a saddle?
+      match: [["saddle", "groin", "perineal"]]
+    - id: f7
+      section: subjective
+      text: Denies bladder or bowel dysfunction or urinary retention
+      polarity: absent
+      evidence: Any trouble controlling your bladder or bowels, or trouble starting to pee?
+      match: [["bladder", "bowel", "incontinence", "retention"]]
+    - id: f8
+      section: subjective
+      text: Denies fever, unexplained weight loss, or history of cancer
+      polarity: absent
+      evidence: Any fevers, unexplained weight loss, or any history of cancer?
+      match: [["fever", "weight loss", "cancer", "malignan"]]
+    - id: f9
+      section: subjective
+      text: Prior left-sided sciatica about 6 years ago, resolved with physical therapy
+      polarity: present
+      evidence: I had sciatica on the left side maybe six years ago.
+      match: [["sciatica", "radiculopathy"], ["6 years", "six years", "prior", "history", "resolved"]]
+    - id: f10
+      section: subjective
+      text: Taking ibuprofen 400 mg a couple times daily and using a heating pad, heat helps some
+      polarity: present
+      evidence: Ibuprofen, two of the 200s a couple times a day
+      match: [["ibuprofen", "advil", "motrin", "nsaid", "heat"]]
+    - id: f11
+      section: subjective
+      text: Works as a warehouse shift lead
+      polarity: present
+      evidence: I'm a shift lead in the warehouse.
+      match: [["warehouse", "shift lead"]]
+    - id: f12
+      section: objective
+      text: Blood pressure 134/84, pulse 76, temperature 98.4
+      polarity: present
+      evidence: Blood pressure is 134 over 84, pulse 76, temperature 98.4.
+      match: [["134", "76", "98.4"]]
+    - id: f13
+      section: objective
+      text: Lumbar forward flexion limited by pain, about halfway
+      polarity: present
+      evidence: forward bending is limited by pain, about halfway
+      match: [["flexion", "bending", "range of motion"]]
+    - id: f14
+      section: objective
+      text: Right lumbar paraspinal muscle tenderness and spasm
+      polarity: present
+      evidence: I can feel tight, tender muscles along the right side of your lower back.
+      match: [["paraspinal", "paravertebral", "muscle", "spasm"], ["tender", "spasm", "tight"]]
+    - id: f15
+      section: objective
+      text: No midline spinal tenderness
+      polarity: absent
+      evidence: No tenderness when I press right on the spine itself.
+      match: [["midline", "spinous", "spine", "vertebral"]]
+    - id: f16
+      section: objective
+      text: Straight leg raise negative bilaterally
+      polarity: present
+      evidence: Straight leg raise is negative on both sides.
+      match: [["straight leg", "slr"]]
+    - id: f17
+      section: objective
+      text: Normal strength, symmetric knee and ankle reflexes, intact sensation in both legs
+      polarity: present
+      evidence: Strength is normal in both legs, reflexes are equal at the knees and ankles
+      match: [["strength", "reflex", "sensation", "neuro"]]
+    - id: f18
+      section: objective
+      text: Normal gait, able to heel and toe walk
+      polarity: present
+      evidence: you can walk on your heels and toes
+      match: [["gait", "heel", "toe"]]
+    - id: f19
+      section: assessment
+      text: Acute lumbar muscle strain without red flags
+      polarity: present
+      evidence: This looks like a strain of the muscles in your lower back.
+      match: [["strain", "low back pain", "lumbago", "lumbar"]]
+    - id: f20
+      section: plan
+      text: No imaging indicated
+      polarity: present
+      evidence: you don't need an X-ray or MRI right now
+      match: [["x-ray", "xray", "imaging", "mri", "radiograph"]]
+    - id: f21
+      section: plan
+      text: Ibuprofen 600 mg three times daily with food for about a week
+      polarity: present
+      evidence: take ibuprofen 600 milligrams three times a day with food
+      match: [["ibuprofen", "nsaid", "motrin", "advil"], ["600"]]
+    - id: f22
+      section: plan
+      text: Cyclobenzaprine 5 mg at bedtime as needed for spasm
+      polarity: present
+      evidence: cyclobenzaprine, a muscle relaxer, 5 milligrams at bedtime as needed for spasm
+      match: [["cyclobenzaprine", "flexeril", "muscle relax"]]
+    - id: f23
+      section: plan
+      text: Counseled on sedation, no driving or forklift operation after cyclobenzaprine
+      polarity: present
+      evidence: no driving or running the forklift after you take it
+      match: [["drows", "sedat", "driv", "forklift"]]
+    - id: f24
+      section: plan
+      text: Heat, stay active with gentle walking, avoid bed rest
+      polarity: present
+      evidence: Gentle walking is better than bed rest.
+      match: [["walk", "activ", "bed rest", "heat"]]
+    - id: f25
+      section: plan
+      text: Light duty work note, no lifting over 20 lb through October 15
+      polarity: present
+      evidence: no lifting over 20 pounds, through October 15th
+      match: [["light duty", "lifting", "work note", "restriction"], ["20", "october 15", "10/15"]]
+    - id: f26
+      section: plan
+      text: Physical therapy if not improved in 2 weeks
+      polarity: present
+      evidence: If you're not better in 2 weeks, come back and we'll start physical therapy.
+      match: [["physical therapy", "physiotherapy"]]
+    - id: f27
+      section: plan
+      text: Emergency precautions for bladder or bowel incontinence, saddle numbness, or leg weakness
+      polarity: present
+      evidence: go to the emergency room right away
+      match: [["emergency", "return precaution", "red flag", "cauda equina"]]
+    - id: f28
+      section: plan
+      text: Follow-up in 2 weeks
+      polarity: present
+      evidence: Let's plan a follow-up in 2 weeks.
+      match: [["2 weeks", "two weeks", "2 wk"]]
+  medications:
+    - {name: ibuprofen, dose: 600 mg, frequency: three times daily with food, route: oral, status: changed, evidence: take ibuprofen 600 milligrams three times a day with food}
+    - {name: cyclobenzaprine, dose: 5 mg, frequency: at bedtime as needed, route: oral, status: new, evidence: "cyclobenzaprine, a muscle relaxer, 5 milligrams at bedtime as needed for spasm"}
+  allergies: []
+  diagnoses:
+    - code: S39.012A
+      description: Strain of muscle, fascia and tendon of lower back, initial encounter
+      primary: true
+      evidence: This looks like a strain of the muscles in your lower back.
+      alternatives: [M54.50]
+  em_code: "99213"
+  em_rationale: One acute uncomplicated injury with prescription drug management and no data reviewed; low MDM.
+  procedures: []
+  phi:
+    - {type: NAME, value: Tomasz Kowalczyk, who: patient}
+    - {type: NAME, value: Tomasz, who: patient}
+    - {type: DATE, value: "May 3rd, 1981", who: patient}
+    - {type: NAME, value: Dr. Haddad, who: clinician}
+    - {type: ORG, value: Harbor Point Distribution, who: patient}
+    - {type: NAME, value: Agnieszka, who: relative}
+    - {type: DATE, value: October 15th, who: patient}
+traps:
+  - type: past_resolved
+    text: Left-sided sciatica six years ago, fully resolved; no current radiculopathy
+    evidence: Did physical therapy and it went away completely, haven't had it since.
+    match: [["sciatica", "radiculopathy"]]
+  - type: other_person
+    text: A coworker herniated a disc and needed surgery; the patient has no disc herniation
+    evidence: A guy on my crew herniated a disc doing the same thing and needed surgery.
+    match: [["herniat", "disc"]]
+  - type: hypothetical
+    text: Cauda equina symptoms mentioned only as emergency precautions
+    evidence: if you ever lose control of your bladder or bowels, get numb between your legs, or a leg gets weak
+    match: [["cauda equina", "incontinence", "saddle anesthesia"]]

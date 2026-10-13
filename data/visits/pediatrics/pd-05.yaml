@@ -1,0 +1,287 @@
+id: pd-05
+specialty: pediatrics
+title: ADHD follow-up on methylphenidate with decreased appetite and weight loss
+visit_type: established
+visit_date: "2026-10-13"
+patient:
+  name: Zainab Haddad
+  dob: "2017-02-14"
+  sex: female
+  phone: 555-0147
+  address: 39 Maple Ridge Drive, Dearborn, MI 48126
+  mrn: "8215504"
+clinician:
+  name: Dr. Grace Adeyemi
+  role: pediatrician
+speakers:
+  clinician: {sex: female}
+  caregiver: {sex: male}
+dialogue:
+  - speaker: clinician
+    text: Hi, good to see you both. Zainab, that's a beautiful drawing. Can Dad give me your full name and birthday?
+  - speaker: caregiver
+    text: Zainab Haddad, February 14th, 2017. She's a Valentine's baby.
+  - speaker: clinician
+    text: I remember. Thanks, Karim. So this is her ADHD follow-up. How are things going on the medicine?
+  - speaker: caregiver
+    text: Honestly, school is way better. She's on the 36 milligrams every morning. Oh, no, sorry, it's 27. The 36 was what you said we might try later.
+  - speaker: clinician
+    text: Right, we went from 18 to 27 milligrams of the long-acting methylphenidate in August. Does she take it every morning?
+  - speaker: caregiver
+    text: Every school day, around 7, before the bus. Weekends too, mostly.
+  - speaker: clinician
+    text: And how's school going? She's in 4th grade at Riverside Elementary now, right?
+  - speaker: caregiver
+    text: Yes. Her teacher, Ms. Kowalski, says she's finishing her work and not getting up out of her seat as much. Her reading grade went from a C to a B.
+  - speaker: clinician
+    text: That's great to hear. I got the Vanderbilt forms back from both of you. On the teacher form she has 3 out of 9 attention symptoms now, down from 7 in the spring, and the hyperactivity score is down too. Your form looks similar.
+  - speaker: caregiver
+    text: Yeah, she's calmer. The only thing is her eating.
+  - speaker: clinician
+    text: Tell me about that.
+  - speaker: caregiver
+    text: She barely eats lunch. The lunch comes home basically untouched. Then at 4 o'clock she's starving and eats everything in the kitchen.
+  - speaker: clinician
+    text: That's the most common side effect. How about breakfast?
+  - speaker: caregiver
+    text: A little cereal, maybe. She's not a big breakfast person.
+  - speaker: clinician
+    text: Okay. And sleep?
+  - speaker: caregiver
+    text: It takes her a while to fall asleep, maybe 45 minutes. I bought melatonin at the store, 3 milligrams, and gave it for about a week, but she said she had weird dreams, so I stopped it.
+  - speaker: clinician
+    text: That's fair. Any headaches or stomachaches?
+  - speaker: caregiver
+    text: No, not really.
+  - speaker: clinician
+    text: Any tics, like eye blinking or throat clearing?
+  - speaker: caregiver
+    text: No.
+  - speaker: clinician
+    text: Does she seem sad, or really irritable when it wears off in the evening?
+  - speaker: caregiver
+    text: A little grumpy right after school, but she's herself. Not sad.
+  - speaker: clinician
+    text: Any fainting, chest pain, or racing heart, especially with running around?
+  - speaker: caregiver
+    text: No, nothing like that. Her brother Omar has ADHD too, he takes guanfacine, and he had the same thing with appetite on a stimulant, so I kind of expected it.
+  - speaker: clinician
+    text: That's helpful. Okay, her vitals. Blood pressure is 104 over 66, heart rate 94. Her weight is 28.2 kilograms, and in August it was 29.0, so she's lost about 0.8 kilograms, almost 2 pounds. Height is 134 centimeters, so she's still growing taller. Her heart sounds regular, no murmur, and lungs are clear.
+  - speaker: caregiver
+    text: 2 pounds. Is that a problem?
+  - speaker: clinician
+    text: It's something we watch, not something to panic about. So, her ADHD, combined type, is responding well to the 27 milligrams, and I don't want to lose that. But the medicine is suppressing her appetite and she's lost some weight. So here's the plan. Keep the methylphenidate at 27 milligrams every morning.
+  - speaker: caregiver
+    text: Okay.
+  - speaker: clinician
+    text: Give it with breakfast, and make breakfast bigger and higher calorie, like eggs, a smoothie with peanut butter, whatever she'll eat. Pack a snack she likes for lunch, and a real snack after school and before bed. On weekends, if her behavior is okay, it's fine to skip the dose to let her catch up on eating.
+  - speaker: caregiver
+    text: Oh, okay, that's good to know.
+  - speaker: clinician
+    text: For sleep, screens off by 8, same bedtime every night. If she's still taking a long time to fall asleep, we can try melatonin again at 1 milligram instead of 3.
+  - speaker: caregiver
+    text: Makes sense. Can you send the prescription to the pharmacy at 2210 Kenwood Avenue?
+  - speaker: clinician
+    text: Yes, a 30-day supply. Let's have her come in for a nurse weight check on Tuesday, November 24th, and I'll see her in 3 months. If her weight keeps dropping, we could think about a different medicine, but let's not jump ahead.
+  - speaker: caregiver
+    text: November 24th, got it. And if anything comes up, you have my cell, 555-0147.
+  - speaker: clinician
+    text: Perfect. Keep up the good work, Zainab. And save me one of those drawings next time.
+gold:
+  facts:
+    - id: f1
+      section: subjective
+      text: ADHD follow-up on long-acting methylphenidate 27 mg every morning, increased from 18 mg in August
+      polarity: present
+      evidence: we went from 18 to 27 milligrams of the long-acting methylphenidate in August
+      match: [["methylphenidate", "concerta", "stimulant"], ["27"]]
+    - id: f2
+      section: subjective
+      text: Takes medication daily around 7 AM, including most weekends
+      polarity: present
+      evidence: Every school day, around 7, before the bus. Weekends too, mostly.
+      match: [["daily", "every morning", "every school day", "weekend", "7 am", "7am"]]
+    - id: f3
+      section: subjective
+      text: School performance improved per teacher; reading grade C to B
+      polarity: present
+      evidence: Her reading grade went from a C to a B.
+      match: [["school", "grade", "teacher", "academic"], ["improv", "better", "c to b", "c to a b"]]
+    - id: f4
+      section: subjective
+      text: Decreased appetite, barely eats lunch, very hungry after school
+      polarity: present
+      evidence: She barely eats lunch.
+      match: [["appetite", "lunch", "eating", "anorexia"]]
+    - id: f5
+      section: subjective
+      text: Small breakfast
+      polarity: present
+      evidence: A little cereal, maybe.
+      match: [["breakfast"]]
+    - id: f6
+      section: subjective
+      text: Sleep onset delay of about 45 minutes
+      polarity: present
+      evidence: It takes her a while to fall asleep, maybe 45 minutes.
+      match: [["sleep", "insomnia"], ["45"]]
+    - id: f7
+      section: subjective
+      text: Parent tried OTC melatonin 3 mg for about a week, stopped due to strange dreams
+      polarity: present
+      evidence: I bought melatonin at the store, 3 milligrams
+      match: [["melatonin"]]
+    - id: f8
+      section: subjective
+      text: No headaches
+      polarity: absent
+      evidence: Any headaches or stomachaches?
+      match: [["headache"]]
+    - id: f9
+      section: subjective
+      text: No stomachaches
+      polarity: absent
+      evidence: Any headaches or stomachaches?
+      match: [["stomach", "abdominal", "belly"]]
+    - id: f10
+      section: subjective
+      text: No tics
+      polarity: absent
+      evidence: Any tics, like eye blinking or throat clearing?
+      match: [["tics", "motor tic", "vocal tic", "blinking", "throat clearing"]]
+    - id: f11
+      section: subjective
+      text: Mild irritability after school as medication wears off, mood otherwise normal, not sad
+      polarity: present
+      evidence: A little grumpy right after school, but she's herself. Not sad.
+      match: [["mood", "irritab", "grumpy", "sad", "rebound"]]
+    - id: f12
+      section: subjective
+      text: No syncope, chest pain or palpitations with exertion
+      polarity: absent
+      evidence: Any fainting, chest pain, or racing heart, especially with running around?
+      match: [["faint", "syncope", "chest pain", "palpitation", "racing heart"]]
+    - id: f13
+      section: objective
+      text: Vanderbilt teacher form 3 of 9 inattentive symptoms (down from 7), hyperactivity score improved; parent form similar
+      polarity: present
+      evidence: On the teacher form she has 3 out of 9 attention symptoms now, down from 7 in the spring
+      match: [["vanderbilt", "rating scale", "teacher form"]]
+    - id: f14
+      section: objective
+      text: Blood pressure 104/66, heart rate 94
+      polarity: present
+      evidence: Blood pressure is 104 over 66, heart rate 94.
+      match: [["104/66", "104 over 66"]]
+    - id: f15
+      section: objective
+      text: Weight 28.2 kg, down 0.8 kg (almost 2 lb) from 29.0 kg in August
+      polarity: present
+      evidence: Her weight is 28.2 kilograms, and in August it was 29.0
+      match: [["weight", "lost", "loss"], ["28.2", "0.8", "2 lb", "2 pound", "29.0", "29 kg"]]
+    - id: f16
+      section: objective
+      text: Height 134 cm, linear growth continuing
+      polarity: present
+      evidence: Height is 134 centimeters
+      match: [["134", "height", "growing taller"]]
+    - id: f17
+      section: objective
+      text: Heart regular without murmur, lungs clear
+      polarity: present
+      evidence: Her heart sounds regular, no murmur, and lungs are clear.
+      match: [["heart", "cardiac", "murmur", "lung"]]
+    - id: f18
+      section: assessment
+      text: ADHD, combined type, responding well to methylphenidate 27 mg
+      polarity: present
+      evidence: her ADHD, combined type, is responding well to the 27 milligrams
+      match: [["adhd", "attention deficit", "attention-deficit"]]
+    - id: f19
+      section: assessment
+      text: Stimulant-related appetite suppression with weight loss
+      polarity: present
+      evidence: the medicine is suppressing her appetite and she's lost some weight
+      match: [["appetite", "weight loss", "anorexia", "lost weight"]]
+    - id: f20
+      section: plan
+      text: Continue methylphenidate ER 27 mg every morning; 30-day prescription sent to pharmacy
+      polarity: present
+      evidence: Keep the methylphenidate at 27 milligrams every morning.
+      match: [["methylphenidate", "concerta", "stimulant"], ["27", "continue"]]
+    - id: f21
+      section: plan
+      text: Give dose with a larger, higher-calorie breakfast; snacks at lunch, after school and bedtime
+      polarity: present
+      evidence: make breakfast bigger and higher calorie
+      match: [["breakfast", "calori", "snack"]]
+    - id: f22
+      section: plan
+      text: May skip dose on weekends if behavior allows, to improve intake
+      polarity: present
+      evidence: On weekends, if her behavior is okay, it's fine to skip the dose
+      match: [["weekend"], ["skip", "holiday", "hold", "off"]]
+    - id: f23
+      section: plan
+      text: Sleep hygiene, screens off by 8 PM, consistent bedtime; may retry melatonin at 1 mg
+      polarity: present
+      evidence: screens off by 8, same bedtime every night
+      match: [["screen", "bedtime", "sleep hygiene", "melatonin"]]
+    - id: f24
+      section: plan
+      text: Nurse weight check November 24th, physician follow-up in 3 months
+      polarity: present
+      evidence: Let's have her come in for a nurse weight check on Tuesday, November 24th
+      match: [["weight check", "november 24", "nov 24", "11/24", "6 weeks", "six weeks"]]
+    - id: f25
+      section: plan
+      text: Follow-up visit in 3 months
+      polarity: present
+      evidence: I'll see her in 3 months
+      match: [["3 months", "three months", "3 mo"]]
+  medications:
+    - {name: methylphenidate, dose: 27 mg extended-release, frequency: every morning, route: oral, status: active, evidence: "Keep the methylphenidate at 27 milligrams every morning."}
+    - {name: melatonin, dose: 3 mg, frequency: at bedtime, route: oral, status: stopped, evidence: "I bought melatonin at the store, 3 milligrams"}
+  allergies: []
+  diagnoses:
+    - code: F90.2
+      description: Attention-deficit hyperactivity disorder, combined type
+      primary: true
+      evidence: her ADHD, combined type, is responding well
+      alternatives: [F90.9]
+    - code: R63.0
+      description: Anorexia
+      evidence: the medicine is suppressing her appetite
+      alternatives: [R63.4]
+    - code: T43.635A
+      description: Adverse effect of methylphenidate, initial encounter
+      evidence: the medicine is suppressing her appetite and she's lost some weight
+  em_code: "99214"
+  em_rationale: Chronic illness with side effects of treatment (appetite suppression and weight loss), review of parent and teacher rating scales with a parent historian, and controlled-substance prescription management (moderate risk).
+  procedures:
+    - {code: "96127", evidence: "I got the Vanderbilt forms back from both of you."}
+  phi:
+    - {type: NAME, value: Zainab Haddad, who: patient}
+    - {type: NAME, value: Zainab, who: patient}
+    - {type: DATE, value: "February 14th, 2017", who: patient}
+    - {type: NAME, value: Karim, who: relative}
+    - {type: ORG, value: Riverside Elementary, who: patient}
+    - {type: NAME, value: Ms. Kowalski, who: other}
+    - {type: NAME, value: Omar, who: relative}
+    - {type: ADDRESS, value: 2210 Kenwood Avenue, who: other}
+    - {type: DATE, value: "Tuesday, November 24th", who: patient}
+    - {type: DATE, value: November 24th, who: patient}
+    - {type: PHONE, value: 555-0147, who: relative}
+traps:
+  - type: correction
+    text: Methylphenidate dose first said as 36 mg, corrected to 27 mg
+    evidence: She's on the 36 milligrams every morning.
+    match: [["methylphenidate", "concerta", "stimulant"], ["36"]]
+  - type: other_person
+    text: Brother has ADHD and takes guanfacine; the patient is not on guanfacine
+    evidence: Her brother Omar has ADHD too, he takes guanfacine
+    match: [["guanfacine", "intuniv"]]
+  - type: hypothetical
+    text: Possible future switch to a different medicine only if weight keeps dropping
+    evidence: If her weight keeps dropping, we could think about a different medicine
+    match: [["switch", "different medication", "different medicine", "change medication"]]

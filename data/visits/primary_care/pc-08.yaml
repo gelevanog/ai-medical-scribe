@@ -1,0 +1,318 @@
+id: pc-08
+specialty: primary_care
+title: Fatigue in a 91-year-old with bradycardia and medication review
+visit_type: established
+visit_date: "2026-10-13"
+patient:
+  name: Odessa Turner
+  dob: "1935-04-19"
+  sex: female
+  phone: 555-0177
+  address: 85 Magnolia Court, Savannah, GA 31405
+  mrn: "1047736"
+clinician:
+  name: Dr. Rahul Mehta
+  role: geriatrician
+speakers:
+  clinician: {sex: male}
+  patient: {sex: female}
+dialogue:
+  - speaker: clinician
+    text: Good morning, Mrs. Turner. Can you tell me your full name and your birthday?
+  - speaker: patient
+    text: Odessa Turner. April 19th, 1935. I'm 91 years old, and I still remember it, so don't you worry.
+  - speaker: clinician
+    text: Sharp as ever. Did Gloria bring you today?
+  - speaker: patient
+    text: She did, she's out in the waiting room on her phone. She's the one who made me come.
+  - speaker: clinician
+    text: Well, I'm glad she did. What's been going on?
+  - speaker: patient
+    text: I'm just worn out, doctor. For about six weeks now. I nap in the morning and again after lunch, and I used to never nap. My tomatoes are going to waste because I can't get out to the garden.
+  - speaker: clinician
+    text: That's a big change for you. Any dizziness?
+  - speaker: patient
+    text: When I first get up out of bed in the morning, the room kind of swims for a second. Then it passes.
+  - speaker: clinician
+    text: Have you fallen at all?
+  - speaker: patient
+    text: No, I hold on to the dresser.
+  - speaker: clinician
+    text: Any chest pain or shortness of breath?
+  - speaker: patient
+    text: No chest pain. I breathe fine.
+  - speaker: clinician
+    text: Fever, black stools, or losing weight without trying?
+  - speaker: patient
+    text: No, none of that.
+  - speaker: clinician
+    text: Have you been feeling down or sad?
+  - speaker: patient
+    text: No, I'm not sad. Just tired.
+  - speaker: clinician
+    text: Let's go through your pills. I have amlodipine 5 milligrams once a day for your blood pressure, metoprolol 50 milligrams twice a day, atorvastatin 10 at night, and a baby aspirin, 81 milligrams. Anything else?
+  - speaker: patient
+    text: That's right. And I take a Tylenol PM at bedtime, because I wasn't sleeping. Gloria bought me a big bottle about two months ago.
+  - speaker: clinician
+    text: Every night?
+  - speaker: patient
+    text: Every night. Oh, and I quit the vitamin D. Those pills are too big to swallow.
+  - speaker: clinician
+    text: Okay, that's helpful. Any other new problems this year?
+  - speaker: patient
+    text: Well, I had pneumonia last winter, but I got over that. Lungs have been fine since.
+  - speaker: clinician
+    text: Good. Let me check you. Sitting, your blood pressure is 118 over 64, and your pulse is 52, which is on the slow side. Standing up, the pressure drops to 104 over 60.
+  - speaker: clinician
+    text: Your heart is slow but regular, no murmur. Lungs are clear. No swelling in your ankles. Your color looks good, no paleness inside the eyelids.
+  - speaker: clinician
+    text: We also did an ECG while you were waiting. It shows a slow, regular rhythm, a rate of 52, and no heart block.
+  - speaker: patient
+    text: So what's making me so tired?
+  - speaker: clinician
+    text: I think a big part is your medicines. Your pulse is slow, and the metoprolol may be slowing it too much. And the Tylenol PM has diphenhydramine in it, which is a sleepy antihistamine. At 91, it can make you drowsy all day.
+  - speaker: patient
+    text: My goodness. I thought it was just the Tylenol.
+  - speaker: clinician
+    text: A lot of people think that. So, here's the plan. Stop the Tylenol PM. If you have aches at night, plain Tylenol, that's acetaminophen, 500 milligrams is fine. Cut the metoprolol down to 25 milligrams twice a day, that's half a tablet. Keep the amlodipine, atorvastatin and aspirin the same.
+  - speaker: patient
+    text: What about sleeping, then?
+  - speaker: clinician
+    text: Same bedtime every night, no long afternoon naps, and some light in the morning. That helps more than you'd think. For the vitamin D, I'll switch you to a chewable, 1000 units a day.
+  - speaker: patient
+    text: A chewable I can do.
+  - speaker: clinician
+    text: I also want some blood work today, a blood count, chemistry panel, thyroid test and B12, to make sure we're not missing anything else.
+  - speaker: patient
+    text: All right.
+  - speaker: clinician
+    text: Get up slowly, sit on the edge of the bed for a minute first. If you faint, have chest pain, or your pulse gets slower, call us or go to the emergency room. I'll see you in 2 weeks, and we'll call Gloria at 555-0177 with the results.
+  - speaker: patient
+    text: That's her number. Thank you, doctor. I'll bring you some tomatoes if I get my energy back.
+  - speaker: clinician
+    text: I'll hold you to that, Mrs. Turner.
+gold:
+  facts:
+    - id: f1
+      section: subjective
+      text: Fatigue for about 6 weeks with new daytime napping twice a day
+      polarity: present
+      evidence: I'm just worn out, doctor. For about six weeks now.
+      match: [["fatigue", "tired", "worn out", "napping", "nap"], ["6 weeks", "six weeks", "6 wk"]]
+    - id: f2
+      section: subjective
+      text: Brief lightheadedness on getting out of bed in the morning
+      polarity: present
+      evidence: When I first get up out of bed in the morning, the room kind of swims for a second.
+      match: [["dizz", "lighthead", "orthostat", "swim"]]
+    - id: f3
+      section: subjective
+      text: Denies falls
+      polarity: absent
+      evidence: Have you fallen at all?
+      match: [["fall", "fallen"]]
+    - id: f4
+      section: subjective
+      text: Denies chest pain
+      polarity: absent
+      evidence: No chest pain.
+      match: [["chest pain"]]
+    - id: f5
+      section: subjective
+      text: Denies shortness of breath
+      polarity: absent
+      evidence: Any chest pain or shortness of breath?
+      match: [["shortness of breath", "dyspnea", "sob", "breath"]]
+    - id: f6
+      section: subjective
+      text: Denies fever, black stools, or unintentional weight loss
+      polarity: absent
+      evidence: Fever, black stools, or losing weight without trying?
+      match: [["fever", "black stool", "melena", "weight loss"]]
+    - id: f7
+      section: subjective
+      text: Denies depressed mood
+      polarity: absent
+      evidence: Have you been feeling down or sad?
+      match: [["depress", "mood", "sad"]]
+    - id: f8
+      section: subjective
+      text: Current medications amlodipine 5 mg daily, metoprolol 50 mg twice daily, atorvastatin 10 mg nightly, aspirin 81 mg daily
+      polarity: present
+      evidence: metoprolol 50 milligrams twice a day
+      match: [["metoprolol"], ["50"]]
+    - id: f9
+      section: subjective
+      text: Taking acetaminophen-diphenhydramine (Tylenol PM) every night for about 2 months for sleep
+      polarity: present
+      evidence: I take a Tylenol PM at bedtime, because I wasn't sleeping.
+      match: [["tylenol pm", "diphenhydramine", "benadryl"]]
+    - id: f10
+      section: subjective
+      text: Stopped vitamin D on her own because pills too large to swallow
+      polarity: present
+      evidence: Oh, and I quit the vitamin D.
+      match: [["vitamin d"]]
+    - id: f11
+      section: subjective
+      text: Pneumonia last winter, resolved
+      polarity: present
+      evidence: I had pneumonia last winter, but I got over that.
+      match: [["pneumonia"]]
+    - id: f12
+      section: objective
+      text: Seated blood pressure 118/64, standing 104/60
+      polarity: present
+      evidence: Standing up, the pressure drops to 104 over 60.
+      match: [["118", "104"]]
+    - id: f13
+      section: objective
+      text: Pulse 52, bradycardic
+      polarity: present
+      evidence: your pulse is 52, which is on the slow side
+      match: [["52", "bradycard", "slow"]]
+    - id: f14
+      section: objective
+      text: Heart slow regular rhythm without murmur
+      polarity: present
+      evidence: Your heart is slow but regular, no murmur.
+      match: [["heart", "cardiac"], ["regular", "murmur", "slow", "brady"]]
+    - id: f15
+      section: objective
+      text: Lungs clear
+      polarity: present
+      evidence: Lungs are clear.
+      match: [["lung", "pulmonary", "chest"], ["clear", "cta"]]
+    - id: f16
+      section: objective
+      text: No ankle edema
+      polarity: absent
+      evidence: No swelling in your ankles.
+      match: [["edema", "swelling"]]
+    - id: f17
+      section: objective
+      text: No conjunctival pallor
+      polarity: absent
+      evidence: no paleness inside the eyelids
+      match: [["pallor", "pale", "conjunctiv"]]
+    - id: f18
+      section: objective
+      text: ECG sinus bradycardia, rate 52, regular, no heart block
+      polarity: present
+      evidence: It shows a slow, regular rhythm, a rate of 52, and no heart block.
+      match: [["ecg", "ekg", "electrocardiogram"]]
+    - id: f19
+      section: assessment
+      text: Fatigue likely multifactorial from medications, bradycardia on metoprolol and sedation from diphenhydramine
+      polarity: present
+      evidence: I think a big part is your medicines.
+      match: [["fatigue", "tired"], ["medication", "metoprolol", "diphenhydramine", "beta", "anticholinergic", "brady"]]
+    - id: f20
+      section: assessment
+      text: Bradycardia, likely related to metoprolol
+      polarity: present
+      evidence: the metoprolol may be slowing it too much
+      match: [["bradycard", "slow heart", "slow pulse"]]
+    - id: f21
+      section: assessment
+      text: Diphenhydramine is a potentially inappropriate sedating medication at age 91
+      polarity: present
+      evidence: At 91, it can make you drowsy all day.
+      match: [["diphenhydramine", "tylenol pm", "antihistamine", "anticholinergic", "beers"]]
+    - id: f22
+      section: plan
+      text: Stop Tylenol PM; plain acetaminophen 500 mg as needed for nighttime aches
+      polarity: present
+      evidence: Stop the Tylenol PM.
+      match: [["tylenol pm", "diphenhydramine"]]
+    - id: f23
+      section: plan
+      text: Reduce metoprolol to 25 mg twice daily
+      polarity: present
+      evidence: Cut the metoprolol down to 25 milligrams twice a day
+      match: [["metoprolol"], ["25"]]
+    - id: f24
+      section: plan
+      text: Continue amlodipine, atorvastatin and aspirin unchanged
+      polarity: present
+      evidence: Keep the amlodipine, atorvastatin and aspirin the same.
+      match: [["amlodipine", "atorvastatin", "aspirin"]]
+    - id: f25
+      section: plan
+      text: Sleep hygiene, consistent bedtime, limit afternoon naps, morning light
+      polarity: present
+      evidence: Same bedtime every night, no long afternoon naps, and some light in the morning.
+      match: [["sleep hygiene", "bedtime", "nap", "morning light"]]
+    - id: f26
+      section: plan
+      text: Restart vitamin D3 as chewable 1000 units daily
+      polarity: present
+      evidence: I'll switch you to a chewable, 1000 units a day.
+      match: [["vitamin d", "cholecalciferol"], ["1000", "chew"]]
+    - id: f27
+      section: plan
+      text: Labs today, CBC, chemistry panel, TSH, B12
+      polarity: present
+      evidence: a blood count, chemistry panel, thyroid test and B12
+      match: [["cbc", "blood count", "tsh", "thyroid", "b12", "metabolic", "chemistry"]]
+    - id: f28
+      section: plan
+      text: Rise slowly, sit at edge of bed first (orthostatic precautions)
+      polarity: present
+      evidence: Get up slowly, sit on the edge of the bed for a minute first.
+      match: [["slowly", "edge of the bed", "orthostatic", "fall precaution"]]
+    - id: f29
+      section: plan
+      text: Return precautions for syncope, chest pain, or slower pulse
+      polarity: present
+      evidence: If you faint, have chest pain, or your pulse gets slower
+      match: [["faint", "syncope", "emergency", "return precaution"]]
+    - id: f30
+      section: plan
+      text: Follow-up in 2 weeks; results to daughter by phone
+      polarity: present
+      evidence: I'll see you in 2 weeks
+      match: [["2 weeks", "two weeks", "2 wk"]]
+  medications:
+    - {name: amlodipine, dose: 5 mg, frequency: once daily, route: oral, status: active, evidence: amlodipine 5 milligrams once a day}
+    - {name: metoprolol tartrate, dose: 25 mg, frequency: twice daily, route: oral, status: changed, evidence: Cut the metoprolol down to 25 milligrams twice a day}
+    - {name: atorvastatin, dose: 10 mg, frequency: nightly, route: oral, status: active, evidence: atorvastatin 10 at night}
+    - {name: aspirin, dose: 81 mg, frequency: once daily, route: oral, status: active, evidence: "a baby aspirin, 81 milligrams"}
+    - {name: acetaminophen-diphenhydramine, dose: 1 dose, frequency: nightly at bedtime, route: oral, status: stopped, evidence: Stop the Tylenol PM.}
+    - {name: acetaminophen, dose: 500 mg, frequency: at night as needed for aches, route: oral, status: prn, evidence: "plain Tylenol, that's acetaminophen, 500 milligrams is fine"}
+    - {name: vitamin d3, dose: 1000 units, frequency: once daily, route: oral, status: new, evidence: "I'll switch you to a chewable, 1000 units a day."}
+  allergies: []
+  diagnoses:
+    - code: R53.83
+      description: Other fatigue
+      primary: true
+      evidence: I'm just worn out, doctor.
+      alternatives: [R53.81]
+    - code: R00.1
+      description: Bradycardia, unspecified
+      evidence: your pulse is 52, which is on the slow side
+    - code: I10
+      description: Essential (primary) hypertension
+      evidence: amlodipine 5 milligrams once a day for your blood pressure
+  em_code: "99214"
+  em_rationale: Undiagnosed new problem with uncertain prognosis plus chronic hypertension, four labs ordered, and prescription drug management with deprescribing (moderate MDM); ECG billed separately.
+  procedures:
+    - {code: "93000", evidence: We also did an ECG while you were waiting.}
+    - {code: "36415", evidence: I also want some blood work today}
+  phi:
+    - {type: NAME, value: Odessa Turner, who: patient}
+    - {type: NAME, value: Mrs. Turner, who: patient}
+    - {type: DATE, value: "April 19th, 1935", who: patient}
+    - {type: AGE, value: 91 years old, who: patient}
+    - {type: AGE, value: "91", who: patient}
+    - {type: NAME, value: Gloria, who: relative}
+    - {type: PHONE, value: 555-0177, who: relative}
+traps:
+  - type: past_resolved
+    text: Pneumonia last winter, fully resolved; not a current diagnosis
+    evidence: I had pneumonia last winter, but I got over that.
+    match: [["pneumonia"]]
+  - type: small_talk
+    text: Tomatoes and garden
+    evidence: I'll bring you some tomatoes if I get my energy back.
+    match: [["tomato", "garden"]]

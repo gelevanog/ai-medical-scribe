@@ -1,0 +1,302 @@
+id: pc-05
+specialty: primary_care
+title: Annual preventive visit with flu shot and smoking cessation counseling
+visit_type: established
+visit_date: "2026-10-09"
+patient:
+  name: Brendan Gallagher
+  dob: "1974-08-30"
+  sex: male
+  phone: 614-555-0192
+  address: 1189 Fairmount Road, Akron, OH 44313
+  mrn: "2069534"
+clinician:
+  name: Dr. Mei-Ling Zhou
+  role: family physician
+speakers:
+  clinician: {sex: female}
+  patient: {sex: male}
+dialogue:
+  - speaker: clinician
+    text: Morning! Let's start with your full name and date of birth.
+  - speaker: patient
+    text: Brendan Gallagher, August 30th, 1974.
+  - speaker: clinician
+    text: Thanks, Brendan. Big weekend coming up?
+  - speaker: patient
+    text: My daughter Siobhan has a soccer tournament in Canton, so I'll be freezing on the sidelines all Saturday.
+  - speaker: clinician
+    text: Bring a thermos. So this is your yearly physical. Anything bothering you, or new since last year?
+  - speaker: patient
+    text: Honestly, I feel fine. No complaints. Well, I want to talk about the smoking. I think I'm ready to quit for real.
+  - speaker: clinician
+    text: I'm really glad to hear that. We'll spend some time on it. How much are you smoking right now?
+  - speaker: patient
+    text: About a pack a day. I started when I was 22, so about 30 years.
+  - speaker: clinician
+    text: Have you tried quitting before?
+  - speaker: patient
+    text: Yeah, in 2019 I used the patch and made it six months. Then work got stressful and I picked it back up.
+  - speaker: clinician
+    text: Six months is a real accomplishment, it means you can do it. Any cough, chest pain, or shortness of breath?
+  - speaker: patient
+    text: Nope, none of those.
+  - speaker: clinician
+    text: Any blood in your stool, or weight loss you can't explain?
+  - speaker: patient
+    text: No.
+  - speaker: clinician
+    text: Alcohol?
+  - speaker: patient
+    text: Two or three beers a week, maybe.
+  - speaker: clinician
+    text: Any family history changes?
+  - speaker: patient
+    text: My mom had breast cancer back in 2021. She did chemo, she's doing great now. Dad's fine, he's 80 and still golfing.
+  - speaker: clinician
+    text: Glad she's doing well. You're not on any regular medicines, right?
+  - speaker: patient
+    text: Nothing. Just a multivitamin most days.
+  - speaker: clinician
+    text: And no allergies to medications?
+  - speaker: patient
+    text: Not that I know of.
+  - speaker: clinician
+    text: Okay. Your blood pressure is 132 over 82, pulse 78, and weight is 205 pounds. Let me listen. Heart is regular, no murmurs. Lungs are clear, no wheezing. Belly is soft and non-tender. No swelling in your legs. Everything looks good.
+  - speaker: patient
+    text: Good, I'll take it.
+  - speaker: clinician
+    text: Now, a few screening things. You've never had a colonoscopy, right?
+  - speaker: patient
+    text: Never. I keep putting it off.
+  - speaker: clinician
+    text: You're 52, so you're due. I'll put in a referral to gastroenterology for a screening colonoscopy. And because you've smoked about 30 pack years, you qualify for a yearly low-dose CT scan of the chest to screen for lung cancer. I'll order that too.
+  - speaker: patient
+    text: Okay, makes sense.
+  - speaker: clinician
+    text: And I'd like fasting labs, a cholesterol panel and an A1c to check for diabetes. Your tetanus shot was 2020, so you're up to date there. We do have the flu shot today, would you like it?
+  - speaker: patient
+    text: Sure, go ahead.
+  - speaker: clinician
+    text: Great, the nurse will give you the flu shot in your left arm before you leave. Okay, the smoking. Let's pick a quit date. How about November 1st? That's a Sunday.
+  - speaker: patient
+    text: November 1st. Okay, yeah.
+  - speaker: clinician
+    text: Since a pack a day is heavy, start the 21 milligram nicotine patch that morning, one patch a day, and use nicotine gum, 2 milligrams, when you get a craving. You can buy both over the counter. Get rid of the lighters and ashtrays, and figure out what you'll do instead after meals and in the car, that's when people slip. You can also call the quit line, 1-800-QUIT-NOW, for free coaching.
+  - speaker: patient
+    text: The car is the big one for me.
+  - speaker: clinician
+    text: Keep gum in the cupholder then. We spent about 8 minutes on this, and it's the most important thing you'll do for your health. I'll see you in 1 month to check how the quit is going, and we'll go over the labs then.
+  - speaker: patient
+    text: Sounds good. Thanks, Dr. Zhou.
+  - speaker: clinician
+    text: You're welcome. Good luck to Siobhan this weekend.
+gold:
+  facts:
+    - id: f1
+      section: subjective
+      text: Presents for annual physical, feels well, no complaints
+      polarity: present
+      evidence: So this is your yearly physical.
+      match: [["annual", "physical", "preventive", "wellness", "yearly"]]
+    - id: f2
+      section: subjective
+      text: Smokes about 1 pack per day for about 30 years (30 pack-years)
+      polarity: present
+      evidence: About a pack a day.
+      match: [["pack", "smok", "cigarette", "tobacco"], ["30", "1 pack", "one pack", "pack a day", "ppd"]]
+    - id: f3
+      section: subjective
+      text: Ready to quit smoking
+      polarity: present
+      evidence: I think I'm ready to quit for real.
+      match: [["quit", "cessation"]]
+    - id: f4
+      section: subjective
+      text: Prior quit attempt in 2019 with nicotine patch, abstinent 6 months, relapsed with work stress
+      polarity: present
+      evidence: in 2019 I used the patch and made it six months
+      match: [["2019", "prior", "previous", "six months", "6 months"]]
+    - id: f5
+      section: subjective
+      text: Denies cough
+      polarity: absent
+      evidence: Any cough, chest pain, or shortness of breath?
+      match: [["cough"]]
+    - id: f6
+      section: subjective
+      text: Denies chest pain
+      polarity: absent
+      evidence: Any cough, chest pain, or shortness of breath?
+      match: [["chest pain"]]
+    - id: f7
+      section: subjective
+      text: Denies shortness of breath
+      polarity: absent
+      evidence: Any cough, chest pain, or shortness of breath?
+      match: [["shortness of breath", "dyspnea", "sob"]]
+    - id: f8
+      section: subjective
+      text: Denies blood in stool or unexplained weight loss
+      polarity: absent
+      evidence: Any blood in your stool, or weight loss you can't explain?
+      match: [["blood in", "hematochezia", "rectal bleed", "weight loss", "melena"]]
+    - id: f9
+      section: subjective
+      text: Alcohol 2 to 3 beers per week
+      polarity: present
+      evidence: Two or three beers a week, maybe.
+      match: [["beer", "alcohol", "drinks", "etoh"]]
+    - id: f10
+      section: subjective
+      text: Family history of breast cancer in mother (2021)
+      polarity: present
+      evidence: My mom had breast cancer back in 2021.
+      match: [["breast cancer"], ["mother", "mom"]]
+    - id: f11
+      section: subjective
+      text: No regular medications, takes a daily multivitamin
+      polarity: present
+      evidence: Just a multivitamin most days.
+      match: [["multivitamin", "mvi"]]
+    - id: f12
+      section: subjective
+      text: No known drug allergies
+      polarity: absent
+      evidence: And no allergies to medications?
+      match: [["allerg", "nkda"]]
+    - id: f13
+      section: subjective
+      text: Never had a colonoscopy
+      polarity: absent
+      evidence: Never. I keep putting it off.
+      match: [["colonoscopy"]]
+    - id: f14
+      section: subjective
+      text: Tetanus vaccine in 2020, up to date
+      polarity: present
+      evidence: Your tetanus shot was 2020, so you're up to date there.
+      match: [["tetanus", "tdap"]]
+    - id: f15
+      section: objective
+      text: Blood pressure 132/82, pulse 78, weight 205 lb
+      polarity: present
+      evidence: Your blood pressure is 132 over 82, pulse 78, and weight is 205 pounds.
+      match: [["132", "205"]]
+    - id: f16
+      section: objective
+      text: Normal exam, heart regular without murmur, lungs clear without wheezing, abdomen soft non-tender, no edema
+      polarity: present
+      evidence: Heart is regular, no murmurs. Lungs are clear, no wheezing.
+      match: [["heart", "lung", "abdomen", "exam"], ["regular", "clear", "normal", "soft"]]
+    - id: f17
+      section: assessment
+      text: Routine adult preventive exam, normal findings
+      polarity: present
+      evidence: Everything looks good.
+      match: [["preventive", "physical", "health maintenance", "wellness", "annual"]]
+    - id: f18
+      section: assessment
+      text: Nicotine dependence, cigarettes, ready to quit
+      polarity: present
+      evidence: I think I'm ready to quit for real.
+      match: [["nicotine", "tobacco", "smok", "cigarette"]]
+    - id: f19
+      section: plan
+      text: Referral to gastroenterology for screening colonoscopy
+      polarity: present
+      evidence: I'll put in a referral to gastroenterology for a screening colonoscopy.
+      match: [["colonoscopy", "gastroenterology", "gi referral", "colon cancer screening"]]
+    - id: f20
+      section: plan
+      text: Low-dose CT chest for lung cancer screening
+      polarity: present
+      evidence: you qualify for a yearly low-dose CT scan of the chest to screen for lung cancer
+      match: [["low-dose ct", "low dose ct", "ldct", "lung cancer screening", "ct chest", "ct scan"]]
+    - id: f21
+      section: plan
+      text: Fasting lipid panel and A1c
+      polarity: present
+      evidence: a cholesterol panel and an A1c to check for diabetes
+      match: [["lipid", "cholesterol", "a1c", "hba1c"]]
+    - id: f22
+      section: plan
+      text: Influenza vaccine given today
+      polarity: present
+      evidence: the nurse will give you the flu shot in your left arm
+      match: [["flu", "influenza"]]
+    - id: f23
+      section: plan
+      text: Quit date set for November 1
+      polarity: present
+      evidence: How about November 1st?
+      match: [["quit date", "november 1", "11/1"]]
+    - id: f24
+      section: plan
+      text: Nicotine patch 21 mg once daily starting on quit date, over the counter
+      polarity: present
+      evidence: start the 21 milligram nicotine patch that morning, one patch a day
+      match: [["patch", "nicotine replacement", "nrt"], ["21"]]
+    - id: f25
+      section: plan
+      text: Nicotine gum 2 mg as needed for cravings
+      polarity: present
+      evidence: use nicotine gum, 2 milligrams, when you get a craving
+      match: [["gum"]]
+    - id: f26
+      section: plan
+      text: Behavioral counseling on triggers (after meals, in the car) and quit line referral; about 8 minutes of cessation counseling
+      polarity: present
+      evidence: We spent about 8 minutes on this
+      match: [["quit line", "quitline", "1-800-quit-now", "counsel", "trigger"]]
+    - id: f27
+      section: plan
+      text: Follow-up in 1 month to review quit progress and labs
+      polarity: present
+      evidence: I'll see you in 1 month
+      match: [["1 month", "one month", "4 weeks", "four weeks"]]
+  medications:
+    - {name: multivitamin, dose: 1 tablet, frequency: most days, route: oral, status: active, evidence: Just a multivitamin most days.}
+    - {name: nicotine transdermal patch, dose: 21 mg, frequency: once daily, route: transdermal, status: new, evidence: "start the 21 milligram nicotine patch that morning, one patch a day"}
+    - {name: nicotine gum, dose: 2 mg, frequency: as needed for cravings, route: oral, status: prn, evidence: "use nicotine gum, 2 milligrams, when you get a craving"}
+    - {name: influenza vaccine, dose: 1 dose, frequency: once, route: injection, status: new, evidence: the nurse will give you the flu shot in your left arm}
+  allergies: []
+  diagnoses:
+    - code: Z00.00
+      description: Encounter for general adult medical examination without abnormal findings
+      primary: true
+      evidence: So this is your yearly physical.
+      alternatives: [Z00.01]
+    - code: F17.210
+      description: Nicotine dependence, cigarettes, uncomplicated
+      evidence: About a pack a day.
+    - code: Z23
+      description: Encounter for immunization
+      evidence: the nurse will give you the flu shot in your left arm
+  em_code: "99213"
+  em_rationale: The preventive exam itself would be billed with a preventive medicine code; the separately identifiable problem-oriented work is one chronic condition not at goal (tobacco dependence) managed with over-the-counter nicotine replacement, low MDM.
+  procedures:
+    - {code: "90686", evidence: the nurse will give you the flu shot in your left arm}
+    - {code: "90471", evidence: the nurse will give you the flu shot in your left arm}
+    - {code: "99406", evidence: We spent about 8 minutes on this}
+  phi:
+    - {type: NAME, value: Brendan Gallagher, who: patient}
+    - {type: NAME, value: Brendan, who: patient}
+    - {type: DATE, value: "August 30th, 1974", who: patient}
+    - {type: NAME, value: Siobhan, who: relative}
+    - {type: ADDRESS, value: Canton, who: relative}
+    - {type: DATE, value: November 1st, who: patient}
+    - {type: NAME, value: Dr. Zhou, who: clinician}
+traps:
+  - type: family_history
+    text: Mother had breast cancer; the patient has no cancer
+    evidence: My mom had breast cancer back in 2021.
+    match: [["breast cancer", "chemo"]]
+  - type: small_talk
+    text: Daughter's soccer tournament this weekend
+    evidence: My daughter Siobhan has a soccer tournament in Canton
+    match: [["soccer", "tournament", "thermos"]]
+  - type: past_resolved
+    text: Previous quit attempt in 2019 with patch lasted six months then relapse; he is currently smoking, not a former smoker
+    evidence: Then work got stressful and I picked it back up.
+    match: [["former smoker", "quit in 2019", "ex-smoker", "history of tobacco"]]

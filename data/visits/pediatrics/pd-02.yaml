@@ -1,0 +1,314 @@
+id: pd-02
+specialty: pediatrics
+title: School-age child with sore throat, positive rapid strep, amoxicillin allergy
+visit_type: established
+visit_date: "2026-10-13"
+patient:
+  name: Mateo Villanueva
+  dob: "2019-04-02"
+  sex: male
+  phone: 555-0118
+  email: andres.villanueva@example.com
+  mrn: "5519027"
+clinician:
+  name: Dr. Kwame Asante
+  role: pediatrician
+speakers:
+  clinician: {sex: male}
+  caregiver: {sex: male}
+dialogue:
+  - speaker: clinician
+    text: Hey, buddy. Hi, Dad. I'm Dr. Asante. Can you give me his full name and birthday, just so I know I've got the right chart?
+  - speaker: caregiver
+    text: Mateo Villanueva, April 2nd, 2019. I'm his dad, Andrés.
+  - speaker: clinician
+    text: Thanks, Andrés. So, Mateo, I hear your throat hurts?
+  - speaker: caregiver
+    text: Yeah, he's been complaining since Saturday. No, wait, Friday. It was Friday night, after his soccer game. He said it hurt to swallow, and then Sunday he got a fever.
+  - speaker: clinician
+    text: How high has the fever gotten?
+  - speaker: caregiver
+    text: The highest was 102.4 last night. I gave him ibuprofen this morning at like 7, so that might be bringing it down.
+  - speaker: clinician
+    text: Good to know. Mateo, does your tummy hurt at all?
+  - speaker: caregiver
+    text: He said his stomach hurt yesterday. Didn't throw up, though.
+  - speaker: clinician
+    text: Okay. Any cough?
+  - speaker: caregiver
+    text: No, not really.
+  - speaker: clinician
+    text: Runny nose or stuffy nose?
+  - speaker: caregiver
+    text: No. That's kind of why I thought, this isn't just a cold. A mom from his class texted that there's strep going around at Brookside Elementary.
+  - speaker: clinician
+    text: Yeah, we've been seeing a lot of it this month. Any rash on his body?
+  - speaker: caregiver
+    text: I didn't see one.
+  - speaker: clinician
+    text: Is he drinking okay?
+  - speaker: caregiver
+    text: Drinking, yes, eating not so much. Popsicles mostly.
+  - speaker: clinician
+    text: Popsicles are perfect, honestly. Now, I see in the chart he's allergic to amoxicillin. Is that right?
+  - speaker: caregiver
+    text: Yeah, when he was 3 he got hives all over, like big red welts, from the pink amoxicillin. No trouble breathing or anything, just the hives.
+  - speaker: clinician
+    text: Okay, that's helpful. Any other medicines, any daily medicines?
+  - speaker: caregiver
+    text: No, just the ibuprofen when he needs it.
+  - speaker: clinician
+    text: Alright. Vitals today, he weighs 20 kilograms, that's 44 pounds. Temperature is 101.9, heart rate 112. Mateo, can you open really big and say ah? Great job.
+  - speaker: clinician
+    text: Okay, his tonsils are swollen and red, and there's white stuff on them, and some little red spots on the roof of his mouth. The glands in the front of his neck are swollen and tender. Ears look normal, lungs are clear, and I don't see any rash. I'm going to do a quick strep swab, it takes about 10 minutes.
+  - speaker: caregiver
+    text: Sure. He's gonna hate it, but okay.
+  - speaker: clinician
+    text: It's quick, I promise. Mateo, count to 3 with me.
+  - speaker: caregiver
+    text: You did it, buddy.
+  - speaker: clinician
+    text: Alright, the rapid strep came back positive. So this is strep throat.
+  - speaker: caregiver
+    text: Okay. So what can he take, since he can't have amoxicillin?
+  - speaker: clinician
+    text: Since his reaction was hives and not anything severe like swelling or trouble breathing, cephalexin is a safe choice. The dose is 20 milligrams per kilogram, twice a day. At 20 kilograms that's 400 milligrams twice a day. The liquid is 250 milligrams per 5 milliliters, so 8 milliliters twice a day, for 10 days.
+  - speaker: caregiver
+    text: 8 milliliters, twice a day, 10 days. Got it.
+  - speaker: clinician
+    text: For the throat pain and fever, ibuprofen is fine. His dose is 200 milligrams, so 10 milliliters of the children's liquid every 6 to 8 hours as needed, with some food.
+  - speaker: caregiver
+    text: When can he go back to school? He's already missed Monday.
+  - speaker: clinician
+    text: Once he's had at least 12 hours of the antibiotic and he's fever-free, he can go back. So probably Thursday. I can put a school note in the portal.
+  - speaker: caregiver
+    text: Great, the portal email is andres dot villanueva at example dot com. And, um, my wife woke up with a scratchy throat today. Should she get the medicine too?
+  - speaker: clinician
+    text: She'd need to be checked by her own doctor, we don't treat without testing. Same goes for anyone else in the house who gets sick.
+  - speaker: caregiver
+    text: Okay, makes sense.
+  - speaker: clinician
+    text: Swap out his toothbrush after a day or two on the medicine. And if he starts drooling, can't swallow his own spit, can't open his mouth all the way, or has trouble breathing, go straight to the emergency room. If he's not better in 2 or 3 days, call us.
+  - speaker: caregiver
+    text: Okay. And the number you have on file, 555-0118, that's my cell, so call that one.
+  - speaker: clinician
+    text: Perfect, I'll send it now. And how'd the soccer game go, by the way?
+  - speaker: caregiver
+    text: They lost 4 to 1, but he scored the 1.
+  - speaker: clinician
+    text: Nice. Feel better, Mateo.
+gold:
+  facts:
+    - id: f1
+      section: subjective
+      text: Sore throat with painful swallowing since Friday night
+      polarity: present
+      evidence: He said it hurt to swallow
+      match: [["sore throat", "throat pain", "pharyngitis", "odynophagia", "throat hurt", "painful swallow", "hurt to swallow"]]
+    - id: f2
+      section: subjective
+      text: Fever since Sunday, maximum 102.4
+      polarity: present
+      evidence: The highest was 102.4 last night.
+      match: [["fever", "febrile", "temp"], ["102.4"]]
+    - id: f3
+      section: subjective
+      text: Ibuprofen given this morning around 7 AM
+      polarity: present
+      evidence: I gave him ibuprofen this morning at like 7
+      match: [["ibuprofen", "motrin", "advil"]]
+    - id: f4
+      section: subjective
+      text: Abdominal pain yesterday
+      polarity: present
+      evidence: He said his stomach hurt yesterday.
+      match: [["stomach", "abdominal", "abd", "belly", "tummy"]]
+    - id: f5
+      section: subjective
+      text: No vomiting
+      polarity: absent
+      evidence: Didn't throw up, though.
+      match: [["vomit", "emesis", "throw up", "threw up"]]
+    - id: f6
+      section: subjective
+      text: No cough
+      polarity: absent
+      evidence: Any cough?
+      match: [["cough"]]
+    - id: f7
+      section: subjective
+      text: No rhinorrhea or nasal congestion
+      polarity: absent
+      evidence: Runny nose or stuffy nose?
+      match: [["runny", "rhinorrhea", "congestion", "stuffy", "nasal"]]
+    - id: f8
+      section: subjective
+      text: Strep exposure, cases going around his school class
+      polarity: present
+      evidence: there's strep going around
+      match: [["strep", "exposure", "sick contact"], ["school", "class", "exposure", "contact"]]
+    - id: f9
+      section: subjective
+      text: Drinking well, decreased appetite
+      polarity: present
+      evidence: Drinking, yes, eating not so much.
+      match: [["drinking", "fluids", "intake", "appetite", "eating", "oral"]]
+    - id: f10
+      section: subjective
+      text: Allergy to amoxicillin causing hives at age 3, no respiratory symptoms
+      polarity: present
+      evidence: when he was 3 he got hives all over
+      match: [["amoxicillin", "penicillin"], ["hives", "urticaria"]]
+    - id: f11
+      section: subjective
+      text: No daily medications besides ibuprofen as needed
+      polarity: absent
+      evidence: No, just the ibuprofen when he needs it.
+      match: [["daily med", "regular med", "other med", "home med", "chronic med", "routine med"]]
+    - id: f12
+      section: objective
+      text: Weight 20 kg (44 lb)
+      polarity: present
+      evidence: he weighs 20 kilograms
+      match: [["20 kg", "20 kilogram", "20kg", "44 lb", "44 pound"]]
+    - id: f13
+      section: objective
+      text: Temperature 101.9
+      polarity: present
+      evidence: Temperature is 101.9
+      match: [["101.9"]]
+    - id: f14
+      section: objective
+      text: Heart rate 112
+      polarity: present
+      evidence: heart rate 112
+      match: [["heart rate", "pulse", "hr"], ["112"]]
+    - id: f15
+      section: objective
+      text: Tonsils enlarged and erythematous with exudate
+      polarity: present
+      evidence: his tonsils are swollen and red, and there's white stuff on them
+      match: [["tonsil"], ["exudat", "white", "swollen", "enlarg", "erythem", "red"]]
+    - id: f16
+      section: objective
+      text: Palatal petechiae
+      polarity: present
+      evidence: some little red spots on the roof of his mouth
+      match: [["petechia", "red spots", "palat", "roof of"]]
+    - id: f17
+      section: objective
+      text: Tender anterior cervical lymphadenopathy
+      polarity: present
+      evidence: The glands in the front of his neck are swollen and tender.
+      match: [["lymph", "node", "gland", "adenopathy"]]
+    - id: f18
+      section: objective
+      text: Ears normal, lungs clear
+      polarity: present
+      evidence: Ears look normal, lungs are clear
+      match: [["ears", "tympanic", "tm", "lungs", "lung"]]
+    - id: f19
+      section: objective
+      text: No rash on exam
+      polarity: absent
+      evidence: I don't see any rash
+      match: [["rash", "scarlatin", "exanthem"]]
+    - id: f20
+      section: objective
+      text: Rapid strep test positive
+      polarity: present
+      evidence: the rapid strep came back positive
+      match: [["strep"], ["positive", "pos", "+"]]
+    - id: f21
+      section: assessment
+      text: Streptococcal pharyngitis
+      polarity: present
+      evidence: So this is strep throat.
+      match: [["strep"], ["pharyngitis", "throat", "tonsillitis"]]
+    - id: f22
+      section: assessment
+      text: Amoxicillin allergy was hives only, so a cephalosporin is acceptable
+      polarity: present
+      evidence: cephalexin is a safe choice
+      match: [["cephalexin", "keflex", "cephalosporin"]]
+    - id: f23
+      section: plan
+      text: Cephalexin 20 mg/kg/dose, 400 mg (8 mL of 250 mg/5 mL) twice daily
+      polarity: present
+      evidence: At 20 kilograms that's 400 milligrams twice a day.
+      match: [["cephalexin", "keflex"], ["400", "8 ml", "8 milliliter", "8ml"]]
+    - id: f24
+      section: plan
+      text: Cephalexin for 10 days
+      polarity: present
+      evidence: so 8 milliliters twice a day, for 10 days
+      match: [["cephalexin", "keflex", "antibiotic"], ["10 days", "ten days", "10-day", "10 day"]]
+    - id: f25
+      section: plan
+      text: Ibuprofen 200 mg (10 mL) every 6 to 8 hours as needed with food
+      polarity: present
+      evidence: His dose is 200 milligrams, so 10 milliliters of the children's liquid every 6 to 8 hours as needed
+      match: [["ibuprofen", "motrin", "advil"], ["200", "10 ml", "10 milliliter", "10ml"]]
+    - id: f26
+      section: plan
+      text: Return to school after at least 12 hours of antibiotic and fever-free; school note via portal
+      polarity: present
+      evidence: Once he's had at least 12 hours of the antibiotic and he's fever-free, he can go back.
+      match: [["school"], ["12 hours", "12 hr", "12-hour", "12h"]]
+    - id: f27
+      section: plan
+      text: Replace toothbrush after 1 to 2 days of antibiotics
+      polarity: present
+      evidence: Swap out his toothbrush after a day or two on the medicine.
+      match: [["toothbrush"]]
+    - id: f28
+      section: plan
+      text: ER for drooling, inability to swallow saliva, trismus or breathing difficulty
+      polarity: present
+      evidence: if he starts drooling, can't swallow his own spit, can't open his mouth all the way, or has trouble breathing, go straight to the emergency room
+      match: [["drool", "spit", "trismus", "open his mouth", "trouble breathing", "emergency"]]
+    - id: f29
+      section: plan
+      text: Call if not improved in 2 to 3 days
+      polarity: present
+      evidence: If he's not better in 2 or 3 days, call us.
+      match: [["2 or 3 days", "2-3 days", "2 to 3 days", "48", "72", "two to three days", "2–3 days"]]
+  medications:
+    - {name: cephalexin, dose: 400 mg (8 mL of 250 mg/5 mL), frequency: twice daily for 10 days, route: oral, status: new, evidence: "At 20 kilograms that's 400 milligrams twice a day."}
+    - {name: ibuprofen, dose: 200 mg (10 mL), frequency: every 6-8 hours as needed, route: oral, status: prn, evidence: "His dose is 200 milligrams"}
+  allergies:
+    - {substance: amoxicillin, reaction: hives, evidence: "when he was 3 he got hives all over"}
+  diagnoses:
+    - code: J02.0
+      description: Streptococcal pharyngitis
+      primary: true
+      evidence: So this is strep throat.
+    - code: Z88.0
+      description: Allergy status to penicillin
+      evidence: he's allergic to amoxicillin
+  em_code: "99213"
+  em_rationale: One acute uncomplicated illness, rapid strep ordered and reviewed with history from a parent as independent historian, and prescription drug management; low complexity overall.
+  procedures:
+    - {code: "87880", evidence: "the rapid strep came back positive"}
+  phi:
+    - {type: NAME, value: Mateo Villanueva, who: patient}
+    - {type: NAME, value: Mateo, who: patient}
+    - {type: DATE, value: "April 2nd, 2019", who: patient}
+    - {type: NAME, value: Andrés, who: relative}
+    - {type: NAME, value: Dr. Asante, who: clinician}
+    - {type: ORG, value: Brookside Elementary, who: patient}
+    - {type: EMAIL, value: andres dot villanueva at example dot com, who: relative}
+    - {type: PHONE, value: 555-0118, who: relative}
+traps:
+  - type: correction
+    text: Onset first said as Saturday, corrected to Friday night
+    evidence: he's been complaining since Saturday
+    match: [["saturday"]]
+  - type: other_person
+    text: Mother has a scratchy throat; she is not the patient and is not being treated here
+    evidence: my wife woke up with a scratchy throat today
+    match: [["wife", "mother", "mom"], ["throat", "treat", "antibiotic"]]
+  - type: small_talk
+    text: Soccer game score must not appear in the note
+    evidence: They lost 4 to 1, but he scored the 1.
+    match: [["scored", "4 to 1", "4-1"]]

@@ -1,0 +1,338 @@
+id: cd-01
+specialty: cardiology
+title: New patient with exertional chest pressure, stable angina workup
+visit_type: new
+visit_date: "2026-09-21"
+patient:
+  name: Tomasz Wieczorek
+  dob: "1964-08-03"
+  sex: male
+  phone: 555-0163
+  address: 417 Birchmont Road, Toledo, OH 43614
+  mrn: "6620418"
+clinician:
+  name: Dr. Adaeze Okonkwo
+  role: cardiologist
+speakers:
+  clinician: {sex: female}
+  patient: {sex: male}
+dialogue:
+  - speaker: clinician
+    text: Hi, come on in and have a seat. I'm Dr. Adaeze Okonkwo, one of the cardiologists here. Can you tell me your full name and date of birth?
+  - speaker: patient
+    text: Tomasz Wieczorek. August 3rd, 1964.
+  - speaker: clinician
+    text: Thank you, Mr. Wieczorek. Did you find parking okay? The garage is a mess this week with the construction.
+  - speaker: patient
+    text: Took me two laps, but yeah, I found a spot eventually.
+  - speaker: clinician
+    text: Sorry about that. So Dr. Patel sent you over about some chest discomfort. Tell me what's been going on.
+  - speaker: patient
+    text: So, about 6 weeks ago I started getting this pressure in the middle of my chest. Like somebody's sitting on me. It happens when I walk up the hill to my house, or when I carry groceries up the stairs.
+  - speaker: clinician
+    text: And how long does it last when it comes on?
+  - speaker: patient
+    text: A few minutes. If I stop and stand there, it goes away in maybe 3, 4 minutes.
+  - speaker: clinician
+    text: Does it ever happen when you're resting, or wake you up at night?
+  - speaker: patient
+    text: No, never at rest. Only when I'm pushing it.
+  - speaker: clinician
+    text: Does the pressure go anywhere, like your arm, your jaw, or your back?
+  - speaker: patient
+    text: Sometimes a little into my left arm. Not the jaw.
+  - speaker: clinician
+    text: Any shortness of breath with it?
+  - speaker: patient
+    text: A little winded, yeah. But I figured that's just me being out of shape.
+  - speaker: clinician
+    text: Any sweating, nausea, or lightheadedness with the episodes?
+  - speaker: patient
+    text: No sweating. No nausea. I've never passed out or anything like that.
+  - speaker: clinician
+    text: Has it been getting more frequent, or easier to bring on?
+  - speaker: patient
+    text: Um, not really. It's about the same, maybe 2 or 3 times a week.
+  - speaker: clinician
+    text: Okay. Dr. Patel's note says you have high blood pressure and high cholesterol. What are you taking for those?
+  - speaker: patient
+    text: Lisinopril, 20 milligrams in the morning. And he started me on atorvastatin, 40 milligrams at night, about a year ago.
+  - speaker: clinician
+    text: Any allergies to medications?
+  - speaker: patient
+    text: Penicillin. I got hives from it as a kid.
+  - speaker: clinician
+    text: Do you smoke?
+  - speaker: patient
+    text: I quit 10 years ago. Before that I smoked about a pack a day for 25 years.
+  - speaker: clinician
+    text: Good for you on quitting, that's a big deal. Any diabetes?
+  - speaker: patient
+    text: No, my sugar's always been fine.
+  - speaker: clinician
+    text: And what do you do for work?
+  - speaker: patient
+    text: I'm a dispatcher at Hollister Freight. Mostly sitting, honestly.
+  - speaker: clinician
+    text: Okay. Your blood pressure today is 142 over 86, pulse 74, and your oxygen is 98 percent. Weight is 214 pounds. Let me take a listen. Heart has a regular rhythm, no murmurs. Lungs are clear. No swelling in your legs, and the pulses in your feet are good.
+  - speaker: patient
+    text: That's good, I guess.
+  - speaker: clinician
+    text: We did an ECG when you came in. It shows normal sinus rhythm at 72, and I don't see any signs of an old heart attack or any acute changes. That's reassuring, but a resting ECG is often normal even when there's a blockage, because the problem only shows up when the heart is working hard.
+  - speaker: patient
+    text: So what does that mean, then?
+  - speaker: clinician
+    text: What you're describing, pressure with exertion that goes away with rest, is pretty classic for stable angina. That means the heart muscle isn't getting enough blood when it works harder, usually from narrowing in the heart arteries. With your smoking history, blood pressure and cholesterol, that's my main concern.
+  - speaker: patient
+    text: Okay. That's kind of scary.
+  - speaker: clinician
+    text: I understand. The good news is it's stable, and we have a clear plan. First, I'd like you to have a nuclear stress test, where you walk on a treadmill while we take pictures of the blood flow to your heart. We'll also check a fasting lipid panel and a basic metabolic panel.
+  - speaker: patient
+    text: Sure, that's fine.
+  - speaker: clinician
+    text: In the meantime, I want you to start aspirin, 81 milligrams once a day. I'm also starting metoprolol succinate, 25 milligrams once a day, which slows the heart down so it doesn't work as hard. And I'm giving you nitroglycerin, 0.4 milligrams, one tablet under the tongue if the pressure comes on and doesn't go away with rest. You can repeat it every 5 minutes, up to 3 tablets.
+  - speaker: patient
+    text: Got it.
+  - speaker: clinician
+    text: I'm also going to increase your atorvastatin from 40 to 80 milligrams at night. Keep the lisinopril the same.
+  - speaker: patient
+    text: Okay.
+  - speaker: clinician
+    text: Now, this part is important. If you get chest pain at rest, or pain that lasts more than 15 minutes, or it doesn't go away after one nitroglycerin, call 911. Don't drive yourself.
+  - speaker: patient
+    text: Understood.
+  - speaker: clinician
+    text: And hold off on heavy lifting and that hill until we have the stress test results. What's the best number to reach you for scheduling?
+  - speaker: patient
+    text: My cell, 555-0163.
+  - speaker: clinician
+    text: Great. We'll get the stress test done within the next 2 weeks, and I'll see you back right after to go over the results.
+  - speaker: patient
+    text: Thanks, doctor. I appreciate it.
+gold:
+  facts:
+    - id: f1
+      section: subjective
+      text: Central chest pressure for about 6 weeks
+      polarity: present
+      evidence: "about 6 weeks ago I started getting this pressure in the middle of my chest"
+      match: [["pressure", "chest pain", "chest discomfort", "tightness", "angina"], ["6 weeks", "six weeks", "6 wk"]]
+    - id: f2
+      section: subjective
+      text: Brought on by exertion (walking uphill, carrying groceries up stairs)
+      polarity: present
+      evidence: "It happens when I walk up the hill to my house, or when I carry groceries up the stairs."
+      match: [["exertion", "exertional", "hill", "stairs", "walking", "uphill", "activity"]]
+    - id: f3
+      section: subjective
+      text: Episodes last a few minutes and resolve with rest in 3 to 4 minutes
+      polarity: present
+      evidence: "If I stop and stand there, it goes away in maybe 3, 4 minutes."
+      match: [["rest", "stopping"], ["minute", "min"]]
+    - id: f4
+      section: subjective
+      text: No chest pressure at rest or at night
+      polarity: absent
+      evidence: "Does it ever happen when you're resting, or wake you up at night?"
+      match: [["at rest", "resting", "nocturnal", "at night", "wake"]]
+    - id: f5
+      section: subjective
+      text: Occasional radiation to the left arm
+      polarity: present
+      evidence: "Sometimes a little into my left arm."
+      match: [["left arm", "arm"]]
+    - id: f6
+      section: subjective
+      text: No radiation to the jaw
+      polarity: absent
+      evidence: "Not the jaw."
+      match: [["jaw"]]
+    - id: f7
+      section: subjective
+      text: Mild shortness of breath with episodes
+      polarity: present
+      evidence: "A little winded, yeah."
+      match: [["winded", "shortness of breath", "dyspnea", "sob", "short of breath"]]
+    - id: f8
+      section: subjective
+      text: Denies diaphoresis, nausea or lightheadedness
+      polarity: absent
+      evidence: "Any sweating, nausea, or lightheadedness with the episodes?"
+      match: [["sweat", "diaphores", "nausea", "lightheaded", "light-headed", "dizz"]]
+    - id: f9
+      section: subjective
+      text: No syncope
+      polarity: absent
+      evidence: "I've never passed out or anything like that."
+      match: [["syncope", "passed out", "pass out", "faint"]]
+    - id: f10
+      section: subjective
+      text: Stable frequency, 2 to 3 episodes per week, not worsening
+      polarity: present
+      evidence: "It's about the same, maybe 2 or 3 times a week."
+      match: [["2 or 3", "2-3", "2 to 3", "two to three", "two or three"]]
+    - id: f11
+      section: subjective
+      text: History of hypertension on lisinopril 20 mg daily
+      polarity: present
+      evidence: "you have high blood pressure and high cholesterol"
+      match: [["hypertension", "high blood pressure", "htn"]]
+    - id: f12
+      section: subjective
+      text: History of hyperlipidemia on atorvastatin 40 mg nightly
+      polarity: present
+      evidence: "you have high blood pressure and high cholesterol"
+      match: [["cholesterol", "hyperlipidemia", "dyslipidemia", "lipid"]]
+    - id: f13
+      section: subjective
+      text: Former smoker, 1 pack per day for 25 years, quit 10 years ago
+      polarity: present
+      evidence: "I quit 10 years ago. Before that I smoked about a pack a day for 25 years."
+      match: [["smok", "tobacco", "cigarette", "pack-year", "pack year", "pack a day", "pack per day"]]
+    - id: f14
+      section: subjective
+      text: No diabetes
+      polarity: absent
+      evidence: "Any diabetes?"
+      match: [["diabet"]]
+    - id: f15
+      section: subjective
+      text: Penicillin allergy (hives)
+      polarity: present
+      evidence: "Penicillin. I got hives from it as a kid."
+      match: [["penicillin", "pcn"]]
+    - id: f16
+      section: objective
+      text: Blood pressure 142/86
+      polarity: present
+      evidence: "Your blood pressure today is 142 over 86"
+      match: [["142"], ["86"]]
+    - id: f17
+      section: objective
+      text: Pulse 74, oxygen saturation 98%, weight 214 lb
+      polarity: present
+      evidence: "pulse 74, and your oxygen is 98 percent. Weight is 214 pounds."
+      match: [["74", "98", "214"]]
+    - id: f18
+      section: objective
+      text: Regular rhythm, no murmurs; pedal pulses intact
+      polarity: absent
+      evidence: "Heart has a regular rhythm, no murmurs."
+      match: [["murmur"]]
+    - id: f19
+      section: objective
+      text: Lungs clear
+      polarity: present
+      evidence: "Lungs are clear."
+      match: [["lung"], ["clear"]]
+    - id: f20
+      section: objective
+      text: No lower extremity edema
+      polarity: absent
+      evidence: "No swelling in your legs"
+      match: [["edema", "swelling"]]
+    - id: f21
+      section: objective
+      text: ECG normal sinus rhythm at 72, no Q waves or acute changes
+      polarity: present
+      evidence: "It shows normal sinus rhythm at 72"
+      match: [["sinus"], ["72"]]
+    - id: f22
+      section: assessment
+      text: Exertional chest pressure consistent with stable angina, suspected coronary artery disease
+      polarity: present
+      evidence: "is pretty classic for stable angina"
+      match: [["angina"]]
+    - id: f23
+      section: plan
+      text: Nuclear exercise stress test within 2 weeks
+      polarity: present
+      evidence: "I'd like you to have a nuclear stress test"
+      match: [["stress test", "stress", "myocardial perfusion", "spect"]]
+    - id: f24
+      section: plan
+      text: Fasting lipid panel and basic metabolic panel
+      polarity: present
+      evidence: "We'll also check a fasting lipid panel and a basic metabolic panel."
+      match: [["lipid", "metabolic panel", "bmp"]]
+    - id: f25
+      section: plan
+      text: Start aspirin 81 mg daily
+      polarity: present
+      evidence: "I want you to start aspirin, 81 milligrams once a day."
+      match: [["aspirin", "asa"], ["81"]]
+    - id: f26
+      section: plan
+      text: Start metoprolol succinate 25 mg daily
+      polarity: present
+      evidence: "I'm also starting metoprolol succinate, 25 milligrams once a day"
+      match: [["metoprolol", "toprol", "beta blocker", "beta-blocker"]]
+    - id: f27
+      section: plan
+      text: Nitroglycerin 0.4 mg sublingual as needed, repeat every 5 minutes up to 3 doses
+      polarity: present
+      evidence: "I'm giving you nitroglycerin, 0.4 milligrams"
+      match: [["nitroglycerin", "nitro", "ntg"]]
+    - id: f28
+      section: plan
+      text: Increase atorvastatin from 40 to 80 mg nightly; continue lisinopril
+      polarity: present
+      evidence: "I'm also going to increase your atorvastatin from 40 to 80 milligrams at night."
+      match: [["atorvastatin", "lipitor", "statin"], ["80"]]
+    - id: f29
+      section: plan
+      text: Call 911 for rest pain, pain over 15 minutes, or pain not relieved by nitroglycerin; avoid heavy exertion until testing
+      polarity: present
+      evidence: "If you get chest pain at rest, or pain that lasts more than 15 minutes, or it doesn't go away after one nitroglycerin, call 911."
+      match: [["911", "emergency"]]
+    - id: f30
+      section: plan
+      text: Follow-up after stress test to review results
+      polarity: present
+      evidence: "I'll see you back right after to go over the results"
+      match: [["follow", "return", "see back", "revisit"]]
+  medications:
+    - {name: lisinopril, dose: 20 mg, frequency: once daily in the morning, route: oral, status: active, evidence: "Lisinopril, 20 milligrams in the morning."}
+    - {name: atorvastatin, dose: 80 mg, frequency: nightly, route: oral, status: changed, evidence: "increase your atorvastatin from 40 to 80 milligrams at night"}
+    - {name: aspirin, dose: 81 mg, frequency: once daily, route: oral, status: new, evidence: "start aspirin, 81 milligrams once a day"}
+    - {name: metoprolol succinate, dose: 25 mg, frequency: once daily, route: oral, status: new, evidence: "starting metoprolol succinate, 25 milligrams once a day"}
+    - {name: nitroglycerin, dose: 0.4 mg, frequency: every 5 minutes as needed for chest pain, max 3 doses, route: sublingual, status: new, evidence: "I'm giving you nitroglycerin, 0.4 milligrams, one tablet under the tongue"}
+  allergies:
+    - {substance: penicillin, reaction: hives, evidence: "Penicillin. I got hives from it as a kid."}
+  diagnoses:
+    - code: I20.9
+      description: Angina pectoris, unspecified
+      primary: true
+      evidence: "is pretty classic for stable angina"
+      alternatives: [I20.89, I25.119, R07.89]
+    - code: I10
+      description: Essential (primary) hypertension
+      evidence: "you have high blood pressure"
+    - code: E78.5
+      description: Hyperlipidemia, unspecified
+      evidence: "high cholesterol"
+      alternatives: [E78.00]
+    - code: Z87.891
+      description: Personal history of nicotine dependence
+      evidence: "I quit 10 years ago. Before that I smoked about a pack a day for 25 years."
+  em_code: "99204"
+  em_rationale: New undiagnosed problem with uncertain prognosis (suspected stable angina) plus two chronic conditions, ECG reviewed and stress test and labs ordered, with new prescription drug management (moderate MDM).
+  procedures:
+    - {code: "93000", evidence: "We did an ECG when you came in."}
+  phi:
+    - {type: NAME, value: Dr. Adaeze Okonkwo, who: clinician}
+    - {type: NAME, value: Tomasz Wieczorek, who: patient}
+    - {type: NAME, value: Mr. Wieczorek, who: patient}
+    - {type: DATE, value: "August 3rd, 1964", who: patient}
+    - {type: NAME, value: Dr. Patel, who: clinician}
+    - {type: ORG, value: Hollister Freight, who: patient}
+    - {type: PHONE, value: 555-0163, who: patient}
+traps:
+  - type: small_talk
+    text: Parking garage construction small talk must not appear in the note
+    evidence: "Did you find parking okay? The garage is a mess this week with the construction."
+    match: [["parking", "garage", "construction"]]
+  - type: hypothetical
+    text: Chest pain at rest is a return precaution, not a current symptom
+    evidence: "If you get chest pain at rest, or pain that lasts more than 15 minutes"
+    match: [["pain at rest", "rest pain", "15 minutes"]]

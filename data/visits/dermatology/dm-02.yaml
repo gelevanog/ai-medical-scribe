@@ -1,0 +1,299 @@
+id: dm-02
+specialty: dermatology
+title: Moderate acne started on adapalene and doxycycline
+visit_type: new
+visit_date: "2026-09-22"
+patient:
+  name: Adaeze Okafor
+  dob: "2005-02-14"
+  sex: female
+  phone: 555-0118
+  address: 4120 Belmont Avenue, Chicago, IL 60641
+clinician:
+  name: Dr. Mei-Ling Chou
+  role: dermatologist
+speakers:
+  clinician: {sex: female}
+  patient: {sex: female}
+dialogue:
+  - speaker: clinician
+    text: "Hi, I'm Dr. Mei-Ling Chou. Come on in, have a seat. Can you tell me your full name and date of birth?"
+  - speaker: patient
+    text: "Adaeze Okafor. February 14th, 2005."
+  - speaker: clinician
+    text: "Valentine's baby. Okay, Adaeze, what brings you in?"
+  - speaker: patient
+    text: "My acne. I've had it since like, 18, but the last 6 months it's gotten so much worse. It's on my face and some on my upper back."
+  - speaker: clinician
+    text: "What have you tried so far?"
+  - speaker: patient
+    text: "I used a benzoyl peroxide wash, the 10 percent one, for about a month. But I stopped it in the summer because it bleached all my towels and my pillowcases."
+  - speaker: clinician
+    text: "That's really common. Did it help at all while you were using it?"
+  - speaker: patient
+    text: "A little, I guess. Not enough."
+  - speaker: clinician
+    text: "Any medicines or supplements you take?"
+  - speaker: patient
+    text: "I'm on the birth control pill, the norgestimate one, once a day. And vitamin D3, 2000 units a day."
+  - speaker: clinician
+    text: "Any allergies to medications?"
+  - speaker: patient
+    text: "Amoxicillin. I got hives all over when I was a kid."
+  - speaker: clinician
+    text: "Okay. Are your periods regular?"
+  - speaker: patient
+    text: "Yeah, pretty regular, on the pill anyway."
+  - speaker: clinician
+    text: "Any extra hair growth on your chin or chest?"
+  - speaker: patient
+    text: "No."
+  - speaker: clinician
+    text: "And does the acne leave scars or dark spots?"
+  - speaker: patient
+    text: "Dark spots, yeah. I don't think scars."
+  - speaker: clinician
+    text: "Let me take a look. On your forehead, cheeks and jawline you've got lots of open and closed comedones, so blackheads and whiteheads, about 15 red inflamed bumps and maybe 6 pustules. There are a few tender 4 millimeter nodules along the jawline, no large cysts. You have some flat dark brown spots on both cheeks, that's post-inflammatory hyperpigmentation. I don't see any scarring. On the upper back, scattered red papules, maybe 10 or so."
+  - speaker: patient
+    text: "So is it bad?"
+  - speaker: clinician
+    text: "I'd call this moderate acne vulgaris, with some dark spots from old breakouts. The good news is it's very treatable. I'd like to start two things. First, adapalene 0.1 percent gel, a pea-sized amount to your whole face at night. Start every other night for the first 2 weeks, because it can make your skin dry and a little peely."
+  - speaker: patient
+    text: "Okay."
+  - speaker: clinician
+    text: "Second, doxycycline 100 milligrams twice a day for 3 months. Take it with food and a full glass of water, and stay upright for 30 minutes after, so it doesn't irritate your esophagus. Keep it 2 hours away from dairy, calcium or iron."
+  - speaker: patient
+    text: "Got it. Is it okay with my birth control?"
+  - speaker: clinician
+    text: "Yes, it doesn't make your pill less effective. Now, an important question. Is there any chance you could be pregnant right now?"
+  - speaker: patient
+    text: "No. My last period was 2 weeks ago. But, um, if I did get pregnant, could I keep taking these?"
+  - speaker: clinician
+    text: "No, and that's a really good question. Doxycycline can affect a baby's teeth and bones, and we don't use adapalene in pregnancy either. So if you ever think you might be pregnant, stop both and call us."
+  - speaker: patient
+    text: "Okay, that makes sense."
+  - speaker: clinician
+    text: "The other big thing with doxycycline is sun sensitivity. You can burn really fast on it. So sunscreen, SPF 30 or higher every morning, and a hat if you're out a lot. The adapalene makes you more sun sensitive too."
+  - speaker: patient
+    text: "I walk across campus all day at Lakeshore State, so I'll be careful."
+  - speaker: clinician
+    text: "Good. I'd also like you to go back to benzoyl peroxide, but the gentler 4 percent wash, once in the morning. It keeps bacteria from getting resistant to the antibiotic. Use white towels and you won't care about the bleaching."
+  - speaker: patient
+    text: "Ha, okay. My roommate Priya was on Accutane last year and it totally cleared her up. Should I just do that?"
+  - speaker: clinician
+    text: "That's a stronger medicine we save for severe or scarring acne. Yours isn't there, so let's see how this does first. Which pharmacy do you use?"
+  - speaker: patient
+    text: "The one on 4120 Belmont Avenue."
+  - speaker: clinician
+    text: "Okay, I'll send both there. And a callback number?"
+  - speaker: patient
+    text: "555-0118."
+  - speaker: clinician
+    text: "Perfect. It takes 8 to 12 weeks to see the full effect, so hang in there. Let's see you back in 3 months. If you get a really bad sunburn, bad stomach upset or headaches with vision changes on the doxycycline, stop it and call us."
+  - speaker: patient
+    text: "Will do. Thank you so much."
+gold:
+  facts:
+    - id: f1
+      section: subjective
+      text: Acne since age 18, much worse over the last 6 months
+      polarity: present
+      evidence: the last 6 months it's gotten so much worse
+      match: [["acne"], ["6 months", "six months", "worse"]]
+    - id: f2
+      section: subjective
+      text: Acne on face and upper back
+      polarity: present
+      evidence: It's on my face and some on my upper back.
+      match: [["back"]]
+    - id: f3
+      section: subjective
+      text: Used OTC benzoyl peroxide 10% wash for a month with minimal benefit, stopped in summer because of bleaching
+      polarity: present
+      evidence: I stopped it in the summer because it bleached all my towels
+      match: [["benzoyl"], ["stop", "discontinu", "bleach"]]
+    - id: f4
+      section: subjective
+      text: Takes norgestimate combined oral contraceptive pill daily
+      polarity: present
+      evidence: I'm on the birth control pill, the norgestimate one, once a day.
+      match: [["norgestimate", "birth control", "contracept", "ocp"]]
+    - id: f5
+      section: subjective
+      text: Takes vitamin D3 2000 units daily
+      polarity: present
+      evidence: And vitamin D3, 2000 units a day.
+      match: [["vitamin d"], ["2000", "2,000"]]
+    - id: f6
+      section: subjective
+      text: Amoxicillin allergy with hives
+      polarity: present
+      evidence: Amoxicillin. I got hives all over when I was a kid.
+      match: [["amoxicillin"], ["hives", "urticaria"]]
+    - id: f7
+      section: subjective
+      text: Menses regular on the pill
+      polarity: present
+      evidence: Yeah, pretty regular, on the pill anyway.
+      match: [["period", "menses", "menstrua", "cycle"], ["regular"]]
+    - id: f8
+      section: subjective
+      text: Denies excess facial or chest hair growth
+      polarity: absent
+      evidence: Any extra hair growth on your chin or chest?
+      match: [["hair", "hirsut"]]
+    - id: f9
+      section: subjective
+      text: Not pregnant, last menstrual period 2 weeks ago
+      polarity: absent
+      evidence: Is there any chance you could be pregnant right now?
+      match: [["pregnan"]]
+    - id: f10
+      section: subjective
+      text: Acne leaves dark spots
+      polarity: present
+      evidence: Dark spots, yeah.
+      match: [["dark spot", "hyperpigment", "dark mark"]]
+    - id: f11
+      section: objective
+      text: Open and closed comedones on forehead, cheeks and jawline
+      polarity: present
+      evidence: you've got lots of open and closed comedones
+      match: [["comedo", "blackhead", "whitehead"]]
+    - id: f12
+      section: objective
+      text: About 15 inflammatory papules and 6 pustules on the face
+      polarity: present
+      evidence: about 15 red inflamed bumps and maybe 6 pustules
+      match: [["papule", "inflam", "pustule"], ["15", "fifteen", "6 pustule", "six pustule"]]
+    - id: f13
+      section: objective
+      text: Few tender 4 mm nodules along the jawline, no large cysts
+      polarity: present
+      evidence: There are a few tender 4 millimeter nodules along the jawline
+      match: [["nodul"], ["jaw", "4 mm", "4 millimeter", "4mm"]]
+    - id: f14
+      section: objective
+      text: Flat dark brown macules on both cheeks consistent with post-inflammatory hyperpigmentation
+      polarity: present
+      evidence: that's post-inflammatory hyperpigmentation
+      match: [["hyperpigment", "dark brown", "dark spot"]]
+    - id: f15
+      section: objective
+      text: No acne scarring
+      polarity: absent
+      evidence: I don't see any scarring.
+      match: [["scar"]]
+    - id: f16
+      section: objective
+      text: About 10 scattered red papules on the upper back
+      polarity: present
+      evidence: On the upper back, scattered red papules, maybe 10 or so.
+      match: [["back"], ["papule", "10", "ten"]]
+    - id: f17
+      section: assessment
+      text: Moderate acne vulgaris of face and upper back
+      polarity: present
+      evidence: I'd call this moderate acne vulgaris
+      match: [["acne"], ["moderate"]]
+    - id: f18
+      section: assessment
+      text: Post-inflammatory hyperpigmentation
+      polarity: present
+      evidence: that's post-inflammatory hyperpigmentation
+      match: [["post-inflammatory", "postinflammatory", "post inflammatory", "pih", "hyperpigment"]]
+    - id: f19
+      section: plan
+      text: Start adapalene 0.1% gel, pea-sized amount to whole face nightly, every other night for the first 2 weeks
+      polarity: present
+      evidence: adapalene 0.1 percent gel, a pea-sized amount to your whole face at night
+      match: [["adapalene", "differin", "retinoid"]]
+    - id: f20
+      section: plan
+      text: Start doxycycline 100 mg twice daily for 3 months
+      polarity: present
+      evidence: doxycycline 100 milligrams twice a day for 3 months
+      match: [["doxycycline"], ["100"]]
+    - id: f21
+      section: plan
+      text: Take doxycycline with food and a full glass of water, stay upright 30 minutes, separate from dairy, calcium and iron by 2 hours
+      polarity: present
+      evidence: Take it with food and a full glass of water, and stay upright for 30 minutes after
+      match: [["upright", "water", "esophag", "dairy", "calcium"]]
+    - id: f22
+      section: plan
+      text: Counseled that doxycycline and adapalene are not used in pregnancy; stop both and call if pregnancy suspected
+      polarity: present
+      evidence: if you ever think you might be pregnant, stop both and call us.
+      match: [["pregnan"]]
+    - id: f23
+      section: plan
+      text: Counseled on photosensitivity; daily sunscreen SPF 30 or higher and hat
+      polarity: present
+      evidence: The other big thing with doxycycline is sun sensitivity.
+      match: [["sun", "photosensitiv", "spf"]]
+    - id: f24
+      section: plan
+      text: Restart benzoyl peroxide as gentler 4% wash once each morning to prevent antibiotic resistance
+      polarity: present
+      evidence: the gentler 4 percent wash, once in the morning
+      match: [["benzoyl"], ["4%", "4 percent", "4 %"]]
+    - id: f25
+      section: plan
+      text: Prescriptions sent to pharmacy on Belmont Avenue
+      polarity: present
+      evidence: Okay, I'll send both there.
+      match: [["pharmacy", "prescri", "e-prescri", "sent"]]
+    - id: f26
+      section: plan
+      text: Expect 8 to 12 weeks for full effect; follow-up in 3 months
+      polarity: present
+      evidence: Let's see you back in 3 months.
+      match: [["follow", "return", "back"], ["3 months", "three months", "12 weeks"]]
+    - id: f27
+      section: plan
+      text: Stop doxycycline and call for severe sunburn, significant GI upset or headache with vision changes
+      polarity: present
+      evidence: If you get a really bad sunburn, bad stomach upset or headaches with vision changes on the doxycycline, stop it and call us.
+      match: [["sunburn", "stomach", "headache", "vision"]]
+  medications:
+    - {name: benzoyl peroxide, dose: 4% wash (previously 10%), frequency: once daily in the morning, route: topical, status: changed, evidence: "the gentler 4 percent wash, once in the morning"}
+    - {name: norgestimate and ethinyl estradiol, dose: 1 tablet, frequency: once daily, route: oral, status: active, evidence: "I'm on the birth control pill, the norgestimate one, once a day."}
+    - {name: vitamin d3, dose: 2000 IU, frequency: once daily, route: oral, status: active, evidence: "And vitamin D3, 2000 units a day."}
+    - {name: adapalene, dose: 0.1% gel pea-sized amount, frequency: nightly (every other night for first 2 weeks), route: topical, status: new, evidence: "adapalene 0.1 percent gel, a pea-sized amount to your whole face at night"}
+    - {name: doxycycline, dose: 100 mg, frequency: twice daily for 3 months, route: oral, status: new, evidence: "doxycycline 100 milligrams twice a day for 3 months"}
+  allergies:
+    - {substance: amoxicillin, reaction: hives, evidence: "Amoxicillin. I got hives all over when I was a kid."}
+  diagnoses:
+    - code: L70.0
+      description: Acne vulgaris
+      primary: true
+      evidence: I'd call this moderate acne vulgaris
+    - code: L81.0
+      description: Postinflammatory hyperpigmentation
+      evidence: that's post-inflammatory hyperpigmentation
+  em_code: "99204"
+  em_rationale: Chronic illness progressing despite over-the-counter treatment (moderate problem) with prescription drug management (moderate risk), so moderate MDM for a new patient.
+  procedures: []
+  phi:
+    - {type: NAME, value: Dr. Mei-Ling Chou, who: clinician}
+    - {type: NAME, value: Adaeze Okafor, who: patient}
+    - {type: NAME, value: Adaeze, who: patient}
+    - {type: DATE, value: "February 14th, 2005", who: patient}
+    - {type: ORG, value: Lakeshore State, who: patient}
+    - {type: NAME, value: Priya, who: other}
+    - {type: ADDRESS, value: 4120 Belmont Avenue, who: other}
+    - {type: PHONE, value: 555-0118, who: patient}
+traps:
+  - type: other_person
+    text: Roommate took isotretinoin; the patient has never taken it and it was not prescribed
+    evidence: My roommate Priya was on Accutane last year
+    match: [["accutane", "isotretinoin"]]
+  - type: hypothetical
+    text: Patient asked about continuing the medicines if she became pregnant; she is not pregnant
+    evidence: if I did get pregnant, could I keep taking these?
+    match: [["is pregnant", "positive pregnancy", "pregnancy confirmed"]]
+  - type: past_resolved
+    text: Benzoyl peroxide 10% wash was stopped in the summer; not a current medication at that strength
+    evidence: I used a benzoyl peroxide wash, the 10 percent one, for about a month.
+    match: [["benzoyl"], ["10%", "10 percent", "10 %"]]

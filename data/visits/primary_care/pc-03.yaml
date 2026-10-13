@@ -1,0 +1,309 @@
+id: pc-03
+specialty: primary_care
+title: Acute bacterial maxillary sinusitis in a penicillin-allergic adult
+visit_type: established
+visit_date: "2026-10-07"
+patient:
+  name: Kenji Nakamura
+  dob: "1992-01-28"
+  sex: male
+  phone: 555-0129
+  address: 52 Alder Street, Apt 3, Portland, OR 97214
+  mrn: "6194025"
+clinician:
+  name: Dr. Aoife Brennan
+  role: family physician
+speakers:
+  clinician: {sex: female}
+  patient: {sex: male}
+dialogue:
+  - speaker: clinician
+    text: Hi there. Sorry for the wait. Can you tell me your full name and date of birth?
+  - speaker: patient
+    text: Kenji Nakamura, January 28th, 1992.
+  - speaker: clinician
+    text: Thanks, Kenji. You sound pretty stuffed up. What's going on?
+  - speaker: patient
+    text: Yeah, this cold just won't quit. It started about 10 days ago, runny nose, sore throat, the usual. I was actually getting better, and then like three days ago it got way worse.
+  - speaker: clinician
+    text: Worse how?
+  - speaker: patient
+    text: My face hurts. Right here, under my eyes, both sides. And it's like a pressure when I bend over. My upper teeth even ache. And the stuff coming out of my nose is thick and kind of green.
+  - speaker: clinician
+    text: Any fever?
+  - speaker: patient
+    text: I took it last night and it was 100.4.
+  - speaker: clinician
+    text: Okay. Any swelling or redness around your eyes, or changes in your vision?
+  - speaker: patient
+    text: No, nothing like that.
+  - speaker: clinician
+    text: Bad headache, stiff neck?
+  - speaker: patient
+    text: Headache, just the pressure kind. My neck's fine.
+  - speaker: clinician
+    text: Any cough or shortness of breath?
+  - speaker: patient
+    text: A little cough from the drip at night. Breathing's fine.
+  - speaker: clinician
+    text: What have you been taking?
+  - speaker: patient
+    text: Ibuprofen, like 400 milligrams a couple times a day. And the Afrin spray. Um, I've kind of been using that for six days now.
+  - speaker: clinician
+    text: Okay, we'll talk about the Afrin. Any allergies to medicines?
+  - speaker: patient
+    text: Penicillin. I got hives as a kid, my mom says I was covered.
+  - speaker: clinician
+    text: Good to know. Anybody sick at home?
+  - speaker: patient
+    text: My girlfriend Hana had the same cold first, but she's totally fine now. The dog's fine too, he's the only one sleeping well.
+  - speaker: clinician
+    text: Lucky dog. Okay, let me take a look. Temperature here is 99.8, blood pressure 122 over 78, pulse 84, and oxygen is 98 percent.
+  - speaker: clinician
+    text: Your ear drums look normal. The inside of your nose is swollen and red, and there's thick yellow-green drainage. When I press over your cheeks, is that tender?
+  - speaker: patient
+    text: Ow. Yes, both sides.
+  - speaker: clinician
+    text: Tender over both cheek sinuses, not over the forehead. Throat is a little red, no pus on the tonsils. A couple of small tender lymph nodes in your neck. Lungs are clear.
+  - speaker: patient
+    text: So is it a sinus infection?
+  - speaker: clinician
+    text: I think so. Most of these are viral, but because you got better and then worse again after a week, with fever and thick drainage, this looks like a bacterial sinus infection in your cheek sinuses. Since you're allergic to penicillin, I'm going to give you doxycycline, 100 milligrams twice a day for 7 days.
+  - speaker: patient
+    text: Okay.
+  - speaker: clinician
+    text: Take it with a full glass of water and stay upright for a half hour after, and use sunscreen, it makes you sunburn easily. Now, the Afrin. Please stop it. After three days it causes rebound congestion and can actually make the stuffiness worse.
+  - speaker: patient
+    text: Oh. That explains a lot.
+  - speaker: clinician
+    text: Instead, use a saline rinse twice a day, and start fluticasone nasal spray, 2 sprays in each nostril once a day. You can keep the ibuprofen, 400 milligrams up to three times a day with food.
+  - speaker: patient
+    text: Got it. Can I get a note for work? I teach at Westbrook Middle School and I missed Monday.
+  - speaker: clinician
+    text: Sure, I'll print one for Monday through today. If you're not starting to feel better in 3 days, or if you get swelling around your eye, trouble seeing, a stiff neck, or a really bad headache, call us right away or go to the emergency room.
+  - speaker: patient
+    text: Okay. Should I come back?
+  - speaker: clinician
+    text: Only if it isn't clearing up. We'll call 555-0129 if anything changes with the prescription, is that still right?
+  - speaker: patient
+    text: Yep, that's my cell.
+  - speaker: clinician
+    text: Great. Feel better, Kenji.
+gold:
+  facts:
+    - id: f1
+      section: subjective
+      text: Cold symptoms for 10 days, improved, then worsened over the past 3 days
+      polarity: present
+      evidence: It started about 10 days ago
+      match: [["10 days", "ten days", "10-day"]]
+    - id: f2
+      section: subjective
+      text: Bilateral facial pain and pressure under the eyes, worse bending over
+      polarity: present
+      evidence: My face hurts. Right here, under my eyes, both sides.
+      match: [["facial", "face", "sinus pressure", "maxillary", "cheek"]]
+    - id: f3
+      section: subjective
+      text: Upper tooth pain
+      polarity: present
+      evidence: My upper teeth even ache.
+      match: [["teeth", "tooth", "dental", "maxillary tooth"]]
+    - id: f4
+      section: subjective
+      text: Thick green nasal discharge
+      polarity: present
+      evidence: the stuff coming out of my nose is thick and kind of green
+      match: [["discharge", "drainage", "rhinorrhea", "purulent", "green", "mucus"]]
+    - id: f5
+      section: subjective
+      text: Fever 100.4 at home last night
+      polarity: present
+      evidence: I took it last night and it was 100.4.
+      match: [["100.4", "fever", "febrile"]]
+    - id: f6
+      section: subjective
+      text: Denies periorbital swelling or redness
+      polarity: absent
+      evidence: Any swelling or redness around your eyes, or changes in your vision?
+      match: [["periorbital", "around eye", "around the eye", "eye swelling", "orbital"]]
+    - id: f7
+      section: subjective
+      text: Denies vision changes
+      polarity: absent
+      evidence: Any swelling or redness around your eyes, or changes in your vision?
+      match: [["vision", "visual"]]
+    - id: f8
+      section: subjective
+      text: Denies stiff neck
+      polarity: absent
+      evidence: Bad headache, stiff neck?
+      match: [["stiff neck", "neck stiff", "nuchal", "meningism"]]
+    - id: f8b
+      section: subjective
+      text: Pressure-type headache, not severe
+      polarity: present
+      evidence: Headache, just the pressure kind.
+      match: [["headache"]]
+    - id: f9
+      section: subjective
+      text: Mild nighttime cough from postnasal drip, no shortness of breath
+      polarity: present
+      evidence: A little cough from the drip at night.
+      match: [["cough"]]
+    - id: f10
+      section: subjective
+      text: Denies shortness of breath
+      polarity: absent
+      evidence: Any cough or shortness of breath?
+      match: [["shortness of breath", "dyspnea", "sob", "breathing"]]
+    - id: f11
+      section: subjective
+      text: Using ibuprofen 400 mg a couple times daily and oxymetazoline (Afrin) nasal spray for 6 days
+      polarity: present
+      evidence: I've kind of been using that for six days now.
+      match: [["afrin", "oxymetazoline", "decongestant spray"]]
+    - id: f12
+      section: objective
+      text: Temperature 99.8
+      polarity: present
+      evidence: Temperature here is 99.8
+      match: [["99.8"]]
+    - id: f13
+      section: objective
+      text: Blood pressure 122/78, pulse 84, oxygen saturation 98 percent
+      polarity: present
+      evidence: blood pressure 122 over 78, pulse 84, and oxygen is 98 percent
+      match: [["122", "84", "98"]]
+    - id: f14
+      section: objective
+      text: Tympanic membranes normal
+      polarity: present
+      evidence: Your ear drums look normal.
+      match: [["tympanic", "eardrum", "ear drum", "ears"]]
+    - id: f15
+      section: objective
+      text: Nasal mucosa swollen and erythematous with thick yellow-green drainage
+      polarity: present
+      evidence: there's thick yellow-green drainage
+      match: [["nasal", "turbinate", "mucosa", "nose"], ["drainage", "purulent", "discharge", "swollen", "edema", "erythem"]]
+    - id: f16
+      section: objective
+      text: Bilateral maxillary sinus tenderness, no frontal tenderness
+      polarity: present
+      evidence: Tender over both cheek sinuses, not over the forehead.
+      match: [["maxillary", "cheek", "sinus tender"]]
+    - id: f17
+      section: objective
+      text: Mild pharyngeal erythema without tonsillar exudate
+      polarity: present
+      evidence: Throat is a little red, no pus on the tonsils.
+      match: [["throat", "pharyn", "oropharyn", "tonsil"]]
+    - id: f18
+      section: objective
+      text: Small tender cervical lymph nodes
+      polarity: present
+      evidence: A couple of small tender lymph nodes in your neck.
+      match: [["lymph", "adenopathy", "node"]]
+    - id: f19
+      section: objective
+      text: Lungs clear
+      polarity: present
+      evidence: Lungs are clear.
+      match: [["lung", "chest", "pulmonary"], ["clear", "cta"]]
+    - id: f20
+      section: assessment
+      text: Acute bacterial maxillary sinusitis (double worsening after viral URI)
+      polarity: present
+      evidence: this looks like a bacterial sinus infection in your cheek sinuses
+      match: [["sinusitis", "sinus infection", "rhinosinusitis"]]
+    - id: f21
+      section: assessment
+      text: Rebound congestion risk from prolonged oxymetazoline use
+      polarity: present
+      evidence: After three days it causes rebound congestion
+      match: [["rebound", "medicamentosa"]]
+    - id: f22
+      section: plan
+      text: Doxycycline 100 mg twice daily for 7 days (penicillin allergy)
+      polarity: present
+      evidence: doxycycline, 100 milligrams twice a day for 7 days
+      match: [["doxycycline", "doxy"], ["100"]]
+    - id: f23
+      section: plan
+      text: Counseled to take doxycycline with a full glass of water, stay upright, use sunscreen
+      polarity: present
+      evidence: Take it with a full glass of water and stay upright for a half hour after
+      match: [["water", "upright", "sun", "photosensitiv"]]
+    - id: f24
+      section: plan
+      text: Stop oxymetazoline (Afrin)
+      polarity: present
+      evidence: Please stop it.
+      match: [["afrin", "oxymetazoline"]]
+    - id: f25
+      section: plan
+      text: Saline nasal rinse twice daily
+      polarity: present
+      evidence: use a saline rinse twice a day
+      match: [["saline"]]
+    - id: f26
+      section: plan
+      text: Start fluticasone nasal spray 2 sprays each nostril daily
+      polarity: present
+      evidence: start fluticasone nasal spray, 2 sprays in each nostril once a day
+      match: [["fluticasone", "flonase", "nasal steroid", "intranasal steroid"]]
+    - id: f27
+      section: plan
+      text: Continue ibuprofen 400 mg up to three times daily with food
+      polarity: present
+      evidence: You can keep the ibuprofen, 400 milligrams up to three times a day with food.
+      match: [["ibuprofen", "advil", "motrin", "nsaid"]]
+    - id: f28
+      section: plan
+      text: Work note provided
+      polarity: present
+      evidence: I'll print one for Monday through today
+      match: [["work note", "note for work", "work excuse", "school note", "excuse"]]
+    - id: f29
+      section: plan
+      text: Return if not improving in 3 days or for eye swelling, vision change, stiff neck, or severe headache; follow up only if not resolving
+      polarity: present
+      evidence: If you're not starting to feel better in 3 days
+      match: [["3 days", "three days", "72 hours", "worsen", "return", "emergency"]]
+  medications:
+    - {name: doxycycline, dose: 100 mg, frequency: twice daily for 7 days, route: oral, status: new, evidence: "doxycycline, 100 milligrams twice a day for 7 days"}
+    - {name: fluticasone, dose: 2 sprays each nostril, frequency: once daily, route: intranasal, status: new, evidence: "start fluticasone nasal spray, 2 sprays in each nostril once a day"}
+    - {name: sodium chloride (saline rinse), dose: rinse, frequency: twice daily, route: intranasal, status: new, evidence: use a saline rinse twice a day}
+    - {name: oxymetazoline, dose: nasal spray, frequency: for 6 days, route: intranasal, status: stopped, evidence: Please stop it.}
+    - {name: ibuprofen, dose: 400 mg, frequency: up to three times daily with food, route: oral, status: prn, evidence: "You can keep the ibuprofen, 400 milligrams up to three times a day with food."}
+  allergies:
+    - {substance: penicillin, reaction: hives, evidence: "Penicillin. I got hives as a kid"}
+  diagnoses:
+    - code: J01.00
+      description: Acute maxillary sinusitis, unspecified
+      primary: true
+      evidence: this looks like a bacterial sinus infection in your cheek sinuses
+      alternatives: [J01.90]
+    - code: Z88.0
+      description: Allergy status to penicillin
+      evidence: Since you're allergic to penicillin
+  em_code: "99213"
+  em_rationale: One acute uncomplicated illness with prescription drug management; low problem complexity and minimal data make overall MDM low.
+  procedures: []
+  phi:
+    - {type: NAME, value: Kenji Nakamura, who: patient}
+    - {type: NAME, value: Kenji, who: patient}
+    - {type: DATE, value: "January 28th, 1992", who: patient}
+    - {type: NAME, value: Hana, who: relative}
+    - {type: ORG, value: Westbrook Middle School, who: patient}
+    - {type: PHONE, value: 555-0129, who: patient}
+traps:
+  - type: other_person
+    text: Girlfriend had the same cold first and has recovered; the dog is fine
+    evidence: My girlfriend Hana had the same cold first, but she's totally fine now.
+    match: [["girlfriend", "partner", "sick contact", "dog"]]
+  - type: hypothetical
+    text: Orbital swelling, vision change, stiff neck or severe headache mentioned only as return precautions
+    evidence: if you get swelling around your eye, trouble seeing, a stiff neck, or a really bad headache
+    match: [["orbital cellulitis", "periorbital swelling", "meningitis", "stiff neck"]]

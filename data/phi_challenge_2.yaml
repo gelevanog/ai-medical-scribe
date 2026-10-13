@@ -1,0 +1,947 @@
+# Held-out PHI challenge set 2. Fully synthetic: every name, number, address and
+# organization below is invented for testing. Text mimics Whisper transcripts.
+- id: d001
+  speaker: patient
+  text: "Everybody calls me Greta, nobody's called me Margarethe since my mother died."
+  registered:
+    name: Margarethe Olsson
+    dob: "1944-02-11"
+  phi:
+    - {type: NAME, value: "Greta"}
+    - {type: NAME, value: "Margarethe"}
+
+- id: d002
+  speaker: clinician
+  text: "And can you confirm your date of birth for me? I have February 11th, 1944, is that right?"
+  registered:
+    name: Margarethe Olsson
+    dob: "1944-02-11"
+  phi:
+    - {type: DOB, value: "February 11th, 1944"}
+
+- id: d003
+  speaker: caregiver
+  text: "I talked to Marguerite at the front desk on Monday and she said the referral went through."
+  registered:
+    name: Lorraine Batiste
+    dob: "1956-08-19"
+  phi:
+    - {type: NAME, value: "Marguerite"}
+
+- id: d004
+  speaker: clinician
+  text: "This looks like Bell's palsy, it usually gets better on its own within a few weeks, but we'll start prednisone 60 mg today."
+  phi: []
+
+- id: d005
+  speaker: patient
+  text: "Henderson covered my shift on the 9th so I could make it in today."
+  phi:
+    - {type: NAME, value: "Henderson"}
+    - {type: DATE, value: "the 9th"}
+
+- id: d006
+  speaker: patient
+  text: "We're over on Maple Crest now, right past the water tower, it's a lot quieter than the old place."
+  registered:
+    name: Curtis Mabry
+    dob: "1967-03-04"
+  phi:
+    - {type: ADDRESS, value: "Maple Crest"}
+
+- id: d007
+  speaker: caregiver
+  text: "My mom lives out in Greene County with my sister Destiny, so she's the one who does the pills."
+  phi:
+    - {type: ADDRESS, value: "Greene County"}
+    - {type: NAME, value: "Destiny"}
+
+- id: d008
+  speaker: patient
+  text: "You can call my cell, it's 608, five five five, oh one nine two, I don't really check the house phone."
+  phi:
+    - {type: PHONE, value: "608, five five five, oh one nine two"}
+
+- id: d009
+  speaker: patient
+  text: "They told me it might be Graves' disease because my eyes are bulging a little and I'm shaky all the time."
+  registered:
+    name: Rosalind Achebe
+    dob: "1972-11-02"
+  phi: []
+
+- id: d010
+  speaker: patient
+  text: "It's Cindy, well Hyacinth Okafor on the chart, and my email is h dot okafor 52 at gmail dot com, all lowercase."
+  registered:
+    name: Hyacinth Okafor
+    dob: "1952-05-27"
+  phi:
+    - {type: NAME, value: "Cindy"}
+    - {type: NAME, value: "Hyacinth Okafor"}
+    - {type: EMAIL, value: "h dot okafor 52 at gmail dot com"}
+
+- id: d011
+  speaker: caregiver
+  text: "Aunt Mena's ninety-one now and she still does her own crossword, in pen."
+  registered:
+    name: Philomena Grasso
+    dob: "1935-03-02"
+  phi:
+    - {type: NAME, value: "Mena"}
+    - {type: AGE, value: "ninety-one"}
+
+- id: d012
+  speaker: caregiver
+  text: "Grandpa's a hundred and two and he still insists on driving to Mass at St. Brigid's every Sunday."
+  phi:
+    - {type: AGE, value: "a hundred and two"}
+    - {type: ORG, value: "St. Brigid's"}
+
+- id: d013
+  speaker: patient
+  text: "I got a tick bite hiking up north and now I'm worried about Lyme, the rash looks like a bullseye."
+  phi: []
+
+- id: d014
+  speaker: patient
+  text: "hunter albrecht, A-L-B-R-E-C-H-T, and the birthday is 9/14/88."
+  registered:
+    name: Hunter Albrecht
+    dob: "1988-09-14"
+  phi:
+    - {type: NAME, value: "hunter albrecht"}
+    - {type: NAME, value: "A-L-B-R-E-C-H-T"}
+    - {type: DOB, value: "9/14/88"}
+
+- id: d015
+  speaker: patient
+  text: "My daughter Summer is picking me up, she's got the kids from Little Acorns daycare at 3."
+  registered:
+    name: Gloria Fenwick
+    dob: "1961-01-30"
+  phi:
+    - {type: NAME, value: "Summer"}
+    - {type: ORG, value: "Little Acorns daycare"}
+
+- id: d016
+  speaker: clinician
+  text: "I'm going to send this over to dr nwosu in cardiology and she should call you within the week."
+  phi:
+    - {type: NAME, value: "nwosu"}
+
+- id: d017
+  speaker: patient
+  text: "I left my inhaler in Tasha's car so I haven't had it since Saturday."
+  phi:
+    - {type: NAME, value: "Tasha"}
+
+- id: d018
+  speaker: clinician
+  text: "Your A1c is 7.8, up from 7.2 two months ago, so I want to bump the Jardiance to 25."
+  phi: []
+
+- id: d019
+  speaker: patient
+  text: "My member ID is XQH 4471 02 9, and the group number is 88 0 3 1 4."
+  registered:
+    name: Darnell Whitfield
+    dob: "1983-07-21"
+  phi:
+    - {type: ID, value: "XQH 4471 02 9"}
+    - {type: ID, value: "88 0 3 1 4"}
+
+- id: d020
+  speaker: patient
+  text: "The last time I saw a doctor was back in October, at the walk-in on Delancey Road in Kingsbury."
+  phi:
+    - {type: DATE, value: "October"}
+    - {type: ADDRESS, value: "Delancey Road"}
+    - {type: ADDRESS, value: "Kingsbury"}
+
+- id: d021
+  speaker: patient
+  text: "I had the surgery the day after Thanksgiving, so like a year ago now, and it's never been right since."
+  registered:
+    name: Vernon Kessling
+    dob: "1950-10-08"
+  phi:
+    - {type: DATE, value: "the day after Thanksgiving"}
+
+- id: d022
+  speaker: caregiver
+  text: "Major's been the one feeding the dog while I'm at the hospital, he's my brother-in-law."
+  phi:
+    - {type: NAME, value: "Major"}
+
+- id: d023
+  speaker: patient
+  text: "I will try, but the Ozempic makes me so nauseous I may just stop it."
+  registered:
+    name: Bethany Kroll
+    dob: "1979-04-16"
+  phi: []
+
+- id: d024
+  speaker: patient
+  text: "Royal and I got married young, and he passed on the 3rd of March last year, so it's just me now."
+  phi:
+    - {type: NAME, value: "Royal"}
+    - {type: DATE, value: "the 3rd of March"}
+
+- id: d025
+  speaker: patient
+  text: "My granddaughter Sky set up the portal for me, the username is sky dot b dot reyes at yahoo dot com."
+  registered:
+    name: Ofelia Reyes
+    dob: "1948-12-12"
+  phi:
+    - {type: NAME, value: "Sky"}
+    - {type: EMAIL, value: "sky dot b dot reyes at yahoo dot com"}
+
+- id: d026
+  speaker: patient
+  text: "It's José Ángel Ibarra-Montoya, with the hyphen, people always drop the second part."
+  registered:
+    name: José Ángel Ibarra-Montoya
+    dob: "1962-12-01"
+  phi:
+    - {type: NAME, value: "José Ángel Ibarra-Montoya"}
+
+- id: d027
+  speaker: clinician
+  text: "Mr. Ibarra, I see you were born December 1st, 1962, so you're due for your repeat colonoscopy."
+  registered:
+    name: José Ángel Ibarra-Montoya
+    dob: "1962-12-01"
+  phi:
+    - {type: NAME, value: "Ibarra"}
+    - {type: DOB, value: "December 1st, 1962"}
+
+- id: d028
+  speaker: clinician
+  text: "Blood pressure is 148 over 92, pulse 88, sat 96 percent on room air, temp 98.9."
+  phi: []
+
+- id: d029
+  speaker: patient
+  text: "I work at Pruitt Logistics in the warehouse, forklift mostly, so the back thing is kind of a problem."
+  phi:
+    - {type: ORG, value: "Pruitt Logistics"}
+
+- id: d030
+  speaker: patient
+  text: "The address is 1418 Westbrook Lane, apartment 3C, Millbrae 94030."
+  registered:
+    name: Imelda Sarkisian
+    dob: "1969-09-03"
+  phi:
+    - {type: ADDRESS, value: "1418 Westbrook Lane"}
+    - {type: ADDRESS, value: "apartment 3C"}
+    - {type: ADDRESS, value: "Millbrae"}
+    - {type: ADDRESS, value: "94030"}
+
+- id: d031
+  speaker: patient
+  text: "My social is 512 88 0417 if you need it for the disability form."
+  phi:
+    - {type: ID, value: "512 88 0417"}
+
+- id: d032
+  speaker: patient
+  text: "Every summer it gets worse, the hay fever, I go through a whole box of Zyrtec by July."
+  phi: []
+
+- id: d033
+  speaker: caregiver
+  text: "His license plate is 7 K L M 2 0 4, the silver Camry, in case security needs it."
+  phi:
+    - {type: ID, value: "7 K L M 2 0 4"}
+
+- id: d034
+  speaker: patient
+  text: "The pacemaker card says serial number PJN 448213 S, I keep it in my wallet."
+  phi:
+    - {type: ID, value: "PJN 448213 S"}
+
+- id: d035
+  speaker: clinician
+  text: "Okay, I'm pulling up MRN 00482-7719 now, Mrs. Castellanos, give me one second."
+  registered:
+    name: Pilar Castellanos
+    dob: "1964-06-25"
+  phi:
+    - {type: ID, value: "00482-7719"}
+    - {type: NAME, value: "Castellanos"}
+
+- id: d036
+  speaker: patient
+  text: "I bought a hunter green recliner so I can sleep sitting up, it helps with the reflux."
+  phi: []
+
+- id: d037
+  speaker: patient
+  text: "You can reach my husband Teodor at 555 0147, or the home line, area code 412, 555 0183."
+  registered:
+    name: Agnieszka Marek
+    dob: "1958-02-07"
+  phi:
+    - {type: NAME, value: "Teodor"}
+    - {type: PHONE, value: "555 0147"}
+    - {type: PHONE, value: "area code 412, 555 0183"}
+
+- id: d038
+  speaker: patient
+  text: "Oh my kids go to Brookfield Elementary and the nurse there called me twice last week about the asthma."
+  phi:
+    - {type: ORG, value: "Brookfield Elementary"}
+
+- id: d039
+  speaker: patient
+  text: "I'm Billie, well, Wilhelmina, but it's Billie, and I'm ninety-five, honey."
+  registered:
+    name: Wilhelmina Fairweather
+    dob: "1931-04-22"
+  phi:
+    - {type: NAME, value: "Billie"}
+    - {type: NAME, value: "Wilhelmina"}
+    - {type: AGE, value: "ninety-five"}
+
+- id: d040
+  speaker: patient
+  text: "Born April 22nd, 1931, at home, they didn't do hospitals back then."
+  registered:
+    name: Wilhelmina Fairweather
+    dob: "1931-04-22"
+  phi:
+    - {type: DOB, value: "April 22nd, 1931"}
+
+- id: d041
+  speaker: patient
+  text: "We moved here from Ohio in 2015 and I honestly haven't had a regular doctor since."
+  registered:
+    name: Kenneth Sobieski
+    dob: "1966-05-14"
+  phi: []
+
+- id: d042
+  speaker: patient
+  text: "I go to the Y on Fulton Street, the Fulton Street YMCA, three mornings a week for water aerobics."
+  phi:
+    - {type: ADDRESS, value: "Fulton Street"}
+    - {type: ORG, value: "Fulton Street YMCA"}
+
+- id: d043
+  speaker: caregiver
+  text: "We go to Greater Mount Zion Baptist and the pastor, Reverend Okonkwo, has been visiting her at home."
+  registered:
+    name: Hattie Lomax
+    dob: "1940-01-09"
+  phi:
+    - {type: ORG, value: "Greater Mount Zion Baptist"}
+    - {type: NAME, value: "Okonkwo"}
+
+- id: d044
+  speaker: patient
+  text: "Her name's Precious, she's my home health aide, she comes Monday Wednesday Friday."
+  phi:
+    - {type: NAME, value: "Precious"}
+
+- id: d045
+  speaker: clinician
+  text: "Alright mister szymanski, you're down for 11/4 with ophthalmology and then the 18th for the bloodwork."
+  registered:
+    name: Walter Szymanski
+    dob: "1953-08-30"
+  phi:
+    - {type: NAME, value: "szymanski"}
+    - {type: DATE, value: "11/4"}
+    - {type: DATE, value: "the 18th"}
+
+- id: d046
+  speaker: clinician
+  text: "Your PHQ-9 is 14 today and the GAD-7 is 11, so that's moderate on both."
+  phi: []
+
+- id: d047
+  speaker: patient
+  text: "I took my last dose on 6/2, no wait, 6/3, that's when we flew back."
+  phi:
+    - {type: DATE, value: "6/2"}
+    - {type: DATE, value: "6/3"}
+
+- id: d048
+  speaker: patient
+  text: "I'm on Medicaid, the number on the card is 6 6 2 0 4 1 9 8 3 B."
+  phi:
+    - {type: ID, value: "6 6 2 0 4 1 9 8 3 B"}
+
+- id: d049
+  speaker: patient
+  text: "Name is leondra fam, it's Pham with a P-H, they always get it wrong."
+  registered:
+    name: Leandra Pham
+    dob: "1979-07-08"
+  phi:
+    - {type: NAME, value: "leondra fam"}
+    - {type: NAME, value: "Pham"}
+
+- id: d050
+  speaker: patient
+  text: "My birthday's the eighth of July, '79."
+  registered:
+    name: Leandra Pham
+    dob: "1979-07-08"
+  phi:
+    - {type: DOB, value: "the eighth of July, '79"}
+
+- id: d051
+  speaker: patient
+  text: "Last Tuesday it got really bad, and two weeks ago I had to leave work early because I couldn't breathe."
+  registered:
+    name: Mitchell Arroyo
+    dob: "1975-12-19"
+  phi: []
+
+- id: d052
+  speaker: caregiver
+  text: "We live in the Willow Run apartments, unit 214, the one by the bus depot."
+  phi:
+    - {type: ADDRESS, value: "Willow Run apartments"}
+    - {type: ADDRESS, value: "unit 214"}
+
+- id: d053
+  speaker: patient
+  text: "I got hurt at work, I'm a CNA at Lakeview Manor, I was lifting a resident by myself."
+  registered:
+    name: Shonda Pettiford
+    dob: "1987-10-05"
+  phi:
+    - {type: ORG, value: "Lakeview Manor"}
+
+- id: d054
+  speaker: patient
+  text: "My wife's name is Ngozi and her number is 773 555 0129, she's my emergency contact."
+  phi:
+    - {type: NAME, value: "Ngozi"}
+    - {type: PHONE, value: "773 555 0129"}
+
+- id: d055
+  speaker: clinician
+  text: "We'll check a CBC, a CMP, TSH, and a lipid panel, and I'll add a vitamin D while we're at it."
+  phi: []
+
+- id: d056
+  speaker: patient
+  text: "Dr. Feldman-Rhodes did my knee a few years back and he said the other one would go eventually."
+  phi:
+    - {type: NAME, value: "Feldman-Rhodes"}
+
+- id: d057
+  speaker: patient
+  text: "And then Kowalczyk, my supervisor, told me I can't come back without a note from you."
+  phi:
+    - {type: NAME, value: "Kowalczyk"}
+
+- id: d058
+  speaker: patient
+  text: "I'm at 32 Old Mill Road, Box 7, in Tunbridge, Vermont."
+  registered:
+    name: Everett Lindahl
+    dob: "1946-03-28"
+  phi:
+    - {type: ADDRESS, value: "32 Old Mill Road"}
+    - {type: ADDRESS, value: "Box 7"}
+    - {type: ADDRESS, value: "Tunbridge"}
+
+- id: d059
+  speaker: clinician
+  text: "That's consistent with Cushing's, but we need the dexamethasone suppression test before we say that for sure."
+  phi: []
+
+- id: d060
+  speaker: clinician
+  text: "Okay Ms. Ferreira, before we start can you say your full name and birthday for me?"
+  registered:
+    name: Odalys Ferreira-Cruz
+    dob: "1958-03-15"
+  phi:
+    - {type: NAME, value: "Ferreira"}
+
+- id: d061
+  speaker: patient
+  text: "Odalys Ferreira Cruz, 3, 15, 1958."
+  registered:
+    name: Odalys Ferreira-Cruz
+    dob: "1958-03-15"
+  phi:
+    - {type: NAME, value: "Odalys Ferreira Cruz"}
+    - {type: DOB, value: "3, 15, 1958"}
+
+- id: d062
+  speaker: patient
+  text: "My nephew Jean-Baptiste drives me, he's at the community college, Mercer County Community College."
+  phi:
+    - {type: NAME, value: "Jean-Baptiste"}
+    - {type: ORG, value: "Mercer County Community College"}
+
+- id: d063
+  speaker: patient
+  text: "I take Eliquis 5 twice a day and Lipitor 40 at night, and the Tylenol as needed."
+  phi: []
+
+- id: d064
+  speaker: patient
+  text: "My daughter posts updates about me on a page, caringbridge dot org slash visit slash ednapoole, so the family knows."
+  phi:
+    - {type: URL, value: "caringbridge dot org slash visit slash ednapoole"}
+
+- id: d065
+  speaker: patient
+  text: "Rafferty, the guy next door, found me on the floor on the 22nd and called 911, he kept yelling Gordy, Gordy."
+  registered:
+    name: Gordon Pike
+    dob: "1949-07-11"
+  phi:
+    - {type: NAME, value: "Rafferty"}
+    - {type: DATE, value: "the 22nd"}
+    - {type: NAME, value: "Gordy"}
+
+- id: d066
+  speaker: caregiver
+  text: "She was diagnosed in March of 2021 and started the infusions that summer."
+  phi:
+    - {type: DATE, value: "March of 2021"}
+
+- id: d067
+  speaker: patient
+  text: "My pharmacy account number is 4 4 0 9 dash 7 7 1 2, it's under my maiden name, Szabo."
+  registered:
+    name: Erzsebet Halloran
+    dob: "1960-04-03"
+  phi:
+    - {type: ID, value: "4 4 0 9 dash 7 7 1 2"}
+    - {type: NAME, value: "Szabo"}
+
+- id: d068
+  speaker: patient
+  text: "The pain is like an 8 out of 10, and it shoots down to my left knee when I stand up."
+  registered:
+    name: Lamar Oduya
+    dob: "1970-02-17"
+  phi: []
+
+- id: d069
+  speaker: patient
+  text: "Teddy's fine, only my wife calls me Theodore and that's when I'm in trouble."
+  registered:
+    name: Theodore Banerjee
+    dob: "1949-10-30"
+  phi:
+    - {type: NAME, value: "Teddy"}
+    - {type: NAME, value: "Theodore"}
+
+- id: d070
+  speaker: patient
+  text: "I was born the day before Halloween, October 30th '49."
+  registered:
+    name: Theodore Banerjee
+    dob: "1949-10-30"
+  phi:
+    - {type: DOB, value: "October 30th '49"}
+
+- id: d071
+  speaker: patient
+  text: "My driver's license is D 4 1 9 - 2 2 0 - 8 7 - 3 3 1, and it says Ezekiel on it because the DMV messed up."
+  registered:
+    name: Ezequiel Moran
+    dob: "1971-03-09"
+  phi:
+    - {type: ID, value: "D 4 1 9 - 2 2 0 - 8 7 - 3 3 1"}
+    - {type: NAME, value: "Ezekiel"}
+
+- id: d072
+  speaker: clinician
+  text: "Glasgow coma scale was 15 and the NIH stroke scale was zero on arrival, so that's reassuring."
+  phi: []
+
+- id: d073
+  speaker: caregiver
+  text: "We moved in with Aunt Lupe in Hialeah, on West 49th, near the Publix."
+  phi:
+    - {type: NAME, value: "Lupe"}
+    - {type: ADDRESS, value: "Hialeah"}
+    - {type: ADDRESS, value: "West 49th"}
+
+- id: d074
+  speaker: patient
+  text: "i asked angélica at the pharmacy and she said the generic was fine."
+  phi:
+    - {type: NAME, value: "angélica"}
+
+- id: d075
+  speaker: patient
+  text: "Christian and Faith both have the same thing, it runs in the family, my mom had it too."
+  phi:
+    - {type: NAME, value: "Christian"}
+    - {type: NAME, value: "Faith"}
+
+- id: d076
+  speaker: patient
+  text: "I'm a teacher at Holy Redeemer Academy so I'm around sick kids all day."
+  registered:
+    name: Colleen Brannigan
+    dob: "1984-11-26"
+  phi:
+    - {type: ORG, value: "Holy Redeemer Academy"}
+
+- id: d077
+  speaker: patient
+  text: "My mother had Alzheimer's and my father had Hodgkin's, so I worry about everything."
+  phi: []
+
+- id: d078
+  speaker: patient
+  text: "My email's marisol underscore v 1987 at hotmail dot com."
+  phi:
+    - {type: EMAIL, value: "marisol underscore v 1987 at hotmail dot com"}
+
+- id: d079
+  speaker: patient
+  text: "It's jtrask@ridgeline-ag.com, that's my work one, I check it more."
+  phi:
+    - {type: EMAIL, value: "jtrask@ridgeline-ag.com"}
+
+- id: d080
+  speaker: patient
+  text: "Phone is 9 1 9, 5 5 5, 0 1 3 8, and my birthday is June 19, '66 if you need that too."
+  registered:
+    name: Marcus Tillman
+    dob: "1966-06-19"
+  phi:
+    - {type: PHONE, value: "9 1 9, 5 5 5, 0 1 3 8"}
+    - {type: DOB, value: "June 19, '66"}
+
+- id: d081
+  speaker: caregiver
+  text: "She may be confused at night but by morning she will be fine, it's like that every day."
+  phi: []
+
+- id: d082
+  speaker: patient
+  text: "This is Bev Lindqvist, call me at (503) 555-0164 after 5, I'm at work before then."
+  registered:
+    name: Beverly Lindquist
+    dob: "1963-09-12"
+  phi:
+    - {type: NAME, value: "Bev Lindqvist"}
+    - {type: PHONE, value: "(503) 555-0164"}
+
+- id: d083
+  speaker: patient
+  text: "Mrs. Aughterberg, yes, that's me, it's a mouthful."
+  registered:
+    name: Dolores Achterberg
+    dob: "1935-01-17"
+  phi:
+    - {type: NAME, value: "Aughterberg"}
+
+- id: d084
+  speaker: caregiver
+  text: "Mom's ninety, and honestly she's sharper than me most days."
+  phi:
+    - {type: AGE, value: "ninety"}
+
+- id: d085
+  speaker: patient
+  text: "It's under Gus Lemaire, the member number is W 7 7 3 0 0 4 1 8 2, group 0 0 9 1 7 4 A."
+  registered:
+    name: Augustin Lemaire
+    dob: "1955-08-02"
+  phi:
+    - {type: NAME, value: "Gus Lemaire"}
+    - {type: ID, value: "W 7 7 3 0 0 4 1 8 2"}
+    - {type: ID, value: "0 0 9 1 7 4 A"}
+
+- id: d086
+  speaker: patient
+  text: "I had COVID back in 2022 and ever since I've had this cough that won't quit."
+  registered:
+    name: Delphine Rourke
+    dob: "1968-01-23"
+  phi: []
+
+- id: d087
+  speaker: patient
+  text: "Corinne from my church brings me dinners, we go to Calvary Chapel on Hartwell."
+  phi:
+    - {type: NAME, value: "Corinne"}
+    - {type: ORG, value: "Calvary Chapel"}
+    - {type: ADDRESS, value: "Hartwell"}
+
+- id: d088
+  speaker: patient
+  text: "The ER visit was June 14th, I think, the Saturday of the fair."
+  registered:
+    name: Wade Hollister
+    dob: "1959-05-31"
+  phi:
+    - {type: DATE, value: "June 14th"}
+
+- id: d089
+  speaker: patient
+  text: "I'm due on the 2nd of December, my OB is doctor Abernathy-Kim."
+  phi:
+    - {type: DATE, value: "the 2nd of December"}
+    - {type: NAME, value: "Abernathy-Kim"}
+
+- id: d090
+  speaker: clinician
+  text: "Let's do a Holter monitor for 48 hours and a Doppler of the carotids, and I'll see you after."
+  phi: []
+
+- id: d091
+  speaker: patient
+  text: "my roommate Inès found the pills, she's a nurse at Westside Dialysis."
+  phi:
+    - {type: NAME, value: "Inès"}
+    - {type: ORG, value: "Westside Dialysis"}
+
+- id: d092
+  speaker: patient
+  text: "We're in Apt 12B, 600 Larchmont, Elmhurst, the ZIP is 6 0 1 2 6."
+  registered:
+    name: Rajesh Kulkarni
+    dob: "1977-06-06"
+  phi:
+    - {type: ADDRESS, value: "Apt 12B"}
+    - {type: ADDRESS, value: "600 Larchmont"}
+    - {type: ADDRESS, value: "Elmhurst"}
+    - {type: ADDRESS, value: "6 0 1 2 6"}
+
+- id: d093
+  speaker: patient
+  text: "Ifeoma, I-F-E-O-M-A, and yeah my birthday is easy, Cinco de Mayo, 1990."
+  registered:
+    name: Ifeoma Chukwu-Adeyemi
+    dob: "1990-05-05"
+  phi:
+    - {type: NAME, value: "Ifeoma"}
+    - {type: NAME, value: "I-F-E-O-M-A"}
+    - {type: DOB, value: "Cinco de Mayo, 1990"}
+
+- id: d094
+  speaker: clinician
+  text: "Dr. Haugen asked me to follow up with you about the biopsy from the 17th."
+  phi:
+    - {type: NAME, value: "Haugen"}
+    - {type: DATE, value: "the 17th"}
+
+- id: d095
+  speaker: patient
+  text: "I was taking the Advil every 6 hours, like 800 milligrams, for about 3 days."
+  registered:
+    name: Trevor Mancuso
+    dob: "1991-03-13"
+  phi: []
+
+- id: d096
+  speaker: patient
+  text: "I've been off work since 8/21, Sorensen said I can use FMLA, it should be under Priya Venkat in the HR system."
+  registered:
+    name: Priyanka Venkataraman
+    dob: "1986-12-04"
+  phi:
+    - {type: DATE, value: "8/21"}
+    - {type: NAME, value: "Sorensen"}
+    - {type: NAME, value: "Priya Venkat"}
+
+- id: d097
+  speaker: caregiver
+  text: "His tablet's on the account under 0 0 3 4 8 8 1 9, the one with the pendant."
+  phi:
+    - {type: ID, value: "0 0 3 4 8 8 1 9"}
+
+- id: d098
+  speaker: patient
+  text: "It's on the back of my CPAP, serial S N 2 3 1 1 4 9 0 7 7 C."
+  phi:
+    - {type: ID, value: "S N 2 3 1 1 4 9 0 7 7 C"}
+
+- id: d099
+  speaker: clinician
+  text: "I'd recommend physical therapy twice a week for 6 weeks, then we'll reassess in a month."
+  phi: []
+
+- id: d100
+  speaker: patient
+  text: "Willa Mae, but the girls at the senior center call me Mama T."
+  registered:
+    name: Willa Mae Thibodeaux
+    dob: "1930-08-09"
+  phi:
+    - {type: NAME, value: "Willa Mae"}
+    - {type: NAME, value: "Mama T"}
+
+- id: d101
+  speaker: patient
+  text: "I'm ninety-six, God willing I'll see ninety-seven."
+  registered:
+    name: Willa Mae Thibodeaux
+    dob: "1930-08-09"
+  phi:
+    - {type: AGE, value: "ninety-six"}
+    - {type: AGE, value: "ninety-seven"}
+
+- id: d102
+  speaker: patient
+  text: "I'm in the Knights of Columbus and the Elks, so I'm out most nights, that's probably why I'm tired."
+  phi:
+    - {type: ORG, value: "Knights of Columbus"}
+    - {type: ORG, value: "Elks"}
+
+- id: d103
+  speaker: patient
+  text: "The address on file is old, we're at 77 Bramble Court now, Fairview Heights."
+  registered:
+    name: Nadine Okeke
+    dob: "1973-10-29"
+  phi:
+    - {type: ADDRESS, value: "77 Bramble Court"}
+    - {type: ADDRESS, value: "Fairview Heights"}
+
+- id: d104
+  speaker: patient
+  text: "It's like Raynaud's, my fingers go white when I grab stuff out of the freezer."
+  phi: []
+
+- id: d105
+  speaker: patient
+  text: "i'm sorry, my wife Gwendolyn does all of that, she has the policy number, it's like P L 0 0 4 4 9 1 7 something."
+  phi:
+    - {type: NAME, value: "Gwendolyn"}
+    - {type: ID, value: "P L 0 0 4 4 9 1 7"}
+
+- id: d106
+  speaker: caregiver
+  text: "I'm Zoë, her daughter-in-law, and my husband Abdirahman is parking the car."
+  phi:
+    - {type: NAME, value: "Zoë"}
+    - {type: NAME, value: "Abdirahman"}
+
+- id: d107
+  speaker: patient
+  text: "Dr. O'Sullivan told me to stop the metformin until after the scan on the 30th."
+  phi:
+    - {type: NAME, value: "O'Sullivan"}
+    - {type: DATE, value: "the 30th"}
+
+- id: d108
+  speaker: patient
+  text: "I clean offices for Brightway Janitorial, nights, so I sleep during the day."
+  registered:
+    name: Yesenia Duarte
+    dob: "1982-02-14"
+  phi:
+    - {type: ORG, value: "Brightway Janitorial"}
+
+- id: d109
+  speaker: patient
+  text: "My grandkids are visiting from Texas next week so I want to be off the antibiotics by then."
+  registered:
+    name: Harold Ebersole
+    dob: "1947-07-27"
+  phi: []
+
+- id: d110
+  speaker: patient
+  text: "My son goes to Jefferson High, he's on the wrestling team, that's how he got the ringworm thing."
+  phi:
+    - {type: ORG, value: "Jefferson High"}
+
+- id: d111
+  speaker: patient
+  text: "Ron Gutierrez, no accent on the computer probably, 11 23 57."
+  registered:
+    name: Ronald Gutiérrez
+    dob: "1957-11-23"
+  phi:
+    - {type: NAME, value: "Ron Gutierrez"}
+    - {type: DOB, value: "11 23 57"}
+
+- id: d112
+  speaker: patient
+  text: "Took the bus from Cedar Rapids, I live up off Edgewood, near the Hy-Vee."
+  registered:
+    name: Lyle Brandvold
+    dob: "1952-09-18"
+  phi:
+    - {type: ADDRESS, value: "Cedar Rapids"}
+    - {type: ADDRESS, value: "Edgewood"}
+
+- id: d113
+  speaker: clinician
+  text: "Her Apgars were 8 and 9, birth weight 7 pounds 4 ounces, and the bilirubin is 11.2 at 36 hours."
+  phi: []
+
+- id: d114
+  speaker: patient
+  text: "My caseworker Ms. Delacroix-Benoit has all my paperwork, her email is ldelacroix at harlancountyhs dot org."
+  phi:
+    - {type: NAME, value: "Delacroix-Benoit"}
+    - {type: EMAIL, value: "ldelacroix at harlancountyhs dot org"}
+
+- id: d115
+  speaker: patient
+  text: "My dad is Bartholomew, he's the one with the Parkinson's, he's ninety-three."
+  registered:
+    name: Gail Fitzhugh
+    dob: "1962-04-10"
+  phi:
+    - {type: NAME, value: "Bartholomew"}
+    - {type: AGE, value: "ninety-three"}
+
+- id: d116
+  speaker: clinician
+  text: "Ms. Reyes-Whitlock, your results from the 5th came back and I'd like to go over them."
+  registered:
+    name: Annalise Reyes-Whitlock
+    dob: "1980-06-01"
+  phi:
+    - {type: NAME, value: "Reyes-Whitlock"}
+    - {type: DATE, value: "the 5th"}
+
+- id: d117
+  speaker: patient
+  text: "it was the week of the 4th of July, we were at the lake house in Door County when it started."
+  phi:
+    - {type: DATE, value: "the 4th of July"}
+    - {type: ADDRESS, value: "Door County"}
+
+- id: d118
+  speaker: patient
+  text: "My account at the hospital billing is 2 2 7 4 1 0 0 5 6, they keep sending it to collections."
+  registered:
+    name: Cedric Amoah
+    dob: "1974-08-15"
+  phi:
+    - {type: ID, value: "2 2 7 4 1 0 0 5 6"}
+
+- id: d119
+  speaker: patient
+  text: "katrina hritsenko, sorry my accent, it's Kateryna."
+  registered:
+    name: Kateryna Hrytsenko
+    dob: "1983-02-28"
+  phi:
+    - {type: NAME, value: "katrina hritsenko"}
+    - {type: NAME, value: "Kateryna"}
+
+- id: d120
+  speaker: patient
+  text: "Birthday, 2-28-83."
+  registered:
+    name: Kateryna Hrytsenko
+    dob: "1983-02-28"
+  phi:
+    - {type: DOB, value: "2-28-83"}

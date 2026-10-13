@@ -24,6 +24,8 @@ _DIGITS = re.compile(r"\d(?:[\s().,-]{0,3}\d)+")
 @dataclass
 class EgressReport:
     hits: Counter[str] = field(default_factory=Counter)
+    found: set[str] = field(default_factory=set, repr=False)
+    """The matched surface forms, for masking the residue in-process. Never logged or returned to a client."""
 
     @property
     def clean(self) -> bool:
@@ -93,18 +95,23 @@ class EgressGuard:
             text = message["content"]
             lower = text.lower()
             for value, kind in self.texts:
-                if re.search(rf"(?<![a-z0-9]){re.escape(value)}(?![a-z0-9])", lower):
+                if m := re.search(rf"(?<![a-z0-9]){re.escape(value)}(?![a-z0-9])", lower):
                     report.hits[kind] += 1
+                    report.found.add(text[m.start() : m.end()])
             for value, kind in self.cased:
                 if re.search(rf"(?<![A-Za-z0-9]){re.escape(value)}(?![A-Za-z0-9])", text):
                     report.hits[kind] += 1
-            runs = [re.sub(r"\D", "", m.group(0)) for m in _DIGITS.finditer(text)]
+                    report.found.add(value)
+            runs = [(re.sub(r"\D", "", m.group(0)), m.group(0)) for m in _DIGITS.finditer(text)]
             for digits, kind in self.digits:
-                if any(digits in run for run in runs):
-                    report.hits[kind] += 1
+                for run, surface in runs:
+                    if digits in run:
+                        report.hits[kind] += 1
+                        report.found.add(surface)
             for word in set(_WORD.findall(lower)) - self._common:
                 if any(word != token and _close(word, token) for token in self.name_tokens):
                     report.hits["NAME_FUZZY"] += 1
+                    report.found.update(m.group(0) for m in re.finditer(rf"\b{re.escape(word)}\b", text, re.I))
         return report
 
     def check(self, messages: Sequence[Message]) -> None:

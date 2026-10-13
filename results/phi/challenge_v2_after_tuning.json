@@ -1,0 +1,90 @@
+{
+ "items": 100,
+ "gold_values": 148,
+ "covered": 143,
+ "recall": 0.9662,
+ "by_type": {
+  "ADDRESS": {
+   "total": 24,
+   "covered": 23
+  },
+  "AGE": {
+   "total": 5,
+   "covered": 5
+  },
+  "DATE": {
+   "total": 12,
+   "covered": 12
+  },
+  "DOB": {
+   "total": 10,
+   "covered": 9
+  },
+  "EMAIL": {
+   "total": 3,
+   "covered": 3
+  },
+  "ID": {
+   "total": 10,
+   "covered": 10
+  },
+  "NAME": {
+   "total": 63,
+   "covered": 61
+  },
+  "ORG": {
+   "total": 13,
+   "covered": 12
+  },
+  "PHONE": {
+   "total": 6,
+   "covered": 6
+  },
+  "URL": {
+   "total": 2,
+   "covered": 2
+  }
+ },
+ "negative_items": 20,
+ "negative_items_untouched": 19,
+ "masked_words": 430,
+ "masked_words_not_in_gold_phi": 3,
+ "misses": [
+  {
+   "id": "c038",
+   "type": "NAME",
+   "value": "willa",
+   "masked": "it's willa, willa [PATIENT], [NAME_1]."
+  },
+  {
+   "id": "c038",
+   "type": "NAME",
+   "value": "willa oduya",
+   "masked": "it's willa, willa [PATIENT], [NAME_1]."
+  },
+  {
+   "id": "c043",
+   "type": "DOB",
+   "value": "Ten ten eighty-eight",
+   "masked": "Ten ten eighty-eight."
+  },
+  {
+   "id": "c060",
+   "type": "ADDRESS",
+   "value": "1200 Euclid Avenue, number 1407",
+   "masked": "My apartment is [ADDRESS_1], number 1407, [NAME_1], Ohio, [ADDRESS_2]."
+  },
+  {
+   "id": "c074",
+   "type": "ORG",
+   "value": "Shiloh Baptist",
+   "masked": "Her birthday is [DOB], and she gets meals through [NAME_1] Baptist."
+  }
+ ],
+ "over_masked_negatives": [
+  {
+   "id": "c097",
+   "masked": "The Apgar scores were 8 and 9, weight 7 pounds 4 ounces, and the [NAME_1] test was negative."
+  }
+ ]
+}

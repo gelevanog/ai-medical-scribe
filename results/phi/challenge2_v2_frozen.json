@@ -1,0 +1,279 @@
+{
+ "items": 120,
+ "gold_values": 169,
+ "covered": 134,
+ "recall": 0.7929,
+ "by_type": {
+  "ADDRESS": {
+   "total": 26,
+   "covered": 21
+  },
+  "AGE": {
+   "total": 7,
+   "covered": 7
+  },
+  "DATE": {
+   "total": 17,
+   "covered": 14
+  },
+  "DOB": {
+   "total": 11,
+   "covered": 6
+  },
+  "EMAIL": {
+   "total": 5,
+   "covered": 5
+  },
+  "ID": {
+   "total": 15,
+   "covered": 10
+  },
+  "NAME": {
+   "total": 66,
+   "covered": 56
+  },
+  "ORG": {
+   "total": 15,
+   "covered": 11
+  },
+  "PHONE": {
+   "total": 6,
+   "covered": 3
+  },
+  "URL": {
+   "total": 1,
+   "covered": 1
+  }
+ },
+ "negative_items": 25,
+ "negative_items_untouched": 22,
+ "masked_words": 395,
+ "masked_words_not_in_gold_phi": 11,
+ "misses": [
+  {
+   "id": "d005",
+   "type": "NAME",
+   "value": "Henderson",
+   "masked": "Henderson covered my shift on [DATE_1] so I could make it in today."
+  },
+  {
+   "id": "d008",
+   "type": "PHONE",
+   "value": "608, five five five, oh one nine two",
+   "masked": "You can call my cell, it's 608, five five five, oh one nine two, I don't really check the house phone."
+  },
+  {
+   "id": "d015",
+   "type": "ORG",
+   "value": "Little Acorns daycare",
+   "masked": "My daughter [NAME_1] is picking me up, she's got the kids from [ORG_1] daycare at 3."
+  },
+  {
+   "id": "d021",
+   "type": "DATE",
+   "value": "the day after Thanksgiving",
+   "masked": "I had the surgery the day after [DATE_1], so like a year ago now, and it's never been right since."
+  },
+  {
+   "id": "d024",
+   "type": "NAME",
+   "value": "Royal",
+   "masked": "Royal and I got married young, and he passed on [DATE_1] last year, so it's just me now."
+  },
+  {
+   "id": "d031",
+   "type": "ID",
+   "value": "512 88 0417",
+   "masked": "My social is 512 88 0417 if you need it for the disability form."
+  },
+  {
+   "id": "d037",
+   "type": "PHONE",
+   "value": "555 0147",
+   "masked": "You can reach my husband [NAME_1] at 555 0147, or the home line, area code 412, 555 0183."
+  },
+  {
+   "id": "d037",
+   "type": "PHONE",
+   "value": "area code 412, 555 0183",
+   "masked": "You can reach my husband [NAME_1] at 555 0147, or the home line, area code 412, 555 0183."
+  },
+  {
+   "id": "d042",
+   "type": "ADDRESS",
+   "value": "Fulton Street",
+   "masked": "I go to the Y on [ADDRESS_1], the [NAME_1] Street YMCA, three mornings a week for water aerobics."
+  },
+  {
+   "id": "d042",
+   "type": "ORG",
+   "value": "Fulton Street YMCA",
+   "masked": "I go to the Y on [ADDRESS_1], the [NAME_1] Street YMCA, three mornings a week for water aerobics."
+  },
+  {
+   "id": "d043",
+   "type": "ORG",
+   "value": "Greater Mount Zion Baptist",
+   "masked": "We go to [ORG_1] Baptist and the pastor, [ORG_2], has been visiting her at home."
+  },
+  {
+   "id": "d045",
+   "type": "DATE",
+   "value": "11/4",
+   "masked": "Alright mister [PATIENT], you're down for 11/4 with ophthalmology and then [DATE_1] for the bloodwork."
+  },
+  {
+   "id": "d047",
+   "type": "DATE",
+   "value": "6/3",
+   "masked": "I took my last dose on [DATE_1], no wait, 6/3, that's when we flew back."
+  },
+  {
+   "id": "d048",
+   "type": "ID",
+   "value": "6 6 2 0 4 1 9 8 3 B",
+   "masked": "I'm on Medicaid, the number on the card is [PHONE_1] B."
+  },
+  {
+   "id": "d049",
+   "type": "NAME",
+   "value": "leondra fam",
+   "masked": "Name is [NAME_1] fam, it's [PATIENT] with a P-H, they always get it wrong."
+  },
+  {
+   "id": "d050",
+   "type": "DOB",
+   "value": "the eighth of July, '79",
+   "masked": "My birthday's [DATE_1], '79."
+  },
+  {
+   "id": "d052",
+   "type": "ADDRESS",
+   "value": "Willow Run apartments",
+   "masked": "We live in the Willow Run apartments, [ADDRESS_1], the one by the bus depot."
+  },
+  {
+   "id": "d058",
+   "type": "ADDRESS",
+   "value": "Box 7",
+   "masked": "I'm at [ADDRESS_1] 7, in [NAME_1], Vermont."
+  },
+  {
+   "id": "d061",
+   "type": "DOB",
+   "value": "3, 15, 1958",
+   "masked": "[PATIENT] [ORG_1], 3, 15, 1958."
+  },
+  {
+   "id": "d065",
+   "type": "NAME",
+   "value": "Rafferty",
+   "masked": "Rafferty, the guy next door, found me on the floor on [DATE_1] and called 911, he kept yelling [NAME_1], [NAME_1]."
+  },
+  {
+   "id": "d069",
+   "type": "NAME",
+   "value": "Teddy",
+   "masked": "Teddy's fine, only my wife calls me [PATIENT] and that's when I'm in trouble."
+  },
+  {
+   "id": "d071",
+   "type": "ID",
+   "value": "D 4 1 9 - 2 2 0 - 8 7 - 3 3 1",
+   "masked": "My driver's license is D 4 1 9 - 2 2 0 - 8 7 - 3 3 1, and it says [PATIENT] on it because the DMV messed up."
+  },
+  {
+   "id": "d073",
+   "type": "ADDRESS",
+   "value": "West 49th",
+   "masked": "We moved in with [ORG_1] in [ADDRESS_1], on West 49th, near the Publix."
+  },
+  {
+   "id": "d074",
+   "type": "NAME",
+   "value": "ang\u00e9lica",
+   "masked": "i asked ang\u00e9lica at the pharmacy and she said the generic was fine."
+  },
+  {
+   "id": "d075",
+   "type": "NAME",
+   "value": "Christian",
+   "masked": "Christian and Faith both have the same thing, it runs in the family, my mom had it too."
+  },
+  {
+   "id": "d075",
+   "type": "NAME",
+   "value": "Faith",
+   "masked": "Christian and Faith both have the same thing, it runs in the family, my mom had it too."
+  },
+  {
+   "id": "d085",
+   "type": "ID",
+   "value": "0 0 9 1 7 4 A",
+   "masked": "It's under [ORG_1], the member number is [ID_1], group 0 0 9 1 7 4 A."
+  },
+  {
+   "id": "d092",
+   "type": "ADDRESS",
+   "value": "600 Larchmont",
+   "masked": "We're in [ADDRESS_1], 600 [NAME_1], [NAME_2], the ZIP is [ADDRESS_2]."
+  },
+  {
+   "id": "d093",
+   "type": "DOB",
+   "value": "Cinco de Mayo, 1990",
+   "masked": "[PATIENT], [NAME_1], and yeah my birthday is easy, [NAME_2] de Mayo, 1990."
+  },
+  {
+   "id": "d100",
+   "type": "NAME",
+   "value": "Mama T",
+   "masked": "[PATIENT], but the girls at the senior center call me [NAME_1] T."
+  },
+  {
+   "id": "d102",
+   "type": "ORG",
+   "value": "Elks",
+   "masked": "I'm in the [ORG_1] and the Elks, so I'm out most nights, that's probably why I'm tired."
+  },
+  {
+   "id": "d105",
+   "type": "ID",
+   "value": "P L 0 0 4 4 9 1 7",
+   "masked": "i'm sorry, my wife [NAME_1] does all of that, she has the policy number, it's like P L [PHONE_1] something."
+  },
+  {
+   "id": "d111",
+   "type": "DOB",
+   "value": "11 23 57",
+   "masked": "[PATIENT], no accent on the computer probably, 11 23 57."
+  },
+  {
+   "id": "d119",
+   "type": "NAME",
+   "value": "katrina hritsenko",
+   "masked": "katrina hritsenko, sorry my accent, it's [PATIENT]."
+  },
+  {
+   "id": "d120",
+   "type": "DOB",
+   "value": "2-28-83",
+   "masked": "Birthday, 2-28-83."
+  }
+ ],
+ "over_masked_negatives": [
+  {
+   "id": "d032",
+   "masked": "Every summer it gets worse, the hay fever, I go through a whole box of Zyrtec by [DATE_1]."
+  },
+  {
+   "id": "d090",
+   "masked": "Let's do a Holter monitor for 48 hours and a [NAME_1] of the carotids, and I'll see you after."
+  },
+  {
+   "id": "d113",
+   "masked": "Her [NAME_1] were 8 and 9, birth weight 7 pounds 4 ounces, and the bilirubin is 11.2 at 36 hours."
+  }
+ ],
+ "note": "Detector v2 (commit after challenge set 1), frozen before this second held-out set was written; first and only run of v2 on it (2026-10-13)."
+}

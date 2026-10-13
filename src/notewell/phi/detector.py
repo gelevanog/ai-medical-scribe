@@ -99,9 +99,13 @@ NEVER_NAMES = frozenset(
     vivitrol suboxone naltrexone antabuse campral chantix nicorette nicoderm pap mri ct ekg ecg echo a1c ldl hdl tsh
     bmi phq gad audit emr ehr er ed icu ob gyn ent pt ot ups fedex amazon google facebook instagram tiktok youtube
     netflix zoom bluetooth wifi walgreens cvs rite aid walmart target costco kroger publix safeway english spanish
-    american african asian hispanic latino latina european christian muslim jewish catholic baptist""".split()
+    american african asian hispanic latino latina european christian muslim jewish catholic baptist mondays tuesdays
+    wednesdays thursdays fridays saturdays sundays weekends honestly actually basically anyway okay alright""".split()
 )
 
+U = "A-ZÀ-ÖØ-Þ"
+"""Uppercase letters for name patterns (Latin-1 accents included: "Andrés", "Élodie")."""
+L = "a-zA-ZÀ-ÖØ-öø-ÿ"
 _WORD_RE = re.compile(r"[^\W\d_][\w'\-]*")
 
 
@@ -144,6 +148,12 @@ _TITLE_WORDS = {"dr", "doctor", "mr", "mrs", "ms", "miss", "mx", "nurse", "profe
 def _load(name: str) -> frozenset[str]:
     text = resources.files("notewell.phi").joinpath("data", name).read_text(encoding="utf-8")
     return frozenset(line.strip() for line in text.splitlines() if line.strip() and not line.startswith("#"))
+
+
+@lru_cache(maxsize=1)
+@lru_cache(maxsize=1)
+def places() -> frozenset[str]:
+    return _load("us_places_census2020.txt")
 
 
 @lru_cache(maxsize=1)
@@ -254,7 +264,15 @@ _PATTERNS: list[tuple[PHIType, str, re.Pattern[str], int]] = [
         ),
         7,
     ),
-    ("DATE", "date_day_only", re.compile(r"\b(?:on|by|until|till|before|after|since) (the \d{1,2}(?:st|nd|rd|th))\b"), 6),
+    (
+        "DATE",
+        "date_day_only",
+        re.compile(
+            r"\b[Tt]he \d{1,2}(?:st|nd|rd|th)\b(?! (?:time|times|floor|grade|visit|dose|day|week|month|year|percentile|"
+            r"one|of the|birthday|try|round|cycle|session|trimester|pregnancy|child|kid|baby))"
+        ),
+        6,
+    ),
     ("DATE", "month_alone", re.compile(rf"(?<=[a-z,] )(?:{_MONTH_NAMES})\b(?! I\b)"), 4),
     ("DATE", "date_month_year", re.compile(rf"\b{_MONTH_RE}\s+(?:of\s+)?(?:19|20)\d{{2}}\b"), 6),
     ("DATE", "date_numeric", re.compile(r"\b\d{1,2}/\d{1,2}/(?:\d{4}|\d{2})\b"), 7),
@@ -284,9 +302,9 @@ _PATTERNS: list[tuple[PHIType, str, re.Pattern[str], int]] = [
         "ADDRESS",
         "street",
         re.compile(
-            rf"\b\d{{1,6}}(?:\s+(?:[NSEW]\.?|North|South|East|West))?(?:\s+[A-ZÀ-ÖØ-Þ][a-zA-ZÀ-ÖØ-öø-ÿ'-]+){{1,4}}\s+{STREET_SUFFIX}\b\.?"
+            rf"\b\d{{1,6}}(?:\s+(?:[NSEW]\.?|North|South|East|West))?(?:\s+[{U}][{L}'-]+){{1,4}}\s+{STREET_SUFFIX}\b"
             rf"(?:,?\s+(?:Apartment|Apt\.?|Unit|Suite|#)\s*[\dA-Z]+)?"
-            rf"(?:,?\s+[A-ZÀ-ÖØ-Þ][a-zA-ZÀ-ÖØ-öø-ÿ'-]+(?:\s+[A-ZÀ-ÖØ-Þ][a-zA-ZÀ-ÖØ-öø-ÿ'-]+)?(?:,?\s+(?:[A-Z]{{2}}|[A-Z][a-z]+))?"
+            rf"(?:,\s+[{U}][{L}'-]+(?:\s+[{U}][{L}'-]+)?(?:,?\s+(?:[A-Z]{{2}}|[A-Z][a-z]+))?"
             rf"(?:,?\s+\d{{5}}(?:-\d{{4}})?)?)?"
         ),
         8,
@@ -328,28 +346,43 @@ class PHIDetector:
         self.first, self.surnames, self.ambiguous, self.english, self.clinical = lexicons()
 
     # ------------------------------------------------------------------------------------------------- public
-    def detect(self, text: str, registered: Registered | None = None, known_names: Iterable[str] = ()) -> list[Span]:
+    def detect(
+        self,
+        text: str,
+        registered: Registered | None = None,
+        known_names: Iterable[str] = (),
+        known_ages: Iterable[str] = (),
+    ) -> list[Span]:
         reg = registered or Registered()
         spans: list[Span] = []
+        for age in known_ages:  # an age over 89 said once is masked wherever the number recurs ("At 91, ...")
+            for m in re.finditer(rf"\b{re.escape(age)}\b(?!\s*(?:mg|milligrams?|percent|%|pounds|beats|over|degrees))", text):
+                spans.append(Span(m.start(), m.end(), "AGE", m.group(0), "propagated", "patient", 6))
         spans += self._registered(text, reg)
         spans += self._patterns(text, reg)
         spans += self._names(text, reg, known_names)
         spans += self._orgs(text)
+        spans += self._spoken_emails(text)
+        spans += self._places(text)
+        spans += self._capitalized_runs(text)
         return _join_adjacent_names(text, resolve(spans))
 
     def detect_many(self, texts: Sequence[str], registered: Registered | None = None) -> list[list[Span]]:
         """Detect over all turns of a visit, then propagate every name found to every turn."""
         first_pass = [self.detect(t, registered) for t in texts]
         names: set[str] = set()
+        ages: set[str] = set()
         for spans in first_pass:
             for s in spans:
                 if s.type == "NAME":
                     names.update(
                         w for w in _WORD_RE.findall(s.text) if len(w) >= 3 and w.lower() not in _TITLE_WORDS
                     )
-        if not names:
+                if s.type == "AGE":
+                    ages.update(re.findall(r"\d{2,3}", s.text))
+        if not names and not ages:
             return first_pass
-        return [self.detect(t, registered, known_names=names) for t in texts]
+        return [self.detect(t, registered, known_names=names, known_ages=ages) for t in texts]
 
     # ------------------------------------------------------------------------------------------------- layers
     def _registered(self, text: str, reg: Registered) -> list[Span]:
@@ -392,6 +425,10 @@ class PHIDetector:
                 spans.append(Span(m.start(), m.end(), "EMAIL", m.group(0), "registered", "patient", 10))
         for address in reg.addresses:
             street = address.split(",")[0].strip()
+            house = re.match(r"(\d+)\s+(?:[NSEW]\.?\s+)?([^\W\d_][\w'-]*)", street)
+            if house:  # "4410 Euclid" for "4410 Euclid Avenue"
+                for m in re.finditer(rf"\b{house.group(1)}\s+{re.escape(house.group(2))}\b", text, re.IGNORECASE):
+                    spans.append(Span(m.start(), m.end(), "ADDRESS", m.group(0), "registered", "patient", 9))
             for part in {address, street}:
                 if len(part) >= 6:
                     for m in re.finditer(re.escape(part), text, re.IGNORECASE):
@@ -457,7 +494,7 @@ class PHIDetector:
                 continue
             if not word[0].isupper() or lw in NEVER_NAMES or lw in self.clinical or len(lw) < 2:
                 continue
-            if core.isupper() and len(core) <= 5:  # acronyms: MRN, ECG, PHQ
+            if core.isupper() and len(core) >= 2:  # acronyms and shouting: MRN, ECG, QUIT NOW
                 continue
             at_start = m.start() in sentence_starts
             nxt = tokens[i + 1] if i + 1 < len(tokens) else None
@@ -501,6 +538,75 @@ class PHIDetector:
                 if lw.rstrip("s") in self.english or (lw.endswith("'s") and lw[:-2] in self.english):
                     continue
                 spans.append(Span(m.start(), end, "NAME", core, "unknown_capitalized", "other", 3))
+        return spans
+
+    _EMAIL_STOP = frozenset(
+        "is it's its me my email e-mail address at to send use that's was be the and or portal account write reach "
+        "it under as still now use using just new old same your our his her their for on in with".split()
+    )
+
+    def _spoken_emails(self, text: str) -> list[Span]:
+        """ "lupe rios 65 at example dot com": walk back from "at <domain> dot <tld>" over the spoken local part."""
+        spans: list[Span] = []
+        domain = re.compile(
+            r"\s(?:at)\s[\w-]+(?:\s(?:dot)\s[\w-]+)*\s(?:dot)\s(?:com|org|net|edu|gov|io|co|us|me|info|biz)\b",
+            re.IGNORECASE,
+        )
+        for m in domain.finditer(text):
+            words = list(re.finditer(r"[\w.+-]+", text[: m.start()]))
+            start = m.start()
+            taken = 0
+            for w in reversed(words):
+                token = w.group(0).lower()
+                if token in self._EMAIL_STOP or taken >= 6 or text[w.end() : start].strip(" ") not in {""}:
+                    break
+                start = w.start()
+                taken += 1
+            if taken:
+                spans.append(Span(start, m.end(), "EMAIL", text[start : m.end()], "email_spoken", "other", 9))
+        return spans
+
+    _PLACE_CUE = re.compile(
+        rf"\b(?:in|from|to|near|outside|outside of|around|moved from|lives in|live in|drove from|up in|down in|over in)"
+        rf"\s+((?:[{U}][{L}'.-]+)(?:\s+[{U}][{L}'.-]+){{0,2}})"
+    )
+
+    def _places(self, text: str) -> list[Span]:
+        """Towns and cities (smaller than a state, a Safe Harbor identifier) after a place preposition."""
+        spans: list[Span] = []
+        towns = places()
+        for m in self._PLACE_CUE.finditer(text):
+            words = m.group(1).split()
+            for n in range(len(words), 0, -1):
+                candidate = " ".join(words[:n]).rstrip(".,")
+                if candidate.lower() in towns and candidate.lower() not in NEVER_NAMES:
+                    start = m.start(1)
+                    spans.append(Span(start, start + len(candidate), "ADDRESS", candidate, "place", "other", 5))
+                    break
+        return spans
+
+    def _capitalized_runs(self, text: str) -> list[Span]:
+        """Two or more capitalized words in mid-sentence are a proper noun in conversation: a person, a business, a
+        school or a place ("Crescent City Transit", "Little Acorns"), unless they are drug or clinical terms."""
+        spans: list[Span] = []
+        starts = _sentence_starts(text)
+        run = re.compile(rf"[{U}][{L}'&-]*(?:[ ](?:of[ ]|the[ ]|&[ ])?[{U}][{L}'&-]*)+")
+        for m in run.finditer(text):
+            words = m.group(0).split(" ")
+            offset = m.start()
+            if offset in starts:  # "Okay Doctor" at the start of a sentence: drop the first word
+                offset += len(words[0]) + 1
+                words = words[1:]
+            while words and (words[-1].lower().removesuffix("'s") in NEVER_NAMES or words[-1].isupper()):
+                words = words[:-1]  # "Halvorsen Engineering I'm" -> "Halvorsen Engineering"
+            core = [w for w in words if w.lower() not in {"of", "the", "&"}]
+            if len(core) < 2:
+                continue
+            lowered = [w.lower().removesuffix("'s") for w in core]
+            if any(w in NEVER_NAMES or w in self.clinical or w.isupper() for w in lowered + core):
+                continue
+            value = " ".join(words)
+            spans.append(Span(offset, offset + len(value), "ORG", value, "capitalized_run", "other", 4))
         return spans
 
     def _trim_name(self, candidate: str, *, strict: bool = False) -> str:

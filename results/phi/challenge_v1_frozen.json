@@ -1,0 +1,351 @@
+{
+ "items": 100,
+ "gold_values": 148,
+ "covered": 101,
+ "recall": 0.6824,
+ "by_type": {
+  "ADDRESS": {
+   "total": 24,
+   "covered": 16
+  },
+  "AGE": {
+   "total": 5,
+   "covered": 2
+  },
+  "DATE": {
+   "total": 12,
+   "covered": 11
+  },
+  "DOB": {
+   "total": 10,
+   "covered": 4
+  },
+  "EMAIL": {
+   "total": 3,
+   "covered": 2
+  },
+  "ID": {
+   "total": 10,
+   "covered": 6
+  },
+  "NAME": {
+   "total": 63,
+   "covered": 43
+  },
+  "ORG": {
+   "total": 13,
+   "covered": 12
+  },
+  "PHONE": {
+   "total": 6,
+   "covered": 5
+  },
+  "URL": {
+   "total": 2,
+   "covered": 0
+  }
+ },
+ "negative_items": 20,
+ "negative_items_untouched": 17,
+ "masked_words": 296,
+ "masked_words_not_in_gold_phi": 6,
+ "misses": [
+  {
+   "id": "c003",
+   "type": "DOB",
+   "value": "March the 3rd, 1947",
+   "masked": "Date of birth, [DATE_1] [DATE_2], 1947."
+  },
+  {
+   "id": "c004",
+   "type": "NAME",
+   "value": "N-G-U-Y-E-N",
+   "masked": "It's Mrs. [PATIENT], that's N-G-U-Y-E-N, first name [PATIENT]."
+  },
+  {
+   "id": "c005",
+   "type": "EMAIL",
+   "value": "j underscore reyes at proton mail dot com",
+   "masked": "Yeah, the email is j underscore reyes at proton mail dot com."
+  },
+  {
+   "id": "c007",
+   "type": "NAME",
+   "value": "kowalski",
+   "masked": "so you saw doctor kowalski at the urgent care on [DATE_1] and he started you on the prednisone?"
+  },
+  {
+   "id": "c009",
+   "type": "AGE",
+   "value": "ninety-three",
+   "masked": "Mom's ninety-three, she'll be ninety-four in [DATE_1], and she still does her own crossword."
+  },
+  {
+   "id": "c009",
+   "type": "AGE",
+   "value": "ninety-four",
+   "masked": "Mom's ninety-three, she'll be ninety-four in [DATE_1], and she still does her own crossword."
+  },
+  {
+   "id": "c011",
+   "type": "ADDRESS",
+   "value": "4418 Larchmont Avenue, apartment 2B",
+   "masked": "It's [ADDRESS_1], apartment 2B, [NAME_1], 45419."
+  },
+  {
+   "id": "c011",
+   "type": "ADDRESS",
+   "value": "45419",
+   "masked": "It's [ADDRESS_1], apartment 2B, [NAME_1], 45419."
+  },
+  {
+   "id": "c012",
+   "type": "ADDRESS",
+   "value": "45631",
+   "masked": "Mail goes to [ADDRESS_1] in [ADDRESS_2], [NAME_1] 45631."
+  },
+  {
+   "id": "c014",
+   "type": "NAME",
+   "value": "D-E-L-A-C-R-O-I-X",
+   "masked": "[PATIENT], like the word, and the last name is [PATIENT], D-E-L-A-C-R-O-I-X."
+  },
+  {
+   "id": "c016",
+   "type": "DOB",
+   "value": "Valentine's Day, 1990",
+   "masked": "My birthday's on [NAME_1], 1990."
+  },
+  {
+   "id": "c021",
+   "type": "URL",
+   "value": "mychart dot lakeshorehealth dot org",
+   "masked": "The portal is mychart dot lakeshorehealth dot org, but I never got the code."
+  },
+  {
+   "id": "c024",
+   "type": "NAME",
+   "value": "ify",
+   "masked": "people just call me ify, short for [PATIENT]."
+  },
+  {
+   "id": "c025",
+   "type": "NAME",
+   "value": "Grace",
+   "masked": "Tell Dr. [NAME_1] that Grace from hospice called about the morphine."
+  },
+  {
+   "id": "c028",
+   "type": "ID",
+   "value": "G K R 4 4 1 9",
+   "masked": "For the parking validation, my plate is G K R 4 4 1 9."
+  },
+  {
+   "id": "c029",
+   "type": "ID",
+   "value": "PJN 2 0 7 7 1 8 R",
+   "masked": "The serial on my pacemaker card is PJN 2 0 7 7 1 8 R."
+  },
+  {
+   "id": "c032",
+   "type": "NAME",
+   "value": "Rose",
+   "masked": "Last time I was in was back in [DATE_1], when Rose was still alive."
+  },
+  {
+   "id": "c038",
+   "type": "NAME",
+   "value": "willa",
+   "masked": "it's willa, willa [PATIENT], o d u y a."
+  },
+  {
+   "id": "c038",
+   "type": "NAME",
+   "value": "willa oduya",
+   "masked": "it's willa, willa [PATIENT], o d u y a."
+  },
+  {
+   "id": "c038",
+   "type": "NAME",
+   "value": "o d u y a",
+   "masked": "it's willa, willa [PATIENT], o d u y a."
+  },
+  {
+   "id": "c040",
+   "type": "ID",
+   "value": "H, Q, M, 9, 9, 3, 0, 2, 1, dash 0 1",
+   "masked": "Policy number is H, Q, M, 9, 9, 3, 0, 2, 1, dash 0 1."
+  },
+  {
+   "id": "c043",
+   "type": "DOB",
+   "value": "Ten ten eighty-eight",
+   "masked": "Ten ten eighty-eight."
+  },
+  {
+   "id": "c045",
+   "type": "ADDRESS",
+   "value": "Route 68",
+   "masked": "We live out past [ORG_1] on Route 68, the white farmhouse."
+  },
+  {
+   "id": "c050",
+   "type": "DOB",
+   "value": "Groundhog Day, 1944",
+   "masked": "I was born on [ORG_1], 1944, so I always remember."
+  },
+  {
+   "id": "c051",
+   "type": "NAME",
+   "value": "patel-hughes",
+   "masked": "i'm with doctor patel-hughes for my thyroid and doctor amari for my kidneys."
+  },
+  {
+   "id": "c051",
+   "type": "NAME",
+   "value": "amari",
+   "masked": "i'm with doctor patel-hughes for my thyroid and doctor amari for my kidneys."
+  },
+  {
+   "id": "c052",
+   "type": "ADDRESS",
+   "value": "4 5 4 0 3",
+   "masked": "The ZIP is 4 5 4 0 3, that's the new one."
+  },
+  {
+   "id": "c053",
+   "type": "NAME",
+   "value": "Teddy",
+   "masked": "Teddy turned [AGE_90_PLUS] last month, and he still drives himself to Bible study at [NAME_1]. Casimir's."
+  },
+  {
+   "id": "c053",
+   "type": "ORG",
+   "value": "St. Casimir's",
+   "masked": "Teddy turned [AGE_90_PLUS] last month, and he still drives himself to Bible study at [NAME_1]. Casimir's."
+  },
+  {
+   "id": "c054",
+   "type": "NAME",
+   "value": "Precious",
+   "masked": "My sister Precious lives with me now, her number's [PHONE_1]."
+  },
+  {
+   "id": "c058",
+   "type": "DATE",
+   "value": "3/14",
+   "masked": "[NAME_1], you were last here on 3/14, right before the surgery."
+  },
+  {
+   "id": "c060",
+   "type": "ADDRESS",
+   "value": "1200 Euclid Avenue, number 1407",
+   "masked": "My apartment is [ADDRESS_1], number 1407, [NAME_1], [NAME_2], 44115."
+  },
+  {
+   "id": "c060",
+   "type": "ADDRESS",
+   "value": "44115",
+   "masked": "My apartment is [ADDRESS_1], number 1407, [NAME_1], [NAME_2], 44115."
+  },
+  {
+   "id": "c061",
+   "type": "DOB",
+   "value": "Christmas Day, 1949",
+   "masked": "He was born on Christmas Day, 1949, in [ORG_1]."
+  },
+  {
+   "id": "c063",
+   "type": "NAME",
+   "value": "Heaven",
+   "masked": "My wife's name is Heaven, H-E-A-V-E-N, she's the emergency contact."
+  },
+  {
+   "id": "c063",
+   "type": "NAME",
+   "value": "H-E-A-V-E-N",
+   "masked": "My wife's name is Heaven, H-E-A-V-E-N, she's the emergency contact."
+  },
+  {
+   "id": "c065",
+   "type": "ID",
+   "value": "Y X Q 2 2 1 6 8 0 3",
+   "masked": "Group number is [ID_1], and the member ID is Y X Q [PHONE_1]."
+  },
+  {
+   "id": "c067",
+   "type": "URL",
+   "value": "www dot healthbridge portal dot com slash login",
+   "masked": "it's on the patient portal, www dot healthbridge portal dot com slash login."
+  },
+  {
+   "id": "c068",
+   "type": "NAME",
+   "value": "Millie",
+   "masked": "Millie's going to be ninety-five on [DATE_1], we're having cake at the house."
+  },
+  {
+   "id": "c068",
+   "type": "AGE",
+   "value": "ninety-five",
+   "masked": "Millie's going to be ninety-five on [DATE_1], we're having cake at the house."
+  },
+  {
+   "id": "c069",
+   "type": "PHONE",
+   "value": "937 555 0164, extension 412",
+   "masked": "Work line is [PHONE_1], extension 412, if I don't answer my cell."
+  },
+  {
+   "id": "c071",
+   "type": "NAME",
+   "value": "m b e k i",
+   "masked": "this is [PATIENT], [PATIENT] m b e k i, I had a 2 o'clock."
+  },
+  {
+   "id": "c073",
+   "type": "ADDRESS",
+   "value": "unit 3C",
+   "masked": "I've been at the [ORG_1] since the fall, unit 3C."
+  },
+  {
+   "id": "c075",
+   "type": "NAME",
+   "value": "lindqvist",
+   "masked": "Can you send it to dr. lindqvist? She's at the [NAME_1] office."
+  },
+  {
+   "id": "c076",
+   "type": "NAME",
+   "value": "M-W-A-N-G-I",
+   "masked": "It's [PATIENT], M-W-A-N-G-I, born [DOB], '93."
+  },
+  {
+   "id": "c076",
+   "type": "DOB",
+   "value": "November 15th, '93",
+   "masked": "It's [PATIENT], M-W-A-N-G-I, born [DOB], '93."
+  },
+  {
+   "id": "c079",
+   "type": "NAME",
+   "value": "H-U-A-N-G",
+   "masked": "Mrs. [NAME_1]? No, it's [PATIENT], H-U-A-N-G, a lot of people hear it wrong."
+  }
+ ],
+ "over_masked_negatives": [
+  {
+   "id": "c088",
+   "masked": "I was still living in [NAME_1] when they first told me it was Parkinson's."
+  },
+  {
+   "id": "c089",
+   "masked": "Your [NAME_1] score was 15 in the ER, and the CT showed no bleed."
+  },
+  {
+   "id": "c097",
+   "masked": "The Apgar scores were 8 and 9, weight 7 pounds 4 ounces, and the [NAME_1] test was negative."
+  }
+ ],
+ "note": "Detector v1, frozen before this held-out set was written; first and only run of v1 (2026-10-13)."
+}

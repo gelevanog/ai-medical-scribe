@@ -97,3 +97,65 @@ def evaluate(cases: list[Case], masker: Masker | None = None, *, turns_by_case: 
         turns = turns_by_case[case.id] if turns_by_case else case.dialogue
         evaluate_case(case, turns, masker, result)
     return result
+
+
+def evaluate_challenge(items: list[dict[str, Any]], masker: Masker | None = None) -> dict[str, Any]:
+    """The held-out challenge set (data/phi_challenge.yaml): single utterances, written independently of the detector."""
+    from notewell.models import Patient
+
+    masker = masker or Masker()
+    total = covered = 0
+    by_type: Counter[str] = Counter()
+    covered_by_type: Counter[str] = Counter()
+    misses: list[dict[str, str]] = []
+    negatives = negatives_clean = 0
+    over: list[dict[str, str]] = []
+    masked_words = masked_not_phi = 0
+    for item in items:
+        reg_raw = item.get("registered") or {}
+        patient = Patient(name=str(reg_raw.get("name", "")), dob=str(reg_raw.get("dob", "")))
+        registered = registered_from(patient)
+        text = str(item["text"])
+        masked = masker.mask_turns([Turn(idx=0, speaker=item.get("speaker", "patient"), text=text)], registered)
+        spans = masked.spans[0]
+        gold_chars: set[int] = set()
+        for phi in item.get("phi") or []:
+            value = _TITLE.sub("", str(phi["value"])).strip()
+            positions = [m.start() for m in re.finditer(re.escape(value), text)]
+            if not positions:
+                continue
+            total += 1
+            by_type[phi["type"]] += 1
+            ok = True
+            for pos in positions:
+                gold_chars.update(range(pos, pos + len(value)))
+                ok = ok and _covered(text, pos, pos + len(value), spans)
+            if ok:
+                covered += 1
+                covered_by_type[phi["type"]] += 1
+            else:
+                misses.append({"id": item["id"], "type": phi["type"], "value": str(phi["value"]), "masked": masked.turns[0].text})
+        for span in spans:
+            for w in re.finditer(r"[A-Za-z0-9]+", text[span.start : span.end]):
+                masked_words += 1
+                if span.start + w.start() not in gold_chars:
+                    masked_not_phi += 1
+        if not item.get("phi"):
+            negatives += 1
+            if not spans:
+                negatives_clean += 1
+            else:
+                over.append({"id": item["id"], "masked": masked.turns[0].text})
+    return {
+        "items": len(items),
+        "gold_values": total,
+        "covered": covered,
+        "recall": round(covered / total, 4) if total else 1.0,
+        "by_type": {k: {"total": v, "covered": covered_by_type[k]} for k, v in sorted(by_type.items())},
+        "negative_items": negatives,
+        "negative_items_untouched": negatives_clean,
+        "masked_words": masked_words,
+        "masked_words_not_in_gold_phi": masked_not_phi,
+        "misses": misses,
+        "over_masked_negatives": over,
+    }

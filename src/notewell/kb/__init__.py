@@ -119,6 +119,11 @@ uri gerd adhd ocd ptsd ibs ra lupus hiv std sti otc iud ppd tb bp hr rr spo2 o2 
 ssri ssris snri acei arb statin statins zpack z-pack epipen ace bpm mmhg celsius fahrenheit mg mcg ml kg lbs
 apgar denver vanderbilt snellen tanner gleason mallampati babinski romberg tinel phalen lachman mcmurray
 spurling murphy mcburney rovsing homan homans kernig brudzinski epley valsalva holter zio kardia apple watch fitbit
+hashimoto hashimoto's graves graves' crohn crohn's parkinson parkinson's alzheimer alzheimer's raynaud raynaud's
+sjogren sjogren's addison addison's cushing cushing's kawasaki osgood schlatter tourette tourette's asperger bell's
+lyme hodgkin hodgkin's barrett barrett's wolff white reiter's guillain barre meniere meniere's huntington marfan
+kaposi epstein barr wilms paget tay sachs turner's klinefelter heberden bouchard baker's achilles morton's dupuytren
+pfizer moderna novavax johnson medicare medicaid tricare aetna cigna humana kaiser blue cross shield united healthcare
 """.split()
 
 

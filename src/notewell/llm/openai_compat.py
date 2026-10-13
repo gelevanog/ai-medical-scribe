@@ -67,7 +67,9 @@ class OpenAICompatibleModel:
         if self.kind == "openrouter":
             if self.fallback_models:
                 body["models"] = [self.model, *self.fallback_models]
-            if self.reasoning_effort:
+            if self.reasoning_effort in {"none", "off"}:
+                body["reasoning"] = {"enabled": False}
+            elif self.reasoning_effort:
                 body["reasoning"] = {"effort": self.reasoning_effort}
             if self.require_free:
                 ensure_free_body(body)

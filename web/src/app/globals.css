@@ -1,0 +1,46 @@
+@import "tailwindcss";
+
+@theme {
+  --font-sans:
+    "Inter", ui-sans-serif, system-ui, -apple-system, "Segoe UI", Roboto, "Helvetica Neue", Arial, sans-serif;
+  --font-mono: "JetBrains Mono", ui-monospace, SFMono-Regular, Menlo, monospace;
+  --color-ink: #0f1b2d;
+  --color-ink-soft: #1b2a40;
+  --color-paper: #f4f6f8;
+  --color-line: #e2e7ee;
+  --color-brand: #0f766e;
+  --color-brand-soft: #e6f4f1;
+  --color-clinician: #2453a6;
+  --color-clinician-soft: #eaf0fb;
+  --color-patient: #0f7a4f;
+  --color-patient-soft: #e8f6ee;
+  --color-caregiver: #7a3fb0;
+  --color-caregiver-soft: #f3ecfa;
+}
+
+html {
+  color-scheme: light;
+}
+
+body {
+  background: var(--color-paper);
+}
+
+.evidence-hit {
+  background: #fff3c4;
+  box-shadow: inset 3px 0 0 #e0a100;
+  transition: background 120ms ease;
+}
+
+.scroll-thin {
+  scrollbar-width: thin;
+}
+
+mark.phi {
+  background: #e9e3ff;
+  color: #4c2a9e;
+  border-radius: 4px;
+  padding: 0 3px;
+  font-family: var(--font-mono);
+  font-size: 0.85em;
+}

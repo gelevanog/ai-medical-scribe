@@ -1,0 +1,124 @@
+{
+ "visit": "pc-01",
+ "date": "2026-10-13",
+ "results": [
+  {
+   "model": "nvidia/nemotron-3-super-120b-a12b:free",
+   "ok": true,
+   "seconds": 22.2,
+   "fact_recall": 1.0,
+   "statements": 29,
+   "unsupported": 0,
+   "icd": [
+    "I10"
+   ],
+   "icd_top3": true,
+   "em": "99213",
+   "negation_errors": 0,
+   "tokens": {
+    "input_tokens": 5110,
+    "output_tokens": 2448,
+    "calls": 2
+   }
+  },
+  {
+   "model": "google/gemma-4-31b-it:free",
+   "ok": false,
+   "seconds": 17.1,
+   "error": "rate limited: google/gemma-4-31b-it:free is temporarily rate-limited upstream. Please retry shortly, or add your own key to accumulate your rate limits: https://openrouter.ai/settings/integrations"
+  },
+  {
+   "model": "poolside/laguna-s-2.1:free",
+   "ok": true,
+   "seconds": 73.8,
+   "fact_recall": 1.0,
+   "statements": 24,
+   "unsupported": 0,
+   "icd": [
+    "I10",
+    "E78.5"
+   ],
+   "icd_top3": true,
+   "em": "99214",
+   "negation_errors": 0,
+   "tokens": {
+    "input_tokens": 5493,
+    "output_tokens": 2733,
+    "calls": 2
+   }
+  },
+  {
+   "model": "dots-studio/dots-3-note-preview:free",
+   "ok": true,
+   "seconds": 43.4,
+   "fact_recall": 1.0,
+   "statements": 25,
+   "unsupported": 0,
+   "icd": [
+    "I10",
+    "E78.5",
+    "Z82.0"
+   ],
+   "icd_top3": true,
+   "em": "99214",
+   "negation_errors": 0,
+   "tokens": {
+    "input_tokens": 5336,
+    "output_tokens": 2607,
+    "calls": 2
+   }
+  },
+  {
+   "model": "google/gemma-4-26b-a4b-it:free",
+   "ok": false,
+   "seconds": 19.0,
+   "error": "rate limited: google/gemma-4-26b-a4b-it:free is temporarily rate-limited upstream. Please retry shortly, or add your own key to accumulate your rate limits: https://openrouter.ai/settings/integrations"
+  },
+  {
+   "model": "apodex/apodex-1.1-mini:free",
+   "ok": true,
+   "seconds": 27.0,
+   "fact_recall": 1.0,
+   "statements": 28,
+   "unsupported": 0,
+   "icd": [
+    "I10",
+    "E78.5"
+   ],
+   "icd_top3": true,
+   "em": "99213",
+   "negation_errors": 0,
+   "tokens": {
+    "input_tokens": 5470,
+    "output_tokens": 2785,
+    "calls": 2
+   }
+  },
+  {
+   "model": "nvidia/nemotron-3.5-lightning:free",
+   "ok": false,
+   "seconds": 63.0,
+   "error": "the model's answer is not valid JSON after one repair: invalid JSON: Extra data at line 1"
+  },
+  {
+   "model": "nvidia/nemotron-3-ultra-550b-a55b:free",
+   "ok": true,
+   "seconds": 38.7,
+   "fact_recall": 1.0,
+   "statements": 27,
+   "unsupported": 0,
+   "icd": [
+    "I10",
+    "E78.5"
+   ],
+   "icd_top3": true,
+   "em": "99214",
+   "negation_errors": 0,
+   "tokens": {
+    "input_tokens": 5096,
+    "output_tokens": 2612,
+    "calls": 2
+   }
+  }
+ ]
+}

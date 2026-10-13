@@ -72,7 +72,9 @@ class Settings(BaseSettings):
     llm_timeout_seconds: float = 180.0
     llm_max_tokens: int = 6000
     llm_temperature: float = 0.0
-    llm_reasoning_effort: str = "low"
+    llm_reasoning_effort: str = "none"
+    """Sent to OpenRouter as reasoning.effort; "none" disables hidden reasoning (free reasoning models otherwise spend
+    the whole output budget thinking: nemotron-3-super used 8,000 reasoning tokens and returned nothing)."""
     require_free_models: bool = True
     """Refuse OpenRouter model ids that do not end in ':free', ':online' variants, plugins and paid served models."""
     allow_paid_models: bool = False

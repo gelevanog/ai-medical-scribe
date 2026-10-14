@@ -12,7 +12,9 @@
 ![mypy strict](https://img.shields.io/badge/mypy-strict-2a6db2)
 ![License: MIT](https://img.shields.io/badge/License-MIT-green)
 
-<!-- demo-video -->
+https://github.com/user-attachments/assets/1b25856a-46f8-41e5-8f3f-b0dcdf451123
+
+<sub>78-second walkthrough with voiceover. Can't play it? [Download the MP4](docs/demo.mp4).</sub>
 
 ![The review screen: transcript with speaker roles, the SOAP note with the evidence of the hovered statement highlighted in the transcript, ICD-10-CM and E/M suggestions with the rule-based MDM estimate, and the sign-off checklist](docs/screenshots/hero.png)
 

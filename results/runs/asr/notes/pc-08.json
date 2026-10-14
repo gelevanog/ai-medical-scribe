@@ -1,0 +1,1196 @@
+{
+ "note": {
+  "visit_id": "pc-08",
+  "statements": [
+   {
+    "id": "s1",
+    "section": "subjective",
+    "text": "Fatigue for six weeks, worse in mornings and after lunch, leading to daytime napping.",
+    "evidence": [
+     {
+      "turn": 5,
+      "quote": "I'm just worn out, doctor, for about six weeks now. I nap in the morning and again after lunch, and I used to never nap.",
+      "verified": true,
+      "score": 1.0
+     }
+    ],
+    "support": "supported",
+    "flags": [],
+    "origin": "model",
+    "edited": false
+   },
+   {
+    "id": "s2",
+    "section": "subjective",
+    "text": "Momentary dizziness on standing, described as room swimming for a second upon waking.",
+    "evidence": [
+     {
+      "turn": 7,
+      "quote": "When I first get up out of bed in the morning, the room kind of swims for a second. Then it passes.",
+      "verified": true,
+      "score": 1.0
+     }
+    ],
+    "support": "supported",
+    "flags": [],
+    "origin": "model",
+    "edited": false
+   },
+   {
+    "id": "s3",
+    "section": "subjective",
+    "text": "Denies falls.",
+    "evidence": [
+     {
+      "turn": 8,
+      "quote": "Have you fallen at all?",
+      "verified": true,
+      "score": 1.0
+     },
+     {
+      "turn": 9,
+      "quote": "No, I hold on to the dresser.",
+      "verified": true,
+      "score": 1.0
+     }
+    ],
+    "support": "partial",
+    "flags": [
+     {
+      "kind": "partial_support",
+      "severity": "warning",
+      "message": "Quoted turn does not contain most of its terms; check against the transcript.",
+      "acknowledged": false,
+      "detail": {}
+     }
+    ],
+    "origin": "model",
+    "edited": false
+   },
+   {
+    "id": "s4",
+    "section": "subjective",
+    "text": "Denies chest pain.",
+    "evidence": [
+     {
+      "turn": 10,
+      "quote": "Any chest pain or shortness of breath?",
+      "verified": true,
+      "score": 1.0
+     },
+     {
+      "turn": 11,
+      "quote": "No chest pain, I breathe fine.",
+      "verified": true,
+      "score": 1.0
+     }
+    ],
+    "support": "supported",
+    "flags": [],
+    "origin": "model",
+    "edited": false
+   },
+   {
+    "id": "s5",
+    "section": "subjective",
+    "text": "Denies shortness of breath.",
+    "evidence": [
+     {
+      "turn": 10,
+      "quote": "Any chest pain or shortness of breath?",
+      "verified": true,
+      "score": 1.0
+     },
+     {
+      "turn": 11,
+      "quote": "No chest pain, I breathe fine.",
+      "verified": true,
+      "score": 1.0
+     }
+    ],
+    "support": "supported",
+    "flags": [],
+    "origin": "model",
+    "edited": false
+   },
+   {
+    "id": "s6",
+    "section": "subjective",
+    "text": "Denies fever.",
+    "evidence": [
+     {
+      "turn": 12,
+      "quote": "Fever, black stools, or losing weight without trying.",
+      "verified": true,
+      "score": 1.0
+     },
+     {
+      "turn": 13,
+      "quote": "No, none of that.",
+      "verified": true,
+      "score": 1.0
+     }
+    ],
+    "support": "supported",
+    "flags": [
+     {
+      "kind": "negation",
+      "severity": "error",
+      "message": "The transcript says the opposite: 'fever' (turns 12).",
+      "acknowledged": false,
+      "detail": {
+       "concept": "fever",
+       "turns": [
+        12
+       ]
+      }
+     }
+    ],
+    "origin": "model",
+    "edited": false
+   },
+   {
+    "id": "s7",
+    "section": "subjective",
+    "text": "Denies black stools.",
+    "evidence": [
+     {
+      "turn": 12,
+      "quote": "Fever, black stools, or losing weight without trying.",
+      "verified": true,
+      "score": 1.0
+     },
+     {
+      "turn": 13,
+      "quote": "No, none of that.",
+      "verified": true,
+      "score": 1.0
+     }
+    ],
+    "support": "supported",
+    "flags": [
+     {
+      "kind": "negation",
+      "severity": "error",
+      "message": "The transcript says the opposite: 'black stools' (turns 12).",
+      "acknowledged": false,
+      "detail": {
+       "concept": "blood_in_stool",
+       "turns": [
+        12
+       ]
+      }
+     }
+    ],
+    "origin": "model",
+    "edited": false
+   },
+   {
+    "id": "s8",
+    "section": "subjective",
+    "text": "Denies unintentional weight loss.",
+    "evidence": [
+     {
+      "turn": 12,
+      "quote": "Fever, black stools, or losing weight without trying.",
+      "verified": true,
+      "score": 1.0
+     },
+     {
+      "turn": 13,
+      "quote": "No, none of that.",
+      "verified": true,
+      "score": 1.0
+     }
+    ],
+    "support": "supported",
+    "flags": [
+     {
+      "kind": "negation",
+      "severity": "error",
+      "message": "The transcript says the opposite: 'weight loss' (turns 12).",
+      "acknowledged": false,
+      "detail": {
+       "concept": "weight_loss",
+       "turns": [
+        12
+       ]
+      }
+     }
+    ],
+    "origin": "model",
+    "edited": false
+   },
+   {
+    "id": "s9",
+    "section": "subjective",
+    "text": "Denies feeling down or sad.",
+    "evidence": [
+     {
+      "turn": 14,
+      "quote": "Have you been feeling down or sad?",
+      "verified": true,
+      "score": 1.0
+     },
+     {
+      "turn": 15,
+      "quote": "No, I'm not sad. Just tired.",
+      "verified": true,
+      "score": 1.0
+     }
+    ],
+    "support": "supported",
+    "flags": [],
+    "origin": "model",
+    "edited": false
+   },
+   {
+    "id": "s10",
+    "section": "subjective",
+    "text": "Reports taking Tylenol PM every night for sleep.",
+    "evidence": [
+     {
+      "turn": 17,
+      "quote": "And I take a Tylenol PM at bedtime, because I wasn't sleeping.",
+      "verified": true,
+      "score": 1.0
+     },
+     {
+      "turn": 18,
+      "quote": "Every night?",
+      "verified": true,
+      "score": 1.0
+     },
+     {
+      "turn": 19,
+      "quote": "Every night.",
+      "verified": true,
+      "score": 1.0
+     }
+    ],
+    "support": "supported",
+    "flags": [],
+    "origin": "model",
+    "edited": false
+   },
+   {
+    "id": "s11",
+    "section": "subjective",
+    "text": "Reports stopping vitamin D due to pill size.",
+    "evidence": [
+     {
+      "turn": 19,
+      "quote": "Oh, and I quit the vitamin D. Those pills are too big to swallow.",
+      "verified": true,
+      "score": 1.0
+     }
+    ],
+    "support": "supported",
+    "flags": [],
+    "origin": "model",
+    "edited": false
+   },
+   {
+    "id": "s12",
+    "section": "subjective",
+    "text": "History of pneumonia last winter, now recovered.",
+    "evidence": [
+     {
+      "turn": 21,
+      "quote": "Well, I had pneumonia last winter, but I got over that. Lungs have been fine since.",
+      "verified": true,
+      "score": 1.0
+     }
+    ],
+    "support": "supported",
+    "flags": [],
+    "origin": "model",
+    "edited": false
+   },
+   {
+    "id": "o1",
+    "section": "objective",
+    "text": "Sitting blood pressure 118/64 mmHg.",
+    "evidence": [
+     {
+      "turn": 22,
+      "quote": "Sitting, your blood pressure is 118 over 64 and your pulse is 52, which is on the slow side.",
+      "verified": true,
+      "score": 1.0
+     }
+    ],
+    "support": "supported",
+    "flags": [],
+    "origin": "model",
+    "edited": false
+   },
+   {
+    "id": "o2",
+    "section": "objective",
+    "text": "Sitting pulse 52 bpm.",
+    "evidence": [
+     {
+      "turn": 22,
+      "quote": "Sitting, your blood pressure is 118 over 64 and your pulse is 52, which is on the slow side.",
+      "verified": true,
+      "score": 1.0
+     }
+    ],
+    "support": "supported",
+    "flags": [],
+    "origin": "model",
+    "edited": false
+   },
+   {
+    "id": "o3",
+    "section": "objective",
+    "text": "Standing blood pressure 104/60 mmHg.",
+    "evidence": [
+     {
+      "turn": 22,
+      "quote": "Standing up, the pressure drops to 104 over 60.",
+      "verified": true,
+      "score": 1.0
+     }
+    ],
+    "support": "supported",
+    "flags": [],
+    "origin": "model",
+    "edited": false
+   },
+   {
+    "id": "o4",
+    "section": "objective",
+    "text": "Heart rate slow but regular, no murmur.",
+    "evidence": [
+     {
+      "turn": 22,
+      "quote": "Your heart is slow but regular, no murmur.",
+      "verified": true,
+      "score": 1.0
+     }
+    ],
+    "support": "supported",
+    "flags": [],
+    "origin": "model",
+    "edited": false
+   },
+   {
+    "id": "o5",
+    "section": "objective",
+    "text": "Lungs clear.",
+    "evidence": [
+     {
+      "turn": 22,
+      "quote": "Lungs are clear, no swelling in your ankles.",
+      "verified": true,
+      "score": 1.0
+     }
+    ],
+    "support": "supported",
+    "flags": [],
+    "origin": "model",
+    "edited": false
+   },
+   {
+    "id": "o6",
+    "section": "objective",
+    "text": "No ankle edema.",
+    "evidence": [
+     {
+      "turn": 22,
+      "quote": "Lungs are clear, no swelling in your ankles.",
+      "verified": true,
+      "score": 1.0
+     }
+    ],
+    "support": "supported",
+    "flags": [],
+    "origin": "model",
+    "edited": false
+   },
+   {
+    "id": "o7",
+    "section": "objective",
+    "text": "Normal color, no paleness inside eyelids.",
+    "evidence": [
+     {
+      "turn": 22,
+      "quote": "Your color looks good, no paleness inside the eyelids.",
+      "verified": true,
+      "score": 1.0
+     }
+    ],
+    "support": "supported",
+    "flags": [],
+    "origin": "model",
+    "edited": false
+   },
+   {
+    "id": "o8",
+    "section": "objective",
+    "text": "ECG shows sinus bradycardia at 52 bpm, no heart block.",
+    "evidence": [
+     {
+      "turn": 22,
+      "quote": "We also did an ECG while you were waiting. It shows a slow, regular rhythm, a rate of 52, and no heart block.",
+      "verified": true,
+      "score": 1.0
+     }
+    ],
+    "support": "supported",
+    "flags": [],
+    "origin": "model",
+    "edited": false
+   },
+   {
+    "id": "a1",
+    "section": "assessment",
+    "text": "Fatigue, likely multifactorial, related to medication effects.",
+    "evidence": [
+     {
+      "turn": 24,
+      "quote": "I think a big part is your medicines. Your pulse is slow and the metoprolol may be slowing it too much, and the Tylenol PM has diphenhydramine in it, which is a sleepy antihistamine.",
+      "verified": true,
+      "score": 1.0
+     }
+    ],
+    "support": "supported",
+    "flags": [],
+    "origin": "model",
+    "edited": false
+   },
+   {
+    "id": "a2",
+    "section": "assessment",
+    "text": "Bradycardia, likely exacerbated by metoprolol.",
+    "evidence": [
+     {
+      "turn": 24,
+      "quote": "I think a big part is your medicines. Your pulse is slow and the metoprolol may be slowing it too much, and the Tylenol PM has diphenhydramine in it, which is a sleepy antihistamine.",
+      "verified": true,
+      "score": 1.0
+     }
+    ],
+    "support": "supported",
+    "flags": [],
+    "origin": "model",
+    "edited": false
+   },
+   {
+    "id": "a3",
+    "section": "assessment",
+    "text": "Orthostatic hypotension, mild.",
+    "evidence": [
+     {
+      "turn": 22,
+      "quote": "Standing up, the pressure drops to 104 over 60.",
+      "verified": true,
+      "score": 1.0
+     }
+    ],
+    "support": "partial",
+    "flags": [
+     {
+      "kind": "partial_support",
+      "severity": "warning",
+      "message": "Quoted turn does not contain most of its terms; check against the transcript.",
+      "acknowledged": false,
+      "detail": {}
+     }
+    ],
+    "origin": "model",
+    "edited": false
+   },
+   {
+    "id": "p1",
+    "section": "plan",
+    "text": "Discontinue Tylenol PM.",
+    "evidence": [
+     {
+      "turn": 26,
+      "quote": "Stop the Tylenol PM.",
+      "verified": true,
+      "score": 1.0
+     }
+    ],
+    "support": "supported",
+    "flags": [],
+    "origin": "model",
+    "edited": false
+   },
+   {
+    "id": "p2",
+    "section": "plan",
+    "text": "If nighttime aches, use plain Tylenol (acetaminophen) 500 mg as needed.",
+    "evidence": [
+     {
+      "turn": 26,
+      "quote": "If you have aches at night, plain Tylenol that's acetaminophen 500 mg is fine.",
+      "verified": true,
+      "score": 1.0
+     }
+    ],
+    "support": "supported",
+    "flags": [],
+    "origin": "model",
+    "edited": false
+   },
+   {
+    "id": "p3",
+    "section": "plan",
+    "text": "Reduce metoprolol to 25 mg twice daily.",
+    "evidence": [
+     {
+      "turn": 26,
+      "quote": "Cut the metoprolol down to 25 milligrams twice a day, that's half a tablet.",
+      "verified": true,
+      "score": 1.0
+     }
+    ],
+    "support": "supported",
+    "flags": [],
+    "origin": "model",
+    "edited": false
+   },
+   {
+    "id": "p4",
+    "section": "plan",
+    "text": "Continue amlodipine 5 mg daily.",
+    "evidence": [
+     {
+      "turn": 16,
+      "quote": "I have amlodipine 5 milligrams once a day for your blood pressure",
+      "verified": true,
+      "score": 1.0
+     },
+     {
+      "turn": 26,
+      "quote": "Keep the amlodipine, atorvastatin, and aspirin the same.",
+      "verified": true,
+      "score": 1.0
+     }
+    ],
+    "support": "supported",
+    "flags": [],
+    "origin": "model",
+    "edited": false
+   },
+   {
+    "id": "p5",
+    "section": "plan",
+    "text": "Continue atorvastatin 10 mg nightly.",
+    "evidence": [
+     {
+      "turn": 16,
+      "quote": "atorvastatin 10 at night",
+      "verified": true,
+      "score": 1.0
+     },
+     {
+      "turn": 26,
+      "quote": "Keep the amlodipine, atorvastatin, and aspirin the same.",
+      "verified": true,
+      "score": 1.0
+     }
+    ],
+    "support": "supported",
+    "flags": [],
+    "origin": "model",
+    "edited": false
+   },
+   {
+    "id": "p6",
+    "section": "plan",
+    "text": "Continue aspirin 81 mg daily.",
+    "evidence": [
+     {
+      "turn": 16,
+      "quote": "and a baby aspirin 81 milligrams",
+      "verified": true,
+      "score": 1.0
+     },
+     {
+      "turn": 26,
+      "quote": "Keep the amlodipine, atorvastatin, and aspirin the same.",
+      "verified": true,
+      "score": 1.0
+     }
+    ],
+    "support": "supported",
+    "flags": [],
+    "origin": "model",
+    "edited": false
+   },
+   {
+    "id": "p7",
+    "section": "plan",
+    "text": "Switch vitamin D to chewable 1000 units daily.",
+    "evidence": [
+     {
+      "turn": 28,
+      "quote": "For the vitamin D, I'll switch you to a chewable 1 ,000 units a day.",
+      "verified": true,
+      "score": 1.0
+     }
+    ],
+    "support": "partial",
+    "flags": [
+     {
+      "kind": "partial_support",
+      "severity": "error",
+      "message": "Quoted turn does not contain 1000; check against the transcript.",
+      "acknowledged": false,
+      "detail": {
+       "numbers_not_in_evidence": [
+        "1000"
+       ]
+      }
+     }
+    ],
+    "origin": "model",
+    "edited": false
+   },
+   {
+    "id": "p8",
+    "section": "plan",
+    "text": "Recommend consistent bedtime, avoid long afternoon naps, increase morning light exposure.",
+    "evidence": [
+     {
+      "turn": 28,
+      "quote": "Same bedtime every night, no long afternoon naps, and some light in the morning. That helps more than you'd think.",
+      "verified": true,
+      "score": 1.0
+     }
+    ],
+    "support": "supported",
+    "flags": [],
+    "origin": "model",
+    "edited": false
+   },
+   {
+    "id": "p9",
+    "section": "plan",
+    "text": "Order CBC, CMP, TSH, and B12 levels.",
+    "evidence": [
+     {
+      "turn": 30,
+      "quote": "I also want some blood work today, a blood count, chemistry panel, thyroid test, and B12 to make sure we're not missing anything else.",
+      "verified": true,
+      "score": 1.0
+     }
+    ],
+    "support": "supported",
+    "flags": [],
+    "origin": "model",
+    "edited": false
+   },
+   {
+    "id": "p10",
+    "section": "plan",
+    "text": "Advise to rise slowly from bed, sit on edge for a minute before standing.",
+    "evidence": [
+     {
+      "turn": 31,
+      "quote": "all right get up slowly sit on the",
+      "verified": true,
+      "score": 1.0
+     },
+     {
+      "turn": 32,
+      "quote": "edge of the bed for a minute first if you faint have chest pain or your pulse gets slower call us or go to the emergency",
+      "verified": true,
+      "score": 1.0
+     }
+    ],
+    "support": "supported",
+    "flags": [],
+    "origin": "model",
+    "edited": false
+   },
+   {
+    "id": "p11",
+    "section": "plan",
+    "text": "Return precautions: call or go to ER if faint, chest pain, or pulse gets slower.",
+    "evidence": [
+     {
+      "turn": 32,
+      "quote": "edge of the bed for a minute first if you faint have chest pain or your pulse gets slower call us or go to the emergency",
+      "verified": true,
+      "score": 1.0
+     }
+    ],
+    "support": "supported",
+    "flags": [],
+    "origin": "model",
+    "edited": false
+   },
+   {
+    "id": "p12",
+    "section": "plan",
+    "text": "Follow-up in two weeks.",
+    "evidence": [
+     {
+      "turn": 32,
+      "quote": "I'll see you in two weeks and we'll call Gloria at 555 -0177 with the results",
+      "verified": true,
+      "score": 1.0
+     }
+    ],
+    "support": "supported",
+    "flags": [],
+    "origin": "model",
+    "edited": false
+   },
+   {
+    "id": "p13",
+    "section": "plan",
+    "text": "Results to be communicated to Gloria at 555 -0177.",
+    "evidence": [
+     {
+      "turn": 32,
+      "quote": "I'll see you in two weeks and we'll call Gloria at 555 -0177 with the results",
+      "verified": true,
+      "score": 1.0
+     }
+    ],
+    "support": "supported",
+    "flags": [],
+    "origin": "model",
+    "edited": false
+   }
+  ],
+  "medications": [
+   {
+    "name": "amlodipine",
+    "dose": "5 mg",
+    "frequency": "once daily",
+    "route": "oral",
+    "status": "active",
+    "evidence": [
+     {
+      "turn": 16,
+      "quote": "I have amlodipine 5 milligrams once a day for your blood pressure",
+      "verified": true,
+      "score": 1.0
+     },
+     {
+      "turn": 26,
+      "quote": "Keep the amlodipine, atorvastatin, and aspirin the same.",
+      "verified": true,
+      "score": 1.0
+     }
+    ],
+    "flags": []
+   },
+   {
+    "name": "metoprolol",
+    "dose": "50 mg",
+    "frequency": "twice daily",
+    "route": "oral",
+    "status": "active",
+    "evidence": [
+     {
+      "turn": 16,
+      "quote": "metoprolol 50 milligrams twice a day",
+      "verified": true,
+      "score": 1.0
+     },
+     {
+      "turn": 26,
+      "quote": "Cut the metoprolol down to 25 milligrams twice a day, that's half a tablet.",
+      "verified": true,
+      "score": 1.0
+     }
+    ],
+    "flags": []
+   },
+   {
+    "name": "metoprolol",
+    "dose": "25 mg",
+    "frequency": "twice daily",
+    "route": "oral",
+    "status": "new",
+    "evidence": [
+     {
+      "turn": 26,
+      "quote": "Cut the metoprolol down to 25 milligrams twice a day, that's half a tablet.",
+      "verified": true,
+      "score": 1.0
+     }
+    ],
+    "flags": []
+   },
+   {
+    "name": "atorvastatin",
+    "dose": "10 mg",
+    "frequency": "nightly",
+    "route": "oral",
+    "status": "active",
+    "evidence": [
+     {
+      "turn": 16,
+      "quote": "atorvastatin 10 at night",
+      "verified": true,
+      "score": 1.0
+     },
+     {
+      "turn": 26,
+      "quote": "Keep the amlodipine, atorvastatin, and aspirin the same.",
+      "verified": true,
+      "score": 1.0
+     }
+    ],
+    "flags": []
+   },
+   {
+    "name": "aspirin",
+    "dose": "81 mg",
+    "frequency": "daily",
+    "route": "oral",
+    "status": "active",
+    "evidence": [
+     {
+      "turn": 16,
+      "quote": "and a baby aspirin 81 milligrams",
+      "verified": true,
+      "score": 1.0
+     },
+     {
+      "turn": 26,
+      "quote": "Keep the amlodipine, atorvastatin, and aspirin the same.",
+      "verified": true,
+      "score": 1.0
+     }
+    ],
+    "flags": []
+   },
+   {
+    "name": "Tylenol PM",
+    "dose": "unspecified",
+    "frequency": "nightly",
+    "route": "oral",
+    "status": "stopped",
+    "evidence": [
+     {
+      "turn": 17,
+      "quote": "And I take a Tylenol PM at bedtime, because I wasn't sleeping.",
+      "verified": true,
+      "score": 1.0
+     },
+     {
+      "turn": 18,
+      "quote": "Every night?",
+      "verified": true,
+      "score": 1.0
+     },
+     {
+      "turn": 19,
+      "quote": "Every night.",
+      "verified": true,
+      "score": 1.0
+     },
+     {
+      "turn": 26,
+      "quote": "Stop the Tylenol PM.",
+      "verified": true,
+      "score": 1.0
+     }
+    ],
+    "flags": []
+   },
+   {
+    "name": "acetaminophen",
+    "dose": "500 mg",
+    "frequency": "as needed",
+    "route": "oral",
+    "status": "new",
+    "evidence": [
+     {
+      "turn": 26,
+      "quote": "If you have aches at night, plain Tylenol that's acetaminophen 500 mg is fine.",
+      "verified": true,
+      "score": 1.0
+     }
+    ],
+    "flags": []
+   },
+   {
+    "name": "vitamin D",
+    "dose": "1000 units",
+    "frequency": "daily",
+    "route": "oral",
+    "status": "new",
+    "evidence": [
+     {
+      "turn": 28,
+      "quote": "For the vitamin D, I'll switch you to a chewable 1 ,000 units a day.",
+      "verified": true,
+      "score": 1.0
+     }
+    ],
+    "flags": [
+     {
+      "kind": "dose_mismatch",
+      "severity": "error",
+      "message": "The dose 1000 for vitamin D was not said near the drug's name in the transcript.",
+      "acknowledged": false,
+      "detail": {
+       "dose": "1000"
+      }
+     }
+    ]
+   }
+  ],
+  "allergies": [],
+  "after_visit_summary": "You've been feeling unusually tired for about six weeks, needing naps in the morning and afternoon, which is a change from your usual routine. You also feel dizzy for a moment when you first stand up. We checked your vitals and found your heart rate is slow (52 beats per minute) and your blood pressure drops slightly when you stand. Your ECG showed a slow but normal rhythm with no blockages. After reviewing your medications, we believe your fatigue may be partly due to metoprolol (which can slow the heart) and Tylenol PM (which contains an antihistamine that can cause daytime drowsiness, especially at your age). Here's what we're changing: Stop taking Tylenol PM at night. If you have aches, you can take plain Tylenol (acetaminophen) 500 mg as needed. Reduce your metoprolol from 50 mg to 25 mg twice daily. Keep taking your amlodipine, atorvastatin, and aspirin as before. We're switching your vitamin D to a chewable 1000 unit tablet daily, which should be easier to take. To help with energy and sleep: go to bed and wake up at the same time each day, avoid long afternoon naps, and get some morning light. We drew blood today to check your blood count, kidney and liver function, thyroid, and B12 levels to rule out other causes. When you get up in the morning, sit on the edge of the bed for a minute before standing to avoid dizziness. If you feel faint, have chest pain, or notice your pulse getting slower, call us or go to the emergency room. We'll see you back in two weeks and will call Gloria at 555 -0177 with your lab results.",
+  "avs_flags": [],
+  "icd10": [
+   {
+    "system": "ICD-10-CM",
+    "code": "R53.83",
+    "description": "Other fatigue",
+    "rank": 1,
+    "rationale": "Other fatigue, as the patient reports fatigue for six weeks worse in mornings and after lunch leading to daytime napping, assessed as likely multifactorial related to medication effects.",
+    "evidence": [
+     {
+      "turn": 5,
+      "quote": "I'm just worn out, doctor, for about six weeks now. I nap in the morning and again after lunch, and I used to never nap.",
+      "verified": true,
+      "score": 1.0
+     },
+     {
+      "turn": 24,
+      "quote": "I think a big part is your medicines. Your pulse is slow and the metoprolol may be slowing it too much, and the Tylenol PM has diphenhydramine in it, which is a sleepy antihistamine.",
+      "verified": true,
+      "score": 1.0
+     }
+    ],
+    "valid": true,
+    "billable": true,
+    "flags": [],
+    "accepted": null
+   },
+   {
+    "system": "ICD-10-CM",
+    "code": "R00.1",
+    "description": "Bradycardia, unspecified",
+    "rank": 2,
+    "rationale": "Bradycardia, unspecified, as the patient has a heart rate of 52 bpm sitting and standing, ECG shows sinus bradycardia at 52 bpm, no heart block, and bradycardia is assessed as likely exacerbated by metoprolol.",
+    "evidence": [
+     {
+      "turn": 22,
+      "quote": "Sitting, your blood pressure is 118 over 64 and your pulse is 52, which is on the slow side. Standing up, the pressure drops to 104 over 60. Your heart is slow but regular, no murmur.",
+      "verified": true,
+      "score": 1.0
+     },
+     {
+      "turn": 22,
+      "quote": "We also did an ECG while you were waiting. It shows a slow, regular rhythm, a rate of 52, and no heart block.",
+      "verified": true,
+      "score": 1.0
+     },
+     {
+      "turn": 24,
+      "quote": "I think a big part is your medicines. Your pulse is slow and the metoprolol may be slowing it too much",
+      "verified": true,
+      "score": 1.0
+     }
+    ],
+    "valid": true,
+    "billable": true,
+    "flags": [],
+    "accepted": null
+   },
+   {
+    "system": "ICD-10-CM",
+    "code": "I95.1",
+    "description": "Orthostatic hypotension",
+    "rank": 3,
+    "rationale": "Orthostatic hypotension, as the patient reports momentary dizziness on standing described as room swimming for a second upon waking, and standing BP dropped from 118/64 to 104/60 with symptomatic improvement.",
+    "evidence": [
+     {
+      "turn": 7,
+      "quote": "When I first get up out of bed in the morning, the room kind of swims for a second. Then it passes.",
+      "verified": true,
+      "score": 1.0
+     },
+     {
+      "turn": 22,
+      "quote": "Sitting, your blood pressure is 118 over 64 and your pulse is 52, which is on the slow side. Standing up, the pressure drops to 104 over 60.",
+      "verified": true,
+      "score": 1.0
+     }
+    ],
+    "valid": true,
+    "billable": true,
+    "flags": [],
+    "accepted": null
+   }
+  ],
+  "em": {
+   "system": "CPT",
+   "code": "99214",
+   "description": "Established patient office visit, moderate-complexity decision making",
+   "rank": 1,
+   "rationale": "Established patient visit with moderate medical decision making: management of three chronic problems (fatigue, bradycardia, orthostatic hypotension) with prescription drug adjustments (moderate risk), review of systems, and ordering of labs (CBC, CMP, TSH, B12).",
+   "evidence": [],
+   "valid": true,
+   "billable": true,
+   "flags": [],
+   "accepted": null
+  },
+  "procedures": [
+   {
+    "system": "CPT",
+    "code": "93000",
+    "description": "Electrocardiogram with interpretation and report",
+    "rank": 1,
+    "rationale": "Electrocardiogram with interpretation and report performed today in clinic, as ECG was done while patient was waiting and results discussed.",
+    "evidence": [
+     {
+      "turn": 22,
+      "quote": "We also did an ECG while you were waiting. It shows a slow, regular rhythm, a rate of 52, and no heart block.",
+      "verified": true,
+      "score": 1.0
+     }
+    ],
+    "valid": true,
+    "billable": true,
+    "flags": [],
+    "accepted": null
+   }
+  ],
+  "mdm": {
+   "problems": "moderate",
+   "data": "moderate",
+   "risk": "moderate",
+   "level": "moderate",
+   "code": "99214",
+   "reasons": [
+    "problems: undiagnosed new problem with uncertain prognosis",
+    "data: tests ordered or reviewed plus an independent interpretation",
+    "risk: prescription drug management"
+   ]
+  },
+  "section_status": {
+   "subjective": "draft",
+   "objective": "draft",
+   "assessment": "draft",
+   "plan": "draft"
+  },
+  "model": "openrouter/nvidia/nemotron-3-super-120b-a12b:free",
+  "created_at": "2026-10-14T02:11:52.808491Z",
+  "signed_by": null,
+  "signed_at": null,
+  "timings": {
+   "phi_masking": 0.025,
+   "llm_note": 25.2,
+   "guards_note": 0.053,
+   "llm_codes": 8.41,
+   "guards_codes": 0.038,
+   "total": 33.726,
+   "wall": 33.744
+  },
+  "usage": {
+   "model_ms": 33610,
+   "input_tokens": 4875,
+   "output_tokens": 4297,
+   "calls": 2
+  },
+  "phi": {
+   "NAME": 2,
+   "DOB": 1,
+   "AGE": 1,
+   "ADDRESS": 1,
+   "PHONE": 1
+  }
+ },
+ "vault": {
+  "originals": {
+   "[PATIENT]": "Odessa Turner",
+   "[DOB]": "April 19, 1935",
+   "[AGE_90_PLUS]": "91 years old",
+   "[NAME_1]": "Gloria",
+   "[ADDRESS_1]": "room I",
+   "[PHONE_1]": "555 -0177"
+  },
+  "surfaces": {
+   "[PATIENT]": [
+    "Odessa Turner",
+    "Turner"
+   ],
+   "[DOB]": [
+    "April 19, 1935"
+   ],
+   "[AGE_90_PLUS]": [
+    "91",
+    "91 years old"
+   ],
+   "[NAME_1]": [
+    "Gloria"
+   ],
+   "[ADDRESS_1]": [
+    "room I"
+   ],
+   "[PHONE_1]": [
+    "555 -0177"
+   ]
+  },
+  "types": {
+   "[PATIENT]": "NAME",
+   "[DOB]": "DOB",
+   "[AGE_90_PLUS]": "AGE",
+   "[NAME_1]": "NAME",
+   "[ADDRESS_1]": "ADDRESS",
+   "[PHONE_1]": "PHONE"
+  },
+  "counters": {
+   "NAME": 1,
+   "ADDRESS": 1,
+   "PHONE": 1
+  }
+ },
+ "score": {
+  "case": "pc-08",
+  "specialty": "primary_care",
+  "facts": 30,
+  "found": 30,
+  "found_in_section": 29,
+  "negation_errors": [],
+  "trap_errors": [],
+  "missed": [],
+  "statements": 36,
+  "statements_matching_gold": 34,
+  "unsupported": 0,
+  "partial": 3,
+  "flags": {
+   "partial_support": 3,
+   "negation": 3,
+   "dose_mismatch": 1
+  },
+  "meds": 7,
+  "meds_found": 7,
+  "meds_dose_correct": 4,
+  "icd_primary": "R53.83",
+  "icd_suggested": [
+   "R53.83",
+   "R00.1",
+   "I95.1"
+  ],
+  "icd_top1": true,
+  "icd_top3": true,
+  "icd_top3_lenient": true,
+  "icd_top3_category": true,
+  "icd_gold_recall": 0.6666666666666666,
+  "icd_invalid": 0,
+  "em_gold": "99214",
+  "em_suggested": "99214",
+  "em_exact": true,
+  "em_within_one": true,
+  "em_rule_estimate": "99214",
+  "procedures_gold": 2,
+  "procedures_found": 1
+ },
+ "egress_residue": {}
+}

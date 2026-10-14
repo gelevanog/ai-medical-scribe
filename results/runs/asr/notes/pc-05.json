@@ -1,0 +1,1021 @@
+{
+ "note": {
+  "visit_id": "pc-05",
+  "statements": [
+   {
+    "id": "s1",
+    "section": "subjective",
+    "text": "Patient reports feeling fine with no complaints.",
+    "evidence": [
+     {
+      "turn": 5,
+      "quote": "Honestly, I feel fine. No complaints.",
+      "verified": true,
+      "score": 1.0
+     }
+    ],
+    "support": "supported",
+    "flags": [],
+    "origin": "model",
+    "edited": false
+   },
+   {
+    "id": "s2",
+    "section": "subjective",
+    "text": "Patient reports smoking about a pack a day for thirty years.",
+    "evidence": [
+     {
+      "turn": 7,
+      "quote": "About a pack a day. I started when I was twenty -two, so about thirty years.",
+      "verified": true,
+      "score": 1.0
+     }
+    ],
+    "support": "supported",
+    "flags": [],
+    "origin": "model",
+    "edited": false
+   },
+   {
+    "id": "s3",
+    "section": "subjective",
+    "text": "Patient reports previous quit attempt using nicotine patch for six months in 2019.",
+    "evidence": [
+     {
+      "turn": 9,
+      "quote": "Yeah, in two thousand nineteen I used the patch and made it six months.",
+      "verified": true,
+      "score": 1.0
+     }
+    ],
+    "support": "partial",
+    "flags": [
+     {
+      "kind": "partial_support",
+      "severity": "error",
+      "message": "Quoted turn does not contain 2019; check against the transcript.",
+      "acknowledged": false,
+      "detail": {
+       "numbers_not_in_evidence": [
+        "2019"
+       ]
+      }
+     }
+    ],
+    "origin": "model",
+    "edited": false
+   },
+   {
+    "id": "s4",
+    "section": "subjective",
+    "text": "Patient denies cough, chest pain, or shortness of breath.",
+    "evidence": [
+     {
+      "turn": 10,
+      "quote": "Any cough, chest pain, or shortness of breath?",
+      "verified": true,
+      "score": 1.0
+     },
+     {
+      "turn": 11,
+      "quote": "Nope, none of those.",
+      "verified": true,
+      "score": 1.0
+     }
+    ],
+    "support": "supported",
+    "flags": [],
+    "origin": "model",
+    "edited": false
+   },
+   {
+    "id": "s5",
+    "section": "subjective",
+    "text": "Patient denies blood in stool or unexplained weight loss.",
+    "evidence": [
+     {
+      "turn": 12,
+      "quote": "Any blood in your stool or weight loss you can't explain?",
+      "verified": true,
+      "score": 1.0
+     },
+     {
+      "turn": 13,
+      "quote": "No.",
+      "verified": true,
+      "score": 1.0
+     }
+    ],
+    "support": "supported",
+    "flags": [],
+    "origin": "model",
+    "edited": false
+   },
+   {
+    "id": "s6",
+    "section": "subjective",
+    "text": "Patient reports alcohol use of two or three beers per week.",
+    "evidence": [
+     {
+      "turn": 14,
+      "quote": "Alcohols?",
+      "verified": true,
+      "score": 1.0
+     },
+     {
+      "turn": 15,
+      "quote": "Two or three beers a week, maybe.",
+      "verified": true,
+      "score": 1.0
+     }
+    ],
+    "support": "supported",
+    "flags": [],
+    "origin": "model",
+    "edited": false
+   },
+   {
+    "id": "s7",
+    "section": "subjective",
+    "text": "Patient reports family history: mother had breast cancer in 2021, treated with chemo, now doing well.",
+    "evidence": [
+     {
+      "turn": 17,
+      "quote": "My mum had breast cancer back in 2021. She did chemo, she's doing great now.",
+      "verified": true,
+      "score": 1.0
+     }
+    ],
+    "support": "supported",
+    "flags": [],
+    "origin": "model",
+    "edited": false
+   },
+   {
+    "id": "s8",
+    "section": "subjective",
+    "text": "Patient reports father is 80 years old and still golfing.",
+    "evidence": [
+     {
+      "turn": 17,
+      "quote": "Dad's fine, he's 80 and still golfing.",
+      "verified": true,
+      "score": 1.0
+     }
+    ],
+    "support": "supported",
+    "flags": [],
+    "origin": "model",
+    "edited": false
+   },
+   {
+    "id": "s9",
+    "section": "subjective",
+    "text": "Patient reports taking a multivitamin most days, no other regular medications.",
+    "evidence": [
+     {
+      "turn": 19,
+      "quote": "Nothing. Just a multivitamin most days.",
+      "verified": true,
+      "score": 1.0
+     }
+    ],
+    "support": "supported",
+    "flags": [],
+    "origin": "model",
+    "edited": false
+   },
+   {
+    "id": "s10",
+    "section": "subjective",
+    "text": "Patient reports no known medication allergies.",
+    "evidence": [
+     {
+      "turn": 20,
+      "quote": "And no allergies to medications?",
+      "verified": true,
+      "score": 1.0
+     },
+     {
+      "turn": 21,
+      "quote": "Not that I know of.",
+      "verified": true,
+      "score": 1.0
+     }
+    ],
+    "support": "supported",
+    "flags": [],
+    "origin": "model",
+    "edited": false
+   },
+   {
+    "id": "o1",
+    "section": "objective",
+    "text": "Blood pressure is 132 over 82.",
+    "evidence": [
+     {
+      "turn": 22,
+      "quote": "Your blood pressure is one hundred thirty -two over eighty -two",
+      "verified": true,
+      "score": 1.0
+     }
+    ],
+    "support": "partial",
+    "flags": [
+     {
+      "kind": "partial_support",
+      "severity": "error",
+      "message": "Quoted turn does not contain 132, 82; check against the transcript.",
+      "acknowledged": false,
+      "detail": {
+       "numbers_not_in_evidence": [
+        "132",
+        "82"
+       ]
+      }
+     }
+    ],
+    "origin": "model",
+    "edited": false
+   },
+   {
+    "id": "o2",
+    "section": "objective",
+    "text": "Pulse is seventy-eight.",
+    "evidence": [
+     {
+      "turn": 22,
+      "quote": "pulse seventy -eight",
+      "verified": true,
+      "score": 1.0
+     }
+    ],
+    "support": "supported",
+    "flags": [],
+    "origin": "model",
+    "edited": false
+   },
+   {
+    "id": "o3",
+    "section": "objective",
+    "text": "Weight is 205 pounds.",
+    "evidence": [
+     {
+      "turn": 22,
+      "quote": "and weight is two hundred five pounds.",
+      "verified": true,
+      "score": 1.0
+     }
+    ],
+    "support": "partial",
+    "flags": [
+     {
+      "kind": "partial_support",
+      "severity": "error",
+      "message": "Quoted turn does not contain 205; check against the transcript.",
+      "acknowledged": false,
+      "detail": {
+       "numbers_not_in_evidence": [
+        "205"
+       ]
+      }
+     }
+    ],
+    "origin": "model",
+    "edited": false
+   },
+   {
+    "id": "o4",
+    "section": "objective",
+    "text": "Heart is regular with no murmurs.",
+    "evidence": [
+     {
+      "turn": 22,
+      "quote": "Heart is regular, no murmurs.",
+      "verified": true,
+      "score": 1.0
+     }
+    ],
+    "support": "supported",
+    "flags": [],
+    "origin": "model",
+    "edited": false
+   },
+   {
+    "id": "o5",
+    "section": "objective",
+    "text": "Lungs are clear with no wheezing.",
+    "evidence": [
+     {
+      "turn": 22,
+      "quote": "Lungs are clear, no wheezing.",
+      "verified": true,
+      "score": 1.0
+     }
+    ],
+    "support": "supported",
+    "flags": [],
+    "origin": "model",
+    "edited": false
+   },
+   {
+    "id": "o6",
+    "section": "objective",
+    "text": "Abdomen is soft and non-tender.",
+    "evidence": [
+     {
+      "turn": 22,
+      "quote": "Belly is soft and non -tender.",
+      "verified": true,
+      "score": 1.0
+     }
+    ],
+    "support": "supported",
+    "flags": [],
+    "origin": "model",
+    "edited": false
+   },
+   {
+    "id": "o7",
+    "section": "objective",
+    "text": "No edema in legs.",
+    "evidence": [
+     {
+      "turn": 22,
+      "quote": "No swelling in your legs.",
+      "verified": true,
+      "score": 1.0
+     }
+    ],
+    "support": "supported",
+    "flags": [],
+    "origin": "model",
+    "edited": false
+   },
+   {
+    "id": "a1",
+    "section": "assessment",
+    "text": "Tobacco use disorder, ready to quit.",
+    "evidence": [
+     {
+      "turn": 5,
+      "quote": "I want to talk about the smoking. I think I'm ready to quit for real.",
+      "verified": true,
+      "score": 1.0
+     }
+    ],
+    "support": "supported",
+    "flags": [],
+    "origin": "model",
+    "edited": false
+   },
+   {
+    "id": "a2",
+    "section": "assessment",
+    "text": "Patient due for screening colonoscopy at age 52.",
+    "evidence": [
+     {
+      "turn": 24,
+      "quote": "You've never had a colonoscopy, right?",
+      "verified": true,
+      "score": 1.0
+     },
+     {
+      "turn": 25,
+      "quote": "Never. I keep putting it off.",
+      "verified": true,
+      "score": 1.0
+     },
+     {
+      "turn": 26,
+      "quote": "You're 52, so you do. I'll put in a referral to gastroenterology for a screening colonoscopy",
+      "verified": true,
+      "score": 1.0
+     }
+    ],
+    "support": "supported",
+    "flags": [],
+    "origin": "model",
+    "edited": false
+   },
+   {
+    "id": "a3",
+    "section": "assessment",
+    "text": "Patient qualifies for yearly low-dose CT lung cancer screening due to 30 pack-year smoking history.",
+    "evidence": [
+     {
+      "turn": 26,
+      "quote": "because you've smoked about 30 pack years, you qualify for a yearly low -dose CT scan at the chest to screen for lung cancer. I'll order that, too.",
+      "verified": true,
+      "score": 1.0
+     }
+    ],
+    "support": "supported",
+    "flags": [],
+    "origin": "model",
+    "edited": false
+   },
+   {
+    "id": "a4",
+    "section": "assessment",
+    "text": "Patient due for fasting labs including cholesterol panel and A1C.",
+    "evidence": [
+     {
+      "turn": 28,
+      "quote": "And I'd like fasting labs, a cholesterol panel, and an A1C to check for diabetes.",
+      "verified": true,
+      "score": 1.0
+     }
+    ],
+    "support": "supported",
+    "flags": [],
+    "origin": "model",
+    "edited": false
+   },
+   {
+    "id": "a5",
+    "section": "assessment",
+    "text": "Patient is due for influenza vaccination.",
+    "evidence": [
+     {
+      "turn": 28,
+      "quote": "We do have the flu shot today, would you like it?",
+      "verified": true,
+      "score": 1.0
+     },
+     {
+      "turn": 29,
+      "quote": "Sure, go ahead.",
+      "verified": true,
+      "score": 1.0
+     }
+    ],
+    "support": "partial",
+    "flags": [
+     {
+      "kind": "partial_support",
+      "severity": "warning",
+      "message": "Quoted turn does not contain most of its terms; check against the transcript.",
+      "acknowledged": false,
+      "detail": {}
+     }
+    ],
+    "origin": "model",
+    "edited": false
+   },
+   {
+    "id": "p1",
+    "section": "plan",
+    "text": "Set quit date for November 1st.",
+    "evidence": [
+     {
+      "turn": 30,
+      "quote": "How about November 1st? That's a Sunday.",
+      "verified": true,
+      "score": 1.0
+     },
+     {
+      "turn": 31,
+      "quote": "November 1st? Okay, yeah.",
+      "verified": true,
+      "score": 1.0
+     }
+    ],
+    "support": "supported",
+    "flags": [],
+    "origin": "model",
+    "edited": false
+   },
+   {
+    "id": "p2",
+    "section": "plan",
+    "text": "Start 21 mg nicotine patch daily on quit date.",
+    "evidence": [
+     {
+      "turn": 32,
+      "quote": "start the twenty -one milligram nicotine patch that morning, one patch a day",
+      "verified": true,
+      "score": 1.0
+     }
+    ],
+    "support": "partial",
+    "flags": [
+     {
+      "kind": "partial_support",
+      "severity": "error",
+      "message": "Quoted turn does not contain 21; check against the transcript.",
+      "acknowledged": false,
+      "detail": {
+       "numbers_not_in_evidence": [
+        "21"
+       ]
+      }
+     }
+    ],
+    "origin": "model",
+    "edited": false
+   },
+   {
+    "id": "p3",
+    "section": "plan",
+    "text": "Use 2 mg nicotine gum as needed for cravings.",
+    "evidence": [
+     {
+      "turn": 32,
+      "quote": "use nicotine gum two milligrams when you get a craving",
+      "verified": true,
+      "score": 1.0
+     }
+    ],
+    "support": "supported",
+    "flags": [],
+    "origin": "model",
+    "edited": false
+   },
+   {
+    "id": "p4",
+    "section": "plan",
+    "text": "Advise patient to remove lighters and ashtrays.",
+    "evidence": [
+     {
+      "turn": 32,
+      "quote": "Get rid of the lighters and ashtrays",
+      "verified": true,
+      "score": 1.0
+     }
+    ],
+    "support": "supported",
+    "flags": [],
+    "origin": "model",
+    "edited": false
+   },
+   {
+    "id": "p5",
+    "section": "plan",
+    "text": "Recommend nicotine gum in cup holder to manage cravings in car.",
+    "evidence": [
+     {
+      "turn": 34,
+      "quote": "Keep gum in the cup holder then.",
+      "verified": true,
+      "score": 1.0
+     },
+     {
+      "turn": 33,
+      "quote": "The car is the big one for me.",
+      "verified": true,
+      "score": 1.0
+     }
+    ],
+    "support": "supported",
+    "flags": [],
+    "origin": "model",
+    "edited": false
+   },
+   {
+    "id": "p6",
+    "section": "plan",
+    "text": "Refer patient to quit line at 1-800-Quit Now for free coaching.",
+    "evidence": [
+     {
+      "turn": 32,
+      "quote": "You can also call the quit line, 1 -800 -Quit Now for free coaching.",
+      "verified": true,
+      "score": 1.0
+     }
+    ],
+    "support": "supported",
+    "flags": [],
+    "origin": "model",
+    "edited": false
+   },
+   {
+    "id": "p7",
+    "section": "plan",
+    "text": "Order referral to gastroenterology for screening colonoscopy.",
+    "evidence": [
+     {
+      "turn": 26,
+      "quote": "I'll put in a referral to gastroenterology for a screening colonoscopy",
+      "verified": true,
+      "score": 1.0
+     }
+    ],
+    "support": "supported",
+    "flags": [],
+    "origin": "model",
+    "edited": false
+   },
+   {
+    "id": "p8",
+    "section": "plan",
+    "text": "Order yearly low-dose CT chest for lung cancer screening.",
+    "evidence": [
+     {
+      "turn": 26,
+      "quote": "I'll order that, too.",
+      "verified": true,
+      "score": 1.0
+     }
+    ],
+    "support": "supported",
+    "flags": [],
+    "origin": "model",
+    "edited": false
+   },
+   {
+    "id": "p9",
+    "section": "plan",
+    "text": "Order fasting labs: cholesterol panel and A1C.",
+    "evidence": [
+     {
+      "turn": 28,
+      "quote": "And I'd like fasting labs, a cholesterol panel, and an A1C to check for diabetes.",
+      "verified": true,
+      "score": 1.0
+     }
+    ],
+    "support": "supported",
+    "flags": [],
+    "origin": "model",
+    "edited": false
+   },
+   {
+    "id": "p10",
+    "section": "plan",
+    "text": "Administer influenza vaccine today in left arm.",
+    "evidence": [
+     {
+      "turn": 29,
+      "quote": "Sure, go ahead.",
+      "verified": true,
+      "score": 1.0
+     },
+     {
+      "turn": 30,
+      "quote": "Great, the nurse will give you the flu shot in your left arm before you leave.",
+      "verified": true,
+      "score": 1.0
+     }
+    ],
+    "support": "supported",
+    "flags": [],
+    "origin": "model",
+    "edited": false
+   },
+   {
+    "id": "p11",
+    "section": "plan",
+    "text": "Return in one month to review quit progress and labs.",
+    "evidence": [
+     {
+      "turn": 34,
+      "quote": "I'll see you in one month to check how the quit is going and we'll go over the labs then.",
+      "verified": true,
+      "score": 1.0
+     }
+    ],
+    "support": "supported",
+    "flags": [],
+    "origin": "model",
+    "edited": false
+   }
+  ],
+  "medications": [
+   {
+    "name": "multivitamin",
+    "dose": "unspecified",
+    "frequency": "most days",
+    "route": "oral",
+    "status": "active",
+    "evidence": [
+     {
+      "turn": 19,
+      "quote": "Just a multivitamin most days.",
+      "verified": true,
+      "score": 1.0
+     }
+    ],
+    "flags": []
+   }
+  ],
+  "allergies": [],
+  "after_visit_summary": "Today we discussed your health and your goal to quit smoking. You feel well with no new symptoms. You smoke about a pack a day and have tried quitting before. Your blood pressure is 132/82, pulse 78, and weight 205 lbs. Your heart, lungs, and abdomen exam were normal. We set your quit date for November 1st. On that day, start the 21 mg nicotine patch each day and use 2 mg nicotine gum when you have cravings. Keep gum in your car to help with urges while driving. Throw away lighters and ashtrays. You can call 1-800-Quit Now for free support. We also ordered a colonoscopy referral because you are 52, and a yearly lung cancer CT scan due to your smoking history. Labs for cholesterol and diabetes were ordered. You received a flu shot in your left arm today. Return in one month to check on your quit progress and review your lab results. Keep up the great work—quitting smoking is the best thing you can do for your health.",
+  "avs_flags": [],
+  "icd10": [
+   {
+    "system": "ICD-10-CM",
+    "code": "Z72.0",
+    "description": "Tobacco use",
+    "rank": 1,
+    "rationale": "Tobacco use disorder, ready to quit, assessed and managed during the visit.",
+    "evidence": [
+     {
+      "turn": 5,
+      "quote": "I think I'm ready to quit for real.",
+      "verified": true,
+      "score": 1.0
+     },
+     {
+      "turn": 7,
+      "quote": "About a pack a day. I started when I was twenty -two, so about thirty years.",
+      "verified": true,
+      "score": 1.0
+     },
+     {
+      "turn": 30,
+      "quote": "Let's pick a quit date. How about November 1st? That's a Sunday.",
+      "verified": true,
+      "score": 1.0
+     }
+    ],
+    "valid": true,
+    "billable": true,
+    "flags": [],
+    "accepted": null
+   },
+   {
+    "system": "ICD-10-CM",
+    "code": "Z12.11",
+    "description": "Encounter for screening for malignant neoplasm of colon",
+    "rank": 2,
+    "rationale": "Encounter for screening for malignant neoplasm of colon, patient due for screening colonoscopy at age 52.",
+    "evidence": [
+     {
+      "turn": 24,
+      "quote": "You've never had a colonoscopy, right?",
+      "verified": true,
+      "score": 1.0
+     },
+     {
+      "turn": 25,
+      "quote": "Never. I keep putting it off.",
+      "verified": true,
+      "score": 1.0
+     },
+     {
+      "turn": 26,
+      "quote": "You're 52, so you do. I'll put in a referral to gastroenterology for a screening colonoscopy",
+      "verified": true,
+      "score": 1.0
+     }
+    ],
+    "valid": true,
+    "billable": true,
+    "flags": [],
+    "accepted": null
+   },
+   {
+    "system": "ICD-10-CM",
+    "code": "Z12.2",
+    "description": "Encounter for screening for malignant neoplasm of respiratory organs",
+    "rank": 3,
+    "rationale": "Encounter for screening for malignant neoplasm of lung, patient qualifies for yearly low-dose CT lung cancer screening due to 30 pack-year smoking history.",
+    "evidence": [
+     {
+      "turn": 7,
+      "quote": "About a pack a day. I started when I was twenty -two, so about thirty years.",
+      "verified": true,
+      "score": 1.0
+     },
+     {
+      "turn": 26,
+      "quote": "because you've smoked about 30 pack years, you qualify for a yearly low -dose CT scan at the chest to screen for lung cancer. I'll order that, too.",
+      "verified": true,
+      "score": 1.0
+     }
+    ],
+    "valid": true,
+    "billable": true,
+    "flags": [],
+    "accepted": null
+   },
+   {
+    "system": "ICD-10-CM",
+    "code": "Z13.228",
+    "description": "Encounter for screening for other metabolic disorders",
+    "rank": 4,
+    "rationale": "Encounter for screening for lipid disorders, patient due for fasting labs including cholesterol panel.",
+    "evidence": [
+     {
+      "turn": 28,
+      "quote": "And I'd like fasting labs, a cholesterol panel, and an A1C to check for diabetes.",
+      "verified": true,
+      "score": 1.0
+     }
+    ],
+    "valid": true,
+    "billable": true,
+    "flags": [],
+    "accepted": null
+   },
+   {
+    "system": "ICD-10-CM",
+    "code": "Z13.1",
+    "description": "Encounter for screening for diabetes mellitus",
+    "rank": 5,
+    "rationale": "Encounter for screening for diabetes, patient due for fasting labs including A1C.",
+    "evidence": [
+     {
+      "turn": 28,
+      "quote": "And I'd like fasting labs, a cholesterol panel, and an A1C to check for diabetes.",
+      "verified": true,
+      "score": 1.0
+     }
+    ],
+    "valid": true,
+    "billable": true,
+    "flags": [],
+    "accepted": null
+   }
+  ],
+  "em": {
+   "system": "CPT",
+   "code": "99214",
+   "description": "Established patient office visit, moderate-complexity decision making",
+   "rank": 1,
+   "rationale": "Established patient with multiple chronic conditions (tobacco use disorder) and preventive screenings requiring moderate complexity medical decision making: management of tobacco cessation, ordering of three screening tests (colonoscopy, lung CT, labs), and administration of influenza vaccine; risk moderate due to prescription drug management (nicotine replacement therapy).",
+   "evidence": [],
+   "valid": true,
+   "billable": true,
+   "flags": [
+    {
+     "kind": "em_mismatch",
+     "severity": "warning",
+     "message": "The rule-based MDM estimate is low (99213): problems: one minor problem; data: 4 tests or sources; risk: over-the-counter drugs, minor procedure or counseling",
+     "acknowledged": false,
+     "detail": {
+      "estimate": "99213"
+     }
+    }
+   ],
+   "accepted": null
+  },
+  "procedures": [
+   {
+    "system": "CPT",
+    "code": "90471",
+    "description": "Immunization administration, one vaccine",
+    "rank": 1,
+    "rationale": "Administration of influenza vaccine today in left arm.",
+    "evidence": [
+     {
+      "turn": 29,
+      "quote": "Sure, go ahead.",
+      "verified": true,
+      "score": 1.0
+     },
+     {
+      "turn": 30,
+      "quote": "Great, the nurse will give you the flu shot in your left arm before you leave.",
+      "verified": true,
+      "score": 1.0
+     }
+    ],
+    "valid": true,
+    "billable": true,
+    "flags": [],
+    "accepted": null
+   }
+  ],
+  "mdm": {
+   "problems": "straightforward",
+   "data": "moderate",
+   "risk": "low",
+   "level": "low",
+   "code": "99213",
+   "reasons": [
+    "problems: one minor problem",
+    "data: 4 tests or sources",
+    "risk: over-the-counter drugs, minor procedure or counseling"
+   ]
+  },
+  "section_status": {
+   "subjective": "draft",
+   "objective": "draft",
+   "assessment": "draft",
+   "plan": "draft"
+  },
+  "model": "openrouter/nvidia/nemotron-3-super-120b-a12b:free",
+  "created_at": "2026-10-14T02:10:04.645049Z",
+  "signed_by": null,
+  "signed_at": null,
+  "timings": {
+   "phi_masking": 0.027,
+   "llm_note": 27.3,
+   "guards_note": 0.047,
+   "llm_codes": 8.01,
+   "guards_codes": 0.03,
+   "total": 35.414,
+   "wall": 35.435
+  },
+  "usage": {
+   "model_ms": 35310,
+   "input_tokens": 4839,
+   "output_tokens": 3054,
+   "calls": 2
+  },
+  "phi": {
+   "NAME": 3,
+   "DOB": 1,
+   "ADDRESS": 1,
+   "AGE": 1,
+   "DATE": 1
+  }
+ },
+ "vault": {
+  "originals": {
+   "[PATIENT]": "Brendan Gallagher",
+   "[DOB]": "August 30th, 1974",
+   "[NAME_1]": "Siobhan",
+   "[ADDRESS_1]": "Canton",
+   "[AGE_90_PLUS]": "one hundred",
+   "[DATE_1]": "November 1st",
+   "[NAME_2]": "Zhu"
+  },
+  "surfaces": {
+   "[PATIENT]": [
+    "Brendan",
+    "Brendan Gallagher"
+   ],
+   "[DOB]": [
+    "August 30th, 1974"
+   ],
+   "[NAME_1]": [
+    "Siobhan"
+   ],
+   "[ADDRESS_1]": [
+    "Canton"
+   ],
+   "[AGE_90_PLUS]": [
+    "one hundred"
+   ],
+   "[DATE_1]": [
+    "November 1st"
+   ],
+   "[NAME_2]": [
+    "Zhu"
+   ]
+  },
+  "types": {
+   "[PATIENT]": "NAME",
+   "[DOB]": "DOB",
+   "[NAME_1]": "NAME",
+   "[ADDRESS_1]": "ADDRESS",
+   "[AGE_90_PLUS]": "AGE",
+   "[DATE_1]": "DATE",
+   "[NAME_2]": "NAME"
+  },
+  "counters": {
+   "NAME": 2,
+   "ADDRESS": 1,
+   "DATE": 1
+  }
+ },
+ "score": {
+  "case": "pc-05",
+  "specialty": "primary_care",
+  "facts": 27,
+  "found": 24,
+  "found_in_section": 23,
+  "negation_errors": [],
+  "trap_errors": [],
+  "missed": [
+   "f13 [subjective] Never had a colonoscopy",
+   "f14 [subjective] Tetanus vaccine in 2020, up to date",
+   "f17 [assessment] Routine adult preventive exam, normal findings"
+  ],
+  "statements": 33,
+  "statements_matching_gold": 28,
+  "unsupported": 0,
+  "partial": 5,
+  "flags": {
+   "partial_support": 5
+  },
+  "meds": 4,
+  "meds_found": 1,
+  "meds_dose_correct": 0,
+  "icd_primary": "Z00.00",
+  "icd_suggested": [
+   "Z72.0",
+   "Z12.11",
+   "Z12.2",
+   "Z13.228",
+   "Z13.1"
+  ],
+  "icd_top1": false,
+  "icd_top3": false,
+  "icd_top3_lenient": false,
+  "icd_top3_category": false,
+  "icd_gold_recall": 0.0,
+  "icd_invalid": 0,
+  "em_gold": "99213",
+  "em_suggested": "99214",
+  "em_exact": false,
+  "em_within_one": true,
+  "em_rule_estimate": "99213",
+  "procedures_gold": 3,
+  "procedures_found": 1
+ },
+ "egress_residue": {}
+}

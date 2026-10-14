@@ -1,0 +1,1139 @@
+{
+ "note": {
+  "visit_id": "pc-07",
+  "statements": [
+   {
+    "id": "s1",
+    "section": "subjective",
+    "text": "Diagnosed with Hashimoto's in 2015",
+    "evidence": [
+     {
+      "turn": 7,
+      "quote": "I was diagnosed with Hashimoto's in 2015.",
+      "verified": true,
+      "score": 1.0
+     }
+    ],
+    "support": "supported",
+    "flags": [],
+    "origin": "model",
+    "edited": false
+   },
+   {
+    "id": "s2",
+    "section": "subjective",
+    "text": "Taking levothyroxine 88 micrograms every morning",
+    "evidence": [
+     {
+      "turn": 7,
+      "quote": "I take Levothyric Sign, 88 micrograms every morning.",
+      "verified": true,
+      "score": 1.0
+     }
+    ],
+    "support": "partial",
+    "flags": [
+     {
+      "kind": "partial_support",
+      "severity": "error",
+      "message": "Quoted turn does not contain levothyroxine; check against the transcript.",
+      "acknowledged": false,
+      "detail": {
+       "drugs_not_in_evidence": [
+        "levothyroxine"
+       ]
+      }
+     }
+    ],
+    "origin": "model",
+    "edited": false
+   },
+   {
+    "id": "s3",
+    "section": "subjective",
+    "text": "Takes levothyroxine with coffee and calcium",
+    "evidence": [
+     {
+      "turn": 9,
+      "quote": "Um, honestly, with my coffee and my calcium, all together.",
+      "verified": true,
+      "score": 1.0
+     }
+    ],
+    "support": "partial",
+    "flags": [
+     {
+      "kind": "partial_support",
+      "severity": "error",
+      "message": "Quoted turn does not contain levothyroxine; check against the transcript.",
+      "acknowledged": false,
+      "detail": {
+       "drugs_not_in_evidence": [
+        "levothyroxine"
+       ]
+      }
+     }
+    ],
+    "origin": "model",
+    "edited": false
+   },
+   {
+    "id": "s4",
+    "section": "subjective",
+    "text": "Feeling more tired than usual",
+    "evidence": [
+     {
+      "turn": 11,
+      "quote": "A little more tired than usual, and I'm always cold.",
+      "verified": true,
+      "score": 1.0
+     }
+    ],
+    "support": "supported",
+    "flags": [],
+    "origin": "model",
+    "edited": false
+   },
+   {
+    "id": "s5",
+    "section": "subjective",
+    "text": "Feeling cold",
+    "evidence": [
+     {
+      "turn": 11,
+      "quote": "A little more tired than usual, and I'm always cold.",
+      "verified": true,
+      "score": 1.0
+     }
+    ],
+    "support": "supported",
+    "flags": [],
+    "origin": "model",
+    "edited": false
+   },
+   {
+    "id": "s6",
+    "section": "subjective",
+    "text": "No constipation",
+    "evidence": [
+     {
+      "turn": 12,
+      "quote": "Any constipation, hair thinning, or weight changes?",
+      "verified": true,
+      "score": 1.0
+     },
+     {
+      "turn": 13,
+      "quote": "No, my weight is the same. Hair's fine.",
+      "verified": true,
+      "score": 1.0
+     }
+    ],
+    "support": "supported",
+    "flags": [],
+    "origin": "model",
+    "edited": false
+   },
+   {
+    "id": "s7",
+    "section": "subjective",
+    "text": "No hair thinning",
+    "evidence": [
+     {
+      "turn": 12,
+      "quote": "Any constipation, hair thinning, or weight changes?",
+      "verified": true,
+      "score": 1.0
+     },
+     {
+      "turn": 13,
+      "quote": "No, my weight is the same. Hair's fine.",
+      "verified": true,
+      "score": 1.0
+     }
+    ],
+    "support": "supported",
+    "flags": [],
+    "origin": "model",
+    "edited": false
+   },
+   {
+    "id": "s8",
+    "section": "subjective",
+    "text": "Weight unchanged",
+    "evidence": [
+     {
+      "turn": 12,
+      "quote": "Any constipation, hair thinning, or weight changes?",
+      "verified": true,
+      "score": 1.0
+     },
+     {
+      "turn": 13,
+      "quote": "No, my weight is the same. Hair's fine.",
+      "verified": true,
+      "score": 1.0
+     }
+    ],
+    "support": "supported",
+    "flags": [],
+    "origin": "model",
+    "edited": false
+   },
+   {
+    "id": "s9",
+    "section": "subjective",
+    "text": "No racing heart or palpitations",
+    "evidence": [
+     {
+      "turn": 14,
+      "quote": "Any racing heart or palpitations?",
+      "verified": true,
+      "score": 1.0
+     },
+     {
+      "turn": 15,
+      "quote": "No.",
+      "verified": true,
+      "score": 1.0
+     }
+    ],
+    "support": "supported",
+    "flags": [],
+    "origin": "model",
+    "edited": false
+   },
+   {
+    "id": "s10",
+    "section": "subjective",
+    "text": "Father had heart attack at 58",
+    "evidence": [
+     {
+      "turn": 18,
+      "quote": "Any heart disease in the family.",
+      "verified": true,
+      "score": 1.0
+     },
+     {
+      "turn": 19,
+      "quote": "My father had a heart attack at 58.",
+      "verified": true,
+      "score": 1.0
+     }
+    ],
+    "support": "supported",
+    "flags": [],
+    "origin": "model",
+    "edited": false
+   },
+   {
+    "id": "s11",
+    "section": "subjective",
+    "text": "Taking vitamin D 2000 units daily",
+    "evidence": [
+     {
+      "turn": 21,
+      "quote": "vitamin d 2000 units a day and a hair skin and nails gummy I think it has biotin",
+      "verified": true,
+      "score": 1.0
+     }
+    ],
+    "support": "supported",
+    "flags": [],
+    "origin": "model",
+    "edited": false
+   },
+   {
+    "id": "s12",
+    "section": "subjective",
+    "text": "Taking hair, skin, and nails gummy with biotin",
+    "evidence": [
+     {
+      "turn": 21,
+      "quote": "vitamin d 2000 units a day and a hair skin and nails gummy I think it has biotin",
+      "verified": true,
+      "score": 1.0
+     }
+    ],
+    "support": "supported",
+    "flags": [],
+    "origin": "model",
+    "edited": false
+   },
+   {
+    "id": "s13",
+    "section": "subjective",
+    "text": "Taking calcium 600 milligrams once daily",
+    "evidence": [
+     {
+      "turn": 21,
+      "quote": "the calcium is 600 milligrams once a day",
+      "verified": true,
+      "score": 1.0
+     }
+    ],
+    "support": "supported",
+    "flags": [],
+    "origin": "model",
+    "edited": false
+   },
+   {
+    "id": "s14",
+    "section": "subjective",
+    "text": "Does not smoke",
+    "evidence": [
+     {
+      "turn": 21,
+      "quote": "do you smoke never any allergies to medicines",
+      "verified": true,
+      "score": 1.0
+     }
+    ],
+    "support": "supported",
+    "flags": [
+     {
+      "kind": "negation",
+      "severity": "error",
+      "message": "The transcript says the opposite: 'smoke' (turns 21).",
+      "acknowledged": false,
+      "detail": {
+       "concept": "tobacco_use",
+       "turns": [
+        21
+       ]
+      }
+     }
+    ],
+    "origin": "model",
+    "edited": false
+   },
+   {
+    "id": "s15",
+    "section": "subjective",
+    "text": "Allergic to codeine, causes vomiting",
+    "evidence": [
+     {
+      "turn": 21,
+      "quote": "any allergies to medicines codine makes me throw up really badly",
+      "verified": true,
+      "score": 1.0
+     }
+    ],
+    "support": "partial",
+    "flags": [
+     {
+      "kind": "partial_support",
+      "severity": "warning",
+      "message": "Quoted turn does not contain most of its terms; check against the transcript.",
+      "acknowledged": false,
+      "detail": {}
+     }
+    ],
+    "origin": "model",
+    "edited": false
+   },
+   {
+    "id": "o1",
+    "section": "objective",
+    "text": "Blood pressure 124 over 78",
+    "evidence": [
+     {
+      "turn": 22,
+      "quote": "your blood pressure is 124 over 78, pulse 66, weight 158 pounds.",
+      "verified": true,
+      "score": 1.0
+     }
+    ],
+    "support": "supported",
+    "flags": [],
+    "origin": "model",
+    "edited": false
+   },
+   {
+    "id": "o2",
+    "section": "objective",
+    "text": "Pulse 66",
+    "evidence": [
+     {
+      "turn": 22,
+      "quote": "your blood pressure is 124 over 78, pulse 66, weight 158 pounds.",
+      "verified": true,
+      "score": 1.0
+     }
+    ],
+    "support": "supported",
+    "flags": [],
+    "origin": "model",
+    "edited": false
+   },
+   {
+    "id": "o3",
+    "section": "objective",
+    "text": "Weight 158 pounds",
+    "evidence": [
+     {
+      "turn": 22,
+      "quote": "your blood pressure is 124 over 78, pulse 66, weight 158 pounds.",
+      "verified": true,
+      "score": 1.0
+     }
+    ],
+    "support": "supported",
+    "flags": [],
+    "origin": "model",
+    "edited": false
+   },
+   {
+    "id": "o4",
+    "section": "objective",
+    "text": "Thyroid not enlarged, no nodules",
+    "evidence": [
+     {
+      "turn": 22,
+      "quote": "Let me feel your neck. Thyroid isn't enlarged and I don't feel any nodules.",
+      "verified": true,
+      "score": 1.0
+     }
+    ],
+    "support": "supported",
+    "flags": [],
+    "origin": "model",
+    "edited": false
+   },
+   {
+    "id": "o5",
+    "section": "objective",
+    "text": "Skin is a little dry",
+    "evidence": [
+     {
+      "turn": 22,
+      "quote": "Skin is a little dry, heart is regular, lungs are clear, and your reflexes are normal.",
+      "verified": true,
+      "score": 1.0
+     }
+    ],
+    "support": "supported",
+    "flags": [],
+    "origin": "model",
+    "edited": false
+   },
+   {
+    "id": "o6",
+    "section": "objective",
+    "text": "Heart is regular",
+    "evidence": [
+     {
+      "turn": 22,
+      "quote": "Skin is a little dry, heart is regular, lungs are clear, and your reflexes are normal.",
+      "verified": true,
+      "score": 1.0
+     }
+    ],
+    "support": "supported",
+    "flags": [],
+    "origin": "model",
+    "edited": false
+   },
+   {
+    "id": "o7",
+    "section": "objective",
+    "text": "Lungs are clear",
+    "evidence": [
+     {
+      "turn": 22,
+      "quote": "Skin is a little dry, heart is regular, lungs are clear, and your reflexes are normal.",
+      "verified": true,
+      "score": 1.0
+     }
+    ],
+    "support": "supported",
+    "flags": [],
+    "origin": "model",
+    "edited": false
+   },
+   {
+    "id": "o8",
+    "section": "objective",
+    "text": "Reflexes are normal",
+    "evidence": [
+     {
+      "turn": 22,
+      "quote": "Skin is a little dry, heart is regular, lungs are clear, and your reflexes are normal.",
+      "verified": true,
+      "score": 1.0
+     }
+    ],
+    "support": "supported",
+    "flags": [],
+    "origin": "model",
+    "edited": false
+   },
+   {
+    "id": "o9",
+    "section": "objective",
+    "text": "Last TSH 5.8",
+    "evidence": [
+     {
+      "turn": 16,
+      "quote": "Your last TSH in the records from May was 5 .8, which is a bit high.",
+      "verified": true,
+      "score": 1.0
+     }
+    ],
+    "support": "partial",
+    "flags": [
+     {
+      "kind": "partial_support",
+      "severity": "error",
+      "message": "Quoted turn does not contain 5.8; check against the transcript.",
+      "acknowledged": false,
+      "detail": {
+       "numbers_not_in_evidence": [
+        "5.8"
+       ]
+      }
+     }
+    ],
+    "origin": "model",
+    "edited": false
+   },
+   {
+    "id": "o10",
+    "section": "objective",
+    "text": "Total cholesterol 248",
+    "evidence": [
+     {
+      "turn": 16,
+      "quote": "And your cholesterol panel from May shows total cholesterol 248, LDL 164, HDL 52, and triglycerides 160.",
+      "verified": true,
+      "score": 1.0
+     }
+    ],
+    "support": "supported",
+    "flags": [],
+    "origin": "model",
+    "edited": false
+   },
+   {
+    "id": "o11",
+    "section": "objective",
+    "text": "LDL 164",
+    "evidence": [
+     {
+      "turn": 16,
+      "quote": "And your cholesterol panel from May shows total cholesterol 248, LDL 164, HDL 52, and triglycerides 160.",
+      "verified": true,
+      "score": 1.0
+     }
+    ],
+    "support": "supported",
+    "flags": [],
+    "origin": "model",
+    "edited": false
+   },
+   {
+    "id": "o12",
+    "section": "objective",
+    "text": "HDL 52",
+    "evidence": [
+     {
+      "turn": 16,
+      "quote": "And your cholesterol panel from May shows total cholesterol 248, LDL 164, HDL 52, and triglycerides 160.",
+      "verified": true,
+      "score": 1.0
+     }
+    ],
+    "support": "supported",
+    "flags": [],
+    "origin": "model",
+    "edited": false
+   },
+   {
+    "id": "o13",
+    "section": "objective",
+    "text": "Triglycerides 160",
+    "evidence": [
+     {
+      "turn": 16,
+      "quote": "And your cholesterol panel from May shows total cholesterol 248, LDL 164, HDL 52, and triglycerides 160.",
+      "verified": true,
+      "score": 1.0
+     }
+    ],
+    "support": "supported",
+    "flags": [],
+    "origin": "model",
+    "edited": false
+   },
+   {
+    "id": "a1",
+    "section": "assessment",
+    "text": "Hypothyroidism from Hashimoto's disease",
+    "evidence": [
+     {
+      "turn": 24,
+      "quote": "So, two things. First, your hypothyroidism from Hashimoto's.",
+      "verified": true,
+      "score": 1.0
+     }
+    ],
+    "support": "supported",
+    "flags": [],
+    "origin": "model",
+    "edited": false
+   },
+   {
+    "id": "a2",
+    "section": "assessment",
+    "text": "Elevated TSH",
+    "evidence": [
+     {
+      "turn": 24,
+      "quote": "The TSH was a little high and I think part of that is the way you're taking the pill.",
+      "verified": true,
+      "score": 1.0
+     }
+    ],
+    "support": "supported",
+    "flags": [],
+    "origin": "model",
+    "edited": false
+   },
+   {
+    "id": "a3",
+    "section": "assessment",
+    "text": "High cholesterol",
+    "evidence": [
+     {
+      "turn": 28,
+      "quote": "Second, your cholesterol is high and an underactive thyroid can raise cholesterol",
+      "verified": true,
+      "score": 1.0
+     }
+    ],
+    "support": "supported",
+    "flags": [],
+    "origin": "model",
+    "edited": false
+   },
+   {
+    "id": "p1",
+    "section": "plan",
+    "text": "Take levothyroxine alone with water first thing in the morning, at least 30 to 60 minutes before coffee or breakfast",
+    "evidence": [
+     {
+      "turn": 24,
+      "quote": "take the levathuric sign alone with water first thing in the morning, at least 30 to 60 minutes before coffee or breakfast",
+      "verified": true,
+      "score": 1.0
+     }
+    ],
+    "support": "partial",
+    "flags": [
+     {
+      "kind": "partial_support",
+      "severity": "error",
+      "message": "Quoted turn does not contain levothyroxine; check against the transcript.",
+      "acknowledged": false,
+      "detail": {
+       "drugs_not_in_evidence": [
+        "levothyroxine"
+       ]
+      }
+     }
+    ],
+    "origin": "model",
+    "edited": false
+   },
+   {
+    "id": "p2",
+    "section": "plan",
+    "text": "Take calcium at least four hours later with dinner",
+    "evidence": [
+     {
+      "turn": 24,
+      "quote": "and take the calcium at least four hours later with dinner is easiest.",
+      "verified": true,
+      "score": 1.0
+     }
+    ],
+    "support": "supported",
+    "flags": [],
+    "origin": "model",
+    "edited": false
+   },
+   {
+    "id": "p3",
+    "section": "plan",
+    "text": "Continue levothyroxine 88 micrograms daily",
+    "evidence": [
+     {
+      "turn": 26,
+      "quote": "Keep the dose at 88 micrograms for now.",
+      "verified": true,
+      "score": 1.0
+     }
+    ],
+    "support": "partial",
+    "flags": [
+     {
+      "kind": "partial_support",
+      "severity": "error",
+      "message": "Quoted turn does not contain levothyroxine; check against the transcript.",
+      "acknowledged": false,
+      "detail": {
+       "drugs_not_in_evidence": [
+        "levothyroxine"
+       ]
+      }
+     }
+    ],
+    "origin": "model",
+    "edited": false
+   },
+   {
+    "id": "p4",
+    "section": "plan",
+    "text": "Recheck TSH and free T4 in six weeks",
+    "evidence": [
+     {
+      "turn": 26,
+      "quote": "I'll recheck the TSH and a free T4 in six weeks once you've been taking it the right way.",
+      "verified": true,
+      "score": 1.0
+     }
+    ],
+    "support": "supported",
+    "flags": [],
+    "origin": "model",
+    "edited": false
+   },
+   {
+    "id": "p5",
+    "section": "plan",
+    "text": "Stop biotin gummy three days before blood draw",
+    "evidence": [
+     {
+      "turn": 26,
+      "quote": "Stop the biotin gummy three days before that blood draw because biotin can throw off thyroid tests.",
+      "verified": true,
+      "score": 1.0
+     }
+    ],
+    "support": "supported",
+    "flags": [],
+    "origin": "model",
+    "edited": false
+   },
+   {
+    "id": "p6",
+    "section": "plan",
+    "text": "If TSH still above 4.5, increase levothyroxine to 100 micrograms",
+    "evidence": [
+     {
+      "turn": 28,
+      "quote": "If the TSH is still above 4 .5, we'd go up to 100 micrograms, but let's see first.",
+      "verified": true,
+      "score": 1.0
+     }
+    ],
+    "support": "partial",
+    "flags": [
+     {
+      "kind": "partial_support",
+      "severity": "error",
+      "message": "Quoted turn does not contain 4.5, levothyroxine; check against the transcript.",
+      "acknowledged": false,
+      "detail": {
+       "numbers_not_in_evidence": [
+        "4.5"
+       ],
+       "drugs_not_in_evidence": [
+        "levothyroxine"
+       ]
+      }
+     }
+    ],
+    "origin": "model",
+    "edited": false
+   },
+   {
+    "id": "p7",
+    "section": "plan",
+    "text": "Order fasting lipid panel with thyroid labs",
+    "evidence": [
+     {
+      "turn": 28,
+      "quote": "I'd like a fasting lipid panel with the thyroid labs and then we'll talk about your overall heart risk",
+      "verified": true,
+      "score": 1.0
+     }
+    ],
+    "support": "supported",
+    "flags": [],
+    "origin": "model",
+    "edited": false
+   },
+   {
+    "id": "p8",
+    "section": "plan",
+    "text": "Increase fiber, reduce saturated fat, regular exercise for cholesterol",
+    "evidence": [
+     {
+      "turn": 28,
+      "quote": "Meanwhile, more fiber, less saturated fat, and regular exercise.",
+      "verified": true,
+      "score": 1.0
+     }
+    ],
+    "support": "supported",
+    "flags": [],
+    "origin": "model",
+    "edited": false
+   },
+   {
+    "id": "p9",
+    "section": "plan",
+    "text": "Follow-up in six to eight weeks after labs",
+    "evidence": [
+     {
+      "turn": 30,
+      "quote": "I'll see you in six to eight weeks after the labs.",
+      "verified": true,
+      "score": 1.0
+     }
+    ],
+    "support": "supported",
+    "flags": [],
+    "origin": "model",
+    "edited": false
+   }
+  ],
+  "medications": [
+   {
+    "name": "levothyroxine",
+    "dose": "88 micrograms",
+    "frequency": "once daily",
+    "route": "oral",
+    "status": "active",
+    "evidence": [
+     {
+      "turn": 7,
+      "quote": "I take Levothyric Sign, 88 micrograms every morning.",
+      "verified": true,
+      "score": 1.0
+     }
+    ],
+    "flags": []
+   },
+   {
+    "name": "vitamin D",
+    "dose": "2000 units",
+    "frequency": "once daily",
+    "route": "oral",
+    "status": "active",
+    "evidence": [
+     {
+      "turn": 21,
+      "quote": "vitamin d 2000 units a day and a hair skin and nails gummy I think it has biotin",
+      "verified": true,
+      "score": 1.0
+     }
+    ],
+    "flags": []
+   },
+   {
+    "name": "calcium",
+    "dose": "600 milligrams",
+    "frequency": "once daily",
+    "route": "oral",
+    "status": "active",
+    "evidence": [
+     {
+      "turn": 21,
+      "quote": "the calcium is 600 milligrams once a day",
+      "verified": true,
+      "score": 1.0
+     }
+    ],
+    "flags": []
+   },
+   {
+    "name": "biotin (in hair, skin, nails gummy)",
+    "dose": "unspecified",
+    "frequency": "unspecified",
+    "route": "oral",
+    "status": "active",
+    "evidence": [
+     {
+      "turn": 21,
+      "quote": "vitamin d 2000 units a day and a hair skin and nails gummy I think it has biotin",
+      "verified": true,
+      "score": 1.0
+     }
+    ],
+    "flags": [
+     {
+      "kind": "unknown_drug",
+      "severity": "warning",
+      "message": "'biotin (in hair, skin, nails gummy)' is not in the drug list: check the spelling and the dose yourself.",
+      "acknowledged": false,
+      "detail": {}
+     }
+    ]
+   }
+  ],
+  "allergies": [
+   {
+    "substance": "codeine",
+    "reaction": "vomiting",
+    "evidence": [
+     {
+      "turn": 21,
+      "quote": "any allergies to medicines codine makes me throw up really badly",
+      "verified": true,
+      "score": 1.0
+     }
+    ]
+   }
+  ],
+  "after_visit_summary": "You have Hashimoto's-related hypothyroidism and high cholesterol. Your thyroid medicine dose is 88 micrograms daily. Take it with water first thing in the morning, wait 30-60 minutes before coffee or breakfast, and take your calcium at least 4 hours later with dinner. Stop the biotin gummy 3 days before your blood test in 6 weeks. Continue vitamin D 2000 units daily. We will recheck your thyroid and cholesterol labs then. For cholesterol, eat more fiber, less saturated fat, and exercise regularly. If your TSH remains high, we may increase your thyroid medicine. Follow-up in 6-8 weeks. Warning signs: worsening fatigue, weight gain, or chest pain. Contact us if these occur.",
+  "avs_flags": [],
+  "icd10": [
+   {
+    "system": "ICD-10-CM",
+    "code": "E03.8",
+    "description": "Other specified hypothyroidism",
+    "rank": 1,
+    "rationale": "Hypothyroidism from Hashimoto's disease is assessed as the primary condition; E03.8 (Other specified hypothyroidism) is the most specific billable code supported by documentation of diagnosed Hashimoto's with elevated TSH and symptoms consistent with hypothyroidism.",
+    "evidence": [
+     {
+      "turn": 7,
+      "quote": "I was diagnosed with Hashimoto's in 2015.",
+      "verified": true,
+      "score": 1.0
+     },
+     {
+      "turn": 16,
+      "quote": "Your last TSH in the records from May was 5 .8, which is a bit high.",
+      "verified": true,
+      "score": 1.0
+     },
+     {
+      "turn": 24,
+      "quote": "So, two things. First, your hypothyroidism from Hashimoto's.",
+      "verified": true,
+      "score": 1.0
+     }
+    ],
+    "valid": true,
+    "billable": true,
+    "flags": [],
+    "accepted": null
+   },
+   {
+    "system": "ICD-10-CM",
+    "code": "E78.2",
+    "description": "Mixed hyperlipidemia",
+    "rank": 2,
+    "rationale": "Elevated cholesterol with total cholesterol 248, LDL 164, HDL 52, triglycerides 160 meets criteria for mixed hyperlipidemia; E78.2 is the most specific billable code supported by lipid panel results and clinician assessment.",
+    "evidence": [
+     {
+      "turn": 16,
+      "quote": "your cholesterol panel from May shows total cholesterol 248, LDL 164, HDL 52, and triglycerides 160.",
+      "verified": true,
+      "score": 1.0
+     },
+     {
+      "turn": 28,
+      "quote": "Second, your cholesterol is high and an underactive thyroid can raise cholesterol...",
+      "verified": true,
+      "score": 1.0
+     }
+    ],
+    "valid": true,
+    "billable": true,
+    "flags": [],
+    "accepted": null
+   }
+  ],
+  "em": {
+   "system": "CPT",
+   "code": "99203",
+   "description": "New patient office visit, low-complexity decision making",
+   "rank": 1,
+   "rationale": "New patient visit with 2 stable chronic conditions (hypothyroidism, hyperlipidemia), limited data reviewed (prior labs), and low risk (prescription drug management for levothyroxine only) corresponds to moderate complexity MDM, requiring 99203 under 2021 AMA guidelines.",
+   "evidence": [],
+   "valid": true,
+   "billable": true,
+   "flags": [
+    {
+     "kind": "em_mismatch",
+     "severity": "warning",
+     "message": "The rule-based MDM estimate is moderate (99204): problems: one stable chronic illness or two self-limited problems; data: 5 tests or sources; risk: prescription drug management",
+     "acknowledged": false,
+     "detail": {
+      "estimate": "99204"
+     }
+    }
+   ],
+   "accepted": null
+  },
+  "procedures": [],
+  "mdm": {
+   "problems": "low",
+   "data": "moderate",
+   "risk": "moderate",
+   "level": "moderate",
+   "code": "99204",
+   "reasons": [
+    "problems: one stable chronic illness or two self-limited problems",
+    "data: 5 tests or sources",
+    "risk: prescription drug management"
+   ]
+  },
+  "section_status": {
+   "subjective": "draft",
+   "objective": "draft",
+   "assessment": "draft",
+   "plan": "draft"
+  },
+  "model": "openrouter/nvidia/nemotron-3-super-120b-a12b:free",
+  "created_at": "2026-10-14T02:11:19.040367Z",
+  "signed_by": null,
+  "signed_at": null,
+  "timings": {
+   "phi_masking": 0.018,
+   "llm_note": 18.01,
+   "guards_note": 0.032,
+   "llm_codes": 6.39,
+   "guards_codes": 0.031,
+   "total": 24.481,
+   "wall": 24.5
+  },
+  "usage": {
+   "model_ms": 24400,
+   "input_tokens": 4649,
+   "output_tokens": 3211,
+   "calls": 2
+  },
+  "phi": {
+   "NAME": 3,
+   "DOB": 1,
+   "ADDRESS": 2,
+   "DATE": 2,
+   "ORG": 1,
+   "EMAIL": 1
+  }
+ },
+ "vault": {
+  "originals": {
+   "[NAME_1]": "Aleman",
+   "[PATIENT]": "Svetlana Petrovah",
+   "[DOB]": "December 4th, 1979",
+   "[ADDRESS_1]": "4417 Juniper Ridge Drive",
+   "[ADDRESS_2]": "Pittsburgh",
+   "[DATE_1]": "August",
+   "[NAME_2]": "Ostrowski",
+   "[ORG_1]": "Levothyric Sign",
+   "[DATE_2]": "May",
+   "[EMAIL_1]": "spetrova79 at example .com"
+  },
+  "surfaces": {
+   "[NAME_1]": [
+    "Aleman"
+   ],
+   "[PATIENT]": [
+    "Svetlana",
+    "Svetlana Petrovah"
+   ],
+   "[DOB]": [
+    "December 4th, 1979"
+   ],
+   "[ADDRESS_1]": [
+    "4417 Juniper Ridge Drive"
+   ],
+   "[ADDRESS_2]": [
+    "Pittsburgh"
+   ],
+   "[DATE_1]": [
+    "August"
+   ],
+   "[NAME_2]": [
+    "Ostrowski"
+   ],
+   "[ORG_1]": [
+    "Levothyric Sign"
+   ],
+   "[DATE_2]": [
+    "May"
+   ],
+   "[EMAIL_1]": [
+    "spetrova79 at example .com"
+   ]
+  },
+  "types": {
+   "[NAME_1]": "NAME",
+   "[PATIENT]": "NAME",
+   "[DOB]": "DOB",
+   "[ADDRESS_1]": "ADDRESS",
+   "[ADDRESS_2]": "ADDRESS",
+   "[DATE_1]": "DATE",
+   "[NAME_2]": "NAME",
+   "[ORG_1]": "ORG",
+   "[DATE_2]": "DATE",
+   "[EMAIL_1]": "EMAIL"
+  },
+  "counters": {
+   "NAME": 2,
+   "ADDRESS": 2,
+   "DATE": 2,
+   "ORG": 1,
+   "EMAIL": 1
+  }
+ },
+ "score": {
+  "case": "pc-07",
+  "specialty": "primary_care",
+  "facts": 28,
+  "found": 26,
+  "found_in_section": 25,
+  "negation_errors": [],
+  "trap_errors": [],
+  "missed": [
+   "f1 [subjective] New patient, moved from Pittsburgh in August; records from prior physician reviewed",
+   "f13 [subjective] Not on any cholesterol medication, previously advised diet"
+  ],
+  "statements": 40,
+  "statements_matching_gold": 34,
+  "unsupported": 0,
+  "partial": 7,
+  "flags": {
+   "partial_support": 7,
+   "negation": 1,
+   "unknown_drug": 1
+  },
+  "meds": 4,
+  "meds_found": 4,
+  "meds_dose_correct": 3,
+  "icd_primary": "E06.3",
+  "icd_suggested": [
+   "E03.8",
+   "E78.2"
+  ],
+  "icd_top1": false,
+  "icd_top3": false,
+  "icd_top3_lenient": false,
+  "icd_top3_category": false,
+  "icd_gold_recall": 0.3333333333333333,
+  "icd_invalid": 0,
+  "em_gold": "99204",
+  "em_suggested": "99203",
+  "em_exact": false,
+  "em_within_one": true,
+  "em_rule_estimate": "99204",
+  "procedures_gold": 0,
+  "procedures_found": 0
+ },
+ "egress_residue": {}
+}

@@ -778,20 +778,14 @@
   "icd10": [
    {
     "system": "ICD-10-CM",
-    "code": "E03.9",
-    "description": "Hypothyroidism, unspecified",
+    "code": "E03.3",
+    "description": "Postinfectious hypothyroidism",
     "rank": 1,
-    "rationale": "Hypothyroidism, unspecified is the most specific billable code supported by the assessment of hypothyroidism due to Hashimoto's thyroiditis, as the candidate list does not include E06.3 (Autoimmune thyroiditis) which would be more specific for Hashimoto's.",
+    "rationale": "Postinfectious hypothyroidism due to Hashimoto's thyroiditis, the confirmed diagnosis assessed in this visit.",
     "evidence": [
      {
       "turn": 7,
-      "quote": "I was diagnosed with Hashimoto's in 2015. I take levothyroxine, 88 micrograms every morning.",
-      "verified": true,
-      "score": 1.0
-     },
-     {
-      "turn": 16,
-      "quote": "Your last TSH in the records, from May, was 5.8, which is a bit high.",
+      "quote": "I was diagnosed with Hashimoto's in 2015.",
       "verified": true,
       "score": 1.0
      },
@@ -812,7 +806,7 @@
     "code": "E78.2",
     "description": "Mixed hyperlipidemia",
     "rank": 2,
-    "rationale": "Mixed hyperlipidemia is the most specific billable code supported by the assessment of elevated total cholesterol, LDL, and triglycerides with low HDL, consistent with the lipid panel results provided.",
+    "rationale": "Mixed hyperlipidemia, the specific lipid abnormality assessed and documented in this visit.",
     "evidence": [
      {
       "turn": 16,
@@ -838,7 +832,7 @@
    "code": "99203",
    "description": "New patient office visit, low-complexity decision making",
    "rank": 1,
-   "rationale": "For a new patient visit, the medical decision making involves two stable chronic conditions (hypothyroidism and hyperlipidemia) with low risk (prescription drug management for levothyroxine and lifestyle advice), which corresponds to moderate complexity and supports level 99203 under the 2021 AMA office visit guidelines.",
+   "rationale": "New patient visit with two stable chronic problems (hypothyroidism, hyperlipidemia), limited data reviewed (prior labs), and low risk (lifestyle counseling only), meeting criteria for 99203.",
    "evidence": [],
    "valid": true,
    "billable": true,
@@ -875,22 +869,22 @@
    "plan": "draft"
   },
   "model": "openrouter/nvidia/nemotron-3-super-120b-a12b:free",
-  "created_at": "2026-10-13T07:03:48.008196Z",
+  "created_at": "2026-10-14T02:24:28.298192Z",
   "signed_by": null,
   "signed_at": null,
   "timings": {
-   "phi_masking": 0.028,
+   "phi_masking": 0.017,
    "llm_note": 19.1,
-   "guards_note": 0.049,
-   "llm_codes": 4.28,
-   "guards_codes": 0.036,
-   "total": 23.493,
-   "wall": 0.16
+   "guards_note": 0.033,
+   "llm_codes": 4.1,
+   "guards_codes": 0.023,
+   "total": 23.273,
+   "wall": 0.104
   },
   "usage": {
-   "model_ms": 23380,
-   "input_tokens": 4738,
-   "output_tokens": 3192,
+   "model_ms": 23200,
+   "input_tokens": 4735,
+   "output_tokens": 3055,
    "calls": 2
   },
   "phi": {
@@ -985,14 +979,14 @@
   "meds_dose_correct": 3,
   "icd_primary": "E06.3",
   "icd_suggested": [
-   "E03.9",
+   "E03.3",
    "E78.2"
   ],
   "icd_top1": false,
   "icd_top3": false,
-  "icd_top3_lenient": true,
+  "icd_top3_lenient": false,
   "icd_top3_category": false,
-  "icd_gold_recall": 0.6666666666666666,
+  "icd_gold_recall": 0.3333333333333333,
   "icd_invalid": 0,
   "em_gold": "99204",
   "em_suggested": "99203",

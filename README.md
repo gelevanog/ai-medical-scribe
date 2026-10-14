@@ -12,9 +12,7 @@
 ![mypy strict](https://img.shields.io/badge/mypy-strict-2a6db2)
 ![License: MIT](https://img.shields.io/badge/License-MIT-green)
 
-https://github.com/user-attachments/assets/1b25856a-46f8-41e5-8f3f-b0dcdf451123
-
-<sub>78-second walkthrough with voiceover. Can't play it? [Download the MP4](docs/demo.mp4).</sub>
+<!-- demo-video -->
 
 ![The review screen: transcript with speaker roles, the SOAP note with the evidence of the hovered statement highlighted in the transcript, ICD-10-CM and E/M suggestions with the rule-based MDM estimate, and the sign-off checklist](docs/screenshots/hero.png)
 
@@ -22,23 +20,23 @@ https://github.com/user-attachments/assets/1b25856a-46f8-41e5-8f3f-b0dcdf451123
 
 > **Not a medical device. Demo only, not for clinical use.** Every patient, clinician, name, number and address in this repository is synthetic. Notewell is a portfolio project that shows how such a system is built and measured; it is not cleared or approved for clinical use and it makes no claim of HIPAA compliance (see [HIPAA-minded design](#hipaa-minded-design)).
 
-**Measured on 2026-10-13** on a 16-core laptop CPU (AMD Ryzen 9 7940HS, no GPU, shared with other jobs), on **32 synthetic visits** (5 specialties, 134 minutes of two-voice audio, 878 gold SOAP facts, 251 spoken identifiers), with the free model `nvidia/nemotron-3-super-120b-a12b:free`:
+**Measured on 2026-10-13 and 2026-10-14** (the leak test, the main run and the audio-to-note run were repeated on 2026-10-14 with the current detector) on a 16-core laptop CPU (AMD Ryzen 9 7940HS, no GPU, shared with other jobs), on **32 synthetic visits** (5 specialties, 134 minutes of two-voice audio, 878 gold SOAP facts, 251 spoken identifiers), with the free model `nvidia/nemotron-3-super-120b-a12b:free`:
 
 | | Result |
 |---|---|
-| Identifiers reaching the cloud model, in every payload of every visit (gold identifiers + canary identities) | **0** in 64 + 64 payloads (32 visits, then 32 again with canary names, a canary contact and an injected phone and e-mail) |
+| Identifiers reaching the cloud model, in every payload of every visit (gold identifiers + canary identities) | **0** in 64 + 65 + 66 payloads (reference transcripts; the same visits with canary names, a canary contact and an injected phone and e-mail; speech-recognition transcripts) |
 | PHI detection recall on **held-out** utterances written after the detector was frozen | **79%** (134 of 169 identifiers; v1 on the first held-out set: 68%); registered identifiers (name, DOB, phone, MRN) are additionally blocked by the egress check |
-| Gold SOAP facts in the note, right polarity (in the right section) | **92.5%** (89.6%) of 878 facts; rule-based extractive baseline: 64.2% |
+| Gold SOAP facts in the note, right polarity (in the right section) | **92.6%** (89.6%) of 878 facts from the reference transcripts, **92.3%** (89.4%) from the speech-recognition transcripts; rule-based extractive baseline: 64.2% |
 | Note lines an independent reviewer found not supported by the conversation | **0.4%** (1 contradicted, 0 invented, 9 with a minor inaccuracy, of 275 lines in 8 visits) |
-| The guards on 236 deliberately corrupted notes (changed numbers, ×10 doses, swapped units, invented lines, fake / non-billable / denied codes, flipped negations) | **214 caught (91%)**: 96-100% for numbers, doses, units and codes, 91% for invented lines, **47% for flipped negations** |
+| The guards on 236 deliberately corrupted notes (changed numbers, ×10 doses, swapped units, invented lines, fake / non-billable / denied codes, flipped negations) | **216 caught (92%)**: 96-100% for numbers, doses, units and codes, 91% for invented lines, **53% for flipped negations** (47% before two concepts seen in the misses were added) |
 | ICD-10-CM primary code: top-1 exact / within the gold's acceptable alternatives / right category | **69%** / 84% / 84% (only billable, existing codes reach the clinician) |
 | E/M level: model exact / within one level / deterministic MDM estimate exact | 56% / **97%** / 69% |
 | Speech recognition (faster-whisper `small.en`, CPU), WER clean / noisy (15 dB) | **3.0% / 7.7%**; drug names and numbers recognized: 89.8% |
 | Speaker roles right (word level), different-sex / same-sex voice pairs | 92.9% overall: **98.1% / 78.8%** |
 | Time per visit on CPU (4.2-minute visit, median) | ASR **37.6 s** + masking 0.04 s + model 25 s (free tier, p95 40 s) + guards 0.1 s |
-| Cost | **$0**: 325 requests to free models (216 answered; the rest were rate limits and provider refusals, retried or given up), every requested and served model id ending in `:free` ([ledger](results/calls.jsonl)); about 5,100 input and 2,900 output tokens per visit |
+| Cost | **$0**: 401 requests to free models (291 answered; the rest were rate limits and provider refusals, retried or given up), every requested and served model id ending in `:free` ([ledger](results/calls.jsonl)); about 5,100 input and 2,900 output tokens per visit |
 
-**The honest verdict:** the parts that are code do what they claim on this data: no identifier reached a model, every suggested code that reaches the clinician exists and is billable, doses and numbers that nobody said are caught almost every time, and nothing is signed without a human. The free model writes good notes from a clean transcript: 92.5% of the gold facts, and a reviewer found one contradicted line in 275. The weak spots are measured and visible: the negation guard only knows the findings in its lexicon, so it caught about half of the flipped negations (the one real negation error in the audit, "denies dizziness" for a patient whose room "swims", was caught only after the lexicon learned lay words for dizziness); PHI detection of identifiers the clinic did not register is 79% on unseen phrasing, so the egress check on registered identifiers is the hard guarantee, not the detector (the offline run on speech-recognition transcripts found two lowercase organization names the detector missed; fixed and re-checked, see below); free-model coding picks the right primary ICD-10-CM code 69% of the time and misses preventive-visit Z codes; and the small diarizer is reliable only when the two voices differ in pitch. A stronger model, a real diarization model and real recordings are the next steps (see [Roadmap](#roadmap)). Details, failures and every number's source are below.
+**The honest verdict:** the parts that are code do what they claim on this data: no identifier reached a model, every suggested code that reaches the clinician exists and is billable, doses and numbers that nobody said are caught almost every time, and nothing is signed without a human. The free model writes good notes: 92.6% of the gold facts from the reference text and 92.3% from the CPU speech-recognition transcripts, and a reviewer found one contradicted line in 275. The weak spots are measured and visible: the negation guard only knows the findings in its lexicon, so it caught about half of the flipped negations (the one real negation error in the audit, "denies dizziness" for a patient whose room "swims", was caught only after the lexicon learned lay words for dizziness); PHI detection of identifiers the clinic did not register is 79% on unseen phrasing, so the egress check on registered identifiers is the hard guarantee, not the detector (the first run on speech-recognition transcripts found two lowercase organization names the detector missed; fixed, and all leak checks were repeated with the fix); free-model coding picks the right primary ICD-10-CM code 69% of the time and misses preventive-visit Z codes; and the small diarizer is reliable only when the two voices differ in pitch. A stronger model, a real diarization model and real recordings are the next steps (see [Roadmap](#roadmap)). Details, failures and every number's source are below.
 
 ## What problem it solves
 
@@ -156,21 +154,21 @@ The audio was synthesized with Kokoro-82M on CPU (44 minutes for 134 minutes of 
 
 Notes drafted from the reference transcripts, two requests per visit (note, then codes), scored against the gold annotations ([`results/runs/*/summary.json`](results/runs), per-visit notes and scores in `results/runs/*/notes/`):
 
-| Gold-transcript run | `nemotron-3-super-120b-a12b:free` | `apodex-1.1-mini:free` | Rule-based baseline (`fake`) |
-|---|---|---|---|
-| Fact recall, right polarity (right section) | **92.5%** (89.6%) | **94.9%** (91.8%) | 64.2% (47.8%) |
-| Statements matching a gold fact (lower bound on precision) | 91.0% of 943 | 90.1% of 896 | 72.9% of 669 |
-| Statements flagged by the grounding guard: unsupported / partly supported | 0% / 1.7% | 0% / 1.9% | 0% / 0.3% |
-| Negation errors flagged by the scorer (of 173 pertinent negatives) | 11 (1 real on review, see below) | 7 | 6 |
-| Trap errors (family history, hypotheticals, ... stated as the patient's) | **0** of 91 | 2 | 6 |
-| Medications found / dose right | 84.7% / 71.2% of 111 | 90.1% / 73.9% | 90.1% / 57.7% |
-| ICD-10-CM primary: top-1 = top-3 / alternatives / category | **68.8%** / 84.4% / 84.4% | 59.4% / 75.0% / 84.4% | 9.4% (top-3 21.9%) |
-| All gold diagnoses suggested | 64.1% | 63.0% | 21.4% |
-| E/M exact / within one level | 56.3% / 96.9% | 59.4% / 100% | 59.4% / 96.9% |
-| Deterministic MDM estimate exact (same notes) | **68.8%** | 65.6% | 53.1% |
-| CPT procedures found | 82.6% of 23 | 69.6% | 47.8% |
-| Identifiers in the 64 payloads | **0** | **0** | 0 |
-| Model time per visit, p50 / p95 | 24.9 s / 40.4 s | 20.9 s / 39.0 s | 0.2 s |
+| Run | `nemotron-3-super-120b-a12b:free` | same model, **from ASR transcripts** | `apodex-1.1-mini:free` | Rule-based baseline (`fake`) |
+|---|---|---|---|---|
+| Fact recall, right polarity (right section) | **92.6%** (89.6%) | **92.3%** (89.4%) | **94.9%** (91.8%) | 64.2% (47.8%) |
+| Statements matching a gold fact (lower bound on precision) | 91.1% of 941 | 90.1% of 948 | 90.1% of 896 | 72.9% of 669 |
+| Statements flagged by the grounding guard: unsupported / partly supported | 0% / 1.8% | 0.3% / 9.0% | 0% / 1.9% | 0% / 0.3% |
+| Negation errors flagged by the scorer (of 173 pertinent negatives) | 11 (1 real on review, see below) | 8 | 7 | 6 |
+| Trap errors (family history, hypotheticals, ... stated as the patient's) | **0** of 91 | **0** | 2 | 6 |
+| Medications found / dose right | 83.8% / 70.3% of 111 | 75.7% / 59.5% | 90.1% / 73.9% | 90.1% / 57.7% |
+| ICD-10-CM primary: top-1 = top-3 / alternatives / category | **68.8%** / 81.3% / 84.4% | 65.6% / 78.1% / 84.4% | 59.4% / 75.0% / 84.4% | 9.4% (top-3 21.9%) |
+| All gold diagnoses suggested | 62.0% | 60.4% | 63.0% | 21.4% |
+| E/M exact / within one level | 56.3% / 96.9% | 68.8% / 96.9% | 59.4% / 100% | 59.4% / 96.9% |
+| Deterministic MDM estimate exact (same notes) | **68.8%** | 68.8% | 65.6% | 53.1% |
+| CPT procedures found | 78.3% of 23 | 69.6% | 69.6% | 47.8% |
+| Identifiers in the payloads | **0** of 64 | **0** of 66 | **0** of 65 | 0 of 64 |
+| Model time per visit, p50 / p95 | 24.9 s / 40.4 s | 28.5 s / 45.9 s | 20.9 s / 39.0 s | 0.2 s |
 
 How the facts are scored: a gold fact counts as found when one note line contains every keyword group of the fact (any synonym) with the same polarity, judged by a NegEx-style scope check. The scorer is lenient about wording and strict about polarity; it misreads some lines, which is why the negation errors were reviewed by hand. Of the 11 the scorer flagged for the main run, **one is a real negation error** (pc-08: "Denies dizziness upon standing"; the patient said the room "kind of swims" when she gets out of bed). The others are scorer artifacts: a post-negation it missed ("radiates to the left arm, not to the jaw"), gold facts that are negative findings labelled present ("straight leg raise negative"), and keyword collisions ("fall asleep" for "no fall").
 
@@ -183,7 +181,7 @@ How the facts are scored: a gold fact counts as found when one note line contain
 | | Result |
 |---|---|
 | Identifiers in outgoing payloads, main run (64 payloads, gold identifiers + registration) | **0** |
-| Canary run: each visit's patient renamed to a canary identity (name, MRN) plus an injected unregistered contact (a relative's full name, a phone number, a spoken e-mail), 7 canary values per visit, 64 payloads | **0 leaks** ([`canary.json`](results/canary/canary.json)); one visit's codes request was refused by the provider (403), its payloads were still checked |
+| Canary run: each visit's patient renamed to a canary identity (name, MRN) plus an injected unregistered contact (a relative's full name, a phone number, a spoken e-mail), 7 canary values per visit, 65 payloads | **0 leaks** ([`canary.json`](results/canary/canary.json)), repeated with the current detector |
 | Dialogues, gold identifiers covered (development set, the detector was tuned on it) | 99.6% of 251 |
 | The same identifiers in the `small.en` transcripts (where recognition kept them recognizable) | 99.4% of 159 |
 | **Held-out set 1** (100 utterances, 148 identifiers, written by a separate agent before it was seen), detector v1 frozen | 68.2% ([`challenge_v1_frozen.json`](results/phi/challenge_v1_frozen.json)) |
@@ -206,7 +204,7 @@ faster-whisper int8 on CPU on the synthetic audio ([`results/asr/`](results/asr)
 
 Word-level speaker roles: **98.1%** on the 24 visits with a female and a male voice, **78.8%** on the 8 with two voices of the same sex (pd-01 and pd-03, two female voices, are mostly swapped: the voice clusters do not separate and the clinician cluster is chosen wrongly). The diarizer fits two voice centers (40 log-mel bands and pitch) on pause-separated chunks and labels each word with a Viterbi pass that makes speaker changes cheap at sentence ends; an earlier chunk-level version scored 81.6% overall, because Whisper glues the start of an answer to the end of a question. Most remaining recognition errors are rare drug names spoken by a TTS voice (`apixaban`, `lamotrigine`, `succinate`); a post-ASR correction maps near-misses to the drug list ("adorvastatin" to atorvastatin), which raised the key-term recall from 86.2% to 89.8%. The medical prompt changes little on clean audio; pink noise at 15 dB nearly triples the WER.
 
-**From audio to note.** The run that drafts notes from these `small.en` transcripts with the free model (`make eval-real`, second step) could not be completed on the measurement day: OpenRouter's daily free-model request limit (`free-models-per-day`) was exhausted after the other runs, every request of that run was refused with HTTP 429 (they are in the ledger as `retryable_error`), and the guard does not work around rate limits. The offline baseline shows the cost of recognition errors instead ([`results/runs/asr-fake`](results/runs/asr-fake/summary.json)): fact recall 54.6% from the ASR transcripts versus 64.2% from the reference text. That run also found a real privacy gap: Whisper writes unknown organization names in lowercase ("at her daycare, little acorns,", "Harbor point distribution, I'm a shift lead"), which the detector missed (2 identifiers in 64 payloads, both employers or daycares). The detector now handles appositions after daycare/school/work and business suffixes in any case; the re-run has **0** leaks. The gold-transcript runs above were measured before this fix.
+**From audio to note.** The same model drafted notes from these `small.en` transcripts (diarized, with recognition errors) instead of the reference text ([`results/runs/asr`](results/runs/asr/summary.json), the second column of the notes table): fact recall barely moves (92.3% vs 92.6%); what suffers is the structured detail: medications found 75.7% vs 83.8%, correct doses 59.5% vs 70.3%, and 9% of statements carry a partly-supported warning because a misheard number or drug name no longer matches the quote. One statement had no support at all. The egress check masked one residual name (a speech-recognition spelling of a registered name that the detector missed) before sending; no identifier left the machine. The first attempt at this run (2026-10-13) was refused by OpenRouter's daily free-model limit; its 429 responses are in the ledger as `retryable_error`. The offline baseline on the same transcripts ([`results/runs/asr-fake`](results/runs/asr-fake/summary.json)) found a real privacy gap first: Whisper writes unknown organization names in lowercase ("at her daycare, little acorns,", "Harbor point distribution, I'm a shift lead"), which the detector missed (2 identifiers in 64 payloads). The detector now handles appositions after daycare/school/work and business suffixes in any case; every leak check above was repeated with the fix.
 
 ### Guards on corrupted notes
 
@@ -219,13 +217,13 @@ Word-level speaker roles: **98.1%** on the 24 visits with a female and a male vo
 | a dose unit swapped (mg and mcg) | 26 | 100% |
 | an objective or assessment line copied from a visit of another specialty | 32 | 90.6% |
 | a non-billable category instead of the code / an invented code / a code for a symptom the patient denied | 32 / 32 / 23 | 100% / 100% / 100% |
-| "Denies X" flipped to "Reports X" | 32 | **46.9%** (53.1% after adding two concepts seen in the misses) |
+| "Denies X" flipped to "Reports X" | 32 | **53.1%** (46.9% before adding two concepts seen in the misses) |
 
 The negation guard needs the finding to be in its lexicon (94 concepts with lay synonyms); a flip of "no oozing or crusting" or "warts don't hurt" goes unnoticed. Missed invented lines are generic ones that happen to be true in the other visit too ("Lungs clear").
 
 ### Latency and cost
 
-Per visit, on the shared laptop CPU: speech recognition 37.6 s (median, `small.en`, real-time factor 0.14), diarization 1.3 s, masking 0.04 s, the free model 19.7 s for the note and 4.2 s for the codes (median; p95 37 s and 8.7 s, free-tier queueing included), guards 0.1 s. End to end about 64 s for a 4-minute visit. Notes take about 5,100 input and 2,900 output tokens per visit. All 325 requests ([ledger](results/calls.jsonl), [summary](results/calls_summary.json), `uv run notewell calls`) went to `:free` models: the smoke test of 8 candidates, development runs, the main and comparison runs, the ASR-transcript run and the canary run; $0.
+Per visit, on the shared laptop CPU: speech recognition 37.6 s (median, `small.en`, real-time factor 0.14), diarization 1.3 s, masking 0.04 s, the free model 19.9 s for the note and 4.2 s for the codes (median; p95 37 s and 8.7 s, free-tier queueing included), guards 0.1 s. End to end about 64 s for a 4-minute visit. Notes take about 5,100 input and 2,900 output tokens per visit. All 401 requests ([ledger](results/calls.jsonl), [summary](results/calls_summary.json), `uv run notewell calls`) went to `:free` models: the smoke test of 8 candidates, development runs, the main and comparison runs, the ASR-transcript run and the canary run; $0.
 
 **How the model was chosen** ([`results/smoke.json`](results/smoke.json)): eight free models drafted one visit. `nemotron-3-super-120b-a12b` with hidden reasoning disabled (with reasoning on it spent all 8,000 output tokens thinking and returned nothing) was fast (22 s) and complete; `nemotron-3-ultra-550b` and `dots-3-note-preview` were slower, `laguna-s-2.1` took 74 s, `nemotron-3.5-lightning` returned malformed JSON twice, both Gemma 4 models were rate-limited, and `inkling` refused API use ("only available on agentic harnesses").
 

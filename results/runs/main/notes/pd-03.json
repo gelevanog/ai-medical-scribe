@@ -5,7 +5,7 @@
    {
     "id": "s1",
     "section": "subjective",
-    "text": "Constipation for 2 months with hard stools every 3-4 days, crying with defecation, and stool-hiding behavior.",
+    "text": "Constipation for 2 months with hard stools every 3-4 days, associated with crying and holding behavior.",
     "evidence": [
      {
       "turn": 3,
@@ -68,7 +68,7 @@
    {
     "id": "s4",
     "section": "subjective",
-    "text": "Reports tummy pain right before bowel movements, otherwise well.",
+    "text": "Reports abdominal pain before bowel movements, otherwise well.",
     "evidence": [
      {
       "turn": 6,
@@ -84,7 +84,20 @@
      }
     ],
     "support": "supported",
-    "flags": [],
+    "flags": [
+     {
+      "kind": "negation",
+      "severity": "error",
+      "message": "The transcript says the opposite: 'abdominal pain' (turns 6).",
+      "acknowledged": false,
+      "detail": {
+       "concept": "abdominal_pain",
+       "turns": [
+        6
+       ]
+      }
+     }
+    ],
     "origin": "model",
     "edited": false
    },
@@ -154,7 +167,7 @@
    {
     "id": "s8",
     "section": "subjective",
-    "text": "No current medications.",
+    "text": "No medications beyond multivitamin.",
     "evidence": [
      {
       "turn": 10,
@@ -164,21 +177,13 @@
      },
      {
       "turn": 11,
-      "quote": "No medicines.",
+      "quote": "Just a kids' multivitamin gummy, 1 a day. No medicines.",
       "verified": true,
       "score": 1.0
      }
     ],
-    "support": "partial",
-    "flags": [
-     {
-      "kind": "partial_support",
-      "severity": "warning",
-      "message": "Quoted turn does not contain most of its terms; check against the transcript.",
-      "acknowledged": false,
-      "detail": {}
-     }
-    ],
+    "support": "supported",
+    "flags": [],
     "origin": "model",
     "edited": false
    },
@@ -208,7 +213,7 @@
    {
     "id": "s10",
     "section": "subjective",
-    "text": "Attends preschool 4 mornings per week at Sunflower Montessori; plays well with peers.",
+    "text": "Attends preschool 4 mornings per week; plays well with peers.",
     "evidence": [
      {
       "turn": 12,
@@ -254,23 +259,6 @@
    {
     "id": "s12",
     "section": "subjective",
-    "text": "Hops on one foot, draws people with arms and legs, dresses self mostly.",
-    "evidence": [
-     {
-      "turn": 15,
-      "quote": "She can hop on one foot, she draws people with arms and legs, she dresses herself, mostly.",
-      "verified": true,
-      "score": 1.0
-     }
-    ],
-    "support": "supported",
-    "flags": [],
-    "origin": "model",
-    "edited": false
-   },
-   {
-    "id": "s13",
-    "section": "subjective",
     "text": "Daytime potty trained since age 3.",
     "evidence": [
      {
@@ -286,7 +274,7 @@
     "edited": false
    },
    {
-    "id": "s14",
+    "id": "s13",
     "section": "subjective",
     "text": "Sleeps 10-11 hours per night; no snoring.",
     "evidence": [
@@ -309,9 +297,9 @@
     "edited": false
    },
    {
-    "id": "s15",
+    "id": "s14",
     "section": "subjective",
-    "text": "Sees dentist regularly; last visit last month, no cavities; brushes twice daily.",
+    "text": "Sees dentist regularly; last visit one month ago, no cavities; brushes twice daily.",
     "evidence": [
      {
       "turn": 18,
@@ -332,7 +320,7 @@
     "edited": false
    },
    {
-    "id": "s16",
+    "id": "s15",
     "section": "subjective",
     "text": "Uses forward-facing car seat with 5-point harness.",
     "evidence": [
@@ -355,7 +343,7 @@
     "edited": false
    },
    {
-    "id": "s17",
+    "id": "s16",
     "section": "subjective",
     "text": "Received flu shot this year at pharmacy on October 2nd.",
     "evidence": [
@@ -378,7 +366,7 @@
     "edited": false
    },
    {
-    "id": "s18",
+    "id": "s17",
     "section": "subjective",
     "text": "Had a cough on September; now resolved.",
     "evidence": [
@@ -431,11 +419,11 @@
    {
     "id": "o3",
     "section": "objective",
-    "text": "BMI at 65th percentile.",
+    "text": "BMI at 65th percentile for age.",
     "evidence": [
      {
       "turn": 22,
-      "quote": "and her BMI is around the 65th percentile",
+      "quote": "and her BMI is around the 65th percentile, so she's growing nicely",
       "verified": true,
       "score": 1.0
      }
@@ -448,7 +436,7 @@
    {
     "id": "o4",
     "section": "objective",
-    "text": "Blood pressure 94/56.",
+    "text": "Blood pressure 94/56 mmHg.",
     "evidence": [
      {
       "turn": 22,
@@ -465,7 +453,7 @@
    {
     "id": "o5",
     "section": "objective",
-    "text": "Vision: reads 20/30 line with each eye; passes screening for age 4.",
+    "text": "Vision: 20/30 bilaterally; passes screening for age 4.",
     "evidence": [
      {
       "turn": 22,
@@ -482,7 +470,7 @@
    {
     "id": "o6",
     "section": "objective",
-    "text": "Hearing screen passed bilaterally.",
+    "text": "Hearing: passed bilaterally.",
     "evidence": [
      {
       "turn": 22,
@@ -499,7 +487,7 @@
    {
     "id": "o7",
     "section": "objective",
-    "text": "Heart: normal sounds, no murmur.",
+    "text": "Cardiac: normal heart sounds, no murmur.",
     "evidence": [
      {
       "turn": 24,
@@ -516,7 +504,7 @@
    {
     "id": "o8",
     "section": "objective",
-    "text": "Lungs: clear.",
+    "text": "Respiratory: lungs clear.",
     "evidence": [
      {
       "turn": 24,
@@ -533,7 +521,7 @@
    {
     "id": "o9",
     "section": "objective",
-    "text": "Abdomen: soft, non-tender; stool palpable in lower left quadrant.",
+    "text": "Abdomen: soft, non-tender; stool palpable in left lower quadrant.",
     "evidence": [
      {
       "turn": 24,
@@ -567,7 +555,7 @@
    {
     "id": "o11",
     "section": "objective",
-    "text": "Teeth: appear healthy.",
+    "text": "Teeth: good appearance.",
     "evidence": [
      {
       "turn": 24,
@@ -669,7 +657,7 @@
    {
     "id": "p4",
     "section": "plan",
-    "text": "Have child sit on potty for 5 minutes after meals.",
+    "text": "Encourage sitting on potty for 5 minutes after meals.",
     "evidence": [
      {
       "turn": 28,
@@ -703,7 +691,7 @@
    {
     "id": "p6",
     "section": "plan",
-    "text": "Counsel on possible vaccine side effects: sore leg, low fever, and possible rash/fever 1-2 weeks later from MMR component.",
+    "text": "Counsel on possible vaccine side effects: sore leg, low fever, and possible rash/fever 1-2 weeks post-MMR.",
     "evidence": [
      {
       "turn": 30,
@@ -720,7 +708,7 @@
    {
     "id": "p7",
     "section": "plan",
-    "text": "Recommend children's Tylenol 8 mL for discomfort if needed.",
+    "text": "Recommend children's acetaminophen 8 mL for discomfort if needed post-vaccination.",
     "evidence": [
      {
       "turn": 30,
@@ -729,15 +717,23 @@
       "score": 1.0
      }
     ],
-    "support": "supported",
-    "flags": [],
+    "support": "partial",
+    "flags": [
+     {
+      "kind": "partial_support",
+      "severity": "warning",
+      "message": "Quoted turn does not contain most of its terms; check against the transcript.",
+      "acknowledged": false,
+      "detail": {}
+     }
+    ],
     "origin": "model",
     "edited": false
    },
    {
     "id": "p8",
     "section": "plan",
-    "text": "Return if no improvement in 1 month or if blood appears in stool.",
+    "text": "Return if no improvement in constipation in 1 month or if blood appears in stool.",
     "evidence": [
      {
       "turn": 28,
@@ -754,7 +750,7 @@
    {
     "id": "p9",
     "section": "plan",
-    "text": "Follow-up in 1 year for 5-year checkup.",
+    "text": "Follow-up in 1 year for next well-child check (age 5).",
     "evidence": [
      {
       "turn": 34,
@@ -763,8 +759,16 @@
       "score": 1.0
      }
     ],
-    "support": "supported",
-    "flags": [],
+    "support": "partial",
+    "flags": [
+     {
+      "kind": "partial_support",
+      "severity": "warning",
+      "message": "Quoted turn does not contain most of its terms; check against the transcript.",
+      "acknowledged": false,
+      "detail": {}
+     }
+    ],
     "origin": "model",
     "edited": false
    }
@@ -787,23 +791,7 @@
     "flags": []
    },
    {
-    "name": "children's multivitamin gummy",
-    "dose": "1 gummy",
-    "frequency": "once daily",
-    "route": "oral",
-    "status": "active",
-    "evidence": [
-     {
-      "turn": 11,
-      "quote": "Just a kids' multivitamin gummy, 1 a day.",
-      "verified": true,
-      "score": 1.0
-     }
-    ],
-    "flags": []
-   },
-   {
-    "name": "children's Tylenol",
+    "name": "children's acetaminophen",
     "dose": "8 mL",
     "frequency": "as needed for discomfort",
     "route": "oral",
@@ -820,7 +808,7 @@
    }
   ],
   "allergies": [],
-  "after_visit_summary": "Today we saw your 4-year-old for a checkup. She is growing and developing well. The main concern is constipation: hard stools every few days with pain and holding behavior. We found no blood in stool and her exam was normal except for some stool felt in the lower belly. To help, we are starting MiraLAX: half a capful (8.5 grams) mixed in 4 ounces of water or juice once daily. You can adjust the dose to get a soft poop every day or every other day. Please limit milk to 2 cups a day, offer more fruit and water, and have her sit on the potty for 5 minutes after meals. If there’s no improvement in a month or you see blood, contact us. She also received two vaccines today: DTaP-polio and MMR-chickenpox. She may have a sore leg or mild fever, and a rash or fever 1-2 weeks later is possible from the MMR. If uncomfortable, you may give children’s Tylenol 8 mL. She had her flu shot this year and is up to date. Her next checkup is at age 5. Keep up the great work!",
+  "after_visit_summary": "Today we saw your 4-year-old for her well-child visit. She is growing and developing normally. The main concern is constipation: she has hard stools every 3-4 days and sometimes holds in her bowel movements. We found no blood in the stool and her exam was normal except for feeling some stool in her lower belly. To help, we are starting MiraLAX: give half a capful (8.5 grams) mixed in 4 ounces of water or juice once daily. You can adjust the dose to get a soft poop every day or every other day. Also, limit milk to 2 cups per day, offer more fruit and water, and have her sit on the toilet for 5 minutes after meals. If there’s no improvement in a month or you see blood, please message us. She received two vaccines today: DTaP-IPV and MMR-varicella. She may have a sore leg or low fever, and a rash or fever 1-2 weeks later is possible with the MMR vaccine. If uncomfortable, you can give children’s acetaminophen 8 mL. She is up to date on her flu shot. Her next checkup is at age 5. Keep up the great work!",
   "avs_flags": [],
   "icd10": [
    {
@@ -828,11 +816,17 @@
     "code": "K59.09",
     "description": "Other constipation",
     "rank": 1,
-    "rationale": "Primary diagnosis: constipation with hard stools every 3-4 days, crying with defecation, stool-hiding behavior, and palpable stool in lower left quadrant, consistent with other constipation.",
+    "rationale": "Primary diagnosis: constipation with hard stools every 3-4 days, associated with crying and holding behavior, abdominal pain before bowel movements, and palpable stool on exam. This matches 'Other constipation' as the most specific billable code supported by documentation.",
     "evidence": [
      {
       "turn": 3,
       "quote": "Her poop. She's been going only every 3 or 4 days for maybe 2 months, and it's hard, and she cries when she goes. Sometimes she hides behind the couch and holds it.",
+      "verified": true,
+      "score": 1.0
+     },
+     {
+      "turn": 7,
+      "quote": "She'll say her tummy hurts right before she goes, but otherwise she's fine.",
       "verified": true,
       "score": 1.0
      },
@@ -860,7 +854,7 @@
    "code": "99213",
    "description": "Established patient office visit, low-complexity decision making",
    "rank": 1,
-   "rationale": "Established patient visit with one stable chronic condition (constipation) managed with prescription drug therapy (MiraLAX), limited data reviewed (vital signs, screening), and low to moderate risk; meets criteria for 99213 under 2021 MDM guidelines.",
+   "rationale": "Established patient visit with one stable chronic condition (constipation) managed with prescription drug (MiraLAX) and lifestyle counseling; low complexity medical decision making; no additional data reviewed or ordered beyond routine screening; risk is low to moderate due to prescription management but overall aligns with level 3 under 2021 guidelines.",
    "evidence": [],
    "valid": true,
    "billable": true,
@@ -873,11 +867,11 @@
     "code": "90471",
     "description": "Immunization administration, one vaccine",
     "rank": 1,
-    "rationale": "Administration of DTaP-IPV vaccine (one component) via injection.",
+    "rationale": "Administration of DTaP-IPV vaccine (one vaccine) via intramuscular injection; counseling provided but not meeting threshold for 90460 as it was not component-specific counseling under age 18 with shared decision-making documented.",
     "evidence": [
      {
       "turn": 30,
-      "quote": "One is DTaP and polio combined, the other is MMR and chickenpox combined.",
+      "quote": "Yes, 2 shots. One is DTaP and polio combined, the other is MMR and chickenpox combined.",
       "verified": true,
       "score": 1.0
      }
@@ -892,49 +886,17 @@
     "code": "90472",
     "description": "Immunization administration, each additional vaccine",
     "rank": 2,
-    "rationale": "Administration of MMRV vaccine (second vaccine) via injection.",
+    "rationale": "Administration of MMRV vaccine (second vaccine) via subcutaneous injection; each additional vaccine after the first requires 90472; counseling about side effects was general and not sufficient for 90461 which requires counseling per component.",
     "evidence": [
      {
       "turn": 30,
-      "quote": "One is DTaP and polio combined, the other is MMR and chickenpox combined.",
+      "quote": "Yes, 2 shots. One is DTaP and polio combined, the other is MMR and chickenpox combined.",
       "verified": true,
       "score": 1.0
-     }
-    ],
-    "valid": true,
-    "billable": true,
-    "flags": [],
-    "accepted": null
-   },
-   {
-    "system": "CPT",
-    "code": "90460",
-    "description": "Immunization administration with counseling, under 18, first component",
-    "rank": 3,
-    "rationale": "Immunization administration with counseling for patient under 18, first component (DTaP-IPV).",
-    "evidence": [
+     },
      {
       "turn": 30,
-      "quote": "She might get a sore leg or a low fever, and with the MMR part, a rash or fever 1 to 2 weeks later is possible. If she's uncomfortable, children's Tylenol, about 8 milliliters for her weight.",
-      "verified": true,
-      "score": 1.0
-     }
-    ],
-    "valid": true,
-    "billable": true,
-    "flags": [],
-    "accepted": null
-   },
-   {
-    "system": "CPT",
-    "code": "90461",
-    "description": "Immunization administration with counseling, under 18, each additional component",
-    "rank": 4,
-    "rationale": "Immunization administration with counseling for patient under 18, each additional component (MMRV).",
-    "evidence": [
-     {
-      "turn": 30,
-      "quote": "She might get a sore leg or a low fever, and with the MMR part, a rash or fever 1 to 2 weeks later is possible. If she's uncomfortable, children's Tylenol, about 8 milliliters for her weight.",
+      "quote": "She might get a sore leg or a low fever, and with the MMR part, a rash or fever 1 to 2 weeks later is possible.",
       "verified": true,
       "score": 1.0
      }
@@ -948,13 +910,13 @@
   "mdm": {
    "problems": "low",
    "data": "low",
-   "risk": "moderate",
+   "risk": "low",
    "level": "low",
    "code": "99213",
    "reasons": [
     "problems: one stable chronic illness or two self-limited problems",
     "data: limited (tests or an independent historian)",
-    "risk: prescription drug management"
+    "risk: over-the-counter drugs, minor procedure or counseling"
    ]
   },
   "section_status": {
@@ -964,28 +926,28 @@
    "plan": "draft"
   },
   "model": "openrouter/nvidia/nemotron-3-super-120b-a12b:free",
-  "created_at": "2026-10-13T07:03:50.615805Z",
+  "created_at": "2026-10-14T02:25:06.893892Z",
   "signed_by": null,
   "signed_at": null,
   "timings": {
-   "phi_masking": 0.027,
-   "llm_note": 24.01,
-   "guards_note": 0.071,
-   "llm_codes": 7.21,
-   "guards_codes": 0.048,
-   "total": 31.366,
-   "wall": 0.211
+   "phi_masking": 0.019,
+   "llm_note": 29.23,
+   "guards_note": 0.056,
+   "llm_codes": 7.39,
+   "guards_codes": 0.042,
+   "total": 36.737,
+   "wall": 36.782
   },
   "usage": {
-   "model_ms": 31220,
-   "input_tokens": 5380,
-   "output_tokens": 3740,
+   "model_ms": 36620,
+   "input_tokens": 5371,
+   "output_tokens": 3601,
    "calls": 2
   },
   "phi": {
    "NAME": 3,
    "DOB": 1,
-   "ORG": 1,
+   "ORG": 3,
    "DATE": 3
   }
  },
@@ -994,10 +956,12 @@
    "[PATIENT]": "Ananya Iyer",
    "[DOB]": "September 28th, 2022",
    "[NAME_1]": "Lakshmi",
-   "[ORG_1]": "Sunflower Montessori",
+   "[ORG_1]": "How's preschool",
+   "[ORG_2]": "Sunflower Montessori",
    "[DATE_1]": "October 2nd",
    "[DATE_2]": "September",
    "[DATE_3]": "Halloween",
+   "[ORG_3]": "Attends preschool",
    "[NAME_2]": "MMR-Var"
   },
   "surfaces": {
@@ -1012,6 +976,9 @@
     "Lakshmi"
    ],
    "[ORG_1]": [
+    "How's preschool"
+   ],
+   "[ORG_2]": [
     "Sunflower Montessori"
    ],
    "[DATE_1]": [
@@ -1023,6 +990,9 @@
    "[DATE_3]": [
     "Halloween"
    ],
+   "[ORG_3]": [
+    "Attends preschool"
+   ],
    "[NAME_2]": [
     "MMR-Var"
    ]
@@ -1032,14 +1002,16 @@
    "[DOB]": "DOB",
    "[NAME_1]": "NAME",
    "[ORG_1]": "ORG",
+   "[ORG_2]": "ORG",
    "[DATE_1]": "DATE",
    "[DATE_2]": "DATE",
    "[DATE_3]": "DATE",
+   "[ORG_3]": "ORG",
    "[NAME_2]": "NAME"
   },
   "counters": {
    "NAME": 2,
-   "ORG": 1,
+   "ORG": 3,
    "DATE": 3
   }
  },
@@ -1047,23 +1019,22 @@
   "case": "pd-03",
   "specialty": "pediatrics",
   "facts": 30,
-  "found": 29,
-  "found_in_section": 28,
+  "found": 30,
+  "found_in_section": 29,
   "negation_errors": [],
   "trap_errors": [],
-  "missed": [
-   "f2 [subjective] Stool withholding behavior"
-  ],
-  "statements": 40,
+  "missed": [],
+  "statements": 39,
   "statements_matching_gold": 34,
   "unsupported": 0,
-  "partial": 1,
+  "partial": 2,
   "flags": {
-   "partial_support": 1
+   "negation": 1,
+   "partial_support": 2
   },
   "meds": 3,
-  "meds_found": 3,
-  "meds_dose_correct": 3,
+  "meds_found": 2,
+  "meds_dose_correct": 2,
   "icd_primary": "Z00.121",
   "icd_suggested": [
    "K59.09"
@@ -1080,7 +1051,7 @@
   "em_within_one": true,
   "em_rule_estimate": "99213",
   "procedures_gold": 3,
-  "procedures_found": 1
+  "procedures_found": 0
  },
  "egress_residue": {}
 }

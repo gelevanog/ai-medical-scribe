@@ -1,0 +1,831 @@
+{
+ "note": {
+  "visit_id": "pd-04",
+  "statements": [
+   {
+    "id": "s1",
+    "section": "subjective",
+    "text": "Cough and wheezing started yesterday after a cold three days ago.",
+    "evidence": [
+     {
+      "turn": 4,
+      "quote": "He caught a cold about three days ago, runny nose, and then yesterday the wheezing started and the cough got real bad.",
+      "verified": true,
+      "score": 1.0
+     }
+    ],
+    "support": "supported",
+    "flags": [],
+    "origin": "model",
+    "edited": false
+   },
+   {
+    "id": "s2",
+    "section": "subjective",
+    "text": "Woke up twice last night coughing.",
+    "evidence": [
+     {
+      "turn": 4,
+      "quote": "He woke up twice last night coughing.",
+      "verified": true,
+      "score": 1.0
+     }
+    ],
+    "support": "supported",
+    "flags": [],
+    "origin": "model",
+    "edited": false
+   },
+   {
+    "id": "s3",
+    "section": "subjective",
+    "text": "Using albuterol every four hours since last night, four puffs each time.",
+    "evidence": [
+     {
+      "turn": 6,
+      "quote": "Every four hours since last night, two puffs each time. Well, no, he's been doing four puffs, the school nurse told him four.",
+      "verified": true,
+      "score": 1.0
+     }
+    ],
+    "support": "supported",
+    "flags": [],
+    "origin": "model",
+    "edited": false
+   },
+   {
+    "id": "s4",
+    "section": "subjective",
+    "text": "Albuterol helps for an hour or two, then wheezing returns.",
+    "evidence": [
+     {
+      "turn": 6,
+      "quote": "And does it help? For an hour or two, then he's back to wheezing.",
+      "verified": true,
+      "score": 1.0
+     }
+    ],
+    "support": "supported",
+    "flags": [],
+    "origin": "model",
+    "edited": false
+   },
+   {
+    "id": "s5",
+    "section": "subjective",
+    "text": "Stopped daily fluticasone inhaler since June.",
+    "evidence": [
+     {
+      "turn": 8,
+      "quote": "Um, honestly, no. He was doing so good over the summer that we kind of stopped it. Maybe since June.",
+      "verified": true,
+      "score": 1.0
+     }
+    ],
+    "support": "supported",
+    "flags": [],
+    "origin": "model",
+    "edited": false
+   },
+   {
+    "id": "s6",
+    "section": "subjective",
+    "text": "Denies fever.",
+    "evidence": [
+     {
+      "turn": 9,
+      "quote": "That happens a lot, no judgment, any fever.",
+      "verified": true,
+      "score": 1.0
+     },
+     {
+      "turn": 10,
+      "quote": "No, I've been checking, no fever.",
+      "verified": true,
+      "score": 1.0
+     }
+    ],
+    "support": "supported",
+    "flags": [],
+    "origin": "model",
+    "edited": false
+   },
+   {
+    "id": "s7",
+    "section": "subjective",
+    "text": "Chest does not hurt, but feels tight.",
+    "evidence": [
+     {
+      "turn": 11,
+      "quote": "Jalen Brooks, does your chest hurt?",
+      "verified": true,
+      "score": 0.83
+     },
+     {
+      "turn": 12,
+      "quote": "He's shaking his head. He says it just feels tight.",
+      "verified": true,
+      "score": 1.0
+     }
+    ],
+    "support": "supported",
+    "flags": [],
+    "origin": "model",
+    "edited": false
+   },
+   {
+    "id": "s8",
+    "section": "subjective",
+    "text": "Denies vomiting after coughing fits.",
+    "evidence": [
+     {
+      "turn": 13,
+      "quote": "Any vomiting after coughing fits?",
+      "verified": true,
+      "score": 1.0
+     },
+     {
+      "turn": 14,
+      "quote": "No.",
+      "verified": true,
+      "score": 1.0
+     }
+    ],
+    "support": "supported",
+    "flags": [],
+    "origin": "model",
+    "edited": false
+   },
+   {
+    "id": "s9",
+    "section": "subjective",
+    "text": "No smoke exposure at home or in car.",
+    "evidence": [
+     {
+      "turn": 15,
+      "quote": "Anybody smoke around him, at home or in the car?",
+      "verified": true,
+      "score": 1.0
+     },
+     {
+      "turn": 16,
+      "quote": "No, nobody smokes. I've gut -carped myself. I'm on oxygen at night, so believe me, there's no smoking in my house.",
+      "verified": true,
+      "score": 1.0
+     }
+    ],
+    "support": "supported",
+    "flags": [],
+    "origin": "model",
+    "edited": false
+   },
+   {
+    "id": "s10",
+    "section": "subjective",
+    "text": "No asthma-related hospitalizations or steroid use this year.",
+    "evidence": [
+     {
+      "turn": 17,
+      "quote": "Has he needed steroids or been in the hospital for his asthma this year?",
+      "verified": true,
+      "score": 1.0
+     },
+     {
+      "turn": 18,
+      "quote": "Not this year. He had pneumonia two winters ago but that cleared up and he's never been admitted for asthma.",
+      "verified": true,
+      "score": 1.0
+     }
+    ],
+    "support": "supported",
+    "flags": [],
+    "origin": "model",
+    "edited": false
+   },
+   {
+    "id": "s11",
+    "section": "subjective",
+    "text": "No known medicine allergies.",
+    "evidence": [
+     {
+      "turn": 19,
+      "quote": "Any allergies to medicines? None.",
+      "verified": true,
+      "score": 1.0
+     }
+    ],
+    "support": "supported",
+    "flags": [],
+    "origin": "model",
+    "edited": false
+   },
+   {
+    "id": "o1",
+    "section": "objective",
+    "text": "Weight 30 kilograms.",
+    "evidence": [
+     {
+      "turn": 19,
+      "quote": "Okay so his weight today is 30 kilograms.",
+      "verified": true,
+      "score": 1.0
+     }
+    ],
+    "support": "supported",
+    "flags": [],
+    "origin": "model",
+    "edited": false
+   },
+   {
+    "id": "o2",
+    "section": "objective",
+    "text": "Temperature 99.1°F.",
+    "evidence": [
+     {
+      "turn": 19,
+      "quote": "Temperature 99 .1 heart rate 118 he's breathing 28 times a minute and his oxygen level is 93 % on room air.",
+      "verified": true,
+      "score": 1.0
+     }
+    ],
+    "support": "partial",
+    "flags": [
+     {
+      "kind": "partial_support",
+      "severity": "error",
+      "message": "Quoted turn does not contain 99.1; check against the transcript.",
+      "acknowledged": false,
+      "detail": {
+       "numbers_not_in_evidence": [
+        "99.1"
+       ]
+      }
+     }
+    ],
+    "origin": "model",
+    "edited": false
+   },
+   {
+    "id": "o3",
+    "section": "objective",
+    "text": "Heart rate 118 beats per minute.",
+    "evidence": [
+     {
+      "turn": 19,
+      "quote": "Temperature 99 .1 heart rate 118 he's breathing 28 times a minute and his oxygen level is 93 % on room air.",
+      "verified": true,
+      "score": 1.0
+     }
+    ],
+    "support": "supported",
+    "flags": [],
+    "origin": "model",
+    "edited": false
+   },
+   {
+    "id": "o4",
+    "section": "objective",
+    "text": "Respiratory rate 28 breaths per minute.",
+    "evidence": [
+     {
+      "turn": 19,
+      "quote": "Temperature 99 .1 heart rate 118 he's breathing 28 times a minute and his oxygen level is 93 % on room air.",
+      "verified": true,
+      "score": 1.0
+     }
+    ],
+    "support": "supported",
+    "flags": [],
+    "origin": "model",
+    "edited": false
+   },
+   {
+    "id": "o5",
+    "section": "objective",
+    "text": "Oxygen saturation 93% on room air.",
+    "evidence": [
+     {
+      "turn": 19,
+      "quote": "Temperature 99 .1 heart rate 118 he's breathing 28 times a minute and his oxygen level is 93 % on room air.",
+      "verified": true,
+      "score": 1.0
+     }
+    ],
+    "support": "supported",
+    "flags": [],
+    "origin": "model",
+    "edited": false
+   },
+   {
+    "id": "o6",
+    "section": "objective",
+    "text": "Wheezing bilaterally on expiration.",
+    "evidence": [
+     {
+      "turn": 19,
+      "quote": "I hear wheezing all over both lungs when he breathes out and there's a little pulling in under his ribs.",
+      "verified": true,
+      "score": 1.0
+     }
+    ],
+    "support": "supported",
+    "flags": [],
+    "origin": "model",
+    "edited": false
+   },
+   {
+    "id": "o7",
+    "section": "objective",
+    "text": "Mild subcostal retractions.",
+    "evidence": [
+     {
+      "turn": 19,
+      "quote": "I hear wheezing all over both lungs when he breathes out and there's a little pulling in under his ribs.",
+      "verified": true,
+      "score": 1.0
+     }
+    ],
+    "support": "partial",
+    "flags": [
+     {
+      "kind": "partial_support",
+      "severity": "warning",
+      "message": "Quoted turn does not contain most of its terms; check against the transcript.",
+      "acknowledged": false,
+      "detail": {}
+     }
+    ],
+    "origin": "model",
+    "edited": false
+   },
+   {
+    "id": "o8",
+    "section": "objective",
+    "text": "Speaking in full sentences.",
+    "evidence": [
+     {
+      "turn": 19,
+      "quote": "He's still talking in full sentences which is reassuring.",
+      "verified": true,
+      "score": 1.0
+     }
+    ],
+    "support": "supported",
+    "flags": [],
+    "origin": "model",
+    "edited": false
+   },
+   {
+    "id": "o9",
+    "section": "objective",
+    "text": "After nebulized albuterol and ipratropium: oxygen saturation 97%, respiratory rate 22, heart rate 130, scattered wheezes, no retractions.",
+    "evidence": [
+     {
+      "turn": 23,
+      "quote": "20 minutes oxygen is up to 97 percent breathing rate 22 heart rate 130 which is from the albuterol that's expected just a few scattered wheezes now and no more pulling under the ribs.",
+      "verified": true,
+      "score": 1.0
+     }
+    ],
+    "support": "supported",
+    "flags": [],
+    "origin": "model",
+    "edited": false
+   },
+   {
+    "id": "a1",
+    "section": "assessment",
+    "text": "Asthma exacerbation triggered by viral upper respiratory infection, worsened by discontinuation of controller medication.",
+    "evidence": [
+     {
+      "turn": 25,
+      "quote": "Agreed, so this is an asthma flare, triggered by the cold and made worse because he's been off his controller.",
+      "verified": true,
+      "score": 1.0
+     }
+    ],
+    "support": "supported",
+    "flags": [],
+    "origin": "model",
+    "edited": false
+   },
+   {
+    "id": "p1",
+    "section": "plan",
+    "text": "Administer first dose of prednisolone in clinic.",
+    "evidence": [
+     {
+      "turn": 25,
+      "quote": "I'll give the first dose here.",
+      "verified": true,
+      "score": 1.0
+     }
+    ],
+    "support": "supported",
+    "flags": [],
+    "origin": "model",
+    "edited": false
+   },
+   {
+    "id": "p2",
+    "section": "plan",
+    "text": "Prednisolone 30 mg orally once daily for 5 days (10 mL of 50 mg/5 mL solution each morning).",
+    "evidence": [
+     {
+      "turn": 25,
+      "quote": "The dose is one milligram per kilogram, he's 30 kilogram, so prednisolone 30 milligrams once a day for five days. The liquid is 50 milligrams per five milliliters, so that's 10 milliliters each morning.",
+      "verified": true,
+      "score": 1.0
+     }
+    ],
+    "support": "supported",
+    "flags": [],
+    "origin": "model",
+    "edited": false
+   },
+   {
+    "id": "p3",
+    "section": "plan",
+    "text": "Albuterol 4 puffs with spacer every 4 hours while awake for next 2 days, then as needed.",
+    "evidence": [
+     {
+      "turn": 27,
+      "quote": "Second, albuterol, four puffs with the spacer every four hours while he's awake for the next two days, then just as needed.",
+      "verified": true,
+      "score": 1.0
+     }
+    ],
+    "support": "supported",
+    "flags": [],
+    "origin": "model",
+    "edited": false
+   },
+   {
+    "id": "p4",
+    "section": "plan",
+    "text": "Restart fluticasone 44 mcg, 2 puffs twice daily, rinse mouth after use.",
+    "evidence": [
+     {
+      "turn": 27,
+      "quote": "Third, restart the fluticasone, the 44 micrograms, two puffs twice a day, and have him rinse his mouth after.",
+      "verified": true,
+      "score": 1.0
+     }
+    ],
+    "support": "supported",
+    "flags": [],
+    "origin": "model",
+    "edited": false
+   },
+   {
+    "id": "p5",
+    "section": "plan",
+    "text": "Continue fluticasone daily even when asymptomatic.",
+    "evidence": [
+     {
+      "turn": 27,
+      "quote": "That one he needs every day, even when he feels fine.",
+      "verified": true,
+      "score": 1.0
+     }
+    ],
+    "support": "supported",
+    "flags": [],
+    "origin": "model",
+    "edited": false
+   },
+   {
+    "id": "p6",
+    "section": "plan",
+    "text": "Provide updated asthma action plan; send copy to school nurse at Garfield Elementary.",
+    "evidence": [
+     {
+      "turn": 29,
+      "quote": "plan and I'll print one for the nurse at Garfield Elementary. He can go ...",
+      "verified": true,
+      "score": 0.0
+     }
+    ],
+    "support": "supported",
+    "flags": [],
+    "origin": "model",
+    "edited": false
+   },
+   {
+    "id": "p7",
+    "section": "plan",
+    "text": "Return to school when not needing albuterol more than every 4 hours.",
+    "evidence": [
+     {
+      "turn": 29,
+      "quote": "He can go back to school when he's not needing albuterol more than every four hours.",
+      "verified": true,
+      "score": 1.0
+     }
+    ],
+    "support": "supported",
+    "flags": [],
+    "origin": "model",
+    "edited": false
+   },
+   {
+    "id": "p8",
+    "section": "plan",
+    "text": "Return to clinic on Friday for recheck and administer flu shot.",
+    "evidence": [
+     {
+      "turn": 31,
+      "quote": "I want to see him back on Friday to recheck and we'll do his flu shot then.",
+      "verified": true,
+      "score": 1.0
+     }
+    ],
+    "support": "supported",
+    "flags": [],
+    "origin": "model",
+    "edited": false
+   },
+   {
+    "id": "p9",
+    "section": "plan",
+    "text": "Precaution: Go to ER if needing albuterol more than every 4 hours, unable to speak in full sentences, rib retractions, or bluish lips.",
+    "evidence": [
+     {
+      "turn": 31,
+      "quote": "If he needs albuterol more often than every four hours, can't speak in full sentences, his ribs are pulling in or his lips look blue, go to the emergency room.",
+      "verified": true,
+      "score": 1.0
+     }
+    ],
+    "support": "supported",
+    "flags": [],
+    "origin": "model",
+    "edited": false
+   }
+  ],
+  "medications": [
+   {
+    "name": "prednisolone",
+    "dose": "30 mg",
+    "frequency": "once daily",
+    "route": "oral",
+    "status": "new",
+    "evidence": [
+     {
+      "turn": 25,
+      "quote": "prednisolone 30 milligrams once a day for five days",
+      "verified": true,
+      "score": 1.0
+     }
+    ],
+    "flags": []
+   },
+   {
+    "name": "albuterol",
+    "dose": "4 puffs",
+    "frequency": "every four hours while awake",
+    "route": "inhalation",
+    "status": "active",
+    "evidence": [
+     {
+      "turn": 27,
+      "quote": "albuterol, four puffs with the spacer every four hours while he's awake for the next two days",
+      "verified": true,
+      "score": 1.0
+     }
+    ],
+    "flags": []
+   },
+   {
+    "name": "fluticasone",
+    "dose": "44 mcg",
+    "frequency": "twice daily",
+    "route": "inhalation",
+    "status": "changed",
+    "evidence": [
+     {
+      "turn": 27,
+      "quote": "restart the fluticasone, the 44 micrograms, two puffs twice a day",
+      "verified": true,
+      "score": 1.0
+     }
+    ],
+    "flags": []
+   }
+  ],
+  "allergies": [],
+  "after_visit_summary": "Today we saw your child for worsening cough and wheezing that started after a cold. He has been using his albuterol inhaler often but stopped his daily controller medicine. In the clinic, we gave a breathing treatment that helped his breathing and oxygen levels. We diagnosed an asthma flare-up. We started a steroid medicine (prednisolone) to reduce inflammation: give 10 mL by mouth each morning for 5 days. For quick relief, use albuterol inhaler: 4 puffs with spacer every 4 hours while awake for the next 2 days, then only as needed. Restart the daily controller medicine, fluticasone: 2 puffs twice a day, every day, even when he feels well. Have him rinse his mouth after using fluticasone. We updated his asthma action plan and will send a copy to his school nurse. He can return to school when he does not need albuterol more than every 4 hours. Bring him back to the clinic on Friday for a recheck and flu shot. Go to the emergency room if he needs albuterol more than every 4 hours, cannot speak in full sentences, has rib pulling in with breathing, or has bluish lips.",
+  "avs_flags": [],
+  "icd10": [
+   {
+    "system": "ICD-10-CM",
+    "code": "J45.901",
+    "description": "Unspecified asthma with (acute) exacerbation",
+    "rank": 1,
+    "rationale": "Unspecified asthma with (acute) exacerbation is the most specific billable code supported by the assessment of asthma exacerbation triggered by viral upper respiratory infection, worsened by discontinuation of controller medication.",
+    "evidence": [
+     {
+      "turn": 25,
+      "quote": "Agreed, so this is an asthma flare, triggered by the cold and made worse because he's been off his controller.",
+      "verified": true,
+      "score": 1.0
+     }
+    ],
+    "valid": true,
+    "billable": true,
+    "flags": [],
+    "accepted": null
+   },
+   {
+    "system": "ICD-10-CM",
+    "code": "J06.9",
+    "description": "Acute upper respiratory infection, unspecified",
+    "rank": 2,
+    "rationale": "Acute upper respiratory infection, unspecified is supported as a contributing condition assessed in the visit (viral upper respiratory infection triggering asthma exacerbation).",
+    "evidence": [
+     {
+      "turn": 4,
+      "quote": "He caught a cold about three days ago, runny nose, and then yesterday the wheezing started and the cough got real bad.",
+      "verified": true,
+      "score": 1.0
+     }
+    ],
+    "valid": true,
+    "billable": true,
+    "flags": [],
+    "accepted": null
+   }
+  ],
+  "em": {
+   "system": "CPT",
+   "code": "99214",
+   "description": "Established patient office visit, moderate-complexity decision making",
+   "rank": 1,
+   "rationale": "Established patient visit with moderate medical decision making: management of asthma exacerbation (moderate risk due to prescription steroid), review of symptoms and vitals, ordering/performing nebulizer treatment, and adjusting multiple medications.",
+   "evidence": [],
+   "valid": true,
+   "billable": true,
+   "flags": [],
+   "accepted": null
+  },
+  "procedures": [
+   {
+    "system": "CPT",
+    "code": "94640",
+    "description": "Inhaled (nebulizer) treatment for airway obstruction",
+    "rank": 1,
+    "rationale": "Inhaled (nebulizer) treatment for airway obstruction was performed in clinic with albuterol and ipratropium.",
+    "evidence": [
+     {
+      "turn": 21,
+      "quote": "a breathing treatment right now albuterol with a pertropium in the nebulizer and we'll rate check in about 20 minutes",
+      "verified": true,
+      "score": 1.0
+     }
+    ],
+    "valid": true,
+    "billable": true,
+    "flags": [],
+    "accepted": null
+   }
+  ],
+  "mdm": {
+   "problems": "moderate",
+   "data": "low",
+   "risk": "moderate",
+   "level": "moderate",
+   "code": "99214",
+   "reasons": [
+    "problems: chronic illness not at goal",
+    "data: limited (tests or an independent historian)",
+    "risk: prescription drug management"
+   ]
+  },
+  "section_status": {
+   "subjective": "draft",
+   "objective": "draft",
+   "assessment": "draft",
+   "plan": "draft"
+  },
+  "model": "openrouter/nvidia/nemotron-3-super-120b-a12b:free",
+  "created_at": "2026-10-14T02:19:47.849873Z",
+  "signed_by": null,
+  "signed_at": null,
+  "timings": {
+   "phi_masking": 0.035,
+   "llm_note": 20.88,
+   "guards_note": 0.058,
+   "llm_codes": 4.21,
+   "guards_codes": 0.037,
+   "total": 25.22,
+   "wall": 25.235
+  },
+  "usage": {
+   "model_ms": 25090,
+   "input_tokens": 5101,
+   "output_tokens": 2990,
+   "calls": 2
+  },
+  "phi": {
+   "NAME": 3,
+   "DOB": 1,
+   "DATE": 1,
+   "ORG": 1,
+   "PHONE": 1
+  }
+ },
+ "vault": {
+  "originals": {
+   "[PATIENT]": "Jalen Brooks",
+   "[DOB]": "May 21st, 2016",
+   "[NAME_1]": "Loretta",
+   "[DATE_1]": "June",
+   "[ORG_1]": "Garfield Elementary",
+   "[NAME_2]": "Mary",
+   "[PHONE_1]": "555 -0129"
+  },
+  "surfaces": {
+   "[PATIENT]": [
+    "Jalen",
+    "Jalen Brooks"
+   ],
+   "[DOB]": [
+    "May 21st, 2016"
+   ],
+   "[NAME_1]": [
+    "Loretta"
+   ],
+   "[DATE_1]": [
+    "June"
+   ],
+   "[ORG_1]": [
+    "Garfield Elementary"
+   ],
+   "[NAME_2]": [
+    "Mary"
+   ],
+   "[PHONE_1]": [
+    "555 -0129"
+   ]
+  },
+  "types": {
+   "[PATIENT]": "NAME",
+   "[DOB]": "DOB",
+   "[NAME_1]": "NAME",
+   "[DATE_1]": "DATE",
+   "[ORG_1]": "ORG",
+   "[NAME_2]": "NAME",
+   "[PHONE_1]": "PHONE"
+  },
+  "counters": {
+   "NAME": 2,
+   "DATE": 1,
+   "ORG": 1,
+   "PHONE": 1
+  }
+ },
+ "score": {
+  "case": "pd-04",
+  "specialty": "pediatrics",
+  "facts": 29,
+  "found": 25,
+  "found_in_section": 24,
+  "negation_errors": [],
+  "trap_errors": [],
+  "missed": [
+   "f7 [subjective] No chest pain",
+   "f18 [objective] Ears and throat unremarkable",
+   "f21 [assessment] Good response to nebulizer treatment",
+   "f27 [plan] ER if albuterol needed more than every 4 hours, unable to speak in full sentences, retractions, or cyanosis"
+  ],
+  "statements": 30,
+  "statements_matching_gold": 29,
+  "unsupported": 0,
+  "partial": 2,
+  "flags": {
+   "partial_support": 2
+  },
+  "meds": 4,
+  "meds_found": 4,
+  "meds_dose_correct": 3,
+  "icd_primary": "J45.31",
+  "icd_suggested": [
+   "J45.901",
+   "J06.9"
+  ],
+  "icd_top1": false,
+  "icd_top3": false,
+  "icd_top3_lenient": true,
+  "icd_top3_category": true,
+  "icd_gold_recall": 1.0,
+  "icd_invalid": 0,
+  "em_gold": "99214",
+  "em_suggested": "99214",
+  "em_exact": true,
+  "em_within_one": true,
+  "em_rule_estimate": "99214",
+  "procedures_gold": 1,
+  "procedures_found": 1
+ },
+ "egress_residue": {}
+}

@@ -1,0 +1,1048 @@
+{
+ "note": {
+  "visit_id": "cd-05",
+  "statements": [
+   {
+    "id": "s1",
+    "section": "subjective",
+    "text": "No chest pain since stent.",
+    "evidence": [
+     {
+      "turn": 5,
+      "quote": "No chest pain at all since the stent.",
+      "verified": true,
+      "score": 1.0
+     }
+    ],
+    "support": "supported",
+    "flags": [],
+    "origin": "model",
+    "edited": false
+   },
+   {
+    "id": "s2",
+    "section": "subjective",
+    "text": "Finished cardiac rehab on June.",
+    "evidence": [
+     {
+      "turn": 5,
+      "quote": "I finished cardiac rehab in June,",
+      "verified": true,
+      "score": 1.0
+     }
+    ],
+    "support": "supported",
+    "flags": [],
+    "origin": "model",
+    "edited": false
+   },
+   {
+    "id": "s3",
+    "section": "subjective",
+    "text": "Walking 30 minutes most days.",
+    "evidence": [
+     {
+      "turn": 5,
+      "quote": "I'm walking 30 minutes most days.",
+      "verified": true,
+      "score": 1.0
+     }
+    ],
+    "support": "supported",
+    "flags": [],
+    "origin": "model",
+    "edited": false
+   },
+   {
+    "id": "s4",
+    "section": "subjective",
+    "text": "No shortness of breath with walking.",
+    "evidence": [
+     {
+      "turn": 6,
+      "quote": "Any shortness of breath with the walking?",
+      "verified": true,
+      "score": 1.0
+     },
+     {
+      "turn": 7,
+      "quote": "No, I'm fine.",
+      "verified": true,
+      "score": 1.0
+     }
+    ],
+    "support": "supported",
+    "flags": [],
+    "origin": "model",
+    "edited": false
+   },
+   {
+    "id": "s5",
+    "section": "subjective",
+    "text": "Thigh and calf aching, both legs, started two months after hospital.",
+    "evidence": [
+     {
+      "turn": 9,
+      "quote": "my thighs and calves were aching, both legs, like I'd run a marathon. It started maybe two months after the hospital.",
+      "verified": true,
+      "score": 1.0
+     }
+    ],
+    "support": "supported",
+    "flags": [],
+    "origin": "model",
+    "edited": false
+   },
+   {
+    "id": "s6",
+    "section": "subjective",
+    "text": "Stopped atorvastatin about three weeks ago.",
+    "evidence": [
+     {
+      "turn": 9,
+      "quote": "about three weeks ago I just stopped taking it.",
+      "verified": true,
+      "score": 1.0
+     }
+    ],
+    "support": "supported",
+    "flags": [],
+    "origin": "model",
+    "edited": false
+   },
+   {
+    "id": "s7",
+    "section": "subjective",
+    "text": "Atorvastatin dose was 80 milligrams.",
+    "evidence": [
+     {
+      "turn": 11,
+      "quote": "80 milligrams.",
+      "verified": true,
+      "score": 1.0
+     },
+     {
+      "turn": 12,
+      "quote": "Right, 80 is what we started in the hospital.",
+      "verified": true,
+      "score": 1.0
+     }
+    ],
+    "support": "supported",
+    "flags": [],
+    "origin": "model",
+    "edited": false
+   },
+   {
+    "id": "s8",
+    "section": "subjective",
+    "text": "Leg aching much better, maybe 90% gone after stopping atorvastatin.",
+    "evidence": [
+     {
+      "turn": 13,
+      "quote": "much better maybe 90 % gone any",
+      "verified": true,
+      "score": 1.0
+     }
+    ],
+    "support": "supported",
+    "flags": [],
+    "origin": "model",
+    "edited": false
+   },
+   {
+    "id": "s9",
+    "section": "subjective",
+    "text": "Denies muscle weakness or trouble getting up from chair.",
+    "evidence": [
+     {
+      "turn": 14,
+      "quote": "muscle weakness trouble getting up from a chair",
+      "verified": true,
+      "score": 1.0
+     },
+     {
+      "turn": 15,
+      "quote": "know nothing like that good and",
+      "verified": true,
+      "score": 1.0
+     }
+    ],
+    "support": "supported",
+    "flags": [
+     {
+      "kind": "negation",
+      "severity": "error",
+      "message": "The transcript says the opposite: 'weakness' (turns 14).",
+      "acknowledged": false,
+      "detail": {
+       "concept": "weakness",
+       "turns": [
+        14
+       ]
+      }
+     }
+    ],
+    "origin": "model",
+    "edited": false
+   },
+   {
+    "id": "s10",
+    "section": "subjective",
+    "text": "Denies dark cola-colored urine.",
+    "evidence": [
+     {
+      "turn": 14,
+      "quote": "dark cola -colored urine",
+      "verified": true,
+      "score": 1.0
+     },
+     {
+      "turn": 15,
+      "quote": "know nothing like that good and",
+      "verified": true,
+      "score": 1.0
+     }
+    ],
+    "support": "supported",
+    "flags": [],
+    "origin": "model",
+    "edited": false
+   },
+   {
+    "id": "s11",
+    "section": "subjective",
+    "text": "Taking aspirin 81 mg once daily.",
+    "evidence": [
+     {
+      "turn": 17,
+      "quote": "aspirin 81 once a day",
+      "verified": true,
+      "score": 1.0
+     }
+    ],
+    "support": "supported",
+    "flags": [],
+    "origin": "model",
+    "edited": false
+   },
+   {
+    "id": "s12",
+    "section": "subjective",
+    "text": "Taking clopidogrel 75 mg once daily.",
+    "evidence": [
+     {
+      "turn": 17,
+      "quote": "clopidogrel 75 once a day",
+      "verified": true,
+      "score": 1.0
+     }
+    ],
+    "support": "supported",
+    "flags": [],
+    "origin": "model",
+    "edited": false
+   },
+   {
+    "id": "s13",
+    "section": "subjective",
+    "text": "Taking metoprolol 25 mg once daily.",
+    "evidence": [
+     {
+      "turn": 17,
+      "quote": "the metoprolol 25 milligrams once a day",
+      "verified": true,
+      "score": 1.0
+     }
+    ],
+    "support": "supported",
+    "flags": [],
+    "origin": "model",
+    "edited": false
+   },
+   {
+    "id": "s14",
+    "section": "subjective",
+    "text": "No missed doses of aspirin, clopidogrel, or metoprolol.",
+    "evidence": [
+     {
+      "turn": 17,
+      "quote": "I haven't missed any of those great",
+      "verified": true,
+      "score": 1.0
+     }
+    ],
+    "support": "supported",
+    "flags": [],
+    "origin": "model",
+    "edited": false
+   },
+   {
+    "id": "s15",
+    "section": "subjective",
+    "text": "Some small bruises on arms from blood thinners, nothing serious.",
+    "evidence": [
+     {
+      "turn": 19,
+      "quote": "Some small bruises on my arms, nothing serious.",
+      "verified": true,
+      "score": 1.0
+     }
+    ],
+    "support": "supported",
+    "flags": [],
+    "origin": "model",
+    "edited": false
+   },
+   {
+    "id": "s16",
+    "section": "subjective",
+    "text": "Allergic to sulfa drugs, causes rash all over.",
+    "evidence": [
+     {
+      "turn": 20,
+      "quote": "you're still allergic to sulfa drugs.",
+      "verified": true,
+      "score": 1.0
+     },
+     {
+      "turn": 21,
+      "quote": "Yes, I get a rash all over.",
+      "verified": true,
+      "score": 1.0
+     }
+    ],
+    "support": "supported",
+    "flags": [],
+    "origin": "model",
+    "edited": false
+   },
+   {
+    "id": "s17",
+    "section": "subjective",
+    "text": "Does not want statin-related muscle aches to return.",
+    "evidence": [
+     {
+      "turn": 23,
+      "quote": "So what now? I really don't want those aches back.",
+      "verified": true,
+      "score": 1.0
+     }
+    ],
+    "support": "supported",
+    "flags": [],
+    "origin": "model",
+    "edited": false
+   },
+   {
+    "id": "o1",
+    "section": "objective",
+    "text": "Blood pressure 124 over 76.",
+    "evidence": [
+     {
+      "turn": 22,
+      "quote": "your blood pressure today is 124 over 76",
+      "verified": true,
+      "score": 1.0
+     }
+    ],
+    "support": "supported",
+    "flags": [],
+    "origin": "model",
+    "edited": false
+   },
+   {
+    "id": "o2",
+    "section": "objective",
+    "text": "Pulse 62.",
+    "evidence": [
+     {
+      "turn": 22,
+      "quote": "pulse 62.",
+      "verified": true,
+      "score": 1.0
+     }
+    ],
+    "support": "supported",
+    "flags": [],
+    "origin": "model",
+    "edited": false
+   },
+   {
+    "id": "o3",
+    "section": "objective",
+    "text": "Regular heart rhythm, no murmur.",
+    "evidence": [
+     {
+      "turn": 22,
+      "quote": "Heart has a regular rhythm, no murmur.",
+      "verified": true,
+      "score": 1.0
+     }
+    ],
+    "support": "supported",
+    "flags": [],
+    "origin": "model",
+    "edited": false
+   },
+   {
+    "id": "o4",
+    "section": "objective",
+    "text": "Lungs clear.",
+    "evidence": [
+     {
+      "turn": 22,
+      "quote": "Lungs are clear.",
+      "verified": true,
+      "score": 1.0
+     }
+    ],
+    "support": "supported",
+    "flags": [],
+    "origin": "model",
+    "edited": false
+   },
+   {
+    "id": "o5",
+    "section": "objective",
+    "text": "Right wrist catheter site well-heeled, no tenderness.",
+    "evidence": [
+     {
+      "turn": 22,
+      "quote": "The spot on your right wrist where we put the catheter in is well -heeled.",
+      "verified": true,
+      "score": 1.0
+     }
+    ],
+    "support": "supported",
+    "flags": [],
+    "origin": "model",
+    "edited": false
+   },
+   {
+    "id": "o6",
+    "section": "objective",
+    "text": "No tenderness in thigh or calf muscles.",
+    "evidence": [
+     {
+      "turn": 22,
+      "quote": "No tenderness in your thigh or calf muscles",
+      "verified": true,
+      "score": 1.0
+     }
+    ],
+    "support": "supported",
+    "flags": [],
+    "origin": "model",
+    "edited": false
+   },
+   {
+    "id": "o7",
+    "section": "objective",
+    "text": "Leg strength normal.",
+    "evidence": [
+     {
+      "turn": 22,
+      "quote": "your leg strength is normal.",
+      "verified": true,
+      "score": 1.0
+     }
+    ],
+    "support": "supported",
+    "flags": [],
+    "origin": "model",
+    "edited": false
+   },
+   {
+    "id": "o8",
+    "section": "objective",
+    "text": "LDL 118 (two weeks off statin).",
+    "evidence": [
+     {
+      "turn": 22,
+      "quote": "Your labs from last week, so after about two weeks off the statin, show an LDL of 118.",
+      "verified": true,
+      "score": 1.0
+     }
+    ],
+    "support": "supported",
+    "flags": [],
+    "origin": "model",
+    "edited": false
+   },
+   {
+    "id": "o9",
+    "section": "objective",
+    "text": "CK normal at 145.",
+    "evidence": [
+     {
+      "turn": 22,
+      "quote": "Your CK, the muscle enzyme, was normal at 145",
+      "verified": true,
+      "score": 1.0
+     }
+    ],
+    "support": "supported",
+    "flags": [],
+    "origin": "model",
+    "edited": false
+   },
+   {
+    "id": "o10",
+    "section": "objective",
+    "text": "Liver tests normal.",
+    "evidence": [
+     {
+      "turn": 22,
+      "quote": "and your liver tests were normal.",
+      "verified": true,
+      "score": 1.0
+     }
+    ],
+    "support": "supported",
+    "flags": [],
+    "origin": "model",
+    "edited": false
+   },
+   {
+    "id": "a1",
+    "section": "assessment",
+    "text": "Coronary artery disease with stent, stable.",
+    "evidence": [
+     {
+      "turn": 30,
+      "quote": "you have coronary artery disease with a stent, which is stable",
+      "verified": true,
+      "score": 1.0
+     }
+    ],
+    "support": "supported",
+    "flags": [],
+    "origin": "model",
+    "edited": false
+   },
+   {
+    "id": "a2",
+    "section": "assessment",
+    "text": "High LDL cholesterol, not at goal.",
+    "evidence": [
+     {
+      "turn": 30,
+      "quote": "high LDL cholesterol, not at goal because you couldn't tolerate the atorvastatin.",
+      "verified": true,
+      "score": 1.0
+     }
+    ],
+    "support": "supported",
+    "flags": [],
+    "origin": "model",
+    "edited": false
+   },
+   {
+    "id": "p1",
+    "section": "plan",
+    "text": "Start rosuvastatin 5 mg once daily.",
+    "evidence": [
+     {
+      "turn": 24,
+      "quote": "I'd like to start Rosuvastatin 5 milligrams once a day",
+      "verified": true,
+      "score": 1.0
+     }
+    ],
+    "support": "supported",
+    "flags": [],
+    "origin": "model",
+    "edited": false
+   },
+   {
+    "id": "p2",
+    "section": "plan",
+    "text": "Start ezetimibe 10 mg once daily.",
+    "evidence": [
+     {
+      "turn": 24,
+      "quote": "I'm adding Ezetimibe 10 milligrams once a day.",
+      "verified": true,
+      "score": 1.0
+     }
+    ],
+    "support": "supported",
+    "flags": [],
+    "origin": "model",
+    "edited": false
+   },
+   {
+    "id": "p3",
+    "section": "plan",
+    "text": "If muscle aches return, stop rosuvastatin and message clinician; continue ezetimibe.",
+    "evidence": [
+     {
+      "turn": 26,
+      "quote": "If the aches come back stop the Rosuvastatin and send me a message but keep taking the ezetimibe.",
+      "verified": true,
+      "score": 1.0
+     }
+    ],
+    "support": "supported",
+    "flags": [],
+    "origin": "model",
+    "edited": false
+   },
+   {
+    "id": "p4",
+    "section": "plan",
+    "text": "Recheck lipid panel and liver tests in 8 weeks.",
+    "evidence": [
+     {
+      "turn": 28,
+      "quote": "We'll recheck a lipid panel and liver tests in eight weeks.",
+      "verified": true,
+      "score": 1.0
+     }
+    ],
+    "support": "supported",
+    "flags": [],
+    "origin": "model",
+    "edited": false
+   },
+   {
+    "id": "p5",
+    "section": "plan",
+    "text": "If LDL still >55 after 8 weeks, consider injectable cholesterol medicines.",
+    "evidence": [
+     {
+      "turn": 28,
+      "quote": "If your LDL is still above 55 after that, there are injectable cholesterol medicines we could talk about",
+      "verified": true,
+      "score": 1.0
+     }
+    ],
+    "support": "supported",
+    "flags": [],
+    "origin": "model",
+    "edited": false
+   },
+   {
+    "id": "p6",
+    "section": "plan",
+    "text": "Continue aspirin and clopidogrel through February (12 months post-stent).",
+    "evidence": [
+     {
+      "turn": 28,
+      "quote": "Keep taking the aspirin and the clopidogrel through February, that's 12 months after the stent",
+      "verified": true,
+      "score": 1.0
+     }
+    ],
+    "support": "supported",
+    "flags": [],
+    "origin": "model",
+    "edited": false
+   },
+   {
+    "id": "p7",
+    "section": "plan",
+    "text": "Do not stop clopidogrel without consulting clinician.",
+    "evidence": [
+     {
+      "turn": 28,
+      "quote": "please don't stop the clopidogrel without talking to us first.",
+      "verified": true,
+      "score": 1.0
+     }
+    ],
+    "support": "supported",
+    "flags": [],
+    "origin": "model",
+    "edited": false
+   },
+   {
+    "id": "p8",
+    "section": "plan",
+    "text": "Continue metoprolol at current dose.",
+    "evidence": [
+     {
+      "turn": 28,
+      "quote": "Keep the metoprolol the same",
+      "verified": true,
+      "score": 1.0
+     }
+    ],
+    "support": "supported",
+    "flags": [],
+    "origin": "model",
+    "edited": false
+   },
+   {
+    "id": "p9",
+    "section": "plan",
+    "text": "Continue walking 30 minutes most days.",
+    "evidence": [
+     {
+      "turn": 28,
+      "quote": "keep up the walking.",
+      "verified": true,
+      "score": 1.0
+     },
+     {
+      "turn": 5,
+      "quote": "Heart -wise, good. No chest pain at all since the stent. I finished cardiac ...",
+      "verified": true,
+      "score": 0.0
+     }
+    ],
+    "support": "supported",
+    "flags": [],
+    "origin": "model",
+    "edited": false
+   },
+   {
+    "id": "p10",
+    "section": "plan",
+    "text": "Follow-up in 3 months.",
+    "evidence": [
+     {
+      "turn": 30,
+      "quote": "I'll see you back in three months.",
+      "verified": true,
+      "score": 1.0
+     }
+    ],
+    "support": "supported",
+    "flags": [],
+    "origin": "model",
+    "edited": false
+   }
+  ],
+  "medications": [
+   {
+    "name": "rosuvastatin",
+    "dose": "5 mg",
+    "frequency": "once daily",
+    "route": "oral",
+    "status": "new",
+    "evidence": [
+     {
+      "turn": 24,
+      "quote": "I'd like to start Rosuvastatin 5 milligrams once a day",
+      "verified": true,
+      "score": 1.0
+     }
+    ],
+    "flags": []
+   },
+   {
+    "name": "ezetimibe",
+    "dose": "10 mg",
+    "frequency": "once daily",
+    "route": "oral",
+    "status": "new",
+    "evidence": [
+     {
+      "turn": 24,
+      "quote": "I'm adding Ezetimibe 10 milligrams once a day.",
+      "verified": true,
+      "score": 1.0
+     }
+    ],
+    "flags": []
+   },
+   {
+    "name": "aspirin",
+    "dose": "81 mg",
+    "frequency": "once daily",
+    "route": "oral",
+    "status": "active",
+    "evidence": [
+     {
+      "turn": 17,
+      "quote": "aspirin 81 once a day",
+      "verified": true,
+      "score": 1.0
+     }
+    ],
+    "flags": []
+   },
+   {
+    "name": "clopidogrel",
+    "dose": "75 mg",
+    "frequency": "once daily",
+    "route": "oral",
+    "status": "active",
+    "evidence": [
+     {
+      "turn": 17,
+      "quote": "clopidogrel 75 once a day",
+      "verified": true,
+      "score": 1.0
+     }
+    ],
+    "flags": []
+   },
+   {
+    "name": "metoprolol",
+    "dose": "25 mg",
+    "frequency": "once daily",
+    "route": "oral",
+    "status": "active",
+    "evidence": [
+     {
+      "turn": 17,
+      "quote": "the metoprolol 25 milligrams once a day",
+      "verified": true,
+      "score": 1.0
+     }
+    ],
+    "flags": []
+   }
+  ],
+  "allergies": [
+   {
+    "substance": "sulfa drugs",
+    "reaction": "rash all over",
+    "evidence": [
+     {
+      "turn": 20,
+      "quote": "you're still allergic to sulfa drugs.",
+      "verified": true,
+      "score": 1.0
+     },
+     {
+      "turn": 21,
+      "quote": "Yes, I get a rash all over.",
+      "verified": true,
+      "score": 1.0
+     }
+    ]
+   }
+  ],
+  "after_visit_summary": "You have coronary artery disease with a stent that is stable. Your LDL cholesterol is high at 118, and we need it under 55 to protect your heart. You had muscle aches in your legs from atorvastatin 80 mg, so we are switching your cholesterol medicine. Start rosuvastatin 5 mg by mouth once daily and ezetimibe 10 mg by mouth once daily. If muscle aches return, stop the rosuvastatin and message us, but keep taking the ezetimibe. Continue taking aspirin 81 mg once daily, clopidogrel 75 mg once daily until February, and metoprolol 25 mg once daily. Do not stop clopidogrel without talking to us first. Keep walking 30 minutes most days. We will recheck your cholesterol and liver tests in 8 weeks. If your LDL is still above 55, we may discuss injectable cholesterol medicines. Follow up with us in 3 months. Watch for unexplained muscle pain, weakness, or dark urine, and contact us if these occur.",
+  "avs_flags": [],
+  "icd10": [
+   {
+    "system": "ICD-10-CM",
+    "code": "I25.10",
+    "description": "Atherosclerotic heart disease of native coronary artery without angina pectoris",
+    "rank": 1,
+    "rationale": "Atherosclerotic heart disease of native coronary artery without angina pectoris, representing stable coronary artery disease with stent, assessed as the primary condition for the visit.",
+    "evidence": [
+     {
+      "turn": 30,
+      "quote": "you have coronary artery disease with a stent, which is stable and high LDL cholesterol, not at goal because you couldn't tolerate the atorvastatin.",
+      "verified": true,
+      "score": 1.0
+     }
+    ],
+    "valid": true,
+    "billable": true,
+    "flags": [
+     {
+      "kind": "code_negated",
+      "severity": "error",
+      "message": "The code describes chest pain, which the patient denied.",
+      "acknowledged": false,
+      "detail": {}
+     }
+    ],
+    "accepted": null
+   },
+   {
+    "system": "ICD-10-CM",
+    "code": "E78.2",
+    "description": "Mixed hyperlipidemia",
+    "rank": 2,
+    "rationale": "Mixed hyperlipidemia, representing high LDL cholesterol not at goal, assessed and managed in this visit.",
+    "evidence": [
+     {
+      "turn": 22,
+      "quote": "Your labs from last week, so after about two weeks off the statin, show an LDL of 118. For someone with a stent, we want the LDL under 55, so that's well above goal.",
+      "verified": true,
+      "score": 1.0
+     }
+    ],
+    "valid": true,
+    "billable": true,
+    "flags": [],
+    "accepted": null
+   }
+  ],
+  "em": {
+   "system": "CPT",
+   "code": "99214",
+   "description": "Established patient office visit, moderate-complexity decision making",
+   "rank": 1,
+   "rationale": "Established patient visit with two chronic conditions (stable CAD and hyperlipidemia) requiring moderate complexity medical decision making, including review of labs, risk assessment for statin intolerance, and initiation of two new medications.",
+   "evidence": [],
+   "valid": true,
+   "billable": true,
+   "flags": [],
+   "accepted": null
+  },
+  "procedures": [
+   {
+    "system": "CPT",
+    "code": "80061",
+    "description": "Lipid panel",
+    "rank": 1,
+    "rationale": "Lipid panel performed and reviewed during the visit to assess LDL level and guide treatment decisions.",
+    "evidence": [
+     {
+      "turn": 22,
+      "quote": "Your labs from last week, so after about two weeks off the statin, show an LDL of 118.",
+      "verified": true,
+      "score": 1.0
+     }
+    ],
+    "valid": true,
+    "billable": true,
+    "flags": [],
+    "accepted": null
+   }
+  ],
+  "mdm": {
+   "problems": "low",
+   "data": "moderate",
+   "risk": "moderate",
+   "level": "moderate",
+   "code": "99214",
+   "reasons": [
+    "problems: one stable chronic illness or two self-limited problems",
+    "data: 3 tests or sources",
+    "risk: prescription drug management"
+   ]
+  },
+  "section_status": {
+   "subjective": "draft",
+   "objective": "draft",
+   "assessment": "draft",
+   "plan": "draft"
+  },
+  "model": "openrouter/nvidia/nemotron-3-super-120b-a12b:free",
+  "created_at": "2026-10-14T02:14:17.203565Z",
+  "signed_by": null,
+  "signed_at": null,
+  "timings": {
+   "phi_masking": 0.026,
+   "llm_note": 22.3,
+   "guards_note": 0.053,
+   "llm_codes": 4.56,
+   "guards_codes": 0.035,
+   "total": 26.974,
+   "wall": 27.012
+  },
+  "usage": {
+   "model_ms": 26860,
+   "input_tokens": 5074,
+   "output_tokens": 3026,
+   "calls": 2
+  },
+  "phi": {
+   "NAME": 3,
+   "DATE": 3,
+   "DOB": 1,
+   "PHONE": 1,
+   "ORG": 1
+  }
+ },
+ "vault": {
+  "originals": {
+   "[NAME_1]": "Siobhan Bayan",
+   "[DATE_1]": "February",
+   "[PATIENT]": "Mansur",
+   "[DOB]": "September 8, 1967",
+   "[PHONE_1]": "7 -3 -0 -9 -2 -5 -8",
+   "[DATE_2]": "February 11th",
+   "[DATE_3]": "June",
+   "[ORG_1]": "Roosevelt High School",
+   "[NAME_2]": "Byan"
+  },
+  "surfaces": {
+   "[NAME_1]": [
+    "Siobhan Bayan"
+   ],
+   "[DATE_1]": [
+    "February"
+   ],
+   "[PATIENT]": [
+    "Mansur"
+   ],
+   "[DOB]": [
+    "September 8, 1967"
+   ],
+   "[PHONE_1]": [
+    "7 -3 -0 -9 -2 -5 -8"
+   ],
+   "[DATE_2]": [
+    "February 11th"
+   ],
+   "[DATE_3]": [
+    "June"
+   ],
+   "[ORG_1]": [
+    "Roosevelt High School"
+   ],
+   "[NAME_2]": [
+    "Byan"
+   ]
+  },
+  "types": {
+   "[NAME_1]": "NAME",
+   "[DATE_1]": "DATE",
+   "[PATIENT]": "NAME",
+   "[DOB]": "DOB",
+   "[PHONE_1]": "PHONE",
+   "[DATE_2]": "DATE",
+   "[DATE_3]": "DATE",
+   "[ORG_1]": "ORG",
+   "[NAME_2]": "NAME"
+  },
+  "counters": {
+   "NAME": 2,
+   "DATE": 3,
+   "PHONE": 1,
+   "ORG": 1
+  }
+ },
+ "score": {
+  "case": "cd-05",
+  "specialty": "cardiology",
+  "facts": 27,
+  "found": 26,
+  "found_in_section": 25,
+  "negation_errors": [],
+  "trap_errors": [],
+  "missed": [
+   "f20 [assessment] Hyperlipidemia with LDL above goal of under 55 due to statin intolerance (atorvastatin-associated myalgias)"
+  ],
+  "statements": 39,
+  "statements_matching_gold": 35,
+  "unsupported": 0,
+  "partial": 0,
+  "flags": {
+   "negation": 1
+  },
+  "meds": 6,
+  "meds_found": 5,
+  "meds_dose_correct": 5,
+  "icd_primary": "E78.5",
+  "icd_suggested": [
+   "I25.10",
+   "E78.2"
+  ],
+  "icd_top1": false,
+  "icd_top3": false,
+  "icd_top3_lenient": false,
+  "icd_top3_category": true,
+  "icd_gold_recall": 0.25,
+  "icd_invalid": 0,
+  "em_gold": "99214",
+  "em_suggested": "99214",
+  "em_exact": true,
+  "em_within_one": true,
+  "em_rule_estimate": "99214",
+  "procedures_gold": 0,
+  "procedures_found": 0
+ },
+ "egress_residue": {}
+}

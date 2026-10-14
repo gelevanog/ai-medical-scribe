@@ -1,0 +1,105 @@
+{
+ "visits": 32,
+ "gold_facts": 878,
+ "fact_recall": 0.9226,
+ "fact_recall_section_correct": 0.8941,
+ "statements": 948,
+ "gold_matched_precision": 0.9008,
+ "unsupported_rate": 0.0032,
+ "partial_rate": 0.0897,
+ "negation_errors": 8,
+ "negatives_in_gold": 173,
+ "trap_errors": 0,
+ "medication_recall": 0.7568,
+ "medication_dose_correct": 0.5946,
+ "icd_top1": 0.6562,
+ "icd_top3": 0.6562,
+ "icd_top3_lenient": 0.7812,
+ "icd_top3_category": 0.8438,
+ "icd_all_gold_recall": 0.6042,
+ "icd_invalid_suggestions": 0,
+ "em_exact": 0.6875,
+ "em_within_one": 0.9688,
+ "em_rule_estimate_exact": 0.6875,
+ "procedure_recall": 0.6957,
+ "flags": {
+  "partial_support": 85,
+  "dose_mismatch": 10,
+  "negation": 41,
+  "unknown_drug": 10,
+  "unsupported": 3,
+  "dose_range": 1
+ },
+ "by_specialty": {
+  "cardiology": {
+   "visits": 6,
+   "fact_recall": 0.9583,
+   "icd_top3": 0.6667,
+   "unsupported_rate": 0.0
+  },
+  "dermatology": {
+   "visits": 6,
+   "fact_recall": 0.9136,
+   "icd_top3": 0.6667,
+   "unsupported_rate": 0.0145
+  },
+  "mental_health": {
+   "visits": 6,
+   "fact_recall": 0.9085,
+   "icd_top3": 0.8333,
+   "unsupported_rate": 0.0
+  },
+  "pediatrics": {
+   "visits": 6,
+   "fact_recall": 0.8941,
+   "icd_top3": 0.3333,
+   "unsupported_rate": 0.0052
+  },
+  "primary_care": {
+   "visits": 8,
+   "fact_recall": 0.9333,
+   "icd_top3": 0.75,
+   "unsupported_rate": 0.0
+  }
+ },
+ "name": "asr",
+ "model": "openrouter/nvidia/nemotron-3-super-120b-a12b:free",
+ "requested_model": "openrouter/nvidia/nemotron-3-super-120b-a12b:free",
+ "transcripts": "small.en-clean",
+ "failures": [],
+ "payloads_checked": 66,
+ "phi_leaks": 0,
+ "phi_leak_details": [],
+ "latency_s": {
+  "phi_masking": {
+   "p50": 0.03,
+   "p95": 0.03
+  },
+  "llm_note": {
+   "p50": 22.1,
+   "p95": 40.11
+  },
+  "llm_codes": {
+   "p50": 5.53,
+   "p95": 9.25
+  },
+  "guards_note": {
+   "p50": 0.05,
+   "p95": 0.07
+  },
+  "guards_codes": {
+   "p50": 0.04,
+   "p95": 0.04
+  },
+  "total": {
+   "p50": 28.48,
+   "p95": 45.86
+  }
+ },
+ "tokens_per_visit": {
+  "input_mean": 5212,
+  "output_mean": 3011,
+  "calls_total": 66
+ },
+ "wall_minutes": 16.5
+}

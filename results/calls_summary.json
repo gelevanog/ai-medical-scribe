@@ -1,12 +1,12 @@
 {
- "requests": 325,
- "ok": 216,
- "input_tokens": 558132,
- "output_tokens": 314455,
+ "requests": 401,
+ "ok": 291,
+ "input_tokens": 749699,
+ "output_tokens": 426161,
  "non_free_models": [],
  "by_model_status": {
-  "nvidia/nemotron-3-super-120b-a12b:free retryable_error": 87,
-  "nvidia/nemotron-3-super-120b-a12b:free ok": 140,
+  "nvidia/nemotron-3-super-120b-a12b:free retryable_error": 88,
+  "nvidia/nemotron-3-super-120b-a12b:free ok": 215,
   "google/gemma-4-31b-it:free retryable_error": 4,
   "nvidia/nemotron-3-ultra-550b-a55b:free ok": 3,
   "thinkingmachines/inkling:free error": 1,

@@ -36,7 +36,7 @@ export default function EvaluationPage() {
   useEffect(() => {
     api.evaluation().then((d) => setData(d as Summary)).catch((e: Error) => setError(e.message));
   }, []);
-  const order = ["main", "apodex", "fake", "asr-fake"];
+  const order = ["main", "asr", "apodex", "fake", "asr-fake"];
   const runs = Object.entries(data?.runs ?? {}).sort(
     ([a], [b]) => (order.indexOf(a) + 1 || 99) - (order.indexOf(b) + 1 || 99),
   );

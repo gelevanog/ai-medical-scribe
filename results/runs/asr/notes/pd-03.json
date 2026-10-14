@@ -1,0 +1,1154 @@
+{
+ "note": {
+  "visit_id": "pd-03",
+  "statements": [
+   {
+    "id": "s1",
+    "section": "subjective",
+    "text": "Constipation for two months with hard stools every three to four days, crying during defecation, and hiding to hold stool.",
+    "evidence": [
+     {
+      "turn": 3,
+      "quote": "She's been going only every three or four days for maybe two months, and it's hard, and she cries when she goes. sometimes she hides behind the couch and holds it",
+      "verified": true,
+      "score": 1.0
+     }
+    ],
+    "support": "supported",
+    "flags": [],
+    "origin": "model",
+    "edited": false
+   },
+   {
+    "id": "s2",
+    "section": "subjective",
+    "text": "No blood in stool or on toilet paper.",
+    "evidence": [
+     {
+      "turn": 3,
+      "quote": "any blood in the stool or on the toilet paper no I haven't seen any",
+      "verified": true,
+      "score": 1.0
+     }
+    ],
+    "support": "supported",
+    "flags": [],
+    "origin": "model",
+    "edited": false
+   },
+   {
+    "id": "s3",
+    "section": "subjective",
+    "text": "No daytime accidents.",
+    "evidence": [
+     {
+      "turn": 3,
+      "quote": "any accidents during the day or belly pain between poops no accidents",
+      "verified": true,
+      "score": 1.0
+     }
+    ],
+    "support": "supported",
+    "flags": [],
+    "origin": "model",
+    "edited": false
+   },
+   {
+    "id": "s4",
+    "section": "subjective",
+    "text": "Reports tummy pain right before bowel movements.",
+    "evidence": [
+     {
+      "turn": 3,
+      "quote": "she'll say her tummy hurts right before she goes but otherwise she's fine",
+      "verified": true,
+      "score": 1.0
+     }
+    ],
+    "support": "supported",
+    "flags": [],
+    "origin": "model",
+    "edited": false
+   },
+   {
+    "id": "s5",
+    "section": "subjective",
+    "text": "Drinks three to four cups of milk per day.",
+    "evidence": [
+     {
+      "turn": 3,
+      "quote": "oh a lot probably three or four cups a day",
+      "verified": true,
+      "score": 1.0
+     }
+    ],
+    "support": "supported",
+    "flags": [],
+    "origin": "model",
+    "edited": false
+   },
+   {
+    "id": "s6",
+    "section": "subjective",
+    "text": "Diet includes milk, crackers, pasta, and occasional fruit; described as picky eater.",
+    "evidence": [
+     {
+      "turn": 3,
+      "quote": "she's a picky eater so milk and crackers and pasta, honestly. Fruit sometimes.",
+      "verified": true,
+      "score": 1.0
+     }
+    ],
+    "support": "supported",
+    "flags": [],
+    "origin": "model",
+    "edited": false
+   },
+   {
+    "id": "s7",
+    "section": "subjective",
+    "text": "Taking a children's multivitamin gummy once daily.",
+    "evidence": [
+     {
+      "turn": 5,
+      "quote": "Just a kid's multivitamin gummy, one a day.",
+      "verified": true,
+      "score": 1.0
+     }
+    ],
+    "support": "supported",
+    "flags": [],
+    "origin": "model",
+    "edited": false
+   },
+   {
+    "id": "s8",
+    "section": "subjective",
+    "text": "No medications.",
+    "evidence": [
+     {
+      "turn": 5,
+      "quote": "No medicines and no allergies.",
+      "verified": true,
+      "score": 1.0
+     }
+    ],
+    "support": "partial",
+    "flags": [
+     {
+      "kind": "partial_support",
+      "severity": "warning",
+      "message": "Quoted turn does not contain most of its terms; check against the transcript.",
+      "acknowledged": false,
+      "detail": {}
+     }
+    ],
+    "origin": "model",
+    "edited": false
+   },
+   {
+    "id": "s9",
+    "section": "subjective",
+    "text": "No known allergies.",
+    "evidence": [
+     {
+      "turn": 5,
+      "quote": "No medicines and no allergies.",
+      "verified": true,
+      "score": 1.0
+     }
+    ],
+    "support": "supported",
+    "flags": [],
+    "origin": "model",
+    "edited": false
+   },
+   {
+    "id": "s10",
+    "section": "subjective",
+    "text": "Attends preschool four mornings per week.",
+    "evidence": [
+     {
+      "turn": 7,
+      "quote": "She's at Sunflower Montessori, four mornings a week.",
+      "verified": true,
+      "score": 1.0
+     }
+    ],
+    "support": "supported",
+    "flags": [],
+    "origin": "model",
+    "edited": false
+   },
+   {
+    "id": "s11",
+    "section": "subjective",
+    "text": "Plays well with other children per teacher report.",
+    "evidence": [
+     {
+      "turn": 8,
+      "quote": "The teachers say she plays well with the other kids. Love that.",
+      "verified": true,
+      "score": 1.0
+     }
+    ],
+    "support": "supported",
+    "flags": [],
+    "origin": "model",
+    "edited": false
+   },
+   {
+    "id": "s12",
+    "section": "subjective",
+    "text": "Speaks in full sentences; strangers can understand her.",
+    "evidence": [
+     {
+      "turn": 11,
+      "quote": "Oh yes, she never stops talking. She can hop on one foot. She draws people with arms and legs. She dresses herself mostly.",
+      "verified": true,
+      "score": 1.0
+     }
+    ],
+    "support": "supported",
+    "flags": [],
+    "origin": "model",
+    "edited": false
+   },
+   {
+    "id": "s13",
+    "section": "subjective",
+    "text": "Daytime potty trained since age three.",
+    "evidence": [
+     {
+      "turn": 11,
+      "quote": "Daytime potty train since three.",
+      "verified": true,
+      "score": 1.0
+     }
+    ],
+    "support": "supported",
+    "flags": [],
+    "origin": "model",
+    "edited": false
+   },
+   {
+    "id": "s14",
+    "section": "subjective",
+    "text": "Sleeps 10 to 11 hours per night; no snoring.",
+    "evidence": [
+     {
+      "turn": 13,
+      "quote": "How sleep does she snore? No snoring.",
+      "verified": true,
+      "score": 1.0
+     },
+     {
+      "turn": 14,
+      "quote": "She sleeps about 10 or 11 hours.",
+      "verified": true,
+      "score": 1.0
+     }
+    ],
+    "support": "supported",
+    "flags": [],
+    "origin": "model",
+    "edited": false
+   },
+   {
+    "id": "s15",
+    "section": "subjective",
+    "text": "Sees dentist regularly; last visit one month ago with no cavities.",
+    "evidence": [
+     {
+      "turn": 15,
+      "quote": "Yes last month no cavities.",
+      "verified": true,
+      "score": 1.0
+     }
+    ],
+    "support": "supported",
+    "flags": [],
+    "origin": "model",
+    "edited": false
+   },
+   {
+    "id": "s16",
+    "section": "subjective",
+    "text": "Brushes teeth twice daily.",
+    "evidence": [
+     {
+      "turn": 16,
+      "quote": "We brush twice a day.",
+      "verified": true,
+      "score": 1.0
+     }
+    ],
+    "support": "supported",
+    "flags": [],
+    "origin": "model",
+    "edited": false
+   },
+   {
+    "id": "s17",
+    "section": "subjective",
+    "text": "Uses forward-facing car seat with five-point harness.",
+    "evidence": [
+     {
+      "turn": 17,
+      "quote": "Yes forward facing, five point harness. Good.",
+      "verified": true,
+      "score": 1.0
+     }
+    ],
+    "support": "supported",
+    "flags": [],
+    "origin": "model",
+    "edited": false
+   },
+   {
+    "id": "s18",
+    "section": "subjective",
+    "text": "Received flu shot this year at pharmacy on October 2nd.",
+    "evidence": [
+     {
+      "turn": 37,
+      "quote": "Has she had her flu shot this year? Yes, we got it at the pharmacy on October 2nd, when I got mine.",
+      "verified": true,
+      "score": 1.0
+     }
+    ],
+    "support": "supported",
+    "flags": [],
+    "origin": "model",
+    "edited": false
+   },
+   {
+    "id": "s19",
+    "section": "subjective",
+    "text": "Had a cough on September, now fully resolved.",
+    "evidence": [
+     {
+      "turn": 39,
+      "quote": "She had a cough back in September, but that's totally gone, so she's okay to get them right.",
+      "verified": true,
+      "score": 1.0
+     }
+    ],
+    "support": "supported",
+    "flags": [],
+    "origin": "model",
+    "edited": false
+   },
+   {
+    "id": "o1",
+    "section": "objective",
+    "text": "Weight: 17 kilograms (approximately 37.5 pounds).",
+    "evidence": [
+     {
+      "turn": 19,
+      "quote": "Weight is 17",
+      "verified": true,
+      "score": 1.0
+     },
+     {
+      "turn": 20,
+      "quote": "kilograms, about 37 and a half pounds.",
+      "verified": true,
+      "score": 1.0
+     }
+    ],
+    "support": "supported",
+    "flags": [],
+    "origin": "model",
+    "edited": false
+   },
+   {
+    "id": "o2",
+    "section": "objective",
+    "text": "Height: 103 centimeters.",
+    "evidence": [
+     {
+      "turn": 21,
+      "quote": "Height is 103 centimeters",
+      "verified": true,
+      "score": 1.0
+     }
+    ],
+    "support": "supported",
+    "flags": [],
+    "origin": "model",
+    "edited": false
+   },
+   {
+    "id": "o3",
+    "section": "objective",
+    "text": "BMI: 65th percentile.",
+    "evidence": [
+     {
+      "turn": 21,
+      "quote": "and her BMI is around the 65th percentile, so she's growing nicely.",
+      "verified": true,
+      "score": 1.0
+     }
+    ],
+    "support": "supported",
+    "flags": [],
+    "origin": "model",
+    "edited": false
+   },
+   {
+    "id": "o4",
+    "section": "objective",
+    "text": "Blood pressure: 94/56.",
+    "evidence": [
+     {
+      "turn": 21,
+      "quote": "Blood pressure is 94 over 56.",
+      "verified": true,
+      "score": 1.0
+     }
+    ],
+    "support": "supported",
+    "flags": [],
+    "origin": "model",
+    "edited": false
+   },
+   {
+    "id": "o5",
+    "section": "objective",
+    "text": "Vision screening: read 20/30 line with each eye; passed.",
+    "evidence": [
+     {
+      "turn": 21,
+      "quote": "On the vision screen, she read the 20 over 30 line with each eye, which is a pass for four.",
+      "verified": true,
+      "score": 1.0
+     }
+    ],
+    "support": "supported",
+    "flags": [],
+    "origin": "model",
+    "edited": false
+   },
+   {
+    "id": "o6",
+    "section": "objective",
+    "text": "Hearing screening: passed bilaterally.",
+    "evidence": [
+     {
+      "turn": 21,
+      "quote": "And she passed the hearing screen in both ears.",
+      "verified": true,
+      "score": 1.0
+     }
+    ],
+    "support": "supported",
+    "flags": [],
+    "origin": "model",
+    "edited": false
+   },
+   {
+    "id": "o7",
+    "section": "objective",
+    "text": "Cardiac: normal heart sounds, no murmur.",
+    "evidence": [
+     {
+      "turn": 22,
+      "quote": "Heart sounds normal, no murmur,",
+      "verified": true,
+      "score": 1.0
+     }
+    ],
+    "support": "supported",
+    "flags": [],
+    "origin": "model",
+    "edited": false
+   },
+   {
+    "id": "o8",
+    "section": "objective",
+    "text": "Lungs: clear.",
+    "evidence": [
+     {
+      "turn": 23,
+      "quote": "lungs are clear.",
+      "verified": true,
+      "score": 1.0
+     }
+    ],
+    "support": "supported",
+    "flags": [],
+    "origin": "model",
+    "edited": false
+   },
+   {
+    "id": "o9",
+    "section": "objective",
+    "text": "Abdomen: soft, non-tender; stool palpable in lower left quadrant.",
+    "evidence": [
+     {
+      "turn": 23,
+      "quote": "Her belly is soft and not tender but I can feel some stool on the lower left side.",
+      "verified": true,
+      "score": 1.0
+     }
+    ],
+    "support": "supported",
+    "flags": [],
+    "origin": "model",
+    "edited": false
+   },
+   {
+    "id": "o10",
+    "section": "objective",
+    "text": "Perineum: normal appearance; no tears or fissures.",
+    "evidence": [
+     {
+      "turn": 23,
+      "quote": "Her bottom looks normal no tears or fissures.",
+      "verified": true,
+      "score": 1.0
+     }
+    ],
+    "support": "supported",
+    "flags": [],
+    "origin": "model",
+    "edited": false
+   },
+   {
+    "id": "o11",
+    "section": "objective",
+    "text": "Teeth: appear healthy.",
+    "evidence": [
+     {
+      "turn": 23,
+      "quote": "Teeth look great.",
+      "verified": true,
+      "score": 1.0
+     }
+    ],
+    "support": "supported",
+    "flags": [],
+    "origin": "model",
+    "edited": false
+   },
+   {
+    "id": "a1",
+    "section": "assessment",
+    "text": "Constipation.",
+    "evidence": [
+     {
+      "turn": 25,
+      "quote": "The one issue is constipation.",
+      "verified": true,
+      "score": 1.0
+     }
+    ],
+    "support": "supported",
+    "flags": [],
+    "origin": "model",
+    "edited": false
+   },
+   {
+    "id": "a2",
+    "section": "assessment",
+    "text": "Healthy 4-year-old with normal growth and development.",
+    "evidence": [
+     {
+      "turn": 24,
+      "quote": "Overall, a healthy four year old, growing and developing normally.",
+      "verified": true,
+      "score": 1.0
+     }
+    ],
+    "support": "supported",
+    "flags": [],
+    "origin": "model",
+    "edited": false
+   },
+   {
+    "id": "p1",
+    "section": "plan",
+    "text": "Start polyethylene glycol (PEG) 3350 at 0.5 g/kg/day.",
+    "evidence": [
+     {
+      "turn": 26,
+      "quote": "The usual dose is about half a gram per kilogram,",
+      "verified": true,
+      "score": 1.0
+     }
+    ],
+    "support": "partial",
+    "flags": [
+     {
+      "kind": "partial_support",
+      "severity": "error",
+      "message": "Quoted turn does not contain 3350, polyethylene glycol; check against the transcript.",
+      "acknowledged": false,
+      "detail": {
+       "numbers_not_in_evidence": [
+        "3350"
+       ],
+       "drugs_not_in_evidence": [
+        "polyethylene glycol"
+       ]
+      }
+     }
+    ],
+    "origin": "model",
+    "edited": false
+   },
+   {
+    "id": "p2",
+    "section": "plan",
+    "text": "Administer 8.5 grams PEG 3350 (half a capful) mixed in 4 oz water or juice once daily.",
+    "evidence": [
+     {
+      "turn": 27,
+      "quote": "so at 17 kilograms, that's about eight and a half grams, which is half a capful, mixed in four ounces of water or juice once a day.",
+      "verified": true,
+      "score": 1.0
+     }
+    ],
+    "support": "partial",
+    "flags": [
+     {
+      "kind": "partial_support",
+      "severity": "error",
+      "message": "Quoted turn does not contain 3350; check against the transcript.",
+      "acknowledged": false,
+      "detail": {
+       "numbers_not_in_evidence": [
+        "3350"
+       ]
+      }
+     }
+    ],
+    "origin": "model",
+    "edited": false
+   },
+   {
+    "id": "p3",
+    "section": "plan",
+    "text": "Limit milk intake to 2 cups (16 oz) per day.",
+    "evidence": [
+     {
+      "turn": 30,
+      "quote": "Also, cut the milk down to two cups a day,",
+      "verified": true,
+      "score": 1.0
+     },
+     {
+      "turn": 31,
+      "quote": "16 ounces",
+      "verified": true,
+      "score": 1.0
+     }
+    ],
+    "support": "supported",
+    "flags": [],
+    "origin": "model",
+    "edited": false
+   },
+   {
+    "id": "p4",
+    "section": "plan",
+    "text": "Increase fruit and water intake.",
+    "evidence": [
+     {
+      "turn": 31,
+      "quote": "add fruit and water,",
+      "verified": true,
+      "score": 1.0
+     }
+    ],
+    "support": "supported",
+    "flags": [],
+    "origin": "model",
+    "edited": false
+   },
+   {
+    "id": "p5",
+    "section": "plan",
+    "text": "Have child sit on toilet for 5 minutes after meals to encourage bowel movements.",
+    "evidence": [
+     {
+      "turn": 32,
+      "quote": "and have her sit on the party for five minutes after meals.",
+      "verified": true,
+      "score": 1.0
+     }
+    ],
+    "support": "supported",
+    "flags": [],
+    "origin": "model",
+    "edited": false
+   },
+   {
+    "id": "p6",
+    "section": "plan",
+    "text": "Adjust PEG dose as needed based on stool consistency.",
+    "evidence": [
+     {
+      "turn": 29,
+      "quote": "You can adjust it.",
+      "verified": true,
+      "score": 1.0
+     }
+    ],
+    "support": "partial",
+    "flags": [
+     {
+      "kind": "partial_support",
+      "severity": "warning",
+      "message": "Quoted turn does not contain most of its terms; check against the transcript.",
+      "acknowledged": false,
+      "detail": {}
+     }
+    ],
+    "origin": "model",
+    "edited": false
+   },
+   {
+    "id": "p7",
+    "section": "plan",
+    "text": "Goal: soft stool every day or every other day.",
+    "evidence": [
+     {
+      "turn": 30,
+      "quote": "The goal is a soft poop every day or every other day.",
+      "verified": true,
+      "score": 1.0
+     }
+    ],
+    "support": "supported",
+    "flags": [],
+    "origin": "model",
+    "edited": false
+   },
+   {
+    "id": "p8",
+    "section": "plan",
+    "text": "If no improvement in one month or if blood appears in stool, contact clinic.",
+    "evidence": [
+     {
+      "turn": 32,
+      "quote": "If it isn't better in a month or you see blood, send me a message and we'll go from there.",
+      "verified": true,
+      "score": 1.0
+     }
+    ],
+    "support": "supported",
+    "flags": [],
+    "origin": "model",
+    "edited": false
+   },
+   {
+    "id": "p9",
+    "section": "plan",
+    "text": "Administer DTaP-IPV and MMRV vaccines today.",
+    "evidence": [
+     {
+      "turn": 33,
+      "quote": "sharts today. Yes, two sharts. One is D .T .R .P.",
+      "verified": true,
+      "score": 1.0
+     },
+     {
+      "turn": 34,
+      "quote": "and polio combined, the other is M .M .R.",
+      "verified": true,
+      "score": 1.0
+     },
+     {
+      "turn": 35,
+      "quote": "and chicken pucks combined.",
+      "verified": true,
+      "score": 1.0
+     }
+    ],
+    "support": "partial",
+    "flags": [
+     {
+      "kind": "partial_support",
+      "severity": "warning",
+      "message": "Quoted turn does not contain most of its terms; check against the transcript.",
+      "acknowledged": false,
+      "detail": {}
+     }
+    ],
+    "origin": "model",
+    "edited": false
+   },
+   {
+    "id": "p10",
+    "section": "plan",
+    "text": "Counsel on possible vaccine side effects: sore leg, low fever, and rash/fever 1-2 weeks post-MMRV.",
+    "evidence": [],
+    "support": "unsupported",
+    "flags": [
+     {
+      "kind": "unsupported",
+      "severity": "error",
+      "message": "No supporting quote found in the transcript. Remove it or confirm it yourself.",
+      "acknowledged": false,
+      "detail": {}
+     }
+    ],
+    "origin": "model",
+    "edited": false
+   },
+   {
+    "id": "p11",
+    "section": "plan",
+    "text": "Recommend children's acetaminophen 8 mL for discomfort if needed post-vaccination.",
+    "evidence": [
+     {
+      "turn": 37,
+      "quote": "If she's uncomfortable, children's Tylenol about 8 milliliters for her weight.",
+      "verified": true,
+      "score": 1.0
+     }
+    ],
+    "support": "partial",
+    "flags": [
+     {
+      "kind": "partial_support",
+      "severity": "warning",
+      "message": "Quoted turn does not contain most of its terms; check against the transcript.",
+      "acknowledged": false,
+      "detail": {}
+     }
+    ],
+    "origin": "model",
+    "edited": false
+   },
+   {
+    "id": "p12",
+    "section": "plan",
+    "text": "Schedule follow-up in one year for 5-year checkup.",
+    "evidence": [
+     {
+      "turn": 40,
+      "quote": "I'll see her at 5 for her next checkup.",
+      "verified": true,
+      "score": 1.0
+     }
+    ],
+    "support": "supported",
+    "flags": [],
+    "origin": "model",
+    "edited": false
+   }
+  ],
+  "medications": [
+   {
+    "name": "polyethylene glycol 3350",
+    "dose": "8.5 grams",
+    "frequency": "once daily",
+    "route": "oral",
+    "status": "new",
+    "evidence": [
+     {
+      "turn": 27,
+      "quote": "so at 17 kilograms, that's about eight and a half grams, which is half a capful, mixed in four ounces of water or juice once a day.",
+      "verified": true,
+      "score": 1.0
+     }
+    ],
+    "flags": []
+   },
+   {
+    "name": "children's acetaminophen",
+    "dose": "8 mL",
+    "frequency": "as needed for discomfort",
+    "route": "oral",
+    "status": "new",
+    "evidence": [
+     {
+      "turn": 37,
+      "quote": "If she's uncomfortable, children's Tylenol about 8 milliliters for her weight.",
+      "verified": true,
+      "score": 1.0
+     }
+    ],
+    "flags": []
+   },
+   {
+    "name": "children's multivitamin gummy",
+    "dose": "one gummy",
+    "frequency": "once daily",
+    "route": "oral",
+    "status": "active",
+    "evidence": [
+     {
+      "turn": 5,
+      "quote": "Just a kid's multivitamin gummy, one a day.",
+      "verified": true,
+      "score": 1.0
+     }
+    ],
+    "flags": []
+   }
+  ],
+  "allergies": [],
+  "after_visit_summary": "Today we saw Ananya Iyer for her 4-year checkup. She is growing well and developing normally. The main concern is constipation: she has hard stools every few days and sometimes cries or hides when trying to go. We will start a medicine called polyethylene glycol (PEG) to help soften her stools. Give her half a capful (8.5 grams) mixed in 4 ounces of water or juice once a day. We will also reduce her milk to 2 cups per day and encourage more fruit, water, and sitting on the toilet for 5 minutes after meals. The goal is a soft stool every day or every other day. If there is no improvement in a month or if you see blood in the stool, please message us. She also received two vaccines today: DTaP-IPV and MMRV. She may have a sore leg or low fever, and a rash or fever could appear 1-2 weeks after the MMRV vaccine. If she is uncomfortable, you may give her children's acetaminophen (Tylenol) 8 mL by mouth. She takes a daily multivitamin gummy and has no known allergies. Her flu shot was given at the pharmacy on October 2nd. Her next checkup will be at age 5. Please bring her back then, or sooner if you have concerns.",
+  "avs_flags": [
+   {
+    "kind": "unsupported",
+    "severity": "error",
+    "message": "The summary mentions medications that are not in the note: mmrv vaccine.",
+    "acknowledged": false,
+    "detail": {
+     "drugs": [
+      "mmrv vaccine"
+     ]
+    }
+   }
+  ],
+  "icd10": [
+   {
+    "system": "ICD-10-CM",
+    "code": "K59.09",
+    "description": "Other constipation",
+    "rank": 1,
+    "rationale": "Primary diagnosis: constipation with hard stools every 3-4 days, crying during defecation, stool holding, and palpable stool in LLQ, consistent with other constipation.",
+    "evidence": [
+     {
+      "turn": 25,
+      "quote": "The one issue is constipation. With the hard stools and the holding, I'd like to start Mira LAX.",
+      "verified": true,
+      "score": 1.0
+     },
+     {
+      "turn": 23,
+      "quote": "Her belly is soft and not tender but I can feel some stool on the lower left side.",
+      "verified": true,
+      "score": 1.0
+     }
+    ],
+    "valid": true,
+    "billable": true,
+    "flags": [],
+    "accepted": null
+   }
+  ],
+  "em": {
+   "system": "CPT",
+   "code": "99213",
+   "description": "Established patient office visit, low-complexity decision making",
+   "rank": 1,
+   "rationale": "Established patient visit with one stable chronic condition (constipation) managed with prescription drug (PEG), minimal data reviewed, and low risk; meets 99213 criteria under 2021 MDM.",
+   "evidence": [],
+   "valid": true,
+   "billable": true,
+   "flags": [],
+   "accepted": null
+  },
+  "procedures": [
+   {
+    "system": "CPT",
+    "code": "90471",
+    "description": "Immunization administration, one vaccine",
+    "rank": 1,
+    "rationale": "Administration of DTaP-IPV vaccine (one component) today.",
+    "evidence": [
+     {
+      "turn": 33,
+      "quote": "sharts today. Yes, two sharts. One is D .T .R .P.",
+      "verified": true,
+      "score": 1.0
+     }
+    ],
+    "valid": true,
+    "billable": true,
+    "flags": [],
+    "accepted": null
+   },
+   {
+    "system": "CPT",
+    "code": "90471",
+    "description": "Immunization administration, one vaccine",
+    "rank": 2,
+    "rationale": "Administration of MMRV vaccine (one component) today.",
+    "evidence": [],
+    "valid": true,
+    "billable": true,
+    "flags": [
+     {
+      "kind": "code_unsupported",
+      "severity": "warning",
+      "message": "No verified quote shows this service was performed today.",
+      "acknowledged": false,
+      "detail": {}
+     }
+    ],
+    "accepted": null
+   },
+   {
+    "system": "CPT",
+    "code": "90472",
+    "description": "Immunization administration, each additional vaccine",
+    "rank": 3,
+    "rationale": "Each additional vaccine administration beyond the first; two vaccines given today (DTaP-IPV and MMRV).",
+    "evidence": [],
+    "valid": true,
+    "billable": true,
+    "flags": [
+     {
+      "kind": "code_unsupported",
+      "severity": "warning",
+      "message": "No verified quote shows this service was performed today.",
+      "acknowledged": false,
+      "detail": {}
+     }
+    ],
+    "accepted": null
+   }
+  ],
+  "mdm": {
+   "problems": "low",
+   "data": "low",
+   "risk": "moderate",
+   "level": "low",
+   "code": "99213",
+   "reasons": [
+    "problems: one stable chronic illness or two self-limited problems",
+    "data: limited (tests or an independent historian)",
+    "risk: prescription drug management"
+   ]
+  },
+  "section_status": {
+   "subjective": "draft",
+   "objective": "draft",
+   "assessment": "draft",
+   "plan": "draft"
+  },
+  "model": "openrouter/nvidia/nemotron-3-super-120b-a12b:free",
+  "created_at": "2026-10-14T02:19:22.584859Z",
+  "signed_by": null,
+  "signed_at": null,
+  "timings": {
+   "phi_masking": 0.027,
+   "llm_note": 20.25,
+   "guards_note": 0.065,
+   "llm_codes": 4.5,
+   "guards_codes": 0.042,
+   "total": 24.884,
+   "wall": 24.944
+  },
+  "usage": {
+   "model_ms": 24750,
+   "input_tokens": 5421,
+   "output_tokens": 3459,
+   "calls": 2
+  },
+  "phi": {
+   "NAME": 2,
+   "DOB": 1,
+   "ORG": 3,
+   "DATE": 3
+  }
+ },
+ "vault": {
+  "originals": {
+   "[PATIENT]": "Ananya Iyer",
+   "[DOB]": "September 28th, 2022",
+   "[ORG_1]": "how's preschool",
+   "[ORG_2]": "Sunflower Montessori",
+   "[NAME_1]": "Mira LAX",
+   "[DATE_1]": "October 2nd",
+   "[DATE_2]": "September",
+   "[DATE_3]": "Halloween",
+   "[ORG_3]": "Attends preschool"
+  },
+  "surfaces": {
+   "[PATIENT]": [
+    "Ananya",
+    "Ananya Iyer"
+   ],
+   "[DOB]": [
+    "September 28th, 2022"
+   ],
+   "[ORG_1]": [
+    "how's preschool"
+   ],
+   "[ORG_2]": [
+    "Sunflower Montessori"
+   ],
+   "[NAME_1]": [
+    "Mira LAX"
+   ],
+   "[DATE_1]": [
+    "October 2nd"
+   ],
+   "[DATE_2]": [
+    "September"
+   ],
+   "[DATE_3]": [
+    "Halloween"
+   ],
+   "[ORG_3]": [
+    "Attends preschool"
+   ]
+  },
+  "types": {
+   "[PATIENT]": "NAME",
+   "[DOB]": "DOB",
+   "[ORG_1]": "ORG",
+   "[ORG_2]": "ORG",
+   "[NAME_1]": "NAME",
+   "[DATE_1]": "DATE",
+   "[DATE_2]": "DATE",
+   "[DATE_3]": "DATE",
+   "[ORG_3]": "ORG"
+  },
+  "counters": {
+   "ORG": 3,
+   "NAME": 1,
+   "DATE": 3
+  }
+ },
+ "score": {
+  "case": "pd-03",
+  "specialty": "pediatrics",
+  "facts": 30,
+  "found": 28,
+  "found_in_section": 27,
+  "negation_errors": [],
+  "trap_errors": [],
+  "missed": [
+   "f2 [subjective] Stool withholding behavior",
+   "f6 [subjective] High milk intake 3 to 4 cups a day, picky eater with low fruit and fiber"
+  ],
+  "statements": 44,
+  "statements_matching_gold": 34,
+  "unsupported": 1,
+  "partial": 6,
+  "flags": {
+   "partial_support": 6,
+   "unsupported": 1
+  },
+  "meds": 3,
+  "meds_found": 3,
+  "meds_dose_correct": 3,
+  "icd_primary": "Z00.121",
+  "icd_suggested": [
+   "K59.09"
+  ],
+  "icd_top1": false,
+  "icd_top3": false,
+  "icd_top3_lenient": false,
+  "icd_top3_category": false,
+  "icd_gold_recall": 0.3333333333333333,
+  "icd_invalid": 0,
+  "em_gold": "99213",
+  "em_suggested": "99213",
+  "em_exact": true,
+  "em_within_one": true,
+  "em_rule_estimate": "99213",
+  "procedures_gold": 3,
+  "procedures_found": 0
+ },
+ "egress_residue": {}
+}

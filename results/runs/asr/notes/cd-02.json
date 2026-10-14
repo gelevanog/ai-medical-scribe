@@ -1,0 +1,1057 @@
+{
+ "note": {
+  "visit_id": "cd-02",
+  "statements": [
+   {
+    "id": "s1",
+    "section": "subjective",
+    "text": "Atrial fibrillation, six-month check, feeling mostly fine, no heart racing like before.",
+    "evidence": [
+     {
+      "turn": 4,
+      "quote": "So this is your six -month check on the atrial fibrillation. How have you been feeling?",
+      "verified": true,
+      "score": 1.0
+     },
+     {
+      "turn": 5,
+      "quote": "Mostly fine. I don't feel the heart racing like before.",
+      "verified": true,
+      "score": 1.0
+     }
+    ],
+    "support": "supported",
+    "flags": [],
+    "origin": "model",
+    "edited": false
+   },
+   {
+    "id": "s2",
+    "section": "subjective",
+    "text": "Occasional afternoon tiredness, attributes to age 74.",
+    "evidence": [
+     {
+      "turn": 5,
+      "quote": "Sometimes, I'm a little tired in the afternoon, but I'm 74, you know.",
+      "verified": true,
+      "score": 1.0
+     }
+    ],
+    "support": "supported",
+    "flags": [],
+    "origin": "model",
+    "edited": false
+   },
+   {
+    "id": "s3",
+    "section": "subjective",
+    "text": "Denies shortness of breath, dizziness, or chest pain.",
+    "evidence": [
+     {
+      "turn": 6,
+      "quote": "Fair enough any shortness of breath, dizziness, or chest pain.",
+      "verified": true,
+      "score": 1.0
+     },
+     {
+      "turn": 7,
+      "quote": "No, none of that.",
+      "verified": true,
+      "score": 1.0
+     }
+    ],
+    "support": "supported",
+    "flags": [
+     {
+      "kind": "negation",
+      "severity": "error",
+      "message": "The transcript says the opposite: 'shortness of breath' (turns 6).",
+      "acknowledged": false,
+      "detail": {
+       "concept": "dyspnea",
+       "turns": [
+        6
+       ]
+      }
+     },
+     {
+      "kind": "negation",
+      "severity": "error",
+      "message": "The transcript says the opposite: 'dizziness' (turns 6).",
+      "acknowledged": false,
+      "detail": {
+       "concept": "presyncope",
+       "turns": [
+        6
+       ]
+      }
+     },
+     {
+      "kind": "negation",
+      "severity": "error",
+      "message": "The transcript says the opposite: 'chest pain' (turns 6).",
+      "acknowledged": false,
+      "detail": {
+       "concept": "chest_pain",
+       "turns": [
+        6
+       ]
+      }
+     }
+    ],
+    "origin": "model",
+    "edited": false
+   },
+   {
+    "id": "s4",
+    "section": "subjective",
+    "text": "Taking apixaban 5 mg twice daily.",
+    "evidence": [
+     {
+      "turn": 8,
+      "quote": "You're on epixabin, five milligrams twice a day",
+      "verified": true,
+      "score": 1.0
+     },
+     {
+      "turn": 9,
+      "quote": "The epixabin, yes. Morning and night",
+      "verified": true,
+      "score": 1.0
+     }
+    ],
+    "support": "partial",
+    "flags": [
+     {
+      "kind": "partial_support",
+      "severity": "error",
+      "message": "Quoted turn does not contain apixaban; check against the transcript.",
+      "acknowledged": false,
+      "detail": {
+       "drugs_not_in_evidence": [
+        "apixaban"
+       ]
+      }
+     }
+    ],
+    "origin": "model",
+    "edited": false
+   },
+   {
+    "id": "s5",
+    "section": "subjective",
+    "text": "Taking metoprolol 50 mg once daily (increased from 25 mg twice daily on April).",
+    "evidence": [
+     {
+      "turn": 8,
+      "quote": "metoprolol six and eight, 25 milligrams",
+      "verified": true,
+      "score": 1.0
+     },
+     {
+      "turn": 9,
+      "quote": "the metoprolol is 50 now. You went up to 50 in April, remember?",
+      "verified": true,
+      "score": 1.0
+     },
+     {
+      "turn": 10,
+      "quote": "50 milligrams once a day",
+      "verified": true,
+      "score": 1.0
+     }
+    ],
+    "support": "supported",
+    "flags": [],
+    "origin": "model",
+    "edited": false
+   },
+   {
+    "id": "s6",
+    "section": "subjective",
+    "text": "Taking lisinopril 10 mg daily for blood pressure.",
+    "evidence": [
+     {
+      "turn": 10,
+      "quote": "the lisinopril, 10 milligrams in the morning for the blood pressure",
+      "verified": true,
+      "score": 1.0
+     }
+    ],
+    "support": "supported",
+    "flags": [],
+    "origin": "model",
+    "edited": false
+   },
+   {
+    "id": "s7",
+    "section": "subjective",
+    "text": "Taking baby aspirin daily, started in summer per friend Ruth's advice.",
+    "evidence": [
+     {
+      "turn": 11,
+      "quote": "I also take a baby aspirin every day now. My friend Ruth said it's good for the heart, so I started it in the summer",
+      "verified": true,
+      "score": 1.0
+     }
+    ],
+    "support": "supported",
+    "flags": [],
+    "origin": "model",
+    "edited": false
+   },
+   {
+    "id": "s8",
+    "section": "subjective",
+    "text": "Taking fish oil 1000 mg daily.",
+    "evidence": [
+     {
+      "turn": 11,
+      "quote": "And my fish oil, one thousand milligrams.",
+      "verified": true,
+      "score": 1.0
+     }
+    ],
+    "support": "partial",
+    "flags": [
+     {
+      "kind": "partial_support",
+      "severity": "error",
+      "message": "Quoted turn does not contain 1000; check against the transcript.",
+      "acknowledged": false,
+      "detail": {
+       "numbers_not_in_evidence": [
+        "1000"
+       ]
+      }
+     }
+    ],
+    "origin": "model",
+    "edited": false
+   },
+   {
+    "id": "s9",
+    "section": "subjective",
+    "text": "Reports gum bleeding when brushing and one nosebleed in August that stopped after 10 minutes, no recurrence.",
+    "evidence": [
+     {
+      "turn": 13,
+      "quote": "My gums bleed a little when I brush. And I had one nosebleed in August, but it stopped on its own, after about 10 minutes. And it hasn't happened again.",
+      "verified": true,
+      "score": 1.0
+     }
+    ],
+    "support": "supported",
+    "flags": [],
+    "origin": "model",
+    "edited": false
+   },
+   {
+    "id": "s10",
+    "section": "subjective",
+    "text": "Denies black or tarry stools or blood in urine.",
+    "evidence": [
+     {
+      "turn": 14,
+      "quote": "Any black or tarry stools or blood in your urine?",
+      "verified": true,
+      "score": 1.0
+     },
+     {
+      "turn": 15,
+      "quote": "No.",
+      "verified": true,
+      "score": 1.0
+     }
+    ],
+    "support": "supported",
+    "flags": [],
+    "origin": "model",
+    "edited": false
+   },
+   {
+    "id": "s11",
+    "section": "subjective",
+    "text": "Denies falls since last visit.",
+    "evidence": [
+     {
+      "turn": 16,
+      "quote": "Any falls since I last saw you?",
+      "verified": true,
+      "score": 1.0
+     },
+     {
+      "turn": 17,
+      "quote": "No falls, thank God.",
+      "verified": true,
+      "score": 1.0
+     }
+    ],
+    "support": "supported",
+    "flags": [],
+    "origin": "model",
+    "edited": false
+   },
+   {
+    "id": "s12",
+    "section": "subjective",
+    "text": "Walks with church group twice a week.",
+    "evidence": [
+     {
+      "turn": 17,
+      "quote": "I walk with my church group twice a week.",
+      "verified": true,
+      "score": 1.0
+     }
+    ],
+    "support": "supported",
+    "flags": [],
+    "origin": "model",
+    "edited": false
+   },
+   {
+    "id": "o1",
+    "section": "objective",
+    "text": "Blood pressure 132/78 mmHg.",
+    "evidence": [
+     {
+      "turn": 18,
+      "quote": "your blood pressure is 132 over 78",
+      "verified": true,
+      "score": 1.0
+     }
+    ],
+    "support": "supported",
+    "flags": [],
+    "origin": "model",
+    "edited": false
+   },
+   {
+    "id": "o2",
+    "section": "objective",
+    "text": "Pulse 72 and irregular, consistent with atrial fibrillation.",
+    "evidence": [
+     {
+      "turn": 18,
+      "quote": "your pulse is 72 and irregular, which is expected with the atrial fibrillation",
+      "verified": true,
+      "score": 1.0
+     }
+    ],
+    "support": "supported",
+    "flags": [],
+    "origin": "model",
+    "edited": false
+   },
+   {
+    "id": "o3",
+    "section": "objective",
+    "text": "Weight 148 lbs, unchanged from last visit.",
+    "evidence": [
+     {
+      "turn": 18,
+      "quote": "Weight is 148 pounds, same as last time.",
+      "verified": true,
+      "score": 1.0
+     }
+    ],
+    "support": "supported",
+    "flags": [],
+    "origin": "model",
+    "edited": false
+   },
+   {
+    "id": "o4",
+    "section": "objective",
+    "text": "Cardiac exam: irregularly irregular rhythm, no murmur.",
+    "evidence": [
+     {
+      "turn": 18,
+      "quote": "Heart is irregularly irregular, no murmur.",
+      "verified": true,
+      "score": 1.0
+     }
+    ],
+    "support": "supported",
+    "flags": [],
+    "origin": "model",
+    "edited": false
+   },
+   {
+    "id": "o5",
+    "section": "objective",
+    "text": "Lungs clear, no ankle edema.",
+    "evidence": [
+     {
+      "turn": 18,
+      "quote": "Lungs are clear and no swelling in your ankles.",
+      "verified": true,
+      "score": 1.0
+     }
+    ],
+    "support": "supported",
+    "flags": [],
+    "origin": "model",
+    "edited": false
+   },
+   {
+    "id": "o6",
+    "section": "objective",
+    "text": "ECG shows atrial fibrillation with ventricular rate 74.",
+    "evidence": [
+     {
+      "turn": 20,
+      "quote": "We did an ECG today. It shows atrial fibrillation with a rate of 74",
+      "verified": true,
+      "score": 1.0
+     }
+    ],
+    "support": "supported",
+    "flags": [],
+    "origin": "model",
+    "edited": false
+   },
+   {
+    "id": "o7",
+    "section": "objective",
+    "text": "Labs from last month: hemoglobin 12.9 g/dL, kidney function normal (creatinine 0.9 mg/dL).",
+    "evidence": [
+     {
+      "turn": 20,
+      "quote": "Your labs from last month look good too. Hemoglobin was 12 .9 and kidney function was normal created 9 -0. 9.",
+      "verified": true,
+      "score": 1.0
+     }
+    ],
+    "support": "partial",
+    "flags": [
+     {
+      "kind": "partial_support",
+      "severity": "error",
+      "message": "Quoted turn does not contain 0.9, 12.9; check against the transcript.",
+      "acknowledged": false,
+      "detail": {
+       "numbers_not_in_evidence": [
+        "0.9",
+        "12.9"
+       ]
+      }
+     }
+    ],
+    "origin": "model",
+    "edited": false
+   },
+   {
+    "id": "a1",
+    "section": "assessment",
+    "text": "Permanent atrial fibrillation, rate controlled.",
+    "evidence": [
+     {
+      "turn": 28,
+      "quote": "permanent atrial fibrillation, rate controlled on long -term anticoagulation",
+      "verified": true,
+      "score": 1.0
+     }
+    ],
+    "support": "supported",
+    "flags": [],
+    "origin": "model",
+    "edited": false
+   },
+   {
+    "id": "a2",
+    "section": "assessment",
+    "text": "Hypertension, at goal.",
+    "evidence": [
+     {
+      "turn": 28,
+      "quote": "and your blood pressure is at goal.",
+      "verified": true,
+      "score": 1.0
+     }
+    ],
+    "support": "supported",
+    "flags": [],
+    "origin": "model",
+    "edited": false
+   },
+   {
+    "id": "p1",
+    "section": "plan",
+    "text": "Continue apixaban 5 mg twice daily.",
+    "evidence": [
+     {
+      "turn": 28,
+      "quote": "Keep the epixubin 5 milligrams twice a day",
+      "verified": true,
+      "score": 1.0
+     }
+    ],
+    "support": "partial",
+    "flags": [
+     {
+      "kind": "partial_support",
+      "severity": "error",
+      "message": "Quoted turn does not contain apixaban; check against the transcript.",
+      "acknowledged": false,
+      "detail": {
+       "drugs_not_in_evidence": [
+        "apixaban"
+       ]
+      }
+     }
+    ],
+    "origin": "model",
+    "edited": false
+   },
+   {
+    "id": "p2",
+    "section": "plan",
+    "text": "Continue metoprolol 50 mg once daily.",
+    "evidence": [
+     {
+      "turn": 28,
+      "quote": "metoprolol 6 and 8 50 milligrams once a day",
+      "verified": true,
+      "score": 1.0
+     }
+    ],
+    "support": "supported",
+    "flags": [],
+    "origin": "model",
+    "edited": false
+   },
+   {
+    "id": "p3",
+    "section": "plan",
+    "text": "Continue lisinopril 10 mg daily.",
+    "evidence": [
+     {
+      "turn": 28,
+      "quote": "lisinopril 10 milligrams",
+      "verified": true,
+      "score": 1.0
+     }
+    ],
+    "support": "supported",
+    "flags": [],
+    "origin": "model",
+    "edited": false
+   },
+   {
+    "id": "p4",
+    "section": "plan",
+    "text": "Discontinue aspirin.",
+    "evidence": [
+     {
+      "turn": 24,
+      "quote": "So I'd like you to stop the aspirin.",
+      "verified": true,
+      "score": 1.0
+     },
+     {
+      "turn": 25,
+      "quote": "Okay, I'll stop it.",
+      "verified": true,
+      "score": 1.0
+     },
+     {
+      "turn": 28,
+      "quote": "Stop the aspirin.",
+      "verified": true,
+      "score": 1.0
+     }
+    ],
+    "support": "supported",
+    "flags": [],
+    "origin": "model",
+    "edited": false
+   },
+   {
+    "id": "p5",
+    "section": "plan",
+    "text": "Continue fish oil 1000 mg daily.",
+    "evidence": [
+     {
+      "turn": 26,
+      "quote": "The fish oil at that dose is fine to keep.",
+      "verified": true,
+      "score": 1.0
+     }
+    ],
+    "support": "partial",
+    "flags": [
+     {
+      "kind": "partial_support",
+      "severity": "error",
+      "message": "Quoted turn does not contain 1000; check against the transcript.",
+      "acknowledged": false,
+      "detail": {
+       "numbers_not_in_evidence": [
+        "1000"
+       ]
+      }
+     }
+    ],
+    "origin": "model",
+    "edited": false
+   },
+   {
+    "id": "p6",
+    "section": "plan",
+    "text": "Use soft toothbrush; mention gum bleeding to dentist at next cleaning.",
+    "evidence": [
+     {
+      "turn": 26,
+      "quote": "Use a soft toothbrush and mention the gums to your dentist at your next cleaning.",
+      "verified": true,
+      "score": 1.0
+     }
+    ],
+    "support": "supported",
+    "flags": [],
+    "origin": "model",
+    "edited": false
+   },
+   {
+    "id": "p7",
+    "section": "plan",
+    "text": "Repeat CBC in 3 months at lab on 2210 Wexford Avenue.",
+    "evidence": [
+     {
+      "turn": 28,
+      "quote": "We'll check a blood count again in three months. You can do that at the lab on 2210 Wexford Avenue.",
+      "verified": true,
+      "score": 1.0
+     }
+    ],
+    "support": "supported",
+    "flags": [],
+    "origin": "model",
+    "edited": false
+   },
+   {
+    "id": "p8",
+    "section": "plan",
+    "text": "Return precautions: call for black stools, blood in urine, or nosebleed >20 min; go to ER for head injury after fall even if asymptomatic.",
+    "evidence": [
+     {
+      "turn": 30,
+      "quote": "Call us if you see black stools, blood in the urine, or a nosebleed that won't stop after 20 minutes, and if you ever fall and hit your head, go to the emergency room, even if you feel fine because of the blood thinner.",
+      "verified": true,
+      "score": 0.84
+     }
+    ],
+    "support": "supported",
+    "flags": [],
+    "origin": "model",
+    "edited": false
+   },
+   {
+    "id": "p9",
+    "section": "plan",
+    "text": "Follow-up in 6 months.",
+    "evidence": [
+     {
+      "turn": 32,
+      "quote": "I'll see you back in six months.",
+      "verified": true,
+      "score": 1.0
+     }
+    ],
+    "support": "partial",
+    "flags": [
+     {
+      "kind": "partial_support",
+      "severity": "warning",
+      "message": "Quoted turn does not contain most of its terms; check against the transcript.",
+      "acknowledged": false,
+      "detail": {}
+     }
+    ],
+    "origin": "model",
+    "edited": false
+   }
+  ],
+  "medications": [
+   {
+    "name": "apixaban",
+    "dose": "5 mg",
+    "frequency": "twice daily",
+    "route": "oral",
+    "status": "active",
+    "evidence": [
+     {
+      "turn": 8,
+      "quote": "You're on epixabin, five milligrams twice a day",
+      "verified": true,
+      "score": 1.0
+     },
+     {
+      "turn": 9,
+      "quote": "The epixabin, yes. Morning and night",
+      "verified": true,
+      "score": 1.0
+     },
+     {
+      "turn": 28,
+      "quote": "Keep the epixubin 5 milligrams twice a day",
+      "verified": true,
+      "score": 1.0
+     }
+    ],
+    "flags": []
+   },
+   {
+    "name": "metoprolol",
+    "dose": "50 mg",
+    "frequency": "once daily",
+    "route": "oral",
+    "status": "active",
+    "evidence": [
+     {
+      "turn": 9,
+      "quote": "the metoprolol is 50 now. You went up to 50 in April, remember?",
+      "verified": true,
+      "score": 1.0
+     },
+     {
+      "turn": 10,
+      "quote": "50 milligrams once a day",
+      "verified": true,
+      "score": 1.0
+     },
+     {
+      "turn": 28,
+      "quote": "metoprolol 6 and 8 50 milligrams once a day",
+      "verified": true,
+      "score": 1.0
+     }
+    ],
+    "flags": []
+   },
+   {
+    "name": "lisinopril",
+    "dose": "10 mg",
+    "frequency": "daily",
+    "route": "oral",
+    "status": "active",
+    "evidence": [
+     {
+      "turn": 10,
+      "quote": "the lisinopril, 10 milligrams in the morning for the blood pressure",
+      "verified": true,
+      "score": 1.0
+     },
+     {
+      "turn": 28,
+      "quote": "lisinopril 10 milligrams",
+      "verified": true,
+      "score": 1.0
+     }
+    ],
+    "flags": []
+   },
+   {
+    "name": "aspirin",
+    "dose": "baby aspirin",
+    "frequency": "daily",
+    "route": "oral",
+    "status": "stopped",
+    "evidence": [
+     {
+      "turn": 11,
+      "quote": "I also take a baby aspirin every day now",
+      "verified": true,
+      "score": 1.0
+     },
+     {
+      "turn": 24,
+      "quote": "So I'd like you to stop the aspirin.",
+      "verified": true,
+      "score": 1.0
+     },
+     {
+      "turn": 25,
+      "quote": "Okay, I'll stop it.",
+      "verified": true,
+      "score": 1.0
+     },
+     {
+      "turn": 28,
+      "quote": "Stop the aspirin.",
+      "verified": true,
+      "score": 1.0
+     }
+    ],
+    "flags": []
+   },
+   {
+    "name": "fish oil",
+    "dose": "1000 mg",
+    "frequency": "daily",
+    "route": "oral",
+    "status": "active",
+    "evidence": [
+     {
+      "turn": 11,
+      "quote": "And my fish oil, one thousand milligrams.",
+      "verified": true,
+      "score": 1.0
+     },
+     {
+      "turn": 26,
+      "quote": "The fish oil at that dose is fine to keep.",
+      "verified": true,
+      "score": 1.0
+     }
+    ],
+    "flags": [
+     {
+      "kind": "dose_mismatch",
+      "severity": "error",
+      "message": "The dose 1000 for fish oil was not said near the drug's name in the transcript.",
+      "acknowledged": false,
+      "detail": {
+       "dose": "1000"
+      }
+     }
+    ]
+   }
+  ],
+  "allergies": [],
+  "after_visit_summary": "You have atrial fibrillation, which is under control. Your blood pressure is at goal. You are taking apixaban 5 mg twice a day to prevent stroke, metoprolol 50 mg once a day to control your heart rate, and lisinopril 10 mg daily for blood pressure. Continue fish oil 1000 mg daily. Stop taking aspirin because it increases your risk of bleeding when combined with apixaban and does not help your heart. Use a soft toothbrush and tell your dentist about gum bleeding. Get a blood count check in three months at the lab on 2210 Wexford Avenue. Call us if you have black stools, blood in urine, or a nosebleed that does not stop after 20 minutes. If you fall and hit your head, go to the emergency room right away, even if you feel fine. Return in six months for follow-up.",
+  "avs_flags": [],
+  "icd10": [
+   {
+    "system": "ICD-10-CM",
+    "code": "I48.21",
+    "description": "Permanent atrial fibrillation",
+    "rank": 1,
+    "rationale": "Permanent atrial fibrillation is the primary condition assessed and documented in the assessment and plan.",
+    "evidence": [
+     {
+      "turn": 28,
+      "quote": "permanent atrial fibrillation, rate controlled on long -term anticoagulation",
+      "verified": true,
+      "score": 1.0
+     }
+    ],
+    "valid": true,
+    "billable": true,
+    "flags": [],
+    "accepted": null
+   },
+   {
+    "system": "ICD-10-CM",
+    "code": "I10",
+    "description": "Essential (primary) hypertension",
+    "rank": 2,
+    "rationale": "Essential (primary) hypertension is assessed and documented as being at goal.",
+    "evidence": [
+     {
+      "turn": 28,
+      "quote": "and your blood pressure is at goal",
+      "verified": true,
+      "score": 1.0
+     }
+    ],
+    "valid": true,
+    "billable": true,
+    "flags": [],
+    "accepted": null
+   }
+  ],
+  "em": {
+   "system": "CPT",
+   "code": "99213",
+   "description": "Established patient office visit, low-complexity decision making",
+   "rank": 1,
+   "rationale": "Established patient with two stable chronic conditions (atrial fibrillation, hypertension), minimal data reviewed (prior labs, ECG performed), and low to moderate risk (prescription drug management of apixaban, metoprolol, lisinopril).",
+   "evidence": [],
+   "valid": true,
+   "billable": true,
+   "flags": [
+    {
+     "kind": "em_mismatch",
+     "severity": "warning",
+     "message": "The rule-based MDM estimate is moderate (99214): problems: two or more chronic illnesses; data: tests ordered or reviewed plus an independent interpretation; risk: prescription drug management",
+     "acknowledged": false,
+     "detail": {
+      "estimate": "99214"
+     }
+    }
+   ],
+   "accepted": null
+  },
+  "procedures": [
+   {
+    "system": "CPT",
+    "code": "93000",
+    "description": "Electrocardiogram with interpretation and report",
+    "rank": 1,
+    "rationale": "Electrocardiogram with interpretation and report was performed today in clinic.",
+    "evidence": [
+     {
+      "turn": 20,
+      "quote": "We did an ECG today. It shows atrial fibrillation with a rate of 74",
+      "verified": true,
+      "score": 1.0
+     }
+    ],
+    "valid": true,
+    "billable": true,
+    "flags": [],
+    "accepted": null
+   }
+  ],
+  "mdm": {
+   "problems": "moderate",
+   "data": "moderate",
+   "risk": "moderate",
+   "level": "moderate",
+   "code": "99214",
+   "reasons": [
+    "problems: two or more chronic illnesses",
+    "data: tests ordered or reviewed plus an independent interpretation",
+    "risk: prescription drug management"
+   ]
+  },
+  "section_status": {
+   "subjective": "draft",
+   "objective": "draft",
+   "assessment": "draft",
+   "plan": "draft"
+  },
+  "model": "openrouter/nvidia/nemotron-3-super-120b-a12b:free",
+  "created_at": "2026-10-14T02:12:50.947833Z",
+  "signed_by": null,
+  "signed_at": null,
+  "timings": {
+   "phi_masking": 0.026,
+   "llm_note": 20.88,
+   "guards_note": 0.053,
+   "llm_codes": 7.53,
+   "guards_codes": 0.037,
+   "total": 28.526,
+   "wall": 28.542
+  },
+  "usage": {
+   "model_ms": 28410,
+   "input_tokens": 5064,
+   "output_tokens": 2994,
+   "calls": 2
+  },
+  "phi": {
+   "NAME": 4,
+   "DOB": 1,
+   "PHONE": 1,
+   "DATE": 2,
+   "ADDRESS": 1
+  }
+ },
+ "vault": {
+  "originals": {
+   "[PATIENT]": "Abina Ousu",
+   "[DOB]": "November 19th, 1951",
+   "[NAME_1]": "FU",
+   "[PHONE_1]": "555 -0148",
+   "[DATE_1]": "April",
+   "[NAME_2]": "Ruth",
+   "[DATE_2]": "August",
+   "[ADDRESS_1]": "2210 Wexford Avenue",
+   "[NAME_3]": "Effuel"
+  },
+  "surfaces": {
+   "[PATIENT]": [
+    "Abina Ousu",
+    "Ousu"
+   ],
+   "[DOB]": [
+    "November 19th, 1951"
+   ],
+   "[NAME_1]": [
+    "FU"
+   ],
+   "[PHONE_1]": [
+    "555 -0148"
+   ],
+   "[DATE_1]": [
+    "April"
+   ],
+   "[NAME_2]": [
+    "Ruth"
+   ],
+   "[DATE_2]": [
+    "August"
+   ],
+   "[ADDRESS_1]": [
+    "2210 Wexford Avenue"
+   ],
+   "[NAME_3]": [
+    "Effuel"
+   ]
+  },
+  "types": {
+   "[PATIENT]": "NAME",
+   "[DOB]": "DOB",
+   "[NAME_1]": "NAME",
+   "[PHONE_1]": "PHONE",
+   "[DATE_1]": "DATE",
+   "[NAME_2]": "NAME",
+   "[DATE_2]": "DATE",
+   "[ADDRESS_1]": "ADDRESS",
+   "[NAME_3]": "NAME"
+  },
+  "counters": {
+   "NAME": 3,
+   "PHONE": 1,
+   "DATE": 2,
+   "ADDRESS": 1
+  }
+ },
+ "score": {
+  "case": "cd-02",
+  "specialty": "cardiology",
+  "facts": 28,
+  "found": 26,
+  "found_in_section": 26,
+  "negation_errors": [],
+  "trap_errors": [],
+  "missed": [
+   "f20 [assessment] CHA2DS2-VASc score 3 (age, female sex, hypertension); anticoagulation indicated, apixaban dose appropriate",
+   "f21 [assessment] HAS-BLED score 2, including concurrent aspirin use"
+  ],
+  "statements": 30,
+  "statements_matching_gold": 24,
+  "unsupported": 0,
+  "partial": 6,
+  "flags": {
+   "negation": 3,
+   "partial_support": 6,
+   "dose_mismatch": 1
+  },
+  "meds": 5,
+  "meds_found": 5,
+  "meds_dose_correct": 4,
+  "icd_primary": "I48.21",
+  "icd_suggested": [
+   "I48.21",
+   "I10"
+  ],
+  "icd_top1": true,
+  "icd_top3": true,
+  "icd_top3_lenient": true,
+  "icd_top3_category": true,
+  "icd_gold_recall": 0.6666666666666666,
+  "icd_invalid": 0,
+  "em_gold": "99214",
+  "em_suggested": "99213",
+  "em_exact": false,
+  "em_within_one": true,
+  "em_rule_estimate": "99214",
+  "procedures_gold": 1,
+  "procedures_found": 1
+ },
+ "egress_residue": {}
+}

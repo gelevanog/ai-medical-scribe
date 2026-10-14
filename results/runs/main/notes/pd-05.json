@@ -22,7 +22,7 @@
    {
     "id": "s2",
     "section": "subjective",
-    "text": "Medication taken every school day around 7 AM, before the bus; weekends mostly.",
+    "text": "Taking medication every school day around 7 AM, before the bus; weekends mostly.",
     "evidence": [
      {
       "turn": 5,
@@ -39,7 +39,7 @@
    {
     "id": "s3",
     "section": "subjective",
-    "text": "School performance improved: finishing work, less out of seat, reading grade up from C to B.",
+    "text": "School performance improved: finishing work, not getting out of seat as much, reading grade from C to B.",
     "evidence": [
      {
       "turn": 7,
@@ -60,7 +60,7 @@
     "evidence": [
      {
       "turn": 8,
-      "quote": "On the teacher form she has 3 out of 9 attention symptoms now, down from 7 in the spring, and the hyperactivity score is down too. Your form looks similar.",
+      "quote": "On the teacher form she has 3 out of 9 attention symptoms now, down from 7 in the spring, and the hyperactivity score is down too.",
       "verified": true,
       "score": 1.0
      }
@@ -187,7 +187,7 @@
    {
     "id": "s11",
     "section": "subjective",
-    "text": "Mild irritability after school when medication wears off, but not sad.",
+    "text": "Mild irritability in evening after medication wears off, not sad.",
     "evidence": [
      {
       "turn": 20,
@@ -210,7 +210,7 @@
    {
     "id": "s12",
     "section": "subjective",
-    "text": "Denies fainting, chest pain, or racing heart, especially with activity.",
+    "text": "Denies fainting, chest pain, or racing heart, especially with exertion.",
     "evidence": [
      {
       "turn": 22,
@@ -233,7 +233,7 @@
    {
     "id": "s13",
     "section": "subjective",
-    "text": "Family history: brother Omar has ADHD and takes guanfacine; had similar appetite suppression on stimulant.",
+    "text": "Family history: brother Omar has ADHD, takes guanfacine, had similar appetite suppression on stimulant.",
     "evidence": [
      {
       "turn": 23,
@@ -267,7 +267,7 @@
    {
     "id": "o2",
     "section": "objective",
-    "text": "Weight 28.2 kilograms (down from 29.0 kg in August, loss of 0.8 kg or almost 2 pounds).",
+    "text": "Weight 28.2 kg (down from 29.0 kg on August, loss of 0.8 kg/~2 lbs).",
     "evidence": [
      {
       "turn": 24,
@@ -284,7 +284,7 @@
    {
     "id": "o3",
     "section": "objective",
-    "text": "Height 134 centimeters, still growing taller.",
+    "text": "Height 134 cm, still growing taller.",
     "evidence": [
      {
       "turn": 24,
@@ -350,23 +350,6 @@
     "edited": false
    },
    {
-    "id": "a2",
-    "section": "assessment",
-    "text": "Medication-related appetite suppression and weight loss.",
-    "evidence": [
-     {
-      "turn": 26,
-      "quote": "But the medicine is suppressing her appetite and she's lost some weight.",
-      "verified": true,
-      "score": 1.0
-     }
-    ],
-    "support": "supported",
-    "flags": [],
-    "origin": "model",
-    "edited": false
-   },
-   {
     "id": "p1",
     "section": "plan",
     "text": "Continue methylphenidate 27 milligrams every morning.",
@@ -403,7 +386,7 @@
    {
     "id": "p3",
     "section": "plan",
-    "text": "Pack a liked snack for lunch and provide a real snack after school and before bed.",
+    "text": "Pack a preferred snack for lunch; provide a substantial snack after school and before bed.",
     "evidence": [
      {
       "turn": 28,
@@ -420,7 +403,7 @@
    {
     "id": "p4",
     "section": "plan",
-    "text": "On weekends, if behavior is acceptable, may skip dose to support nutritional catch-up.",
+    "text": "On weekends, if behavior is acceptable, may skip dose to support appetite catch-up.",
     "evidence": [
      {
       "turn": 28,
@@ -471,7 +454,7 @@
    {
     "id": "p7",
     "section": "plan",
-    "text": "Send 30-day supply of methylphenidate to pharmacy at 2210 Kenwood Avenue.",
+    "text": "Send 30-day supply prescription to pharmacy at 2210 Kenwood Avenue.",
     "evidence": [
      {
       "turn": 31,
@@ -545,7 +528,7 @@
    }
   ],
   "allergies": [],
-  "after_visit_summary": "Today we checked on Zainab Haddad's ADHD treatment. She is doing well in school—her teacher says she finishes her work and stays in her seat more, and her reading grade improved from a C to a B. The medication (methylphenidate 27 mg every morning) is helping her focus. However, it is affecting her appetite: she eats little at lunch and gets very hungry later in the day. She has also lost a small amount of weight (about 2 pounds). To help, we will keep the same medication dose but give it with a bigger, higher-calorie breakfast (like eggs or a peanut butter smoothie). Please pack a snack she likes for lunch and give her a real snack after school and before bed. On weekends, if her behavior is good, it’s okay to skip the dose to help her eat more. For sleep, try to turn off screens by 8 PM and keep the same bedtime each night. If she still has trouble falling asleep, we can try a lower dose of melatonin (1 mg) instead of 3 mg. A prescription for 30 days of methylphenidate has been sent to the pharmacy at 2210 Kenwood Avenue. Please bring her for a nurse weight check on Tuesday, November 24th, and return for a follow-up visit in 3 months. If her weight continues to drop, we may consider a different medication. If you have any concerns, call 555-0147.",
+  "after_visit_summary": "Your daughter is doing well with her ADHD medication. Her focus and behavior at school have improved. The medicine is helping, but it has reduced her appetite, leading to some weight loss. We will keep the medication at 27 mg each morning. Give it with breakfast and make breakfast bigger and more filling, like eggs or a peanut butter smoothie. Pack a snack she likes for lunch and give her a substantial snack after school and before bed. On weekends, if her behavior is good, it’s okay to skip the dose to help her eat more. For sleep, turn off screens by 8 PM and keep the same bedtime every night. If she still has trouble falling asleep, we can try a lower dose of melatonin (1 mg) instead of 3 mg. A prescription for 30 days has been sent to the pharmacy at 2210 Kenwood Avenue. Please bring her for a weight check with the nurse on Tuesday, November 24th. I will see her again in 3 months, or sooner if you are concerned about her weight. If you have any questions or concerns, call me at 555-0147. Keep up the great work!",
   "avs_flags": [],
   "icd10": [
    {
@@ -553,30 +536,11 @@
     "code": "F90.2",
     "description": "Attention-deficit hyperactivity disorder, combined type",
     "rank": 1,
-    "rationale": "ADHD, combined type, is the primary condition assessed and managed in this visit, with documented improvement in symptoms and ongoing medication management.",
+    "rationale": "ADHD, combined type, is the primary condition assessed and managed in this visit, as documented in the assessment and plan.",
     "evidence": [
      {
       "turn": 26,
       "quote": "So, her ADHD, combined type, is responding well to the 27 milligrams",
-      "verified": true,
-      "score": 1.0
-     }
-    ],
-    "valid": true,
-    "billable": true,
-    "flags": [],
-    "accepted": null
-   },
-   {
-    "system": "ICD-10-CM",
-    "code": "R63.4",
-    "description": "Abnormal weight loss",
-    "rank": 2,
-    "rationale": "Abnormal weight loss is documented as a medication-related side effect, with measurable weight loss of 0.8 kg from prior visit, and is being actively managed.",
-    "evidence": [
-     {
-      "turn": 24,
-      "quote": "Her weight is 28.2 kilograms, and in August it was 29.0, so she's lost about 0.8 kilograms, almost 2 pounds.",
       "verified": true,
       "score": 1.0
      }
@@ -592,7 +556,7 @@
    "code": "99213",
    "description": "Established patient office visit, low-complexity decision making",
    "rank": 1,
-   "rationale": "Established patient with stable ADHD and medication side effects; low number of problems (2), minimal data reviewed (no new tests ordered), and low risk (medication continuation with monitoring), meeting criteria for 99213.",
+   "rationale": "Established patient with stable ADHD (one chronic illness), minimal data reviewed (Vanderbilt forms, vitals), and low risk (medication continuation with side effect management); meets criteria for 99213 under 2021 MDM guidelines.",
    "evidence": [],
    "valid": true,
    "billable": true,
@@ -619,29 +583,29 @@
    "plan": "draft"
   },
   "model": "openrouter/nvidia/nemotron-3-super-120b-a12b:free",
-  "created_at": "2026-10-13T07:03:50.991771Z",
+  "created_at": "2026-10-14T02:25:31.911445Z",
   "signed_by": null,
   "signed_at": null,
   "timings": {
-   "phi_masking": 0.025,
-   "llm_note": 18.14,
-   "guards_note": 0.068,
-   "llm_codes": 4.05,
-   "guards_codes": 0.045,
-   "total": 22.328,
-   "wall": 0.165
+   "phi_masking": 0.028,
+   "llm_note": 22.16,
+   "guards_note": 0.055,
+   "llm_codes": 2.52,
+   "guards_codes": 0.038,
+   "total": 24.801,
+   "wall": 24.822
   },
   "usage": {
-   "model_ms": 22190,
-   "input_tokens": 5233,
-   "output_tokens": 2695,
+   "model_ms": 24680,
+   "input_tokens": 5196,
+   "output_tokens": 2395,
    "calls": 2
   },
   "phi": {
    "NAME": 4,
    "DOB": 1,
    "DATE": 3,
-   "ORG": 1,
+   "ORG": 2,
    "ADDRESS": 1,
    "PHONE": 1
   }
@@ -654,6 +618,7 @@
    "[DATE_1]": "August",
    "[ORG_1]": "Riverside Elementary",
    "[NAME_2]": "Kowalski",
+   "[ORG_2]": "she's herself",
    "[NAME_3]": "Omar",
    "[ADDRESS_1]": "2210 Kenwood Avenue",
    "[DATE_2]": "Tuesday, November 24th",
@@ -680,6 +645,9 @@
    "[NAME_2]": [
     "Kowalski"
    ],
+   "[ORG_2]": [
+    "she's herself"
+   ],
    "[NAME_3]": [
     "Omar"
    ],
@@ -703,6 +671,7 @@
    "[DATE_1]": "DATE",
    "[ORG_1]": "ORG",
    "[NAME_2]": "NAME",
+   "[ORG_2]": "ORG",
    "[NAME_3]": "NAME",
    "[ADDRESS_1]": "ADDRESS",
    "[DATE_2]": "DATE",
@@ -712,7 +681,7 @@
   "counters": {
    "NAME": 3,
    "DATE": 3,
-   "ORG": 1,
+   "ORG": 2,
    "ADDRESS": 1,
    "PHONE": 1
   }
@@ -722,12 +691,12 @@
   "specialty": "pediatrics",
   "facts": 25,
   "found": 25,
-  "found_in_section": 23,
+  "found_in_section": 22,
   "negation_errors": [],
   "trap_errors": [],
   "missed": [],
-  "statements": 29,
-  "statements_matching_gold": 28,
+  "statements": 28,
+  "statements_matching_gold": 27,
   "unsupported": 0,
   "partial": 0,
   "flags": {},
@@ -736,14 +705,13 @@
   "meds_dose_correct": 1,
   "icd_primary": "F90.2",
   "icd_suggested": [
-   "F90.2",
-   "R63.4"
+   "F90.2"
   ],
   "icd_top1": true,
   "icd_top3": true,
   "icd_top3_lenient": true,
   "icd_top3_category": true,
-  "icd_gold_recall": 0.6666666666666666,
+  "icd_gold_recall": 0.3333333333333333,
   "icd_invalid": 0,
   "em_gold": "99214",
   "em_suggested": "99213",

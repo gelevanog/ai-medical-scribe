@@ -1,0 +1,1016 @@
+{
+ "note": {
+  "visit_id": "pd-05",
+  "statements": [
+   {
+    "id": "s1",
+    "section": "subjective",
+    "text": "ADHD follow-up, established patient.",
+    "evidence": [
+     {
+      "turn": 2,
+      "quote": "So this is her ADHD follow -up.",
+      "verified": true,
+      "score": 1.0
+     }
+    ],
+    "support": "supported",
+    "flags": [],
+    "origin": "model",
+    "edited": false
+   },
+   {
+    "id": "s2",
+    "section": "subjective",
+    "text": "On methylphenidate 27 milligrams every morning.",
+    "evidence": [
+     {
+      "turn": 3,
+      "quote": "She's on the 36 milligrams every morning. Oh no, sorry, it's 27.",
+      "verified": true,
+      "score": 1.0
+     }
+    ],
+    "support": "supported",
+    "flags": [],
+    "origin": "model",
+    "edited": false
+   },
+   {
+    "id": "s3",
+    "section": "subjective",
+    "text": "Takes medication every school day around 7 AM, before the bus, weekends too mostly.",
+    "evidence": [
+     {
+      "turn": 5,
+      "quote": "Every school day around 7, before the bus, weekends too mostly.",
+      "verified": true,
+      "score": 1.0
+     }
+    ],
+    "support": "supported",
+    "flags": [],
+    "origin": "model",
+    "edited": false
+   },
+   {
+    "id": "s4",
+    "section": "subjective",
+    "text": "In 4th grade at Riverside Elementary.",
+    "evidence": [
+     {
+      "turn": 6,
+      "quote": "She's in 4th grade at Riverside Elementary now, right?",
+      "verified": true,
+      "score": 1.0
+     }
+    ],
+    "support": "supported",
+    "flags": [],
+    "origin": "model",
+    "edited": false
+   },
+   {
+    "id": "s5",
+    "section": "subjective",
+    "text": "Teacher reports finishing work and not getting up out of seat as much.",
+    "evidence": [
+     {
+      "turn": 7,
+      "quote": "her teacher M .S. Kowalski says she's finishing her work and not getting up out of her seat as much.",
+      "verified": true,
+      "score": 1.0
+     }
+    ],
+    "support": "supported",
+    "flags": [],
+    "origin": "model",
+    "edited": false
+   },
+   {
+    "id": "s6",
+    "section": "subjective",
+    "text": "Reading grade improved from C to B.",
+    "evidence": [
+     {
+      "turn": 7,
+      "quote": "Her reading grade went from a C to a B.",
+      "verified": true,
+      "score": 1.0
+     }
+    ],
+    "support": "supported",
+    "flags": [],
+    "origin": "model",
+    "edited": false
+   },
+   {
+    "id": "s7",
+    "section": "subjective",
+    "text": "Vanderbilt forms show three out of nine attention symptoms now, down from seven in spring; hyperactivity score also down.",
+    "evidence": [
+     {
+      "turn": 8,
+      "quote": "On the teacher form, she has three out of nine attention symptoms now, down from seven in the spring, and the hyperactivity score is down too.",
+      "verified": true,
+      "score": 1.0
+     }
+    ],
+    "support": "supported",
+    "flags": [],
+    "origin": "model",
+    "edited": false
+   },
+   {
+    "id": "s8",
+    "section": "subjective",
+    "text": "Caregiver reports patient is calmer.",
+    "evidence": [
+     {
+      "turn": 9,
+      "quote": "Yeah, she's calmer.",
+      "verified": true,
+      "score": 1.0
+     }
+    ],
+    "support": "supported",
+    "flags": [],
+    "origin": "model",
+    "edited": false
+   },
+   {
+    "id": "s9",
+    "section": "subjective",
+    "text": "Patient barely eats lunch; lunch comes home basically untouched.",
+    "evidence": [
+     {
+      "turn": 11,
+      "quote": "She barely eats lunch. The lunch comes home basically untouched.",
+      "verified": true,
+      "score": 1.0
+     }
+    ],
+    "support": "supported",
+    "flags": [],
+    "origin": "model",
+    "edited": false
+   },
+   {
+    "id": "s10",
+    "section": "subjective",
+    "text": "At 4 o'clock, patient is starving and eats everything in the kitchen.",
+    "evidence": [
+     {
+      "turn": 11,
+      "quote": "Then at four o 'clock, she's starving and eats everything in the kitchen.",
+      "verified": true,
+      "score": 1.0
+     }
+    ],
+    "support": "supported",
+    "flags": [],
+    "origin": "model",
+    "edited": false
+   },
+   {
+    "id": "s11",
+    "section": "subjective",
+    "text": "Breakfast: a little cereal, maybe; not a big breakfast person.",
+    "evidence": [
+     {
+      "turn": 13,
+      "quote": "A little cereal, maybe. She's not a big breakfast person.",
+      "verified": true,
+      "score": 1.0
+     }
+    ],
+    "support": "supported",
+    "flags": [],
+    "origin": "model",
+    "edited": false
+   },
+   {
+    "id": "s12",
+    "section": "subjective",
+    "text": "Takes about 45 minutes to fall asleep.",
+    "evidence": [
+     {
+      "turn": 15,
+      "quote": "It takes her a while to fall asleep, maybe 45 minutes.",
+      "verified": true,
+      "score": 1.0
+     }
+    ],
+    "support": "supported",
+    "flags": [],
+    "origin": "model",
+    "edited": false
+   },
+   {
+    "id": "s13",
+    "section": "subjective",
+    "text": "Tried melatonin 3 mg for about a week; stopped due to weird dreams.",
+    "evidence": [
+     {
+      "turn": 15,
+      "quote": "I bought melatonin at the store, three milligrams, and gave it for about a week. But she said she had weird dreams, so I stopped it.",
+      "verified": true,
+      "score": 1.0
+     }
+    ],
+    "support": "supported",
+    "flags": [],
+    "origin": "model",
+    "edited": false
+   },
+   {
+    "id": "s14",
+    "section": "subjective",
+    "text": "Denies headaches or stomach aches.",
+    "evidence": [
+     {
+      "turn": 16,
+      "quote": "Any headaches or stomach aches?",
+      "verified": true,
+      "score": 1.0
+     },
+     {
+      "turn": 17,
+      "quote": "No, not really.",
+      "verified": true,
+      "score": 1.0
+     }
+    ],
+    "support": "supported",
+    "flags": [],
+    "origin": "model",
+    "edited": false
+   },
+   {
+    "id": "s15",
+    "section": "subjective",
+    "text": "Denies tics like eye blinking or throat clearing.",
+    "evidence": [
+     {
+      "turn": 18,
+      "quote": "any ticks like eye blinking or throat clearing now",
+      "verified": true,
+      "score": 1.0
+     },
+     {
+      "turn": 19,
+      "quote": "little grumpy right after school but she's herself not sad",
+      "verified": true,
+      "score": 1.0
+     }
+    ],
+    "support": "supported",
+    "flags": [],
+    "origin": "model",
+    "edited": false
+   },
+   {
+    "id": "s16",
+    "section": "subjective",
+    "text": "Denies sadness or significant irritability when medication wears off.",
+    "evidence": [
+     {
+      "turn": 18,
+      "quote": "does she seem sad or really irritable when it wears off in the evening",
+      "verified": true,
+      "score": 1.0
+     },
+     {
+      "turn": 19,
+      "quote": "little grumpy right after school but she's herself not sad",
+      "verified": true,
+      "score": 1.0
+     }
+    ],
+    "support": "supported",
+    "flags": [
+     {
+      "kind": "negation",
+      "severity": "error",
+      "message": "The transcript says the opposite: 'irritability' (turns 18).",
+      "acknowledged": false,
+      "detail": {
+       "concept": "irritability",
+       "turns": [
+        18
+       ]
+      }
+     }
+    ],
+    "origin": "model",
+    "edited": false
+   },
+   {
+    "id": "s17",
+    "section": "subjective",
+    "text": "Denies fainting, chest pain, or racing heart, especially with running around.",
+    "evidence": [
+     {
+      "turn": 20,
+      "quote": "any fainting chest pain or racing heart especially with running around",
+      "verified": true,
+      "score": 1.0
+     },
+     {
+      "turn": 20,
+      "quote": "no nothing",
+      "verified": true,
+      "score": 1.0
+     }
+    ],
+    "support": "supported",
+    "flags": [
+     {
+      "kind": "negation",
+      "severity": "error",
+      "message": "The transcript says the opposite: 'fainting' (turns 20).",
+      "acknowledged": false,
+      "detail": {
+       "concept": "syncope",
+       "turns": [
+        20
+       ]
+      }
+     },
+     {
+      "kind": "negation",
+      "severity": "error",
+      "message": "The transcript says the opposite: 'chest pain' (turns 20).",
+      "acknowledged": false,
+      "detail": {
+       "concept": "chest_pain",
+       "turns": [
+        20
+       ]
+      }
+     },
+     {
+      "kind": "negation",
+      "severity": "error",
+      "message": "The transcript says the opposite: 'racing heart' (turns 20).",
+      "acknowledged": false,
+      "detail": {
+       "concept": "palpitations",
+       "turns": [
+        20
+       ]
+      }
+     }
+    ],
+    "origin": "model",
+    "edited": false
+   },
+   {
+    "id": "s18",
+    "section": "subjective",
+    "text": "Brother Omar has ADHD and takes guanfacine; had similar appetite suppression on stimulant.",
+    "evidence": [
+     {
+      "turn": 21,
+      "quote": "her brother Omar has ADHD too he takes guan fa seen and he had the same thing with appetite on a stimulant",
+      "verified": true,
+      "score": 1.0
+     }
+    ],
+    "support": "partial",
+    "flags": [
+     {
+      "kind": "partial_support",
+      "severity": "error",
+      "message": "Quoted turn does not contain guanfacine; check against the transcript.",
+      "acknowledged": false,
+      "detail": {
+       "drugs_not_in_evidence": [
+        "guanfacine"
+       ]
+      }
+     }
+    ],
+    "origin": "model",
+    "edited": false
+   },
+   {
+    "id": "o1",
+    "section": "objective",
+    "text": "Blood pressure 104 over 66.",
+    "evidence": [
+     {
+      "turn": 22,
+      "quote": "Blood pressure is 104 over 66, heart rate 94.",
+      "verified": true,
+      "score": 1.0
+     }
+    ],
+    "support": "supported",
+    "flags": [],
+    "origin": "model",
+    "edited": false
+   },
+   {
+    "id": "o2",
+    "section": "objective",
+    "text": "Heart rate 94.",
+    "evidence": [
+     {
+      "turn": 22,
+      "quote": "Blood pressure is 104 over 66, heart rate 94.",
+      "verified": true,
+      "score": 1.0
+     }
+    ],
+    "support": "supported",
+    "flags": [],
+    "origin": "model",
+    "edited": false
+   },
+   {
+    "id": "o3",
+    "section": "objective",
+    "text": "Weight 28.2 kilograms.",
+    "evidence": [
+     {
+      "turn": 22,
+      "quote": "Her weight is 28 .2 kilograms, and in August it was 29 .0, so she's lost about 0 .8 kilograms, almost 2 pounds.",
+      "verified": true,
+      "score": 1.0
+     }
+    ],
+    "support": "partial",
+    "flags": [
+     {
+      "kind": "partial_support",
+      "severity": "error",
+      "message": "Quoted turn does not contain 28.2; check against the transcript.",
+      "acknowledged": false,
+      "detail": {
+       "numbers_not_in_evidence": [
+        "28.2"
+       ]
+      }
+     }
+    ],
+    "origin": "model",
+    "edited": false
+   },
+   {
+    "id": "o4",
+    "section": "objective",
+    "text": "Weight decreased from 29.0 kg in August to 28.2 kg now (loss of 0.8 kg / ~2 lbs).",
+    "evidence": [
+     {
+      "turn": 22,
+      "quote": "Her weight is 28 .2 kilograms, and in August it was 29 .0, so she's lost about 0 .8 kilograms, almost 2 pounds.",
+      "verified": true,
+      "score": 1.0
+     }
+    ],
+    "support": "partial",
+    "flags": [
+     {
+      "kind": "partial_support",
+      "severity": "error",
+      "message": "Quoted turn does not contain 0.8, 28.2; check against the transcript.",
+      "acknowledged": false,
+      "detail": {
+       "numbers_not_in_evidence": [
+        "0.8",
+        "28.2"
+       ]
+      }
+     }
+    ],
+    "origin": "model",
+    "edited": false
+   },
+   {
+    "id": "o5",
+    "section": "objective",
+    "text": "Height 134 centimeters.",
+    "evidence": [
+     {
+      "turn": 22,
+      "quote": "Height is 134 centimeters, so she's still growing taller.",
+      "verified": true,
+      "score": 1.0
+     }
+    ],
+    "support": "supported",
+    "flags": [],
+    "origin": "model",
+    "edited": false
+   },
+   {
+    "id": "o6",
+    "section": "objective",
+    "text": "Heart sounds regular, no murmur.",
+    "evidence": [
+     {
+      "turn": 22,
+      "quote": "Her heart sounds regular, no murmur, and lungs are clear.",
+      "verified": true,
+      "score": 1.0
+     }
+    ],
+    "support": "supported",
+    "flags": [],
+    "origin": "model",
+    "edited": false
+   },
+   {
+    "id": "o7",
+    "section": "objective",
+    "text": "Lungs clear.",
+    "evidence": [
+     {
+      "turn": 22,
+      "quote": "Her heart sounds regular, no murmur, and lungs are clear.",
+      "verified": true,
+      "score": 1.0
+     }
+    ],
+    "support": "supported",
+    "flags": [],
+    "origin": "model",
+    "edited": false
+   },
+   {
+    "id": "a1",
+    "section": "assessment",
+    "text": "ADHD combined type, responding well to current medication.",
+    "evidence": [
+     {
+      "turn": 24,
+      "quote": "So, her ADHD combined type is responding well to the 27 milligrams, and I don't wanna lose that.",
+      "verified": true,
+      "score": 1.0
+     }
+    ],
+    "support": "supported",
+    "flags": [],
+    "origin": "model",
+    "edited": false
+   },
+   {
+    "id": "a2",
+    "section": "assessment",
+    "text": "Medication-related appetite suppression and weight loss.",
+    "evidence": [
+     {
+      "turn": 24,
+      "quote": "But the medicine is suppressing her appetite and she's lost some weight.",
+      "verified": true,
+      "score": 1.0
+     }
+    ],
+    "support": "supported",
+    "flags": [],
+    "origin": "model",
+    "edited": false
+   },
+   {
+    "id": "p1",
+    "section": "plan",
+    "text": "Keep methylphenidate at 27 milligrams every morning.",
+    "evidence": [
+     {
+      "turn": 24,
+      "quote": "Keep the methylphenidate at 27 milligrams every morning.",
+      "verified": true,
+      "score": 1.0
+     }
+    ],
+    "support": "supported",
+    "flags": [],
+    "origin": "model",
+    "edited": false
+   },
+   {
+    "id": "p2",
+    "section": "plan",
+    "text": "Give medication with breakfast; make breakfast bigger and higher calorie (e.g., eggs, peanut butter smoothie).",
+    "evidence": [
+     {
+      "turn": 26,
+      "quote": "Give it with breakfast and make breakfast bigger and higher calorie, like eggs, a smoothie with peanut butter, whatever she'll eat.",
+      "verified": true,
+      "score": 1.0
+     }
+    ],
+    "support": "supported",
+    "flags": [],
+    "origin": "model",
+    "edited": false
+   },
+   {
+    "id": "p3",
+    "section": "plan",
+    "text": "Pack a snack she likes for lunch.",
+    "evidence": [
+     {
+      "turn": 26,
+      "quote": "Pack a snack she likes for lunch, and a real snack after school and before bed.",
+      "verified": true,
+      "score": 1.0
+     }
+    ],
+    "support": "supported",
+    "flags": [],
+    "origin": "model",
+    "edited": false
+   },
+   {
+    "id": "p4",
+    "section": "plan",
+    "text": "Provide a real snack after school and before bed.",
+    "evidence": [
+     {
+      "turn": 26,
+      "quote": "Pack a snack she likes for lunch, and a real snack after school and before bed.",
+      "verified": true,
+      "score": 1.0
+     }
+    ],
+    "support": "supported",
+    "flags": [],
+    "origin": "model",
+    "edited": false
+   },
+   {
+    "id": "p5",
+    "section": "plan",
+    "text": "On weekends, if behavior is okay, skip dose to allow catch-up on eating.",
+    "evidence": [
+     {
+      "turn": 26,
+      "quote": "On weekends, if her behavior is okay, it's fine to skip the dose to let her catch up on eating.",
+      "verified": true,
+      "score": 1.0
+     }
+    ],
+    "support": "supported",
+    "flags": [],
+    "origin": "model",
+    "edited": false
+   },
+   {
+    "id": "p6",
+    "section": "plan",
+    "text": "Enforce screens off by 8 PM; same bedtime every night.",
+    "evidence": [
+     {
+      "turn": 28,
+      "quote": "For sleep, screens off by eight, same bedtime every night.",
+      "verified": true,
+      "score": 1.0
+     }
+    ],
+    "support": "supported",
+    "flags": [],
+    "origin": "model",
+    "edited": false
+   },
+   {
+    "id": "p7",
+    "section": "plan",
+    "text": "If sleep onset delay persists, try melatonin 1 mg instead of 3 mg.",
+    "evidence": [
+     {
+      "turn": 28,
+      "quote": "If she's still taking a long time to fall asleep, we can try melatonin again at one milligram instead of three.",
+      "verified": true,
+      "score": 1.0
+     }
+    ],
+    "support": "supported",
+    "flags": [],
+    "origin": "model",
+    "edited": false
+   },
+   {
+    "id": "p8",
+    "section": "plan",
+    "text": "Send prescription for 30-day supply to pharmacy at 2 ,210 Kenwood Avenue.",
+    "evidence": [
+     {
+      "turn": 29,
+      "quote": "Can you send the prescription to the pharmacy at 2 ,210 Kenwood Avenue?",
+      "verified": true,
+      "score": 1.0
+     },
+     {
+      "turn": 30,
+      "quote": "Yes, a 30 -day supply.",
+      "verified": true,
+      "score": 1.0
+     }
+    ],
+    "support": "supported",
+    "flags": [],
+    "origin": "model",
+    "edited": false
+   },
+   {
+    "id": "p9",
+    "section": "plan",
+    "text": "Nurse weight check on Tuesday, November 24th.",
+    "evidence": [
+     {
+      "turn": 30,
+      "quote": "Let's have her come in for a nurse weight check on Tuesday, November 24th, and I'll see her in three months.",
+      "verified": true,
+      "score": 1.0
+     }
+    ],
+    "support": "supported",
+    "flags": [],
+    "origin": "model",
+    "edited": false
+   },
+   {
+    "id": "p10",
+    "section": "plan",
+    "text": "Follow-up in three months.",
+    "evidence": [
+     {
+      "turn": 30,
+      "quote": "Let's have her come in for a nurse weight check on Tuesday, November 24th, and I'll see her in three months.",
+      "verified": true,
+      "score": 1.0
+     }
+    ],
+    "support": "supported",
+    "flags": [],
+    "origin": "model",
+    "edited": false
+   },
+   {
+    "id": "p11",
+    "section": "plan",
+    "text": "If weight continues to drop, consider different medicine; do not jump ahead.",
+    "evidence": [
+     {
+      "turn": 30,
+      "quote": "If her weight keeps dropping, we could think about a different medicine, but let's not jump ahead.",
+      "verified": true,
+      "score": 1.0
+     }
+    ],
+    "support": "supported",
+    "flags": [],
+    "origin": "model",
+    "edited": false
+   }
+  ],
+  "medications": [
+   {
+    "name": "methylphenidate",
+    "dose": "27 mg",
+    "frequency": "every morning",
+    "route": "oral",
+    "status": "active",
+    "evidence": [
+     {
+      "turn": 3,
+      "quote": "She's on the 36 milligrams every morning. Oh no, sorry, it's 27.",
+      "verified": true,
+      "score": 1.0
+     },
+     {
+      "turn": 24,
+      "quote": "Keep the methylphenidate at 27 milligrams every morning.",
+      "verified": true,
+      "score": 1.0
+     }
+    ],
+    "flags": []
+   }
+  ],
+  "allergies": [],
+  "after_visit_summary": "Today we checked on Zainab's ADHD medication. The 27 mg methylphenidate every morning is helping her focus and behavior at school, with better grades and less hyperactivity. However, the medicine is affecting her appetite, causing her to eat little at lunch and feel very hungry later, and she has lost a small amount of weight. To help, give the medication with a bigger, higher-calorie breakfast like eggs or a peanut butter smoothie. Pack a snack she likes for lunch and give another snack after school and before bed. On weekends, if her behavior is good, it's okay to skip the dose to let her eat more. For sleep, keep screens off by 8 PM and the same bedtime each night. If falling asleep takes too long, we can try a lower dose of melatonin (1 mg) instead of 3 mg. A new prescription for 30 days has been sent to the pharmacy at 2 ,210 Kenwood Avenue. Please bring Zainab for a nurse weight check on Tuesday, November 24th, and return for a follow-up visit in three months. If her weight continues to drop, we may consider a different medicine, but we will wait and watch for now. Call us at 555 -0147 if any concerns come up.",
+  "avs_flags": [],
+  "icd10": [
+   {
+    "system": "ICD-10-CM",
+    "code": "F90.2",
+    "description": "Attention-deficit hyperactivity disorder, combined type",
+    "rank": 1,
+    "rationale": "ADHD combined type is the primary diagnosis assessed and managed in this visit, as documented in assessment and plan.",
+    "evidence": [
+     {
+      "turn": 24,
+      "quote": "So, her ADHD combined type is responding well to the 27 milligrams",
+      "verified": true,
+      "score": 1.0
+     }
+    ],
+    "valid": true,
+    "billable": true,
+    "flags": [],
+    "accepted": null
+   },
+   {
+    "system": "ICD-10-CM",
+    "code": "R63.4",
+    "description": "Abnormal weight loss",
+    "rank": 2,
+    "rationale": "Abnormal weight loss is documented as a medication-related side effect being assessed and managed, with weight loss of 0.8 kg noted.",
+    "evidence": [
+     {
+      "turn": 24,
+      "quote": "the medicine is suppressing her appetite and she's lost some weight",
+      "verified": true,
+      "score": 1.0
+     },
+     {
+      "turn": 22,
+      "quote": "Her weight is 28.2 kilograms, and in August it was 29.0, so she's lost about 0.8 kilograms",
+      "verified": true,
+      "score": 0.83
+     }
+    ],
+    "valid": true,
+    "billable": true,
+    "flags": [],
+    "accepted": null
+   }
+  ],
+  "em": {
+   "system": "CPT",
+   "code": "99213",
+   "description": "Established patient office visit, low-complexity decision making",
+   "rank": 1,
+   "rationale": "Established patient with stable ADHD and weight loss side effect; low number of problems, minimal data reviewed (Vanderbilt forms, vitals), and low risk (medication continuation with monitoring).",
+   "evidence": [],
+   "valid": true,
+   "billable": true,
+   "flags": [],
+   "accepted": null
+  },
+  "procedures": [],
+  "mdm": {
+   "problems": "low",
+   "data": "low",
+   "risk": "moderate",
+   "level": "low",
+   "code": "99213",
+   "reasons": [
+    "problems: one stable chronic illness or two self-limited problems",
+    "data: limited (tests or an independent historian)",
+    "risk: prescription drug management"
+   ]
+  },
+  "section_status": {
+   "subjective": "draft",
+   "objective": "draft",
+   "assessment": "draft",
+   "plan": "draft"
+  },
+  "model": "openrouter/nvidia/nemotron-3-super-120b-a12b:free",
+  "created_at": "2026-10-14T02:20:21.035473Z",
+  "signed_by": null,
+  "signed_at": null,
+  "timings": {
+   "phi_masking": 0.026,
+   "llm_note": 29.81,
+   "guards_note": 0.057,
+   "llm_codes": 3.21,
+   "guards_codes": 0.039,
+   "total": 33.142,
+   "wall": 33.164
+  },
+  "usage": {
+   "model_ms": 33020,
+   "input_tokens": 5208,
+   "output_tokens": 3045,
+   "calls": 2
+  },
+  "phi": {
+   "NAME": 4,
+   "DOB": 1,
+   "DATE": 3,
+   "ORG": 1,
+   "ADDRESS": 1,
+   "PHONE": 1
+  }
+ },
+ "vault": {
+  "originals": {
+   "[PATIENT]": "Zainab",
+   "[DOB]": "February 14th, 2017",
+   "[NAME_1]": "Karim",
+   "[DATE_1]": "August",
+   "[ORG_1]": "Riverside Elementary",
+   "[NAME_2]": "Kowalski",
+   "[NAME_3]": "Omar",
+   "[ADDRESS_1]": "210 Kenwood Avenue",
+   "[DATE_2]": "Tuesday, November 24th",
+   "[DATE_3]": "November 24th",
+   "[PHONE_1]": "555 -0147"
+  },
+  "surfaces": {
+   "[PATIENT]": [
+    "Zainab"
+   ],
+   "[DOB]": [
+    "February 14th, 2017"
+   ],
+   "[NAME_1]": [
+    "Karim"
+   ],
+   "[DATE_1]": [
+    "August"
+   ],
+   "[ORG_1]": [
+    "Riverside Elementary"
+   ],
+   "[NAME_2]": [
+    "Kowalski"
+   ],
+   "[NAME_3]": [
+    "Omar"
+   ],
+   "[ADDRESS_1]": [
+    "210 Kenwood Avenue"
+   ],
+   "[DATE_2]": [
+    "Tuesday, November 24th"
+   ],
+   "[DATE_3]": [
+    "November 24th"
+   ],
+   "[PHONE_1]": [
+    "555 -0147"
+   ]
+  },
+  "types": {
+   "[PATIENT]": "NAME",
+   "[DOB]": "DOB",
+   "[NAME_1]": "NAME",
+   "[DATE_1]": "DATE",
+   "[ORG_1]": "ORG",
+   "[NAME_2]": "NAME",
+   "[NAME_3]": "NAME",
+   "[ADDRESS_1]": "ADDRESS",
+   "[DATE_2]": "DATE",
+   "[DATE_3]": "DATE",
+   "[PHONE_1]": "PHONE"
+  },
+  "counters": {
+   "NAME": 3,
+   "DATE": 3,
+   "ORG": 1,
+   "ADDRESS": 1,
+   "PHONE": 1
+  }
+ },
+ "score": {
+  "case": "pd-05",
+  "specialty": "pediatrics",
+  "facts": 25,
+  "found": 23,
+  "found_in_section": 22,
+  "negation_errors": [
+   "f11: Mild irritability after school as medication wears off, mood otherwise normal, not sad (present)"
+  ],
+  "trap_errors": [],
+  "missed": [
+   "f6 [subjective] Sleep onset delay of about 45 minutes",
+   "f11 [subjective] Mild irritability after school as medication wears off, mood otherwise normal, not sad"
+  ],
+  "statements": 38,
+  "statements_matching_gold": 31,
+  "unsupported": 0,
+  "partial": 3,
+  "flags": {
+   "negation": 4,
+   "partial_support": 3
+  },
+  "meds": 2,
+  "meds_found": 1,
+  "meds_dose_correct": 1,
+  "icd_primary": "F90.2",
+  "icd_suggested": [
+   "F90.2",
+   "R63.4"
+  ],
+  "icd_top1": true,
+  "icd_top3": true,
+  "icd_top3_lenient": true,
+  "icd_top3_category": true,
+  "icd_gold_recall": 0.6666666666666666,
+  "icd_invalid": 0,
+  "em_gold": "99214",
+  "em_suggested": "99213",
+  "em_exact": false,
+  "em_within_one": true,
+  "em_rule_estimate": "99213",
+  "procedures_gold": 1,
+  "procedures_found": 0
+ },
+ "egress_residue": {}
+}

@@ -270,14 +270,14 @@
   "meds_dose_correct": 3,
   "icd_primary": "E06.3",
   "icd_suggested": [
-   "E03.9",
+   "E03.3",
    "E78.2"
   ],
   "icd_top1": false,
   "icd_top3": false,
-  "icd_top3_lenient": true,
+  "icd_top3_lenient": false,
   "icd_top3_category": false,
-  "icd_gold_recall": 0.6666666666666666,
+  "icd_gold_recall": 0.3333333333333333,
   "icd_invalid": 0,
   "em_gold": "99204",
   "em_suggested": "99203",
@@ -904,23 +904,22 @@
   "case": "pd-03",
   "specialty": "pediatrics",
   "facts": 30,
-  "found": 29,
-  "found_in_section": 28,
+  "found": 30,
+  "found_in_section": 29,
   "negation_errors": [],
   "trap_errors": [],
-  "missed": [
-   "f2 [subjective] Stool withholding behavior"
-  ],
-  "statements": 40,
+  "missed": [],
+  "statements": 39,
   "statements_matching_gold": 34,
   "unsupported": 0,
-  "partial": 1,
+  "partial": 2,
   "flags": {
-   "partial_support": 1
+   "negation": 1,
+   "partial_support": 2
   },
   "meds": 3,
-  "meds_found": 3,
-  "meds_dose_correct": 3,
+  "meds_found": 2,
+  "meds_dose_correct": 2,
   "icd_primary": "Z00.121",
   "icd_suggested": [
    "K59.09"
@@ -937,7 +936,7 @@
   "em_within_one": true,
   "em_rule_estimate": "99213",
   "procedures_gold": 3,
-  "procedures_found": 1
+  "procedures_found": 0
  },
  {
   "case": "pd-04",
@@ -986,12 +985,12 @@
   "specialty": "pediatrics",
   "facts": 25,
   "found": 25,
-  "found_in_section": 23,
+  "found_in_section": 22,
   "negation_errors": [],
   "trap_errors": [],
   "missed": [],
-  "statements": 29,
-  "statements_matching_gold": 28,
+  "statements": 28,
+  "statements_matching_gold": 27,
   "unsupported": 0,
   "partial": 0,
   "flags": {},
@@ -1000,14 +999,13 @@
   "meds_dose_correct": 1,
   "icd_primary": "F90.2",
   "icd_suggested": [
-   "F90.2",
-   "R63.4"
+   "F90.2"
   ],
   "icd_top1": true,
   "icd_top3": true,
   "icd_top3_lenient": true,
   "icd_top3_category": true,
-  "icd_gold_recall": 0.6666666666666666,
+  "icd_gold_recall": 0.3333333333333333,
   "icd_invalid": 0,
   "em_gold": "99214",
   "em_suggested": "99213",
